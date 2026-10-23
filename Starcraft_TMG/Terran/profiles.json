@@ -1,0 +1,13 @@
+[
+  {
+    "Id": "prof_marine",
+    "Name": "Marine",
+    "Type": "Profile",
+    "BaseId": "base_marine",
+    "Children": [
+      {
+        "Id": "stat_marine"
+      }
+    ]
+  }
+]
