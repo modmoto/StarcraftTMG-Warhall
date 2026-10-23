@@ -1,0 +1,14 @@
+[
+  {
+    "Id": "unit_marine",
+    "Name": "Marine",
+    "Type": "Unit",
+    "Description": "",
+    "BasicProfileIds": [
+      "prof_marine"
+    ],
+    "Children": [],
+    "DefaultFront": 1,
+    "Formation": 0
+  }
+]
