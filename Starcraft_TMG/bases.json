@@ -1,0 +1,9 @@
+[
+  {
+    "Id": "base_marine",
+    "Name": "Marine (32x32mm Round)",
+    "Shape": 1,
+    "Width": 32,
+    "Length": 32
+  }
+]
