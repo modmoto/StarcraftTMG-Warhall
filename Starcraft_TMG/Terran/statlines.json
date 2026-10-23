@@ -1,0 +1,15 @@
+[
+  {
+    "Id": "stat_marine",
+    "Name": "Marine",
+    "Type": "Statline",
+    "Attributes": {
+      "S": "5"
+    },
+    "Children": [
+      {
+        "Id": "rule_shield"
+      }
+    ]
+  }
+]
