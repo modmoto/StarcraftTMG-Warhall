@@ -1,0 +1,37 @@
+[
+  {
+    "Name": "Acropolis",
+    "Items": [
+      {
+        "Id": "TokenWarhallPurple",
+        "Type": "Token",
+        "PosX": "15",
+        "PosY": "6"
+      },
+      {
+        "Id": "TokenWarhallPurple",
+        "Type": "Token",
+        "PosX": "-15",
+        "PosY": "-6"
+      },
+      {
+        "Id": "TokenWarhallBlue",
+        "Type": "Token",
+        "PosX": "15",
+        "PosY": "-6"
+      },
+      {
+        "Id": "TokenWarhallBlue",
+        "Type": "Token",
+        "PosX": "-15",
+        "PosY": "6"
+      },
+      {
+        "Id": "TokenWarhallBlack",
+        "Type": "Token",
+        "PosX": "0",
+        "PosY": "0"
+      }
+    ]
+  }
+]
