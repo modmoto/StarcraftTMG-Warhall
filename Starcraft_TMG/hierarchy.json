@@ -1,0 +1,9 @@
+{
+  "Factions": {
+    "Terran": {
+      "Terran": [
+        "unit_marine"
+      ]
+    }
+  }
+}
