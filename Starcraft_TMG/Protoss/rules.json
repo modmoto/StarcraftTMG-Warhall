@@ -1,0 +1,188 @@
+[
+  {
+    "Id": "pdf_Protoss_rule_adepts_default_0",
+    "Name": "Any Phase abilities",
+    "Type": "Rule",
+    "Description": "Rules (Any Phase)\nEffect: PSIONIC PRESENCE: PASSIVE All Weapons of Friendly Units targeting an Enemy Unit Within 4\" of this\nUnit's Shade token gain PRECISION (1) ."
+  },
+  {
+    "Id": "pdf_Protoss_rule_adepts_default_1",
+    "Name": "Movement Phase abilities",
+    "Type": "Rule",
+    "Description": "Rules (Movement Phase)\nEffect: PSIONIC TRANSFER: ACTIVE 1 PE Set a Shade token Wholly Within 12\" of any\nmodel in this Unit. At the End of the Round , the controlling player may set all models of this Unit in Coherency ,\ntreating the Shade token as the Leading Model . The Shade token has DISPLACEMENT ."
+  },
+  {
+    "Id": "pdf_Protoss_rule_artanis_default_0",
+    "Name": "Any Phase abilities",
+    "Type": "Rule",
+    "Description": "Rules (Any Phase)\nEffect: COMMANDER: PASSIVE Treat this Unit's Supply characteristic as increased by 1 for Controlling and\nContesting Mission Markers , completing objectives, and resolving Disengage checks."
+  },
+  {
+    "Id": "pdf_Protoss_rule_artanis_default_1",
+    "Name": "Movement Phase abilities",
+    "Type": "Rule",
+    "Description": "Rules (Movement Phase)\nEffect: PHASE PRISM: PASSIVE When Artanis is nominated to deploy from Reserves , it\nmay resolve the PLACE (0) effect from another Friendly Unit. That Friendly Unit is removed from the battlefield and\nreturned to Reserves . Artanis ' Activation ends."
+  },
+  {
+    "Id": "pdf_Protoss_rule_artanis_default_2",
+    "Name": "Assault Phase abilities",
+    "Type": "Rule",
+    "Description": "Rules (Assault Phase)\nEffect: LIGHTNING DASH:\nREACTION 1 PE After this Unit resolves a successful\nCharge action, it may declare a second Charge action\nagainst a different Enemy Unit, ignoring the restriction\non Charging while Engaged . The Devastating Charge\nability does not trigger a second time.\nHIERARCH'S STAND: REACTION 1 PE When another\nFriendly Unit Within 8\" is declared as the target of a\nRanged Attack and this Unit is a valid target, redirect the\nattack to this Unit. This Unit is eligible to make an Evade\nRoll against the redirected attack. This Special Ability\nremains active until the End of the current Activation .\nDEVASTATING CHARGE: PASSIVE Immediately after this Unit completes a successful Charge , resolve the IMPACT\n(6) 4+ effect."
+  },
+  {
+    "Id": "pdf_Protoss_rule_high_templar_default_0",
+    "Name": "Any Phase abilities",
+    "Type": "Rule",
+    "Description": "Rules (Any Phase)\nEffect: OUR MINDS AS ONE: PASSIVE While this Unit's Current Supply Value is 2 , it gains the following effects:\nThe first Special Ability resolved by this Unit each Round has its PE cost reduced by 1 (to a minimum of 0 ). Apply a +1\nModifier to the dice rolled for its Psionic Storm Special Ability ."
+  },
+  {
+    "Id": "pdf_Protoss_rule_high_templar_default_1",
+    "Name": "Movement Phase abilities",
+    "Type": "Rule",
+    "Description": "Rules (Movement Phase)\nEffect: FEEDBACK: ACTIVE 1 PE Target one Enemy Mechanical or Psionic Unit Within 8\" .\nUntil the End of the Round , after that Unit resolves an Active or Reaction Special Ability ( excluding abilities\ngranted by a Tactical Card or Faction Card ), it suffers NON-LETHAL DAMAGE (3) ."
+  },
+  {
+    "Id": "pdf_Protoss_rule_immortal_default_0",
+    "Name": "Any Phase abilities",
+    "Type": "Rule",
+    "Description": "Rules (Any Phase)\nEffect: IMPROVED BARRIER: REACTION 0 PE Use when this Unit is selected as the target of an attack. If this Unit\nhas the Shielded Status , the Damage characteristic of the attacking weapon is treated as a maximum of 1 for this attack."
+  },
+  {
+    "Id": "pdf_Protoss_rule_immortal_default_3",
+    "Name": "Assault Phase abilities",
+    "Type": "Rule",
+    "Description": "Rules (Assault Phase)\nEffect: INDOMITABLE: PASSIVE While Engaged , this Unit\nmay target and be targeted by Unengaged Enemy\nUnits. In both cases, the defending Unit gains an Evade\nRoll against those attacks.\nDEVASTATING CHARGE: PASSIVE Immediately after\nthis Unit completes a successful Charge , resolve the\nIMPACT (4) 3+ effect."
+  },
+  {
+    "Id": "pdf_Protoss_rule_nerazim_watchers_adept_default_0",
+    "Name": "Any Phase abilities",
+    "Type": "Rule",
+    "Description": "Rules (Any Phase)\nEffect: PATH OF SHADOWS: ACTIVE 1 PE This\nUnit gains HIDDEN Status until it performs another action.\nNERAZIM FARSIGHT: PASSIVE While Enemy Units\nare Within 6\" of this Unit's Shade token, they lose\nHIDDEN Status ."
+  },
+  {
+    "Id": "pdf_Protoss_rule_nerazim_watchers_adept_default_1",
+    "Name": "Movement Phase abilities",
+    "Type": "Rule",
+    "Description": "Rules (Movement Phase)\nEffect: PSIONIC TRANSFER: ACTIVE 1 PE Set a Shade token Wholly Within 12\" of any\nmodel in this Unit. At the End of the Round , the controlling player may set all models of this Unit in Coherency ,\ntreating the Shade token as the Leading Model . The Shade token has DISPLACEMENT ."
+  },
+  {
+    "Id": "pdf_Protoss_rule_praetor_guards_default_0",
+    "Name": "Any Phase abilities",
+    "Type": "Rule",
+    "Description": "Rules (Any Phase)\nEffect: SHIELD OVERCHARGE: PASSIVE This Unit gains TOUGH (2) on the first Armour Roll each Round."
+  },
+  {
+    "Id": "pdf_Protoss_rule_praetor_guards_default_1",
+    "Name": "Movement Phase abilities",
+    "Type": "Rule",
+    "Description": "Rules (Movement Phase)\nEffect: LEG ENHANCEMENTS: ACTIVE 1 PE This Unit performs a 2\" Move action. This does\nnot count towards its action limit."
+  },
+  {
+    "Id": "pdf_Protoss_rule_praetor_guards_default_2",
+    "Name": "Assault Phase abilities",
+    "Type": "Rule",
+    "Description": "Rules (Assault Phase)\nEffect: CHARGE: ACTIVE 1 PE\nWhen determining Charge Distance for this Unit, roll\n2D6 instead of D6 and use the higher result to add to\nthe Unit's Speed characteristic.\nDEVASTATING CHARGE: PASSIVE Immediately after\nthis Unit completes a successful Charge , resolve the\nIMPACT (3) 4+ effect."
+  },
+  {
+    "Id": "pdf_Protoss_rule_praetor_guards_default_4",
+    "Name": "Combat Phase abilities",
+    "Type": "Rule",
+    "Description": "Rules (Combat Phase)\nEffect: TITAN KILLERS: PASSIVE When this Unit makes a Close\nCombat Attack , and the target is Size 3 or larger, the\nweapon's Damage characteristic is treated as 2 .\nPRECOGNITION: PASSIVE This Unit is eligible to make\nan Evade roll against all attacks targeting it."
+  },
+  {
+    "Id": "pdf_Protoss_rule_pylon_default_0",
+    "Name": "Any Phase abilities",
+    "Type": "Rule",
+    "Description": "Rules (Any Phase)\nEffect: KHALAI INGENUITY: PASSIVE Once per\nRound , when a Friendly Unit Within 4\" of this Pylon uses\na Special Ability that costs Psionic Energy , that ability's\nPE cost is reduced by 1 .\nSTRUCTURE: PASSIVE This Unit cannot be Activated\nin any Phase and cannot perform actions. Additionally,\nits Current Supply Value is treated as 0 , and it can\nnever Control or Contest Mission Markers , ignoring the\nstandard Zero Supply Exception . This Unit cannot be\na target of an ability, unless stated otherwise."
+  },
+  {
+    "Id": "pdf_Protoss_rule_pylon_default_1",
+    "Name": "Movement Phase abilities",
+    "Type": "Rule",
+    "Description": "Rules (Movement Phase)\nEffect: WARP CONDUIT: PASSIVE Once per Round , the controlling player may deploy\na Ground Unit from Reserves using this Pylon base as the Entry Edge . This Unit's Activation ends."
+  },
+  {
+    "Id": "pdf_Protoss_rule_sentries_default_0",
+    "Name": "Any Phase abilities",
+    "Type": "Rule",
+    "Description": "Rules (Any Phase)\nEffect: RESTORATION: REACTION 1 PE Use when a Friendly Unit Within 4\" receives a DEBUFF . Remove\nall DEBUFFS from it."
+  },
+  {
+    "Id": "pdf_Protoss_rule_sentries_default_1",
+    "Name": "Movement Phase abilities",
+    "Type": "Rule",
+    "Description": "Rules (Movement Phase)\nEffect: GUARDIAN SHIELD:\nACTIVE 1 PE All Ranged Attacks targeting a Friendly\nUnit Within 4\" ( Line of Sight is not required) are made\nwith 1 fewer die in the Attack Pool .\nFORCE FIELD: ACTIVE 1 PE Set a Force Field token\nWithin 8\" in an unoccupied space. Units of Size 2 or\nlower cannot move across Force Fields . Models of Size\n3 or more can move over it, and it's then removed."
+  },
+  {
+    "Id": "pdf_Protoss_rule_stalker_default_0",
+    "Name": "Any Phase abilities",
+    "Type": "Rule",
+    "Description": "Rules (Any Phase)\nEffect: SQUADRON: PASSIVE This Unit's Horizontal Coherency is 4\" ."
+  },
+  {
+    "Id": "pdf_Protoss_rule_stalker_default_1",
+    "Name": "Movement Phase abilities",
+    "Type": "Rule",
+    "Description": "Rules (Movement Phase)\nEffect: BLINK: ACTIVE 1 PE Resolve the PLACE (6) effect. Models set by this effect cannot\nbe set up Within the Engagement Range of any Enemy Unit."
+  },
+  {
+    "Id": "pdf_Protoss_rule_tassadar_default_0",
+    "Name": "Any Phase abilities",
+    "Type": "Rule",
+    "Description": "Rules (Any Phase)\nEffect: COMMANDER: PASSIVE Treat this Unit's Supply characteristic as increased by 1 for Controlling and\nContesting Mission Markers , completing objectives, and resolving Disengage checks."
+  },
+  {
+    "Id": "pdf_Protoss_rule_tassadar_default_1",
+    "Name": "Movement Phase abilities",
+    "Type": "Rule",
+    "Description": "Rules (Movement Phase)\nEffect: FORCE WALL:\nACTIVE 1 PE Set two Force Wall tokens Wholly Within\n8\" in an unoccupied space. Units of Size 2 or lower cannot\nmove across the Force Wall . Models of Size 3 or more can\nmove over it, and it's then removed.\nKHALA'S GIFT: ACTIVE 0 PE Target another Friendly\nBiological Unit Within 12\" . Until the End of the\nRound , that Unit resolves its first Special Ability with\nthe cost reduced by 1 (to a minimum of 0 ).\nEXECUTOR'S WILL: ACTIVE 1 PE Target two Enemy\nUnits on the battlefield ( Line of Sight is not required)\nand place a Faction Indicator next to each of them.\nDuring the next Assault Phase , if either of these Units\nends its Activation while its Faction Indicator remains\non the battlefield, you may Activate two Friendly\nUnits consecutively. Remove both Faction Indicators\nafter any Enemy Unit completes its Activation in the\nfollowing Assault Phase ."
+  },
+  {
+    "Id": "pdf_Protoss_rule_tassadar_default_3",
+    "Name": "Assault Phase abilities",
+    "Type": "Rule",
+    "Description": "Rules (Assault Phase)\nEffect: PSI LIGHTNING : ACTIVE 0 PE Each Unit Within 2\" of one or more Friendly Force Wall tokens suffers 1 Damage .\nTELEKINETIC PUSH: ACTIVE 1 PE Set each Friendly Force Wall token Wholly Within 6\" of its current position."
+  },
+  {
+    "Id": "pdf_Protoss_rule_twilight_templar_high_templar_default_0",
+    "Name": "Any Phase abilities",
+    "Type": "Rule",
+    "Description": "Rules (Any Phase)\nEffect: BOUND BY THE KHALA: REACTION 0 PE Use when the Current Supply Value of another Friendly Unit\nWithin 8\" of this Unit is reduced. Return one Non-Unique Exhausted Tactical Card to the Ready state."
+  },
+  {
+    "Id": "pdf_Protoss_rule_twilight_templar_high_templar_default_1",
+    "Name": "Movement Phase abilities",
+    "Type": "Rule",
+    "Description": "Rules (Movement Phase)\nEffect: PSIONIC GALE: ACTIVE 2 PE Set a Psionic Storm token Within 10\" and Line of\nSight of this Unit. This token is not removed if this Unit is Destroyed . At the End of each Phase , set a Psionic\nStorm Blast Template on the centre of this token. For each Unit that has at least one model whose base is partially\ncovered by the template, roll 3 dice, plus 1 additional die for each model in that Unit whose base is partially\ncovered. For each result of 4+ , that Unit suffers an effect depending on the current Phase :\n‣ Movement Phase: NON-LETHAL DAMAGE (1) .\n‣ Assault Phase : 1 Damage .\nIf multiple effects trigger at the End of the Assault Phase , resolve them in the order specified in Part 8.9.4.\nFEEDBACK: ACTIVE 1 PE Target one Enemy Mechanical or Psionic Unit Within 8\" . Until the End of the Round , after\nthat Unit resolves an Active or Reaction Special Ability ( excluding abilities granted by a Tactical Card or Faction Card ),\nit suffers NON-LETHAL DAMAGE (3) .\nWARP-IN: ACTIVE 1 PE Resolve the PLACE (6) effect."
+  },
+  {
+    "Id": "pdf_Protoss_rule_zealots_default_0",
+    "Name": "Assault Phase abilities",
+    "Type": "Rule",
+    "Description": "Rules (Assault Phase)\nEffect: CHARGE: ACTIVE 1 PE When\ndetermining Charge Distance for this Unit, roll 2D6\ninstead of D6 and use the higher result to add to the\nUnit's Speed characteristic.\nDEVASTATING CHARGE: PASSIVE Immediately after\nthis Unit completes a successful Charge , resolve the\nIMPACT (3) 4+ effect."
+  },
+  {
+    "Id": "pdf_Protoss_rule_zeratul_default_0",
+    "Name": "Any Phase abilities",
+    "Type": "Rule",
+    "Description": "Rules (Any Phase)\nEffect: ONE WITH THE SHADOWS: PASSIVE\nAfter this Unit fully resolves an Action , it gains the\nHIDDEN Status .\nPROPHETIC VISION: REACTION 1 PE REPEATABLE . Use\nwhen this Unit is selected as the target of an attack. This Unit's\nEvade characteristic is treated as 4+ against this attack and\ncannot be modified."
+  },
+  {
+    "Id": "pdf_Protoss_rule_zeratul_default_1",
+    "Name": "Movement Phase abilities",
+    "Type": "Rule",
+    "Description": "Rules (Movement Phase)\nEffect: SENTENCED TO DEATH:\nACTIVE 1 PE Target Enemy Unit on the battlefield.\nWhenever Zeratul makes a Close Combat Attack targeting\nthe selected Unit, its weapon gains CRITICAL HIT (2) .\nVOID PRISON: ACTIVE 1 PE Set a Faction Indicator\non the battlefield Within 8\" of this Unit. While Enemy\nUnits are Within 2\" of this Faction Indicator they suffer\nDEBUFF Speed (2) ."
+  },
+  {
+    "Id": "pdf_Protoss_rule_zeratul_default_2",
+    "Name": "Assault Phase abilities",
+    "Type": "Rule",
+    "Description": "Rules (Assault Phase)\nEffect: VOID BLINK: ACTIVE 1 PE\nIf Unengaged , resolve the PLACE (6) effect.\nDEVASTATING CHARGE: PASSIVE Immediately after\nthis Unit completes a successful Charge , resolve the\nIMPACT (4) 4+ effect."
+  },
+  {
+    "Id": "pdf_Protoss_rule_zeratul_default_4",
+    "Name": "Combat Phase abilities",
+    "Type": "Rule",
+    "Description": "Rules (Combat Phase)\nEffect: SHADOW STRIKE: ACTIVE 1 PE All Enemy Units Engaged with this Unit suffer HITS 4 (1) ."
+  }
+]

@@ -1,0 +1,62 @@
+{
+  "defaultDiameterMm": 32,
+  "heroDiameterMm": 40,
+  "units": {
+    "Terran": {
+      "Marines": 32,
+      "Marauders": 50,
+      "Jim Raynor": 40,
+      "Goliath": 80,
+      "Medics": 32,
+      "Point Defense Drone": 32,
+      "Raynor's Raiders": 32,
+      "Siege Tank": 150,
+      "Nova Stealth Mode": 40,
+      "Nova Assault Mode": 40,
+      "Holo Decoy": 32,
+      "Sabotage Drone": 40,
+      "Spec Ops Marauder (Marauder)": 50,
+      "Auto-Turret": 40,
+      "Raven": 100
+    },
+    "Protoss": {
+      "Adepts": 40,
+      "Artanis": 40,
+      "Praetor Guards": 40,
+      "Pylon": 80,
+      "Sentries": 50,
+      "Stalker": 80,
+      "Zealots": 40,
+      "Nerazim Watchers (Adept)": 40,
+      "Immortal": 100,
+      "Zeratul": 40,
+      "Tassadar": 40,
+      "Twilight Templar (High Templar)": 40,
+      "High Templar": 40
+    },
+    "Zerg": {
+      "Corpsers (Roach)": 50,
+      "Hydralisks": {
+        "shape": "oval",
+        "widthMm": 40,
+        "lengthMm": 100
+      },
+      "Kerrigan": 40,
+      "Kerrigan Swarm Raptors (Zergling)": 32,
+      "Omega Worm": 80,
+      "Queen": 80,
+      "Raptors (Zergling)": 32,
+      "Roaches": 50,
+      "Roachling": 32,
+      "Swarmlings": 32,
+      "Viles (Roach)": 50,
+      "Zerglings": 32,
+      "Ravagers": 80,
+      "Zagara": 100,
+      "Defiler": 80,
+      "Vileling (Zergling)": 32,
+      "Bile Launcher": 100
+    }
+  },
+  "flightStandDiameterMm": 100
+}

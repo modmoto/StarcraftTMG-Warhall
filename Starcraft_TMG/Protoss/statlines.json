@@ -1,0 +1,197 @@
+[
+  {
+    "Id": "pdf_Protoss_stat_adepts",
+    "Name": "Adepts",
+    "Type": "Statline",
+    "Attributes": {
+      "Spd": "5/8",
+      "Arm": "5+",
+      "Eva": "5+",
+      "HP": "3",
+      "Size": "2",
+      "Shd": "2",
+      "Supply": "1-2: 0 | 3-4: 1"
+    },
+    "Children": []
+  },
+  {
+    "Id": "pdf_Protoss_stat_artanis",
+    "Name": "Artanis",
+    "Type": "Statline",
+    "Attributes": {
+      "Spd": "7",
+      "Arm": "4+",
+      "Eva": "5+",
+      "HP": "8",
+      "Size": "2",
+      "Shd": "4",
+      "Supply": "1-1: 1"
+    },
+    "Children": []
+  },
+  {
+    "Id": "pdf_Protoss_stat_high_templar",
+    "Name": "High Templar",
+    "Type": "Statline",
+    "Attributes": {
+      "Spd": "4/7",
+      "Arm": "5+",
+      "Eva": "6+",
+      "HP": "3",
+      "Size": "2",
+      "Shd": "3",
+      "Supply": "1-1: 0 | 2-2: 1 | 3-4: 2"
+    },
+    "Children": []
+  },
+  {
+    "Id": "pdf_Protoss_stat_immortal",
+    "Name": "Immortal",
+    "Type": "Statline",
+    "Attributes": {
+      "Spd": "7",
+      "Arm": "4+",
+      "Eva": "-",
+      "HP": "8",
+      "Size": "3",
+      "Shd": "6",
+      "Supply": "1-1: 2"
+    },
+    "Children": []
+  },
+  {
+    "Id": "pdf_Protoss_stat_nerazim_watchers_adept",
+    "Name": "Nerazim Watchers (Adept)",
+    "Type": "Statline",
+    "Attributes": {
+      "Spd": "5/8",
+      "Arm": "5+",
+      "Eva": "5+",
+      "HP": "3",
+      "Size": "2",
+      "Shd": "2",
+      "Supply": "1-2: 0 | 3-4: 1"
+    },
+    "Children": []
+  },
+  {
+    "Id": "pdf_Protoss_stat_praetor_guards",
+    "Name": "Praetor Guards",
+    "Type": "Statline",
+    "Attributes": {
+      "Spd": "4/7",
+      "Arm": "5+",
+      "Eva": "5+",
+      "HP": "4",
+      "Size": "2",
+      "Shd": "3",
+      "Supply": "1-1: 1 | 2-3: 2"
+    },
+    "Children": []
+  },
+  {
+    "Id": "pdf_Protoss_stat_pylon",
+    "Name": "Pylon",
+    "Type": "Statline",
+    "Attributes": {
+      "Spd": "-",
+      "Arm": "5+",
+      "Eva": "-",
+      "HP": "8",
+      "Size": "3",
+      "Shd": "2",
+      "Supply": "1-1: 0"
+    },
+    "Children": []
+  },
+  {
+    "Id": "pdf_Protoss_stat_sentries",
+    "Name": "Sentries",
+    "Type": "Statline",
+    "Attributes": {
+      "Spd": "4/7",
+      "Arm": "5+",
+      "Eva": "6+",
+      "HP": "4",
+      "Size": "1",
+      "Shd": "2",
+      "Supply": "1-1: 0 | 2-2: 1"
+    },
+    "Children": []
+  },
+  {
+    "Id": "pdf_Protoss_stat_stalker",
+    "Name": "Stalker",
+    "Type": "Statline",
+    "Attributes": {
+      "Spd": "4/8",
+      "Arm": "4+",
+      "Eva": "6+",
+      "HP": "6",
+      "Size": "3",
+      "Shd": "3",
+      "Supply": "1-1: 1 | 2-2: 2"
+    },
+    "Children": []
+  },
+  {
+    "Id": "pdf_Protoss_stat_tassadar",
+    "Name": "Tassadar",
+    "Type": "Statline",
+    "Attributes": {
+      "Spd": "7",
+      "Arm": "5+",
+      "Eva": "5+",
+      "HP": "6",
+      "Size": "2",
+      "Shd": "3",
+      "Supply": "1-1: 1"
+    },
+    "Children": []
+  },
+  {
+    "Id": "pdf_Protoss_stat_twilight_templar_high_templar",
+    "Name": "Twilight Templar (High Templar)",
+    "Type": "Statline",
+    "Attributes": {
+      "Spd": "4/7",
+      "Arm": "5+",
+      "Eva": "6+",
+      "HP": "3",
+      "Size": "2",
+      "Shd": "3",
+      "Supply": "1-1: 0 | 2-2: 1"
+    },
+    "Children": []
+  },
+  {
+    "Id": "pdf_Protoss_stat_zealots",
+    "Name": "Zealots",
+    "Type": "Statline",
+    "Attributes": {
+      "Spd": "4/7",
+      "Arm": "5+",
+      "Eva": "5+",
+      "HP": "4",
+      "Size": "2",
+      "Shd": "3",
+      "Supply": "1-1: 1 | 2-3: 2"
+    },
+    "Children": []
+  },
+  {
+    "Id": "pdf_Protoss_stat_zeratul",
+    "Name": "Zeratul",
+    "Type": "Statline",
+    "Attributes": {
+      "Spd": "7",
+      "Arm": "5+",
+      "Eva": "5+",
+      "HP": "5",
+      "Size": "2",
+      "Shd": "3",
+      "Supply": "1-1: 1"
+    },
+    "Children": []
+  }
+]

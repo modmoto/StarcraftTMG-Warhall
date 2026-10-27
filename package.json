@@ -1,0 +1,22 @@
+{
+  "name": "starcraft-warhall-data",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "convert": "node scripts/convert.mjs",
+    "validate": "node scripts/validate.mjs",
+    "test": "node --test",
+    "format": "prettier --write \"scripts/**/*.mjs\" \"src/**/*.mjs\" \"test/*.mjs\" package.json .prettierrc.json",
+    "format:check": "prettier --check \"scripts/**/*.mjs\" \"src/**/*.mjs\" \"test/*.mjs\" package.json .prettierrc.json"
+  },
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "dependencies": {
+    "fast-xml-parser": "5.11.2",
+    "pdfjs-dist": "6.4.299"
+  },
+  "devDependencies": {
+    "prettier": "3.9.10"
+  }
+}

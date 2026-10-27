@@ -1,0 +1,724 @@
+{
+  "checkedOn": "2026-10-27",
+  "units": [
+    {
+      "faction": "Protoss",
+      "unit": "Adepts",
+      "source": "https://archon-studio.com/files/manuals/sc/StarCraft-Protoss-P2P-Card-Sheets-A4_EN.pdf",
+      "page": 1,
+      "officialFootprint": {
+        "shape": "round",
+        "widthMm": 40,
+        "lengthMm": 40
+      },
+      "appliedFootprint": {
+        "shape": "round",
+        "widthMm": 40,
+        "lengthMm": 40
+      }
+    },
+    {
+      "faction": "Protoss",
+      "unit": "Artanis",
+      "source": "https://archon-studio.com/files/manuals/sc/StarCraft-Protoss-P2P-Card-Sheets-A4_EN.pdf",
+      "page": 2,
+      "officialFootprint": {
+        "shape": "round",
+        "widthMm": 40,
+        "lengthMm": 40
+      },
+      "appliedFootprint": {
+        "shape": "round",
+        "widthMm": 40,
+        "lengthMm": 40
+      }
+    },
+    {
+      "faction": "Protoss",
+      "unit": "Praetor Guards",
+      "source": "https://archon-studio.com/files/manuals/sc/StarCraft-Protoss-P2P-Card-Sheets-A4_EN.pdf",
+      "page": 3,
+      "officialFootprint": {
+        "shape": "round",
+        "widthMm": 40,
+        "lengthMm": 40
+      },
+      "appliedFootprint": {
+        "shape": "round",
+        "widthMm": 40,
+        "lengthMm": 40
+      }
+    },
+    {
+      "faction": "Protoss",
+      "unit": "Pylon",
+      "source": "https://archon-studio.com/files/manuals/sc/StarCraft-Protoss-P2P-Card-Sheets-A4_EN.pdf",
+      "page": 4,
+      "officialFootprint": {
+        "shape": "round",
+        "widthMm": 80,
+        "lengthMm": 80
+      },
+      "appliedFootprint": {
+        "shape": "round",
+        "widthMm": 80,
+        "lengthMm": 80
+      }
+    },
+    {
+      "faction": "Protoss",
+      "unit": "Sentries",
+      "source": "https://archon-studio.com/files/manuals/sc/StarCraft-Protoss-P2P-Card-Sheets-A4_EN.pdf",
+      "page": 5,
+      "officialFootprint": {
+        "shape": "round",
+        "widthMm": 50,
+        "lengthMm": 50
+      },
+      "appliedFootprint": {
+        "shape": "round",
+        "widthMm": 50,
+        "lengthMm": 50
+      }
+    },
+    {
+      "faction": "Protoss",
+      "unit": "Stalker",
+      "source": "https://archon-studio.com/files/manuals/sc/StarCraft-Protoss-P2P-Card-Sheets-A4_EN.pdf",
+      "page": 6,
+      "officialFootprint": {
+        "shape": "round",
+        "widthMm": 80,
+        "lengthMm": 80
+      },
+      "appliedFootprint": {
+        "shape": "round",
+        "widthMm": 80,
+        "lengthMm": 80
+      }
+    },
+    {
+      "faction": "Protoss",
+      "unit": "Zealots",
+      "source": "https://archon-studio.com/files/manuals/sc/StarCraft-Protoss-P2P-Card-Sheets-A4_EN.pdf",
+      "page": 7,
+      "officialFootprint": {
+        "shape": "round",
+        "widthMm": 40,
+        "lengthMm": 40
+      },
+      "appliedFootprint": {
+        "shape": "round",
+        "widthMm": 40,
+        "lengthMm": 40
+      }
+    },
+    {
+      "faction": "Protoss",
+      "unit": "Immortal",
+      "source": "https://archon-studio.com/files/manuals/sc/StarCraft-Protoss-P2P-W2-Card-Sheets-A4_EN.pdf",
+      "page": 1,
+      "officialFootprint": {
+        "shape": "round",
+        "widthMm": 100,
+        "lengthMm": 100
+      },
+      "appliedFootprint": {
+        "shape": "round",
+        "widthMm": 100,
+        "lengthMm": 100
+      }
+    },
+    {
+      "faction": "Protoss",
+      "unit": "Zeratul",
+      "source": "https://archon-studio.com/files/manuals/sc/StarCraft-Protoss-P2P-W2-Card-Sheets-A4_EN.pdf",
+      "page": 2,
+      "officialFootprint": {
+        "shape": "round",
+        "widthMm": 40,
+        "lengthMm": 40
+      },
+      "appliedFootprint": {
+        "shape": "round",
+        "widthMm": 40,
+        "lengthMm": 40
+      }
+    },
+    {
+      "faction": "Protoss",
+      "unit": "Nerazim Watchers (Adept)",
+      "source": "https://archon-studio.com/files/manuals/sc/StarCraft-Protoss-P2P-W2-Card-Sheets-A4_EN.pdf",
+      "page": 3,
+      "officialFootprint": {
+        "shape": "round",
+        "widthMm": 40,
+        "lengthMm": 40
+      },
+      "appliedFootprint": {
+        "shape": "round",
+        "widthMm": 40,
+        "lengthMm": 40
+      }
+    },
+    {
+      "faction": "Protoss",
+      "unit": "Tassadar",
+      "source": "https://archon-studio.com/files/manuals/sc/StarCraft-Protoss-P2P-W3-Card-Sheets-A4_EN.pdf",
+      "page": 1,
+      "officialFootprint": {
+        "shape": "round",
+        "widthMm": 40,
+        "lengthMm": 40
+      },
+      "appliedFootprint": {
+        "shape": "round",
+        "widthMm": 40,
+        "lengthMm": 40
+      }
+    },
+    {
+      "faction": "Protoss",
+      "unit": "Twilight Templar (High Templar)",
+      "source": "https://archon-studio.com/files/manuals/sc/StarCraft-Protoss-P2P-W3-Card-Sheets-A4_EN.pdf",
+      "page": 2,
+      "officialFootprint": {
+        "shape": "round",
+        "widthMm": 40,
+        "lengthMm": 40
+      },
+      "appliedFootprint": {
+        "shape": "round",
+        "widthMm": 40,
+        "lengthMm": 40
+      }
+    },
+    {
+      "faction": "Protoss",
+      "unit": "High Templar",
+      "source": "https://archon-studio.com/files/manuals/sc/StarCraft-Protoss-P2P-W3-Card-Sheets-A4_EN.pdf",
+      "page": 3,
+      "officialFootprint": {
+        "shape": "round",
+        "widthMm": 40,
+        "lengthMm": 40
+      },
+      "appliedFootprint": {
+        "shape": "round",
+        "widthMm": 40,
+        "lengthMm": 40
+      }
+    },
+    {
+      "faction": "Terran",
+      "unit": "Marines",
+      "source": "https://archon-studio.com/files/manuals/sc/StarCraft-Terran-P2P-Card-Sheets-A4_EN.pdf",
+      "page": 1,
+      "officialFootprint": {
+        "shape": "round",
+        "widthMm": 32,
+        "lengthMm": 32
+      },
+      "appliedFootprint": {
+        "shape": "round",
+        "widthMm": 32,
+        "lengthMm": 32
+      }
+    },
+    {
+      "faction": "Terran",
+      "unit": "Marauders",
+      "source": "https://archon-studio.com/files/manuals/sc/StarCraft-Terran-P2P-Card-Sheets-A4_EN.pdf",
+      "page": 2,
+      "officialFootprint": {
+        "shape": "round",
+        "widthMm": 50,
+        "lengthMm": 50
+      },
+      "appliedFootprint": {
+        "shape": "round",
+        "widthMm": 50,
+        "lengthMm": 50
+      }
+    },
+    {
+      "faction": "Terran",
+      "unit": "Medics",
+      "source": "https://archon-studio.com/files/manuals/sc/StarCraft-Terran-P2P-Card-Sheets-A4_EN.pdf",
+      "page": 3,
+      "officialFootprint": {
+        "shape": "round",
+        "widthMm": 32,
+        "lengthMm": 32
+      },
+      "appliedFootprint": {
+        "shape": "round",
+        "widthMm": 32,
+        "lengthMm": 32
+      }
+    },
+    {
+      "faction": "Terran",
+      "unit": "Jim Raynor",
+      "source": "https://archon-studio.com/files/manuals/sc/StarCraft-Terran-P2P-Card-Sheets-A4_EN.pdf",
+      "page": 4,
+      "officialFootprint": {
+        "shape": "round",
+        "widthMm": 40,
+        "lengthMm": 40
+      },
+      "appliedFootprint": {
+        "shape": "round",
+        "widthMm": 40,
+        "lengthMm": 40
+      }
+    },
+    {
+      "faction": "Terran",
+      "unit": "Point Defense Drone",
+      "source": "https://archon-studio.com/files/manuals/sc/StarCraft-Terran-P2P-Card-Sheets-A4_EN.pdf",
+      "page": 5,
+      "officialFootprint": {
+        "shape": "round",
+        "widthMm": 32,
+        "lengthMm": 32
+      },
+      "appliedFootprint": {
+        "shape": "round",
+        "widthMm": 32,
+        "lengthMm": 32
+      }
+    },
+    {
+      "faction": "Terran",
+      "unit": "Raynor's Raiders",
+      "source": "https://archon-studio.com/files/manuals/sc/StarCraft-Terran-P2P-Card-Sheets-A4_EN.pdf",
+      "page": 6,
+      "officialFootprint": {
+        "shape": "round",
+        "widthMm": 32,
+        "lengthMm": 32
+      },
+      "appliedFootprint": {
+        "shape": "round",
+        "widthMm": 32,
+        "lengthMm": 32
+      }
+    },
+    {
+      "faction": "Terran",
+      "unit": "Goliath",
+      "source": "https://archon-studio.com/files/manuals/sc/StarCraft-Terran-P2P-Card-Sheets-A4_EN.pdf",
+      "page": 7,
+      "officialFootprint": {
+        "shape": "round",
+        "widthMm": 80,
+        "lengthMm": 80
+      },
+      "appliedFootprint": {
+        "shape": "round",
+        "widthMm": 80,
+        "lengthMm": 80
+      }
+    },
+    {
+      "faction": "Terran",
+      "unit": "Siege Tank",
+      "source": "https://archon-studio.com/files/manuals/sc/StarCraft-Terran-P2P-W2-Card-Sheets-A4_EN.pdf",
+      "page": 1,
+      "officialFootprint": {
+        "shape": "round",
+        "widthMm": 150,
+        "lengthMm": 150
+      },
+      "appliedFootprint": {
+        "shape": "round",
+        "widthMm": 150,
+        "lengthMm": 150
+      }
+    },
+    {
+      "faction": "Terran",
+      "unit": "Nova Stealth Mode",
+      "source": "https://archon-studio.com/files/manuals/sc/StarCraft-Terran-P2P-W3-Card-Sheets-A4_EN.pdf",
+      "page": 1,
+      "officialFootprint": {
+        "shape": "round",
+        "widthMm": 40,
+        "lengthMm": 40
+      },
+      "appliedFootprint": {
+        "shape": "round",
+        "widthMm": 40,
+        "lengthMm": 40
+      }
+    },
+    {
+      "faction": "Terran",
+      "unit": "Nova Assault Mode",
+      "source": "https://archon-studio.com/files/manuals/sc/StarCraft-Terran-P2P-W3-Card-Sheets-A4_EN.pdf",
+      "page": 2,
+      "officialFootprint": {
+        "shape": "round",
+        "widthMm": 40,
+        "lengthMm": 40
+      },
+      "appliedFootprint": {
+        "shape": "round",
+        "widthMm": 40,
+        "lengthMm": 40
+      }
+    },
+    {
+      "faction": "Terran",
+      "unit": "Holo Decoy",
+      "source": "https://archon-studio.com/files/manuals/sc/StarCraft-Terran-P2P-W3-Card-Sheets-A4_EN.pdf",
+      "page": 3,
+      "officialFootprint": {
+        "shape": "round",
+        "widthMm": 32,
+        "lengthMm": 32
+      },
+      "appliedFootprint": {
+        "shape": "round",
+        "widthMm": 32,
+        "lengthMm": 32
+      }
+    },
+    {
+      "faction": "Terran",
+      "unit": "Sabotage Drone",
+      "source": "https://archon-studio.com/files/manuals/sc/StarCraft-Terran-P2P-W3-Card-Sheets-A4_EN.pdf",
+      "page": 4,
+      "officialFootprint": {
+        "shape": "round",
+        "widthMm": 40,
+        "lengthMm": 40
+      },
+      "appliedFootprint": {
+        "shape": "round",
+        "widthMm": 40,
+        "lengthMm": 40
+      }
+    },
+    {
+      "faction": "Terran",
+      "unit": "Spec Ops Marauder (Marauder)",
+      "source": "https://archon-studio.com/files/manuals/sc/StarCraft-Terran-P2P-W3-Card-Sheets-A4_EN.pdf",
+      "page": 5,
+      "officialFootprint": {
+        "shape": "round",
+        "widthMm": 50,
+        "lengthMm": 50
+      },
+      "appliedFootprint": {
+        "shape": "round",
+        "widthMm": 50,
+        "lengthMm": 50
+      }
+    },
+    {
+      "faction": "Terran",
+      "unit": "Raven",
+      "source": "https://archon-studio.com/files/manuals/sc/StarCraft-Terran-P2P-W3-Card-Sheets-A4_EN.pdf",
+      "page": 6,
+      "officialFootprint": {
+        "label": "FLIGHT STAND"
+      },
+      "appliedFootprint": {
+        "shape": "round",
+        "widthMm": 100,
+        "lengthMm": 100
+      },
+      "note": "Provisional flight stand size: 100 mm round, supplied by user; card does not specify a diameter."
+    },
+    {
+      "faction": "Terran",
+      "unit": "Auto-Turret",
+      "source": "https://archon-studio.com/files/manuals/sc/StarCraft-Terran-P2P-W3-Card-Sheets-A4_EN.pdf",
+      "page": 7,
+      "officialFootprint": {
+        "shape": "round",
+        "widthMm": 40,
+        "lengthMm": 40
+      },
+      "appliedFootprint": {
+        "shape": "round",
+        "widthMm": 40,
+        "lengthMm": 40
+      }
+    },
+    {
+      "faction": "Zerg",
+      "unit": "Hydralisks",
+      "source": "https://archon-studio.com/files/manuals/sc/StarCraft-Zerg-P2P-Card-Sheets-A4_EN.pdf",
+      "page": 1,
+      "officialFootprint": {
+        "shape": "oval",
+        "widthMm": 40,
+        "lengthMm": 100
+      },
+      "appliedFootprint": {
+        "shape": "oval",
+        "widthMm": 40,
+        "lengthMm": 100
+      }
+    },
+    {
+      "faction": "Zerg",
+      "unit": "Kerrigan",
+      "source": "https://archon-studio.com/files/manuals/sc/StarCraft-Zerg-P2P-Card-Sheets-A4_EN.pdf",
+      "page": 2,
+      "officialFootprint": {
+        "shape": "round",
+        "widthMm": 40,
+        "lengthMm": 40
+      },
+      "appliedFootprint": {
+        "shape": "round",
+        "widthMm": 40,
+        "lengthMm": 40
+      }
+    },
+    {
+      "faction": "Zerg",
+      "unit": "Omega Worm",
+      "source": "https://archon-studio.com/files/manuals/sc/StarCraft-Zerg-P2P-Card-Sheets-A4_EN.pdf",
+      "page": 3,
+      "officialFootprint": {
+        "shape": "round",
+        "widthMm": 80,
+        "lengthMm": 80
+      },
+      "appliedFootprint": {
+        "shape": "round",
+        "widthMm": 80,
+        "lengthMm": 80
+      }
+    },
+    {
+      "faction": "Zerg",
+      "unit": "Kerrigan Swarm Raptors (Zergling)",
+      "source": "https://archon-studio.com/files/manuals/sc/StarCraft-Zerg-P2P-Card-Sheets-A4_EN.pdf",
+      "page": 4,
+      "officialFootprint": {
+        "shape": "round",
+        "widthMm": 32,
+        "lengthMm": 32
+      },
+      "appliedFootprint": {
+        "shape": "round",
+        "widthMm": 32,
+        "lengthMm": 32
+      }
+    },
+    {
+      "faction": "Zerg",
+      "unit": "Queen",
+      "source": "https://archon-studio.com/files/manuals/sc/StarCraft-Zerg-P2P-Card-Sheets-A4_EN.pdf",
+      "page": 5,
+      "officialFootprint": {
+        "shape": "round",
+        "widthMm": 80,
+        "lengthMm": 80
+      },
+      "appliedFootprint": {
+        "shape": "round",
+        "widthMm": 80,
+        "lengthMm": 80
+      }
+    },
+    {
+      "faction": "Zerg",
+      "unit": "Roaches",
+      "source": "https://archon-studio.com/files/manuals/sc/StarCraft-Zerg-P2P-Card-Sheets-A4_EN.pdf",
+      "page": 6,
+      "officialFootprint": {
+        "shape": "round",
+        "widthMm": 50,
+        "lengthMm": 50
+      },
+      "appliedFootprint": {
+        "shape": "round",
+        "widthMm": 50,
+        "lengthMm": 50
+      }
+    },
+    {
+      "faction": "Zerg",
+      "unit": "Corpsers (Roach)",
+      "source": "https://archon-studio.com/files/manuals/sc/StarCraft-Zerg-P2P-Card-Sheets-A4_EN.pdf",
+      "page": 7,
+      "officialFootprint": {
+        "shape": "round",
+        "widthMm": 50,
+        "lengthMm": 50
+      },
+      "appliedFootprint": {
+        "shape": "round",
+        "widthMm": 50,
+        "lengthMm": 50
+      }
+    },
+    {
+      "faction": "Zerg",
+      "unit": "Roachling",
+      "source": "https://archon-studio.com/files/manuals/sc/StarCraft-Zerg-P2P-Card-Sheets-A4_EN.pdf",
+      "page": 8,
+      "officialFootprint": {
+        "shape": "round",
+        "widthMm": 32,
+        "lengthMm": 32
+      },
+      "appliedFootprint": {
+        "shape": "round",
+        "widthMm": 32,
+        "lengthMm": 32
+      }
+    },
+    {
+      "faction": "Zerg",
+      "unit": "Viles (Roach)",
+      "source": "https://archon-studio.com/files/manuals/sc/StarCraft-Zerg-P2P-Card-Sheets-A4_EN.pdf",
+      "page": 9,
+      "officialFootprint": {
+        "shape": "round",
+        "widthMm": 50,
+        "lengthMm": 50
+      },
+      "appliedFootprint": {
+        "shape": "round",
+        "widthMm": 50,
+        "lengthMm": 50
+      }
+    },
+    {
+      "faction": "Zerg",
+      "unit": "Zerglings",
+      "source": "https://archon-studio.com/files/manuals/sc/StarCraft-Zerg-P2P-Card-Sheets-A4_EN.pdf",
+      "page": 10,
+      "officialFootprint": {
+        "shape": "round",
+        "widthMm": 32,
+        "lengthMm": 32
+      },
+      "appliedFootprint": {
+        "shape": "round",
+        "widthMm": 32,
+        "lengthMm": 32
+      }
+    },
+    {
+      "faction": "Zerg",
+      "unit": "Raptors (Zergling)",
+      "source": "https://archon-studio.com/files/manuals/sc/StarCraft-Zerg-P2P-Card-Sheets-A4_EN.pdf",
+      "page": 11,
+      "officialFootprint": {
+        "shape": "round",
+        "widthMm": 32,
+        "lengthMm": 32
+      },
+      "appliedFootprint": {
+        "shape": "round",
+        "widthMm": 32,
+        "lengthMm": 32
+      }
+    },
+    {
+      "faction": "Zerg",
+      "unit": "Swarmlings",
+      "source": "https://archon-studio.com/files/manuals/sc/StarCraft-Zerg-P2P-Card-Sheets-A4_EN.pdf",
+      "page": 12,
+      "officialFootprint": {
+        "shape": "round",
+        "widthMm": 32,
+        "lengthMm": 32
+      },
+      "appliedFootprint": {
+        "shape": "round",
+        "widthMm": 32,
+        "lengthMm": 32
+      }
+    },
+    {
+      "faction": "Zerg",
+      "unit": "Ravagers",
+      "source": "https://archon-studio.com/files/manuals/sc/StarCraft-Zerg-P2P-W2-Card-Sheets-A4_EN.pdf",
+      "page": 1,
+      "officialFootprint": {
+        "shape": "round",
+        "widthMm": 80,
+        "lengthMm": 80
+      },
+      "appliedFootprint": {
+        "shape": "round",
+        "widthMm": 80,
+        "lengthMm": 80
+      }
+    },
+    {
+      "faction": "Zerg",
+      "unit": "Zagara",
+      "source": "https://archon-studio.com/files/manuals/sc/StarCraft-Zerg-P2P-W3-Card-Sheets-A4_EN.pdf",
+      "page": 1,
+      "officialFootprint": {
+        "shape": "round",
+        "widthMm": 100,
+        "lengthMm": 100
+      },
+      "appliedFootprint": {
+        "shape": "round",
+        "widthMm": 100,
+        "lengthMm": 100
+      }
+    },
+    {
+      "faction": "Zerg",
+      "unit": "Defiler",
+      "source": "https://archon-studio.com/files/manuals/sc/StarCraft-Zerg-P2P-W3-Card-Sheets-A4_EN.pdf",
+      "page": 2,
+      "officialFootprint": {
+        "shape": "round",
+        "widthMm": 80,
+        "lengthMm": 80
+      },
+      "appliedFootprint": {
+        "shape": "round",
+        "widthMm": 80,
+        "lengthMm": 80
+      }
+    },
+    {
+      "faction": "Zerg",
+      "unit": "Vileling (Zergling)",
+      "source": "https://archon-studio.com/files/manuals/sc/StarCraft-Zerg-P2P-W3-Card-Sheets-A4_EN.pdf",
+      "page": 3,
+      "officialFootprint": {
+        "shape": "round",
+        "widthMm": 32,
+        "lengthMm": 32
+      },
+      "appliedFootprint": {
+        "shape": "round",
+        "widthMm": 32,
+        "lengthMm": 32
+      }
+    },
+    {
+      "faction": "Zerg",
+      "unit": "Bile Launcher",
+      "source": "https://archon-studio.com/files/manuals/sc/StarCraft-Zerg-P2P-W3-Card-Sheets-A4_EN.pdf",
+      "page": 4,
+      "officialFootprint": {
+        "shape": "round",
+        "widthMm": 100,
+        "lengthMm": 100
+      },
+      "appliedFootprint": {
+        "shape": "round",
+        "widthMm": 100,
+        "lengthMm": 100
+      }
+    }
+  ]
+}

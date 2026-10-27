@@ -1,0 +1,248 @@
+[
+  {
+    "Id": "pdf_Zerg_rule_bile_launcher_default_0",
+    "Name": "Any Phase abilities",
+    "Type": "Rule",
+    "Description": "Rules (Any Phase)\nEffect: BIOLOGICAL STRUCTURE: PASSIVE\nThis Unit cannot gain the BURROWED Status , cannot\nbe returned to Reserves , and is immune to the\nIMPACT keyword.\nDETECTION: PASSIVE While Enemy Units are Within 6\" of\nthis Unit, they lose the HIDDEN Status .\nSOURCE OF CREEP: PASSIVE A Friendly or Enemy Ground\nZerg Unit Within 6\" of this Unit counts as being ON CREEP ."
+  },
+  {
+    "Id": "pdf_Zerg_rule_bile_launcher_default_1",
+    "Name": "Movement Phase abilities",
+    "Type": "Rule",
+    "Description": "Rules (Movement Phase)\nEffect: BURROW AMBUSH: PASSIVE When this Unit is nominated to deploy from the\nReserves , it may resolve the PLACE (18) effect from the controlling player's Entry Edge . No model may be set\nWithin 10\" of any Enemy model. This Unit's Activation ends.\nBOMBARD: ACTIVE 1 BM Set a Bile Bomb token on the battlefield Within 24\" of this Unit. When this Unit\nresolves a Ranged Attack using the Bile Bomb weapon profile this Round , it may choose to ignore the weapon's\nstandard Range characteristic. If it does, it may target an Enemy Unit that is Within 3\" of that token ( Line of\nSight is not required), ignoring the HIDDEN Status . After the attack is fully resolved, remove the Bile Bomb token\nfrom the battlefield. When the Bile Bomb token is about to be removed, set a Creep Tumor token in base-to-base\ncontact with it. The Bile Bomb token has DISPLACEMENT ."
+  },
+  {
+    "Id": "pdf_Zerg_rule_bile_launcher_default_3",
+    "Name": "Assault Phase abilities",
+    "Type": "Rule",
+    "Description": "Rules (Assault Phase)\nEffect: INDOMITABLE: PASSIVE While Engaged , this Unit may target and be targeted by Unengaged Enemy Units. In\nboth cases, the defending Unit gains an Evade Roll against those attacks."
+  },
+  {
+    "Id": "pdf_Zerg_rule_corpsers_roach_default_0",
+    "Name": "Any Phase abilities",
+    "Type": "Rule",
+    "Description": "Rules (Any Phase)\nEffect: BURROW: ACTIVE 2 BM If this Unit is Unengaged , it gains or loses the Burrowed Status ."
+  },
+  {
+    "Id": "pdf_Zerg_rule_corpsers_roach_default_1",
+    "Name": "Movement Phase abilities",
+    "Type": "Rule",
+    "Description": "Rules (Movement Phase)\nEffect: ROACHLING INFESTATION: ACTIVE 2 BM Once Per Game . Resolve the SUMMON\n(Roachling) effect."
+  },
+  {
+    "Id": "pdf_Zerg_rule_corpsers_roach_default_3",
+    "Name": "Assault Phase abilities",
+    "Type": "Rule",
+    "Description": "Rules (Assault Phase)\nEffect: REGENERATION: PASSIVE When this Unit becomes\nActivated , if it has the Burrowed Status , resolve the\nHEAL (2) effect.\nDEVASTATING CHARGE: PASSIVE Immediately after\nthis Unit completes a successful Charge , resolve the\nIMPACT (3) 4+ effect."
+  },
+  {
+    "Id": "pdf_Zerg_rule_defiler_default_0",
+    "Name": "Any Phase abilities",
+    "Type": "Rule",
+    "Description": "Rules (Any Phase)\nEffect: CONSUME: PASSIVE When this Unit resolves a Special Ability that costs BM , it can remove one model\nfrom a Friendly Unit Within 4\" to generate 1 BM to spend towards that ability's cost."
+  },
+  {
+    "Id": "pdf_Zerg_rule_defiler_default_1",
+    "Name": "Movement Phase abilities",
+    "Type": "Rule",
+    "Description": "Rules (Movement Phase)\nEffect: GESTATE DARK SWARM: ACTIVE 0 BM Set a Dark Swarm token in an unoccupied\nspace Within 4\" and Line of Sight of this Unit. The Dark Swarm token has DISPLACEMENT ."
+  },
+  {
+    "Id": "pdf_Zerg_rule_defiler_default_2",
+    "Name": "Assault Phase abilities",
+    "Type": "Rule",
+    "Description": "Rules (Assault Phase)\nEffect: DARK SWARM: REACTION 1 BM REPEATABLE . Use when a Friendly Unit Within 4\" of\na Friendly Dark Swarm token is selected as the target of an attack. If this Unit is Within 4'' of the same token,\nthe Targeted Friendly Unit is eligible to make an Evade Roll against that attack. If the targeted Unit is a Size 1 ,\nit gains a +1 Modifier to this Evade Roll .\nDEVASTATING CHARGE: PASSIVE Immediately after this Unit completes a successful Charge , resolve the IMPACT\n(4) 4+ effect."
+  },
+  {
+    "Id": "pdf_Zerg_rule_hydralisks_default_0",
+    "Name": "Any Phase abilities",
+    "Type": "Rule",
+    "Description": "Rules (Any Phase)\nEffect: SQUADRON: PASSIVE This Unit's Horizontal Coherency is 4\" ."
+  },
+  {
+    "Id": "pdf_Zerg_rule_hydralisks_default_2",
+    "Name": "Assault Phase abilities",
+    "Type": "Rule",
+    "Description": "Rules (Assault Phase)\nEffect: LUNGE: REACTION 1 BM When another Friendly Unit Within 10\" is the target of a Ranged Attack , after the\nattack is fully resolved, this Unit, if Unengaged , may perform a Move action Directly Towards the attacking Unit."
+  },
+  {
+    "Id": "pdf_Zerg_rule_kerrigan_default_0",
+    "Name": "Any Phase abilities",
+    "Type": "Rule",
+    "Description": "Rules (Any Phase)\nEffect: COMMANDER: PASSIVE Treat this Unit's Supply characteristic as increased by 1 for Controlling and\nContesting Mission Markers , completing objectives, and resolving Disengage checks."
+  },
+  {
+    "Id": "pdf_Zerg_rule_kerrigan_default_1",
+    "Name": "Movement Phase abilities",
+    "Type": "Rule",
+    "Description": "Rules (Movement Phase)\nEffect: CRUSHING GRIP: ACTIVE\n1 BM Select one Enemy Unit Within 12\" . That Unit\ncounts as Activated in this Phase (set an Activation\nMarker next to it).\nMUTATING CARAPACE: ACTIVE 1 BM Select one\nEnemy Unit Within 18\" . This Unit is eligible to make\nan Evade Roll against all attacks made by the selected\nEnemy Unit, with a +2 Modifier applied to those Evade\nRolls ."
+  },
+  {
+    "Id": "pdf_Zerg_rule_kerrigan_default_3",
+    "Name": "Assault Phase abilities",
+    "Type": "Rule",
+    "Description": "Rules (Assault Phase)\nEffect: LEAPING STRIKE: ACTIVE 1 BM If Unengaged ,\nresolve the PLACE (6) effect.\nDEVASTATING CHARGE: PASSIVE Immediately after\nthis Unit completes a successful Charge , resolve the\nIMPACT (4) 4+ effect."
+  },
+  {
+    "Id": "pdf_Zerg_rule_kerrigan_swarm_raptors_zergling_default_0",
+    "Name": "Any Phase abilities",
+    "Type": "Rule",
+    "Description": "Rules (Any Phase)\nEffect: SQUADRON: PASSIVE This Unit's\nHorizontal Coherency is 4\" .\nRAPTOR STRAIN: PASSIVE This Unit can move through\nIMPASSABLE TERRAIN of Size 4 or less and change\nelevation without using ACCESS POINTS ."
+  },
+  {
+    "Id": "pdf_Zerg_rule_kerrigan_swarm_raptors_zergling_default_1",
+    "Name": "Assault Phase abilities",
+    "Type": "Rule",
+    "Description": "Rules (Assault Phase)\nEffect: LEAP: ACTIVE 1 BM When\ndetermining Charge Distance for this Unit, add 2 to\nthe Charge Distance .\nDEVASTATING CHARGE: PASSIVE Immediately after\nthis Unit completes a successful Charge , resolve the\nIMPACT (2) 5+ effect.\nADRENAL OVERLOAD: ACTIVE 1 BM This Unit gains a +1 Modifier to all IMPACT Hit Rolls ."
+  },
+  {
+    "Id": "pdf_Zerg_rule_omega_worm_default_0",
+    "Name": "Any Phase abilities",
+    "Type": "Rule",
+    "Description": "Rules (Any Phase)\nEffect: DETECTION: PASSIVE While Enemy Units\nare Within 6\" of this Unit, they lose HIDDEN Status .\nSOURCE OF CREEP: PASSIVE A Friendly or Enemy Ground\nZerg Unit Within 6\" of this Unit, counts as being ON CREEP .\nSTRUCTURE: PASSIVE This Unit cannot be Activated in\nany Phase and cannot perform actions. Additionally, its\nCurrent Supply Value is treated as 0 , and it can never\nControl or Contest Mission Markers , ignoring the standard\nZero Supply Exception . This Unit cannot be a target of an\nability, unless stated otherwise.\nOMEGA NETWORK: PASSIVE The base of the Omega\nWorm counts as an Entry Edge . Each Round, Friendly Units\nwith a combined Supply cost of 2 or less may be Deployed\nvia this Entry Edge .\nIf a Friendly Leading model finishes a Move, Disengage , or\nRun action in base-to-base contact with the Omega Worm ,\nthe controlling player may remove that Unit from the\nbattlefield and return it to Reserves ."
+  },
+  {
+    "Id": "pdf_Zerg_rule_queen_default_0",
+    "Name": "Any Phase abilities",
+    "Type": "Rule",
+    "Description": "Rules (Any Phase)\nEffect: SPAWN CREEP TUMOR: ACTIVE 1 BM\nSet a Creep Tumor token in base-to-base contact with\nthis Unit.\nTRANSFUSION: REACTION 1 BM Use when another\nFriendly Biological Unit (including a Structure ) suffers\nDamage Within 4\" . Reduce the Total Damage before\nallocation by 2 .\nRESTORATION: REACTION 1 BM Use when a Friendly Unit\nWithin 4\" receives a DEBUFF . Remove all DEBUFFS from it.\nPSIONIC LINK: PASSIVE Once per Round , if there are\nat least 7 Friendly models Within 6\" of this Unit, it may\nresolve its Special Ability with the BM cost reduced by 1 ."
+  },
+  {
+    "Id": "pdf_Zerg_rule_queen_default_3",
+    "Name": "Assault Phase abilities",
+    "Type": "Rule",
+    "Description": "Rules (Assault Phase)\nEffect: DEVASTATING CHARGE: PASSIVE Immediately after this Unit completes a successful Charge , resolve the IMPACT\n(4) 3+ effect."
+  },
+  {
+    "Id": "pdf_Zerg_rule_raptors_zergling_default_0",
+    "Name": "Any Phase abilities",
+    "Type": "Rule",
+    "Description": "Rules (Any Phase)\nEffect: SQUADRON: PASSIVE This Unit's\nHorizontal Coherency is 4\" .\nRAPTOR STRAIN: PASSIVE This Unit can move through\nIMPASSABLE TERRAIN of Size 4 or less and change\nelevation without using ACCESS POINTS ."
+  },
+  {
+    "Id": "pdf_Zerg_rule_raptors_zergling_default_1",
+    "Name": "Assault Phase abilities",
+    "Type": "Rule",
+    "Description": "Rules (Assault Phase)\nEffect: ADRENAL OVERLOAD:\nACTIVE 1 BM This Unit gains a +1 Modifier to all\nIMPACT Hit Rolls .\nDEVASTATING CHARGE: PASSIVE Immediately after\nthis Unit completes a successful Charge , resolve the\nIMPACT (1) 5+ effect.\nMETABOLIC BOOST: ACTIVE 1 BM When determining\nCharge Distance for this Unit, roll 2D6 instead of D6\nand use the higher result to add to the Unit's Speed\ncharacteristic."
+  },
+  {
+    "Id": "pdf_Zerg_rule_ravagers_default_0",
+    "Name": "Any Phase abilities",
+    "Type": "Rule",
+    "Description": "Rules (Any Phase)\nEffect: SQUADRON: PASSIVE This Unit's Horizontal Coherency is 4\" ."
+  },
+  {
+    "Id": "pdf_Zerg_rule_ravagers_default_1",
+    "Name": "Movement Phase abilities",
+    "Type": "Rule",
+    "Description": "Rules (Movement Phase)\nEffect: DEEP TUNNEL: ACTIVE\n1 BM Set a Ravager Burrow token Wholly Within\n12\" of any model in this Unit. At the End of the Round ,\nthe controlling player may set all models of this Unit\nin Coherency , treating the Ravager Burrow token as\nthe Leading Model . The Ravager Burrow token has\nDISPLACEMENT .\nCORROSIVE BILE: ACTIVE 1 BM For each model in\nthis Unit, set one Corrosive Bile token on the battlefield\nWithin 14\" of that model. These tokens are not removed\nif this Unit is Destroyed. At the End of the Assault Phase ,\neach Unit suffers HITS 5 (1) effect for each of this Unit's\nCorrosive Bile tokens it is Within 1\" of. Then, remove all\nof this Unit's Corrosive Bile tokens from the battlefield. If\nmultiple effects trigger at the End of the Assault Phase ,\nresolve them in the order specified in Part 8.9.4 ."
+  },
+  {
+    "Id": "pdf_Zerg_rule_ravagers_default_3",
+    "Name": "Assault Phase abilities",
+    "Type": "Rule",
+    "Description": "Rules (Assault Phase)\nEffect: DEVASTATING CHARGE: PASSIVE Immediately after this Unit completes a successful Charge , resolve\nthe IMPACT (2) 4+ effect."
+  },
+  {
+    "Id": "pdf_Zerg_rule_roaches_default_0",
+    "Name": "Any Phase abilities",
+    "Type": "Rule",
+    "Description": "Rules (Any Phase)\nEffect: BURROW: ACTIVE 2 BM If this Unit is Unengaged , it gains or loses the Burrowed Status ."
+  },
+  {
+    "Id": "pdf_Zerg_rule_roaches_default_2",
+    "Name": "Assault Phase abilities",
+    "Type": "Rule",
+    "Description": "Rules (Assault Phase)\nEffect: REGENERATION: PASSIVE When this Unit becomes\nActivated , if it has the Burrowed Status , resolve the\nHEAL (2) effect.\nDEVASTATING CHARGE: PASSIVE Immediately after\nthis Unit completes a successful Charge , resolve the\nIMPACT (2) 4+ effect."
+  },
+  {
+    "Id": "pdf_Zerg_rule_roachling_default_0",
+    "Name": "Any Phase abilities",
+    "Type": "Rule",
+    "Description": "Rules (Any Phase)\nEffect: UNDERDEVELOPED CLAWS: PASSIVE This Unit cannot gain Burrowed Status ."
+  },
+  {
+    "Id": "pdf_Zerg_rule_swarmlings_default_0",
+    "Name": "Any Phase abilities",
+    "Type": "Rule",
+    "Description": "Rules (Any Phase)\nEffect: SQUADRON: PASSIVE This Unit's Horizontal Coherency is 4\" ."
+  },
+  {
+    "Id": "pdf_Zerg_rule_swarmlings_default_1",
+    "Name": "Movement Phase abilities",
+    "Type": "Rule",
+    "Description": "Rules (Movement Phase)\nEffect: ZERGLING RECONSTITUTION: ACTIVE 1 BM Resolve the RESPAWN (2) effect, or\nRESPAWN (3) if the Unit is ON CREEP ."
+  },
+  {
+    "Id": "pdf_Zerg_rule_swarmlings_default_2",
+    "Name": "Assault Phase abilities",
+    "Type": "Rule",
+    "Description": "Rules (Assault Phase)\nEffect: DEVASTATING CHARGE:\nPASSIVE Immediately after this Unit completes\na successful Charge , resolve the IMPACT (1) 5+ effect.\nMETABOLIC BOOST: ACTIVE 1 BM When determining\nCharge Distance for this Unit, roll 2D6 instead of D6\nand use the higher result to add to the Unit's Speed\ncharacteristic."
+  },
+  {
+    "Id": "pdf_Zerg_rule_vileling_zergling_default_0",
+    "Name": "Any Phase abilities",
+    "Type": "Rule",
+    "Description": "Rules (Any Phase)\nEffect: SQUADRON: PASSIVE This Unit's Horizontal Coherency is 4\" ."
+  },
+  {
+    "Id": "pdf_Zerg_rule_vileling_zergling_default_1",
+    "Name": "Movement Phase abilities",
+    "Type": "Rule",
+    "Description": "Rules (Movement Phase)\nEffect: ZERGLING\nRECONSTITUTION: ACTIVE 1 BM Resolve the\nRESPAWN (2) effect, or RESPAWN (3) if the Unit is\nON CREEP .\nBURROW AMBUSH: PASSIVE When this Unit is\nnominated to deploy from the Reserves , it may resolve\nthe PLACE (18) effect from the controlling player's\nEntry Edge . No model may be set Within 10\" of any\nEnemy model. This Unit's Activation ends."
+  },
+  {
+    "Id": "pdf_Zerg_rule_vileling_zergling_default_2",
+    "Name": "Assault Phase abilities",
+    "Type": "Rule",
+    "Description": "Rules (Assault Phase)\nEffect: DEVASTATING CHARGE:\nPASSIVE Immediately after this Unit completes\na successful Charge , resolve the IMPACT (1) 5+ effect.\nMETABOLIC BOOST: ACTIVE 1 BM When determining\nCharge Distance for this Unit, roll 2D6 instead of\nD6 and use the higher result to add to the Unit's\nSpeed characteristic."
+  },
+  {
+    "Id": "pdf_Zerg_rule_vileling_zergling_default_4",
+    "Name": "Combat Phase abilities",
+    "Type": "Rule",
+    "Description": "Rules (Combat Phase)\nEffect: DEBILITATING CLAWS: PASSIVE After an Enemy Unit suffers Damage from this Unit, apply DEBUFF Hit (1) to each\nof that Unit's Weapons ."
+  },
+  {
+    "Id": "pdf_Zerg_rule_viles_roach_default_0",
+    "Name": "Any Phase abilities",
+    "Type": "Rule",
+    "Description": "Rules (Any Phase)\nEffect: BURROW: ACTIVE 2 BM If this Unit is not\nEngaged , it gains or loses the Burrowed Status .\nDEBILITATING SALIVA: REACTION 1 BM Use when an\nEnemy Unit Within 8\" of this Unit declares a Ranged Attack .\nApply DEBUFF Hit (1) to each of that Unit's Ranged Weapons ."
+  },
+  {
+    "Id": "pdf_Zerg_rule_viles_roach_default_2",
+    "Name": "Assault Phase abilities",
+    "Type": "Rule",
+    "Description": "Rules (Assault Phase)\nEffect: DEVASTATING CHARGE: PASSIVE Immediately after\nthis Unit completes a successful Charge , resolve the\nIMPACT (1) 4+ effect.\nREGENERATION: PASSIVE When this Unit becomes\nActivated , if it has the Burrowed Status , resolve the\nHEAL (2) effect ."
+  },
+  {
+    "Id": "pdf_Zerg_rule_zagara_default_0",
+    "Name": "Any Phase abilities",
+    "Type": "Rule",
+    "Description": "Rules (Any Phase)\nEffect: COMMANDER: PASSIVE Treat this Unit's\nSupply characteristic as increased by 1 for Controlling and\nContesting Mission Markers , completing objectives, and\nresolving Disengage checks.\nTRANSFUSION: REACTION 1 BM Use when another\nFriendly Biological Unit (including a Structure ) suffers\nDamage Within 4\" . Reduce the Total Damage before\nallocation by 2 .\nPSIONIC LINK: PASSIVE Once per Round , if there are at least 7 Friendly models Within 6\" of this Unit, it may resolve its\nSpecial Ability with the BM cost reduced by 1 ."
+  },
+  {
+    "Id": "pdf_Zerg_rule_zagara_default_1",
+    "Name": "Movement Phase abilities",
+    "Type": "Rule",
+    "Description": "Rules (Movement Phase)\nEffect: INFESTED DROP: PASSIVE The base of the Zagara counts as an Entry Edge . Each\nRound, Friendly Units with a combined Supply cost of 1 may be Deployed via this Entry Edge ."
+  },
+  {
+    "Id": "pdf_Zerg_rule_zagara_default_4",
+    "Name": "Assault Phase abilities",
+    "Type": "Rule",
+    "Description": "Rules (Assault Phase)\nEffect: INDOMITABLE: PASSIVE While Engaged , this Unit may\ntarget and be targeted by Unengaged Enemy Units.\nIn both cases, the defending Unit gains an Evade Roll\nagainst those attacks.\nDEVASTATING CHARGE: PASSIVE Immediately after\nthis Unit completes a successful Charge , resolve the\nIMPACT (6) 3+ effect."
+  },
+  {
+    "Id": "pdf_Zerg_rule_zerglings_default_0",
+    "Name": "Any Phase abilities",
+    "Type": "Rule",
+    "Description": "Rules (Any Phase)\nEffect: SQUADRON: PASSIVE This Unit's Horizontal Coherency is 4\" ."
+  },
+  {
+    "Id": "pdf_Zerg_rule_zerglings_default_1",
+    "Name": "Assault Phase abilities",
+    "Type": "Rule",
+    "Description": "Rules (Assault Phase)\nEffect: METABOLIC BOOST: ACTIVE\n1 BM When determining Charge Distance for this\nUnit, roll 2D6 instead of D6 and use the higher result to\nadd to the Unit's Speed characteristic.\nDEVASTATING CHARGE: PASSIVE Immediately after\nthis Unit completes a successful Charge , resolve the\nIMPACT (1) 5+ effect."
+  }
+]

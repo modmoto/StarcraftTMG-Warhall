@@ -1,1 +1,152 @@
-[]
+[
+  {
+    "Id": "pdf_Terran_equipment_auto_turret_default_1",
+    "Name": "GAUSS CANNON",
+    "Type": "Equipment",
+    "Description": "Assault Weapon\nRng: 8\nTgt: All\nRoA: 6\nHit: 3+\nSurge: -\nS.Die: -\nDmg: 1\nKeyword: PINPOINT"
+  },
+  {
+    "Id": "pdf_Terran_equipment_goliath_default_1",
+    "Name": "AUTOCANNON",
+    "Type": "Equipment",
+    "Description": "Assault Weapon\nRng: 12\nTgt: Ground\nRoA: 9\nHit: 4+\nSurge: -\nS.Die: -\nDmg: 1\nKeyword: LONG RANGE (18\")"
+  },
+  {
+    "Id": "pdf_Terran_equipment_goliath_default_2",
+    "Name": "UNDERBELLY MACHINE GUN",
+    "Type": "Equipment",
+    "Description": "Assault Weapon\nRng: 8\nTgt: Ground\nRoA: 6\nHit: 3+\nSurge: Light\nS.Die: D3\nDmg: 1\nKeyword: PINPOINT, SIDEARM"
+  },
+  {
+    "Id": "pdf_Terran_equipment_goliath_default_3",
+    "Name": "HELLFIRE MISSILES",
+    "Type": "Equipment",
+    "Description": "Assault Weapon\nRng: 16\nTgt: Flying\nRoA: 6\nHit: 3+\nSurge: Light\nS.Die: D3\nDmg: 1\nKeyword: ANTI-EVADE (1), SIDEARM"
+  },
+  {
+    "Id": "pdf_Terran_equipment_goliath_default_5",
+    "Name": "STOMP",
+    "Type": "Equipment",
+    "Description": "Combat Weapon\nRng: E\nTgt: Ground\nRoA: 4\nHit: 5+\nSurge: -\nS.Die: -\nDmg: 1\nKeyword: -"
+  },
+  {
+    "Id": "pdf_Terran_equipment_jim_raynor_default_2",
+    "Name": "COMMANDO RIFLE",
+    "Type": "Equipment",
+    "Description": "Assault Weapon\nRng: 18\nTgt: All\nRoA: 3\nHit: 3+\nSurge: Armoured\nS.Die: D3\nDmg: 1\nKeyword: BULKY, PIERCE Armoured (3)"
+  },
+  {
+    "Id": "pdf_Terran_equipment_jim_raynor_default_3",
+    "Name": "“JUSTICE” REVOLVER",
+    "Type": "Equipment",
+    "Description": "Assault Weapon\nRng: 6\nTgt: Ground\nRoA: 2\nHit: 3+\nSurge: -\nS.Die: -\nDmg: 2\nKeyword: ANTI-EVADE (2), SIDEARM, PINPOINT"
+  },
+  {
+    "Id": "pdf_Terran_equipment_jim_raynor_default_4",
+    "Name": "BAYONET",
+    "Type": "Equipment",
+    "Description": "Combat Weapon\nRng: E\nTgt: Ground\nRoA: 2\nHit: 4+\nSurge: Light\nS.Die: D3\nDmg: 1\nKeyword: -"
+  },
+  {
+    "Id": "pdf_Terran_equipment_marauders_default_1",
+    "Name": "QUAD K12",
+    "Type": "Equipment",
+    "Description": "Assault Weapon\nRng: 12\nTgt: Ground\nRoA: 3\nHit: 3+\nSurge: Armoured\nS.Die: D3\nDmg: 1\nKeyword: PIERCE Armoured (2)"
+  },
+  {
+    "Id": "pdf_Terran_equipment_marauders_default_3",
+    "Name": "STRIKE",
+    "Type": "Equipment",
+    "Description": "Combat Weapon\nRng: E\nTgt: Ground\nRoA: 2\nHit: 4+\nSurge: -\nS.Die: -\nDmg: 1\nKeyword: -"
+  },
+  {
+    "Id": "pdf_Terran_equipment_marines_default_1",
+    "Name": "C-14 RIFLE",
+    "Type": "Equipment",
+    "Description": "Assault Weapon\nRng: 12\nTgt: All\nRoA: 2\nHit: 3+\nSurge: Light\nS.Die: D3\nDmg: 1\nKeyword: -"
+  },
+  {
+    "Id": "pdf_Terran_equipment_marines_default_2",
+    "Name": "STRIKE",
+    "Type": "Equipment",
+    "Description": "Combat Weapon\nRng: E\nTgt: Ground\nRoA: 1\nHit: 5+\nSurge: -\nS.Die: -\nDmg: 1\nKeyword: -"
+  },
+  {
+    "Id": "pdf_Terran_equipment_medics_default_2",
+    "Name": "STRIKE",
+    "Type": "Equipment",
+    "Description": "Combat Weapon\nRng: E\nTgt: Ground\nRoA: 1\nHit: 5+\nSurge: -\nS.Die: -\nDmg: 1\nKeyword: -"
+  },
+  {
+    "Id": "pdf_Terran_equipment_nova_assault_mode_default_2",
+    "Name": "HELLFIRE SHOTGUN",
+    "Type": "Equipment",
+    "Description": "Assault Weapon\nRng: 8\nTgt: Ground\nRoA: 3\nHit: 4+\nSurge: Light\nS.Die: D3\nDmg: 2\nKeyword: ANTI-EVADE (1), BURST FIRE 4\" (3)"
+  },
+  {
+    "Id": "pdf_Terran_equipment_nova_assault_mode_default_4",
+    "Name": "MONOMOLECULAR BLADE",
+    "Type": "Equipment",
+    "Description": "Combat Weapon\nRng: E\nTgt: Ground\nRoA: 8\nHit: 3+\nSurge: Light, Armoured\nS.Die: D6\nDmg: 1\nKeyword: -"
+  },
+  {
+    "Id": "pdf_Terran_equipment_nova_stealth_mode_default_2",
+    "Name": "C-20A CANISTER RIFLE",
+    "Type": "Equipment",
+    "Description": "Assault Weapon\nRng: 12\nTgt: All\nRoA: 4\nHit: 3+\nSurge: -\nS.Die: -\nDmg: 2\nKeyword: CRITICAL HIT (2), LONG RANGE (18\")"
+  },
+  {
+    "Id": "pdf_Terran_equipment_nova_stealth_mode_default_4",
+    "Name": "COMBAT KNIFE",
+    "Type": "Equipment",
+    "Description": "Combat Weapon\nRng: E\nTgt: Ground\nRoA: 3\nHit: 5+\nSurge: -\nS.Die: -\nDmg: 1\nKeyword: -"
+  },
+  {
+    "Id": "pdf_Terran_equipment_raven_default_2",
+    "Name": "RAILGUNS",
+    "Type": "Equipment",
+    "Description": "Assault Weapon\nRng: 12\nTgt: Ground\nRoA: 4\nHit: 3+\nSurge: -\nS.Die: -\nDmg: 1\nKeyword: -"
+  },
+  {
+    "Id": "pdf_Terran_equipment_raynor_s_raiders_default_1",
+    "Name": "C-14 RIFLE",
+    "Type": "Equipment",
+    "Description": "Assault Weapon\nRng: 12\nTgt: All\nRoA: 2\nHit: 3+\nSurge: Light\nS.Die: D3\nDmg: 1\nKeyword: -"
+  },
+  {
+    "Id": "pdf_Terran_equipment_raynor_s_raiders_default_3",
+    "Name": "BAYONET",
+    "Type": "Equipment",
+    "Description": "Combat Weapon\nRng: E\nTgt: Ground\nRoA: 2\nHit: 5+\nSurge: -\nS.Die: -\nDmg: 1\nKeyword: -"
+  },
+  {
+    "Id": "pdf_Terran_equipment_siege_tank_default_1",
+    "Name": "TWIN CANNON",
+    "Type": "Equipment",
+    "Description": "Assault Weapon\nRng: 12\nTgt: Ground\nRoA: 8\nHit: 3+\nSurge: Armoured\nS.Die: D6\nDmg: 1\nKeyword: PIERCE Armoured (2)"
+  },
+  {
+    "Id": "pdf_Terran_equipment_siege_tank_default_2",
+    "Name": "SHOCK CANNON",
+    "Type": "Equipment",
+    "Description": "Assault Weapon\nRng: 18\nTgt: Ground\nRoA: BT+4\nHit: 4+\nSurge: Light, Armoured\nS.Die: BT\nDmg: 1\nKeyword: SIEGE MODE Status"
+  },
+  {
+    "Id": "pdf_Terran_equipment_siege_tank_default_4",
+    "Name": "ROLLING OVER",
+    "Type": "Equipment",
+    "Description": "Combat Weapon\nRng: E\nTgt: Ground\nRoA: 2\nHit: 2+\nSurge: -\nS.Die: -\nDmg: 1\nKeyword: -"
+  },
+  {
+    "Id": "pdf_Terran_equipment_spec_ops_marauder_marauder_default_2",
+    "Name": "QUAD K12",
+    "Type": "Equipment",
+    "Description": "Assault Weapon\nRng: 12\nTgt: Ground\nRoA: 3\nHit: 3+\nSurge: Armoured\nS.Die: D3\nDmg: 1\nKeyword: LONG RANGE (16\"), PIERCE Armoured (2)"
+  },
+  {
+    "Id": "pdf_Terran_equipment_spec_ops_marauder_marauder_default_4",
+    "Name": "STRIKE",
+    "Type": "Equipment",
+    "Description": "Combat Weapon\nRng: E\nTgt: Ground\nRoA: 3\nHit: 4+\nSurge: -\nS.Die: -\nDmg: 1\nKeyword: -"
+  }
+]

@@ -1,0 +1,134 @@
+[
+  {
+    "Id": "pdf_Protoss_equipment_adepts_default_2",
+    "Name": "GLAIVE CANNON",
+    "Type": "Equipment",
+    "Description": "Assault Weapon\nRng: 8\nTgt: All\nRoA: 2\nHit: 3+\nSurge: Light\nS.Die: D3+1\nDmg: 1\nKeyword: ANTI-EVADE (1)"
+  },
+  {
+    "Id": "pdf_Protoss_equipment_adepts_default_3",
+    "Name": "STRIKE",
+    "Type": "Equipment",
+    "Description": "Combat Weapon\nRng: E\nTgt: Ground\nRoA: 1\nHit: 4+\nSurge: -\nS.Die: -\nDmg: 1\nKeyword: -"
+  },
+  {
+    "Id": "pdf_Protoss_equipment_artanis_default_3",
+    "Name": "TWILIGHT BLADES STRIKE",
+    "Type": "Equipment",
+    "Description": "Combat Weapon\nRng: E\nTgt: Ground\nRoA: 2\nHit: 2+\nSurge: Armoured\nS.Die: D3\nDmg: 3\nKeyword: -"
+  },
+  {
+    "Id": "pdf_Protoss_equipment_artanis_default_4",
+    "Name": "TWILIGHT BLADES SWEEP",
+    "Type": "Equipment",
+    "Description": "Combat Weapon\nRng: E\nTgt: Ground\nRoA: 6\nHit: 2+\nSurge: Light\nS.Die: D3+1\nDmg: 1\nKeyword: -"
+  },
+  {
+    "Id": "pdf_Protoss_equipment_high_templar_default_2",
+    "Name": "PSI BLAST",
+    "Type": "Equipment",
+    "Description": "Assault Weapon\nRng: 8\nTgt: All\nRoA: 1\nHit: 3+\nSurge: Light\nS.Die: D3\nDmg: 2\nKeyword: INSTANT"
+  },
+  {
+    "Id": "pdf_Protoss_equipment_high_templar_default_3",
+    "Name": "STRIKE",
+    "Type": "Equipment",
+    "Description": "Combat Weapon\nRng: E\nTgt: Ground\nRoA: 1\nHit: 4+\nSurge: -\nS.Die: -\nDmg: 1\nKeyword: -"
+  },
+  {
+    "Id": "pdf_Protoss_equipment_immortal_default_1",
+    "Name": "LEFT PHOTON DISRUPTOR",
+    "Type": "Equipment",
+    "Description": "Assault Weapon\nRng: 12\nTgt: Ground\nRoA: 4\nHit: 3+\nSurge: Armoured\nS.Die: D3\nDmg: 2\nKeyword: CONCENTRATED FIRE (1), LONG RANGE (16)"
+  },
+  {
+    "Id": "pdf_Protoss_equipment_immortal_default_2",
+    "Name": "RIGHT PHOTON DISRUPTOR",
+    "Type": "Equipment",
+    "Description": "Assault Weapon\nRng: 12\nTgt: Ground\nRoA: 4\nHit: 3+\nSurge: Armoured\nS.Die: D3\nDmg: 2\nKeyword: CONCENTRATED FIRE (1), LONG RANGE (16), SIDEARM"
+  },
+  {
+    "Id": "pdf_Protoss_equipment_immortal_default_4",
+    "Name": "STOMP",
+    "Type": "Equipment",
+    "Description": "Combat Weapon\nRng: E\nTgt: Ground\nRoA: 3\nHit: 3+\nSurge: -\nS.Die: -\nDmg: 1\nKeyword: -"
+  },
+  {
+    "Id": "pdf_Protoss_equipment_nerazim_watchers_adept_default_2",
+    "Name": "GLAIVE CANNON",
+    "Type": "Equipment",
+    "Description": "Assault Weapon\nRng: 8\nTgt: All\nRoA: 3\nHit: 3+\nSurge: Light\nS.Die: D3+1\nDmg: 1\nKeyword: ANTI-EVADE (1), PINPOINT"
+  },
+  {
+    "Id": "pdf_Protoss_equipment_nerazim_watchers_adept_default_3",
+    "Name": "STRIKE",
+    "Type": "Equipment",
+    "Description": "Combat Weapon\nRng: E\nTgt: Ground\nRoA: 1\nHit: 5+\nSurge: -\nS.Die: -\nDmg: 1\nKeyword: -"
+  },
+  {
+    "Id": "pdf_Protoss_equipment_praetor_guards_default_3",
+    "Name": "PSI BLADES",
+    "Type": "Equipment",
+    "Description": "Combat Weapon\nRng: E\nTgt: Ground\nRoA: 4\nHit: 3+\nSurge: Light\nS.Die: D3\nDmg: 1\nKeyword: -"
+  },
+  {
+    "Id": "pdf_Protoss_equipment_sentries_default_2",
+    "Name": "DISRUPTION BEAM",
+    "Type": "Equipment",
+    "Description": "Assault Weapon\nRng: 8\nTgt: All\nRoA: 2\nHit: 2+\nSurge: -\nS.Die: -\nDmg: 1\nKeyword: INSTANT"
+  },
+  {
+    "Id": "pdf_Protoss_equipment_sentries_default_3",
+    "Name": "BEAM",
+    "Type": "Equipment",
+    "Description": "Combat Weapon\nRng: E\nTgt: Ground\nRoA: 2\nHit: 3+\nSurge: -\nS.Die: -\nDmg: 1\nKeyword: -"
+  },
+  {
+    "Id": "pdf_Protoss_equipment_stalker_default_2",
+    "Name": "PARTICLE DISRUPTORS",
+    "Type": "Equipment",
+    "Description": "Assault Weapon\nRng: 12\nTgt: All\nRoA: 4\nHit: 3+\nSurge: Armoured\nS.Die: D3\nDmg: 2\nKeyword: -"
+  },
+  {
+    "Id": "pdf_Protoss_equipment_stalker_default_3",
+    "Name": "STOMP",
+    "Type": "Equipment",
+    "Description": "Combat Weapon\nRng: E\nTgt: Ground\nRoA: 2\nHit: 5+\nSurge: -\nS.Die: -\nDmg: 1\nKeyword: -"
+  },
+  {
+    "Id": "pdf_Protoss_equipment_tassadar_default_2",
+    "Name": "RESONANCE BEAM",
+    "Type": "Equipment",
+    "Description": "Assault Weapon\nRng: 12\nTgt: All\nRoA: 6\nHit: 3+\nSurge: Armoured\nS.Die: D3\nDmg: 1\nKeyword: INSTANT"
+  },
+  {
+    "Id": "pdf_Protoss_equipment_tassadar_default_4",
+    "Name": "STRIKE",
+    "Type": "Equipment",
+    "Description": "Combat Weapon\nRng: E\nTgt: Ground\nRoA: 6\nHit: 4+\nSurge: -\nS.Die: -\nDmg: 1\nKeyword: -"
+  },
+  {
+    "Id": "pdf_Protoss_equipment_twilight_templar_high_templar_default_2",
+    "Name": "PSI BLAST",
+    "Type": "Equipment",
+    "Description": "Assault Weapon\nRng: 8\nTgt: All\nRoA: 2\nHit: 3+\nSurge: Light\nS.Die: D3\nDmg: 2\nKeyword: INSTANT"
+  },
+  {
+    "Id": "pdf_Protoss_equipment_twilight_templar_high_templar_default_3",
+    "Name": "STRIKE",
+    "Type": "Equipment",
+    "Description": "Combat Weapon\nRng: E\nTgt: Ground\nRoA: 1\nHit: 4+\nSurge: -\nS.Die: -\nDmg: 1\nKeyword: -"
+  },
+  {
+    "Id": "pdf_Protoss_equipment_zealots_default_1",
+    "Name": "PSI BLADES",
+    "Type": "Equipment",
+    "Description": "Combat Weapon\nRng: E\nTgt: Ground\nRoA: 4\nHit: 3+\nSurge: Light\nS.Die: D3\nDmg: 1\nKeyword: -"
+  },
+  {
+    "Id": "pdf_Protoss_equipment_zeratul_default_3",
+    "Name": "MASTER WARP BLADE",
+    "Type": "Equipment",
+    "Description": "Combat Weapon\nRng: E\nTgt: Ground\nRoA: 4\nHit: 3+\nSurge: Light, Armoured\nS.Die: D3\nDmg: 2\nKeyword: INSTANT"
+  }
+]

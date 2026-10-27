@@ -1,0 +1,304 @@
+[
+  {
+    "Id": "pdf_Protoss_profile_adepts",
+    "Name": "Adepts",
+    "Type": "Profile",
+    "BaseId": "base_round_40",
+    "Children": [
+      {
+        "Id": "pdf_Protoss_stat_adepts"
+      },
+      {
+        "Id": "pdf_Protoss_rule_adepts_default_0"
+      },
+      {
+        "Id": "pdf_Protoss_rule_adepts_default_1"
+      },
+      {
+        "Id": "pdf_Protoss_equipment_adepts_default_2"
+      },
+      {
+        "Id": "pdf_Protoss_equipment_adepts_default_3"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Protoss_profile_artanis",
+    "Name": "Artanis",
+    "Type": "Profile",
+    "BaseId": "base_round_40",
+    "Children": [
+      {
+        "Id": "pdf_Protoss_stat_artanis"
+      },
+      {
+        "Id": "pdf_Protoss_rule_artanis_default_0"
+      },
+      {
+        "Id": "pdf_Protoss_rule_artanis_default_1"
+      },
+      {
+        "Id": "pdf_Protoss_rule_artanis_default_2"
+      },
+      {
+        "Id": "pdf_Protoss_equipment_artanis_default_3"
+      },
+      {
+        "Id": "pdf_Protoss_equipment_artanis_default_4"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Protoss_profile_high_templar",
+    "Name": "High Templar",
+    "Type": "Profile",
+    "BaseId": "base_round_40",
+    "Children": [
+      {
+        "Id": "pdf_Protoss_stat_high_templar"
+      },
+      {
+        "Id": "pdf_Protoss_rule_high_templar_default_0"
+      },
+      {
+        "Id": "pdf_Protoss_rule_high_templar_default_1"
+      },
+      {
+        "Id": "pdf_Protoss_equipment_high_templar_default_2"
+      },
+      {
+        "Id": "pdf_Protoss_equipment_high_templar_default_3"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Protoss_profile_immortal",
+    "Name": "Immortal",
+    "Type": "Profile",
+    "BaseId": "base_round_100",
+    "Children": [
+      {
+        "Id": "pdf_Protoss_stat_immortal"
+      },
+      {
+        "Id": "pdf_Protoss_rule_immortal_default_0"
+      },
+      {
+        "Id": "pdf_Protoss_equipment_immortal_default_1"
+      },
+      {
+        "Id": "pdf_Protoss_equipment_immortal_default_2"
+      },
+      {
+        "Id": "pdf_Protoss_rule_immortal_default_3"
+      },
+      {
+        "Id": "pdf_Protoss_equipment_immortal_default_4"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Protoss_profile_nerazim_watchers_adept",
+    "Name": "Nerazim Watchers (Adept)",
+    "Type": "Profile",
+    "BaseId": "base_round_40",
+    "Children": [
+      {
+        "Id": "pdf_Protoss_stat_nerazim_watchers_adept"
+      },
+      {
+        "Id": "pdf_Protoss_rule_nerazim_watchers_adept_default_0"
+      },
+      {
+        "Id": "pdf_Protoss_rule_nerazim_watchers_adept_default_1"
+      },
+      {
+        "Id": "pdf_Protoss_equipment_nerazim_watchers_adept_default_2"
+      },
+      {
+        "Id": "pdf_Protoss_equipment_nerazim_watchers_adept_default_3"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Protoss_profile_praetor_guards",
+    "Name": "Praetor Guards",
+    "Type": "Profile",
+    "BaseId": "base_round_40",
+    "Children": [
+      {
+        "Id": "pdf_Protoss_stat_praetor_guards"
+      },
+      {
+        "Id": "pdf_Protoss_rule_praetor_guards_default_0"
+      },
+      {
+        "Id": "pdf_Protoss_rule_praetor_guards_default_1"
+      },
+      {
+        "Id": "pdf_Protoss_rule_praetor_guards_default_2"
+      },
+      {
+        "Id": "pdf_Protoss_equipment_praetor_guards_default_3"
+      },
+      {
+        "Id": "pdf_Protoss_rule_praetor_guards_default_4"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Protoss_profile_pylon",
+    "Name": "Pylon",
+    "Type": "Profile",
+    "BaseId": "base_round_80",
+    "Children": [
+      {
+        "Id": "pdf_Protoss_stat_pylon"
+      },
+      {
+        "Id": "pdf_Protoss_rule_pylon_default_0"
+      },
+      {
+        "Id": "pdf_Protoss_rule_pylon_default_1"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Protoss_profile_sentries",
+    "Name": "Sentries",
+    "Type": "Profile",
+    "BaseId": "base_round_50",
+    "Children": [
+      {
+        "Id": "pdf_Protoss_stat_sentries"
+      },
+      {
+        "Id": "pdf_Protoss_rule_sentries_default_0"
+      },
+      {
+        "Id": "pdf_Protoss_rule_sentries_default_1"
+      },
+      {
+        "Id": "pdf_Protoss_equipment_sentries_default_2"
+      },
+      {
+        "Id": "pdf_Protoss_equipment_sentries_default_3"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Protoss_profile_stalker",
+    "Name": "Stalker",
+    "Type": "Profile",
+    "BaseId": "base_round_80",
+    "Children": [
+      {
+        "Id": "pdf_Protoss_stat_stalker"
+      },
+      {
+        "Id": "pdf_Protoss_rule_stalker_default_0"
+      },
+      {
+        "Id": "pdf_Protoss_rule_stalker_default_1"
+      },
+      {
+        "Id": "pdf_Protoss_equipment_stalker_default_2"
+      },
+      {
+        "Id": "pdf_Protoss_equipment_stalker_default_3"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Protoss_profile_tassadar",
+    "Name": "Tassadar",
+    "Type": "Profile",
+    "BaseId": "base_round_40",
+    "Children": [
+      {
+        "Id": "pdf_Protoss_stat_tassadar"
+      },
+      {
+        "Id": "pdf_Protoss_rule_tassadar_default_0"
+      },
+      {
+        "Id": "pdf_Protoss_rule_tassadar_default_1"
+      },
+      {
+        "Id": "pdf_Protoss_equipment_tassadar_default_2"
+      },
+      {
+        "Id": "pdf_Protoss_rule_tassadar_default_3"
+      },
+      {
+        "Id": "pdf_Protoss_equipment_tassadar_default_4"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Protoss_profile_twilight_templar_high_templar",
+    "Name": "Twilight Templar (High Templar)",
+    "Type": "Profile",
+    "BaseId": "base_round_40",
+    "Children": [
+      {
+        "Id": "pdf_Protoss_stat_twilight_templar_high_templar"
+      },
+      {
+        "Id": "pdf_Protoss_rule_twilight_templar_high_templar_default_0"
+      },
+      {
+        "Id": "pdf_Protoss_rule_twilight_templar_high_templar_default_1"
+      },
+      {
+        "Id": "pdf_Protoss_equipment_twilight_templar_high_templar_default_2"
+      },
+      {
+        "Id": "pdf_Protoss_equipment_twilight_templar_high_templar_default_3"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Protoss_profile_zealots",
+    "Name": "Zealots",
+    "Type": "Profile",
+    "BaseId": "base_round_40",
+    "Children": [
+      {
+        "Id": "pdf_Protoss_stat_zealots"
+      },
+      {
+        "Id": "pdf_Protoss_rule_zealots_default_0"
+      },
+      {
+        "Id": "pdf_Protoss_equipment_zealots_default_1"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Protoss_profile_zeratul",
+    "Name": "Zeratul",
+    "Type": "Profile",
+    "BaseId": "base_round_40",
+    "Children": [
+      {
+        "Id": "pdf_Protoss_stat_zeratul"
+      },
+      {
+        "Id": "pdf_Protoss_rule_zeratul_default_0"
+      },
+      {
+        "Id": "pdf_Protoss_rule_zeratul_default_1"
+      },
+      {
+        "Id": "pdf_Protoss_rule_zeratul_default_2"
+      },
+      {
+        "Id": "pdf_Protoss_equipment_zeratul_default_3"
+      },
+      {
+        "Id": "pdf_Protoss_rule_zeratul_default_4"
+      }
+    ]
+  }
+]

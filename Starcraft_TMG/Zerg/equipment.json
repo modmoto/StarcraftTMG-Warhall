@@ -1,0 +1,158 @@
+[
+  {
+    "Id": "pdf_Zerg_equipment_bile_launcher_default_2",
+    "Name": "BILE BOMB",
+    "Type": "Equipment",
+    "Description": "Assault Weapon\nRng: 12\nTgt: Ground\nRoA: 6\nHit: 3+\nSurge: Light, Armoured\nS.Die: D3\nDmg: 1\nKeyword: PIERCE Armoured (2), PINPOINT"
+  },
+  {
+    "Id": "pdf_Zerg_equipment_corpsers_roach_default_2",
+    "Name": "ACID SALIVA",
+    "Type": "Equipment",
+    "Description": "Assault Weapon\nRng: 8\nTgt: Ground\nRoA: 2\nHit: 3+\nSurge: -\nS.Die: -\nDmg: 1\nKeyword: -"
+  },
+  {
+    "Id": "pdf_Zerg_equipment_corpsers_roach_default_4",
+    "Name": "CLAWS",
+    "Type": "Equipment",
+    "Description": "Combat Weapon\nRng: E\nTgt: Ground\nRoA: 3\nHit: 4+\nSurge: Light\nS.Die: D3+1\nDmg: 1\nKeyword: -"
+  },
+  {
+    "Id": "pdf_Zerg_equipment_defiler_default_3",
+    "Name": "CLAWS",
+    "Type": "Equipment",
+    "Description": "Combat Weapon\nRng: E\nTgt: Ground\nRoA: 4\nHit: 3+\nSurge: -\nS.Die: -\nDmg: 1\nKeyword: -"
+  },
+  {
+    "Id": "pdf_Zerg_equipment_hydralisks_default_1",
+    "Name": "NEEDLE SPINES",
+    "Type": "Equipment",
+    "Description": "Assault Weapon\nRng: 12\nTgt: All\nRoA: 3\nHit: 3+\nSurge: Light, Armoured\nS.Die: D3+1\nDmg: 2\nKeyword: -"
+  },
+  {
+    "Id": "pdf_Zerg_equipment_hydralisks_default_3",
+    "Name": "SCYTHE",
+    "Type": "Equipment",
+    "Description": "Combat Weapon\nRng: E\nTgt: Ground\nRoA: 2\nHit: 4+\nSurge: -\nS.Die: -\nDmg: 1\nKeyword: -"
+  },
+  {
+    "Id": "pdf_Zerg_equipment_kerrigan_default_2",
+    "Name": "ENERGY BLAST",
+    "Type": "Equipment",
+    "Description": "Assault Weapon\nRng: 8\nTgt: All\nRoA: 5\nHit: 3+\nSurge: Light, Armoured\nS.Die: D3\nDmg: 1\nKeyword: -"
+  },
+  {
+    "Id": "pdf_Zerg_equipment_kerrigan_default_4",
+    "Name": "BLADES",
+    "Type": "Equipment",
+    "Description": "Combat Weapon\nRng: E\nTgt: Ground\nRoA: 6\nHit: 4+\nSurge: -\nS.Die: -\nDmg: 2\nKeyword: CRITICAL HIT (2)"
+  },
+  {
+    "Id": "pdf_Zerg_equipment_kerrigan_swarm_raptors_zergling_default_2",
+    "Name": "CLAWS",
+    "Type": "Equipment",
+    "Description": "Combat Weapon\nRng: E\nTgt: Ground\nRoA: 2\nHit: 3+\nSurge: Light, Armoured\nS.Die: D6\nDmg: 1\nKeyword: INSTANT"
+  },
+  {
+    "Id": "pdf_Zerg_equipment_queen_default_1",
+    "Name": "TALONS",
+    "Type": "Equipment",
+    "Description": "Assault Weapon\nRng: 6\nTgt: Ground\nRoA: 4\nHit: 4+\nSurge: Light\nS.Die: D3\nDmg: 2\nKeyword: -"
+  },
+  {
+    "Id": "pdf_Zerg_equipment_queen_default_2",
+    "Name": "ACID SPINES",
+    "Type": "Equipment",
+    "Description": "Assault Weapon\nRng: 12\nTgt: Flying\nRoA: 4\nHit: 4+\nSurge: Light, Armoured\nS.Die: D3\nDmg: 2\nKeyword: -"
+  },
+  {
+    "Id": "pdf_Zerg_equipment_queen_default_4",
+    "Name": "TALONS",
+    "Type": "Equipment",
+    "Description": "Combat Weapon\nRng: E\nTgt: Ground\nRoA: 3\nHit: 4+\nSurge: -\nS.Die: -\nDmg: 1\nKeyword: -"
+  },
+  {
+    "Id": "pdf_Zerg_equipment_raptors_zergling_default_2",
+    "Name": "CLAWS",
+    "Type": "Equipment",
+    "Description": "Combat Weapon\nRng: E\nTgt: Ground\nRoA: 2\nHit: 4+\nSurge: Light\nS.Die: D3\nDmg: 1\nKeyword: -"
+  },
+  {
+    "Id": "pdf_Zerg_equipment_ravagers_default_2",
+    "Name": "PLASMA DISCHARGE",
+    "Type": "Equipment",
+    "Description": "Assault Weapon\nRng: 12\nTgt: Ground\nRoA: 4\nHit: 3+\nSurge: Light\nS.Die: D3+1\nDmg: 1\nKeyword: -"
+  },
+  {
+    "Id": "pdf_Zerg_equipment_ravagers_default_4",
+    "Name": "CLAWS",
+    "Type": "Equipment",
+    "Description": "Combat Weapon\nRng: E\nTgt: Ground\nRoA: 2\nHit: 4+\nSurge: -\nS.Die: -\nDmg: 1\nKeyword: -"
+  },
+  {
+    "Id": "pdf_Zerg_equipment_roaches_default_1",
+    "Name": "ACID SALIVA",
+    "Type": "Equipment",
+    "Description": "Assault Weapon\nRng: 8\nTgt: Ground\nRoA: 3\nHit: 3+\nSurge: -\nS.Die: -\nDmg: 1\nKeyword: -"
+  },
+  {
+    "Id": "pdf_Zerg_equipment_roaches_default_3",
+    "Name": "CLAWS",
+    "Type": "Equipment",
+    "Description": "Combat Weapon\nRng: E\nTgt: Ground\nRoA: 2\nHit: 4+\nSurge: -\nS.Die: -\nDmg: 1\nKeyword: -"
+  },
+  {
+    "Id": "pdf_Zerg_equipment_roachling_default_1",
+    "Name": "CLAWS",
+    "Type": "Equipment",
+    "Description": "Combat Weapon\nRng: E\nTgt: Ground\nRoA: 2\nHit: 4+\nSurge: -\nS.Die: -\nDmg: 1\nKeyword: -"
+  },
+  {
+    "Id": "pdf_Zerg_equipment_swarmlings_default_3",
+    "Name": "CLAWS",
+    "Type": "Equipment",
+    "Description": "Combat Weapon\nRng: E\nTgt: Ground\nRoA: 2\nHit: 5+\nSurge: -\nS.Die: -\nDmg: 1\nKeyword: -"
+  },
+  {
+    "Id": "pdf_Zerg_equipment_vileling_zergling_default_3",
+    "Name": "CLAWS",
+    "Type": "Equipment",
+    "Description": "Combat Weapon\nRng: E\nTgt: Ground\nRoA: 2\nHit: 5+\nSurge: -\nS.Die: -\nDmg: 1\nKeyword: -"
+  },
+  {
+    "Id": "pdf_Zerg_equipment_viles_roach_default_1",
+    "Name": "ACID SALIVA",
+    "Type": "Equipment",
+    "Description": "Assault Weapon\nRng: 8\nTgt: Ground\nRoA: 4\nHit: 3+\nSurge: -\nS.Die: -\nDmg: 1\nKeyword: -"
+  },
+  {
+    "Id": "pdf_Zerg_equipment_viles_roach_default_3",
+    "Name": "VILE CLAWS",
+    "Type": "Equipment",
+    "Description": "Combat Weapon\nRng: E\nTgt: Ground\nRoA: 2\nHit: 4+\nSurge: -\nS.Die: -\nDmg: 1\nKeyword: -"
+  },
+  {
+    "Id": "pdf_Zerg_equipment_zagara_default_2",
+    "Name": "ZAGARA'S TALONS",
+    "Type": "Equipment",
+    "Description": "Assault Weapon\nRng: 8\nTgt: Ground\nRoA: 4\nHit: 3+\nSurge: Light, Armoured\nS.Die: D3\nDmg: 2\nKeyword: -"
+  },
+  {
+    "Id": "pdf_Zerg_equipment_zagara_default_3",
+    "Name": "ZAGARA'S ACID SPINES",
+    "Type": "Equipment",
+    "Description": "Assault Weapon\nRng: 14\nTgt: Flying\nRoA: 8\nHit: 3+\nSurge: Light, Armoured\nS.Die: D3\nDmg: 1\nKeyword: -"
+  },
+  {
+    "Id": "pdf_Zerg_equipment_zagara_default_5",
+    "Name": "TALONS",
+    "Type": "Equipment",
+    "Description": "Combat Weapon\nRng: E\nTgt: Ground\nRoA: 4\nHit: 3+\nSurge: -\nS.Die: -\nDmg: 1\nKeyword: -"
+  },
+  {
+    "Id": "pdf_Zerg_equipment_zerglings_default_2",
+    "Name": "CLAWS",
+    "Type": "Equipment",
+    "Description": "Combat Weapon\nRng: E\nTgt: Ground\nRoA: 2\nHit: 4+\nSurge: Light\nS.Die: D3\nDmg: 1\nKeyword: -"
+  }
+]

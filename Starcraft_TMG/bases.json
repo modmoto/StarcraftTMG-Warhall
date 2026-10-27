@@ -1,9 +1,51 @@
 [
   {
-    "Id": "base_marine",
-    "Name": "Marine (32x32mm Round)",
+    "Id": "base_round_32",
+    "Name": "32 mm round",
     "Shape": 1,
     "Width": 32,
     "Length": 32
+  },
+  {
+    "Id": "base_round_40",
+    "Name": "40 mm round",
+    "Shape": 1,
+    "Width": 40,
+    "Length": 40
+  },
+  {
+    "Id": "base_oval_40x100",
+    "Name": "40 x 100 mm oval",
+    "Shape": 1,
+    "Width": 40,
+    "Length": 100
+  },
+  {
+    "Id": "base_round_50",
+    "Name": "50 mm round",
+    "Shape": 1,
+    "Width": 50,
+    "Length": 50
+  },
+  {
+    "Id": "base_round_80",
+    "Name": "80 mm round",
+    "Shape": 1,
+    "Width": 80,
+    "Length": 80
+  },
+  {
+    "Id": "base_round_100",
+    "Name": "100 mm round",
+    "Shape": 1,
+    "Width": 100,
+    "Length": 100
+  },
+  {
+    "Id": "base_round_150",
+    "Name": "150 mm round",
+    "Shape": 1,
+    "Width": 150,
+    "Length": 150
   }
 ]

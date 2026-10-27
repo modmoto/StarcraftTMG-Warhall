@@ -1,15 +1,227 @@
 [
   {
-    "Id": "stat_marine",
-    "Name": "Marine",
+    "Id": "pdf_Terran_stat_auto_turret",
+    "Name": "Auto-Turret",
     "Type": "Statline",
     "Attributes": {
-      "S": "5"
+      "Spd": "-",
+      "Arm": "5+",
+      "Eva": "-",
+      "HP": "3",
+      "Size": "2",
+      "Shd": "",
+      "Supply": "1-1: 0"
     },
-    "Children": [
-      {
-        "Id": "rule_shield"
-      }
-    ]
+    "Children": []
+  },
+  {
+    "Id": "pdf_Terran_stat_goliath",
+    "Name": "Goliath",
+    "Type": "Statline",
+    "Attributes": {
+      "Spd": "7",
+      "Arm": "4+",
+      "Eva": "-",
+      "HP": "10",
+      "Size": "3",
+      "Shd": "",
+      "Supply": "1-1: 2"
+    },
+    "Children": []
+  },
+  {
+    "Id": "pdf_Terran_stat_holo_decoy",
+    "Name": "Holo Decoy",
+    "Type": "Statline",
+    "Attributes": {
+      "Spd": "7",
+      "Arm": "6+",
+      "Eva": "6+",
+      "HP": "1",
+      "Size": "2",
+      "Shd": "",
+      "Supply": "1-1: 0"
+    },
+    "Children": []
+  },
+  {
+    "Id": "pdf_Terran_stat_jim_raynor",
+    "Name": "Jim Raynor",
+    "Type": "Statline",
+    "Attributes": {
+      "Spd": "7",
+      "Arm": "4+",
+      "Eva": "5+",
+      "HP": "8",
+      "Size": "2",
+      "Shd": "",
+      "Supply": "1-1: 1"
+    },
+    "Children": []
+  },
+  {
+    "Id": "pdf_Terran_stat_marauders",
+    "Name": "Marauders",
+    "Type": "Statline",
+    "Attributes": {
+      "Spd": "4/7",
+      "Arm": "4+",
+      "Eva": "6+",
+      "HP": "5",
+      "Size": "2",
+      "Shd": "",
+      "Supply": "1-1: 0 | 2-2: 1 | 3-4: 2"
+    },
+    "Children": []
+  },
+  {
+    "Id": "pdf_Terran_stat_medics",
+    "Name": "Medics",
+    "Type": "Statline",
+    "Attributes": {
+      "Spd": "4/7",
+      "Arm": "5+",
+      "Eva": "5+",
+      "HP": "2",
+      "Size": "2",
+      "Shd": "",
+      "Supply": "1-1: 0 | 2-3: 1"
+    },
+    "Children": []
+  },
+  {
+    "Id": "pdf_Terran_stat_nova_assault_mode",
+    "Name": "Nova Assault Mode",
+    "Type": "Statline",
+    "Attributes": {
+      "Spd": "7",
+      "Arm": "5+",
+      "Eva": "5+",
+      "HP": "8",
+      "Size": "2",
+      "Shd": "",
+      "Supply": "1-1: 1"
+    },
+    "Children": []
+  },
+  {
+    "Id": "pdf_Terran_stat_nova_stealth_mode",
+    "Name": "Nova Stealth Mode",
+    "Type": "Statline",
+    "Attributes": {
+      "Spd": "7",
+      "Arm": "5+",
+      "Eva": "5+",
+      "HP": "8",
+      "Size": "2",
+      "Shd": "",
+      "Supply": "1-1: 1"
+    },
+    "Children": []
+  },
+  {
+    "Id": "pdf_Terran_stat_point_defense_drone",
+    "Name": "Point Defense Drone",
+    "Type": "Statline",
+    "Attributes": {
+      "Spd": "-",
+      "Arm": "6+",
+      "Eva": "6+",
+      "HP": "3",
+      "Size": "-",
+      "Shd": "",
+      "Supply": "1-1: 0"
+    },
+    "Children": []
+  },
+  {
+    "Id": "pdf_Terran_stat_raven",
+    "Name": "Raven",
+    "Type": "Statline",
+    "Attributes": {
+      "Spd": "7",
+      "Arm": "5+",
+      "Eva": "6+",
+      "HP": "8",
+      "Size": "-",
+      "Shd": "",
+      "Supply": "1-1: 1"
+    },
+    "Children": []
+  },
+  {
+    "Id": "pdf_Terran_stat_raynor_s_raiders",
+    "Name": "Raynor's Raiders",
+    "Type": "Statline",
+    "Attributes": {
+      "Spd": "4/7",
+      "Arm": "5+",
+      "Eva": "5+",
+      "HP": "2",
+      "Size": "2",
+      "Shd": "",
+      "Supply": "1-6: 1"
+    },
+    "Children": []
+  },
+  {
+    "Id": "pdf_Terran_stat_sabotage_drone",
+    "Name": "Sabotage Drone",
+    "Type": "Statline",
+    "Attributes": {
+      "Spd": "-",
+      "Arm": "6+",
+      "Eva": "6+",
+      "HP": "3",
+      "Size": "1",
+      "Shd": "",
+      "Supply": "1-1: 0"
+    },
+    "Children": []
+  },
+  {
+    "Id": "pdf_Terran_stat_siege_tank",
+    "Name": "Siege Tank",
+    "Type": "Statline",
+    "Attributes": {
+      "Spd": "7",
+      "Arm": "5+",
+      "Eva": "-",
+      "HP": "14",
+      "Size": "2",
+      "Shd": "",
+      "Supply": "1-1: 2"
+    },
+    "Children": []
+  },
+  {
+    "Id": "pdf_Terran_stat_spec_ops_marauder_marauder",
+    "Name": "Spec Ops Marauder (Marauder)",
+    "Type": "Statline",
+    "Attributes": {
+      "Spd": "4/7",
+      "Arm": "4+",
+      "Eva": "6+",
+      "HP": "5",
+      "Size": "2",
+      "Shd": "",
+      "Supply": "1-1: 0 | 2-2: 1"
+    },
+    "Children": []
+  },
+  {
+    "Id": "stat_marine",
+    "Name": "Marines",
+    "Type": "Statline",
+    "Attributes": {
+      "Spd": "4/7",
+      "Arm": "5+",
+      "Eva": "5+",
+      "HP": "2",
+      "Size": "2",
+      "Shd": "",
+      "Supply": "1-3: 0 | 4-6: 1 | 7-9: 2"
+    },
+    "Children": []
   }
 ]

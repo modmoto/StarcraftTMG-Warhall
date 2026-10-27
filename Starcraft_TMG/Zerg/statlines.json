@@ -1,0 +1,257 @@
+[
+  {
+    "Id": "pdf_Zerg_stat_bile_launcher",
+    "Name": "Bile Launcher",
+    "Type": "Statline",
+    "Attributes": {
+      "Spd": "-",
+      "Arm": "4+",
+      "Eva": "-",
+      "HP": "10",
+      "Size": "3",
+      "Shd": "",
+      "Supply": "1-1: 1"
+    },
+    "Children": []
+  },
+  {
+    "Id": "pdf_Zerg_stat_corpsers_roach",
+    "Name": "Corpsers (Roach)",
+    "Type": "Statline",
+    "Attributes": {
+      "Spd": "4/7",
+      "Arm": "3+",
+      "Eva": "5+",
+      "HP": "4",
+      "Size": "2",
+      "Shd": "",
+      "Supply": "1-1: 0 | 2-3: 1"
+    },
+    "Children": []
+  },
+  {
+    "Id": "pdf_Zerg_stat_defiler",
+    "Name": "Defiler",
+    "Type": "Statline",
+    "Attributes": {
+      "Spd": "7",
+      "Arm": "5+",
+      "Eva": "5+",
+      "HP": "8",
+      "Size": "2",
+      "Shd": "",
+      "Supply": "1-1: 1"
+    },
+    "Children": []
+  },
+  {
+    "Id": "pdf_Zerg_stat_hydralisks",
+    "Name": "Hydralisks",
+    "Type": "Statline",
+    "Attributes": {
+      "Spd": "4/8",
+      "Arm": "5+",
+      "Eva": "5+",
+      "HP": "4",
+      "Size": "2",
+      "Shd": "",
+      "Supply": "1-1: 1 | 2-2: 2 | 3-4: 3"
+    },
+    "Children": []
+  },
+  {
+    "Id": "pdf_Zerg_stat_kerrigan",
+    "Name": "Kerrigan",
+    "Type": "Statline",
+    "Attributes": {
+      "Spd": "7",
+      "Arm": "5+",
+      "Eva": "6+",
+      "HP": "9",
+      "Size": "2",
+      "Shd": "",
+      "Supply": "1-1: 1"
+    },
+    "Children": []
+  },
+  {
+    "Id": "pdf_Zerg_stat_kerrigan_swarm_raptors_zergling",
+    "Name": "Kerrigan Swarm Raptors (Zergling)",
+    "Type": "Statline",
+    "Attributes": {
+      "Spd": "5/9",
+      "Arm": "5+",
+      "Eva": "4+",
+      "HP": "2",
+      "Size": "1",
+      "Shd": "",
+      "Supply": "1-3: 0 | 4-6: 1"
+    },
+    "Children": []
+  },
+  {
+    "Id": "pdf_Zerg_stat_omega_worm",
+    "Name": "Omega Worm",
+    "Type": "Statline",
+    "Attributes": {
+      "Spd": "-",
+      "Arm": "5+",
+      "Eva": "-",
+      "HP": "10",
+      "Size": "3",
+      "Shd": "",
+      "Supply": "1-1: 0"
+    },
+    "Children": []
+  },
+  {
+    "Id": "pdf_Zerg_stat_queen",
+    "Name": "Queen",
+    "Type": "Statline",
+    "Attributes": {
+      "Spd": "4",
+      "Arm": "4+",
+      "Eva": "-",
+      "HP": "9",
+      "Size": "3",
+      "Shd": "",
+      "Supply": "1-1: 1"
+    },
+    "Children": []
+  },
+  {
+    "Id": "pdf_Zerg_stat_raptors_zergling",
+    "Name": "Raptors (Zergling)",
+    "Type": "Statline",
+    "Attributes": {
+      "Spd": "5/9",
+      "Arm": "6+",
+      "Eva": "4+",
+      "HP": "1",
+      "Size": "1",
+      "Shd": "",
+      "Supply": "1-6: 0 | 7-12: 1 | 13-18: 2"
+    },
+    "Children": []
+  },
+  {
+    "Id": "pdf_Zerg_stat_ravagers",
+    "Name": "Ravagers",
+    "Type": "Statline",
+    "Attributes": {
+      "Spd": "4/8",
+      "Arm": "5+",
+      "Eva": "5+",
+      "HP": "9",
+      "Size": "3",
+      "Shd": "",
+      "Supply": "1-1: 1 | 2-2: 2"
+    },
+    "Children": []
+  },
+  {
+    "Id": "pdf_Zerg_stat_roaches",
+    "Name": "Roaches",
+    "Type": "Statline",
+    "Attributes": {
+      "Spd": "4/7",
+      "Arm": "3+",
+      "Eva": "5+",
+      "HP": "4",
+      "Size": "2",
+      "Shd": "",
+      "Supply": "1-1: 0 | 2-3: 1"
+    },
+    "Children": []
+  },
+  {
+    "Id": "pdf_Zerg_stat_roachling",
+    "Name": "Roachling",
+    "Type": "Statline",
+    "Attributes": {
+      "Spd": "4/7",
+      "Arm": "6+",
+      "Eva": "6+",
+      "HP": "1",
+      "Size": "1",
+      "Shd": "",
+      "Supply": "1-3: 0"
+    },
+    "Children": []
+  },
+  {
+    "Id": "pdf_Zerg_stat_swarmlings",
+    "Name": "Swarmlings",
+    "Type": "Statline",
+    "Attributes": {
+      "Spd": "4/8",
+      "Arm": "6+",
+      "Eva": "5+",
+      "HP": "1",
+      "Size": "1",
+      "Shd": "",
+      "Supply": "1-6: 0 | 7-18: 1"
+    },
+    "Children": []
+  },
+  {
+    "Id": "pdf_Zerg_stat_vileling_zergling",
+    "Name": "Vileling (Zergling)",
+    "Type": "Statline",
+    "Attributes": {
+      "Spd": "4/8",
+      "Arm": "6+",
+      "Eva": "5+",
+      "HP": "1",
+      "Size": "1",
+      "Shd": "",
+      "Supply": "1-6: 1 | 7-18: 2"
+    },
+    "Children": []
+  },
+  {
+    "Id": "pdf_Zerg_stat_viles_roach",
+    "Name": "Viles (Roach)",
+    "Type": "Statline",
+    "Attributes": {
+      "Spd": "4/7",
+      "Arm": "3+",
+      "Eva": "5+",
+      "HP": "4",
+      "Size": "2",
+      "Shd": "",
+      "Supply": "1-1: 0 | 2-3: 1"
+    },
+    "Children": []
+  },
+  {
+    "Id": "pdf_Zerg_stat_zagara",
+    "Name": "Zagara",
+    "Type": "Statline",
+    "Attributes": {
+      "Spd": "7",
+      "Arm": "4+",
+      "Eva": "6+",
+      "HP": "10",
+      "Size": "3",
+      "Shd": "",
+      "Supply": "1-1: 1"
+    },
+    "Children": []
+  },
+  {
+    "Id": "pdf_Zerg_stat_zerglings",
+    "Name": "Zerglings",
+    "Type": "Statline",
+    "Attributes": {
+      "Spd": "4/8",
+      "Arm": "6+",
+      "Eva": "4+",
+      "HP": "1",
+      "Size": "1",
+      "Shd": "",
+      "Supply": "1-6: 0 | 7-12: 1 | 13-18: 2"
+    },
+    "Children": []
+  }
+]

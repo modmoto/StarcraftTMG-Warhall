@@ -1,12 +1,331 @@
 [
   {
-    "Id": "prof_marine",
-    "Name": "Marine",
+    "Id": "pdf_Terran_profile_auto_turret",
+    "Name": "Auto-Turret",
     "Type": "Profile",
-    "BaseId": "base_marine",
+    "BaseId": "base_round_40",
+    "Children": [
+      {
+        "Id": "pdf_Terran_stat_auto_turret"
+      },
+      {
+        "Id": "pdf_Terran_rule_auto_turret_default_0"
+      },
+      {
+        "Id": "pdf_Terran_equipment_auto_turret_default_1"
+      },
+      {
+        "Id": "pdf_Terran_rule_auto_turret_default_2"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Terran_profile_goliath",
+    "Name": "Goliath",
+    "Type": "Profile",
+    "BaseId": "base_round_80",
+    "Children": [
+      {
+        "Id": "pdf_Terran_stat_goliath"
+      },
+      {
+        "Id": "pdf_Terran_rule_goliath_default_0"
+      },
+      {
+        "Id": "pdf_Terran_equipment_goliath_default_1"
+      },
+      {
+        "Id": "pdf_Terran_equipment_goliath_default_2"
+      },
+      {
+        "Id": "pdf_Terran_equipment_goliath_default_3"
+      },
+      {
+        "Id": "pdf_Terran_rule_goliath_default_4"
+      },
+      {
+        "Id": "pdf_Terran_equipment_goliath_default_5"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Terran_profile_holo_decoy",
+    "Name": "Holo Decoy",
+    "Type": "Profile",
+    "BaseId": "base_round_32",
+    "Children": [
+      {
+        "Id": "pdf_Terran_stat_holo_decoy"
+      },
+      {
+        "Id": "pdf_Terran_rule_holo_decoy_default_0"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Terran_profile_jim_raynor",
+    "Name": "Jim Raynor",
+    "Type": "Profile",
+    "BaseId": "base_round_40",
+    "Children": [
+      {
+        "Id": "pdf_Terran_stat_jim_raynor"
+      },
+      {
+        "Id": "pdf_Terran_rule_jim_raynor_default_0"
+      },
+      {
+        "Id": "pdf_Terran_rule_jim_raynor_default_1"
+      },
+      {
+        "Id": "pdf_Terran_equipment_jim_raynor_default_2"
+      },
+      {
+        "Id": "pdf_Terran_equipment_jim_raynor_default_3"
+      },
+      {
+        "Id": "pdf_Terran_equipment_jim_raynor_default_4"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Terran_profile_marauders",
+    "Name": "Marauders",
+    "Type": "Profile",
+    "BaseId": "base_round_50",
+    "Children": [
+      {
+        "Id": "pdf_Terran_stat_marauders"
+      },
+      {
+        "Id": "pdf_Terran_rule_marauders_default_0"
+      },
+      {
+        "Id": "pdf_Terran_equipment_marauders_default_1"
+      },
+      {
+        "Id": "pdf_Terran_rule_marauders_default_2"
+      },
+      {
+        "Id": "pdf_Terran_equipment_marauders_default_3"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Terran_profile_medics",
+    "Name": "Medics",
+    "Type": "Profile",
+    "BaseId": "base_round_32",
+    "Children": [
+      {
+        "Id": "pdf_Terran_stat_medics"
+      },
+      {
+        "Id": "pdf_Terran_rule_medics_default_0"
+      },
+      {
+        "Id": "pdf_Terran_rule_medics_default_1"
+      },
+      {
+        "Id": "pdf_Terran_equipment_medics_default_2"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Terran_profile_nova_assault_mode",
+    "Name": "Nova Assault Mode",
+    "Type": "Profile",
+    "BaseId": "base_round_40",
+    "Children": [
+      {
+        "Id": "pdf_Terran_stat_nova_assault_mode"
+      },
+      {
+        "Id": "pdf_Terran_rule_nova_assault_mode_default_0"
+      },
+      {
+        "Id": "pdf_Terran_rule_nova_assault_mode_default_1"
+      },
+      {
+        "Id": "pdf_Terran_equipment_nova_assault_mode_default_2"
+      },
+      {
+        "Id": "pdf_Terran_rule_nova_assault_mode_default_3"
+      },
+      {
+        "Id": "pdf_Terran_equipment_nova_assault_mode_default_4"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Terran_profile_nova_stealth_mode",
+    "Name": "Nova Stealth Mode",
+    "Type": "Profile",
+    "BaseId": "base_round_40",
+    "Children": [
+      {
+        "Id": "pdf_Terran_stat_nova_stealth_mode"
+      },
+      {
+        "Id": "pdf_Terran_rule_nova_stealth_mode_default_0"
+      },
+      {
+        "Id": "pdf_Terran_rule_nova_stealth_mode_default_1"
+      },
+      {
+        "Id": "pdf_Terran_equipment_nova_stealth_mode_default_2"
+      },
+      {
+        "Id": "pdf_Terran_rule_nova_stealth_mode_default_3"
+      },
+      {
+        "Id": "pdf_Terran_equipment_nova_stealth_mode_default_4"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Terran_profile_point_defense_drone",
+    "Name": "Point Defense Drone",
+    "Type": "Profile",
+    "BaseId": "base_round_32",
+    "Children": [
+      {
+        "Id": "pdf_Terran_stat_point_defense_drone"
+      },
+      {
+        "Id": "pdf_Terran_rule_point_defense_drone_default_0"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Terran_profile_raven",
+    "Name": "Raven",
+    "Type": "Profile",
+    "BaseId": "base_round_100",
+    "Children": [
+      {
+        "Id": "pdf_Terran_stat_raven"
+      },
+      {
+        "Id": "pdf_Terran_rule_raven_default_0"
+      },
+      {
+        "Id": "pdf_Terran_rule_raven_default_1"
+      },
+      {
+        "Id": "pdf_Terran_equipment_raven_default_2"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Terran_profile_raynor_s_raiders",
+    "Name": "Raynor's Raiders",
+    "Type": "Profile",
+    "BaseId": "base_round_32",
+    "Children": [
+      {
+        "Id": "pdf_Terran_stat_raynor_s_raiders"
+      },
+      {
+        "Id": "pdf_Terran_rule_raynor_s_raiders_default_0"
+      },
+      {
+        "Id": "pdf_Terran_equipment_raynor_s_raiders_default_1"
+      },
+      {
+        "Id": "pdf_Terran_rule_raynor_s_raiders_default_2"
+      },
+      {
+        "Id": "pdf_Terran_equipment_raynor_s_raiders_default_3"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Terran_profile_sabotage_drone",
+    "Name": "Sabotage Drone",
+    "Type": "Profile",
+    "BaseId": "base_round_40",
+    "Children": [
+      {
+        "Id": "pdf_Terran_stat_sabotage_drone"
+      },
+      {
+        "Id": "pdf_Terran_rule_sabotage_drone_default_0"
+      },
+      {
+        "Id": "pdf_Terran_rule_sabotage_drone_default_1"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Terran_profile_siege_tank",
+    "Name": "Siege Tank",
+    "Type": "Profile",
+    "BaseId": "base_round_150",
+    "Children": [
+      {
+        "Id": "pdf_Terran_stat_siege_tank"
+      },
+      {
+        "Id": "pdf_Terran_rule_siege_tank_default_0"
+      },
+      {
+        "Id": "pdf_Terran_equipment_siege_tank_default_1"
+      },
+      {
+        "Id": "pdf_Terran_equipment_siege_tank_default_2"
+      },
+      {
+        "Id": "pdf_Terran_rule_siege_tank_default_3"
+      },
+      {
+        "Id": "pdf_Terran_equipment_siege_tank_default_4"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Terran_profile_spec_ops_marauder_marauder",
+    "Name": "Spec Ops Marauder (Marauder)",
+    "Type": "Profile",
+    "BaseId": "base_round_50",
+    "Children": [
+      {
+        "Id": "pdf_Terran_stat_spec_ops_marauder_marauder"
+      },
+      {
+        "Id": "pdf_Terran_rule_spec_ops_marauder_marauder_default_0"
+      },
+      {
+        "Id": "pdf_Terran_rule_spec_ops_marauder_marauder_default_1"
+      },
+      {
+        "Id": "pdf_Terran_equipment_spec_ops_marauder_marauder_default_2"
+      },
+      {
+        "Id": "pdf_Terran_rule_spec_ops_marauder_marauder_default_3"
+      },
+      {
+        "Id": "pdf_Terran_equipment_spec_ops_marauder_marauder_default_4"
+      }
+    ]
+  },
+  {
+    "Id": "prof_marine",
+    "Name": "Marines",
+    "Type": "Profile",
+    "BaseId": "base_round_32",
     "Children": [
       {
         "Id": "stat_marine"
+      },
+      {
+        "Id": "pdf_Terran_rule_marines_default_0"
+      },
+      {
+        "Id": "pdf_Terran_equipment_marines_default_1"
+      },
+      {
+        "Id": "pdf_Terran_equipment_marines_default_2"
       }
     ]
   }

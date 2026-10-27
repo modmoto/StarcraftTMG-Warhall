@@ -1,0 +1,127 @@
+# StarCraft TMG data for Warhall
+
+Convert either the official printable unit cards (the **default**) or a local [StarcraftTMG-NR](https://github.com/modmoto/StarcraftTMG-NR) checkout into Warhall JSON, following the structure demonstrated by [ToW-WDS](https://github.com/christophcarstensen/ToW-WDS).
+
+Requires **Node.js 22.13 or newer** (Node 24 recommended), with npm. The PDF path does not require Python, OCR, or a New Recruit checkout.
+
+## Generate from official PDFs (default)
+
+From this repository:
+
+```sh
+npm ci
+npm run convert
+npm run validate
+```
+
+`npm run convert` discovers the English printable faction card sheets on the [official downloads page](https://archon-studio.com/downloads/starcraft-tabletop-miniatures-game), downloads every advertised wave, parses the cards and writes `Starcraft_TMG/`. At the inspected release this is nine PDFs, 77 pages and **45 unit profiles**, including Nova's two modes and summoned units. Tactical, mission and deployment pages are classified separately in the report and are not emitted as miniatures.
+
+To explicitly select the PDF source, validate without changing the generated package, or use a staging directory:
+
+```sh
+npm run convert -- --source pdf --dry-run
+npm run convert -- --source pdf --output /path/to/staging
+```
+
+Online runs re-download the official card set to pick up changed content. PDFs and a checksum manifest are cached in `.cache/pdf/` (ignored by Git). Dry runs may download/update that source cache but do not write the Warhall output.
+
+To regenerate from exactly the last downloaded source set, without network access:
+
+```sh
+npm run convert -- --offline
+```
+
+To use official PDFs already downloaded to a folder:
+
+```sh
+npm run convert -- --pdf-dir /path/to/cards
+```
+
+Local filenames must retain the official English naming pattern, for example `StarCraft-Terran-P2P-Card-Sheets-A4_EN.pdf` and `StarCraft-Terran-P2P-W3-Card-Sheets-A4_EN.pdf`. Supply sheets for all three factions. `--cache-dir PATH` changes the download cache location. A download, checksum or parsing failure stops the conversion; it never silently switches to New Recruit.
+
+## Generate from New Recruit instead
+
+Clone the source repository beside this repository (or point to an existing checkout):
+
+```sh
+git clone https://github.com/modmoto/StarcraftTMG-NR.git ../StarcraftTMG-NR
+npm run convert -- --source new-recruit
+npm run convert -- --source new-recruit --nr-dir /path/to/StarcraftTMG-NR --output /path/to/staging
+```
+
+This reads local `.cat` and `.gst` files. It does not update the checkout automatically. The inspected checkout yields **31 units** and warns that the catalogues request game-system revision 13 while its `.gst` reports revision 12. Its content predates the newer official PDFs.
+
+## Parsing and validation
+
+The PDF parser reads text coordinates through PDF.js. It normalizes rotated card faces, removes duplicate text outlines, reconstructs split movement values, and reads weapon columns using their printed headings. Wrapped weapon names, surge types and keywords are retained. Default card weapons and phase-specific ability text are kept separate from the optional upgrade face. Abilities are grouped by phase, rather than interpreted as executable rules.
+
+Missing or conflicting required stats, unreadable weapon tables, unknown unit layouts and duplicate unit cards fail before generated files are written. The parser supports the current A4 print-and-play template; it does not claim to understand arbitrary future layouts or scanned image-only cards. Source PDF filenames, URLs, SHA-256 hashes, page classifications and per-unit page/text provenance are recorded in `Starcraft_TMG/import-report.json`.
+
+`npm run validate` checks file coverage, unique IDs, references, hierarchy membership, HP and positive round/oval dimensions. `npm test` exercises both source adapters, rotated/duplicated card text, wrapped weapons, invalid data and cache integrity. Tests run without network access; the three real New Recruit integration tests are skipped if that optional sibling checkout is absent. Other New Recruit tests use small synthetic fixtures. The PDF tests use text-position snapshots from seven actual official card pages; full binary PDF parsing was also exercised against all nine downloaded documents.
+
+## Output and base sizes
+
+`manifest.json` lists package files. `hierarchy.json` organizes factions and categories. Faction `units.json` records point to profiles, which reference bases, statlines, equipment and rules. HP is the configured wound attribute; shields stay separate. The original Marine unit/profile/stat IDs are preserved in both modes. Other records have source-specific IDs, so switching source can change IDs and should be tested before reusing saved games.
+
+**PDF mode reads base dimensions and shape directly from each card.** It does not read `base-sizes.json`. A printed round diameter becomes a circular base; printed unequal axes become an oval. Hydralisks therefore use the printed 40 x 100 mm oval. Missing/unreadable footprints stop conversion instead of falling back to the map.
+
+**Flight stands are the one explicit convention:** when a PDF says FLIGHT STAND without dimensions, use a provisional 100 mm round base, as requested by the user. This is not claimed as an official diameter.
+
+**New Recruit mode uses base-sizes.json**, since the catalogues do not provide physical base dimensions. Unit overrides win over the defaults (32 mm, or 40 mm for Hero-category units). A number sets a round diameter; an object sets an oval, for example:
+
+```json
+{"shape":"oval","widthMm":40,"lengthMm":100}
+```
+
+Warhall curved bases use `Shape: 1`; the axes are equal for circles and unequal for ovals. The import report records the applied footprint and its source. PDF reports include a base-size policy and per-card footprint provenance; New Recruit reports include the mapping used.
+
+The converter preserves existing game configuration, tokens, terrain, objectives, deployments and version settings, except for setting WoundsAttribute to HP. Generated faction data, bases, hierarchy, global placeholder lists and manifest are replaced. Release version numbers remain maintainer-controlled.
+
+## Current scope
+
+- Manual army placement, with no 3D models or roster import.
+- Default stats, weapons and abilities. Upgrade descriptions and weapon replacement notes are retained, but changes are applied manually. New Recruit conditional modifiers/legality are not evaluated.
+- Shields are displayed separately; their loss and restoration are manual.
+- The PDF option reads unit cards, not the separate cost tables, FAQ/errata or keyword glossary. It does not reconcile conflicting documents or automate combat. PDF costs are not filled from New Recruit or invented.
+- All variants, modes and summoned units are selectable; eligibility and alternate-mode switching are manual.
+- The JSON package has local integrity tests. Loading and rendering in the Warhall client remain unverified.
+
+
+## Code layout
+
+The command-line scripts are thin entry points. Both source readers return the same plain unit model; the Warhall builder handles the output. The PDF path does not create intermediate New Recruit/XML objects.
+
+```text
+scripts/
+  convert.mjs                 Convert command
+  validate.mjs                Validation command
+src/
+  cli.mjs                     Arguments and command orchestration
+  convert.mjs                 Source selection and package building
+  io.mjs                      JSON files and checksums
+  paths.mjs                   Default directories
+  sources/
+    new-recruit.mjs           XML loading, references and normalization
+    pdf/
+      index.mjs               PDF document loading
+      downloads.mjs           Discovery, downloads and cache
+      layout.mjs              Text positions and duplicate outlines
+      card-parser.mjs         Unit stats, abilities and printed bases
+      weapons.mjs             Weapon tables and wrapped rows
+      names.mjs               Text normalization and unit names
+      adapter.mjs             Cards into the shared unit model
+  warhall/
+    package.mjs               Warhall records and file output
+    bases.mjs                 PDF footprints and New Recruit mapping
+    descriptions.mjs          Display text
+    report.mjs                Source provenance and limitations
+    validate.mjs              Package integrity checks
+```
+
+Formatting uses Prettier with two-space indentation, single quotes and a 100-column target. Generated game data and raw PDF fixtures are excluded from formatting.
+
+```sh
+npm run format
+npm run format:check
+npm test
+```

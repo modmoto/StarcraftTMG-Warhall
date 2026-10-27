@@ -1,0 +1,390 @@
+[
+  {
+    "Id": "pdf_Zerg_profile_bile_launcher",
+    "Name": "Bile Launcher",
+    "Type": "Profile",
+    "BaseId": "base_round_100",
+    "Children": [
+      {
+        "Id": "pdf_Zerg_stat_bile_launcher"
+      },
+      {
+        "Id": "pdf_Zerg_rule_bile_launcher_default_0"
+      },
+      {
+        "Id": "pdf_Zerg_rule_bile_launcher_default_1"
+      },
+      {
+        "Id": "pdf_Zerg_equipment_bile_launcher_default_2"
+      },
+      {
+        "Id": "pdf_Zerg_rule_bile_launcher_default_3"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Zerg_profile_corpsers_roach",
+    "Name": "Corpsers (Roach)",
+    "Type": "Profile",
+    "BaseId": "base_round_50",
+    "Children": [
+      {
+        "Id": "pdf_Zerg_stat_corpsers_roach"
+      },
+      {
+        "Id": "pdf_Zerg_rule_corpsers_roach_default_0"
+      },
+      {
+        "Id": "pdf_Zerg_rule_corpsers_roach_default_1"
+      },
+      {
+        "Id": "pdf_Zerg_equipment_corpsers_roach_default_2"
+      },
+      {
+        "Id": "pdf_Zerg_rule_corpsers_roach_default_3"
+      },
+      {
+        "Id": "pdf_Zerg_equipment_corpsers_roach_default_4"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Zerg_profile_defiler",
+    "Name": "Defiler",
+    "Type": "Profile",
+    "BaseId": "base_round_80",
+    "Children": [
+      {
+        "Id": "pdf_Zerg_stat_defiler"
+      },
+      {
+        "Id": "pdf_Zerg_rule_defiler_default_0"
+      },
+      {
+        "Id": "pdf_Zerg_rule_defiler_default_1"
+      },
+      {
+        "Id": "pdf_Zerg_rule_defiler_default_2"
+      },
+      {
+        "Id": "pdf_Zerg_equipment_defiler_default_3"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Zerg_profile_hydralisks",
+    "Name": "Hydralisks",
+    "Type": "Profile",
+    "BaseId": "base_oval_40x100",
+    "Children": [
+      {
+        "Id": "pdf_Zerg_stat_hydralisks"
+      },
+      {
+        "Id": "pdf_Zerg_rule_hydralisks_default_0"
+      },
+      {
+        "Id": "pdf_Zerg_equipment_hydralisks_default_1"
+      },
+      {
+        "Id": "pdf_Zerg_rule_hydralisks_default_2"
+      },
+      {
+        "Id": "pdf_Zerg_equipment_hydralisks_default_3"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Zerg_profile_kerrigan",
+    "Name": "Kerrigan",
+    "Type": "Profile",
+    "BaseId": "base_round_40",
+    "Children": [
+      {
+        "Id": "pdf_Zerg_stat_kerrigan"
+      },
+      {
+        "Id": "pdf_Zerg_rule_kerrigan_default_0"
+      },
+      {
+        "Id": "pdf_Zerg_rule_kerrigan_default_1"
+      },
+      {
+        "Id": "pdf_Zerg_equipment_kerrigan_default_2"
+      },
+      {
+        "Id": "pdf_Zerg_rule_kerrigan_default_3"
+      },
+      {
+        "Id": "pdf_Zerg_equipment_kerrigan_default_4"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Zerg_profile_kerrigan_swarm_raptors_zergling",
+    "Name": "Kerrigan Swarm Raptors (Zergling)",
+    "Type": "Profile",
+    "BaseId": "base_round_32",
+    "Children": [
+      {
+        "Id": "pdf_Zerg_stat_kerrigan_swarm_raptors_zergling"
+      },
+      {
+        "Id": "pdf_Zerg_rule_kerrigan_swarm_raptors_zergling_default_0"
+      },
+      {
+        "Id": "pdf_Zerg_rule_kerrigan_swarm_raptors_zergling_default_1"
+      },
+      {
+        "Id": "pdf_Zerg_equipment_kerrigan_swarm_raptors_zergling_default_2"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Zerg_profile_omega_worm",
+    "Name": "Omega Worm",
+    "Type": "Profile",
+    "BaseId": "base_round_80",
+    "Children": [
+      {
+        "Id": "pdf_Zerg_stat_omega_worm"
+      },
+      {
+        "Id": "pdf_Zerg_rule_omega_worm_default_0"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Zerg_profile_queen",
+    "Name": "Queen",
+    "Type": "Profile",
+    "BaseId": "base_round_80",
+    "Children": [
+      {
+        "Id": "pdf_Zerg_stat_queen"
+      },
+      {
+        "Id": "pdf_Zerg_rule_queen_default_0"
+      },
+      {
+        "Id": "pdf_Zerg_equipment_queen_default_1"
+      },
+      {
+        "Id": "pdf_Zerg_equipment_queen_default_2"
+      },
+      {
+        "Id": "pdf_Zerg_rule_queen_default_3"
+      },
+      {
+        "Id": "pdf_Zerg_equipment_queen_default_4"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Zerg_profile_raptors_zergling",
+    "Name": "Raptors (Zergling)",
+    "Type": "Profile",
+    "BaseId": "base_round_32",
+    "Children": [
+      {
+        "Id": "pdf_Zerg_stat_raptors_zergling"
+      },
+      {
+        "Id": "pdf_Zerg_rule_raptors_zergling_default_0"
+      },
+      {
+        "Id": "pdf_Zerg_rule_raptors_zergling_default_1"
+      },
+      {
+        "Id": "pdf_Zerg_equipment_raptors_zergling_default_2"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Zerg_profile_ravagers",
+    "Name": "Ravagers",
+    "Type": "Profile",
+    "BaseId": "base_round_80",
+    "Children": [
+      {
+        "Id": "pdf_Zerg_stat_ravagers"
+      },
+      {
+        "Id": "pdf_Zerg_rule_ravagers_default_0"
+      },
+      {
+        "Id": "pdf_Zerg_rule_ravagers_default_1"
+      },
+      {
+        "Id": "pdf_Zerg_equipment_ravagers_default_2"
+      },
+      {
+        "Id": "pdf_Zerg_rule_ravagers_default_3"
+      },
+      {
+        "Id": "pdf_Zerg_equipment_ravagers_default_4"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Zerg_profile_roaches",
+    "Name": "Roaches",
+    "Type": "Profile",
+    "BaseId": "base_round_50",
+    "Children": [
+      {
+        "Id": "pdf_Zerg_stat_roaches"
+      },
+      {
+        "Id": "pdf_Zerg_rule_roaches_default_0"
+      },
+      {
+        "Id": "pdf_Zerg_equipment_roaches_default_1"
+      },
+      {
+        "Id": "pdf_Zerg_rule_roaches_default_2"
+      },
+      {
+        "Id": "pdf_Zerg_equipment_roaches_default_3"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Zerg_profile_roachling",
+    "Name": "Roachling",
+    "Type": "Profile",
+    "BaseId": "base_round_32",
+    "Children": [
+      {
+        "Id": "pdf_Zerg_stat_roachling"
+      },
+      {
+        "Id": "pdf_Zerg_rule_roachling_default_0"
+      },
+      {
+        "Id": "pdf_Zerg_equipment_roachling_default_1"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Zerg_profile_swarmlings",
+    "Name": "Swarmlings",
+    "Type": "Profile",
+    "BaseId": "base_round_32",
+    "Children": [
+      {
+        "Id": "pdf_Zerg_stat_swarmlings"
+      },
+      {
+        "Id": "pdf_Zerg_rule_swarmlings_default_0"
+      },
+      {
+        "Id": "pdf_Zerg_rule_swarmlings_default_1"
+      },
+      {
+        "Id": "pdf_Zerg_rule_swarmlings_default_2"
+      },
+      {
+        "Id": "pdf_Zerg_equipment_swarmlings_default_3"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Zerg_profile_vileling_zergling",
+    "Name": "Vileling (Zergling)",
+    "Type": "Profile",
+    "BaseId": "base_round_32",
+    "Children": [
+      {
+        "Id": "pdf_Zerg_stat_vileling_zergling"
+      },
+      {
+        "Id": "pdf_Zerg_rule_vileling_zergling_default_0"
+      },
+      {
+        "Id": "pdf_Zerg_rule_vileling_zergling_default_1"
+      },
+      {
+        "Id": "pdf_Zerg_rule_vileling_zergling_default_2"
+      },
+      {
+        "Id": "pdf_Zerg_equipment_vileling_zergling_default_3"
+      },
+      {
+        "Id": "pdf_Zerg_rule_vileling_zergling_default_4"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Zerg_profile_viles_roach",
+    "Name": "Viles (Roach)",
+    "Type": "Profile",
+    "BaseId": "base_round_50",
+    "Children": [
+      {
+        "Id": "pdf_Zerg_stat_viles_roach"
+      },
+      {
+        "Id": "pdf_Zerg_rule_viles_roach_default_0"
+      },
+      {
+        "Id": "pdf_Zerg_equipment_viles_roach_default_1"
+      },
+      {
+        "Id": "pdf_Zerg_rule_viles_roach_default_2"
+      },
+      {
+        "Id": "pdf_Zerg_equipment_viles_roach_default_3"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Zerg_profile_zagara",
+    "Name": "Zagara",
+    "Type": "Profile",
+    "BaseId": "base_round_100",
+    "Children": [
+      {
+        "Id": "pdf_Zerg_stat_zagara"
+      },
+      {
+        "Id": "pdf_Zerg_rule_zagara_default_0"
+      },
+      {
+        "Id": "pdf_Zerg_rule_zagara_default_1"
+      },
+      {
+        "Id": "pdf_Zerg_equipment_zagara_default_2"
+      },
+      {
+        "Id": "pdf_Zerg_equipment_zagara_default_3"
+      },
+      {
+        "Id": "pdf_Zerg_rule_zagara_default_4"
+      },
+      {
+        "Id": "pdf_Zerg_equipment_zagara_default_5"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Zerg_profile_zerglings",
+    "Name": "Zerglings",
+    "Type": "Profile",
+    "BaseId": "base_round_32",
+    "Children": [
+      {
+        "Id": "pdf_Zerg_stat_zerglings"
+      },
+      {
+        "Id": "pdf_Zerg_rule_zerglings_default_0"
+      },
+      {
+        "Id": "pdf_Zerg_rule_zerglings_default_1"
+      },
+      {
+        "Id": "pdf_Zerg_equipment_zerglings_default_2"
+      }
+    ]
+  }
+]

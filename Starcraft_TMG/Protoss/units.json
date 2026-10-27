@@ -1,0 +1,158 @@
+[
+  {
+    "Id": "pdf_Protoss_unit_adepts",
+    "Name": "Adepts",
+    "Type": "Unit",
+    "Description": "Official card values. Source: https://archon-studio.com/files/manuals/sc/StarCraft-Protoss-P2P-Card-Sheets-A4_EN.pdf, page 1.\n\n40 mm round base. Place models and apply upgrades manually.\n\nCategories: Core, Biological, Light, Ground.\n\nOPTIONAL UPGRADE (not applied): Official upgrade card (manual)\nAssault Phase abilities\nEffect: RESONATING GLAVES: ACTIVE 1 PE This Unit's Glaive\nCannon gains BUFF RoA (1) .\nGUIDANCE: PASSIVE This Unit's Glaive Cannon\nRanged weapon gains ANTI-EVADE (2) .\n\nGLAIVE STRIKE\nRng: E\nTgt: Ground\nRoA: 1\nHit: 4+\nSurge: Light\nS.Die: D3\nDmg: 1\nKeyword: PIERCE Light (2)\nNotes: ↑ FOR STRIKE\n\nAvailable upgrade choices (manual): Official upgrade card (manual).",
+    "BasicProfileIds": [
+      "pdf_Protoss_profile_adepts"
+    ],
+    "Children": [],
+    "DefaultFront": 1,
+    "Formation": 0
+  },
+  {
+    "Id": "pdf_Protoss_unit_artanis",
+    "Name": "Artanis",
+    "Type": "Unit",
+    "Description": "Official card values. Source: https://archon-studio.com/files/manuals/sc/StarCraft-Protoss-P2P-Card-Sheets-A4_EN.pdf, page 2.\n\n40 mm round base. Place models and apply upgrades manually.\n\nCategories: Hero, Biological, Psionic, Ground.",
+    "BasicProfileIds": [
+      "pdf_Protoss_profile_artanis"
+    ],
+    "Children": [],
+    "DefaultFront": 1,
+    "Formation": 0
+  },
+  {
+    "Id": "pdf_Protoss_unit_high_templar",
+    "Name": "High Templar",
+    "Type": "Unit",
+    "Description": "Official card values. Source: https://archon-studio.com/files/manuals/sc/StarCraft-Protoss-P2P-W3-Card-Sheets-A4_EN.pdf, page 3.\n\n40 mm round base. Place models and apply upgrades manually.\n\nCategories: Support, Biological, Light, Psionic, Ground.\n\nOPTIONAL UPGRADE (not applied): Official upgrade card (manual)\nMovement Phase abilities\nEffect: PSIONIC STORM: ACTIVE 2 PE Set a Psionic Storm token\nWithin 10\" and Line of Sight of this Unit. This token is not removed if this Unit is Destroyed . At the End of each\nPhase , set a Psionic Storm Blast Template on the centre of this token. For each Unit that has at least one model\nwhose base is partially covered by the template, roll 3 dice, plus 1 additional die for each model in that Unit whose\nbase is partially covered. For each result of 5+ , that Unit suffers an effect depending on the current Phase:\n‣ Movement Phase: NON-LETHAL DAMAGE (1).\n‣ Assault Phase: 1 Dama ge .\nIf multiple effects trigger at the End of the Assault Phase , resolve them in the order specified in Part 8.9.4.\nFARSIGHT: ACTIVE 1 PE Target one Friendly Unit Within 12\" . Until the End of the Round , that Unit is eligible to\nmake an Evade Roll against any attacks targeting it.\n\nAvailable upgrade choices (manual): Official upgrade card (manual).",
+    "BasicProfileIds": [
+      "pdf_Protoss_profile_high_templar"
+    ],
+    "Children": [],
+    "DefaultFront": 1,
+    "Formation": 0
+  },
+  {
+    "Id": "pdf_Protoss_unit_immortal",
+    "Name": "Immortal",
+    "Type": "Unit",
+    "Description": "Official card values. Source: https://archon-studio.com/files/manuals/sc/StarCraft-Protoss-P2P-W2-Card-Sheets-A4_EN.pdf, page 1.\n\n100 mm round base. Place models and apply upgrades manually.\n\nCategories: Elite, Armoured, Mechanical, Ground.\n\nOPTIONAL UPGRADE (not applied): Official upgrade card (manual)\nAny Phase abilities\nEffect: SHIELD OVERCHARGE: REACTION 1 PE Use before this Unit makes an Armour\nRoll . If this Unit has the Shielded Status , It gains TOUGH (2) for this roll.\n\nLEFT PHASE DISRUPTOR\nRng: 12\nTgt: Ground\nRoA: 4\nHit: 3+\nSurge: Armoured\nS.Die: D3\nDmg: 1\nKeyword: PIERCE Armoured (3)\n\nRIGHT PHASE DISRUPTOR\nRng: 12\nTgt: Ground\nRoA: 4\nHit: 3+\nSurge: Armoured\nS.Die: D3\nDmg: 1\nKeyword: PIERCE Armoured (3), SIDEARM\n\nAssault Phase abilities\nEffect: ↑ FOR RIGHT PHOTON\nDISRUPTOR\nFURY UNYIELDING: PASSIVE While this Unit is Within\n3\" of a Mission Marker , its Ranged Weapons gain\nCRITICAL HIT (1) when targeting an Enemy Unit that is\nalso Within 3\" of that same Mission Marker .\nFOR THE ANCIENTS: PASSIVE When this Unit makes\na Ranged Attack , if the target Unit is more than 8\"\naway, the attacking weapons gain PRECISION (1) .\n\nAvailable upgrade choices (manual): Official upgrade card (manual).",
+    "BasicProfileIds": [
+      "pdf_Protoss_profile_immortal"
+    ],
+    "Children": [],
+    "DefaultFront": 1,
+    "Formation": 0
+  },
+  {
+    "Id": "pdf_Protoss_unit_nerazim_watchers_adept",
+    "Name": "Nerazim Watchers (Adept)",
+    "Type": "Unit",
+    "Description": "Official card values. Source: https://archon-studio.com/files/manuals/sc/StarCraft-Protoss-P2P-W2-Card-Sheets-A4_EN.pdf, page 3.\n\n40 mm round base. Place models and apply upgrades manually.\n\nCategories: Core, Biological, Light, Ground.",
+    "BasicProfileIds": [
+      "pdf_Protoss_profile_nerazim_watchers_adept"
+    ],
+    "Children": [],
+    "DefaultFront": 1,
+    "Formation": 0
+  },
+  {
+    "Id": "pdf_Protoss_unit_praetor_guards",
+    "Name": "Praetor Guards",
+    "Type": "Unit",
+    "Description": "Official card values. Source: https://archon-studio.com/files/manuals/sc/StarCraft-Protoss-P2P-Card-Sheets-A4_EN.pdf, page 3.\n\n40 mm round base. Place models and apply upgrades manually.\n\nCategories: Elite, Biological, Light, Ground.",
+    "BasicProfileIds": [
+      "pdf_Protoss_profile_praetor_guards"
+    ],
+    "Children": [],
+    "DefaultFront": 1,
+    "Formation": 0
+  },
+  {
+    "Id": "pdf_Protoss_unit_pylon",
+    "Name": "Pylon",
+    "Type": "Unit",
+    "Description": "Official card values. Source: https://archon-studio.com/files/manuals/sc/StarCraft-Protoss-P2P-Card-Sheets-A4_EN.pdf, page 4.\n\n80 mm round base. Place models and apply upgrades manually.\n\nCategories: Other, Armored, Ground.",
+    "BasicProfileIds": [
+      "pdf_Protoss_profile_pylon"
+    ],
+    "Children": [],
+    "DefaultFront": 1,
+    "Formation": 0
+  },
+  {
+    "Id": "pdf_Protoss_unit_sentries",
+    "Name": "Sentries",
+    "Type": "Unit",
+    "Description": "Official card values. Source: https://archon-studio.com/files/manuals/sc/StarCraft-Protoss-P2P-Card-Sheets-A4_EN.pdf, page 5.\n\n50 mm round base. Place models and apply upgrades manually.\n\nCategories: Support, Light, Mechanical, Psionic, Ground.\n\nOPTIONAL UPGRADE (not applied): Official upgrade card (manual)\nMovement Phase abilities\nEffect: SOLID-FIELD PROJECTORS: ACTIVE 1 PE Set a Force Field token Within 8\" in an unoccupied space. Units of Size 2\nor lower cannot move across Force Fields . Models of Size 3 or more can move over it, and it's then removed.\n\nAssault Phase abilities\nEffect: HALLUCINATION: REACTION 0 PE When an Enemy Unit declares a Ranged Attack against a Friendly Unit\nWithin 4\" , the targeted Friendly Unit is eligible to make an Evade Roll against that attack.\n\nAvailable upgrade choices (manual): Official upgrade card (manual).",
+    "BasicProfileIds": [
+      "pdf_Protoss_profile_sentries"
+    ],
+    "Children": [],
+    "DefaultFront": 1,
+    "Formation": 0
+  },
+  {
+    "Id": "pdf_Protoss_unit_stalker",
+    "Name": "Stalker",
+    "Type": "Unit",
+    "Description": "Official card values. Source: https://archon-studio.com/files/manuals/sc/StarCraft-Protoss-P2P-Card-Sheets-A4_EN.pdf, page 6.\n\n80 mm round base. Place models and apply upgrades manually.\n\nCategories: Elite, Armoured, Mechanical, Ground.\n\nOPTIONAL UPGRADE (not applied): Official upgrade card (manual)\nAny Phase abilities\nEffect: PATH OF SHADOWS: ACTIVE 1 PE This Unit gains HIDDEN Status until it performs another action.\n\nAssault Phase abilities\nEffect: FURY OF THE NERAZIM: PASSIVE When this Unit attacks an Enemy Unit that has already been Activated during\nthis Phase, its Particle Disruptors gain INSTANT for that attack.\n\nAvailable upgrade choices (manual): Official upgrade card (manual).",
+    "BasicProfileIds": [
+      "pdf_Protoss_profile_stalker"
+    ],
+    "Children": [],
+    "DefaultFront": 1,
+    "Formation": 0
+  },
+  {
+    "Id": "pdf_Protoss_unit_tassadar",
+    "Name": "Tassadar",
+    "Type": "Unit",
+    "Description": "Official card values. Source: https://archon-studio.com/files/manuals/sc/StarCraft-Protoss-P2P-W3-Card-Sheets-A4_EN.pdf, page 1.\n\n40 mm round base. Place models and apply upgrades manually.\n\nCategories: Hero, Biological, Psionic, Ground.",
+    "BasicProfileIds": [
+      "pdf_Protoss_profile_tassadar"
+    ],
+    "Children": [],
+    "DefaultFront": 1,
+    "Formation": 0
+  },
+  {
+    "Id": "pdf_Protoss_unit_twilight_templar_high_templar",
+    "Name": "Twilight Templar (High Templar)",
+    "Type": "Unit",
+    "Description": "Official card values. Source: https://archon-studio.com/files/manuals/sc/StarCraft-Protoss-P2P-W3-Card-Sheets-A4_EN.pdf, page 2.\n\n40 mm round base. Place models and apply upgrades manually.\n\nCategories: Support, Biological, Light, Psionic, Ground.",
+    "BasicProfileIds": [
+      "pdf_Protoss_profile_twilight_templar_high_templar"
+    ],
+    "Children": [],
+    "DefaultFront": 1,
+    "Formation": 0
+  },
+  {
+    "Id": "pdf_Protoss_unit_zealots",
+    "Name": "Zealots",
+    "Type": "Unit",
+    "Description": "Official card values. Source: https://archon-studio.com/files/manuals/sc/StarCraft-Protoss-P2P-Card-Sheets-A4_EN.pdf, page 7.\n\n40 mm round base. Place models and apply upgrades manually.\n\nCategories: Core, Biological, Light, Ground.\n\nOPTIONAL UPGRADE (not applied): Official upgrade card (manual)\nAny Phase abilities\nEffect: MY LIFE FOR AIUR: PASSIVE When this Unit resolves IMPACT , each eligible model generates 1 additional IMPACT die.\n\nMovement Phase abilities\nEffect: LEG ENHANCEMENTS: ACTIVE 1 PE This Unit performs a 2\" Move action. This does not count towards its action\nlimit.\n\nAssault Phase abilities\nEffect: ZEALOUS ROUND: REACTION 0 PE When this Unit is not Activated and receives Damage , the controlling player\nmay count this Unit as Activated in this Phase (flip its Activation Marker ) to reduce the Total Damage by 2 .\n\nCombat Phase abilities\nEffect: WE STAND AS ONE: PASSIVE When this Unit makes a Close Combat Attack , if the target is Engaged with at least\n1 other Friendly Unit , this Unit's Close Combat Weapon gains PRECISION (2) .\n\nAvailable upgrade choices (manual): Official upgrade card (manual).",
+    "BasicProfileIds": [
+      "pdf_Protoss_profile_zealots"
+    ],
+    "Children": [],
+    "DefaultFront": 1,
+    "Formation": 0
+  },
+  {
+    "Id": "pdf_Protoss_unit_zeratul",
+    "Name": "Zeratul",
+    "Type": "Unit",
+    "Description": "Official card values. Source: https://archon-studio.com/files/manuals/sc/StarCraft-Protoss-P2P-W2-Card-Sheets-A4_EN.pdf, page 2.\n\n40 mm round base. Place models and apply upgrades manually.\n\nCategories: Hero, Biological, Psionic, Ground.",
+    "BasicProfileIds": [
+      "pdf_Protoss_profile_zeratul"
+    ],
+    "Children": [],
+    "DefaultFront": 1,
+    "Formation": 0
+  }
+]
