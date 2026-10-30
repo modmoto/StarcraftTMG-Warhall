@@ -4,6 +4,8 @@ Release 10: `npm run check:local` passed (23 tests passed, 3 optional catalogue 
 
 Release 11 includes the unit-rule cleanup, phase weapon tables and JSON model publisher for testing. Shared catalogue publication is separate: the Marine was submitted through Model Creator; the remaining model/terrain mappings, portable Unity-bundle replacements and custom deployment templates still require publication or verification.
 
+Release 12 removes the equipment child from each weapon stat row, eliminating the repeated weapon link and its redundant popup. Live layout verification remains pending.
+
 ## Next work
 
 - [x] Implement local unit-rule cleanup from current official PDFs: individually named abilities, clear phases/costs, nested keyword links and the New Recruit reference comparison. Unit descriptions omit provenance, base sizes and manual-upgrade placeholders. Native weapon tables appear under phase headings. See [the implementation notes](docs/unit-rules.md). Included in test data release 11.

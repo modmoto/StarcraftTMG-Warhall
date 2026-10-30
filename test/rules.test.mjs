@@ -172,6 +172,12 @@ test('profiles render phase sections and native weapon tables with independent h
     Keywords: '-',
   });
   assert.ok(!('HP' in rifle.Attributes));
+  assert.deepEqual(rifle.Children, []);
+  for (const items of Object.values(data).filter(Array.isArray)) {
+    for (const item of items.filter(item => item.Type === 'Statline' && item.Id.endsWith('_table'))) {
+      assert.deepEqual(item.Children, [], `Weapon row must not repeat its equipment: ${item.Id}`);
+    }
+  }
   assert.equal(children[0].Id, 'stat_marine');
   const assault = children.findIndex(item => item.Description === '<b>Assault Phase</b>');
   const melee = children.findIndex(item => item.Description === '<b>Melee Phase</b>');

@@ -1,6 +1,6 @@
 # Unit rules and phase tables
 
-Included in test data release 11 on October 30, 2026. Live Warhall Test layout and popup-click verification are pending. This release makes the changes available for testing; it does not establish visual verification.
+Included in test data release 11 on October 30, 2026; release 12 removes duplicate weapon equipment links. Live Warhall Test layout and popup-click verification are pending. This release makes the changes available for testing; it does not establish visual verification.
 
 ## Unit panel
 
@@ -12,7 +12,7 @@ Each section places its weapon rows before its clickable ability names. The weap
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | C-14 Rifle | 12 | All | 2 | 3+ | Light | D3 | 1 | - |
 
-This is a native WDS stat table, not a Markdown table embedded in a description. The leading name cell uses the client's existing statline title area. Opening a row's details exposes the weapon item and its keyword links. Abilities open their named descriptions with phase, activation type and cost on separate lines. Costs of zero, variable costs and CP/PE/BM resource types are retained.
+This is a native WDS stat table, not a Markdown table embedded in a description. The leading name cell uses the client's existing statline title area. Weapon rows have no equipment child: the name and values appear once, without a repeated weapon link, expansion arrow or duplicate equipment popup. Abilities open their named descriptions with phase, activation type and cost on separate lines. Costs of zero, variable costs and CP/PE/BM resource types are retained.
 
 For Marines the order is unit stats, Movement Phase / Stimpack, Assault Phase / C-14 Rifle table, and Melee Phase / Strike table. A unit with passive Any Phase abilities shows those once in an Any Phase section rather than assigning them to an incorrect turn.
 

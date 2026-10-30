@@ -32,7 +32,7 @@ function weaponRow(profile, id, records) {
       Attributes: Object.fromEntries(
         Object.entries(weaponColumns).map(([name, key]) => [name, profile.attributes[key] || '-']),
       ),
-      Children: [{ Id: id }],
+      Children: [],
     });
   }
   return rowId;
