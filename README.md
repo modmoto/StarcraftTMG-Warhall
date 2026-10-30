@@ -98,7 +98,9 @@ The adapter backs up five catalogue cache files under `.cache/warhall-model-back
 
 `model-selections.json` records visually reviewed Steam CDN mesh/texture pairs for all 45 generated units. Prefer aiming/firing/casting poses for ranged units and charging/striking poses for melee units. Where those poses are unavailable, the entry describes the closest available stance. It is a source mapping, not an asserted Warhall model schema, and the converter does not yet attach these references to profiles.
 
-41 units have complete selected pairs. Jim Raynor, Nova Assault and Zeratul require separate weapon attachments; their entries retain those references. Vile's labeled mesh is only a base, so its entry is explicitly missing rather than using the wrong model. TTS transforms are retained as source metadata and are not Warhall scale/rotation settings.
+All 45 units now have selected CDN references. Complete TTS prefabs cover Adepts, Jim Raynor, Nova Assault, Vile and the emerged Omega Worm; Zeratul includes his separate psi blade. Zerglings use the actual leaping zergling, and the tank uses its deployed siege pose. `model-adjustments.json` records the measured size, rotation and centering overrides separately from the original TTS transforms. These adjustments still require visual verification in Warhall Test.
+
+`scripts/prepare-warhall-textures.py` can prepare compatible PNG textures in the local Warhall Test texture cache, including blue Terran, purple Zerg and gold Protoss accents. It requires Pillow, numpy and the downloaded preview inventory. Pass the client's `TextureCache` directory to preview, and add `--apply` to back up and write the textures while the client is closed. This fixes unsupported WebP source textures locally; shared deployment still requires compatible hosted textures and Warhall catalogue registration. A WDS manifest version bump alone does not install these model mappings.
 
 To repeat the review from a local TTS Workshop cache containing the main table and faction saves:
 

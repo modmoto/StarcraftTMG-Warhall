@@ -80,10 +80,6 @@ for (const model of selection.models.filter(m => m.status === 'selected')) {
   );
   const itemId = next.AllItems++;
   const skinId = next.AllSkinData++;
-  const partId = next.AllSkinParts++;
-  for (const url of [model.model.meshUrl, model.model.textureUrl]) {
-    assert.equal(new URL(url).protocol, 'https:', 'CDN URL must use HTTPS');
-  }
   tables.AllItems.push({
     IdItem: itemId,
     ItemName: profileId,
@@ -112,27 +108,39 @@ for (const model of selection.models.filter(m => m.status === 'selected')) {
     PublicSkin: 1,
     PaidSkin: 0,
   });
-  tables.AllSkinParts.push({
-    IdSkinPart: partId,
-    SkinPartResource: model.model.meshUrl,
-    SkinPartTexture: model.model.textureUrl,
-  });
-  tables.AllSkinLayers.push({
-    AuxIdSkinLayer: next.AllSkinLayers++,
-    SkinLayerIdSkin: skinId,
-    SkinLayerIdSkinPart: partId,
-    SkinLayerIdSkinType: 1,
-    SkinLayerIdCount: 1,
-    ParentIdAuxSkinLayer: null,
-    SocketPositionX: 0,
-    SocketPositionY: 0,
-    SocketPositionZ: 0,
-    SocketRotationX: 0,
-    SocketRotationY: 0,
-    SocketRotationZ: 0,
-    SkinLayerSize: Math.abs(model.model.ttsTransform.scaleY),
-    UseLegacyScale: 1,
-  });
+  for (const part of [model.model, ...(model.attachments ?? [])]) {
+    const partId = next.AllSkinParts++;
+    for (const url of [part.meshUrl, part.textureUrl].filter(Boolean)) {
+      assert.equal(new URL(url).protocol, 'https:', 'CDN URL must use HTTPS');
+    }
+    const layout = model.layout ?? {};
+    const position = layout.position ?? [0, 0, 0];
+    const rotation = layout.rotation ?? [0, 0, 0];
+    const size = layout.size ?? Math.abs(part.ttsTransform.scaleY);
+    assert.ok(Number.isFinite(size) && size > 0, 'Invalid model scale');
+    assert.ok([...position, ...rotation].every(Number.isFinite), 'Invalid model transform');
+    tables.AllSkinParts.push({
+      IdSkinPart: partId,
+      SkinPartResource: part.meshUrl,
+      SkinPartTexture: part.textureUrl ?? '',
+    });
+    tables.AllSkinLayers.push({
+      AuxIdSkinLayer: next.AllSkinLayers++,
+      SkinLayerIdSkin: skinId,
+      SkinLayerIdSkinPart: partId,
+      SkinLayerIdSkinType: 1,
+      SkinLayerIdCount: 1,
+      ParentIdAuxSkinLayer: null,
+      SocketPositionX: position[0],
+      SocketPositionY: position[1],
+      SocketPositionZ: position[2],
+      SocketRotationX: rotation[0],
+      SocketRotationY: rotation[1],
+      SocketRotationZ: rotation[2],
+      SkinLayerSize: size,
+      UseLegacyScale: 1,
+    });
+  }
   installed++;
 }
 if (mode === '--apply') {
@@ -152,5 +160,5 @@ if (mode === '--apply') {
   console.log(`Backup: ${backup}`);
 }
 console.log(
-  `${mode}: ${installed} CDN model mappings for game ${game.IdGame}. 3 multipart models and Vile remain pending. Shared catalogue updates can replace this local test cache.`,
+  `${mode}: ${installed} CDN model mappings for game ${game.IdGame}. Shared catalogue updates can replace this local test cache.`,
 );

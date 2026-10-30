@@ -90,10 +90,10 @@ const choices = {
       'Complete sabotage drone; no alternative action pose found.',
     ],
     'Siege Tank': [
-      4,
+      15,
       'ranged',
-      'aiming',
-      'Mobile tank with cannon forward; siege-mode mesh is candidate 15.',
+      'siege-deployed',
+      'Deployed siege cannon with extended stabilizers.',
     ],
     'Spec Ops Marauder (Marauder)': [
       39,
@@ -165,11 +165,12 @@ const choices = {
       'attack-ready',
       'Complete Zagara with forelimbs raised; no distinct firing pose found.',
     ],
-    Zerglings: [181, 'melee', 'charging', 'Low forward charge with claws spread.'],
+    Zerglings: [126, 'melee', 'charging', 'True zergling leaping forward with claws extended.'],
   },
 };
 
 const candidates = JSON.parse(await readFile('.cache/tts-preview/candidates.json', 'utf8'));
+const adjustments = JSON.parse(await readFile('model-adjustments.json', 'utf8'));
 const models = [];
 function reference(id) {
   const model = candidates.find(model => model.id === id);
@@ -192,7 +193,7 @@ for (const [faction, units] of Object.entries(choices)) {
     const choice = units[unit.Name];
     if (!choice) throw new Error(`Unreviewed unit: ${faction}/${unit.Name}`);
     const [id, role, pose, notes, attachments = []] = choice;
-    models.push({
+    const entry = {
       faction,
       unitId: unit.Id,
       unitName: unit.Name,
@@ -202,7 +203,19 @@ for (const [faction, units] of Object.entries(choices)) {
       notes,
       ...(id === null ? {} : { model: reference(id) }),
       ...(attachments.length ? { attachments: attachments.map(reference) } : {}),
-    });
+    };
+    const adjustment = adjustments[unit.Name];
+    if (adjustment) {
+      if (adjustment.model) {
+        entry.model = adjustment.model;
+        delete entry.attachments;
+        entry.status = 'selected';
+      }
+      if (adjustment.includeAttachments) entry.status = 'selected';
+      if (adjustment.layout) entry.layout = adjustment.layout;
+      entry.notes = adjustment.notes;
+    }
+    models.push(entry);
   }
 }
 await writeFile(

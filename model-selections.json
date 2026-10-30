@@ -10,25 +10,37 @@
       "role": "ranged",
       "pose": "shooting",
       "status": "selected",
-      "notes": "Glaive weapon extended toward the target.",
+      "notes": "Complete TTS prefab; measured root geometry is centered and raised above the base.",
       "model": {
-        "candidateId": 81,
         "sourceName": "Adept",
         "workshopId": "3662791369",
-        "guid": "956815",
-        "meshUrl": "https://steamusercontent-a.akamaihd.net/ugc/16094091516144839195/C2750AABD3B80681D120C8A9B392B2620BA0B71C/",
+        "guid": "3aac5f",
+        "meshUrl": "https://steamusercontent-a.akamaihd.net/ugc/15126746208946813419/FDED9153ACD81B10C9CE88FD3AFCC53EBEAF9A03/",
         "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/16737116366905513486/815133513393716C6C1A4926DE69273EB88C0208/",
         "ttsTransform": {
-          "posX": -0.07079011,
-          "posY": 0.143393785,
-          "posZ": -0.03275461,
-          "rotX": 0.000211195627,
-          "rotY": 0.0204620026,
-          "rotZ": -0.0006007926,
-          "scaleX": 1.60000312,
-          "scaleY": 1.5999999,
-          "scaleZ": 1.60000217
+          "posX": 0.0223000459,
+          "posY": 0.127396584,
+          "posZ": -0.004449159,
+          "rotX": 0.00030421486,
+          "rotY": 359.99408,
+          "rotZ": 0.000228338758,
+          "scaleX": 1.0999999,
+          "scaleY": 1.0999999,
+          "scaleZ": 1.0999999
         }
+      },
+      "layout": {
+        "size": 152.5884643691914,
+        "position": [
+          0.16479188072310155,
+          0.19004852201847272,
+          -0.042577594161753655
+        ],
+        "rotation": [
+          270,
+          0,
+          0
+        ]
       }
     },
     {
@@ -206,7 +218,7 @@
       "role": "ranged",
       "pose": "attack-ready",
       "status": "selected",
-      "notes": "Complete sentry body; excluded the separate effect sphere.",
+      "notes": "Centered floating chassis; retain one centimeter of clearance.",
       "model": {
         "candidateId": 137,
         "sourceName": "Sentry",
@@ -225,6 +237,19 @@
           "scaleY": 2.5,
           "scaleZ": 2.50000477
         }
+      },
+      "layout": {
+        "size": 2.5,
+        "position": [
+          0.18455,
+          -1.10929,
+          0.94227
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
       }
     },
     {
@@ -345,8 +370,8 @@
       "unitName": "Zeratul",
       "role": "melee",
       "pose": "attack-ready",
-      "status": "requires-assembly",
-      "notes": "Body is posed to attack, but the psi blade is a separate mesh.",
+      "status": "selected",
+      "notes": "Body and psi blade loaded together using their shared exported coordinates.",
       "model": {
         "candidateId": 66,
         "sourceName": "Zeratul",
@@ -386,7 +411,20 @@
             "scaleZ": 0.9999999
           }
         }
-      ]
+      ],
+      "layout": {
+        "size": 1.3,
+        "position": [
+          0.42517,
+          0.05,
+          0.03383
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      }
     },
     {
       "faction": "Terran",
@@ -478,48 +516,39 @@
       "unitName": "Jim Raynor",
       "role": "ranged",
       "pose": "weapon-raised",
-      "status": "requires-assembly",
-      "notes": "Named Raynor body requires its separate commander rifle; no complete aiming variant found.",
+      "status": "selected",
+      "notes": "Complete TTS prefab; measured root geometry is centered and raised above the base.",
       "model": {
-        "candidateId": 171,
-        "sourceName": "{8/8} Jim Raynor (ComRifle)",
-        "workshopId": "3662783278",
-        "guid": "a2faaa",
-        "meshUrl": "https://steamusercontent-a.akamaihd.net/ugc/14707124216854991717/45D4630E88202783BBDD106CE3FF2D3F6D2EE830/",
-        "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/17491270339193713389/38A372B4AB97B8D05DC698449304865590360F24/",
+        "sourceName": "Jim Raynor (ComRifle)",
+        "workshopId": "3662791369",
+        "guid": "f07acf",
+        "meshUrl": "https://steamusercontent-a.akamaihd.net/ugc/14492147230123626268/74937E7A78C2A995654BFF5CF752A74BD54E06FC/",
+        "textureUrl": null,
         "ttsTransform": {
-          "posX": -0.06225537,
-          "posY": 0.09112221,
-          "posZ": -1.14364183,
-          "rotX": 359.619415,
-          "rotY": 0.0248059779,
-          "rotZ": 0.2450566,
-          "scaleX": 0.9999999,
+          "posX": 0.072999,
+          "posY": 0.1913842,
+          "posZ": -0.102488518,
+          "rotX": -0.000684513245,
+          "rotY": 0.235305175,
+          "rotZ": 0.0006764964,
+          "scaleX": 1,
           "scaleY": 1,
           "scaleZ": 1
         }
       },
-      "attachments": [
-        {
-          "candidateId": 172,
-          "sourceName": "{8/8} Jim Raynor (ComRifle)",
-          "workshopId": "3662783278",
-          "guid": "517233",
-          "meshUrl": "https://steamusercontent-a.akamaihd.net/ugc/10381389940077329823/22AB29EA8343E1F5BEDEF6E92AD8FF8C39140030/",
-          "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/13571804224458163535/1E7723F8F872AC8A59022674B5248731C72246AE/",
-          "ttsTransform": {
-            "posX": 0.275901884,
-            "posY": 0.4496195,
-            "posZ": 0.7736865,
-            "rotX": 315.4944,
-            "rotY": 32.8048134,
-            "rotZ": 4.56581545,
-            "scaleX": 1,
-            "scaleY": 1,
-            "scaleZ": 1
-          }
-        }
-      ]
+      "layout": {
+        "size": 173.4988570758631,
+        "position": [
+          1.2613979775563489,
+          0.08549566325002025,
+          -0.24668753669676063
+        ],
+        "rotation": [
+          270,
+          0,
+          0
+        ]
+      }
     },
     {
       "faction": "Terran",
@@ -556,7 +585,7 @@
       "role": "support",
       "pose": "support-action",
       "status": "selected",
-      "notes": "Medical arm extended behind the shield.",
+      "notes": "Body centered over the base; feet lifted to base surface.",
       "model": {
         "candidateId": 180,
         "sourceName": "{2/2} Medic",
@@ -575,6 +604,19 @@
           "scaleY": 1,
           "scaleZ": 1
         }
+      },
+      "layout": {
+        "size": 1,
+        "position": [
+          0.16042,
+          -0.1545,
+          -1.4943
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
       }
     },
     {
@@ -583,48 +625,39 @@
       "unitName": "Nova Assault Mode",
       "role": "ranged",
       "pose": "attack-ready",
-      "status": "requires-assembly",
-      "notes": "Body requires its separately attached firearm; sword is another optional attachment.",
+      "status": "selected",
+      "notes": "Complete TTS prefab; measured root geometry is centered and raised above the base.",
       "model": {
-        "candidateId": 21,
         "sourceName": "Nova (Assault)",
         "workshopId": "3662791369",
-        "guid": "da88d5",
-        "meshUrl": "https://steamusercontent-a.akamaihd.net/ugc/10392303756686394299/2A72C7D018662AA18F73B94FE7F7C69E463740B7/",
+        "guid": "856323",
+        "meshUrl": "https://steamusercontent-a.akamaihd.net/ugc/17190323956516765846/1CCC24B8077CDCE104991FD19590BF1290BE09C0/",
         "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/11241123661157656523/699EE626B4A66E70EEA84B3710946F5BE04F0647/",
         "ttsTransform": {
-          "posX": 0.0227193348,
-          "posY": 0.141696945,
-          "posZ": 0.0608276576,
-          "rotX": 359.949463,
-          "rotY": 0.112337135,
-          "rotZ": 0.07446407,
-          "scaleX": 1.39999986,
-          "scaleY": 1.39999986,
-          "scaleZ": 1.4000001
+          "posX": 0.005851338,
+          "posY": 0.1419729,
+          "posZ": 0.128825888,
+          "rotX": 0.0002724756,
+          "rotY": 14.9910116,
+          "rotZ": 0.000312589749,
+          "scaleX": 0.900000334,
+          "scaleY": 0.9,
+          "scaleZ": 0.900000334
         }
       },
-      "attachments": [
-        {
-          "candidateId": 22,
-          "sourceName": "Nova (Assault)",
-          "workshopId": "3662791369",
-          "guid": "15942b",
-          "meshUrl": "https://steamusercontent-a.akamaihd.net/ugc/17837888458272873735/C0A4B494226C9CD98E5F27C262460A4CAE360F8C/",
-          "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/10522868907154377491/A892C06D1B5A2B861EF6D50696F4B59D46CFD27A/",
-          "ttsTransform": {
-            "posX": -0.136267081,
-            "posY": 0.8036017,
-            "posZ": -0.3085967,
-            "rotX": 270.980377,
-            "rotY": 106.926842,
-            "rotZ": 75.10464,
-            "scaleX": 0.7142855,
-            "scaleY": 0.7142856,
-            "scaleZ": 0.7142857
-          }
-        }
-      ]
+      "layout": {
+        "size": 1.623445873913266,
+        "position": [
+          -0.031794739105923134,
+          0.047814517086190465,
+          0.2689195331657554
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      }
     },
     {
       "faction": "Terran",
@@ -771,27 +804,40 @@
       "unitId": "pdf_Terran_unit_siege_tank",
       "unitName": "Siege Tank",
       "role": "ranged",
-      "pose": "aiming",
+      "pose": "siege-deployed",
       "status": "selected",
-      "notes": "Mobile tank with cannon forward; siege-mode mesh is candidate 15.",
+      "notes": "Deployed siege pose, extended stabilizers centered across approximately twelve centimeters.",
       "model": {
-        "candidateId": 4,
+        "candidateId": 15,
         "sourceName": "Siege Tank",
         "workshopId": "3662791369",
-        "guid": "d93ee4",
-        "meshUrl": "https://steamusercontent-a.akamaihd.net/ugc/10682557462221478193/F7B7666E9D7E1FC0356D2F099DC358F3445FDF10/",
+        "guid": "206b57",
+        "meshUrl": "https://steamusercontent-a.akamaihd.net/ugc/10924463587930246298/5C08DBBBB1B34C66796D02F27805AB6ACC3C3E75/",
         "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/10751870198150330225/673A4FD83172C1AA32DE8C48032EA590288F7F30/",
         "ttsTransform": {
-          "posX": -0.03043483,
-          "posY": 0.145397246,
-          "posZ": -0.09473028,
-          "rotX": -0.00007649975,
-          "rotY": 358.6683,
-          "rotZ": -0.0001884198,
-          "scaleX": 0.599999964,
+          "posX": 0.0202353131,
+          "posY": 0.145397127,
+          "posZ": -0.0533279628,
+          "rotX": -0.0000830019053,
+          "rotY": 0.00055350695,
+          "rotZ": -0.000186175865,
+          "scaleX": 0.6,
           "scaleY": 1.79999983,
           "scaleZ": 0.599999964
         }
+      },
+      "layout": {
+        "size": 1.47,
+        "position": [
+          0.00224,
+          0.09121,
+          -0.09738
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
       }
     },
     {
@@ -1025,25 +1071,37 @@
       "role": "melee",
       "pose": "attack-ready",
       "status": "selected",
-      "notes": "Actual open-mouthed nydus mesh; excluded the placeholder base.",
+      "notes": "Complete TTS prefab; measured root geometry is centered and raised above the base.",
       "model": {
-        "candidateId": 200,
-        "sourceName": "nydus",
+        "sourceName": "Omega Worm",
         "workshopId": "3662791369",
-        "guid": "eafc76",
-        "meshUrl": "https://steamusercontent-a.akamaihd.net/ugc/13392127980943399585/BA37524830D3DBD078B3797C03A877C8ABCD2297/",
+        "guid": "dc11b1",
+        "meshUrl": "https://steamusercontent-a.akamaihd.net/ugc/18352668358571898735/EB4DB9CF50C0FDBC85EE185BCA5755037AAD9F6E/",
         "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/13743206127385021615/3D4E9FD5259D6E0595CDDD794569635C8077E84B/",
         "ttsTransform": {
-          "posX": 0.01923117,
-          "posY": 0.3273687,
-          "posZ": -0.0966389552,
-          "rotX": -0.0005120926,
-          "rotY": 0.02355287,
-          "rotZ": 0.00008178945,
-          "scaleX": 3.50962377,
-          "scaleY": 3.50960827,
-          "scaleZ": 3.50962639
+          "posX": 0.0204494335,
+          "posY": 1.08054769,
+          "posZ": -0.008615907,
+          "rotX": 0.0000701590252,
+          "rotY": 315.003754,
+          "rotZ": 0.0000959316458,
+          "scaleX": 0.2434195,
+          "scaleY": 4.625,
+          "scaleZ": 0.243419513
         }
+      },
+      "layout": {
+        "size": 2.3124223436260314,
+        "position": [
+          -0.007900163394639186,
+          0.5986192001624268,
+          -0.35962295117268156
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
       }
     },
     {
@@ -1248,8 +1306,39 @@
       "unitName": "Viles (Roach)",
       "role": "ranged",
       "pose": "unavailable",
-      "status": "missing-mesh",
-      "notes": "The labeled mesh is only a flat base. The actual Vile is an asset bundle, not an inspected mesh/texture pair."
+      "status": "selected",
+      "notes": "Complete TTS prefab; measured root geometry is centered and raised above the base.",
+      "model": {
+        "sourceName": "Vile",
+        "workshopId": "3662791369",
+        "guid": "4a8bb3",
+        "meshUrl": "https://steamusercontent-a.akamaihd.net/ugc/10685307960474177128/DE7C9AFD56637E646A2F854EC466ACC02C485142/",
+        "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/14597884484782229424/9B9C14DBA250CDF609B68A3E8A483EE9D9892B0C/",
+        "ttsTransform": {
+          "posX": 0.07094048,
+          "posY": 0.185624912,
+          "posZ": -0.173881814,
+          "rotX": 0.0001944569,
+          "rotY": 0.00438802736,
+          "rotZ": 0.0009005211,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        }
+      },
+      "layout": {
+        "size": 1.9745777943814005,
+        "position": [
+          0.8127349884060104,
+          0.31776867203982473,
+          -0.762146920572654
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      }
     },
     {
       "faction": "Zerg",
@@ -1286,24 +1375,24 @@
       "role": "melee",
       "pose": "charging",
       "status": "selected",
-      "notes": "Low forward charge with claws spread.",
+      "notes": "True zergling leaping forward with claws extended.",
       "model": {
-        "candidateId": 181,
-        "sourceName": "Zergling",
-        "workshopId": "3662781729",
-        "guid": "81978f",
-        "meshUrl": "https://steamusercontent-a.akamaihd.net/ugc/15562801855559490059/C0AA55B4A170279B4AA9D3B1C040888E2455C599/",
-        "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/13135401825702184416/90D56FAA9368A2DCB3768893D210EFC12BF2013E/",
+        "candidateId": 126,
+        "sourceName": "{1/1} Zergling ",
+        "workshopId": "3662791369",
+        "guid": "b1c506",
+        "meshUrl": "https://steamusercontent-a.akamaihd.net/ugc/11305012017126724370/9DB35EF19CB3A75C6AC3DF5DBE27A7C3446B1BE0/",
+        "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/12526897133127688922/8593DE279D9EDB3286C09C5F182E696A8E117270/",
         "ttsTransform": {
-          "posX": -0.0709849149,
-          "posY": -0.158219218,
-          "posZ": 0.0837552845,
-          "rotX": 0.00000681245365,
-          "rotY": 0.0328450464,
-          "rotZ": 0.000007755612,
-          "scaleX": 1.72643983,
-          "scaleY": 1.80173492,
-          "scaleZ": 1.69566488
+          "posX": -0.0561559945,
+          "posY": 0.140893921,
+          "posZ": -0.0545346849,
+          "rotX": 0.00051429437,
+          "rotY": 224.999817,
+          "rotZ": -0.000403218583,
+          "scaleX": 1.35,
+          "scaleY": 1.35,
+          "scaleZ": 1.35
         }
       }
     }

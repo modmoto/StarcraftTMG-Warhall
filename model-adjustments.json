@@ -1,0 +1,165 @@
+{
+  "Adepts": {
+    "model": {
+      "sourceName": "Adept",
+      "workshopId": "3662791369",
+      "guid": "3aac5f",
+      "meshUrl": "https://steamusercontent-a.akamaihd.net/ugc/15126746208946813419/FDED9153ACD81B10C9CE88FD3AFCC53EBEAF9A03/",
+      "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/16737116366905513486/815133513393716C6C1A4926DE69273EB88C0208/",
+      "ttsTransform": {
+        "posX": 0.0223000459,
+        "posY": 0.127396584,
+        "posZ": -0.004449159,
+        "rotX": 0.00030421486,
+        "rotY": 359.99408,
+        "rotZ": 0.000228338758,
+        "scaleX": 1.0999999,
+        "scaleY": 1.0999999,
+        "scaleZ": 1.0999999
+      }
+    },
+    "layout": {
+      "size": 152.5884643691914,
+      "position": [0.16479188072310155, 0.19004852201847272, -0.042577594161753655],
+      "rotation": [270, 0, 0]
+    },
+    "notes": "Complete TTS prefab; measured root geometry is centered and raised above the base."
+  },
+  "Jim Raynor": {
+    "model": {
+      "sourceName": "Jim Raynor (ComRifle)",
+      "workshopId": "3662791369",
+      "guid": "f07acf",
+      "meshUrl": "https://steamusercontent-a.akamaihd.net/ugc/14492147230123626268/74937E7A78C2A995654BFF5CF752A74BD54E06FC/",
+      "textureUrl": null,
+      "ttsTransform": {
+        "posX": 0.072999,
+        "posY": 0.1913842,
+        "posZ": -0.102488518,
+        "rotX": -0.000684513245,
+        "rotY": 0.235305175,
+        "rotZ": 0.0006764964,
+        "scaleX": 1,
+        "scaleY": 1,
+        "scaleZ": 1
+      }
+    },
+    "layout": {
+      "size": 173.4988570758631,
+      "position": [1.2613979775563489, 0.08549566325002025, -0.24668753669676063],
+      "rotation": [270, 0, 0]
+    },
+    "notes": "Complete TTS prefab; measured root geometry is centered and raised above the base."
+  },
+  "Nova Assault Mode": {
+    "model": {
+      "sourceName": "Nova (Assault)",
+      "workshopId": "3662791369",
+      "guid": "856323",
+      "meshUrl": "https://steamusercontent-a.akamaihd.net/ugc/17190323956516765846/1CCC24B8077CDCE104991FD19590BF1290BE09C0/",
+      "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/11241123661157656523/699EE626B4A66E70EEA84B3710946F5BE04F0647/",
+      "ttsTransform": {
+        "posX": 0.005851338,
+        "posY": 0.1419729,
+        "posZ": 0.128825888,
+        "rotX": 0.0002724756,
+        "rotY": 14.9910116,
+        "rotZ": 0.000312589749,
+        "scaleX": 0.900000334,
+        "scaleY": 0.9,
+        "scaleZ": 0.900000334
+      }
+    },
+    "layout": {
+      "size": 1.623445873913266,
+      "position": [-0.031794739105923134, 0.047814517086190465, 0.2689195331657554],
+      "rotation": [0, 0, 0]
+    },
+    "notes": "Complete TTS prefab; measured root geometry is centered and raised above the base."
+  },
+  "Omega Worm": {
+    "model": {
+      "sourceName": "Omega Worm",
+      "workshopId": "3662791369",
+      "guid": "dc11b1",
+      "meshUrl": "https://steamusercontent-a.akamaihd.net/ugc/18352668358571898735/EB4DB9CF50C0FDBC85EE185BCA5755037AAD9F6E/",
+      "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/13743206127385021615/3D4E9FD5259D6E0595CDDD794569635C8077E84B/",
+      "ttsTransform": {
+        "posX": 0.0204494335,
+        "posY": 1.08054769,
+        "posZ": -0.008615907,
+        "rotX": 0.0000701590252,
+        "rotY": 315.003754,
+        "rotZ": 0.0000959316458,
+        "scaleX": 0.2434195,
+        "scaleY": 4.625,
+        "scaleZ": 0.243419513
+      }
+    },
+    "layout": {
+      "size": 2.3124223436260314,
+      "position": [-0.007900163394639186, 0.5986192001624268, -0.35962295117268156],
+      "rotation": [0, 0, 0]
+    },
+    "notes": "Complete TTS prefab; measured root geometry is centered and raised above the base."
+  },
+  "Viles (Roach)": {
+    "model": {
+      "sourceName": "Vile",
+      "workshopId": "3662791369",
+      "guid": "4a8bb3",
+      "meshUrl": "https://steamusercontent-a.akamaihd.net/ugc/10685307960474177128/DE7C9AFD56637E646A2F854EC466ACC02C485142/",
+      "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/14597884484782229424/9B9C14DBA250CDF609B68A3E8A483EE9D9892B0C/",
+      "ttsTransform": {
+        "posX": 0.07094048,
+        "posY": 0.185624912,
+        "posZ": -0.173881814,
+        "rotX": 0.0001944569,
+        "rotY": 0.00438802736,
+        "rotZ": 0.0009005211,
+        "scaleX": 1,
+        "scaleY": 1,
+        "scaleZ": 1
+      }
+    },
+    "layout": {
+      "size": 1.9745777943814005,
+      "position": [0.8127349884060104, 0.31776867203982473, -0.762146920572654],
+      "rotation": [0, 0, 0]
+    },
+    "notes": "Complete TTS prefab; measured root geometry is centered and raised above the base."
+  },
+  "Medics": {
+    "layout": {
+      "size": 1,
+      "position": [0.16042, -0.1545, -1.4943],
+      "rotation": [0, 0, 0]
+    },
+    "notes": "Body centered over the base; feet lifted to base surface."
+  },
+  "Sentries": {
+    "layout": {
+      "size": 2.5,
+      "position": [0.18455, -1.10929, 0.94227],
+      "rotation": [0, 0, 0]
+    },
+    "notes": "Centered floating chassis; retain one centimeter of clearance."
+  },
+  "Siege Tank": {
+    "layout": {
+      "size": 1.47,
+      "position": [0.00224, 0.09121, -0.09738],
+      "rotation": [0, 0, 0]
+    },
+    "notes": "Deployed siege pose, extended stabilizers centered across approximately twelve centimeters."
+  },
+  "Zeratul": {
+    "includeAttachments": true,
+    "layout": {
+      "size": 1.3,
+      "position": [0.42517, 0.05, 0.03383],
+      "rotation": [0, 0, 0]
+    },
+    "notes": "Body and psi blade loaded together using their shared exported coordinates."
+  }
+}
