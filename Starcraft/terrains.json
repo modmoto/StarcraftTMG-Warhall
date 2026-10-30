@@ -31,5 +31,175 @@
     "Length": 4,
     "Height": 3.5,
     "Shape": 1
+  },
+  {
+    "Id": "sc_terrain_0e597f350f0c8124",
+    "Name": "grass",
+    "Type": "Terrain",
+    "Description": "StarCraft terrain: grass. Official PDF map placements; TTS model. Resolve cover, elevation and movement using the rulebook.",
+    "Width": 7.174628780000001,
+    "Length": 3.7328475000000005,
+    "Height": 5.13098542,
+    "Shape": 0
+  },
+  {
+    "Id": "sc_terrain_0e9238ef444f6364",
+    "Name": "Protoss Banner",
+    "Type": "Terrain",
+    "Description": "StarCraft terrain: Protoss Banner. Official PDF map placements; TTS model. Resolve cover, elevation and movement using the rulebook.",
+    "Width": 4.20812683744298,
+    "Length": 1.2666681668483382,
+    "Height": 7.242438501596439,
+    "Shape": 0
+  },
+  {
+    "Id": "sc_terrain_1cffe4ed683895d1",
+    "Name": "Wall Set 2",
+    "Type": "Terrain",
+    "Description": "StarCraft terrain: Wall Set 2. Official PDF map placements; TTS model. Resolve cover, elevation and movement using the rulebook.",
+    "Width": 23.265013160000002,
+    "Length": 5.968428500000001,
+    "Height": 13.220065,
+    "Shape": 0
+  },
+  {
+    "Id": "sc_terrain_2e5381d1d3c2f1b7",
+    "Name": "Wall Set 3",
+    "Type": "Terrain",
+    "Description": "StarCraft terrain: Wall Set 3. Official PDF map placements; TTS model. Resolve cover, elevation and movement using the rulebook.",
+    "Width": 13.037360260000002,
+    "Length": 6.04701102,
+    "Height": 10.10163842,
+    "Shape": 0
+  },
+  {
+    "Id": "sc_terrain_342caed58291ae73",
+    "Name": "Statue Shard",
+    "Type": "Terrain",
+    "Description": "StarCraft terrain: Statue Shard. Official PDF map placements; TTS model. Resolve cover, elevation and movement using the rulebook.",
+    "Width": 4.857295133285769,
+    "Length": 4.559063950422089,
+    "Height": 1.4083232785763211,
+    "Shape": 0
+  },
+  {
+    "Id": "sc_terrain_442da683d2d26342",
+    "Name": "Protoss Banner",
+    "Type": "Terrain",
+    "Description": "StarCraft terrain: Protoss Banner. Official PDF map placements; TTS model. Resolve cover, elevation and movement using the rulebook.",
+    "Width": 4.20812683744298,
+    "Length": 1.2666681668483382,
+    "Height": 7.242438501596439,
+    "Shape": 0
+  },
+  {
+    "Id": "sc_terrain_4b5400ce5539b63f",
+    "Name": "Wall Set 5",
+    "Type": "Terrain",
+    "Description": "StarCraft terrain: Wall Set 5. Official PDF map placements; TTS model. Resolve cover, elevation and movement using the rulebook.",
+    "Width": 20.365557439999996,
+    "Length": 9.19145736,
+    "Height": 10.10798842,
+    "Shape": 0
+  },
+  {
+    "Id": "sc_terrain_5395598da3627dc3",
+    "Name": "Temple Obelisk",
+    "Type": "Terrain",
+    "Description": "StarCraft terrain: Temple Obelisk. Official PDF map placements; TTS model. Resolve cover, elevation and movement using the rulebook.",
+    "Width": 5.42346168345626,
+    "Length": 5.42346168345626,
+    "Height": 2.63322571322308,
+    "Shape": 0
+  },
+  {
+    "Id": "sc_terrain_677b1df2f3ce2914",
+    "Name": "Protoss Banner",
+    "Type": "Terrain",
+    "Description": "StarCraft terrain: Protoss Banner. Official PDF map placements; TTS model. Resolve cover, elevation and movement using the rulebook.",
+    "Width": 4.20812683744298,
+    "Length": 1.2666681668483382,
+    "Height": 7.242438501596439,
+    "Shape": 0
+  },
+  {
+    "Id": "sc_terrain_696320bc52444def",
+    "Name": "Protoss Banner",
+    "Type": "Terrain",
+    "Description": "StarCraft terrain: Protoss Banner. Official PDF map placements; TTS model. Resolve cover, elevation and movement using the rulebook.",
+    "Width": 4.20812683744298,
+    "Length": 1.2666681668483382,
+    "Height": 7.242438501596439,
+    "Shape": 0
+  },
+  {
+    "Id": "sc_terrain_8a9da51123d91b9c",
+    "Name": "Vespene Geyser",
+    "Type": "Terrain",
+    "Description": "StarCraft terrain: Vespene Geyser. Official PDF map placements; TTS model. Resolve cover, elevation and movement using the rulebook.",
+    "Width": 8.633402087999999,
+    "Length": 8.544638231999999,
+    "Height": 3.833548848,
+    "Shape": 0
+  },
+  {
+    "Id": "sc_terrain_d903fea321acfebe",
+    "Name": "Head Statue",
+    "Type": "Terrain",
+    "Description": "StarCraft terrain: Head Statue. Official PDF map placements; TTS model. Resolve cover, elevation and movement using the rulebook.",
+    "Width": 9.496223694052597,
+    "Length": 10.112437988740673,
+    "Height": 4.405414923128656,
+    "Shape": 0
+  },
+  {
+    "Id": "sc_terrain_e45c33c511633ae2",
+    "Name": "Head Statue",
+    "Type": "Terrain",
+    "Description": "StarCraft terrain: Head Statue. Official PDF map placements; TTS model. Resolve cover, elevation and movement using the rulebook.",
+    "Width": 9.19134815709204,
+    "Length": 9.78777893887767,
+    "Height": 4.263979413236015,
+    "Shape": 0
+  },
+  {
+    "Id": "sc_terrain_e8d245d869f43c5b",
+    "Name": "Wall Set 4",
+    "Type": "Terrain",
+    "Description": "StarCraft terrain: Wall Set 4. Official PDF map placements; TTS model. Resolve cover, elevation and movement using the rulebook.",
+    "Width": 20.365557439999996,
+    "Length": 9.19145736,
+    "Height": 10.10798842,
+    "Shape": 0
+  },
+  {
+    "Id": "sc_terrain_f2dd0d048a087d53",
+    "Name": "High Ground",
+    "Type": "Terrain",
+    "Description": "StarCraft terrain: High Ground. Official PDF map placements; TTS model. Resolve cover, elevation and movement using the rulebook.",
+    "Width": 24.13,
+    "Length": 9.73006436,
+    "Height": 6.851898920000001,
+    "Shape": 0
+  },
+  {
+    "Id": "sc_terrain_f305a277f53c823b",
+    "Name": "Wall Set 1",
+    "Type": "Terrain",
+    "Description": "StarCraft terrain: Wall Set 1. Official PDF map placements; TTS model. Resolve cover, elevation and movement using the rulebook.",
+    "Width": 19.873831220000003,
+    "Length": 3.3778951999999998,
+    "Height": 13.2345811,
+    "Shape": 0
+  },
+  {
+    "Id": "sc_terrain_f910561ff3ef2272",
+    "Name": "Wall Set 6",
+    "Type": "Terrain",
+    "Description": "StarCraft terrain: Wall Set 6. Official PDF map placements; TTS model. Resolve cover, elevation and movement using the rulebook.",
+    "Width": 8.405345140000001,
+    "Length": 2.7816251199999997,
+    "Height": 10.10798842,
+    "Shape": 0
   }
 ]

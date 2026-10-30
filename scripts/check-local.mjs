@@ -28,6 +28,7 @@ console.log(`Package verified: ${result.units} units, ${result.records} records,
 
 for (const args of [
   ['scripts/update-deployments.mjs', '--check'],
+  ['scripts/update-terrain.mjs', '--check'],
   ['--test'],
   [
     'node_modules/prettier/bin/prettier.cjs',

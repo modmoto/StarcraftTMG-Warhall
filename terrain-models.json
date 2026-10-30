@@ -1,0 +1,430 @@
+{
+  "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=3662791369",
+  "models": [
+    {
+      "terrainId": "sc_terrain_d903fea321acfebe",
+      "unitName": "Terrain - Head Statue - acfebe",
+      "status": "selected",
+      "model": {
+        "meshUrl": "https://steamusercontent-a.akamaihd.net/ugc/16752883865032145389/29F01FF4B05FFA1FDE5C3D7B3C2247B913879055/",
+        "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/12266583770828535695/D34B84E0A65CA5FE4C72F487361102AF4691AD81/",
+        "ttsTransform": {
+          "scaleY": 0.8852644
+        }
+      },
+      "layout": {
+        "size": 0.8852644,
+        "position": [
+          -0.3960555273961238,
+          0.043334029445679996,
+          0.482455765918136
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "terrainId": "sc_terrain_1cffe4ed683895d1",
+      "unitName": "Terrain - Wall Set 2 - 3895d1",
+      "status": "selected",
+      "model": {
+        "meshUrl": "https://steamusercontent-a.akamaihd.net/ugc/16696069935400629216/E60B9B6B6AB2F81E6B7BDD2F437BA79AD8202F76/",
+        "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/14882615035596434474/4D9D65D31D0642898B66262948A1A6A0BE68F2A9/",
+        "ttsTransform": {
+          "scaleY": 1
+        }
+      },
+      "layout": {
+        "size": 1,
+        "position": [
+          0.49138331999999924,
+          1.29868936,
+          1.39812903
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "terrainId": "sc_terrain_2e5381d1d3c2f1b7",
+      "unitName": "Terrain - Wall Set 3 - c2f1b7",
+      "status": "selected",
+      "model": {
+        "meshUrl": "https://steamusercontent-a.akamaihd.net/ugc/15345174323865486993/8E36DA1F6593F67C9F3B1C316E999006544FAB33/",
+        "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/12466753613873081281/CC9E156F12D2D5FCD187C60140361ACF9E1CF850/",
+        "ttsTransform": {
+          "scaleY": 1
+        }
+      },
+      "layout": {
+        "size": 1,
+        "position": [
+          -3.18072897,
+          0.34750000000000003,
+          0.9675228300000002
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "terrainId": "sc_terrain_0e597f350f0c8124",
+      "unitName": "Terrain - grass - 0c8124",
+      "status": "selected",
+      "model": {
+        "meshUrl": "https://steamusercontent-a.akamaihd.net/ugc/13453573848333998441/5E90C87B961EBA564BC81BC5257B2B46AF6F9171/",
+        "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/17816586817869580434/9765A05A92BE516DFA2A6B1F3BA8BD947B6CE8E7/",
+        "ttsTransform": {
+          "scaleY": 1
+        }
+      },
+      "layout": {
+        "size": 1,
+        "position": [
+          -0.09624694999999998,
+          0.13013696,
+          0.01898522999999999
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "terrainId": "sc_terrain_5395598da3627dc3",
+      "unitName": "Terrain - Temple Obelisk - 627dc3",
+      "status": "selected",
+      "model": {
+        "meshUrl": "https://steamusercontent-a.akamaihd.net/ugc/17858142237602324437/33D22A31760E14A9BA9DFFC3118A12E4321C8994/",
+        "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/8552585319863352/1819A075ABF36C76A9A4AC30DF88D9E39EC41E19/",
+        "ttsTransform": {
+          "scaleY": 0.5000005
+        }
+      },
+      "layout": {
+        "size": 0.5000005,
+        "position": [
+          0,
+          0.03834009834009,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "terrainId": "sc_terrain_e8d245d869f43c5b",
+      "unitName": "Terrain - Wall Set 4 - f43c5b",
+      "status": "selected",
+      "model": {
+        "meshUrl": "https://steamusercontent-a.akamaihd.net/ugc/17799036563116823363/214500903ACB4888525245004F0F07A72A65C02F/",
+        "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/14957008999031761450/39E163CE4AEC65343BD57655B4DBC4C6B2E657B9/",
+        "ttsTransform": {
+          "scaleY": 1
+        }
+      },
+      "layout": {
+        "size": 1,
+        "position": [
+          -0.18022061999999955,
+          0.35385,
+          -6.229230620000001
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "terrainId": "sc_terrain_4b5400ce5539b63f",
+      "unitName": "Terrain - Wall Set 5 - 39b63f",
+      "status": "selected",
+      "model": {
+        "meshUrl": "https://steamusercontent-a.akamaihd.net/ugc/15364100364117888702/F9070FDDDBC5CA2D4867BE5F35536412329DC8CF/",
+        "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/11292566716676015408/E5E47AC4B3475FA4F0A91FFC4E27CC2F058AE0FD/",
+        "ttsTransform": {
+          "scaleY": 1
+        }
+      },
+      "layout": {
+        "size": 1,
+        "position": [
+          0.18022061999999955,
+          0.35385,
+          -6.229230620000001
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "terrainId": "sc_terrain_0e9238ef444f6364",
+      "unitName": "Terrain - Protoss Banner - 4f6364",
+      "status": "selected",
+      "model": {
+        "meshUrl": "https://steamusercontent-a.akamaihd.net/ugc/14105390183802608805/7FFB47257CA9EFF2081057AD402634EE91CFE4B3/",
+        "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/10369507866648001983/1009F749FF7AEB13A8C31B3213295C1D860B339C/",
+        "ttsTransform": {
+          "scaleY": 1.0999999
+        }
+      },
+      "layout": {
+        "size": 1.0999999,
+        "position": [
+          0,
+          -2.1599342069150542,
+          0.019592923218825015
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "terrainId": "sc_terrain_f910561ff3ef2272",
+      "unitName": "Terrain - Wall Set 6 - ef2272",
+      "status": "selected",
+      "model": {
+        "meshUrl": "https://steamusercontent-a.akamaihd.net/ugc/11952332230460653328/56B0D84B67F78896DFA9C1A79692191DBC3CE376/",
+        "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/11600837580354471269/D4154E69960BB8E9BE3B9C3200FEE83950BF627C/",
+        "ttsTransform": {
+          "scaleY": 1
+        }
+      },
+      "layout": {
+        "size": 1,
+        "position": [
+          -0.7357198899999997,
+          0.35385,
+          -3.58789478
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "terrainId": "sc_terrain_f305a277f53c823b",
+      "unitName": "Terrain - Wall Set 1 - 3c823b",
+      "status": "selected",
+      "model": {
+        "meshUrl": "https://steamusercontent-a.akamaihd.net/ugc/10702056937764223729/4D4B21E2F2E459760E4E6BD75EC21793750BA2E8/",
+        "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/9388973454819896394/206EB91C51C956CEE6615B46F68D3838933832CD/",
+        "ttsTransform": {
+          "scaleY": 1
+        }
+      },
+      "layout": {
+        "size": 1,
+        "position": [
+          1.2652616300000004,
+          1.3132054599999998,
+          0.32617663999999996
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "terrainId": "sc_terrain_696320bc52444def",
+      "unitName": "Terrain - Protoss Banner - 444def",
+      "status": "selected",
+      "model": {
+        "meshUrl": "https://steamusercontent-a.akamaihd.net/ugc/14105390183802608805/7FFB47257CA9EFF2081057AD402634EE91CFE4B3/",
+        "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/12440890074480881284/A65395F996C5355697D12E1E06E7B73D45F7E2B2/",
+        "ttsTransform": {
+          "scaleY": 1.0999999
+        }
+      },
+      "layout": {
+        "size": 1.0999999,
+        "position": [
+          0,
+          -2.1599342069150542,
+          0.019592923218825015
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "terrainId": "sc_terrain_8a9da51123d91b9c",
+      "unitName": "Terrain - Vespene Geyser - d91b9c",
+      "status": "selected",
+      "model": {
+        "meshUrl": "https://steamusercontent-a.akamaihd.net/ugc/16847790761879049548/73D02B6A7E9EB7662354E097CD19B60B7C6DA422/",
+        "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/12514039678784664250/D376B1CFBA958A5085F1C211CF483F73DB85F2C8/",
+        "ttsTransform": {
+          "scaleY": 1.2
+        }
+      },
+      "layout": {
+        "size": 1.2,
+        "position": [
+          -0.006844284000000035,
+          0.06484168800000001,
+          -0.05049469199999978
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "terrainId": "sc_terrain_342caed58291ae73",
+      "unitName": "Terrain - Statue Shard - 91ae73",
+      "status": "selected",
+      "model": {
+        "meshUrl": "https://steamusercontent-a.akamaihd.net/ugc/17085801959441924534/E60A1E0F01C1C5C35D227880F13ABC754AA83B34/",
+        "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/16717348948617320850/152BD21C67F86A8869A6586C003451801FFDAD36/",
+        "ttsTransform": {
+          "scaleY": 0.255104423
+        }
+      },
+      "layout": {
+        "size": 0.255104423,
+        "position": [
+          -0.021488471069070498,
+          0.047755543353576846,
+          0.16893036830040384
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "terrainId": "sc_terrain_e45c33c511633ae2",
+      "unitName": "Terrain - Head Statue - 633ae2",
+      "status": "selected",
+      "model": {
+        "meshUrl": "https://steamusercontent-a.akamaihd.net/ugc/16752883865032145389/29F01FF4B05FFA1FDE5C3D7B3C2247B913879055/",
+        "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/12266583770828535695/D34B84E0A65CA5FE4C72F487361102AF4691AD81/",
+        "ttsTransform": {
+          "scaleY": 0.856843054
+        }
+      },
+      "layout": {
+        "size": 0.856843054,
+        "position": [
+          -0.3833401949154122,
+          0.0429059414479588,
+          0.4669665603736068
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "terrainId": "sc_terrain_f2dd0d048a087d53",
+      "unitName": "Terrain - High Ground - 087d53",
+      "status": "selected",
+      "model": {
+        "meshUrl": "https://steamusercontent-a.akamaihd.net/ugc/17474291243223958637/258D5A00929C84CB834BB0EACB46F3B5A83BCEAC/",
+        "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/10975319265487922234/7CB6891237190BE9AF71B77CA86311D085ABF7F1/",
+        "ttsTransform": {
+          "scaleY": 1
+        }
+      },
+      "layout": {
+        "size": 1,
+        "position": [
+          -4.8103510599999995,
+          3.1347385199999995,
+          0.0005130800000000902
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "terrainId": "sc_terrain_442da683d2d26342",
+      "unitName": "Terrain - Protoss Banner - d26342",
+      "status": "selected",
+      "model": {
+        "meshUrl": "https://steamusercontent-a.akamaihd.net/ugc/14105390183802608805/7FFB47257CA9EFF2081057AD402634EE91CFE4B3/",
+        "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/10357068739505337484/227FFCA9C2EF66E7C219C9C58699DC368D2E91B0/",
+        "ttsTransform": {
+          "scaleY": 1.0999999
+        }
+      },
+      "layout": {
+        "size": 1.0999999,
+        "position": [
+          0,
+          -2.1599342069150542,
+          0.019592923218825015
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "terrainId": "sc_terrain_677b1df2f3ce2914",
+      "unitName": "Terrain - Protoss Banner - ce2914",
+      "status": "selected",
+      "model": {
+        "meshUrl": "https://steamusercontent-a.akamaihd.net/ugc/14105390183802608805/7FFB47257CA9EFF2081057AD402634EE91CFE4B3/",
+        "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/10385263367292569965/04D6173C96DFF029CF83DB7007C803E0231DA978/",
+        "ttsTransform": {
+          "scaleY": 1.0999999
+        }
+      },
+      "layout": {
+        "size": 1.0999999,
+        "position": [
+          0,
+          -2.1599342069150542,
+          0.019592923218825015
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      }
+    }
+  ]
+}

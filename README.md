@@ -187,3 +187,11 @@ npm run format
 npm run format:check
 npm test
 ```
+
+## Standard terrain maps
+
+`npm run terrain:update` downloads the TTS terrain meshes and textures for inspection, computes Warhall footprints and regenerates `Starcraft/maps.json`, terrain records and CDN model mappings. `--offline` reuses the local cache; `npm run terrain:check` verifies the generated files without changing them. Model binaries stay out of Git.
+
+The five presets are official PDF maps 1-5 (rulebook PDF pages 118-122), using the corresponding saved TTS memory-bag placements: 30 pieces on maps 1-4 and 32 on map 5, including the high-ground ramps. Refresh `terrain-sources.json` from the Workshop save with `node scripts/extract-tts-terrain.mjs /path/to/3662791369.json`. Source URLs, hashes, scale limitations and page references are retained in `terrain-report.json`.
+
+Select the map first under Create > Battlefield, then select the deployment. Warhall clears all terrain when loading a map, including deployment markers; after changing maps, select None and then the desired deployment to restore its markers. Map loading locks terrain automatically; deployment-marker creation requires the manual Lock terrain switch in this client. The local model-cache adapter also installs `terrain-models.json`; shared use requires Warhall catalogue registration, as with unit models. Warhall remote skins expose uniform scale, so nonuniform TTS scales prioritize the horizontal footprint; model and collider dimensions match the rendered uniform scale.

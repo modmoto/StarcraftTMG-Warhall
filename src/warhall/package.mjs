@@ -11,6 +11,7 @@ const staticFiles = [
   'terrains.json',
   'objectives.json',
   'deployments.json',
+  'maps.json',
   'gameconfig.json',
   'version.json',
 ];
@@ -97,7 +98,14 @@ function addUnitRecords(unit, faction, records, bases, groups, report, baseMappi
 
 async function initialData(template) {
   const data = {};
-  for (const name of staticFiles) data[name] = await readJson(path.join(template, name));
+  for (const name of staticFiles) {
+    try {
+      data[name] = await readJson(path.join(template, name));
+    } catch (error) {
+      if (name === 'maps.json' && error.code === 'ENOENT') data[name] = [];
+      else throw error;
+    }
+  }
 
   data['gameconfig.json'].WoundsAttribute = 'HP';
   data['bases.json'] = [];

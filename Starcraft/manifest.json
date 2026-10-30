@@ -1,5 +1,5 @@
 {
-  "version": 8,
+  "version": 9,
   "files": [
     "Protoss/equipment.json",
     "Protoss/modifiedprofile.json",
@@ -32,6 +32,7 @@
     "equipment.json",
     "gameconfig.json",
     "hierarchy.json",
+    "maps.json",
     "objectives.json",
     "options.json",
     "rules.json",

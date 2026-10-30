@@ -1,0 +1,457 @@
+{
+  "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=3662791369",
+  "maps": [
+    {
+      "name": "Official Map 1",
+      "pdfPage": 118,
+      "pieces": 30
+    },
+    {
+      "name": "Official Map 2",
+      "pdfPage": 119,
+      "pieces": 30
+    },
+    {
+      "name": "Official Map 3",
+      "pdfPage": 120,
+      "pieces": 30
+    },
+    {
+      "name": "Official Map 4",
+      "pdfPage": 121,
+      "pieces": 30
+    },
+    {
+      "name": "Official Map 5",
+      "pdfPage": 122,
+      "pieces": 32
+    }
+  ],
+  "assets": [
+    {
+      "id": "sc_terrain_d903fea321acfebe",
+      "name": "Head Statue",
+      "meshSha256": "24a8c32a2782e14b26883958c8ecad2bae8820104b0798032bad501dcd6aebd9",
+      "textureSha256": "7387933dc2de5e73af8ad73fc8c151efaf425623150a7f7b65e7ed9d0f0d07dd",
+      "sourceScale": [
+        0.8852644,
+        0.565559149,
+        0.8852639
+      ],
+      "renderScale": 0.8852644,
+      "bounds": {
+        "lo": [
+          -2.287749,
+          -0.00593,
+          -2.463197
+        ],
+        "hi": [
+          1.935476,
+          1.953276,
+          2.034075
+        ]
+      },
+      "note": "Warhall remote skins use uniform scale; horizontal footprint prioritized."
+    },
+    {
+      "id": "sc_terrain_1cffe4ed683895d1",
+      "name": "Wall Set 2",
+      "meshSha256": "6c204f62bfcd38beea2dfdd46bd56aef220d20b4b586b1587ea77df955ef1d7f",
+      "textureSha256": "8cec9622870094196698f5dea058cc4de3a73b41742972d29ba06ba7955d1b4b",
+      "sourceScale": [
+        1,
+        1,
+        1
+      ],
+      "renderScale": 1,
+      "bounds": {
+        "lo": [
+          -4.386269,
+          -0.499484,
+          -1.725332
+        ],
+        "hi": [
+          4.773185,
+          4.705266,
+          0.624443
+        ]
+      },
+      "note": "Uniform source scale retained."
+    },
+    {
+      "id": "sc_terrain_2e5381d1d3c2f1b7",
+      "name": "Wall Set 3",
+      "meshSha256": "a4bb613bbf2b6944ad74888569f76c778c1806572cc44a4ff569a430bdc0f322",
+      "textureSha256": "4be5f09ff1080082a1fb7dfcb80bb6bc1a5baebdaa4a5d5e28d66133e86b50c3",
+      "sourceScale": [
+        1,
+        1,
+        1
+      ],
+      "renderScale": 1,
+      "bounds": {
+        "lo": [
+          -3.818665,
+          -0.125,
+          -1.571271
+        ],
+        "hi": [
+          1.314154,
+          3.852023,
+          0.809442
+        ]
+      },
+      "note": "Uniform source scale retained."
+    },
+    {
+      "id": "sc_terrain_0e597f350f0c8124",
+      "name": "grass",
+      "meshSha256": "ef34f67b12edf74c3ad14cedd9692c1513e4137ba7f1e8490cd9ae3d86b9f1c8",
+      "textureSha256": "de394dfd976c7dbc2e55f45d56d5d93ae4a898f9c18564ef995d9a0b74f1d1da",
+      "sourceScale": [
+        1,
+        1,
+        1
+      ],
+      "renderScale": 1,
+      "bounds": {
+        "lo": [
+          -1.450221,
+          -0.039424,
+          -0.742287
+        ],
+        "hi": [
+          1.374436,
+          1.980649,
+          0.727338
+        ]
+      },
+      "note": "Uniform source scale retained."
+    },
+    {
+      "id": "sc_terrain_5395598da3627dc3",
+      "name": "Temple Obelisk",
+      "meshSha256": "3ceef61349449d6b935c8160bea4074bf6b6e99022679e93ecbb7dcfb9f4c288",
+      "textureSha256": "caf909b1613801a515ebdc141f46fe09fbaaff13a9e34f4cc1d12c94f370d05f",
+      "sourceScale": [
+        0.5000005,
+        0.5000004,
+        0.5000005
+      ],
+      "renderScale": 0.5000005,
+      "bounds": {
+        "lo": [
+          -2.135219,
+          -0.006567,
+          -2.135219
+        ],
+        "hi": [
+          2.135219,
+          2.066837,
+          2.135219
+        ]
+      },
+      "note": "Uniform source scale retained."
+    },
+    {
+      "id": "sc_terrain_e8d245d869f43c5b",
+      "name": "Wall Set 4",
+      "meshSha256": "577c699023d45eb448068ecf8418aa3eac038e0dda3c9cf134612dbedcbd3fb9",
+      "textureSha256": "ec2941f0cb0945055b35915b652d791cdc724e36a71dd5b7a298f97cc4852d7d",
+      "sourceScale": [
+        1,
+        1,
+        1
+      ],
+      "renderScale": 1,
+      "bounds": {
+        "lo": [
+          -4.079921,
+          -0.1275,
+          0.643111
+        ],
+        "hi": [
+          3.938015,
+          3.852023,
+          4.261795
+        ]
+      },
+      "note": "Uniform source scale retained."
+    },
+    {
+      "id": "sc_terrain_4b5400ce5539b63f",
+      "name": "Wall Set 5",
+      "meshSha256": "8a0b51d3b533183dfacb7be7e25272f8c3896e28b7ba936d48c4d5a75e9dc250",
+      "textureSha256": "ceb734ef638f21dcd61f136b93fb53d05f5b8888905e240bf3eec19d5ebac008",
+      "sourceScale": [
+        1,
+        1,
+        1
+      ],
+      "renderScale": 1,
+      "bounds": {
+        "lo": [
+          -3.938015,
+          -0.1275,
+          0.643111
+        ],
+        "hi": [
+          4.079921,
+          3.852023,
+          4.261795
+        ]
+      },
+      "note": "Uniform source scale retained."
+    },
+    {
+      "id": "sc_terrain_0e9238ef444f6364",
+      "name": "Protoss Banner",
+      "meshSha256": "adf697d6bdaabd8e1f082444d73c81e1f8cda139452d75b641b2eb22c90069be",
+      "textureSha256": "7bc6e5fa1f4da645a555d6bf19a3507b1d549f17462323b6e7da3f7509bdf571",
+      "sourceScale": [
+        1.0999999,
+        1.0999999,
+        1.0999999
+      ],
+      "renderScale": 1.0999999,
+      "bounds": {
+        "lo": [
+          -0.753065,
+          0.783799,
+          -0.233689
+        ],
+        "hi": [
+          0.753065,
+          3.375939,
+          0.219664
+        ]
+      },
+      "note": "Uniform source scale retained."
+    },
+    {
+      "id": "sc_terrain_f910561ff3ef2272",
+      "name": "Wall Set 6",
+      "meshSha256": "b49c36bf315d719e5bb38c29b5000b7e473e14e8105158ad78f3637a4de8d44d",
+      "textureSha256": "cd75435e1d011c0e2118d908ea46f4c609dea9f4d4bed408f26b743c629df742",
+      "sourceScale": [
+        1,
+        1,
+        1
+      ],
+      "renderScale": 1,
+      "bounds": {
+        "lo": [
+          -1.944249,
+          -0.1275,
+          0.864993
+        ],
+        "hi": [
+          1.364942,
+          3.852023,
+          1.960121
+        ]
+      },
+      "note": "Uniform source scale retained."
+    },
+    {
+      "id": "sc_terrain_f305a277f53c823b",
+      "name": "Wall Set 1",
+      "meshSha256": "2ec6d9937a6f64762012c89738d3b805b33e574c8c8dc5db59aff1dd58addd64",
+      "textureSha256": "0b479a3a3ea13d0d9e28072b67de60b6707b319b7c95a82c51c703519640d365",
+      "sourceScale": [
+        1,
+        1,
+        1
+      ],
+      "renderScale": 1,
+      "bounds": {
+        "lo": [
+          -3.414037,
+          -0.505199,
+          -0.793356
+        ],
+        "hi": [
+          4.410306,
+          4.705266,
+          0.536524
+        ]
+      },
+      "note": "Uniform source scale retained."
+    },
+    {
+      "id": "sc_terrain_696320bc52444def",
+      "name": "Protoss Banner",
+      "meshSha256": "adf697d6bdaabd8e1f082444d73c81e1f8cda139452d75b641b2eb22c90069be",
+      "textureSha256": "7a24725d0aef456d35336e20010014f71c2dd578e3e6c47f59f9f18e91131a61",
+      "sourceScale": [
+        1.0999999,
+        1.0999999,
+        1.0999999
+      ],
+      "renderScale": 1.0999999,
+      "bounds": {
+        "lo": [
+          -0.753065,
+          0.783799,
+          -0.233689
+        ],
+        "hi": [
+          0.753065,
+          3.375939,
+          0.219664
+        ]
+      },
+      "note": "Uniform source scale retained."
+    },
+    {
+      "id": "sc_terrain_8a9da51123d91b9c",
+      "name": "Vespene Geyser",
+      "meshSha256": "44ec2e4dab35247627023dd577c342de5675dc0327d44b897470984c57514710",
+      "textureSha256": "e47280630764d2981c080afe4e8cd6ced98f734bdd61847552579562a3e95f0f",
+      "sourceScale": [
+        1.2,
+        0.8,
+        1.2
+      ],
+      "renderScale": 1.2,
+      "bounds": {
+        "lo": [
+          -1.418486,
+          -0.011431,
+          -1.385113
+        ],
+        "hi": [
+          1.413995,
+          1.246295,
+          1.418246
+        ]
+      },
+      "note": "Warhall remote skins use uniform scale; horizontal footprint prioritized."
+    },
+    {
+      "id": "sc_terrain_342caed58291ae73",
+      "name": "Statue Shard",
+      "meshSha256": "59a8767cff2096785d341268574ba7eed5e8a0501004dc2d5cf657ba1e0782f6",
+      "textureSha256": "88a0709e16c6b3d2b9a286c9ef63051ac92ce99ad56c4cc89ea0151a05b4e294",
+      "sourceScale": [
+        0.255104423,
+        0.41834867,
+        0.176088035
+      ],
+      "renderScale": 0.255104423,
+      "bounds": {
+        "lo": [
+          -3.781277,
+          -0.027402,
+          -3.778694
+        ],
+        "hi": [
+          3.714951,
+          2.146053,
+          3.257276
+        ]
+      },
+      "note": "Warhall remote skins use uniform scale; horizontal footprint prioritized."
+    },
+    {
+      "id": "sc_terrain_e45c33c511633ae2",
+      "name": "Head Statue",
+      "meshSha256": "24a8c32a2782e14b26883958c8ecad2bae8820104b0798032bad501dcd6aebd9",
+      "textureSha256": "7387933dc2de5e73af8ad73fc8c151efaf425623150a7f7b65e7ed9d0f0d07dd",
+      "sourceScale": [
+        0.856843054,
+        0.5474019,
+        0.8568426
+      ],
+      "renderScale": 0.856843054,
+      "bounds": {
+        "lo": [
+          -2.287749,
+          -0.00593,
+          -2.463197
+        ],
+        "hi": [
+          1.935476,
+          1.953276,
+          2.034075
+        ]
+      },
+      "note": "Warhall remote skins use uniform scale; horizontal footprint prioritized."
+    },
+    {
+      "id": "sc_terrain_f2dd0d048a087d53",
+      "name": "High Ground",
+      "meshSha256": "8feddf674852190096c7589e65dbf91574426efd632252eb3d289c63d75079a6",
+      "textureSha256": "43ca1424e1b337c164d3c95ecc2aab776ae37fd80ab75a644619777e357c65df",
+      "sourceScale": [
+        1,
+        1.43,
+        1
+      ],
+      "renderScale": 1,
+      "bounds": {
+        "lo": [
+          -6.643839,
+          -1.222338,
+          -1.915569
+        ],
+        "hi": [
+          2.856161,
+          1.47526,
+          1.915165
+        ]
+      },
+      "note": "Warhall remote skins use uniform scale; horizontal footprint prioritized."
+    },
+    {
+      "id": "sc_terrain_442da683d2d26342",
+      "name": "Protoss Banner",
+      "meshSha256": "adf697d6bdaabd8e1f082444d73c81e1f8cda139452d75b641b2eb22c90069be",
+      "textureSha256": "36445416e13b10ad7b3bcb8f3307132968d59df365d5f3fce472bd36f3e4f108",
+      "sourceScale": [
+        1.0999999,
+        1.0999999,
+        1.0999999
+      ],
+      "renderScale": 1.0999999,
+      "bounds": {
+        "lo": [
+          -0.753065,
+          0.783799,
+          -0.233689
+        ],
+        "hi": [
+          0.753065,
+          3.375939,
+          0.219664
+        ]
+      },
+      "note": "Uniform source scale retained."
+    },
+    {
+      "id": "sc_terrain_677b1df2f3ce2914",
+      "name": "Protoss Banner",
+      "meshSha256": "adf697d6bdaabd8e1f082444d73c81e1f8cda139452d75b641b2eb22c90069be",
+      "textureSha256": "ef12a70ff2a1b69dd7de15da2d6496254788db79d9563ed7f1a46313eabed57a",
+      "sourceScale": [
+        1.0999999,
+        1.0999999,
+        1.0999999
+      ],
+      "renderScale": 1.0999999,
+      "bounds": {
+        "lo": [
+          -0.753065,
+          0.783799,
+          -0.233689
+        ],
+        "hi": [
+          0.753065,
+          3.375939,
+          0.219664
+        ]
+      },
+      "note": "Uniform source scale retained."
+    }
+  ]
+}

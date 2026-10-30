@@ -66,9 +66,15 @@ const next = Object.fromEntries(
 const selection = JSON.parse(
   await readFile(path.join(projectRoot, 'model-selections.json'), 'utf8'),
 );
+try {
+  const terrain = JSON.parse(await readFile(path.join(projectRoot, 'terrain-models.json'), 'utf8'));
+  selection.models.push(...terrain.models);
+} catch (error) {
+  if (error.code !== 'ENOENT') throw error;
+}
 let installed = 0;
 for (const model of selection.models.filter(m => m.status === 'selected')) {
-  let profileId = model.tokenId;
+  let profileId = model.tokenId ?? model.terrainId;
   if (!profileId) {
     const units = JSON.parse(
       await readFile(path.join(projectRoot, 'Starcraft', model.faction, 'units.json'), 'utf8'),

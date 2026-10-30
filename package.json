@@ -6,6 +6,8 @@
     "convert": "node scripts/convert.mjs",
     "deployments:update": "node scripts/update-deployments.mjs",
     "deployments:check": "node scripts/update-deployments.mjs --check",
+    "terrain:update": "node scripts/update-terrain.mjs",
+    "terrain:check": "node scripts/update-terrain.mjs --check",
     "validate": "node scripts/validate.mjs",
     "check:local": "node scripts/check-local.mjs",
     "test": "node --test",
