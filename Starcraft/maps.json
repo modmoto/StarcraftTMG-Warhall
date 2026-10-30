@@ -47,33 +47,33 @@
       {
         "Id": "sc_terrain_e8d245d869f43c5b",
         "Quadrant": 1,
-        "Rotation": 21,
-        "ShortSide": 16.860179115032523,
-        "LongSide": 27.089834836580255,
+        "Rotation": 356,
+        "ShortSide": 16.619766995838553,
+        "LongSide": 28.228031676929696,
         "Type": "Terrain"
       },
       {
         "Id": "sc_terrain_e8d245d869f43c5b",
         "Quadrant": 1,
-        "Rotation": 200,
-        "ShortSide": 37.16716233708209,
-        "LongSide": 8.913715368305123,
+        "Rotation": 175,
+        "ShortSide": 37.387673566482434,
+        "LongSide": 7.7714961108308245,
         "Type": "Terrain"
       },
       {
         "Id": "sc_terrain_4b5400ce5539b63f",
         "Quadrant": 1,
-        "Rotation": 339,
-        "ShortSide": 8.883520884967481,
-        "LongSide": 27.064234836580255,
+        "Rotation": 4,
+        "ShortSide": 9.12393300416145,
+        "LongSide": 28.20243167692969,
         "Type": "Terrain"
       },
       {
         "Id": "sc_terrain_0e9238ef444f6364",
         "Quadrant": 1,
         "Rotation": 98,
-        "ShortSide": 14.955138679620829,
-        "LongSide": 24.057973546409936,
+        "ShortSide": 14.929164046898778,
+        "LongSide": 24.03447699569509,
         "Type": "Terrain"
       },
       {
@@ -111,9 +111,9 @@
       {
         "Id": "sc_terrain_4b5400ce5539b63f",
         "Quadrant": 1,
-        "Rotation": 160,
-        "ShortSide": 45.28903766291791,
-        "LongSide": 8.999415368305122,
+        "Rotation": 185,
+        "ShortSide": 45.06852643351756,
+        "LongSide": 7.857196110830827,
         "Type": "Terrain"
       },
       {
@@ -168,8 +168,8 @@
         "Id": "sc_terrain_696320bc52444def",
         "Quadrant": 1,
         "Rotation": 96,
-        "ShortSide": 39.15667149257299,
-        "LongSide": 11.99720630636023,
+        "ShortSide": 39.12989284990766,
+        "LongSide": 11.974630329927596,
         "Type": "Terrain"
       },
       {
@@ -200,8 +200,8 @@
         "Id": "sc_terrain_342caed58291ae73",
         "Quadrant": 1,
         "Rotation": 218,
-        "ShortSide": 50.392420167915695,
-        "LongSide": 23.652017547493045,
+        "ShortSide": 49.40545342014858,
+        "LongSide": 24.86440363323922,
         "Type": "Terrain"
       },
       {
@@ -240,8 +240,8 @@
         "Id": "sc_terrain_342caed58291ae73",
         "Quadrant": 1,
         "Rotation": 41,
-        "ShortSide": 3.5401483222102392,
-        "LongSide": 12.2310554831453,
+        "ShortSide": 4.589213851484313,
+        "LongSide": 11.071984778918058,
         "Type": "Terrain"
       }
     ]
@@ -262,9 +262,9 @@
       {
         "Id": "sc_terrain_4b5400ce5539b63f",
         "Quadrant": 1,
-        "Rotation": 250,
-        "ShortSide": 16.20888463169488,
-        "LongSide": 11.11173766291791,
+        "Rotation": 275,
+        "ShortSide": 17.351103889169174,
+        "LongSide": 10.891226433517565,
         "Type": "Terrain"
       },
       {
@@ -302,9 +302,9 @@
       {
         "Id": "sc_terrain_e8d245d869f43c5b",
         "Quadrant": 1,
-        "Rotation": 290,
-        "ShortSide": 16.31838463169488,
-        "LongSide": 24.413562337082087,
+        "Rotation": 265,
+        "ShortSide": 17.460603889169175,
+        "LongSide": 24.634073566482435,
         "Type": "Terrain"
       },
       {
@@ -319,16 +319,16 @@
         "Id": "sc_terrain_0e9238ef444f6364",
         "Quadrant": 1,
         "Rotation": 4,
-        "ShortSide": 23.279438083950428,
-        "LongSide": 13.83440504100685,
+        "ShortSide": 23.257810668437678,
+        "LongSide": 13.861955437352089,
         "Type": "Terrain"
       },
       {
         "Id": "sc_terrain_e8d245d869f43c5b",
         "Quadrant": 1,
-        "Rotation": 112,
-        "ShortSide": 37.70150463593876,
-        "LongSide": 11.65010846012429,
+        "Rotation": 87,
+        "ShortSide": 36.5676769184977,
+        "LongSide": 11.389868682997124,
         "Type": "Terrain"
       },
       {
@@ -366,9 +366,9 @@
       {
         "Id": "sc_terrain_4b5400ce5539b63f",
         "Quadrant": 1,
-        "Rotation": 68,
-        "ShortSide": 37.80160463593876,
-        "LongSide": 24.92559153987571,
+        "Rotation": 93,
+        "ShortSide": 36.66777691849771,
+        "LongSide": 25.185831317002876,
         "Type": "Terrain"
       },
       {
@@ -399,8 +399,8 @@
         "Id": "sc_terrain_696320bc52444def",
         "Quadrant": 1,
         "Rotation": 4,
-        "ShortSide": 31.017338083950428,
-        "LongSide": 21.33730504100685,
+        "ShortSide": 30.99571042134405,
+        "LongSide": 21.36485526106166,
         "Type": "Terrain"
       },
       {
@@ -431,8 +431,8 @@
         "Id": "sc_terrain_342caed58291ae73",
         "Quadrant": 1,
         "Rotation": 63,
-        "ShortSide": 42.96311830652359,
-        "LongSide": 1.3376680510853305,
+        "ShortSide": 44.36999045568782,
+        "LongSide": 0.6559832720158987,
         "Type": "Terrain"
       },
       {
@@ -487,8 +487,8 @@
         "Id": "sc_terrain_342caed58291ae73",
         "Quadrant": 1,
         "Rotation": 242,
-        "ShortSide": 11.10534864726105,
-        "LongSide": 34.70769338496561,
+        "ShortSide": 9.710587811365901,
+        "LongSide": 35.41382764469388,
         "Type": "Terrain"
       }
     ]
@@ -558,8 +558,8 @@
         "Id": "sc_terrain_0e9238ef444f6364",
         "Quadrant": 1,
         "Rotation": 6,
-        "ShortSide": 15.13190630636023,
-        "LongSide": 31.96342850742701,
+        "ShortSide": 15.109330570718255,
+        "LongSide": 31.990207334898813,
         "Type": "Terrain"
       },
       {
@@ -605,17 +605,17 @@
       {
         "Id": "sc_terrain_4b5400ce5539b63f",
         "Quadrant": 1,
-        "Rotation": 250,
-        "ShortSide": 34.21918463169488,
-        "LongSide": 29.085737662917907,
+        "Rotation": 275,
+        "ShortSide": 35.361403889169175,
+        "LongSide": 28.865226433517563,
         "Type": "Terrain"
       },
       {
         "Id": "sc_terrain_4b5400ce5539b63f",
         "Quadrant": 1,
-        "Rotation": 71,
-        "ShortSide": 19.796860169978928,
-        "LongSide": 6.996227976597416,
+        "Rotation": 96,
+        "ShortSide": 18.65096642643053,
+        "LongSide": 7.196771146347519,
         "Type": "Terrain"
       },
       {
@@ -629,9 +629,9 @@
       {
         "Id": "sc_terrain_e8d245d869f43c5b",
         "Quadrant": 1,
-        "Rotation": 114,
-        "ShortSide": 18.956131886804187,
-        "LongSide": 29.214678708622706,
+        "Rotation": 89,
+        "ShortSide": 17.83207710381731,
+        "LongSide": 28.915027445850285,
         "Type": "Terrain"
       },
       {
@@ -661,9 +661,9 @@
       {
         "Id": "sc_terrain_e8d245d869f43c5b",
         "Quadrant": 1,
-        "Rotation": 291,
-        "ShortSide": 35.14973483658026,
-        "LongSide": 6.833920884967474,
+        "Rotation": 266,
+        "ShortSide": 36.287931676929695,
+        "LongSide": 7.074333004161447,
         "Type": "Terrain"
       },
       {
@@ -678,8 +678,8 @@
         "Id": "sc_terrain_696320bc52444def",
         "Quadrant": 1,
         "Rotation": 8,
-        "ShortSide": 38.97697354640994,
-        "LongSide": 3.947461320379171,
+        "ShortSide": 38.95347676150077,
+        "LongSide": 3.973435760003847,
         "Type": "Terrain"
       },
       {
@@ -710,8 +710,8 @@
         "Id": "sc_terrain_342caed58291ae73",
         "Quadrant": 1,
         "Rotation": 90,
-        "ShortSide": 45.47150801901591,
-        "LongSide": 7.052839972020051,
+        "ShortSide": 47.034518696134725,
+        "LongSide": 7.084160976498,
         "Type": "Terrain"
       },
       {
@@ -727,15 +727,15 @@
         "Quadrant": 1,
         "Rotation": 248,
         "ShortSide": 44.03117791698254,
-        "LongSide": 27.141101414154626,
+        "LongSide": 27.14110141415463,
         "Type": "Terrain"
       },
       {
         "Id": "sc_terrain_342caed58291ae73",
         "Quadrant": 1,
         "Rotation": 270,
-        "ShortSide": 8.631991980984093,
-        "LongSide": 28.945660027979947,
+        "ShortSide": 7.068981303865279,
+        "LongSide": 28.914339023502002,
         "Type": "Terrain"
       }
     ]
@@ -758,7 +758,7 @@
         "Quadrant": 1,
         "Rotation": 345,
         "ShortSide": 5.034224801891501,
-        "LongSide": 14.189485916955055,
+        "LongSide": 14.189485916955054,
         "Type": "Terrain"
       },
       {
@@ -828,9 +828,9 @@
       {
         "Id": "sc_terrain_e8d245d869f43c5b",
         "Quadrant": 1,
-        "Rotation": 21,
-        "ShortSide": 17.956079115032523,
-        "LongSide": 17.166434836580255,
+        "Rotation": 356,
+        "ShortSide": 17.71566699583855,
+        "LongSide": 18.304631676929695,
         "Type": "Terrain"
       },
       {
@@ -845,8 +845,8 @@
         "Id": "sc_terrain_0e9238ef444f6364",
         "Quadrant": 1,
         "Rotation": 7,
-        "ShortSide": 7.18054006956223,
-        "LongSide": 7.873743747818798,
+        "ShortSide": 7.157500417333193,
+        "LongSide": 7.900124495831426,
         "Type": "Terrain"
       },
       {
@@ -868,17 +868,17 @@
       {
         "Id": "sc_terrain_4b5400ce5539b63f",
         "Quadrant": 1,
-        "Rotation": 249,
-        "ShortSide": 21.103234836580256,
-        "LongSide": 24.24667911503252,
+        "Rotation": 274,
+        "ShortSide": 22.241431676929697,
+        "LongSide": 24.00626699583855,
         "Type": "Terrain"
       },
       {
         "Id": "sc_terrain_696320bc52444def",
         "Quadrant": 1,
         "Rotation": 7,
-        "ShortSide": 46.88464006956223,
-        "LongSide": 27.9837437478188,
+        "ShortSide": 46.861600179804526,
+        "LongSide": 28.010124306850717,
         "Type": "Terrain"
       },
       {
@@ -909,16 +909,16 @@
         "Id": "sc_terrain_342caed58291ae73",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 30.90763997202005,
-        "LongSide": 2.6696919809840924,
+        "ShortSide": 30.938960976498002,
+        "LongSide": 1.1066813038652796,
         "Type": "Terrain"
       },
       {
         "Id": "sc_terrain_4b5400ce5539b63f",
         "Quadrant": 1,
-        "Rotation": 70,
-        "ShortSide": 33.10831536830512,
-        "LongSide": 11.76626233708209,
+        "Rotation": 95,
+        "ShortSide": 31.966096110830826,
+        "LongSide": 11.986773566482434,
         "Type": "Terrain"
       },
       {
@@ -940,9 +940,9 @@
       {
         "Id": "sc_terrain_e8d245d869f43c5b",
         "Quadrant": 1,
-        "Rotation": 202,
-        "ShortSide": 36.20669153987571,
-        "LongSide": 18.838704635938758,
+        "Rotation": 177,
+        "ShortSide": 36.466931317002874,
+        "LongSide": 17.704876918497703,
         "Type": "Terrain"
       },
       {
@@ -973,8 +973,8 @@
         "Id": "sc_terrain_342caed58291ae73",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 23.207660027979948,
-        "LongSide": 33.34030801901591,
+        "ShortSide": 23.176339023502,
+        "LongSide": 34.90331869613472,
         "Type": "Terrain"
       },
       {
@@ -996,8 +996,8 @@
         "Id": "sc_terrain_f2dd0d048a087d53",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 17.023561,
-        "LongSide": 18.454798,
+        "ShortSide": 19.665154054878165,
+        "LongSide": 16.51684709,
         "Type": "Terrain"
       },
       {
@@ -1036,16 +1036,16 @@
         "Id": "sc_terrain_f2dd0d048a087d53",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 37.108339,
-        "LongSide": 17.545702,
+        "ShortSide": 34.466745945121836,
+        "LongSide": 19.48365291,
         "Type": "Terrain"
       },
       {
         "Id": "sc_terrain_442da683d2d26342",
         "Quadrant": 1,
         "Rotation": 278,
-        "ShortSide": 7.82346132037917,
-        "LongSide": 20.391726453590064,
+        "ShortSide": 7.849435953101221,
+        "LongSide": 20.41522300430491,
         "Type": "Terrain"
       },
       {
@@ -1059,9 +1059,9 @@
       {
         "Id": "sc_terrain_e8d245d869f43c5b",
         "Quadrant": 1,
-        "Rotation": 36,
-        "ShortSide": 9.628382111857682,
-        "LongSide": 28.442771027899916,
+        "Rotation": 11,
+        "ShortSide": 9.10157481761739,
+        "LongSide": 29.4799615162732,
         "Type": "Terrain"
       },
       {
@@ -1083,9 +1083,9 @@
       {
         "Id": "sc_terrain_4b5400ce5539b63f",
         "Quadrant": 1,
-        "Rotation": 113,
-        "ShortSide": 29.6780815648763,
-        "LongSide": 9.554062852610107,
+        "Rotation": 138,
+        "ShortSide": 28.692326986035376,
+        "LongSide": 8.936342896051368,
         "Type": "Terrain"
       },
       {
@@ -1107,25 +1107,25 @@
       {
         "Id": "sc_terrain_4b5400ce5539b63f",
         "Quadrant": 1,
-        "Rotation": 294,
-        "ShortSide": 24.439986483268125,
-        "LongSide": 26.547583709665062,
+        "Rotation": 319,
+        "ShortSide": 25.414810227165805,
+        "LongSide": 27.182413374039765,
         "Type": "Terrain"
       },
       {
         "Id": "sc_terrain_677b1df2f3ce2914",
         "Quadrant": 1,
         "Rotation": 94,
-        "ShortSide": 46.27719495899315,
-        "LongSide": 15.753638083950428,
+        "ShortSide": 46.249644503895965,
+        "LongSide": 15.732008761644671,
         "Type": "Terrain"
       },
       {
         "Id": "sc_terrain_e8d245d869f43c5b",
         "Quadrant": 1,
-        "Rotation": 216,
-        "ShortSide": 44.37681788814232,
-        "LongSide": 7.591728972100086,
+        "Rotation": 191,
+        "ShortSide": 44.90362518238261,
+        "LongSide": 6.554538483726802,
         "Type": "Terrain"
       },
       {
@@ -1148,8 +1148,8 @@
         "Id": "sc_terrain_342caed58291ae73",
         "Quadrant": 1,
         "Rotation": 300,
-        "ShortSide": 46.17507235198687,
-        "LongSide": 21.23567258963941,
+        "ShortSide": 44.837125901454634,
+        "LongSide": 20.42704246553005,
         "Type": "Terrain"
       },
       {
@@ -1197,7 +1197,7 @@
         "Quadrant": 1,
         "Rotation": 135,
         "ShortSide": 13.922048228543954,
-        "LongSide": 23.50223748867878,
+        "LongSide": 23.502237488678784,
         "Type": "Terrain"
       },
       {
@@ -1236,8 +1236,8 @@
         "Id": "sc_terrain_342caed58291ae73",
         "Quadrant": 1,
         "Rotation": 120,
-        "ShortSide": 7.860927648013128,
-        "LongSide": 14.76162741036059,
+        "ShortSide": 9.198874098545364,
+        "LongSide": 15.570257534469949,
         "Type": "Terrain"
       },
       {

@@ -12,7 +12,8 @@
         0.8852644,
         0.565559149,
         0.8852639
-      ]
+      ],
+      "attachments": []
     },
     {
       "id": "sc_terrain_1cffe4ed683895d1",
@@ -23,7 +24,8 @@
         1,
         1,
         1
-      ]
+      ],
+      "attachments": []
     },
     {
       "id": "sc_terrain_2e5381d1d3c2f1b7",
@@ -34,7 +36,8 @@
         1,
         1,
         1
-      ]
+      ],
+      "attachments": []
     },
     {
       "id": "sc_terrain_0e597f350f0c8124",
@@ -45,7 +48,8 @@
         1,
         1,
         1
-      ]
+      ],
+      "attachments": []
     },
     {
       "id": "sc_terrain_5395598da3627dc3",
@@ -56,6 +60,23 @@
         0.5000005,
         0.5000004,
         0.5000005
+      ],
+      "attachments": [
+        {
+          "meshUrl": "https://steamusercontent-a.akamaihd.net/ugc/18073083940881228987/138B0F8756445D406F99E07C9CAF091E3AD88E8F/",
+          "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/16415948190693985738/61E852A6AE3C1EFD5FEBB10A394C6E252C6C7CE0/",
+          "transform": {
+            "posX": 0.00019738698,
+            "posY": -0.4513806,
+            "posZ": -0.08970131,
+            "rotX": 0.671403348,
+            "rotY": 359.906158,
+            "rotZ": 359.789581,
+            "scaleX": 0.99999994,
+            "scaleY": 1,
+            "scaleZ": 0.99999994
+          }
+        }
       ]
     },
     {
@@ -67,7 +88,8 @@
         1,
         1,
         1
-      ]
+      ],
+      "attachments": []
     },
     {
       "id": "sc_terrain_4b5400ce5539b63f",
@@ -78,7 +100,8 @@
         1,
         1,
         1
-      ]
+      ],
+      "attachments": []
     },
     {
       "id": "sc_terrain_0e9238ef444f6364",
@@ -89,6 +112,23 @@
         1.0999999,
         1.0999999,
         1.0999999
+      ],
+      "attachments": [
+        {
+          "meshUrl": "https://steamusercontent-a.akamaihd.net/ugc/16187142815912427190/55A13DDB4E375A64ECFBD50D761B646072E7EBAD/",
+          "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/16657024294324500533/CEDC692BD0C7C290461E88545B49DE4793030D30/",
+          "transform": {
+            "posX": 0.01894148,
+            "posY": -0.0317346826,
+            "posZ": 0.0203291,
+            "rotX": 359.19455,
+            "rotY": 359.924438,
+            "rotZ": 0.8646406,
+            "scaleX": 1.00000024,
+            "scaleY": 0.99999994,
+            "scaleZ": 1.00000048
+          }
+        }
       ]
     },
     {
@@ -100,7 +140,8 @@
         1,
         1,
         1
-      ]
+      ],
+      "attachments": []
     },
     {
       "id": "sc_terrain_f305a277f53c823b",
@@ -111,7 +152,8 @@
         1,
         1,
         1
-      ]
+      ],
+      "attachments": []
     },
     {
       "id": "sc_terrain_696320bc52444def",
@@ -122,6 +164,23 @@
         1.0999999,
         1.0999999,
         1.0999999
+      ],
+      "attachments": [
+        {
+          "meshUrl": "https://steamusercontent-a.akamaihd.net/ugc/16187142815912427190/55A13DDB4E375A64ECFBD50D761B646072E7EBAD/",
+          "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/16657024294324500533/CEDC692BD0C7C290461E88545B49DE4793030D30/",
+          "transform": {
+            "posX": 0.0189417358,
+            "posY": -0.0317346528,
+            "posZ": 0.0203289557,
+            "rotX": 359.19455,
+            "rotY": 359.924438,
+            "rotZ": 0.8646572,
+            "scaleX": 1.00000024,
+            "scaleY": 0.99999994,
+            "scaleZ": 1.00000036
+          }
+        }
       ]
     },
     {
@@ -133,7 +192,8 @@
         1.2,
         0.8,
         1.2
-      ]
+      ],
+      "attachments": []
     },
     {
       "id": "sc_terrain_342caed58291ae73",
@@ -144,6 +204,23 @@
         0.255104423,
         0.41834867,
         0.176088035
+      ],
+      "attachments": [
+        {
+          "meshUrl": "https://steamusercontent-a.akamaihd.net/ugc/17085801959441924534/E60A1E0F01C1C5C35D227880F13ABC754AA83B34/",
+          "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/16717348948617320850/152BD21C67F86A8869A6586C003451801FFDAD36/",
+          "transform": {
+            "posX": -0.0099484995,
+            "posY": -0.00259047188,
+            "posZ": -8.960414,
+            "rotX": 0.455157846,
+            "rotY": 180.019363,
+            "rotZ": 358.916718,
+            "scaleX": 0.999690652,
+            "scaleY": 1.00020278,
+            "scaleZ": 2.16877
+          }
+        }
       ]
     },
     {
@@ -155,7 +232,8 @@
         0.856843054,
         0.5474019,
         0.8568426
-      ]
+      ],
+      "attachments": []
     },
     {
       "id": "sc_terrain_f2dd0d048a087d53",
@@ -166,6 +244,23 @@
         1,
         1.43,
         1
+      ],
+      "attachments": [
+        {
+          "meshUrl": "https://steamusercontent-a.akamaihd.net/ugc/13253521238442170881/4A32EF9D5D7096599D6DAAD629DF1173DDA01917/",
+          "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/12656115804830739173/CF2FDFB55A76E77680B3DB2D1F4778BBD55B4860/",
+          "transform": {
+            "posX": -5.5138464,
+            "posY": 0.14267464,
+            "posZ": -1.93815291,
+            "rotX": -0.000003634571,
+            "rotY": 359.992828,
+            "rotZ": -0.00000126076475,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          }
+        }
       ]
     },
     {
@@ -177,6 +272,23 @@
         1.0999999,
         1.0999999,
         1.0999999
+      ],
+      "attachments": [
+        {
+          "meshUrl": "https://steamusercontent-a.akamaihd.net/ugc/16187142815912427190/55A13DDB4E375A64ECFBD50D761B646072E7EBAD/",
+          "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/16657024294324500533/CEDC692BD0C7C290461E88545B49DE4793030D30/",
+          "transform": {
+            "posX": 0.01894148,
+            "posY": -0.0317346826,
+            "posZ": 0.0203291,
+            "rotX": 359.19455,
+            "rotY": 359.924438,
+            "rotZ": 0.8646406,
+            "scaleX": 1.00000024,
+            "scaleY": 0.99999994,
+            "scaleZ": 1.00000048
+          }
+        }
       ]
     },
     {
@@ -188,6 +300,23 @@
         1.0999999,
         1.0999999,
         1.0999999
+      ],
+      "attachments": [
+        {
+          "meshUrl": "https://steamusercontent-a.akamaihd.net/ugc/16187142815912427190/55A13DDB4E375A64ECFBD50D761B646072E7EBAD/",
+          "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/16657024294324500533/CEDC692BD0C7C290461E88545B49DE4793030D30/",
+          "transform": {
+            "posX": 0.0189432055,
+            "posY": -0.03173465,
+            "posZ": 0.0203292742,
+            "rotX": 359.19455,
+            "rotY": 359.924438,
+            "rotZ": 0.8646406,
+            "scaleX": 1.00000024,
+            "scaleY": 0.99999994,
+            "scaleZ": 1.00000048
+          }
+        }
       ]
     }
   ],

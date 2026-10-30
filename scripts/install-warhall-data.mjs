@@ -7,7 +7,7 @@ import { projectRoot } from '../src/paths.mjs';
 const [directory, ...flags] = process.argv.slice(2);
 const mode = flags.includes('--apply') ? '--apply' : '--dry-run';
 assert.ok(
-  flags.every(f => ['--apply', '--dry-run', '--local-source'].includes(f)),
+  flags.every(f => ['--apply', '--dry-run', '--local-source', '--local-assets'].includes(f)),
   'Unknown flag',
 );
 assert.ok(
@@ -18,6 +18,13 @@ assert.ok(['--apply', '--dry-run'].includes(mode));
 const root = await realpath(directory);
 assert.equal(path.basename(root), 'WarhallTest', 'Only the test client is supported');
 const source = path.join(projectRoot, 'Starcraft');
+assert.ok(
+  !flags.includes('--local-assets') || flags.includes('--local-source'),
+  '--local-assets requires --local-source',
+);
+const preview = flags.includes('--local-assets')
+  ? path.join(projectRoot, '.cache', 'warhall-preview')
+  : source;
 const target = await realpath(path.join(root, 'WDS', 'Starcraft'));
 assert.equal(target, path.join(root, 'WDS', 'Starcraft'), 'Unexpected resolved WDS directory');
 const manifest = JSON.parse(await readFile(path.join(source, 'manifest.json'), 'utf8'));
@@ -29,10 +36,26 @@ for (const file of files) {
   JSON.parse(bytes.toString());
   contents.set(file, bytes);
 }
+if (flags.includes('--local-assets')) {
+  const cards = JSON.parse(contents.get('cards.json'));
+  const prefix =
+    'https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft/assets/cards/';
+  for (const card of cards)
+    for (const key of ['ImageURL', 'ImageURLBack']) {
+      const url = card.UIConfig?.[key];
+      if (!url?.startsWith(prefix)) continue;
+      const name = url.slice(prefix.length);
+      assert.match(name, /^[a-f0-9]+\.(?:jpg|png)$/);
+      card.UIConfig[key] = pathToFileURL(
+        await realpath(path.join(source, 'assets', 'cards', name)),
+      ).href;
+    }
+  contents.set('cards.json', Buffer.from(JSON.stringify(cards, null, 2) + '\n'));
+}
 let versionCache, versionCacheOriginal;
 const versionCacheFile = path.join(root, 'Database', 'GetGameVersions');
 if (flags.includes('--local-source')) {
-  const localUrl = pathToFileURL(path.join(source, 'manifest.json')).href;
+  const localUrl = pathToFileURL(path.join(preview, 'manifest.json')).href;
   versionCacheOriginal = await readFile(versionCacheFile);
   const encoded = versionCacheOriginal.toString('utf8');
   assert.ok(encoded.startsWith('1L4HR4W'), 'Unexpected game version cache encoding');
@@ -69,6 +92,10 @@ if (mode === '--apply') {
   }
   try {
     for (const [file, bytes] of contents) {
+      if (preview !== source) {
+        await mkdir(path.dirname(path.join(preview, file)), { recursive: true });
+        await writeFile(path.join(preview, file), bytes);
+      }
       await mkdir(path.dirname(path.join(target, file)), { recursive: true });
       await writeFile(path.join(target, file), bytes);
     }

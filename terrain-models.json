@@ -15,16 +15,17 @@
       "layout": {
         "size": 0.8852644,
         "position": [
-          -0.3960555273961238,
+          -0.3960555273961237,
           0.043334029445679996,
-          0.482455765918136
+          0.48245576591813616
         ],
         "rotation": [
           0,
           0,
           0
         ]
-      }
+      },
+      "attachments": []
     },
     {
       "terrainId": "sc_terrain_1cffe4ed683895d1",
@@ -49,7 +50,8 @@
           0,
           0
         ]
-      }
+      },
+      "attachments": []
     },
     {
       "terrainId": "sc_terrain_2e5381d1d3c2f1b7",
@@ -74,7 +76,8 @@
           0,
           0
         ]
-      }
+      },
+      "attachments": []
     },
     {
       "terrainId": "sc_terrain_0e597f350f0c8124",
@@ -99,7 +102,8 @@
           0,
           0
         ]
-      }
+      },
+      "attachments": []
     },
     {
       "terrainId": "sc_terrain_5395598da3627dc3",
@@ -124,7 +128,29 @@
           0,
           0
         ]
-      }
+      },
+      "attachments": [
+        {
+          "meshUrl": "https://steamusercontent-a.akamaihd.net/ugc/18073083940881228987/138B0F8756445D406F99E07C9CAF091E3AD88E8F/",
+          "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/16415948190693985738/61E852A6AE3C1EFD5FEBB10A394C6E252C6C7CE0/",
+          "ttsTransform": {
+            "scaleY": 0.5000004699999699
+          },
+          "layout": {
+            "size": 0.5000004699999699,
+            "position": [
+              0.0002506817152814646,
+              -0.534913836913272,
+              -0.1139207776206637
+            ],
+            "rotation": [
+              0.671403348,
+              359.906158,
+              359.789581
+            ]
+          }
+        }
+      ]
     },
     {
       "terrainId": "sc_terrain_e8d245d869f43c5b",
@@ -140,16 +166,17 @@
       "layout": {
         "size": 1,
         "position": [
-          -0.18022061999999955,
+          -3.606748604721899,
           0.35385,
-          -6.229230620000001
+          -8.41081672186277
         ],
         "rotation": [
           0,
-          0,
+          25,
           0
         ]
-      }
+      },
+      "attachments": []
     },
     {
       "terrainId": "sc_terrain_4b5400ce5539b63f",
@@ -165,16 +192,17 @@
       "layout": {
         "size": 1,
         "position": [
-          0.18022061999999955,
+          3.606748604721899,
           0.35385,
-          -6.229230620000001
+          -8.41081672186277
         ],
         "rotation": [
           0,
-          0,
+          -25,
           0
         ]
-      }
+      },
+      "attachments": []
     },
     {
       "terrainId": "sc_terrain_0e9238ef444f6364",
@@ -190,16 +218,38 @@
       "layout": {
         "size": 1.0999999,
         "position": [
-          0,
-          -2.1599342069150542,
-          0.019592923218825015
+          -0.04991840083928078,
+          0.19313588171006102,
+          -0.05404659728641471
         ],
         "rotation": [
           0,
           0,
           0
         ]
-      }
+      },
+      "attachments": [
+        {
+          "meshUrl": "https://steamusercontent-a.akamaihd.net/ugc/16187142815912427190/55A13DDB4E375A64ECFBD50D761B646072E7EBAD/",
+          "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/16657024294324500533/CEDC692BD0C7C290461E88545B49DE4793030D30/",
+          "ttsTransform": {
+            "scaleY": 1.100000427999952
+          },
+          "layout": {
+            "size": 1.100000427999952,
+            "position": [
+              0.0030040894695833043,
+              0.1044691865862704,
+              0.0027529029499938837
+            ],
+            "rotation": [
+              359.19455,
+              359.924438,
+              0.8646406
+            ]
+          }
+        }
+      ]
     },
     {
       "terrainId": "sc_terrain_f910561ff3ef2272",
@@ -224,7 +274,8 @@
           0,
           0
         ]
-      }
+      },
+      "attachments": []
     },
     {
       "terrainId": "sc_terrain_f305a277f53c823b",
@@ -249,7 +300,8 @@
           0,
           0
         ]
-      }
+      },
+      "attachments": []
     },
     {
       "terrainId": "sc_terrain_696320bc52444def",
@@ -265,16 +317,38 @@
       "layout": {
         "size": 1.0999999,
         "position": [
-          0,
-          -2.1599342069150542,
-          0.019592923218825015
+          -0.049919058163648874,
+          0.19313638690296422,
+          -0.054046194379899035
         ],
         "rotation": [
           0,
           0,
           0
         ]
-      }
+      },
+      "attachments": [
+        {
+          "meshUrl": "https://steamusercontent-a.akamaihd.net/ugc/16187142815912427190/55A13DDB4E375A64ECFBD50D761B646072E7EBAD/",
+          "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/16657024294324500533/CEDC692BD0C7C290461E88545B49DE4793030D30/",
+          "ttsTransform": {
+            "scaleY": 1.100000295999964
+          },
+          "layout": {
+            "size": 1.100000295999964,
+            "position": [
+              0.003004146850350234,
+              0.10446977504036603,
+              0.0027529026823462227
+            ],
+            "rotation": [
+              359.19455,
+              359.924438,
+              0.8646572
+            ]
+          }
+        }
+      ]
     },
     {
       "terrainId": "sc_terrain_8a9da51123d91b9c",
@@ -290,16 +364,17 @@
       "layout": {
         "size": 1.2,
         "position": [
-          -0.006844284000000035,
+          -0.006844283999999978,
           0.06484168800000001,
-          -0.05049469199999978
+          -0.05049469199999972
         ],
         "rotation": [
           0,
           0,
           0
         ]
-      }
+      },
+      "attachments": []
     },
     {
       "terrainId": "sc_terrain_342caed58291ae73",
@@ -315,16 +390,38 @@
       "layout": {
         "size": 0.255104423,
         "position": [
-          -0.021488471069070498,
-          0.047755543353576846,
-          0.16893036830040384
+          0.05806688030492199,
+          0.14017318832735223,
+          4.138977488182193
         ],
         "rotation": [
           0,
           0,
           0
         ]
-      }
+      },
+      "attachments": [
+        {
+          "meshUrl": "https://steamusercontent-a.akamaihd.net/ugc/17085801959441924534/E60A1E0F01C1C5C35D227880F13ABC754AA83B34/",
+          "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/16717348948617320850/152BD21C67F86A8869A6586C003451801FFDAD36/",
+          "ttsTransform": {
+            "scaleY": 0.55326281946971
+          },
+          "layout": {
+            "size": 0.55326281946971,
+            "position": [
+              0.05162059849427724,
+              0.13849465260836963,
+              -1.6670592698280577
+            ],
+            "rotation": [
+              0.455157846,
+              180.019363,
+              358.916718
+            ]
+          }
+        }
+      ]
     },
     {
       "terrainId": "sc_terrain_e45c33c511633ae2",
@@ -340,16 +437,17 @@
       "layout": {
         "size": 0.856843054,
         "position": [
-          -0.3833401949154122,
+          -0.38334019491541216,
           0.0429059414479588,
-          0.4669665603736068
+          0.466966560373607
         ],
         "rotation": [
           0,
           0,
           0
         ]
-      }
+      },
+      "attachments": []
     },
     {
       "terrainId": "sc_terrain_f2dd0d048a087d53",
@@ -365,16 +463,38 @@
       "layout": {
         "size": 1,
         "position": [
-          -4.8103510599999995,
-          3.1347385199999995,
-          0.0005130800000000902
+          1.899295299390536,
+          3.1601074756138803,
+          4.9229083914
         ],
         "rotation": [
           0,
           0,
           0
         ]
-      }
+      },
+      "attachments": [
+        {
+          "meshUrl": "https://steamusercontent-a.akamaihd.net/ugc/13253521238442170881/4A32EF9D5D7096599D6DAAD629DF1173DDA01917/",
+          "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/12656115804830739173/CF2FDFB55A76E77680B3DB2D1F4778BBD55B4860/",
+          "ttsTransform": {
+            "scaleY": 1
+          },
+          "layout": {
+            "size": 1,
+            "position": [
+              -12.105874556609464,
+              3.5225010612138803,
+              0
+            ],
+            "rotation": [
+              -0.000003634571,
+              359.992828,
+              -0.00000126076475
+            ]
+          }
+        }
+      ]
     },
     {
       "terrainId": "sc_terrain_442da683d2d26342",
@@ -390,16 +510,38 @@
       "layout": {
         "size": 1.0999999,
         "position": [
-          0,
-          -2.1599342069150542,
-          0.019592923218825015
+          -0.04991840083928078,
+          0.19313588171006102,
+          -0.05404659728641471
         ],
         "rotation": [
           0,
           0,
           0
         ]
-      }
+      },
+      "attachments": [
+        {
+          "meshUrl": "https://steamusercontent-a.akamaihd.net/ugc/16187142815912427190/55A13DDB4E375A64ECFBD50D761B646072E7EBAD/",
+          "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/16657024294324500533/CEDC692BD0C7C290461E88545B49DE4793030D30/",
+          "ttsTransform": {
+            "scaleY": 1.100000427999952
+          },
+          "layout": {
+            "size": 1.100000427999952,
+            "position": [
+              0.0030040894695833043,
+              0.1044691865862704,
+              0.0027529029499938837
+            ],
+            "rotation": [
+              359.19455,
+              359.924438,
+              0.8646406
+            ]
+          }
+        }
+      ]
     },
     {
       "terrainId": "sc_terrain_677b1df2f3ce2914",
@@ -415,16 +557,38 @@
       "layout": {
         "size": 1.0999999,
         "position": [
-          0,
-          -2.1599342069150542,
-          0.019592923218825015
+          -0.049923221885842424,
+          0.1931357906256693,
+          -0.054047084001170524
         ],
         "rotation": [
           0,
           0,
           0
         ]
-      }
+      },
+      "attachments": [
+        {
+          "meshUrl": "https://steamusercontent-a.akamaihd.net/ugc/16187142815912427190/55A13DDB4E375A64ECFBD50D761B646072E7EBAD/",
+          "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/16657024294324500533/CEDC692BD0C7C290461E88545B49DE4793030D30/",
+          "ttsTransform": {
+            "scaleY": 1.100000427999952
+          },
+          "layout": {
+            "size": 1.100000427999952,
+            "position": [
+              0.0030040894695833806,
+              0.10446918658627039,
+              0.002752902949993835
+            ],
+            "rotation": [
+              359.19455,
+              359.924438,
+              0.8646406
+            ]
+          }
+        }
+      ]
     }
   ]
 }

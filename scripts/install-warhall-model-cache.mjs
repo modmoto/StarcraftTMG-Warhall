@@ -122,7 +122,7 @@ for (const model of selection.models.filter(m => m.status === 'selected')) {
     for (const url of [part.meshUrl, part.textureUrl].filter(Boolean)) {
       assert.equal(new URL(url).protocol, 'https:', 'CDN URL must use HTTPS');
     }
-    const layout = model.layout ?? {};
+    const layout = part.layout ?? model.layout ?? {};
     const position = layout.position ?? [0, 0, 0];
     const rotation = layout.rotation ?? [0, 0, 0];
     const size = layout.size ?? Math.abs(part.ttsTransform.scaleY);

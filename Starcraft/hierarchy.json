@@ -81,5 +81,80 @@
         "pdf_Zerg_unit_vileling_zergling"
       ]
     }
+  },
+  "Cards": {
+    "Deployments": [
+      "sc_card_deployments_acropolis",
+      "sc_card_deployments_breach",
+      "sc_card_deployments_gauntlet",
+      "sc_card_deployments_meeting_engagement",
+      "sc_card_deployments_one_bridge_too_close",
+      "sc_card_deployments_proving_grounds",
+      "sc_card_deployments_typhoon"
+    ],
+    "Missions": [
+      "sc_card_missions_artefact_hunt",
+      "sc_card_missions_divide_and_conquer",
+      "sc_card_missions_fire_in_the_sky",
+      "sc_card_missions_frontlines",
+      "sc_card_missions_gather_the_resources",
+      "sc_card_missions_hold_position",
+      "sc_card_missions_supply_drop"
+    ],
+    "Protoss tactics": [
+      "sc_card_protoss_tactics_daelaam",
+      "sc_card_protoss_tactics_forge",
+      "sc_card_protoss_tactics_gate_chronoboosted",
+      "sc_card_protoss_tactics_gateway",
+      "sc_card_protoss_tactics_khalai",
+      "sc_card_protoss_tactics_nerazim",
+      "sc_card_protoss_tactics_nexus",
+      "sc_card_protoss_tactics_observer",
+      "sc_card_protoss_tactics_overcharged_nexus",
+      "sc_card_protoss_tactics_power_field",
+      "sc_card_protoss_tactics_robotics_facility",
+      "sc_card_protoss_tactics_templar_archives",
+      "sc_card_protoss_tactics_templar_caste",
+      "sc_card_protoss_tactics_twilight_council",
+      "sc_card_protoss_tactics_void_seeker",
+      "sc_card_protoss_tactics_warp_gate",
+      "sc_card_protoss_tactics_warp_prism"
+    ],
+    "Terran tactics": [
+      "sc_card_terran_tactics_academy",
+      "sc_card_terran_tactics_armory",
+      "sc_card_terran_tactics_barracks",
+      "sc_card_terran_tactics_barracks_proxy",
+      "sc_card_terran_tactics_barracks_tech_lab",
+      "sc_card_terran_tactics_dropship",
+      "sc_card_terran_tactics_engineering_bay",
+      "sc_card_terran_tactics_factory",
+      "sc_card_terran_tactics_factory_tech_lab",
+      "sc_card_terran_tactics_nova_covert_ops",
+      "sc_card_terran_tactics_orbital_command",
+      "sc_card_terran_tactics_raynor_s_raiders",
+      "sc_card_terran_tactics_supply_depot",
+      "sc_card_terran_tactics_terran_armed_forces",
+      "sc_card_terran_tactics_vanadium_plating"
+    ],
+    "Zerg tactics": [
+      "sc_card_zerg_tactics_accelerating_creep",
+      "sc_card_zerg_tactics_cocoon",
+      "sc_card_zerg_tactics_defiler_mound",
+      "sc_card_zerg_tactics_evolution_chamber",
+      "sc_card_zerg_tactics_hatchery",
+      "sc_card_zerg_tactics_hydralisk_den",
+      "sc_card_zerg_tactics_kerrigan_s_swarm",
+      "sc_card_zerg_tactics_lair",
+      "sc_card_zerg_tactics_malignant_creep",
+      "sc_card_zerg_tactics_overlord",
+      "sc_card_zerg_tactics_overseer",
+      "sc_card_zerg_tactics_reactive_creep",
+      "sc_card_zerg_tactics_roach_warren",
+      "sc_card_zerg_tactics_spawning_pool",
+      "sc_card_zerg_tactics_spawning_pool_six_pool",
+      "sc_card_zerg_tactics_zagara_s_swarm",
+      "sc_card_zerg_tactics_zerg_swarm"
+    ]
   }
 }

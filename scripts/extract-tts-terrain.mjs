@@ -20,6 +20,20 @@ bags.sort(
 assert.equal(bags.length, 5, 'Expected official standard maps 1-5');
 const assets = new Map(),
   maps = [];
+function attachedParts(object) {
+  return (object.ChildObjects ?? []).map(child => {
+    assert.ok(
+      child.CustomMesh?.MeshURL && child.CustomMesh.DiffuseURL,
+      'Unsupported attached terrain',
+    );
+    assert.ok(!child.ChildObjects?.length, 'Nested attachment needs transform composition');
+    return {
+      meshUrl: child.CustomMesh.MeshURL,
+      textureUrl: child.CustomMesh.DiffuseURL,
+      transform: child.Transform,
+    };
+  });
+}
 for (const bag of bags) {
   const number = Number(bag.Nickname.match(/Map (\d)/)[1]),
     memory = JSON.parse(bag.LuaScriptState).ml,
@@ -50,6 +64,7 @@ for (const bag of bags) {
         meshUrl: o.CustomMesh.MeshURL,
         textureUrl: o.CustomMesh.DiffuseURL,
         ttsScale: [t.scaleX, t.scaleY, t.scaleZ],
+        attachments: attachedParts(o),
       });
     const m = memory[o.GUID];
     assert.ok(m, `Missing saved placement: ${o.GUID}`);

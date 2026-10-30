@@ -1,1 +1,37 @@
-[]
+[
+  {
+    "Id": "sc_scoring_artefact_hunt",
+    "Name": "Artefact Hunt",
+    "Items": []
+  },
+  {
+    "Id": "sc_scoring_divide_and_conquer",
+    "Name": "Divide And Conquer",
+    "Items": []
+  },
+  {
+    "Id": "sc_scoring_fire_in_the_sky",
+    "Name": "Fire In The Sky",
+    "Items": []
+  },
+  {
+    "Id": "sc_scoring_frontlines",
+    "Name": "Frontlines",
+    "Items": []
+  },
+  {
+    "Id": "sc_scoring_gather_the_resources",
+    "Name": "Gather The Resources",
+    "Items": []
+  },
+  {
+    "Id": "sc_scoring_hold_position",
+    "Name": "Hold Position",
+    "Items": []
+  },
+  {
+    "Id": "sc_scoring_supply_drop",
+    "Name": "Supply Drop",
+    "Items": []
+  }
+]

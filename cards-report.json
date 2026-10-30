@@ -1,0 +1,400 @@
+{
+  "imageDpi": 360,
+  "imageFormat": "lossless PNG",
+  "unitCards": false,
+  "cards": [
+    {
+      "id": "sc_card_protoss_tactics_gate_chronoboosted",
+      "file": "StarCraft-Protoss-P2P-Card-Sheets-A4_EN.pdf",
+      "page": 8,
+      "url": "https://archon-studio.com/files/manuals/sc/StarCraft-Protoss-P2P-Card-Sheets-A4_EN.pdf"
+    },
+    {
+      "id": "sc_card_protoss_tactics_gateway",
+      "file": "StarCraft-Protoss-P2P-Card-Sheets-A4_EN.pdf",
+      "page": 8,
+      "url": "https://archon-studio.com/files/manuals/sc/StarCraft-Protoss-P2P-Card-Sheets-A4_EN.pdf"
+    },
+    {
+      "id": "sc_card_protoss_tactics_khalai",
+      "file": "StarCraft-Protoss-P2P-Card-Sheets-A4_EN.pdf",
+      "page": 8,
+      "url": "https://archon-studio.com/files/manuals/sc/StarCraft-Protoss-P2P-Card-Sheets-A4_EN.pdf"
+    },
+    {
+      "id": "sc_card_protoss_tactics_warp_prism",
+      "file": "StarCraft-Protoss-P2P-Card-Sheets-A4_EN.pdf",
+      "page": 8,
+      "url": "https://archon-studio.com/files/manuals/sc/StarCraft-Protoss-P2P-Card-Sheets-A4_EN.pdf"
+    },
+    {
+      "id": "sc_card_protoss_tactics_overcharged_nexus",
+      "file": "StarCraft-Protoss-P2P-Card-Sheets-A4_EN.pdf",
+      "page": 9,
+      "url": "https://archon-studio.com/files/manuals/sc/StarCraft-Protoss-P2P-Card-Sheets-A4_EN.pdf"
+    },
+    {
+      "id": "sc_card_protoss_tactics_twilight_council",
+      "file": "StarCraft-Protoss-P2P-Card-Sheets-A4_EN.pdf",
+      "page": 9,
+      "url": "https://archon-studio.com/files/manuals/sc/StarCraft-Protoss-P2P-Card-Sheets-A4_EN.pdf"
+    },
+    {
+      "id": "sc_card_protoss_tactics_warp_gate",
+      "file": "StarCraft-Protoss-P2P-Card-Sheets-A4_EN.pdf",
+      "page": 9,
+      "url": "https://archon-studio.com/files/manuals/sc/StarCraft-Protoss-P2P-Card-Sheets-A4_EN.pdf"
+    },
+    {
+      "id": "sc_card_protoss_tactics_daelaam",
+      "file": "StarCraft-Protoss-P2P-Card-Sheets-A4_EN.pdf",
+      "page": 9,
+      "url": "https://archon-studio.com/files/manuals/sc/StarCraft-Protoss-P2P-Card-Sheets-A4_EN.pdf"
+    },
+    {
+      "id": "sc_card_protoss_tactics_nexus",
+      "file": "StarCraft-Protoss-P2P-Card-Sheets-A4_EN.pdf",
+      "page": 10,
+      "url": "https://archon-studio.com/files/manuals/sc/StarCraft-Protoss-P2P-Card-Sheets-A4_EN.pdf"
+    },
+    {
+      "id": "sc_card_protoss_tactics_observer",
+      "file": "StarCraft-Protoss-P2P-Card-Sheets-A4_EN.pdf",
+      "page": 10,
+      "url": "https://archon-studio.com/files/manuals/sc/StarCraft-Protoss-P2P-Card-Sheets-A4_EN.pdf"
+    },
+    {
+      "id": "sc_card_protoss_tactics_forge",
+      "file": "StarCraft-Protoss-P2P-Card-Sheets-A4_EN.pdf",
+      "page": 10,
+      "url": "https://archon-studio.com/files/manuals/sc/StarCraft-Protoss-P2P-Card-Sheets-A4_EN.pdf"
+    },
+    {
+      "id": "sc_card_protoss_tactics_power_field",
+      "file": "StarCraft-Protoss-P2P-Card-Sheets-A4_EN.pdf",
+      "page": 10,
+      "url": "https://archon-studio.com/files/manuals/sc/StarCraft-Protoss-P2P-Card-Sheets-A4_EN.pdf"
+    },
+    {
+      "id": "sc_card_protoss_tactics_nerazim",
+      "file": "StarCraft-Protoss-P2P-W2-Card-Sheets-A4_EN.pdf",
+      "page": 4,
+      "url": "https://archon-studio.com/files/manuals/sc/StarCraft-Protoss-P2P-W2-Card-Sheets-A4_EN.pdf"
+    },
+    {
+      "id": "sc_card_protoss_tactics_void_seeker",
+      "file": "StarCraft-Protoss-P2P-W2-Card-Sheets-A4_EN.pdf",
+      "page": 4,
+      "url": "https://archon-studio.com/files/manuals/sc/StarCraft-Protoss-P2P-W2-Card-Sheets-A4_EN.pdf"
+    },
+    {
+      "id": "sc_card_protoss_tactics_robotics_facility",
+      "file": "StarCraft-Protoss-P2P-W2-Card-Sheets-A4_EN.pdf",
+      "page": 4,
+      "url": "https://archon-studio.com/files/manuals/sc/StarCraft-Protoss-P2P-W2-Card-Sheets-A4_EN.pdf"
+    },
+    {
+      "id": "sc_card_missions_artefact_hunt",
+      "file": "StarCraft-Protoss-P2P-W2-Card-Sheets-A4_EN.pdf",
+      "page": 5,
+      "url": "https://archon-studio.com/files/manuals/sc/StarCraft-Protoss-P2P-W2-Card-Sheets-A4_EN.pdf"
+    },
+    {
+      "id": "sc_card_protoss_tactics_templar_caste",
+      "file": "StarCraft-Protoss-P2P-W3-Card-Sheets-A4_EN.pdf",
+      "page": 4,
+      "url": "https://archon-studio.com/files/manuals/sc/StarCraft-Protoss-P2P-W3-Card-Sheets-A4_EN.pdf"
+    },
+    {
+      "id": "sc_card_protoss_tactics_templar_archives",
+      "file": "StarCraft-Protoss-P2P-W3-Card-Sheets-A4_EN.pdf",
+      "page": 4,
+      "url": "https://archon-studio.com/files/manuals/sc/StarCraft-Protoss-P2P-W3-Card-Sheets-A4_EN.pdf"
+    },
+    {
+      "id": "sc_card_missions_fire_in_the_sky",
+      "file": "StarCraft-Protoss-P2P-W3-Card-Sheets-A4_EN.pdf",
+      "page": 5,
+      "url": "https://archon-studio.com/files/manuals/sc/StarCraft-Protoss-P2P-W3-Card-Sheets-A4_EN.pdf"
+    },
+    {
+      "id": "sc_card_terran_tactics_barracks",
+      "file": "StarCraft-Terran-P2P-Card-Sheets-A4_EN.pdf",
+      "page": 8,
+      "url": "https://archon-studio.com/files/manuals/sc/StarCraft-Terran-P2P-Card-Sheets-A4_EN.pdf"
+    },
+    {
+      "id": "sc_card_terran_tactics_engineering_bay",
+      "file": "StarCraft-Terran-P2P-Card-Sheets-A4_EN.pdf",
+      "page": 8,
+      "url": "https://archon-studio.com/files/manuals/sc/StarCraft-Terran-P2P-Card-Sheets-A4_EN.pdf"
+    },
+    {
+      "id": "sc_card_terran_tactics_academy",
+      "file": "StarCraft-Terran-P2P-Card-Sheets-A4_EN.pdf",
+      "page": 8,
+      "url": "https://archon-studio.com/files/manuals/sc/StarCraft-Terran-P2P-Card-Sheets-A4_EN.pdf"
+    },
+    {
+      "id": "sc_card_terran_tactics_terran_armed_forces",
+      "file": "StarCraft-Terran-P2P-Card-Sheets-A4_EN.pdf",
+      "page": 8,
+      "url": "https://archon-studio.com/files/manuals/sc/StarCraft-Terran-P2P-Card-Sheets-A4_EN.pdf"
+    },
+    {
+      "id": "sc_card_terran_tactics_supply_depot",
+      "file": "StarCraft-Terran-P2P-Card-Sheets-A4_EN.pdf",
+      "page": 9,
+      "url": "https://archon-studio.com/files/manuals/sc/StarCraft-Terran-P2P-Card-Sheets-A4_EN.pdf"
+    },
+    {
+      "id": "sc_card_terran_tactics_orbital_command",
+      "file": "StarCraft-Terran-P2P-Card-Sheets-A4_EN.pdf",
+      "page": 9,
+      "url": "https://archon-studio.com/files/manuals/sc/StarCraft-Terran-P2P-Card-Sheets-A4_EN.pdf"
+    },
+    {
+      "id": "sc_card_terran_tactics_dropship",
+      "file": "StarCraft-Terran-P2P-Card-Sheets-A4_EN.pdf",
+      "page": 9,
+      "url": "https://archon-studio.com/files/manuals/sc/StarCraft-Terran-P2P-Card-Sheets-A4_EN.pdf"
+    },
+    {
+      "id": "sc_card_terran_tactics_raynor_s_raiders",
+      "file": "StarCraft-Terran-P2P-Card-Sheets-A4_EN.pdf",
+      "page": 9,
+      "url": "https://archon-studio.com/files/manuals/sc/StarCraft-Terran-P2P-Card-Sheets-A4_EN.pdf"
+    },
+    {
+      "id": "sc_card_terran_tactics_factory",
+      "file": "StarCraft-Terran-P2P-Card-Sheets-A4_EN.pdf",
+      "page": 10,
+      "url": "https://archon-studio.com/files/manuals/sc/StarCraft-Terran-P2P-Card-Sheets-A4_EN.pdf"
+    },
+    {
+      "id": "sc_card_terran_tactics_armory",
+      "file": "StarCraft-Terran-P2P-Card-Sheets-A4_EN.pdf",
+      "page": 10,
+      "url": "https://archon-studio.com/files/manuals/sc/StarCraft-Terran-P2P-Card-Sheets-A4_EN.pdf"
+    },
+    {
+      "id": "sc_card_terran_tactics_barracks_tech_lab",
+      "file": "StarCraft-Terran-P2P-Card-Sheets-A4_EN.pdf",
+      "page": 10,
+      "url": "https://archon-studio.com/files/manuals/sc/StarCraft-Terran-P2P-Card-Sheets-A4_EN.pdf"
+    },
+    {
+      "id": "sc_card_terran_tactics_barracks_proxy",
+      "file": "StarCraft-Terran-P2P-Card-Sheets-A4_EN.pdf",
+      "page": 10,
+      "url": "https://archon-studio.com/files/manuals/sc/StarCraft-Terran-P2P-Card-Sheets-A4_EN.pdf"
+    },
+    {
+      "id": "sc_card_missions_supply_drop",
+      "file": "StarCraft-Terran-P2P-Card-Sheets-A4_EN.pdf",
+      "page": 11,
+      "url": "https://archon-studio.com/files/manuals/sc/StarCraft-Terran-P2P-Card-Sheets-A4_EN.pdf"
+    },
+    {
+      "id": "sc_card_missions_hold_position",
+      "file": "StarCraft-Terran-P2P-Card-Sheets-A4_EN.pdf",
+      "page": 11,
+      "url": "https://archon-studio.com/files/manuals/sc/StarCraft-Terran-P2P-Card-Sheets-A4_EN.pdf"
+    },
+    {
+      "id": "sc_card_missions_frontlines",
+      "file": "StarCraft-Terran-P2P-Card-Sheets-A4_EN.pdf",
+      "page": 12,
+      "url": "https://archon-studio.com/files/manuals/sc/StarCraft-Terran-P2P-Card-Sheets-A4_EN.pdf"
+    },
+    {
+      "id": "sc_card_missions_gather_the_resources",
+      "file": "StarCraft-Terran-P2P-Card-Sheets-A4_EN.pdf",
+      "page": 12,
+      "url": "https://archon-studio.com/files/manuals/sc/StarCraft-Terran-P2P-Card-Sheets-A4_EN.pdf"
+    },
+    {
+      "id": "sc_card_missions_divide_and_conquer",
+      "file": "StarCraft-Terran-P2P-Card-Sheets-A4_EN.pdf",
+      "page": 13,
+      "url": "https://archon-studio.com/files/manuals/sc/StarCraft-Terran-P2P-Card-Sheets-A4_EN.pdf"
+    },
+    {
+      "id": "sc_card_terran_tactics_factory_tech_lab",
+      "file": "StarCraft-Terran-P2P-W2-Card-Sheets-A4_EN.pdf",
+      "page": 2,
+      "url": "https://archon-studio.com/files/manuals/sc/StarCraft-Terran-P2P-W2-Card-Sheets-A4_EN.pdf"
+    },
+    {
+      "id": "sc_card_terran_tactics_nova_covert_ops",
+      "file": "StarCraft-Terran-P2P-W3-Card-Sheets-A4_EN.pdf",
+      "page": 8,
+      "url": "https://archon-studio.com/files/manuals/sc/StarCraft-Terran-P2P-W3-Card-Sheets-A4_EN.pdf"
+    },
+    {
+      "id": "sc_card_terran_tactics_vanadium_plating",
+      "file": "StarCraft-Terran-P2P-W3-Card-Sheets-A4_EN.pdf",
+      "page": 8,
+      "url": "https://archon-studio.com/files/manuals/sc/StarCraft-Terran-P2P-W3-Card-Sheets-A4_EN.pdf"
+    },
+    {
+      "id": "sc_card_zerg_tactics_overseer",
+      "file": "StarCraft-Zerg-P2P-Card-Sheets-A4_EN.pdf",
+      "page": 13,
+      "url": "https://archon-studio.com/files/manuals/sc/StarCraft-Zerg-P2P-Card-Sheets-A4_EN.pdf"
+    },
+    {
+      "id": "sc_card_zerg_tactics_hatchery",
+      "file": "StarCraft-Zerg-P2P-Card-Sheets-A4_EN.pdf",
+      "page": 13,
+      "url": "https://archon-studio.com/files/manuals/sc/StarCraft-Zerg-P2P-Card-Sheets-A4_EN.pdf"
+    },
+    {
+      "id": "sc_card_zerg_tactics_evolution_chamber",
+      "file": "StarCraft-Zerg-P2P-Card-Sheets-A4_EN.pdf",
+      "page": 13,
+      "url": "https://archon-studio.com/files/manuals/sc/StarCraft-Zerg-P2P-Card-Sheets-A4_EN.pdf"
+    },
+    {
+      "id": "sc_card_zerg_tactics_zerg_swarm",
+      "file": "StarCraft-Zerg-P2P-Card-Sheets-A4_EN.pdf",
+      "page": 13,
+      "url": "https://archon-studio.com/files/manuals/sc/StarCraft-Zerg-P2P-Card-Sheets-A4_EN.pdf"
+    },
+    {
+      "id": "sc_card_zerg_tactics_hydralisk_den",
+      "file": "StarCraft-Zerg-P2P-Card-Sheets-A4_EN.pdf",
+      "page": 14,
+      "url": "https://archon-studio.com/files/manuals/sc/StarCraft-Zerg-P2P-Card-Sheets-A4_EN.pdf"
+    },
+    {
+      "id": "sc_card_zerg_tactics_overlord",
+      "file": "StarCraft-Zerg-P2P-Card-Sheets-A4_EN.pdf",
+      "page": 14,
+      "url": "https://archon-studio.com/files/manuals/sc/StarCraft-Zerg-P2P-Card-Sheets-A4_EN.pdf"
+    },
+    {
+      "id": "sc_card_zerg_tactics_malignant_creep",
+      "file": "StarCraft-Zerg-P2P-Card-Sheets-A4_EN.pdf",
+      "page": 14,
+      "url": "https://archon-studio.com/files/manuals/sc/StarCraft-Zerg-P2P-Card-Sheets-A4_EN.pdf"
+    },
+    {
+      "id": "sc_card_zerg_tactics_kerrigan_s_swarm",
+      "file": "StarCraft-Zerg-P2P-Card-Sheets-A4_EN.pdf",
+      "page": 14,
+      "url": "https://archon-studio.com/files/manuals/sc/StarCraft-Zerg-P2P-Card-Sheets-A4_EN.pdf"
+    },
+    {
+      "id": "sc_card_zerg_tactics_lair",
+      "file": "StarCraft-Zerg-P2P-Card-Sheets-A4_EN.pdf",
+      "page": 15,
+      "url": "https://archon-studio.com/files/manuals/sc/StarCraft-Zerg-P2P-Card-Sheets-A4_EN.pdf"
+    },
+    {
+      "id": "sc_card_zerg_tactics_accelerating_creep",
+      "file": "StarCraft-Zerg-P2P-Card-Sheets-A4_EN.pdf",
+      "page": 15,
+      "url": "https://archon-studio.com/files/manuals/sc/StarCraft-Zerg-P2P-Card-Sheets-A4_EN.pdf"
+    },
+    {
+      "id": "sc_card_zerg_tactics_roach_warren",
+      "file": "StarCraft-Zerg-P2P-Card-Sheets-A4_EN.pdf",
+      "page": 15,
+      "url": "https://archon-studio.com/files/manuals/sc/StarCraft-Zerg-P2P-Card-Sheets-A4_EN.pdf"
+    },
+    {
+      "id": "sc_card_zerg_tactics_spawning_pool_six_pool",
+      "file": "StarCraft-Zerg-P2P-Card-Sheets-A4_EN.pdf",
+      "page": 15,
+      "url": "https://archon-studio.com/files/manuals/sc/StarCraft-Zerg-P2P-Card-Sheets-A4_EN.pdf"
+    },
+    {
+      "id": "sc_card_zerg_tactics_spawning_pool",
+      "file": "StarCraft-Zerg-P2P-Card-Sheets-A4_EN.pdf",
+      "page": 16,
+      "url": "https://archon-studio.com/files/manuals/sc/StarCraft-Zerg-P2P-Card-Sheets-A4_EN.pdf"
+    },
+    {
+      "id": "sc_card_zerg_tactics_cocoon",
+      "file": "StarCraft-Zerg-P2P-W2-Card-Sheets-A4_EN.pdf",
+      "page": 2,
+      "url": "https://archon-studio.com/files/manuals/sc/StarCraft-Zerg-P2P-W2-Card-Sheets-A4_EN.pdf"
+    },
+    {
+      "id": "sc_card_zerg_tactics_reactive_creep",
+      "file": "StarCraft-Zerg-P2P-W3-Card-Sheets-A4_EN.pdf",
+      "page": 5,
+      "url": "https://archon-studio.com/files/manuals/sc/StarCraft-Zerg-P2P-W3-Card-Sheets-A4_EN.pdf"
+    },
+    {
+      "id": "sc_card_zerg_tactics_zagara_s_swarm",
+      "file": "StarCraft-Zerg-P2P-W3-Card-Sheets-A4_EN.pdf",
+      "page": 5,
+      "url": "https://archon-studio.com/files/manuals/sc/StarCraft-Zerg-P2P-W3-Card-Sheets-A4_EN.pdf"
+    },
+    {
+      "id": "sc_card_zerg_tactics_defiler_mound",
+      "file": "StarCraft-Zerg-P2P-W3-Card-Sheets-A4_EN.pdf",
+      "page": 5,
+      "url": "https://archon-studio.com/files/manuals/sc/StarCraft-Zerg-P2P-W3-Card-Sheets-A4_EN.pdf"
+    },
+    {
+      "id": "sc_card_deployments_acropolis",
+      "file": "StarCraft-Protoss-P2P-Card-Sheets-A4_EN.pdf",
+      "url": "https://archon-studio.com/files/manuals/sc/StarCraft-Protoss-P2P-Card-Sheets-A4_EN.pdf",
+      "sha256": "4e8547b2df8d545df3d0ebb7d7821521a888dc0437d6f4dde21d82145337a212",
+      "page": 14
+    },
+    {
+      "id": "sc_card_deployments_breach",
+      "file": "StarCraft-Protoss-P2P-Card-Sheets-A4_EN.pdf",
+      "url": "https://archon-studio.com/files/manuals/sc/StarCraft-Protoss-P2P-Card-Sheets-A4_EN.pdf",
+      "sha256": "4e8547b2df8d545df3d0ebb7d7821521a888dc0437d6f4dde21d82145337a212",
+      "page": 14
+    },
+    {
+      "id": "sc_card_deployments_gauntlet",
+      "file": "StarCraft-Protoss-P2P-Card-Sheets-A4_EN.pdf",
+      "url": "https://archon-studio.com/files/manuals/sc/StarCraft-Protoss-P2P-Card-Sheets-A4_EN.pdf",
+      "sha256": "4e8547b2df8d545df3d0ebb7d7821521a888dc0437d6f4dde21d82145337a212",
+      "page": 13
+    },
+    {
+      "id": "sc_card_deployments_meeting_engagement",
+      "file": "StarCraft-Protoss-P2P-W2-Card-Sheets-A4_EN.pdf",
+      "url": "https://archon-studio.com/files/manuals/sc/StarCraft-Protoss-P2P-W2-Card-Sheets-A4_EN.pdf",
+      "sha256": "09f6b940a7582719f1527574e22047529e3629d078e479e3baf06c552c99f7fe",
+      "page": 4
+    },
+    {
+      "id": "sc_card_deployments_one_bridge_too_close",
+      "file": "StarCraft-Protoss-P2P-W3-Card-Sheets-A4_EN.pdf",
+      "url": "https://archon-studio.com/files/manuals/sc/StarCraft-Protoss-P2P-W3-Card-Sheets-A4_EN.pdf",
+      "sha256": "c5ef1d1e2c953a8c5c376464dff46a51878d8e5ae0c3e8260684afbf1dd5f0aa",
+      "page": 4
+    },
+    {
+      "id": "sc_card_deployments_proving_grounds",
+      "file": "StarCraft-Protoss-P2P-Card-Sheets-A4_EN.pdf",
+      "url": "https://archon-studio.com/files/manuals/sc/StarCraft-Protoss-P2P-Card-Sheets-A4_EN.pdf",
+      "sha256": "4e8547b2df8d545df3d0ebb7d7821521a888dc0437d6f4dde21d82145337a212",
+      "page": 14
+    },
+    {
+      "id": "sc_card_deployments_typhoon",
+      "file": "StarCraft-Protoss-P2P-Card-Sheets-A4_EN.pdf",
+      "url": "https://archon-studio.com/files/manuals/sc/StarCraft-Protoss-P2P-Card-Sheets-A4_EN.pdf",
+      "sha256": "4e8547b2df8d545df3d0ebb7d7821521a888dc0437d6f4dde21d82145337a212",
+      "page": 13
+    }
+  ],
+  "counts": {
+    "Deployments": 7,
+    "Missions": 7,
+    "Protoss tactics": 17,
+    "Terran tactics": 15,
+    "Zerg tactics": 17
+  },
+  "missions": 7
+}

@@ -12,6 +12,7 @@ const staticFiles = [
   'objectives.json',
   'deployments.json',
   'maps.json',
+  'cards.json',
   'gameconfig.json',
   'version.json',
 ];
@@ -102,14 +103,14 @@ async function initialData(template) {
     try {
       data[name] = await readJson(path.join(template, name));
     } catch (error) {
-      if (name === 'maps.json' && error.code === 'ENOENT') data[name] = [];
+      if (['maps.json', 'cards.json'].includes(name) && error.code === 'ENOENT') data[name] = [];
       else throw error;
     }
   }
 
   data['gameconfig.json'].WoundsAttribute = 'HP';
   data['bases.json'] = [];
-  for (const name of ['rules', 'equipment', 'options', 'cards']) data[`${name}.json`] = [];
+  for (const name of ['rules', 'equipment', 'options']) data[`${name}.json`] = [];
   data['dummylist.json'] = '';
 
   return data;
@@ -133,6 +134,12 @@ export async function buildWarhallPackage(source, template = defaultDataDirector
   const baseMapping = await loadBaseMapping(source.metadata.mode);
   const report = createReport(source.metadata, baseMapping);
   const hierarchy = { Factions: {} };
+  try {
+    const previous = await readJson(path.join(template, 'hierarchy.json'));
+    if (previous.Cards) hierarchy.Cards = previous.Cards;
+  } catch (error) {
+    if (error.code !== 'ENOENT') throw error;
+  }
   const bases = new Map();
 
   for (const faction of source.factions) {
