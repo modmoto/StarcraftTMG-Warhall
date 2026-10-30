@@ -51,5 +51,288 @@
     "Shuffle Card Stack",
     "Flip Card",
     "Return Card"
-  ]
+  ],
+  "DeploymentTerrains": [
+    {
+      "DeploymentIndex": 1,
+      "Items": [
+        {
+          "Name": "sc_mission_red",
+          "X": -38.1,
+          "Y": 0.04,
+          "Z": 15.24,
+          "IsToken": false
+        },
+        {
+          "Name": "sc_mission_blue",
+          "X": 38.1,
+          "Y": 0.04,
+          "Z": 15.24,
+          "IsToken": false
+        },
+        {
+          "Name": "sc_mission_red",
+          "X": 38.1,
+          "Y": 0.04,
+          "Z": -15.24,
+          "IsToken": false
+        },
+        {
+          "Name": "sc_mission_blue",
+          "X": -38.1,
+          "Y": 0.04,
+          "Z": -15.24,
+          "IsToken": false
+        },
+        {
+          "Name": "sc_mission_green",
+          "X": 0,
+          "Y": 0.04,
+          "Z": 0,
+          "IsToken": false
+        }
+      ]
+    },
+    {
+      "DeploymentIndex": 2,
+      "Items": [
+        {
+          "Name": "sc_mission_red",
+          "X": -22.86,
+          "Y": 0.04,
+          "Z": 30.48,
+          "IsToken": false
+        },
+        {
+          "Name": "sc_mission_blue",
+          "X": 22.86,
+          "Y": 0.04,
+          "Z": 30.48,
+          "IsToken": false
+        },
+        {
+          "Name": "sc_mission_red",
+          "X": 22.86,
+          "Y": 0.04,
+          "Z": -30.48,
+          "IsToken": false
+        },
+        {
+          "Name": "sc_mission_blue",
+          "X": -22.86,
+          "Y": 0.04,
+          "Z": -30.48,
+          "IsToken": false
+        },
+        {
+          "Name": "sc_mission_green",
+          "X": 0,
+          "Y": 0.04,
+          "Z": 0,
+          "IsToken": false
+        }
+      ]
+    },
+    {
+      "DeploymentIndex": 3,
+      "Items": [
+        {
+          "Name": "sc_mission_red",
+          "X": -38.1,
+          "Y": 0.04,
+          "Z": 15.24,
+          "IsToken": false
+        },
+        {
+          "Name": "sc_mission_blue",
+          "X": 38.1,
+          "Y": 0.04,
+          "Z": -15.24,
+          "IsToken": false
+        },
+        {
+          "Name": "sc_mission_red",
+          "X": 22.86,
+          "Y": 0.04,
+          "Z": 15.24,
+          "IsToken": false
+        },
+        {
+          "Name": "sc_mission_blue",
+          "X": -22.86,
+          "Y": 0.04,
+          "Z": -15.24,
+          "IsToken": false
+        },
+        {
+          "Name": "sc_mission_green",
+          "X": 0,
+          "Y": 0.04,
+          "Z": 0,
+          "IsToken": false
+        }
+      ]
+    },
+    {
+      "DeploymentIndex": 4,
+      "Items": [
+        {
+          "Name": "sc_mission_red",
+          "X": -38.1,
+          "Y": 0.04,
+          "Z": 15.24,
+          "IsToken": false
+        },
+        {
+          "Name": "sc_mission_blue",
+          "X": 38.1,
+          "Y": 0.04,
+          "Z": -15.24,
+          "IsToken": false
+        },
+        {
+          "Name": "sc_mission_red",
+          "X": 38.1,
+          "Y": 0.04,
+          "Z": 15.24,
+          "IsToken": false
+        },
+        {
+          "Name": "sc_mission_blue",
+          "X": -38.1,
+          "Y": 0.04,
+          "Z": -15.24,
+          "IsToken": false
+        },
+        {
+          "Name": "sc_mission_green",
+          "X": 0,
+          "Y": 0.04,
+          "Z": 0,
+          "IsToken": false
+        }
+      ]
+    },
+    {
+      "DeploymentIndex": 5,
+      "Items": [
+        {
+          "Name": "sc_mission_red",
+          "X": 22.86,
+          "Y": 0.04,
+          "Z": 7.62,
+          "IsToken": false
+        },
+        {
+          "Name": "sc_mission_blue",
+          "X": -22.86,
+          "Y": 0.04,
+          "Z": 7.62,
+          "IsToken": false
+        },
+        {
+          "Name": "sc_mission_red",
+          "X": 38.1,
+          "Y": 0.04,
+          "Z": -30.48,
+          "IsToken": false
+        },
+        {
+          "Name": "sc_mission_blue",
+          "X": -38.1,
+          "Y": 0.04,
+          "Z": -30.48,
+          "IsToken": false
+        },
+        {
+          "Name": "sc_mission_green",
+          "X": 0,
+          "Y": 0.04,
+          "Z": -30.48,
+          "IsToken": false
+        }
+      ]
+    },
+    {
+      "DeploymentIndex": 6,
+      "Items": [
+        {
+          "Name": "sc_mission_red",
+          "X": -38.1,
+          "Y": 0.04,
+          "Z": 15.24,
+          "IsToken": false
+        },
+        {
+          "Name": "sc_mission_blue",
+          "X": 22.86,
+          "Y": 0.04,
+          "Z": -15.24,
+          "IsToken": false
+        },
+        {
+          "Name": "sc_mission_red",
+          "X": 38.1,
+          "Y": 0.04,
+          "Z": 15.24,
+          "IsToken": false
+        },
+        {
+          "Name": "sc_mission_blue",
+          "X": -22.86,
+          "Y": 0.04,
+          "Z": -15.24,
+          "IsToken": false
+        },
+        {
+          "Name": "sc_mission_green",
+          "X": 0,
+          "Y": 0.04,
+          "Z": 15.24,
+          "IsToken": false
+        }
+      ]
+    },
+    {
+      "DeploymentIndex": 7,
+      "Items": [
+        {
+          "Name": "sc_mission_red",
+          "X": -22.86,
+          "Y": 0.04,
+          "Z": 15.24,
+          "IsToken": false
+        },
+        {
+          "Name": "sc_mission_blue",
+          "X": -53.34,
+          "Y": 0.04,
+          "Z": 30.48,
+          "IsToken": false
+        },
+        {
+          "Name": "sc_mission_red",
+          "X": 53.34,
+          "Y": 0.04,
+          "Z": -30.48,
+          "IsToken": false
+        },
+        {
+          "Name": "sc_mission_blue",
+          "X": 22.86,
+          "Y": 0.04,
+          "Z": -15.24,
+          "IsToken": false
+        },
+        {
+          "Name": "sc_mission_green",
+          "X": 0,
+          "Y": 0.04,
+          "Z": 0,
+          "IsToken": false
+        }
+      ]
+    }
+  ],
+  "ShowObjectiveSection": true
 }

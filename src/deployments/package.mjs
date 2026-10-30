@@ -1,6 +1,6 @@
 import assert from 'node:assert/strict';
 import { sha256 } from '../io.mjs';
-import { markerTokens } from './markers.mjs';
+import { markerTerrains } from './markers.mjs';
 
 export const deploymentName = l => l.name;
 export function deploymentId(name) {
@@ -58,7 +58,9 @@ export function deploymentTemplate(layout) {
             [ax, ay - 3],
             [ax, ay],
           ];
-    if (neighbour.filter(([x, y]) => cells.has(`${e.color},${x},${y}`)).length === 1)
+    const onBorder =
+      ax === bx ? Math.abs(ax) === layout.width / 2 : Math.abs(ay) === layout.height / 2;
+    if (onBorder && neighbour.filter(([x, y]) => cells.has(`${e.color},${x},${y}`)).length === 1)
       boundary.push({ ...e, key });
   }
   assert.ok(
@@ -91,18 +93,19 @@ export function buildDeployments(layouts) {
       deploymentName: deploymentName(l),
       showCenterline: false,
     })),
-    objectives: layouts.map(l => ({
-      Id: `sc_deployment_${l.name.toLowerCase().replaceAll(' ', '_')}`,
-      Name: deploymentName(l),
+    objectives: [],
+    deploymentTerrains: layouts.map((l, i) => ({
+      DeploymentIndex: i + 1,
       Items: l.markers.map(m => ({
-        Id: `sc_mission_${m.color}`,
-        Type: 'Token',
-        PosX: String(m.x),
-        PosY: String(m.y),
-        IgnoreDeploymentRotation: true,
+        Name: `sc_mission_${m.color}`,
+        X: m.x * 2.54,
+        Y: 0.04,
+        Z: m.y * 2.54,
+        IsToken: false,
       })),
     })),
-    tokens: markerTokens(),
+    tokens: [],
+    markerTerrains: markerTerrains(),
     templates: layouts.map(deploymentTemplate),
   };
 }

@@ -72,7 +72,7 @@ Missing or conflicting required stats, unreadable weapon tables, unknown unit la
 **New Recruit mode uses base-sizes.json**, since the catalogues do not provide physical base dimensions. Unit overrides win over the defaults (32 mm, or 40 mm for Hero-category units). A number sets a round diameter; an object sets an oval, for example:
 
 ```json
-{"shape":"oval","widthMm":40,"lengthMm":100}
+{ "shape": "oval", "widthMm": 40, "lengthMm": 100 }
 ```
 
 Warhall curved bases use `Shape: 1`; the axes are equal for circles and unequal for ovals. The import report records the applied footprint and its source. PDF reports include a base-size policy and per-card footprint provenance; New Recruit reports include the mapping used.
@@ -92,20 +92,21 @@ npm run deployments:update -- --offline    # Reuse checksum-verified downloads
 npm run deployments:check                  # Read-only offline byte-for-byte check
 ```
 
-This updates the 7 standard 54x36 layouts in `Starcraft/deployments.json`, matching placement presets in `Starcraft/objectives.json`, and existing Warhall red, blue and green markers in `Starcraft/tokens.json`. Unrelated manually maintained entries are preserved. Run this after updating the unit cards; the unit converter preserves these files. It does not automatically change the release version. A fresh checkout needs `npm ci`, `npm run convert`, and `npm run deployments:update` before the offline checks.
+This updates the 7 standard 54x36 layouts in `Starcraft/deployments.json`, existing Warhall red, blue and green markers in `Starcraft/terrains.json`, and their placement in `Starcraft/gameconfig.json`. Unrelated manually maintained entries are preserved. Run this after updating the unit cards; the unit converter preserves these files. It does not automatically change the release version. A fresh checkout needs `npm ci`, `npm run convert`, and `npm run deployments:update` before the offline checks.
 
 The script reads PDF text, vector marker symbols, table boundaries and influence-zone artwork, handles upside-down cards, and reconciles repeated copies across factions. Current card artwork is approximate: coordinates are resolved on the printed 3-inch measurement grid and checked against printed edge measurements. All current coordinates have regression coverage. An unsupported grid, changed rule measurements/affinities, missing symbols or conflicting copies stops the migration before output is written. Review new or changed cards using `docs/deployments.html` and its source-page links; `deployment-report.json` retains source hashes and page numbers. A changed PDF design can require parser maintenance.
 
-The rules use red markers for 1/3, blue for 2/4 and green neutral for 5. The game uses existing Warhall ExcaliburRed/Blue/Green assets through explicit SkinId references, keeping their native sizes. No custom PNGs, meshes or range rings are created. Marker coordinates come from the official cards; activation and control remain manual. The deployment and objective dropdowns must be set to the same layout.
+The rules use red markers for 1/3, blue for 2/4 and green neutral for 5. The game uses existing Warhall ExcaliburRed/Blue/Green assets as terrain, keeping their native sizes. No custom PNGs, meshes or range rings are created. Marker coordinates come from the official cards; activation and control remain manual. Selecting a deployment places its markers and grey entry-edge segments together. The objective dropdown is reserved for scoring missions. Markers follow the Battlefield > Lock terrain switch. The current Warhall Test client explicitly unlocks terrain when a deployment creates it and exposes no WDS option to relock it automatically; automatic locking requires the client to call `SetTerrainLock(true)` after `PanelBattlefield.TerrainInDeployments`.
 
 Deployment outlines use the separate Warhall DeploymentDB. Close the test client, then install them with backups:
 
 ```sh
 node scripts/install-warhall-deployment-cache.mjs /path/to/WarhallTest --apply
+node scripts/install-warhall-marker-cache.mjs /path/to/WarhallTest/Database --apply
 node scripts/install-warhall-data.mjs /path/to/WarhallTest --apply --local-source
 ```
 
-The local-source option points the test client's Starcraft game-version entry to the workspace manifest, so opening a room does not overwrite local edits with the published release. It backs up GetGameVersions and the WDS files in the printed directory. Restore those backup files to return to the published source. Shared deployment template refreshes can overwrite locally installed outlines; the template adapter can be reapplied. Existing marker skins require no catalogue changes.
+The local-source option points the test client's Starcraft game-version entry to the workspace manifest, so opening a room does not overwrite local edits with the published release. It backs up GetGameVersions and the WDS files in the printed directory. Restore those backup files to return to the published source. Shared deployment template refreshes can overwrite locally installed outlines; the template adapter can be reapplied. The marker adapter associates the three existing native skins with Starcraft terrain IDs in the local catalogue; it creates no skins or assets and backs up both changed cache files. Shared catalogue registration is required for other machines.
 
 ## Current scope
 
@@ -147,7 +148,6 @@ The software renderer uses two views and approximate diffuse texture colors to r
 - The PDF option reads unit cards, not the separate cost tables, FAQ/errata or keyword glossary. It does not reconcile conflicting documents or automate combat. PDF costs are not filled from New Recruit or invented.
 - All variants, modes and summoned units are selectable; eligibility and alternate-mode switching are manual.
 - The JSON package has local integrity tests. Loading and rendering in the Warhall client remain unverified.
-
 
 ## Code layout
 

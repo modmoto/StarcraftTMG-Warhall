@@ -29,21 +29,25 @@ test('conflicting faction copies fail instead of silently choosing a deployment'
   assert.throws(() => reconcileDeployments([layout, other]), /Conflicting deployment/);
   assert.throws(() => reconcileDeployments([]), /No deployments/);
 });
-test('markers use exact inches and explicit existing Warhall color skins', () => {
+test('deployment alone places existing native markers at exact centimeter coordinates', () => {
   const output = buildDeployments([layout]);
-  assert.equal(output.objectives[0].Items.length, 3);
-  assert.deepEqual(output.objectives[0].Items.at(-1), {
-    Id: 'sc_mission_green',
-    Type: 'Token',
-    PosX: '0',
-    PosY: '0',
-    IgnoreDeploymentRotation: true,
+  assert.deepEqual(output.objectives, []);
+  assert.deepEqual(output.tokens, []);
+  assert.equal(output.markerTerrains.length, 3);
+  assert.ok(output.markerTerrains.every(t => t.Type === 'Terrain'));
+  assert.equal(output.deploymentTerrains[0].DeploymentIndex, 1);
+  assert.deepEqual(output.deploymentTerrains[0].Items[0], {
+    Name: 'sc_mission_red',
+    X: -30.48,
+    Y: 0.04,
+    Z: 0,
+    IsToken: false,
   });
   assert.deepEqual(
     markerTokens().map(t => t.SkinId),
     [6201, 6202, 6203],
   );
-  assert.ok(markerTokens().every(t => !('model' in t)));
+  assert.ok(output.deploymentTerrains[0].Items.every(t => !t.Name.includes('zone')));
 });
 test('L-shaped zones have no internal lines or duplicate overlap edges', () => {
   const l = structuredClone(layout);
@@ -54,7 +58,7 @@ test('L-shaped zones have no internal lines or duplicate overlap edges', () => {
     { color: 'blue', bounds: [12, -18, 18, -6] },
   ];
   const template = deploymentTemplate(l);
-  assert.equal(template.lines.length, 32); // perimeter 48 inches per L, in 3-inch segments
+  assert.equal(template.lines.length, 16); // Only entry edges on the battlefield border.
   assert.ok(template.lines.every(l => l.dummy));
   const invalid = structuredClone(layout);
   invalid.zones[0].bounds = [-18, 13, 18, 18];

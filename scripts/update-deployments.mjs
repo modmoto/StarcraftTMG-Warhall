@@ -147,6 +147,17 @@ for (const [file, records, owned] of [
   json(path.join(options.output, file), [...existing.filter(r => !owned(r)), ...records]);
 }
 json(path.join(projectRoot, 'deployment-templates.json'), generated.templates);
+const terrains = await readJson(path.join(options.output, 'terrains.json'));
+json(
+  path.join(options.output, 'terrains.json'),
+  [...terrains.filter(t => !t.Id.startsWith('sc_mission_')), ...generated.markerTerrains].sort(
+    (a, b) => a.Id.localeCompare(b.Id, 'en'),
+  ),
+);
+const config = await readJson(path.join(options.output, 'gameconfig.json'));
+config.DeploymentTerrains = generated.deploymentTerrains;
+config.ShowObjectiveSection = true;
+json(path.join(options.output, 'gameconfig.json'), config);
 json(path.join(projectRoot, 'deployment-report.json'), {
   rules: ruleSource,
   units: 'inches; origin at battlefield center; X right, Y up in the upright printed card',
@@ -174,7 +185,7 @@ const reviews = layouts
 outputs.set(
   path.join(projectRoot, 'docs', 'deployments.html'),
   Buffer.from(
-    `<!doctype html><meta charset="utf-8"><title>StarCraft deployment review</title><style>body{font:16px sans-serif;max-width:1200px;margin:2em auto;background:#fafafa}main{display:grid;grid-template-columns:1fr 1fr;gap:2em}section{background:white;padding:1em;border:1px solid #ddd}svg{width:100%}p{font-size:12px;overflow-wrap:anywhere}</style><h1>StarCraft deployments</h1><p>Existing Warhall red, blue and green markers. The diagrams retain the official marker numbers for reference; no custom marker images or range rings are used in the game. Coordinates are inches from the table center. Set the table to the printed size and select matching deployment and objective presets. Activation and control remain manual.</p><main>${reviews}</main>\n`,
+    `<!doctype html><meta charset="utf-8"><title>StarCraft deployment review</title><style>body{font:16px sans-serif;max-width:1200px;margin:2em auto;background:#fafafa}main{display:grid;grid-template-columns:1fr 1fr;gap:2em}section{background:white;padding:1em;border:1px solid #ddd}svg{width:100%}p{font-size:12px;overflow-wrap:anywhere}</style><h1>StarCraft deployments</h1><p>Existing Warhall red, blue and green markers. The diagrams retain the official marker numbers for reference; no custom marker images or range rings are used in the game. Coordinates are inches from the table center. Set the table to the printed size and select a deployment to place both entry edges and markers. Activation and control remain manual.</p><main>${reviews}</main>\n`,
   ),
 );
 if (options.check) {
@@ -204,5 +215,5 @@ if (options.check) {
   }
 }
 console.log(
-  `${options.check ? 'Verified' : options.dryRun ? 'Previewed' : 'Updated'} ${layouts.length} deployments, ${generated.objectives.length} objective presets and ${generated.tokens.length} existing Warhall marker colors. Custom deployment templates require Warhall DeploymentDB import.`,
+  `${options.check ? 'Verified' : options.dryRun ? 'Previewed' : 'Updated'} ${layouts.length} deployments, ${generated.objectives.length} objective presets and ${generated.markerTerrains.length} existing Warhall marker colors. Custom deployment templates require Warhall DeploymentDB import.`,
 );

@@ -7,23 +7,7 @@
       {
         "anchor": "center",
         "posX": "-10.5",
-        "posY": "-12",
-        "sizeX": "3",
-        "rotationY": "0",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "-10.5",
         "posY": "-18",
-        "sizeX": "3",
-        "rotationY": "0",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "-13.5",
-        "posY": "-12",
         "sizeX": "3",
         "rotationY": "0",
         "dummy": true
@@ -39,23 +23,7 @@
       {
         "anchor": "center",
         "posX": "-16.5",
-        "posY": "-12",
-        "sizeX": "3",
-        "rotationY": "0",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "-16.5",
         "posY": "-18",
-        "sizeX": "3",
-        "rotationY": "0",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "-19.5",
-        "posY": "-12",
         "sizeX": "3",
         "rotationY": "0",
         "dummy": true
@@ -71,23 +39,7 @@
       {
         "anchor": "center",
         "posX": "-22.5",
-        "posY": "-12",
-        "sizeX": "3",
-        "rotationY": "0",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "-22.5",
         "posY": "-18",
-        "sizeX": "3",
-        "rotationY": "0",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "-25.5",
-        "posY": "-12",
         "sizeX": "3",
         "rotationY": "0",
         "dummy": true
@@ -118,40 +70,8 @@
       },
       {
         "anchor": "center",
-        "posX": "-9",
-        "posY": "-13.5",
-        "sizeX": "3",
-        "rotationY": "90",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "-9",
-        "posY": "-16.5",
-        "sizeX": "3",
-        "rotationY": "90",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "13.5",
-        "posY": "12",
-        "sizeX": "3",
-        "rotationY": "0",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
         "posX": "13.5",
         "posY": "18",
-        "sizeX": "3",
-        "rotationY": "0",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "16.5",
-        "posY": "12",
         "sizeX": "3",
         "rotationY": "0",
         "dummy": true
@@ -167,14 +87,6 @@
       {
         "anchor": "center",
         "posX": "19.5",
-        "posY": "12",
-        "sizeX": "3",
-        "rotationY": "0",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "19.5",
         "posY": "18",
         "sizeX": "3",
         "rotationY": "0",
@@ -183,23 +95,7 @@
       {
         "anchor": "center",
         "posX": "22.5",
-        "posY": "12",
-        "sizeX": "3",
-        "rotationY": "0",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "22.5",
         "posY": "18",
-        "sizeX": "3",
-        "rotationY": "0",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "25.5",
-        "posY": "12",
         "sizeX": "3",
         "rotationY": "0",
         "dummy": true
@@ -223,30 +119,6 @@
       {
         "anchor": "center",
         "posX": "27",
-        "posY": "16.5",
-        "sizeX": "3",
-        "rotationY": "90",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "10.5",
-        "posY": "12",
-        "sizeX": "3",
-        "rotationY": "0",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "9",
-        "posY": "13.5",
-        "sizeX": "3",
-        "rotationY": "90",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "9",
         "posY": "16.5",
         "sizeX": "3",
         "rotationY": "90",
@@ -263,23 +135,7 @@
       {
         "anchor": "center",
         "posX": "-10.5",
-        "posY": "12",
-        "sizeX": "3",
-        "rotationY": "0",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "-10.5",
         "posY": "18",
-        "sizeX": "3",
-        "rotationY": "0",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "-13.5",
-        "posY": "12",
         "sizeX": "3",
         "rotationY": "0",
         "dummy": true
@@ -295,23 +151,7 @@
       {
         "anchor": "center",
         "posX": "-16.5",
-        "posY": "12",
-        "sizeX": "3",
-        "rotationY": "0",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "-16.5",
         "posY": "18",
-        "sizeX": "3",
-        "rotationY": "0",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "-19.5",
-        "posY": "12",
         "sizeX": "3",
         "rotationY": "0",
         "dummy": true
@@ -327,23 +167,7 @@
       {
         "anchor": "center",
         "posX": "-22.5",
-        "posY": "12",
-        "sizeX": "3",
-        "rotationY": "0",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "-22.5",
         "posY": "18",
-        "sizeX": "3",
-        "rotationY": "0",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "-25.5",
-        "posY": "12",
         "sizeX": "3",
         "rotationY": "0",
         "dummy": true
@@ -374,40 +198,8 @@
       },
       {
         "anchor": "center",
-        "posX": "-9",
-        "posY": "13.5",
-        "sizeX": "3",
-        "rotationY": "90",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "-9",
-        "posY": "16.5",
-        "sizeX": "3",
-        "rotationY": "90",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "13.5",
-        "posY": "-12",
-        "sizeX": "3",
-        "rotationY": "0",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
         "posX": "13.5",
         "posY": "-18",
-        "sizeX": "3",
-        "rotationY": "0",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "16.5",
-        "posY": "-12",
         "sizeX": "3",
         "rotationY": "0",
         "dummy": true
@@ -423,14 +215,6 @@
       {
         "anchor": "center",
         "posX": "19.5",
-        "posY": "-12",
-        "sizeX": "3",
-        "rotationY": "0",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "19.5",
         "posY": "-18",
         "sizeX": "3",
         "rotationY": "0",
@@ -439,23 +223,7 @@
       {
         "anchor": "center",
         "posX": "22.5",
-        "posY": "-12",
-        "sizeX": "3",
-        "rotationY": "0",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "22.5",
         "posY": "-18",
-        "sizeX": "3",
-        "rotationY": "0",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "25.5",
-        "posY": "-12",
         "sizeX": "3",
         "rotationY": "0",
         "dummy": true
@@ -487,33 +255,9 @@
       {
         "anchor": "center",
         "posX": "10.5",
-        "posY": "-12",
-        "sizeX": "3",
-        "rotationY": "0",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "9",
-        "posY": "-13.5",
-        "sizeX": "3",
-        "rotationY": "90",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "10.5",
         "posY": "-18",
         "sizeX": "3",
         "rotationY": "0",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "9",
-        "posY": "-16.5",
-        "sizeX": "3",
-        "rotationY": "90",
         "dummy": true
       }
     ]
@@ -525,102 +269,6 @@
     "lines": [
       {
         "anchor": "center",
-        "posX": "-21",
-        "posY": "-10.5",
-        "sizeX": "3",
-        "rotationY": "90",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "-21",
-        "posY": "-13.5",
-        "sizeX": "3",
-        "rotationY": "90",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "-21",
-        "posY": "-16.5",
-        "sizeX": "3",
-        "rotationY": "90",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "-21",
-        "posY": "-1.5",
-        "sizeX": "3",
-        "rotationY": "90",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "-21",
-        "posY": "-4.5",
-        "sizeX": "3",
-        "rotationY": "90",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "-21",
-        "posY": "-7.5",
-        "sizeX": "3",
-        "rotationY": "90",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "-21",
-        "posY": "1.5",
-        "sizeX": "3",
-        "rotationY": "90",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "-21",
-        "posY": "13.5",
-        "sizeX": "3",
-        "rotationY": "90",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "-21",
-        "posY": "16.5",
-        "sizeX": "3",
-        "rotationY": "90",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "-21",
-        "posY": "4.5",
-        "sizeX": "3",
-        "rotationY": "90",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "-21",
-        "posY": "7.5",
-        "sizeX": "3",
-        "rotationY": "90",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "-21",
-        "posY": "10.5",
-        "sizeX": "3",
-        "rotationY": "90",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
         "posX": "-22.5",
         "posY": "-18",
         "sizeX": "3",
@@ -749,30 +397,6 @@
       },
       {
         "anchor": "center",
-        "posX": "21",
-        "posY": "-10.5",
-        "sizeX": "3",
-        "rotationY": "90",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "21",
-        "posY": "-13.5",
-        "sizeX": "3",
-        "rotationY": "90",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "21",
-        "posY": "-16.5",
-        "sizeX": "3",
-        "rotationY": "90",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
         "posX": "22.5",
         "posY": "-18",
         "sizeX": "3",
@@ -781,82 +405,10 @@
       },
       {
         "anchor": "center",
-        "posX": "21",
-        "posY": "-1.5",
-        "sizeX": "3",
-        "rotationY": "90",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "21",
-        "posY": "-4.5",
-        "sizeX": "3",
-        "rotationY": "90",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "21",
-        "posY": "-7.5",
-        "sizeX": "3",
-        "rotationY": "90",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "21",
-        "posY": "1.5",
-        "sizeX": "3",
-        "rotationY": "90",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "21",
-        "posY": "13.5",
-        "sizeX": "3",
-        "rotationY": "90",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "21",
-        "posY": "16.5",
-        "sizeX": "3",
-        "rotationY": "90",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
         "posX": "22.5",
         "posY": "18",
         "sizeX": "3",
         "rotationY": "0",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "21",
-        "posY": "4.5",
-        "sizeX": "3",
-        "rotationY": "90",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "21",
-        "posY": "7.5",
-        "sizeX": "3",
-        "rotationY": "90",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "21",
-        "posY": "10.5",
-        "sizeX": "3",
-        "rotationY": "90",
         "dummy": true
       },
       {
@@ -981,23 +533,7 @@
       {
         "anchor": "center",
         "posX": "-10.5",
-        "posY": "-12",
-        "sizeX": "3",
-        "rotationY": "0",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "-10.5",
         "posY": "-18",
-        "sizeX": "3",
-        "rotationY": "0",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "-13.5",
-        "posY": "-12",
         "sizeX": "3",
         "rotationY": "0",
         "dummy": true
@@ -1013,23 +549,7 @@
       {
         "anchor": "center",
         "posX": "-16.5",
-        "posY": "-12",
-        "sizeX": "3",
-        "rotationY": "0",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "-16.5",
         "posY": "-18",
-        "sizeX": "3",
-        "rotationY": "0",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "-19.5",
-        "posY": "-12",
         "sizeX": "3",
         "rotationY": "0",
         "dummy": true
@@ -1045,23 +565,7 @@
       {
         "anchor": "center",
         "posX": "-22.5",
-        "posY": "-12",
-        "sizeX": "3",
-        "rotationY": "0",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "-22.5",
         "posY": "-18",
-        "sizeX": "3",
-        "rotationY": "0",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "-25.5",
-        "posY": "-12",
         "sizeX": "3",
         "rotationY": "0",
         "dummy": true
@@ -1093,23 +597,7 @@
       {
         "anchor": "center",
         "posX": "-1.5",
-        "posY": "-12",
-        "sizeX": "3",
-        "rotationY": "0",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "-1.5",
         "posY": "-18",
-        "sizeX": "3",
-        "rotationY": "0",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "-4.5",
-        "posY": "-12",
         "sizeX": "3",
         "rotationY": "0",
         "dummy": true
@@ -1125,23 +613,7 @@
       {
         "anchor": "center",
         "posX": "-7.5",
-        "posY": "-12",
-        "sizeX": "3",
-        "rotationY": "0",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "-7.5",
         "posY": "-18",
-        "sizeX": "3",
-        "rotationY": "0",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "1.5",
-        "posY": "-12",
         "sizeX": "3",
         "rotationY": "0",
         "dummy": true
@@ -1157,23 +629,7 @@
       {
         "anchor": "center",
         "posX": "13.5",
-        "posY": "-12",
-        "sizeX": "3",
-        "rotationY": "0",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "13.5",
         "posY": "-18",
-        "sizeX": "3",
-        "rotationY": "0",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "16.5",
-        "posY": "-12",
         "sizeX": "3",
         "rotationY": "0",
         "dummy": true
@@ -1189,14 +645,6 @@
       {
         "anchor": "center",
         "posX": "19.5",
-        "posY": "-12",
-        "sizeX": "3",
-        "rotationY": "0",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "19.5",
         "posY": "-18",
         "sizeX": "3",
         "rotationY": "0",
@@ -1205,23 +653,7 @@
       {
         "anchor": "center",
         "posX": "22.5",
-        "posY": "-12",
-        "sizeX": "3",
-        "rotationY": "0",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "22.5",
         "posY": "-18",
-        "sizeX": "3",
-        "rotationY": "0",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "25.5",
-        "posY": "-12",
         "sizeX": "3",
         "rotationY": "0",
         "dummy": true
@@ -1253,23 +685,7 @@
       {
         "anchor": "center",
         "posX": "4.5",
-        "posY": "-12",
-        "sizeX": "3",
-        "rotationY": "0",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "4.5",
         "posY": "-18",
-        "sizeX": "3",
-        "rotationY": "0",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "7.5",
-        "posY": "-12",
         "sizeX": "3",
         "rotationY": "0",
         "dummy": true
@@ -1285,14 +701,6 @@
       {
         "anchor": "center",
         "posX": "10.5",
-        "posY": "-12",
-        "sizeX": "3",
-        "rotationY": "0",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "10.5",
         "posY": "-18",
         "sizeX": "3",
         "rotationY": "0",
@@ -1301,23 +709,7 @@
       {
         "anchor": "center",
         "posX": "-10.5",
-        "posY": "12",
-        "sizeX": "3",
-        "rotationY": "0",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "-10.5",
         "posY": "18",
-        "sizeX": "3",
-        "rotationY": "0",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "-13.5",
-        "posY": "12",
         "sizeX": "3",
         "rotationY": "0",
         "dummy": true
@@ -1333,23 +725,7 @@
       {
         "anchor": "center",
         "posX": "-16.5",
-        "posY": "12",
-        "sizeX": "3",
-        "rotationY": "0",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "-16.5",
         "posY": "18",
-        "sizeX": "3",
-        "rotationY": "0",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "-19.5",
-        "posY": "12",
         "sizeX": "3",
         "rotationY": "0",
         "dummy": true
@@ -1365,23 +741,7 @@
       {
         "anchor": "center",
         "posX": "-22.5",
-        "posY": "12",
-        "sizeX": "3",
-        "rotationY": "0",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "-22.5",
         "posY": "18",
-        "sizeX": "3",
-        "rotationY": "0",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "-25.5",
-        "posY": "12",
         "sizeX": "3",
         "rotationY": "0",
         "dummy": true
@@ -1413,23 +773,7 @@
       {
         "anchor": "center",
         "posX": "-1.5",
-        "posY": "12",
-        "sizeX": "3",
-        "rotationY": "0",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "-1.5",
         "posY": "18",
-        "sizeX": "3",
-        "rotationY": "0",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "-4.5",
-        "posY": "12",
         "sizeX": "3",
         "rotationY": "0",
         "dummy": true
@@ -1445,23 +789,7 @@
       {
         "anchor": "center",
         "posX": "-7.5",
-        "posY": "12",
-        "sizeX": "3",
-        "rotationY": "0",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "-7.5",
         "posY": "18",
-        "sizeX": "3",
-        "rotationY": "0",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "1.5",
-        "posY": "12",
         "sizeX": "3",
         "rotationY": "0",
         "dummy": true
@@ -1477,23 +805,7 @@
       {
         "anchor": "center",
         "posX": "13.5",
-        "posY": "12",
-        "sizeX": "3",
-        "rotationY": "0",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "13.5",
         "posY": "18",
-        "sizeX": "3",
-        "rotationY": "0",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "16.5",
-        "posY": "12",
         "sizeX": "3",
         "rotationY": "0",
         "dummy": true
@@ -1509,14 +821,6 @@
       {
         "anchor": "center",
         "posX": "19.5",
-        "posY": "12",
-        "sizeX": "3",
-        "rotationY": "0",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "19.5",
         "posY": "18",
         "sizeX": "3",
         "rotationY": "0",
@@ -1525,23 +829,7 @@
       {
         "anchor": "center",
         "posX": "22.5",
-        "posY": "12",
-        "sizeX": "3",
-        "rotationY": "0",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "22.5",
         "posY": "18",
-        "sizeX": "3",
-        "rotationY": "0",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "25.5",
-        "posY": "12",
         "sizeX": "3",
         "rotationY": "0",
         "dummy": true
@@ -1573,14 +861,6 @@
       {
         "anchor": "center",
         "posX": "4.5",
-        "posY": "12",
-        "sizeX": "3",
-        "rotationY": "0",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "4.5",
         "posY": "18",
         "sizeX": "3",
         "rotationY": "0",
@@ -1589,23 +869,7 @@
       {
         "anchor": "center",
         "posX": "7.5",
-        "posY": "12",
-        "sizeX": "3",
-        "rotationY": "0",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "7.5",
         "posY": "18",
-        "sizeX": "3",
-        "rotationY": "0",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "10.5",
-        "posY": "12",
         "sizeX": "3",
         "rotationY": "0",
         "dummy": true
@@ -1627,66 +891,10 @@
     "lines": [
       {
         "anchor": "center",
-        "posX": "-21",
-        "posY": "-1.5",
-        "sizeX": "3",
-        "rotationY": "90",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "-21",
-        "posY": "-4.5",
-        "sizeX": "3",
-        "rotationY": "90",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "-21",
-        "posY": "1.5",
-        "sizeX": "3",
-        "rotationY": "90",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "-21",
-        "posY": "4.5",
-        "sizeX": "3",
-        "rotationY": "90",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "-22.5",
-        "posY": "-6",
-        "sizeX": "3",
-        "rotationY": "0",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "-22.5",
-        "posY": "6",
-        "sizeX": "3",
-        "rotationY": "0",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
         "posX": "-27",
         "posY": "-1.5",
         "sizeX": "3",
         "rotationY": "90",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "-25.5",
-        "posY": "-6",
-        "sizeX": "3",
-        "rotationY": "0",
         "dummy": true
       },
       {
@@ -1715,32 +923,8 @@
       },
       {
         "anchor": "center",
-        "posX": "-25.5",
-        "posY": "6",
-        "sizeX": "3",
-        "rotationY": "0",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "-1.5",
-        "posY": "12",
-        "sizeX": "3",
-        "rotationY": "0",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
         "posX": "-1.5",
         "posY": "18",
-        "sizeX": "3",
-        "rotationY": "0",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "-4.5",
-        "posY": "12",
         "sizeX": "3",
         "rotationY": "0",
         "dummy": true
@@ -1756,39 +940,7 @@
       {
         "anchor": "center",
         "posX": "-7.5",
-        "posY": "12",
-        "sizeX": "3",
-        "rotationY": "0",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "-9",
-        "posY": "13.5",
-        "sizeX": "3",
-        "rotationY": "90",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "-9",
-        "posY": "16.5",
-        "sizeX": "3",
-        "rotationY": "90",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "-7.5",
         "posY": "18",
-        "sizeX": "3",
-        "rotationY": "0",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "1.5",
-        "posY": "12",
         "sizeX": "3",
         "rotationY": "0",
         "dummy": true
@@ -1804,14 +956,6 @@
       {
         "anchor": "center",
         "posX": "4.5",
-        "posY": "12",
-        "sizeX": "3",
-        "rotationY": "0",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "4.5",
         "posY": "18",
         "sizeX": "3",
         "rotationY": "0",
@@ -1820,39 +964,7 @@
       {
         "anchor": "center",
         "posX": "7.5",
-        "posY": "12",
-        "sizeX": "3",
-        "rotationY": "0",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "7.5",
         "posY": "18",
-        "sizeX": "3",
-        "rotationY": "0",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "9",
-        "posY": "13.5",
-        "sizeX": "3",
-        "rotationY": "90",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "9",
-        "posY": "16.5",
-        "sizeX": "3",
-        "rotationY": "90",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "-1.5",
-        "posY": "-12",
         "sizeX": "3",
         "rotationY": "0",
         "dummy": true
@@ -1868,14 +980,6 @@
       {
         "anchor": "center",
         "posX": "-4.5",
-        "posY": "-12",
-        "sizeX": "3",
-        "rotationY": "0",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "-4.5",
         "posY": "-18",
         "sizeX": "3",
         "rotationY": "0",
@@ -1884,39 +988,7 @@
       {
         "anchor": "center",
         "posX": "-7.5",
-        "posY": "-12",
-        "sizeX": "3",
-        "rotationY": "0",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "-9",
-        "posY": "-13.5",
-        "sizeX": "3",
-        "rotationY": "90",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "-7.5",
         "posY": "-18",
-        "sizeX": "3",
-        "rotationY": "0",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "-9",
-        "posY": "-16.5",
-        "sizeX": "3",
-        "rotationY": "90",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "1.5",
-        "posY": "-12",
         "sizeX": "3",
         "rotationY": "0",
         "dummy": true
@@ -1925,70 +997,6 @@
         "anchor": "center",
         "posX": "1.5",
         "posY": "-18",
-        "sizeX": "3",
-        "rotationY": "0",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "21",
-        "posY": "-1.5",
-        "sizeX": "3",
-        "rotationY": "90",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "21",
-        "posY": "-4.5",
-        "sizeX": "3",
-        "rotationY": "90",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "22.5",
-        "posY": "-6",
-        "sizeX": "3",
-        "rotationY": "0",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "21",
-        "posY": "1.5",
-        "sizeX": "3",
-        "rotationY": "90",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "21",
-        "posY": "4.5",
-        "sizeX": "3",
-        "rotationY": "90",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "22.5",
-        "posY": "6",
-        "sizeX": "3",
-        "rotationY": "0",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "25.5",
-        "posY": "-6",
-        "sizeX": "3",
-        "rotationY": "0",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "25.5",
-        "posY": "6",
         "sizeX": "3",
         "rotationY": "0",
         "dummy": true
@@ -2028,23 +1036,7 @@
       {
         "anchor": "center",
         "posX": "4.5",
-        "posY": "-12",
-        "sizeX": "3",
-        "rotationY": "0",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "4.5",
         "posY": "-18",
-        "sizeX": "3",
-        "rotationY": "0",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "7.5",
-        "posY": "-12",
         "sizeX": "3",
         "rotationY": "0",
         "dummy": true
@@ -2055,22 +1047,6 @@
         "posY": "-18",
         "sizeX": "3",
         "rotationY": "0",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "9",
-        "posY": "-13.5",
-        "sizeX": "3",
-        "rotationY": "90",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "9",
-        "posY": "-16.5",
-        "sizeX": "3",
-        "rotationY": "90",
         "dummy": true
       }
     ]
@@ -2083,23 +1059,7 @@
       {
         "anchor": "center",
         "posX": "-10.5",
-        "posY": "12",
-        "sizeX": "3",
-        "rotationY": "0",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "-10.5",
         "posY": "18",
-        "sizeX": "3",
-        "rotationY": "0",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "-13.5",
-        "posY": "12",
         "sizeX": "3",
         "rotationY": "0",
         "dummy": true
@@ -2115,79 +1075,7 @@
       {
         "anchor": "center",
         "posX": "-16.5",
-        "posY": "12",
-        "sizeX": "3",
-        "rotationY": "0",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "-16.5",
         "posY": "18",
-        "sizeX": "3",
-        "rotationY": "0",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "-21",
-        "posY": "-10.5",
-        "sizeX": "3",
-        "rotationY": "90",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "-21",
-        "posY": "-13.5",
-        "sizeX": "3",
-        "rotationY": "90",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "-21",
-        "posY": "-16.5",
-        "sizeX": "3",
-        "rotationY": "90",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "-21",
-        "posY": "-1.5",
-        "sizeX": "3",
-        "rotationY": "90",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "-21",
-        "posY": "-4.5",
-        "sizeX": "3",
-        "rotationY": "90",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "-21",
-        "posY": "-7.5",
-        "sizeX": "3",
-        "rotationY": "90",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "-21",
-        "posY": "1.5",
-        "sizeX": "3",
-        "rotationY": "90",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "-19.5",
-        "posY": "12",
         "sizeX": "3",
         "rotationY": "0",
         "dummy": true
@@ -2198,30 +1086,6 @@
         "posY": "18",
         "sizeX": "3",
         "rotationY": "0",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "-21",
-        "posY": "4.5",
-        "sizeX": "3",
-        "rotationY": "90",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "-21",
-        "posY": "7.5",
-        "sizeX": "3",
-        "rotationY": "90",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "-21",
-        "posY": "10.5",
-        "sizeX": "3",
-        "rotationY": "90",
         "dummy": true
       },
       {
@@ -2355,23 +1219,7 @@
       {
         "anchor": "center",
         "posX": "-1.5",
-        "posY": "12",
-        "sizeX": "3",
-        "rotationY": "0",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "-1.5",
         "posY": "18",
-        "sizeX": "3",
-        "rotationY": "0",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "-4.5",
-        "posY": "12",
         "sizeX": "3",
         "rotationY": "0",
         "dummy": true
@@ -2387,14 +1235,6 @@
       {
         "anchor": "center",
         "posX": "-7.5",
-        "posY": "12",
-        "sizeX": "3",
-        "rotationY": "0",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "-7.5",
         "posY": "18",
         "sizeX": "3",
         "rotationY": "0",
@@ -2402,56 +1242,8 @@
       },
       {
         "anchor": "center",
-        "posX": "0",
-        "posY": "13.5",
-        "sizeX": "3",
-        "rotationY": "90",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "0",
-        "posY": "16.5",
-        "sizeX": "3",
-        "rotationY": "90",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "0",
-        "posY": "13.5",
-        "sizeX": "3",
-        "rotationY": "90",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "1.5",
-        "posY": "12",
-        "sizeX": "3",
-        "rotationY": "0",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "0",
-        "posY": "16.5",
-        "sizeX": "3",
-        "rotationY": "90",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
         "posX": "1.5",
         "posY": "18",
-        "sizeX": "3",
-        "rotationY": "0",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "13.5",
-        "posY": "12",
         "sizeX": "3",
         "rotationY": "0",
         "dummy": true
@@ -2467,23 +1259,7 @@
       {
         "anchor": "center",
         "posX": "16.5",
-        "posY": "12",
-        "sizeX": "3",
-        "rotationY": "0",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "16.5",
         "posY": "18",
-        "sizeX": "3",
-        "rotationY": "0",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "19.5",
-        "posY": "12",
         "sizeX": "3",
         "rotationY": "0",
         "dummy": true
@@ -2494,30 +1270,6 @@
         "posY": "18",
         "sizeX": "3",
         "rotationY": "0",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "21",
-        "posY": "-10.5",
-        "sizeX": "3",
-        "rotationY": "90",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "21",
-        "posY": "-13.5",
-        "sizeX": "3",
-        "rotationY": "90",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "21",
-        "posY": "-16.5",
-        "sizeX": "3",
-        "rotationY": "90",
         "dummy": true
       },
       {
@@ -2530,66 +1282,10 @@
       },
       {
         "anchor": "center",
-        "posX": "21",
-        "posY": "-1.5",
-        "sizeX": "3",
-        "rotationY": "90",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "21",
-        "posY": "-4.5",
-        "sizeX": "3",
-        "rotationY": "90",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "21",
-        "posY": "-7.5",
-        "sizeX": "3",
-        "rotationY": "90",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "21",
-        "posY": "1.5",
-        "sizeX": "3",
-        "rotationY": "90",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
         "posX": "22.5",
         "posY": "18",
         "sizeX": "3",
         "rotationY": "0",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "21",
-        "posY": "4.5",
-        "sizeX": "3",
-        "rotationY": "90",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "21",
-        "posY": "7.5",
-        "sizeX": "3",
-        "rotationY": "90",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "21",
-        "posY": "10.5",
-        "sizeX": "3",
-        "rotationY": "90",
         "dummy": true
       },
       {
@@ -2707,14 +1403,6 @@
       {
         "anchor": "center",
         "posX": "4.5",
-        "posY": "12",
-        "sizeX": "3",
-        "rotationY": "0",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "4.5",
         "posY": "18",
         "sizeX": "3",
         "rotationY": "0",
@@ -2723,23 +1411,7 @@
       {
         "anchor": "center",
         "posX": "7.5",
-        "posY": "12",
-        "sizeX": "3",
-        "rotationY": "0",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "7.5",
         "posY": "18",
-        "sizeX": "3",
-        "rotationY": "0",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "10.5",
-        "posY": "12",
         "sizeX": "3",
         "rotationY": "0",
         "dummy": true
@@ -2762,23 +1434,7 @@
       {
         "anchor": "center",
         "posX": "-1.5",
-        "posY": "12",
-        "sizeX": "3",
-        "rotationY": "0",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "-1.5",
         "posY": "18",
-        "sizeX": "3",
-        "rotationY": "0",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "-4.5",
-        "posY": "12",
         "sizeX": "3",
         "rotationY": "0",
         "dummy": true
@@ -2794,39 +1450,7 @@
       {
         "anchor": "center",
         "posX": "-7.5",
-        "posY": "12",
-        "sizeX": "3",
-        "rotationY": "0",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "-9",
-        "posY": "13.5",
-        "sizeX": "3",
-        "rotationY": "90",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "-9",
-        "posY": "16.5",
-        "sizeX": "3",
-        "rotationY": "90",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "-7.5",
         "posY": "18",
-        "sizeX": "3",
-        "rotationY": "0",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "1.5",
-        "posY": "12",
         "sizeX": "3",
         "rotationY": "0",
         "dummy": true
@@ -2842,23 +1466,7 @@
       {
         "anchor": "center",
         "posX": "4.5",
-        "posY": "12",
-        "sizeX": "3",
-        "rotationY": "0",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "4.5",
         "posY": "18",
-        "sizeX": "3",
-        "rotationY": "0",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "7.5",
-        "posY": "12",
         "sizeX": "3",
         "rotationY": "0",
         "dummy": true
@@ -2869,118 +1477,6 @@
         "posY": "18",
         "sizeX": "3",
         "rotationY": "0",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "9",
-        "posY": "13.5",
-        "sizeX": "3",
-        "rotationY": "90",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "9",
-        "posY": "16.5",
-        "sizeX": "3",
-        "rotationY": "90",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "-21",
-        "posY": "-10.5",
-        "sizeX": "3",
-        "rotationY": "90",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "-21",
-        "posY": "-13.5",
-        "sizeX": "3",
-        "rotationY": "90",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "-21",
-        "posY": "-16.5",
-        "sizeX": "3",
-        "rotationY": "90",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "-21",
-        "posY": "-1.5",
-        "sizeX": "3",
-        "rotationY": "90",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "-21",
-        "posY": "-4.5",
-        "sizeX": "3",
-        "rotationY": "90",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "-21",
-        "posY": "-7.5",
-        "sizeX": "3",
-        "rotationY": "90",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "-21",
-        "posY": "1.5",
-        "sizeX": "3",
-        "rotationY": "90",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "-21",
-        "posY": "13.5",
-        "sizeX": "3",
-        "rotationY": "90",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "-21",
-        "posY": "16.5",
-        "sizeX": "3",
-        "rotationY": "90",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "-21",
-        "posY": "4.5",
-        "sizeX": "3",
-        "rotationY": "90",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "-21",
-        "posY": "7.5",
-        "sizeX": "3",
-        "rotationY": "90",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "-21",
-        "posY": "10.5",
-        "sizeX": "3",
-        "rotationY": "90",
         "dummy": true
       },
       {
@@ -3113,30 +1609,6 @@
       },
       {
         "anchor": "center",
-        "posX": "21",
-        "posY": "-10.5",
-        "sizeX": "3",
-        "rotationY": "90",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "21",
-        "posY": "-13.5",
-        "sizeX": "3",
-        "rotationY": "90",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "21",
-        "posY": "-16.5",
-        "sizeX": "3",
-        "rotationY": "90",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
         "posX": "22.5",
         "posY": "-18",
         "sizeX": "3",
@@ -3145,82 +1617,10 @@
       },
       {
         "anchor": "center",
-        "posX": "21",
-        "posY": "-1.5",
-        "sizeX": "3",
-        "rotationY": "90",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "21",
-        "posY": "-4.5",
-        "sizeX": "3",
-        "rotationY": "90",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "21",
-        "posY": "-7.5",
-        "sizeX": "3",
-        "rotationY": "90",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "21",
-        "posY": "1.5",
-        "sizeX": "3",
-        "rotationY": "90",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "21",
-        "posY": "13.5",
-        "sizeX": "3",
-        "rotationY": "90",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "21",
-        "posY": "16.5",
-        "sizeX": "3",
-        "rotationY": "90",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
         "posX": "22.5",
         "posY": "18",
         "sizeX": "3",
         "rotationY": "0",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "21",
-        "posY": "4.5",
-        "sizeX": "3",
-        "rotationY": "90",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "21",
-        "posY": "7.5",
-        "sizeX": "3",
-        "rotationY": "90",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "21",
-        "posY": "10.5",
-        "sizeX": "3",
-        "rotationY": "90",
         "dummy": true
       },
       {
@@ -3345,23 +1745,7 @@
       {
         "anchor": "center",
         "posX": "-10.5",
-        "posY": "-12",
-        "sizeX": "3",
-        "rotationY": "0",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "-10.5",
         "posY": "-18",
-        "sizeX": "3",
-        "rotationY": "0",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "-13.5",
-        "posY": "-12",
         "sizeX": "3",
         "rotationY": "0",
         "dummy": true
@@ -3377,14 +1761,6 @@
       {
         "anchor": "center",
         "posX": "-16.5",
-        "posY": "-12",
-        "sizeX": "3",
-        "rotationY": "0",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "-16.5",
         "posY": "-18",
         "sizeX": "3",
         "rotationY": "0",
@@ -3393,54 +1769,6 @@
       {
         "anchor": "center",
         "posX": "-19.5",
-        "posY": "-12",
-        "sizeX": "3",
-        "rotationY": "0",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "-21",
-        "posY": "-10.5",
-        "sizeX": "3",
-        "rotationY": "90",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "-19.5",
-        "posY": "-18",
-        "sizeX": "3",
-        "rotationY": "0",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "-21",
-        "posY": "-1.5",
-        "sizeX": "3",
-        "rotationY": "90",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "-21",
-        "posY": "-4.5",
-        "sizeX": "3",
-        "rotationY": "90",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "-21",
-        "posY": "-7.5",
-        "sizeX": "3",
-        "rotationY": "90",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "-22.5",
         "posY": "-18",
         "sizeX": "3",
         "rotationY": "0",
@@ -3449,7 +1777,7 @@
       {
         "anchor": "center",
         "posX": "-22.5",
-        "posY": "0",
+        "posY": "-18",
         "sizeX": "3",
         "rotationY": "0",
         "dummy": true
@@ -3512,48 +1840,8 @@
       },
       {
         "anchor": "center",
-        "posX": "-25.5",
-        "posY": "0",
-        "sizeX": "3",
-        "rotationY": "0",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "-3",
-        "posY": "-13.5",
-        "sizeX": "3",
-        "rotationY": "90",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "-3",
-        "posY": "-16.5",
-        "sizeX": "3",
-        "rotationY": "90",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "-4.5",
-        "posY": "-12",
-        "sizeX": "3",
-        "rotationY": "0",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
         "posX": "-4.5",
         "posY": "-18",
-        "sizeX": "3",
-        "rotationY": "0",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "-7.5",
-        "posY": "-12",
         "sizeX": "3",
         "rotationY": "0",
         "dummy": true
@@ -3569,23 +1857,7 @@
       {
         "anchor": "center",
         "posX": "13.5",
-        "posY": "12",
-        "sizeX": "3",
-        "rotationY": "0",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "13.5",
         "posY": "18",
-        "sizeX": "3",
-        "rotationY": "0",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "16.5",
-        "posY": "12",
         "sizeX": "3",
         "rotationY": "0",
         "dummy": true
@@ -3601,31 +1873,7 @@
       {
         "anchor": "center",
         "posX": "19.5",
-        "posY": "12",
-        "sizeX": "3",
-        "rotationY": "0",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "19.5",
         "posY": "18",
-        "sizeX": "3",
-        "rotationY": "0",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "21",
-        "posY": "1.5",
-        "sizeX": "3",
-        "rotationY": "90",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "22.5",
-        "posY": "0",
         "sizeX": "3",
         "rotationY": "0",
         "dummy": true
@@ -3634,38 +1882,6 @@
         "anchor": "center",
         "posX": "22.5",
         "posY": "18",
-        "sizeX": "3",
-        "rotationY": "0",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "21",
-        "posY": "4.5",
-        "sizeX": "3",
-        "rotationY": "90",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "21",
-        "posY": "7.5",
-        "sizeX": "3",
-        "rotationY": "90",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "21",
-        "posY": "10.5",
-        "sizeX": "3",
-        "rotationY": "90",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "25.5",
-        "posY": "0",
         "sizeX": "3",
         "rotationY": "0",
         "dummy": true
@@ -3728,30 +1944,6 @@
       },
       {
         "anchor": "center",
-        "posX": "3",
-        "posY": "13.5",
-        "sizeX": "3",
-        "rotationY": "90",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "4.5",
-        "posY": "12",
-        "sizeX": "3",
-        "rotationY": "0",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "3",
-        "posY": "16.5",
-        "sizeX": "3",
-        "rotationY": "90",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
         "posX": "4.5",
         "posY": "18",
         "sizeX": "3",
@@ -3761,23 +1953,7 @@
       {
         "anchor": "center",
         "posX": "7.5",
-        "posY": "12",
-        "sizeX": "3",
-        "rotationY": "0",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "7.5",
         "posY": "18",
-        "sizeX": "3",
-        "rotationY": "0",
-        "dummy": true
-      },
-      {
-        "anchor": "center",
-        "posX": "10.5",
-        "posY": "12",
         "sizeX": "3",
         "rotationY": "0",
         "dummy": true
