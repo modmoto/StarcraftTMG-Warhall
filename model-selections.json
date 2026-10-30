@@ -1,0 +1,1311 @@
+{
+  "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=3662791369",
+  "purpose": "Visually reviewed CDN mesh/texture selections; not a Warhall schema definition.",
+  "policy": "Prefer firing/aiming/casting for ranged units and striking/charging for melee units. Record closest available poses explicitly.",
+  "models": [
+    {
+      "faction": "Protoss",
+      "unitId": "pdf_Protoss_unit_adepts",
+      "unitName": "Adepts",
+      "role": "ranged",
+      "pose": "shooting",
+      "status": "selected",
+      "notes": "Glaive weapon extended toward the target.",
+      "model": {
+        "candidateId": 81,
+        "sourceName": "Adept",
+        "workshopId": "3662791369",
+        "guid": "956815",
+        "meshUrl": "https://steamusercontent-a.akamaihd.net/ugc/16094091516144839195/C2750AABD3B80681D120C8A9B392B2620BA0B71C/",
+        "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/16737116366905513486/815133513393716C6C1A4926DE69273EB88C0208/",
+        "ttsTransform": {
+          "posX": -0.07079011,
+          "posY": 0.143393785,
+          "posZ": -0.03275461,
+          "rotX": 0.000211195627,
+          "rotY": 0.0204620026,
+          "rotZ": -0.0006007926,
+          "scaleX": 1.60000312,
+          "scaleY": 1.5999999,
+          "scaleZ": 1.60000217
+        }
+      }
+    },
+    {
+      "faction": "Protoss",
+      "unitId": "pdf_Protoss_unit_artanis",
+      "unitName": "Artanis",
+      "role": "melee",
+      "pose": "attack-ready",
+      "status": "selected",
+      "notes": "Blades raised; only complete mesh pose found.",
+      "model": {
+        "candidateId": 57,
+        "sourceName": "Artanis",
+        "workshopId": "3662791369",
+        "guid": "0853d2",
+        "meshUrl": "https://steamusercontent-a.akamaihd.net/ugc/17389884646380172200/852A705C283A6B494E5B3476D720D70FD78F0686/",
+        "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/12876452859966301868/095BB3B8B2C10B43E6875D66A7E65DF889C5E4B2/",
+        "ttsTransform": {
+          "posX": 0.004944789,
+          "posY": 0.318139553,
+          "posZ": -0.0449067056,
+          "rotX": 8.68672245e-8,
+          "rotY": 6.729646,
+          "rotZ": 5.773091e-7,
+          "scaleX": 2.60000777,
+          "scaleY": 2.59999776,
+          "scaleZ": 2.60000777
+        }
+      }
+    },
+    {
+      "faction": "Protoss",
+      "unitId": "pdf_Protoss_unit_high_templar",
+      "unitName": "High Templar",
+      "role": "ranged",
+      "pose": "casting",
+      "status": "selected",
+      "notes": "Both arms extended in a casting gesture.",
+      "model": {
+        "candidateId": 71,
+        "sourceName": "High Templar",
+        "workshopId": "3662791369",
+        "guid": "cce2c4",
+        "meshUrl": "https://steamusercontent-a.akamaihd.net/ugc/13358083638766320133/F0EEA58CBC5196D5245DC070D3F3588F4BDD74FC/",
+        "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/10514953345266886824/7FC92DC52322131EF41EE904EE5679EED5F36727/",
+        "ttsTransform": {
+          "posX": -0.0247298181,
+          "posY": 0.140893668,
+          "posZ": 0.06288891,
+          "rotX": -0.00104378362,
+          "rotY": 179.9577,
+          "rotZ": -0.0008132966,
+          "scaleX": 1.35,
+          "scaleY": 1.34999979,
+          "scaleZ": 1.3499999
+        }
+      }
+    },
+    {
+      "faction": "Protoss",
+      "unitId": "pdf_Protoss_unit_immortal",
+      "unitName": "Immortal",
+      "role": "ranged",
+      "pose": "aiming",
+      "status": "selected",
+      "notes": "Forward-facing arm cannons.",
+      "model": {
+        "candidateId": 77,
+        "sourceName": "Immortal",
+        "workshopId": "3662791369",
+        "guid": "cd6a3a",
+        "meshUrl": "https://steamusercontent-a.akamaihd.net/ugc/13121363716450345724/BAE94B9CE0174EAB1935DB7F703844F7ED3C7638/",
+        "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/15140113978955578638/63811AF2B92E68A9652A8BFF417D06C8120E4565/",
+        "ttsTransform": {
+          "posX": -0.0307413563,
+          "posY": 0.142894879,
+          "posZ": 0.115730181,
+          "rotX": 0.000420473079,
+          "rotY": 0.0227221362,
+          "rotZ": -0.0002049659,
+          "scaleX": 0.7749999,
+          "scaleY": 1.54999959,
+          "scaleZ": 0.7749998
+        }
+      }
+    },
+    {
+      "faction": "Protoss",
+      "unitId": "pdf_Protoss_unit_nerazim_watchers_adept",
+      "unitName": "Nerazim Watchers (Adept)",
+      "role": "ranged",
+      "pose": "casting",
+      "status": "selected",
+      "notes": "Raised casting hand and forward weapon.",
+      "model": {
+        "candidateId": 63,
+        "sourceName": "Nerazim Watcher",
+        "workshopId": "3662791369",
+        "guid": "6cf6e9",
+        "meshUrl": "https://steamusercontent-a.akamaihd.net/ugc/15678455513010701611/1E127B6D05194BC0E700269E3F07AE89683B33C4/",
+        "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/9548471346582946458/15E417A25FB4C5C165EF2EB0C7E3642D24D230A6/",
+        "ttsTransform": {
+          "posX": -0.0326364338,
+          "posY": 0.140895322,
+          "posZ": 0.0030689775,
+          "rotX": -0.00155877043,
+          "rotY": 0.00330728688,
+          "rotZ": -0.000227478886,
+          "scaleX": 1.34999979,
+          "scaleY": 1.3499999,
+          "scaleZ": 1.3499999
+        }
+      }
+    },
+    {
+      "faction": "Protoss",
+      "unitId": "pdf_Protoss_unit_praetor_guards",
+      "unitName": "Praetor Guards",
+      "role": "melee",
+      "pose": "striking",
+      "status": "selected",
+      "notes": "Arms and blades spread in an attacking stance.",
+      "model": {
+        "candidateId": 76,
+        "sourceName": "{4/4} Praetor Guard",
+        "workshopId": "3662791369",
+        "guid": "24bd1f",
+        "meshUrl": "https://steamusercontent-a.akamaihd.net/ugc/11457860537374907668/55416D6FE1FE57DAB0272201E0F9668AB3D0A925/",
+        "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/12407025611983823645/587B68C53AED0CCCF11FE89E79668EDA3451CD3A/",
+        "ttsTransform": {
+          "posX": 0.05145242,
+          "posY": 0.158729374,
+          "posZ": -0.1480051,
+          "rotX": 359.966919,
+          "rotY": 355.454163,
+          "rotZ": 0.0219997671,
+          "scaleX": 1.45000172,
+          "scaleY": 1.44999993,
+          "scaleZ": 1.45000207
+        }
+      }
+    },
+    {
+      "faction": "Protoss",
+      "unitId": "pdf_Protoss_unit_pylon",
+      "unitName": "Pylon",
+      "role": "support",
+      "pose": "stationary",
+      "status": "selected",
+      "notes": "Actual pylon crystal; excluded the placeholder base.",
+      "model": {
+        "candidateId": 199,
+        "sourceName": "{8/8} Pylon",
+        "workshopId": "3662791369",
+        "guid": "2a6b5e",
+        "meshUrl": "https://steamusercontent-a.akamaihd.net/ugc/15844952089701479666/71E0E14ADA21C85A08DBEFD01D0C8EAED842BFBE/",
+        "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/12666702719360755983/257B111BDF48BCBF9EBEFF2B09AB7AB390403086/",
+        "ttsTransform": {
+          "posX": 0.0205584876,
+          "posY": 0.442069054,
+          "posZ": -0.0125366878,
+          "rotX": 0.00006826837,
+          "rotY": 89.96194,
+          "rotZ": -0.000014716753,
+          "scaleX": 5.00000668,
+          "scaleY": 4.99999952,
+          "scaleZ": 5.00000668
+        }
+      }
+    },
+    {
+      "faction": "Protoss",
+      "unitId": "pdf_Protoss_unit_sentries",
+      "unitName": "Sentries",
+      "role": "ranged",
+      "pose": "attack-ready",
+      "status": "selected",
+      "notes": "Complete sentry body; excluded the separate effect sphere.",
+      "model": {
+        "candidateId": 137,
+        "sourceName": "Sentry",
+        "workshopId": "3662780188",
+        "guid": "f28ad2",
+        "meshUrl": "https://steamusercontent-a.akamaihd.net/ugc/17542236405298897588/1BAA4007A994A3964056D4934EB53868835093DF/",
+        "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/11509101613867129530/73648E164AF467CB8B2D6F8BA983C97D82C2D760/",
+        "ttsTransform": {
+          "posX": -0.07211024,
+          "posY": 0.0189253632,
+          "posZ": 0.08406048,
+          "rotX": 5.82954556e-7,
+          "rotY": 0.0119589726,
+          "rotZ": -3.99924e-7,
+          "scaleX": 2.50000334,
+          "scaleY": 2.5,
+          "scaleZ": 2.50000477
+        }
+      }
+    },
+    {
+      "faction": "Protoss",
+      "unitId": "pdf_Protoss_unit_stalker",
+      "unitName": "Stalker",
+      "role": "ranged",
+      "pose": "attack-ready",
+      "status": "selected",
+      "notes": "Complete walker with forward weapon; no distinct firing pose found.",
+      "model": {
+        "candidateId": 84,
+        "sourceName": "{6/6} Stalker",
+        "workshopId": "3662791369",
+        "guid": "8ec270",
+        "meshUrl": "https://steamusercontent-a.akamaihd.net/ugc/15129021142985132011/753B3E7E2E7FA3447547C9CDF81415A63F4DE307/",
+        "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/15524767339587293730/3DA92BC6B6E2152697A4ED7DC4561A198B08BCFA/",
+        "ttsTransform": {
+          "posX": -0.143961146,
+          "posY": 0.140392274,
+          "posZ": -0.23688215,
+          "rotX": 0.00037094453,
+          "rotY": 30.0482216,
+          "rotZ": -0.0006212913,
+          "scaleX": 1.30000007,
+          "scaleY": 1.29999983,
+          "scaleZ": 1.30000007
+        }
+      }
+    },
+    {
+      "faction": "Protoss",
+      "unitId": "pdf_Protoss_unit_tassadar",
+      "unitName": "Tassadar",
+      "role": "ranged",
+      "pose": "casting",
+      "status": "selected",
+      "notes": "Arms extended in a casting gesture.",
+      "model": {
+        "candidateId": 68,
+        "sourceName": "Tassadar",
+        "workshopId": "3662791369",
+        "guid": "30d28a",
+        "meshUrl": "https://steamusercontent-a.akamaihd.net/ugc/16840604407767716825/C4C969EBE028A8BC031C49B0F6C83E21624AC656/",
+        "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/14971805828710561030/6CD0A212381BED284110412326B0531612C28F8A/",
+        "ttsTransform": {
+          "posX": 0.0664481744,
+          "posY": 0.1408943,
+          "posZ": -0.07319369,
+          "rotX": 0.00039468368,
+          "rotY": 194.995148,
+          "rotZ": -0.000354740041,
+          "scaleX": 1.34999967,
+          "scaleY": 1.34999979,
+          "scaleZ": 1.34999967
+        }
+      }
+    },
+    {
+      "faction": "Protoss",
+      "unitId": "pdf_Protoss_unit_twilight_templar_high_templar",
+      "unitName": "Twilight Templar (High Templar)",
+      "role": "ranged",
+      "pose": "casting",
+      "status": "selected",
+      "notes": "Arms extended in a casting gesture.",
+      "model": {
+        "candidateId": 65,
+        "sourceName": "Twilight Templar",
+        "workshopId": "3662791369",
+        "guid": "29718d",
+        "meshUrl": "https://steamusercontent-a.akamaihd.net/ugc/17318310556111765243/26E167FBCBF2E604376FBDAB076B9EBB8CC26962/",
+        "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/15949940295033113629/429EA9B3AAF9AF180BE0678BEA08B5F740741DB5/",
+        "ttsTransform": {
+          "posX": -0.107438833,
+          "posY": 0.139890864,
+          "posZ": 0.281057835,
+          "rotX": -0.000223471638,
+          "rotY": 164.961212,
+          "rotZ": -0.0007646164,
+          "scaleX": 1.24999976,
+          "scaleY": 1.24999976,
+          "scaleZ": 1.24999976
+        }
+      }
+    },
+    {
+      "faction": "Protoss",
+      "unitId": "pdf_Protoss_unit_zealots",
+      "unitName": "Zealots",
+      "role": "melee",
+      "pose": "charging",
+      "status": "selected",
+      "notes": "Forward stride with both psi blades extended.",
+      "model": {
+        "candidateId": 60,
+        "sourceName": "zealot",
+        "workshopId": "3662791369",
+        "guid": "0b32be",
+        "meshUrl": "https://steamusercontent-a.akamaihd.net/ugc/13125139103274426458/3152D59248A4B81CF354D30501767FE04BFBEA32/",
+        "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/2037363970709618055/7507D7C74280088544D879D17287E8F625702F0E/",
+        "ttsTransform": {
+          "posX": -0.00154105457,
+          "posY": 0.181815147,
+          "posZ": 0.02275359,
+          "rotX": -0.005297849,
+          "rotY": 345.234924,
+          "rotZ": 359.992279,
+          "scaleX": 1.8000052,
+          "scaleY": 1.79999959,
+          "scaleZ": 1.80000365
+        }
+      }
+    },
+    {
+      "faction": "Protoss",
+      "unitId": "pdf_Protoss_unit_zeratul",
+      "unitName": "Zeratul",
+      "role": "melee",
+      "pose": "attack-ready",
+      "status": "requires-assembly",
+      "notes": "Body is posed to attack, but the psi blade is a separate mesh.",
+      "model": {
+        "candidateId": 66,
+        "sourceName": "Zeratul",
+        "workshopId": "3662791369",
+        "guid": "9d9b2b",
+        "meshUrl": "https://steamusercontent-a.akamaihd.net/ugc/14056316204408219923/B54DF5F8C1658776E9CD3CA1B508ED3C9A62FFD8/",
+        "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/10174864733248482838/A1B9C382DAFA888CFE93A9E863D5AE1A9B80C1AA/",
+        "ttsTransform": {
+          "posX": 0.08514858,
+          "posY": 0.1600912,
+          "posZ": -0.0249520428,
+          "rotX": 357.0058,
+          "rotY": 183.118576,
+          "rotZ": 1.00733042,
+          "scaleX": 1.29999924,
+          "scaleY": 1.3,
+          "scaleZ": 1.29999924
+        }
+      },
+      "attachments": [
+        {
+          "candidateId": 67,
+          "sourceName": "Zeratul",
+          "workshopId": "3662791369",
+          "guid": "a5731c",
+          "meshUrl": "https://steamusercontent-a.akamaihd.net/ugc/14648176725355613391/B226AC63C0976A38234ACD3D9FE909D015E57F02/",
+          "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/15668038221753658107/35CE7968631EDFAEDE5C9830DD2FBDC9AADF97AD/",
+          "ttsTransform": {
+            "posX": 1.2135191,
+            "posY": 0.543584168,
+            "posZ": -0.3127492,
+            "rotX": 33.81379,
+            "rotY": 175.117691,
+            "rotZ": 307.720825,
+            "scaleX": 0.9999999,
+            "scaleY": 1,
+            "scaleZ": 0.9999999
+          }
+        }
+      ]
+    },
+    {
+      "faction": "Terran",
+      "unitId": "pdf_Terran_unit_auto_turret",
+      "unitName": "Auto-Turret",
+      "role": "ranged",
+      "pose": "aiming",
+      "status": "selected",
+      "notes": "Complete turret with weapon facing forward.",
+      "model": {
+        "candidateId": 34,
+        "sourceName": "Auto Turret",
+        "workshopId": "3662791369",
+        "guid": "9adbb2",
+        "meshUrl": "https://steamusercontent-a.akamaihd.net/ugc/14025728949677490242/664096B747BC6D82F2ED371AB232183099CF799B/",
+        "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/18372278389357048125/429EE996C9CACD4CFE74542DEA9960B402F4567D/",
+        "ttsTransform": {
+          "posX": -0.02120809,
+          "posY": 0.137398452,
+          "posZ": 0.0102277277,
+          "rotX": -0.000153514571,
+          "rotY": 359.964355,
+          "rotZ": -0.000161392643,
+          "scaleX": 0.9999999,
+          "scaleY": 1,
+          "scaleZ": 0.9999999
+        }
+      }
+    },
+    {
+      "faction": "Terran",
+      "unitId": "pdf_Terran_unit_goliath",
+      "unitName": "Goliath",
+      "role": "ranged",
+      "pose": "aiming",
+      "status": "selected",
+      "notes": "Complete walker with guns facing forward.",
+      "model": {
+        "candidateId": 36,
+        "sourceName": "{10/10} Goliath",
+        "workshopId": "3662791369",
+        "guid": "951345",
+        "meshUrl": "https://steamusercontent-a.akamaihd.net/ugc/16892631073922839391/E2289964204231529A7AD26B243D6FE9DDC78F7E/",
+        "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/13158702798429065053/9D73233A3D0B8EC30DE37C81835EBB21EAF60FF8/",
+        "ttsTransform": {
+          "posX": 0.0782683,
+          "posY": 0.141394854,
+          "posZ": -0.328156739,
+          "rotX": 0.000154616879,
+          "rotY": 0.002501047,
+          "rotZ": -0.000299863284,
+          "scaleX": 1.39999974,
+          "scaleY": 1.39999974,
+          "scaleZ": 1.39999974
+        }
+      }
+    },
+    {
+      "faction": "Terran",
+      "unitId": "pdf_Terran_unit_holo_decoy",
+      "unitName": "Holo Decoy",
+      "role": "support",
+      "pose": "weapon-raised",
+      "status": "selected",
+      "notes": "Holographic texture on the Nova mesh; no firing pose found.",
+      "model": {
+        "candidateId": 198,
+        "sourceName": "Holo Decoy",
+        "workshopId": "3662791369",
+        "guid": "0178d9",
+        "meshUrl": "https://steamusercontent-a.akamaihd.net/ugc/17581228745774372404/A341024A169F435951E7916CB9E8F823EB1643F6/",
+        "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/8552036288036976/A6BB51F2EEF5CD7E48853509F66E7BC50A226D1F/",
+        "ttsTransform": {
+          "posX": 0.05166136,
+          "posY": 0.141389921,
+          "posZ": 0.028306568,
+          "rotX": 0.000817639637,
+          "rotY": 359.989,
+          "rotZ": -0.0019330791,
+          "scaleX": 1.4000001,
+          "scaleY": 1.4,
+          "scaleZ": 1.4000001
+        }
+      }
+    },
+    {
+      "faction": "Terran",
+      "unitId": "pdf_Terran_unit_jim_raynor",
+      "unitName": "Jim Raynor",
+      "role": "ranged",
+      "pose": "weapon-raised",
+      "status": "requires-assembly",
+      "notes": "Named Raynor body requires its separate commander rifle; no complete aiming variant found.",
+      "model": {
+        "candidateId": 171,
+        "sourceName": "{8/8} Jim Raynor (ComRifle)",
+        "workshopId": "3662783278",
+        "guid": "a2faaa",
+        "meshUrl": "https://steamusercontent-a.akamaihd.net/ugc/14707124216854991717/45D4630E88202783BBDD106CE3FF2D3F6D2EE830/",
+        "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/17491270339193713389/38A372B4AB97B8D05DC698449304865590360F24/",
+        "ttsTransform": {
+          "posX": -0.06225537,
+          "posY": 0.09112221,
+          "posZ": -1.14364183,
+          "rotX": 359.619415,
+          "rotY": 0.0248059779,
+          "rotZ": 0.2450566,
+          "scaleX": 0.9999999,
+          "scaleY": 1,
+          "scaleZ": 1
+        }
+      },
+      "attachments": [
+        {
+          "candidateId": 172,
+          "sourceName": "{8/8} Jim Raynor (ComRifle)",
+          "workshopId": "3662783278",
+          "guid": "517233",
+          "meshUrl": "https://steamusercontent-a.akamaihd.net/ugc/10381389940077329823/22AB29EA8343E1F5BEDEF6E92AD8FF8C39140030/",
+          "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/13571804224458163535/1E7723F8F872AC8A59022674B5248731C72246AE/",
+          "ttsTransform": {
+            "posX": 0.275901884,
+            "posY": 0.4496195,
+            "posZ": 0.7736865,
+            "rotX": 315.4944,
+            "rotY": 32.8048134,
+            "rotZ": 4.56581545,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          }
+        }
+      ]
+    },
+    {
+      "faction": "Terran",
+      "unitId": "pdf_Terran_unit_marauders",
+      "unitName": "Marauders",
+      "role": "ranged",
+      "pose": "aiming",
+      "status": "selected",
+      "notes": "Both arm launchers extended forward.",
+      "model": {
+        "candidateId": 167,
+        "sourceName": "{5/5} Marauder",
+        "workshopId": "3662783278",
+        "guid": "cf3edd",
+        "meshUrl": "https://steamusercontent-a.akamaihd.net/ugc/11979516860378392008/B06F0361E08A15C0C276D3810F0DA515C048B35D/",
+        "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/11094492526601299237/E93EA1E40C0BA9CB7490B94C0EC7E2B51C90A67A/",
+        "ttsTransform": {
+          "posX": 0.12921831,
+          "posY": 0.07099343,
+          "posZ": -0.119071528,
+          "rotX": -0.00000495581253,
+          "rotY": 299.980072,
+          "rotZ": 0.00000271138333,
+          "scaleX": 1.29999936,
+          "scaleY": 1.3,
+          "scaleZ": 1.29999936
+        }
+      }
+    },
+    {
+      "faction": "Terran",
+      "unitId": "pdf_Terran_unit_medics",
+      "unitName": "Medics",
+      "role": "support",
+      "pose": "support-action",
+      "status": "selected",
+      "notes": "Medical arm extended behind the shield.",
+      "model": {
+        "candidateId": 180,
+        "sourceName": "{2/2} Medic",
+        "workshopId": "3662783278",
+        "guid": "b77cbc",
+        "meshUrl": "https://steamusercontent-a.akamaihd.net/ugc/15846916301642369325/A0778272A7FC1F9EF4C8C93F7101D758C9356067/",
+        "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/11349553307637504139/A51D57CEF63EF92EB0AA2E324261E79176573C02/",
+        "ttsTransform": {
+          "posX": -0.105908833,
+          "posY": 0.06576211,
+          "posZ": -0.346873045,
+          "rotX": 0.00173102226,
+          "rotY": 14.9729614,
+          "rotZ": 0.0000271613226,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        }
+      }
+    },
+    {
+      "faction": "Terran",
+      "unitId": "pdf_Terran_unit_nova_assault_mode",
+      "unitName": "Nova Assault Mode",
+      "role": "ranged",
+      "pose": "attack-ready",
+      "status": "requires-assembly",
+      "notes": "Body requires its separately attached firearm; sword is another optional attachment.",
+      "model": {
+        "candidateId": 21,
+        "sourceName": "Nova (Assault)",
+        "workshopId": "3662791369",
+        "guid": "da88d5",
+        "meshUrl": "https://steamusercontent-a.akamaihd.net/ugc/10392303756686394299/2A72C7D018662AA18F73B94FE7F7C69E463740B7/",
+        "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/11241123661157656523/699EE626B4A66E70EEA84B3710946F5BE04F0647/",
+        "ttsTransform": {
+          "posX": 0.0227193348,
+          "posY": 0.141696945,
+          "posZ": 0.0608276576,
+          "rotX": 359.949463,
+          "rotY": 0.112337135,
+          "rotZ": 0.07446407,
+          "scaleX": 1.39999986,
+          "scaleY": 1.39999986,
+          "scaleZ": 1.4000001
+        }
+      },
+      "attachments": [
+        {
+          "candidateId": 22,
+          "sourceName": "Nova (Assault)",
+          "workshopId": "3662791369",
+          "guid": "15942b",
+          "meshUrl": "https://steamusercontent-a.akamaihd.net/ugc/17837888458272873735/C0A4B494226C9CD98E5F27C262460A4CAE360F8C/",
+          "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/10522868907154377491/A892C06D1B5A2B861EF6D50696F4B59D46CFD27A/",
+          "ttsTransform": {
+            "posX": -0.136267081,
+            "posY": 0.8036017,
+            "posZ": -0.3085967,
+            "rotX": 270.980377,
+            "rotY": 106.926842,
+            "rotZ": 75.10464,
+            "scaleX": 0.7142855,
+            "scaleY": 0.7142856,
+            "scaleZ": 0.7142857
+          }
+        }
+      ]
+    },
+    {
+      "faction": "Terran",
+      "unitId": "pdf_Terran_unit_nova_stealth_mode",
+      "unitName": "Nova Stealth Mode",
+      "role": "ranged",
+      "pose": "weapon-raised",
+      "status": "selected",
+      "notes": "Complete rifle mesh, with barrel raised; no aiming variant found.",
+      "model": {
+        "candidateId": 20,
+        "sourceName": "Nova (Stealth)",
+        "workshopId": "3662791369",
+        "guid": "b0ad33",
+        "meshUrl": "https://steamusercontent-a.akamaihd.net/ugc/17581228745774372404/A341024A169F435951E7916CB9E8F823EB1643F6/",
+        "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/11241123661157656523/699EE626B4A66E70EEA84B3710946F5BE04F0647/",
+        "ttsTransform": {
+          "posX": 0.0384730324,
+          "posY": 0.1413944,
+          "posZ": 0.08364856,
+          "rotX": 0.000448214065,
+          "rotY": 345.241364,
+          "rotZ": -0.000531360332,
+          "scaleX": 1.39999986,
+          "scaleY": 1.4,
+          "scaleZ": 1.39999986
+        }
+      }
+    },
+    {
+      "faction": "Terran",
+      "unitId": "pdf_Terran_unit_point_defense_drone",
+      "unitName": "Point Defense Drone",
+      "role": "ranged",
+      "pose": "attack-ready",
+      "status": "selected",
+      "notes": "Complete drone body with forward weapon housing.",
+      "model": {
+        "candidateId": 28,
+        "sourceName": "{3/3} Point Defense Drone",
+        "workshopId": "3662791369",
+        "guid": "8abec4",
+        "meshUrl": "https://steamusercontent-a.akamaihd.net/ugc/16724548689103041369/47BA9CADBA1382E27A756DCAB7B65AA64BA063ED/",
+        "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/16045957540793801392/2B6C1F0BF0ED6DBF6596F6254668043F8F595D11/",
+        "ttsTransform": {
+          "posX": -0.03706393,
+          "posY": 1.81563771,
+          "posZ": 0.11005272,
+          "rotX": -0.00003767301,
+          "rotY": 165.031616,
+          "rotZ": -0.000190000079,
+          "scaleX": 2.99999714,
+          "scaleY": 2.99999833,
+          "scaleZ": 2.99999714
+        }
+      }
+    },
+    {
+      "faction": "Terran",
+      "unitId": "pdf_Terran_unit_raven",
+      "unitName": "Raven",
+      "role": "ranged",
+      "pose": "flying",
+      "status": "selected",
+      "notes": "Complete aircraft; excluded the separate flat effect mesh.",
+      "model": {
+        "candidateId": 27,
+        "sourceName": "Raven",
+        "workshopId": "3662791369",
+        "guid": "729efe",
+        "meshUrl": "https://steamusercontent-a.akamaihd.net/ugc/12783889514308410174/8BEF0E485105274125CA8662DA5907FF0BE0223D/",
+        "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/13055308396813055141/AB48D0139AF377F92FACA12E08870A1CED1D34B8/",
+        "ttsTransform": {
+          "posX": 0.08485222,
+          "posY": 4.161168,
+          "posZ": -0.183460847,
+          "rotX": 0.0000831487,
+          "rotY": 180.020508,
+          "rotZ": 0.0000683849357,
+          "scaleX": 1.60000014,
+          "scaleY": 1.59999967,
+          "scaleZ": 1.60000014
+        }
+      }
+    },
+    {
+      "faction": "Terran",
+      "unitId": "pdf_Terran_unit_raynor_s_raiders",
+      "unitName": "Raynor's Raiders",
+      "role": "ranged",
+      "pose": "aiming",
+      "status": "selected",
+      "notes": "Rifle held level toward the target.",
+      "model": {
+        "candidateId": 156,
+        "sourceName": "{2/2} Raynor's Raider",
+        "workshopId": "3662783278",
+        "guid": "4bc853",
+        "meshUrl": "https://steamusercontent-a.akamaihd.net/ugc/13410382357072100990/131B78DBACDBC06ED5FD4FBFF22DC9DEF56CCEDD/",
+        "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/10669027500348836499/5BC177B5F513FFAE097F9BC306A772D6BBD3B775/",
+        "ttsTransform": {
+          "posX": -0.034891475,
+          "posY": 0.09053869,
+          "posZ": -0.0826346353,
+          "rotX": -0.00000588311377,
+          "rotY": 14.9998589,
+          "rotZ": 5.85940256e-7,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        }
+      }
+    },
+    {
+      "faction": "Terran",
+      "unitId": "pdf_Terran_unit_sabotage_drone",
+      "unitName": "Sabotage Drone",
+      "role": "support",
+      "pose": "stationary",
+      "status": "selected",
+      "notes": "Complete sabotage drone; no alternative action pose found.",
+      "model": {
+        "candidateId": 24,
+        "sourceName": "Sabotage Drone",
+        "workshopId": "3662791369",
+        "guid": "c333b6",
+        "meshUrl": "https://steamusercontent-a.akamaihd.net/ugc/17520067522889415297/DF0FD155A175F273B6C0088B5AA93E7A69D02D53/",
+        "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/11455457866811867621/8CDFC0FB8CA8FFE8E63F85351E901E269EAA1EEF/",
+        "ttsTransform": {
+          "posX": 0.009293865,
+          "posY": 0.138895512,
+          "posZ": 0.0858211,
+          "rotX": 0.000325018365,
+          "rotY": 269.988342,
+          "rotZ": -0.0003442594,
+          "scaleX": 1.14999974,
+          "scaleY": 1.14999986,
+          "scaleZ": 1.14999974
+        }
+      }
+    },
+    {
+      "faction": "Terran",
+      "unitId": "pdf_Terran_unit_siege_tank",
+      "unitName": "Siege Tank",
+      "role": "ranged",
+      "pose": "aiming",
+      "status": "selected",
+      "notes": "Mobile tank with cannon forward; siege-mode mesh is candidate 15.",
+      "model": {
+        "candidateId": 4,
+        "sourceName": "Siege Tank",
+        "workshopId": "3662791369",
+        "guid": "d93ee4",
+        "meshUrl": "https://steamusercontent-a.akamaihd.net/ugc/10682557462221478193/F7B7666E9D7E1FC0356D2F099DC358F3445FDF10/",
+        "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/10751870198150330225/673A4FD83172C1AA32DE8C48032EA590288F7F30/",
+        "ttsTransform": {
+          "posX": -0.03043483,
+          "posY": 0.145397246,
+          "posZ": -0.09473028,
+          "rotX": -0.00007649975,
+          "rotY": 358.6683,
+          "rotZ": -0.0001884198,
+          "scaleX": 0.599999964,
+          "scaleY": 1.79999983,
+          "scaleZ": 0.599999964
+        }
+      }
+    },
+    {
+      "faction": "Terran",
+      "unitId": "pdf_Terran_unit_spec_ops_marauder_marauder",
+      "unitName": "Spec Ops Marauder (Marauder)",
+      "role": "ranged",
+      "pose": "aiming",
+      "status": "selected",
+      "notes": "Both arm launchers extended forward.",
+      "model": {
+        "candidateId": 39,
+        "sourceName": "Spec Ops Marauder ",
+        "workshopId": "3662791369",
+        "guid": "c9edd6",
+        "meshUrl": "https://steamusercontent-a.akamaihd.net/ugc/16433214436580589175/0FAAC5677902C9E47EC259DAC387FFF3E867D33C/",
+        "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/16924601025075572301/3401203933A3EA7BE12F044E7EE92C890B7EAAF3/",
+        "ttsTransform": {
+          "posX": -0.0499642566,
+          "posY": 0.144388527,
+          "posZ": -0.2458397,
+          "rotX": -0.000183434313,
+          "rotY": 15.0387449,
+          "rotZ": -0.000662264356,
+          "scaleX": 1.70000136,
+          "scaleY": 1.7,
+          "scaleZ": 1.70000136
+        }
+      }
+    },
+    {
+      "faction": "Terran",
+      "unitId": "unit_marine",
+      "unitName": "Marines",
+      "role": "ranged",
+      "pose": "aiming",
+      "status": "selected",
+      "notes": "Rifle held level toward the target; preferred over running and lowered-weapon poses.",
+      "model": {
+        "candidateId": 6,
+        "sourceName": "Marine (C-14)",
+        "workshopId": "3662791369",
+        "guid": "f032e4",
+        "meshUrl": "https://steamusercontent-a.akamaihd.net/ugc/13676960899368881933/1D1EBC0A58B38976237FF4B2831A599D5CC76425/",
+        "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/18136473720657446110/CF8F3711C364DF5FE09DEFBACAD950DC703351AB/",
+        "ttsTransform": {
+          "posX": 0.114948027,
+          "posY": 0.144645184,
+          "posZ": 0.07738878,
+          "rotX": 0.000566651,
+          "rotY": 105.010628,
+          "rotZ": 0.000600704865,
+          "scaleX": -1.72500014,
+          "scaleY": 1.725,
+          "scaleZ": 1.72500014
+        }
+      }
+    },
+    {
+      "faction": "Zerg",
+      "unitId": "pdf_Zerg_unit_bile_launcher",
+      "unitName": "Bile Launcher",
+      "role": "ranged",
+      "pose": "attack-ready",
+      "status": "selected",
+      "notes": "Launcher raised with mouth open; only complete mesh found.",
+      "model": {
+        "candidateId": 119,
+        "sourceName": "Bile Launcher",
+        "workshopId": "3662791369",
+        "guid": "5e6dca",
+        "meshUrl": "https://steamusercontent-a.akamaihd.net/ugc/12678152575802620645/7D6038E625F17014498F14C27FDEA0BF6601367F/",
+        "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/15002983100039860123/FF805B484FB4183F8F416CF5A68DACB0FD0740BC/",
+        "ttsTransform": {
+          "posX": 0.02378576,
+          "posY": 0.1373918,
+          "posZ": 0.0264747664,
+          "rotX": 0.00268269121,
+          "rotY": 180.006226,
+          "rotZ": 0.000240176654,
+          "scaleX": 0.47500366,
+          "scaleY": 0.99999994,
+          "scaleZ": 0.4750036
+        }
+      }
+    },
+    {
+      "faction": "Zerg",
+      "unitId": "pdf_Zerg_unit_corpsers_roach",
+      "unitName": "Corpsers (Roach)",
+      "role": "ranged",
+      "pose": "attack-ready",
+      "status": "selected",
+      "notes": "Head and forelimbs directed forward.",
+      "model": {
+        "candidateId": 133,
+        "sourceName": "{4/4} Corpser",
+        "workshopId": "3662791369",
+        "guid": "5c3296",
+        "meshUrl": "https://steamusercontent-a.akamaihd.net/ugc/12790390220699959533/0EC8FFD07F63D8BEC510D20605FFA00E2CB6E8A3/",
+        "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/16869437017316330974/2C688317C04336A472E52F2207B1C488A72325C8/",
+        "ttsTransform": {
+          "posX": 0.0013164609,
+          "posY": 0.141887769,
+          "posZ": -0.36896342,
+          "rotX": -0.000524440256,
+          "rotY": -0.0021281864,
+          "rotZ": -0.0007983802,
+          "scaleX": 1.44999981,
+          "scaleY": 1.44999969,
+          "scaleZ": 1.44999981
+        }
+      }
+    },
+    {
+      "faction": "Zerg",
+      "unitId": "pdf_Zerg_unit_defiler",
+      "unitName": "Defiler",
+      "role": "support",
+      "pose": "advancing",
+      "status": "selected",
+      "notes": "Complete crawling body; only mesh pose found.",
+      "model": {
+        "candidateId": 127,
+        "sourceName": "Defiler",
+        "workshopId": "3662791369",
+        "guid": "57d149",
+        "meshUrl": "https://steamusercontent-a.akamaihd.net/ugc/14575841030730499952/8144DEDE4919945FA8ECE321847131DBF2DA3B96/",
+        "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/16047486587602816572/B0C022226CCE724AABDB897BC0709EE4C4A19F00/",
+        "ttsTransform": {
+          "posX": -0.09287022,
+          "posY": 0.137394235,
+          "posZ": -0.2208629,
+          "rotX": 0.000471485866,
+          "rotY": 14.9749918,
+          "rotZ": -0.0005934322,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        }
+      }
+    },
+    {
+      "faction": "Zerg",
+      "unitId": "pdf_Zerg_unit_hydralisks",
+      "unitName": "Hydralisks",
+      "role": "ranged",
+      "pose": "attack-ready",
+      "status": "selected",
+      "notes": "Head thrust forward in a braced stance; no visible spit projectile.",
+      "model": {
+        "candidateId": 124,
+        "sourceName": "Hydralisk",
+        "workshopId": "3662791369",
+        "guid": "7eff8a",
+        "meshUrl": "https://steamusercontent-a.akamaihd.net/ugc/15321079191224469753/58242C325B30D72C272FD7BFEA11BDC17BA34E64/",
+        "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/14314326273208484289/01A886E8D7DB5F4D8DC187E009341B8A4076DA1F/",
+        "ttsTransform": {
+          "posX": -0.00577727426,
+          "posY": 0.139895484,
+          "posZ": 0.0483476929,
+          "rotX": 0.000405970728,
+          "rotY": 0.0170083977,
+          "rotZ": -0.0003849597,
+          "scaleX": 1.24999976,
+          "scaleY": 1.24999976,
+          "scaleZ": 0.5
+        }
+      }
+    },
+    {
+      "faction": "Zerg",
+      "unitId": "pdf_Zerg_unit_kerrigan",
+      "unitName": "Kerrigan",
+      "role": "melee",
+      "pose": "striking",
+      "status": "selected",
+      "notes": "Wing claws raised and spread in an attack gesture.",
+      "model": {
+        "candidateId": 189,
+        "sourceName": "Kerrigan",
+        "workshopId": "3662781729",
+        "guid": "0f6895",
+        "meshUrl": "https://steamusercontent-a.akamaihd.net/ugc/2037363970707098372/647AD9ADDBD322827B773B7E397CABE7A9990D52/",
+        "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/2037363970707098776/14FFDC4E069943BC57C58CD9DBED6E5D480F3C37/",
+        "ttsTransform": {
+          "posX": 4.18376715e-7,
+          "posY": 0.193945587,
+          "posZ": -7.25126256e-7,
+          "rotX": -0.0005536963,
+          "rotY": 344.997253,
+          "rotZ": 0.00012113306,
+          "scaleX": 0.9999999,
+          "scaleY": 1,
+          "scaleZ": 0.9999999
+        }
+      }
+    },
+    {
+      "faction": "Zerg",
+      "unitId": "pdf_Zerg_unit_kerrigan_swarm_raptors_zergling",
+      "unitName": "Kerrigan Swarm Raptors (Zergling)",
+      "role": "melee",
+      "pose": "charging",
+      "status": "selected",
+      "notes": "Leaping forward with claws extended.",
+      "model": {
+        "candidateId": 125,
+        "sourceName": "{2/2} Kerrigan Swarm Raptor",
+        "workshopId": "3662791369",
+        "guid": "a9c56a",
+        "meshUrl": "https://steamusercontent-a.akamaihd.net/ugc/18238080516857352099/ADA59CC05A1B871FDEF974EBE04170E6D9D1383F/",
+        "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/17328435498084496682/B856751B080101BCAB01AE46BFD67CA22C08F5F3/",
+        "ttsTransform": {
+          "posX": 0.02079227,
+          "posY": 0.139374077,
+          "posZ": -0.294142425,
+          "rotX": 0.002841996,
+          "rotY": 179.978333,
+          "rotZ": -0.0008015844,
+          "scaleX": 1.20000029,
+          "scaleY": 1.19999981,
+          "scaleZ": 1.20000029
+        }
+      }
+    },
+    {
+      "faction": "Zerg",
+      "unitId": "pdf_Zerg_unit_omega_worm",
+      "unitName": "Omega Worm",
+      "role": "melee",
+      "pose": "attack-ready",
+      "status": "selected",
+      "notes": "Actual open-mouthed nydus mesh; excluded the placeholder base.",
+      "model": {
+        "candidateId": 200,
+        "sourceName": "nydus",
+        "workshopId": "3662791369",
+        "guid": "eafc76",
+        "meshUrl": "https://steamusercontent-a.akamaihd.net/ugc/13392127980943399585/BA37524830D3DBD078B3797C03A877C8ABCD2297/",
+        "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/13743206127385021615/3D4E9FD5259D6E0595CDDD794569635C8077E84B/",
+        "ttsTransform": {
+          "posX": 0.01923117,
+          "posY": 0.3273687,
+          "posZ": -0.0966389552,
+          "rotX": -0.0005120926,
+          "rotY": 0.02355287,
+          "rotZ": 0.00008178945,
+          "scaleX": 3.50962377,
+          "scaleY": 3.50960827,
+          "scaleZ": 3.50962639
+        }
+      }
+    },
+    {
+      "faction": "Zerg",
+      "unitId": "pdf_Zerg_unit_queen",
+      "unitName": "Queen",
+      "role": "ranged",
+      "pose": "attack-ready",
+      "status": "selected",
+      "notes": "Complete queen with forelimbs extended; excluded a mislabeled humanoid mesh.",
+      "model": {
+        "candidateId": 106,
+        "sourceName": "{9/9} Queen",
+        "workshopId": "3662791369",
+        "guid": "b0043a",
+        "meshUrl": "https://steamusercontent-a.akamaihd.net/ugc/13391691780651553031/9CF3670C5C86581A851B6F86EA01A4B6A5DA1260/",
+        "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/14828233550280285952/0493C46B7A20B3B5E6451293E87676823ABD91CD/",
+        "ttsTransform": {
+          "posX": -0.05034394,
+          "posY": 0.1384535,
+          "posZ": -0.0828916058,
+          "rotX": 0.0003964149,
+          "rotY": 15.0253134,
+          "rotZ": -0.00036848936,
+          "scaleX": 1.10577047,
+          "scaleY": 1.1057688,
+          "scaleZ": 1.10577047
+        }
+      }
+    },
+    {
+      "faction": "Zerg",
+      "unitId": "pdf_Zerg_unit_raptors_zergling",
+      "unitName": "Raptors (Zergling)",
+      "role": "melee",
+      "pose": "charging",
+      "status": "selected",
+      "notes": "Leaping forward with claws extended.",
+      "model": {
+        "candidateId": 98,
+        "sourceName": "{1/1} Raptor",
+        "workshopId": "3662791369",
+        "guid": "67ad13",
+        "meshUrl": "https://steamusercontent-a.akamaihd.net/ugc/14069595777008235465/125A699E73E0906892FBB892A986F14C92B3D860/",
+        "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/10890014863464847048/3030F4B1BA9EC2B2300039D3811EDA99E28BCF2F/",
+        "ttsTransform": {
+          "posX": 0.03272388,
+          "posY": 0.139386386,
+          "posZ": -0.293966383,
+          "rotX": 0.000872728764,
+          "rotY": 195.056671,
+          "rotZ": -0.000337077334,
+          "scaleX": 1.2,
+          "scaleY": 1.2,
+          "scaleZ": 1.2
+        }
+      }
+    },
+    {
+      "faction": "Zerg",
+      "unitId": "pdf_Zerg_unit_ravagers",
+      "unitName": "Ravagers",
+      "role": "ranged",
+      "pose": "attack-ready",
+      "status": "selected",
+      "notes": "Upright launcher stance; only complete mesh pose found.",
+      "model": {
+        "candidateId": 131,
+        "sourceName": "Ravager",
+        "workshopId": "3662791369",
+        "guid": "e633be",
+        "meshUrl": "https://steamusercontent-a.akamaihd.net/ugc/9614886589065029835/AB9E7D30875A06F026668737CBC62AD9730074B7/",
+        "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/9455779838813893739/55648CC8AB22A0A4E7ED8FCE10169C8D716E1F6B/",
+        "ttsTransform": {
+          "posX": 0.06556842,
+          "posY": 0.138933957,
+          "posZ": 0.06088087,
+          "rotX": 0.000466498925,
+          "rotY": 15.0018587,
+          "rotZ": -0.000362402643,
+          "scaleX": 1.15384591,
+          "scaleY": 1.15384579,
+          "scaleZ": 1.153846
+        }
+      }
+    },
+    {
+      "faction": "Zerg",
+      "unitId": "pdf_Zerg_unit_roaches",
+      "unitName": "Roaches",
+      "role": "ranged",
+      "pose": "attack-ready",
+      "status": "selected",
+      "notes": "Low braced stance with head forward.",
+      "model": {
+        "candidateId": 134,
+        "sourceName": "{4/4} Roach",
+        "workshopId": "3662791369",
+        "guid": "40a85f",
+        "meshUrl": "https://steamusercontent-a.akamaihd.net/ugc/17443984152116758136/8165A0CB9F11777D1CDACFFD91DA7517B2868E6A/",
+        "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/13565450272210627383/A7F87DF4ADC5C2732397D0414A6EF8CFB56CB03C/",
+        "ttsTransform": {
+          "posX": -0.14792639,
+          "posY": 0.141890839,
+          "posZ": -0.115455404,
+          "rotX": 0.0000755156,
+          "rotY": 29.98433,
+          "rotZ": -0.000393744936,
+          "scaleX": 1.44999981,
+          "scaleY": 1.44999969,
+          "scaleZ": 1.44999981
+        }
+      }
+    },
+    {
+      "faction": "Zerg",
+      "unitId": "pdf_Zerg_unit_roachling",
+      "unitName": "Roachling",
+      "role": "melee",
+      "pose": "charging",
+      "status": "selected",
+      "notes": "Body pitched forward with attacking forelimbs.",
+      "model": {
+        "candidateId": 94,
+        "sourceName": "{1/1} Roachling",
+        "workshopId": "3662791369",
+        "guid": "1a9e75",
+        "meshUrl": "https://steamusercontent-a.akamaihd.net/ugc/13900308786180209736/392F44D1FE8371171ABB9D52F175C630B7DE9276/",
+        "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/16869437017316330974/2C688317C04336A472E52F2207B1C488A72325C8/",
+        "ttsTransform": {
+          "posX": -0.06846891,
+          "posY": 0.136147678,
+          "posZ": 0.0108325407,
+          "rotX": 0.000350160029,
+          "rotY": 89.97246,
+          "rotZ": -0.000344754371,
+          "scaleX": 0.87500006,
+          "scaleY": 0.8750002,
+          "scaleZ": 0.87500006
+        }
+      }
+    },
+    {
+      "faction": "Zerg",
+      "unitId": "pdf_Zerg_unit_swarmlings",
+      "unitName": "Swarmlings",
+      "role": "melee",
+      "pose": "charging",
+      "status": "selected",
+      "notes": "Lunging forward rather than the upright idle pose.",
+      "model": {
+        "candidateId": 100,
+        "sourceName": "{1/1} Swarmling",
+        "workshopId": "3662791369",
+        "guid": "4f8d6e",
+        "meshUrl": "https://steamusercontent-a.akamaihd.net/ugc/17727049809015848584/1A7650CD4A6E0EC21FE764E241C6ADAE7E02291B/",
+        "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/13249944438587323661/F49D1DFADE09F27D7B3D4540D608511D299B5C8B/",
+        "ttsTransform": {
+          "posX": -0.05041997,
+          "posY": 0.140892267,
+          "posZ": -0.112719595,
+          "rotX": 0.00103529962,
+          "rotY": 194.993027,
+          "rotZ": -0.0006118059,
+          "scaleX": 1.3499999,
+          "scaleY": 1.35,
+          "scaleZ": 1.3499999
+        }
+      }
+    },
+    {
+      "faction": "Zerg",
+      "unitId": "pdf_Zerg_unit_vileling_zergling",
+      "unitName": "Vileling (Zergling)",
+      "role": "melee",
+      "pose": "charging",
+      "status": "selected",
+      "notes": "Hunched forward with claws extended.",
+      "model": {
+        "candidateId": 111,
+        "sourceName": "Vileling",
+        "workshopId": "3662791369",
+        "guid": "29f4f9",
+        "meshUrl": "https://steamusercontent-a.akamaihd.net/ugc/13310945610290408403/8770AF444AE2FB40A86DB9DFD804091BDB391D2A/",
+        "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/10426778827725875699/4F45B4FBE8FDDF7928080B5458E29F490C1886A5/",
+        "ttsTransform": {
+          "posX": -0.055554,
+          "posY": 0.140876308,
+          "posZ": -0.200138271,
+          "rotX": 0.00260592322,
+          "rotY": 179.98912,
+          "rotZ": -0.0008844087,
+          "scaleX": 1.34999979,
+          "scaleY": 1.34999979,
+          "scaleZ": 1.34999979
+        }
+      }
+    },
+    {
+      "faction": "Zerg",
+      "unitId": "pdf_Zerg_unit_viles_roach",
+      "unitName": "Viles (Roach)",
+      "role": "ranged",
+      "pose": "unavailable",
+      "status": "missing-mesh",
+      "notes": "The labeled mesh is only a flat base. The actual Vile is an asset bundle, not an inspected mesh/texture pair."
+    },
+    {
+      "faction": "Zerg",
+      "unitId": "pdf_Zerg_unit_zagara",
+      "unitName": "Zagara",
+      "role": "ranged",
+      "pose": "attack-ready",
+      "status": "selected",
+      "notes": "Complete Zagara with forelimbs raised; no distinct firing pose found.",
+      "model": {
+        "candidateId": 114,
+        "sourceName": "Zagara",
+        "workshopId": "3662791369",
+        "guid": "cf1371",
+        "meshUrl": "https://steamusercontent-a.akamaihd.net/ugc/10740878217388666400/E11F11FFCD719B79B6B60B4CF00266492B208AB1/",
+        "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/2017097230051988709/0459B6471EC2D7C7FC67C8631743696F16EC8475/",
+        "ttsTransform": {
+          "posX": 0.0286712665,
+          "posY": 0.162378535,
+          "posZ": 0.0128270313,
+          "rotX": 0.000465634628,
+          "rotY": 0.0101925628,
+          "rotZ": -0.0008795768,
+          "scaleX": 1.75000691,
+          "scaleY": 3.49999475,
+          "scaleZ": 1.75000691
+        }
+      }
+    },
+    {
+      "faction": "Zerg",
+      "unitId": "pdf_Zerg_unit_zerglings",
+      "unitName": "Zerglings",
+      "role": "melee",
+      "pose": "charging",
+      "status": "selected",
+      "notes": "Low forward charge with claws spread.",
+      "model": {
+        "candidateId": 181,
+        "sourceName": "Zergling",
+        "workshopId": "3662781729",
+        "guid": "81978f",
+        "meshUrl": "https://steamusercontent-a.akamaihd.net/ugc/15562801855559490059/C0AA55B4A170279B4AA9D3B1C040888E2455C599/",
+        "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/13135401825702184416/90D56FAA9368A2DCB3768893D210EFC12BF2013E/",
+        "ttsTransform": {
+          "posX": -0.0709849149,
+          "posY": -0.158219218,
+          "posZ": 0.0837552845,
+          "rotX": 0.00000681245365,
+          "rotY": 0.0328450464,
+          "rotZ": 0.000007755612,
+          "scaleX": 1.72643983,
+          "scaleY": 1.80173492,
+          "scaleZ": 1.69566488
+        }
+      }
+    }
+  ]
+}

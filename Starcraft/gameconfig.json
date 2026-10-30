@@ -1,7 +1,7 @@
 {
   "BattlegroundWidth": 54,
   "BattlegroundHeight": 36,
-  "WoundsAttribute": "W",
+  "WoundsAttribute": "HP",
   "AvailableDice": [
     "D6",
     "D3"

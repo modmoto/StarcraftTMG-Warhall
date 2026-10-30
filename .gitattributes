@@ -1,0 +1,2 @@
+# Preserve identical text bytes on Windows, macOS and Linux, including checkout.
+* text=auto eol=lf

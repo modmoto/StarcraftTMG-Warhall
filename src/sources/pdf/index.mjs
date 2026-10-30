@@ -11,9 +11,9 @@ async function parseDocument(source, getDocument) {
   const loading = getDocument({
     data: source.bytes.slice(),
     useSystemFonts: true,
-    cMapUrl: path.join(pdfAssets, 'cmaps/'),
+    cMapUrl: path.join(pdfAssets, 'cmaps').replaceAll('\\', '/') + '/',
     cMapPacked: true,
-    standardFontDataUrl: path.join(pdfAssets, 'standard_fonts/'),
+    standardFontDataUrl: path.join(pdfAssets, 'standard_fonts').replaceAll('\\', '/') + '/',
     verbosity: 0,
     isEvalSupported: false,
   });

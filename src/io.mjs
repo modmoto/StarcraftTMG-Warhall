@@ -13,5 +13,5 @@ export async function readJson(file) {
 
 export async function writeJson(file, value) {
   await mkdir(path.dirname(file), { recursive: true });
-  await writeFile(file, `${JSON.stringify(value, null, 2)}\n`);
+  await writeFile(file, `${JSON.stringify(value, null, 2)}\n`, 'utf8');
 }

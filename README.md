@@ -4,6 +4,8 @@ Convert either the official printable unit cards (the **default**) or a local [S
 
 Requires **Node.js 22.13 or newer** (Node 24 recommended), with npm. The PDF path does not require Python, OCR, or a New Recruit checkout.
 
+Repository text and generated JSON use UTF-8 with LF line endings on Windows, macOS and Linux. `.gitattributes` preserves LF during Git checkout, and `.editorconfig` and Prettier use the same convention.
+
 ## Generate from official PDFs (default)
 
 From this repository:
@@ -14,7 +16,7 @@ npm run convert
 npm run validate
 ```
 
-`npm run convert` discovers the English printable faction card sheets on the [official downloads page](https://archon-studio.com/downloads/starcraft-tabletop-miniatures-game), downloads every advertised wave, parses the cards and writes `Starcraft_TMG/`. At the inspected release this is nine PDFs, 77 pages and **45 unit profiles**, including Nova's two modes and summoned units. Tactical, mission and deployment pages are classified separately in the report and are not emitted as miniatures.
+`npm run convert` discovers the English printable faction card sheets on the [official downloads page](https://archon-studio.com/downloads/starcraft-tabletop-miniatures-game), downloads every advertised wave, parses the cards and writes `Starcraft/`. At the inspected release this is nine PDFs, 77 pages and **45 unit profiles**, including Nova's two modes and summoned units. Tactical, mission and deployment pages are classified separately in the report and are not emitted as miniatures.
 
 To explicitly select the PDF source, validate without changing the generated package, or use a staging directory:
 
@@ -78,6 +80,27 @@ Warhall curved bases use `Shape: 1`; the axes are equal for circles and unequal 
 The converter preserves existing game configuration, tokens, terrain, objectives, deployments and version settings, except for setting WoundsAttribute to HP. Generated faction data, bases, hierarchy, global placeholder lists and manifest are replaced. Release version numbers remain maintainer-controlled.
 
 ## Current scope
+
+### Hosted model pose selections
+
+`model-selections.json` records visually reviewed Steam CDN mesh/texture pairs for all 45 generated units. Prefer aiming/firing/casting poses for ranged units and charging/striking poses for melee units. Where those poses are unavailable, the entry describes the closest available stance. It is a source mapping, not an asserted Warhall model schema, and the converter does not yet attach these references to profiles.
+
+41 units have complete selected pairs. Jim Raynor, Nova Assault and Zeratul require separate weapon attachments; their entries retain those references. Vile's labeled mesh is only a base, so its entry is explicitly missing rather than using the wrong model. TTS transforms are retained as source metadata and are not Warhall scale/rotation settings.
+
+To repeat the review from a local TTS Workshop cache containing the main table and faction saves:
+
+```sh
+node scripts/extract-tts-models.mjs /path/to/Workshop/Starcraft
+node scripts/download-tts-previews.mjs
+python -m venv .cache/model-preview-env
+# Windows; install numpy and pillow in this optional preview environment:
+.cache/model-preview-env/Scripts/python.exe -m pip install numpy pillow
+.cache/model-preview-env/Scripts/python.exe scripts/render-tts-previews.py
+node scripts/select-tts-models.mjs
+.cache/model-preview-env/Scripts/python.exe scripts/render-tts-previews.py --selected
+```
+
+The software renderer uses two views and approximate diffuse texture colors to review geometry and poses. The downloaded assets and preview sheets stay in ignored `.cache/tts-preview/`; game data contains no local model dependencies. Selection candidate IDs are local review identifiers; the exported mapping stores the full mesh and texture URLs. Preserve the preview inventory when repeating selections, as it maintains those IDs.
 
 - Manual army placement, with no 3D models or roster import.
 - Default stats, weapons and abilities. Upgrade descriptions and weapon replacement notes are retained, but changes are applied manually. New Recruit conditional modifiers/legality are not evaluated.
