@@ -59,5 +59,6 @@ export function unitReport(unit, faction, ids, footprint) {
     modelCounts: unit.modelCounts,
     optionalUpgrades: unit.optionalUpgrades.map(upgrade => upgrade.name),
     modifierCount: unit.modifierCount,
+    upgradeProfiles: unit.optionalUpgrades.flatMap(upgrade => upgrade.profiles),
   };
 }

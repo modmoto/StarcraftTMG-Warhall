@@ -1,0 +1,1369 @@
+{
+  "schemaVersion": 1,
+  "serverUrl": "https://apptest.warhall.eu",
+  "gameName": "Starcraft",
+  "entries": [
+    {
+      "profileId": "pdf_Protoss_profile_adepts",
+      "name": "Starcraft - Adepts",
+      "kind": "unit",
+      "parts": [
+        {
+          "modelUrl": "https://steamusercontent-a.akamaihd.net/ugc/15126746208946813419/FDED9153ACD81B10C9CE88FD3AFCC53EBEAF9A03/",
+          "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/16737116366905513486/815133513393716C6C1A4926DE69273EB88C0208/",
+          "transforms": {
+            "scale": 152.5884643691914,
+            "rotationX": 270,
+            "rotationY": 0,
+            "rotationZ": 0,
+            "positionX": 0.16479188072310155,
+            "positionY": 0.19004852201847272,
+            "positionZ": -0.042577594161753655
+          }
+        }
+      ]
+    },
+    {
+      "profileId": "pdf_Protoss_profile_artanis",
+      "name": "Starcraft - Artanis",
+      "kind": "unit",
+      "parts": [
+        {
+          "modelUrl": "https://steamusercontent-a.akamaihd.net/ugc/17389884646380172200/852A705C283A6B494E5B3476D720D70FD78F0686/",
+          "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/12876452859966301868/095BB3B8B2C10B43E6875D66A7E65DF889C5E4B2/",
+          "transforms": {
+            "scale": 2.59999776,
+            "rotationX": 0,
+            "rotationY": 0,
+            "rotationZ": 0,
+            "positionX": 0,
+            "positionY": 0,
+            "positionZ": 0
+          }
+        }
+      ]
+    },
+    {
+      "profileId": "pdf_Protoss_profile_high_templar",
+      "name": "Starcraft - High Templar",
+      "kind": "unit",
+      "parts": [
+        {
+          "modelUrl": "https://steamusercontent-a.akamaihd.net/ugc/13358083638766320133/F0EEA58CBC5196D5245DC070D3F3588F4BDD74FC/",
+          "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/10514953345266886824/7FC92DC52322131EF41EE904EE5679EED5F36727/",
+          "transforms": {
+            "scale": 1.34999979,
+            "rotationX": 0,
+            "rotationY": 0,
+            "rotationZ": 0,
+            "positionX": 0,
+            "positionY": 0,
+            "positionZ": 0
+          }
+        }
+      ]
+    },
+    {
+      "profileId": "pdf_Protoss_profile_immortal",
+      "name": "Starcraft - Immortal",
+      "kind": "unit",
+      "parts": [
+        {
+          "modelUrl": "https://steamusercontent-a.akamaihd.net/ugc/13121363716450345724/BAE94B9CE0174EAB1935DB7F703844F7ED3C7638/",
+          "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/15140113978955578638/63811AF2B92E68A9652A8BFF417D06C8120E4565/",
+          "transforms": {
+            "scale": 1.54999959,
+            "rotationX": 0,
+            "rotationY": 0,
+            "rotationZ": 0,
+            "positionX": 0,
+            "positionY": 0,
+            "positionZ": 0
+          }
+        }
+      ]
+    },
+    {
+      "profileId": "pdf_Protoss_profile_nerazim_watchers_adept",
+      "name": "Starcraft - Nerazim Watchers (Adept)",
+      "kind": "unit",
+      "parts": [
+        {
+          "modelUrl": "https://steamusercontent-a.akamaihd.net/ugc/15678455513010701611/1E127B6D05194BC0E700269E3F07AE89683B33C4/",
+          "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/9548471346582946458/15E417A25FB4C5C165EF2EB0C7E3642D24D230A6/",
+          "transforms": {
+            "scale": 1.3499999,
+            "rotationX": 0,
+            "rotationY": 0,
+            "rotationZ": 0,
+            "positionX": 0,
+            "positionY": 0,
+            "positionZ": 0
+          }
+        }
+      ]
+    },
+    {
+      "profileId": "pdf_Protoss_profile_praetor_guards",
+      "name": "Starcraft - Praetor Guards",
+      "kind": "unit",
+      "parts": [
+        {
+          "modelUrl": "https://steamusercontent-a.akamaihd.net/ugc/11457860537374907668/55416D6FE1FE57DAB0272201E0F9668AB3D0A925/",
+          "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/12407025611983823645/587B68C53AED0CCCF11FE89E79668EDA3451CD3A/",
+          "transforms": {
+            "scale": 1.44999993,
+            "rotationX": 0,
+            "rotationY": 0,
+            "rotationZ": 0,
+            "positionX": 0,
+            "positionY": 0,
+            "positionZ": 0
+          }
+        }
+      ]
+    },
+    {
+      "profileId": "pdf_Protoss_profile_pylon",
+      "name": "Starcraft - Pylon",
+      "kind": "unit",
+      "parts": [
+        {
+          "modelUrl": "https://steamusercontent-a.akamaihd.net/ugc/15844952089701479666/71E0E14ADA21C85A08DBEFD01D0C8EAED842BFBE/",
+          "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/12666702719360755983/257B111BDF48BCBF9EBEFF2B09AB7AB390403086/",
+          "transforms": {
+            "scale": 4.99999952,
+            "rotationX": 0,
+            "rotationY": 0,
+            "rotationZ": 0,
+            "positionX": 0,
+            "positionY": 0,
+            "positionZ": 0
+          }
+        }
+      ]
+    },
+    {
+      "profileId": "pdf_Protoss_profile_sentries",
+      "name": "Starcraft - Sentries",
+      "kind": "unit",
+      "parts": [
+        {
+          "modelUrl": "https://steamusercontent-a.akamaihd.net/ugc/17542236405298897588/1BAA4007A994A3964056D4934EB53868835093DF/",
+          "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/11509101613867129530/73648E164AF467CB8B2D6F8BA983C97D82C2D760/",
+          "transforms": {
+            "scale": 2.5,
+            "rotationX": 0,
+            "rotationY": 0,
+            "rotationZ": 0,
+            "positionX": 0.18455,
+            "positionY": -1.10929,
+            "positionZ": 0.94227
+          }
+        }
+      ]
+    },
+    {
+      "profileId": "pdf_Protoss_profile_stalker",
+      "name": "Starcraft - Stalker",
+      "kind": "unit",
+      "parts": [
+        {
+          "modelUrl": "https://steamusercontent-a.akamaihd.net/ugc/15129021142985132011/753B3E7E2E7FA3447547C9CDF81415A63F4DE307/",
+          "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/15524767339587293730/3DA92BC6B6E2152697A4ED7DC4561A198B08BCFA/",
+          "transforms": {
+            "scale": 1.29999983,
+            "rotationX": 0,
+            "rotationY": 0,
+            "rotationZ": 0,
+            "positionX": 0,
+            "positionY": 0,
+            "positionZ": 0
+          }
+        }
+      ]
+    },
+    {
+      "profileId": "pdf_Protoss_profile_tassadar",
+      "name": "Starcraft - Tassadar",
+      "kind": "unit",
+      "parts": [
+        {
+          "modelUrl": "https://steamusercontent-a.akamaihd.net/ugc/16840604407767716825/C4C969EBE028A8BC031C49B0F6C83E21624AC656/",
+          "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/14971805828710561030/6CD0A212381BED284110412326B0531612C28F8A/",
+          "transforms": {
+            "scale": 1.34999979,
+            "rotationX": 0,
+            "rotationY": 0,
+            "rotationZ": 0,
+            "positionX": 0,
+            "positionY": 0,
+            "positionZ": 0
+          }
+        }
+      ]
+    },
+    {
+      "profileId": "pdf_Protoss_profile_twilight_templar_high_templar",
+      "name": "Starcraft - Twilight Templar (High Templar)",
+      "kind": "unit",
+      "parts": [
+        {
+          "modelUrl": "https://steamusercontent-a.akamaihd.net/ugc/17318310556111765243/26E167FBCBF2E604376FBDAB076B9EBB8CC26962/",
+          "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/15949940295033113629/429EA9B3AAF9AF180BE0678BEA08B5F740741DB5/",
+          "transforms": {
+            "scale": 1.24999976,
+            "rotationX": 0,
+            "rotationY": 0,
+            "rotationZ": 0,
+            "positionX": 0,
+            "positionY": 0,
+            "positionZ": 0
+          }
+        }
+      ]
+    },
+    {
+      "profileId": "pdf_Protoss_profile_zealots",
+      "name": "Starcraft - Zealots",
+      "kind": "unit",
+      "parts": [
+        {
+          "modelUrl": "https://steamusercontent-a.akamaihd.net/ugc/13125139103274426458/3152D59248A4B81CF354D30501767FE04BFBEA32/",
+          "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/2037363970709618055/7507D7C74280088544D879D17287E8F625702F0E/",
+          "transforms": {
+            "scale": 1.79999959,
+            "rotationX": 0,
+            "rotationY": 0,
+            "rotationZ": 0,
+            "positionX": 0,
+            "positionY": 0,
+            "positionZ": 0
+          }
+        }
+      ]
+    },
+    {
+      "profileId": "pdf_Protoss_profile_zeratul",
+      "name": "Starcraft - Zeratul",
+      "kind": "unit",
+      "parts": [
+        {
+          "modelUrl": "https://steamusercontent-a.akamaihd.net/ugc/14056316204408219923/B54DF5F8C1658776E9CD3CA1B508ED3C9A62FFD8/",
+          "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/10174864733248482838/A1B9C382DAFA888CFE93A9E863D5AE1A9B80C1AA/",
+          "transforms": {
+            "scale": 1.3,
+            "rotationX": 0,
+            "rotationY": 0,
+            "rotationZ": 0,
+            "positionX": 0.42517,
+            "positionY": 0.05,
+            "positionZ": 0.03383
+          }
+        },
+        {
+          "modelUrl": "https://steamusercontent-a.akamaihd.net/ugc/14648176725355613391/B226AC63C0976A38234ACD3D9FE909D015E57F02/",
+          "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/15668038221753658107/35CE7968631EDFAEDE5C9830DD2FBDC9AADF97AD/",
+          "transforms": {
+            "scale": 1.3,
+            "rotationX": 0,
+            "rotationY": 0,
+            "rotationZ": 0,
+            "positionX": 0.42517,
+            "positionY": 0.05,
+            "positionZ": 0.03383
+          }
+        }
+      ]
+    },
+    {
+      "profileId": "pdf_Terran_profile_auto_turret",
+      "name": "Starcraft - Auto-Turret",
+      "kind": "unit",
+      "parts": [
+        {
+          "modelUrl": "https://steamusercontent-a.akamaihd.net/ugc/14025728949677490242/664096B747BC6D82F2ED371AB232183099CF799B/",
+          "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/18372278389357048125/429EE996C9CACD4CFE74542DEA9960B402F4567D/",
+          "transforms": {
+            "scale": 1,
+            "rotationX": 0,
+            "rotationY": 0,
+            "rotationZ": 0,
+            "positionX": 0,
+            "positionY": 0,
+            "positionZ": 0
+          }
+        }
+      ]
+    },
+    {
+      "profileId": "pdf_Terran_profile_goliath",
+      "name": "Starcraft - Goliath",
+      "kind": "unit",
+      "parts": [
+        {
+          "modelUrl": "https://steamusercontent-a.akamaihd.net/ugc/16892631073922839391/E2289964204231529A7AD26B243D6FE9DDC78F7E/",
+          "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/13158702798429065053/9D73233A3D0B8EC30DE37C81835EBB21EAF60FF8/",
+          "transforms": {
+            "scale": 1.39999974,
+            "rotationX": 0,
+            "rotationY": 0,
+            "rotationZ": 0,
+            "positionX": 0,
+            "positionY": 0,
+            "positionZ": 0
+          }
+        }
+      ]
+    },
+    {
+      "profileId": "pdf_Terran_profile_holo_decoy",
+      "name": "Starcraft - Holo Decoy",
+      "kind": "unit",
+      "parts": [
+        {
+          "modelUrl": "https://steamusercontent-a.akamaihd.net/ugc/17581228745774372404/A341024A169F435951E7916CB9E8F823EB1643F6/",
+          "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/8552036288036976/A6BB51F2EEF5CD7E48853509F66E7BC50A226D1F/",
+          "transforms": {
+            "scale": 1.4,
+            "rotationX": 0,
+            "rotationY": 0,
+            "rotationZ": 0,
+            "positionX": 0,
+            "positionY": 0,
+            "positionZ": 0
+          }
+        }
+      ]
+    },
+    {
+      "profileId": "pdf_Terran_profile_jim_raynor",
+      "name": "Starcraft - Jim Raynor",
+      "kind": "unit",
+      "parts": [
+        {
+          "modelUrl": "https://steamusercontent-a.akamaihd.net/ugc/14492147230123626268/74937E7A78C2A995654BFF5CF752A74BD54E06FC/",
+          "textureUrl": null,
+          "transforms": {
+            "scale": 173.4988570758631,
+            "rotationX": 270,
+            "rotationY": 0,
+            "rotationZ": 0,
+            "positionX": 1.2613979775563489,
+            "positionY": 0.08549566325002025,
+            "positionZ": -0.24668753669676063
+          }
+        }
+      ]
+    },
+    {
+      "profileId": "pdf_Terran_profile_marauders",
+      "name": "Starcraft - Marauders",
+      "kind": "unit",
+      "parts": [
+        {
+          "modelUrl": "https://steamusercontent-a.akamaihd.net/ugc/11979516860378392008/B06F0361E08A15C0C276D3810F0DA515C048B35D/",
+          "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/11094492526601299237/E93EA1E40C0BA9CB7490B94C0EC7E2B51C90A67A/",
+          "transforms": {
+            "scale": 1.3,
+            "rotationX": 0,
+            "rotationY": 0,
+            "rotationZ": 0,
+            "positionX": 0,
+            "positionY": 0,
+            "positionZ": 0
+          }
+        }
+      ]
+    },
+    {
+      "profileId": "pdf_Terran_profile_medics",
+      "name": "Starcraft - Medics",
+      "kind": "unit",
+      "parts": [
+        {
+          "modelUrl": "https://steamusercontent-a.akamaihd.net/ugc/15846916301642369325/A0778272A7FC1F9EF4C8C93F7101D758C9356067/",
+          "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/11349553307637504139/A51D57CEF63EF92EB0AA2E324261E79176573C02/",
+          "transforms": {
+            "scale": 1,
+            "rotationX": 0,
+            "rotationY": 0,
+            "rotationZ": 0,
+            "positionX": 0.16042,
+            "positionY": -0.1545,
+            "positionZ": -1.4943
+          }
+        }
+      ]
+    },
+    {
+      "profileId": "pdf_Terran_profile_nova_assault_mode",
+      "name": "Starcraft - Nova Assault Mode",
+      "kind": "unit",
+      "parts": [
+        {
+          "modelUrl": "https://steamusercontent-a.akamaihd.net/ugc/17190323956516765846/1CCC24B8077CDCE104991FD19590BF1290BE09C0/",
+          "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/11241123661157656523/699EE626B4A66E70EEA84B3710946F5BE04F0647/",
+          "transforms": {
+            "scale": 1.623445873913266,
+            "rotationX": 0,
+            "rotationY": 0,
+            "rotationZ": 0,
+            "positionX": -0.031794739105923134,
+            "positionY": 0.047814517086190465,
+            "positionZ": 0.2689195331657554
+          }
+        }
+      ]
+    },
+    {
+      "profileId": "pdf_Terran_profile_nova_stealth_mode",
+      "name": "Starcraft - Nova Stealth Mode",
+      "kind": "unit",
+      "parts": [
+        {
+          "modelUrl": "https://steamusercontent-a.akamaihd.net/ugc/17581228745774372404/A341024A169F435951E7916CB9E8F823EB1643F6/",
+          "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/11241123661157656523/699EE626B4A66E70EEA84B3710946F5BE04F0647/",
+          "transforms": {
+            "scale": 1.4,
+            "rotationX": 0,
+            "rotationY": 0,
+            "rotationZ": 0,
+            "positionX": 0,
+            "positionY": 0,
+            "positionZ": 0
+          }
+        }
+      ]
+    },
+    {
+      "profileId": "pdf_Terran_profile_point_defense_drone",
+      "name": "Starcraft - Point Defense Drone",
+      "kind": "unit",
+      "parts": [
+        {
+          "modelUrl": "https://steamusercontent-a.akamaihd.net/ugc/16724548689103041369/47BA9CADBA1382E27A756DCAB7B65AA64BA063ED/",
+          "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/16045957540793801392/2B6C1F0BF0ED6DBF6596F6254668043F8F595D11/",
+          "transforms": {
+            "scale": 2.99999833,
+            "rotationX": 0,
+            "rotationY": 0,
+            "rotationZ": 0,
+            "positionX": 0,
+            "positionY": 0,
+            "positionZ": 0
+          }
+        }
+      ]
+    },
+    {
+      "profileId": "pdf_Terran_profile_raven",
+      "name": "Starcraft - Raven",
+      "kind": "unit",
+      "parts": [
+        {
+          "modelUrl": "https://steamusercontent-a.akamaihd.net/ugc/12783889514308410174/8BEF0E485105274125CA8662DA5907FF0BE0223D/",
+          "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/13055308396813055141/AB48D0139AF377F92FACA12E08870A1CED1D34B8/",
+          "transforms": {
+            "scale": 1.59999967,
+            "rotationX": 0,
+            "rotationY": 0,
+            "rotationZ": 0,
+            "positionX": 0,
+            "positionY": 0,
+            "positionZ": 0
+          }
+        }
+      ]
+    },
+    {
+      "profileId": "pdf_Terran_profile_raynor_s_raiders",
+      "name": "Starcraft - Raynor's Raiders",
+      "kind": "unit",
+      "parts": [
+        {
+          "modelUrl": "https://steamusercontent-a.akamaihd.net/ugc/13410382357072100990/131B78DBACDBC06ED5FD4FBFF22DC9DEF56CCEDD/",
+          "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/10669027500348836499/5BC177B5F513FFAE097F9BC306A772D6BBD3B775/",
+          "transforms": {
+            "scale": 1,
+            "rotationX": 0,
+            "rotationY": 0,
+            "rotationZ": 0,
+            "positionX": 0,
+            "positionY": 0,
+            "positionZ": 0
+          }
+        }
+      ]
+    },
+    {
+      "profileId": "pdf_Terran_profile_sabotage_drone",
+      "name": "Starcraft - Sabotage Drone",
+      "kind": "unit",
+      "parts": [
+        {
+          "modelUrl": "https://steamusercontent-a.akamaihd.net/ugc/17520067522889415297/DF0FD155A175F273B6C0088B5AA93E7A69D02D53/",
+          "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/11455457866811867621/8CDFC0FB8CA8FFE8E63F85351E901E269EAA1EEF/",
+          "transforms": {
+            "scale": 1.14999986,
+            "rotationX": 0,
+            "rotationY": 0,
+            "rotationZ": 0,
+            "positionX": 0,
+            "positionY": 0,
+            "positionZ": 0
+          }
+        }
+      ]
+    },
+    {
+      "profileId": "pdf_Terran_profile_siege_tank",
+      "name": "Starcraft - Siege Tank",
+      "kind": "unit",
+      "parts": [
+        {
+          "modelUrl": "https://steamusercontent-a.akamaihd.net/ugc/10924463587930246298/5C08DBBBB1B34C66796D02F27805AB6ACC3C3E75/",
+          "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/10751870198150330225/673A4FD83172C1AA32DE8C48032EA590288F7F30/",
+          "transforms": {
+            "scale": 1.47,
+            "rotationX": 0,
+            "rotationY": 0,
+            "rotationZ": 0,
+            "positionX": 0.00224,
+            "positionY": 0.09121,
+            "positionZ": -0.09738
+          }
+        }
+      ]
+    },
+    {
+      "profileId": "pdf_Terran_profile_spec_ops_marauder_marauder",
+      "name": "Starcraft - Spec Ops Marauder (Marauder)",
+      "kind": "unit",
+      "parts": [
+        {
+          "modelUrl": "https://steamusercontent-a.akamaihd.net/ugc/16433214436580589175/0FAAC5677902C9E47EC259DAC387FFF3E867D33C/",
+          "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/16924601025075572301/3401203933A3EA7BE12F044E7EE92C890B7EAAF3/",
+          "transforms": {
+            "scale": 1.7,
+            "rotationX": 0,
+            "rotationY": 0,
+            "rotationZ": 0,
+            "positionX": 0,
+            "positionY": 0,
+            "positionZ": 0
+          }
+        }
+      ]
+    },
+    {
+      "profileId": "prof_marine",
+      "name": "Starcraft - Marines",
+      "kind": "unit",
+      "parts": [
+        {
+          "modelUrl": "https://steamusercontent-a.akamaihd.net/ugc/13676960899368881933/1D1EBC0A58B38976237FF4B2831A599D5CC76425/",
+          "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/18136473720657446110/CF8F3711C364DF5FE09DEFBACAD950DC703351AB/",
+          "transforms": {
+            "scale": 1.725,
+            "rotationX": 0,
+            "rotationY": 0,
+            "rotationZ": 0,
+            "positionX": 0,
+            "positionY": 0,
+            "positionZ": 0
+          }
+        }
+      ]
+    },
+    {
+      "profileId": "pdf_Zerg_profile_bile_launcher",
+      "name": "Starcraft - Bile Launcher",
+      "kind": "unit",
+      "parts": [
+        {
+          "modelUrl": "https://steamusercontent-a.akamaihd.net/ugc/12678152575802620645/7D6038E625F17014498F14C27FDEA0BF6601367F/",
+          "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/15002983100039860123/FF805B484FB4183F8F416CF5A68DACB0FD0740BC/",
+          "transforms": {
+            "scale": 0.99999994,
+            "rotationX": 0,
+            "rotationY": 0,
+            "rotationZ": 0,
+            "positionX": 0,
+            "positionY": 0,
+            "positionZ": 0
+          }
+        }
+      ]
+    },
+    {
+      "profileId": "pdf_Zerg_profile_corpsers_roach",
+      "name": "Starcraft - Corpsers (Roach)",
+      "kind": "unit",
+      "parts": [
+        {
+          "modelUrl": "https://steamusercontent-a.akamaihd.net/ugc/12790390220699959533/0EC8FFD07F63D8BEC510D20605FFA00E2CB6E8A3/",
+          "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/16869437017316330974/2C688317C04336A472E52F2207B1C488A72325C8/",
+          "transforms": {
+            "scale": 1.44999969,
+            "rotationX": 0,
+            "rotationY": 0,
+            "rotationZ": 0,
+            "positionX": 0,
+            "positionY": 0,
+            "positionZ": 0
+          }
+        }
+      ]
+    },
+    {
+      "profileId": "pdf_Zerg_profile_defiler",
+      "name": "Starcraft - Defiler",
+      "kind": "unit",
+      "parts": [
+        {
+          "modelUrl": "https://steamusercontent-a.akamaihd.net/ugc/14575841030730499952/8144DEDE4919945FA8ECE321847131DBF2DA3B96/",
+          "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/16047486587602816572/B0C022226CCE724AABDB897BC0709EE4C4A19F00/",
+          "transforms": {
+            "scale": 1,
+            "rotationX": 0,
+            "rotationY": 0,
+            "rotationZ": 0,
+            "positionX": 0,
+            "positionY": 0,
+            "positionZ": 0
+          }
+        }
+      ]
+    },
+    {
+      "profileId": "pdf_Zerg_profile_hydralisks",
+      "name": "Starcraft - Hydralisks",
+      "kind": "unit",
+      "parts": [
+        {
+          "modelUrl": "https://steamusercontent-a.akamaihd.net/ugc/15321079191224469753/58242C325B30D72C272FD7BFEA11BDC17BA34E64/",
+          "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/14314326273208484289/01A886E8D7DB5F4D8DC187E009341B8A4076DA1F/",
+          "transforms": {
+            "scale": 1.24999976,
+            "rotationX": 0,
+            "rotationY": 0,
+            "rotationZ": 0,
+            "positionX": 0,
+            "positionY": 0,
+            "positionZ": 0
+          }
+        }
+      ]
+    },
+    {
+      "profileId": "pdf_Zerg_profile_kerrigan",
+      "name": "Starcraft - Kerrigan",
+      "kind": "unit",
+      "parts": [
+        {
+          "modelUrl": "https://steamusercontent-a.akamaihd.net/ugc/2037363970707098372/647AD9ADDBD322827B773B7E397CABE7A9990D52/",
+          "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/2037363970707098776/14FFDC4E069943BC57C58CD9DBED6E5D480F3C37/",
+          "transforms": {
+            "scale": 1,
+            "rotationX": 0,
+            "rotationY": 0,
+            "rotationZ": 0,
+            "positionX": 0,
+            "positionY": 0,
+            "positionZ": 0
+          }
+        }
+      ]
+    },
+    {
+      "profileId": "pdf_Zerg_profile_kerrigan_swarm_raptors_zergling",
+      "name": "Starcraft - Kerrigan Swarm Raptors (Zergling)",
+      "kind": "unit",
+      "parts": [
+        {
+          "modelUrl": "https://steamusercontent-a.akamaihd.net/ugc/18238080516857352099/ADA59CC05A1B871FDEF974EBE04170E6D9D1383F/",
+          "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/17328435498084496682/B856751B080101BCAB01AE46BFD67CA22C08F5F3/",
+          "transforms": {
+            "scale": 1.19999981,
+            "rotationX": 0,
+            "rotationY": 0,
+            "rotationZ": 0,
+            "positionX": 0,
+            "positionY": 0,
+            "positionZ": 0
+          }
+        }
+      ]
+    },
+    {
+      "profileId": "pdf_Zerg_profile_omega_worm",
+      "name": "Starcraft - Omega Worm",
+      "kind": "unit",
+      "parts": [
+        {
+          "modelUrl": "https://steamusercontent-a.akamaihd.net/ugc/18352668358571898735/EB4DB9CF50C0FDBC85EE185BCA5755037AAD9F6E/",
+          "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/13743206127385021615/3D4E9FD5259D6E0595CDDD794569635C8077E84B/",
+          "transforms": {
+            "scale": 2.3124223436260314,
+            "rotationX": 0,
+            "rotationY": 0,
+            "rotationZ": 0,
+            "positionX": -0.007900163394639186,
+            "positionY": 0.5986192001624268,
+            "positionZ": -0.35962295117268156
+          }
+        }
+      ]
+    },
+    {
+      "profileId": "pdf_Zerg_profile_queen",
+      "name": "Starcraft - Queen",
+      "kind": "unit",
+      "parts": [
+        {
+          "modelUrl": "https://steamusercontent-a.akamaihd.net/ugc/13391691780651553031/9CF3670C5C86581A851B6F86EA01A4B6A5DA1260/",
+          "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/14828233550280285952/0493C46B7A20B3B5E6451293E87676823ABD91CD/",
+          "transforms": {
+            "scale": 1.1057688,
+            "rotationX": 0,
+            "rotationY": 0,
+            "rotationZ": 0,
+            "positionX": 0,
+            "positionY": 0,
+            "positionZ": 0
+          }
+        }
+      ]
+    },
+    {
+      "profileId": "pdf_Zerg_profile_raptors_zergling",
+      "name": "Starcraft - Raptors (Zergling)",
+      "kind": "unit",
+      "parts": [
+        {
+          "modelUrl": "https://steamusercontent-a.akamaihd.net/ugc/14069595777008235465/125A699E73E0906892FBB892A986F14C92B3D860/",
+          "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/10890014863464847048/3030F4B1BA9EC2B2300039D3811EDA99E28BCF2F/",
+          "transforms": {
+            "scale": 1.2,
+            "rotationX": 0,
+            "rotationY": 0,
+            "rotationZ": 0,
+            "positionX": 0,
+            "positionY": 0,
+            "positionZ": 0
+          }
+        }
+      ]
+    },
+    {
+      "profileId": "pdf_Zerg_profile_ravagers",
+      "name": "Starcraft - Ravagers",
+      "kind": "unit",
+      "parts": [
+        {
+          "modelUrl": "https://steamusercontent-a.akamaihd.net/ugc/9614886589065029835/AB9E7D30875A06F026668737CBC62AD9730074B7/",
+          "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/9455779838813893739/55648CC8AB22A0A4E7ED8FCE10169C8D716E1F6B/",
+          "transforms": {
+            "scale": 1.15384579,
+            "rotationX": 0,
+            "rotationY": 0,
+            "rotationZ": 0,
+            "positionX": 0,
+            "positionY": 0,
+            "positionZ": 0
+          }
+        }
+      ]
+    },
+    {
+      "profileId": "pdf_Zerg_profile_roaches",
+      "name": "Starcraft - Roaches",
+      "kind": "unit",
+      "parts": [
+        {
+          "modelUrl": "https://steamusercontent-a.akamaihd.net/ugc/17443984152116758136/8165A0CB9F11777D1CDACFFD91DA7517B2868E6A/",
+          "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/13565450272210627383/A7F87DF4ADC5C2732397D0414A6EF8CFB56CB03C/",
+          "transforms": {
+            "scale": 1.44999969,
+            "rotationX": 0,
+            "rotationY": 0,
+            "rotationZ": 0,
+            "positionX": 0,
+            "positionY": 0,
+            "positionZ": 0
+          }
+        }
+      ]
+    },
+    {
+      "profileId": "pdf_Zerg_profile_roachling",
+      "name": "Starcraft - Roachling",
+      "kind": "unit",
+      "parts": [
+        {
+          "modelUrl": "https://steamusercontent-a.akamaihd.net/ugc/13900308786180209736/392F44D1FE8371171ABB9D52F175C630B7DE9276/",
+          "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/16869437017316330974/2C688317C04336A472E52F2207B1C488A72325C8/",
+          "transforms": {
+            "scale": 0.8750002,
+            "rotationX": 0,
+            "rotationY": 0,
+            "rotationZ": 0,
+            "positionX": 0,
+            "positionY": 0,
+            "positionZ": 0
+          }
+        }
+      ]
+    },
+    {
+      "profileId": "pdf_Zerg_profile_swarmlings",
+      "name": "Starcraft - Swarmlings",
+      "kind": "unit",
+      "parts": [
+        {
+          "modelUrl": "https://steamusercontent-a.akamaihd.net/ugc/17727049809015848584/1A7650CD4A6E0EC21FE764E241C6ADAE7E02291B/",
+          "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/13249944438587323661/F49D1DFADE09F27D7B3D4540D608511D299B5C8B/",
+          "transforms": {
+            "scale": 1.35,
+            "rotationX": 0,
+            "rotationY": 0,
+            "rotationZ": 0,
+            "positionX": 0,
+            "positionY": 0,
+            "positionZ": 0
+          }
+        }
+      ]
+    },
+    {
+      "profileId": "pdf_Zerg_profile_vileling_zergling",
+      "name": "Starcraft - Vileling (Zergling)",
+      "kind": "unit",
+      "parts": [
+        {
+          "modelUrl": "https://steamusercontent-a.akamaihd.net/ugc/13310945610290408403/8770AF444AE2FB40A86DB9DFD804091BDB391D2A/",
+          "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/10426778827725875699/4F45B4FBE8FDDF7928080B5458E29F490C1886A5/",
+          "transforms": {
+            "scale": 1.34999979,
+            "rotationX": 0,
+            "rotationY": 0,
+            "rotationZ": 0,
+            "positionX": 0,
+            "positionY": 0,
+            "positionZ": 0
+          }
+        }
+      ]
+    },
+    {
+      "profileId": "pdf_Zerg_profile_viles_roach",
+      "name": "Starcraft - Viles (Roach)",
+      "kind": "unit",
+      "parts": [
+        {
+          "modelUrl": "https://steamusercontent-a.akamaihd.net/ugc/10685307960474177128/DE7C9AFD56637E646A2F854EC466ACC02C485142/",
+          "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/14597884484782229424/9B9C14DBA250CDF609B68A3E8A483EE9D9892B0C/",
+          "transforms": {
+            "scale": 1.9745777943814005,
+            "rotationX": 0,
+            "rotationY": 0,
+            "rotationZ": 0,
+            "positionX": 0.8127349884060104,
+            "positionY": 0.31776867203982473,
+            "positionZ": -0.762146920572654
+          }
+        }
+      ]
+    },
+    {
+      "profileId": "pdf_Zerg_profile_zagara",
+      "name": "Starcraft - Zagara",
+      "kind": "unit",
+      "parts": [
+        {
+          "modelUrl": "https://steamusercontent-a.akamaihd.net/ugc/10740878217388666400/E11F11FFCD719B79B6B60B4CF00266492B208AB1/",
+          "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/2017097230051988709/0459B6471EC2D7C7FC67C8631743696F16EC8475/",
+          "transforms": {
+            "scale": 3.49999475,
+            "rotationX": 0,
+            "rotationY": 0,
+            "rotationZ": 0,
+            "positionX": 0,
+            "positionY": 0,
+            "positionZ": 0
+          }
+        }
+      ]
+    },
+    {
+      "profileId": "pdf_Zerg_profile_zerglings",
+      "name": "Starcraft - Zerglings",
+      "kind": "unit",
+      "parts": [
+        {
+          "modelUrl": "https://steamusercontent-a.akamaihd.net/ugc/11305012017126724370/9DB35EF19CB3A75C6AC3DF5DBE27A7C3446B1BE0/",
+          "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/12526897133127688922/8593DE279D9EDB3286C09C5F182E696A8E117270/",
+          "transforms": {
+            "scale": 1.35,
+            "rotationX": 0,
+            "rotationY": 0,
+            "rotationZ": 0,
+            "positionX": 0,
+            "positionY": 0,
+            "positionZ": 0
+          }
+        }
+      ]
+    },
+    {
+      "profileId": "sc_terrain_d903fea321acfebe",
+      "name": "Starcraft - Terrain - Head Statue - acfebe",
+      "kind": "terrain",
+      "parts": [
+        {
+          "modelUrl": "https://steamusercontent-a.akamaihd.net/ugc/16752883865032145389/29F01FF4B05FFA1FDE5C3D7B3C2247B913879055/",
+          "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/12266583770828535695/D34B84E0A65CA5FE4C72F487361102AF4691AD81/",
+          "transforms": {
+            "scale": 0.8852644,
+            "rotationX": 0,
+            "rotationY": 0,
+            "rotationZ": 0,
+            "positionX": -0.3960555273961237,
+            "positionY": 0.043334029445679996,
+            "positionZ": 0.48245576591813616
+          }
+        }
+      ]
+    },
+    {
+      "profileId": "sc_terrain_1cffe4ed683895d1",
+      "name": "Starcraft - Terrain - Wall Set 2 - 3895d1",
+      "kind": "terrain",
+      "parts": [
+        {
+          "modelUrl": "https://steamusercontent-a.akamaihd.net/ugc/16696069935400629216/E60B9B6B6AB2F81E6B7BDD2F437BA79AD8202F76/",
+          "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/14882615035596434474/4D9D65D31D0642898B66262948A1A6A0BE68F2A9/",
+          "transforms": {
+            "scale": 1,
+            "rotationX": 0,
+            "rotationY": 0,
+            "rotationZ": 0,
+            "positionX": 0.49138331999999924,
+            "positionY": 1.29868936,
+            "positionZ": 1.39812903
+          }
+        }
+      ]
+    },
+    {
+      "profileId": "sc_terrain_2e5381d1d3c2f1b7",
+      "name": "Starcraft - Terrain - Wall Set 3 - c2f1b7",
+      "kind": "terrain",
+      "parts": [
+        {
+          "modelUrl": "https://steamusercontent-a.akamaihd.net/ugc/15345174323865486993/8E36DA1F6593F67C9F3B1C316E999006544FAB33/",
+          "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/12466753613873081281/CC9E156F12D2D5FCD187C60140361ACF9E1CF850/",
+          "transforms": {
+            "scale": 1,
+            "rotationX": 0,
+            "rotationY": 0,
+            "rotationZ": 0,
+            "positionX": -3.18072897,
+            "positionY": 0.34750000000000003,
+            "positionZ": 0.9675228300000002
+          }
+        }
+      ]
+    },
+    {
+      "profileId": "sc_terrain_0e597f350f0c8124",
+      "name": "Starcraft - Terrain - grass - 0c8124",
+      "kind": "terrain",
+      "parts": [
+        {
+          "modelUrl": "https://steamusercontent-a.akamaihd.net/ugc/13453573848333998441/5E90C87B961EBA564BC81BC5257B2B46AF6F9171/",
+          "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/17816586817869580434/9765A05A92BE516DFA2A6B1F3BA8BD947B6CE8E7/",
+          "transforms": {
+            "scale": 1,
+            "rotationX": 0,
+            "rotationY": 0,
+            "rotationZ": 0,
+            "positionX": -0.09624694999999998,
+            "positionY": 0.13013696,
+            "positionZ": 0.01898522999999999
+          }
+        }
+      ]
+    },
+    {
+      "profileId": "sc_terrain_5395598da3627dc3",
+      "name": "Starcraft - Terrain - Temple Obelisk - 627dc3",
+      "kind": "terrain",
+      "parts": [
+        {
+          "modelUrl": "https://steamusercontent-a.akamaihd.net/ugc/17858142237602324437/33D22A31760E14A9BA9DFFC3118A12E4321C8994/",
+          "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/8552585319863352/1819A075ABF36C76A9A4AC30DF88D9E39EC41E19/",
+          "transforms": {
+            "scale": 0.5000005,
+            "rotationX": 0,
+            "rotationY": 0,
+            "rotationZ": 0,
+            "positionX": 0,
+            "positionY": 0.03834009834009,
+            "positionZ": 0
+          }
+        },
+        {
+          "modelUrl": "https://steamusercontent-a.akamaihd.net/ugc/18073083940881228987/138B0F8756445D406F99E07C9CAF091E3AD88E8F/",
+          "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/16415948190693985738/61E852A6AE3C1EFD5FEBB10A394C6E252C6C7CE0/",
+          "transforms": {
+            "scale": 0.5000004699999699,
+            "rotationX": 0.671403348,
+            "rotationY": 359.906158,
+            "rotationZ": 359.789581,
+            "positionX": 0.0002506817152814646,
+            "positionY": -0.534913836913272,
+            "positionZ": -0.1139207776206637
+          }
+        }
+      ]
+    },
+    {
+      "profileId": "sc_terrain_e8d245d869f43c5b",
+      "name": "Starcraft - Terrain - Wall Set 4 - f43c5b",
+      "kind": "terrain",
+      "parts": [
+        {
+          "modelUrl": "https://steamusercontent-a.akamaihd.net/ugc/17799036563116823363/214500903ACB4888525245004F0F07A72A65C02F/",
+          "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/14957008999031761450/39E163CE4AEC65343BD57655B4DBC4C6B2E657B9/",
+          "transforms": {
+            "scale": 1,
+            "rotationX": 0,
+            "rotationY": 25,
+            "rotationZ": 0,
+            "positionX": -3.606748604721899,
+            "positionY": 0.35385,
+            "positionZ": -8.41081672186277
+          }
+        }
+      ]
+    },
+    {
+      "profileId": "sc_terrain_4b5400ce5539b63f",
+      "name": "Starcraft - Terrain - Wall Set 5 - 39b63f",
+      "kind": "terrain",
+      "parts": [
+        {
+          "modelUrl": "https://steamusercontent-a.akamaihd.net/ugc/15364100364117888702/F9070FDDDBC5CA2D4867BE5F35536412329DC8CF/",
+          "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/11292566716676015408/E5E47AC4B3475FA4F0A91FFC4E27CC2F058AE0FD/",
+          "transforms": {
+            "scale": 1,
+            "rotationX": 0,
+            "rotationY": -25,
+            "rotationZ": 0,
+            "positionX": 3.606748604721899,
+            "positionY": 0.35385,
+            "positionZ": -8.41081672186277
+          }
+        }
+      ]
+    },
+    {
+      "profileId": "sc_terrain_0e9238ef444f6364",
+      "name": "Starcraft - Terrain - Protoss Banner - 4f6364",
+      "kind": "terrain",
+      "parts": [
+        {
+          "modelUrl": "https://steamusercontent-a.akamaihd.net/ugc/14105390183802608805/7FFB47257CA9EFF2081057AD402634EE91CFE4B3/",
+          "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/10369507866648001983/1009F749FF7AEB13A8C31B3213295C1D860B339C/",
+          "transforms": {
+            "scale": 1.0999999,
+            "rotationX": 0,
+            "rotationY": 0,
+            "rotationZ": 0,
+            "positionX": -0.04991840083928078,
+            "positionY": 0.19313588171006102,
+            "positionZ": -0.05404659728641471
+          }
+        },
+        {
+          "modelUrl": "https://steamusercontent-a.akamaihd.net/ugc/16187142815912427190/55A13DDB4E375A64ECFBD50D761B646072E7EBAD/",
+          "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/16657024294324500533/CEDC692BD0C7C290461E88545B49DE4793030D30/",
+          "transforms": {
+            "scale": 1.100000427999952,
+            "rotationX": 359.19455,
+            "rotationY": 359.924438,
+            "rotationZ": 0.8646406,
+            "positionX": 0.0030040894695833043,
+            "positionY": 0.1044691865862704,
+            "positionZ": 0.0027529029499938837
+          }
+        }
+      ]
+    },
+    {
+      "profileId": "sc_terrain_f910561ff3ef2272",
+      "name": "Starcraft - Terrain - Wall Set 6 - ef2272",
+      "kind": "terrain",
+      "parts": [
+        {
+          "modelUrl": "https://steamusercontent-a.akamaihd.net/ugc/11952332230460653328/56B0D84B67F78896DFA9C1A79692191DBC3CE376/",
+          "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/11600837580354471269/D4154E69960BB8E9BE3B9C3200FEE83950BF627C/",
+          "transforms": {
+            "scale": 1,
+            "rotationX": 0,
+            "rotationY": 0,
+            "rotationZ": 0,
+            "positionX": -0.7357198899999997,
+            "positionY": 0.35385,
+            "positionZ": -3.58789478
+          }
+        }
+      ]
+    },
+    {
+      "profileId": "sc_terrain_f305a277f53c823b",
+      "name": "Starcraft - Terrain - Wall Set 1 - 3c823b",
+      "kind": "terrain",
+      "parts": [
+        {
+          "modelUrl": "https://steamusercontent-a.akamaihd.net/ugc/10702056937764223729/4D4B21E2F2E459760E4E6BD75EC21793750BA2E8/",
+          "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/9388973454819896394/206EB91C51C956CEE6615B46F68D3838933832CD/",
+          "transforms": {
+            "scale": 1,
+            "rotationX": 0,
+            "rotationY": 0,
+            "rotationZ": 0,
+            "positionX": 1.2652616300000004,
+            "positionY": 1.3132054599999998,
+            "positionZ": 0.32617663999999996
+          }
+        }
+      ]
+    },
+    {
+      "profileId": "sc_terrain_696320bc52444def",
+      "name": "Starcraft - Terrain - Protoss Banner - 444def",
+      "kind": "terrain",
+      "parts": [
+        {
+          "modelUrl": "https://steamusercontent-a.akamaihd.net/ugc/14105390183802608805/7FFB47257CA9EFF2081057AD402634EE91CFE4B3/",
+          "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/12440890074480881284/A65395F996C5355697D12E1E06E7B73D45F7E2B2/",
+          "transforms": {
+            "scale": 1.0999999,
+            "rotationX": 0,
+            "rotationY": 0,
+            "rotationZ": 0,
+            "positionX": -0.049919058163648874,
+            "positionY": 0.19313638690296422,
+            "positionZ": -0.054046194379899035
+          }
+        },
+        {
+          "modelUrl": "https://steamusercontent-a.akamaihd.net/ugc/16187142815912427190/55A13DDB4E375A64ECFBD50D761B646072E7EBAD/",
+          "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/16657024294324500533/CEDC692BD0C7C290461E88545B49DE4793030D30/",
+          "transforms": {
+            "scale": 1.100000295999964,
+            "rotationX": 359.19455,
+            "rotationY": 359.924438,
+            "rotationZ": 0.8646572,
+            "positionX": 0.003004146850350234,
+            "positionY": 0.10446977504036603,
+            "positionZ": 0.0027529026823462227
+          }
+        }
+      ]
+    },
+    {
+      "profileId": "sc_terrain_8a9da51123d91b9c",
+      "name": "Starcraft - Terrain - Vespene Geyser - d91b9c",
+      "kind": "terrain",
+      "parts": [
+        {
+          "modelUrl": "https://steamusercontent-a.akamaihd.net/ugc/16847790761879049548/73D02B6A7E9EB7662354E097CD19B60B7C6DA422/",
+          "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/12514039678784664250/D376B1CFBA958A5085F1C211CF483F73DB85F2C8/",
+          "transforms": {
+            "scale": 1.2,
+            "rotationX": 0,
+            "rotationY": 0,
+            "rotationZ": 0,
+            "positionX": -0.006844283999999978,
+            "positionY": 0.06484168800000001,
+            "positionZ": -0.05049469199999972
+          }
+        }
+      ]
+    },
+    {
+      "profileId": "sc_terrain_342caed58291ae73",
+      "name": "Starcraft - Terrain - Statue Shard - 91ae73",
+      "kind": "terrain",
+      "parts": [
+        {
+          "modelUrl": "https://steamusercontent-a.akamaihd.net/ugc/17085801959441924534/E60A1E0F01C1C5C35D227880F13ABC754AA83B34/",
+          "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/16717348948617320850/152BD21C67F86A8869A6586C003451801FFDAD36/",
+          "transforms": {
+            "scale": 0.255104423,
+            "rotationX": 0,
+            "rotationY": 0,
+            "rotationZ": 0,
+            "positionX": 0.05806688030492199,
+            "positionY": 0.14017318832735223,
+            "positionZ": 4.138977488182193
+          }
+        },
+        {
+          "modelUrl": "https://steamusercontent-a.akamaihd.net/ugc/17085801959441924534/E60A1E0F01C1C5C35D227880F13ABC754AA83B34/",
+          "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/16717348948617320850/152BD21C67F86A8869A6586C003451801FFDAD36/",
+          "transforms": {
+            "scale": 0.55326281946971,
+            "rotationX": 0.455157846,
+            "rotationY": 180.019363,
+            "rotationZ": 358.916718,
+            "positionX": 0.05162059849427724,
+            "positionY": 0.13849465260836963,
+            "positionZ": -1.6670592698280577
+          }
+        }
+      ]
+    },
+    {
+      "profileId": "sc_terrain_e45c33c511633ae2",
+      "name": "Starcraft - Terrain - Head Statue - 633ae2",
+      "kind": "terrain",
+      "parts": [
+        {
+          "modelUrl": "https://steamusercontent-a.akamaihd.net/ugc/16752883865032145389/29F01FF4B05FFA1FDE5C3D7B3C2247B913879055/",
+          "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/12266583770828535695/D34B84E0A65CA5FE4C72F487361102AF4691AD81/",
+          "transforms": {
+            "scale": 0.856843054,
+            "rotationX": 0,
+            "rotationY": 0,
+            "rotationZ": 0,
+            "positionX": -0.38334019491541216,
+            "positionY": 0.0429059414479588,
+            "positionZ": 0.466966560373607
+          }
+        }
+      ]
+    },
+    {
+      "profileId": "sc_terrain_f2dd0d048a087d53",
+      "name": "Starcraft - Terrain - High Ground - 087d53",
+      "kind": "terrain",
+      "parts": [
+        {
+          "modelUrl": "https://steamusercontent-a.akamaihd.net/ugc/17474291243223958637/258D5A00929C84CB834BB0EACB46F3B5A83BCEAC/",
+          "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/10975319265487922234/7CB6891237190BE9AF71B77CA86311D085ABF7F1/",
+          "transforms": {
+            "scale": 1,
+            "rotationX": 0,
+            "rotationY": 0,
+            "rotationZ": 0,
+            "positionX": 1.899295299390536,
+            "positionY": 3.1601074756138803,
+            "positionZ": 4.9229083914
+          }
+        },
+        {
+          "modelUrl": "https://steamusercontent-a.akamaihd.net/ugc/13253521238442170881/4A32EF9D5D7096599D6DAAD629DF1173DDA01917/",
+          "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/12656115804830739173/CF2FDFB55A76E77680B3DB2D1F4778BBD55B4860/",
+          "transforms": {
+            "scale": 1,
+            "rotationX": -0.000003634571,
+            "rotationY": 359.992828,
+            "rotationZ": -0.00000126076475,
+            "positionX": -12.105874556609464,
+            "positionY": 3.5225010612138803,
+            "positionZ": 0
+          }
+        }
+      ]
+    },
+    {
+      "profileId": "sc_terrain_442da683d2d26342",
+      "name": "Starcraft - Terrain - Protoss Banner - d26342",
+      "kind": "terrain",
+      "parts": [
+        {
+          "modelUrl": "https://steamusercontent-a.akamaihd.net/ugc/14105390183802608805/7FFB47257CA9EFF2081057AD402634EE91CFE4B3/",
+          "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/10357068739505337484/227FFCA9C2EF66E7C219C9C58699DC368D2E91B0/",
+          "transforms": {
+            "scale": 1.0999999,
+            "rotationX": 0,
+            "rotationY": 0,
+            "rotationZ": 0,
+            "positionX": -0.04991840083928078,
+            "positionY": 0.19313588171006102,
+            "positionZ": -0.05404659728641471
+          }
+        },
+        {
+          "modelUrl": "https://steamusercontent-a.akamaihd.net/ugc/16187142815912427190/55A13DDB4E375A64ECFBD50D761B646072E7EBAD/",
+          "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/16657024294324500533/CEDC692BD0C7C290461E88545B49DE4793030D30/",
+          "transforms": {
+            "scale": 1.100000427999952,
+            "rotationX": 359.19455,
+            "rotationY": 359.924438,
+            "rotationZ": 0.8646406,
+            "positionX": 0.0030040894695833043,
+            "positionY": 0.1044691865862704,
+            "positionZ": 0.0027529029499938837
+          }
+        }
+      ]
+    },
+    {
+      "profileId": "sc_terrain_677b1df2f3ce2914",
+      "name": "Starcraft - Terrain - Protoss Banner - ce2914",
+      "kind": "terrain",
+      "parts": [
+        {
+          "modelUrl": "https://steamusercontent-a.akamaihd.net/ugc/14105390183802608805/7FFB47257CA9EFF2081057AD402634EE91CFE4B3/",
+          "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/10385263367292569965/04D6173C96DFF029CF83DB7007C803E0231DA978/",
+          "transforms": {
+            "scale": 1.0999999,
+            "rotationX": 0,
+            "rotationY": 0,
+            "rotationZ": 0,
+            "positionX": -0.049923221885842424,
+            "positionY": 0.1931357906256693,
+            "positionZ": -0.054047084001170524
+          }
+        },
+        {
+          "modelUrl": "https://steamusercontent-a.akamaihd.net/ugc/16187142815912427190/55A13DDB4E375A64ECFBD50D761B646072E7EBAD/",
+          "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/16657024294324500533/CEDC692BD0C7C290461E88545B49DE4793030D30/",
+          "transforms": {
+            "scale": 1.100000427999952,
+            "rotationX": 359.19455,
+            "rotationY": 359.924438,
+            "rotationZ": 0.8646406,
+            "positionX": 0.0030040894695833806,
+            "positionY": 0.10446918658627039,
+            "positionZ": 0.002752902949993835
+          }
+        }
+      ]
+    },
+    {
+      "profileId": "sc_mission_red",
+      "name": "Starcraft - Mission marker red",
+      "kind": "terrain",
+      "existingSkinId": 6201
+    },
+    {
+      "profileId": "sc_mission_blue",
+      "name": "Starcraft - Mission marker blue",
+      "kind": "terrain",
+      "existingSkinId": 6202
+    },
+    {
+      "profileId": "sc_mission_green",
+      "name": "Starcraft - Mission marker green",
+      "kind": "terrain",
+      "existingSkinId": 6203
+    }
+  ]
+}

@@ -334,5 +334,7 @@
       ]
     }
   ],
-  "ShowObjectiveSection": true
+  "ShowObjectiveSection": true,
+  "ShowGroupHeader": false,
+  "ShowStatlineHeader": true
 }

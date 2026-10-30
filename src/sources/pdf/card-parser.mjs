@@ -1,5 +1,6 @@
 import { normalizeText, displayName } from './names.mjs';
 import { cardText, mergeTokens } from './layout.mjs';
+import { readAbilities } from './abilities.mjs';
 import { isPhaseName, phaseSections, readWeapons } from './weapons.mjs';
 
 const statLabels = [
@@ -146,13 +147,19 @@ function readBase(back) {
 
 function readFaceProfiles(face, context) {
   const profiles = [];
+  let sourceIndex = 0;
 
   for (const section of phaseSections(face)) {
     const { weapons, consumed } = readWeapons(face, section, context);
     const weaponType = section.phase === 'COMBAT PHASE' ? 'Combat Weapon' : 'Assault Weapon';
 
     for (const weapon of weapons) {
-      profiles.push({ name: weapon.name, type: weaponType, attributes: weapon.attributes });
+      profiles.push({
+        name: weapon.name,
+        type: weaponType,
+        attributes: weapon.attributes,
+        sourceIndex: sourceIndex++,
+      });
     }
 
     const body = face.filter(
@@ -165,15 +172,9 @@ function readFaceProfiles(face, context) {
         !isPhaseName(item.s) &&
         !['UPGRADE', '⬆'].includes(item.s),
     );
-    const effect = cardText(body);
-    if (effect) {
-      const phase = displayName(section.phase);
-      profiles.push({
-        name: `${phase} abilities`,
-        type: `Rules (${phase})`,
-        attributes: { Effect: effect },
-      });
-    }
+    const abilities = readAbilities(cardText(body), section.phase, context);
+    profiles.push(...abilities.map(ability => ({ ...ability, sourceIndex })));
+    if (abilities.length) sourceIndex++;
   }
 
   return profiles;

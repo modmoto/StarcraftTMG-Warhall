@@ -3,25 +3,25 @@
     "Id": "pdf_Terran_equipment_auto_turret_default_1",
     "Name": "GAUSS CANNON",
     "Type": "Equipment",
-    "Description": "Assault Weapon\nRng: 8\nTgt: All\nRoA: 6\nHit: 3+\nSurge: -\nS.Die: -\nDmg: 1\nKeyword: PINPOINT"
+    "Description": "Assault Weapon\nRng: 8\nTgt: All\nRoA: 6\nHit: 3+\nSurge: -\nS.Die: -\nDmg: 1\nKeyword: <link=\"rule_keyword_pinpoint\">PINPOINT</link>"
   },
   {
     "Id": "pdf_Terran_equipment_goliath_default_1",
     "Name": "AUTOCANNON",
     "Type": "Equipment",
-    "Description": "Assault Weapon\nRng: 12\nTgt: Ground\nRoA: 9\nHit: 4+\nSurge: -\nS.Die: -\nDmg: 1\nKeyword: LONG RANGE (18\")"
+    "Description": "Assault Weapon\nRng: 12\nTgt: Ground\nRoA: 9\nHit: 4+\nSurge: -\nS.Die: -\nDmg: 1\nKeyword: <link=\"rule_keyword_long_range\">LONG RANGE</link> (18\")"
   },
   {
     "Id": "pdf_Terran_equipment_goliath_default_2",
     "Name": "UNDERBELLY MACHINE GUN",
     "Type": "Equipment",
-    "Description": "Assault Weapon\nRng: 8\nTgt: Ground\nRoA: 6\nHit: 3+\nSurge: Light\nS.Die: D3\nDmg: 1\nKeyword: PINPOINT, SIDEARM"
+    "Description": "Assault Weapon\nRng: 8\nTgt: Ground\nRoA: 6\nHit: 3+\nSurge: Light\nS.Die: D3\nDmg: 1\nKeyword: <link=\"rule_keyword_pinpoint\">PINPOINT</link>, <link=\"rule_keyword_sidearm\">SIDEARM</link>"
   },
   {
     "Id": "pdf_Terran_equipment_goliath_default_3",
     "Name": "HELLFIRE MISSILES",
     "Type": "Equipment",
-    "Description": "Assault Weapon\nRng: 16\nTgt: Flying\nRoA: 6\nHit: 3+\nSurge: Light\nS.Die: D3\nDmg: 1\nKeyword: ANTI-EVADE (1), SIDEARM"
+    "Description": "Assault Weapon\nRng: 16\nTgt: <link=\"rule_keyword_flying\">Flying</link>\nRoA: 6\nHit: 3+\nSurge: Light\nS.Die: D3\nDmg: 1\nKeyword: <link=\"rule_keyword_anti_evade\">ANTI-EVADE</link> (1), <link=\"rule_keyword_sidearm\">SIDEARM</link>"
   },
   {
     "Id": "pdf_Terran_equipment_goliath_default_5",
@@ -33,13 +33,13 @@
     "Id": "pdf_Terran_equipment_jim_raynor_default_2",
     "Name": "COMMANDO RIFLE",
     "Type": "Equipment",
-    "Description": "Assault Weapon\nRng: 18\nTgt: All\nRoA: 3\nHit: 3+\nSurge: Armoured\nS.Die: D3\nDmg: 1\nKeyword: BULKY, PIERCE Armoured (3)"
+    "Description": "Assault Weapon\nRng: 18\nTgt: All\nRoA: 3\nHit: 3+\nSurge: Armoured\nS.Die: D3\nDmg: 1\nKeyword: <link=\"rule_keyword_bulky\">BULKY</link>, <link=\"rule_keyword_pierce\">PIERCE</link> Armoured (3)"
   },
   {
     "Id": "pdf_Terran_equipment_jim_raynor_default_3",
     "Name": "“JUSTICE” REVOLVER",
     "Type": "Equipment",
-    "Description": "Assault Weapon\nRng: 6\nTgt: Ground\nRoA: 2\nHit: 3+\nSurge: -\nS.Die: -\nDmg: 2\nKeyword: ANTI-EVADE (2), SIDEARM, PINPOINT"
+    "Description": "Assault Weapon\nRng: 6\nTgt: Ground\nRoA: 2\nHit: 3+\nSurge: -\nS.Die: -\nDmg: 2\nKeyword: <link=\"rule_keyword_anti_evade\">ANTI-EVADE</link> (2), <link=\"rule_keyword_sidearm\">SIDEARM</link>, <link=\"rule_keyword_pinpoint\">PINPOINT</link>"
   },
   {
     "Id": "pdf_Terran_equipment_jim_raynor_default_4",
@@ -51,7 +51,7 @@
     "Id": "pdf_Terran_equipment_marauders_default_1",
     "Name": "QUAD K12",
     "Type": "Equipment",
-    "Description": "Assault Weapon\nRng: 12\nTgt: Ground\nRoA: 3\nHit: 3+\nSurge: Armoured\nS.Die: D3\nDmg: 1\nKeyword: PIERCE Armoured (2)"
+    "Description": "Assault Weapon\nRng: 12\nTgt: Ground\nRoA: 3\nHit: 3+\nSurge: Armoured\nS.Die: D3\nDmg: 1\nKeyword: <link=\"rule_keyword_pierce\">PIERCE</link> Armoured (2)"
   },
   {
     "Id": "pdf_Terran_equipment_marauders_default_3",
@@ -81,7 +81,7 @@
     "Id": "pdf_Terran_equipment_nova_assault_mode_default_2",
     "Name": "HELLFIRE SHOTGUN",
     "Type": "Equipment",
-    "Description": "Assault Weapon\nRng: 8\nTgt: Ground\nRoA: 3\nHit: 4+\nSurge: Light\nS.Die: D3\nDmg: 2\nKeyword: ANTI-EVADE (1), BURST FIRE 4\" (3)"
+    "Description": "Assault Weapon\nRng: 8\nTgt: Ground\nRoA: 3\nHit: 4+\nSurge: Light\nS.Die: D3\nDmg: 2\nKeyword: <link=\"rule_keyword_anti_evade\">ANTI-EVADE</link> (1), <link=\"rule_keyword_burst_fire\">BURST FIRE</link> 4\" (3)"
   },
   {
     "Id": "pdf_Terran_equipment_nova_assault_mode_default_4",
@@ -93,7 +93,7 @@
     "Id": "pdf_Terran_equipment_nova_stealth_mode_default_2",
     "Name": "C-20A CANISTER RIFLE",
     "Type": "Equipment",
-    "Description": "Assault Weapon\nRng: 12\nTgt: All\nRoA: 4\nHit: 3+\nSurge: -\nS.Die: -\nDmg: 2\nKeyword: CRITICAL HIT (2), LONG RANGE (18\")"
+    "Description": "Assault Weapon\nRng: 12\nTgt: All\nRoA: 4\nHit: 3+\nSurge: -\nS.Die: -\nDmg: 2\nKeyword: <link=\"rule_keyword_critical_hit\">CRITICAL HIT</link> (2), <link=\"rule_keyword_long_range\">LONG RANGE</link> (18\")"
   },
   {
     "Id": "pdf_Terran_equipment_nova_stealth_mode_default_4",
@@ -123,13 +123,13 @@
     "Id": "pdf_Terran_equipment_siege_tank_default_1",
     "Name": "TWIN CANNON",
     "Type": "Equipment",
-    "Description": "Assault Weapon\nRng: 12\nTgt: Ground\nRoA: 8\nHit: 3+\nSurge: Armoured\nS.Die: D6\nDmg: 1\nKeyword: PIERCE Armoured (2)"
+    "Description": "Assault Weapon\nRng: 12\nTgt: Ground\nRoA: 8\nHit: 3+\nSurge: Armoured\nS.Die: D6\nDmg: 1\nKeyword: <link=\"rule_keyword_pierce\">PIERCE</link> Armoured (2)"
   },
   {
     "Id": "pdf_Terran_equipment_siege_tank_default_2",
     "Name": "SHOCK CANNON",
     "Type": "Equipment",
-    "Description": "Assault Weapon\nRng: 18\nTgt: Ground\nRoA: BT+4\nHit: 4+\nSurge: Light, Armoured\nS.Die: BT\nDmg: 1\nKeyword: SIEGE MODE Status"
+    "Description": "Assault Weapon\nRng: 18\nTgt: Ground\nRoA: BT+4\nHit: 4+\nSurge: Light, Armoured\nS.Die: BT\nDmg: 1\nKeyword: <link=\"rule_keyword_siege_mode\">SIEGE MODE</link> <link=\"rule_keyword_status\">Status</link>"
   },
   {
     "Id": "pdf_Terran_equipment_siege_tank_default_4",
@@ -141,7 +141,7 @@
     "Id": "pdf_Terran_equipment_spec_ops_marauder_marauder_default_2",
     "Name": "QUAD K12",
     "Type": "Equipment",
-    "Description": "Assault Weapon\nRng: 12\nTgt: Ground\nRoA: 3\nHit: 3+\nSurge: Armoured\nS.Die: D3\nDmg: 1\nKeyword: LONG RANGE (16\"), PIERCE Armoured (2)"
+    "Description": "Assault Weapon\nRng: 12\nTgt: Ground\nRoA: 3\nHit: 3+\nSurge: Armoured\nS.Die: D3\nDmg: 1\nKeyword: <link=\"rule_keyword_long_range\">LONG RANGE</link> (16\"), <link=\"rule_keyword_pierce\">PIERCE</link> Armoured (2)"
   },
   {
     "Id": "pdf_Terran_equipment_spec_ops_marauder_marauder_default_4",

@@ -3,7 +3,7 @@
     "Id": "pdf_Terran_unit_auto_turret",
     "Name": "Auto-Turret",
     "Type": "Unit",
-    "Description": "Official card values. Source: https://archon-studio.com/files/manuals/sc/StarCraft-Terran-P2P-W3-Card-Sheets-A4_EN.pdf, page 7.\n\n40 mm round base. Place models and apply upgrades manually.\n\nCategories: Other, Armoured, Mechanical, Ground.",
+    "Description": "Categories: Other, Armoured, Mechanical, Ground\nModels / Supply: 1-1: 0",
     "BasicProfileIds": [
       "pdf_Terran_profile_auto_turret"
     ],
@@ -15,7 +15,7 @@
     "Id": "pdf_Terran_unit_goliath",
     "Name": "Goliath",
     "Type": "Unit",
-    "Description": "Official card values. Source: https://archon-studio.com/files/manuals/sc/StarCraft-Terran-P2P-Card-Sheets-A4_EN.pdf, page 7.\n\n80 mm round base. Place models and apply upgrades manually.\n\nCategories: Elite, Armoured, Mechanical, Ground.\n\nOPTIONAL UPGRADE (not applied): Official upgrade card (manual)\nAny Phase abilities\nEffect: ARES-CLASS TARGETING SYSTEM: PASSIVE This Unit's Autocannon and\nUnderbelly Machine Gun weapons gain PRECISION (1) .\n\nSCATTER MISSILES\nRng: 18\nTgt: Ground\nRoA: 6\nHit: 5+\nSurge: Light\nS.Die: D3\nDmg: 1\nKeyword: INDIRECT FIRE, LOCKED IN (6), LONG RANGE (24\"), SIDEARM\nNotes: ↑ FOR HELLFIRE MISSILES\n\nHAYWIRE MISSILES\nRng: 12\nTgt: Ground\nRoA: 3\nHit: 3+\nSurge: Armoured\nS.Die: D3\nDmg: 1\nKeyword: PIERCE Armoured (3), SIDEARM\nNotes: ↑ FOR HELLFIRE MISSILES\n\nAvailable upgrade choices (manual): Official upgrade card (manual).",
+    "Description": "Categories: Elite, Armoured, Mechanical, Ground\nModels / Supply: 1-1: 2",
     "BasicProfileIds": [
       "pdf_Terran_profile_goliath"
     ],
@@ -27,7 +27,7 @@
     "Id": "pdf_Terran_unit_holo_decoy",
     "Name": "Holo Decoy",
     "Type": "Unit",
-    "Description": "Official card values. Source: https://archon-studio.com/files/manuals/sc/StarCraft-Terran-P2P-W3-Card-Sheets-A4_EN.pdf, page 3.\n\n32 mm round base. Place models and apply upgrades manually.\n\nCategories: Other, Psionic, Ground.",
+    "Description": "Categories: Other, Psionic, Ground\nModels / Supply: 1-1: 0",
     "BasicProfileIds": [
       "pdf_Terran_profile_holo_decoy"
     ],
@@ -39,7 +39,7 @@
     "Id": "pdf_Terran_unit_jim_raynor",
     "Name": "Jim Raynor",
     "Type": "Unit",
-    "Description": "Official card values. Source: https://archon-studio.com/files/manuals/sc/StarCraft-Terran-P2P-Card-Sheets-A4_EN.pdf, page 4.\n\n40 mm round base. Place models and apply upgrades manually.\n\nCategories: Hero, Biological, Ground.\n\nOPTIONAL UPGRADE (not applied): Official upgrade card (manual)\nC-14 RIFLE\nRng: 12\nTgt: All\nRoA: 6\nHit: 3+\nSurge: Light\nS.Die: D3+1\nDmg: 1\nKeyword: BURST FIRE 8\" (3)\nNotes: ↑ FOR COMMANDO RIFLE\n\nAvailable upgrade choices (manual): Official upgrade card (manual).",
+    "Description": "Categories: Hero, Biological, Ground\nModels / Supply: 1-1: 1",
     "BasicProfileIds": [
       "pdf_Terran_profile_jim_raynor"
     ],
@@ -51,7 +51,7 @@
     "Id": "pdf_Terran_unit_marauders",
     "Name": "Marauders",
     "Type": "Unit",
-    "Description": "Official card values. Source: https://archon-studio.com/files/manuals/sc/StarCraft-Terran-P2P-Card-Sheets-A4_EN.pdf, page 2.\n\n50 mm round base. Place models and apply upgrades manually.\n\nCategories: Core, Armoured, Biological, Ground.\n\nOPTIONAL UPGRADE (not applied): Official upgrade card (manual)\nAny Phase abilities\nEffect: VETERAN OF\nTARSONIS: PASSIVE While this Unit is Within 3\" of a Mission\nMarker , its Armour characteristic is increased by 1 .\nKINETIC FOAM: PASSIVE Increase this Unit's Hit Points\ncharacteristic by 1 .\n\nAssault Phase abilities\nEffect: LASER TARGETING SYSTEMS: PASSIVE This Unit's Quad K12 weapon gains LONG RANGE (16\") .\n\nAvailable upgrade choices (manual): Official upgrade card (manual).",
+    "Description": "Categories: Core, Armoured, Biological, Ground\nModels / Supply: 1-1: 0 | 2-2: 1 | 3-4: 2",
     "BasicProfileIds": [
       "pdf_Terran_profile_marauders"
     ],
@@ -63,7 +63,7 @@
     "Id": "pdf_Terran_unit_medics",
     "Name": "Medics",
     "Type": "Unit",
-    "Description": "Official card values. Source: https://archon-studio.com/files/manuals/sc/StarCraft-Terran-P2P-Card-Sheets-A4_EN.pdf, page 3.\n\n32 mm round base. Place models and apply upgrades manually.\n\nCategories: Support, Biological, Light, Ground.\n\nOPTIONAL UPGRADE (not applied): Official upgrade card (manual)\nAny Phase abilities\nEffect: ADVANCED MEDIC\nFACILITIES: PASSIVE This Unit's Supply Value counts\nas 0 when calculating the Supply Pool .\nA-13 FLASH GRENADE LAUNCHER: PASSIVE Increase the\nOptical Flare special ability's Range to 16\" .\nSTABILIZER MEDPACKS: PASSIVE When this Unit resolves\na Life Support or Medpack ability, treat it as having\n1 additional model Within Range for calculating that\nability's effects.\n\nAvailable upgrade choices (manual): Official upgrade card (manual).",
+    "Description": "Categories: Support, Biological, Light, Ground\nModels / Supply: 1-1: 0 | 2-3: 1",
     "BasicProfileIds": [
       "pdf_Terran_profile_medics"
     ],
@@ -75,7 +75,7 @@
     "Id": "pdf_Terran_unit_nova_assault_mode",
     "Name": "Nova Assault Mode",
     "Type": "Unit",
-    "Description": "Official card values. Source: https://archon-studio.com/files/manuals/sc/StarCraft-Terran-P2P-W3-Card-Sheets-A4_EN.pdf, page 2.\n\n40 mm round base. Place models and apply upgrades manually.\n\nCategories: Hero, Biological, Psionic, Ground.",
+    "Description": "Categories: Hero, Biological, Psionic, Ground\nModels / Supply: 1-1: 1",
     "BasicProfileIds": [
       "pdf_Terran_profile_nova_assault_mode"
     ],
@@ -87,7 +87,7 @@
     "Id": "pdf_Terran_unit_nova_stealth_mode",
     "Name": "Nova Stealth Mode",
     "Type": "Unit",
-    "Description": "Official card values. Source: https://archon-studio.com/files/manuals/sc/StarCraft-Terran-P2P-W3-Card-Sheets-A4_EN.pdf, page 1.\n\n40 mm round base. Place models and apply upgrades manually.\n\nCategories: Hero, Biological, Psionic, Ground.",
+    "Description": "Categories: Hero, Biological, Psionic, Ground\nModels / Supply: 1-1: 1",
     "BasicProfileIds": [
       "pdf_Terran_profile_nova_stealth_mode"
     ],
@@ -99,7 +99,7 @@
     "Id": "pdf_Terran_unit_point_defense_drone",
     "Name": "Point Defense Drone",
     "Type": "Unit",
-    "Description": "Official card values. Source: https://archon-studio.com/files/manuals/sc/StarCraft-Terran-P2P-Card-Sheets-A4_EN.pdf, page 5.\n\n32 mm round base. Place models and apply upgrades manually.\n\nCategories: Other, Armoured, Flying, Mechanical.",
+    "Description": "Categories: Other, Armoured, Flying, Mechanical\nModels / Supply: 1-1: 0",
     "BasicProfileIds": [
       "pdf_Terran_profile_point_defense_drone"
     ],
@@ -111,7 +111,7 @@
     "Id": "pdf_Terran_unit_raven",
     "Name": "Raven",
     "Type": "Unit",
-    "Description": "Official card values. Source: https://archon-studio.com/files/manuals/sc/StarCraft-Terran-P2P-W3-Card-Sheets-A4_EN.pdf, page 6.\n\n100 mm round base. Place models and apply upgrades manually.\n\nCategories: Support, Light, Mechanical, Flying.\n\nOPTIONAL UPGRADE (not applied): Official upgrade card (manual)\nAny Phase abilities\nEffect: CORVID REACTOR: PASSIVE This Unit may resolve its first Special Ability with the\nCP cost reduced by 1 if it targets the closest Enemy Unit.\n\nMovement Phase abilities\nEffect: INTERNAL TECH MODULE: PASSIVE When this Unit is\nnominated to deploy from Reserves , it may Deploy from any table edge that is not a player's Entry Edge . This Unit\ncannot be set Within 8\" of any Enemy model.\nSEEKER MISSILE: ACTIVE 1 CP Select one Enemy Unit Within 12\" . At the End of the Assault Phase , if that Enemy\nUnit has the Stationary Status or it is Within 8'' of this Unit, it suffers HITS 4 (2) . If that Unit is Engaged , it is\neligible to make an Evade Roll against these hits.\n\nAssault Phase abilities\nEffect: EXPLOSIVE SHRAPNEL SHELLS: PASSIVE The Gauss Cannon of the\nAuto-Turret set by this Unit gains Surge Type: Light and S-Dice: D3+1 .\n\nAvailable upgrade choices (manual): Official upgrade card (manual).",
+    "Description": "Categories: Support, Light, Mechanical, Flying\nModels / Supply: 1-1: 1",
     "BasicProfileIds": [
       "pdf_Terran_profile_raven"
     ],
@@ -123,7 +123,7 @@
     "Id": "pdf_Terran_unit_raynor_s_raiders",
     "Name": "Raynor's Raiders",
     "Type": "Unit",
-    "Description": "Official card values. Source: https://archon-studio.com/files/manuals/sc/StarCraft-Terran-P2P-Card-Sheets-A4_EN.pdf, page 6.\n\n32 mm round base. Place models and apply upgrades manually.\n\nCategories: Core, Biological, Light, Ground.",
+    "Description": "Categories: Core, Biological, Light, Ground\nModels / Supply: 1-6: 1",
     "BasicProfileIds": [
       "pdf_Terran_profile_raynor_s_raiders"
     ],
@@ -135,7 +135,7 @@
     "Id": "pdf_Terran_unit_sabotage_drone",
     "Name": "Sabotage Drone",
     "Type": "Unit",
-    "Description": "Official card values. Source: https://archon-studio.com/files/manuals/sc/StarCraft-Terran-P2P-W3-Card-Sheets-A4_EN.pdf, page 4.\n\n40 mm round base. Place models and apply upgrades manually.\n\nCategories: Other, Armoured, Mechanical, Ground.",
+    "Description": "Categories: Other, Armoured, Mechanical, Ground\nModels / Supply: 1-1: 0",
     "BasicProfileIds": [
       "pdf_Terran_profile_sabotage_drone"
     ],
@@ -147,7 +147,7 @@
     "Id": "pdf_Terran_unit_siege_tank",
     "Name": "Siege Tank",
     "Type": "Unit",
-    "Description": "Official card values. Source: https://archon-studio.com/files/manuals/sc/StarCraft-Terran-P2P-W2-Card-Sheets-A4_EN.pdf, page 1.\n\n150 mm round base. Place models and apply upgrades manually.\n\nCategories: Elite, Armoured, Mechanical, Ground.\n\nOPTIONAL UPGRADE (not applied): Official upgrade card (manual)\nMovement Phase abilities\nEffect: MODE TRANSFORMATION: ACTIVE 1 CP The active\nUnit gains or loses the SIEGE MODE Status .\nWhile this Unit has the SIEGE MODE Status , its Size\ncharacteristic is treated as if it was 3 .\nCOORDINATED STRIKE: ACTIVE 0 CP Target a Friendly\nNon-Engaged Unit on the battlefield ( Line of Sight\nis not required). When this Unit resolves a Ranged\nAttack using the Shock Cannon weapon profile this\nRound , it may choose to ignore the weapon's standard\nRange characteristic. If it does, it may target an Enemy\nUnit that is Within 8\" of, and Visible to, a model of\nthe selected Friendly Unit, treating that model as the\nacting model.\n\nAssault Phase abilities\nEffect: SHAPED BLAST: REACTION 0 CP Once per Game .\nWhen this Unit declares a Ranged Attack action.\nIf this Unit has SIEGE MODE Status , its weapon gains\nPINPOINT and LOCKED IN (4) .\nSMART SHELLS: REACTION 0 CP Once per Game .\nWhen this Unit declares a Ranged Attack action.\nIf this Unit has SIEGE MODE Status , its weapon gains\nINDIRECT FIRE and LONG RANGE (24) .\n\nAvailable upgrade choices (manual): Official upgrade card (manual).",
+    "Description": "Categories: Elite, Armoured, Mechanical, Ground\nModels / Supply: 1-1: 2",
     "BasicProfileIds": [
       "pdf_Terran_profile_siege_tank"
     ],
@@ -159,7 +159,7 @@
     "Id": "pdf_Terran_unit_spec_ops_marauder_marauder",
     "Name": "Spec Ops Marauder (Marauder)",
     "Type": "Unit",
-    "Description": "Official card values. Source: https://archon-studio.com/files/manuals/sc/StarCraft-Terran-P2P-W3-Card-Sheets-A4_EN.pdf, page 5.\n\n50 mm round base. Place models and apply upgrades manually.\n\nCategories: Core, Armoured, Biological, Ground.",
+    "Description": "Categories: Core, Armoured, Biological, Ground\nModels / Supply: 1-1: 0 | 2-2: 1",
     "BasicProfileIds": [
       "pdf_Terran_profile_spec_ops_marauder_marauder"
     ],
@@ -171,7 +171,7 @@
     "Id": "unit_marine",
     "Name": "Marines",
     "Type": "Unit",
-    "Description": "Official card values. Source: https://archon-studio.com/files/manuals/sc/StarCraft-Terran-P2P-Card-Sheets-A4_EN.pdf, page 1.\n\n32 mm round base. Place models and apply upgrades manually.\n\nCategories: Core, Biological, Light, Ground.\n\nOPTIONAL UPGRADE (not applied): Official upgrade card (manual)\nMovement Phase abilities\nEffect: COMBAT SHIELD: ACTIVE 1 CP This Unit is always eligible\nto make an Evade Roll against any Close Combat Attack targeting it and any Damage from an Enemy Special\nAbility .\n\nAGG-12\nRng: 12\nTgt: Ground\nRoA: 2\nHit: 3+\nSurge: Armoured\nS.Die: D3\nDmg: 1\nKeyword: LONG RANGE (18\"), SPECIALIST\nNotes: ↑ FOR C-14 RIFFLE\n\nROCKET LAUNCHER\nRng: 12\nTgt: Ground\nRoA: 4\nHit: 3+\nSurge: -\nS.Die: -\nDmg: 1\nKeyword: INDIRECT FIRE, LONG RANGE (18\"), SIDEARM, SPECIALIST\n\nAssault Phase abilities\nEffect: SLUGTHROWER: PASSIVE When this Unit makes\na Ranged Attack with a C-14 Rifle and the target is\nWithin 8\" , that weapon gains ANTI-EVADE (1) .\nGRENADES - FRAG: PASSIVE When this Unit makes\na Ranged Attack with a C-14 Rifle and the target is\nWithin 8\" , that weapon's S Dice is replaced by D6 .\n\nBAYONET\nRng: E\nTgt: Ground\nRoA: 2\nHit: 5+\nSurge: -\nS.Die: -\nDmg: 1\nKeyword: -\nNotes: ↑ FOR STRIKE\n\nAvailable upgrade choices (manual): Official upgrade card (manual).",
+    "Description": "Categories: Core, Biological, Light, Ground\nModels / Supply: 1-3: 0 | 4-6: 1 | 7-9: 2",
     "BasicProfileIds": [
       "prof_marine"
     ],

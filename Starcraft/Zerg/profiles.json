@@ -9,16 +9,34 @@
         "Id": "pdf_Zerg_stat_bile_launcher"
       },
       {
-        "Id": "pdf_Zerg_rule_bile_launcher_default_0"
+        "Id": "pdf_Zerg_profile_bile_launcher_phase_any_phase"
       },
       {
-        "Id": "pdf_Zerg_rule_bile_launcher_default_1"
+        "Id": "pdf_Zerg_rule_bile_launcher_any_phase_biological_structure"
       },
       {
-        "Id": "pdf_Zerg_equipment_bile_launcher_default_2"
+        "Id": "pdf_Zerg_rule_bile_launcher_any_phase_detection"
       },
       {
-        "Id": "pdf_Zerg_rule_bile_launcher_default_3"
+        "Id": "pdf_Zerg_rule_bile_launcher_any_phase_source_of_creep"
+      },
+      {
+        "Id": "pdf_Zerg_profile_bile_launcher_phase_movement_phase"
+      },
+      {
+        "Id": "pdf_Zerg_rule_bile_launcher_movement_phase_burrow_ambush"
+      },
+      {
+        "Id": "pdf_Zerg_rule_bile_launcher_movement_phase_bombard"
+      },
+      {
+        "Id": "pdf_Zerg_profile_bile_launcher_phase_assault_phase"
+      },
+      {
+        "Id": "pdf_Zerg_equipment_bile_launcher_default_2_table"
+      },
+      {
+        "Id": "pdf_Zerg_rule_bile_launcher_assault_phase_indomitable"
       }
     ]
   },
@@ -32,19 +50,34 @@
         "Id": "pdf_Zerg_stat_corpsers_roach"
       },
       {
-        "Id": "pdf_Zerg_rule_corpsers_roach_default_0"
+        "Id": "pdf_Zerg_profile_corpsers_roach_phase_any_phase"
       },
       {
-        "Id": "pdf_Zerg_rule_corpsers_roach_default_1"
+        "Id": "pdf_Zerg_rule_corpsers_roach_any_phase_burrow"
       },
       {
-        "Id": "pdf_Zerg_equipment_corpsers_roach_default_2"
+        "Id": "pdf_Zerg_profile_corpsers_roach_phase_movement_phase"
       },
       {
-        "Id": "pdf_Zerg_rule_corpsers_roach_default_3"
+        "Id": "pdf_Zerg_rule_corpsers_roach_movement_phase_roachling_infestation"
       },
       {
-        "Id": "pdf_Zerg_equipment_corpsers_roach_default_4"
+        "Id": "pdf_Zerg_profile_corpsers_roach_phase_assault_phase"
+      },
+      {
+        "Id": "pdf_Zerg_equipment_corpsers_roach_default_2_table"
+      },
+      {
+        "Id": "pdf_Zerg_rule_corpsers_roach_assault_phase_regeneration"
+      },
+      {
+        "Id": "pdf_Zerg_rule_corpsers_roach_assault_phase_devastating_charge"
+      },
+      {
+        "Id": "pdf_Zerg_profile_corpsers_roach_phase_melee_phase"
+      },
+      {
+        "Id": "pdf_Zerg_equipment_corpsers_roach_default_4_table"
       }
     ]
   },
@@ -58,16 +91,31 @@
         "Id": "pdf_Zerg_stat_defiler"
       },
       {
-        "Id": "pdf_Zerg_rule_defiler_default_0"
+        "Id": "pdf_Zerg_profile_defiler_phase_any_phase"
       },
       {
-        "Id": "pdf_Zerg_rule_defiler_default_1"
+        "Id": "pdf_Zerg_rule_defiler_any_phase_consume"
       },
       {
-        "Id": "pdf_Zerg_rule_defiler_default_2"
+        "Id": "pdf_Zerg_profile_defiler_phase_movement_phase"
       },
       {
-        "Id": "pdf_Zerg_equipment_defiler_default_3"
+        "Id": "pdf_Zerg_rule_defiler_movement_phase_gestate_dark_swarm"
+      },
+      {
+        "Id": "pdf_Zerg_profile_defiler_phase_assault_phase"
+      },
+      {
+        "Id": "pdf_Zerg_rule_defiler_assault_phase_dark_swarm"
+      },
+      {
+        "Id": "pdf_Zerg_rule_defiler_assault_phase_devastating_charge"
+      },
+      {
+        "Id": "pdf_Zerg_profile_defiler_phase_melee_phase"
+      },
+      {
+        "Id": "pdf_Zerg_equipment_defiler_default_3_table"
       }
     ]
   },
@@ -81,16 +129,25 @@
         "Id": "pdf_Zerg_stat_hydralisks"
       },
       {
-        "Id": "pdf_Zerg_rule_hydralisks_default_0"
+        "Id": "pdf_Zerg_profile_hydralisks_phase_any_phase"
       },
       {
-        "Id": "pdf_Zerg_equipment_hydralisks_default_1"
+        "Id": "pdf_Zerg_rule_hydralisks_any_phase_squadron"
       },
       {
-        "Id": "pdf_Zerg_rule_hydralisks_default_2"
+        "Id": "pdf_Zerg_profile_hydralisks_phase_assault_phase"
       },
       {
-        "Id": "pdf_Zerg_equipment_hydralisks_default_3"
+        "Id": "pdf_Zerg_equipment_hydralisks_default_1_table"
+      },
+      {
+        "Id": "pdf_Zerg_rule_hydralisks_assault_phase_lunge"
+      },
+      {
+        "Id": "pdf_Zerg_profile_hydralisks_phase_melee_phase"
+      },
+      {
+        "Id": "pdf_Zerg_equipment_hydralisks_default_3_table"
       }
     ]
   },
@@ -104,19 +161,37 @@
         "Id": "pdf_Zerg_stat_kerrigan"
       },
       {
-        "Id": "pdf_Zerg_rule_kerrigan_default_0"
+        "Id": "pdf_Zerg_profile_kerrigan_phase_any_phase"
       },
       {
-        "Id": "pdf_Zerg_rule_kerrigan_default_1"
+        "Id": "pdf_Zerg_rule_kerrigan_any_phase_commander"
       },
       {
-        "Id": "pdf_Zerg_equipment_kerrigan_default_2"
+        "Id": "pdf_Zerg_profile_kerrigan_phase_movement_phase"
       },
       {
-        "Id": "pdf_Zerg_rule_kerrigan_default_3"
+        "Id": "pdf_Zerg_rule_kerrigan_movement_phase_crushing_grip"
       },
       {
-        "Id": "pdf_Zerg_equipment_kerrigan_default_4"
+        "Id": "pdf_Zerg_rule_kerrigan_movement_phase_mutating_carapace"
+      },
+      {
+        "Id": "pdf_Zerg_profile_kerrigan_phase_assault_phase"
+      },
+      {
+        "Id": "pdf_Zerg_equipment_kerrigan_default_2_table"
+      },
+      {
+        "Id": "pdf_Zerg_rule_kerrigan_assault_phase_leaping_strike"
+      },
+      {
+        "Id": "pdf_Zerg_rule_kerrigan_assault_phase_devastating_charge"
+      },
+      {
+        "Id": "pdf_Zerg_profile_kerrigan_phase_melee_phase"
+      },
+      {
+        "Id": "pdf_Zerg_equipment_kerrigan_default_4_table"
       }
     ]
   },
@@ -130,13 +205,31 @@
         "Id": "pdf_Zerg_stat_kerrigan_swarm_raptors_zergling"
       },
       {
-        "Id": "pdf_Zerg_rule_kerrigan_swarm_raptors_zergling_default_0"
+        "Id": "pdf_Zerg_profile_kerrigan_swarm_raptors_zergling_phase_any_phase"
       },
       {
-        "Id": "pdf_Zerg_rule_kerrigan_swarm_raptors_zergling_default_1"
+        "Id": "pdf_Zerg_rule_kerrigan_swarm_raptors_zergling_any_phase_squadron"
       },
       {
-        "Id": "pdf_Zerg_equipment_kerrigan_swarm_raptors_zergling_default_2"
+        "Id": "pdf_Zerg_rule_kerrigan_swarm_raptors_zergling_any_phase_raptor_strain"
+      },
+      {
+        "Id": "pdf_Zerg_profile_kerrigan_swarm_raptors_zergling_phase_assault_phase"
+      },
+      {
+        "Id": "pdf_Zerg_rule_kerrigan_swarm_raptors_zergling_assault_phase_leap"
+      },
+      {
+        "Id": "pdf_Zerg_rule_kerrigan_swarm_raptors_zergling_assault_phase_devastating_charge"
+      },
+      {
+        "Id": "pdf_Zerg_rule_kerrigan_swarm_raptors_zergling_assault_phase_adrenal_overload"
+      },
+      {
+        "Id": "pdf_Zerg_profile_kerrigan_swarm_raptors_zergling_phase_melee_phase"
+      },
+      {
+        "Id": "pdf_Zerg_equipment_kerrigan_swarm_raptors_zergling_default_2_table"
       }
     ]
   },
@@ -150,7 +243,19 @@
         "Id": "pdf_Zerg_stat_omega_worm"
       },
       {
-        "Id": "pdf_Zerg_rule_omega_worm_default_0"
+        "Id": "pdf_Zerg_profile_omega_worm_phase_any_phase"
+      },
+      {
+        "Id": "pdf_Zerg_rule_omega_worm_any_phase_detection"
+      },
+      {
+        "Id": "pdf_Zerg_rule_omega_worm_any_phase_source_of_creep"
+      },
+      {
+        "Id": "pdf_Zerg_rule_omega_worm_any_phase_structure"
+      },
+      {
+        "Id": "pdf_Zerg_rule_omega_worm_any_phase_omega_network"
       }
     ]
   },
@@ -164,19 +269,37 @@
         "Id": "pdf_Zerg_stat_queen"
       },
       {
-        "Id": "pdf_Zerg_rule_queen_default_0"
+        "Id": "pdf_Zerg_profile_queen_phase_any_phase"
       },
       {
-        "Id": "pdf_Zerg_equipment_queen_default_1"
+        "Id": "pdf_Zerg_rule_queen_any_phase_spawn_creep_tumor"
       },
       {
-        "Id": "pdf_Zerg_equipment_queen_default_2"
+        "Id": "pdf_Zerg_rule_queen_any_phase_transfusion"
       },
       {
-        "Id": "pdf_Zerg_rule_queen_default_3"
+        "Id": "pdf_Zerg_rule_queen_any_phase_restoration"
       },
       {
-        "Id": "pdf_Zerg_equipment_queen_default_4"
+        "Id": "pdf_Zerg_rule_queen_any_phase_psionic_link"
+      },
+      {
+        "Id": "pdf_Zerg_profile_queen_phase_assault_phase"
+      },
+      {
+        "Id": "pdf_Zerg_equipment_queen_default_1_table"
+      },
+      {
+        "Id": "pdf_Zerg_equipment_queen_default_2_table"
+      },
+      {
+        "Id": "pdf_Zerg_rule_queen_assault_phase_devastating_charge"
+      },
+      {
+        "Id": "pdf_Zerg_profile_queen_phase_melee_phase"
+      },
+      {
+        "Id": "pdf_Zerg_equipment_queen_default_4_table"
       }
     ]
   },
@@ -190,13 +313,31 @@
         "Id": "pdf_Zerg_stat_raptors_zergling"
       },
       {
-        "Id": "pdf_Zerg_rule_raptors_zergling_default_0"
+        "Id": "pdf_Zerg_profile_raptors_zergling_phase_any_phase"
       },
       {
-        "Id": "pdf_Zerg_rule_raptors_zergling_default_1"
+        "Id": "pdf_Zerg_rule_raptors_zergling_any_phase_squadron"
       },
       {
-        "Id": "pdf_Zerg_equipment_raptors_zergling_default_2"
+        "Id": "pdf_Zerg_rule_raptors_zergling_any_phase_raptor_strain"
+      },
+      {
+        "Id": "pdf_Zerg_profile_raptors_zergling_phase_assault_phase"
+      },
+      {
+        "Id": "pdf_Zerg_rule_raptors_zergling_assault_phase_adrenal_overload"
+      },
+      {
+        "Id": "pdf_Zerg_rule_raptors_zergling_assault_phase_devastating_charge"
+      },
+      {
+        "Id": "pdf_Zerg_rule_raptors_zergling_assault_phase_metabolic_boost"
+      },
+      {
+        "Id": "pdf_Zerg_profile_raptors_zergling_phase_melee_phase"
+      },
+      {
+        "Id": "pdf_Zerg_equipment_raptors_zergling_default_2_table"
       }
     ]
   },
@@ -210,19 +351,34 @@
         "Id": "pdf_Zerg_stat_ravagers"
       },
       {
-        "Id": "pdf_Zerg_rule_ravagers_default_0"
+        "Id": "pdf_Zerg_profile_ravagers_phase_any_phase"
       },
       {
-        "Id": "pdf_Zerg_rule_ravagers_default_1"
+        "Id": "pdf_Zerg_rule_ravagers_any_phase_squadron"
       },
       {
-        "Id": "pdf_Zerg_equipment_ravagers_default_2"
+        "Id": "pdf_Zerg_profile_ravagers_phase_movement_phase"
       },
       {
-        "Id": "pdf_Zerg_rule_ravagers_default_3"
+        "Id": "pdf_Zerg_rule_ravagers_movement_phase_deep_tunnel"
       },
       {
-        "Id": "pdf_Zerg_equipment_ravagers_default_4"
+        "Id": "pdf_Zerg_rule_ravagers_movement_phase_corrosive_bile"
+      },
+      {
+        "Id": "pdf_Zerg_profile_ravagers_phase_assault_phase"
+      },
+      {
+        "Id": "pdf_Zerg_equipment_ravagers_default_2_table"
+      },
+      {
+        "Id": "pdf_Zerg_rule_ravagers_assault_phase_devastating_charge"
+      },
+      {
+        "Id": "pdf_Zerg_profile_ravagers_phase_melee_phase"
+      },
+      {
+        "Id": "pdf_Zerg_equipment_ravagers_default_4_table"
       }
     ]
   },
@@ -236,16 +392,28 @@
         "Id": "pdf_Zerg_stat_roaches"
       },
       {
-        "Id": "pdf_Zerg_rule_roaches_default_0"
+        "Id": "pdf_Zerg_profile_roaches_phase_any_phase"
       },
       {
-        "Id": "pdf_Zerg_equipment_roaches_default_1"
+        "Id": "pdf_Zerg_rule_roaches_any_phase_burrow"
       },
       {
-        "Id": "pdf_Zerg_rule_roaches_default_2"
+        "Id": "pdf_Zerg_profile_roaches_phase_assault_phase"
       },
       {
-        "Id": "pdf_Zerg_equipment_roaches_default_3"
+        "Id": "pdf_Zerg_equipment_roaches_default_1_table"
+      },
+      {
+        "Id": "pdf_Zerg_rule_roaches_assault_phase_regeneration"
+      },
+      {
+        "Id": "pdf_Zerg_rule_roaches_assault_phase_devastating_charge"
+      },
+      {
+        "Id": "pdf_Zerg_profile_roaches_phase_melee_phase"
+      },
+      {
+        "Id": "pdf_Zerg_equipment_roaches_default_3_table"
       }
     ]
   },
@@ -259,10 +427,16 @@
         "Id": "pdf_Zerg_stat_roachling"
       },
       {
-        "Id": "pdf_Zerg_rule_roachling_default_0"
+        "Id": "pdf_Zerg_profile_roachling_phase_any_phase"
       },
       {
-        "Id": "pdf_Zerg_equipment_roachling_default_1"
+        "Id": "pdf_Zerg_rule_roachling_any_phase_underdeveloped_claws"
+      },
+      {
+        "Id": "pdf_Zerg_profile_roachling_phase_melee_phase"
+      },
+      {
+        "Id": "pdf_Zerg_equipment_roachling_default_1_table"
       }
     ]
   },
@@ -276,16 +450,31 @@
         "Id": "pdf_Zerg_stat_swarmlings"
       },
       {
-        "Id": "pdf_Zerg_rule_swarmlings_default_0"
+        "Id": "pdf_Zerg_profile_swarmlings_phase_any_phase"
       },
       {
-        "Id": "pdf_Zerg_rule_swarmlings_default_1"
+        "Id": "pdf_Zerg_rule_swarmlings_any_phase_squadron"
       },
       {
-        "Id": "pdf_Zerg_rule_swarmlings_default_2"
+        "Id": "pdf_Zerg_profile_swarmlings_phase_movement_phase"
       },
       {
-        "Id": "pdf_Zerg_equipment_swarmlings_default_3"
+        "Id": "pdf_Zerg_rule_swarmlings_movement_phase_zergling_reconstitution"
+      },
+      {
+        "Id": "pdf_Zerg_profile_swarmlings_phase_assault_phase"
+      },
+      {
+        "Id": "pdf_Zerg_rule_swarmlings_assault_phase_devastating_charge"
+      },
+      {
+        "Id": "pdf_Zerg_rule_swarmlings_assault_phase_metabolic_boost"
+      },
+      {
+        "Id": "pdf_Zerg_profile_swarmlings_phase_melee_phase"
+      },
+      {
+        "Id": "pdf_Zerg_equipment_swarmlings_default_3_table"
       }
     ]
   },
@@ -299,19 +488,37 @@
         "Id": "pdf_Zerg_stat_vileling_zergling"
       },
       {
-        "Id": "pdf_Zerg_rule_vileling_zergling_default_0"
+        "Id": "pdf_Zerg_profile_vileling_zergling_phase_any_phase"
       },
       {
-        "Id": "pdf_Zerg_rule_vileling_zergling_default_1"
+        "Id": "pdf_Zerg_rule_vileling_zergling_any_phase_squadron"
       },
       {
-        "Id": "pdf_Zerg_rule_vileling_zergling_default_2"
+        "Id": "pdf_Zerg_profile_vileling_zergling_phase_movement_phase"
       },
       {
-        "Id": "pdf_Zerg_equipment_vileling_zergling_default_3"
+        "Id": "pdf_Zerg_rule_vileling_zergling_movement_phase_zergling_reconstitution"
       },
       {
-        "Id": "pdf_Zerg_rule_vileling_zergling_default_4"
+        "Id": "pdf_Zerg_rule_vileling_zergling_movement_phase_burrow_ambush"
+      },
+      {
+        "Id": "pdf_Zerg_profile_vileling_zergling_phase_assault_phase"
+      },
+      {
+        "Id": "pdf_Zerg_rule_vileling_zergling_assault_phase_devastating_charge"
+      },
+      {
+        "Id": "pdf_Zerg_rule_vileling_zergling_assault_phase_metabolic_boost"
+      },
+      {
+        "Id": "pdf_Zerg_profile_vileling_zergling_phase_melee_phase"
+      },
+      {
+        "Id": "pdf_Zerg_equipment_vileling_zergling_default_3_table"
+      },
+      {
+        "Id": "pdf_Zerg_rule_vileling_zergling_combat_phase_debilitating_claws"
       }
     ]
   },
@@ -325,16 +532,31 @@
         "Id": "pdf_Zerg_stat_viles_roach"
       },
       {
-        "Id": "pdf_Zerg_rule_viles_roach_default_0"
+        "Id": "pdf_Zerg_profile_viles_roach_phase_any_phase"
       },
       {
-        "Id": "pdf_Zerg_equipment_viles_roach_default_1"
+        "Id": "pdf_Zerg_rule_viles_roach_any_phase_burrow"
       },
       {
-        "Id": "pdf_Zerg_rule_viles_roach_default_2"
+        "Id": "pdf_Zerg_rule_viles_roach_any_phase_debilitating_saliva"
       },
       {
-        "Id": "pdf_Zerg_equipment_viles_roach_default_3"
+        "Id": "pdf_Zerg_profile_viles_roach_phase_assault_phase"
+      },
+      {
+        "Id": "pdf_Zerg_equipment_viles_roach_default_1_table"
+      },
+      {
+        "Id": "pdf_Zerg_rule_viles_roach_assault_phase_devastating_charge"
+      },
+      {
+        "Id": "pdf_Zerg_rule_viles_roach_assault_phase_regeneration"
+      },
+      {
+        "Id": "pdf_Zerg_profile_viles_roach_phase_melee_phase"
+      },
+      {
+        "Id": "pdf_Zerg_equipment_viles_roach_default_3_table"
       }
     ]
   },
@@ -348,22 +570,43 @@
         "Id": "pdf_Zerg_stat_zagara"
       },
       {
-        "Id": "pdf_Zerg_rule_zagara_default_0"
+        "Id": "pdf_Zerg_profile_zagara_phase_any_phase"
       },
       {
-        "Id": "pdf_Zerg_rule_zagara_default_1"
+        "Id": "pdf_Zerg_rule_zagara_any_phase_commander"
       },
       {
-        "Id": "pdf_Zerg_equipment_zagara_default_2"
+        "Id": "pdf_Zerg_rule_zagara_any_phase_transfusion"
       },
       {
-        "Id": "pdf_Zerg_equipment_zagara_default_3"
+        "Id": "pdf_Zerg_rule_zagara_any_phase_psionic_link"
       },
       {
-        "Id": "pdf_Zerg_rule_zagara_default_4"
+        "Id": "pdf_Zerg_profile_zagara_phase_movement_phase"
       },
       {
-        "Id": "pdf_Zerg_equipment_zagara_default_5"
+        "Id": "pdf_Zerg_rule_zagara_movement_phase_infested_drop"
+      },
+      {
+        "Id": "pdf_Zerg_profile_zagara_phase_assault_phase"
+      },
+      {
+        "Id": "pdf_Zerg_equipment_zagara_default_2_table"
+      },
+      {
+        "Id": "pdf_Zerg_equipment_zagara_default_3_table"
+      },
+      {
+        "Id": "pdf_Zerg_rule_zagara_assault_phase_indomitable"
+      },
+      {
+        "Id": "pdf_Zerg_rule_zagara_assault_phase_devastating_charge"
+      },
+      {
+        "Id": "pdf_Zerg_profile_zagara_phase_melee_phase"
+      },
+      {
+        "Id": "pdf_Zerg_equipment_zagara_default_5_table"
       }
     ]
   },
@@ -377,13 +620,25 @@
         "Id": "pdf_Zerg_stat_zerglings"
       },
       {
-        "Id": "pdf_Zerg_rule_zerglings_default_0"
+        "Id": "pdf_Zerg_profile_zerglings_phase_any_phase"
       },
       {
-        "Id": "pdf_Zerg_rule_zerglings_default_1"
+        "Id": "pdf_Zerg_rule_zerglings_any_phase_squadron"
       },
       {
-        "Id": "pdf_Zerg_equipment_zerglings_default_2"
+        "Id": "pdf_Zerg_profile_zerglings_phase_assault_phase"
+      },
+      {
+        "Id": "pdf_Zerg_rule_zerglings_assault_phase_metabolic_boost"
+      },
+      {
+        "Id": "pdf_Zerg_rule_zerglings_assault_phase_devastating_charge"
+      },
+      {
+        "Id": "pdf_Zerg_profile_zerglings_phase_melee_phase"
+      },
+      {
+        "Id": "pdf_Zerg_equipment_zerglings_default_2_table"
       }
     ]
   }

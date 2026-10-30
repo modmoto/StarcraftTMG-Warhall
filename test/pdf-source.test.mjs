@@ -56,7 +56,7 @@ test('Marine outlines produce HP=2 and speed=4/7 with upgrades separate', () => 
     card.profiles.filter(p => p.type.endsWith('Weapon')).map(p => p.name),
     ['C-14 RIFLE', 'STRIKE'],
   );
-  assert.ok(card.optional.some(p => p.attributes.Effect?.includes('COMBAT SHIELD')));
+  assert.ok(card.optional.some(p => p.name === 'Combat Shield'));
   assert.ok(!card.profiles.some(p => p.attributes.Effect?.includes('COMBAT SHIELD')));
 });
 

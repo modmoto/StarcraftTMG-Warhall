@@ -12,7 +12,7 @@ const source = path.resolve(project, '../StarcraftTMG-NR');
 const optionalSource = { skip: !existsSync(source) };
 
 test(
-  'real catalogues produce all factions, default Marine weapons, separate shields and manual upgrades',
+  'real catalogues produce all factions, default Marine weapons, separate shields and clean descriptions',
   optionalSource,
   async () => {
     const { data, report } = await build(source);
@@ -27,11 +27,17 @@ test(
     assert.equal(marineStats.Attributes.HP, '2');
     assert.equal(marineStats.Attributes.Spd, '4/7');
     const marine = data['Terran/units.json'].find(s => s.Id === 'unit_marine');
-    assert.match(marine.Description, /OPTIONAL UPGRADE \(not applied\): Combat Shield/);
+    assert.doesNotMatch(marine.Description, /OPTIONAL UPGRADE|Source:|manual|not applied/);
+    assert.ok(
+      report.units.find(u => u.name === 'Marines').optionalUpgrades.includes('Combat Shield'),
+    );
     const refs = data['Terran/profiles.json']
       .find(p => p.Id === 'prof_marine')
       .Children.map(c => c.Id);
-    const weapons = data['Terran/equipment.json'].filter(w => refs.includes(w.Id));
+    const tableRefs = data['Terran/statlines.json']
+      .filter(row => refs.includes(row.Id) && row.Attributes.RoA)
+      .flatMap(row => row.Children.map(child => child.Id));
+    const weapons = data['Terran/equipment.json'].filter(w => tableRefs.includes(w.Id));
     assert.deepEqual(weapons.map(w => w.Name).sort(), ['C-14 Rifle', 'Strike']);
     const zealot = data['Protoss/statlines.json'].find(s => s.Name === 'Zealot');
     assert.equal(zealot.Attributes.HP, '4');
@@ -73,7 +79,7 @@ test(
     const badLength = structuredClone(data);
     badLength['bases.json'].find(b => b.Id === hydraBase.Id).Length = 0;
     assert.throws(() => validateData(badLength), /positive round\/oval base dimensions/);
-    assert.equal(data['rules.json'].length, 0);
+    assert.ok(data['rules.json'].some(rule => rule.Name === 'Precision'));
   },
 );
 
@@ -93,7 +99,7 @@ test(
     duplicate['Terran/units.json'].push(duplicate['Terran/units.json'][0]);
     assert.throws(() => validateData(duplicate), /Duplicate ID/);
     const missingHP = structuredClone(data);
-    delete missingHP['Terran/statlines.json'][0].Attributes.HP;
+    delete missingHP['Terran/statlines.json'].find(row => row.Id === 'stat_marine').Attributes.HP;
     assert.throws(() => validateData(missingHP), /Invalid configured HP/);
     const wrongBase = structuredClone(data);
     wrongBase['bases.json'][0].Width = 0;
@@ -118,7 +124,10 @@ const catalogue = `<catalogue name="Test" gameSystemId="system" gameSystemRevisi
 test('catalogue-local rule wins over a colliding game-system ID', async t => {
   const dir = await fixture(t, catalogue);
   const { data } = await build(dir);
-  assert.equal(data['Test/rules.json'][0].Description, 'Correct catalogue scope');
+  assert.equal(
+    data['Test/rules.json'].find(rule => rule.Name === 'Local rule').Description,
+    'Correct catalogue scope',
+  );
 });
 
 test('missing source references fail before output', async t => {

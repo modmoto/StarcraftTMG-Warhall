@@ -55,11 +55,34 @@ This reads local `.cat` and `.gst` files. It does not update the checkout automa
 
 ## Parsing and validation
 
-The PDF parser reads text coordinates through PDF.js. It normalizes rotated card faces, removes duplicate text outlines, reconstructs split movement values, and reads weapon columns using their printed headings. Wrapped weapon names, surge types and keywords are retained. Default card weapons and phase-specific ability text are kept separate from the optional upgrade face. Abilities are grouped by phase, rather than interpreted as executable rules.
+The PDF parser reads text coordinates through PDF.js. It normalizes rotated card faces, removes duplicate text outlines, reconstructs split movement values, and reads weapon columns using their printed headings. Wrapped weapon names, surge types and keywords are retained. Default card weapons and phase-specific ability text are kept separate from the optional upgrade face. Phase blocks are split into named abilities with separate phase, activation and cost fields. Abilities remain descriptive rather than executable rules.
 
 Missing or conflicting required stats, unreadable weapon tables, unknown unit layouts and duplicate unit cards fail before generated files are written. The parser supports the current A4 print-and-play template; it does not claim to understand arbitrary future layouts or scanned image-only cards. Source PDF filenames, URLs, SHA-256 hashes, page classifications and per-unit page/text provenance are recorded in `Starcraft/import-report.json`.
 
-`npm run validate` checks file coverage, unique IDs, references, hierarchy membership, HP and positive round/oval dimensions. `npm test` exercises both source adapters, rotated/duplicated card text, wrapped weapons, invalid data and cache integrity. Tests run without network access; the three real New Recruit integration tests are skipped if that optional sibling checkout is absent. Other New Recruit tests use small synthetic fixtures. The PDF tests use text-position snapshots from seven actual official card pages; full binary PDF parsing was also exercised against all nine downloaded documents.
+`npm run validate` checks file coverage, unique IDs, description-link targets, profile hierarchy, unit HP, weapon-table columns/values and positive round/oval dimensions. `npm test` exercises both source adapters, rotated/duplicated card text, wrapped weapons, invalid data and cache integrity. Tests run without network access; the three real New Recruit integration tests are skipped if that optional sibling checkout is absent. Other New Recruit tests use small synthetic fixtures. The PDF tests use text-position snapshots from seven actual official card pages; full binary PDF parsing was also exercised against all nine downloaded documents.
+
+## Unit panel and named rules
+
+Unit stats stay at the top of the panel. Below them, populated sections appear in this order: Any Phase, Movement Phase, Assault Phase and Melee Phase. Melee is the display name for the official Combat Phase. Each section shows native weapon-stat rows first, followed by the relevant clickable ability names.
+
+Weapon rows are WDS `Statline` records with their own ordered columns: Range, Target, RoA, Hit, Surge Type, Surge Dice, Damage and Keywords. They contain no HP field and do not contribute wounds. The row's expand control links to the detailed weapon item and its nested keywords. Plain phase headings use WDS text records; no Markdown table or client binary patch is needed. Empty phases are omitted. Generic rule-group labels are disabled while table names remain visible.
+
+Each ability has a separate record, so Stimpack's unit-specific Precision value is preserved. Popup descriptions show the phase, Active/Passive/Reaction type and resource cost on separate lines. Official keyword definitions live in global `rules.json`, with validated TextMeshPro links such as Stimpack → Precision. Explicit references to other abilities also link to their records. Upgrade abilities are available as reference targets but are not attached as default abilities. Upgrades are not automatically equipped.
+
+Unit descriptions contain no source URLs, base sizes, implementation notes or manual-upgrade placeholders. Source pages, checksums, raw card text and upgrade details remain in `import-report.json`. Base geometry and unit HP are unchanged. Existing unit, profile, unit-statline and equipment IDs are retained; named abilities and presentation rows have new IDs.
+
+The committed `rule-keywords.json` snapshot is extracted from the current official core-rulebook glossary. Card text is refreshed by normal PDF imports; refresh and review the glossary separately when the core rulebook changes:
+
+```sh
+npm run rules:update-keywords
+npm run rules:compare -- /path/to/StarcraftTMG-NR
+npm run convert -- --offline
+npm run check:local
+```
+
+The comparison command reads cached official cards and a local New Recruit checkout without changing either. `rules-reference-report.json` records catalogue IDs, nested keyword references, costs/phases and wording differences. PDF wording wins; catalogue definitions are never substituted into the PDF import. The snapshot includes official source URLs and SHA-256 hashes. Parsing arbitrary future glossary layouts, reconciling FAQ/errata and applying upgrades automatically remain outside this cleanup.
+
+Test data release 11 includes these changes. The native table/heading behavior was checked against the installed Warhall Test renderer; live visual checks and popup-click testing remain pending. See [rule cleanup notes](docs/unit-rules.md).
 
 ## Output and base sizes
 
@@ -201,3 +224,7 @@ Select the map first under Create > Battlefield, then select the deployment. War
 See [TODO.md](TODO.md) for the remaining work and macOS setup. Board cards include 49 tactical/faction/creep cards, seven standard deployments and seven scoring missions. Unit cards are intentionally excluded. Card faces are lossless PNG crops rendered at 360 dpi from the official PDF sources; descriptions omit copyright/version metadata and retain structured headings. Regenerate with `python scripts/update-cards.py` after refreshing the PDFs. Python requires Pillow and pypdf; Poppler's `pdftoppm` must be on PATH. The generator owns only its hash-named images under `Starcraft/assets/cards` and removes obsolete generated faces.
 
 Use `--local-source --local-assets` with the test-data installer to preview unpublished card images. This uses a local snapshot, so reapply after changing generated data. The L-shaped Wall Sets 4/5 use compensated skin/base rotations; all other footprint orientations remain unchanged.
+
+### Shared model URLs
+
+[`model-catalogue.json`](model-catalogue.json) defines models, textures, transforms and unit/terrain assignments for shared publication. Run `npm run models:publish` for a dry run. See [the publication guide](docs/model-publication.md) for authentication, resumable publication and current cross-platform limits. Local cache installers do not publish these mappings for other players.

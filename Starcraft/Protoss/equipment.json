@@ -3,7 +3,7 @@
     "Id": "pdf_Protoss_equipment_adepts_default_2",
     "Name": "GLAIVE CANNON",
     "Type": "Equipment",
-    "Description": "Assault Weapon\nRng: 8\nTgt: All\nRoA: 2\nHit: 3+\nSurge: Light\nS.Die: D3+1\nDmg: 1\nKeyword: ANTI-EVADE (1)"
+    "Description": "Assault Weapon\nRng: 8\nTgt: All\nRoA: 2\nHit: 3+\nSurge: Light\nS.Die: D3+1\nDmg: 1\nKeyword: <link=\"rule_keyword_anti_evade\">ANTI-EVADE</link> (1)"
   },
   {
     "Id": "pdf_Protoss_equipment_adepts_default_3",
@@ -27,7 +27,7 @@
     "Id": "pdf_Protoss_equipment_high_templar_default_2",
     "Name": "PSI BLAST",
     "Type": "Equipment",
-    "Description": "Assault Weapon\nRng: 8\nTgt: All\nRoA: 1\nHit: 3+\nSurge: Light\nS.Die: D3\nDmg: 2\nKeyword: INSTANT"
+    "Description": "Assault Weapon\nRng: 8\nTgt: All\nRoA: 1\nHit: 3+\nSurge: Light\nS.Die: D3\nDmg: 2\nKeyword: <link=\"rule_keyword_instant\">INSTANT</link>"
   },
   {
     "Id": "pdf_Protoss_equipment_high_templar_default_3",
@@ -39,13 +39,13 @@
     "Id": "pdf_Protoss_equipment_immortal_default_1",
     "Name": "LEFT PHOTON DISRUPTOR",
     "Type": "Equipment",
-    "Description": "Assault Weapon\nRng: 12\nTgt: Ground\nRoA: 4\nHit: 3+\nSurge: Armoured\nS.Die: D3\nDmg: 2\nKeyword: CONCENTRATED FIRE (1), LONG RANGE (16)"
+    "Description": "Assault Weapon\nRng: 12\nTgt: Ground\nRoA: 4\nHit: 3+\nSurge: Armoured\nS.Die: D3\nDmg: 2\nKeyword: <link=\"rule_keyword_concentrated_fire\">CONCENTRATED FIRE</link> (1), <link=\"rule_keyword_long_range\">LONG RANGE</link> (16)"
   },
   {
     "Id": "pdf_Protoss_equipment_immortal_default_2",
     "Name": "RIGHT PHOTON DISRUPTOR",
     "Type": "Equipment",
-    "Description": "Assault Weapon\nRng: 12\nTgt: Ground\nRoA: 4\nHit: 3+\nSurge: Armoured\nS.Die: D3\nDmg: 2\nKeyword: CONCENTRATED FIRE (1), LONG RANGE (16), SIDEARM"
+    "Description": "Assault Weapon\nRng: 12\nTgt: Ground\nRoA: 4\nHit: 3+\nSurge: Armoured\nS.Die: D3\nDmg: 2\nKeyword: <link=\"rule_keyword_concentrated_fire\">CONCENTRATED FIRE</link> (1), <link=\"rule_keyword_long_range\">LONG RANGE</link> (16), <link=\"rule_keyword_sidearm\">SIDEARM</link>"
   },
   {
     "Id": "pdf_Protoss_equipment_immortal_default_4",
@@ -57,7 +57,7 @@
     "Id": "pdf_Protoss_equipment_nerazim_watchers_adept_default_2",
     "Name": "GLAIVE CANNON",
     "Type": "Equipment",
-    "Description": "Assault Weapon\nRng: 8\nTgt: All\nRoA: 3\nHit: 3+\nSurge: Light\nS.Die: D3+1\nDmg: 1\nKeyword: ANTI-EVADE (1), PINPOINT"
+    "Description": "Assault Weapon\nRng: 8\nTgt: All\nRoA: 3\nHit: 3+\nSurge: Light\nS.Die: D3+1\nDmg: 1\nKeyword: <link=\"rule_keyword_anti_evade\">ANTI-EVADE</link> (1), <link=\"rule_keyword_pinpoint\">PINPOINT</link>"
   },
   {
     "Id": "pdf_Protoss_equipment_nerazim_watchers_adept_default_3",
@@ -75,7 +75,7 @@
     "Id": "pdf_Protoss_equipment_sentries_default_2",
     "Name": "DISRUPTION BEAM",
     "Type": "Equipment",
-    "Description": "Assault Weapon\nRng: 8\nTgt: All\nRoA: 2\nHit: 2+\nSurge: -\nS.Die: -\nDmg: 1\nKeyword: INSTANT"
+    "Description": "Assault Weapon\nRng: 8\nTgt: All\nRoA: 2\nHit: 2+\nSurge: -\nS.Die: -\nDmg: 1\nKeyword: <link=\"rule_keyword_instant\">INSTANT</link>"
   },
   {
     "Id": "pdf_Protoss_equipment_sentries_default_3",
@@ -99,7 +99,7 @@
     "Id": "pdf_Protoss_equipment_tassadar_default_2",
     "Name": "RESONANCE BEAM",
     "Type": "Equipment",
-    "Description": "Assault Weapon\nRng: 12\nTgt: All\nRoA: 6\nHit: 3+\nSurge: Armoured\nS.Die: D3\nDmg: 1\nKeyword: INSTANT"
+    "Description": "Assault Weapon\nRng: 12\nTgt: All\nRoA: 6\nHit: 3+\nSurge: Armoured\nS.Die: D3\nDmg: 1\nKeyword: <link=\"rule_keyword_instant\">INSTANT</link>"
   },
   {
     "Id": "pdf_Protoss_equipment_tassadar_default_4",
@@ -111,7 +111,7 @@
     "Id": "pdf_Protoss_equipment_twilight_templar_high_templar_default_2",
     "Name": "PSI BLAST",
     "Type": "Equipment",
-    "Description": "Assault Weapon\nRng: 8\nTgt: All\nRoA: 2\nHit: 3+\nSurge: Light\nS.Die: D3\nDmg: 2\nKeyword: INSTANT"
+    "Description": "Assault Weapon\nRng: 8\nTgt: All\nRoA: 2\nHit: 3+\nSurge: Light\nS.Die: D3\nDmg: 2\nKeyword: <link=\"rule_keyword_instant\">INSTANT</link>"
   },
   {
     "Id": "pdf_Protoss_equipment_twilight_templar_high_templar_default_3",
@@ -129,6 +129,6 @@
     "Id": "pdf_Protoss_equipment_zeratul_default_3",
     "Name": "MASTER WARP BLADE",
     "Type": "Equipment",
-    "Description": "Combat Weapon\nRng: E\nTgt: Ground\nRoA: 4\nHit: 3+\nSurge: Light, Armoured\nS.Die: D3\nDmg: 2\nKeyword: INSTANT"
+    "Description": "Combat Weapon\nRng: E\nTgt: Ground\nRoA: 4\nHit: 3+\nSurge: Light, Armoured\nS.Die: D3\nDmg: 2\nKeyword: <link=\"rule_keyword_instant\">INSTANT</link>"
   }
 ]

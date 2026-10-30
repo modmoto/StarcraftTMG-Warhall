@@ -20,9 +20,14 @@ function normalizeUnit(card, id) {
   const optionalUpgrades = card.optional.length
     ? [
         {
-          name: 'Official upgrade card (manual)',
+          name: 'Official upgrade card',
           profiles: card.optional.map((profile, index) =>
-            normalizeProfile(profile, `${id}_upgrade_${index}`),
+            normalizeProfile(
+              profile,
+              profile.type === 'Ability'
+                ? `${id}_upgrade_${sourceId(`${profile.attributes.Phase}_${profile.name}`).slice(4)}`
+                : `${id}_upgrade_${profile.sourceIndex ?? index}`,
+            ),
           ),
         },
       ]
@@ -37,7 +42,12 @@ function normalizeUnit(card, id) {
     attributes: card.attributes,
     categories: card.categories,
     profiles: card.profiles.map((profile, index) =>
-      normalizeProfile(profile, `${id}_default_${index}`),
+      normalizeProfile(
+        profile,
+        profile.type === 'Ability'
+          ? `${id}_${sourceId(`${profile.attributes.Phase}_${profile.name}`).slice(4)}`
+          : `${id}_default_${profile.sourceIndex ?? index}`,
+      ),
     ),
     modelCounts: [],
     costLabels: [],

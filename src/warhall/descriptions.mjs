@@ -1,58 +1,42 @@
-import { describeFootprint } from './bases.mjs';
+import { displayPhase } from './presentation.mjs';
+import { cleanRuleText } from '../text.mjs';
 
 export function describeAttributes(attributes) {
   return Object.entries(attributes)
-    .map(([name, value]) => `${name}: ${value}`)
+    .map(([name, value]) => `${name}: ${cleanRuleText(String(value))}`)
     .join('\n');
 }
 
 export function describeProfile(profile) {
-  if (profile.type) return `${profile.type}\n${describeAttributes(profile.attributes)}`;
-  return profile.description;
-}
-
-function describeUpgrade(upgrade) {
-  const details = upgrade.profiles
-    .map(profile => {
-      const effect = profile.type ? describeAttributes(profile.attributes) : profile.description;
-      return `${profile.name}\n${effect}`;
-    })
-    .join('\n\n');
-
-  return `OPTIONAL UPGRADE (not applied): ${upgrade.name}${details ? `\n${details}` : ''}`;
-}
-
-export function describeUnit(unit, footprint) {
-  const source = unit.provenance
-    ? `Official card values. Source: ${unit.provenance.url}, page ${unit.provenance.page}.`
-    : `Default catalogue values. Source: ${unit.documentName} / ${unit.sourceId}.`;
-
-  const paragraphs = [
-    source,
-    `${describeFootprint(footprint)} base. Place models and apply upgrades manually.`,
-    `Categories: ${unit.categories.join(', ')}.`,
-    ...unit.costLabels,
-    ...unit.modelCounts.map(model => {
-      const constraints = model.constraints.map(item => `${item.type} ${item.value}`).join(', ');
-      return `${model.name} default model constraints: ${constraints}.`;
-    }),
-  ];
-
-  if (unit.restricted) {
-    paragraphs.push('Faction-restricted or summoned in the source; check eligibility manually.');
-  }
-
-  if (unit.modifierCount) {
-    paragraphs.push(
-      `Contains ${unit.modifierCount} catalogue modifiers; conditional changes are not applied automatically.`,
+  const phase = profile.attributes?.Phase ?? profile.type?.match(/^Rules \((.*)\)$/)?.[1];
+  if (phase) {
+    const oldCost = profile.attributes.Cost?.match(
+      /^(Active|Passive|Pasive|Reaction|Reactive)(?:\s*\(([^)]+)\))?$/i,
     );
+    const activation =
+      profile.attributes.Type ??
+      oldCost?.[1]?.replace(/^Reactive$/i, 'Reaction').replace(/^Pasive$/i, 'Passive');
+    const cost = oldCost ? oldCost[2] : profile.attributes.Cost;
+    return [
+      `<b>Phase:</b> ${displayPhase(phase)}`,
+      ...(activation ? [`<b>Type:</b> ${activation}`] : []),
+      ...(cost ? [`<b>Cost:</b> ${cost}`] : []),
+      ...(profile.isUpgrade ? ['<b>Upgrade ability</b>'] : []),
+      ...(profile.attributes.Upgrade
+        ? [`<b>Replaces:</b> ${profile.attributes.Upgrade.replace(/^FOR\s+/i, '')}`]
+        : []),
+      '',
+      cleanRuleText(profile.attributes.Effect ?? profile.description),
+    ].join('\n');
   }
+  if (profile.type) return `${profile.type}\n${describeAttributes(profile.attributes)}`;
+  return cleanRuleText(profile.description ?? '');
+}
 
-  if (unit.optionalUpgrades.length) {
-    paragraphs.push(...unit.optionalUpgrades.map(describeUpgrade));
-    const names = unit.optionalUpgrades.map(upgrade => upgrade.name).join(', ');
-    paragraphs.push(`Available upgrade choices (manual): ${names}.`);
-  }
-
-  return paragraphs.join('\n\n');
+export function describeUnit(unit) {
+  return [
+    `Categories: ${unit.categories.join(', ')}`,
+    ...(unit.attributes.Supply ? [`Models / Supply: ${unit.attributes.Supply}`] : []),
+    ...unit.costLabels,
+  ].join('\n');
 }

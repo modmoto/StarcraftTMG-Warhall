@@ -1,5 +1,445 @@
 [
   {
+    "Id": "pdf_Protoss_equipment_adepts_default_2_table",
+    "Name": "GLAIVE CANNON",
+    "Type": "Statline",
+    "Attributes": {
+      "Range": "8",
+      "Target": "All",
+      "RoA": "2",
+      "Hit": "3+",
+      "Surge Type": "Light",
+      "Surge Dice": "D3+1",
+      "Damage": "1",
+      "Keywords": "ANTI-EVADE (1)"
+    },
+    "Children": [
+      {
+        "Id": "pdf_Protoss_equipment_adepts_default_2"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Protoss_equipment_adepts_default_3_table",
+    "Name": "STRIKE",
+    "Type": "Statline",
+    "Attributes": {
+      "Range": "E",
+      "Target": "Ground",
+      "RoA": "1",
+      "Hit": "4+",
+      "Surge Type": "-",
+      "Surge Dice": "-",
+      "Damage": "1",
+      "Keywords": "-"
+    },
+    "Children": [
+      {
+        "Id": "pdf_Protoss_equipment_adepts_default_3"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Protoss_equipment_artanis_default_3_table",
+    "Name": "TWILIGHT BLADES STRIKE",
+    "Type": "Statline",
+    "Attributes": {
+      "Range": "E",
+      "Target": "Ground",
+      "RoA": "2",
+      "Hit": "2+",
+      "Surge Type": "Armoured",
+      "Surge Dice": "D3",
+      "Damage": "3",
+      "Keywords": "-"
+    },
+    "Children": [
+      {
+        "Id": "pdf_Protoss_equipment_artanis_default_3"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Protoss_equipment_artanis_default_4_table",
+    "Name": "TWILIGHT BLADES SWEEP",
+    "Type": "Statline",
+    "Attributes": {
+      "Range": "E",
+      "Target": "Ground",
+      "RoA": "6",
+      "Hit": "2+",
+      "Surge Type": "Light",
+      "Surge Dice": "D3+1",
+      "Damage": "1",
+      "Keywords": "-"
+    },
+    "Children": [
+      {
+        "Id": "pdf_Protoss_equipment_artanis_default_4"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Protoss_equipment_high_templar_default_2_table",
+    "Name": "PSI BLAST",
+    "Type": "Statline",
+    "Attributes": {
+      "Range": "8",
+      "Target": "All",
+      "RoA": "1",
+      "Hit": "3+",
+      "Surge Type": "Light",
+      "Surge Dice": "D3",
+      "Damage": "2",
+      "Keywords": "INSTANT"
+    },
+    "Children": [
+      {
+        "Id": "pdf_Protoss_equipment_high_templar_default_2"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Protoss_equipment_high_templar_default_3_table",
+    "Name": "STRIKE",
+    "Type": "Statline",
+    "Attributes": {
+      "Range": "E",
+      "Target": "Ground",
+      "RoA": "1",
+      "Hit": "4+",
+      "Surge Type": "-",
+      "Surge Dice": "-",
+      "Damage": "1",
+      "Keywords": "-"
+    },
+    "Children": [
+      {
+        "Id": "pdf_Protoss_equipment_high_templar_default_3"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Protoss_equipment_immortal_default_1_table",
+    "Name": "LEFT PHOTON DISRUPTOR",
+    "Type": "Statline",
+    "Attributes": {
+      "Range": "12",
+      "Target": "Ground",
+      "RoA": "4",
+      "Hit": "3+",
+      "Surge Type": "Armoured",
+      "Surge Dice": "D3",
+      "Damage": "2",
+      "Keywords": "CONCENTRATED FIRE (1), LONG RANGE (16)"
+    },
+    "Children": [
+      {
+        "Id": "pdf_Protoss_equipment_immortal_default_1"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Protoss_equipment_immortal_default_2_table",
+    "Name": "RIGHT PHOTON DISRUPTOR",
+    "Type": "Statline",
+    "Attributes": {
+      "Range": "12",
+      "Target": "Ground",
+      "RoA": "4",
+      "Hit": "3+",
+      "Surge Type": "Armoured",
+      "Surge Dice": "D3",
+      "Damage": "2",
+      "Keywords": "CONCENTRATED FIRE (1), LONG RANGE (16), SIDEARM"
+    },
+    "Children": [
+      {
+        "Id": "pdf_Protoss_equipment_immortal_default_2"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Protoss_equipment_immortal_default_4_table",
+    "Name": "STOMP",
+    "Type": "Statline",
+    "Attributes": {
+      "Range": "E",
+      "Target": "Ground",
+      "RoA": "3",
+      "Hit": "3+",
+      "Surge Type": "-",
+      "Surge Dice": "-",
+      "Damage": "1",
+      "Keywords": "-"
+    },
+    "Children": [
+      {
+        "Id": "pdf_Protoss_equipment_immortal_default_4"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Protoss_equipment_nerazim_watchers_adept_default_2_table",
+    "Name": "GLAIVE CANNON",
+    "Type": "Statline",
+    "Attributes": {
+      "Range": "8",
+      "Target": "All",
+      "RoA": "3",
+      "Hit": "3+",
+      "Surge Type": "Light",
+      "Surge Dice": "D3+1",
+      "Damage": "1",
+      "Keywords": "ANTI-EVADE (1), PINPOINT"
+    },
+    "Children": [
+      {
+        "Id": "pdf_Protoss_equipment_nerazim_watchers_adept_default_2"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Protoss_equipment_nerazim_watchers_adept_default_3_table",
+    "Name": "STRIKE",
+    "Type": "Statline",
+    "Attributes": {
+      "Range": "E",
+      "Target": "Ground",
+      "RoA": "1",
+      "Hit": "5+",
+      "Surge Type": "-",
+      "Surge Dice": "-",
+      "Damage": "1",
+      "Keywords": "-"
+    },
+    "Children": [
+      {
+        "Id": "pdf_Protoss_equipment_nerazim_watchers_adept_default_3"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Protoss_equipment_praetor_guards_default_3_table",
+    "Name": "PSI BLADES",
+    "Type": "Statline",
+    "Attributes": {
+      "Range": "E",
+      "Target": "Ground",
+      "RoA": "4",
+      "Hit": "3+",
+      "Surge Type": "Light",
+      "Surge Dice": "D3",
+      "Damage": "1",
+      "Keywords": "-"
+    },
+    "Children": [
+      {
+        "Id": "pdf_Protoss_equipment_praetor_guards_default_3"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Protoss_equipment_sentries_default_2_table",
+    "Name": "DISRUPTION BEAM",
+    "Type": "Statline",
+    "Attributes": {
+      "Range": "8",
+      "Target": "All",
+      "RoA": "2",
+      "Hit": "2+",
+      "Surge Type": "-",
+      "Surge Dice": "-",
+      "Damage": "1",
+      "Keywords": "INSTANT"
+    },
+    "Children": [
+      {
+        "Id": "pdf_Protoss_equipment_sentries_default_2"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Protoss_equipment_sentries_default_3_table",
+    "Name": "BEAM",
+    "Type": "Statline",
+    "Attributes": {
+      "Range": "E",
+      "Target": "Ground",
+      "RoA": "2",
+      "Hit": "3+",
+      "Surge Type": "-",
+      "Surge Dice": "-",
+      "Damage": "1",
+      "Keywords": "-"
+    },
+    "Children": [
+      {
+        "Id": "pdf_Protoss_equipment_sentries_default_3"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Protoss_equipment_stalker_default_2_table",
+    "Name": "PARTICLE DISRUPTORS",
+    "Type": "Statline",
+    "Attributes": {
+      "Range": "12",
+      "Target": "All",
+      "RoA": "4",
+      "Hit": "3+",
+      "Surge Type": "Armoured",
+      "Surge Dice": "D3",
+      "Damage": "2",
+      "Keywords": "-"
+    },
+    "Children": [
+      {
+        "Id": "pdf_Protoss_equipment_stalker_default_2"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Protoss_equipment_stalker_default_3_table",
+    "Name": "STOMP",
+    "Type": "Statline",
+    "Attributes": {
+      "Range": "E",
+      "Target": "Ground",
+      "RoA": "2",
+      "Hit": "5+",
+      "Surge Type": "-",
+      "Surge Dice": "-",
+      "Damage": "1",
+      "Keywords": "-"
+    },
+    "Children": [
+      {
+        "Id": "pdf_Protoss_equipment_stalker_default_3"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Protoss_equipment_tassadar_default_2_table",
+    "Name": "RESONANCE BEAM",
+    "Type": "Statline",
+    "Attributes": {
+      "Range": "12",
+      "Target": "All",
+      "RoA": "6",
+      "Hit": "3+",
+      "Surge Type": "Armoured",
+      "Surge Dice": "D3",
+      "Damage": "1",
+      "Keywords": "INSTANT"
+    },
+    "Children": [
+      {
+        "Id": "pdf_Protoss_equipment_tassadar_default_2"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Protoss_equipment_tassadar_default_4_table",
+    "Name": "STRIKE",
+    "Type": "Statline",
+    "Attributes": {
+      "Range": "E",
+      "Target": "Ground",
+      "RoA": "6",
+      "Hit": "4+",
+      "Surge Type": "-",
+      "Surge Dice": "-",
+      "Damage": "1",
+      "Keywords": "-"
+    },
+    "Children": [
+      {
+        "Id": "pdf_Protoss_equipment_tassadar_default_4"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Protoss_equipment_twilight_templar_high_templar_default_2_table",
+    "Name": "PSI BLAST",
+    "Type": "Statline",
+    "Attributes": {
+      "Range": "8",
+      "Target": "All",
+      "RoA": "2",
+      "Hit": "3+",
+      "Surge Type": "Light",
+      "Surge Dice": "D3",
+      "Damage": "2",
+      "Keywords": "INSTANT"
+    },
+    "Children": [
+      {
+        "Id": "pdf_Protoss_equipment_twilight_templar_high_templar_default_2"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Protoss_equipment_twilight_templar_high_templar_default_3_table",
+    "Name": "STRIKE",
+    "Type": "Statline",
+    "Attributes": {
+      "Range": "E",
+      "Target": "Ground",
+      "RoA": "1",
+      "Hit": "4+",
+      "Surge Type": "-",
+      "Surge Dice": "-",
+      "Damage": "1",
+      "Keywords": "-"
+    },
+    "Children": [
+      {
+        "Id": "pdf_Protoss_equipment_twilight_templar_high_templar_default_3"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Protoss_equipment_zealots_default_1_table",
+    "Name": "PSI BLADES",
+    "Type": "Statline",
+    "Attributes": {
+      "Range": "E",
+      "Target": "Ground",
+      "RoA": "4",
+      "Hit": "3+",
+      "Surge Type": "Light",
+      "Surge Dice": "D3",
+      "Damage": "1",
+      "Keywords": "-"
+    },
+    "Children": [
+      {
+        "Id": "pdf_Protoss_equipment_zealots_default_1"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Protoss_equipment_zeratul_default_3_table",
+    "Name": "MASTER WARP BLADE",
+    "Type": "Statline",
+    "Attributes": {
+      "Range": "E",
+      "Target": "Ground",
+      "RoA": "4",
+      "Hit": "3+",
+      "Surge Type": "Light, Armoured",
+      "Surge Dice": "D3",
+      "Damage": "2",
+      "Keywords": "INSTANT"
+    },
+    "Children": [
+      {
+        "Id": "pdf_Protoss_equipment_zeratul_default_3"
+      }
+    ]
+  },
+  {
     "Id": "pdf_Protoss_stat_adepts",
     "Name": "Adepts",
     "Type": "Statline",

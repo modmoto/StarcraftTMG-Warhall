@@ -1,0 +1,4622 @@
+{
+  "policy": "Official current PDFs own gameplay wording. Catalogue IDs/references and wording differences are comparison evidence only.",
+  "officialSources": [
+    {
+      "file": "StarCraft-Protoss-P2P-Card-Sheets-A4_EN.pdf",
+      "faction": "Protoss",
+      "wave": 1,
+      "url": "https://archon-studio.com/files/manuals/sc/StarCraft-Protoss-P2P-Card-Sheets-A4_EN.pdf",
+      "sha256": "4e8547b2df8d545df3d0ebb7d7821521a888dc0437d6f4dde21d82145337a212"
+    },
+    {
+      "file": "StarCraft-Protoss-P2P-W2-Card-Sheets-A4_EN.pdf",
+      "faction": "Protoss",
+      "wave": 2,
+      "url": "https://archon-studio.com/files/manuals/sc/StarCraft-Protoss-P2P-W2-Card-Sheets-A4_EN.pdf",
+      "sha256": "09f6b940a7582719f1527574e22047529e3629d078e479e3baf06c552c99f7fe"
+    },
+    {
+      "file": "StarCraft-Protoss-P2P-W3-Card-Sheets-A4_EN.pdf",
+      "faction": "Protoss",
+      "wave": 3,
+      "url": "https://archon-studio.com/files/manuals/sc/StarCraft-Protoss-P2P-W3-Card-Sheets-A4_EN.pdf",
+      "sha256": "c5ef1d1e2c953a8c5c376464dff46a51878d8e5ae0c3e8260684afbf1dd5f0aa"
+    },
+    {
+      "file": "StarCraft-Terran-P2P-Card-Sheets-A4_EN.pdf",
+      "faction": "Terran",
+      "wave": 1,
+      "url": "https://archon-studio.com/files/manuals/sc/StarCraft-Terran-P2P-Card-Sheets-A4_EN.pdf",
+      "sha256": "afa3f229db61444d0673dea35e31772530a4c39dadaa0e281ba1bae0d271109c"
+    },
+    {
+      "file": "StarCraft-Terran-P2P-W2-Card-Sheets-A4_EN.pdf",
+      "faction": "Terran",
+      "wave": 2,
+      "url": "https://archon-studio.com/files/manuals/sc/StarCraft-Terran-P2P-W2-Card-Sheets-A4_EN.pdf",
+      "sha256": "63126ddbe922457f21a903ce186a6257aa5f20a932ba35f484f759b2ac62608e"
+    },
+    {
+      "file": "StarCraft-Terran-P2P-W3-Card-Sheets-A4_EN.pdf",
+      "faction": "Terran",
+      "wave": 3,
+      "url": "https://archon-studio.com/files/manuals/sc/StarCraft-Terran-P2P-W3-Card-Sheets-A4_EN.pdf",
+      "sha256": "9632f91cdf1b152aca4d7b27aaf54655fe48e10138c73338393b8a62ce1cd154"
+    },
+    {
+      "file": "StarCraft-Zerg-P2P-Card-Sheets-A4_EN.pdf",
+      "faction": "Zerg",
+      "wave": 1,
+      "url": "https://archon-studio.com/files/manuals/sc/StarCraft-Zerg-P2P-Card-Sheets-A4_EN.pdf",
+      "sha256": "6810f46ee422ac5d8f3cc169c3eda3ccb9551f01ab71a1f7e4ac8c266817b364"
+    },
+    {
+      "file": "StarCraft-Zerg-P2P-W2-Card-Sheets-A4_EN.pdf",
+      "faction": "Zerg",
+      "wave": 2,
+      "url": "https://archon-studio.com/files/manuals/sc/StarCraft-Zerg-P2P-W2-Card-Sheets-A4_EN.pdf",
+      "sha256": "b62e9bba04cb54df2a77c36378fc8113f10acf528ae2f8b1ad884a81c0f75045"
+    },
+    {
+      "file": "StarCraft-Zerg-P2P-W3-Card-Sheets-A4_EN.pdf",
+      "faction": "Zerg",
+      "wave": 3,
+      "url": "https://archon-studio.com/files/manuals/sc/StarCraft-Zerg-P2P-W3-Card-Sheets-A4_EN.pdf",
+      "sha256": "ebc05eeea6456538b57e3b417bb1defc87159bd560fed81e0342e6119e85d6eb"
+    }
+  ],
+  "keywordSource": {
+    "url": "https://archon-studio.com/files/manuals/sc/StarCraft-TMG_EN.pdf",
+    "sha256": "27639c562e6db9777dd9ba984d0c9f9b581841ec30166848e021f893cd00ea54",
+    "extraction": "Official Part 11 glossary; PDF text and headings, whitespace normalized."
+  },
+  "catalogueSource": "https://github.com/modmoto/StarcraftTMG-NR",
+  "catalogueSources": [
+    {
+      "file": "Protoss.cat",
+      "sha256": "ccb624c9d9119425599e0de6caf53fd35af4045a3c6af492b7aae15e7b50d73b"
+    },
+    {
+      "file": "Starcraft The Miniature Game.gst",
+      "sha256": "4ee80375b5939fb1d11e43e78baf35f6dbcec697ca736340d9c7eb04a3d00a18"
+    },
+    {
+      "file": "Terrans.cat",
+      "sha256": "348152c6fe2bfccd263cf39fd1cc4afc86197ec6186c4009b52de913ee4d6be9"
+    },
+    {
+      "file": "Zergs.cat",
+      "sha256": "e75e469f3c850ccc3eb3df27f830440e2245bb3e13b83cf5dac92b218a875967"
+    }
+  ],
+  "catalogueWarnings": [
+    "Protoss.cat requests game system revision 13; provided revision is 12.",
+    "Terrans.cat requests game system revision 13; provided revision is 12.",
+    "Zergs.cat requests game system revision 13; provided revision is 12."
+  ],
+  "counts": {
+    "units": 45,
+    "catalogueUnits": 31,
+    "abilities": 175,
+    "wordingMatches": 108,
+    "wordingDifferences": 3,
+    "costDifferences": 2,
+    "phaseDifferences": 0,
+    "missingInCatalogue": 64
+  },
+  "units": [
+    {
+      "faction": "Protoss",
+      "name": "Adepts",
+      "catalogueUnit": true,
+      "abilities": [
+        {
+          "name": "Psionic Presence",
+          "phase": "Any Phase",
+          "officialEffect": "All Weapons of Friendly Units targeting an Enemy Unit Within 4\" of this Unit's Shade token gain PRECISION (1).",
+          "officialType": "Passive",
+          "officialCost": null,
+          "costComparison": "matches",
+          "phaseComparison": "matches",
+          "catalogueId": "3071-5a22-4e60-5e55",
+          "catalogueEffect": "All Weapons of Friendly Units targeting an Enemy Unit Within 4\" of this Unit’s Shade token gain PRECISION (1).",
+          "catalogueCost": "Passive",
+          "comparison": "wording-matches",
+          "nestedKeywords": [
+            {
+              "name": "Enemy",
+              "officialPage": 86
+            },
+            {
+              "name": "Friendly",
+              "officialPage": 87
+            },
+            {
+              "name": "Precision",
+              "officialPage": 90,
+              "catalogueId": "d05b-cebb-50d1-ad49",
+              "catalogueInfoLinks": 7
+            },
+            {
+              "name": "Within",
+              "officialPage": 93
+            }
+          ]
+        },
+        {
+          "name": "Psionic Transfer",
+          "phase": "Movement Phase",
+          "officialEffect": "Set a Shade token Wholly Within 12\" of any model in this Unit. At the End of the Round, the controlling player may set all models of this Unit in Coherency, treating the Shade token as the Leading Model. The Shade token has DISPLACEMENT.",
+          "officialType": "Active",
+          "officialCost": "1 PE",
+          "costComparison": "matches",
+          "phaseComparison": "matches",
+          "catalogueId": "9955-c653-4b3f-6ba4",
+          "catalogueEffect": "Set a Shade token Wholly Within 12\" of any model in this Unit. At the End of the Round, the controlling player may set all models of this Unit in Coherency, treating the Shade token as the Leading Model. The Shade token has DISPLACEMENT.",
+          "catalogueCost": "Active (1 PE)",
+          "comparison": "wording-matches",
+          "nestedKeywords": [
+            {
+              "name": "Controlling Player",
+              "officialPage": 85
+            },
+            {
+              "name": "Displacement",
+              "officialPage": 85,
+              "catalogueId": "eb27-1500-88ca-d0f0",
+              "catalogueInfoLinks": 1
+            },
+            {
+              "name": "Leading Model",
+              "officialPage": 88
+            },
+            {
+              "name": "Wholly Within",
+              "officialPage": 93
+            },
+            {
+              "name": "Within",
+              "officialPage": 93
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "faction": "Protoss",
+      "name": "Artanis",
+      "catalogueUnit": true,
+      "abilities": [
+        {
+          "name": "Commander",
+          "phase": "Any Phase",
+          "officialEffect": "Treat this Unit's Supply characteristic as increased by 1 for Controlling and Contesting Mission Markers, completing objectives, and resolving Disengage checks.",
+          "officialType": "Passive",
+          "officialCost": null,
+          "costComparison": "matches",
+          "phaseComparison": "matches",
+          "catalogueId": "c429-c517-b5d9-8e78",
+          "catalogueEffect": "Treat this Unit’s Supply characteristic as increased by 1 for Controlling and Contesting Mission Markers, completing objectives, and resolving Disengage checks.",
+          "catalogueCost": "Passive",
+          "comparison": "wording-matches",
+          "nestedKeywords": [
+            {
+              "name": "Mission Markers",
+              "officialPage": 89
+            }
+          ]
+        },
+        {
+          "name": "Phase Prism",
+          "phase": "Movement Phase",
+          "officialEffect": "When Artanis is nominated to deploy from Reserves, it may resolve the PLACE (0) effect from another Friendly Unit. That Friendly Unit is removed from the battlefield and returned to Reserves. Artanis' Activation ends.",
+          "officialType": "Passive",
+          "officialCost": null,
+          "costComparison": "matches",
+          "phaseComparison": "matches",
+          "catalogueId": "3f76-3ddc-d988-11c4",
+          "catalogueEffect": "When Artanis is nominated to deploy from Reserves, it may resolve the PLACE (0) effect from another Friendly Unit. That Friendly Unit is removed from the battlefield and returned to Reserves. Artanis' Activation ends.",
+          "catalogueCost": "Passive",
+          "comparison": "wording-matches",
+          "nestedKeywords": [
+            {
+              "name": "Friendly",
+              "officialPage": 87
+            },
+            {
+              "name": "Place",
+              "officialPage": 90,
+              "catalogueId": "1a3d-86d9-8aa7-68ab",
+              "catalogueInfoLinks": 3
+            },
+            {
+              "name": "Reserves",
+              "officialPage": 90
+            }
+          ]
+        },
+        {
+          "name": "Lightning Dash",
+          "phase": "Assault Phase",
+          "officialEffect": "After this Unit resolves a successful Charge action, it may declare a second Charge action against a different Enemy Unit, ignoring the restriction on Charging while Engaged. The Devastating Charge ability does not trigger a second time.",
+          "officialType": "Reaction",
+          "officialCost": "1 PE",
+          "costComparison": "differs",
+          "phaseComparison": "matches",
+          "catalogueId": "26c9-0c0f-479e-9762",
+          "catalogueEffect": "After this Unit resolves a successful Charge action, it may declare a second Charge action against a different Enemy Unit, ignoring the restriction on Charging while Engaged. The Devastating Charge ability does not trigger a second time.",
+          "catalogueCost": "Reactive (1 PE)",
+          "comparison": "wording-matches",
+          "nestedKeywords": [
+            {
+              "name": "Enemy",
+              "officialPage": 86
+            },
+            {
+              "name": "Engaged",
+              "officialPage": 86
+            }
+          ]
+        },
+        {
+          "name": "Hierarch'S Stand",
+          "phase": "Assault Phase",
+          "officialEffect": "When another Friendly Unit Within 8\" is declared as the target of a Ranged Attack and this Unit is a valid target, redirect the attack to this Unit. This Unit is eligible to make an Evade Roll against the redirected attack. This Special Ability remains active until the End of the current Activation.",
+          "officialType": "Reaction",
+          "officialCost": "1 PE",
+          "costComparison": "matches",
+          "phaseComparison": "matches",
+          "catalogueId": "f0d7-dc30-2a75-6334",
+          "catalogueEffect": "When another Friendly Unit Within 8\" is declared as the target of a Ranged Attack and this Unit is a valid target, redirect the attack to this Unit. This Unit is eligible to make an Evade Roll against the redirected attack. This Special Ability remains active until the End of the current Activation.",
+          "catalogueCost": "Reaction (1 PE)",
+          "comparison": "wording-matches",
+          "nestedKeywords": [
+            {
+              "name": "Friendly",
+              "officialPage": 87
+            },
+            {
+              "name": "Special Ability",
+              "officialPage": 91
+            },
+            {
+              "name": "Within",
+              "officialPage": 93
+            }
+          ]
+        },
+        {
+          "name": "Devastating Charge",
+          "phase": "Assault Phase",
+          "officialEffect": "Immediately after this Unit completes a successful Charge, resolve the IMPACT (6) 4+ effect.",
+          "officialType": "Passive",
+          "officialCost": null,
+          "costComparison": "differs",
+          "phaseComparison": "matches",
+          "catalogueId": "ee1c-04a3-ef94-80a6",
+          "catalogueEffect": "Immediately after this Unit completes a successful Charge, resolve the IMPACT (6) 4+ effect.",
+          "catalogueCost": "Pasive",
+          "comparison": "wording-matches",
+          "nestedKeywords": [
+            {
+              "name": "Impact",
+              "officialPage": 88,
+              "catalogueId": "7805-5c0f-7d68-90c8",
+              "catalogueInfoLinks": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "faction": "Protoss",
+      "name": "Praetor Guards",
+      "catalogueUnit": true,
+      "abilities": [
+        {
+          "name": "Shield Overcharge",
+          "phase": "Any Phase",
+          "officialEffect": "This Unit gains TOUGH (2) on the first Armour Roll each Round.",
+          "officialType": "Passive",
+          "officialCost": null,
+          "costComparison": "matches",
+          "phaseComparison": "matches",
+          "catalogueId": "298d-c96f-ef2b-afd2",
+          "catalogueEffect": "This Unit gains TOUGH (2) on the first Armour Roll each Round.",
+          "catalogueCost": "Passive",
+          "comparison": "wording-matches",
+          "nestedKeywords": [
+            {
+              "name": "Tough",
+              "officialPage": 92,
+              "catalogueId": "9928-edb1-53e5-438f",
+              "catalogueInfoLinks": 4
+            }
+          ]
+        },
+        {
+          "name": "Leg Enhancements",
+          "phase": "Movement Phase",
+          "officialEffect": "This Unit performs a 2\" Move action. This does not count towards its action limit.",
+          "officialType": "Active",
+          "officialCost": "1 PE",
+          "costComparison": "matches",
+          "phaseComparison": "matches",
+          "catalogueId": "d28b-b20c-980e-26ed",
+          "catalogueEffect": "This Unit performs a 2\" Move action. This does not count towards its action limit.",
+          "catalogueCost": "Active (1 PE)",
+          "comparison": "wording-matches",
+          "nestedKeywords": []
+        },
+        {
+          "name": "Charge",
+          "phase": "Assault Phase",
+          "officialEffect": "When determining Charge Distance for this Unit, roll 2D6 instead of D6 and use the higher result to add to the Unit's Speed characteristic.",
+          "officialType": "Active",
+          "officialCost": "1 PE",
+          "costComparison": "matches",
+          "phaseComparison": "matches",
+          "catalogueId": "c4c6-376a-082d-f63c",
+          "catalogueEffect": "When determining Charge Distance for this Unit, roll 2D6 instead of D6 and use the higher result to add to the Unit’s Speed characteristic.",
+          "catalogueCost": "Active (1 PE)",
+          "comparison": "wording-matches",
+          "nestedKeywords": []
+        },
+        {
+          "name": "Devastating Charge",
+          "phase": "Assault Phase",
+          "officialEffect": "Immediately after this Unit completes a successful Charge, resolve the IMPACT (3) 4+ effect.",
+          "officialType": "Passive",
+          "officialCost": null,
+          "costComparison": "matches",
+          "phaseComparison": "matches",
+          "catalogueId": "a3cd-e8fe-aa96-41b3",
+          "catalogueEffect": "Immediately after this Unit completes a successful Charge, resolve the IMPACT (3) 4+ effect.",
+          "catalogueCost": "Passive",
+          "comparison": "wording-matches",
+          "nestedKeywords": [
+            {
+              "name": "Impact",
+              "officialPage": 88,
+              "catalogueId": "7805-5c0f-7d68-90c8",
+              "catalogueInfoLinks": 1
+            }
+          ]
+        },
+        {
+          "name": "Titan Killers",
+          "phase": "Combat Phase",
+          "officialEffect": "When this Unit makes a Close Combat Attack, and the target is Size 3 or larger, the weapon's Damage characteristic is treated as 2.",
+          "officialType": "Passive",
+          "officialCost": null,
+          "costComparison": "matches",
+          "phaseComparison": "matches",
+          "catalogueId": "923b-ed1d-b1dc-1d9c",
+          "catalogueEffect": "When this Unit makes a Close Combat Attack, and the target is Size 3 or larger, the weapon’s Damage characteristic is treated as 2.",
+          "catalogueCost": "Passive",
+          "comparison": "wording-matches",
+          "nestedKeywords": []
+        },
+        {
+          "name": "Precognition",
+          "phase": "Combat Phase",
+          "officialEffect": "This Unit is eligible to make an Evade roll against all attacks targeting it.",
+          "officialType": "Passive",
+          "officialCost": null,
+          "costComparison": "matches",
+          "phaseComparison": "matches",
+          "catalogueId": "f9f4-7b66-51b4-ee09",
+          "catalogueEffect": "This Unit is eligible to make an Evade roll against all attacks targeting it.",
+          "catalogueCost": "Passive",
+          "comparison": "wording-matches",
+          "nestedKeywords": []
+        }
+      ]
+    },
+    {
+      "faction": "Protoss",
+      "name": "Pylon",
+      "catalogueUnit": true,
+      "abilities": [
+        {
+          "name": "Khalai Ingenuity",
+          "phase": "Any Phase",
+          "officialEffect": "Once per Round, when a Friendly Unit Within 4\" of this Pylon uses a Special Ability that costs Psionic Energy, that ability's PE cost is reduced by 1.",
+          "officialType": "Passive",
+          "officialCost": null,
+          "costComparison": "matches",
+          "phaseComparison": "matches",
+          "catalogueId": "1f4e-b1be-8473-d7e2",
+          "catalogueEffect": "Once per Round, when a Friendly Unit Within 4\" of this Pylon uses a Special Ability that costs Psionic Energy, that ability’s PE cost is reduced by 1.",
+          "catalogueCost": "Passive",
+          "comparison": "wording-matches",
+          "nestedKeywords": [
+            {
+              "name": "Friendly",
+              "officialPage": 87
+            },
+            {
+              "name": "Special Ability",
+              "officialPage": 91
+            },
+            {
+              "name": "Within",
+              "officialPage": 93
+            }
+          ]
+        },
+        {
+          "name": "Structure",
+          "phase": "Any Phase",
+          "officialEffect": "This Unit cannot be Activated in any Phase and cannot perform actions. Additionally, its Current Supply Value is treated as 0, and it can never Control or Contest Mission Markers, ignoring the standard Zero Supply Exception. This Unit cannot be a target of an ability, unless stated otherwise.",
+          "officialType": "Passive",
+          "officialCost": null,
+          "costComparison": "matches",
+          "phaseComparison": "matches",
+          "catalogueId": "e626-bfe0-877a-a685",
+          "catalogueEffect": "This Unit cannot be Activated in any Phase and cannot perform actions. Additionally, its Current Supply Value is treated as 0, and it can never Control or Contest Mission Markers, ignoring the standard Zero Supply Exception. This Unit cannot be a target of an ability, unless stated otherwise.",
+          "catalogueCost": "Passive",
+          "comparison": "wording-matches",
+          "nestedKeywords": [
+            {
+              "name": "Current Supply Value",
+              "officialPage": 85
+            },
+            {
+              "name": "Mission Markers",
+              "officialPage": 89
+            },
+            {
+              "name": "Supply Value",
+              "officialPage": 92
+            }
+          ]
+        },
+        {
+          "name": "Warp Conduit",
+          "phase": "Movement Phase",
+          "officialEffect": "Once per Round, the controlling player may deploy a Ground Unit from Reserves using this Pylon base as the Entry Edge. This Unit's Activation ends.",
+          "officialType": "Passive",
+          "officialCost": null,
+          "costComparison": "matches",
+          "phaseComparison": "matches",
+          "catalogueId": "5799-cd35-02ba-0029",
+          "catalogueEffect": "Once per Round, the controlling player may deploy a Ground Unit from Reserves using this Pylon base as the Entry Edge. This Unit's Activation ends.",
+          "catalogueCost": "Passive",
+          "comparison": "wording-matches",
+          "nestedKeywords": [
+            {
+              "name": "Controlling Player",
+              "officialPage": 85
+            },
+            {
+              "name": "Entry Edge",
+              "officialPage": 86
+            },
+            {
+              "name": "Reserves",
+              "officialPage": 90
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "faction": "Protoss",
+      "name": "Sentries",
+      "catalogueUnit": true,
+      "abilities": [
+        {
+          "name": "Restoration",
+          "phase": "Any Phase",
+          "officialEffect": "Use when a Friendly Unit Within 4\" receives a DEBUFF. Remove all DEBUFFS from it.",
+          "officialType": "Reaction",
+          "officialCost": "1 PE",
+          "costComparison": "matches",
+          "phaseComparison": "matches",
+          "catalogueId": "e1ee-c45e-2390-2106",
+          "catalogueEffect": "Use when a Friendly Unit Within 4\" receives a DEBUFF. Remove all DEBUFFS from it.",
+          "catalogueCost": "Reaction (1 PE)",
+          "comparison": "wording-matches",
+          "nestedKeywords": [
+            {
+              "name": "Debuff",
+              "officialPage": 85,
+              "catalogueId": "e9c5-7999-24b7-4858",
+              "catalogueInfoLinks": 4
+            },
+            {
+              "name": "Friendly",
+              "officialPage": 87
+            },
+            {
+              "name": "Within",
+              "officialPage": 93
+            }
+          ]
+        },
+        {
+          "name": "Guardian Shield",
+          "phase": "Movement Phase",
+          "officialEffect": "All Ranged Attacks targeting a Friendly Unit Within 4\" (Line of Sight is not required) are made with 1 fewer die in the Attack Pool.",
+          "officialType": "Active",
+          "officialCost": "1 PE",
+          "costComparison": "matches",
+          "phaseComparison": "matches",
+          "catalogueId": "2271-b066-bdd9-af32",
+          "catalogueEffect": "All Ranged Attacks targeting a Friendly Unit Within 4\" (Line of Sight is not required) are made with 1 fewer die in the Attack Pool.",
+          "catalogueCost": "Active (1 PE)",
+          "comparison": "wording-matches",
+          "nestedKeywords": [
+            {
+              "name": "Friendly",
+              "officialPage": 87
+            },
+            {
+              "name": "Line Of Sight",
+              "officialPage": 88
+            },
+            {
+              "name": "Within",
+              "officialPage": 93
+            }
+          ]
+        },
+        {
+          "name": "Force Field",
+          "phase": "Movement Phase",
+          "officialEffect": "Set a Force Field token Within 8\" in an unoccupied space. Units of Size 2 or lower cannot move across Force Fields. Models of Size 3 or more can move over it, and it's then removed.",
+          "officialType": "Active",
+          "officialCost": "1 PE",
+          "costComparison": "matches",
+          "phaseComparison": "matches",
+          "catalogueId": "3bed-bc23-eac6-223a",
+          "catalogueEffect": "Set a Force Field token Within 8\" in an unoccupied space. Units of Size 2 or lower cannot move across Force Fields. Models of Size 3 or more can move over it, and it's then removed.",
+          "catalogueCost": "Active (1 PE)",
+          "comparison": "wording-matches",
+          "nestedKeywords": [
+            {
+              "name": "Within",
+              "officialPage": 93
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "faction": "Protoss",
+      "name": "Stalker",
+      "catalogueUnit": true,
+      "abilities": [
+        {
+          "name": "Squadron",
+          "phase": "Any Phase",
+          "officialEffect": "This Unit's Horizontal Coherency is 4\".",
+          "officialType": "Passive",
+          "officialCost": null,
+          "costComparison": "matches",
+          "phaseComparison": "matches",
+          "catalogueId": "fc8c-6bff-6d80-b316",
+          "catalogueEffect": "This Unit’s Horizontal Coherency is 4\".",
+          "catalogueCost": "Passive",
+          "comparison": "wording-matches",
+          "nestedKeywords": []
+        },
+        {
+          "name": "Blink",
+          "phase": "Movement Phase",
+          "officialEffect": "Resolve the PLACE (6) effect. Models set by this effect cannot be set up Within the Engagement Range of any Enemy Unit.",
+          "officialType": "Active",
+          "officialCost": "1 PE",
+          "costComparison": "matches",
+          "phaseComparison": "matches",
+          "catalogueId": "6ca7-5027-86f4-4e3a",
+          "catalogueEffect": "Resolve the PLACE (6) effect. Models set by this effect cannot be set up Within the Engagement Range of any Enemy Unit.",
+          "catalogueCost": "Active (1 PE)",
+          "comparison": "wording-matches",
+          "nestedKeywords": [
+            {
+              "name": "Enemy",
+              "officialPage": 86
+            },
+            {
+              "name": "Engagement Range",
+              "officialPage": 86
+            },
+            {
+              "name": "Place",
+              "officialPage": 90,
+              "catalogueId": "1a3d-86d9-8aa7-68ab",
+              "catalogueInfoLinks": 3
+            },
+            {
+              "name": "Within",
+              "officialPage": 93
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "faction": "Protoss",
+      "name": "Zealots",
+      "catalogueUnit": true,
+      "abilities": [
+        {
+          "name": "Charge",
+          "phase": "Assault Phase",
+          "officialEffect": "When determining Charge Distance for this Unit, roll 2D6 instead of D6 and use the higher result to add to the Unit's Speed characteristic.",
+          "officialType": "Active",
+          "officialCost": "1 PE",
+          "costComparison": "matches",
+          "phaseComparison": "matches",
+          "catalogueId": "c4c6-376a-082d-f63c",
+          "catalogueEffect": "When determining Charge Distance for this Unit, roll 2D6 instead of D6 and use the higher result to add to the Unit’s Speed characteristic.",
+          "catalogueCost": "Active (1 PE)",
+          "comparison": "wording-matches",
+          "nestedKeywords": []
+        },
+        {
+          "name": "Devastating Charge",
+          "phase": "Assault Phase",
+          "officialEffect": "Immediately after this Unit completes a successful Charge, resolve the IMPACT (3) 4+ effect.",
+          "officialType": "Passive",
+          "officialCost": null,
+          "costComparison": "matches",
+          "phaseComparison": "matches",
+          "catalogueId": "3e68-3c70-6c4e-098d",
+          "catalogueEffect": "Immediately after this Unit completes a successful Charge, resolve the IMPACT (3) 4+ effect.",
+          "catalogueCost": "Passive",
+          "comparison": "wording-matches",
+          "nestedKeywords": [
+            {
+              "name": "Impact",
+              "officialPage": 88,
+              "catalogueId": "7805-5c0f-7d68-90c8",
+              "catalogueInfoLinks": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "faction": "Protoss",
+      "name": "Immortal",
+      "catalogueUnit": true,
+      "abilities": [
+        {
+          "name": "Improved Barrier",
+          "phase": "Any Phase",
+          "officialEffect": "Use when this Unit is selected as the target of an attack. If this Unit has the Shielded Status, the Damage characteristic of the attacking weapon is treated as a maximum of 1 for this attack.",
+          "officialType": "Reaction",
+          "officialCost": "0 PE",
+          "costComparison": "matches",
+          "phaseComparison": "matches",
+          "catalogueId": "f0c0-8311-e1ae-6602",
+          "catalogueEffect": "Use when this Unit is selected as the target of an attack. If this Unit has the Shielded Status, the Damage characteristic of the attacking weapon is treated as a maximum of 1 for this attack.",
+          "catalogueCost": "Reaction (0 PE)",
+          "comparison": "wording-matches",
+          "nestedKeywords": [
+            {
+              "name": "Shielded",
+              "officialPage": 91,
+              "catalogueId": "137d-a280-957d-d27a",
+              "catalogueInfoLinks": 0
+            },
+            {
+              "name": "Status",
+              "officialPage": 92
+            }
+          ]
+        },
+        {
+          "name": "Indomitable",
+          "phase": "Assault Phase",
+          "officialEffect": "While Engaged, this Unit may target and be targeted by Unengaged Enemy Units. In both cases, the defending Unit gains an Evade Roll against those attacks.",
+          "officialType": "Passive",
+          "officialCost": null,
+          "costComparison": "matches",
+          "phaseComparison": "matches",
+          "catalogueId": "c6e7-5b8f-5d8f-0626",
+          "catalogueEffect": "While Engaged, this Unit may target and be targeted by Unengaged Enemy Units. In both cases, the defending Unit gains an Evade Roll against those attacks.",
+          "catalogueCost": "Passive",
+          "comparison": "wording-matches",
+          "nestedKeywords": [
+            {
+              "name": "Enemy",
+              "officialPage": 86
+            },
+            {
+              "name": "Engaged",
+              "officialPage": 86
+            },
+            {
+              "name": "Unengaged",
+              "officialPage": 93
+            }
+          ]
+        },
+        {
+          "name": "Devastating Charge",
+          "phase": "Assault Phase",
+          "officialEffect": "Immediately after this Unit completes a successful Charge, resolve the IMPACT (4) 3+ effect.",
+          "officialType": "Passive",
+          "officialCost": null,
+          "costComparison": "matches",
+          "phaseComparison": "matches",
+          "catalogueId": "f4a5-fd98-507c-6cd9",
+          "catalogueEffect": "Immediately after this Unit completes a successful Charge, resolve the IMPACT (4) 3+ effect.",
+          "catalogueCost": "Passive",
+          "comparison": "wording-matches",
+          "nestedKeywords": [
+            {
+              "name": "Impact",
+              "officialPage": 88,
+              "catalogueId": "7805-5c0f-7d68-90c8",
+              "catalogueInfoLinks": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "faction": "Protoss",
+      "name": "Zeratul",
+      "catalogueUnit": true,
+      "abilities": [
+        {
+          "name": "One With The Shadows",
+          "phase": "Any Phase",
+          "officialEffect": "After this Unit fully resolves an Action, it gains the HIDDEN Status.",
+          "officialType": "Passive",
+          "officialCost": null,
+          "costComparison": "matches",
+          "phaseComparison": "matches",
+          "catalogueId": "fc60-0216-5d13-12e0",
+          "catalogueEffect": "After this Unit fully resolves an Action, it gains the HIDDEN Status.",
+          "catalogueCost": "Passive",
+          "comparison": "wording-matches",
+          "nestedKeywords": [
+            {
+              "name": "Hidden",
+              "officialPage": 88,
+              "catalogueId": "4bf6-1de9-71aa-02a4",
+              "catalogueInfoLinks": 2
+            },
+            {
+              "name": "Status",
+              "officialPage": 92
+            }
+          ]
+        },
+        {
+          "name": "Prophetic Vision",
+          "phase": "Any Phase",
+          "officialEffect": "REPEATABLE. Use when this Unit is selected as the target of an attack. This Unit's Evade characteristic is treated as 4+ against this attack and cannot be modified.",
+          "officialType": "Reaction",
+          "officialCost": "1 PE",
+          "costComparison": "matches",
+          "phaseComparison": "matches",
+          "catalogueId": "e408-7a55-5040-7e23",
+          "catalogueEffect": "REPEATABLE. Use when this Unit is selected as the target of an attack. This Unit's Evade characteristic is treated as 4+ against this attack and cannot be modified.",
+          "catalogueCost": "Reaction (1 PE)",
+          "comparison": "wording-matches",
+          "nestedKeywords": [
+            {
+              "name": "Repeatable",
+              "officialPage": 90,
+              "catalogueId": "f895-258a-9487-f59a",
+              "catalogueInfoLinks": 1
+            }
+          ]
+        },
+        {
+          "name": "Sentenced To Death",
+          "phase": "Movement Phase",
+          "officialEffect": "Target Enemy Unit on the battlefield. Whenever Zeratul makes a Close Combat Attack targeting the selected Unit, its weapon gains CRITICAL HIT (2).",
+          "officialType": "Active",
+          "officialCost": "1 PE",
+          "costComparison": "matches",
+          "phaseComparison": "matches",
+          "catalogueId": "0ec7-be54-ce7c-216b",
+          "catalogueEffect": "Target Enemy Unit on the battlefield. Whenever Zeratul makes a Close Combat Attack targeting the selected Unit, its weapon gains CRITICAL HIT (2).",
+          "catalogueCost": "Active (1 PE)",
+          "comparison": "wording-matches",
+          "nestedKeywords": [
+            {
+              "name": "Critical Hit",
+              "officialPage": 85,
+              "catalogueId": "3f61-d287-410a-0484",
+              "catalogueInfoLinks": 3
+            },
+            {
+              "name": "Enemy",
+              "officialPage": 86
+            }
+          ]
+        },
+        {
+          "name": "Void Prison",
+          "phase": "Movement Phase",
+          "officialEffect": "Set a Faction Indicator on the battlefield Within 8\" of this Unit. While Enemy Units are Within 2\" of this Faction Indicator they suffer DEBUFF Speed (2).",
+          "officialType": "Active",
+          "officialCost": "1 PE",
+          "costComparison": "matches",
+          "phaseComparison": "matches",
+          "catalogueId": "f149-170d-3172-0722",
+          "catalogueEffect": "Set a Faction Indicator on the battlefield Within 8\" of this Unit. While Enemy Units are Within 2\" of this Faction Indicator they suffer DEBUFF Speed (2).",
+          "catalogueCost": "Active (1 PE)",
+          "comparison": "wording-matches",
+          "nestedKeywords": [
+            {
+              "name": "Debuff",
+              "officialPage": 85,
+              "catalogueId": "e9c5-7999-24b7-4858",
+              "catalogueInfoLinks": 4
+            },
+            {
+              "name": "Enemy",
+              "officialPage": 86
+            },
+            {
+              "name": "Within",
+              "officialPage": 93
+            }
+          ]
+        },
+        {
+          "name": "Void Blink",
+          "phase": "Assault Phase",
+          "officialEffect": "If Unengaged, resolve the PLACE (6) effect.",
+          "officialType": "Active",
+          "officialCost": "1 PE",
+          "costComparison": "matches",
+          "phaseComparison": "matches",
+          "catalogueId": "487c-d9f5-ffa8-52fd",
+          "catalogueEffect": "If Unengaged, resolve the PLACE (6) effect.",
+          "catalogueCost": "Active (1 PE)",
+          "comparison": "wording-matches",
+          "nestedKeywords": [
+            {
+              "name": "Place",
+              "officialPage": 90,
+              "catalogueId": "1a3d-86d9-8aa7-68ab",
+              "catalogueInfoLinks": 3
+            },
+            {
+              "name": "Unengaged",
+              "officialPage": 93
+            }
+          ]
+        },
+        {
+          "name": "Devastating Charge",
+          "phase": "Assault Phase",
+          "officialEffect": "Immediately after this Unit completes a successful Charge, resolve the IMPACT (4) 4+ effect.",
+          "officialType": "Passive",
+          "officialCost": null,
+          "costComparison": "matches",
+          "phaseComparison": "matches",
+          "catalogueId": "865d-aeba-13ca-2f81",
+          "catalogueEffect": "Immediately after this Unit completes a successful Charge, resolve the IMPACT (4) 4+ effect.",
+          "catalogueCost": "Passive",
+          "comparison": "wording-matches",
+          "nestedKeywords": [
+            {
+              "name": "Impact",
+              "officialPage": 88,
+              "catalogueId": "7805-5c0f-7d68-90c8",
+              "catalogueInfoLinks": 1
+            }
+          ]
+        },
+        {
+          "name": "Shadow Strike",
+          "phase": "Combat Phase",
+          "officialEffect": "All Enemy Units Engaged with this Unit suffer HITS 4 (1).",
+          "officialType": "Active",
+          "officialCost": "1 PE",
+          "costComparison": "matches",
+          "phaseComparison": "matches",
+          "catalogueId": "67e9-f089-f6da-635f",
+          "catalogueEffect": "All Enemy Units Engaged with this Unit suffer HITS 4 (1)",
+          "catalogueCost": "Active (1 PE)",
+          "comparison": "wording-differs",
+          "nestedKeywords": [
+            {
+              "name": "Enemy",
+              "officialPage": 86
+            },
+            {
+              "name": "Engaged",
+              "officialPage": 86
+            },
+            {
+              "name": "Hits",
+              "officialPage": 88
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "faction": "Protoss",
+      "name": "Nerazim Watchers (Adept)",
+      "catalogueUnit": true,
+      "abilities": [
+        {
+          "name": "Path Of Shadows",
+          "phase": "Any Phase",
+          "officialEffect": "This Unit gains HIDDEN Status until it performs another action.",
+          "officialType": "Active",
+          "officialCost": "1 PE",
+          "costComparison": "matches",
+          "phaseComparison": "matches",
+          "catalogueId": "ac6d-b433-8902-3621",
+          "catalogueEffect": "This Unit gains HIDDEN Status until it performs another action.",
+          "catalogueCost": "Active (1 PE)",
+          "comparison": "wording-matches",
+          "nestedKeywords": [
+            {
+              "name": "Hidden",
+              "officialPage": 88,
+              "catalogueId": "4bf6-1de9-71aa-02a4",
+              "catalogueInfoLinks": 2
+            },
+            {
+              "name": "Status",
+              "officialPage": 92
+            }
+          ]
+        },
+        {
+          "name": "Nerazim Farsight",
+          "phase": "Any Phase",
+          "officialEffect": "While Enemy Units are Within 6\" of this Unit's Shade token, they lose HIDDEN Status.",
+          "officialType": "Passive",
+          "officialCost": null,
+          "costComparison": "matches",
+          "phaseComparison": "matches",
+          "catalogueId": "e42f-bcc9-fa98-cd9d",
+          "catalogueEffect": "While Enemy Units are Within 6\" of this Unit's Shade token, they lose HIDDEN Status.",
+          "catalogueCost": "Passive",
+          "comparison": "wording-matches",
+          "nestedKeywords": [
+            {
+              "name": "Enemy",
+              "officialPage": 86
+            },
+            {
+              "name": "Hidden",
+              "officialPage": 88,
+              "catalogueId": "4bf6-1de9-71aa-02a4",
+              "catalogueInfoLinks": 2
+            },
+            {
+              "name": "Status",
+              "officialPage": 92
+            },
+            {
+              "name": "Within",
+              "officialPage": 93
+            }
+          ]
+        },
+        {
+          "name": "Psionic Transfer",
+          "phase": "Movement Phase",
+          "officialEffect": "Set a Shade token Wholly Within 12\" of any model in this Unit. At the End of the Round, the controlling player may set all models of this Unit in Coherency, treating the Shade token as the Leading Model. The Shade token has DISPLACEMENT.",
+          "officialType": "Active",
+          "officialCost": "1 PE",
+          "costComparison": "matches",
+          "phaseComparison": "matches",
+          "catalogueId": "8959-5b4f-aed5-54a6",
+          "catalogueEffect": "Set a Shade token Wholly Within 12\" of any model in this Unit. At the End of the Round, the controlling player may set all models of this Unit in Coherency, treating the Shade token as the Leading Model. The Shade token has DISPLACEMENT.",
+          "catalogueCost": "Active (1 PE)",
+          "comparison": "wording-matches",
+          "nestedKeywords": [
+            {
+              "name": "Controlling Player",
+              "officialPage": 85
+            },
+            {
+              "name": "Displacement",
+              "officialPage": 85,
+              "catalogueId": "eb27-1500-88ca-d0f0",
+              "catalogueInfoLinks": 1
+            },
+            {
+              "name": "Leading Model",
+              "officialPage": 88
+            },
+            {
+              "name": "Wholly Within",
+              "officialPage": 93
+            },
+            {
+              "name": "Within",
+              "officialPage": 93
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "faction": "Protoss",
+      "name": "Tassadar",
+      "catalogueUnit": false,
+      "abilities": [
+        {
+          "name": "Commander",
+          "phase": "Any Phase",
+          "officialEffect": "Treat this Unit's Supply characteristic as increased by 1 for Controlling and Contesting Mission Markers, completing objectives, and resolving Disengage checks.",
+          "officialType": "Passive",
+          "officialCost": null,
+          "costComparison": "not-in-catalogue",
+          "phaseComparison": "not-in-catalogue",
+          "comparison": "not-in-catalogue",
+          "nestedKeywords": [
+            {
+              "name": "Mission Markers",
+              "officialPage": 89
+            }
+          ]
+        },
+        {
+          "name": "Force Wall",
+          "phase": "Movement Phase",
+          "officialEffect": "Set two Force Wall tokens Wholly Within 8\" in an unoccupied space. Units of Size 2 or lower cannot move across the Force Wall. Models of Size 3 or more can move over it, and it's then removed.",
+          "officialType": "Active",
+          "officialCost": "1 PE",
+          "costComparison": "not-in-catalogue",
+          "phaseComparison": "not-in-catalogue",
+          "comparison": "not-in-catalogue",
+          "nestedKeywords": [
+            {
+              "name": "Wholly Within",
+              "officialPage": 93
+            },
+            {
+              "name": "Within",
+              "officialPage": 93
+            }
+          ]
+        },
+        {
+          "name": "Khala'S Gift",
+          "phase": "Movement Phase",
+          "officialEffect": "Target another Friendly Biological Unit Within 12\". Until the End of the Round, that Unit resolves its first Special Ability with the cost reduced by 1 (to a minimum of 0).",
+          "officialType": "Active",
+          "officialCost": "0 PE",
+          "costComparison": "not-in-catalogue",
+          "phaseComparison": "not-in-catalogue",
+          "comparison": "not-in-catalogue",
+          "nestedKeywords": [
+            {
+              "name": "Friendly",
+              "officialPage": 87
+            },
+            {
+              "name": "Special Ability",
+              "officialPage": 91
+            },
+            {
+              "name": "Within",
+              "officialPage": 93
+            }
+          ]
+        },
+        {
+          "name": "Executor'S Will",
+          "phase": "Movement Phase",
+          "officialEffect": "Target two Enemy Units on the battlefield (Line of Sight is not required) and place a Faction Indicator next to each of them. During the next Assault Phase, if either of these Units ends its Activation while its Faction Indicator remains on the battlefield, you may Activate two Friendly Units consecutively. Remove both Faction Indicators after any Enemy Unit completes its Activation in the following Assault Phase.",
+          "officialType": "Active",
+          "officialCost": "1 PE",
+          "costComparison": "not-in-catalogue",
+          "phaseComparison": "not-in-catalogue",
+          "comparison": "not-in-catalogue",
+          "nestedKeywords": [
+            {
+              "name": "Enemy",
+              "officialPage": 86
+            },
+            {
+              "name": "Friendly",
+              "officialPage": 87
+            },
+            {
+              "name": "Line Of Sight",
+              "officialPage": 88
+            },
+            {
+              "name": "Place",
+              "officialPage": 90,
+              "catalogueId": "1a3d-86d9-8aa7-68ab",
+              "catalogueInfoLinks": 3
+            }
+          ]
+        },
+        {
+          "name": "Psi Lightning",
+          "phase": "Assault Phase",
+          "officialEffect": "Each Unit Within 2\" of one or more Friendly Force Wall tokens suffers 1 Damage.",
+          "officialType": "Active",
+          "officialCost": "0 PE",
+          "costComparison": "not-in-catalogue",
+          "phaseComparison": "not-in-catalogue",
+          "comparison": "not-in-catalogue",
+          "nestedKeywords": [
+            {
+              "name": "Friendly",
+              "officialPage": 87
+            },
+            {
+              "name": "Within",
+              "officialPage": 93
+            }
+          ]
+        },
+        {
+          "name": "Telekinetic Push",
+          "phase": "Assault Phase",
+          "officialEffect": "Set each Friendly Force Wall token Wholly Within 6\" of its current position.",
+          "officialType": "Active",
+          "officialCost": "1 PE",
+          "costComparison": "not-in-catalogue",
+          "phaseComparison": "not-in-catalogue",
+          "comparison": "not-in-catalogue",
+          "nestedKeywords": [
+            {
+              "name": "Friendly",
+              "officialPage": 87
+            },
+            {
+              "name": "Wholly Within",
+              "officialPage": 93
+            },
+            {
+              "name": "Within",
+              "officialPage": 93
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "faction": "Protoss",
+      "name": "Twilight Templar (High Templar)",
+      "catalogueUnit": false,
+      "abilities": [
+        {
+          "name": "Bound By The Khala",
+          "phase": "Any Phase",
+          "officialEffect": "Use when the Current Supply Value of another Friendly Unit Within 8\" of this Unit is reduced. Return one Non-Unique Exhausted Tactical Card to the Ready state.",
+          "officialType": "Reaction",
+          "officialCost": "0 PE",
+          "costComparison": "not-in-catalogue",
+          "phaseComparison": "not-in-catalogue",
+          "comparison": "not-in-catalogue",
+          "nestedKeywords": [
+            {
+              "name": "Current Supply Value",
+              "officialPage": 85
+            },
+            {
+              "name": "Friendly",
+              "officialPage": 87
+            },
+            {
+              "name": "Ready",
+              "officialPage": 90
+            },
+            {
+              "name": "Supply Value",
+              "officialPage": 92
+            },
+            {
+              "name": "Within",
+              "officialPage": 93
+            }
+          ]
+        },
+        {
+          "name": "Psionic Gale",
+          "phase": "Movement Phase",
+          "officialEffect": "Set a Psionic Storm token Within 10\" and Line of Sight of this Unit. This token is not removed if this Unit is Destroyed. At the End of each Phase, set a Psionic Storm Blast Template on the centre of this token. For each Unit that has at least one model whose base is partially covered by the template, roll 3 dice, plus 1 additional die for each model in that Unit whose base is partially covered. For each result of 4+, that Unit suffers an effect depending on the current Phase:\n• Movement Phase: NON-LETHAL DAMAGE (1).\n• Assault Phase: 1 Damage. If multiple effects trigger at the End of the Assault Phase, resolve them in the order specified in Part 8.9.4.",
+          "officialType": "Active",
+          "officialCost": "2 PE",
+          "costComparison": "not-in-catalogue",
+          "phaseComparison": "not-in-catalogue",
+          "comparison": "not-in-catalogue",
+          "nestedKeywords": [
+            {
+              "name": "Line Of Sight",
+              "officialPage": 88
+            },
+            {
+              "name": "Non-Lethal Damage",
+              "officialPage": 90,
+              "catalogueId": "0ecb-de24-de57-9c58",
+              "catalogueInfoLinks": 3
+            },
+            {
+              "name": "Within",
+              "officialPage": 93
+            }
+          ]
+        },
+        {
+          "name": "Feedback",
+          "phase": "Movement Phase",
+          "officialEffect": "Target one Enemy Mechanical or Psionic Unit Within 8\". Until the End of the Round, after that Unit resolves an Active or Reaction Special Ability (excluding abilities granted by a Tactical Card or Faction Card), it suffers NON-LETHAL DAMAGE (3).",
+          "officialType": "Active",
+          "officialCost": "1 PE",
+          "costComparison": "not-in-catalogue",
+          "phaseComparison": "not-in-catalogue",
+          "comparison": "not-in-catalogue",
+          "nestedKeywords": [
+            {
+              "name": "Enemy",
+              "officialPage": 86
+            },
+            {
+              "name": "Non-Lethal Damage",
+              "officialPage": 90,
+              "catalogueId": "0ecb-de24-de57-9c58",
+              "catalogueInfoLinks": 3
+            },
+            {
+              "name": "Special Ability",
+              "officialPage": 91
+            },
+            {
+              "name": "Within",
+              "officialPage": 93
+            }
+          ]
+        },
+        {
+          "name": "Warp-In",
+          "phase": "Movement Phase",
+          "officialEffect": "Resolve the PLACE (6) effect.",
+          "officialType": "Active",
+          "officialCost": "1 PE",
+          "costComparison": "not-in-catalogue",
+          "phaseComparison": "not-in-catalogue",
+          "comparison": "not-in-catalogue",
+          "nestedKeywords": [
+            {
+              "name": "Place",
+              "officialPage": 90,
+              "catalogueId": "1a3d-86d9-8aa7-68ab",
+              "catalogueInfoLinks": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "faction": "Protoss",
+      "name": "High Templar",
+      "catalogueUnit": false,
+      "abilities": [
+        {
+          "name": "Our Minds As One",
+          "phase": "Any Phase",
+          "officialEffect": "While this Unit's Current Supply Value is 2, it gains the following effects: The first Special Ability resolved by this Unit each Round has its PE cost reduced by 1 (to a minimum of 0). Apply a +1 Modifier to the dice rolled for its Psionic Storm Special Ability.",
+          "officialType": "Passive",
+          "officialCost": null,
+          "costComparison": "not-in-catalogue",
+          "phaseComparison": "not-in-catalogue",
+          "comparison": "not-in-catalogue",
+          "nestedKeywords": [
+            {
+              "name": "Current Supply Value",
+              "officialPage": 85
+            },
+            {
+              "name": "Modifier",
+              "officialPage": 90
+            },
+            {
+              "name": "Special Ability",
+              "officialPage": 91
+            },
+            {
+              "name": "Supply Value",
+              "officialPage": 92
+            }
+          ]
+        },
+        {
+          "name": "Feedback",
+          "phase": "Movement Phase",
+          "officialEffect": "Target one Enemy Mechanical or Psionic Unit Within 8\". Until the End of the Round, after that Unit resolves an Active or Reaction Special Ability (excluding abilities granted by a Tactical Card or Faction Card), it suffers NON-LETHAL DAMAGE (3).",
+          "officialType": "Active",
+          "officialCost": "1 PE",
+          "costComparison": "not-in-catalogue",
+          "phaseComparison": "not-in-catalogue",
+          "comparison": "not-in-catalogue",
+          "nestedKeywords": [
+            {
+              "name": "Enemy",
+              "officialPage": 86
+            },
+            {
+              "name": "Non-Lethal Damage",
+              "officialPage": 90,
+              "catalogueId": "0ecb-de24-de57-9c58",
+              "catalogueInfoLinks": 3
+            },
+            {
+              "name": "Special Ability",
+              "officialPage": 91
+            },
+            {
+              "name": "Within",
+              "officialPage": 93
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "faction": "Terran",
+      "name": "Marines",
+      "catalogueUnit": true,
+      "abilities": [
+        {
+          "name": "Stimpack",
+          "phase": "Movement Phase",
+          "officialEffect": "This Unit suffers NON-LETHAL DAMAGE (2). This Unit gains BUFF Speed (3). Additionally, its C-14 Rifle and all Close Combat Weapons gain PRECISION (3).",
+          "officialType": "Active",
+          "officialCost": "1 CP",
+          "costComparison": "matches",
+          "phaseComparison": "matches",
+          "catalogueId": "cedc-b9f6-3d53-5ae3",
+          "catalogueEffect": "This Unit suffers NON-LETHAL DAMAGE (2). This Unit gains BUFF Speed (3). Additionally, its C-14 Rifle and all Close Combat Weapons gain PRECISION (3).",
+          "catalogueCost": "Active (1 CP)",
+          "comparison": "wording-matches",
+          "nestedKeywords": [
+            {
+              "name": "Buff",
+              "officialPage": 84,
+              "catalogueId": "db39-98a1-2d62-0e5c",
+              "catalogueInfoLinks": 5
+            },
+            {
+              "name": "Non-Lethal Damage",
+              "officialPage": 90,
+              "catalogueId": "0ecb-de24-de57-9c58",
+              "catalogueInfoLinks": 3
+            },
+            {
+              "name": "Precision",
+              "officialPage": 90,
+              "catalogueId": "d05b-cebb-50d1-ad49",
+              "catalogueInfoLinks": 7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "faction": "Terran",
+      "name": "Marauders",
+      "catalogueUnit": true,
+      "abilities": [
+        {
+          "name": "Stimpack",
+          "phase": "Movement Phase",
+          "officialEffect": "This Unit suffers NON-LETHAL DAMAGE (2). This Unit gains BUFF Speed (3). Additionally, its Quad K12 and all Close Combat Weapons gain PRECISION (2).",
+          "officialType": "Active",
+          "officialCost": "1 CP",
+          "costComparison": "matches",
+          "phaseComparison": "matches",
+          "catalogueId": "9408-632c-05c6-441a",
+          "catalogueEffect": "This Unit suffers NON-LETHAL DAMAGE (2). This Unit gains BUFF Speed (3). Additionally, its Quad K12 and all Close Combat Weapons gain PRECISION (2).",
+          "catalogueCost": "Active (1 CP)",
+          "comparison": "wording-matches",
+          "nestedKeywords": [
+            {
+              "name": "Buff",
+              "officialPage": 84,
+              "catalogueId": "db39-98a1-2d62-0e5c",
+              "catalogueInfoLinks": 5
+            },
+            {
+              "name": "Non-Lethal Damage",
+              "officialPage": 90,
+              "catalogueId": "0ecb-de24-de57-9c58",
+              "catalogueInfoLinks": 3
+            },
+            {
+              "name": "Precision",
+              "officialPage": 90,
+              "catalogueId": "d05b-cebb-50d1-ad49",
+              "catalogueInfoLinks": 7
+            }
+          ]
+        },
+        {
+          "name": "Concusive Shells",
+          "phase": "Assault Phase",
+          "officialEffect": "When an Enemy declares a Charge against a Friendly Unit Within 8\", that Enemy gains DEBUFF Speed (2).",
+          "officialType": "Reaction",
+          "officialCost": "1 CP",
+          "costComparison": "not-in-catalogue",
+          "phaseComparison": "not-in-catalogue",
+          "comparison": "not-in-catalogue",
+          "nestedKeywords": [
+            {
+              "name": "Debuff",
+              "officialPage": 85,
+              "catalogueId": "e9c5-7999-24b7-4858",
+              "catalogueInfoLinks": 4
+            },
+            {
+              "name": "Enemy",
+              "officialPage": 86
+            },
+            {
+              "name": "Friendly",
+              "officialPage": 87
+            },
+            {
+              "name": "Within",
+              "officialPage": 93
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "faction": "Terran",
+      "name": "Medics",
+      "catalogueUnit": true,
+      "abilities": [
+        {
+          "name": "Life Support",
+          "phase": "Any Phase",
+          "officialEffect": "Use when another Friendly Biological Unit suffers Damage Within 4\". Reduce the Total Damage before allocation by 1 for each model in this Unit that is Within 4\" of the damaged Unit.",
+          "officialType": "Reaction",
+          "officialCost": "1 CP",
+          "costComparison": "matches",
+          "phaseComparison": "matches",
+          "catalogueId": "8824-cc52-003f-bcb7",
+          "catalogueEffect": "Use when another Friendly Biological Unit suffers Damage Within 4\". Reduce the Total Damage before allocation by 1 for each model in this Unit that is Within 4\" of the damaged Unit.",
+          "catalogueCost": "Reaction (1 CP)",
+          "comparison": "wording-matches",
+          "nestedKeywords": [
+            {
+              "name": "Friendly",
+              "officialPage": 87
+            },
+            {
+              "name": "Within",
+              "officialPage": 93
+            }
+          ]
+        },
+        {
+          "name": "Restoration",
+          "phase": "Any Phase",
+          "officialEffect": "Use when a Friendly Unit Within 4\" receives a DEBUFF. Remove all DEBUFFS from it.",
+          "officialType": "Reaction",
+          "officialCost": "1 CP",
+          "costComparison": "matches",
+          "phaseComparison": "matches",
+          "catalogueId": "1ba3-1361-491c-642f",
+          "catalogueEffect": "Use when a Friendly Unit Within 4\" receives a DEBUFF. Remove all DEBUFFS from it.",
+          "catalogueCost": "Reaction (1 CP)",
+          "comparison": "wording-matches",
+          "nestedKeywords": [
+            {
+              "name": "Debuff",
+              "officialPage": 85,
+              "catalogueId": "e9c5-7999-24b7-4858",
+              "catalogueInfoLinks": 4
+            },
+            {
+              "name": "Friendly",
+              "officialPage": 87
+            },
+            {
+              "name": "Within",
+              "officialPage": 93
+            }
+          ]
+        },
+        {
+          "name": "Medpack",
+          "phase": "Movement Phase",
+          "officialEffect": "Select another Friendly Biological Unit Within 4\". Resolve the HEAL (X) effect for the targeted Unit, where X is the number of models in this Unit that are Within 4\" of the target Unit.",
+          "officialType": "Active",
+          "officialCost": "1 CP",
+          "costComparison": "matches",
+          "phaseComparison": "matches",
+          "catalogueId": "dd9d-69b4-9b62-dff0",
+          "catalogueEffect": "Select another Friendly Biological Unit Within 4\". Resolve the HEAL (X) effect for the targeted Unit, where X is the number of models in this Unit that are Within 4\" of the target Unit.",
+          "catalogueCost": "Active (1 CP)",
+          "comparison": "wording-matches",
+          "nestedKeywords": [
+            {
+              "name": "Friendly",
+              "officialPage": 87
+            },
+            {
+              "name": "Heal",
+              "officialPage": 88,
+              "catalogueId": "9499-b51b-c280-c0bf",
+              "catalogueInfoLinks": 6
+            },
+            {
+              "name": "Within",
+              "officialPage": 93
+            }
+          ]
+        },
+        {
+          "name": "Optical Flare",
+          "phase": "Movement Phase",
+          "officialEffect": "Select one Enemy Unit Within 12\". Until the End of the Round, apply DEBUFF Range (4) to that Unit's Ranged Weapons. That Unit cannot benefit from LONG RANGE.",
+          "officialType": "Active",
+          "officialCost": "2 CP",
+          "costComparison": "matches",
+          "phaseComparison": "matches",
+          "catalogueId": "f828-28f2-f2b3-c4a4",
+          "catalogueEffect": "Select one Enemy Unit Within 12\". Until the End of the Round, apply DEBUFF Range (4) to that Unit’s Ranged Weapons. That Unit cannot benefit from LONG RANGE.",
+          "catalogueCost": "Active (2 CP)",
+          "comparison": "wording-matches",
+          "nestedKeywords": [
+            {
+              "name": "Debuff",
+              "officialPage": 85,
+              "catalogueId": "e9c5-7999-24b7-4858",
+              "catalogueInfoLinks": 4
+            },
+            {
+              "name": "Enemy",
+              "officialPage": 86
+            },
+            {
+              "name": "Long Range",
+              "officialPage": 89,
+              "catalogueId": "a7d8-c669-4f19-2b97",
+              "catalogueInfoLinks": 8
+            },
+            {
+              "name": "Within",
+              "officialPage": 93
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "faction": "Terran",
+      "name": "Jim Raynor",
+      "catalogueUnit": true,
+      "abilities": [
+        {
+          "name": "Commander",
+          "phase": "Any Phase",
+          "officialEffect": "Treat this Unit's Supply characteristic as increased by 1 for Controlling and Contesting Mission Markers, completing objectives, and resolving Disengage checks.",
+          "officialType": "Passive",
+          "officialCost": null,
+          "costComparison": "matches",
+          "phaseComparison": "matches",
+          "catalogueId": "c429-c517-b5d9-8e78",
+          "catalogueEffect": "Treat this Unit’s Supply characteristic as increased by 1 for Controlling and Contesting Mission Markers, completing objectives, and resolving Disengage checks.",
+          "catalogueCost": "Passive",
+          "comparison": "wording-matches",
+          "nestedKeywords": [
+            {
+              "name": "Mission Markers",
+              "officialPage": 89
+            }
+          ]
+        },
+        {
+          "name": "Freedom Fighters",
+          "phase": "Any Phase",
+          "officialEffect": "The Supply Value of all Friendly Units Within 8\" of this Unit cannot be reduced below 1 for Contesting Mission Markers and completing objectives.",
+          "officialType": "Passive",
+          "officialCost": null,
+          "costComparison": "matches",
+          "phaseComparison": "matches",
+          "catalogueId": "7eea-7a20-dc9c-a25b",
+          "catalogueEffect": "The Supply Value of all Friendly Units Within 8\" of this Unit cannot be reduced below 1 for Contesting Mission Markers and completing objectives.",
+          "catalogueCost": "Passive",
+          "comparison": "wording-matches",
+          "nestedKeywords": [
+            {
+              "name": "Friendly",
+              "officialPage": 87
+            },
+            {
+              "name": "Mission Markers",
+              "officialPage": 89
+            },
+            {
+              "name": "Supply Value",
+              "officialPage": 92
+            },
+            {
+              "name": "Within",
+              "officialPage": 93
+            }
+          ]
+        },
+        {
+          "name": "Orders",
+          "phase": "Movement Phase",
+          "officialEffect": "REPEATABLE. Select another Friendly Biological Unit Within 8\", spend CP and apply one of the following effects:\n1 CP: That Unit's first used weapon gains the CRITICAL HIT (2).\n1 CP: That Unit ignores the Disengage penalty for the remainder of the Round.\n2 CP: Remove the Activation Marker from that Unit.",
+          "officialType": "Active",
+          "officialCost": "X CP",
+          "costComparison": "matches",
+          "phaseComparison": "matches",
+          "catalogueId": "5081-268f-12c4-02ef",
+          "catalogueEffect": "REPEATABLE. Select another Friendly Biological Unit Within 8\", spend CP and apply one of the following effects:\n- 1 CP: That Unit’s first used weapon gains the CRITICAL HIT (2). \n- 1 CP: That Unit ignores the Disengage penalty for the remainder of the Round. \n- 2 CP: Remove the Activation Marker from that Unit.",
+          "catalogueCost": "Active (X CP)",
+          "comparison": "wording-differs",
+          "nestedKeywords": [
+            {
+              "name": "Critical Hit",
+              "officialPage": 85,
+              "catalogueId": "3f61-d287-410a-0484",
+              "catalogueInfoLinks": 3
+            },
+            {
+              "name": "Friendly",
+              "officialPage": 87
+            },
+            {
+              "name": "Repeatable",
+              "officialPage": 90,
+              "catalogueId": "f895-258a-9487-f59a",
+              "catalogueInfoLinks": 1
+            },
+            {
+              "name": "Within",
+              "officialPage": 93
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "faction": "Terran",
+      "name": "Point Defense Drone",
+      "catalogueUnit": true,
+      "abilities": [
+        {
+          "name": "Point Defense Laser",
+          "phase": "Any Phase",
+          "officialEffect": "When another Friendly Unit Within 4\" is targeted by a Ranged Attack without the INSTANT keyword, remove up to 2 dice from the Attack Pool. Then remove this Unit from the battlefield.",
+          "officialType": "Passive",
+          "officialCost": null,
+          "costComparison": "matches",
+          "phaseComparison": "matches",
+          "catalogueId": "64d7-5e8b-1f19-55cb",
+          "catalogueEffect": "When another Friendly Unit Within 4\" is targeted by a Ranged Attack without the INSTANT keyword, remove up to 2 dice from the Attack Pool. Then remove this Unit from the battlefield.",
+          "catalogueCost": "Passive",
+          "comparison": "wording-matches",
+          "nestedKeywords": [
+            {
+              "name": "Friendly",
+              "officialPage": 87
+            },
+            {
+              "name": "Instant",
+              "officialPage": 88,
+              "catalogueId": "a6a8-9065-8680-ddbd",
+              "catalogueInfoLinks": 1
+            },
+            {
+              "name": "Within",
+              "officialPage": 93
+            }
+          ]
+        },
+        {
+          "name": "Gliding",
+          "phase": "Any Phase",
+          "officialEffect": "This model has DISPLACEMENT.",
+          "officialType": "Passive",
+          "officialCost": null,
+          "costComparison": "matches",
+          "phaseComparison": "matches",
+          "catalogueId": "cbdc-39c2-6bc8-b9fc",
+          "catalogueEffect": "This model has DISPLACEMENT.",
+          "catalogueCost": "Passive",
+          "comparison": "wording-matches",
+          "nestedKeywords": [
+            {
+              "name": "Displacement",
+              "officialPage": 85,
+              "catalogueId": "eb27-1500-88ca-d0f0",
+              "catalogueInfoLinks": 1
+            }
+          ]
+        },
+        {
+          "name": "Structure",
+          "phase": "Any Phase",
+          "officialEffect": "This Unit cannot be Activated in any Phase and cannot perform actions. Additionally, its Current Supply Value is treated as 0, and it can never Control or Contest Mission Markers, ignoring the standard Zero Supply Exception. This Unit cannot be a target of an ability, unless stated otherwise.",
+          "officialType": "Passive",
+          "officialCost": null,
+          "costComparison": "matches",
+          "phaseComparison": "matches",
+          "catalogueId": "d3a4-0dbc-a379-e0fa",
+          "catalogueEffect": "This Unit cannot be Activated in any Phase and cannot perform actions. Additionally, its Current Supply Value is treated as 0, and it can never Control or Contest Mission Markers, ignoring the standard Zero Supply Exception. This Unit cannot be a target of an ability, unless stated otherwise.",
+          "catalogueCost": "Passive",
+          "comparison": "wording-matches",
+          "nestedKeywords": [
+            {
+              "name": "Current Supply Value",
+              "officialPage": 85
+            },
+            {
+              "name": "Mission Markers",
+              "officialPage": 89
+            },
+            {
+              "name": "Supply Value",
+              "officialPage": 92
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "faction": "Terran",
+      "name": "Raynor's Raiders",
+      "catalogueUnit": true,
+      "abilities": [
+        {
+          "name": "Stimpack",
+          "phase": "Movement Phase",
+          "officialEffect": "This Unit suffers NON-LETHAL DAMAGE (2). This Unit gains BUFF Speed (3). Additionally, its C-14 Rifle and all Close Combat Weapons gain PRECISION (3).",
+          "officialType": "Active",
+          "officialCost": "1 CP",
+          "costComparison": "matches",
+          "phaseComparison": "matches",
+          "catalogueId": "cedc-b9f6-3d53-5ae3",
+          "catalogueEffect": "This Unit suffers NON-LETHAL DAMAGE (2). This Unit gains BUFF Speed (3). Additionally, its C-14 Rifle and all Close Combat Weapons gain PRECISION (3).",
+          "catalogueCost": "Active (1 CP)",
+          "comparison": "wording-matches",
+          "nestedKeywords": [
+            {
+              "name": "Buff",
+              "officialPage": 84,
+              "catalogueId": "db39-98a1-2d62-0e5c",
+              "catalogueInfoLinks": 5
+            },
+            {
+              "name": "Non-Lethal Damage",
+              "officialPage": 90,
+              "catalogueId": "0ecb-de24-de57-9c58",
+              "catalogueInfoLinks": 3
+            },
+            {
+              "name": "Precision",
+              "officialPage": 90,
+              "catalogueId": "d05b-cebb-50d1-ad49",
+              "catalogueInfoLinks": 7
+            }
+          ]
+        },
+        {
+          "name": "Raiders Roll!",
+          "phase": "Movement Phase",
+          "officialEffect": "When this Unit is nominated to deploy from Reserves, it may resolve its Stimpack ability with the CP cost reduced by 1 (to a minimum of 0).",
+          "officialType": "Passive",
+          "officialCost": null,
+          "costComparison": "matches",
+          "phaseComparison": "matches",
+          "catalogueId": "03f3-93b7-3de5-83b8",
+          "catalogueEffect": "When this Unit is nominated to deploy from Reserves, it may resolve its Stimpack ability with the CP cost reduced by 1 (to a minimum of 0).",
+          "catalogueCost": "Passive",
+          "comparison": "wording-matches",
+          "nestedKeywords": [
+            {
+              "name": "Reserves",
+              "officialPage": 90
+            }
+          ]
+        },
+        {
+          "name": "Rapid Reinforcements",
+          "phase": "Movement Phase",
+          "officialEffect": "When this Unit is nominated to deploy from Reserves, it may resolve the PLACE (10) effect from another Friendly Unit. No model may be set Within 8\" of any Enemy model. This Unit's Activation ends.",
+          "officialType": "Passive",
+          "officialCost": null,
+          "costComparison": "matches",
+          "phaseComparison": "matches",
+          "catalogueId": "19a8-73ca-085a-8f13",
+          "catalogueEffect": "When this Unit is nominated to deploy from Reserves, it may resolve the PLACE (10) effect from another Friendly Unit. No model may be set Within 8\" of any Enemy model. This Unit's Activation ends.",
+          "catalogueCost": "Passive",
+          "comparison": "wording-matches",
+          "nestedKeywords": [
+            {
+              "name": "Enemy",
+              "officialPage": 86
+            },
+            {
+              "name": "Friendly",
+              "officialPage": 87
+            },
+            {
+              "name": "Place",
+              "officialPage": 90,
+              "catalogueId": "1a3d-86d9-8aa7-68ab",
+              "catalogueInfoLinks": 3
+            },
+            {
+              "name": "Reserves",
+              "officialPage": 90
+            },
+            {
+              "name": "Within",
+              "officialPage": 93
+            }
+          ]
+        },
+        {
+          "name": "Slugthrower",
+          "phase": "Assault Phase",
+          "officialEffect": "When this Unit makes a Ranged Attack with a C-14 Rifle and the target is Within 8\", that weapon gains ANTI-EVADE (1).",
+          "officialType": "Passive",
+          "officialCost": null,
+          "costComparison": "matches",
+          "phaseComparison": "matches",
+          "catalogueId": "7c6b-c406-4107-6bc4",
+          "catalogueEffect": "When this Unit makes a Ranged Attack with a C-14 Rifle and the target is Within 8\", that weapon gains ANTI-EVADE (1).",
+          "catalogueCost": "Passive",
+          "comparison": "wording-matches",
+          "nestedKeywords": [
+            {
+              "name": "Anti-Evade",
+              "officialPage": 84,
+              "catalogueId": "cfd0-ab4b-fc25-34be",
+              "catalogueInfoLinks": 3
+            },
+            {
+              "name": "Within",
+              "officialPage": 93
+            }
+          ]
+        },
+        {
+          "name": "Grenades - Frag",
+          "phase": "Assault Phase",
+          "officialEffect": "When this Unit makes a Ranged Attack with a C-14 Rifle and the target is Within 8\", that weapon's S Dice is replaced by D6.",
+          "officialType": "Passive",
+          "officialCost": null,
+          "costComparison": "matches",
+          "phaseComparison": "matches",
+          "catalogueId": "73e3-df9f-4cf5-d51b",
+          "catalogueEffect": "When this Unit makes a Ranged Attack with a C-14 Rifle and the target is Within 8\", that weapon’s S Dice is replaced by D6.",
+          "catalogueCost": "Passive",
+          "comparison": "wording-matches",
+          "nestedKeywords": [
+            {
+              "name": "Within",
+              "officialPage": 93
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "faction": "Terran",
+      "name": "Goliath",
+      "catalogueUnit": true,
+      "abilities": [
+        {
+          "name": "Target Lock",
+          "phase": "Movement Phase",
+          "officialEffect": "Select one Enemy Unit Within 12\". Whenever a Friendly Goliath Unit targets that enemy with an Autocannon, that weapon gains Surge Type: Light, Armoured, and S Dice: D3+1.",
+          "officialType": "Active",
+          "officialCost": "1 CP",
+          "costComparison": "matches",
+          "phaseComparison": "matches",
+          "catalogueId": "86c0-9837-1522-7824",
+          "catalogueEffect": "Select one Enemy Unit Within 12\". Whenever a Friendly Goliath Unit targets that enemy with an Autocannon, that weapon gains Surge Type: Light, Armoured, and S Dice: D3+1.",
+          "catalogueCost": "Active (1 CP)",
+          "comparison": "wording-matches",
+          "nestedKeywords": [
+            {
+              "name": "Enemy",
+              "officialPage": 86
+            },
+            {
+              "name": "Friendly",
+              "officialPage": 87
+            },
+            {
+              "name": "Within",
+              "officialPage": 93
+            }
+          ]
+        },
+        {
+          "name": "Indomitable",
+          "phase": "Assault Phase",
+          "officialEffect": "While Engaged, this Unit may target and be targeted by Unengaged Enemy Units. In both cases, the defending Unit gains an Evade Roll against those attacks.",
+          "officialType": "Passive",
+          "officialCost": null,
+          "costComparison": "matches",
+          "phaseComparison": "matches",
+          "catalogueId": "c6e7-5b8f-5d8f-0626",
+          "catalogueEffect": "While Engaged, this Unit may target and be targeted by Unengaged Enemy Units. In both cases, the defending Unit gains an Evade Roll against those attacks.",
+          "catalogueCost": "Passive",
+          "comparison": "wording-matches",
+          "nestedKeywords": [
+            {
+              "name": "Enemy",
+              "officialPage": 86
+            },
+            {
+              "name": "Engaged",
+              "officialPage": 86
+            },
+            {
+              "name": "Unengaged",
+              "officialPage": 93
+            }
+          ]
+        },
+        {
+          "name": "Devastating Charge",
+          "phase": "Assault Phase",
+          "officialEffect": "Immediately after this Unit completes a successful Charge, resolve the IMPACT (4) 3+ effect.",
+          "officialType": "Passive",
+          "officialCost": null,
+          "costComparison": "matches",
+          "phaseComparison": "matches",
+          "catalogueId": "4cb3-9784-b4fc-a0f3",
+          "catalogueEffect": "Immediately after this Unit completes a successful Charge, resolve the IMPACT (4) 3+ effect.",
+          "catalogueCost": "Passive",
+          "comparison": "wording-matches",
+          "nestedKeywords": [
+            {
+              "name": "Impact",
+              "officialPage": 88,
+              "catalogueId": "7805-5c0f-7d68-90c8",
+              "catalogueInfoLinks": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "faction": "Terran",
+      "name": "Siege Tank",
+      "catalogueUnit": true,
+      "abilities": [
+        {
+          "name": "Large",
+          "phase": "Any Phase",
+          "officialEffect": "When this Unit's Leading Model moves, it cannot pass through physical gaps smaller than 3\" wide, regardless of its size. If the Leading Model's path of travel passes through, or any model in this Unit ends its movement on a Size 0 or Size 1 Impassible Terrain piece (excluding Tokens) during any movement action, that terrain piece is immediately removed from the game.",
+          "officialType": "Passive",
+          "officialCost": null,
+          "costComparison": "matches",
+          "phaseComparison": "matches",
+          "catalogueId": "70f6-d231-a288-6d38",
+          "catalogueEffect": "When this Unit's Leading Model moves, it cannot pass through physical gaps smaller than 3\" wide, regardless of its size. If the Leading Model's path of travel passes through, or any model in this Unit ends its movement on a Size 0 or Size 1 Impassible Terrain piece (excluding Tokens) during any movement action, that terrain piece is immediately removed from the game.",
+          "catalogueCost": "Passive",
+          "comparison": "wording-matches",
+          "nestedKeywords": [
+            {
+              "name": "Leading Model",
+              "officialPage": 88
+            }
+          ]
+        },
+        {
+          "name": "Heavy Plating",
+          "phase": "Any Phase",
+          "officialEffect": "When this Unit resolves an Armour Roll, it gains TOUGH (1), provided it does not currently have the SIEGE MODE Status.",
+          "officialType": "Passive",
+          "officialCost": null,
+          "costComparison": "matches",
+          "phaseComparison": "matches",
+          "catalogueId": "52a1-55fa-8758-5a63",
+          "catalogueEffect": "When this Unit resolves an Armour Roll, it gains TOUGH (1), provided it does not currently have the SIEGE MODE Status.",
+          "catalogueCost": "Passive",
+          "comparison": "wording-matches",
+          "nestedKeywords": [
+            {
+              "name": "Siege Mode",
+              "officialPage": 91,
+              "catalogueId": "ba45-b6a8-33d0-f628",
+              "catalogueInfoLinks": 2
+            },
+            {
+              "name": "Status",
+              "officialPage": 92
+            },
+            {
+              "name": "Tough",
+              "officialPage": 92,
+              "catalogueId": "9928-edb1-53e5-438f",
+              "catalogueInfoLinks": 4
+            }
+          ]
+        },
+        {
+          "name": "Indomitable",
+          "phase": "Assault Phase",
+          "officialEffect": "While Engaged, this Unit may target and be targeted by Unengaged Enemy Units. In both cases, the defending Unit gains an Evade Roll against those attacks.",
+          "officialType": "Passive",
+          "officialCost": null,
+          "costComparison": "matches",
+          "phaseComparison": "matches",
+          "catalogueId": "c6e7-5b8f-5d8f-0626",
+          "catalogueEffect": "While Engaged, this Unit may target and be targeted by Unengaged Enemy Units. In both cases, the defending Unit gains an Evade Roll against those attacks.",
+          "catalogueCost": "Passive",
+          "comparison": "wording-matches",
+          "nestedKeywords": [
+            {
+              "name": "Enemy",
+              "officialPage": 86
+            },
+            {
+              "name": "Engaged",
+              "officialPage": 86
+            },
+            {
+              "name": "Unengaged",
+              "officialPage": 93
+            }
+          ]
+        },
+        {
+          "name": "Point Blank",
+          "phase": "Assault Phase",
+          "officialEffect": "While this Unit has the SIEGE MODE Status, it cannot target Enemy Units it is Engaged with.",
+          "officialType": "Passive",
+          "officialCost": null,
+          "costComparison": "matches",
+          "phaseComparison": "matches",
+          "catalogueId": "d4fe-7fd1-46cb-e6de",
+          "catalogueEffect": "While this Unit has the SIEGE MODE Status, it cannot target Enemy Units it is Engaged with.",
+          "catalogueCost": "Passive",
+          "comparison": "wording-matches",
+          "nestedKeywords": [
+            {
+              "name": "Enemy",
+              "officialPage": 86
+            },
+            {
+              "name": "Engaged",
+              "officialPage": 86
+            },
+            {
+              "name": "Siege Mode",
+              "officialPage": 91,
+              "catalogueId": "ba45-b6a8-33d0-f628",
+              "catalogueInfoLinks": 2
+            },
+            {
+              "name": "Status",
+              "officialPage": 92
+            }
+          ]
+        },
+        {
+          "name": "Aftershock Rounds",
+          "phase": "Assault Phase",
+          "officialEffect": "When this Unit has the SIEGE MODE Status, its Damage characteristic is treated as equal to the Size characteristic of the current target Unit (to a minimum of 1).",
+          "officialType": "Passive",
+          "officialCost": null,
+          "costComparison": "matches",
+          "phaseComparison": "matches",
+          "catalogueId": "8a2f-531a-5faa-79a0",
+          "catalogueEffect": "When this Unit has the SIEGE MODE Status, its Damage characteristic is treated as equal to the Size characteristic of the current target Unit (to a minimum of 1).",
+          "catalogueCost": "Passive",
+          "comparison": "wording-matches",
+          "nestedKeywords": [
+            {
+              "name": "Siege Mode",
+              "officialPage": 91,
+              "catalogueId": "ba45-b6a8-33d0-f628",
+              "catalogueInfoLinks": 2
+            },
+            {
+              "name": "Status",
+              "officialPage": 92
+            }
+          ]
+        },
+        {
+          "name": "Devastating Charge",
+          "phase": "Assault Phase",
+          "officialEffect": "Immediately after this Unit completes a successful Charge, resolve the IMPACT (4) 3+ effect.",
+          "officialType": "Passive",
+          "officialCost": null,
+          "costComparison": "matches",
+          "phaseComparison": "matches",
+          "catalogueId": "e619-edc4-e1da-35f0",
+          "catalogueEffect": "Immediately after this Unit completes a successful Charge, resolve the IMPACT (4) 3+ effect.",
+          "catalogueCost": "Passive",
+          "comparison": "wording-matches",
+          "nestedKeywords": [
+            {
+              "name": "Impact",
+              "officialPage": 88,
+              "catalogueId": "7805-5c0f-7d68-90c8",
+              "catalogueInfoLinks": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "faction": "Terran",
+      "name": "Nova Stealth Mode",
+      "catalogueUnit": false,
+      "abilities": [
+        {
+          "name": "Battle Preparation",
+          "phase": "Any Phase",
+          "officialEffect": "During Army Building, your army cannot include both the Nova Assault Mode Unit and the Nova Stealth Mode Unit.",
+          "officialType": "Passive",
+          "officialCost": null,
+          "costComparison": "not-in-catalogue",
+          "phaseComparison": "not-in-catalogue",
+          "comparison": "not-in-catalogue",
+          "nestedKeywords": []
+        },
+        {
+          "name": "Tactical Stealth Suit",
+          "phase": "Any Phase",
+          "officialEffect": "After this Unit fully resolves an Action, it gains the HIDDEN Status.",
+          "officialType": "Passive",
+          "officialCost": null,
+          "costComparison": "not-in-catalogue",
+          "phaseComparison": "not-in-catalogue",
+          "comparison": "not-in-catalogue",
+          "nestedKeywords": [
+            {
+              "name": "Hidden",
+              "officialPage": 88,
+              "catalogueId": "4bf6-1de9-71aa-02a4",
+              "catalogueInfoLinks": 2
+            },
+            {
+              "name": "Status",
+              "officialPage": 92
+            }
+          ]
+        },
+        {
+          "name": "Ghost Visor",
+          "phase": "Any Phase",
+          "officialEffect": "While Enemy Units are Within 6\" of this Unit, they lose the HIDDEN Status.",
+          "officialType": "Passive",
+          "officialCost": null,
+          "costComparison": "not-in-catalogue",
+          "phaseComparison": "not-in-catalogue",
+          "comparison": "not-in-catalogue",
+          "nestedKeywords": [
+            {
+              "name": "Enemy",
+              "officialPage": 86
+            },
+            {
+              "name": "Hidden",
+              "officialPage": 88,
+              "catalogueId": "4bf6-1de9-71aa-02a4",
+              "catalogueInfoLinks": 2
+            },
+            {
+              "name": "Status",
+              "officialPage": 92
+            },
+            {
+              "name": "Within",
+              "officialPage": 93
+            }
+          ]
+        },
+        {
+          "name": "Super Stimpack",
+          "phase": "Movement Phase",
+          "officialEffect": "This Unit gains BUFF Speed (2). Additionally, all its Weapons gain PRECISION (2).",
+          "officialType": "Active",
+          "officialCost": "1 CP",
+          "costComparison": "not-in-catalogue",
+          "phaseComparison": "not-in-catalogue",
+          "comparison": "not-in-catalogue",
+          "nestedKeywords": [
+            {
+              "name": "Buff",
+              "officialPage": 84,
+              "catalogueId": "db39-98a1-2d62-0e5c",
+              "catalogueInfoLinks": 5
+            },
+            {
+              "name": "Precision",
+              "officialPage": 90,
+              "catalogueId": "d05b-cebb-50d1-ad49",
+              "catalogueInfoLinks": 7
+            }
+          ]
+        },
+        {
+          "name": "Holo Decoy",
+          "phase": "Movement Phase",
+          "officialEffect": "Resolve the SUMMON (Holo Decoy) effect. Then, Holo Decoy may immediately perform a Move action.",
+          "officialType": "Active",
+          "officialCost": "1 CP",
+          "costComparison": "not-in-catalogue",
+          "phaseComparison": "not-in-catalogue",
+          "comparison": "not-in-catalogue",
+          "nestedKeywords": [
+            {
+              "name": "Summon",
+              "officialPage": 92,
+              "catalogueId": "1a39-f874-fdf2-c983",
+              "catalogueInfoLinks": 1
+            }
+          ]
+        },
+        {
+          "name": "Operational Efficiency",
+          "phase": "Assault Phase",
+          "officialEffect": "After this Unit fully resolves a Ranged Attack with its C-20A Canister Rifle, if the target Enemy Unit was Destroyed or its Current Supply Value was reduced, the active player may return one of their Exhausted non-Unique Tactical Cards to its Ready state.",
+          "officialType": "Passive",
+          "officialCost": null,
+          "costComparison": "not-in-catalogue",
+          "phaseComparison": "not-in-catalogue",
+          "comparison": "not-in-catalogue",
+          "nestedKeywords": [
+            {
+              "name": "Active Player",
+              "officialPage": 84
+            },
+            {
+              "name": "Current Supply Value",
+              "officialPage": 85
+            },
+            {
+              "name": "Enemy",
+              "officialPage": 86
+            },
+            {
+              "name": "Ready",
+              "officialPage": 90
+            },
+            {
+              "name": "Supply Value",
+              "officialPage": 92
+            }
+          ]
+        },
+        {
+          "name": "Head Shot",
+          "phase": "Assault Phase",
+          "officialEffect": "Once Per Game. While this Unit is Unengaged and has the Stationary Status, when it makes a Ranged Attack with its C-20A Canister Rifle, treat that weapon's Damage characteristic as 3, and it gains CONCENTRATED FIRE (1).",
+          "officialType": "Reaction",
+          "officialCost": "1 CP",
+          "costComparison": "not-in-catalogue",
+          "phaseComparison": "not-in-catalogue",
+          "comparison": "not-in-catalogue",
+          "nestedKeywords": [
+            {
+              "name": "Concentrated Fire",
+              "officialPage": 85
+            },
+            {
+              "name": "Stationary",
+              "officialPage": 92,
+              "catalogueId": "d9e4-a69c-36e9-00cd",
+              "catalogueInfoLinks": 0
+            },
+            {
+              "name": "Status",
+              "officialPage": 92
+            },
+            {
+              "name": "Unengaged",
+              "officialPage": 93
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "faction": "Terran",
+      "name": "Nova Assault Mode",
+      "catalogueUnit": false,
+      "abilities": [
+        {
+          "name": "Battle Preparation",
+          "phase": "Any Phase",
+          "officialEffect": "During Army Building, your army cannot include both the Nova Assault Mode Unit and the Nova Stealth Mode Unit.",
+          "officialType": "Passive",
+          "officialCost": null,
+          "costComparison": "not-in-catalogue",
+          "phaseComparison": "not-in-catalogue",
+          "comparison": "not-in-catalogue",
+          "nestedKeywords": []
+        },
+        {
+          "name": "Ghost Visor",
+          "phase": "Any Phase",
+          "officialEffect": "While Enemy Units are Within 6\" of this Unit, they lose the HIDDEN Status.",
+          "officialType": "Passive",
+          "officialCost": null,
+          "costComparison": "not-in-catalogue",
+          "phaseComparison": "not-in-catalogue",
+          "comparison": "not-in-catalogue",
+          "nestedKeywords": [
+            {
+              "name": "Enemy",
+              "officialPage": 86
+            },
+            {
+              "name": "Hidden",
+              "officialPage": 88,
+              "catalogueId": "4bf6-1de9-71aa-02a4",
+              "catalogueInfoLinks": 2
+            },
+            {
+              "name": "Status",
+              "officialPage": 92
+            },
+            {
+              "name": "Within",
+              "officialPage": 93
+            }
+          ]
+        },
+        {
+          "name": "Super Stimpack",
+          "phase": "Movement Phase",
+          "officialEffect": "This Unit gains BUFF Speed (2). Additionally, all its Weapons gain PRECISION (2).",
+          "officialType": "Active",
+          "officialCost": "1 CP",
+          "costComparison": "not-in-catalogue",
+          "phaseComparison": "not-in-catalogue",
+          "comparison": "not-in-catalogue",
+          "nestedKeywords": [
+            {
+              "name": "Buff",
+              "officialPage": 84,
+              "catalogueId": "db39-98a1-2d62-0e5c",
+              "catalogueInfoLinks": 5
+            },
+            {
+              "name": "Precision",
+              "officialPage": 90,
+              "catalogueId": "d05b-cebb-50d1-ad49",
+              "catalogueInfoLinks": 7
+            }
+          ]
+        },
+        {
+          "name": "Holo Decoy",
+          "phase": "Movement Phase",
+          "officialEffect": "Resolve the SUMMON (Holo Decoy) effect. Then, Holo Decoy may immediately perform a Move action.",
+          "officialType": "Active",
+          "officialCost": "1 CP",
+          "costComparison": "not-in-catalogue",
+          "phaseComparison": "not-in-catalogue",
+          "comparison": "not-in-catalogue",
+          "nestedKeywords": [
+            {
+              "name": "Summon",
+              "officialPage": 92,
+              "catalogueId": "1a39-f874-fdf2-c983",
+              "catalogueInfoLinks": 1
+            }
+          ]
+        },
+        {
+          "name": "Phase Reactor Suit",
+          "phase": "Assault Phase",
+          "officialEffect": "If Unengaged, resolve the PLACE (6) effect.",
+          "officialType": "Active",
+          "officialCost": "1 CP",
+          "costComparison": "not-in-catalogue",
+          "phaseComparison": "not-in-catalogue",
+          "comparison": "not-in-catalogue",
+          "nestedKeywords": [
+            {
+              "name": "Place",
+              "officialPage": 90,
+              "catalogueId": "1a3d-86d9-8aa7-68ab",
+              "catalogueInfoLinks": 3
+            },
+            {
+              "name": "Unengaged",
+              "officialPage": 93
+            }
+          ]
+        },
+        {
+          "name": "Devastating Charge",
+          "phase": "Assault Phase",
+          "officialEffect": "Immediately after this Unit completes a successful Charge, resolve the IMPACT (4) 4+ effect.",
+          "officialType": "Passive",
+          "officialCost": null,
+          "costComparison": "not-in-catalogue",
+          "phaseComparison": "not-in-catalogue",
+          "comparison": "not-in-catalogue",
+          "nestedKeywords": [
+            {
+              "name": "Impact",
+              "officialPage": 88,
+              "catalogueId": "7805-5c0f-7d68-90c8",
+              "catalogueInfoLinks": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "faction": "Terran",
+      "name": "Holo Decoy",
+      "catalogueUnit": false,
+      "abilities": [
+        {
+          "name": "Timed Life",
+          "phase": "Any Phase",
+          "officialEffect": "Remove this Unit at the End of the Round.",
+          "officialType": "Passive",
+          "officialCost": null,
+          "costComparison": "not-in-catalogue",
+          "phaseComparison": "not-in-catalogue",
+          "comparison": "not-in-catalogue",
+          "nestedKeywords": []
+        },
+        {
+          "name": "Decoy",
+          "phase": "Any Phase",
+          "officialEffect": "This Unit is never Engaged. It cannot Engage Enemy Units, cannot be Engaged by Enemy Units and cannot perform a Charge Action. This Unit cannot be the target of an ability, unless stated otherwise. It can never Control or Contest Mission Markers.",
+          "officialType": "Passive",
+          "officialCost": null,
+          "costComparison": "not-in-catalogue",
+          "phaseComparison": "not-in-catalogue",
+          "comparison": "not-in-catalogue",
+          "nestedKeywords": [
+            {
+              "name": "Enemy",
+              "officialPage": 86
+            },
+            {
+              "name": "Engaged",
+              "officialPage": 86
+            },
+            {
+              "name": "Mission Markers",
+              "officialPage": 89
+            }
+          ]
+        },
+        {
+          "name": "Surprise!",
+          "phase": "Any Phase",
+          "officialEffect": "At the End of the Round, you can set a Friendly Nova Stealth Mode or Nova Assault Mode in Coherency with this Unit.",
+          "officialType": "Passive",
+          "officialCost": null,
+          "costComparison": "not-in-catalogue",
+          "phaseComparison": "not-in-catalogue",
+          "comparison": "not-in-catalogue",
+          "nestedKeywords": [
+            {
+              "name": "Friendly",
+              "officialPage": 87
+            }
+          ]
+        },
+        {
+          "name": "Lethal Hologram",
+          "phase": "Any Phase",
+          "officialEffect": "All Weapons of Friendly Units targeting an Enemy Unit Within 4\" of this Unit gain PRECISION (1).",
+          "officialType": "Passive",
+          "officialCost": null,
+          "costComparison": "not-in-catalogue",
+          "phaseComparison": "not-in-catalogue",
+          "comparison": "not-in-catalogue",
+          "nestedKeywords": [
+            {
+              "name": "Enemy",
+              "officialPage": 86
+            },
+            {
+              "name": "Friendly",
+              "officialPage": 87
+            },
+            {
+              "name": "Precision",
+              "officialPage": 90,
+              "catalogueId": "d05b-cebb-50d1-ad49",
+              "catalogueInfoLinks": 7
+            },
+            {
+              "name": "Within",
+              "officialPage": 93
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "faction": "Terran",
+      "name": "Sabotage Drone",
+      "catalogueUnit": false,
+      "abilities": [
+        {
+          "name": "Structure",
+          "phase": "Any Phase",
+          "officialEffect": "This Unit cannot be Activated in any Phase and cannot perform actions. Additionally, its Current Supply Value is treated as 0, and it can never Control or Contest Mission Markers, ignoring the standard Zero Supply Exception. This Unit cannot be a target of an ability, unless stated otherwise.",
+          "officialType": "Passive",
+          "officialCost": null,
+          "costComparison": "not-in-catalogue",
+          "phaseComparison": "not-in-catalogue",
+          "comparison": "not-in-catalogue",
+          "nestedKeywords": [
+            {
+              "name": "Current Supply Value",
+              "officialPage": 85
+            },
+            {
+              "name": "Mission Markers",
+              "officialPage": 89
+            },
+            {
+              "name": "Supply Value",
+              "officialPage": 92
+            }
+          ]
+        },
+        {
+          "name": "Have A Nice Day",
+          "phase": "Assault Phase",
+          "officialEffect": "At the End of the Assault Phase, target each Unit Within 3\" of this Unit (including Units with the Structure ability) suffers HITS 5 (1). If an affected Unit has the Structure ability, that Unit suffers an additional HITS 5 (1).",
+          "officialType": "Passive",
+          "officialCost": null,
+          "costComparison": "not-in-catalogue",
+          "phaseComparison": "not-in-catalogue",
+          "comparison": "not-in-catalogue",
+          "nestedKeywords": [
+            {
+              "name": "Hits",
+              "officialPage": 88
+            },
+            {
+              "name": "Within",
+              "officialPage": 93
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "faction": "Terran",
+      "name": "Spec Ops Marauder (Marauder)",
+      "catalogueUnit": false,
+      "abilities": [
+        {
+          "name": "Spec Ops Armour",
+          "phase": "Any Phase",
+          "officialEffect": "This Unit gains the HIDDEN Status until it performs another action.",
+          "officialType": "Active",
+          "officialCost": "1 CP",
+          "costComparison": "not-in-catalogue",
+          "phaseComparison": "not-in-catalogue",
+          "comparison": "not-in-catalogue",
+          "nestedKeywords": [
+            {
+              "name": "Hidden",
+              "officialPage": 88,
+              "catalogueId": "4bf6-1de9-71aa-02a4",
+              "catalogueInfoLinks": 2
+            },
+            {
+              "name": "Status",
+              "officialPage": 92
+            }
+          ]
+        },
+        {
+          "name": "Commando Stimpack",
+          "phase": "Movement Phase",
+          "officialEffect": "This Unit gains BUFF Speed (3). Additionally, its Quad K12 and all Close Combat Weapons gain PRECISION (2).",
+          "officialType": "Active",
+          "officialCost": "1 CP",
+          "costComparison": "not-in-catalogue",
+          "phaseComparison": "not-in-catalogue",
+          "comparison": "not-in-catalogue",
+          "nestedKeywords": [
+            {
+              "name": "Buff",
+              "officialPage": 84,
+              "catalogueId": "db39-98a1-2d62-0e5c",
+              "catalogueInfoLinks": 5
+            },
+            {
+              "name": "Precision",
+              "officialPage": 90,
+              "catalogueId": "d05b-cebb-50d1-ad49",
+              "catalogueInfoLinks": 7
+            }
+          ]
+        },
+        {
+          "name": "Magrail Munitions",
+          "phase": "Assault Phase",
+          "officialEffect": "This Unit's first Attack in the game with its Quad K12 gains PIERCE Armoured (3).",
+          "officialType": "Passive",
+          "officialCost": null,
+          "costComparison": "not-in-catalogue",
+          "phaseComparison": "not-in-catalogue",
+          "comparison": "not-in-catalogue",
+          "nestedKeywords": [
+            {
+              "name": "Pierce",
+              "officialPage": 90,
+              "catalogueId": "8a5b-c6c7-6abf-6879",
+              "catalogueInfoLinks": 4
+            }
+          ]
+        },
+        {
+          "name": "Suppression Shells",
+          "phase": "Assault Phase",
+          "officialEffect": "When an Enemy declares a Charge against a Friendly Unit Within 8\", that Enemy gains DEBUFF Speed (3).",
+          "officialType": "Reaction",
+          "officialCost": "1 CP",
+          "costComparison": "not-in-catalogue",
+          "phaseComparison": "not-in-catalogue",
+          "comparison": "not-in-catalogue",
+          "nestedKeywords": [
+            {
+              "name": "Debuff",
+              "officialPage": 85,
+              "catalogueId": "e9c5-7999-24b7-4858",
+              "catalogueInfoLinks": 4
+            },
+            {
+              "name": "Enemy",
+              "officialPage": 86
+            },
+            {
+              "name": "Friendly",
+              "officialPage": 87
+            },
+            {
+              "name": "Within",
+              "officialPage": 93
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "faction": "Terran",
+      "name": "Raven",
+      "catalogueUnit": false,
+      "abilities": [
+        {
+          "name": "Detection",
+          "phase": "Any Phase",
+          "officialEffect": "While Enemy Units are Within 6\" of this Unit, they lose the HIDDEN Status.",
+          "officialType": "Passive",
+          "officialCost": null,
+          "costComparison": "not-in-catalogue",
+          "phaseComparison": "not-in-catalogue",
+          "comparison": "not-in-catalogue",
+          "nestedKeywords": [
+            {
+              "name": "Enemy",
+              "officialPage": 86
+            },
+            {
+              "name": "Hidden",
+              "officialPage": 88,
+              "catalogueId": "4bf6-1de9-71aa-02a4",
+              "catalogueInfoLinks": 2
+            },
+            {
+              "name": "Status",
+              "officialPage": 92
+            },
+            {
+              "name": "Within",
+              "officialPage": 93
+            }
+          ]
+        },
+        {
+          "name": "Deploy Auto-Turret",
+          "phase": "Movement Phase",
+          "officialEffect": "Set a Friendly Auto-Turret Unit Within 6\", and not Within the Engagement Range of any Enemy Unit.",
+          "officialType": "Active",
+          "officialCost": "1 CP",
+          "costComparison": "not-in-catalogue",
+          "phaseComparison": "not-in-catalogue",
+          "comparison": "not-in-catalogue",
+          "nestedKeywords": [
+            {
+              "name": "Enemy",
+              "officialPage": 86
+            },
+            {
+              "name": "Engagement Range",
+              "officialPage": 86
+            },
+            {
+              "name": "Friendly",
+              "officialPage": 87
+            },
+            {
+              "name": "Within",
+              "officialPage": 93
+            }
+          ]
+        },
+        {
+          "name": "Anti-Armour Missile",
+          "phase": "Movement Phase",
+          "officialEffect": "Select one Enemy Unit Within 12\". Apply DEBUFF Armour (1).",
+          "officialType": "Active",
+          "officialCost": "1 CP",
+          "costComparison": "not-in-catalogue",
+          "phaseComparison": "not-in-catalogue",
+          "comparison": "not-in-catalogue",
+          "nestedKeywords": [
+            {
+              "name": "Debuff",
+              "officialPage": 85,
+              "catalogueId": "e9c5-7999-24b7-4858",
+              "catalogueInfoLinks": 4
+            },
+            {
+              "name": "Enemy",
+              "officialPage": 86
+            },
+            {
+              "name": "Within",
+              "officialPage": 93
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "faction": "Terran",
+      "name": "Auto-Turret",
+      "catalogueUnit": false,
+      "abilities": [
+        {
+          "name": "Timed Life",
+          "phase": "Any Phase",
+          "officialEffect": "Remove this Unit at the End of the Round.",
+          "officialType": "Passive",
+          "officialCost": null,
+          "costComparison": "not-in-catalogue",
+          "phaseComparison": "not-in-catalogue",
+          "comparison": "not-in-catalogue",
+          "nestedKeywords": []
+        },
+        {
+          "name": "Structure",
+          "phase": "Any Phase",
+          "officialEffect": "This Unit cannot be Activated in any Phase and cannot perform actions. Additionally, its Current Supply Value is treated as 0, and it can never Control or Contest Mission Markers, ignoring the standard Zero Supply Exception. This Unit cannot be a target of an ability, unless stated otherwise.",
+          "officialType": "Passive",
+          "officialCost": null,
+          "costComparison": "not-in-catalogue",
+          "phaseComparison": "not-in-catalogue",
+          "comparison": "not-in-catalogue",
+          "nestedKeywords": [
+            {
+              "name": "Current Supply Value",
+              "officialPage": 85
+            },
+            {
+              "name": "Mission Markers",
+              "officialPage": 89
+            },
+            {
+              "name": "Supply Value",
+              "officialPage": 92
+            }
+          ]
+        },
+        {
+          "name": "Overwatch",
+          "phase": "Assault Phase",
+          "officialEffect": "Use when an Enemy Unit ends its Activation Within 8\" of this Unit. This Unit immediately performs a Ranged Attack against that Enemy Unit.",
+          "officialType": "Reaction",
+          "officialCost": "0 CP",
+          "costComparison": "not-in-catalogue",
+          "phaseComparison": "not-in-catalogue",
+          "comparison": "not-in-catalogue",
+          "nestedKeywords": [
+            {
+              "name": "Enemy",
+              "officialPage": 86
+            },
+            {
+              "name": "Within",
+              "officialPage": 93
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "faction": "Zerg",
+      "name": "Hydralisks",
+      "catalogueUnit": true,
+      "abilities": [
+        {
+          "name": "Squadron",
+          "phase": "Any Phase",
+          "officialEffect": "This Unit's Horizontal Coherency is 4\".",
+          "officialType": "Passive",
+          "officialCost": null,
+          "costComparison": "matches",
+          "phaseComparison": "matches",
+          "catalogueId": "fc8c-6bff-6d80-b316",
+          "catalogueEffect": "This Unit’s Horizontal Coherency is 4\".",
+          "catalogueCost": "Passive",
+          "comparison": "wording-matches",
+          "nestedKeywords": []
+        },
+        {
+          "name": "Lunge",
+          "phase": "Assault Phase",
+          "officialEffect": "When another Friendly Unit Within 10\" is the target of a Ranged Attack, after the attack is fully resolved, this Unit, if Unengaged, may perform a Move action Directly Towards the attacking Unit.",
+          "officialType": "Reaction",
+          "officialCost": "1 BM",
+          "costComparison": "matches",
+          "phaseComparison": "matches",
+          "catalogueId": "1c5b-ce60-8826-7506",
+          "catalogueEffect": "When another Friendly Unit Within 10\" is the target of a Ranged Attack, after the attack is fully resolved, this Unit, if Unengaged, may perform a Move action Directly Towards the attacking Unit.",
+          "catalogueCost": "Reaction (1 BM)",
+          "comparison": "wording-matches",
+          "nestedKeywords": [
+            {
+              "name": "Friendly",
+              "officialPage": 87
+            },
+            {
+              "name": "Unengaged",
+              "officialPage": 93
+            },
+            {
+              "name": "Within",
+              "officialPage": 93
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "faction": "Zerg",
+      "name": "Kerrigan",
+      "catalogueUnit": true,
+      "abilities": [
+        {
+          "name": "Commander",
+          "phase": "Any Phase",
+          "officialEffect": "Treat this Unit's Supply characteristic as increased by 1 for Controlling and Contesting Mission Markers, completing objectives, and resolving Disengage checks.",
+          "officialType": "Passive",
+          "officialCost": null,
+          "costComparison": "matches",
+          "phaseComparison": "matches",
+          "catalogueId": "c429-c517-b5d9-8e78",
+          "catalogueEffect": "Treat this Unit’s Supply characteristic as increased by 1 for Controlling and Contesting Mission Markers, completing objectives, and resolving Disengage checks.",
+          "catalogueCost": "Passive",
+          "comparison": "wording-matches",
+          "nestedKeywords": [
+            {
+              "name": "Mission Markers",
+              "officialPage": 89
+            }
+          ]
+        },
+        {
+          "name": "Crushing Grip",
+          "phase": "Movement Phase",
+          "officialEffect": "Select one Enemy Unit Within 12\". That Unit counts as Activated in this Phase (set an Activation Marker next to it).",
+          "officialType": "Active",
+          "officialCost": "1 BM",
+          "costComparison": "matches",
+          "phaseComparison": "matches",
+          "catalogueId": "c9d9-0041-abae-7717",
+          "catalogueEffect": "Select one Enemy Unit Within 12\". That Unit counts as Activated in this Phase (set an Activation Marker next to it).",
+          "catalogueCost": "Active (1 BM)",
+          "comparison": "wording-matches",
+          "nestedKeywords": [
+            {
+              "name": "Enemy",
+              "officialPage": 86
+            },
+            {
+              "name": "Within",
+              "officialPage": 93
+            }
+          ]
+        },
+        {
+          "name": "Mutating Carapace",
+          "phase": "Movement Phase",
+          "officialEffect": "Select one Enemy Unit Within 18\". This Unit is eligible to make an Evade Roll against all attacks made by the selected Enemy Unit, with a +2 Modifier applied to those Evade Rolls.",
+          "officialType": "Active",
+          "officialCost": "1 BM",
+          "costComparison": "matches",
+          "phaseComparison": "matches",
+          "catalogueId": "147b-7ae4-a0c4-8a76",
+          "catalogueEffect": "Select one Enemy Unit Within 18\". This Unit is eligible to make an Evade Roll against all attacks made by the selected Enemy Unit, with a +2 Modifier applied to those Evade Rolls.",
+          "catalogueCost": "Active (1 BM)",
+          "comparison": "wording-matches",
+          "nestedKeywords": [
+            {
+              "name": "Enemy",
+              "officialPage": 86
+            },
+            {
+              "name": "Modifier",
+              "officialPage": 90
+            },
+            {
+              "name": "Within",
+              "officialPage": 93
+            }
+          ]
+        },
+        {
+          "name": "Leaping Strike",
+          "phase": "Assault Phase",
+          "officialEffect": "If Unengaged, resolve the PLACE (6) effect.",
+          "officialType": "Active",
+          "officialCost": "1 BM",
+          "costComparison": "matches",
+          "phaseComparison": "matches",
+          "catalogueId": "fcd3-743a-1134-65b6",
+          "catalogueEffect": "If Unengaged, resolve the PLACE (6) effect.",
+          "catalogueCost": "Active (1 BM)",
+          "comparison": "wording-matches",
+          "nestedKeywords": [
+            {
+              "name": "Place",
+              "officialPage": 90,
+              "catalogueId": "1a3d-86d9-8aa7-68ab",
+              "catalogueInfoLinks": 3
+            },
+            {
+              "name": "Unengaged",
+              "officialPage": 93
+            }
+          ]
+        },
+        {
+          "name": "Devastating Charge",
+          "phase": "Assault Phase",
+          "officialEffect": "Immediately after this Unit completes a successful Charge, resolve the IMPACT (4) 4+ effect.",
+          "officialType": "Passive",
+          "officialCost": null,
+          "costComparison": "matches",
+          "phaseComparison": "matches",
+          "catalogueId": "6ba6-0865-8af9-aae1",
+          "catalogueEffect": "Immediately after this Unit completes a successful Charge, resolve the IMPACT (4) 4+ effect.",
+          "catalogueCost": "Passive",
+          "comparison": "wording-matches",
+          "nestedKeywords": [
+            {
+              "name": "Impact",
+              "officialPage": 88,
+              "catalogueId": "7805-5c0f-7d68-90c8",
+              "catalogueInfoLinks": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "faction": "Zerg",
+      "name": "Omega Worm",
+      "catalogueUnit": true,
+      "abilities": [
+        {
+          "name": "Detection",
+          "phase": "Any Phase",
+          "officialEffect": "While Enemy Units are Within 6\" of this Unit, they lose HIDDEN Status.",
+          "officialType": "Passive",
+          "officialCost": null,
+          "costComparison": "matches",
+          "phaseComparison": "matches",
+          "catalogueId": "edbf-4748-b82a-cdaf",
+          "catalogueEffect": "While Enemy Units are Within 6\" of this Unit, they lose HIDDEN Status.",
+          "catalogueCost": "Passive",
+          "comparison": "wording-matches",
+          "nestedKeywords": [
+            {
+              "name": "Enemy",
+              "officialPage": 86
+            },
+            {
+              "name": "Hidden",
+              "officialPage": 88,
+              "catalogueId": "4bf6-1de9-71aa-02a4",
+              "catalogueInfoLinks": 2
+            },
+            {
+              "name": "Status",
+              "officialPage": 92
+            },
+            {
+              "name": "Within",
+              "officialPage": 93
+            }
+          ]
+        },
+        {
+          "name": "Source Of Creep",
+          "phase": "Any Phase",
+          "officialEffect": "A Friendly or Enemy Ground Zerg Unit Within 6\" of this Unit, counts as being ON CREEP.",
+          "officialType": "Passive",
+          "officialCost": null,
+          "costComparison": "matches",
+          "phaseComparison": "matches",
+          "catalogueId": "66fd-58d6-af5e-15bb",
+          "catalogueEffect": "A Friendly or Enemy Ground Zerg Unit Within 6\" of this Unit, counts as being ON CREEP.",
+          "catalogueCost": "Passive",
+          "comparison": "wording-matches",
+          "nestedKeywords": [
+            {
+              "name": "Enemy",
+              "officialPage": 86
+            },
+            {
+              "name": "Friendly",
+              "officialPage": 87
+            },
+            {
+              "name": "On Creep",
+              "officialPage": 90,
+              "catalogueId": "b8db-d01a-89fd-efd3",
+              "catalogueInfoLinks": 3
+            },
+            {
+              "name": "Within",
+              "officialPage": 93
+            }
+          ]
+        },
+        {
+          "name": "Structure",
+          "phase": "Any Phase",
+          "officialEffect": "This Unit cannot be Activated in any Phase and cannot perform actions. Additionally, its Current Supply Value is treated as 0, and it can never Control or Contest Mission Markers, ignoring the standard Zero Supply Exception. This Unit cannot be a target of an ability, unless stated otherwise.",
+          "officialType": "Passive",
+          "officialCost": null,
+          "costComparison": "matches",
+          "phaseComparison": "matches",
+          "catalogueId": "d3a4-0dbc-a379-e0fa",
+          "catalogueEffect": "This Unit cannot be Activated in any Phase and cannot perform actions. Additionally, its Current Supply Value is treated as 0, and it can never Control or Contest Mission Markers, ignoring the standard Zero Supply Exception. This Unit cannot be a target of an ability, unless stated otherwise.",
+          "catalogueCost": "Passive",
+          "comparison": "wording-matches",
+          "nestedKeywords": [
+            {
+              "name": "Current Supply Value",
+              "officialPage": 85
+            },
+            {
+              "name": "Mission Markers",
+              "officialPage": 89
+            },
+            {
+              "name": "Supply Value",
+              "officialPage": 92
+            }
+          ]
+        },
+        {
+          "name": "Omega Network",
+          "phase": "Any Phase",
+          "officialEffect": "The base of the Omega Worm counts as an Entry Edge. Each Round, Friendly Units with a combined Supply cost of 2 or less may be Deployed via this Entry Edge. If a Friendly Leading model finishes a Move, Disengage, or Run action in base-to-base contact with the Omega Worm, the controlling player may remove that Unit from the battlefield and return it to Reserves.",
+          "officialType": "Passive",
+          "officialCost": null,
+          "costComparison": "matches",
+          "phaseComparison": "matches",
+          "catalogueId": "ddeb-ec94-526e-fe55",
+          "catalogueEffect": "The base of the Omega Worm counts as an Entry Edge. Each Round, Friendly Units with a combined Supply cost of 2 or less may be Deployed via this Entry Edge. If a Friendly Leading model finishes a Move, Disengage, or Run action in base-to-base contact with the Omega Worm, the controlling player may remove that Unit from the battlefield and return it to Reserves.",
+          "catalogueCost": "Passive",
+          "comparison": "wording-matches",
+          "nestedKeywords": [
+            {
+              "name": "Controlling Player",
+              "officialPage": 85
+            },
+            {
+              "name": "Entry Edge",
+              "officialPage": 86
+            },
+            {
+              "name": "Friendly",
+              "officialPage": 87
+            },
+            {
+              "name": "Leading Model",
+              "officialPage": 88
+            },
+            {
+              "name": "Reserves",
+              "officialPage": 90
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "faction": "Zerg",
+      "name": "Kerrigan Swarm Raptors (Zergling)",
+      "catalogueUnit": true,
+      "abilities": [
+        {
+          "name": "Squadron",
+          "phase": "Any Phase",
+          "officialEffect": "This Unit's Horizontal Coherency is 4\".",
+          "officialType": "Passive",
+          "officialCost": null,
+          "costComparison": "matches",
+          "phaseComparison": "matches",
+          "catalogueId": "fc8c-6bff-6d80-b316",
+          "catalogueEffect": "This Unit’s Horizontal Coherency is 4\".",
+          "catalogueCost": "Passive",
+          "comparison": "wording-matches",
+          "nestedKeywords": []
+        },
+        {
+          "name": "Raptor Strain",
+          "phase": "Any Phase",
+          "officialEffect": "This Unit can move through IMPASSABLE TERRAIN of Size 4 or less and change elevation without using ACCESS POINTS.",
+          "officialType": "Passive",
+          "officialCost": null,
+          "costComparison": "matches",
+          "phaseComparison": "matches",
+          "catalogueId": "948d-89c9-a604-a463",
+          "catalogueEffect": "This Unit can move through IMPASSABLE TERRAIN of Size 4 or less and change elevation without using ACCESS POINTS.",
+          "catalogueCost": "Passive",
+          "comparison": "wording-matches",
+          "nestedKeywords": [
+            {
+              "name": "Impassable Terrain",
+              "officialPage": 88,
+              "catalogueId": "0c68-af78-c6ca-9cf8",
+              "catalogueInfoLinks": 0
+            }
+          ]
+        },
+        {
+          "name": "Leap",
+          "phase": "Assault Phase",
+          "officialEffect": "When determining Charge Distance for this Unit, add 2 to the Charge Distance.",
+          "officialType": "Active",
+          "officialCost": "1 BM",
+          "costComparison": "matches",
+          "phaseComparison": "matches",
+          "catalogueId": "1a71-3586-9ef7-9a96",
+          "catalogueEffect": "When determining Charge Distance for this Unit, add 2 to the Charge Distance.",
+          "catalogueCost": "Active (1 BM)",
+          "comparison": "wording-matches",
+          "nestedKeywords": []
+        },
+        {
+          "name": "Devastating Charge",
+          "phase": "Assault Phase",
+          "officialEffect": "Immediately after this Unit completes a successful Charge, resolve the IMPACT (2) 5+ effect.",
+          "officialType": "Passive",
+          "officialCost": null,
+          "costComparison": "matches",
+          "phaseComparison": "matches",
+          "catalogueId": "5a4b-47c3-1a24-d10b",
+          "catalogueEffect": "Immediately after this Unit completes a successful Charge, resolve the IMPACT (2) 5+ effect.",
+          "catalogueCost": "Passive",
+          "comparison": "wording-matches",
+          "nestedKeywords": [
+            {
+              "name": "Impact",
+              "officialPage": 88,
+              "catalogueId": "7805-5c0f-7d68-90c8",
+              "catalogueInfoLinks": 1
+            }
+          ]
+        },
+        {
+          "name": "Adrenal Overload",
+          "phase": "Assault Phase",
+          "officialEffect": "This Unit gains a +1 Modifier to all IMPACT Hit Rolls.",
+          "officialType": "Active",
+          "officialCost": "1 BM",
+          "costComparison": "matches",
+          "phaseComparison": "matches",
+          "catalogueId": "fa36-4feb-4201-a6e0",
+          "catalogueEffect": "This Unit gains a +1 Modifier to all IMPACT Hit Rolls.",
+          "catalogueCost": "Active (1 BM)",
+          "comparison": "wording-matches",
+          "nestedKeywords": [
+            {
+              "name": "Impact",
+              "officialPage": 88,
+              "catalogueId": "7805-5c0f-7d68-90c8",
+              "catalogueInfoLinks": 1
+            },
+            {
+              "name": "Modifier",
+              "officialPage": 90
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "faction": "Zerg",
+      "name": "Queen",
+      "catalogueUnit": true,
+      "abilities": [
+        {
+          "name": "Spawn Creep Tumor",
+          "phase": "Any Phase",
+          "officialEffect": "Set a Creep Tumor token in base-to-base contact with this Unit.",
+          "officialType": "Active",
+          "officialCost": "1 BM",
+          "costComparison": "matches",
+          "phaseComparison": "matches",
+          "catalogueId": "2528-74d8-fcaf-2ad1",
+          "catalogueEffect": "Set a Creep Tumor token in base-to-base contact with this Unit.",
+          "catalogueCost": "Active (1 BM)",
+          "comparison": "wording-matches",
+          "nestedKeywords": []
+        },
+        {
+          "name": "Transfusion",
+          "phase": "Any Phase",
+          "officialEffect": "Use when another Friendly Biological Unit (including a Structure) suffers Damage Within 4\". Reduce the Total Damage before allocation by 2.",
+          "officialType": "Reaction",
+          "officialCost": "1 BM",
+          "costComparison": "matches",
+          "phaseComparison": "matches",
+          "catalogueId": "9c40-efaf-49fc-358b",
+          "catalogueEffect": "Use when another Friendly Biological Unit (including a Structure) suffers Damage Within 4\". Reduce the Total Damage before allocation by 2.",
+          "catalogueCost": "Reaction (1 BM)",
+          "comparison": "wording-matches",
+          "nestedKeywords": [
+            {
+              "name": "Friendly",
+              "officialPage": 87
+            },
+            {
+              "name": "Within",
+              "officialPage": 93
+            }
+          ]
+        },
+        {
+          "name": "Restoration",
+          "phase": "Any Phase",
+          "officialEffect": "Use when a Friendly Unit Within 4\" receives a DEBUFF. Remove all DEBUFFS from it.",
+          "officialType": "Reaction",
+          "officialCost": "1 BM",
+          "costComparison": "matches",
+          "phaseComparison": "matches",
+          "catalogueId": "9c83-4b82-2e3a-1c15",
+          "catalogueEffect": "Use when a Friendly Unit Within 4\" receives a DEBUFF. Remove all DEBUFFS from it.",
+          "catalogueCost": "Reaction (1 BM)",
+          "comparison": "wording-matches",
+          "nestedKeywords": [
+            {
+              "name": "Debuff",
+              "officialPage": 85,
+              "catalogueId": "e9c5-7999-24b7-4858",
+              "catalogueInfoLinks": 4
+            },
+            {
+              "name": "Friendly",
+              "officialPage": 87
+            },
+            {
+              "name": "Within",
+              "officialPage": 93
+            }
+          ]
+        },
+        {
+          "name": "Psionic Link",
+          "phase": "Any Phase",
+          "officialEffect": "Once per Round, if there are at least 7 Friendly models Within 6\" of this Unit, it may resolve its Special Ability with the BM cost reduced by 1.",
+          "officialType": "Passive",
+          "officialCost": null,
+          "costComparison": "matches",
+          "phaseComparison": "matches",
+          "catalogueId": "ecc4-c985-8980-f7fb",
+          "catalogueEffect": "Once per Round, if there are at least 7 Friendly models Within 6\" of this Unit, it may resolve its Special Ability with the BM cost reduced by 1.",
+          "catalogueCost": "Passive",
+          "comparison": "wording-matches",
+          "nestedKeywords": [
+            {
+              "name": "Friendly",
+              "officialPage": 87
+            },
+            {
+              "name": "Special Ability",
+              "officialPage": 91
+            },
+            {
+              "name": "Within",
+              "officialPage": 93
+            }
+          ]
+        },
+        {
+          "name": "Devastating Charge",
+          "phase": "Assault Phase",
+          "officialEffect": "Immediately after this Unit completes a successful Charge, resolve the IMPACT (4) 3+ effect.",
+          "officialType": "Passive",
+          "officialCost": null,
+          "costComparison": "matches",
+          "phaseComparison": "matches",
+          "catalogueId": "4755-4acf-e681-e8eb",
+          "catalogueEffect": "Immediately after this Unit completes a successful Charge, resolve the IMPACT (4) 3+ effect.",
+          "catalogueCost": "Passive",
+          "comparison": "wording-matches",
+          "nestedKeywords": [
+            {
+              "name": "Impact",
+              "officialPage": 88,
+              "catalogueId": "7805-5c0f-7d68-90c8",
+              "catalogueInfoLinks": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "faction": "Zerg",
+      "name": "Roaches",
+      "catalogueUnit": true,
+      "abilities": [
+        {
+          "name": "Burrow",
+          "phase": "Any Phase",
+          "officialEffect": "If this Unit is Unengaged, it gains or loses the Burrowed Status.",
+          "officialType": "Active",
+          "officialCost": "2 BM",
+          "costComparison": "matches",
+          "phaseComparison": "matches",
+          "catalogueId": "4a96-a1ac-0461-aa14",
+          "catalogueEffect": "If this Unit is Unengaged, it gains or loses the Burrowed Status.",
+          "catalogueCost": "Active (2 BM)",
+          "comparison": "wording-matches",
+          "nestedKeywords": [
+            {
+              "name": "Burrowed",
+              "officialPage": 84
+            },
+            {
+              "name": "Status",
+              "officialPage": 92
+            },
+            {
+              "name": "Unengaged",
+              "officialPage": 93
+            }
+          ]
+        },
+        {
+          "name": "Regeneration",
+          "phase": "Assault Phase",
+          "officialEffect": "When this Unit becomes Activated, if it has the Burrowed Status, resolve the HEAL (2) effect.",
+          "officialType": "Passive",
+          "officialCost": null,
+          "costComparison": "matches",
+          "phaseComparison": "matches",
+          "catalogueId": "8818-270f-f343-09e9",
+          "catalogueEffect": "When this Unit becomes Activated, if it has the Burrowed Status, resolve the HEAL (2) effect.",
+          "catalogueCost": "Passive",
+          "comparison": "wording-matches",
+          "nestedKeywords": [
+            {
+              "name": "Burrowed",
+              "officialPage": 84
+            },
+            {
+              "name": "Heal",
+              "officialPage": 88,
+              "catalogueId": "9499-b51b-c280-c0bf",
+              "catalogueInfoLinks": 6
+            },
+            {
+              "name": "Status",
+              "officialPage": 92
+            }
+          ]
+        },
+        {
+          "name": "Devastating Charge",
+          "phase": "Assault Phase",
+          "officialEffect": "Immediately after this Unit completes a successful Charge, resolve the IMPACT (2) 4+ effect.",
+          "officialType": "Passive",
+          "officialCost": null,
+          "costComparison": "matches",
+          "phaseComparison": "matches",
+          "catalogueId": "cdbd-7b46-5add-cca1",
+          "catalogueEffect": "Immediately after this Unit completes a successful Charge, resolve the IMPACT (2) 4+ effect.",
+          "catalogueCost": "Passive",
+          "comparison": "wording-matches",
+          "nestedKeywords": [
+            {
+              "name": "Impact",
+              "officialPage": 88,
+              "catalogueId": "7805-5c0f-7d68-90c8",
+              "catalogueInfoLinks": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "faction": "Zerg",
+      "name": "Corpsers (Roach)",
+      "catalogueUnit": true,
+      "abilities": [
+        {
+          "name": "Burrow",
+          "phase": "Any Phase",
+          "officialEffect": "If this Unit is Unengaged, it gains or loses the Burrowed Status.",
+          "officialType": "Active",
+          "officialCost": "2 BM",
+          "costComparison": "matches",
+          "phaseComparison": "matches",
+          "catalogueId": "4a96-a1ac-0461-aa14",
+          "catalogueEffect": "If this Unit is Unengaged, it gains or loses the Burrowed Status.",
+          "catalogueCost": "Active (2 BM)",
+          "comparison": "wording-matches",
+          "nestedKeywords": [
+            {
+              "name": "Burrowed",
+              "officialPage": 84
+            },
+            {
+              "name": "Status",
+              "officialPage": 92
+            },
+            {
+              "name": "Unengaged",
+              "officialPage": 93
+            }
+          ]
+        },
+        {
+          "name": "Roachling Infestation",
+          "phase": "Movement Phase",
+          "officialEffect": "Once Per Game. Resolve the SUMMON (Roachling) effect.",
+          "officialType": "Active",
+          "officialCost": "2 BM",
+          "costComparison": "matches",
+          "phaseComparison": "matches",
+          "catalogueId": "dc13-50d5-c3df-8f3d",
+          "catalogueEffect": "Once per Game. Resolve the SUMMON (Roachling) effect.",
+          "catalogueCost": "Active (2 BM)",
+          "comparison": "wording-matches",
+          "nestedKeywords": [
+            {
+              "name": "Summon",
+              "officialPage": 92,
+              "catalogueId": "1a39-f874-fdf2-c983",
+              "catalogueInfoLinks": 1
+            }
+          ]
+        },
+        {
+          "name": "Regeneration",
+          "phase": "Assault Phase",
+          "officialEffect": "When this Unit becomes Activated, if it has the Burrowed Status, resolve the HEAL (2) effect.",
+          "officialType": "Passive",
+          "officialCost": null,
+          "costComparison": "matches",
+          "phaseComparison": "matches",
+          "catalogueId": "8818-270f-f343-09e9",
+          "catalogueEffect": "When this Unit becomes Activated, if it has the Burrowed Status, resolve the HEAL (2) effect.",
+          "catalogueCost": "Passive",
+          "comparison": "wording-matches",
+          "nestedKeywords": [
+            {
+              "name": "Burrowed",
+              "officialPage": 84
+            },
+            {
+              "name": "Heal",
+              "officialPage": 88,
+              "catalogueId": "9499-b51b-c280-c0bf",
+              "catalogueInfoLinks": 6
+            },
+            {
+              "name": "Status",
+              "officialPage": 92
+            }
+          ]
+        },
+        {
+          "name": "Devastating Charge",
+          "phase": "Assault Phase",
+          "officialEffect": "Immediately after this Unit completes a successful Charge, resolve the IMPACT (3) 4+ effect.",
+          "officialType": "Passive",
+          "officialCost": null,
+          "costComparison": "matches",
+          "phaseComparison": "matches",
+          "catalogueId": "3499-3fdd-6ac2-1049",
+          "catalogueEffect": "Immediately after this Unit completes a successful Charge, resolve the IMPACT (3) 4+ effect.",
+          "catalogueCost": "Passive",
+          "comparison": "wording-matches",
+          "nestedKeywords": [
+            {
+              "name": "Impact",
+              "officialPage": 88,
+              "catalogueId": "7805-5c0f-7d68-90c8",
+              "catalogueInfoLinks": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "faction": "Zerg",
+      "name": "Roachling",
+      "catalogueUnit": true,
+      "abilities": [
+        {
+          "name": "Underdeveloped Claws",
+          "phase": "Any Phase",
+          "officialEffect": "This Unit cannot gain Burrowed Status.",
+          "officialType": "Passive",
+          "officialCost": null,
+          "costComparison": "matches",
+          "phaseComparison": "matches",
+          "catalogueId": "a95d-fa8b-efe9-c91c",
+          "catalogueEffect": "This Unit cannot gain Burrowed Status.",
+          "catalogueCost": "Passive",
+          "comparison": "wording-matches",
+          "nestedKeywords": [
+            {
+              "name": "Burrowed",
+              "officialPage": 84
+            },
+            {
+              "name": "Status",
+              "officialPage": 92
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "faction": "Zerg",
+      "name": "Viles (Roach)",
+      "catalogueUnit": true,
+      "abilities": [
+        {
+          "name": "Burrow",
+          "phase": "Any Phase",
+          "officialEffect": "If this Unit is not Engaged, it gains or loses the Burrowed Status.",
+          "officialType": "Active",
+          "officialCost": "2 BM",
+          "costComparison": "matches",
+          "phaseComparison": "matches",
+          "catalogueId": "4a96-a1ac-0461-aa14",
+          "catalogueEffect": "If this Unit is Unengaged, it gains or loses the Burrowed Status.",
+          "catalogueCost": "Active (2 BM)",
+          "comparison": "wording-differs",
+          "nestedKeywords": [
+            {
+              "name": "Burrowed",
+              "officialPage": 84
+            },
+            {
+              "name": "Engaged",
+              "officialPage": 86
+            },
+            {
+              "name": "Status",
+              "officialPage": 92
+            }
+          ]
+        },
+        {
+          "name": "Debilitating Saliva",
+          "phase": "Any Phase",
+          "officialEffect": "Use when an Enemy Unit Within 8\" of this Unit declares a Ranged Attack. Apply DEBUFF Hit (1) to each of that Unit's Ranged Weapons.",
+          "officialType": "Reaction",
+          "officialCost": "1 BM",
+          "costComparison": "matches",
+          "phaseComparison": "matches",
+          "catalogueId": "863a-825c-fea9-518b",
+          "catalogueEffect": "Use when an Enemy Unit Within 8\" of this Unit declares a Ranged Attack. Apply DEBUFF Hit (1) to each of that Unit's Ranged Weapons.",
+          "catalogueCost": "Reaction (1 BM)",
+          "comparison": "wording-matches",
+          "nestedKeywords": [
+            {
+              "name": "Debuff",
+              "officialPage": 85,
+              "catalogueId": "e9c5-7999-24b7-4858",
+              "catalogueInfoLinks": 4
+            },
+            {
+              "name": "Enemy",
+              "officialPage": 86
+            },
+            {
+              "name": "Within",
+              "officialPage": 93
+            }
+          ]
+        },
+        {
+          "name": "Devastating Charge",
+          "phase": "Assault Phase",
+          "officialEffect": "Immediately after this Unit completes a successful Charge, resolve the IMPACT (1) 4+ effect.",
+          "officialType": "Passive",
+          "officialCost": null,
+          "costComparison": "matches",
+          "phaseComparison": "matches",
+          "catalogueId": "e4e0-0ada-e21b-d435",
+          "catalogueEffect": "Immediately after this Unit completes a successful Charge, resolve the IMPACT (1) 4+ effect.",
+          "catalogueCost": "Passive",
+          "comparison": "wording-matches",
+          "nestedKeywords": [
+            {
+              "name": "Impact",
+              "officialPage": 88,
+              "catalogueId": "7805-5c0f-7d68-90c8",
+              "catalogueInfoLinks": 1
+            }
+          ]
+        },
+        {
+          "name": "Regeneration",
+          "phase": "Assault Phase",
+          "officialEffect": "When this Unit becomes Activated, if it has the Burrowed Status, resolve the HEAL (2) effect.",
+          "officialType": "Passive",
+          "officialCost": null,
+          "costComparison": "matches",
+          "phaseComparison": "matches",
+          "catalogueId": "8818-270f-f343-09e9",
+          "catalogueEffect": "When this Unit becomes Activated, if it has the Burrowed Status, resolve the HEAL (2) effect.",
+          "catalogueCost": "Passive",
+          "comparison": "wording-matches",
+          "nestedKeywords": [
+            {
+              "name": "Burrowed",
+              "officialPage": 84
+            },
+            {
+              "name": "Heal",
+              "officialPage": 88,
+              "catalogueId": "9499-b51b-c280-c0bf",
+              "catalogueInfoLinks": 6
+            },
+            {
+              "name": "Status",
+              "officialPage": 92
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "faction": "Zerg",
+      "name": "Zerglings",
+      "catalogueUnit": true,
+      "abilities": [
+        {
+          "name": "Squadron",
+          "phase": "Any Phase",
+          "officialEffect": "This Unit's Horizontal Coherency is 4\".",
+          "officialType": "Passive",
+          "officialCost": null,
+          "costComparison": "matches",
+          "phaseComparison": "matches",
+          "catalogueId": "fc8c-6bff-6d80-b316",
+          "catalogueEffect": "This Unit’s Horizontal Coherency is 4\".",
+          "catalogueCost": "Passive",
+          "comparison": "wording-matches",
+          "nestedKeywords": []
+        },
+        {
+          "name": "Metabolic Boost",
+          "phase": "Assault Phase",
+          "officialEffect": "When determining Charge Distance for this Unit, roll 2D6 instead of D6 and use the higher result to add to the Unit's Speed characteristic.",
+          "officialType": "Active",
+          "officialCost": "1 BM",
+          "costComparison": "matches",
+          "phaseComparison": "matches",
+          "catalogueId": "48be-d8b9-d2f4-1f6b",
+          "catalogueEffect": "When determining Charge Distance for this Unit, roll 2D6 instead of D6 and use the higher result to add to the Unit’s Speed characteristic.",
+          "catalogueCost": "Active (1 BM)",
+          "comparison": "wording-matches",
+          "nestedKeywords": []
+        },
+        {
+          "name": "Devastating Charge",
+          "phase": "Assault Phase",
+          "officialEffect": "Immediately after this Unit completes a successful Charge, resolve the IMPACT (1) 5+ effect.",
+          "officialType": "Passive",
+          "officialCost": null,
+          "costComparison": "matches",
+          "phaseComparison": "matches",
+          "catalogueId": "eacd-09b3-0650-4bc9",
+          "catalogueEffect": "Immediately after this Unit completes a successful Charge, resolve the IMPACT (1) 5+ effect.",
+          "catalogueCost": "Passive",
+          "comparison": "wording-matches",
+          "nestedKeywords": [
+            {
+              "name": "Impact",
+              "officialPage": 88,
+              "catalogueId": "7805-5c0f-7d68-90c8",
+              "catalogueInfoLinks": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "faction": "Zerg",
+      "name": "Raptors (Zergling)",
+      "catalogueUnit": true,
+      "abilities": [
+        {
+          "name": "Squadron",
+          "phase": "Any Phase",
+          "officialEffect": "This Unit's Horizontal Coherency is 4\".",
+          "officialType": "Passive",
+          "officialCost": null,
+          "costComparison": "matches",
+          "phaseComparison": "matches",
+          "catalogueId": "fc8c-6bff-6d80-b316",
+          "catalogueEffect": "This Unit’s Horizontal Coherency is 4\".",
+          "catalogueCost": "Passive",
+          "comparison": "wording-matches",
+          "nestedKeywords": []
+        },
+        {
+          "name": "Raptor Strain",
+          "phase": "Any Phase",
+          "officialEffect": "This Unit can move through IMPASSABLE TERRAIN of Size 4 or less and change elevation without using ACCESS POINTS.",
+          "officialType": "Passive",
+          "officialCost": null,
+          "costComparison": "matches",
+          "phaseComparison": "matches",
+          "catalogueId": "948d-89c9-a604-a463",
+          "catalogueEffect": "This Unit can move through IMPASSABLE TERRAIN of Size 4 or less and change elevation without using ACCESS POINTS.",
+          "catalogueCost": "Passive",
+          "comparison": "wording-matches",
+          "nestedKeywords": [
+            {
+              "name": "Impassable Terrain",
+              "officialPage": 88,
+              "catalogueId": "0c68-af78-c6ca-9cf8",
+              "catalogueInfoLinks": 0
+            }
+          ]
+        },
+        {
+          "name": "Adrenal Overload",
+          "phase": "Assault Phase",
+          "officialEffect": "This Unit gains a +1 Modifier to all IMPACT Hit Rolls.",
+          "officialType": "Active",
+          "officialCost": "1 BM",
+          "costComparison": "matches",
+          "phaseComparison": "matches",
+          "catalogueId": "fa36-4feb-4201-a6e0",
+          "catalogueEffect": "This Unit gains a +1 Modifier to all IMPACT Hit Rolls.",
+          "catalogueCost": "Active (1 BM)",
+          "comparison": "wording-matches",
+          "nestedKeywords": [
+            {
+              "name": "Impact",
+              "officialPage": 88,
+              "catalogueId": "7805-5c0f-7d68-90c8",
+              "catalogueInfoLinks": 1
+            },
+            {
+              "name": "Modifier",
+              "officialPage": 90
+            }
+          ]
+        },
+        {
+          "name": "Devastating Charge",
+          "phase": "Assault Phase",
+          "officialEffect": "Immediately after this Unit completes a successful Charge, resolve the IMPACT (1) 5+ effect.",
+          "officialType": "Passive",
+          "officialCost": null,
+          "costComparison": "matches",
+          "phaseComparison": "matches",
+          "catalogueId": "24d2-9fcd-7f31-148b",
+          "catalogueEffect": "Immediately after this Unit completes a successful Charge, resolve the IMPACT (1) 5+ effect.",
+          "catalogueCost": "Passive",
+          "comparison": "wording-matches",
+          "nestedKeywords": [
+            {
+              "name": "Impact",
+              "officialPage": 88,
+              "catalogueId": "7805-5c0f-7d68-90c8",
+              "catalogueInfoLinks": 1
+            }
+          ]
+        },
+        {
+          "name": "Metabolic Boost",
+          "phase": "Assault Phase",
+          "officialEffect": "When determining Charge Distance for this Unit, roll 2D6 instead of D6 and use the higher result to add to the Unit's Speed characteristic.",
+          "officialType": "Active",
+          "officialCost": "1 BM",
+          "costComparison": "matches",
+          "phaseComparison": "matches",
+          "catalogueId": "48be-d8b9-d2f4-1f6b",
+          "catalogueEffect": "When determining Charge Distance for this Unit, roll 2D6 instead of D6 and use the higher result to add to the Unit’s Speed characteristic.",
+          "catalogueCost": "Active (1 BM)",
+          "comparison": "wording-matches",
+          "nestedKeywords": []
+        }
+      ]
+    },
+    {
+      "faction": "Zerg",
+      "name": "Swarmlings",
+      "catalogueUnit": true,
+      "abilities": [
+        {
+          "name": "Squadron",
+          "phase": "Any Phase",
+          "officialEffect": "This Unit's Horizontal Coherency is 4\".",
+          "officialType": "Passive",
+          "officialCost": null,
+          "costComparison": "matches",
+          "phaseComparison": "matches",
+          "catalogueId": "fc8c-6bff-6d80-b316",
+          "catalogueEffect": "This Unit’s Horizontal Coherency is 4\".",
+          "catalogueCost": "Passive",
+          "comparison": "wording-matches",
+          "nestedKeywords": []
+        },
+        {
+          "name": "Zergling Reconstitution",
+          "phase": "Movement Phase",
+          "officialEffect": "Resolve the RESPAWN (2) effect, or RESPAWN (3) if the Unit is ON CREEP.",
+          "officialType": "Active",
+          "officialCost": "1 BM",
+          "costComparison": "matches",
+          "phaseComparison": "matches",
+          "catalogueId": "ee95-b8ab-2269-91f0",
+          "catalogueEffect": "Resolve the RESPAWN (2) effect, or RESPAWN (3) if the Unit is ON CREEP.",
+          "catalogueCost": "Active (1 BM)",
+          "comparison": "wording-matches",
+          "nestedKeywords": [
+            {
+              "name": "On Creep",
+              "officialPage": 90,
+              "catalogueId": "b8db-d01a-89fd-efd3",
+              "catalogueInfoLinks": 3
+            },
+            {
+              "name": "Respawn",
+              "officialPage": 91,
+              "catalogueId": "d273-74d1-fff7-7002",
+              "catalogueInfoLinks": 1
+            }
+          ]
+        },
+        {
+          "name": "Devastating Charge",
+          "phase": "Assault Phase",
+          "officialEffect": "Immediately after this Unit completes a successful Charge, resolve the IMPACT (1) 5+ effect.",
+          "officialType": "Passive",
+          "officialCost": null,
+          "costComparison": "matches",
+          "phaseComparison": "matches",
+          "catalogueId": "3b0d-1c01-99a1-6a4f",
+          "catalogueEffect": "Immediately after this Unit completes a successful Charge, resolve the IMPACT (1) 5+ effect.",
+          "catalogueCost": "Passive",
+          "comparison": "wording-matches",
+          "nestedKeywords": [
+            {
+              "name": "Impact",
+              "officialPage": 88,
+              "catalogueId": "7805-5c0f-7d68-90c8",
+              "catalogueInfoLinks": 1
+            }
+          ]
+        },
+        {
+          "name": "Metabolic Boost",
+          "phase": "Assault Phase",
+          "officialEffect": "When determining Charge Distance for this Unit, roll 2D6 instead of D6 and use the higher result to add to the Unit's Speed characteristic.",
+          "officialType": "Active",
+          "officialCost": "1 BM",
+          "costComparison": "matches",
+          "phaseComparison": "matches",
+          "catalogueId": "48be-d8b9-d2f4-1f6b",
+          "catalogueEffect": "When determining Charge Distance for this Unit, roll 2D6 instead of D6 and use the higher result to add to the Unit’s Speed characteristic.",
+          "catalogueCost": "Active (1 BM)",
+          "comparison": "wording-matches",
+          "nestedKeywords": []
+        }
+      ]
+    },
+    {
+      "faction": "Zerg",
+      "name": "Ravagers",
+      "catalogueUnit": true,
+      "abilities": [
+        {
+          "name": "Squadron",
+          "phase": "Any Phase",
+          "officialEffect": "This Unit's Horizontal Coherency is 4\".",
+          "officialType": "Passive",
+          "officialCost": null,
+          "costComparison": "matches",
+          "phaseComparison": "matches",
+          "catalogueId": "fc8c-6bff-6d80-b316",
+          "catalogueEffect": "This Unit’s Horizontal Coherency is 4\".",
+          "catalogueCost": "Passive",
+          "comparison": "wording-matches",
+          "nestedKeywords": []
+        },
+        {
+          "name": "Deep Tunnel",
+          "phase": "Movement Phase",
+          "officialEffect": "Set a Ravager Burrow token Wholly Within 12\" of any model in this Unit. At the End of the Round, the controlling player may set all models of this Unit in Coherency, treating the Ravager Burrow token as the Leading Model. The Ravager Burrow token has DISPLACEMENT.",
+          "officialType": "Active",
+          "officialCost": "1 BM",
+          "costComparison": "matches",
+          "phaseComparison": "matches",
+          "catalogueId": "1009-c258-0755-5017",
+          "catalogueEffect": "Set a Ravager Burrow token Wholly Within 12\" of any model in this Unit. At the End of the Round, the controlling player may set all models of this Unit in Coherency, treating the Ravager Burrow token as the Leading Model. The Ravager Burrow token has DISPLACEMENT.",
+          "catalogueCost": "Active (1 BM)",
+          "comparison": "wording-matches",
+          "nestedKeywords": [
+            {
+              "name": "Controlling Player",
+              "officialPage": 85
+            },
+            {
+              "name": "Displacement",
+              "officialPage": 85,
+              "catalogueId": "eb27-1500-88ca-d0f0",
+              "catalogueInfoLinks": 1
+            },
+            {
+              "name": "Leading Model",
+              "officialPage": 88
+            },
+            {
+              "name": "Wholly Within",
+              "officialPage": 93
+            },
+            {
+              "name": "Within",
+              "officialPage": 93
+            }
+          ]
+        },
+        {
+          "name": "Corrosive Bile",
+          "phase": "Movement Phase",
+          "officialEffect": "For each model in this Unit, set one Corrosive Bile token on the battlefield Within 14\" of that model. These tokens are not removed if this Unit is Destroyed. At the End of the Assault Phase, each Unit suffers HITS 5 (1) effect for each of this Unit's Corrosive Bile tokens it is Within 1\" of. Then, remove all of this Unit's Corrosive Bile tokens from the battlefield. If multiple effects trigger at the End of the Assault Phase, resolve them in the order specified in Part 8.9.4.",
+          "officialType": "Active",
+          "officialCost": "1 BM",
+          "costComparison": "matches",
+          "phaseComparison": "matches",
+          "catalogueId": "37a4-0f61-2876-97a8",
+          "catalogueEffect": "For each model in this Unit, set one Corrosive Bile token on the battlefield Within 14\" of that model. These tokens are not removed if this Unit is Destroyed. At the End of the Assault Phase, each Unit suffers HITS 5 (1) effect for each of this Unit's Corrosive Bile tokens it is Within 1\" of. Then, remove all of this Unit's Corrosive Bile tokens from the battlefield. If multiple effects trigger at the End of the Assault Phase, resolve them in the order specified in Part 8.9.4.",
+          "catalogueCost": "Active (1 BM)",
+          "comparison": "wording-matches",
+          "nestedKeywords": [
+            {
+              "name": "Hits",
+              "officialPage": 88
+            },
+            {
+              "name": "Within",
+              "officialPage": 93
+            }
+          ]
+        },
+        {
+          "name": "Devastating Charge",
+          "phase": "Assault Phase",
+          "officialEffect": "Immediately after this Unit completes a successful Charge, resolve the IMPACT (2) 4+ effect.",
+          "officialType": "Passive",
+          "officialCost": null,
+          "costComparison": "matches",
+          "phaseComparison": "matches",
+          "catalogueId": "13e9-0979-eef7-2092",
+          "catalogueEffect": "Immediately after this Unit completes a successful Charge, resolve the IMPACT (2) 4+ effect.",
+          "catalogueCost": "Passive",
+          "comparison": "wording-matches",
+          "nestedKeywords": [
+            {
+              "name": "Impact",
+              "officialPage": 88,
+              "catalogueId": "7805-5c0f-7d68-90c8",
+              "catalogueInfoLinks": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "faction": "Zerg",
+      "name": "Zagara",
+      "catalogueUnit": false,
+      "abilities": [
+        {
+          "name": "Commander",
+          "phase": "Any Phase",
+          "officialEffect": "Treat this Unit's Supply characteristic as increased by 1 for Controlling and Contesting Mission Markers, completing objectives, and resolving Disengage checks.",
+          "officialType": "Passive",
+          "officialCost": null,
+          "costComparison": "not-in-catalogue",
+          "phaseComparison": "not-in-catalogue",
+          "comparison": "not-in-catalogue",
+          "nestedKeywords": [
+            {
+              "name": "Mission Markers",
+              "officialPage": 89
+            }
+          ]
+        },
+        {
+          "name": "Transfusion",
+          "phase": "Any Phase",
+          "officialEffect": "Use when another Friendly Biological Unit (including a Structure) suffers Damage Within 4\". Reduce the Total Damage before allocation by 2.",
+          "officialType": "Reaction",
+          "officialCost": "1 BM",
+          "costComparison": "not-in-catalogue",
+          "phaseComparison": "not-in-catalogue",
+          "comparison": "not-in-catalogue",
+          "nestedKeywords": [
+            {
+              "name": "Friendly",
+              "officialPage": 87
+            },
+            {
+              "name": "Within",
+              "officialPage": 93
+            }
+          ]
+        },
+        {
+          "name": "Psionic Link",
+          "phase": "Any Phase",
+          "officialEffect": "Once per Round, if there are at least 7 Friendly models Within 6\" of this Unit, it may resolve its Special Ability with the BM cost reduced by 1.",
+          "officialType": "Passive",
+          "officialCost": null,
+          "costComparison": "not-in-catalogue",
+          "phaseComparison": "not-in-catalogue",
+          "comparison": "not-in-catalogue",
+          "nestedKeywords": [
+            {
+              "name": "Friendly",
+              "officialPage": 87
+            },
+            {
+              "name": "Special Ability",
+              "officialPage": 91
+            },
+            {
+              "name": "Within",
+              "officialPage": 93
+            }
+          ]
+        },
+        {
+          "name": "Infested Drop",
+          "phase": "Movement Phase",
+          "officialEffect": "The base of the Zagara counts as an Entry Edge. Each Round, Friendly Units with a combined Supply cost of 1 may be Deployed via this Entry Edge.",
+          "officialType": "Passive",
+          "officialCost": null,
+          "costComparison": "not-in-catalogue",
+          "phaseComparison": "not-in-catalogue",
+          "comparison": "not-in-catalogue",
+          "nestedKeywords": [
+            {
+              "name": "Entry Edge",
+              "officialPage": 86
+            },
+            {
+              "name": "Friendly",
+              "officialPage": 87
+            }
+          ]
+        },
+        {
+          "name": "Indomitable",
+          "phase": "Assault Phase",
+          "officialEffect": "While Engaged, this Unit may target and be targeted by Unengaged Enemy Units. In both cases, the defending Unit gains an Evade Roll against those attacks.",
+          "officialType": "Passive",
+          "officialCost": null,
+          "costComparison": "not-in-catalogue",
+          "phaseComparison": "not-in-catalogue",
+          "comparison": "not-in-catalogue",
+          "nestedKeywords": [
+            {
+              "name": "Enemy",
+              "officialPage": 86
+            },
+            {
+              "name": "Engaged",
+              "officialPage": 86
+            },
+            {
+              "name": "Unengaged",
+              "officialPage": 93
+            }
+          ]
+        },
+        {
+          "name": "Devastating Charge",
+          "phase": "Assault Phase",
+          "officialEffect": "Immediately after this Unit completes a successful Charge, resolve the IMPACT (6) 3+ effect.",
+          "officialType": "Passive",
+          "officialCost": null,
+          "costComparison": "not-in-catalogue",
+          "phaseComparison": "not-in-catalogue",
+          "comparison": "not-in-catalogue",
+          "nestedKeywords": [
+            {
+              "name": "Impact",
+              "officialPage": 88,
+              "catalogueId": "7805-5c0f-7d68-90c8",
+              "catalogueInfoLinks": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "faction": "Zerg",
+      "name": "Defiler",
+      "catalogueUnit": false,
+      "abilities": [
+        {
+          "name": "Consume",
+          "phase": "Any Phase",
+          "officialEffect": "When this Unit resolves a Special Ability that costs BM, it can remove one model from a Friendly Unit Within 4\" to generate 1 BM to spend towards that ability's cost.",
+          "officialType": "Passive",
+          "officialCost": null,
+          "costComparison": "not-in-catalogue",
+          "phaseComparison": "not-in-catalogue",
+          "comparison": "not-in-catalogue",
+          "nestedKeywords": [
+            {
+              "name": "Friendly",
+              "officialPage": 87
+            },
+            {
+              "name": "Special Ability",
+              "officialPage": 91
+            },
+            {
+              "name": "Within",
+              "officialPage": 93
+            }
+          ]
+        },
+        {
+          "name": "Gestate Dark Swarm",
+          "phase": "Movement Phase",
+          "officialEffect": "Set a Dark Swarm token in an unoccupied space Within 4\" and Line of Sight of this Unit. The Dark Swarm token has DISPLACEMENT.",
+          "officialType": "Active",
+          "officialCost": "0 BM",
+          "costComparison": "not-in-catalogue",
+          "phaseComparison": "not-in-catalogue",
+          "comparison": "not-in-catalogue",
+          "nestedKeywords": [
+            {
+              "name": "Displacement",
+              "officialPage": 85,
+              "catalogueId": "eb27-1500-88ca-d0f0",
+              "catalogueInfoLinks": 1
+            },
+            {
+              "name": "Line Of Sight",
+              "officialPage": 88
+            },
+            {
+              "name": "Within",
+              "officialPage": 93
+            }
+          ]
+        },
+        {
+          "name": "Dark Swarm",
+          "phase": "Assault Phase",
+          "officialEffect": "REPEATABLE. Use when a Friendly Unit Within 4\" of a Friendly Dark Swarm token is selected as the target of an attack. If this Unit is Within 4'' of the same token, the Targeted Friendly Unit is eligible to make an Evade Roll against that attack. If the targeted Unit is a Size 1, it gains a +1 Modifier to this Evade Roll.",
+          "officialType": "Reaction",
+          "officialCost": "1 BM",
+          "costComparison": "not-in-catalogue",
+          "phaseComparison": "not-in-catalogue",
+          "comparison": "not-in-catalogue",
+          "nestedKeywords": [
+            {
+              "name": "Friendly",
+              "officialPage": 87
+            },
+            {
+              "name": "Modifier",
+              "officialPage": 90
+            },
+            {
+              "name": "Repeatable",
+              "officialPage": 90,
+              "catalogueId": "f895-258a-9487-f59a",
+              "catalogueInfoLinks": 1
+            },
+            {
+              "name": "Within",
+              "officialPage": 93
+            }
+          ]
+        },
+        {
+          "name": "Devastating Charge",
+          "phase": "Assault Phase",
+          "officialEffect": "Immediately after this Unit completes a successful Charge, resolve the IMPACT (4) 4+ effect.",
+          "officialType": "Passive",
+          "officialCost": null,
+          "costComparison": "not-in-catalogue",
+          "phaseComparison": "not-in-catalogue",
+          "comparison": "not-in-catalogue",
+          "nestedKeywords": [
+            {
+              "name": "Impact",
+              "officialPage": 88,
+              "catalogueId": "7805-5c0f-7d68-90c8",
+              "catalogueInfoLinks": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "faction": "Zerg",
+      "name": "Vileling (Zergling)",
+      "catalogueUnit": false,
+      "abilities": [
+        {
+          "name": "Squadron",
+          "phase": "Any Phase",
+          "officialEffect": "This Unit's Horizontal Coherency is 4\".",
+          "officialType": "Passive",
+          "officialCost": null,
+          "costComparison": "not-in-catalogue",
+          "phaseComparison": "not-in-catalogue",
+          "comparison": "not-in-catalogue",
+          "nestedKeywords": []
+        },
+        {
+          "name": "Zergling Reconstitution",
+          "phase": "Movement Phase",
+          "officialEffect": "Resolve the RESPAWN (2) effect, or RESPAWN (3) if the Unit is ON CREEP.",
+          "officialType": "Active",
+          "officialCost": "1 BM",
+          "costComparison": "not-in-catalogue",
+          "phaseComparison": "not-in-catalogue",
+          "comparison": "not-in-catalogue",
+          "nestedKeywords": [
+            {
+              "name": "On Creep",
+              "officialPage": 90,
+              "catalogueId": "b8db-d01a-89fd-efd3",
+              "catalogueInfoLinks": 3
+            },
+            {
+              "name": "Respawn",
+              "officialPage": 91,
+              "catalogueId": "d273-74d1-fff7-7002",
+              "catalogueInfoLinks": 1
+            }
+          ]
+        },
+        {
+          "name": "Burrow Ambush",
+          "phase": "Movement Phase",
+          "officialEffect": "When this Unit is nominated to deploy from the Reserves, it may resolve the PLACE (18) effect from the controlling player's Entry Edge. No model may be set Within 10\" of any Enemy model. This Unit's Activation ends.",
+          "officialType": "Passive",
+          "officialCost": null,
+          "costComparison": "not-in-catalogue",
+          "phaseComparison": "not-in-catalogue",
+          "comparison": "not-in-catalogue",
+          "nestedKeywords": [
+            {
+              "name": "Controlling Player",
+              "officialPage": 85
+            },
+            {
+              "name": "Enemy",
+              "officialPage": 86
+            },
+            {
+              "name": "Entry Edge",
+              "officialPage": 86
+            },
+            {
+              "name": "Place",
+              "officialPage": 90,
+              "catalogueId": "1a3d-86d9-8aa7-68ab",
+              "catalogueInfoLinks": 3
+            },
+            {
+              "name": "Reserves",
+              "officialPage": 90
+            },
+            {
+              "name": "Within",
+              "officialPage": 93
+            }
+          ]
+        },
+        {
+          "name": "Devastating Charge",
+          "phase": "Assault Phase",
+          "officialEffect": "Immediately after this Unit completes a successful Charge, resolve the IMPACT (1) 5+ effect.",
+          "officialType": "Passive",
+          "officialCost": null,
+          "costComparison": "not-in-catalogue",
+          "phaseComparison": "not-in-catalogue",
+          "comparison": "not-in-catalogue",
+          "nestedKeywords": [
+            {
+              "name": "Impact",
+              "officialPage": 88,
+              "catalogueId": "7805-5c0f-7d68-90c8",
+              "catalogueInfoLinks": 1
+            }
+          ]
+        },
+        {
+          "name": "Metabolic Boost",
+          "phase": "Assault Phase",
+          "officialEffect": "When determining Charge Distance for this Unit, roll 2D6 instead of D6 and use the higher result to add to the Unit's Speed characteristic.",
+          "officialType": "Active",
+          "officialCost": "1 BM",
+          "costComparison": "not-in-catalogue",
+          "phaseComparison": "not-in-catalogue",
+          "comparison": "not-in-catalogue",
+          "nestedKeywords": []
+        },
+        {
+          "name": "Debilitating Claws",
+          "phase": "Combat Phase",
+          "officialEffect": "After an Enemy Unit suffers Damage from this Unit, apply DEBUFF Hit (1) to each of that Unit's Weapons.",
+          "officialType": "Passive",
+          "officialCost": null,
+          "costComparison": "not-in-catalogue",
+          "phaseComparison": "not-in-catalogue",
+          "comparison": "not-in-catalogue",
+          "nestedKeywords": [
+            {
+              "name": "Debuff",
+              "officialPage": 85,
+              "catalogueId": "e9c5-7999-24b7-4858",
+              "catalogueInfoLinks": 4
+            },
+            {
+              "name": "Enemy",
+              "officialPage": 86
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "faction": "Zerg",
+      "name": "Bile Launcher",
+      "catalogueUnit": false,
+      "abilities": [
+        {
+          "name": "Biological Structure",
+          "phase": "Any Phase",
+          "officialEffect": "This Unit cannot gain the BURROWED Status, cannot be returned to Reserves, and is immune to the IMPACT keyword.",
+          "officialType": "Passive",
+          "officialCost": null,
+          "costComparison": "not-in-catalogue",
+          "phaseComparison": "not-in-catalogue",
+          "comparison": "not-in-catalogue",
+          "nestedKeywords": [
+            {
+              "name": "Burrowed",
+              "officialPage": 84
+            },
+            {
+              "name": "Impact",
+              "officialPage": 88,
+              "catalogueId": "7805-5c0f-7d68-90c8",
+              "catalogueInfoLinks": 1
+            },
+            {
+              "name": "Reserves",
+              "officialPage": 90
+            },
+            {
+              "name": "Status",
+              "officialPage": 92
+            }
+          ]
+        },
+        {
+          "name": "Detection",
+          "phase": "Any Phase",
+          "officialEffect": "While Enemy Units are Within 6\" of this Unit, they lose the HIDDEN Status.",
+          "officialType": "Passive",
+          "officialCost": null,
+          "costComparison": "not-in-catalogue",
+          "phaseComparison": "not-in-catalogue",
+          "comparison": "not-in-catalogue",
+          "nestedKeywords": [
+            {
+              "name": "Enemy",
+              "officialPage": 86
+            },
+            {
+              "name": "Hidden",
+              "officialPage": 88,
+              "catalogueId": "4bf6-1de9-71aa-02a4",
+              "catalogueInfoLinks": 2
+            },
+            {
+              "name": "Status",
+              "officialPage": 92
+            },
+            {
+              "name": "Within",
+              "officialPage": 93
+            }
+          ]
+        },
+        {
+          "name": "Source Of Creep",
+          "phase": "Any Phase",
+          "officialEffect": "A Friendly or Enemy Ground Zerg Unit Within 6\" of this Unit counts as being ON CREEP.",
+          "officialType": "Passive",
+          "officialCost": null,
+          "costComparison": "not-in-catalogue",
+          "phaseComparison": "not-in-catalogue",
+          "comparison": "not-in-catalogue",
+          "nestedKeywords": [
+            {
+              "name": "Enemy",
+              "officialPage": 86
+            },
+            {
+              "name": "Friendly",
+              "officialPage": 87
+            },
+            {
+              "name": "On Creep",
+              "officialPage": 90,
+              "catalogueId": "b8db-d01a-89fd-efd3",
+              "catalogueInfoLinks": 3
+            },
+            {
+              "name": "Within",
+              "officialPage": 93
+            }
+          ]
+        },
+        {
+          "name": "Burrow Ambush",
+          "phase": "Movement Phase",
+          "officialEffect": "When this Unit is nominated to deploy from the Reserves, it may resolve the PLACE (18) effect from the controlling player's Entry Edge. No model may be set Within 10\" of any Enemy model. This Unit's Activation ends.",
+          "officialType": "Passive",
+          "officialCost": null,
+          "costComparison": "not-in-catalogue",
+          "phaseComparison": "not-in-catalogue",
+          "comparison": "not-in-catalogue",
+          "nestedKeywords": [
+            {
+              "name": "Controlling Player",
+              "officialPage": 85
+            },
+            {
+              "name": "Enemy",
+              "officialPage": 86
+            },
+            {
+              "name": "Entry Edge",
+              "officialPage": 86
+            },
+            {
+              "name": "Place",
+              "officialPage": 90,
+              "catalogueId": "1a3d-86d9-8aa7-68ab",
+              "catalogueInfoLinks": 3
+            },
+            {
+              "name": "Reserves",
+              "officialPage": 90
+            },
+            {
+              "name": "Within",
+              "officialPage": 93
+            }
+          ]
+        },
+        {
+          "name": "Bombard",
+          "phase": "Movement Phase",
+          "officialEffect": "Set a Bile Bomb token on the battlefield Within 24\" of this Unit. When this Unit resolves a Ranged Attack using the Bile Bomb weapon profile this Round, it may choose to ignore the weapon's standard Range characteristic. If it does, it may target an Enemy Unit that is Within 3\" of that token (Line of Sight is not required), ignoring the HIDDEN Status. After the attack is fully resolved, remove the Bile Bomb token from the battlefield. When the Bile Bomb token is about to be removed, set a Creep Tumor token in base-to-base contact with it. The Bile Bomb token has DISPLACEMENT.",
+          "officialType": "Active",
+          "officialCost": "1 BM",
+          "costComparison": "not-in-catalogue",
+          "phaseComparison": "not-in-catalogue",
+          "comparison": "not-in-catalogue",
+          "nestedKeywords": [
+            {
+              "name": "Displacement",
+              "officialPage": 85,
+              "catalogueId": "eb27-1500-88ca-d0f0",
+              "catalogueInfoLinks": 1
+            },
+            {
+              "name": "Enemy",
+              "officialPage": 86
+            },
+            {
+              "name": "Hidden",
+              "officialPage": 88,
+              "catalogueId": "4bf6-1de9-71aa-02a4",
+              "catalogueInfoLinks": 2
+            },
+            {
+              "name": "Line Of Sight",
+              "officialPage": 88
+            },
+            {
+              "name": "Status",
+              "officialPage": 92
+            },
+            {
+              "name": "Within",
+              "officialPage": 93
+            }
+          ]
+        },
+        {
+          "name": "Indomitable",
+          "phase": "Assault Phase",
+          "officialEffect": "While Engaged, this Unit may target and be targeted by Unengaged Enemy Units. In both cases, the defending Unit gains an Evade Roll against those attacks.",
+          "officialType": "Passive",
+          "officialCost": null,
+          "costComparison": "not-in-catalogue",
+          "phaseComparison": "not-in-catalogue",
+          "comparison": "not-in-catalogue",
+          "nestedKeywords": [
+            {
+              "name": "Enemy",
+              "officialPage": 86
+            },
+            {
+              "name": "Engaged",
+              "officialPage": 86
+            },
+            {
+              "name": "Unengaged",
+              "officialPage": 93
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

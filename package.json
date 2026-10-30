@@ -12,7 +12,11 @@
     "check:local": "node scripts/check-local.mjs",
     "test": "node --test",
     "format": "prettier --write \"scripts/**/*.mjs\" \"src/**/*.mjs\" \"test/*.mjs\" package.json .prettierrc.json",
-    "format:check": "prettier --check \"scripts/**/*.mjs\" \"src/**/*.mjs\" \"test/*.mjs\" package.json .prettierrc.json"
+    "format:check": "prettier --check \"scripts/**/*.mjs\" \"src/**/*.mjs\" \"test/*.mjs\" package.json .prettierrc.json",
+    "rules:update-keywords": "node scripts/update-rule-keywords.mjs",
+    "rules:compare": "node scripts/compare-rule-references.mjs",
+    "models:catalogue": "node scripts/build-model-catalogue.mjs",
+    "models:publish": "node scripts/publish-model-catalogue.mjs"
   },
   "engines": {
     "node": ">=22.13.0"

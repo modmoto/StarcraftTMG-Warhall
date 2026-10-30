@@ -1,10 +1,13 @@
-# Mac handoff
+# Warhall Test handoff
 
 Release 10: `npm run check:local` passed (23 tests passed, 3 optional catalogue tests skipped). Windows Warhall Test loaded version 10, Official Map 5 with complete raised platform assemblies, and the regenerated Acropolis card. Full card readability/flip checks and Mac verification remain below.
 
+Release 11 includes the unit-rule cleanup, phase weapon tables and JSON model publisher for testing. Shared catalogue publication is separate: the Marine was submitted through Model Creator; the remaining model/terrain mappings, portable Unity-bundle replacements and custom deployment templates still require publication or verification.
+
 ## Next work
 
-- [ ] Clean up unit rules. Split phase-wide text into individually named abilities, format costs/phases clearly, remove UI provenance and manual-upgrade placeholders, and link nested keywords such as Stimpack → Precision. Use the current official PDFs for gameplay wording and compare the New Recruit catalogue's references. No rule cleanup has been released yet.
+- [x] Implement local unit-rule cleanup from current official PDFs: individually named abilities, clear phases/costs, nested keyword links and the New Recruit reference comparison. Unit descriptions omit provenance, base sizes and manual-upgrade placeholders. Native weapon tables appear under phase headings. See [the implementation notes](docs/unit-rules.md). Included in test data release 11.
+- [ ] Verify phase headings, weapon-table width/wrapping, per-row details and nested ability/keyword popups in Warhall Test in test data release 11.
 - [ ] Verify the final L-shaped Wall Set 4/5 footprints in Warhall Test on macOS. Their skin rotation and map rotation compensate each other, preserving world placements. Other wall bases must retain their current orientation.
 - [ ] Verify sharp tactical, faction, creep, deployment and mission cards in Warhall Test, including flip behavior and readable descriptions. Unit cards are intentionally removed; unit data will be presented on units later.
 - [ ] Verify scoring missions change no board objects. Deployment selection alone owns markers and border segments. Select the map before the deployment: loading a map clears terrain, including deployment markers.

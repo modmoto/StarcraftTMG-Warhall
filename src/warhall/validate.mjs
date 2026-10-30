@@ -1,5 +1,6 @@
 import { readFile } from 'node:fs/promises';
 import path from 'node:path';
+import { weaponColumns } from './presentation.mjs';
 
 export function validateData(data) {
   const manifest = data['manifest.json'];
@@ -27,9 +28,17 @@ export function validateData(data) {
       throw new Error(`Expected ${expected} at ${context}: ${id}`);
     return target;
   };
+  const unitStatlines = new Set(
+    [...ids.values()]
+      .filter(item => item.Type === 'Profile')
+      .map(profile => profile.Children?.find(child => ids.get(child.Id)?.Type === 'Statline')?.Id),
+  );
   for (const item of ids.values()) {
     for (const id of item.BasicProfileIds ?? []) ref(id, item.Id, 'Profile');
     for (const child of item.Children ?? []) ref(child.Id, item.Id);
+    for (const match of (item.Description ?? '').matchAll(/<link="([^"]+)">/g)) {
+      ref(match[1], `description of ${item.Id}`);
+    }
     if (item.BaseId) {
       const base = ref(item.BaseId, item.Id);
       if (
@@ -41,7 +50,7 @@ export function validateData(data) {
       )
         throw new Error(`Expected positive round/oval base dimensions: ${item.Id}`);
     }
-    if (item.Type === 'Statline') {
+    if (item.Type === 'Statline' && unitStatlines.has(item.Id)) {
       const hpKey = data['gameconfig.json']?.WoundsAttribute;
       if (
         !hpKey ||
@@ -49,6 +58,22 @@ export function validateData(data) {
         Number(item.Attributes[hpKey]) <= 0
       )
         throw new Error(`Invalid configured HP: ${item.Id}`);
+    }
+    if (item.Type === 'Statline' && !unitStatlines.has(item.Id)) {
+      if (
+        JSON.stringify(Object.keys(item.Attributes ?? {})) !==
+        JSON.stringify(Object.keys(weaponColumns))
+      ) {
+        throw new Error(`Invalid weapon table headings: ${item.Id}`);
+      }
+      if (
+        !/^(?:E|\d+["”]?)$/.test(item.Attributes.Range) ||
+        !/^(?:\d+|BT(?:\+\d+)?)$/.test(item.Attributes.RoA) ||
+        !/^(?:\d\+|-)$/.test(item.Attributes.Hit) ||
+        !/^\d+$/.test(item.Attributes.Damage)
+      ) {
+        throw new Error(`Invalid weapon table values: ${item.Id}`);
+      }
     }
   }
   for (const objective of data['objectives.json'] ?? []) {

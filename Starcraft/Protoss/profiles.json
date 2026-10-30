@@ -9,16 +9,28 @@
         "Id": "pdf_Protoss_stat_adepts"
       },
       {
-        "Id": "pdf_Protoss_rule_adepts_default_0"
+        "Id": "pdf_Protoss_profile_adepts_phase_any_phase"
       },
       {
-        "Id": "pdf_Protoss_rule_adepts_default_1"
+        "Id": "pdf_Protoss_rule_adepts_any_phase_psionic_presence"
       },
       {
-        "Id": "pdf_Protoss_equipment_adepts_default_2"
+        "Id": "pdf_Protoss_profile_adepts_phase_movement_phase"
       },
       {
-        "Id": "pdf_Protoss_equipment_adepts_default_3"
+        "Id": "pdf_Protoss_rule_adepts_movement_phase_psionic_transfer"
+      },
+      {
+        "Id": "pdf_Protoss_profile_adepts_phase_assault_phase"
+      },
+      {
+        "Id": "pdf_Protoss_equipment_adepts_default_2_table"
+      },
+      {
+        "Id": "pdf_Protoss_profile_adepts_phase_melee_phase"
+      },
+      {
+        "Id": "pdf_Protoss_equipment_adepts_default_3_table"
       }
     ]
   },
@@ -32,19 +44,37 @@
         "Id": "pdf_Protoss_stat_artanis"
       },
       {
-        "Id": "pdf_Protoss_rule_artanis_default_0"
+        "Id": "pdf_Protoss_profile_artanis_phase_any_phase"
       },
       {
-        "Id": "pdf_Protoss_rule_artanis_default_1"
+        "Id": "pdf_Protoss_rule_artanis_any_phase_commander"
       },
       {
-        "Id": "pdf_Protoss_rule_artanis_default_2"
+        "Id": "pdf_Protoss_profile_artanis_phase_movement_phase"
       },
       {
-        "Id": "pdf_Protoss_equipment_artanis_default_3"
+        "Id": "pdf_Protoss_rule_artanis_movement_phase_phase_prism"
       },
       {
-        "Id": "pdf_Protoss_equipment_artanis_default_4"
+        "Id": "pdf_Protoss_profile_artanis_phase_assault_phase"
+      },
+      {
+        "Id": "pdf_Protoss_rule_artanis_assault_phase_lightning_dash"
+      },
+      {
+        "Id": "pdf_Protoss_rule_artanis_assault_phase_hierarch_s_stand"
+      },
+      {
+        "Id": "pdf_Protoss_rule_artanis_assault_phase_devastating_charge"
+      },
+      {
+        "Id": "pdf_Protoss_profile_artanis_phase_melee_phase"
+      },
+      {
+        "Id": "pdf_Protoss_equipment_artanis_default_3_table"
+      },
+      {
+        "Id": "pdf_Protoss_equipment_artanis_default_4_table"
       }
     ]
   },
@@ -58,16 +88,28 @@
         "Id": "pdf_Protoss_stat_high_templar"
       },
       {
-        "Id": "pdf_Protoss_rule_high_templar_default_0"
+        "Id": "pdf_Protoss_profile_high_templar_phase_any_phase"
       },
       {
-        "Id": "pdf_Protoss_rule_high_templar_default_1"
+        "Id": "pdf_Protoss_rule_high_templar_any_phase_our_minds_as_one"
       },
       {
-        "Id": "pdf_Protoss_equipment_high_templar_default_2"
+        "Id": "pdf_Protoss_profile_high_templar_phase_movement_phase"
       },
       {
-        "Id": "pdf_Protoss_equipment_high_templar_default_3"
+        "Id": "pdf_Protoss_rule_high_templar_movement_phase_feedback"
+      },
+      {
+        "Id": "pdf_Protoss_profile_high_templar_phase_assault_phase"
+      },
+      {
+        "Id": "pdf_Protoss_equipment_high_templar_default_2_table"
+      },
+      {
+        "Id": "pdf_Protoss_profile_high_templar_phase_melee_phase"
+      },
+      {
+        "Id": "pdf_Protoss_equipment_high_templar_default_3_table"
       }
     ]
   },
@@ -81,19 +123,31 @@
         "Id": "pdf_Protoss_stat_immortal"
       },
       {
-        "Id": "pdf_Protoss_rule_immortal_default_0"
+        "Id": "pdf_Protoss_profile_immortal_phase_any_phase"
       },
       {
-        "Id": "pdf_Protoss_equipment_immortal_default_1"
+        "Id": "pdf_Protoss_rule_immortal_any_phase_improved_barrier"
       },
       {
-        "Id": "pdf_Protoss_equipment_immortal_default_2"
+        "Id": "pdf_Protoss_profile_immortal_phase_assault_phase"
       },
       {
-        "Id": "pdf_Protoss_rule_immortal_default_3"
+        "Id": "pdf_Protoss_equipment_immortal_default_1_table"
       },
       {
-        "Id": "pdf_Protoss_equipment_immortal_default_4"
+        "Id": "pdf_Protoss_equipment_immortal_default_2_table"
+      },
+      {
+        "Id": "pdf_Protoss_rule_immortal_assault_phase_indomitable"
+      },
+      {
+        "Id": "pdf_Protoss_rule_immortal_assault_phase_devastating_charge"
+      },
+      {
+        "Id": "pdf_Protoss_profile_immortal_phase_melee_phase"
+      },
+      {
+        "Id": "pdf_Protoss_equipment_immortal_default_4_table"
       }
     ]
   },
@@ -107,16 +161,31 @@
         "Id": "pdf_Protoss_stat_nerazim_watchers_adept"
       },
       {
-        "Id": "pdf_Protoss_rule_nerazim_watchers_adept_default_0"
+        "Id": "pdf_Protoss_profile_nerazim_watchers_adept_phase_any_phase"
       },
       {
-        "Id": "pdf_Protoss_rule_nerazim_watchers_adept_default_1"
+        "Id": "pdf_Protoss_rule_nerazim_watchers_adept_any_phase_path_of_shadows"
       },
       {
-        "Id": "pdf_Protoss_equipment_nerazim_watchers_adept_default_2"
+        "Id": "pdf_Protoss_rule_nerazim_watchers_adept_any_phase_nerazim_farsight"
       },
       {
-        "Id": "pdf_Protoss_equipment_nerazim_watchers_adept_default_3"
+        "Id": "pdf_Protoss_profile_nerazim_watchers_adept_phase_movement_phase"
+      },
+      {
+        "Id": "pdf_Protoss_rule_nerazim_watchers_adept_movement_phase_psionic_transfer"
+      },
+      {
+        "Id": "pdf_Protoss_profile_nerazim_watchers_adept_phase_assault_phase"
+      },
+      {
+        "Id": "pdf_Protoss_equipment_nerazim_watchers_adept_default_2_table"
+      },
+      {
+        "Id": "pdf_Protoss_profile_nerazim_watchers_adept_phase_melee_phase"
+      },
+      {
+        "Id": "pdf_Protoss_equipment_nerazim_watchers_adept_default_3_table"
       }
     ]
   },
@@ -130,19 +199,37 @@
         "Id": "pdf_Protoss_stat_praetor_guards"
       },
       {
-        "Id": "pdf_Protoss_rule_praetor_guards_default_0"
+        "Id": "pdf_Protoss_profile_praetor_guards_phase_any_phase"
       },
       {
-        "Id": "pdf_Protoss_rule_praetor_guards_default_1"
+        "Id": "pdf_Protoss_rule_praetor_guards_any_phase_shield_overcharge"
       },
       {
-        "Id": "pdf_Protoss_rule_praetor_guards_default_2"
+        "Id": "pdf_Protoss_profile_praetor_guards_phase_movement_phase"
       },
       {
-        "Id": "pdf_Protoss_equipment_praetor_guards_default_3"
+        "Id": "pdf_Protoss_rule_praetor_guards_movement_phase_leg_enhancements"
       },
       {
-        "Id": "pdf_Protoss_rule_praetor_guards_default_4"
+        "Id": "pdf_Protoss_profile_praetor_guards_phase_assault_phase"
+      },
+      {
+        "Id": "pdf_Protoss_rule_praetor_guards_assault_phase_charge"
+      },
+      {
+        "Id": "pdf_Protoss_rule_praetor_guards_assault_phase_devastating_charge"
+      },
+      {
+        "Id": "pdf_Protoss_profile_praetor_guards_phase_melee_phase"
+      },
+      {
+        "Id": "pdf_Protoss_equipment_praetor_guards_default_3_table"
+      },
+      {
+        "Id": "pdf_Protoss_rule_praetor_guards_combat_phase_titan_killers"
+      },
+      {
+        "Id": "pdf_Protoss_rule_praetor_guards_combat_phase_precognition"
       }
     ]
   },
@@ -156,10 +243,19 @@
         "Id": "pdf_Protoss_stat_pylon"
       },
       {
-        "Id": "pdf_Protoss_rule_pylon_default_0"
+        "Id": "pdf_Protoss_profile_pylon_phase_any_phase"
       },
       {
-        "Id": "pdf_Protoss_rule_pylon_default_1"
+        "Id": "pdf_Protoss_rule_pylon_any_phase_khalai_ingenuity"
+      },
+      {
+        "Id": "pdf_Protoss_rule_pylon_any_phase_structure"
+      },
+      {
+        "Id": "pdf_Protoss_profile_pylon_phase_movement_phase"
+      },
+      {
+        "Id": "pdf_Protoss_rule_pylon_movement_phase_warp_conduit"
       }
     ]
   },
@@ -173,16 +269,31 @@
         "Id": "pdf_Protoss_stat_sentries"
       },
       {
-        "Id": "pdf_Protoss_rule_sentries_default_0"
+        "Id": "pdf_Protoss_profile_sentries_phase_any_phase"
       },
       {
-        "Id": "pdf_Protoss_rule_sentries_default_1"
+        "Id": "pdf_Protoss_rule_sentries_any_phase_restoration"
       },
       {
-        "Id": "pdf_Protoss_equipment_sentries_default_2"
+        "Id": "pdf_Protoss_profile_sentries_phase_movement_phase"
       },
       {
-        "Id": "pdf_Protoss_equipment_sentries_default_3"
+        "Id": "pdf_Protoss_rule_sentries_movement_phase_guardian_shield"
+      },
+      {
+        "Id": "pdf_Protoss_rule_sentries_movement_phase_force_field"
+      },
+      {
+        "Id": "pdf_Protoss_profile_sentries_phase_assault_phase"
+      },
+      {
+        "Id": "pdf_Protoss_equipment_sentries_default_2_table"
+      },
+      {
+        "Id": "pdf_Protoss_profile_sentries_phase_melee_phase"
+      },
+      {
+        "Id": "pdf_Protoss_equipment_sentries_default_3_table"
       }
     ]
   },
@@ -196,16 +307,28 @@
         "Id": "pdf_Protoss_stat_stalker"
       },
       {
-        "Id": "pdf_Protoss_rule_stalker_default_0"
+        "Id": "pdf_Protoss_profile_stalker_phase_any_phase"
       },
       {
-        "Id": "pdf_Protoss_rule_stalker_default_1"
+        "Id": "pdf_Protoss_rule_stalker_any_phase_squadron"
       },
       {
-        "Id": "pdf_Protoss_equipment_stalker_default_2"
+        "Id": "pdf_Protoss_profile_stalker_phase_movement_phase"
       },
       {
-        "Id": "pdf_Protoss_equipment_stalker_default_3"
+        "Id": "pdf_Protoss_rule_stalker_movement_phase_blink"
+      },
+      {
+        "Id": "pdf_Protoss_profile_stalker_phase_assault_phase"
+      },
+      {
+        "Id": "pdf_Protoss_equipment_stalker_default_2_table"
+      },
+      {
+        "Id": "pdf_Protoss_profile_stalker_phase_melee_phase"
+      },
+      {
+        "Id": "pdf_Protoss_equipment_stalker_default_3_table"
       }
     ]
   },
@@ -219,19 +342,40 @@
         "Id": "pdf_Protoss_stat_tassadar"
       },
       {
-        "Id": "pdf_Protoss_rule_tassadar_default_0"
+        "Id": "pdf_Protoss_profile_tassadar_phase_any_phase"
       },
       {
-        "Id": "pdf_Protoss_rule_tassadar_default_1"
+        "Id": "pdf_Protoss_rule_tassadar_any_phase_commander"
       },
       {
-        "Id": "pdf_Protoss_equipment_tassadar_default_2"
+        "Id": "pdf_Protoss_profile_tassadar_phase_movement_phase"
       },
       {
-        "Id": "pdf_Protoss_rule_tassadar_default_3"
+        "Id": "pdf_Protoss_rule_tassadar_movement_phase_force_wall"
       },
       {
-        "Id": "pdf_Protoss_equipment_tassadar_default_4"
+        "Id": "pdf_Protoss_rule_tassadar_movement_phase_khala_s_gift"
+      },
+      {
+        "Id": "pdf_Protoss_rule_tassadar_movement_phase_executor_s_will"
+      },
+      {
+        "Id": "pdf_Protoss_profile_tassadar_phase_assault_phase"
+      },
+      {
+        "Id": "pdf_Protoss_equipment_tassadar_default_2_table"
+      },
+      {
+        "Id": "pdf_Protoss_rule_tassadar_assault_phase_psi_lightning"
+      },
+      {
+        "Id": "pdf_Protoss_rule_tassadar_assault_phase_telekinetic_push"
+      },
+      {
+        "Id": "pdf_Protoss_profile_tassadar_phase_melee_phase"
+      },
+      {
+        "Id": "pdf_Protoss_equipment_tassadar_default_4_table"
       }
     ]
   },
@@ -245,16 +389,34 @@
         "Id": "pdf_Protoss_stat_twilight_templar_high_templar"
       },
       {
-        "Id": "pdf_Protoss_rule_twilight_templar_high_templar_default_0"
+        "Id": "pdf_Protoss_profile_twilight_templar_high_templar_phase_any_phase"
       },
       {
-        "Id": "pdf_Protoss_rule_twilight_templar_high_templar_default_1"
+        "Id": "pdf_Protoss_rule_twilight_templar_high_templar_any_phase_bound_by_the_khala"
       },
       {
-        "Id": "pdf_Protoss_equipment_twilight_templar_high_templar_default_2"
+        "Id": "pdf_Protoss_profile_twilight_templar_high_templar_phase_movement_phase"
       },
       {
-        "Id": "pdf_Protoss_equipment_twilight_templar_high_templar_default_3"
+        "Id": "pdf_Protoss_rule_twilight_templar_high_templar_movement_phase_psionic_gale"
+      },
+      {
+        "Id": "pdf_Protoss_rule_twilight_templar_high_templar_movement_phase_feedback"
+      },
+      {
+        "Id": "pdf_Protoss_rule_twilight_templar_high_templar_movement_phase_warp_in"
+      },
+      {
+        "Id": "pdf_Protoss_profile_twilight_templar_high_templar_phase_assault_phase"
+      },
+      {
+        "Id": "pdf_Protoss_equipment_twilight_templar_high_templar_default_2_table"
+      },
+      {
+        "Id": "pdf_Protoss_profile_twilight_templar_high_templar_phase_melee_phase"
+      },
+      {
+        "Id": "pdf_Protoss_equipment_twilight_templar_high_templar_default_3_table"
       }
     ]
   },
@@ -268,10 +430,19 @@
         "Id": "pdf_Protoss_stat_zealots"
       },
       {
-        "Id": "pdf_Protoss_rule_zealots_default_0"
+        "Id": "pdf_Protoss_profile_zealots_phase_assault_phase"
       },
       {
-        "Id": "pdf_Protoss_equipment_zealots_default_1"
+        "Id": "pdf_Protoss_rule_zealots_assault_phase_charge"
+      },
+      {
+        "Id": "pdf_Protoss_rule_zealots_assault_phase_devastating_charge"
+      },
+      {
+        "Id": "pdf_Protoss_profile_zealots_phase_melee_phase"
+      },
+      {
+        "Id": "pdf_Protoss_equipment_zealots_default_1_table"
       }
     ]
   },
@@ -285,19 +456,40 @@
         "Id": "pdf_Protoss_stat_zeratul"
       },
       {
-        "Id": "pdf_Protoss_rule_zeratul_default_0"
+        "Id": "pdf_Protoss_profile_zeratul_phase_any_phase"
       },
       {
-        "Id": "pdf_Protoss_rule_zeratul_default_1"
+        "Id": "pdf_Protoss_rule_zeratul_any_phase_one_with_the_shadows"
       },
       {
-        "Id": "pdf_Protoss_rule_zeratul_default_2"
+        "Id": "pdf_Protoss_rule_zeratul_any_phase_prophetic_vision"
       },
       {
-        "Id": "pdf_Protoss_equipment_zeratul_default_3"
+        "Id": "pdf_Protoss_profile_zeratul_phase_movement_phase"
       },
       {
-        "Id": "pdf_Protoss_rule_zeratul_default_4"
+        "Id": "pdf_Protoss_rule_zeratul_movement_phase_sentenced_to_death"
+      },
+      {
+        "Id": "pdf_Protoss_rule_zeratul_movement_phase_void_prison"
+      },
+      {
+        "Id": "pdf_Protoss_profile_zeratul_phase_assault_phase"
+      },
+      {
+        "Id": "pdf_Protoss_rule_zeratul_assault_phase_void_blink"
+      },
+      {
+        "Id": "pdf_Protoss_rule_zeratul_assault_phase_devastating_charge"
+      },
+      {
+        "Id": "pdf_Protoss_profile_zeratul_phase_melee_phase"
+      },
+      {
+        "Id": "pdf_Protoss_equipment_zeratul_default_3_table"
+      },
+      {
+        "Id": "pdf_Protoss_rule_zeratul_combat_phase_shadow_strike"
       }
     ]
   }

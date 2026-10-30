@@ -1,5 +1,505 @@
 [
   {
+    "Id": "pdf_Terran_equipment_auto_turret_default_1_table",
+    "Name": "GAUSS CANNON",
+    "Type": "Statline",
+    "Attributes": {
+      "Range": "8",
+      "Target": "All",
+      "RoA": "6",
+      "Hit": "3+",
+      "Surge Type": "-",
+      "Surge Dice": "-",
+      "Damage": "1",
+      "Keywords": "PINPOINT"
+    },
+    "Children": [
+      {
+        "Id": "pdf_Terran_equipment_auto_turret_default_1"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Terran_equipment_goliath_default_1_table",
+    "Name": "AUTOCANNON",
+    "Type": "Statline",
+    "Attributes": {
+      "Range": "12",
+      "Target": "Ground",
+      "RoA": "9",
+      "Hit": "4+",
+      "Surge Type": "-",
+      "Surge Dice": "-",
+      "Damage": "1",
+      "Keywords": "LONG RANGE (18\")"
+    },
+    "Children": [
+      {
+        "Id": "pdf_Terran_equipment_goliath_default_1"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Terran_equipment_goliath_default_2_table",
+    "Name": "UNDERBELLY MACHINE GUN",
+    "Type": "Statline",
+    "Attributes": {
+      "Range": "8",
+      "Target": "Ground",
+      "RoA": "6",
+      "Hit": "3+",
+      "Surge Type": "Light",
+      "Surge Dice": "D3",
+      "Damage": "1",
+      "Keywords": "PINPOINT, SIDEARM"
+    },
+    "Children": [
+      {
+        "Id": "pdf_Terran_equipment_goliath_default_2"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Terran_equipment_goliath_default_3_table",
+    "Name": "HELLFIRE MISSILES",
+    "Type": "Statline",
+    "Attributes": {
+      "Range": "16",
+      "Target": "Flying",
+      "RoA": "6",
+      "Hit": "3+",
+      "Surge Type": "Light",
+      "Surge Dice": "D3",
+      "Damage": "1",
+      "Keywords": "ANTI-EVADE (1), SIDEARM"
+    },
+    "Children": [
+      {
+        "Id": "pdf_Terran_equipment_goliath_default_3"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Terran_equipment_goliath_default_5_table",
+    "Name": "STOMP",
+    "Type": "Statline",
+    "Attributes": {
+      "Range": "E",
+      "Target": "Ground",
+      "RoA": "4",
+      "Hit": "5+",
+      "Surge Type": "-",
+      "Surge Dice": "-",
+      "Damage": "1",
+      "Keywords": "-"
+    },
+    "Children": [
+      {
+        "Id": "pdf_Terran_equipment_goliath_default_5"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Terran_equipment_jim_raynor_default_2_table",
+    "Name": "COMMANDO RIFLE",
+    "Type": "Statline",
+    "Attributes": {
+      "Range": "18",
+      "Target": "All",
+      "RoA": "3",
+      "Hit": "3+",
+      "Surge Type": "Armoured",
+      "Surge Dice": "D3",
+      "Damage": "1",
+      "Keywords": "BULKY, PIERCE Armoured (3)"
+    },
+    "Children": [
+      {
+        "Id": "pdf_Terran_equipment_jim_raynor_default_2"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Terran_equipment_jim_raynor_default_3_table",
+    "Name": "“JUSTICE” REVOLVER",
+    "Type": "Statline",
+    "Attributes": {
+      "Range": "6",
+      "Target": "Ground",
+      "RoA": "2",
+      "Hit": "3+",
+      "Surge Type": "-",
+      "Surge Dice": "-",
+      "Damage": "2",
+      "Keywords": "ANTI-EVADE (2), SIDEARM, PINPOINT"
+    },
+    "Children": [
+      {
+        "Id": "pdf_Terran_equipment_jim_raynor_default_3"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Terran_equipment_jim_raynor_default_4_table",
+    "Name": "BAYONET",
+    "Type": "Statline",
+    "Attributes": {
+      "Range": "E",
+      "Target": "Ground",
+      "RoA": "2",
+      "Hit": "4+",
+      "Surge Type": "Light",
+      "Surge Dice": "D3",
+      "Damage": "1",
+      "Keywords": "-"
+    },
+    "Children": [
+      {
+        "Id": "pdf_Terran_equipment_jim_raynor_default_4"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Terran_equipment_marauders_default_1_table",
+    "Name": "QUAD K12",
+    "Type": "Statline",
+    "Attributes": {
+      "Range": "12",
+      "Target": "Ground",
+      "RoA": "3",
+      "Hit": "3+",
+      "Surge Type": "Armoured",
+      "Surge Dice": "D3",
+      "Damage": "1",
+      "Keywords": "PIERCE Armoured (2)"
+    },
+    "Children": [
+      {
+        "Id": "pdf_Terran_equipment_marauders_default_1"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Terran_equipment_marauders_default_3_table",
+    "Name": "STRIKE",
+    "Type": "Statline",
+    "Attributes": {
+      "Range": "E",
+      "Target": "Ground",
+      "RoA": "2",
+      "Hit": "4+",
+      "Surge Type": "-",
+      "Surge Dice": "-",
+      "Damage": "1",
+      "Keywords": "-"
+    },
+    "Children": [
+      {
+        "Id": "pdf_Terran_equipment_marauders_default_3"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Terran_equipment_marines_default_1_table",
+    "Name": "C-14 RIFLE",
+    "Type": "Statline",
+    "Attributes": {
+      "Range": "12",
+      "Target": "All",
+      "RoA": "2",
+      "Hit": "3+",
+      "Surge Type": "Light",
+      "Surge Dice": "D3",
+      "Damage": "1",
+      "Keywords": "-"
+    },
+    "Children": [
+      {
+        "Id": "pdf_Terran_equipment_marines_default_1"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Terran_equipment_marines_default_2_table",
+    "Name": "STRIKE",
+    "Type": "Statline",
+    "Attributes": {
+      "Range": "E",
+      "Target": "Ground",
+      "RoA": "1",
+      "Hit": "5+",
+      "Surge Type": "-",
+      "Surge Dice": "-",
+      "Damage": "1",
+      "Keywords": "-"
+    },
+    "Children": [
+      {
+        "Id": "pdf_Terran_equipment_marines_default_2"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Terran_equipment_medics_default_2_table",
+    "Name": "STRIKE",
+    "Type": "Statline",
+    "Attributes": {
+      "Range": "E",
+      "Target": "Ground",
+      "RoA": "1",
+      "Hit": "5+",
+      "Surge Type": "-",
+      "Surge Dice": "-",
+      "Damage": "1",
+      "Keywords": "-"
+    },
+    "Children": [
+      {
+        "Id": "pdf_Terran_equipment_medics_default_2"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Terran_equipment_nova_assault_mode_default_2_table",
+    "Name": "HELLFIRE SHOTGUN",
+    "Type": "Statline",
+    "Attributes": {
+      "Range": "8",
+      "Target": "Ground",
+      "RoA": "3",
+      "Hit": "4+",
+      "Surge Type": "Light",
+      "Surge Dice": "D3",
+      "Damage": "2",
+      "Keywords": "ANTI-EVADE (1), BURST FIRE 4\" (3)"
+    },
+    "Children": [
+      {
+        "Id": "pdf_Terran_equipment_nova_assault_mode_default_2"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Terran_equipment_nova_assault_mode_default_4_table",
+    "Name": "MONOMOLECULAR BLADE",
+    "Type": "Statline",
+    "Attributes": {
+      "Range": "E",
+      "Target": "Ground",
+      "RoA": "8",
+      "Hit": "3+",
+      "Surge Type": "Light, Armoured",
+      "Surge Dice": "D6",
+      "Damage": "1",
+      "Keywords": "-"
+    },
+    "Children": [
+      {
+        "Id": "pdf_Terran_equipment_nova_assault_mode_default_4"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Terran_equipment_nova_stealth_mode_default_2_table",
+    "Name": "C-20A CANISTER RIFLE",
+    "Type": "Statline",
+    "Attributes": {
+      "Range": "12",
+      "Target": "All",
+      "RoA": "4",
+      "Hit": "3+",
+      "Surge Type": "-",
+      "Surge Dice": "-",
+      "Damage": "2",
+      "Keywords": "CRITICAL HIT (2), LONG RANGE (18\")"
+    },
+    "Children": [
+      {
+        "Id": "pdf_Terran_equipment_nova_stealth_mode_default_2"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Terran_equipment_nova_stealth_mode_default_4_table",
+    "Name": "COMBAT KNIFE",
+    "Type": "Statline",
+    "Attributes": {
+      "Range": "E",
+      "Target": "Ground",
+      "RoA": "3",
+      "Hit": "5+",
+      "Surge Type": "-",
+      "Surge Dice": "-",
+      "Damage": "1",
+      "Keywords": "-"
+    },
+    "Children": [
+      {
+        "Id": "pdf_Terran_equipment_nova_stealth_mode_default_4"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Terran_equipment_raven_default_2_table",
+    "Name": "RAILGUNS",
+    "Type": "Statline",
+    "Attributes": {
+      "Range": "12",
+      "Target": "Ground",
+      "RoA": "4",
+      "Hit": "3+",
+      "Surge Type": "-",
+      "Surge Dice": "-",
+      "Damage": "1",
+      "Keywords": "-"
+    },
+    "Children": [
+      {
+        "Id": "pdf_Terran_equipment_raven_default_2"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Terran_equipment_raynor_s_raiders_default_1_table",
+    "Name": "C-14 RIFLE",
+    "Type": "Statline",
+    "Attributes": {
+      "Range": "12",
+      "Target": "All",
+      "RoA": "2",
+      "Hit": "3+",
+      "Surge Type": "Light",
+      "Surge Dice": "D3",
+      "Damage": "1",
+      "Keywords": "-"
+    },
+    "Children": [
+      {
+        "Id": "pdf_Terran_equipment_raynor_s_raiders_default_1"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Terran_equipment_raynor_s_raiders_default_3_table",
+    "Name": "BAYONET",
+    "Type": "Statline",
+    "Attributes": {
+      "Range": "E",
+      "Target": "Ground",
+      "RoA": "2",
+      "Hit": "5+",
+      "Surge Type": "-",
+      "Surge Dice": "-",
+      "Damage": "1",
+      "Keywords": "-"
+    },
+    "Children": [
+      {
+        "Id": "pdf_Terran_equipment_raynor_s_raiders_default_3"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Terran_equipment_siege_tank_default_1_table",
+    "Name": "TWIN CANNON",
+    "Type": "Statline",
+    "Attributes": {
+      "Range": "12",
+      "Target": "Ground",
+      "RoA": "8",
+      "Hit": "3+",
+      "Surge Type": "Armoured",
+      "Surge Dice": "D6",
+      "Damage": "1",
+      "Keywords": "PIERCE Armoured (2)"
+    },
+    "Children": [
+      {
+        "Id": "pdf_Terran_equipment_siege_tank_default_1"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Terran_equipment_siege_tank_default_2_table",
+    "Name": "SHOCK CANNON",
+    "Type": "Statline",
+    "Attributes": {
+      "Range": "18",
+      "Target": "Ground",
+      "RoA": "BT+4",
+      "Hit": "4+",
+      "Surge Type": "Light, Armoured",
+      "Surge Dice": "BT",
+      "Damage": "1",
+      "Keywords": "SIEGE MODE Status"
+    },
+    "Children": [
+      {
+        "Id": "pdf_Terran_equipment_siege_tank_default_2"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Terran_equipment_siege_tank_default_4_table",
+    "Name": "ROLLING OVER",
+    "Type": "Statline",
+    "Attributes": {
+      "Range": "E",
+      "Target": "Ground",
+      "RoA": "2",
+      "Hit": "2+",
+      "Surge Type": "-",
+      "Surge Dice": "-",
+      "Damage": "1",
+      "Keywords": "-"
+    },
+    "Children": [
+      {
+        "Id": "pdf_Terran_equipment_siege_tank_default_4"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Terran_equipment_spec_ops_marauder_marauder_default_2_table",
+    "Name": "QUAD K12",
+    "Type": "Statline",
+    "Attributes": {
+      "Range": "12",
+      "Target": "Ground",
+      "RoA": "3",
+      "Hit": "3+",
+      "Surge Type": "Armoured",
+      "Surge Dice": "D3",
+      "Damage": "1",
+      "Keywords": "LONG RANGE (16\"), PIERCE Armoured (2)"
+    },
+    "Children": [
+      {
+        "Id": "pdf_Terran_equipment_spec_ops_marauder_marauder_default_2"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Terran_equipment_spec_ops_marauder_marauder_default_4_table",
+    "Name": "STRIKE",
+    "Type": "Statline",
+    "Attributes": {
+      "Range": "E",
+      "Target": "Ground",
+      "RoA": "3",
+      "Hit": "4+",
+      "Surge Type": "-",
+      "Surge Dice": "-",
+      "Damage": "1",
+      "Keywords": "-"
+    },
+    "Children": [
+      {
+        "Id": "pdf_Terran_equipment_spec_ops_marauder_marauder_default_4"
+      }
+    ]
+  },
+  {
     "Id": "pdf_Terran_stat_auto_turret",
     "Name": "Auto-Turret",
     "Type": "Statline",

@@ -2,8 +2,10 @@ import path from 'node:path';
 import { readJson, writeJson } from '../io.mjs';
 import { defaultDataDirectory } from '../paths.mjs';
 import { baseDefinition, loadBaseMapping, resolveFootprint } from './bases.mjs';
+import { profileChildren } from './presentation.mjs';
 import { describeProfile, describeUnit } from './descriptions.mjs';
 import { createReport, unitReport } from './report.mjs';
+import { loadKeywordRules, linkKeywordRules, linkFactionRules } from './rule-links.mjs';
 import { validateData } from './validate.mjs';
 
 const staticFiles = [
@@ -63,16 +65,19 @@ function addUnitRecords(unit, faction, records, bases, groups, report, baseMappi
   const footprint = resolveFootprint(unit, faction, baseMapping);
   const base = baseDefinition(footprint);
   const category = unit.categories.find(value => unitCategories.includes(value)) ?? 'Other';
-  const references = [
-    ...new Set(unit.profiles.map(profile => addProfileRecord(profile, faction, records))),
-  ];
+  const references = unit.profiles.map(profile => addProfileRecord(profile, faction, records));
 
+  const upgrades = unit.optionalUpgrades
+    .flatMap(upgrade => upgrade.profiles)
+    .filter(profile => profile.type === 'Ability' || profile.type?.startsWith('Rules ('))
+    .map(profile => addProfileRecord({ ...profile, isUpgrade: true }, faction, records));
+  records.contexts.push([...references, ...upgrades]);
   bases.set(base.Id, base);
   records.units.push({
     Id: ids.unit,
     Name: unit.name,
     Type: 'Unit',
-    Description: describeUnit(unit, footprint),
+    Description: describeUnit(unit),
     BasicProfileIds: [ids.profile],
     Children: [],
     DefaultFront: 1,
@@ -83,7 +88,7 @@ function addUnitRecords(unit, faction, records, bases, groups, report, baseMappi
     Name: unit.statlineName,
     Type: 'Profile',
     BaseId: base.Id,
-    Children: [{ Id: ids.statline }, ...references.map(Id => ({ Id }))],
+    Children: profileChildren(unit, ids, references, records),
   });
   records.statlines.push({
     Id: ids.statline,
@@ -109,6 +114,8 @@ async function initialData(template) {
   }
 
   data['gameconfig.json'].WoundsAttribute = 'HP';
+  data['gameconfig.json'].ShowGroupHeader = false;
+  data['gameconfig.json'].ShowStatlineHeader = true;
   data['bases.json'] = [];
   for (const name of ['rules', 'equipment', 'options']) data[`${name}.json`] = [];
   data['dummylist.json'] = '';
@@ -120,7 +127,7 @@ function factionFiles(records) {
   return {
     units: records.units,
     profiles: records.profiles,
-    statlines: records.statlines,
+    statlines: [...records.statlines, ...records.weaponTables.values()],
     equipment: [...records.equipment.values()],
     rules: [...records.rules.values()],
     options: [],
@@ -133,6 +140,13 @@ export async function buildWarhallPackage(source, template = defaultDataDirector
   const data = await initialData(template);
   const baseMapping = await loadBaseMapping(source.metadata.mode);
   const report = createReport(source.metadata, baseMapping);
+  const glossary = await loadKeywordRules();
+  report.ruleCleanup = {
+    keywordSource: glossary.source,
+    keywordDefinitions: glossary.entries.length,
+    links: linkKeywordRules(glossary),
+  };
+  data['rules.json'] = glossary.entries.map(entry => entry.record);
   const hierarchy = { Factions: {} };
   try {
     const previous = await readJson(path.join(template, 'hierarchy.json'));
@@ -151,8 +165,10 @@ export async function buildWarhallPackage(source, template = defaultDataDirector
       units: [],
       profiles: [],
       statlines: [],
+      weaponTables: new Map(),
       equipment: new Map(),
       rules: new Map(),
+      contexts: [],
     };
     const groups = {};
 
@@ -160,6 +176,7 @@ export async function buildWarhallPackage(source, template = defaultDataDirector
       addUnitRecords(unit, faction.name, records, bases, groups, report, baseMapping);
     }
 
+    report.ruleCleanup.links += linkFactionRules(records, glossary);
     hierarchy.Factions[faction.name] = groups;
     for (const [name, values] of Object.entries(factionFiles(records))) {
       data[`${faction.name}/${name}.json`] = values.sort((a, b) => a.Id.localeCompare(b.Id, 'en'));

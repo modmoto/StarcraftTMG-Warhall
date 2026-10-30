@@ -9,13 +9,22 @@
         "Id": "pdf_Terran_stat_auto_turret"
       },
       {
-        "Id": "pdf_Terran_rule_auto_turret_default_0"
+        "Id": "pdf_Terran_profile_auto_turret_phase_any_phase"
       },
       {
-        "Id": "pdf_Terran_equipment_auto_turret_default_1"
+        "Id": "pdf_Terran_rule_auto_turret_any_phase_timed_life"
       },
       {
-        "Id": "pdf_Terran_rule_auto_turret_default_2"
+        "Id": "pdf_Terran_rule_auto_turret_any_phase_structure"
+      },
+      {
+        "Id": "pdf_Terran_profile_auto_turret_phase_assault_phase"
+      },
+      {
+        "Id": "pdf_Terran_equipment_auto_turret_default_1_table"
+      },
+      {
+        "Id": "pdf_Terran_rule_auto_turret_assault_phase_overwatch"
       }
     ]
   },
@@ -29,22 +38,34 @@
         "Id": "pdf_Terran_stat_goliath"
       },
       {
-        "Id": "pdf_Terran_rule_goliath_default_0"
+        "Id": "pdf_Terran_profile_goliath_phase_movement_phase"
       },
       {
-        "Id": "pdf_Terran_equipment_goliath_default_1"
+        "Id": "pdf_Terran_rule_goliath_movement_phase_target_lock"
       },
       {
-        "Id": "pdf_Terran_equipment_goliath_default_2"
+        "Id": "pdf_Terran_profile_goliath_phase_assault_phase"
       },
       {
-        "Id": "pdf_Terran_equipment_goliath_default_3"
+        "Id": "pdf_Terran_equipment_goliath_default_1_table"
       },
       {
-        "Id": "pdf_Terran_rule_goliath_default_4"
+        "Id": "pdf_Terran_equipment_goliath_default_2_table"
       },
       {
-        "Id": "pdf_Terran_equipment_goliath_default_5"
+        "Id": "pdf_Terran_equipment_goliath_default_3_table"
+      },
+      {
+        "Id": "pdf_Terran_rule_goliath_assault_phase_indomitable"
+      },
+      {
+        "Id": "pdf_Terran_rule_goliath_assault_phase_devastating_charge"
+      },
+      {
+        "Id": "pdf_Terran_profile_goliath_phase_melee_phase"
+      },
+      {
+        "Id": "pdf_Terran_equipment_goliath_default_5_table"
       }
     ]
   },
@@ -58,7 +79,19 @@
         "Id": "pdf_Terran_stat_holo_decoy"
       },
       {
-        "Id": "pdf_Terran_rule_holo_decoy_default_0"
+        "Id": "pdf_Terran_profile_holo_decoy_phase_any_phase"
+      },
+      {
+        "Id": "pdf_Terran_rule_holo_decoy_any_phase_timed_life"
+      },
+      {
+        "Id": "pdf_Terran_rule_holo_decoy_any_phase_decoy"
+      },
+      {
+        "Id": "pdf_Terran_rule_holo_decoy_any_phase_surprise"
+      },
+      {
+        "Id": "pdf_Terran_rule_holo_decoy_any_phase_lethal_hologram"
       }
     ]
   },
@@ -72,19 +105,34 @@
         "Id": "pdf_Terran_stat_jim_raynor"
       },
       {
-        "Id": "pdf_Terran_rule_jim_raynor_default_0"
+        "Id": "pdf_Terran_profile_jim_raynor_phase_any_phase"
       },
       {
-        "Id": "pdf_Terran_rule_jim_raynor_default_1"
+        "Id": "pdf_Terran_rule_jim_raynor_any_phase_commander"
       },
       {
-        "Id": "pdf_Terran_equipment_jim_raynor_default_2"
+        "Id": "pdf_Terran_rule_jim_raynor_any_phase_freedom_fighters"
       },
       {
-        "Id": "pdf_Terran_equipment_jim_raynor_default_3"
+        "Id": "pdf_Terran_profile_jim_raynor_phase_movement_phase"
       },
       {
-        "Id": "pdf_Terran_equipment_jim_raynor_default_4"
+        "Id": "pdf_Terran_rule_jim_raynor_movement_phase_orders"
+      },
+      {
+        "Id": "pdf_Terran_profile_jim_raynor_phase_assault_phase"
+      },
+      {
+        "Id": "pdf_Terran_equipment_jim_raynor_default_2_table"
+      },
+      {
+        "Id": "pdf_Terran_equipment_jim_raynor_default_3_table"
+      },
+      {
+        "Id": "pdf_Terran_profile_jim_raynor_phase_melee_phase"
+      },
+      {
+        "Id": "pdf_Terran_equipment_jim_raynor_default_4_table"
       }
     ]
   },
@@ -98,16 +146,25 @@
         "Id": "pdf_Terran_stat_marauders"
       },
       {
-        "Id": "pdf_Terran_rule_marauders_default_0"
+        "Id": "pdf_Terran_profile_marauders_phase_movement_phase"
       },
       {
-        "Id": "pdf_Terran_equipment_marauders_default_1"
+        "Id": "pdf_Terran_rule_marauders_movement_phase_stimpack"
       },
       {
-        "Id": "pdf_Terran_rule_marauders_default_2"
+        "Id": "pdf_Terran_profile_marauders_phase_assault_phase"
       },
       {
-        "Id": "pdf_Terran_equipment_marauders_default_3"
+        "Id": "pdf_Terran_equipment_marauders_default_1_table"
+      },
+      {
+        "Id": "pdf_Terran_rule_marauders_assault_phase_concusive_shells"
+      },
+      {
+        "Id": "pdf_Terran_profile_marauders_phase_melee_phase"
+      },
+      {
+        "Id": "pdf_Terran_equipment_marauders_default_3_table"
       }
     ]
   },
@@ -121,13 +178,28 @@
         "Id": "pdf_Terran_stat_medics"
       },
       {
-        "Id": "pdf_Terran_rule_medics_default_0"
+        "Id": "pdf_Terran_profile_medics_phase_any_phase"
       },
       {
-        "Id": "pdf_Terran_rule_medics_default_1"
+        "Id": "pdf_Terran_rule_medics_any_phase_life_support"
       },
       {
-        "Id": "pdf_Terran_equipment_medics_default_2"
+        "Id": "pdf_Terran_rule_medics_any_phase_restoration"
+      },
+      {
+        "Id": "pdf_Terran_profile_medics_phase_movement_phase"
+      },
+      {
+        "Id": "pdf_Terran_rule_medics_movement_phase_medpack"
+      },
+      {
+        "Id": "pdf_Terran_rule_medics_movement_phase_optical_flare"
+      },
+      {
+        "Id": "pdf_Terran_profile_medics_phase_melee_phase"
+      },
+      {
+        "Id": "pdf_Terran_equipment_medics_default_2_table"
       }
     ]
   },
@@ -141,19 +213,40 @@
         "Id": "pdf_Terran_stat_nova_assault_mode"
       },
       {
-        "Id": "pdf_Terran_rule_nova_assault_mode_default_0"
+        "Id": "pdf_Terran_profile_nova_assault_mode_phase_any_phase"
       },
       {
-        "Id": "pdf_Terran_rule_nova_assault_mode_default_1"
+        "Id": "pdf_Terran_rule_nova_assault_mode_any_phase_battle_preparation"
       },
       {
-        "Id": "pdf_Terran_equipment_nova_assault_mode_default_2"
+        "Id": "pdf_Terran_rule_nova_assault_mode_any_phase_ghost_visor"
       },
       {
-        "Id": "pdf_Terran_rule_nova_assault_mode_default_3"
+        "Id": "pdf_Terran_profile_nova_assault_mode_phase_movement_phase"
       },
       {
-        "Id": "pdf_Terran_equipment_nova_assault_mode_default_4"
+        "Id": "pdf_Terran_rule_nova_assault_mode_movement_phase_super_stimpack"
+      },
+      {
+        "Id": "pdf_Terran_rule_nova_assault_mode_movement_phase_holo_decoy"
+      },
+      {
+        "Id": "pdf_Terran_profile_nova_assault_mode_phase_assault_phase"
+      },
+      {
+        "Id": "pdf_Terran_equipment_nova_assault_mode_default_2_table"
+      },
+      {
+        "Id": "pdf_Terran_rule_nova_assault_mode_assault_phase_phase_reactor_suit"
+      },
+      {
+        "Id": "pdf_Terran_rule_nova_assault_mode_assault_phase_devastating_charge"
+      },
+      {
+        "Id": "pdf_Terran_profile_nova_assault_mode_phase_melee_phase"
+      },
+      {
+        "Id": "pdf_Terran_equipment_nova_assault_mode_default_4_table"
       }
     ]
   },
@@ -167,19 +260,43 @@
         "Id": "pdf_Terran_stat_nova_stealth_mode"
       },
       {
-        "Id": "pdf_Terran_rule_nova_stealth_mode_default_0"
+        "Id": "pdf_Terran_profile_nova_stealth_mode_phase_any_phase"
       },
       {
-        "Id": "pdf_Terran_rule_nova_stealth_mode_default_1"
+        "Id": "pdf_Terran_rule_nova_stealth_mode_any_phase_battle_preparation"
       },
       {
-        "Id": "pdf_Terran_equipment_nova_stealth_mode_default_2"
+        "Id": "pdf_Terran_rule_nova_stealth_mode_any_phase_tactical_stealth_suit"
       },
       {
-        "Id": "pdf_Terran_rule_nova_stealth_mode_default_3"
+        "Id": "pdf_Terran_rule_nova_stealth_mode_any_phase_ghost_visor"
       },
       {
-        "Id": "pdf_Terran_equipment_nova_stealth_mode_default_4"
+        "Id": "pdf_Terran_profile_nova_stealth_mode_phase_movement_phase"
+      },
+      {
+        "Id": "pdf_Terran_rule_nova_stealth_mode_movement_phase_super_stimpack"
+      },
+      {
+        "Id": "pdf_Terran_rule_nova_stealth_mode_movement_phase_holo_decoy"
+      },
+      {
+        "Id": "pdf_Terran_profile_nova_stealth_mode_phase_assault_phase"
+      },
+      {
+        "Id": "pdf_Terran_equipment_nova_stealth_mode_default_2_table"
+      },
+      {
+        "Id": "pdf_Terran_rule_nova_stealth_mode_assault_phase_operational_efficiency"
+      },
+      {
+        "Id": "pdf_Terran_rule_nova_stealth_mode_assault_phase_head_shot"
+      },
+      {
+        "Id": "pdf_Terran_profile_nova_stealth_mode_phase_melee_phase"
+      },
+      {
+        "Id": "pdf_Terran_equipment_nova_stealth_mode_default_4_table"
       }
     ]
   },
@@ -193,7 +310,16 @@
         "Id": "pdf_Terran_stat_point_defense_drone"
       },
       {
-        "Id": "pdf_Terran_rule_point_defense_drone_default_0"
+        "Id": "pdf_Terran_profile_point_defense_drone_phase_any_phase"
+      },
+      {
+        "Id": "pdf_Terran_rule_point_defense_drone_any_phase_point_defense_laser"
+      },
+      {
+        "Id": "pdf_Terran_rule_point_defense_drone_any_phase_gliding"
+      },
+      {
+        "Id": "pdf_Terran_rule_point_defense_drone_any_phase_structure"
       }
     ]
   },
@@ -207,13 +333,25 @@
         "Id": "pdf_Terran_stat_raven"
       },
       {
-        "Id": "pdf_Terran_rule_raven_default_0"
+        "Id": "pdf_Terran_profile_raven_phase_any_phase"
       },
       {
-        "Id": "pdf_Terran_rule_raven_default_1"
+        "Id": "pdf_Terran_rule_raven_any_phase_detection"
       },
       {
-        "Id": "pdf_Terran_equipment_raven_default_2"
+        "Id": "pdf_Terran_profile_raven_phase_movement_phase"
+      },
+      {
+        "Id": "pdf_Terran_rule_raven_movement_phase_deploy_auto_turret"
+      },
+      {
+        "Id": "pdf_Terran_rule_raven_movement_phase_anti_armour_missile"
+      },
+      {
+        "Id": "pdf_Terran_profile_raven_phase_assault_phase"
+      },
+      {
+        "Id": "pdf_Terran_equipment_raven_default_2_table"
       }
     ]
   },
@@ -227,16 +365,34 @@
         "Id": "pdf_Terran_stat_raynor_s_raiders"
       },
       {
-        "Id": "pdf_Terran_rule_raynor_s_raiders_default_0"
+        "Id": "pdf_Terran_profile_raynor_s_raiders_phase_movement_phase"
       },
       {
-        "Id": "pdf_Terran_equipment_raynor_s_raiders_default_1"
+        "Id": "pdf_Terran_rule_raynor_s_raiders_movement_phase_stimpack"
       },
       {
-        "Id": "pdf_Terran_rule_raynor_s_raiders_default_2"
+        "Id": "pdf_Terran_rule_raynor_s_raiders_movement_phase_raiders_roll"
       },
       {
-        "Id": "pdf_Terran_equipment_raynor_s_raiders_default_3"
+        "Id": "pdf_Terran_rule_raynor_s_raiders_movement_phase_rapid_reinforcements"
+      },
+      {
+        "Id": "pdf_Terran_profile_raynor_s_raiders_phase_assault_phase"
+      },
+      {
+        "Id": "pdf_Terran_equipment_raynor_s_raiders_default_1_table"
+      },
+      {
+        "Id": "pdf_Terran_rule_raynor_s_raiders_assault_phase_slugthrower"
+      },
+      {
+        "Id": "pdf_Terran_rule_raynor_s_raiders_assault_phase_grenades_frag"
+      },
+      {
+        "Id": "pdf_Terran_profile_raynor_s_raiders_phase_melee_phase"
+      },
+      {
+        "Id": "pdf_Terran_equipment_raynor_s_raiders_default_3_table"
       }
     ]
   },
@@ -250,10 +406,16 @@
         "Id": "pdf_Terran_stat_sabotage_drone"
       },
       {
-        "Id": "pdf_Terran_rule_sabotage_drone_default_0"
+        "Id": "pdf_Terran_profile_sabotage_drone_phase_any_phase"
       },
       {
-        "Id": "pdf_Terran_rule_sabotage_drone_default_1"
+        "Id": "pdf_Terran_rule_sabotage_drone_any_phase_structure"
+      },
+      {
+        "Id": "pdf_Terran_profile_sabotage_drone_phase_assault_phase"
+      },
+      {
+        "Id": "pdf_Terran_rule_sabotage_drone_assault_phase_have_a_nice_day"
       }
     ]
   },
@@ -267,19 +429,40 @@
         "Id": "pdf_Terran_stat_siege_tank"
       },
       {
-        "Id": "pdf_Terran_rule_siege_tank_default_0"
+        "Id": "pdf_Terran_profile_siege_tank_phase_any_phase"
       },
       {
-        "Id": "pdf_Terran_equipment_siege_tank_default_1"
+        "Id": "pdf_Terran_rule_siege_tank_any_phase_large"
       },
       {
-        "Id": "pdf_Terran_equipment_siege_tank_default_2"
+        "Id": "pdf_Terran_rule_siege_tank_any_phase_heavy_plating"
       },
       {
-        "Id": "pdf_Terran_rule_siege_tank_default_3"
+        "Id": "pdf_Terran_profile_siege_tank_phase_assault_phase"
       },
       {
-        "Id": "pdf_Terran_equipment_siege_tank_default_4"
+        "Id": "pdf_Terran_equipment_siege_tank_default_1_table"
+      },
+      {
+        "Id": "pdf_Terran_equipment_siege_tank_default_2_table"
+      },
+      {
+        "Id": "pdf_Terran_rule_siege_tank_assault_phase_indomitable"
+      },
+      {
+        "Id": "pdf_Terran_rule_siege_tank_assault_phase_point_blank"
+      },
+      {
+        "Id": "pdf_Terran_rule_siege_tank_assault_phase_aftershock_rounds"
+      },
+      {
+        "Id": "pdf_Terran_rule_siege_tank_assault_phase_devastating_charge"
+      },
+      {
+        "Id": "pdf_Terran_profile_siege_tank_phase_melee_phase"
+      },
+      {
+        "Id": "pdf_Terran_equipment_siege_tank_default_4_table"
       }
     ]
   },
@@ -293,19 +476,34 @@
         "Id": "pdf_Terran_stat_spec_ops_marauder_marauder"
       },
       {
-        "Id": "pdf_Terran_rule_spec_ops_marauder_marauder_default_0"
+        "Id": "pdf_Terran_profile_spec_ops_marauder_marauder_phase_any_phase"
       },
       {
-        "Id": "pdf_Terran_rule_spec_ops_marauder_marauder_default_1"
+        "Id": "pdf_Terran_rule_spec_ops_marauder_marauder_any_phase_spec_ops_armour"
       },
       {
-        "Id": "pdf_Terran_equipment_spec_ops_marauder_marauder_default_2"
+        "Id": "pdf_Terran_profile_spec_ops_marauder_marauder_phase_movement_phase"
       },
       {
-        "Id": "pdf_Terran_rule_spec_ops_marauder_marauder_default_3"
+        "Id": "pdf_Terran_rule_spec_ops_marauder_marauder_movement_phase_commando_stimpack"
       },
       {
-        "Id": "pdf_Terran_equipment_spec_ops_marauder_marauder_default_4"
+        "Id": "pdf_Terran_profile_spec_ops_marauder_marauder_phase_assault_phase"
+      },
+      {
+        "Id": "pdf_Terran_equipment_spec_ops_marauder_marauder_default_2_table"
+      },
+      {
+        "Id": "pdf_Terran_rule_spec_ops_marauder_marauder_assault_phase_magrail_munitions"
+      },
+      {
+        "Id": "pdf_Terran_rule_spec_ops_marauder_marauder_assault_phase_suppression_shells"
+      },
+      {
+        "Id": "pdf_Terran_profile_spec_ops_marauder_marauder_phase_melee_phase"
+      },
+      {
+        "Id": "pdf_Terran_equipment_spec_ops_marauder_marauder_default_4_table"
       }
     ]
   },
@@ -319,13 +517,22 @@
         "Id": "stat_marine"
       },
       {
-        "Id": "pdf_Terran_rule_marines_default_0"
+        "Id": "prof_marine_phase_movement_phase"
       },
       {
-        "Id": "pdf_Terran_equipment_marines_default_1"
+        "Id": "pdf_Terran_rule_marines_movement_phase_stimpack"
       },
       {
-        "Id": "pdf_Terran_equipment_marines_default_2"
+        "Id": "prof_marine_phase_assault_phase"
+      },
+      {
+        "Id": "pdf_Terran_equipment_marines_default_1_table"
+      },
+      {
+        "Id": "prof_marine_phase_melee_phase"
+      },
+      {
+        "Id": "pdf_Terran_equipment_marines_default_2_table"
       }
     ]
   }

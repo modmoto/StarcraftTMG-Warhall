@@ -106,9 +106,51 @@
       "baseSizeSource": "printed PDF footprint",
       "modelCounts": [],
       "optionalUpgrades": [
-        "Official upgrade card (manual)"
+        "Official upgrade card"
       ],
-      "modifierCount": 0
+      "modifierCount": 0,
+      "upgradeProfiles": [
+        {
+          "sourceId": "pdf_adepts_upgrade_assault_phase_resonating_glaves",
+          "name": "Resonating Glaves",
+          "type": "Ability",
+          "attributes": {
+            "Phase": "Assault Phase",
+            "Type": "Active",
+            "Cost": "1 PE",
+            "Effect": "This Unit's Glaive Cannon gains BUFF RoA (1)."
+          },
+          "description": ""
+        },
+        {
+          "sourceId": "pdf_adepts_upgrade_assault_phase_guidance",
+          "name": "Guidance",
+          "type": "Ability",
+          "attributes": {
+            "Phase": "Assault Phase",
+            "Type": "Passive",
+            "Effect": "This Unit's Glaive Cannon Ranged weapon gains ANTI-EVADE (2)."
+          },
+          "description": ""
+        },
+        {
+          "sourceId": "pdf_adepts_upgrade_1",
+          "name": "GLAIVE STRIKE",
+          "type": "Combat Weapon",
+          "attributes": {
+            "Rng": "E",
+            "Tgt": "Ground",
+            "RoA": "1",
+            "Hit": "4+",
+            "Surge": "Light",
+            "S.Die": "D3",
+            "Dmg": "1",
+            "Keyword": "PIERCE Light (2)",
+            "Notes": "↑ FOR STRIKE"
+          },
+          "description": ""
+        }
+      ]
     },
     {
       "faction": "Protoss",
@@ -138,7 +180,8 @@
       "baseSizeSource": "printed PDF footprint",
       "modelCounts": [],
       "optionalUpgrades": [],
-      "modifierCount": 0
+      "modifierCount": 0,
+      "upgradeProfiles": []
     },
     {
       "faction": "Protoss",
@@ -168,7 +211,8 @@
       "baseSizeSource": "printed PDF footprint",
       "modelCounts": [],
       "optionalUpgrades": [],
-      "modifierCount": 0
+      "modifierCount": 0,
+      "upgradeProfiles": []
     },
     {
       "faction": "Protoss",
@@ -198,7 +242,8 @@
       "baseSizeSource": "printed PDF footprint",
       "modelCounts": [],
       "optionalUpgrades": [],
-      "modifierCount": 0
+      "modifierCount": 0,
+      "upgradeProfiles": []
     },
     {
       "faction": "Protoss",
@@ -228,9 +273,35 @@
       "baseSizeSource": "printed PDF footprint",
       "modelCounts": [],
       "optionalUpgrades": [
-        "Official upgrade card (manual)"
+        "Official upgrade card"
       ],
-      "modifierCount": 0
+      "modifierCount": 0,
+      "upgradeProfiles": [
+        {
+          "sourceId": "pdf_sentries_upgrade_movement_phase_solid_field_projectors",
+          "name": "Solid-Field Projectors",
+          "type": "Ability",
+          "attributes": {
+            "Phase": "Movement Phase",
+            "Type": "Active",
+            "Cost": "1 PE",
+            "Effect": "Set a Force Field token Within 8\" in an unoccupied space. Units of Size 2 or lower cannot move across Force Fields. Models of Size 3 or more can move over it, and it's then removed."
+          },
+          "description": ""
+        },
+        {
+          "sourceId": "pdf_sentries_upgrade_assault_phase_hallucination",
+          "name": "Hallucination",
+          "type": "Ability",
+          "attributes": {
+            "Phase": "Assault Phase",
+            "Type": "Reaction",
+            "Cost": "0 PE",
+            "Effect": "When an Enemy Unit declares a Ranged Attack against a Friendly Unit Within 4\", the targeted Friendly Unit is eligible to make an Evade Roll against that attack."
+          },
+          "description": ""
+        }
+      ]
     },
     {
       "faction": "Protoss",
@@ -260,9 +331,34 @@
       "baseSizeSource": "printed PDF footprint",
       "modelCounts": [],
       "optionalUpgrades": [
-        "Official upgrade card (manual)"
+        "Official upgrade card"
       ],
-      "modifierCount": 0
+      "modifierCount": 0,
+      "upgradeProfiles": [
+        {
+          "sourceId": "pdf_stalker_upgrade_any_phase_path_of_shadows",
+          "name": "Path Of Shadows",
+          "type": "Ability",
+          "attributes": {
+            "Phase": "Any Phase",
+            "Type": "Active",
+            "Cost": "1 PE",
+            "Effect": "This Unit gains HIDDEN Status until it performs another action."
+          },
+          "description": ""
+        },
+        {
+          "sourceId": "pdf_stalker_upgrade_assault_phase_fury_of_the_nerazim",
+          "name": "Fury Of The Nerazim",
+          "type": "Ability",
+          "attributes": {
+            "Phase": "Assault Phase",
+            "Type": "Passive",
+            "Effect": "When this Unit attacks an Enemy Unit that has already been Activated during this Phase, its Particle Disruptors gain INSTANT for that attack."
+          },
+          "description": ""
+        }
+      ]
     },
     {
       "faction": "Protoss",
@@ -292,9 +388,57 @@
       "baseSizeSource": "printed PDF footprint",
       "modelCounts": [],
       "optionalUpgrades": [
-        "Official upgrade card (manual)"
+        "Official upgrade card"
       ],
-      "modifierCount": 0
+      "modifierCount": 0,
+      "upgradeProfiles": [
+        {
+          "sourceId": "pdf_zealots_upgrade_any_phase_my_life_for_aiur",
+          "name": "My Life For Aiur",
+          "type": "Ability",
+          "attributes": {
+            "Phase": "Any Phase",
+            "Type": "Passive",
+            "Effect": "When this Unit resolves IMPACT, each eligible model generates 1 additional IMPACT die."
+          },
+          "description": ""
+        },
+        {
+          "sourceId": "pdf_zealots_upgrade_movement_phase_leg_enhancements",
+          "name": "Leg Enhancements",
+          "type": "Ability",
+          "attributes": {
+            "Phase": "Movement Phase",
+            "Type": "Active",
+            "Cost": "1 PE",
+            "Effect": "This Unit performs a 2\" Move action. This does not count towards its action limit."
+          },
+          "description": ""
+        },
+        {
+          "sourceId": "pdf_zealots_upgrade_assault_phase_zealous_round",
+          "name": "Zealous Round",
+          "type": "Ability",
+          "attributes": {
+            "Phase": "Assault Phase",
+            "Type": "Reaction",
+            "Cost": "0 PE",
+            "Effect": "When this Unit is not Activated and receives Damage, the controlling player may count this Unit as Activated in this Phase (flip its Activation Marker) to reduce the Total Damage by 2."
+          },
+          "description": ""
+        },
+        {
+          "sourceId": "pdf_zealots_upgrade_combat_phase_we_stand_as_one",
+          "name": "We Stand As One",
+          "type": "Ability",
+          "attributes": {
+            "Phase": "Combat Phase",
+            "Type": "Passive",
+            "Effect": "When this Unit makes a Close Combat Attack, if the target is Engaged with at least 1 other Friendly Unit, this Unit's Close Combat Weapon gains PRECISION (2)."
+          },
+          "description": ""
+        }
+      ]
     },
     {
       "faction": "Protoss",
@@ -324,9 +468,78 @@
       "baseSizeSource": "printed PDF footprint",
       "modelCounts": [],
       "optionalUpgrades": [
-        "Official upgrade card (manual)"
+        "Official upgrade card"
       ],
-      "modifierCount": 0
+      "modifierCount": 0,
+      "upgradeProfiles": [
+        {
+          "sourceId": "pdf_immortal_upgrade_any_phase_shield_overcharge",
+          "name": "Shield Overcharge",
+          "type": "Ability",
+          "attributes": {
+            "Phase": "Any Phase",
+            "Type": "Reaction",
+            "Cost": "1 PE",
+            "Effect": "Use before this Unit makes an Armour Roll. If this Unit has the Shielded Status, It gains TOUGH (2) for this roll."
+          },
+          "description": ""
+        },
+        {
+          "sourceId": "pdf_immortal_upgrade_1",
+          "name": "LEFT PHASE DISRUPTOR",
+          "type": "Assault Weapon",
+          "attributes": {
+            "Rng": "12",
+            "Tgt": "Ground",
+            "RoA": "4",
+            "Hit": "3+",
+            "Surge": "Armoured",
+            "S.Die": "D3",
+            "Dmg": "1",
+            "Keyword": "PIERCE Armoured (3)"
+          },
+          "description": ""
+        },
+        {
+          "sourceId": "pdf_immortal_upgrade_2",
+          "name": "RIGHT PHASE DISRUPTOR",
+          "type": "Assault Weapon",
+          "attributes": {
+            "Rng": "12",
+            "Tgt": "Ground",
+            "RoA": "4",
+            "Hit": "3+",
+            "Surge": "Armoured",
+            "S.Die": "D3",
+            "Dmg": "1",
+            "Keyword": "PIERCE Armoured (3), SIDEARM"
+          },
+          "description": ""
+        },
+        {
+          "sourceId": "pdf_immortal_upgrade_assault_phase_fury_unyielding",
+          "name": "Fury Unyielding",
+          "type": "Ability",
+          "attributes": {
+            "Phase": "Assault Phase",
+            "Type": "Passive",
+            "Upgrade": "FOR RIGHT PHOTON DISRUPTOR",
+            "Effect": "While this Unit is Within 3\" of a Mission Marker, its Ranged Weapons gain CRITICAL HIT (1) when targeting an Enemy Unit that is also Within 3\" of that same Mission Marker."
+          },
+          "description": ""
+        },
+        {
+          "sourceId": "pdf_immortal_upgrade_assault_phase_for_the_ancients",
+          "name": "For The Ancients",
+          "type": "Ability",
+          "attributes": {
+            "Phase": "Assault Phase",
+            "Type": "Passive",
+            "Effect": "When this Unit makes a Ranged Attack, if the target Unit is more than 8\" away, the attacking weapons gain PRECISION (1)."
+          },
+          "description": ""
+        }
+      ]
     },
     {
       "faction": "Protoss",
@@ -356,7 +569,8 @@
       "baseSizeSource": "printed PDF footprint",
       "modelCounts": [],
       "optionalUpgrades": [],
-      "modifierCount": 0
+      "modifierCount": 0,
+      "upgradeProfiles": []
     },
     {
       "faction": "Protoss",
@@ -386,7 +600,8 @@
       "baseSizeSource": "printed PDF footprint",
       "modelCounts": [],
       "optionalUpgrades": [],
-      "modifierCount": 0
+      "modifierCount": 0,
+      "upgradeProfiles": []
     },
     {
       "faction": "Protoss",
@@ -416,7 +631,8 @@
       "baseSizeSource": "printed PDF footprint",
       "modelCounts": [],
       "optionalUpgrades": [],
-      "modifierCount": 0
+      "modifierCount": 0,
+      "upgradeProfiles": []
     },
     {
       "faction": "Protoss",
@@ -446,7 +662,8 @@
       "baseSizeSource": "printed PDF footprint",
       "modelCounts": [],
       "optionalUpgrades": [],
-      "modifierCount": 0
+      "modifierCount": 0,
+      "upgradeProfiles": []
     },
     {
       "faction": "Protoss",
@@ -476,9 +693,35 @@
       "baseSizeSource": "printed PDF footprint",
       "modelCounts": [],
       "optionalUpgrades": [
-        "Official upgrade card (manual)"
+        "Official upgrade card"
       ],
-      "modifierCount": 0
+      "modifierCount": 0,
+      "upgradeProfiles": [
+        {
+          "sourceId": "pdf_high_templar_upgrade_movement_phase_psionic_storm",
+          "name": "Psionic Storm",
+          "type": "Ability",
+          "attributes": {
+            "Phase": "Movement Phase",
+            "Type": "Active",
+            "Cost": "2 PE",
+            "Effect": "Set a Psionic Storm token Within 10\" and Line of Sight of this Unit. This token is not removed if this Unit is Destroyed. At the End of each Phase, set a Psionic Storm Blast Template on the centre of this token. For each Unit that has at least one model whose base is partially covered by the template, roll 3 dice, plus 1 additional die for each model in that Unit whose base is partially covered. For each result of 5+, that Unit suffers an effect depending on the current Phase:\n• Movement Phase: NON-LETHAL DAMAGE (1).\n• Assault Phase: 1 Dama ge. If multiple effects trigger at the End of the Assault Phase, resolve them in the order specified in Part 8.9.4."
+          },
+          "description": ""
+        },
+        {
+          "sourceId": "pdf_high_templar_upgrade_movement_phase_farsight",
+          "name": "Farsight",
+          "type": "Ability",
+          "attributes": {
+            "Phase": "Movement Phase",
+            "Type": "Active",
+            "Cost": "1 PE",
+            "Effect": "Target one Friendly Unit Within 12\". Until the End of the Round, that Unit is eligible to make an Evade Roll against any attacks targeting it."
+          },
+          "description": ""
+        }
+      ]
     },
     {
       "faction": "Terran",
@@ -508,9 +751,95 @@
       "baseSizeSource": "printed PDF footprint",
       "modelCounts": [],
       "optionalUpgrades": [
-        "Official upgrade card (manual)"
+        "Official upgrade card"
       ],
-      "modifierCount": 0
+      "modifierCount": 0,
+      "upgradeProfiles": [
+        {
+          "sourceId": "pdf_marines_upgrade_movement_phase_combat_shield",
+          "name": "Combat Shield",
+          "type": "Ability",
+          "attributes": {
+            "Phase": "Movement Phase",
+            "Type": "Active",
+            "Cost": "1 CP",
+            "Effect": "This Unit is always eligible to make an Evade Roll against any Close Combat Attack targeting it and any Damage from an Enemy Special Ability."
+          },
+          "description": ""
+        },
+        {
+          "sourceId": "pdf_marines_upgrade_1",
+          "name": "AGG-12",
+          "type": "Assault Weapon",
+          "attributes": {
+            "Rng": "12",
+            "Tgt": "Ground",
+            "RoA": "2",
+            "Hit": "3+",
+            "Surge": "Armoured",
+            "S.Die": "D3",
+            "Dmg": "1",
+            "Keyword": "LONG RANGE (18\"), SPECIALIST",
+            "Notes": "↑ FOR C-14 RIFFLE"
+          },
+          "description": ""
+        },
+        {
+          "sourceId": "pdf_marines_upgrade_2",
+          "name": "ROCKET LAUNCHER",
+          "type": "Assault Weapon",
+          "attributes": {
+            "Rng": "12",
+            "Tgt": "Ground",
+            "RoA": "4",
+            "Hit": "3+",
+            "Surge": "-",
+            "S.Die": "-",
+            "Dmg": "1",
+            "Keyword": "INDIRECT FIRE, LONG RANGE (18\"), SIDEARM, SPECIALIST"
+          },
+          "description": ""
+        },
+        {
+          "sourceId": "pdf_marines_upgrade_assault_phase_slugthrower",
+          "name": "Slugthrower",
+          "type": "Ability",
+          "attributes": {
+            "Phase": "Assault Phase",
+            "Type": "Passive",
+            "Effect": "When this Unit makes a Ranged Attack with a C-14 Rifle and the target is Within 8\", that weapon gains ANTI-EVADE (1)."
+          },
+          "description": ""
+        },
+        {
+          "sourceId": "pdf_marines_upgrade_assault_phase_grenades_frag",
+          "name": "Grenades - Frag",
+          "type": "Ability",
+          "attributes": {
+            "Phase": "Assault Phase",
+            "Type": "Passive",
+            "Effect": "When this Unit makes a Ranged Attack with a C-14 Rifle and the target is Within 8\", that weapon's S Dice is replaced by D6."
+          },
+          "description": ""
+        },
+        {
+          "sourceId": "pdf_marines_upgrade_4",
+          "name": "BAYONET",
+          "type": "Combat Weapon",
+          "attributes": {
+            "Rng": "E",
+            "Tgt": "Ground",
+            "RoA": "2",
+            "Hit": "5+",
+            "Surge": "-",
+            "S.Die": "-",
+            "Dmg": "1",
+            "Keyword": "-",
+            "Notes": "↑ FOR STRIKE"
+          },
+          "description": ""
+        }
+      ]
     },
     {
       "faction": "Terran",
@@ -540,9 +869,44 @@
       "baseSizeSource": "printed PDF footprint",
       "modelCounts": [],
       "optionalUpgrades": [
-        "Official upgrade card (manual)"
+        "Official upgrade card"
       ],
-      "modifierCount": 0
+      "modifierCount": 0,
+      "upgradeProfiles": [
+        {
+          "sourceId": "pdf_marauders_upgrade_any_phase_veteran_of_tarsonis",
+          "name": "Veteran Of Tarsonis",
+          "type": "Ability",
+          "attributes": {
+            "Phase": "Any Phase",
+            "Type": "Passive",
+            "Effect": "While this Unit is Within 3\" of a Mission Marker, its Armour characteristic is increased by 1."
+          },
+          "description": ""
+        },
+        {
+          "sourceId": "pdf_marauders_upgrade_any_phase_kinetic_foam",
+          "name": "Kinetic Foam",
+          "type": "Ability",
+          "attributes": {
+            "Phase": "Any Phase",
+            "Type": "Passive",
+            "Effect": "Increase this Unit's Hit Points characteristic by 1."
+          },
+          "description": ""
+        },
+        {
+          "sourceId": "pdf_marauders_upgrade_assault_phase_laser_targeting_systems",
+          "name": "Laser Targeting Systems",
+          "type": "Ability",
+          "attributes": {
+            "Phase": "Assault Phase",
+            "Type": "Passive",
+            "Effect": "This Unit's Quad K12 weapon gains LONG RANGE (16\")."
+          },
+          "description": ""
+        }
+      ]
     },
     {
       "faction": "Terran",
@@ -572,9 +936,44 @@
       "baseSizeSource": "printed PDF footprint",
       "modelCounts": [],
       "optionalUpgrades": [
-        "Official upgrade card (manual)"
+        "Official upgrade card"
       ],
-      "modifierCount": 0
+      "modifierCount": 0,
+      "upgradeProfiles": [
+        {
+          "sourceId": "pdf_medics_upgrade_any_phase_advanced_medic_facilities",
+          "name": "Advanced Medic Facilities",
+          "type": "Ability",
+          "attributes": {
+            "Phase": "Any Phase",
+            "Type": "Passive",
+            "Effect": "This Unit's Supply Value counts as 0 when calculating the Supply Pool."
+          },
+          "description": ""
+        },
+        {
+          "sourceId": "pdf_medics_upgrade_any_phase_a_13_flash_grenade_launcher",
+          "name": "A-13 Flash Grenade Launcher",
+          "type": "Ability",
+          "attributes": {
+            "Phase": "Any Phase",
+            "Type": "Passive",
+            "Effect": "Increase the Optical Flare special ability's Range to 16\"."
+          },
+          "description": ""
+        },
+        {
+          "sourceId": "pdf_medics_upgrade_any_phase_stabilizer_medpacks",
+          "name": "Stabilizer Medpacks",
+          "type": "Ability",
+          "attributes": {
+            "Phase": "Any Phase",
+            "Type": "Passive",
+            "Effect": "When this Unit resolves a Life Support or Medpack ability, treat it as having 1 additional model Within Range for calculating that ability's effects."
+          },
+          "description": ""
+        }
+      ]
     },
     {
       "faction": "Terran",
@@ -604,9 +1003,28 @@
       "baseSizeSource": "printed PDF footprint",
       "modelCounts": [],
       "optionalUpgrades": [
-        "Official upgrade card (manual)"
+        "Official upgrade card"
       ],
-      "modifierCount": 0
+      "modifierCount": 0,
+      "upgradeProfiles": [
+        {
+          "sourceId": "pdf_jim_raynor_upgrade_0",
+          "name": "C-14 RIFLE",
+          "type": "Assault Weapon",
+          "attributes": {
+            "Rng": "12",
+            "Tgt": "All",
+            "RoA": "6",
+            "Hit": "3+",
+            "Surge": "Light",
+            "S.Die": "D3+1",
+            "Dmg": "1",
+            "Keyword": "BURST FIRE 8\" (3)",
+            "Notes": "↑ FOR COMMANDO RIFLE"
+          },
+          "description": ""
+        }
+      ]
     },
     {
       "faction": "Terran",
@@ -636,7 +1054,8 @@
       "baseSizeSource": "printed PDF footprint",
       "modelCounts": [],
       "optionalUpgrades": [],
-      "modifierCount": 0
+      "modifierCount": 0,
+      "upgradeProfiles": []
     },
     {
       "faction": "Terran",
@@ -666,7 +1085,8 @@
       "baseSizeSource": "printed PDF footprint",
       "modelCounts": [],
       "optionalUpgrades": [],
-      "modifierCount": 0
+      "modifierCount": 0,
+      "upgradeProfiles": []
     },
     {
       "faction": "Terran",
@@ -696,9 +1116,56 @@
       "baseSizeSource": "printed PDF footprint",
       "modelCounts": [],
       "optionalUpgrades": [
-        "Official upgrade card (manual)"
+        "Official upgrade card"
       ],
-      "modifierCount": 0
+      "modifierCount": 0,
+      "upgradeProfiles": [
+        {
+          "sourceId": "pdf_goliath_upgrade_any_phase_ares_class_targeting_system",
+          "name": "Ares-Class Targeting System",
+          "type": "Ability",
+          "attributes": {
+            "Phase": "Any Phase",
+            "Type": "Passive",
+            "Effect": "This Unit's Autocannon and Underbelly Machine Gun weapons gain PRECISION (1)."
+          },
+          "description": ""
+        },
+        {
+          "sourceId": "pdf_goliath_upgrade_1",
+          "name": "SCATTER MISSILES",
+          "type": "Assault Weapon",
+          "attributes": {
+            "Rng": "18",
+            "Tgt": "Ground",
+            "RoA": "6",
+            "Hit": "5+",
+            "Surge": "Light",
+            "S.Die": "D3",
+            "Dmg": "1",
+            "Keyword": "INDIRECT FIRE, LOCKED IN (6), LONG RANGE (24\"), SIDEARM",
+            "Notes": "↑ FOR HELLFIRE MISSILES"
+          },
+          "description": ""
+        },
+        {
+          "sourceId": "pdf_goliath_upgrade_2",
+          "name": "HAYWIRE MISSILES",
+          "type": "Assault Weapon",
+          "attributes": {
+            "Rng": "12",
+            "Tgt": "Ground",
+            "RoA": "3",
+            "Hit": "3+",
+            "Surge": "Armoured",
+            "S.Die": "D3",
+            "Dmg": "1",
+            "Keyword": "PIERCE Armoured (3), SIDEARM",
+            "Notes": "↑ FOR HELLFIRE MISSILES"
+          },
+          "description": ""
+        }
+      ]
     },
     {
       "faction": "Terran",
@@ -728,9 +1195,59 @@
       "baseSizeSource": "printed PDF footprint",
       "modelCounts": [],
       "optionalUpgrades": [
-        "Official upgrade card (manual)"
+        "Official upgrade card"
       ],
-      "modifierCount": 0
+      "modifierCount": 0,
+      "upgradeProfiles": [
+        {
+          "sourceId": "pdf_siege_tank_upgrade_movement_phase_mode_transformation",
+          "name": "Mode Transformation",
+          "type": "Ability",
+          "attributes": {
+            "Phase": "Movement Phase",
+            "Type": "Active",
+            "Cost": "1 CP",
+            "Effect": "The active Unit gains or loses the SIEGE MODE Status. While this Unit has the SIEGE MODE Status, its Size characteristic is treated as if it was 3."
+          },
+          "description": ""
+        },
+        {
+          "sourceId": "pdf_siege_tank_upgrade_movement_phase_coordinated_strike",
+          "name": "Coordinated Strike",
+          "type": "Ability",
+          "attributes": {
+            "Phase": "Movement Phase",
+            "Type": "Active",
+            "Cost": "0 CP",
+            "Effect": "Target a Friendly Non-Engaged Unit on the battlefield (Line of Sight is not required). When this Unit resolves a Ranged Attack using the Shock Cannon weapon profile this Round, it may choose to ignore the weapon's standard Range characteristic. If it does, it may target an Enemy Unit that is Within 8\" of, and Visible to, a model of the selected Friendly Unit, treating that model as the acting model."
+          },
+          "description": ""
+        },
+        {
+          "sourceId": "pdf_siege_tank_upgrade_assault_phase_shaped_blast",
+          "name": "Shaped Blast",
+          "type": "Ability",
+          "attributes": {
+            "Phase": "Assault Phase",
+            "Type": "Reaction",
+            "Cost": "0 CP",
+            "Effect": "Once per Game. When this Unit declares a Ranged Attack action. If this Unit has SIEGE MODE Status, its weapon gains PINPOINT and LOCKED IN (4)."
+          },
+          "description": ""
+        },
+        {
+          "sourceId": "pdf_siege_tank_upgrade_assault_phase_smart_shells",
+          "name": "Smart Shells",
+          "type": "Ability",
+          "attributes": {
+            "Phase": "Assault Phase",
+            "Type": "Reaction",
+            "Cost": "0 CP",
+            "Effect": "Once per Game. When this Unit declares a Ranged Attack action. If this Unit has SIEGE MODE Status, its weapon gains INDIRECT FIRE and LONG RANGE (24)."
+          },
+          "description": ""
+        }
+      ]
     },
     {
       "faction": "Terran",
@@ -760,7 +1277,8 @@
       "baseSizeSource": "printed PDF footprint",
       "modelCounts": [],
       "optionalUpgrades": [],
-      "modifierCount": 0
+      "modifierCount": 0,
+      "upgradeProfiles": []
     },
     {
       "faction": "Terran",
@@ -790,7 +1308,8 @@
       "baseSizeSource": "printed PDF footprint",
       "modelCounts": [],
       "optionalUpgrades": [],
-      "modifierCount": 0
+      "modifierCount": 0,
+      "upgradeProfiles": []
     },
     {
       "faction": "Terran",
@@ -820,7 +1339,8 @@
       "baseSizeSource": "printed PDF footprint",
       "modelCounts": [],
       "optionalUpgrades": [],
-      "modifierCount": 0
+      "modifierCount": 0,
+      "upgradeProfiles": []
     },
     {
       "faction": "Terran",
@@ -850,7 +1370,8 @@
       "baseSizeSource": "printed PDF footprint",
       "modelCounts": [],
       "optionalUpgrades": [],
-      "modifierCount": 0
+      "modifierCount": 0,
+      "upgradeProfiles": []
     },
     {
       "faction": "Terran",
@@ -880,7 +1401,8 @@
       "baseSizeSource": "printed PDF footprint",
       "modelCounts": [],
       "optionalUpgrades": [],
-      "modifierCount": 0
+      "modifierCount": 0,
+      "upgradeProfiles": []
     },
     {
       "faction": "Terran",
@@ -908,9 +1430,56 @@
       "baseSizeSource": "user flight stand convention (100 mm)",
       "modelCounts": [],
       "optionalUpgrades": [
-        "Official upgrade card (manual)"
+        "Official upgrade card"
       ],
-      "modifierCount": 0
+      "modifierCount": 0,
+      "upgradeProfiles": [
+        {
+          "sourceId": "pdf_raven_upgrade_any_phase_corvid_reactor",
+          "name": "Corvid Reactor",
+          "type": "Ability",
+          "attributes": {
+            "Phase": "Any Phase",
+            "Type": "Passive",
+            "Effect": "This Unit may resolve its first Special Ability with the CP cost reduced by 1 if it targets the closest Enemy Unit."
+          },
+          "description": ""
+        },
+        {
+          "sourceId": "pdf_raven_upgrade_movement_phase_internal_tech_module",
+          "name": "Internal Tech Module",
+          "type": "Ability",
+          "attributes": {
+            "Phase": "Movement Phase",
+            "Type": "Passive",
+            "Effect": "When this Unit is nominated to deploy from Reserves, it may Deploy from any table edge that is not a player's Entry Edge. This Unit cannot be set Within 8\" of any Enemy model."
+          },
+          "description": ""
+        },
+        {
+          "sourceId": "pdf_raven_upgrade_movement_phase_seeker_missile",
+          "name": "Seeker Missile",
+          "type": "Ability",
+          "attributes": {
+            "Phase": "Movement Phase",
+            "Type": "Active",
+            "Cost": "1 CP",
+            "Effect": "Select one Enemy Unit Within 12\". At the End of the Assault Phase, if that Enemy Unit has the Stationary Status or it is Within 8'' of this Unit, it suffers HITS 4 (2). If that Unit is Engaged, it is eligible to make an Evade Roll against these hits."
+          },
+          "description": ""
+        },
+        {
+          "sourceId": "pdf_raven_upgrade_assault_phase_explosive_shrapnel_shells",
+          "name": "Explosive Shrapnel Shells",
+          "type": "Ability",
+          "attributes": {
+            "Phase": "Assault Phase",
+            "Type": "Passive",
+            "Effect": "The Gauss Cannon of the Auto-Turret set by this Unit gains Surge Type: Light and S-Dice: D3+1."
+          },
+          "description": ""
+        }
+      ]
     },
     {
       "faction": "Terran",
@@ -940,7 +1509,8 @@
       "baseSizeSource": "printed PDF footprint",
       "modelCounts": [],
       "optionalUpgrades": [],
-      "modifierCount": 0
+      "modifierCount": 0,
+      "upgradeProfiles": []
     },
     {
       "faction": "Zerg",
@@ -970,9 +1540,55 @@
       "baseSizeSource": "printed PDF footprint",
       "modelCounts": [],
       "optionalUpgrades": [
-        "Official upgrade card (manual)"
+        "Official upgrade card"
       ],
-      "modifierCount": 0
+      "modifierCount": 0,
+      "upgradeProfiles": [
+        {
+          "sourceId": "pdf_hydralisks_upgrade_any_phase_ancillary_carapace",
+          "name": "Ancillary Carapace",
+          "type": "Ability",
+          "attributes": {
+            "Phase": "Any Phase",
+            "Type": "Passive",
+            "Effect": "This Unit gains TOUGH (1) on the first Armour Roll of each Activation."
+          },
+          "description": ""
+        },
+        {
+          "sourceId": "pdf_hydralisks_upgrade_any_phase_lurking",
+          "name": "Lurking",
+          "type": "Ability",
+          "attributes": {
+            "Phase": "Any Phase",
+            "Type": "Passive",
+            "Effect": "If this Unit has Stationary Status, it is eligible to make an Evade Roll against the first Ranged Attack targeting it this Round. If this Unit is ON CREEP, it gains +1 Modifier to this Evade Roll."
+          },
+          "description": ""
+        },
+        {
+          "sourceId": "pdf_hydralisks_upgrade_movement_phase_burrow_ambush",
+          "name": "Burrow Ambush",
+          "type": "Ability",
+          "attributes": {
+            "Phase": "Movement Phase",
+            "Type": "Passive",
+            "Effect": "When this Unit is nominated to deploy from the Reserves, it may resolve the PLACE (18) effect from the controlling player's Entry Edge. No model may be set Within 10\" of any Enemy model. This Unit's Activation ends."
+          },
+          "description": ""
+        },
+        {
+          "sourceId": "pdf_hydralisks_upgrade_assault_phase_grooved_spines",
+          "name": "Grooved Spines",
+          "type": "Ability",
+          "attributes": {
+            "Phase": "Assault Phase",
+            "Type": "Passive",
+            "Effect": "This Unit's Needle Spines ranged weapon gains LONG RANGE (16\")."
+          },
+          "description": ""
+        }
+      ]
     },
     {
       "faction": "Zerg",
@@ -1002,7 +1618,8 @@
       "baseSizeSource": "printed PDF footprint",
       "modelCounts": [],
       "optionalUpgrades": [],
-      "modifierCount": 0
+      "modifierCount": 0,
+      "upgradeProfiles": []
     },
     {
       "faction": "Zerg",
@@ -1032,7 +1649,8 @@
       "baseSizeSource": "printed PDF footprint",
       "modelCounts": [],
       "optionalUpgrades": [],
-      "modifierCount": 0
+      "modifierCount": 0,
+      "upgradeProfiles": []
     },
     {
       "faction": "Zerg",
@@ -1062,7 +1680,8 @@
       "baseSizeSource": "printed PDF footprint",
       "modelCounts": [],
       "optionalUpgrades": [],
-      "modifierCount": 0
+      "modifierCount": 0,
+      "upgradeProfiles": []
     },
     {
       "faction": "Zerg",
@@ -1092,9 +1711,34 @@
       "baseSizeSource": "printed PDF footprint",
       "modelCounts": [],
       "optionalUpgrades": [
-        "Official upgrade card (manual)"
+        "Official upgrade card"
       ],
-      "modifierCount": 0
+      "modifierCount": 0,
+      "upgradeProfiles": [
+        {
+          "sourceId": "pdf_queen_upgrade_any_phase_creep_speed",
+          "name": "Creep Speed",
+          "type": "Ability",
+          "attributes": {
+            "Phase": "Any Phase",
+            "Type": "Passive",
+            "Effect": "While this Unit is ON CREEP, increase this Unit's Speed characteristic by 2."
+          },
+          "description": ""
+        },
+        {
+          "sourceId": "pdf_queen_upgrade_movement_phase_domineering_presence",
+          "name": "Domineering Presence",
+          "type": "Ability",
+          "attributes": {
+            "Phase": "Movement Phase",
+            "Type": "Active",
+            "Cost": "1 BM",
+            "Effect": "Select another Friendly Unit Within 6\" (Line of Sight is not required). That Unit's Supply characteristic is increased by 1 for Controlling and Contesting Mission Markers and completing objectives."
+          },
+          "description": ""
+        }
+      ]
     },
     {
       "faction": "Zerg",
@@ -1124,9 +1768,56 @@
       "baseSizeSource": "printed PDF footprint",
       "modelCounts": [],
       "optionalUpgrades": [
-        "Official upgrade card (manual)"
+        "Official upgrade card"
       ],
-      "modifierCount": 0
+      "modifierCount": 0,
+      "upgradeProfiles": [
+        {
+          "sourceId": "pdf_roaches_upgrade_any_phase_tunneling_claws",
+          "name": "Tunneling Claws",
+          "type": "Ability",
+          "attributes": {
+            "Phase": "Any Phase",
+            "Type": "Passive",
+            "Effect": "While this Unit has the Burrowed Status, it may perform the Move and Run actions without losing that Status. It may also move through other Units' bases."
+          },
+          "description": ""
+        },
+        {
+          "sourceId": "pdf_roaches_upgrade_movement_phase_glial_reconstitution",
+          "name": "Glial Reconstitution",
+          "type": "Ability",
+          "attributes": {
+            "Phase": "Movement Phase",
+            "Type": "Active",
+            "Cost": "1 CP",
+            "Effect": "This Unit gains BUFF SPEED (1), or BUFF SPEED (2) if the Unit is ON CREEP."
+          },
+          "description": ""
+        },
+        {
+          "sourceId": "pdf_roaches_upgrade_movement_phase_burrow_ambush",
+          "name": "Burrow Ambush",
+          "type": "Ability",
+          "attributes": {
+            "Phase": "Movement Phase",
+            "Type": "Passive",
+            "Effect": "When this Unit is nominated to deploy from the Reserves, it may resolve the PLACE (18) effect from the controlling player's Entry Edge. No model may be set Within 10\" of any Enemy model. This Unit's Activation ends."
+          },
+          "description": ""
+        },
+        {
+          "sourceId": "pdf_roaches_upgrade_assault_phase_hydriodic_bile",
+          "name": "Hydriodic Bile",
+          "type": "Ability",
+          "attributes": {
+            "Phase": "Assault Phase",
+            "Type": "Passive",
+            "Effect": "This Unit's Acid Saliva weapon gains Surge Type: Light, and S Dice: D3+1."
+          },
+          "description": ""
+        }
+      ]
     },
     {
       "faction": "Zerg",
@@ -1156,9 +1847,56 @@
       "baseSizeSource": "printed PDF footprint",
       "modelCounts": [],
       "optionalUpgrades": [
-        "Official upgrade card (manual)"
+        "Official upgrade card"
       ],
-      "modifierCount": 0
+      "modifierCount": 0,
+      "upgradeProfiles": [
+        {
+          "sourceId": "pdf_corpsers_roach_upgrade_any_phase_tunneling_claws",
+          "name": "Tunneling Claws",
+          "type": "Ability",
+          "attributes": {
+            "Phase": "Any Phase",
+            "Type": "Passive",
+            "Effect": "While this Unit has the Burrowed Status, it may perform the Move and Run actions without losing that Status. It may also move through other Units' bases."
+          },
+          "description": ""
+        },
+        {
+          "sourceId": "pdf_corpsers_roach_upgrade_movement_phase_glial_reconstitution",
+          "name": "Glial Reconstitution",
+          "type": "Ability",
+          "attributes": {
+            "Phase": "Movement Phase",
+            "Type": "Active",
+            "Cost": "1 CP",
+            "Effect": "This Unit gains BUFF SPEED (1), or BUFF SPEED (2) if the Unit is ON CREEP."
+          },
+          "description": ""
+        },
+        {
+          "sourceId": "pdf_corpsers_roach_upgrade_movement_phase_burrow_ambush",
+          "name": "Burrow Ambush",
+          "type": "Ability",
+          "attributes": {
+            "Phase": "Movement Phase",
+            "Type": "Passive",
+            "Effect": "When this Unit is nominated to deploy from the Reserves, it may resolve the PLACE (18) effect from the controlling player's Entry Edge. No model may be set Within 10\" of any Enemy model. This Unit's Activation ends."
+          },
+          "description": ""
+        },
+        {
+          "sourceId": "pdf_corpsers_roach_upgrade_assault_phase_hydriodic_bile",
+          "name": "Hydriodic Bile",
+          "type": "Ability",
+          "attributes": {
+            "Phase": "Assault Phase",
+            "Type": "Passive",
+            "Effect": "This Unit's Acid Saliva weapon gains Surge Type: Light, and S Dice: D3+1."
+          },
+          "description": ""
+        }
+      ]
     },
     {
       "faction": "Zerg",
@@ -1188,7 +1926,8 @@
       "baseSizeSource": "printed PDF footprint",
       "modelCounts": [],
       "optionalUpgrades": [],
-      "modifierCount": 0
+      "modifierCount": 0,
+      "upgradeProfiles": []
     },
     {
       "faction": "Zerg",
@@ -1218,9 +1957,56 @@
       "baseSizeSource": "printed PDF footprint",
       "modelCounts": [],
       "optionalUpgrades": [
-        "Official upgrade card (manual)"
+        "Official upgrade card"
       ],
-      "modifierCount": 0
+      "modifierCount": 0,
+      "upgradeProfiles": [
+        {
+          "sourceId": "pdf_viles_roach_upgrade_movement_phase_tunneling_claws",
+          "name": "Tunneling Claws",
+          "type": "Ability",
+          "attributes": {
+            "Phase": "Movement Phase",
+            "Type": "Passive",
+            "Effect": "While this Unit has the Burrowed Status, it may perform the Move and Run actions without losing that Status. It may also move through other Units' bases."
+          },
+          "description": ""
+        },
+        {
+          "sourceId": "pdf_viles_roach_upgrade_movement_phase_glial_reconstitution",
+          "name": "Glial Reconstitution",
+          "type": "Ability",
+          "attributes": {
+            "Phase": "Movement Phase",
+            "Type": "Active",
+            "Cost": "1 BM",
+            "Effect": "This Unit gains BUFF SPEED (1), or BUFF SPEED (2) if the Unit is ON CREEP."
+          },
+          "description": ""
+        },
+        {
+          "sourceId": "pdf_viles_roach_upgrade_movement_phase_burrow_ambush",
+          "name": "Burrow Ambush",
+          "type": "Ability",
+          "attributes": {
+            "Phase": "Movement Phase",
+            "Type": "Passive",
+            "Effect": "When this Unit is nominated to deploy from the Reserves, it may resolve the PLACE (18) effect from the controlling player's Entry Edge. No model may be set Within 10\" of any Enemy model. This Unit's Activation ends."
+          },
+          "description": ""
+        },
+        {
+          "sourceId": "pdf_viles_roach_upgrade_assault_phase_hydriodic_bile",
+          "name": "Hydriodic Bile",
+          "type": "Ability",
+          "attributes": {
+            "Phase": "Assault Phase",
+            "Type": "Passive",
+            "Effect": "This Unit's Acid Saliva weapon gains Surge Type: Light, and S Dice: D3+1."
+          },
+          "description": ""
+        }
+      ]
     },
     {
       "faction": "Zerg",
@@ -1250,9 +2036,50 @@
       "baseSizeSource": "printed PDF footprint",
       "modelCounts": [],
       "optionalUpgrades": [
-        "Official upgrade card (manual)"
+        "Official upgrade card"
       ],
-      "modifierCount": 0
+      "modifierCount": 0,
+      "upgradeProfiles": [
+        {
+          "sourceId": "pdf_zerglings_upgrade_movement_phase_burrow_ambush",
+          "name": "Burrow Ambush",
+          "type": "Ability",
+          "attributes": {
+            "Phase": "Movement Phase",
+            "Type": "Passive",
+            "Effect": "When this Unit is nominated to deploy from the Reserves, it may resolve the PLACE (18) effect from the controlling player's Entry Edge. No model may be set Within 10\" of any Enemy model. This Unit's Activation ends."
+          },
+          "description": ""
+        },
+        {
+          "sourceId": "pdf_zerglings_upgrade_1",
+          "name": "SHREDDING CLAWS",
+          "type": "Combat Weapon",
+          "attributes": {
+            "Rng": "E",
+            "Tgt": "Ground",
+            "RoA": "2",
+            "Hit": "4+",
+            "Surge": "Light, Armoured",
+            "S.Die": "D3",
+            "Dmg": "1",
+            "Keyword": "-",
+            "Notes": "↑ FOR CLAWS"
+          },
+          "description": ""
+        },
+        {
+          "sourceId": "pdf_zerglings_upgrade_combat_phase_adrenal_glands",
+          "name": "Adrenal Glands",
+          "type": "Ability",
+          "attributes": {
+            "Phase": "Combat Phase",
+            "Type": "Passive",
+            "Effect": "This Unit's Claws and Shredding Claws weapons gain PRECISION (2)."
+          },
+          "description": ""
+        }
+      ]
     },
     {
       "faction": "Zerg",
@@ -1282,9 +2109,50 @@
       "baseSizeSource": "printed PDF footprint",
       "modelCounts": [],
       "optionalUpgrades": [
-        "Official upgrade card (manual)"
+        "Official upgrade card"
       ],
-      "modifierCount": 0
+      "modifierCount": 0,
+      "upgradeProfiles": [
+        {
+          "sourceId": "pdf_raptors_zergling_upgrade_movement_phase_burrow_ambush",
+          "name": "Burrow Ambush",
+          "type": "Ability",
+          "attributes": {
+            "Phase": "Movement Phase",
+            "Type": "Passive",
+            "Effect": "When this Unit is nominated to deploy from the Reserves, it may resolve the PLACE (18) effect from the controlling player's Entry Edge. No model may be set Within 10\" of any Enemy model. This Unit's Activation ends."
+          },
+          "description": ""
+        },
+        {
+          "sourceId": "pdf_raptors_zergling_upgrade_1",
+          "name": "SHREDDING CLAWS",
+          "type": "Combat Weapon",
+          "attributes": {
+            "Rng": "E",
+            "Tgt": "Ground",
+            "RoA": "2",
+            "Hit": "4+",
+            "Surge": "Light, Armoured",
+            "S.Die": "D3",
+            "Dmg": "1",
+            "Keyword": "-",
+            "Notes": "↑ FOR CLAWS"
+          },
+          "description": ""
+        },
+        {
+          "sourceId": "pdf_raptors_zergling_upgrade_combat_phase_adrenal_glands",
+          "name": "Adrenal Glands",
+          "type": "Ability",
+          "attributes": {
+            "Phase": "Combat Phase",
+            "Type": "Passive",
+            "Effect": "This Unit's Claws and Shredding Claws weapons gain PRECISION (2)."
+          },
+          "description": ""
+        }
+      ]
     },
     {
       "faction": "Zerg",
@@ -1314,9 +2182,22 @@
       "baseSizeSource": "printed PDF footprint",
       "modelCounts": [],
       "optionalUpgrades": [
-        "Official upgrade card (manual)"
+        "Official upgrade card"
       ],
-      "modifierCount": 0
+      "modifierCount": 0,
+      "upgradeProfiles": [
+        {
+          "sourceId": "pdf_swarmlings_upgrade_movement_phase_burrow_ambush",
+          "name": "Burrow Ambush",
+          "type": "Ability",
+          "attributes": {
+            "Phase": "Movement Phase",
+            "Type": "Passive",
+            "Effect": "When this Unit is nominated to deploy from the Reserves, it may resolve the PLACE (18) effect from the controlling player's Entry Edge. No model may be set Within 10\" of any Enemy model. This Unit's Activation ends."
+          },
+          "description": ""
+        }
+      ]
     },
     {
       "faction": "Zerg",
@@ -1346,9 +2227,44 @@
       "baseSizeSource": "printed PDF footprint",
       "modelCounts": [],
       "optionalUpgrades": [
-        "Official upgrade card (manual)"
+        "Official upgrade card"
       ],
-      "modifierCount": 0
+      "modifierCount": 0,
+      "upgradeProfiles": [
+        {
+          "sourceId": "pdf_ravagers_upgrade_any_phase_bloated_bile_ducts",
+          "name": "Bloated Bile Ducts",
+          "type": "Ability",
+          "attributes": {
+            "Phase": "Any Phase",
+            "Type": "Passive",
+            "Effect": "Increase the area of effect of this Unit's Corrosive Bile ability to 2\"."
+          },
+          "description": ""
+        },
+        {
+          "sourceId": "pdf_ravagers_upgrade_movement_phase_burrow_ambush",
+          "name": "Burrow Ambush",
+          "type": "Ability",
+          "attributes": {
+            "Phase": "Movement Phase",
+            "Type": "Passive",
+            "Effect": "When this Unit is nominated to deploy from the Reserves, it may resolve the PLACE (18) effect from the controlling player's Entry Edge. No model may be set Within 10\" of any Enemy model. This Unit's Activation ends."
+          },
+          "description": ""
+        },
+        {
+          "sourceId": "pdf_ravagers_upgrade_assault_phase_potent_bile",
+          "name": "Potent Bile",
+          "type": "Ability",
+          "attributes": {
+            "Phase": "Assault Phase",
+            "Type": "Passive",
+            "Effect": "Before an Enemy Unit resolves an Armour Roll against the HITS effect generated by this Unit's Corrosive Bile ability, that Unit suffers DEBUFF Armour (1)."
+          },
+          "description": ""
+        }
+      ]
     },
     {
       "faction": "Zerg",
@@ -1378,9 +2294,23 @@
       "baseSizeSource": "printed PDF footprint",
       "modelCounts": [],
       "optionalUpgrades": [
-        "Official upgrade card (manual)"
+        "Official upgrade card"
       ],
-      "modifierCount": 0
+      "modifierCount": 0,
+      "upgradeProfiles": [
+        {
+          "sourceId": "pdf_zagara_upgrade_movement_phase_broodmother",
+          "name": "Broodmother",
+          "type": "Ability",
+          "attributes": {
+            "Phase": "Movement Phase",
+            "Type": "Active",
+            "Cost": "1 BM",
+            "Effect": "Apply one of the following effects to all Friendly units (Line of Sight is not required). You cannot apply the effect chosen in the previous Game Round:\n• Units of Size 1 gain a +1 Modifier to all IMPACT Rolls.\n• All weapons of Size 2 Units gain CRITICAL HIT (1).\n• Units of Size 3 or more gain TOUGH (1)."
+          },
+          "description": ""
+        }
+      ]
     },
     {
       "faction": "Zerg",
@@ -1410,9 +2340,50 @@
       "baseSizeSource": "printed PDF footprint",
       "modelCounts": [],
       "optionalUpgrades": [
-        "Official upgrade card (manual)"
+        "Official upgrade card"
       ],
-      "modifierCount": 0
+      "modifierCount": 0,
+      "upgradeProfiles": [
+        {
+          "sourceId": "pdf_defiler_upgrade_movement_phase_burrow_ambush",
+          "name": "Burrow Ambush",
+          "type": "Ability",
+          "attributes": {
+            "Phase": "Movement Phase",
+            "Type": "Passive",
+            "Effect": "When this Unit is nominated to deploy from Reserves, it may resolve the PLACE (18) effect from the controlling player's Entry Edge. No model may be placed Within 10\" of any Enemy model. This Unit's Activation ends."
+          },
+          "description": ""
+        },
+        {
+          "sourceId": "pdf_defiler_upgrade_assault_phase_plague",
+          "name": "Plague",
+          "type": "Ability",
+          "attributes": {
+            "Phase": "Assault Phase",
+            "Type": "Active",
+            "Cost": "X BM",
+            "Effect": "You may spend 1 to 3 BM to activate this ability. Set a Plague Blast Template Wholly Within 10\" and Line of Sight of this Unit. For each Unit that has at least one model whose base is partially covered by the template, roll 2 dice, plus 1 additional die for each model in that Unit whose base is partially covered. That Unit loses its HIDDEN Status, and, depending on the BM spent, it suffers NON-LETHAL DAMAGE (1) for:\n1 BM: each result of 5+.\n2 BM: each result of 4+.\n3 BM: each result of 3+."
+          },
+          "description": ""
+        },
+        {
+          "sourceId": "pdf_defiler_upgrade_2",
+          "name": "CANCEROUS BITE",
+          "type": "Combat Weapon",
+          "attributes": {
+            "Rng": "E",
+            "Tgt": "Ground",
+            "RoA": "2",
+            "Hit": "3+",
+            "Surge": "-",
+            "S.Die": "-",
+            "Dmg": "2",
+            "Keyword": "CRITICAL HIT (1), SIDEARM"
+          },
+          "description": ""
+        }
+      ]
     },
     {
       "faction": "Zerg",
@@ -1442,7 +2413,8 @@
       "baseSizeSource": "printed PDF footprint",
       "modelCounts": [],
       "optionalUpgrades": [],
-      "modifierCount": 0
+      "modifierCount": 0,
+      "upgradeProfiles": []
     },
     {
       "faction": "Zerg",
@@ -1472,7 +2444,8 @@
       "baseSizeSource": "printed PDF footprint",
       "modelCounts": [],
       "optionalUpgrades": [],
-      "modifierCount": 0
+      "modifierCount": 0,
+      "upgradeProfiles": []
     }
   ],
   "cardCoverage": [
@@ -1907,6 +2880,15 @@
       "kind": "non-unit"
     }
   ],
+  "ruleCleanup": {
+    "keywordSource": {
+      "url": "https://archon-studio.com/files/manuals/sc/StarCraft-TMG_EN.pdf",
+      "sha256": "27639c562e6db9777dd9ba984d0c9f9b581841ec30166848e021f893cd00ea54",
+      "extraction": "Official Part 11 glossary; PDF text and headings, whitespace normalized."
+    },
+    "keywordDefinitions": 76,
+    "links": 768
+  },
   "counts": {
     "factions": 3,
     "units": 45

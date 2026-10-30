@@ -3,7 +3,7 @@
     "Id": "pdf_Zerg_unit_bile_launcher",
     "Name": "Bile Launcher",
     "Type": "Unit",
-    "Description": "Official card values. Source: https://archon-studio.com/files/manuals/sc/StarCraft-Zerg-P2P-W3-Card-Sheets-A4_EN.pdf, page 4.\n\n100 mm round base. Place models and apply upgrades manually.\n\nCategories: Support, Armoured, Biological, Ground.",
+    "Description": "Categories: Support, Armoured, Biological, Ground\nModels / Supply: 1-1: 1",
     "BasicProfileIds": [
       "pdf_Zerg_profile_bile_launcher"
     ],
@@ -15,7 +15,7 @@
     "Id": "pdf_Zerg_unit_corpsers_roach",
     "Name": "Corpsers (Roach)",
     "Type": "Unit",
-    "Description": "Official card values. Source: https://archon-studio.com/files/manuals/sc/StarCraft-Zerg-P2P-Card-Sheets-A4_EN.pdf, page 7.\n\n50 mm round base. Place models and apply upgrades manually.\n\nCategories: Core, Armoured, Biological, Ground.\n\nOPTIONAL UPGRADE (not applied): Official upgrade card (manual)\nAny Phase abilities\nEffect: TUNNELING CLAWS: PASSIVE While this Unit has the Burrowed Status , it may\nperform the Move and Run actions without losing that Status . It may also move through other Units' bases.\n\nMovement Phase abilities\nEffect: GLIAL RECONSTITUTION: ACTIVE 1 CP This Unit\ngains BUFF SPEED (1) , or BUFF SPEED (2) if the Unit is\nON CREEP .\nBURROW AMBUSH: PASSIVE When this Unit is\nnominated to deploy from the Reserves , it may resolve\nthe PLACE (18) effect from the controlling player's\nEntry Edge . No model may be set Within 10\" of any\nEnemy model. This Unit's Activation ends.\n\nAssault Phase abilities\nEffect: HYDRIODIC BILE: PASSIVE This Unit's Acid Saliva weapon gains Surge Type: Light , and S Dice: D3+1 .\n\nAvailable upgrade choices (manual): Official upgrade card (manual).",
+    "Description": "Categories: Core, Armoured, Biological, Ground\nModels / Supply: 1-1: 0 | 2-3: 1",
     "BasicProfileIds": [
       "pdf_Zerg_profile_corpsers_roach"
     ],
@@ -27,7 +27,7 @@
     "Id": "pdf_Zerg_unit_defiler",
     "Name": "Defiler",
     "Type": "Unit",
-    "Description": "Official card values. Source: https://archon-studio.com/files/manuals/sc/StarCraft-Zerg-P2P-W3-Card-Sheets-A4_EN.pdf, page 2.\n\n80 mm round base. Place models and apply upgrades manually.\n\nCategories: Support, Biological, Light, Psionic, Ground.\n\nOPTIONAL UPGRADE (not applied): Official upgrade card (manual)\nMovement Phase abilities\nEffect: BURROW AMBUSH: PASSIVE When this Unit is nominated to\ndeploy from Reserves , it may resolve the PLACE (18) effect from the controlling player's Entry Edge . No model\nmay be placed Within 10\" of any Enemy model. This Unit's Activation ends.\n\nAssault Phase abilities\nEffect: PLAGUE: ACTIVE X BM You may spend 1 to 3 BM to activate this\nability. Set a Plague Blast Template Wholly Within 10\" and Line of Sight of this Unit. For each Unit that has at\nleast one model whose base is partially covered by the template, roll 2 dice, plus 1 additional die for each model\nin that Unit whose base is partially covered. That Unit loses its HIDDEN Status , and, depending on the BM\nspent, it suffers NON-LETHAL DAMAGE (1) for:\n1 BM : each result of 5+ .\n2 BM : each result of 4+ .\n3 BM : each result of 3+ .\n\nCANCEROUS BITE\nRng: E\nTgt: Ground\nRoA: 2\nHit: 3+\nSurge: -\nS.Die: -\nDmg: 2\nKeyword: CRITICAL HIT (1), SIDEARM\n\nAvailable upgrade choices (manual): Official upgrade card (manual).",
+    "Description": "Categories: Support, Biological, Light, Psionic, Ground\nModels / Supply: 1-1: 1",
     "BasicProfileIds": [
       "pdf_Zerg_profile_defiler"
     ],
@@ -39,7 +39,7 @@
     "Id": "pdf_Zerg_unit_hydralisks",
     "Name": "Hydralisks",
     "Type": "Unit",
-    "Description": "Official card values. Source: https://archon-studio.com/files/manuals/sc/StarCraft-Zerg-P2P-Card-Sheets-A4_EN.pdf, page 1.\n\n40 x 100 mm oval base. Place models and apply upgrades manually.\n\nCategories: Elite, Biological, Light, Ground.\n\nOPTIONAL UPGRADE (not applied): Official upgrade card (manual)\nAny Phase abilities\nEffect: ANCILLARY CARAPACE: PASSIVE This Unit gains TOUGH\n(1) on the first Armour Roll of each Activation .\nLURKING: PASSIVE If this Unit has Stationary Status , it\nis eligible to make an Evade Roll against the first Ranged\nAttack targeting it this Round. If this Unit is ON CREEP , it\ngains +1 Modifier to this Evade Roll .\n\nMovement Phase abilities\nEffect: BURROW AMBUSH: PASSIVE When this Unit is nominated to deploy from the Reserves , it may resolve the PLACE\n(18) effect from the controlling player's Entry Edge . No model may be set Within 10\" of any Enemy model. This\nUnit's Activation ends.\n\nAssault Phase abilities\nEffect: GROOVED SPINES: PASSIVE This Unit's Needle Spines ranged weapon gains LONG RANGE (16\") .\n\nAvailable upgrade choices (manual): Official upgrade card (manual).",
+    "Description": "Categories: Elite, Biological, Light, Ground\nModels / Supply: 1-1: 1 | 2-2: 2 | 3-4: 3",
     "BasicProfileIds": [
       "pdf_Zerg_profile_hydralisks"
     ],
@@ -51,7 +51,7 @@
     "Id": "pdf_Zerg_unit_kerrigan",
     "Name": "Kerrigan",
     "Type": "Unit",
-    "Description": "Official card values. Source: https://archon-studio.com/files/manuals/sc/StarCraft-Zerg-P2P-Card-Sheets-A4_EN.pdf, page 2.\n\n40 mm round base. Place models and apply upgrades manually.\n\nCategories: Hero, Biological, Psionic, Ground.",
+    "Description": "Categories: Hero, Biological, Psionic, Ground\nModels / Supply: 1-1: 1",
     "BasicProfileIds": [
       "pdf_Zerg_profile_kerrigan"
     ],
@@ -63,7 +63,7 @@
     "Id": "pdf_Zerg_unit_kerrigan_swarm_raptors_zergling",
     "Name": "Kerrigan Swarm Raptors (Zergling)",
     "Type": "Unit",
-    "Description": "Official card values. Source: https://archon-studio.com/files/manuals/sc/StarCraft-Zerg-P2P-Card-Sheets-A4_EN.pdf, page 4.\n\n32 mm round base. Place models and apply upgrades manually.\n\nCategories: Elite, Biological, Light, Ground.",
+    "Description": "Categories: Elite, Biological, Light, Ground\nModels / Supply: 1-3: 0 | 4-6: 1",
     "BasicProfileIds": [
       "pdf_Zerg_profile_kerrigan_swarm_raptors_zergling"
     ],
@@ -75,7 +75,7 @@
     "Id": "pdf_Zerg_unit_omega_worm",
     "Name": "Omega Worm",
     "Type": "Unit",
-    "Description": "Official card values. Source: https://archon-studio.com/files/manuals/sc/StarCraft-Zerg-P2P-Card-Sheets-A4_EN.pdf, page 3.\n\n80 mm round base. Place models and apply upgrades manually.\n\nCategories: Other, Armoured, Biological, Ground.",
+    "Description": "Categories: Other, Armoured, Biological, Ground\nModels / Supply: 1-1: 0",
     "BasicProfileIds": [
       "pdf_Zerg_profile_omega_worm"
     ],
@@ -87,7 +87,7 @@
     "Id": "pdf_Zerg_unit_queen",
     "Name": "Queen",
     "Type": "Unit",
-    "Description": "Official card values. Source: https://archon-studio.com/files/manuals/sc/StarCraft-Zerg-P2P-Card-Sheets-A4_EN.pdf, page 5.\n\n80 mm round base. Place models and apply upgrades manually.\n\nCategories: Support, Armoured, Biological, Psionic, Ground.\n\nOPTIONAL UPGRADE (not applied): Official upgrade card (manual)\nAny Phase abilities\nEffect: CREEP SPEED: PASSIVE While this Unit is ON CREEP , increase this Unit's Speed characteristic by 2 .\n\nMovement Phase abilities\nEffect: DOMINEERING PRESENCE: ACTIVE 1 BM Select another Friendly Unit Within 6\" ( Line of Sight is not required).\nThat Unit's Supply characteristic is increased by 1 for Controlling and Contesting Mission Markers and\ncompleting objectives.\n\nAvailable upgrade choices (manual): Official upgrade card (manual).",
+    "Description": "Categories: Support, Armoured, Biological, Psionic, Ground\nModels / Supply: 1-1: 1",
     "BasicProfileIds": [
       "pdf_Zerg_profile_queen"
     ],
@@ -99,7 +99,7 @@
     "Id": "pdf_Zerg_unit_raptors_zergling",
     "Name": "Raptors (Zergling)",
     "Type": "Unit",
-    "Description": "Official card values. Source: https://archon-studio.com/files/manuals/sc/StarCraft-Zerg-P2P-Card-Sheets-A4_EN.pdf, page 11.\n\n32 mm round base. Place models and apply upgrades manually.\n\nCategories: Elite, Biological, Light, Ground.\n\nOPTIONAL UPGRADE (not applied): Official upgrade card (manual)\nMovement Phase abilities\nEffect: BURROW AMBUSH: PASSIVE When this Unit is nominated to\ndeploy from the Reserves , it may resolve the PLACE (18) effect from the controlling player's Entry Edge . No model\nmay be set Within 10\" of any Enemy model. This Unit's Activation ends.\n\nSHREDDING CLAWS\nRng: E\nTgt: Ground\nRoA: 2\nHit: 4+\nSurge: Light, Armoured\nS.Die: D3\nDmg: 1\nKeyword: -\nNotes: ↑ FOR CLAWS\n\nCombat Phase abilities\nEffect: ADRENAL GLANDS: PASSIVE This Unit's Claws and Shredding Claws weapons gain PRECISION (2) .\n\nAvailable upgrade choices (manual): Official upgrade card (manual).",
+    "Description": "Categories: Elite, Biological, Light, Ground\nModels / Supply: 1-6: 0 | 7-12: 1 | 13-18: 2",
     "BasicProfileIds": [
       "pdf_Zerg_profile_raptors_zergling"
     ],
@@ -111,7 +111,7 @@
     "Id": "pdf_Zerg_unit_ravagers",
     "Name": "Ravagers",
     "Type": "Unit",
-    "Description": "Official card values. Source: https://archon-studio.com/files/manuals/sc/StarCraft-Zerg-P2P-W2-Card-Sheets-A4_EN.pdf, page 1.\n\n80 mm round base. Place models and apply upgrades manually.\n\nCategories: Core, Armoured, Biological, Ground.\n\nOPTIONAL UPGRADE (not applied): Official upgrade card (manual)\nAny Phase abilities\nEffect: BLOATED BILE DUCTS: PASSIVE Increase the area of effect of this Unit's Corrosive Bile ability to 2\" .\n\nMovement Phase abilities\nEffect: BURROW AMBUSH: PASSIVE When this Unit is nominated to deploy from the Reserves , it may resolve the PLACE\n(18) effect from the controlling player's Entry Edge . No model may be set Within 10\" of any Enemy model. This\nUnit's Activation ends.\n\nAssault Phase abilities\nEffect: POTENT BILE: PASSIVE Before an Enemy Unit resolves an Armour Roll against the HITS effect generated by this\nUnit's Corrosive Bile ability, that Unit suffers DEBUFF Armour (1) .\n\nAvailable upgrade choices (manual): Official upgrade card (manual).",
+    "Description": "Categories: Core, Armoured, Biological, Ground\nModels / Supply: 1-1: 1 | 2-2: 2",
     "BasicProfileIds": [
       "pdf_Zerg_profile_ravagers"
     ],
@@ -123,7 +123,7 @@
     "Id": "pdf_Zerg_unit_roaches",
     "Name": "Roaches",
     "Type": "Unit",
-    "Description": "Official card values. Source: https://archon-studio.com/files/manuals/sc/StarCraft-Zerg-P2P-Card-Sheets-A4_EN.pdf, page 6.\n\n50 mm round base. Place models and apply upgrades manually.\n\nCategories: Core, Armoured, Biological, Ground.\n\nOPTIONAL UPGRADE (not applied): Official upgrade card (manual)\nAny Phase abilities\nEffect: TUNNELING CLAWS: PASSIVE While this Unit has the Burrowed Status , it may\nperform the Move and Run actions without losing that Status . It may also move through other Units' bases.\n\nMovement Phase abilities\nEffect: GLIAL RECONSTITUTION: ACTIVE 1 CP This Unit\ngains BUFF SPEED (1) , or BUFF SPEED (2) if the Unit is\nON CREEP .\nBURROW AMBUSH: PASSIVE When this Unit is\nnominated to deploy from the Reserves , it may resolve\nthe PLACE (18) effect from the controlling player's\nEntry Edge . No model may be set Within 10\" of any\nEnemy model. This Unit's Activation ends.\n\nAssault Phase abilities\nEffect: HYDRIODIC BILE: PASSIVE This Unit's Acid Saliva weapon gains Surge Type: Light , and S Dice: D3+1 .\n\nAvailable upgrade choices (manual): Official upgrade card (manual).",
+    "Description": "Categories: Core, Armoured, Biological, Ground\nModels / Supply: 1-1: 0 | 2-3: 1",
     "BasicProfileIds": [
       "pdf_Zerg_profile_roaches"
     ],
@@ -135,7 +135,7 @@
     "Id": "pdf_Zerg_unit_roachling",
     "Name": "Roachling",
     "Type": "Unit",
-    "Description": "Official card values. Source: https://archon-studio.com/files/manuals/sc/StarCraft-Zerg-P2P-Card-Sheets-A4_EN.pdf, page 8.\n\n32 mm round base. Place models and apply upgrades manually.\n\nCategories: Other, Biological, Light, Ground.",
+    "Description": "Categories: Other, Biological, Light, Ground\nModels / Supply: 1-3: 0",
     "BasicProfileIds": [
       "pdf_Zerg_profile_roachling"
     ],
@@ -147,7 +147,7 @@
     "Id": "pdf_Zerg_unit_swarmlings",
     "Name": "Swarmlings",
     "Type": "Unit",
-    "Description": "Official card values. Source: https://archon-studio.com/files/manuals/sc/StarCraft-Zerg-P2P-Card-Sheets-A4_EN.pdf, page 12.\n\n32 mm round base. Place models and apply upgrades manually.\n\nCategories: Core, Biological, Light, Ground.\n\nOPTIONAL UPGRADE (not applied): Official upgrade card (manual)\nMovement Phase abilities\nEffect: BURROW AMBUSH: PASSIVE When this Unit is nominated to\ndeploy from the Reserves , it may resolve the PLACE (18) effect from the controlling player's Entry Edge . No model\nmay be set Within 10\" of any Enemy model. This Unit's Activation ends.\n\nAvailable upgrade choices (manual): Official upgrade card (manual).",
+    "Description": "Categories: Core, Biological, Light, Ground\nModels / Supply: 1-6: 0 | 7-18: 1",
     "BasicProfileIds": [
       "pdf_Zerg_profile_swarmlings"
     ],
@@ -159,7 +159,7 @@
     "Id": "pdf_Zerg_unit_vileling_zergling",
     "Name": "Vileling (Zergling)",
     "Type": "Unit",
-    "Description": "Official card values. Source: https://archon-studio.com/files/manuals/sc/StarCraft-Zerg-P2P-W3-Card-Sheets-A4_EN.pdf, page 3.\n\n32 mm round base. Place models and apply upgrades manually.\n\nCategories: Core, Biological, Light, Ground.",
+    "Description": "Categories: Core, Biological, Light, Ground\nModels / Supply: 1-6: 1 | 7-18: 2",
     "BasicProfileIds": [
       "pdf_Zerg_profile_vileling_zergling"
     ],
@@ -171,7 +171,7 @@
     "Id": "pdf_Zerg_unit_viles_roach",
     "Name": "Viles (Roach)",
     "Type": "Unit",
-    "Description": "Official card values. Source: https://archon-studio.com/files/manuals/sc/StarCraft-Zerg-P2P-Card-Sheets-A4_EN.pdf, page 9.\n\n50 mm round base. Place models and apply upgrades manually.\n\nCategories: Core, Armoured, Biological, Ground.\n\nOPTIONAL UPGRADE (not applied): Official upgrade card (manual)\nMovement Phase abilities\nEffect: TUNNELING CLAWS: PASSIVE While this Unit has the Burrowed\nStatus , it may perform the Move and Run actions without losing that Status . It may also move through other\nUnits' bases.\n\nMovement Phase abilities\nEffect: GLIAL RECONSTITUTION: ACTIVE 1 BM This Unit\ngains BUFF SPEED (1) , or BUFF SPEED (2) if the Unit is\nON CREEP .\nBURROW AMBUSH: PASSIVE When this Unit is\nnominated to deploy from the Reserves , it may resolve\nthe PLACE (18) effect from the controlling player's\nEntry Edge . No model may be set Within 10\" of any\nEnemy model . This Unit's Activation ends.\n\nAssault Phase abilities\nEffect: HYDRIODIC BILE: PASSIVE This Unit's Acid Saliva weapon gains Surge Type: Light , and S Dice: D3+1 .\n\nAvailable upgrade choices (manual): Official upgrade card (manual).",
+    "Description": "Categories: Core, Armoured, Biological, Ground\nModels / Supply: 1-1: 0 | 2-3: 1",
     "BasicProfileIds": [
       "pdf_Zerg_profile_viles_roach"
     ],
@@ -183,7 +183,7 @@
     "Id": "pdf_Zerg_unit_zagara",
     "Name": "Zagara",
     "Type": "Unit",
-    "Description": "Official card values. Source: https://archon-studio.com/files/manuals/sc/StarCraft-Zerg-P2P-W3-Card-Sheets-A4_EN.pdf, page 1.\n\n100 mm round base. Place models and apply upgrades manually.\n\nCategories: Hero, Biological, Psionic, Ground.\n\nOPTIONAL UPGRADE (not applied): Official upgrade card (manual)\nMovement Phase abilities\nEffect: BROODMOTHER: ACTIVE 1 BM Apply one of the following\neffects to all Friendly units ( Line of Sight is not required). You cannot apply the effect chosen in the previous\nGame Round :\n‣ Units of Size 1 gain a +1 Modifier to all IMPACT Rolls .\n‣ All weapons of Size 2 Units gain CRITICAL HIT (1) .\n‣ Units of Size 3 or more gain TOUGH (1).\n\nAvailable upgrade choices (manual): Official upgrade card (manual).",
+    "Description": "Categories: Hero, Biological, Psionic, Ground\nModels / Supply: 1-1: 1",
     "BasicProfileIds": [
       "pdf_Zerg_profile_zagara"
     ],
@@ -195,7 +195,7 @@
     "Id": "pdf_Zerg_unit_zerglings",
     "Name": "Zerglings",
     "Type": "Unit",
-    "Description": "Official card values. Source: https://archon-studio.com/files/manuals/sc/StarCraft-Zerg-P2P-Card-Sheets-A4_EN.pdf, page 10.\n\n32 mm round base. Place models and apply upgrades manually.\n\nCategories: Core, Biological, Light, Ground.\n\nOPTIONAL UPGRADE (not applied): Official upgrade card (manual)\nMovement Phase abilities\nEffect: BURROW AMBUSH: PASSIVE When this Unit is nominated to deploy from the Reserves , it may resolve the PLACE\n(18) effect from the controlling player's Entry Edge . No model may be set Within 10\" of any Enemy model. This\nUnit's Activation ends.\n\nSHREDDING CLAWS\nRng: E\nTgt: Ground\nRoA: 2\nHit: 4+\nSurge: Light, Armoured\nS.Die: D3\nDmg: 1\nKeyword: -\nNotes: ↑ FOR CLAWS\n\nCombat Phase abilities\nEffect: ADRENAL GLANDS: PASSIVE This Unit's Claws and Shredding Claws weapons gain PRECISION (2) .\n\nAvailable upgrade choices (manual): Official upgrade card (manual).",
+    "Description": "Categories: Core, Biological, Light, Ground\nModels / Supply: 1-6: 0 | 7-12: 1 | 13-18: 2",
     "BasicProfileIds": [
       "pdf_Zerg_profile_zerglings"
     ],

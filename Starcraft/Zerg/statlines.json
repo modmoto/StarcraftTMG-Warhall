@@ -1,5 +1,525 @@
 [
   {
+    "Id": "pdf_Zerg_equipment_bile_launcher_default_2_table",
+    "Name": "BILE BOMB",
+    "Type": "Statline",
+    "Attributes": {
+      "Range": "12",
+      "Target": "Ground",
+      "RoA": "6",
+      "Hit": "3+",
+      "Surge Type": "Light, Armoured",
+      "Surge Dice": "D3",
+      "Damage": "1",
+      "Keywords": "PIERCE Armoured (2), PINPOINT"
+    },
+    "Children": [
+      {
+        "Id": "pdf_Zerg_equipment_bile_launcher_default_2"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Zerg_equipment_corpsers_roach_default_2_table",
+    "Name": "ACID SALIVA",
+    "Type": "Statline",
+    "Attributes": {
+      "Range": "8",
+      "Target": "Ground",
+      "RoA": "2",
+      "Hit": "3+",
+      "Surge Type": "-",
+      "Surge Dice": "-",
+      "Damage": "1",
+      "Keywords": "-"
+    },
+    "Children": [
+      {
+        "Id": "pdf_Zerg_equipment_corpsers_roach_default_2"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Zerg_equipment_corpsers_roach_default_4_table",
+    "Name": "CLAWS",
+    "Type": "Statline",
+    "Attributes": {
+      "Range": "E",
+      "Target": "Ground",
+      "RoA": "3",
+      "Hit": "4+",
+      "Surge Type": "Light",
+      "Surge Dice": "D3+1",
+      "Damage": "1",
+      "Keywords": "-"
+    },
+    "Children": [
+      {
+        "Id": "pdf_Zerg_equipment_corpsers_roach_default_4"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Zerg_equipment_defiler_default_3_table",
+    "Name": "CLAWS",
+    "Type": "Statline",
+    "Attributes": {
+      "Range": "E",
+      "Target": "Ground",
+      "RoA": "4",
+      "Hit": "3+",
+      "Surge Type": "-",
+      "Surge Dice": "-",
+      "Damage": "1",
+      "Keywords": "-"
+    },
+    "Children": [
+      {
+        "Id": "pdf_Zerg_equipment_defiler_default_3"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Zerg_equipment_hydralisks_default_1_table",
+    "Name": "NEEDLE SPINES",
+    "Type": "Statline",
+    "Attributes": {
+      "Range": "12",
+      "Target": "All",
+      "RoA": "3",
+      "Hit": "3+",
+      "Surge Type": "Light, Armoured",
+      "Surge Dice": "D3+1",
+      "Damage": "2",
+      "Keywords": "-"
+    },
+    "Children": [
+      {
+        "Id": "pdf_Zerg_equipment_hydralisks_default_1"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Zerg_equipment_hydralisks_default_3_table",
+    "Name": "SCYTHE",
+    "Type": "Statline",
+    "Attributes": {
+      "Range": "E",
+      "Target": "Ground",
+      "RoA": "2",
+      "Hit": "4+",
+      "Surge Type": "-",
+      "Surge Dice": "-",
+      "Damage": "1",
+      "Keywords": "-"
+    },
+    "Children": [
+      {
+        "Id": "pdf_Zerg_equipment_hydralisks_default_3"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Zerg_equipment_kerrigan_default_2_table",
+    "Name": "ENERGY BLAST",
+    "Type": "Statline",
+    "Attributes": {
+      "Range": "8",
+      "Target": "All",
+      "RoA": "5",
+      "Hit": "3+",
+      "Surge Type": "Light, Armoured",
+      "Surge Dice": "D3",
+      "Damage": "1",
+      "Keywords": "-"
+    },
+    "Children": [
+      {
+        "Id": "pdf_Zerg_equipment_kerrigan_default_2"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Zerg_equipment_kerrigan_default_4_table",
+    "Name": "BLADES",
+    "Type": "Statline",
+    "Attributes": {
+      "Range": "E",
+      "Target": "Ground",
+      "RoA": "6",
+      "Hit": "4+",
+      "Surge Type": "-",
+      "Surge Dice": "-",
+      "Damage": "2",
+      "Keywords": "CRITICAL HIT (2)"
+    },
+    "Children": [
+      {
+        "Id": "pdf_Zerg_equipment_kerrigan_default_4"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Zerg_equipment_kerrigan_swarm_raptors_zergling_default_2_table",
+    "Name": "CLAWS",
+    "Type": "Statline",
+    "Attributes": {
+      "Range": "E",
+      "Target": "Ground",
+      "RoA": "2",
+      "Hit": "3+",
+      "Surge Type": "Light, Armoured",
+      "Surge Dice": "D6",
+      "Damage": "1",
+      "Keywords": "INSTANT"
+    },
+    "Children": [
+      {
+        "Id": "pdf_Zerg_equipment_kerrigan_swarm_raptors_zergling_default_2"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Zerg_equipment_queen_default_1_table",
+    "Name": "TALONS",
+    "Type": "Statline",
+    "Attributes": {
+      "Range": "6",
+      "Target": "Ground",
+      "RoA": "4",
+      "Hit": "4+",
+      "Surge Type": "Light",
+      "Surge Dice": "D3",
+      "Damage": "2",
+      "Keywords": "-"
+    },
+    "Children": [
+      {
+        "Id": "pdf_Zerg_equipment_queen_default_1"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Zerg_equipment_queen_default_2_table",
+    "Name": "ACID SPINES",
+    "Type": "Statline",
+    "Attributes": {
+      "Range": "12",
+      "Target": "Flying",
+      "RoA": "4",
+      "Hit": "4+",
+      "Surge Type": "Light, Armoured",
+      "Surge Dice": "D3",
+      "Damage": "2",
+      "Keywords": "-"
+    },
+    "Children": [
+      {
+        "Id": "pdf_Zerg_equipment_queen_default_2"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Zerg_equipment_queen_default_4_table",
+    "Name": "TALONS",
+    "Type": "Statline",
+    "Attributes": {
+      "Range": "E",
+      "Target": "Ground",
+      "RoA": "3",
+      "Hit": "4+",
+      "Surge Type": "-",
+      "Surge Dice": "-",
+      "Damage": "1",
+      "Keywords": "-"
+    },
+    "Children": [
+      {
+        "Id": "pdf_Zerg_equipment_queen_default_4"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Zerg_equipment_raptors_zergling_default_2_table",
+    "Name": "CLAWS",
+    "Type": "Statline",
+    "Attributes": {
+      "Range": "E",
+      "Target": "Ground",
+      "RoA": "2",
+      "Hit": "4+",
+      "Surge Type": "Light",
+      "Surge Dice": "D3",
+      "Damage": "1",
+      "Keywords": "-"
+    },
+    "Children": [
+      {
+        "Id": "pdf_Zerg_equipment_raptors_zergling_default_2"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Zerg_equipment_ravagers_default_2_table",
+    "Name": "PLASMA DISCHARGE",
+    "Type": "Statline",
+    "Attributes": {
+      "Range": "12",
+      "Target": "Ground",
+      "RoA": "4",
+      "Hit": "3+",
+      "Surge Type": "Light",
+      "Surge Dice": "D3+1",
+      "Damage": "1",
+      "Keywords": "-"
+    },
+    "Children": [
+      {
+        "Id": "pdf_Zerg_equipment_ravagers_default_2"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Zerg_equipment_ravagers_default_4_table",
+    "Name": "CLAWS",
+    "Type": "Statline",
+    "Attributes": {
+      "Range": "E",
+      "Target": "Ground",
+      "RoA": "2",
+      "Hit": "4+",
+      "Surge Type": "-",
+      "Surge Dice": "-",
+      "Damage": "1",
+      "Keywords": "-"
+    },
+    "Children": [
+      {
+        "Id": "pdf_Zerg_equipment_ravagers_default_4"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Zerg_equipment_roaches_default_1_table",
+    "Name": "ACID SALIVA",
+    "Type": "Statline",
+    "Attributes": {
+      "Range": "8",
+      "Target": "Ground",
+      "RoA": "3",
+      "Hit": "3+",
+      "Surge Type": "-",
+      "Surge Dice": "-",
+      "Damage": "1",
+      "Keywords": "-"
+    },
+    "Children": [
+      {
+        "Id": "pdf_Zerg_equipment_roaches_default_1"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Zerg_equipment_roaches_default_3_table",
+    "Name": "CLAWS",
+    "Type": "Statline",
+    "Attributes": {
+      "Range": "E",
+      "Target": "Ground",
+      "RoA": "2",
+      "Hit": "4+",
+      "Surge Type": "-",
+      "Surge Dice": "-",
+      "Damage": "1",
+      "Keywords": "-"
+    },
+    "Children": [
+      {
+        "Id": "pdf_Zerg_equipment_roaches_default_3"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Zerg_equipment_roachling_default_1_table",
+    "Name": "CLAWS",
+    "Type": "Statline",
+    "Attributes": {
+      "Range": "E",
+      "Target": "Ground",
+      "RoA": "2",
+      "Hit": "4+",
+      "Surge Type": "-",
+      "Surge Dice": "-",
+      "Damage": "1",
+      "Keywords": "-"
+    },
+    "Children": [
+      {
+        "Id": "pdf_Zerg_equipment_roachling_default_1"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Zerg_equipment_swarmlings_default_3_table",
+    "Name": "CLAWS",
+    "Type": "Statline",
+    "Attributes": {
+      "Range": "E",
+      "Target": "Ground",
+      "RoA": "2",
+      "Hit": "5+",
+      "Surge Type": "-",
+      "Surge Dice": "-",
+      "Damage": "1",
+      "Keywords": "-"
+    },
+    "Children": [
+      {
+        "Id": "pdf_Zerg_equipment_swarmlings_default_3"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Zerg_equipment_vileling_zergling_default_3_table",
+    "Name": "CLAWS",
+    "Type": "Statline",
+    "Attributes": {
+      "Range": "E",
+      "Target": "Ground",
+      "RoA": "2",
+      "Hit": "5+",
+      "Surge Type": "-",
+      "Surge Dice": "-",
+      "Damage": "1",
+      "Keywords": "-"
+    },
+    "Children": [
+      {
+        "Id": "pdf_Zerg_equipment_vileling_zergling_default_3"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Zerg_equipment_viles_roach_default_1_table",
+    "Name": "ACID SALIVA",
+    "Type": "Statline",
+    "Attributes": {
+      "Range": "8",
+      "Target": "Ground",
+      "RoA": "4",
+      "Hit": "3+",
+      "Surge Type": "-",
+      "Surge Dice": "-",
+      "Damage": "1",
+      "Keywords": "-"
+    },
+    "Children": [
+      {
+        "Id": "pdf_Zerg_equipment_viles_roach_default_1"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Zerg_equipment_viles_roach_default_3_table",
+    "Name": "VILE CLAWS",
+    "Type": "Statline",
+    "Attributes": {
+      "Range": "E",
+      "Target": "Ground",
+      "RoA": "2",
+      "Hit": "4+",
+      "Surge Type": "-",
+      "Surge Dice": "-",
+      "Damage": "1",
+      "Keywords": "-"
+    },
+    "Children": [
+      {
+        "Id": "pdf_Zerg_equipment_viles_roach_default_3"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Zerg_equipment_zagara_default_2_table",
+    "Name": "ZAGARA'S TALONS",
+    "Type": "Statline",
+    "Attributes": {
+      "Range": "8",
+      "Target": "Ground",
+      "RoA": "4",
+      "Hit": "3+",
+      "Surge Type": "Light, Armoured",
+      "Surge Dice": "D3",
+      "Damage": "2",
+      "Keywords": "-"
+    },
+    "Children": [
+      {
+        "Id": "pdf_Zerg_equipment_zagara_default_2"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Zerg_equipment_zagara_default_3_table",
+    "Name": "ZAGARA'S ACID SPINES",
+    "Type": "Statline",
+    "Attributes": {
+      "Range": "14",
+      "Target": "Flying",
+      "RoA": "8",
+      "Hit": "3+",
+      "Surge Type": "Light, Armoured",
+      "Surge Dice": "D3",
+      "Damage": "1",
+      "Keywords": "-"
+    },
+    "Children": [
+      {
+        "Id": "pdf_Zerg_equipment_zagara_default_3"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Zerg_equipment_zagara_default_5_table",
+    "Name": "TALONS",
+    "Type": "Statline",
+    "Attributes": {
+      "Range": "E",
+      "Target": "Ground",
+      "RoA": "4",
+      "Hit": "3+",
+      "Surge Type": "-",
+      "Surge Dice": "-",
+      "Damage": "1",
+      "Keywords": "-"
+    },
+    "Children": [
+      {
+        "Id": "pdf_Zerg_equipment_zagara_default_5"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Zerg_equipment_zerglings_default_2_table",
+    "Name": "CLAWS",
+    "Type": "Statline",
+    "Attributes": {
+      "Range": "E",
+      "Target": "Ground",
+      "RoA": "2",
+      "Hit": "4+",
+      "Surge Type": "Light",
+      "Surge Dice": "D3",
+      "Damage": "1",
+      "Keywords": "-"
+    },
+    "Children": [
+      {
+        "Id": "pdf_Zerg_equipment_zerglings_default_2"
+      }
+    ]
+  },
+  {
     "Id": "pdf_Zerg_stat_bile_launcher",
     "Name": "Bile Launcher",
     "Type": "Statline",

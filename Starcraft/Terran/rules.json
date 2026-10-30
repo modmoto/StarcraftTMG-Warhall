@@ -1,182 +1,747 @@
 [
   {
-    "Id": "pdf_Terran_rule_auto_turret_default_0",
-    "Name": "Any Phase abilities",
-    "Type": "Rule",
-    "Description": "Rules (Any Phase)\nEffect: TIMED LIFE: PASSIVE Remove this Unit at the End of the Round.\nSTRUCTURE: PASSIVE This Unit cannot be Activated in any Phase and cannot perform actions. Additionally, its Current\nSupply Value is treated as 0 , and it can never Control or Contest Mission Markers , ignoring the standard Zero Supply\nException . This Unit cannot be a target of an ability, unless stated otherwise."
+    "Id": "pdf_Terran_profile_auto_turret_phase_any_phase",
+    "Name": "",
+    "Type": "",
+    "Description": "<b>Any Phase</b>",
+    "Children": []
   },
   {
-    "Id": "pdf_Terran_rule_auto_turret_default_2",
-    "Name": "Assault Phase abilities",
-    "Type": "Rule",
-    "Description": "Rules (Assault Phase)\nEffect: OVERWATCH: REACTION 0 CP Use when an Enemy Unit ends its Activation Within 8\" of this Unit. This Unit\nimmediately performs a Ranged Attack against that Enemy Unit."
+    "Id": "pdf_Terran_profile_auto_turret_phase_assault_phase",
+    "Name": "",
+    "Type": "",
+    "Description": "<b>Assault Phase</b>",
+    "Children": []
   },
   {
-    "Id": "pdf_Terran_rule_goliath_default_0",
-    "Name": "Movement Phase abilities",
-    "Type": "Rule",
-    "Description": "Rules (Movement Phase)\nEffect: TARGET LOCK: ACTIVE 1 CP Select one Enemy Unit Within 12\" . Whenever\na Friendly Goliath Unit targets that enemy with an Autocannon , that weapon gains Surge Type: Light,\nArmoured , and S Dice: D3+1 ."
+    "Id": "pdf_Terran_profile_goliath_phase_assault_phase",
+    "Name": "",
+    "Type": "",
+    "Description": "<b>Assault Phase</b>",
+    "Children": []
   },
   {
-    "Id": "pdf_Terran_rule_goliath_default_4",
-    "Name": "Assault Phase abilities",
-    "Type": "Rule",
-    "Description": "Rules (Assault Phase)\nEffect: INDOMITABLE: PASSIVE While Engaged , this Unit\nmay target and be targeted by Unengaged Enemy\nUnits. In both cases, the defending Unit gains an Evade\nRoll against those attacks.\nDEVASTATING CHARGE: PASSIVE Immediately after\nthis Unit completes a successful Charge , resolve the\nIMPACT (4) 3+ effect."
+    "Id": "pdf_Terran_profile_goliath_phase_melee_phase",
+    "Name": "",
+    "Type": "",
+    "Description": "<b>Melee Phase</b>",
+    "Children": []
   },
   {
-    "Id": "pdf_Terran_rule_holo_decoy_default_0",
-    "Name": "Any Phase abilities",
-    "Type": "Rule",
-    "Description": "Rules (Any Phase)\nEffect: TIMED LIFE: PASSIVE Remove this Unit at\nthe End of the Round .\nDECOY: PASSIVE This Unit is never Engaged . It cannot\nEngage Enemy Units, cannot be Engaged by Enemy Units\nand cannot perform a Charge Action . This Unit cannot\nbe the target of an ability, unless stated otherwise. It can\nnever Control or Contest Mission Markers .\nSURPRISE!: PASSIVE At the End of the Round , you can set\na Friendly Nova Stealth Mode or Nova Assault Mode in\nCoherency with this Unit.\nLETHAL HOLOGRAM : PASSIVE All Weapons of Friendly\nUnits targeting an Enemy Unit Within 4\" of this Unit gain\nPRECISION (1) ."
+    "Id": "pdf_Terran_profile_goliath_phase_movement_phase",
+    "Name": "",
+    "Type": "",
+    "Description": "<b>Movement Phase</b>",
+    "Children": []
   },
   {
-    "Id": "pdf_Terran_rule_jim_raynor_default_0",
-    "Name": "Any Phase abilities",
-    "Type": "Rule",
-    "Description": "Rules (Any Phase)\nEffect: COMMANDER: PASSIVE Treat this Unit's\nSupply characteristic as increased by 1 for Controlling and\nContesting Mission Markers , completing objectives, and\nresolving Disengage checks.\nFREEDOM FIGHTERS: PASSIVE The Supply Value of all\nFriendly Units Within 8\" of this Unit cannot be reduced\nbelow 1 for Contesting Mission Markers and completing\nobjectives."
+    "Id": "pdf_Terran_profile_holo_decoy_phase_any_phase",
+    "Name": "",
+    "Type": "",
+    "Description": "<b>Any Phase</b>",
+    "Children": []
   },
   {
-    "Id": "pdf_Terran_rule_jim_raynor_default_1",
-    "Name": "Movement Phase abilities",
-    "Type": "Rule",
-    "Description": "Rules (Movement Phase)\nEffect: ORDERS: ACTIVE X CP REPEATABLE . Select another Friendly Biological Unit Within\n8\" , spend CP and apply one of the following effects:\n1 CP : That Unit's first used weapon gains the CRITICAL HIT (2) .\n1 CP : That Unit ignores the Disengage penalty for the remainder of the Round.\n2 CP : Remove the Activation Marker from that Unit."
+    "Id": "pdf_Terran_profile_jim_raynor_phase_any_phase",
+    "Name": "",
+    "Type": "",
+    "Description": "<b>Any Phase</b>",
+    "Children": []
   },
   {
-    "Id": "pdf_Terran_rule_marauders_default_0",
-    "Name": "Movement Phase abilities",
-    "Type": "Rule",
-    "Description": "Rules (Movement Phase)\nEffect: STIMPACK: ACTIVE 1 CP This Unit suffers NON-LETHAL DAMAGE (2) . This Unit gains\nBUFF Speed (3) . Additionally, its Quad K12 and all Close Combat Weapons gain PRECISION (2) ."
+    "Id": "pdf_Terran_profile_jim_raynor_phase_assault_phase",
+    "Name": "",
+    "Type": "",
+    "Description": "<b>Assault Phase</b>",
+    "Children": []
   },
   {
-    "Id": "pdf_Terran_rule_marauders_default_2",
-    "Name": "Assault Phase abilities",
-    "Type": "Rule",
-    "Description": "Rules (Assault Phase)\nEffect: CONCUSIVE SHELLS: REACTION 1 CP When an Enemy declares a Charge against a Friendly Unit Within 8\" , that\nEnemy gains DEBUFF Speed (2) ."
+    "Id": "pdf_Terran_profile_jim_raynor_phase_melee_phase",
+    "Name": "",
+    "Type": "",
+    "Description": "<b>Melee Phase</b>",
+    "Children": []
   },
   {
-    "Id": "pdf_Terran_rule_marines_default_0",
-    "Name": "Movement Phase abilities",
-    "Type": "Rule",
-    "Description": "Rules (Movement Phase)\nEffect: STIMPACK: ACTIVE 1 CP This Unit suffers NON-LETHAL DAMAGE (2) . This Unit\ngains BUFF Speed (3) . Additionally, its C-14 Rifle and all Close Combat Weapons gain PRECISION (3) ."
+    "Id": "pdf_Terran_profile_jim_raynor_phase_movement_phase",
+    "Name": "",
+    "Type": "",
+    "Description": "<b>Movement Phase</b>",
+    "Children": []
   },
   {
-    "Id": "pdf_Terran_rule_medics_default_0",
-    "Name": "Any Phase abilities",
-    "Type": "Rule",
-    "Description": "Rules (Any Phase)\nEffect: LIFE SUPPORT: REACTION 1 CP Use when\nanother Friendly Biological Unit suffers Damage Within\n4\" . Reduce the Total Damage before allocation by 1 for\neach model in this Unit that is Within 4\" of the damaged\nUnit.\nRESTORATION: REACTION 1 CP Use when a Friendly Unit\nWithin 4\" receives a DEBUFF . Remove all DEBUFFS from it."
+    "Id": "pdf_Terran_profile_marauders_phase_assault_phase",
+    "Name": "",
+    "Type": "",
+    "Description": "<b>Assault Phase</b>",
+    "Children": []
   },
   {
-    "Id": "pdf_Terran_rule_medics_default_1",
-    "Name": "Movement Phase abilities",
-    "Type": "Rule",
-    "Description": "Rules (Movement Phase)\nEffect: MEDPACK: ACTIVE\n1 CP Select another Friendly Biological Unit Within\n4\" . Resolve the HEAL (X) effect for the targeted Unit,\nwhere X is the number of models in this Unit that are\nWithin 4\" of the target Unit.\nOPTICAL FLARE: ACTIVE 2 CP Select one Enemy Unit\nWithin 12\" . Until the End of the Round , apply DEBUFF\nRange (4) to that Unit's Ranged Weapons . That Unit\ncannot benefit from LONG RANGE."
+    "Id": "pdf_Terran_profile_marauders_phase_melee_phase",
+    "Name": "",
+    "Type": "",
+    "Description": "<b>Melee Phase</b>",
+    "Children": []
   },
   {
-    "Id": "pdf_Terran_rule_nova_assault_mode_default_0",
-    "Name": "Any Phase abilities",
-    "Type": "Rule",
-    "Description": "Rules (Any Phase)\nEffect: BATTLE PREPARATION : PASSIVE During\nArmy Building , your army cannot include both the Nova\nAssault Mode Unit and the Nova Stealth Mode Unit.\nGHOST VISOR: PASSIVE While Enemy Units are Within 6\"\nof this Unit, they lose the HIDDEN Status ."
+    "Id": "pdf_Terran_profile_marauders_phase_movement_phase",
+    "Name": "",
+    "Type": "",
+    "Description": "<b>Movement Phase</b>",
+    "Children": []
   },
   {
-    "Id": "pdf_Terran_rule_nova_assault_mode_default_1",
-    "Name": "Movement Phase abilities",
-    "Type": "Rule",
-    "Description": "Rules (Movement Phase)\nEffect: SUPER STIMPACK:\nACTIVE 1 CP This Unit gains BUFF Speed (2) .\nAdditionally, all its Weapons gain PRECISION (2).\nHOLO DECOY: ACTIVE 1 CP Resolve the SUMMON\n(Holo Decoy) effect. Then, Holo Decoy may\nimmediately perform a Move action."
+    "Id": "pdf_Terran_profile_medics_phase_any_phase",
+    "Name": "",
+    "Type": "",
+    "Description": "<b>Any Phase</b>",
+    "Children": []
   },
   {
-    "Id": "pdf_Terran_rule_nova_assault_mode_default_3",
-    "Name": "Assault Phase abilities",
-    "Type": "Rule",
-    "Description": "Rules (Assault Phase)\nEffect: PHASE REACTOR SUIT : ACTIVE 1 CP If Unengaged ,\nresolve the PLACE (6) effect.\nDEVASTATING CHARGE: PASSIVE Immediately after\nthis Unit completes a successful Charge , resolve the\nIMPACT (4) 4+ effect."
+    "Id": "pdf_Terran_profile_medics_phase_melee_phase",
+    "Name": "",
+    "Type": "",
+    "Description": "<b>Melee Phase</b>",
+    "Children": []
   },
   {
-    "Id": "pdf_Terran_rule_nova_stealth_mode_default_0",
-    "Name": "Any Phase abilities",
-    "Type": "Rule",
-    "Description": "Rules (Any Phase)\nEffect: BATTLE PREPARATION : PASSIVE During\nArmy Building , your army cannot include both the Nova\nAssault Mode Unit and the Nova Stealth Mode Unit.\nTACTICAL STEALTH SUIT : PASSIVE After this Unit fully\nresolves an Action , it gains the HIDDEN Status .\nGHOST VISOR: PASSIVE While Enemy Units are Within 6\"\nof this Unit, they lose the HIDDEN Status ."
+    "Id": "pdf_Terran_profile_medics_phase_movement_phase",
+    "Name": "",
+    "Type": "",
+    "Description": "<b>Movement Phase</b>",
+    "Children": []
   },
   {
-    "Id": "pdf_Terran_rule_nova_stealth_mode_default_1",
-    "Name": "Movement Phase abilities",
-    "Type": "Rule",
-    "Description": "Rules (Movement Phase)\nEffect: SUPER STIMPACK:\nACTIVE 1 CP This Unit gains BUFF Speed (2) .\nAdditionally, all its Weapons gain PRECISION (2).\nHOLO DECOY: ACTIVE 1 CP Resolve the SUMMON\n(Holo Decoy) effect. Then, Holo Decoy may\nimmediately perform a Move action."
+    "Id": "pdf_Terran_profile_nova_assault_mode_phase_any_phase",
+    "Name": "",
+    "Type": "",
+    "Description": "<b>Any Phase</b>",
+    "Children": []
   },
   {
-    "Id": "pdf_Terran_rule_nova_stealth_mode_default_3",
-    "Name": "Assault Phase abilities",
-    "Type": "Rule",
-    "Description": "Rules (Assault Phase)\nEffect: OPERATIONAL EFFICIENCY : PASSIVE After this Unit\nfully resolves a Ranged Attack with its C-20A Canister\nRifle , if the target Enemy Unit was Destroyed or its\nCurrent Supply Value was reduced, the active player\nmay return one of their Exhausted non-Unique\nTactical Cards to its Ready state.\nHEAD SHOT: REACTION 1 CP Once Per Game. While\nthis Unit is Unengaged and has the Stationary Status ,\nwhen it makes a Ranged Attack with its C-20A Canister\nRifle , treat that weapon's Damage characteristic as 3 ,\nand it gains CONCENTRATED FIRE (1) ."
+    "Id": "pdf_Terran_profile_nova_assault_mode_phase_assault_phase",
+    "Name": "",
+    "Type": "",
+    "Description": "<b>Assault Phase</b>",
+    "Children": []
   },
   {
-    "Id": "pdf_Terran_rule_point_defense_drone_default_0",
-    "Name": "Any Phase abilities",
-    "Type": "Rule",
-    "Description": "Rules (Any Phase)\nEffect: POINT DEFENSE LASER: PASSIVE When\nanother Friendly Unit Within 4\" is targeted by a Ranged\nAttack without the INSTANT keyword, remove up to 2\ndice from the Attack Pool . Then remove this Unit from the\nbattlefield.\nGLIDING: PASSIVE This model has DISPLACEMENT .\nSTRUCTURE: PASSIVE This Unit cannot be Activated\nin any Phase and cannot perform actions. Additionally,\nits Current Supply Value is treated as 0 , and it can\nnever Control or Contest Mission Markers , ignoring the\nstandard Zero Supply Exception . This Unit cannot be a\ntarget of an ability, unless stated otherwise."
+    "Id": "pdf_Terran_profile_nova_assault_mode_phase_melee_phase",
+    "Name": "",
+    "Type": "",
+    "Description": "<b>Melee Phase</b>",
+    "Children": []
   },
   {
-    "Id": "pdf_Terran_rule_raven_default_0",
-    "Name": "Any Phase abilities",
-    "Type": "Rule",
-    "Description": "Rules (Any Phase)\nEffect: DETECTION: PASSIVE While Enemy Units are Within 6\" of this Unit, they lose the HIDDEN Status ."
+    "Id": "pdf_Terran_profile_nova_assault_mode_phase_movement_phase",
+    "Name": "",
+    "Type": "",
+    "Description": "<b>Movement Phase</b>",
+    "Children": []
   },
   {
-    "Id": "pdf_Terran_rule_raven_default_1",
-    "Name": "Movement Phase abilities",
-    "Type": "Rule",
-    "Description": "Rules (Movement Phase)\nEffect: DEPLOY AUTO-TURRET:\nACTIVE 1 CP Set a Friendly Auto-Turret Unit Within\n6\" , and not Within the Engagement Range of any\nEnemy Unit.\nANTI-ARMOUR MISSILE: ACTIVE 1 CP Select one\nEnemy Unit Within 12\" . Apply DEBUFF Armour (1) ."
+    "Id": "pdf_Terran_profile_nova_stealth_mode_phase_any_phase",
+    "Name": "",
+    "Type": "",
+    "Description": "<b>Any Phase</b>",
+    "Children": []
   },
   {
-    "Id": "pdf_Terran_rule_raynor_s_raiders_default_0",
-    "Name": "Movement Phase abilities",
-    "Type": "Rule",
-    "Description": "Rules (Movement Phase)\nEffect: STIMPACK: ACTIVE 1 CP\nThis Unit suffers NON-LETHAL DAMAGE (2) . This Unit\ngains BUFF Speed (3) . Additionally, its C-14 Rifle and\nall Close Combat Weapons gain PRECISION (3) .\nRAIDERS ROLL!: PASSIVE When this Unit is nominated\nto deploy from Reserves , it may resolve its Stimpack\nability with the CP cost reduced by 1 (to a minimum\nof 0).\nRAPID REINFORCEMENTS: PASSIVE When this Unit is nominated to deploy from Reserves , it may resolve the\nPLACE (10) effect from another Friendly Unit. No model may be set Within 8\" of any Enemy model. This Unit's\nActivation ends."
+    "Id": "pdf_Terran_profile_nova_stealth_mode_phase_assault_phase",
+    "Name": "",
+    "Type": "",
+    "Description": "<b>Assault Phase</b>",
+    "Children": []
   },
   {
-    "Id": "pdf_Terran_rule_raynor_s_raiders_default_2",
-    "Name": "Assault Phase abilities",
-    "Type": "Rule",
-    "Description": "Rules (Assault Phase)\nEffect: SLUGTHROWER: PASSIVE When this Unit makes\na Ranged Attack with a C-14 Rifle and the target is\nWithin 8\" , that weapon gains ANTI-EVADE (1) .\nGRENADES - FRAG: PASSIVE When this Unit makes\na Ranged Attack with a C-14 Rifle and the target is\nWithin 8\" , that weapon's S Dice is replaced by D6 ."
+    "Id": "pdf_Terran_profile_nova_stealth_mode_phase_melee_phase",
+    "Name": "",
+    "Type": "",
+    "Description": "<b>Melee Phase</b>",
+    "Children": []
   },
   {
-    "Id": "pdf_Terran_rule_sabotage_drone_default_0",
-    "Name": "Any Phase abilities",
-    "Type": "Rule",
-    "Description": "Rules (Any Phase)\nEffect: STRUCTURE: PASSIVE This Unit cannot be Activated in any Phase and cannot perform actions.\nAdditionally, its Current Supply Value is treated as 0 , and it can never Control or Contest Mission Markers , ignoring the\nstandard Zero Supply Exception . This Unit cannot be a target of an ability, unless stated otherwise."
+    "Id": "pdf_Terran_profile_nova_stealth_mode_phase_movement_phase",
+    "Name": "",
+    "Type": "",
+    "Description": "<b>Movement Phase</b>",
+    "Children": []
   },
   {
-    "Id": "pdf_Terran_rule_sabotage_drone_default_1",
-    "Name": "Assault Phase abilities",
-    "Type": "Rule",
-    "Description": "Rules (Assault Phase)\nEffect: HAVE A NICE DAY: PASSIVE At the End of the Assault Phase , target each Unit Within\n3\" of this Unit (including Units with the Structure ability) suffers HITS 5 (1) . If an affected Unit has the Structure\nability, that Unit suffers an additional HITS 5 (1) ."
+    "Id": "pdf_Terran_profile_point_defense_drone_phase_any_phase",
+    "Name": "",
+    "Type": "",
+    "Description": "<b>Any Phase</b>",
+    "Children": []
   },
   {
-    "Id": "pdf_Terran_rule_siege_tank_default_0",
-    "Name": "Any Phase abilities",
-    "Type": "Rule",
-    "Description": "Rules (Any Phase)\nEffect: LARGE: PASSIVE When this Unit's Leading\nModel moves, it cannot pass through physical gaps smaller\nthan 3\" wide, regardless of its size. If the Leading Model's\npath of travel passes through, or any model in this Unit\nends its movement on a Size 0 or Size 1 Impassible Terrain\npiece ( excluding Tokens) during any movement action, that\nterrain piece is immediately removed from the game.\nHEAVY PLATING: PASSIVE When this Unit resolves an\nArmour Roll , it gains TOUGH (1) , provided it does not\ncurrently have the SIEGE MODE Status ."
+    "Id": "pdf_Terran_profile_raven_phase_any_phase",
+    "Name": "",
+    "Type": "",
+    "Description": "<b>Any Phase</b>",
+    "Children": []
   },
   {
-    "Id": "pdf_Terran_rule_siege_tank_default_3",
-    "Name": "Assault Phase abilities",
-    "Type": "Rule",
-    "Description": "Rules (Assault Phase)\nEffect: INDOMITABLE: PASSIVE While Engaged , this Unit\nmay target and be targeted by Unengaged Enemy\nUnits. In both cases, the defending Unit gains an Evade\nRoll against those attacks.\nPOINT BLANK: PASSIVE While this Unit has the\nSIEGE MODE Status , it cannot target Enemy Units it is\nEngaged with.\nAFTERSHOCK ROUNDS: PASSIVE When this Unit has\nthe SIEGE MODE Status , its Damage characteristic is\ntreated as equal to the Size characteristic of the current\ntarget Unit (to a minimum of 1) .\nDEVASTATING CHARGE: PASSIVE Immediately after\nthis Unit completes a successful Charge , resolve the\nIMPACT (4) 3+ effect."
+    "Id": "pdf_Terran_profile_raven_phase_assault_phase",
+    "Name": "",
+    "Type": "",
+    "Description": "<b>Assault Phase</b>",
+    "Children": []
   },
   {
-    "Id": "pdf_Terran_rule_spec_ops_marauder_marauder_default_0",
-    "Name": "Any Phase abilities",
-    "Type": "Rule",
-    "Description": "Rules (Any Phase)\nEffect: SPEC OPS ARMOUR: ACTIVE 1 CP This Unit gains the HIDDEN Status until it performs another action."
+    "Id": "pdf_Terran_profile_raven_phase_movement_phase",
+    "Name": "",
+    "Type": "",
+    "Description": "<b>Movement Phase</b>",
+    "Children": []
   },
   {
-    "Id": "pdf_Terran_rule_spec_ops_marauder_marauder_default_1",
-    "Name": "Movement Phase abilities",
-    "Type": "Rule",
-    "Description": "Rules (Movement Phase)\nEffect: COMMANDO STIMPACK: ACTIVE 1 CP This Unit gains BUFF Speed (3) . Additionally,\nits Quad K12 and all Close Combat Weapons gain PRECISION (2) ."
+    "Id": "pdf_Terran_profile_raynor_s_raiders_phase_assault_phase",
+    "Name": "",
+    "Type": "",
+    "Description": "<b>Assault Phase</b>",
+    "Children": []
   },
   {
-    "Id": "pdf_Terran_rule_spec_ops_marauder_marauder_default_3",
-    "Name": "Assault Phase abilities",
+    "Id": "pdf_Terran_profile_raynor_s_raiders_phase_melee_phase",
+    "Name": "",
+    "Type": "",
+    "Description": "<b>Melee Phase</b>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Terran_profile_raynor_s_raiders_phase_movement_phase",
+    "Name": "",
+    "Type": "",
+    "Description": "<b>Movement Phase</b>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Terran_profile_sabotage_drone_phase_any_phase",
+    "Name": "",
+    "Type": "",
+    "Description": "<b>Any Phase</b>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Terran_profile_sabotage_drone_phase_assault_phase",
+    "Name": "",
+    "Type": "",
+    "Description": "<b>Assault Phase</b>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Terran_profile_siege_tank_phase_any_phase",
+    "Name": "",
+    "Type": "",
+    "Description": "<b>Any Phase</b>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Terran_profile_siege_tank_phase_assault_phase",
+    "Name": "",
+    "Type": "",
+    "Description": "<b>Assault Phase</b>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Terran_profile_siege_tank_phase_melee_phase",
+    "Name": "",
+    "Type": "",
+    "Description": "<b>Melee Phase</b>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Terran_profile_spec_ops_marauder_marauder_phase_any_phase",
+    "Name": "",
+    "Type": "",
+    "Description": "<b>Any Phase</b>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Terran_profile_spec_ops_marauder_marauder_phase_assault_phase",
+    "Name": "",
+    "Type": "",
+    "Description": "<b>Assault Phase</b>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Terran_profile_spec_ops_marauder_marauder_phase_melee_phase",
+    "Name": "",
+    "Type": "",
+    "Description": "<b>Melee Phase</b>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Terran_profile_spec_ops_marauder_marauder_phase_movement_phase",
+    "Name": "",
+    "Type": "",
+    "Description": "<b>Movement Phase</b>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Terran_rule_auto_turret_any_phase_structure",
+    "Name": "Structure",
     "Type": "Rule",
-    "Description": "Rules (Assault Phase)\nEffect: MAGRAIL MUNITIONS: PASSIVE This Unit's first\nAttack in the game with its Quad K12 gains PIERCE\nArmoured (3) .\nSUPPRESSION SHELLS: REACTION 1 CP When an\nEnemy declares a Charge against a Friendly Unit\nWithin 8\" , that Enemy gains DEBUFF Speed (3) ."
+    "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Passive\n\nThis Unit cannot be Activated in any Phase and cannot perform actions. Additionally, its <link=\"rule_keyword_current_supply_value\">Current Supply Value</link> is treated as 0, and it can never Control or Contest <link=\"rule_keyword_mission_markers\">Mission Markers</link>, ignoring the standard Zero Supply Exception. This Unit cannot be a target of an ability, unless stated otherwise."
+  },
+  {
+    "Id": "pdf_Terran_rule_auto_turret_any_phase_timed_life",
+    "Name": "Timed Life",
+    "Type": "Rule",
+    "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Passive\n\nRemove this Unit at the End of the Round."
+  },
+  {
+    "Id": "pdf_Terran_rule_auto_turret_assault_phase_overwatch",
+    "Name": "Overwatch",
+    "Type": "Rule",
+    "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Reaction\n<b>Cost:</b> 0 CP\n\nUse when an <link=\"rule_keyword_enemy\">Enemy</link> Unit ends its Activation <link=\"rule_keyword_within\">Within</link> 8\" of this Unit. This Unit immediately performs a Ranged Attack against that Enemy Unit."
+  },
+  {
+    "Id": "pdf_Terran_rule_goliath_assault_phase_devastating_charge",
+    "Name": "Devastating Charge",
+    "Type": "Rule",
+    "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Passive\n\nImmediately after this Unit completes a successful Charge, resolve the <link=\"rule_keyword_impact\">IMPACT</link> (4) 3+ effect."
+  },
+  {
+    "Id": "pdf_Terran_rule_goliath_assault_phase_indomitable",
+    "Name": "Indomitable",
+    "Type": "Rule",
+    "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Passive\n\nWhile <link=\"rule_keyword_engaged\">Engaged</link>, this Unit may target and be targeted by <link=\"rule_keyword_unengaged\">Unengaged</link> <link=\"rule_keyword_enemy\">Enemy</link> Units. In both cases, the defending Unit gains an Evade Roll against those attacks."
+  },
+  {
+    "Id": "pdf_Terran_rule_goliath_movement_phase_target_lock",
+    "Name": "Target Lock",
+    "Type": "Rule",
+    "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Active\n<b>Cost:</b> 1 CP\n\nSelect one <link=\"rule_keyword_enemy\">Enemy</link> Unit <link=\"rule_keyword_within\">Within</link> 12\". Whenever a <link=\"rule_keyword_friendly\">Friendly</link> Goliath Unit targets that enemy with an Autocannon, that weapon gains Surge Type: Light, Armoured, and S Dice: D3+1."
+  },
+  {
+    "Id": "pdf_Terran_rule_goliath_upgrade_any_phase_ares_class_targeting_system",
+    "Name": "Ares-Class Targeting System",
+    "Type": "Rule",
+    "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Passive\n<b>Upgrade ability</b>\n\nThis Unit's Autocannon and Underbelly Machine Gun weapons gain <link=\"rule_keyword_precision\">PRECISION</link> (1)."
+  },
+  {
+    "Id": "pdf_Terran_rule_holo_decoy_any_phase_decoy",
+    "Name": "Decoy",
+    "Type": "Rule",
+    "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Passive\n\nThis Unit is never <link=\"rule_keyword_engaged\">Engaged</link>. It cannot Engage <link=\"rule_keyword_enemy\">Enemy</link> Units, cannot be Engaged by Enemy Units and cannot perform a Charge Action. This Unit cannot be the target of an ability, unless stated otherwise. It can never Control or Contest <link=\"rule_keyword_mission_markers\">Mission Markers</link>."
+  },
+  {
+    "Id": "pdf_Terran_rule_holo_decoy_any_phase_lethal_hologram",
+    "Name": "Lethal Hologram",
+    "Type": "Rule",
+    "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Passive\n\nAll Weapons of <link=\"rule_keyword_friendly\">Friendly</link> Units targeting an <link=\"rule_keyword_enemy\">Enemy</link> Unit <link=\"rule_keyword_within\">Within</link> 4\" of this Unit gain <link=\"rule_keyword_precision\">PRECISION</link> (1)."
+  },
+  {
+    "Id": "pdf_Terran_rule_holo_decoy_any_phase_surprise",
+    "Name": "Surprise!",
+    "Type": "Rule",
+    "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Passive\n\nAt the End of the Round, you can set a <link=\"rule_keyword_friendly\">Friendly</link> Nova Stealth Mode or Nova Assault Mode in Coherency with this Unit."
+  },
+  {
+    "Id": "pdf_Terran_rule_holo_decoy_any_phase_timed_life",
+    "Name": "Timed Life",
+    "Type": "Rule",
+    "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Passive\n\nRemove this Unit at the End of the Round."
+  },
+  {
+    "Id": "pdf_Terran_rule_jim_raynor_any_phase_commander",
+    "Name": "Commander",
+    "Type": "Rule",
+    "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Passive\n\nTreat this Unit's Supply characteristic as increased by 1 for Controlling and Contesting <link=\"rule_keyword_mission_markers\">Mission Markers</link>, completing objectives, and resolving Disengage checks."
+  },
+  {
+    "Id": "pdf_Terran_rule_jim_raynor_any_phase_freedom_fighters",
+    "Name": "Freedom Fighters",
+    "Type": "Rule",
+    "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Passive\n\nThe <link=\"rule_keyword_supply_value\">Supply Value</link> of all <link=\"rule_keyword_friendly\">Friendly</link> Units <link=\"rule_keyword_within\">Within</link> 8\" of this Unit cannot be reduced below 1 for Contesting <link=\"rule_keyword_mission_markers\">Mission Markers</link> and completing objectives."
+  },
+  {
+    "Id": "pdf_Terran_rule_jim_raynor_movement_phase_orders",
+    "Name": "Orders",
+    "Type": "Rule",
+    "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Active\n<b>Cost:</b> X CP\n\n<link=\"rule_keyword_repeatable\">REPEATABLE</link>. Select another <link=\"rule_keyword_friendly\">Friendly</link> Biological Unit <link=\"rule_keyword_within\">Within</link> 8\", spend CP and apply one of the following effects:\n1 CP: That Unit's first used weapon gains the <link=\"rule_keyword_critical_hit\">CRITICAL HIT</link> (2).\n1 CP: That Unit ignores the Disengage penalty for the remainder of the Round.\n2 CP: Remove the Activation Marker from that Unit."
+  },
+  {
+    "Id": "pdf_Terran_rule_marauders_assault_phase_concusive_shells",
+    "Name": "Concusive Shells",
+    "Type": "Rule",
+    "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Reaction\n<b>Cost:</b> 1 CP\n\nWhen an <link=\"rule_keyword_enemy\">Enemy</link> declares a Charge against a <link=\"rule_keyword_friendly\">Friendly</link> Unit <link=\"rule_keyword_within\">Within</link> 8\", that Enemy gains <link=\"rule_keyword_debuff\">DEBUFF</link> Speed (2)."
+  },
+  {
+    "Id": "pdf_Terran_rule_marauders_movement_phase_stimpack",
+    "Name": "Stimpack",
+    "Type": "Rule",
+    "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Active\n<b>Cost:</b> 1 CP\n\nThis Unit suffers <link=\"rule_keyword_non_lethal_damage\">NON-LETHAL DAMAGE</link> (2). This Unit gains <link=\"rule_keyword_buff\">BUFF</link> Speed (3). Additionally, its Quad K12 and all Close Combat Weapons gain <link=\"rule_keyword_precision\">PRECISION</link> (2)."
+  },
+  {
+    "Id": "pdf_Terran_rule_marauders_upgrade_any_phase_kinetic_foam",
+    "Name": "Kinetic Foam",
+    "Type": "Rule",
+    "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Passive\n<b>Upgrade ability</b>\n\nIncrease this Unit's Hit Points characteristic by 1."
+  },
+  {
+    "Id": "pdf_Terran_rule_marauders_upgrade_any_phase_veteran_of_tarsonis",
+    "Name": "Veteran Of Tarsonis",
+    "Type": "Rule",
+    "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Passive\n<b>Upgrade ability</b>\n\nWhile this Unit is <link=\"rule_keyword_within\">Within</link> 3\" of a Mission Marker, its Armour characteristic is increased by 1."
+  },
+  {
+    "Id": "pdf_Terran_rule_marauders_upgrade_assault_phase_laser_targeting_systems",
+    "Name": "Laser Targeting Systems",
+    "Type": "Rule",
+    "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Passive\n<b>Upgrade ability</b>\n\nThis Unit's Quad K12 weapon gains <link=\"rule_keyword_long_range\">LONG RANGE</link> (16\")."
+  },
+  {
+    "Id": "pdf_Terran_rule_marines_movement_phase_stimpack",
+    "Name": "Stimpack",
+    "Type": "Rule",
+    "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Active\n<b>Cost:</b> 1 CP\n\nThis Unit suffers <link=\"rule_keyword_non_lethal_damage\">NON-LETHAL DAMAGE</link> (2). This Unit gains <link=\"rule_keyword_buff\">BUFF</link> Speed (3). Additionally, its C-14 Rifle and all Close Combat Weapons gain <link=\"rule_keyword_precision\">PRECISION</link> (3)."
+  },
+  {
+    "Id": "pdf_Terran_rule_marines_upgrade_assault_phase_grenades_frag",
+    "Name": "Grenades - Frag",
+    "Type": "Rule",
+    "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Passive\n<b>Upgrade ability</b>\n\nWhen this Unit makes a Ranged Attack with a C-14 Rifle and the target is <link=\"rule_keyword_within\">Within</link> 8\", that weapon's S Dice is replaced by D6."
+  },
+  {
+    "Id": "pdf_Terran_rule_marines_upgrade_assault_phase_slugthrower",
+    "Name": "Slugthrower",
+    "Type": "Rule",
+    "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Passive\n<b>Upgrade ability</b>\n\nWhen this Unit makes a Ranged Attack with a C-14 Rifle and the target is <link=\"rule_keyword_within\">Within</link> 8\", that weapon gains <link=\"rule_keyword_anti_evade\">ANTI-EVADE</link> (1)."
+  },
+  {
+    "Id": "pdf_Terran_rule_marines_upgrade_movement_phase_combat_shield",
+    "Name": "Combat Shield",
+    "Type": "Rule",
+    "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Active\n<b>Cost:</b> 1 CP\n<b>Upgrade ability</b>\n\nThis Unit is always eligible to make an Evade Roll against any Close Combat Attack targeting it and any Damage from an <link=\"rule_keyword_enemy\">Enemy</link> <link=\"rule_keyword_special_ability\">Special Ability</link>."
+  },
+  {
+    "Id": "pdf_Terran_rule_medics_any_phase_life_support",
+    "Name": "Life Support",
+    "Type": "Rule",
+    "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Reaction\n<b>Cost:</b> 1 CP\n\nUse when another <link=\"rule_keyword_friendly\">Friendly</link> Biological Unit suffers Damage <link=\"rule_keyword_within\">Within</link> 4\". Reduce the Total Damage before allocation by 1 for each model in this Unit that is Within 4\" of the damaged Unit."
+  },
+  {
+    "Id": "pdf_Terran_rule_medics_any_phase_restoration",
+    "Name": "Restoration",
+    "Type": "Rule",
+    "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Reaction\n<b>Cost:</b> 1 CP\n\nUse when a <link=\"rule_keyword_friendly\">Friendly</link> Unit <link=\"rule_keyword_within\">Within</link> 4\" receives a <link=\"rule_keyword_debuff\">DEBUFF</link>. Remove all DEBUFFS from it."
+  },
+  {
+    "Id": "pdf_Terran_rule_medics_movement_phase_medpack",
+    "Name": "Medpack",
+    "Type": "Rule",
+    "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Active\n<b>Cost:</b> 1 CP\n\nSelect another <link=\"rule_keyword_friendly\">Friendly</link> Biological Unit <link=\"rule_keyword_within\">Within</link> 4\". Resolve the <link=\"rule_keyword_heal\">HEAL</link> (X) effect for the targeted Unit, where X is the number of models in this Unit that are Within 4\" of the target Unit."
+  },
+  {
+    "Id": "pdf_Terran_rule_medics_movement_phase_optical_flare",
+    "Name": "Optical Flare",
+    "Type": "Rule",
+    "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Active\n<b>Cost:</b> 2 CP\n\nSelect one <link=\"rule_keyword_enemy\">Enemy</link> Unit <link=\"rule_keyword_within\">Within</link> 12\". Until the End of the Round, apply <link=\"rule_keyword_debuff\">DEBUFF</link> Range (4) to that Unit's Ranged Weapons. That Unit cannot benefit from <link=\"rule_keyword_long_range\">LONG RANGE</link>."
+  },
+  {
+    "Id": "pdf_Terran_rule_medics_upgrade_any_phase_a_13_flash_grenade_launcher",
+    "Name": "A-13 Flash Grenade Launcher",
+    "Type": "Rule",
+    "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Passive\n<b>Upgrade ability</b>\n\nIncrease the <link=\"pdf_Terran_rule_medics_movement_phase_optical_flare\">Optical Flare</link> <link=\"rule_keyword_special_ability\">special ability</link>'s Range to 16\"."
+  },
+  {
+    "Id": "pdf_Terran_rule_medics_upgrade_any_phase_advanced_medic_facilities",
+    "Name": "Advanced Medic Facilities",
+    "Type": "Rule",
+    "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Passive\n<b>Upgrade ability</b>\n\nThis Unit's <link=\"rule_keyword_supply_value\">Supply Value</link> counts as 0 when calculating the Supply Pool."
+  },
+  {
+    "Id": "pdf_Terran_rule_medics_upgrade_any_phase_stabilizer_medpacks",
+    "Name": "Stabilizer Medpacks",
+    "Type": "Rule",
+    "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Passive\n<b>Upgrade ability</b>\n\nWhen this Unit resolves a Life Support or <link=\"pdf_Terran_rule_medics_movement_phase_medpack\">Medpack</link> ability, treat it as having 1 additional model <link=\"rule_keyword_within\">Within</link> Range for calculating that ability's effects."
+  },
+  {
+    "Id": "pdf_Terran_rule_nova_assault_mode_any_phase_battle_preparation",
+    "Name": "Battle Preparation",
+    "Type": "Rule",
+    "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Passive\n\nDuring Army Building, your army cannot include both the Nova Assault Mode Unit and the Nova Stealth Mode Unit."
+  },
+  {
+    "Id": "pdf_Terran_rule_nova_assault_mode_any_phase_ghost_visor",
+    "Name": "Ghost Visor",
+    "Type": "Rule",
+    "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Passive\n\nWhile <link=\"rule_keyword_enemy\">Enemy</link> Units are <link=\"rule_keyword_within\">Within</link> 6\" of this Unit, they lose the <link=\"rule_keyword_hidden\">HIDDEN</link> <link=\"rule_keyword_status\">Status</link>."
+  },
+  {
+    "Id": "pdf_Terran_rule_nova_assault_mode_assault_phase_devastating_charge",
+    "Name": "Devastating Charge",
+    "Type": "Rule",
+    "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Passive\n\nImmediately after this Unit completes a successful Charge, resolve the <link=\"rule_keyword_impact\">IMPACT</link> (4) 4+ effect."
+  },
+  {
+    "Id": "pdf_Terran_rule_nova_assault_mode_assault_phase_phase_reactor_suit",
+    "Name": "Phase Reactor Suit",
+    "Type": "Rule",
+    "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Active\n<b>Cost:</b> 1 CP\n\nIf <link=\"rule_keyword_unengaged\">Unengaged</link>, resolve the <link=\"rule_keyword_place\">PLACE</link> (6) effect."
+  },
+  {
+    "Id": "pdf_Terran_rule_nova_assault_mode_movement_phase_holo_decoy",
+    "Name": "Holo Decoy",
+    "Type": "Rule",
+    "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Active\n<b>Cost:</b> 1 CP\n\nResolve the <link=\"rule_keyword_summon\">SUMMON</link> (Holo Decoy) effect. Then, Holo Decoy may immediately perform a Move action."
+  },
+  {
+    "Id": "pdf_Terran_rule_nova_assault_mode_movement_phase_super_stimpack",
+    "Name": "Super Stimpack",
+    "Type": "Rule",
+    "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Active\n<b>Cost:</b> 1 CP\n\nThis Unit gains <link=\"rule_keyword_buff\">BUFF</link> Speed (2). Additionally, all its Weapons gain <link=\"rule_keyword_precision\">PRECISION</link> (2)."
+  },
+  {
+    "Id": "pdf_Terran_rule_nova_stealth_mode_any_phase_battle_preparation",
+    "Name": "Battle Preparation",
+    "Type": "Rule",
+    "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Passive\n\nDuring Army Building, your army cannot include both the Nova Assault Mode Unit and the Nova Stealth Mode Unit."
+  },
+  {
+    "Id": "pdf_Terran_rule_nova_stealth_mode_any_phase_ghost_visor",
+    "Name": "Ghost Visor",
+    "Type": "Rule",
+    "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Passive\n\nWhile <link=\"rule_keyword_enemy\">Enemy</link> Units are <link=\"rule_keyword_within\">Within</link> 6\" of this Unit, they lose the <link=\"rule_keyword_hidden\">HIDDEN</link> <link=\"rule_keyword_status\">Status</link>."
+  },
+  {
+    "Id": "pdf_Terran_rule_nova_stealth_mode_any_phase_tactical_stealth_suit",
+    "Name": "Tactical Stealth Suit",
+    "Type": "Rule",
+    "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Passive\n\nAfter this Unit fully resolves an Action, it gains the <link=\"rule_keyword_hidden\">HIDDEN</link> <link=\"rule_keyword_status\">Status</link>."
+  },
+  {
+    "Id": "pdf_Terran_rule_nova_stealth_mode_assault_phase_head_shot",
+    "Name": "Head Shot",
+    "Type": "Rule",
+    "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Reaction\n<b>Cost:</b> 1 CP\n\nOnce Per Game. While this Unit is <link=\"rule_keyword_unengaged\">Unengaged</link> and has the <link=\"rule_keyword_stationary\">Stationary</link> <link=\"rule_keyword_status\">Status</link>, when it makes a Ranged Attack with its C-20A Canister Rifle, treat that weapon's Damage characteristic as 3, and it gains <link=\"rule_keyword_concentrated_fire\">CONCENTRATED FIRE</link> (1)."
+  },
+  {
+    "Id": "pdf_Terran_rule_nova_stealth_mode_assault_phase_operational_efficiency",
+    "Name": "Operational Efficiency",
+    "Type": "Rule",
+    "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Passive\n\nAfter this Unit fully resolves a Ranged Attack with its C-20A Canister Rifle, if the target <link=\"rule_keyword_enemy\">Enemy</link> Unit was Destroyed or its <link=\"rule_keyword_current_supply_value\">Current Supply Value</link> was reduced, the <link=\"rule_keyword_active_player\">active player</link> may return one of their Exhausted non-Unique Tactical Cards to its <link=\"rule_keyword_ready\">Ready</link> state."
+  },
+  {
+    "Id": "pdf_Terran_rule_nova_stealth_mode_movement_phase_holo_decoy",
+    "Name": "Holo Decoy",
+    "Type": "Rule",
+    "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Active\n<b>Cost:</b> 1 CP\n\nResolve the <link=\"rule_keyword_summon\">SUMMON</link> (Holo Decoy) effect. Then, Holo Decoy may immediately perform a Move action."
+  },
+  {
+    "Id": "pdf_Terran_rule_nova_stealth_mode_movement_phase_super_stimpack",
+    "Name": "Super Stimpack",
+    "Type": "Rule",
+    "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Active\n<b>Cost:</b> 1 CP\n\nThis Unit gains <link=\"rule_keyword_buff\">BUFF</link> Speed (2). Additionally, all its Weapons gain <link=\"rule_keyword_precision\">PRECISION</link> (2)."
+  },
+  {
+    "Id": "pdf_Terran_rule_point_defense_drone_any_phase_gliding",
+    "Name": "Gliding",
+    "Type": "Rule",
+    "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Passive\n\nThis model has <link=\"rule_keyword_displacement\">DISPLACEMENT</link>."
+  },
+  {
+    "Id": "pdf_Terran_rule_point_defense_drone_any_phase_point_defense_laser",
+    "Name": "Point Defense Laser",
+    "Type": "Rule",
+    "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Passive\n\nWhen another <link=\"rule_keyword_friendly\">Friendly</link> Unit <link=\"rule_keyword_within\">Within</link> 4\" is targeted by a Ranged Attack without the <link=\"rule_keyword_instant\">INSTANT</link> keyword, remove up to 2 dice from the Attack Pool. Then remove this Unit from the battlefield."
+  },
+  {
+    "Id": "pdf_Terran_rule_point_defense_drone_any_phase_structure",
+    "Name": "Structure",
+    "Type": "Rule",
+    "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Passive\n\nThis Unit cannot be Activated in any Phase and cannot perform actions. Additionally, its <link=\"rule_keyword_current_supply_value\">Current Supply Value</link> is treated as 0, and it can never Control or Contest <link=\"rule_keyword_mission_markers\">Mission Markers</link>, ignoring the standard Zero Supply Exception. This Unit cannot be a target of an ability, unless stated otherwise."
+  },
+  {
+    "Id": "pdf_Terran_rule_raven_any_phase_detection",
+    "Name": "Detection",
+    "Type": "Rule",
+    "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Passive\n\nWhile <link=\"rule_keyword_enemy\">Enemy</link> Units are <link=\"rule_keyword_within\">Within</link> 6\" of this Unit, they lose the <link=\"rule_keyword_hidden\">HIDDEN</link> <link=\"rule_keyword_status\">Status</link>."
+  },
+  {
+    "Id": "pdf_Terran_rule_raven_movement_phase_anti_armour_missile",
+    "Name": "Anti-Armour Missile",
+    "Type": "Rule",
+    "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Active\n<b>Cost:</b> 1 CP\n\nSelect one <link=\"rule_keyword_enemy\">Enemy</link> Unit <link=\"rule_keyword_within\">Within</link> 12\". Apply <link=\"rule_keyword_debuff\">DEBUFF</link> Armour (1)."
+  },
+  {
+    "Id": "pdf_Terran_rule_raven_movement_phase_deploy_auto_turret",
+    "Name": "Deploy Auto-Turret",
+    "Type": "Rule",
+    "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Active\n<b>Cost:</b> 1 CP\n\nSet a <link=\"rule_keyword_friendly\">Friendly</link> Auto-Turret Unit <link=\"rule_keyword_within\">Within</link> 6\", and not Within the <link=\"rule_keyword_engagement_range\">Engagement Range</link> of any <link=\"rule_keyword_enemy\">Enemy</link> Unit."
+  },
+  {
+    "Id": "pdf_Terran_rule_raven_upgrade_any_phase_corvid_reactor",
+    "Name": "Corvid Reactor",
+    "Type": "Rule",
+    "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Passive\n<b>Upgrade ability</b>\n\nThis Unit may resolve its first <link=\"rule_keyword_special_ability\">Special Ability</link> with the CP cost reduced by 1 if it targets the closest <link=\"rule_keyword_enemy\">Enemy</link> Unit."
+  },
+  {
+    "Id": "pdf_Terran_rule_raven_upgrade_assault_phase_explosive_shrapnel_shells",
+    "Name": "Explosive Shrapnel Shells",
+    "Type": "Rule",
+    "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Passive\n<b>Upgrade ability</b>\n\nThe Gauss Cannon of the Auto-Turret set by this Unit gains Surge Type: Light and S-Dice: D3+1."
+  },
+  {
+    "Id": "pdf_Terran_rule_raven_upgrade_movement_phase_internal_tech_module",
+    "Name": "Internal Tech Module",
+    "Type": "Rule",
+    "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Passive\n<b>Upgrade ability</b>\n\nWhen this Unit is nominated to deploy from <link=\"rule_keyword_reserves\">Reserves</link>, it may Deploy from any table edge that is not a player's <link=\"rule_keyword_entry_edge\">Entry Edge</link>. This Unit cannot be set <link=\"rule_keyword_within\">Within</link> 8\" of any <link=\"rule_keyword_enemy\">Enemy</link> model."
+  },
+  {
+    "Id": "pdf_Terran_rule_raven_upgrade_movement_phase_seeker_missile",
+    "Name": "Seeker Missile",
+    "Type": "Rule",
+    "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Active\n<b>Cost:</b> 1 CP\n<b>Upgrade ability</b>\n\nSelect one <link=\"rule_keyword_enemy\">Enemy</link> Unit <link=\"rule_keyword_within\">Within</link> 12\". At the End of the Assault Phase, if that Enemy Unit has the <link=\"rule_keyword_stationary\">Stationary</link> <link=\"rule_keyword_status\">Status</link> or it is Within 8'' of this Unit, it suffers <link=\"rule_keyword_hits\">HITS</link> 4 (2). If that Unit is <link=\"rule_keyword_engaged\">Engaged</link>, it is eligible to make an Evade Roll against these hits."
+  },
+  {
+    "Id": "pdf_Terran_rule_raynor_s_raiders_assault_phase_grenades_frag",
+    "Name": "Grenades - Frag",
+    "Type": "Rule",
+    "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Passive\n\nWhen this Unit makes a Ranged Attack with a C-14 Rifle and the target is <link=\"rule_keyword_within\">Within</link> 8\", that weapon's S Dice is replaced by D6."
+  },
+  {
+    "Id": "pdf_Terran_rule_raynor_s_raiders_assault_phase_slugthrower",
+    "Name": "Slugthrower",
+    "Type": "Rule",
+    "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Passive\n\nWhen this Unit makes a Ranged Attack with a C-14 Rifle and the target is <link=\"rule_keyword_within\">Within</link> 8\", that weapon gains <link=\"rule_keyword_anti_evade\">ANTI-EVADE</link> (1)."
+  },
+  {
+    "Id": "pdf_Terran_rule_raynor_s_raiders_movement_phase_raiders_roll",
+    "Name": "Raiders Roll!",
+    "Type": "Rule",
+    "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Passive\n\nWhen this Unit is nominated to deploy from <link=\"rule_keyword_reserves\">Reserves</link>, it may resolve its <link=\"pdf_Terran_rule_raynor_s_raiders_movement_phase_stimpack\">Stimpack</link> ability with the CP cost reduced by 1 (to a minimum of 0)."
+  },
+  {
+    "Id": "pdf_Terran_rule_raynor_s_raiders_movement_phase_rapid_reinforcements",
+    "Name": "Rapid Reinforcements",
+    "Type": "Rule",
+    "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Passive\n\nWhen this Unit is nominated to deploy from <link=\"rule_keyword_reserves\">Reserves</link>, it may resolve the <link=\"rule_keyword_place\">PLACE</link> (10) effect from another <link=\"rule_keyword_friendly\">Friendly</link> Unit. No model may be set <link=\"rule_keyword_within\">Within</link> 8\" of any <link=\"rule_keyword_enemy\">Enemy</link> model. This Unit's Activation ends."
+  },
+  {
+    "Id": "pdf_Terran_rule_raynor_s_raiders_movement_phase_stimpack",
+    "Name": "Stimpack",
+    "Type": "Rule",
+    "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Active\n<b>Cost:</b> 1 CP\n\nThis Unit suffers <link=\"rule_keyword_non_lethal_damage\">NON-LETHAL DAMAGE</link> (2). This Unit gains <link=\"rule_keyword_buff\">BUFF</link> Speed (3). Additionally, its C-14 Rifle and all Close Combat Weapons gain <link=\"rule_keyword_precision\">PRECISION</link> (3)."
+  },
+  {
+    "Id": "pdf_Terran_rule_sabotage_drone_any_phase_structure",
+    "Name": "Structure",
+    "Type": "Rule",
+    "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Passive\n\nThis Unit cannot be Activated in any Phase and cannot perform actions. Additionally, its <link=\"rule_keyword_current_supply_value\">Current Supply Value</link> is treated as 0, and it can never Control or Contest <link=\"rule_keyword_mission_markers\">Mission Markers</link>, ignoring the standard Zero Supply Exception. This Unit cannot be a target of an ability, unless stated otherwise."
+  },
+  {
+    "Id": "pdf_Terran_rule_sabotage_drone_assault_phase_have_a_nice_day",
+    "Name": "Have A Nice Day",
+    "Type": "Rule",
+    "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Passive\n\nAt the End of the Assault Phase, target each Unit <link=\"rule_keyword_within\">Within</link> 3\" of this Unit (including Units with the <link=\"pdf_Terran_rule_sabotage_drone_any_phase_structure\">Structure</link> ability) suffers <link=\"rule_keyword_hits\">HITS</link> 5 (1). If an affected Unit has the Structure ability, that Unit suffers an additional HITS 5 (1)."
+  },
+  {
+    "Id": "pdf_Terran_rule_siege_tank_any_phase_heavy_plating",
+    "Name": "Heavy Plating",
+    "Type": "Rule",
+    "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Passive\n\nWhen this Unit resolves an Armour Roll, it gains <link=\"rule_keyword_tough\">TOUGH</link> (1), provided it does not currently have the <link=\"rule_keyword_siege_mode\">SIEGE MODE</link> <link=\"rule_keyword_status\">Status</link>."
+  },
+  {
+    "Id": "pdf_Terran_rule_siege_tank_any_phase_large",
+    "Name": "Large",
+    "Type": "Rule",
+    "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Passive\n\nWhen this Unit's <link=\"rule_keyword_leading_model\">Leading Model</link> moves, it cannot pass through physical gaps smaller than 3\" wide, regardless of its size. If the Leading Model's path of travel passes through, or any model in this Unit ends its movement on a Size 0 or Size 1 Impassible Terrain piece (excluding Tokens) during any movement action, that terrain piece is immediately removed from the game."
+  },
+  {
+    "Id": "pdf_Terran_rule_siege_tank_assault_phase_aftershock_rounds",
+    "Name": "Aftershock Rounds",
+    "Type": "Rule",
+    "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Passive\n\nWhen this Unit has the <link=\"rule_keyword_siege_mode\">SIEGE MODE</link> <link=\"rule_keyword_status\">Status</link>, its Damage characteristic is treated as equal to the Size characteristic of the current target Unit (to a minimum of 1)."
+  },
+  {
+    "Id": "pdf_Terran_rule_siege_tank_assault_phase_devastating_charge",
+    "Name": "Devastating Charge",
+    "Type": "Rule",
+    "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Passive\n\nImmediately after this Unit completes a successful Charge, resolve the <link=\"rule_keyword_impact\">IMPACT</link> (4) 3+ effect."
+  },
+  {
+    "Id": "pdf_Terran_rule_siege_tank_assault_phase_indomitable",
+    "Name": "Indomitable",
+    "Type": "Rule",
+    "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Passive\n\nWhile <link=\"rule_keyword_engaged\">Engaged</link>, this Unit may target and be targeted by <link=\"rule_keyword_unengaged\">Unengaged</link> <link=\"rule_keyword_enemy\">Enemy</link> Units. In both cases, the defending Unit gains an Evade Roll against those attacks."
+  },
+  {
+    "Id": "pdf_Terran_rule_siege_tank_assault_phase_point_blank",
+    "Name": "Point Blank",
+    "Type": "Rule",
+    "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Passive\n\nWhile this Unit has the <link=\"rule_keyword_siege_mode\">SIEGE MODE</link> <link=\"rule_keyword_status\">Status</link>, it cannot target <link=\"rule_keyword_enemy\">Enemy</link> Units it is <link=\"rule_keyword_engaged\">Engaged</link> with."
+  },
+  {
+    "Id": "pdf_Terran_rule_siege_tank_upgrade_assault_phase_shaped_blast",
+    "Name": "Shaped Blast",
+    "Type": "Rule",
+    "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Reaction\n<b>Cost:</b> 0 CP\n<b>Upgrade ability</b>\n\nOnce per Game. When this Unit declares a Ranged Attack action. If this Unit has <link=\"rule_keyword_siege_mode\">SIEGE MODE</link> <link=\"rule_keyword_status\">Status</link>, its weapon gains <link=\"rule_keyword_pinpoint\">PINPOINT</link> and <link=\"rule_keyword_locked_in\">LOCKED IN</link> (4)."
+  },
+  {
+    "Id": "pdf_Terran_rule_siege_tank_upgrade_assault_phase_smart_shells",
+    "Name": "Smart Shells",
+    "Type": "Rule",
+    "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Reaction\n<b>Cost:</b> 0 CP\n<b>Upgrade ability</b>\n\nOnce per Game. When this Unit declares a Ranged Attack action. If this Unit has <link=\"rule_keyword_siege_mode\">SIEGE MODE</link> <link=\"rule_keyword_status\">Status</link>, its weapon gains <link=\"rule_keyword_indirect_fire\">INDIRECT FIRE</link> and <link=\"rule_keyword_long_range\">LONG RANGE</link> (24)."
+  },
+  {
+    "Id": "pdf_Terran_rule_siege_tank_upgrade_movement_phase_coordinated_strike",
+    "Name": "Coordinated Strike",
+    "Type": "Rule",
+    "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Active\n<b>Cost:</b> 0 CP\n<b>Upgrade ability</b>\n\nTarget a <link=\"rule_keyword_friendly\">Friendly</link> Non-<link=\"rule_keyword_engaged\">Engaged</link> Unit on the battlefield (<link=\"rule_keyword_line_of_sight\">Line of Sight</link> is not required). When this Unit resolves a Ranged Attack using the Shock Cannon weapon profile this Round, it may choose to ignore the weapon's standard Range characteristic. If it does, it may target an <link=\"rule_keyword_enemy\">Enemy</link> Unit that is <link=\"rule_keyword_within\">Within</link> 8\" of, and <link=\"rule_keyword_visible\">Visible</link> to, a model of the selected Friendly Unit, treating that model as the acting model."
+  },
+  {
+    "Id": "pdf_Terran_rule_siege_tank_upgrade_movement_phase_mode_transformation",
+    "Name": "Mode Transformation",
+    "Type": "Rule",
+    "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Active\n<b>Cost:</b> 1 CP\n<b>Upgrade ability</b>\n\nThe active Unit gains or loses the <link=\"rule_keyword_siege_mode\">SIEGE MODE</link> <link=\"rule_keyword_status\">Status</link>. While this Unit has the SIEGE MODE Status, its Size characteristic is treated as if it was 3."
+  },
+  {
+    "Id": "pdf_Terran_rule_spec_ops_marauder_marauder_any_phase_spec_ops_armour",
+    "Name": "Spec Ops Armour",
+    "Type": "Rule",
+    "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Active\n<b>Cost:</b> 1 CP\n\nThis Unit gains the <link=\"rule_keyword_hidden\">HIDDEN</link> <link=\"rule_keyword_status\">Status</link> until it performs another action."
+  },
+  {
+    "Id": "pdf_Terran_rule_spec_ops_marauder_marauder_assault_phase_magrail_munitions",
+    "Name": "Magrail Munitions",
+    "Type": "Rule",
+    "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Passive\n\nThis Unit's first Attack in the game with its Quad K12 gains <link=\"rule_keyword_pierce\">PIERCE</link> Armoured (3)."
+  },
+  {
+    "Id": "pdf_Terran_rule_spec_ops_marauder_marauder_assault_phase_suppression_shells",
+    "Name": "Suppression Shells",
+    "Type": "Rule",
+    "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Reaction\n<b>Cost:</b> 1 CP\n\nWhen an <link=\"rule_keyword_enemy\">Enemy</link> declares a Charge against a <link=\"rule_keyword_friendly\">Friendly</link> Unit <link=\"rule_keyword_within\">Within</link> 8\", that Enemy gains <link=\"rule_keyword_debuff\">DEBUFF</link> Speed (3)."
+  },
+  {
+    "Id": "pdf_Terran_rule_spec_ops_marauder_marauder_movement_phase_commando_stimpack",
+    "Name": "Commando Stimpack",
+    "Type": "Rule",
+    "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Active\n<b>Cost:</b> 1 CP\n\nThis Unit gains <link=\"rule_keyword_buff\">BUFF</link> Speed (3). Additionally, its Quad K12 and all Close Combat Weapons gain <link=\"rule_keyword_precision\">PRECISION</link> (2)."
+  },
+  {
+    "Id": "prof_marine_phase_assault_phase",
+    "Name": "",
+    "Type": "",
+    "Description": "<b>Assault Phase</b>",
+    "Children": []
+  },
+  {
+    "Id": "prof_marine_phase_melee_phase",
+    "Name": "",
+    "Type": "",
+    "Description": "<b>Melee Phase</b>",
+    "Children": []
+  },
+  {
+    "Id": "prof_marine_phase_movement_phase",
+    "Name": "",
+    "Type": "",
+    "Description": "<b>Movement Phase</b>",
+    "Children": []
   }
 ]
