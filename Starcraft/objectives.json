@@ -1,34 +1,7 @@
 [
   {
-    "Id": "sc_deployment_abandoned_camp",
-    "Name": "ABANDONED CAMP (36x36)",
-    "Items": [
-      {
-        "Id": "sc_mission_red",
-        "Type": "Token",
-        "PosX": "-12",
-        "PosY": "0",
-        "IgnoreDeploymentRotation": true
-      },
-      {
-        "Id": "sc_mission_blue",
-        "Type": "Token",
-        "PosX": "12",
-        "PosY": "0",
-        "IgnoreDeploymentRotation": true
-      },
-      {
-        "Id": "sc_mission_green",
-        "Type": "Token",
-        "PosX": "0",
-        "PosY": "0",
-        "IgnoreDeploymentRotation": true
-      }
-    ]
-  },
-  {
     "Id": "sc_deployment_acropolis",
-    "Name": "ACROPOLIS (54x36)",
+    "Name": "ACROPOLIS",
     "Items": [
       {
         "Id": "sc_mission_red",
@@ -56,33 +29,6 @@
         "Type": "Token",
         "PosX": "-15",
         "PosY": "-6",
-        "IgnoreDeploymentRotation": true
-      },
-      {
-        "Id": "sc_mission_green",
-        "Type": "Token",
-        "PosX": "0",
-        "PosY": "0",
-        "IgnoreDeploymentRotation": true
-      }
-    ]
-  },
-  {
-    "Id": "sc_deployment_agria_valley",
-    "Name": "AGRIA VALLEY (36x36)",
-    "Items": [
-      {
-        "Id": "sc_mission_red",
-        "Type": "Token",
-        "PosX": "-12",
-        "PosY": "-12",
-        "IgnoreDeploymentRotation": true
-      },
-      {
-        "Id": "sc_mission_blue",
-        "Type": "Token",
-        "PosX": "12",
-        "PosY": "12",
         "IgnoreDeploymentRotation": true
       },
       {
@@ -96,7 +42,7 @@
   },
   {
     "Id": "sc_deployment_breach",
-    "Name": "BREACH (54x36)",
+    "Name": "BREACH",
     "Items": [
       {
         "Id": "sc_mission_red",
@@ -124,87 +70,6 @@
         "Type": "Token",
         "PosX": "-9",
         "PosY": "-12",
-        "IgnoreDeploymentRotation": true
-      },
-      {
-        "Id": "sc_mission_green",
-        "Type": "Token",
-        "PosX": "0",
-        "PosY": "0",
-        "IgnoreDeploymentRotation": true
-      }
-    ]
-  },
-  {
-    "Id": "sc_deployment_char_plains",
-    "Name": "CHAR PLAINS (36x36)",
-    "Items": [
-      {
-        "Id": "sc_mission_red",
-        "Type": "Token",
-        "PosX": "-12",
-        "PosY": "-12",
-        "IgnoreDeploymentRotation": true
-      },
-      {
-        "Id": "sc_mission_blue",
-        "Type": "Token",
-        "PosX": "-12",
-        "PosY": "12",
-        "IgnoreDeploymentRotation": true
-      },
-      {
-        "Id": "sc_mission_green",
-        "Type": "Token",
-        "PosX": "6",
-        "PosY": "0",
-        "IgnoreDeploymentRotation": true
-      }
-    ]
-  },
-  {
-    "Id": "sc_deployment_dirt_side",
-    "Name": "DIRT SIDE (36x36)",
-    "Items": [
-      {
-        "Id": "sc_mission_red",
-        "Type": "Token",
-        "PosX": "-12",
-        "PosY": "0",
-        "IgnoreDeploymentRotation": true
-      },
-      {
-        "Id": "sc_mission_blue",
-        "Type": "Token",
-        "PosX": "12",
-        "PosY": "0",
-        "IgnoreDeploymentRotation": true
-      },
-      {
-        "Id": "sc_mission_green",
-        "Type": "Token",
-        "PosX": "0",
-        "PosY": "0",
-        "IgnoreDeploymentRotation": true
-      }
-    ]
-  },
-  {
-    "Id": "sc_deployment_frontier",
-    "Name": "FRONTIER (36x36)",
-    "Items": [
-      {
-        "Id": "sc_mission_red",
-        "Type": "Token",
-        "PosX": "-12",
-        "PosY": "-12",
-        "IgnoreDeploymentRotation": true
-      },
-      {
-        "Id": "sc_mission_blue",
-        "Type": "Token",
-        "PosX": "12",
-        "PosY": "12",
         "IgnoreDeploymentRotation": true
       },
       {
@@ -218,7 +83,7 @@
   },
   {
     "Id": "sc_deployment_gauntlet",
-    "Name": "GAUNTLET (54x36)",
+    "Name": "GAUNTLET",
     "Items": [
       {
         "Id": "sc_mission_red",
@@ -258,35 +123,8 @@
     ]
   },
   {
-    "Id": "sc_deployment_green_valleys",
-    "Name": "GREEN VALLEYS (36x36)",
-    "Items": [
-      {
-        "Id": "sc_mission_red",
-        "Type": "Token",
-        "PosX": "-6",
-        "PosY": "-12",
-        "IgnoreDeploymentRotation": true
-      },
-      {
-        "Id": "sc_mission_blue",
-        "Type": "Token",
-        "PosX": "6",
-        "PosY": "12",
-        "IgnoreDeploymentRotation": true
-      },
-      {
-        "Id": "sc_mission_green",
-        "Type": "Token",
-        "PosX": "0",
-        "PosY": "0",
-        "IgnoreDeploymentRotation": true
-      }
-    ]
-  },
-  {
     "Id": "sc_deployment_meeting_engagement",
-    "Name": "MEETING ENGAGEMENT (54x36)",
+    "Name": "MEETING ENGAGEMENT",
     "Items": [
       {
         "Id": "sc_mission_red",
@@ -327,7 +165,7 @@
   },
   {
     "Id": "sc_deployment_one_bridge_too_close",
-    "Name": "ONE BRIDGE TOO CLOSE (54x36)",
+    "Name": "ONE BRIDGE TOO CLOSE",
     "Items": [
       {
         "Id": "sc_mission_red",
@@ -367,35 +205,8 @@
     ]
   },
   {
-    "Id": "sc_deployment_power_lines",
-    "Name": "POWER LINES (36x36)",
-    "Items": [
-      {
-        "Id": "sc_mission_red",
-        "Type": "Token",
-        "PosX": "6",
-        "PosY": "3",
-        "IgnoreDeploymentRotation": true
-      },
-      {
-        "Id": "sc_mission_blue",
-        "Type": "Token",
-        "PosX": "-6",
-        "PosY": "3",
-        "IgnoreDeploymentRotation": true
-      },
-      {
-        "Id": "sc_mission_green",
-        "Type": "Token",
-        "PosX": "0",
-        "PosY": "-12",
-        "IgnoreDeploymentRotation": true
-      }
-    ]
-  },
-  {
     "Id": "sc_deployment_proving_grounds",
-    "Name": "PROVING GROUNDS (54x36)",
+    "Name": "PROVING GROUNDS",
     "Items": [
       {
         "Id": "sc_mission_red",
@@ -436,7 +247,7 @@
   },
   {
     "Id": "sc_deployment_typhoon",
-    "Name": "TYPHOON (54x36)",
+    "Name": "TYPHOON",
     "Items": [
       {
         "Id": "sc_mission_red",

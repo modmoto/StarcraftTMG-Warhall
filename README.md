@@ -92,23 +92,20 @@ npm run deployments:update -- --offline    # Reuse checksum-verified downloads
 npm run deployments:check                  # Read-only offline byte-for-byte check
 ```
 
-This updates the 14 current layouts in `Starcraft/deployments.json`, matching placement presets in `Starcraft/objectives.json`, and numbered markers in `Starcraft/tokens.json`. Unrelated manually maintained entries are preserved. Run this after updating the unit cards; the unit converter preserves these files. It does not automatically change the release version. A fresh checkout needs `npm ci`, `npm run convert`, and `npm run deployments:update` before the offline checks.
+This updates the 7 standard 54x36 layouts in `Starcraft/deployments.json`, matching placement presets in `Starcraft/objectives.json`, and existing Warhall red, blue and green markers in `Starcraft/tokens.json`. Unrelated manually maintained entries are preserved. Run this after updating the unit cards; the unit converter preserves these files. It does not automatically change the release version. A fresh checkout needs `npm ci`, `npm run convert`, and `npm run deployments:update` before the offline checks.
 
 The script reads PDF text, vector marker symbols, table boundaries and influence-zone artwork, handles upside-down cards, and reconciles repeated copies across factions. Current card artwork is approximate: coordinates are resolved on the printed 3-inch measurement grid and checked against printed edge measurements. All current coordinates have regression coverage. An unsupported grid, changed rule measurements/affinities, missing symbols or conflicting copies stops the migration before output is written. Review new or changed cards using `docs/deployments.html` and its source-page links; `deployment-report.json` retains source hashes and page numbers. A changed PDF design can require parser maintenance.
 
-Mission markers are **32 mm** disks: **1/3 red, 2/4 blue, 5 green (neutral)**. Separate translucent rings show the **3-inch distance from the disk edge**, giving an outer diameter of **184.4 mm**. These are visual aids; activation, line of sight, elevation and control remain manual. Skirmish layouts use 1, 2 and 5; standard layouts use all five. Marker 5 is not centered in every layout. Choose the printed table size and the matching deployment and objective presets in Warhall; the client does not automatically pair the two dropdowns.
+The rules use red markers for 1/3, blue for 2/4 and green neutral for 5. The game uses existing Warhall ExcaliburRed/Blue/Green assets through explicit SkinId references, keeping their native sizes. No custom PNGs, meshes or range rings are created. Marker coordinates come from the official cards; activation and control remain manual. The deployment and objective dropdowns must be set to the same layout.
 
-The mesh is the objective disk found inside the TTS mod's deployment Lua script, measured at four source units across. `deployment-models.json` includes its CDN URL and the exact Warhall scale for both disk and range ring. Generated numbered PNG textures live in `assets/markers/` and use raw GitHub URLs; those files must be published on `main` before remote texture loading works. The PNG generator uses only JavaScript and fixed pixel geometry, so it produces identical files on Windows and macOS.
-
-**Warhall imports are separate from WDS updates.** `deployment-templates.json` contains custom influence-zone outlines for Warhall's global `DeploymentDB`; `deployment-models.json` contains the skin import mapping. These require registration in Warhall's shared template/skin catalogues for distribution to other players. Adding extra fields to `deployments.json` would not load them in the inspected client. For a machine-local test, close Warhall Test, then run:
+Deployment outlines use the separate Warhall DeploymentDB. Close the test client, then install them with backups:
 
 ```sh
-node scripts/install-warhall-deployment-cache.mjs /path/to/WarhallTest --dry-run
 node scripts/install-warhall-deployment-cache.mjs /path/to/WarhallTest --apply
-node scripts/install-warhall-model-cache.mjs /path/to/WarhallTest/Database --apply
+node scripts/install-warhall-data.mjs /path/to/WarhallTest --apply --local-source
 ```
 
-Both adapters back up their cache files under `.cache/` before writing. Restore the printed backup files to undo the local installation, and restart the client after installation or restoration. Shared catalogue refreshes can replace the test cache. The new deployment/marker rendering has not yet been verified in the Warhall UI.
+The local-source option points the test client's Starcraft game-version entry to the workspace manifest, so opening a room does not overwrite local edits with the published release. It backs up GetGameVersions and the WDS files in the printed directory. Restore those backup files to return to the published source. Shared deployment template refreshes can overwrite locally installed outlines; the template adapter can be reapplied. Existing marker skins require no catalogue changes.
 
 ## Current scope
 

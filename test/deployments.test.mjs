@@ -39,7 +39,10 @@ test('markers use exact inches and explicit existing Warhall color skins', () =>
     PosY: '0',
     IgnoreDeploymentRotation: true,
   });
-  assert.deepEqual(markerTokens().map(t => t.SkinId), [6201,6202,6203]);
+  assert.deepEqual(
+    markerTokens().map(t => t.SkinId),
+    [6201, 6202, 6203],
+  );
   assert.ok(markerTokens().every(t => !('model' in t)));
 });
 test('L-shaped zones have no internal lines or duplicate overlap edges', () => {
@@ -174,7 +177,7 @@ test(
     );
     assert.deepEqual(
       published.layouts.map(l => l.markers),
-      layouts.map(l => l.markers),
+      layouts.filter(l => l.width === 54 && l.height === 36).map(l => l.markers),
     );
   },
 );

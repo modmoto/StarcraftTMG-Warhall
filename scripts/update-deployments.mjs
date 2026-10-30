@@ -7,7 +7,11 @@ import { readJson, sha256 } from '../src/io.mjs';
 import { downloadsUrl, loadSources } from '../src/sources/pdf/downloads.mjs';
 import { parseDeploymentPdf, reconcileDeployments } from '../src/deployments/pdf.mjs';
 import { buildDeployments, deploymentName } from '../src/deployments/package.mjs';
-import { markerDiameterMm, controlRangeInches, nativeMarkers } from '../src/deployments/markers.mjs';
+import {
+  markerDiameterMm,
+  controlRangeInches,
+  nativeMarkers,
+} from '../src/deployments/markers.mjs';
 
 const options = {
   offline: false,
@@ -100,7 +104,8 @@ assert.match(rules, /A restricted area extending 6[”"] inward/, 'Influence zon
 const sources = await loadSources(options);
 const parsed = [];
 for (const source of sources) parsed.push(...(await parseDeploymentPdf(source)));
-const layouts = reconcileDeployments(parsed);
+const layouts = reconcileDeployments(parsed).filter(l => l.width === 54 && l.height === 36);
+assert.ok(layouts.length, 'No standard 54x36 deployments found');
 const generated = buildDeployments(layouts);
 let previous = { layouts: [] };
 try {
@@ -149,7 +154,13 @@ json(path.join(projectRoot, 'deployment-report.json'), {
     'PDF vector symbols and battlefield bounds; reviewed printed measurements on the current 3-inch grid. Unknown colors, missing symbols, off-grid positions and conflicting copies fail. Review new or changed cards against their printed arrows.',
   deploymentImport:
     'deployment-templates.json must be registered in Warhall DeploymentDB. WDS does not load custom template geometry.',
-  markers: { nativeMarkers, rulesDiameterMm: markerDiameterMm, controlRangeInches, customAssets: false, size: 'Existing Warhall asset dimensions retained' },
+  markers: {
+    nativeMarkers,
+    rulesDiameterMm: markerDiameterMm,
+    controlRangeInches,
+    customAssets: false,
+    size: 'Existing Warhall asset dimensions retained',
+  },
   layouts: layouts.map((l, i) => ({ ...l, templateId: generated.templates[i].deploymentID })),
 });
 const escape = s => s.replaceAll('&', '&amp;').replaceAll('<', '&lt;').replaceAll('"', '&quot;');

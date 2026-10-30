@@ -2,7 +2,7 @@ import assert from 'node:assert/strict';
 import { sha256 } from '../io.mjs';
 import { markerTokens } from './markers.mjs';
 
-export const deploymentName = l => `${l.name} (${l.width}x${l.height})`;
+export const deploymentName = l => l.name;
 export function deploymentId(name) {
   // Reserved local/import IDs; refuse collisions rather than renumbering layouts.
   return 100000 + parseInt(sha256(name).slice(0, 6), 16);
@@ -95,12 +95,12 @@ export function buildDeployments(layouts) {
       Id: `sc_deployment_${l.name.toLowerCase().replaceAll(' ', '_')}`,
       Name: deploymentName(l),
       Items: l.markers.map(m => ({
-          Id: `sc_mission_${m.color}`,
-          Type: 'Token',
-          PosX: String(m.x),
-          PosY: String(m.y),
-          IgnoreDeploymentRotation: true,
-        })),
+        Id: `sc_mission_${m.color}`,
+        Type: 'Token',
+        PosX: String(m.x),
+        PosY: String(m.y),
+        IgnoreDeploymentRotation: true,
+      })),
     })),
     tokens: markerTokens(),
     templates: layouts.map(deploymentTemplate),
