@@ -79,6 +79,10 @@ Warhall curved bases use `Shape: 1`; the axes are equal for circles and unequal 
 
 The converter preserves existing game configuration, tokens, terrain, objectives, deployments and version settings, except for setting WoundsAttribute to HP. Generated faction data, bases, hierarchy, global placeholder lists and manifest are replaced. Release version numbers remain maintainer-controlled.
 
+For a release, increment `Starcraft/manifest.json`'s `version`. Conversion copies that number to `version.json`, which points Warhall to the published manifest for updates.
+
+Run `npm run check:local` for a read-only offline check after conversion. It rebuilds from the cached official PDFs in memory, compares every generated file byte for byte (including LF endings), checks release metadata and references, runs tests, and checks formatting. A fresh checkout needs `npm ci` and one online `npm run convert` to populate the ignored PDF cache first. This verifies the data package; loading units and rendering models in Warhall is a separate client check.
+
 ## Current scope
 
 ### Hosted model pose selections

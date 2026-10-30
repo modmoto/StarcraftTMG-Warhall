@@ -5,6 +5,7 @@
   "scripts": {
     "convert": "node scripts/convert.mjs",
     "validate": "node scripts/validate.mjs",
+    "check:local": "node scripts/check-local.mjs",
     "test": "node --test",
     "format": "prettier --write \"scripts/**/*.mjs\" \"src/**/*.mjs\" \"test/*.mjs\" package.json .prettierrc.json",
     "format:check": "prettier --check \"scripts/**/*.mjs\" \"src/**/*.mjs\" \"test/*.mjs\" package.json .prettierrc.json"

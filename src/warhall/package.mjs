@@ -156,6 +156,7 @@ export async function buildWarhallPackage(source, template = defaultDataDirector
 
   const previousManifest = await readJson(path.join(template, 'manifest.json'));
   data['manifest.json'] = { version: previousManifest.version, files: Object.keys(data).sort() };
+  data['version.json'].version = previousManifest.version;
   report.counts = { factions: source.factions.length, units: report.units.length };
 
   validateData(data);
