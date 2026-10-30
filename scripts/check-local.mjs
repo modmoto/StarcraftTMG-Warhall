@@ -27,6 +27,7 @@ for (const [name, value] of Object.entries({ ...data, 'import-report.json': repo
 console.log(`Package verified: ${result.units} units, ${result.records} records, LF-only output.`);
 
 for (const args of [
+  ['scripts/update-deployments.mjs', '--check'],
   ['--test'],
   [
     'node_modules/prettier/bin/prettier.cjs',

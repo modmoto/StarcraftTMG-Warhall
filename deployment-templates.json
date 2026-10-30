@@ -1,0 +1,6340 @@
+[
+  {
+    "deploymentID": 1764768,
+    "rotationAxis": 0,
+    "centerlineAxis": "0",
+    "lines": [
+      {
+        "anchor": "center",
+        "posX": "-10.5",
+        "posY": "12",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-10.5",
+        "posY": "18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-13.5",
+        "posY": "12",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-13.5",
+        "posY": "18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-16.5",
+        "posY": "12",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-18",
+        "posY": "13.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-18",
+        "posY": "16.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-16.5",
+        "posY": "18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-1.5",
+        "posY": "12",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-1.5",
+        "posY": "18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-4.5",
+        "posY": "12",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-4.5",
+        "posY": "18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-7.5",
+        "posY": "12",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-7.5",
+        "posY": "18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "1.5",
+        "posY": "12",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "1.5",
+        "posY": "18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "13.5",
+        "posY": "12",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "13.5",
+        "posY": "18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "16.5",
+        "posY": "12",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "16.5",
+        "posY": "18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "18",
+        "posY": "13.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "18",
+        "posY": "16.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "4.5",
+        "posY": "12",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "4.5",
+        "posY": "18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "7.5",
+        "posY": "12",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "7.5",
+        "posY": "18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "10.5",
+        "posY": "12",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "10.5",
+        "posY": "18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-10.5",
+        "posY": "-12",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-10.5",
+        "posY": "-18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-13.5",
+        "posY": "-12",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-13.5",
+        "posY": "-18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-16.5",
+        "posY": "-12",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-18",
+        "posY": "-13.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-16.5",
+        "posY": "-18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-18",
+        "posY": "-16.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-1.5",
+        "posY": "-12",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-1.5",
+        "posY": "-18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-4.5",
+        "posY": "-12",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-4.5",
+        "posY": "-18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-7.5",
+        "posY": "-12",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-7.5",
+        "posY": "-18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "1.5",
+        "posY": "-12",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "1.5",
+        "posY": "-18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "13.5",
+        "posY": "-12",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "13.5",
+        "posY": "-18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "16.5",
+        "posY": "-12",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "16.5",
+        "posY": "-18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "18",
+        "posY": "-13.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "18",
+        "posY": "-16.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "4.5",
+        "posY": "-12",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "4.5",
+        "posY": "-18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "7.5",
+        "posY": "-12",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "7.5",
+        "posY": "-18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "10.5",
+        "posY": "-12",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "10.5",
+        "posY": "-18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      }
+    ]
+  },
+  {
+    "deploymentID": 16231390,
+    "rotationAxis": 0,
+    "centerlineAxis": "0",
+    "lines": [
+      {
+        "anchor": "center",
+        "posX": "-10.5",
+        "posY": "-12",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-10.5",
+        "posY": "-18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-13.5",
+        "posY": "-12",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-13.5",
+        "posY": "-18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-16.5",
+        "posY": "-12",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-16.5",
+        "posY": "-18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-19.5",
+        "posY": "-12",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-19.5",
+        "posY": "-18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-22.5",
+        "posY": "-12",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-22.5",
+        "posY": "-18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-25.5",
+        "posY": "-12",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-27",
+        "posY": "-13.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-25.5",
+        "posY": "-18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-27",
+        "posY": "-16.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-9",
+        "posY": "-13.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-9",
+        "posY": "-16.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "13.5",
+        "posY": "12",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "13.5",
+        "posY": "18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "16.5",
+        "posY": "12",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "16.5",
+        "posY": "18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "19.5",
+        "posY": "12",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "19.5",
+        "posY": "18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "22.5",
+        "posY": "12",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "22.5",
+        "posY": "18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "25.5",
+        "posY": "12",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "25.5",
+        "posY": "18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "27",
+        "posY": "13.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "27",
+        "posY": "16.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "10.5",
+        "posY": "12",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "9",
+        "posY": "13.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "9",
+        "posY": "16.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "10.5",
+        "posY": "18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-10.5",
+        "posY": "12",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-10.5",
+        "posY": "18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-13.5",
+        "posY": "12",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-13.5",
+        "posY": "18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-16.5",
+        "posY": "12",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-16.5",
+        "posY": "18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-19.5",
+        "posY": "12",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-19.5",
+        "posY": "18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-22.5",
+        "posY": "12",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-22.5",
+        "posY": "18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-25.5",
+        "posY": "12",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-27",
+        "posY": "13.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-27",
+        "posY": "16.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-25.5",
+        "posY": "18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-9",
+        "posY": "13.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-9",
+        "posY": "16.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "13.5",
+        "posY": "-12",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "13.5",
+        "posY": "-18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "16.5",
+        "posY": "-12",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "16.5",
+        "posY": "-18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "19.5",
+        "posY": "-12",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "19.5",
+        "posY": "-18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "22.5",
+        "posY": "-12",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "22.5",
+        "posY": "-18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "25.5",
+        "posY": "-12",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "25.5",
+        "posY": "-18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "27",
+        "posY": "-13.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "27",
+        "posY": "-16.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "10.5",
+        "posY": "-12",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "9",
+        "posY": "-13.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "10.5",
+        "posY": "-18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "9",
+        "posY": "-16.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      }
+    ]
+  },
+  {
+    "deploymentID": 5036036,
+    "rotationAxis": 0,
+    "centerlineAxis": "0",
+    "lines": [
+      {
+        "anchor": "center",
+        "posX": "12",
+        "posY": "-10.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "13.5",
+        "posY": "-18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "13.5",
+        "posY": "-6",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "12",
+        "posY": "-7.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "16.5",
+        "posY": "-18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "16.5",
+        "posY": "-6",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "18",
+        "posY": "-10.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "18",
+        "posY": "-13.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "18",
+        "posY": "-16.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "18",
+        "posY": "-7.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "7.5",
+        "posY": "-12",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "6",
+        "posY": "-13.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "6",
+        "posY": "-16.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "7.5",
+        "posY": "-18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "10.5",
+        "posY": "-12",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "10.5",
+        "posY": "-18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-10.5",
+        "posY": "12",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-10.5",
+        "posY": "18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-12",
+        "posY": "7.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-12",
+        "posY": "10.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-13.5",
+        "posY": "18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-13.5",
+        "posY": "6",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-18",
+        "posY": "13.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-18",
+        "posY": "16.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-16.5",
+        "posY": "18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-16.5",
+        "posY": "6",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-18",
+        "posY": "7.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-18",
+        "posY": "10.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-6",
+        "posY": "13.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-6",
+        "posY": "16.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-7.5",
+        "posY": "12",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-7.5",
+        "posY": "18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      }
+    ]
+  },
+  {
+    "deploymentID": 16130426,
+    "rotationAxis": 0,
+    "centerlineAxis": "0",
+    "lines": [
+      {
+        "anchor": "center",
+        "posX": "-21",
+        "posY": "-10.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-21",
+        "posY": "-13.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-21",
+        "posY": "-16.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-21",
+        "posY": "-1.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-21",
+        "posY": "-4.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-21",
+        "posY": "-7.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-21",
+        "posY": "1.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-21",
+        "posY": "13.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-21",
+        "posY": "16.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-21",
+        "posY": "4.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-21",
+        "posY": "7.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-21",
+        "posY": "10.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-22.5",
+        "posY": "-18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-22.5",
+        "posY": "18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-27",
+        "posY": "-10.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-27",
+        "posY": "-13.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-25.5",
+        "posY": "-18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-27",
+        "posY": "-16.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-27",
+        "posY": "-1.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-27",
+        "posY": "-4.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-27",
+        "posY": "-7.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-27",
+        "posY": "1.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-27",
+        "posY": "13.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-27",
+        "posY": "16.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-25.5",
+        "posY": "18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-27",
+        "posY": "4.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-27",
+        "posY": "7.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-27",
+        "posY": "10.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "21",
+        "posY": "-10.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "21",
+        "posY": "-13.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "21",
+        "posY": "-16.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "22.5",
+        "posY": "-18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "21",
+        "posY": "-1.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "21",
+        "posY": "-4.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "21",
+        "posY": "-7.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "21",
+        "posY": "1.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "21",
+        "posY": "13.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "21",
+        "posY": "16.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "22.5",
+        "posY": "18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "21",
+        "posY": "4.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "21",
+        "posY": "7.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "21",
+        "posY": "10.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "25.5",
+        "posY": "-18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "25.5",
+        "posY": "18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "27",
+        "posY": "-10.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "27",
+        "posY": "-13.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "27",
+        "posY": "-16.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "27",
+        "posY": "-1.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "27",
+        "posY": "-4.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "27",
+        "posY": "-7.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "27",
+        "posY": "1.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "27",
+        "posY": "13.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "27",
+        "posY": "16.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "27",
+        "posY": "4.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "27",
+        "posY": "7.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "27",
+        "posY": "10.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      }
+    ]
+  },
+  {
+    "deploymentID": 13092295,
+    "rotationAxis": 0,
+    "centerlineAxis": "0",
+    "lines": [
+      {
+        "anchor": "center",
+        "posX": "0",
+        "posY": "13.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "1.5",
+        "posY": "12",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "0",
+        "posY": "16.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "1.5",
+        "posY": "18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "13.5",
+        "posY": "12",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "13.5",
+        "posY": "18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "16.5",
+        "posY": "12",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "16.5",
+        "posY": "18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "18",
+        "posY": "13.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "18",
+        "posY": "16.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "4.5",
+        "posY": "12",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "4.5",
+        "posY": "18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "7.5",
+        "posY": "12",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "7.5",
+        "posY": "18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "10.5",
+        "posY": "12",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "10.5",
+        "posY": "18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "1.5",
+        "posY": "-12",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "0",
+        "posY": "-13.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "0",
+        "posY": "-16.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "1.5",
+        "posY": "-18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "13.5",
+        "posY": "-12",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "13.5",
+        "posY": "-18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "16.5",
+        "posY": "-12",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "16.5",
+        "posY": "-18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "18",
+        "posY": "-13.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "18",
+        "posY": "-16.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "4.5",
+        "posY": "-12",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "4.5",
+        "posY": "-18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "7.5",
+        "posY": "-12",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "7.5",
+        "posY": "-18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "10.5",
+        "posY": "-12",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "10.5",
+        "posY": "-18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      }
+    ]
+  },
+  {
+    "deploymentID": 12662609,
+    "rotationAxis": 0,
+    "centerlineAxis": "0",
+    "lines": [
+      {
+        "anchor": "center",
+        "posX": "12",
+        "posY": "-10.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "13.5",
+        "posY": "-18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "13.5",
+        "posY": "-6",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "12",
+        "posY": "-7.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "16.5",
+        "posY": "-18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "16.5",
+        "posY": "-6",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "18",
+        "posY": "-10.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "18",
+        "posY": "-13.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "18",
+        "posY": "-16.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "18",
+        "posY": "-7.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "7.5",
+        "posY": "-12",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "6",
+        "posY": "-13.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "6",
+        "posY": "-16.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "7.5",
+        "posY": "-18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "10.5",
+        "posY": "-12",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "10.5",
+        "posY": "-18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-10.5",
+        "posY": "12",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-10.5",
+        "posY": "18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-12",
+        "posY": "7.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-12",
+        "posY": "10.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-13.5",
+        "posY": "18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-13.5",
+        "posY": "6",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-18",
+        "posY": "13.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-18",
+        "posY": "16.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-16.5",
+        "posY": "18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-16.5",
+        "posY": "6",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-18",
+        "posY": "7.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-18",
+        "posY": "10.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-6",
+        "posY": "13.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-6",
+        "posY": "16.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-7.5",
+        "posY": "12",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-7.5",
+        "posY": "18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      }
+    ]
+  },
+  {
+    "deploymentID": 10928237,
+    "rotationAxis": 0,
+    "centerlineAxis": "0",
+    "lines": [
+      {
+        "anchor": "center",
+        "posX": "-12",
+        "posY": "-1.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-12",
+        "posY": "-4.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-12",
+        "posY": "1.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-12",
+        "posY": "4.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-13.5",
+        "posY": "-6",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-13.5",
+        "posY": "6",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-18",
+        "posY": "-1.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-16.5",
+        "posY": "-6",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-18",
+        "posY": "-4.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-18",
+        "posY": "1.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-18",
+        "posY": "4.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-16.5",
+        "posY": "6",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "12",
+        "posY": "-1.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "12",
+        "posY": "-4.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "13.5",
+        "posY": "-6",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "12",
+        "posY": "1.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "12",
+        "posY": "4.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "13.5",
+        "posY": "6",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "16.5",
+        "posY": "-6",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "16.5",
+        "posY": "6",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "18",
+        "posY": "-1.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "18",
+        "posY": "-4.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "18",
+        "posY": "1.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "18",
+        "posY": "4.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-1.5",
+        "posY": "-12",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-1.5",
+        "posY": "-18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-1.5",
+        "posY": "12",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-1.5",
+        "posY": "18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-4.5",
+        "posY": "-12",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-6",
+        "posY": "-13.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-4.5",
+        "posY": "-18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-6",
+        "posY": "-16.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-4.5",
+        "posY": "12",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-6",
+        "posY": "13.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-6",
+        "posY": "16.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-4.5",
+        "posY": "18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "1.5",
+        "posY": "-12",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "1.5",
+        "posY": "-18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "1.5",
+        "posY": "12",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "1.5",
+        "posY": "18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "4.5",
+        "posY": "-12",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "4.5",
+        "posY": "-18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "4.5",
+        "posY": "12",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "4.5",
+        "posY": "18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "6",
+        "posY": "-13.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "6",
+        "posY": "-16.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "6",
+        "posY": "13.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "6",
+        "posY": "16.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      }
+    ]
+  },
+  {
+    "deploymentID": 5379036,
+    "rotationAxis": 0,
+    "centerlineAxis": "0",
+    "lines": [
+      {
+        "anchor": "center",
+        "posX": "-10.5",
+        "posY": "-12",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-10.5",
+        "posY": "-18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-13.5",
+        "posY": "-12",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-13.5",
+        "posY": "-18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-16.5",
+        "posY": "-12",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-16.5",
+        "posY": "-18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-19.5",
+        "posY": "-12",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-19.5",
+        "posY": "-18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-22.5",
+        "posY": "-12",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-22.5",
+        "posY": "-18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-25.5",
+        "posY": "-12",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-27",
+        "posY": "-13.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-25.5",
+        "posY": "-18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-27",
+        "posY": "-16.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-1.5",
+        "posY": "-12",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-1.5",
+        "posY": "-18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-4.5",
+        "posY": "-12",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-4.5",
+        "posY": "-18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-7.5",
+        "posY": "-12",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-7.5",
+        "posY": "-18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "1.5",
+        "posY": "-12",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "1.5",
+        "posY": "-18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "13.5",
+        "posY": "-12",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "13.5",
+        "posY": "-18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "16.5",
+        "posY": "-12",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "16.5",
+        "posY": "-18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "19.5",
+        "posY": "-12",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "19.5",
+        "posY": "-18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "22.5",
+        "posY": "-12",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "22.5",
+        "posY": "-18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "25.5",
+        "posY": "-12",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "25.5",
+        "posY": "-18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "27",
+        "posY": "-13.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "27",
+        "posY": "-16.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "4.5",
+        "posY": "-12",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "4.5",
+        "posY": "-18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "7.5",
+        "posY": "-12",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "7.5",
+        "posY": "-18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "10.5",
+        "posY": "-12",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "10.5",
+        "posY": "-18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-10.5",
+        "posY": "12",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-10.5",
+        "posY": "18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-13.5",
+        "posY": "12",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-13.5",
+        "posY": "18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-16.5",
+        "posY": "12",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-16.5",
+        "posY": "18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-19.5",
+        "posY": "12",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-19.5",
+        "posY": "18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-22.5",
+        "posY": "12",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-22.5",
+        "posY": "18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-25.5",
+        "posY": "12",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-27",
+        "posY": "13.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-27",
+        "posY": "16.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-25.5",
+        "posY": "18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-1.5",
+        "posY": "12",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-1.5",
+        "posY": "18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-4.5",
+        "posY": "12",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-4.5",
+        "posY": "18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-7.5",
+        "posY": "12",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-7.5",
+        "posY": "18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "1.5",
+        "posY": "12",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "1.5",
+        "posY": "18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "13.5",
+        "posY": "12",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "13.5",
+        "posY": "18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "16.5",
+        "posY": "12",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "16.5",
+        "posY": "18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "19.5",
+        "posY": "12",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "19.5",
+        "posY": "18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "22.5",
+        "posY": "12",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "22.5",
+        "posY": "18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "25.5",
+        "posY": "12",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "25.5",
+        "posY": "18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "27",
+        "posY": "13.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "27",
+        "posY": "16.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "4.5",
+        "posY": "12",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "4.5",
+        "posY": "18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "7.5",
+        "posY": "12",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "7.5",
+        "posY": "18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "10.5",
+        "posY": "12",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "10.5",
+        "posY": "18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      }
+    ]
+  },
+  {
+    "deploymentID": 3281351,
+    "rotationAxis": 0,
+    "centerlineAxis": "0",
+    "lines": [
+      {
+        "anchor": "center",
+        "posX": "-12",
+        "posY": "-1.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-12",
+        "posY": "-4.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-12",
+        "posY": "1.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-12",
+        "posY": "4.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-13.5",
+        "posY": "-6",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-13.5",
+        "posY": "6",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-18",
+        "posY": "-1.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-16.5",
+        "posY": "-6",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-18",
+        "posY": "-4.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-18",
+        "posY": "1.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-18",
+        "posY": "4.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-16.5",
+        "posY": "6",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "13.5",
+        "posY": "-12",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "12",
+        "posY": "-13.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "12",
+        "posY": "-16.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "13.5",
+        "posY": "-18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "16.5",
+        "posY": "-12",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "16.5",
+        "posY": "-18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "18",
+        "posY": "-13.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "18",
+        "posY": "-16.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-12",
+        "posY": "13.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-12",
+        "posY": "16.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-13.5",
+        "posY": "12",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-13.5",
+        "posY": "18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-16.5",
+        "posY": "12",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-18",
+        "posY": "13.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-18",
+        "posY": "16.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-16.5",
+        "posY": "18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "12",
+        "posY": "-1.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "12",
+        "posY": "-4.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "13.5",
+        "posY": "-6",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "12",
+        "posY": "1.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "12",
+        "posY": "4.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "13.5",
+        "posY": "6",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "16.5",
+        "posY": "-6",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "16.5",
+        "posY": "6",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "18",
+        "posY": "-1.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "18",
+        "posY": "-4.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "18",
+        "posY": "1.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "18",
+        "posY": "4.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      }
+    ]
+  },
+  {
+    "deploymentID": 16426918,
+    "rotationAxis": 0,
+    "centerlineAxis": "0",
+    "lines": [
+      {
+        "anchor": "center",
+        "posX": "-21",
+        "posY": "-1.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-21",
+        "posY": "-4.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-21",
+        "posY": "1.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-21",
+        "posY": "4.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-22.5",
+        "posY": "-6",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-22.5",
+        "posY": "6",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-27",
+        "posY": "-1.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-25.5",
+        "posY": "-6",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-27",
+        "posY": "-4.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-27",
+        "posY": "1.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-27",
+        "posY": "4.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-25.5",
+        "posY": "6",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-1.5",
+        "posY": "12",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-1.5",
+        "posY": "18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-4.5",
+        "posY": "12",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-4.5",
+        "posY": "18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-7.5",
+        "posY": "12",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-9",
+        "posY": "13.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-9",
+        "posY": "16.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-7.5",
+        "posY": "18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "1.5",
+        "posY": "12",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "1.5",
+        "posY": "18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "4.5",
+        "posY": "12",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "4.5",
+        "posY": "18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "7.5",
+        "posY": "12",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "7.5",
+        "posY": "18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "9",
+        "posY": "13.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "9",
+        "posY": "16.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-1.5",
+        "posY": "-12",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-1.5",
+        "posY": "-18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-4.5",
+        "posY": "-12",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-4.5",
+        "posY": "-18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-7.5",
+        "posY": "-12",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-9",
+        "posY": "-13.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-7.5",
+        "posY": "-18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-9",
+        "posY": "-16.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "1.5",
+        "posY": "-12",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "1.5",
+        "posY": "-18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "21",
+        "posY": "-1.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "21",
+        "posY": "-4.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "22.5",
+        "posY": "-6",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "21",
+        "posY": "1.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "21",
+        "posY": "4.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "22.5",
+        "posY": "6",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "25.5",
+        "posY": "-6",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "25.5",
+        "posY": "6",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "27",
+        "posY": "-1.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "27",
+        "posY": "-4.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "27",
+        "posY": "1.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "27",
+        "posY": "4.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "4.5",
+        "posY": "-12",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "4.5",
+        "posY": "-18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "7.5",
+        "posY": "-12",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "7.5",
+        "posY": "-18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "9",
+        "posY": "-13.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "9",
+        "posY": "-16.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      }
+    ]
+  },
+  {
+    "deploymentID": 5995631,
+    "rotationAxis": 0,
+    "centerlineAxis": "0",
+    "lines": [
+      {
+        "anchor": "center",
+        "posX": "-10.5",
+        "posY": "12",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-10.5",
+        "posY": "18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-13.5",
+        "posY": "12",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-13.5",
+        "posY": "18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-16.5",
+        "posY": "12",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-16.5",
+        "posY": "18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-21",
+        "posY": "-10.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-21",
+        "posY": "-13.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-21",
+        "posY": "-16.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-21",
+        "posY": "-1.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-21",
+        "posY": "-4.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-21",
+        "posY": "-7.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-21",
+        "posY": "1.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-19.5",
+        "posY": "12",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-19.5",
+        "posY": "18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-21",
+        "posY": "4.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-21",
+        "posY": "7.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-21",
+        "posY": "10.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-22.5",
+        "posY": "-18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-22.5",
+        "posY": "18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-27",
+        "posY": "-10.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-27",
+        "posY": "-13.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-25.5",
+        "posY": "-18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-27",
+        "posY": "-16.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-27",
+        "posY": "-1.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-27",
+        "posY": "-4.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-27",
+        "posY": "-7.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-27",
+        "posY": "1.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-27",
+        "posY": "13.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-27",
+        "posY": "16.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-25.5",
+        "posY": "18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-27",
+        "posY": "4.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-27",
+        "posY": "7.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-27",
+        "posY": "10.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-1.5",
+        "posY": "12",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-1.5",
+        "posY": "18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-4.5",
+        "posY": "12",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-4.5",
+        "posY": "18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-7.5",
+        "posY": "12",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-7.5",
+        "posY": "18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "0",
+        "posY": "13.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "0",
+        "posY": "16.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "0",
+        "posY": "13.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "1.5",
+        "posY": "12",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "0",
+        "posY": "16.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "1.5",
+        "posY": "18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "13.5",
+        "posY": "12",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "13.5",
+        "posY": "18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "16.5",
+        "posY": "12",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "16.5",
+        "posY": "18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "19.5",
+        "posY": "12",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "19.5",
+        "posY": "18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "21",
+        "posY": "-10.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "21",
+        "posY": "-13.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "21",
+        "posY": "-16.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "22.5",
+        "posY": "-18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "21",
+        "posY": "-1.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "21",
+        "posY": "-4.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "21",
+        "posY": "-7.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "21",
+        "posY": "1.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "22.5",
+        "posY": "18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "21",
+        "posY": "4.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "21",
+        "posY": "7.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "21",
+        "posY": "10.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "25.5",
+        "posY": "-18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "25.5",
+        "posY": "18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "27",
+        "posY": "-10.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "27",
+        "posY": "-13.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "27",
+        "posY": "-16.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "27",
+        "posY": "-1.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "27",
+        "posY": "-4.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "27",
+        "posY": "-7.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "27",
+        "posY": "1.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "27",
+        "posY": "13.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "27",
+        "posY": "16.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "27",
+        "posY": "4.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "27",
+        "posY": "7.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "27",
+        "posY": "10.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "4.5",
+        "posY": "12",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "4.5",
+        "posY": "18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "7.5",
+        "posY": "12",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "7.5",
+        "posY": "18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "10.5",
+        "posY": "12",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "10.5",
+        "posY": "18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      }
+    ]
+  },
+  {
+    "deploymentID": 14471154,
+    "rotationAxis": 0,
+    "centerlineAxis": "0",
+    "lines": [
+      {
+        "anchor": "center",
+        "posX": "-12",
+        "posY": "-10.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-12",
+        "posY": "-13.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-12",
+        "posY": "-16.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-12",
+        "posY": "-1.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-12",
+        "posY": "-4.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-12",
+        "posY": "-7.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-12",
+        "posY": "1.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-10.5",
+        "posY": "12",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-10.5",
+        "posY": "18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-12",
+        "posY": "4.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-12",
+        "posY": "7.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-12",
+        "posY": "10.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-13.5",
+        "posY": "-18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-13.5",
+        "posY": "18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-18",
+        "posY": "-10.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-18",
+        "posY": "-13.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-16.5",
+        "posY": "-18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-18",
+        "posY": "-16.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-18",
+        "posY": "-1.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-18",
+        "posY": "-4.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-18",
+        "posY": "-7.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-18",
+        "posY": "1.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-18",
+        "posY": "13.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-18",
+        "posY": "16.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-16.5",
+        "posY": "18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-18",
+        "posY": "4.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-18",
+        "posY": "7.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-18",
+        "posY": "10.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-1.5",
+        "posY": "12",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-1.5",
+        "posY": "18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-4.5",
+        "posY": "12",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-4.5",
+        "posY": "18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-7.5",
+        "posY": "12",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-7.5",
+        "posY": "18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "0",
+        "posY": "13.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "0",
+        "posY": "16.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "0",
+        "posY": "13.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "1.5",
+        "posY": "12",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "0",
+        "posY": "16.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "1.5",
+        "posY": "18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "12",
+        "posY": "-10.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "12",
+        "posY": "-13.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "12",
+        "posY": "-16.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "13.5",
+        "posY": "-18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "12",
+        "posY": "-1.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "12",
+        "posY": "-4.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "12",
+        "posY": "-7.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "12",
+        "posY": "1.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "13.5",
+        "posY": "18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "12",
+        "posY": "4.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "12",
+        "posY": "7.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "12",
+        "posY": "10.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "16.5",
+        "posY": "-18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "16.5",
+        "posY": "18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "18",
+        "posY": "-10.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "18",
+        "posY": "-13.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "18",
+        "posY": "-16.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "18",
+        "posY": "-1.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "18",
+        "posY": "-4.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "18",
+        "posY": "-7.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "18",
+        "posY": "1.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "18",
+        "posY": "13.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "18",
+        "posY": "16.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "18",
+        "posY": "4.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "18",
+        "posY": "7.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "18",
+        "posY": "10.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "4.5",
+        "posY": "12",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "4.5",
+        "posY": "18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "7.5",
+        "posY": "12",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "7.5",
+        "posY": "18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "10.5",
+        "posY": "12",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "10.5",
+        "posY": "18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      }
+    ]
+  },
+  {
+    "deploymentID": 4030768,
+    "rotationAxis": 0,
+    "centerlineAxis": "0",
+    "lines": [
+      {
+        "anchor": "center",
+        "posX": "-1.5",
+        "posY": "12",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-1.5",
+        "posY": "18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-4.5",
+        "posY": "12",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-4.5",
+        "posY": "18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-7.5",
+        "posY": "12",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-9",
+        "posY": "13.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-9",
+        "posY": "16.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-7.5",
+        "posY": "18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "1.5",
+        "posY": "12",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "1.5",
+        "posY": "18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "4.5",
+        "posY": "12",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "4.5",
+        "posY": "18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "7.5",
+        "posY": "12",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "7.5",
+        "posY": "18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "9",
+        "posY": "13.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "9",
+        "posY": "16.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-21",
+        "posY": "-10.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-21",
+        "posY": "-13.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-21",
+        "posY": "-16.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-21",
+        "posY": "-1.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-21",
+        "posY": "-4.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-21",
+        "posY": "-7.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-21",
+        "posY": "1.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-21",
+        "posY": "13.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-21",
+        "posY": "16.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-21",
+        "posY": "4.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-21",
+        "posY": "7.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-21",
+        "posY": "10.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-22.5",
+        "posY": "-18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-22.5",
+        "posY": "18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-27",
+        "posY": "-10.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-27",
+        "posY": "-13.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-25.5",
+        "posY": "-18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-27",
+        "posY": "-16.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-27",
+        "posY": "-1.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-27",
+        "posY": "-4.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-27",
+        "posY": "-7.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-27",
+        "posY": "1.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-27",
+        "posY": "13.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-27",
+        "posY": "16.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-25.5",
+        "posY": "18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-27",
+        "posY": "4.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-27",
+        "posY": "7.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-27",
+        "posY": "10.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "21",
+        "posY": "-10.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "21",
+        "posY": "-13.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "21",
+        "posY": "-16.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "22.5",
+        "posY": "-18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "21",
+        "posY": "-1.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "21",
+        "posY": "-4.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "21",
+        "posY": "-7.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "21",
+        "posY": "1.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "21",
+        "posY": "13.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "21",
+        "posY": "16.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "22.5",
+        "posY": "18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "21",
+        "posY": "4.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "21",
+        "posY": "7.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "21",
+        "posY": "10.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "25.5",
+        "posY": "-18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "25.5",
+        "posY": "18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "27",
+        "posY": "-10.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "27",
+        "posY": "-13.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "27",
+        "posY": "-16.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "27",
+        "posY": "-1.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "27",
+        "posY": "-4.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "27",
+        "posY": "-7.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "27",
+        "posY": "1.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "27",
+        "posY": "13.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "27",
+        "posY": "16.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "27",
+        "posY": "4.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "27",
+        "posY": "7.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "27",
+        "posY": "10.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      }
+    ]
+  },
+  {
+    "deploymentID": 14025690,
+    "rotationAxis": 0,
+    "centerlineAxis": "0",
+    "lines": [
+      {
+        "anchor": "center",
+        "posX": "-10.5",
+        "posY": "-12",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-10.5",
+        "posY": "-18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-13.5",
+        "posY": "-12",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-13.5",
+        "posY": "-18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-16.5",
+        "posY": "-12",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-16.5",
+        "posY": "-18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-19.5",
+        "posY": "-12",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-21",
+        "posY": "-10.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-19.5",
+        "posY": "-18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-21",
+        "posY": "-1.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-21",
+        "posY": "-4.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-21",
+        "posY": "-7.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-22.5",
+        "posY": "-18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-22.5",
+        "posY": "0",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-27",
+        "posY": "-10.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-27",
+        "posY": "-13.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-25.5",
+        "posY": "-18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-27",
+        "posY": "-16.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-27",
+        "posY": "-1.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-27",
+        "posY": "-4.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-27",
+        "posY": "-7.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-25.5",
+        "posY": "0",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-3",
+        "posY": "-13.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-3",
+        "posY": "-16.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-4.5",
+        "posY": "-12",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-4.5",
+        "posY": "-18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-7.5",
+        "posY": "-12",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "-7.5",
+        "posY": "-18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "13.5",
+        "posY": "12",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "13.5",
+        "posY": "18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "16.5",
+        "posY": "12",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "16.5",
+        "posY": "18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "19.5",
+        "posY": "12",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "19.5",
+        "posY": "18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "21",
+        "posY": "1.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "22.5",
+        "posY": "0",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "22.5",
+        "posY": "18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "21",
+        "posY": "4.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "21",
+        "posY": "7.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "21",
+        "posY": "10.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "25.5",
+        "posY": "0",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "25.5",
+        "posY": "18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "27",
+        "posY": "1.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "27",
+        "posY": "13.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "27",
+        "posY": "16.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "27",
+        "posY": "4.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "27",
+        "posY": "7.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "27",
+        "posY": "10.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "3",
+        "posY": "13.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "4.5",
+        "posY": "12",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "3",
+        "posY": "16.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "4.5",
+        "posY": "18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "7.5",
+        "posY": "12",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "7.5",
+        "posY": "18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "10.5",
+        "posY": "12",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "anchor": "center",
+        "posX": "10.5",
+        "posY": "18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      }
+    ]
+  }
+]

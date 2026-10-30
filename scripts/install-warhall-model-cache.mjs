@@ -66,14 +66,25 @@ const next = Object.fromEntries(
 const selection = JSON.parse(
   await readFile(path.join(projectRoot, 'model-selections.json'), 'utf8'),
 );
+try {
+  const markers = JSON.parse(
+    await readFile(path.join(projectRoot, 'deployment-models.json'), 'utf8'),
+  );
+  selection.models.push(...markers.models);
+} catch (error) {
+  if (error.code !== 'ENOENT') throw error;
+}
 let installed = 0;
 for (const model of selection.models.filter(m => m.status === 'selected')) {
-  const units = JSON.parse(
-    await readFile(path.join(projectRoot, 'Starcraft', model.faction, 'units.json'), 'utf8'),
-  );
-  const unit = units.find(u => u.Id === model.unitId);
-  assert.equal(unit?.BasicProfileIds.length, 1, `Expected one basic profile: ${model.unitName}`);
-  const profileId = unit.BasicProfileIds[0];
+  let profileId = model.tokenId;
+  if (!profileId) {
+    const units = JSON.parse(
+      await readFile(path.join(projectRoot, 'Starcraft', model.faction, 'units.json'), 'utf8'),
+    );
+    const unit = units.find(u => u.Id === model.unitId);
+    assert.equal(unit?.BasicProfileIds.length, 1, `Expected one basic profile: ${model.unitName}`);
+    profileId = unit.BasicProfileIds[0];
+  }
   assert.ok(
     !tables.AllItems.some(i => i.FromIdGame === game.IdGame && i.ItemName === profileId),
     `Existing shared mapping: ${profileId}`,

@@ -1,1 +1,870 @@
-[]
+[
+  {
+    "Id": "sc_deployment_abandoned_camp",
+    "Name": "ABANDONED CAMP (36x36)",
+    "Items": [
+      {
+        "Id": "sc_mission_range_1",
+        "Type": "Token",
+        "PosX": "-12",
+        "PosY": "0",
+        "IgnoreDeploymentRotation": true
+      },
+      {
+        "Id": "sc_mission_marker_1",
+        "Type": "Token",
+        "PosX": "-12",
+        "PosY": "0",
+        "IgnoreDeploymentRotation": true
+      },
+      {
+        "Id": "sc_mission_range_2",
+        "Type": "Token",
+        "PosX": "12",
+        "PosY": "0",
+        "IgnoreDeploymentRotation": true
+      },
+      {
+        "Id": "sc_mission_marker_2",
+        "Type": "Token",
+        "PosX": "12",
+        "PosY": "0",
+        "IgnoreDeploymentRotation": true
+      },
+      {
+        "Id": "sc_mission_range_5",
+        "Type": "Token",
+        "PosX": "0",
+        "PosY": "0",
+        "IgnoreDeploymentRotation": true
+      },
+      {
+        "Id": "sc_mission_marker_5",
+        "Type": "Token",
+        "PosX": "0",
+        "PosY": "0",
+        "IgnoreDeploymentRotation": true
+      }
+    ]
+  },
+  {
+    "Id": "sc_deployment_acropolis",
+    "Name": "ACROPOLIS (54x36)",
+    "Items": [
+      {
+        "Id": "sc_mission_range_1",
+        "Type": "Token",
+        "PosX": "-15",
+        "PosY": "6",
+        "IgnoreDeploymentRotation": true
+      },
+      {
+        "Id": "sc_mission_marker_1",
+        "Type": "Token",
+        "PosX": "-15",
+        "PosY": "6",
+        "IgnoreDeploymentRotation": true
+      },
+      {
+        "Id": "sc_mission_range_2",
+        "Type": "Token",
+        "PosX": "15",
+        "PosY": "6",
+        "IgnoreDeploymentRotation": true
+      },
+      {
+        "Id": "sc_mission_marker_2",
+        "Type": "Token",
+        "PosX": "15",
+        "PosY": "6",
+        "IgnoreDeploymentRotation": true
+      },
+      {
+        "Id": "sc_mission_range_3",
+        "Type": "Token",
+        "PosX": "15",
+        "PosY": "-6",
+        "IgnoreDeploymentRotation": true
+      },
+      {
+        "Id": "sc_mission_marker_3",
+        "Type": "Token",
+        "PosX": "15",
+        "PosY": "-6",
+        "IgnoreDeploymentRotation": true
+      },
+      {
+        "Id": "sc_mission_range_4",
+        "Type": "Token",
+        "PosX": "-15",
+        "PosY": "-6",
+        "IgnoreDeploymentRotation": true
+      },
+      {
+        "Id": "sc_mission_marker_4",
+        "Type": "Token",
+        "PosX": "-15",
+        "PosY": "-6",
+        "IgnoreDeploymentRotation": true
+      },
+      {
+        "Id": "sc_mission_range_5",
+        "Type": "Token",
+        "PosX": "0",
+        "PosY": "0",
+        "IgnoreDeploymentRotation": true
+      },
+      {
+        "Id": "sc_mission_marker_5",
+        "Type": "Token",
+        "PosX": "0",
+        "PosY": "0",
+        "IgnoreDeploymentRotation": true
+      }
+    ]
+  },
+  {
+    "Id": "sc_deployment_agria_valley",
+    "Name": "AGRIA VALLEY (36x36)",
+    "Items": [
+      {
+        "Id": "sc_mission_range_1",
+        "Type": "Token",
+        "PosX": "-12",
+        "PosY": "-12",
+        "IgnoreDeploymentRotation": true
+      },
+      {
+        "Id": "sc_mission_marker_1",
+        "Type": "Token",
+        "PosX": "-12",
+        "PosY": "-12",
+        "IgnoreDeploymentRotation": true
+      },
+      {
+        "Id": "sc_mission_range_2",
+        "Type": "Token",
+        "PosX": "12",
+        "PosY": "12",
+        "IgnoreDeploymentRotation": true
+      },
+      {
+        "Id": "sc_mission_marker_2",
+        "Type": "Token",
+        "PosX": "12",
+        "PosY": "12",
+        "IgnoreDeploymentRotation": true
+      },
+      {
+        "Id": "sc_mission_range_5",
+        "Type": "Token",
+        "PosX": "0",
+        "PosY": "0",
+        "IgnoreDeploymentRotation": true
+      },
+      {
+        "Id": "sc_mission_marker_5",
+        "Type": "Token",
+        "PosX": "0",
+        "PosY": "0",
+        "IgnoreDeploymentRotation": true
+      }
+    ]
+  },
+  {
+    "Id": "sc_deployment_breach",
+    "Name": "BREACH (54x36)",
+    "Items": [
+      {
+        "Id": "sc_mission_range_1",
+        "Type": "Token",
+        "PosX": "-9",
+        "PosY": "12",
+        "IgnoreDeploymentRotation": true
+      },
+      {
+        "Id": "sc_mission_marker_1",
+        "Type": "Token",
+        "PosX": "-9",
+        "PosY": "12",
+        "IgnoreDeploymentRotation": true
+      },
+      {
+        "Id": "sc_mission_range_2",
+        "Type": "Token",
+        "PosX": "9",
+        "PosY": "12",
+        "IgnoreDeploymentRotation": true
+      },
+      {
+        "Id": "sc_mission_marker_2",
+        "Type": "Token",
+        "PosX": "9",
+        "PosY": "12",
+        "IgnoreDeploymentRotation": true
+      },
+      {
+        "Id": "sc_mission_range_3",
+        "Type": "Token",
+        "PosX": "9",
+        "PosY": "-12",
+        "IgnoreDeploymentRotation": true
+      },
+      {
+        "Id": "sc_mission_marker_3",
+        "Type": "Token",
+        "PosX": "9",
+        "PosY": "-12",
+        "IgnoreDeploymentRotation": true
+      },
+      {
+        "Id": "sc_mission_range_4",
+        "Type": "Token",
+        "PosX": "-9",
+        "PosY": "-12",
+        "IgnoreDeploymentRotation": true
+      },
+      {
+        "Id": "sc_mission_marker_4",
+        "Type": "Token",
+        "PosX": "-9",
+        "PosY": "-12",
+        "IgnoreDeploymentRotation": true
+      },
+      {
+        "Id": "sc_mission_range_5",
+        "Type": "Token",
+        "PosX": "0",
+        "PosY": "0",
+        "IgnoreDeploymentRotation": true
+      },
+      {
+        "Id": "sc_mission_marker_5",
+        "Type": "Token",
+        "PosX": "0",
+        "PosY": "0",
+        "IgnoreDeploymentRotation": true
+      }
+    ]
+  },
+  {
+    "Id": "sc_deployment_char_plains",
+    "Name": "CHAR PLAINS (36x36)",
+    "Items": [
+      {
+        "Id": "sc_mission_range_1",
+        "Type": "Token",
+        "PosX": "-12",
+        "PosY": "-12",
+        "IgnoreDeploymentRotation": true
+      },
+      {
+        "Id": "sc_mission_marker_1",
+        "Type": "Token",
+        "PosX": "-12",
+        "PosY": "-12",
+        "IgnoreDeploymentRotation": true
+      },
+      {
+        "Id": "sc_mission_range_2",
+        "Type": "Token",
+        "PosX": "-12",
+        "PosY": "12",
+        "IgnoreDeploymentRotation": true
+      },
+      {
+        "Id": "sc_mission_marker_2",
+        "Type": "Token",
+        "PosX": "-12",
+        "PosY": "12",
+        "IgnoreDeploymentRotation": true
+      },
+      {
+        "Id": "sc_mission_range_5",
+        "Type": "Token",
+        "PosX": "6",
+        "PosY": "0",
+        "IgnoreDeploymentRotation": true
+      },
+      {
+        "Id": "sc_mission_marker_5",
+        "Type": "Token",
+        "PosX": "6",
+        "PosY": "0",
+        "IgnoreDeploymentRotation": true
+      }
+    ]
+  },
+  {
+    "Id": "sc_deployment_dirt_side",
+    "Name": "DIRT SIDE (36x36)",
+    "Items": [
+      {
+        "Id": "sc_mission_range_1",
+        "Type": "Token",
+        "PosX": "-12",
+        "PosY": "0",
+        "IgnoreDeploymentRotation": true
+      },
+      {
+        "Id": "sc_mission_marker_1",
+        "Type": "Token",
+        "PosX": "-12",
+        "PosY": "0",
+        "IgnoreDeploymentRotation": true
+      },
+      {
+        "Id": "sc_mission_range_2",
+        "Type": "Token",
+        "PosX": "12",
+        "PosY": "0",
+        "IgnoreDeploymentRotation": true
+      },
+      {
+        "Id": "sc_mission_marker_2",
+        "Type": "Token",
+        "PosX": "12",
+        "PosY": "0",
+        "IgnoreDeploymentRotation": true
+      },
+      {
+        "Id": "sc_mission_range_5",
+        "Type": "Token",
+        "PosX": "0",
+        "PosY": "0",
+        "IgnoreDeploymentRotation": true
+      },
+      {
+        "Id": "sc_mission_marker_5",
+        "Type": "Token",
+        "PosX": "0",
+        "PosY": "0",
+        "IgnoreDeploymentRotation": true
+      }
+    ]
+  },
+  {
+    "Id": "sc_deployment_frontier",
+    "Name": "FRONTIER (36x36)",
+    "Items": [
+      {
+        "Id": "sc_mission_range_1",
+        "Type": "Token",
+        "PosX": "-12",
+        "PosY": "-12",
+        "IgnoreDeploymentRotation": true
+      },
+      {
+        "Id": "sc_mission_marker_1",
+        "Type": "Token",
+        "PosX": "-12",
+        "PosY": "-12",
+        "IgnoreDeploymentRotation": true
+      },
+      {
+        "Id": "sc_mission_range_2",
+        "Type": "Token",
+        "PosX": "12",
+        "PosY": "12",
+        "IgnoreDeploymentRotation": true
+      },
+      {
+        "Id": "sc_mission_marker_2",
+        "Type": "Token",
+        "PosX": "12",
+        "PosY": "12",
+        "IgnoreDeploymentRotation": true
+      },
+      {
+        "Id": "sc_mission_range_5",
+        "Type": "Token",
+        "PosX": "0",
+        "PosY": "0",
+        "IgnoreDeploymentRotation": true
+      },
+      {
+        "Id": "sc_mission_marker_5",
+        "Type": "Token",
+        "PosX": "0",
+        "PosY": "0",
+        "IgnoreDeploymentRotation": true
+      }
+    ]
+  },
+  {
+    "Id": "sc_deployment_gauntlet",
+    "Name": "GAUNTLET (54x36)",
+    "Items": [
+      {
+        "Id": "sc_mission_range_1",
+        "Type": "Token",
+        "PosX": "-15",
+        "PosY": "6",
+        "IgnoreDeploymentRotation": true
+      },
+      {
+        "Id": "sc_mission_marker_1",
+        "Type": "Token",
+        "PosX": "-15",
+        "PosY": "6",
+        "IgnoreDeploymentRotation": true
+      },
+      {
+        "Id": "sc_mission_range_2",
+        "Type": "Token",
+        "PosX": "15",
+        "PosY": "-6",
+        "IgnoreDeploymentRotation": true
+      },
+      {
+        "Id": "sc_mission_marker_2",
+        "Type": "Token",
+        "PosX": "15",
+        "PosY": "-6",
+        "IgnoreDeploymentRotation": true
+      },
+      {
+        "Id": "sc_mission_range_3",
+        "Type": "Token",
+        "PosX": "9",
+        "PosY": "6",
+        "IgnoreDeploymentRotation": true
+      },
+      {
+        "Id": "sc_mission_marker_3",
+        "Type": "Token",
+        "PosX": "9",
+        "PosY": "6",
+        "IgnoreDeploymentRotation": true
+      },
+      {
+        "Id": "sc_mission_range_4",
+        "Type": "Token",
+        "PosX": "-9",
+        "PosY": "-6",
+        "IgnoreDeploymentRotation": true
+      },
+      {
+        "Id": "sc_mission_marker_4",
+        "Type": "Token",
+        "PosX": "-9",
+        "PosY": "-6",
+        "IgnoreDeploymentRotation": true
+      },
+      {
+        "Id": "sc_mission_range_5",
+        "Type": "Token",
+        "PosX": "0",
+        "PosY": "0",
+        "IgnoreDeploymentRotation": true
+      },
+      {
+        "Id": "sc_mission_marker_5",
+        "Type": "Token",
+        "PosX": "0",
+        "PosY": "0",
+        "IgnoreDeploymentRotation": true
+      }
+    ]
+  },
+  {
+    "Id": "sc_deployment_green_valleys",
+    "Name": "GREEN VALLEYS (36x36)",
+    "Items": [
+      {
+        "Id": "sc_mission_range_1",
+        "Type": "Token",
+        "PosX": "-6",
+        "PosY": "-12",
+        "IgnoreDeploymentRotation": true
+      },
+      {
+        "Id": "sc_mission_marker_1",
+        "Type": "Token",
+        "PosX": "-6",
+        "PosY": "-12",
+        "IgnoreDeploymentRotation": true
+      },
+      {
+        "Id": "sc_mission_range_2",
+        "Type": "Token",
+        "PosX": "6",
+        "PosY": "12",
+        "IgnoreDeploymentRotation": true
+      },
+      {
+        "Id": "sc_mission_marker_2",
+        "Type": "Token",
+        "PosX": "6",
+        "PosY": "12",
+        "IgnoreDeploymentRotation": true
+      },
+      {
+        "Id": "sc_mission_range_5",
+        "Type": "Token",
+        "PosX": "0",
+        "PosY": "0",
+        "IgnoreDeploymentRotation": true
+      },
+      {
+        "Id": "sc_mission_marker_5",
+        "Type": "Token",
+        "PosX": "0",
+        "PosY": "0",
+        "IgnoreDeploymentRotation": true
+      }
+    ]
+  },
+  {
+    "Id": "sc_deployment_meeting_engagement",
+    "Name": "MEETING ENGAGEMENT (54x36)",
+    "Items": [
+      {
+        "Id": "sc_mission_range_1",
+        "Type": "Token",
+        "PosX": "-15",
+        "PosY": "6",
+        "IgnoreDeploymentRotation": true
+      },
+      {
+        "Id": "sc_mission_marker_1",
+        "Type": "Token",
+        "PosX": "-15",
+        "PosY": "6",
+        "IgnoreDeploymentRotation": true
+      },
+      {
+        "Id": "sc_mission_range_2",
+        "Type": "Token",
+        "PosX": "15",
+        "PosY": "-6",
+        "IgnoreDeploymentRotation": true
+      },
+      {
+        "Id": "sc_mission_marker_2",
+        "Type": "Token",
+        "PosX": "15",
+        "PosY": "-6",
+        "IgnoreDeploymentRotation": true
+      },
+      {
+        "Id": "sc_mission_range_3",
+        "Type": "Token",
+        "PosX": "15",
+        "PosY": "6",
+        "IgnoreDeploymentRotation": true
+      },
+      {
+        "Id": "sc_mission_marker_3",
+        "Type": "Token",
+        "PosX": "15",
+        "PosY": "6",
+        "IgnoreDeploymentRotation": true
+      },
+      {
+        "Id": "sc_mission_range_4",
+        "Type": "Token",
+        "PosX": "-15",
+        "PosY": "-6",
+        "IgnoreDeploymentRotation": true
+      },
+      {
+        "Id": "sc_mission_marker_4",
+        "Type": "Token",
+        "PosX": "-15",
+        "PosY": "-6",
+        "IgnoreDeploymentRotation": true
+      },
+      {
+        "Id": "sc_mission_range_5",
+        "Type": "Token",
+        "PosX": "0",
+        "PosY": "0",
+        "IgnoreDeploymentRotation": true
+      },
+      {
+        "Id": "sc_mission_marker_5",
+        "Type": "Token",
+        "PosX": "0",
+        "PosY": "0",
+        "IgnoreDeploymentRotation": true
+      }
+    ]
+  },
+  {
+    "Id": "sc_deployment_one_bridge_too_close",
+    "Name": "ONE BRIDGE TOO CLOSE (54x36)",
+    "Items": [
+      {
+        "Id": "sc_mission_range_1",
+        "Type": "Token",
+        "PosX": "9",
+        "PosY": "3",
+        "IgnoreDeploymentRotation": true
+      },
+      {
+        "Id": "sc_mission_marker_1",
+        "Type": "Token",
+        "PosX": "9",
+        "PosY": "3",
+        "IgnoreDeploymentRotation": true
+      },
+      {
+        "Id": "sc_mission_range_2",
+        "Type": "Token",
+        "PosX": "-9",
+        "PosY": "3",
+        "IgnoreDeploymentRotation": true
+      },
+      {
+        "Id": "sc_mission_marker_2",
+        "Type": "Token",
+        "PosX": "-9",
+        "PosY": "3",
+        "IgnoreDeploymentRotation": true
+      },
+      {
+        "Id": "sc_mission_range_3",
+        "Type": "Token",
+        "PosX": "15",
+        "PosY": "-12",
+        "IgnoreDeploymentRotation": true
+      },
+      {
+        "Id": "sc_mission_marker_3",
+        "Type": "Token",
+        "PosX": "15",
+        "PosY": "-12",
+        "IgnoreDeploymentRotation": true
+      },
+      {
+        "Id": "sc_mission_range_4",
+        "Type": "Token",
+        "PosX": "-15",
+        "PosY": "-12",
+        "IgnoreDeploymentRotation": true
+      },
+      {
+        "Id": "sc_mission_marker_4",
+        "Type": "Token",
+        "PosX": "-15",
+        "PosY": "-12",
+        "IgnoreDeploymentRotation": true
+      },
+      {
+        "Id": "sc_mission_range_5",
+        "Type": "Token",
+        "PosX": "0",
+        "PosY": "-12",
+        "IgnoreDeploymentRotation": true
+      },
+      {
+        "Id": "sc_mission_marker_5",
+        "Type": "Token",
+        "PosX": "0",
+        "PosY": "-12",
+        "IgnoreDeploymentRotation": true
+      }
+    ]
+  },
+  {
+    "Id": "sc_deployment_power_lines",
+    "Name": "POWER LINES (36x36)",
+    "Items": [
+      {
+        "Id": "sc_mission_range_1",
+        "Type": "Token",
+        "PosX": "6",
+        "PosY": "3",
+        "IgnoreDeploymentRotation": true
+      },
+      {
+        "Id": "sc_mission_marker_1",
+        "Type": "Token",
+        "PosX": "6",
+        "PosY": "3",
+        "IgnoreDeploymentRotation": true
+      },
+      {
+        "Id": "sc_mission_range_2",
+        "Type": "Token",
+        "PosX": "-6",
+        "PosY": "3",
+        "IgnoreDeploymentRotation": true
+      },
+      {
+        "Id": "sc_mission_marker_2",
+        "Type": "Token",
+        "PosX": "-6",
+        "PosY": "3",
+        "IgnoreDeploymentRotation": true
+      },
+      {
+        "Id": "sc_mission_range_5",
+        "Type": "Token",
+        "PosX": "0",
+        "PosY": "-12",
+        "IgnoreDeploymentRotation": true
+      },
+      {
+        "Id": "sc_mission_marker_5",
+        "Type": "Token",
+        "PosX": "0",
+        "PosY": "-12",
+        "IgnoreDeploymentRotation": true
+      }
+    ]
+  },
+  {
+    "Id": "sc_deployment_proving_grounds",
+    "Name": "PROVING GROUNDS (54x36)",
+    "Items": [
+      {
+        "Id": "sc_mission_range_1",
+        "Type": "Token",
+        "PosX": "-15",
+        "PosY": "6",
+        "IgnoreDeploymentRotation": true
+      },
+      {
+        "Id": "sc_mission_marker_1",
+        "Type": "Token",
+        "PosX": "-15",
+        "PosY": "6",
+        "IgnoreDeploymentRotation": true
+      },
+      {
+        "Id": "sc_mission_range_2",
+        "Type": "Token",
+        "PosX": "9",
+        "PosY": "-6",
+        "IgnoreDeploymentRotation": true
+      },
+      {
+        "Id": "sc_mission_marker_2",
+        "Type": "Token",
+        "PosX": "9",
+        "PosY": "-6",
+        "IgnoreDeploymentRotation": true
+      },
+      {
+        "Id": "sc_mission_range_3",
+        "Type": "Token",
+        "PosX": "15",
+        "PosY": "6",
+        "IgnoreDeploymentRotation": true
+      },
+      {
+        "Id": "sc_mission_marker_3",
+        "Type": "Token",
+        "PosX": "15",
+        "PosY": "6",
+        "IgnoreDeploymentRotation": true
+      },
+      {
+        "Id": "sc_mission_range_4",
+        "Type": "Token",
+        "PosX": "-9",
+        "PosY": "-6",
+        "IgnoreDeploymentRotation": true
+      },
+      {
+        "Id": "sc_mission_marker_4",
+        "Type": "Token",
+        "PosX": "-9",
+        "PosY": "-6",
+        "IgnoreDeploymentRotation": true
+      },
+      {
+        "Id": "sc_mission_range_5",
+        "Type": "Token",
+        "PosX": "0",
+        "PosY": "6",
+        "IgnoreDeploymentRotation": true
+      },
+      {
+        "Id": "sc_mission_marker_5",
+        "Type": "Token",
+        "PosX": "0",
+        "PosY": "6",
+        "IgnoreDeploymentRotation": true
+      }
+    ]
+  },
+  {
+    "Id": "sc_deployment_typhoon",
+    "Name": "TYPHOON (54x36)",
+    "Items": [
+      {
+        "Id": "sc_mission_range_1",
+        "Type": "Token",
+        "PosX": "-9",
+        "PosY": "6",
+        "IgnoreDeploymentRotation": true
+      },
+      {
+        "Id": "sc_mission_marker_1",
+        "Type": "Token",
+        "PosX": "-9",
+        "PosY": "6",
+        "IgnoreDeploymentRotation": true
+      },
+      {
+        "Id": "sc_mission_range_2",
+        "Type": "Token",
+        "PosX": "-21",
+        "PosY": "12",
+        "IgnoreDeploymentRotation": true
+      },
+      {
+        "Id": "sc_mission_marker_2",
+        "Type": "Token",
+        "PosX": "-21",
+        "PosY": "12",
+        "IgnoreDeploymentRotation": true
+      },
+      {
+        "Id": "sc_mission_range_3",
+        "Type": "Token",
+        "PosX": "21",
+        "PosY": "-12",
+        "IgnoreDeploymentRotation": true
+      },
+      {
+        "Id": "sc_mission_marker_3",
+        "Type": "Token",
+        "PosX": "21",
+        "PosY": "-12",
+        "IgnoreDeploymentRotation": true
+      },
+      {
+        "Id": "sc_mission_range_4",
+        "Type": "Token",
+        "PosX": "9",
+        "PosY": "-6",
+        "IgnoreDeploymentRotation": true
+      },
+      {
+        "Id": "sc_mission_marker_4",
+        "Type": "Token",
+        "PosX": "9",
+        "PosY": "-6",
+        "IgnoreDeploymentRotation": true
+      },
+      {
+        "Id": "sc_mission_range_5",
+        "Type": "Token",
+        "PosX": "0",
+        "PosY": "0",
+        "IgnoreDeploymentRotation": true
+      },
+      {
+        "Id": "sc_mission_marker_5",
+        "Type": "Token",
+        "PosX": "0",
+        "PosY": "0",
+        "IgnoreDeploymentRotation": true
+      }
+    ]
+  }
+]

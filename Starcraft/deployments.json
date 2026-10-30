@@ -1,1 +1,72 @@
-[]
+[
+  {
+    "deploymentID": 1764768,
+    "deploymentName": "ABANDONED CAMP (36x36)",
+    "showCenterline": false
+  },
+  {
+    "deploymentID": 16231390,
+    "deploymentName": "ACROPOLIS (54x36)",
+    "showCenterline": false
+  },
+  {
+    "deploymentID": 5036036,
+    "deploymentName": "AGRIA VALLEY (36x36)",
+    "showCenterline": false
+  },
+  {
+    "deploymentID": 16130426,
+    "deploymentName": "BREACH (54x36)",
+    "showCenterline": false
+  },
+  {
+    "deploymentID": 13092295,
+    "deploymentName": "CHAR PLAINS (36x36)",
+    "showCenterline": false
+  },
+  {
+    "deploymentID": 12662609,
+    "deploymentName": "DIRT SIDE (36x36)",
+    "showCenterline": false
+  },
+  {
+    "deploymentID": 10928237,
+    "deploymentName": "FRONTIER (36x36)",
+    "showCenterline": false
+  },
+  {
+    "deploymentID": 5379036,
+    "deploymentName": "GAUNTLET (54x36)",
+    "showCenterline": false
+  },
+  {
+    "deploymentID": 3281351,
+    "deploymentName": "GREEN VALLEYS (36x36)",
+    "showCenterline": false
+  },
+  {
+    "deploymentID": 16426918,
+    "deploymentName": "MEETING ENGAGEMENT (54x36)",
+    "showCenterline": false
+  },
+  {
+    "deploymentID": 5995631,
+    "deploymentName": "ONE BRIDGE TOO CLOSE (54x36)",
+    "showCenterline": false
+  },
+  {
+    "deploymentID": 14471154,
+    "deploymentName": "POWER LINES (36x36)",
+    "showCenterline": false
+  },
+  {
+    "deploymentID": 4030768,
+    "deploymentName": "PROVING GROUNDS (54x36)",
+    "showCenterline": false
+  },
+  {
+    "deploymentID": 14025690,
+    "deploymentName": "TYPHOON (54x36)",
+    "showCenterline": false
+  }
+]
