@@ -1,7 +1,7 @@
 {
-  "BattlegroundWidth": 72,
-  "BattlegroundHeight": 48,
-  "WoundsAttribute": "W",
+  "BattlegroundWidth": 54,
+  "BattlegroundHeight": 36,
+  "WoundsAttribute": "HP",
   "AvailableDice": [
     "D6",
     "D3"
@@ -15,8 +15,8 @@
   ],
   "DefaultFormation": "Cloud",
   "FormationChangingRules": [],
-  "MaxCloudSeparation": 1,
-  "DefaultSoldierSelectionMode": false,
+  "MaxCloudSeparation": 4,
+  "DefaultSoldierSelectionMode": true,
   "DefaultCardConfig": {
     "Width": 50,
     "Length": 50,
