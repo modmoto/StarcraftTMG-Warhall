@@ -7,11 +7,7 @@ import { readJson, sha256 } from '../src/io.mjs';
 import { downloadsUrl, loadSources } from '../src/sources/pdf/downloads.mjs';
 import { parseDeploymentPdf, reconcileDeployments } from '../src/deployments/pdf.mjs';
 import { buildDeployments, deploymentName } from '../src/deployments/package.mjs';
-import {
-  markerTexture,
-  markerDiameterMm,
-  controlRangeInches,
-} from '../src/deployments/markers.mjs';
+import { markerDiameterMm, controlRangeInches, nativeMarkers } from '../src/deployments/markers.mjs';
 
 const options = {
   offline: false,
@@ -146,13 +142,6 @@ for (const [file, records, owned] of [
   json(path.join(options.output, file), [...existing.filter(r => !owned(r)), ...records]);
 }
 json(path.join(projectRoot, 'deployment-templates.json'), generated.templates);
-json(path.join(projectRoot, 'deployment-models.json'), {
-  source: 'https://steamcommunity.com/sharedfiles/filedetails/?id=3662791369',
-  markerDiameterMm,
-  controlRangeInches,
-  controlAreaDiameterMm: markerDiameterMm + controlRangeInches * 25.4 * 2,
-  models: generated.models,
-});
 json(path.join(projectRoot, 'deployment-report.json'), {
   rules: ruleSource,
   units: 'inches; origin at battlefield center; X right, Y up in the upright printed card',
@@ -160,16 +149,9 @@ json(path.join(projectRoot, 'deployment-report.json'), {
     'PDF vector symbols and battlefield bounds; reviewed printed measurements on the current 3-inch grid. Unknown colors, missing symbols, off-grid positions and conflicting copies fail. Review new or changed cards against their printed arrows.',
   deploymentImport:
     'deployment-templates.json must be registered in Warhall DeploymentDB. WDS does not load custom template geometry.',
-  modelImport:
-    'deployment-models.json uses the TTS CDN disk mesh and repository-hosted numbered textures; register through the Warhall skin catalogue or the local test adapter.',
+  markers: { nativeMarkers, rulesDiameterMm: markerDiameterMm, controlRangeInches, customAssets: false, size: 'Existing Warhall asset dimensions retained' },
   layouts: layouts.map((l, i) => ({ ...l, templateId: generated.templates[i].deploymentID })),
 });
-for (let n = 1; n <= 5; n++)
-  for (const halo of [false, true])
-    outputs.set(
-      path.join(projectRoot, 'assets', 'markers', `${halo ? 'range' : 'marker'}-${n}.png`),
-      markerTexture(n, halo),
-    );
 const escape = s => s.replaceAll('&', '&amp;').replaceAll('<', '&lt;').replaceAll('"', '&quot;');
 const reviews = layouts
   .map(l => {
@@ -181,7 +163,7 @@ const reviews = layouts
 outputs.set(
   path.join(projectRoot, 'docs', 'deployments.html'),
   Buffer.from(
-    `<!doctype html><meta charset="utf-8"><title>StarCraft deployment review</title><style>body{font:16px sans-serif;max-width:1200px;margin:2em auto;background:#fafafa}main{display:grid;grid-template-columns:1fr 1fr;gap:2em}section{background:white;padding:1em;border:1px solid #ddd}svg{width:100%}p{font-size:12px;overflow-wrap:anywhere}</style><h1>StarCraft deployments</h1><p>32 mm numbered markers, with a 3-inch range aid measured from their edges. Coordinates are inches from the table center. Set the table to the printed size and select matching deployment and objective presets. Activation and control remain manual.</p><main>${reviews}</main>\n`,
+    `<!doctype html><meta charset="utf-8"><title>StarCraft deployment review</title><style>body{font:16px sans-serif;max-width:1200px;margin:2em auto;background:#fafafa}main{display:grid;grid-template-columns:1fr 1fr;gap:2em}section{background:white;padding:1em;border:1px solid #ddd}svg{width:100%}p{font-size:12px;overflow-wrap:anywhere}</style><h1>StarCraft deployments</h1><p>Existing Warhall red, blue and green markers. The diagrams retain the official marker numbers for reference; no custom marker images or range rings are used in the game. Coordinates are inches from the table center. Set the table to the printed size and select matching deployment and objective presets. Activation and control remain manual.</p><main>${reviews}</main>\n`,
   ),
 );
 if (options.check) {
@@ -211,5 +193,5 @@ if (options.check) {
   }
 }
 console.log(
-  `${options.check ? 'Verified' : options.dryRun ? 'Previewed' : 'Updated'} ${layouts.length} deployments, ${generated.objectives.length} objective presets and ${generated.tokens.length} marker/range tokens. Shared templates and skins require Warhall catalogue import.`,
+  `${options.check ? 'Verified' : options.dryRun ? 'Previewed' : 'Updated'} ${layouts.length} deployments, ${generated.objectives.length} objective presets and ${generated.tokens.length} existing Warhall marker colors. Custom deployment templates require Warhall DeploymentDB import.`,
 );

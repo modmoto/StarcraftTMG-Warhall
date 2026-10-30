@@ -7,7 +7,29 @@
   "units": "inches; origin at battlefield center; X right, Y up in the upright printed card",
   "extraction": "PDF vector symbols and battlefield bounds; reviewed printed measurements on the current 3-inch grid. Unknown colors, missing symbols, off-grid positions and conflicting copies fail. Review new or changed cards against their printed arrows.",
   "deploymentImport": "deployment-templates.json must be registered in Warhall DeploymentDB. WDS does not load custom template geometry.",
-  "modelImport": "deployment-models.json uses the TTS CDN disk mesh and repository-hosted numbered textures; register through the Warhall skin catalogue or the local test adapter.",
+  "markers": {
+    "nativeMarkers": [
+      {
+        "color": "red",
+        "skinId": 6201,
+        "resource": "Tokens/ExcaliburRed"
+      },
+      {
+        "color": "blue",
+        "skinId": 6202,
+        "resource": "Tokens/ExcaliburBlue"
+      },
+      {
+        "color": "green",
+        "skinId": 6203,
+        "resource": "Tokens/ExcaliburGreen"
+      }
+    ],
+    "rulesDiameterMm": 32,
+    "controlRangeInches": 3,
+    "customAssets": false,
+    "size": "Existing Warhall asset dimensions retained"
+  },
   "layouts": [
     {
       "name": "ABANDONED CAMP",

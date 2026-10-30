@@ -66,14 +66,6 @@ const next = Object.fromEntries(
 const selection = JSON.parse(
   await readFile(path.join(projectRoot, 'model-selections.json'), 'utf8'),
 );
-try {
-  const markers = JSON.parse(
-    await readFile(path.join(projectRoot, 'deployment-models.json'), 'utf8'),
-  );
-  selection.models.push(...markers.models);
-} catch (error) {
-  if (error.code !== 'ENOENT') throw error;
-}
 let installed = 0;
 for (const model of selection.models.filter(m => m.status === 'selected')) {
   let profileId = model.tokenId;

@@ -1,6 +1,6 @@
 import assert from 'node:assert/strict';
 import { sha256 } from '../io.mjs';
-import { markerModels, markerDiameterMm, controlRangeInches } from './markers.mjs';
+import { markerTokens } from './markers.mjs';
 
 export const deploymentName = l => `${l.name} (${l.width}x${l.height})`;
 export function deploymentId(name) {
@@ -82,8 +82,7 @@ export function deploymentTemplate(layout) {
   };
 }
 
-export function buildDeployments(layouts, { includeRanges = true } = {}) {
-  const models = markerModels();
+export function buildDeployments(layouts) {
   const ids = layouts.map(l => deploymentId(l.name));
   assert.equal(new Set(ids).size, ids.length, 'Deployment template ID collision');
   return {
@@ -95,25 +94,15 @@ export function buildDeployments(layouts, { includeRanges = true } = {}) {
     objectives: layouts.map(l => ({
       Id: `sc_deployment_${l.name.toLowerCase().replaceAll(' ', '_')}`,
       Name: deploymentName(l),
-      Items: l.markers.flatMap(m =>
-        (includeRanges ? ['range', 'marker'] : ['marker']).map(kind => ({
-          Id: `sc_mission_${kind}_${m.number}`,
+      Items: l.markers.map(m => ({
+          Id: `sc_mission_${m.color}`,
           Type: 'Token',
           PosX: String(m.x),
           PosY: String(m.y),
           IgnoreDeploymentRotation: true,
         })),
-      ),
     })),
-    tokens: models.map(m => ({
-      Id: m.tokenId,
-      Name: m.unitName,
-      Type: 'Token',
-      Description: m.tokenId.includes('range')
-        ? `Visual aid: ${controlRangeInches} inches from the edge of the ${markerDiameterMm} mm marker. Not a mission marker or an obstacle.`
-        : `${markerDiameterMm} mm mission marker. Red: 1/3; blue: 2/4; green neutral: 5. Activation and control are tracked manually.`,
-    })),
+    tokens: markerTokens(),
     templates: layouts.map(deploymentTemplate),
-    models,
   };
 }

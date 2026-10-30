@@ -2,12 +2,11 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import { readFile, access } from 'node:fs/promises';
 import path from 'node:path';
-import { inflateSync } from 'node:zlib';
 import { loadSources } from '../src/sources/pdf/downloads.mjs';
 import { defaultPdfCacheDirectory } from '../src/paths.mjs';
 import { parseDeploymentPdf, reconcileDeployments } from '../src/deployments/pdf.mjs';
 import { buildDeployments, deploymentTemplate } from '../src/deployments/package.mjs';
-import { markerModels, markerTexture } from '../src/deployments/markers.mjs';
+import { markerTokens } from '../src/deployments/markers.mjs';
 
 const layout = {
   name: 'TEST',
@@ -30,22 +29,18 @@ test('conflicting faction copies fail instead of silently choosing a deployment'
   assert.throws(() => reconcileDeployments([layout, other]), /Conflicting deployment/);
   assert.throws(() => reconcileDeployments([]), /No deployments/);
 });
-test('markers use exact inches, fixed orientation and distinct range aids', () => {
+test('markers use exact inches and explicit existing Warhall color skins', () => {
   const output = buildDeployments([layout]);
-  assert.equal(output.objectives[0].Items.length, 6);
+  assert.equal(output.objectives[0].Items.length, 3);
   assert.deepEqual(output.objectives[0].Items.at(-1), {
-    Id: 'sc_mission_marker_5',
+    Id: 'sc_mission_green',
     Type: 'Token',
     PosX: '0',
     PosY: '0',
     IgnoreDeploymentRotation: true,
   });
-  assert.equal(buildDeployments([layout], { includeRanges: false }).objectives[0].Items.length, 3);
-  const models = markerModels();
-  for (const m of models) {
-    const actualDiameterMm = 4 * 2.54 * m.layout.size * 10;
-    assert.ok(Math.abs(actualDiameterMm - (m.tokenId.includes('range') ? 184.4 : 32)) < 1e-9);
-  }
+  assert.deepEqual(markerTokens().map(t => t.SkinId), [6201,6202,6203]);
+  assert.ok(markerTokens().every(t => !('model' in t)));
 });
 test('L-shaped zones have no internal lines or duplicate overlap edges', () => {
   const l = structuredClone(layout);
@@ -61,22 +56,6 @@ test('L-shaped zones have no internal lines or duplicate overlap edges', () => {
   const invalid = structuredClone(layout);
   invalid.zones[0].bounds = [-18, 13, 18, 18];
   assert.throws(() => deploymentTemplate(invalid), /six-inch/);
-});
-test('numbered PNG textures are deterministic RGBA with transparent range interiors', () => {
-  const png = markerTexture(1, true);
-  assert.ok(png.equals(markerTexture(1, true)));
-  assert.equal(png.readUInt32BE(16), 256);
-  let offset = 8,
-    compressed = [];
-  while (offset < png.length) {
-    const length = png.readUInt32BE(offset);
-    if (png.toString('ascii', offset + 4, offset + 8) === 'IDAT')
-      compressed.push(png.subarray(offset + 8, offset + 8 + length));
-    offset += 12 + length;
-  }
-  const pixels = inflateSync(Buffer.concat(compressed));
-  assert.equal(pixels[128 * 1025 + 1 + 128 * 4 + 3], 0);
-  assert.equal(pixels[128 * 1025 + 1 + 253 * 4 + 3], 150);
 });
 
 let cached = true;

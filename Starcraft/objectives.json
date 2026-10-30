@@ -4,42 +4,21 @@
     "Name": "ABANDONED CAMP (36x36)",
     "Items": [
       {
-        "Id": "sc_mission_range_1",
+        "Id": "sc_mission_red",
         "Type": "Token",
         "PosX": "-12",
         "PosY": "0",
         "IgnoreDeploymentRotation": true
       },
       {
-        "Id": "sc_mission_marker_1",
-        "Type": "Token",
-        "PosX": "-12",
-        "PosY": "0",
-        "IgnoreDeploymentRotation": true
-      },
-      {
-        "Id": "sc_mission_range_2",
+        "Id": "sc_mission_blue",
         "Type": "Token",
         "PosX": "12",
         "PosY": "0",
         "IgnoreDeploymentRotation": true
       },
       {
-        "Id": "sc_mission_marker_2",
-        "Type": "Token",
-        "PosX": "12",
-        "PosY": "0",
-        "IgnoreDeploymentRotation": true
-      },
-      {
-        "Id": "sc_mission_range_5",
-        "Type": "Token",
-        "PosX": "0",
-        "PosY": "0",
-        "IgnoreDeploymentRotation": true
-      },
-      {
-        "Id": "sc_mission_marker_5",
+        "Id": "sc_mission_green",
         "Type": "Token",
         "PosX": "0",
         "PosY": "0",
@@ -52,70 +31,35 @@
     "Name": "ACROPOLIS (54x36)",
     "Items": [
       {
-        "Id": "sc_mission_range_1",
+        "Id": "sc_mission_red",
         "Type": "Token",
         "PosX": "-15",
         "PosY": "6",
         "IgnoreDeploymentRotation": true
       },
       {
-        "Id": "sc_mission_marker_1",
-        "Type": "Token",
-        "PosX": "-15",
-        "PosY": "6",
-        "IgnoreDeploymentRotation": true
-      },
-      {
-        "Id": "sc_mission_range_2",
+        "Id": "sc_mission_blue",
         "Type": "Token",
         "PosX": "15",
         "PosY": "6",
         "IgnoreDeploymentRotation": true
       },
       {
-        "Id": "sc_mission_marker_2",
-        "Type": "Token",
-        "PosX": "15",
-        "PosY": "6",
-        "IgnoreDeploymentRotation": true
-      },
-      {
-        "Id": "sc_mission_range_3",
+        "Id": "sc_mission_red",
         "Type": "Token",
         "PosX": "15",
         "PosY": "-6",
         "IgnoreDeploymentRotation": true
       },
       {
-        "Id": "sc_mission_marker_3",
-        "Type": "Token",
-        "PosX": "15",
-        "PosY": "-6",
-        "IgnoreDeploymentRotation": true
-      },
-      {
-        "Id": "sc_mission_range_4",
+        "Id": "sc_mission_blue",
         "Type": "Token",
         "PosX": "-15",
         "PosY": "-6",
         "IgnoreDeploymentRotation": true
       },
       {
-        "Id": "sc_mission_marker_4",
-        "Type": "Token",
-        "PosX": "-15",
-        "PosY": "-6",
-        "IgnoreDeploymentRotation": true
-      },
-      {
-        "Id": "sc_mission_range_5",
-        "Type": "Token",
-        "PosX": "0",
-        "PosY": "0",
-        "IgnoreDeploymentRotation": true
-      },
-      {
-        "Id": "sc_mission_marker_5",
+        "Id": "sc_mission_green",
         "Type": "Token",
         "PosX": "0",
         "PosY": "0",
@@ -128,42 +72,21 @@
     "Name": "AGRIA VALLEY (36x36)",
     "Items": [
       {
-        "Id": "sc_mission_range_1",
+        "Id": "sc_mission_red",
         "Type": "Token",
         "PosX": "-12",
         "PosY": "-12",
         "IgnoreDeploymentRotation": true
       },
       {
-        "Id": "sc_mission_marker_1",
-        "Type": "Token",
-        "PosX": "-12",
-        "PosY": "-12",
-        "IgnoreDeploymentRotation": true
-      },
-      {
-        "Id": "sc_mission_range_2",
+        "Id": "sc_mission_blue",
         "Type": "Token",
         "PosX": "12",
         "PosY": "12",
         "IgnoreDeploymentRotation": true
       },
       {
-        "Id": "sc_mission_marker_2",
-        "Type": "Token",
-        "PosX": "12",
-        "PosY": "12",
-        "IgnoreDeploymentRotation": true
-      },
-      {
-        "Id": "sc_mission_range_5",
-        "Type": "Token",
-        "PosX": "0",
-        "PosY": "0",
-        "IgnoreDeploymentRotation": true
-      },
-      {
-        "Id": "sc_mission_marker_5",
+        "Id": "sc_mission_green",
         "Type": "Token",
         "PosX": "0",
         "PosY": "0",
@@ -176,70 +99,35 @@
     "Name": "BREACH (54x36)",
     "Items": [
       {
-        "Id": "sc_mission_range_1",
+        "Id": "sc_mission_red",
         "Type": "Token",
         "PosX": "-9",
         "PosY": "12",
         "IgnoreDeploymentRotation": true
       },
       {
-        "Id": "sc_mission_marker_1",
-        "Type": "Token",
-        "PosX": "-9",
-        "PosY": "12",
-        "IgnoreDeploymentRotation": true
-      },
-      {
-        "Id": "sc_mission_range_2",
+        "Id": "sc_mission_blue",
         "Type": "Token",
         "PosX": "9",
         "PosY": "12",
         "IgnoreDeploymentRotation": true
       },
       {
-        "Id": "sc_mission_marker_2",
-        "Type": "Token",
-        "PosX": "9",
-        "PosY": "12",
-        "IgnoreDeploymentRotation": true
-      },
-      {
-        "Id": "sc_mission_range_3",
+        "Id": "sc_mission_red",
         "Type": "Token",
         "PosX": "9",
         "PosY": "-12",
         "IgnoreDeploymentRotation": true
       },
       {
-        "Id": "sc_mission_marker_3",
-        "Type": "Token",
-        "PosX": "9",
-        "PosY": "-12",
-        "IgnoreDeploymentRotation": true
-      },
-      {
-        "Id": "sc_mission_range_4",
+        "Id": "sc_mission_blue",
         "Type": "Token",
         "PosX": "-9",
         "PosY": "-12",
         "IgnoreDeploymentRotation": true
       },
       {
-        "Id": "sc_mission_marker_4",
-        "Type": "Token",
-        "PosX": "-9",
-        "PosY": "-12",
-        "IgnoreDeploymentRotation": true
-      },
-      {
-        "Id": "sc_mission_range_5",
-        "Type": "Token",
-        "PosX": "0",
-        "PosY": "0",
-        "IgnoreDeploymentRotation": true
-      },
-      {
-        "Id": "sc_mission_marker_5",
+        "Id": "sc_mission_green",
         "Type": "Token",
         "PosX": "0",
         "PosY": "0",
@@ -252,42 +140,21 @@
     "Name": "CHAR PLAINS (36x36)",
     "Items": [
       {
-        "Id": "sc_mission_range_1",
+        "Id": "sc_mission_red",
         "Type": "Token",
         "PosX": "-12",
         "PosY": "-12",
         "IgnoreDeploymentRotation": true
       },
       {
-        "Id": "sc_mission_marker_1",
-        "Type": "Token",
-        "PosX": "-12",
-        "PosY": "-12",
-        "IgnoreDeploymentRotation": true
-      },
-      {
-        "Id": "sc_mission_range_2",
+        "Id": "sc_mission_blue",
         "Type": "Token",
         "PosX": "-12",
         "PosY": "12",
         "IgnoreDeploymentRotation": true
       },
       {
-        "Id": "sc_mission_marker_2",
-        "Type": "Token",
-        "PosX": "-12",
-        "PosY": "12",
-        "IgnoreDeploymentRotation": true
-      },
-      {
-        "Id": "sc_mission_range_5",
-        "Type": "Token",
-        "PosX": "6",
-        "PosY": "0",
-        "IgnoreDeploymentRotation": true
-      },
-      {
-        "Id": "sc_mission_marker_5",
+        "Id": "sc_mission_green",
         "Type": "Token",
         "PosX": "6",
         "PosY": "0",
@@ -300,42 +167,21 @@
     "Name": "DIRT SIDE (36x36)",
     "Items": [
       {
-        "Id": "sc_mission_range_1",
+        "Id": "sc_mission_red",
         "Type": "Token",
         "PosX": "-12",
         "PosY": "0",
         "IgnoreDeploymentRotation": true
       },
       {
-        "Id": "sc_mission_marker_1",
-        "Type": "Token",
-        "PosX": "-12",
-        "PosY": "0",
-        "IgnoreDeploymentRotation": true
-      },
-      {
-        "Id": "sc_mission_range_2",
+        "Id": "sc_mission_blue",
         "Type": "Token",
         "PosX": "12",
         "PosY": "0",
         "IgnoreDeploymentRotation": true
       },
       {
-        "Id": "sc_mission_marker_2",
-        "Type": "Token",
-        "PosX": "12",
-        "PosY": "0",
-        "IgnoreDeploymentRotation": true
-      },
-      {
-        "Id": "sc_mission_range_5",
-        "Type": "Token",
-        "PosX": "0",
-        "PosY": "0",
-        "IgnoreDeploymentRotation": true
-      },
-      {
-        "Id": "sc_mission_marker_5",
+        "Id": "sc_mission_green",
         "Type": "Token",
         "PosX": "0",
         "PosY": "0",
@@ -348,42 +194,21 @@
     "Name": "FRONTIER (36x36)",
     "Items": [
       {
-        "Id": "sc_mission_range_1",
+        "Id": "sc_mission_red",
         "Type": "Token",
         "PosX": "-12",
         "PosY": "-12",
         "IgnoreDeploymentRotation": true
       },
       {
-        "Id": "sc_mission_marker_1",
-        "Type": "Token",
-        "PosX": "-12",
-        "PosY": "-12",
-        "IgnoreDeploymentRotation": true
-      },
-      {
-        "Id": "sc_mission_range_2",
+        "Id": "sc_mission_blue",
         "Type": "Token",
         "PosX": "12",
         "PosY": "12",
         "IgnoreDeploymentRotation": true
       },
       {
-        "Id": "sc_mission_marker_2",
-        "Type": "Token",
-        "PosX": "12",
-        "PosY": "12",
-        "IgnoreDeploymentRotation": true
-      },
-      {
-        "Id": "sc_mission_range_5",
-        "Type": "Token",
-        "PosX": "0",
-        "PosY": "0",
-        "IgnoreDeploymentRotation": true
-      },
-      {
-        "Id": "sc_mission_marker_5",
+        "Id": "sc_mission_green",
         "Type": "Token",
         "PosX": "0",
         "PosY": "0",
@@ -396,70 +221,35 @@
     "Name": "GAUNTLET (54x36)",
     "Items": [
       {
-        "Id": "sc_mission_range_1",
+        "Id": "sc_mission_red",
         "Type": "Token",
         "PosX": "-15",
         "PosY": "6",
         "IgnoreDeploymentRotation": true
       },
       {
-        "Id": "sc_mission_marker_1",
-        "Type": "Token",
-        "PosX": "-15",
-        "PosY": "6",
-        "IgnoreDeploymentRotation": true
-      },
-      {
-        "Id": "sc_mission_range_2",
+        "Id": "sc_mission_blue",
         "Type": "Token",
         "PosX": "15",
         "PosY": "-6",
         "IgnoreDeploymentRotation": true
       },
       {
-        "Id": "sc_mission_marker_2",
-        "Type": "Token",
-        "PosX": "15",
-        "PosY": "-6",
-        "IgnoreDeploymentRotation": true
-      },
-      {
-        "Id": "sc_mission_range_3",
+        "Id": "sc_mission_red",
         "Type": "Token",
         "PosX": "9",
         "PosY": "6",
         "IgnoreDeploymentRotation": true
       },
       {
-        "Id": "sc_mission_marker_3",
-        "Type": "Token",
-        "PosX": "9",
-        "PosY": "6",
-        "IgnoreDeploymentRotation": true
-      },
-      {
-        "Id": "sc_mission_range_4",
+        "Id": "sc_mission_blue",
         "Type": "Token",
         "PosX": "-9",
         "PosY": "-6",
         "IgnoreDeploymentRotation": true
       },
       {
-        "Id": "sc_mission_marker_4",
-        "Type": "Token",
-        "PosX": "-9",
-        "PosY": "-6",
-        "IgnoreDeploymentRotation": true
-      },
-      {
-        "Id": "sc_mission_range_5",
-        "Type": "Token",
-        "PosX": "0",
-        "PosY": "0",
-        "IgnoreDeploymentRotation": true
-      },
-      {
-        "Id": "sc_mission_marker_5",
+        "Id": "sc_mission_green",
         "Type": "Token",
         "PosX": "0",
         "PosY": "0",
@@ -472,42 +262,21 @@
     "Name": "GREEN VALLEYS (36x36)",
     "Items": [
       {
-        "Id": "sc_mission_range_1",
+        "Id": "sc_mission_red",
         "Type": "Token",
         "PosX": "-6",
         "PosY": "-12",
         "IgnoreDeploymentRotation": true
       },
       {
-        "Id": "sc_mission_marker_1",
-        "Type": "Token",
-        "PosX": "-6",
-        "PosY": "-12",
-        "IgnoreDeploymentRotation": true
-      },
-      {
-        "Id": "sc_mission_range_2",
+        "Id": "sc_mission_blue",
         "Type": "Token",
         "PosX": "6",
         "PosY": "12",
         "IgnoreDeploymentRotation": true
       },
       {
-        "Id": "sc_mission_marker_2",
-        "Type": "Token",
-        "PosX": "6",
-        "PosY": "12",
-        "IgnoreDeploymentRotation": true
-      },
-      {
-        "Id": "sc_mission_range_5",
-        "Type": "Token",
-        "PosX": "0",
-        "PosY": "0",
-        "IgnoreDeploymentRotation": true
-      },
-      {
-        "Id": "sc_mission_marker_5",
+        "Id": "sc_mission_green",
         "Type": "Token",
         "PosX": "0",
         "PosY": "0",
@@ -520,70 +289,35 @@
     "Name": "MEETING ENGAGEMENT (54x36)",
     "Items": [
       {
-        "Id": "sc_mission_range_1",
+        "Id": "sc_mission_red",
         "Type": "Token",
         "PosX": "-15",
         "PosY": "6",
         "IgnoreDeploymentRotation": true
       },
       {
-        "Id": "sc_mission_marker_1",
-        "Type": "Token",
-        "PosX": "-15",
-        "PosY": "6",
-        "IgnoreDeploymentRotation": true
-      },
-      {
-        "Id": "sc_mission_range_2",
+        "Id": "sc_mission_blue",
         "Type": "Token",
         "PosX": "15",
         "PosY": "-6",
         "IgnoreDeploymentRotation": true
       },
       {
-        "Id": "sc_mission_marker_2",
-        "Type": "Token",
-        "PosX": "15",
-        "PosY": "-6",
-        "IgnoreDeploymentRotation": true
-      },
-      {
-        "Id": "sc_mission_range_3",
+        "Id": "sc_mission_red",
         "Type": "Token",
         "PosX": "15",
         "PosY": "6",
         "IgnoreDeploymentRotation": true
       },
       {
-        "Id": "sc_mission_marker_3",
-        "Type": "Token",
-        "PosX": "15",
-        "PosY": "6",
-        "IgnoreDeploymentRotation": true
-      },
-      {
-        "Id": "sc_mission_range_4",
+        "Id": "sc_mission_blue",
         "Type": "Token",
         "PosX": "-15",
         "PosY": "-6",
         "IgnoreDeploymentRotation": true
       },
       {
-        "Id": "sc_mission_marker_4",
-        "Type": "Token",
-        "PosX": "-15",
-        "PosY": "-6",
-        "IgnoreDeploymentRotation": true
-      },
-      {
-        "Id": "sc_mission_range_5",
-        "Type": "Token",
-        "PosX": "0",
-        "PosY": "0",
-        "IgnoreDeploymentRotation": true
-      },
-      {
-        "Id": "sc_mission_marker_5",
+        "Id": "sc_mission_green",
         "Type": "Token",
         "PosX": "0",
         "PosY": "0",
@@ -596,70 +330,35 @@
     "Name": "ONE BRIDGE TOO CLOSE (54x36)",
     "Items": [
       {
-        "Id": "sc_mission_range_1",
+        "Id": "sc_mission_red",
         "Type": "Token",
         "PosX": "9",
         "PosY": "3",
         "IgnoreDeploymentRotation": true
       },
       {
-        "Id": "sc_mission_marker_1",
-        "Type": "Token",
-        "PosX": "9",
-        "PosY": "3",
-        "IgnoreDeploymentRotation": true
-      },
-      {
-        "Id": "sc_mission_range_2",
+        "Id": "sc_mission_blue",
         "Type": "Token",
         "PosX": "-9",
         "PosY": "3",
         "IgnoreDeploymentRotation": true
       },
       {
-        "Id": "sc_mission_marker_2",
-        "Type": "Token",
-        "PosX": "-9",
-        "PosY": "3",
-        "IgnoreDeploymentRotation": true
-      },
-      {
-        "Id": "sc_mission_range_3",
+        "Id": "sc_mission_red",
         "Type": "Token",
         "PosX": "15",
         "PosY": "-12",
         "IgnoreDeploymentRotation": true
       },
       {
-        "Id": "sc_mission_marker_3",
-        "Type": "Token",
-        "PosX": "15",
-        "PosY": "-12",
-        "IgnoreDeploymentRotation": true
-      },
-      {
-        "Id": "sc_mission_range_4",
+        "Id": "sc_mission_blue",
         "Type": "Token",
         "PosX": "-15",
         "PosY": "-12",
         "IgnoreDeploymentRotation": true
       },
       {
-        "Id": "sc_mission_marker_4",
-        "Type": "Token",
-        "PosX": "-15",
-        "PosY": "-12",
-        "IgnoreDeploymentRotation": true
-      },
-      {
-        "Id": "sc_mission_range_5",
-        "Type": "Token",
-        "PosX": "0",
-        "PosY": "-12",
-        "IgnoreDeploymentRotation": true
-      },
-      {
-        "Id": "sc_mission_marker_5",
+        "Id": "sc_mission_green",
         "Type": "Token",
         "PosX": "0",
         "PosY": "-12",
@@ -672,42 +371,21 @@
     "Name": "POWER LINES (36x36)",
     "Items": [
       {
-        "Id": "sc_mission_range_1",
+        "Id": "sc_mission_red",
         "Type": "Token",
         "PosX": "6",
         "PosY": "3",
         "IgnoreDeploymentRotation": true
       },
       {
-        "Id": "sc_mission_marker_1",
-        "Type": "Token",
-        "PosX": "6",
-        "PosY": "3",
-        "IgnoreDeploymentRotation": true
-      },
-      {
-        "Id": "sc_mission_range_2",
+        "Id": "sc_mission_blue",
         "Type": "Token",
         "PosX": "-6",
         "PosY": "3",
         "IgnoreDeploymentRotation": true
       },
       {
-        "Id": "sc_mission_marker_2",
-        "Type": "Token",
-        "PosX": "-6",
-        "PosY": "3",
-        "IgnoreDeploymentRotation": true
-      },
-      {
-        "Id": "sc_mission_range_5",
-        "Type": "Token",
-        "PosX": "0",
-        "PosY": "-12",
-        "IgnoreDeploymentRotation": true
-      },
-      {
-        "Id": "sc_mission_marker_5",
+        "Id": "sc_mission_green",
         "Type": "Token",
         "PosX": "0",
         "PosY": "-12",
@@ -720,70 +398,35 @@
     "Name": "PROVING GROUNDS (54x36)",
     "Items": [
       {
-        "Id": "sc_mission_range_1",
+        "Id": "sc_mission_red",
         "Type": "Token",
         "PosX": "-15",
         "PosY": "6",
         "IgnoreDeploymentRotation": true
       },
       {
-        "Id": "sc_mission_marker_1",
-        "Type": "Token",
-        "PosX": "-15",
-        "PosY": "6",
-        "IgnoreDeploymentRotation": true
-      },
-      {
-        "Id": "sc_mission_range_2",
+        "Id": "sc_mission_blue",
         "Type": "Token",
         "PosX": "9",
         "PosY": "-6",
         "IgnoreDeploymentRotation": true
       },
       {
-        "Id": "sc_mission_marker_2",
-        "Type": "Token",
-        "PosX": "9",
-        "PosY": "-6",
-        "IgnoreDeploymentRotation": true
-      },
-      {
-        "Id": "sc_mission_range_3",
+        "Id": "sc_mission_red",
         "Type": "Token",
         "PosX": "15",
         "PosY": "6",
         "IgnoreDeploymentRotation": true
       },
       {
-        "Id": "sc_mission_marker_3",
-        "Type": "Token",
-        "PosX": "15",
-        "PosY": "6",
-        "IgnoreDeploymentRotation": true
-      },
-      {
-        "Id": "sc_mission_range_4",
+        "Id": "sc_mission_blue",
         "Type": "Token",
         "PosX": "-9",
         "PosY": "-6",
         "IgnoreDeploymentRotation": true
       },
       {
-        "Id": "sc_mission_marker_4",
-        "Type": "Token",
-        "PosX": "-9",
-        "PosY": "-6",
-        "IgnoreDeploymentRotation": true
-      },
-      {
-        "Id": "sc_mission_range_5",
-        "Type": "Token",
-        "PosX": "0",
-        "PosY": "6",
-        "IgnoreDeploymentRotation": true
-      },
-      {
-        "Id": "sc_mission_marker_5",
+        "Id": "sc_mission_green",
         "Type": "Token",
         "PosX": "0",
         "PosY": "6",
@@ -796,70 +439,35 @@
     "Name": "TYPHOON (54x36)",
     "Items": [
       {
-        "Id": "sc_mission_range_1",
+        "Id": "sc_mission_red",
         "Type": "Token",
         "PosX": "-9",
         "PosY": "6",
         "IgnoreDeploymentRotation": true
       },
       {
-        "Id": "sc_mission_marker_1",
-        "Type": "Token",
-        "PosX": "-9",
-        "PosY": "6",
-        "IgnoreDeploymentRotation": true
-      },
-      {
-        "Id": "sc_mission_range_2",
+        "Id": "sc_mission_blue",
         "Type": "Token",
         "PosX": "-21",
         "PosY": "12",
         "IgnoreDeploymentRotation": true
       },
       {
-        "Id": "sc_mission_marker_2",
-        "Type": "Token",
-        "PosX": "-21",
-        "PosY": "12",
-        "IgnoreDeploymentRotation": true
-      },
-      {
-        "Id": "sc_mission_range_3",
+        "Id": "sc_mission_red",
         "Type": "Token",
         "PosX": "21",
         "PosY": "-12",
         "IgnoreDeploymentRotation": true
       },
       {
-        "Id": "sc_mission_marker_3",
-        "Type": "Token",
-        "PosX": "21",
-        "PosY": "-12",
-        "IgnoreDeploymentRotation": true
-      },
-      {
-        "Id": "sc_mission_range_4",
+        "Id": "sc_mission_blue",
         "Type": "Token",
         "PosX": "9",
         "PosY": "-6",
         "IgnoreDeploymentRotation": true
       },
       {
-        "Id": "sc_mission_marker_4",
-        "Type": "Token",
-        "PosX": "9",
-        "PosY": "-6",
-        "IgnoreDeploymentRotation": true
-      },
-      {
-        "Id": "sc_mission_range_5",
-        "Type": "Token",
-        "PosX": "0",
-        "PosY": "0",
-        "IgnoreDeploymentRotation": true
-      },
-      {
-        "Id": "sc_mission_marker_5",
+        "Id": "sc_mission_green",
         "Type": "Token",
         "PosX": "0",
         "PosY": "0",
