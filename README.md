@@ -87,6 +87,15 @@ Run `npm run check:local` for a read-only offline check after conversion. It reb
 
 ### Hosted model pose selections
 
+The installed Warhall Test client reads model URLs from its separate skin catalogue, not from WDS profiles or the game manifest. For a local CDN rendering test without creating skins in the UI, close Warhall Test and run:
+
+```sh
+node scripts/install-warhall-model-cache.mjs /path/to/WarhallTest/Database --dry-run
+node scripts/install-warhall-model-cache.mjs /path/to/WarhallTest/Database --apply
+```
+
+The adapter backs up five catalogue cache files under `.cache/warhall-model-backup-TIMESTAMP/` before installing 41 complete model mappings. Restart Warhall Test afterwards. Meshes and textures are fetched from their TTS CDN URLs by Warhall itself; the mappings do not use local preview assets. This is a machine-local test adapter, not a shared catalogue deployment. A Warhall catalogue refresh can replace the mappings. To undo the local test, close Warhall Test and copy the five files from the printed backup directory back to the same `Database` directory. The shared catalogue requires a Warhall-side import; adding these links to the WDS manifest alone has no effect on skin loading in this client build.
+
 `model-selections.json` records visually reviewed Steam CDN mesh/texture pairs for all 45 generated units. Prefer aiming/firing/casting poses for ranged units and charging/striking poses for melee units. Where those poses are unavailable, the entry describes the closest available stance. It is a source mapping, not an asserted Warhall model schema, and the converter does not yet attach these references to profiles.
 
 41 units have complete selected pairs. Jim Raynor, Nova Assault and Zeratul require separate weapon attachments; their entries retain those references. Vile's labeled mesh is only a base, so its entry is explicitly missing rather than using the wrong model. TTS transforms are retained as source metadata and are not Warhall scale/rotation settings.
