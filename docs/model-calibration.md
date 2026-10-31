@@ -34,3 +34,19 @@ npm run models:publish -- --apply --login --replace --accept-publication-terms
 The publisher generates updated thumbnails, replaces the selected shared skins, and cleans up old owned skins after successful assignment. It retains existing progress and reconciles live server data. If a previous batch stopped during creation with an uncertain outcome, reconcile that record before retrying.
 
 Checks compare every part's rotation and translation with the original Windows installer inputs and compare the client-computed scale multipliers. All 62 unit/terrain assemblies preserve the authored dimensions. Live macOS/Windows testing is still required: add fresh units and reload the map after refreshing the shared catalogue. In particular, check the Adept's orientation/materials and the Wall Set 4/5 map rotation compensation.
+
+## Server zero-to-null transform bug
+
+A live test catalogue read exposed a second difference from the local Windows cache. On the High Ground skin 13182, ramp layer 33410 stored `SocketPositionX=-12.1058745566`, `SocketPositionY=3.5225010612`, but `SocketPositionZ=null` even though the upload supplied zero. The installed client's `DBHSQL.CreateSkinLayerDictionary` only constructs a position or rotation vector when all three components are non-null. One null component therefore discarded the whole ramp translation. Zero rotation components can similarly erase a nonzero rotation on another axis.
+
+The HTTP adapter now encodes zero position/rotation components as `1e-7` in create and update payloads. This negligible transport-only offset avoids a falsey-zero-to-null conversion while retaining the authored layout to visual precision. Catalogue/source values remain the original exact zeros. Scale values and nonzero offsets are unchanged.
+
+Repair existing shared skins without replacing meshes or changing skin IDs:
+
+```sh
+npm run models:repair -- --apply --login --profile sc_terrain_f2dd0d048a087d53
+```
+
+Without `--apply`, the command previews the selected authored transforms. Omit `--profile` to repair all published model/terrain transforms. `--server test|prod` selects the target, defaulting to test. It resolves the exact game, requires administrator access and exactly one matching shared skin per profile, reads `/SelectSkinParts`, posts `/UpdateSkinLayerTransforms`, then reads back every position, rotation and scale. Nulls or mismatches fail verification. This does not upload meshes, create skins, delete skins or modify local Warhall caches.
+
+After a verified server repair, refresh/restart Warhall Test and reload the map. Already-spawned terrain does not receive the external API edit automatically. The verified API response establishes stored transforms; a live map check still establishes rendering.

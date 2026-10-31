@@ -17,7 +17,8 @@
     "rules:compare": "node scripts/compare-rule-references.mjs",
     "models:catalogue": "node scripts/build-model-catalogue.mjs",
     "models:publish": "node scripts/publish-model-catalogue.mjs",
-    "models:thumbnails": "node scripts/generate-model-thumbnails.mjs"
+    "models:thumbnails": "node scripts/generate-model-thumbnails.mjs",
+    "models:repair": "node scripts/repair-model-transforms.mjs"
   },
   "engines": {
     "node": ">=22.13.0"

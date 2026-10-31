@@ -1,6 +1,7 @@
 import { parseArgs } from 'node:util';
 import { readFile, writeFile, mkdir, rename } from 'node:fs/promises';
 import path from 'node:path';
+import { wirePayload } from '../src/models/wire-transforms.mjs';
 import { verifyHostedAssets } from '../src/models/hosted-assets.mjs';
 import { loadThumbnail } from '../src/models/thumbnails.mjs';
 import { publicationTarget } from '../src/models/servers.mjs';
@@ -106,7 +107,7 @@ if (!values.apply) {
     const response = await fetch(new URL(endpoint, catalogue.serverUrl), {
       method: body ? 'POST' : 'GET',
       headers: { Cookie: cookie, ...(body ? { 'Content-Type': 'application/json' } : {}) },
-      body: body ? JSON.stringify(body) : undefined,
+      body: body ? JSON.stringify(wirePayload(endpoint, body)) : undefined,
       redirect: 'error',
       signal: AbortSignal.timeout(120_000),
     });
