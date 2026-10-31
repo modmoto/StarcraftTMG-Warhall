@@ -1,6 +1,6 @@
 ---
 name: warhall-publish-skins
-description: Publish Starcraft model and texture URLs to Warhall Test through its skin API, assign shared unit or terrain defaults, and resume next-wave imports without duplicate skins.
+description: Publish Starcraft model, texture and thumbnail images through the Warhall test or production skin API, assign shared defaults, and resume next-wave imports without duplicates.
 ---
 
 # Warhall skin publication
@@ -14,7 +14,7 @@ Read `docs/model-publication.md`, `model-catalogue.json`, and the publisher's cu
 - Add visually selected model and texture URLs to `model-selections.json` (units) or `terrain-models.json` (terrain), using the actual WDS profile/terrain IDs. Run `npm run models:catalogue` and inspect its changes. Keep existing entries and `model-publication-overrides.json` so known skin IDs are reused.
 - Default target is `https://apptest.warhall.eu` (`--server test`). Production is `https://www.warhall.eu` (`--server prod`). The literal URLs are accepted too. Publish only to the target the user requested; supporting production does not authorize publishing there. Target game is `Starcraft` with exact case. There is also a distinct lowercase `starcraft` game. Resolve the game ID through `/GetGamesWeb/`, never infer it from the name or a local cache.
 - User preference as of October 31, 2026: skip scale calibration. Use `--default-scale` for new uploads unless asked to change that. Do not alter existing skin scales. Default-scale import omits transforms; do not claim multipart layout accuracy or cross-platform bundle compatibility from registration alone.
-- Preview `npm run --silent models:publish -- --default-scale`. The initial catalogue contains 45 units, 17 terrain assemblies and three existing marker skins; counts change with future waves. Marine skin 12999 is already published.
+- Prepare snapshots as described under Catalogue previews, then preview `npm run --silent models:publish -- --default-scale`. The initial catalogue contains 45 units, 17 terrain assemblies and three existing marker skins; counts change with future waves. Marine skin 12999 is already published.
 
 ## Authenticate and publish
 
@@ -38,12 +38,36 @@ These are observed frontend endpoints, not a stable documented public API. Verif
 
 ## Resume and verify
 
-Retain ignored `.cache/model-publication.json` for test and `.cache/model-publication-prod.json` for production between runs and publisher machines. Server-local existing skin IDs are not reused across targets; native marker references without verified target IDs are excluded. It records server/game scope, definition fingerprints, skin IDs and assignment completion, with no credentials. Do not run concurrent publishers. When a creation outcome is uncertain, reconcile it in the catalogue before retrying: the existing script deliberately stops rather than risk creating a duplicate. Changed fingerprints also require review. Do not clear the whole state to force retries.
+Retain ignored `.cache/model-publication.json` for test and `.cache/model-publication-prod.json` for production between runs and publisher machines. Server-local existing skin IDs are not reused across targets; native marker references without verified target IDs are excluded. It records server/game scope, definition fingerprints, skin IDs and assignment completion, with no credentials. Do not run concurrent publishers. When a creation outcome is uncertain, reconcile it in the catalogue before retrying: the script stops rather than risk creating a duplicate. Changed model fingerprints or screenshot hashes trigger replacement of an owned upload. Do not clear the whole state to force retries.
 
-The publisher checks `/GetMySkinUsages` before assigning a known skin ID; exact game/profile/default matches are recorded as completed instead of posted again. Existing skin IDs avoid creation but still require correct shared assignment. Inspect conflicts instead of silently replacing another skin. Keep successful progress when another entry fails. Report registered, assigned, skipped and failed entries from actual responses/state; prepared payloads and passing mock tests are not proof of publication.
+The publisher checks `/GetMySkinUsages` before assigning a known skin ID; exact game/profile/default matches are recorded as completed instead of posted again. Existing skin IDs are reconciled against the live owned catalogue and shared assignments; a deleted model is recreated rather than skipped because of its checkpoint. Inspect conflicts instead of silently replacing another skin. Keep successful progress when another entry fails. Report registered, assigned, skipped and failed entries from actual responses/state; prepared payloads and passing mock tests are not proof of publication.
 
 Verify shared defaults in the website and refresh Warhall Test's catalogue, then add fresh units/terrain. A WDS version bump is only needed for game data changes. UnityFS asset bundles may be platform-specific; successful API registration does not establish Mac rendering. Do not modify application caches to pretend shared publication succeeded.
 
 ## Catalogue previews
 
-The current Node publisher supplies no thumbnail (`thumbnail_data_url: null`). Successful registration therefore does not imply a visible catalogue preview. The website generates a snapshot with `captureSnapshot(512,512)` and includes its data URL in skin creation. Inspect or extend preview generation before claiming a wave is preview-complete. No supported thumbnail-update endpoint for existing skins has been identified; do not invent one or recreate existing skins merely to obtain previews. The first API batch created and assigned 27 skins (13000–13026) before encountering Marine's existing assignment. Resume the same checkpoint after the reconciliation fix; never restart from an empty state.
+Prepare a real snapshot of every new model or multipart assembly before publication. Use the selected mesh and texture, frame the complete model and retain the actual pose. The website uses `captureSnapshot(512,512)`; 512 × 512 PNG is the preferred equivalent. The Node publisher sends prepared images, but does not yet render 3D assets automatically. Do not substitute texture atlases, empty images or generic icons as model previews.
+
+Save snapshots as `.cache/model-thumbnails/<profileId>.png` (also accepts `.jpg`, `.jpeg` and `.webp`), or use `--thumbnails-dir PATH`. Alternatively set an entry's `thumbnailFile` to a project-relative snapshot path. Put persistent paths in `model-publication-overrides.json` so `models:catalogue` retains them. The same snapshot is portable between test and production; skin IDs and progress are not.
+
+Before login or any create request, the CLI checks all selected model/terrain assemblies for snapshots, including previously uploaded models so changed screenshots and manually deleted uploads can be handled. Native skin references need no new snapshot. A dry run reports `missingThumbnails`; apply stops if any are missing. It detects the image MIME type, enforces a nonempty image and 5 MiB maximum, base64-encodes the bytes and supplies the resulting data URL as `thumbnail_data_url` to both single-part and multipart creation endpoints. There is no null-thumbnail fallback. Missing/invalid files fail before marking a create request as uncertain.
+
+Adding `thumbnailFile` does not change the model fingerprint; the image content is tracked separately by SHA-256. Sending a snapshot at creation does not establish that Warhall displayed it: verify catalogue previews after upload.
+
+The first API batch created and assigned 27 skins (13000–13026) without previews. The user subsequently deleted uploads and authorized fresh replacement. Keep checkpoint reconciliation; do not blindly mark the old IDs as current.
+
+## Replace uploads and screenshots
+
+Use `--replace` when the user requests a fresh upload of all selected models, even if input URLs are unchanged:
+
+```sh
+npm run models:publish -- --apply --login --default-scale --replace --accept-publication-terms
+```
+
+The importer reads the paginated owned catalogue using `/GetCatalogueSkins?viewMode=mine...`. A missing uploaded skin is recreated even when the saved checkpoint says assigned. For normal subsequent runs, changed model definitions or snapshot bytes also trigger replacement.
+
+Replacement order is create the new skin with its screenshot, assign the returned ID to the profile using `mode: 'override'`, then call `POST /DeleteMySkin` with the old owned skin ID. Cleanup happens only after assignment succeeds. Do not broaden this to delete unrelated uploads, native marker skins, or other users' skins. An old skin referenced by another game/profile is retained and reported.
+
+Creation, assignment and old-skin cleanup have separate checkpoint progress. Failed assignments preserve the old skin; failed cleanup resumes without creating another replacement. Retrying an incomplete `--replace` batch resumes the same batch. Running `--replace` after a completed batch intentionally starts another full replacement. These endpoints are observed frontend APIs; mocked lifecycle tests do not prove a live replacement succeeded.
+
+There is still no verified operation to update an existing skin's thumbnail in place. The authorized replacement flow supplies a fresh screenshot as part of new skin creation, then removes the obsolete owned skin. Snapshot generation itself remains a separate preparation step.

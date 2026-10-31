@@ -1,5 +1,5 @@
 import assert from 'node:assert/strict';
-import { createHash } from 'node:crypto';
+import { randomUUID, createHash } from 'node:crypto';
 
 export function transforms(layout = {}, fallbackScale = 1) {
   const scale = layout.size ?? Math.abs(fallbackScale);
@@ -45,16 +45,22 @@ export function validateCatalogue(catalogue) {
 }
 
 export function entryFingerprint(entry) {
-  return createHash('sha256').update(JSON.stringify(entry)).digest('hex');
+  const { thumbnailFile, ...definition } = entry;
+  return createHash('sha256').update(JSON.stringify(definition)).digest('hex');
 }
 
-export function skinRequest(entry, { defaultScale = false } = {}) {
+export function skinRequest(entry, { defaultScale = false, thumbnailDataUrl } = {}) {
+  assert.match(
+    thumbnailDataUrl ?? '',
+    /^data:image\/(png|jpeg|webp);base64,[A-Za-z0-9+/]+={0,2}$/,
+    'A thumbnail data URL is required for new skins',
+  );
   const parts = entry.parts.map(part => ({
     model_url: part.modelUrl,
     texture_url: part.textureUrl ?? null,
     transforms: defaultScale ? null : part.transforms,
   }));
-  const body = { skin_name: entry.name, is_public: 1, thumbnail_data_url: null };
+  const body = { skin_name: entry.name, is_public: 1, thumbnail_data_url: thumbnailDataUrl };
   if (parts.length > 1) {
     return { path: '/api/tripo/create-and-link-skin-multipart', body: { ...body, parts } };
   }
@@ -64,9 +70,38 @@ export function skinRequest(entry, { defaultScale = false } = {}) {
   };
 }
 
+async function ownedSkins(request) {
+  const skins = [];
+  for (let page = 1; ; page++) {
+    const response = await request(
+      `/GetCatalogueSkins?viewMode=mine&page=${page}&perPage=200&sortOrder=newest`,
+    );
+    assert.ok(
+      response.error === 0 && Array.isArray(response.result?.skins),
+      'Invalid owned catalogue response',
+    );
+    assert.ok(
+      Number.isSafeInteger(response.result.total) && response.result.total >= 0,
+      'Invalid catalogue count',
+    );
+    skins.push(...response.result.skins);
+    if (skins.length >= response.result.total)
+      return new Map(skins.map(skin => [Number(skin.id), skin]));
+    assert.ok(response.result.skins.length, 'Incomplete owned catalogue response');
+  }
+}
+
 export async function publishCatalogue(
   catalogue,
-  { request, state, save, log = () => {}, defaultScale = false },
+  {
+    request,
+    state,
+    save,
+    log = () => {},
+    defaultScale = false,
+    getThumbnail = async () => undefined,
+    replace = false,
+  },
 ) {
   validateCatalogue(catalogue);
   const listing = await request('/GetGamesWeb/');
@@ -81,6 +116,7 @@ export async function publishCatalogue(
   );
   const usages = await request('/GetMySkinUsages');
   assert.ok(usages.error === 0 && Array.isArray(usages.result), 'Invalid skin usage response');
+  const owned = await ownedSkins(request);
   const scope = `${catalogue.serverUrl}|${game.IdGame}`;
   assert.ok(
     !state.scope || state.scope === scope,
@@ -88,6 +124,38 @@ export async function publishCatalogue(
   );
   state.scope = scope;
   state.entries ??= {};
+  if (!state.batch || state.batch.complete || state.batch.replace !== replace) {
+    state.batch = { id: randomUUID(), replace, complete: false };
+    await save(state);
+  }
+  const exactUsage = (entry, skinId) =>
+    usages.result.some(
+      usage =>
+        Number(usage.skinId) === skinId &&
+        usage.profileId === entry.profileId &&
+        Number(usage.gameId) === Number(game.IdGame) &&
+        Number(usage.costumeDefault) === 1 &&
+        !usage.optionNames?.length,
+    );
+  const cleanup = async (entry, progress) => {
+    for (const skinId of [...(progress.previousSkinIds ?? [])]) {
+      const sharedElsewhere = usages.result.some(
+        usage =>
+          Number(usage.skinId) === skinId &&
+          (usage.profileId !== entry.profileId || Number(usage.gameId) !== Number(game.IdGame)),
+      );
+      if (sharedElsewhere)
+        log(`${entry.name}: retained old skin ${skinId}, used by another profile`);
+      else if (owned.has(skinId)) {
+        const response = await request('/DeleteMySkin', { skinId });
+        assert.equal(response.error, 0, `Could not delete old skin ${skinId}`);
+        owned.delete(skinId);
+        log(`${entry.name}: deleted old skin ${skinId}`);
+      }
+      progress.previousSkinIds = progress.previousSkinIds.filter(id => id !== skinId);
+      await save(state);
+    }
+  };
   for (const entry of catalogue.entries) {
     const fingerprint = entryFingerprint(
       defaultScale
@@ -95,56 +163,92 @@ export async function publishCatalogue(
         : entry,
     );
     let progress = state.entries[entry.profileId];
-    if (progress && progress.fingerprint !== fingerprint) {
-      throw new Error(`Definition changed for ${entry.profileId}; review its saved state first`);
-    }
-    const skinId = progress?.skinId ?? entry.existingSkinId;
-    const existing =
-      skinId &&
-      usages.result.some(
-        usage =>
-          Number(usage.skinId) === skinId &&
-          usage.profileId === entry.profileId &&
-          Number(usage.gameId) === Number(game.IdGame) &&
-          Number(usage.costumeDefault) === 1 &&
-          !usage.optionNames?.length,
-      );
-    if (existing) {
-      state.entries[entry.profileId] = { fingerprint, skinId, assigned: true };
-      await save(state);
-      log(`${entry.name}: existing shared assignment verified (${skinId})`);
-      continue;
-    }
-    if (progress?.creating) {
+    if (progress?.creating)
       throw new Error(
         `Creation outcome unknown for ${entry.profileId}; reconcile the saved state with Warhall before retrying`,
       );
-    }
-    if (progress?.assigned) continue;
-    if (!progress) {
-      let skinId = entry.existingSkinId;
-      if (!skinId) {
-        const payload = skinRequest(entry, { defaultScale });
-        state.entries[entry.profileId] = { fingerprint, creating: true };
-        await save(state);
-        const response = await request(payload.path, payload.body);
-        skinId = response.result?.skin_id;
-        assert.ok(Number.isSafeInteger(skinId) && skinId > 0, 'Server returned no skin ID');
+    const knownId = progress?.skinId ?? entry.existingSkinId;
+    if (!entry.parts?.length) {
+      assert.ok(knownId, `Native skin reference missing: ${entry.profileId}`);
+      if (!exactUsage(entry, knownId)) {
+        const response = await request('/AssignCatalogueSkin', {
+          skinId: knownId,
+          profileId: entry.profileId,
+          gameId: game.IdGame,
+          selectedOptions: [],
+          costumeDefault: 1,
+          mode: 'add',
+        });
+        assert.equal(response.error, 0, `Could not assign native skin ${knownId}`);
       }
-      progress = state.entries[entry.profileId] = { fingerprint, skinId, assigned: false };
+      state.entries[entry.profileId] = { fingerprint, skinId: knownId, assigned: true };
       await save(state);
+      continue;
     }
-    await request('/AssignCatalogueSkin', {
-      skinId: progress.skinId,
-      profileId: entry.profileId,
-      gameId: game.IdGame,
-      selectedOptions: [],
-      costumeDefault: 1,
-      mode: 'add',
-    });
-    progress.assigned = true;
-    await save(state);
-    log(`${entry.name}: skin ${progress.skinId} assigned`);
+    const exists = knownId && (owned.has(knownId) || exactUsage(entry, knownId));
+    const force = replace && progress?.replacementRun !== state.batch.id;
+    const changed = progress && progress.fingerprint !== fingerprint;
+    let thumbnailDataUrl;
+    let thumbnailHash;
+    if (force || changed || !exists || (progress?.assigned && progress.thumbnailHash)) {
+      thumbnailDataUrl = await getThumbnail(entry);
+      assert.ok(thumbnailDataUrl, `Missing thumbnail for ${entry.name}`);
+      thumbnailHash = createHash('sha256').update(thumbnailDataUrl).digest('hex');
+    }
+    const imageChanged =
+      thumbnailHash && progress?.thumbnailHash && thumbnailHash !== progress.thumbnailHash;
+    const needsCreate = !exists || force || changed || imageChanged;
+    if (needsCreate) {
+      if (exists && !owned.has(knownId))
+        throw new Error(`Cannot replace skin ${knownId}: it is not in your owned catalogue`);
+      thumbnailDataUrl ??= await getThumbnail(entry);
+      thumbnailHash ??= createHash('sha256')
+        .update(thumbnailDataUrl ?? '')
+        .digest('hex');
+      const payload = skinRequest(entry, { defaultScale, thumbnailDataUrl });
+      const previousSkinIds = [
+        ...new Set([...(progress?.previousSkinIds ?? []), ...(exists ? [knownId] : [])]),
+      ];
+      progress = state.entries[entry.profileId] = {
+        fingerprint,
+        creating: true,
+        previousSkinIds,
+        replacementRun: state.batch.id,
+        thumbnailHash,
+      };
+      await save(state);
+      const response = await request(payload.path, payload.body);
+      const skinId = response.result?.skin_id;
+      assert.ok(Number.isSafeInteger(skinId) && skinId > 0, 'Server returned no skin ID');
+      progress.skinId = skinId;
+      progress.creating = false;
+      progress.assigned = false;
+      owned.set(skinId, { id: skinId, name: entry.name });
+      await save(state);
+    } else if (!progress) {
+      progress = state.entries[entry.profileId] = { fingerprint, skinId: knownId, assigned: false };
+    }
+    if (exactUsage(entry, progress.skinId)) {
+      progress.assigned = true;
+      await save(state);
+      log(`${entry.name}: existing shared assignment verified (${progress.skinId})`);
+    } else {
+      const response = await request('/AssignCatalogueSkin', {
+        skinId: progress.skinId,
+        profileId: entry.profileId,
+        gameId: game.IdGame,
+        selectedOptions: [],
+        costumeDefault: 1,
+        mode: progress.previousSkinIds?.length || replace ? 'override' : 'add',
+      });
+      assert.equal(response.error, 0, `Could not assign skin ${progress.skinId}`);
+      progress.assigned = true;
+      await save(state);
+      log(`${entry.name}: skin ${progress.skinId} assigned`);
+    }
+    await cleanup(entry, progress);
   }
+  state.batch.complete = true;
+  await save(state);
   return state;
 }

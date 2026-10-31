@@ -8,6 +8,10 @@ import {
   validateCatalogue,
 } from '../src/models/catalogue.mjs';
 
+const thumbnailDataUrl =
+  'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+jRZkAAAAASUVORK5CYII=';
+const getThumbnail = async () => thumbnailDataUrl;
+
 const entry = {
   profileId: 'marine',
   name: 'Marine',
@@ -20,6 +24,17 @@ const catalogue = {
   entries: [entry],
 };
 const respond = async endpoint => {
+  if (endpoint.startsWith('/GetCatalogueSkins?'))
+    return {
+      error: 0,
+      result: {
+        skins: [
+          { id: 123, name: 'Marine' },
+          { id: 12999, name: 'Marine' },
+        ],
+        total: 2,
+      },
+    };
   if (endpoint === '/GetGamesWeb/')
     return { success: true, games: [{ GameName: 'Starcraft', IdGame: 16 }] };
   if (endpoint === '/IsAdmin/16') return [{ IsAdmin: 1 }];
@@ -46,10 +61,11 @@ test('rejects local URLs and invalid transforms', () => {
 
 test('multipart payload retains independent attachment transforms', () => {
   const extra = { ...entry.parts[0], transforms: transforms({ size: 2, position: [1, 2, 3] }) };
-  const request = skinRequest({ ...entry, parts: [...entry.parts, extra] });
+  const request = skinRequest({ ...entry, parts: [...entry.parts, extra] }, { thumbnailDataUrl });
   assert.match(request.path, /multipart$/);
   assert.equal(request.body.parts[1].transforms.positionY, 2);
   assert.equal(request.body.parts[0].transforms.scale, 1);
+  assert.equal(request.body.thumbnail_data_url, thumbnailDataUrl);
 });
 
 test('resumes a failed assignment without recreating the skin', async () => {
@@ -61,9 +77,13 @@ test('resumes a failed assignment without recreating the skin', async () => {
     if (endpoint === '/AssignCatalogueSkin' && fail) throw new Error('offline');
     return respond(endpoint);
   };
-  const options = { request, state, save: async () => {} };
+  const options = { request, state, save: async () => {}, getThumbnail };
   await assert.rejects(publishCatalogue(catalogue, options), /offline/);
   assert.equal(state.entries.marine.skinId, 123);
+  assert.equal(
+    calls.find(call => call.endpoint.includes('create-and-link')).body.thumbnail_data_url,
+    thumbnailDataUrl,
+  );
   fail = false;
   await publishCatalogue(catalogue, options);
   await publishCatalogue(catalogue, options);
@@ -81,11 +101,11 @@ test('uncertain creation stops retries and non-admins cannot publish', async () 
     return respond(endpoint);
   };
   await assert.rejects(
-    publishCatalogue(catalogue, { request, state, save: async () => {} }),
+    publishCatalogue(catalogue, { request, state, save: async () => {}, getThumbnail }),
     /timeout/,
   );
   await assert.rejects(
-    publishCatalogue(catalogue, { request, state, save: async () => {} }),
+    publishCatalogue(catalogue, { request, state, save: async () => {}, getThumbnail }),
     /outcome unknown/,
   );
   await assert.rejects(
@@ -112,7 +132,7 @@ test('reconciles an existing Marine assignment instead of posting a duplicate', 
   };
   await publishCatalogue(
     { ...catalogue, entries: [{ ...entry, existingSkinId: 12999 }] },
-    { request, state, save: async () => {} },
+    { request, state, save: async () => {}, getThumbnail },
   );
   assert.equal(state.entries.marine.assigned, true);
 });

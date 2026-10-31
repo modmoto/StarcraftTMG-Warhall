@@ -26,9 +26,9 @@ The test frontend has no documented API-token flow. This adapter uses its existi
 npm run models:publish -- --apply --accept-publication-terms
 ```
 
-The script resolves the game ID by name, checks admin access, creates public skins from URLs and adds shared default assignments. Existing assignments are not overwritten. Server-generated skin IDs and progress are saved to ignored `.cache/model-publication.json`; retain that file between runs and across publisher machines. Completed entries are skipped, and failed assignments reuse their created skin.
+The script resolves the game ID by name, checks admin access, creates public skins from URLs and adds shared default assignments. New assignments use add mode; authorized replacements override the selected profile after creating its new skin. Server-generated skin IDs and progress are saved to ignored `.cache/model-publication.json`; retain that file between runs and across publisher machines. Unchanged completed entries are reused, manually deleted uploads are recreated, and failed assignments reuse their created skin.
 
-If a create request times out or its outcome is uncertain, the script stops retries for that entry. Check the web catalogue before reconciling its saved state: set `skinId` to the created ID and remove `creating`, or remove the entry only after confirming no skin was created. A definition change also stops publication until its saved record has been reviewed. Do not delete the whole state file to retry: that can create duplicates. Avoid simultaneous publisher runs.
+If a create request times out or its outcome is uncertain, the script stops retries for that entry. Check the web catalogue before reconciling its saved state: set `skinId` to the created ID and remove `creating`, or remove the entry only after confirming no skin was created. A changed model definition or screenshot triggers replacement of an owned skin, with the old skin retained until the new assignment succeeds. Do not delete the whole state file to retry: that can create duplicates. Avoid simultaneous publisher runs.
 
 `--catalogue PATH` and `--state PATH` select alternate files. The state is scoped to the server and game; production needs its own verified catalogue and state.
 
@@ -66,4 +66,32 @@ npm run models:publish -- --server prod --default-scale
 
 Add `--apply --login --accept-publication-terms` only when publication to that target is intended. Production uses `.cache/model-publication-prod.json`; test retains `.cache/model-publication.json`. Existing skin IDs are local to a server: the test Marine ID is not reused in production, and three native markers without verified production IDs are excluded. The publisher queries `/GetMySkinUsages` and skips a verified existing game/profile/default assignment, including the previously published Marine.
 
-Catalogue previews remain incomplete: this adapter currently sends no thumbnail data. The website's snapshot is passed as `thumbnail_data_url` during creation. An API call succeeding means model links and assignments were registered, not that a preview image exists. Updating thumbnails on the 27 already-created skins needs a supported update operation; none has yet been identified in the inspected frontend.
+The first batch omitted thumbnails. New skin creation now requires a prepared snapshot and sends it as `thumbnail_data_url`; see below. Updating thumbnails on the 27 already-created skins still needs a supported update operation; none has yet been identified in the inspected frontend.
+
+## Thumbnail images
+
+Before creating skins, render actual model snapshots (preferably 512 × 512 PNG) and save them under `.cache/model-thumbnails/<profileId>.png`. JPEG and WebP are also accepted. The upload command sends these bytes as `thumbnail_data_url` for both single-part and multipart skins. The publisher does not automatically render 3D assets yet.
+
+Use `--thumbnails-dir PATH` for another folder, or add `thumbnailFile` to an entry in `model-catalogue.json`:
+
+```json
+{ "profileId": "prof_marine", "thumbnailFile": "previews/prof_marine.png" }
+```
+
+This example shows the additional field, not a complete catalogue entry. A corresponding `thumbnailFile` override in `model-publication-overrides.json` survives catalogue regeneration. PNG, JPEG and WebP signatures are recognized; images must be nonempty and at most 5 MiB. Missing images are listed in dry-run output. Apply checks them for every selected model/terrain assembly before asking for credentials or making changes. There is no fallback to publishing a null thumbnail.
+
+Native marker skins need no snapshot. Uploaded model/terrain assemblies need snapshot files even when previously published, so image changes and deleted server data can be reconciled. Thumbnail paths do not invalidate saved model fingerprints. This avoids duplicate creation, but does not backfill previews for earlier uploads. Visual verification and a supported existing-thumbnail update operation remain separate.
+
+## Fresh replacement
+
+After preparing the model snapshots, use:
+
+```sh
+npm run models:publish -- --apply --login --default-scale --replace --accept-publication-terms
+```
+
+The importer reads the owned server catalogue to reconcile checkpoint IDs. It recreates manually deleted uploads instead of trusting an old assigned flag. In ordinary mode, changed model definitions or screenshot bytes also trigger replacement; `--replace` forces it even for unchanged inputs.
+
+Each replacement creates the new skin with its snapshot, assigns it with override mode, then deletes the old owned skin through `/DeleteMySkin`. Native marker references are reused. Other users' skins are never deleted; an old skin referenced by another game/profile is retained and reported. A failed assignment leaves the old skin intact; failed deletion resumes cleanup without recreating the replacement. An incomplete replacement batch is resumed on retry; invoking `--replace` after completion intentionally starts a new full replacement. Keep the progress file.
+
+The supported way to refresh a screenshot here is replacing the owned skin, rather than an unverified thumbnail-update endpoint. This changes the skin ID and can affect saved games referencing the old ID. The replacement behaviour is tested with a simulated API; live replacement has not yet been verified.

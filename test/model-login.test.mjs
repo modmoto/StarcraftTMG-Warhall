@@ -46,12 +46,14 @@ test('default-scale upload omits legacy transforms for single and multipart mode
       { modelUrl: 'https://example.com/model.obj', transforms: { scale: 150, positionX: 5 } },
     ],
   };
-  const single = skinRequest(entry, { defaultScale: true });
+  const thumbnailDataUrl =
+    'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+jRZkAAAAASUVORK5CYII=';
+  const single = skinRequest(entry, { defaultScale: true, thumbnailDataUrl });
   assert.equal(single.body.model_size, 1);
   assert.equal(single.body.transforms, null);
   const multipart = skinRequest(
     { ...entry, parts: [...entry.parts, ...entry.parts] },
-    { defaultScale: true },
+    { defaultScale: true, thumbnailDataUrl },
   );
   assert.ok(multipart.body.parts.every(part => part.transforms === null));
 });

@@ -46,6 +46,7 @@ for (const [profileId, override] of Object.entries(overrides)) {
     entry.parts = entry.parts.map((part, index) => ({ ...part, ...override.parts[index] }));
   }
   if (override.existingSkinId) entry.existingSkinId = override.existingSkinId;
+  if (override.thumbnailFile) entry.thumbnailFile = override.thumbnailFile;
 }
 const catalogue = validateCatalogue({
   schemaVersion: 1,
