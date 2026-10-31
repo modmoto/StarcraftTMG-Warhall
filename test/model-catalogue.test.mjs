@@ -23,6 +23,7 @@ const respond = async endpoint => {
   if (endpoint === '/GetGamesWeb/')
     return { success: true, games: [{ GameName: 'Starcraft', IdGame: 16 }] };
   if (endpoint === '/IsAdmin/16') return [{ IsAdmin: 1 }];
+  if (endpoint === '/GetMySkinUsages') return { error: 0, result: [] };
   if (endpoint === '/AssignCatalogueSkin') return { error: 0 };
   return { error: 0, result: { skin_id: 123 } };
 };
@@ -95,4 +96,23 @@ test('uncertain creation stops retries and non-admins cannot publish', async () 
     }),
     /administrator/,
   );
+});
+
+test('reconciles an existing Marine assignment instead of posting a duplicate', async () => {
+  const state = {};
+  const request = async endpoint => {
+    if (endpoint === '/GetMySkinUsages')
+      return {
+        error: 0,
+        result: [{ skinId: 12999, profileId: 'marine', gameId: 16, costumeDefault: 1 }],
+      };
+    if (endpoint === '/AssignCatalogueSkin')
+      throw new Error('Duplicate assignment must not be posted');
+    return respond(endpoint);
+  };
+  await publishCatalogue(
+    { ...catalogue, entries: [{ ...entry, existingSkinId: 12999 }] },
+    { request, state, save: async () => {} },
+  );
+  assert.equal(state.entries.marine.assigned, true);
 });

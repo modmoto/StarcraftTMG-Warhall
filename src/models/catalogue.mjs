@@ -48,11 +48,11 @@ export function entryFingerprint(entry) {
   return createHash('sha256').update(JSON.stringify(entry)).digest('hex');
 }
 
-export function skinRequest(entry) {
+export function skinRequest(entry, { defaultScale = false } = {}) {
   const parts = entry.parts.map(part => ({
     model_url: part.modelUrl,
     texture_url: part.textureUrl ?? null,
-    transforms: part.transforms,
+    transforms: defaultScale ? null : part.transforms,
   }));
   const body = { skin_name: entry.name, is_public: 1, thumbnail_data_url: null };
   if (parts.length > 1) {
@@ -60,11 +60,14 @@ export function skinRequest(entry) {
   }
   return {
     path: '/api/tripo/create-and-link-skin',
-    body: { ...body, ...parts[0], model_size: parts[0].transforms.scale },
+    body: { ...body, ...parts[0], model_size: parts[0].transforms?.scale ?? 1 },
   };
 }
 
-export async function publishCatalogue(catalogue, { request, state, save, log = () => {} }) {
+export async function publishCatalogue(
+  catalogue,
+  { request, state, save, log = () => {}, defaultScale = false },
+) {
   validateCatalogue(catalogue);
   const listing = await request('/GetGamesWeb/');
   assert.ok(listing.success && Array.isArray(listing.games), 'Invalid games response');
@@ -76,6 +79,8 @@ export async function publishCatalogue(catalogue, { request, state, save, log = 
     1,
     'Game administrator access is required for shared defaults',
   );
+  const usages = await request('/GetMySkinUsages');
+  assert.ok(usages.error === 0 && Array.isArray(usages.result), 'Invalid skin usage response');
   const scope = `${catalogue.serverUrl}|${game.IdGame}`;
   assert.ok(
     !state.scope || state.scope === scope,
@@ -84,10 +89,31 @@ export async function publishCatalogue(catalogue, { request, state, save, log = 
   state.scope = scope;
   state.entries ??= {};
   for (const entry of catalogue.entries) {
-    const fingerprint = entryFingerprint(entry);
+    const fingerprint = entryFingerprint(
+      defaultScale
+        ? { ...entry, parts: entry.parts?.map(part => ({ ...part, transforms: null })) }
+        : entry,
+    );
     let progress = state.entries[entry.profileId];
     if (progress && progress.fingerprint !== fingerprint) {
       throw new Error(`Definition changed for ${entry.profileId}; review its saved state first`);
+    }
+    const skinId = progress?.skinId ?? entry.existingSkinId;
+    const existing =
+      skinId &&
+      usages.result.some(
+        usage =>
+          Number(usage.skinId) === skinId &&
+          usage.profileId === entry.profileId &&
+          Number(usage.gameId) === Number(game.IdGame) &&
+          Number(usage.costumeDefault) === 1 &&
+          !usage.optionNames?.length,
+      );
+    if (existing) {
+      state.entries[entry.profileId] = { fingerprint, skinId, assigned: true };
+      await save(state);
+      log(`${entry.name}: existing shared assignment verified (${skinId})`);
+      continue;
     }
     if (progress?.creating) {
       throw new Error(
@@ -98,7 +124,7 @@ export async function publishCatalogue(catalogue, { request, state, save, log = 
     if (!progress) {
       let skinId = entry.existingSkinId;
       if (!skinId) {
-        const payload = skinRequest(entry);
+        const payload = skinRequest(entry, { defaultScale });
         state.entries[entry.profileId] = { fingerprint, creating: true };
         await save(state);
         const response = await request(payload.path, payload.body);

@@ -1,20 +1,31 @@
 import { parseArgs } from 'node:util';
 import { readFile, writeFile, mkdir, rename } from 'node:fs/promises';
 import path from 'node:path';
+import { publicationTarget } from '../src/models/servers.mjs';
+import { promptLogin } from '../src/models/login.mjs';
 import { projectRoot } from '../src/paths.mjs';
 import { publishCatalogue, skinRequest, validateCatalogue } from '../src/models/catalogue.mjs';
 
 const { values } = parseArgs({
   options: {
     apply: { type: 'boolean', default: false },
+    login: { type: 'boolean', default: false },
+    'default-scale': { type: 'boolean', default: false },
     catalogue: { type: 'string', default: 'model-catalogue.json' },
-    state: { type: 'string', default: '.cache/model-publication.json' },
+    state: { type: 'string' },
+    server: { type: 'string', default: 'test' },
     'accept-publication-terms': { type: 'boolean', default: false },
   },
 });
-const catalogue = validateCatalogue(
+const target = publicationTarget(
   JSON.parse(await readFile(path.resolve(projectRoot, values.catalogue), 'utf8')),
+  values.server,
 );
+const catalogue = validateCatalogue(target.catalogue);
+if (target.excluded.length)
+  console.error(
+    `Skipped ${target.excluded.length} native skin references without verified IDs on this server`,
+  );
 if (!values.apply) {
   console.log(
     JSON.stringify(
@@ -25,7 +36,9 @@ if (!values.apply) {
         entries: catalogue.entries.map(entry => ({
           profileId: entry.profileId,
           existingSkinId: entry.existingSkinId,
-          create: entry.existingSkinId ? undefined : skinRequest(entry),
+          create: entry.existingSkinId
+            ? undefined
+            : skinRequest(entry, { defaultScale: values['default-scale'] }),
           assignment: { costumeDefault: 1, mode: 'add' },
         })),
       },
@@ -39,12 +52,12 @@ if (!values.apply) {
       'Review Warhall’s public-skin rights, hosting licence and takedown terms in Model Creator, then pass --accept-publication-terms if you can accept them.',
     );
   }
-  const cookie = process.env.WARHALL_COOKIE;
+  const cookie = values.login ? await promptLogin(catalogue.serverUrl) : process.env.WARHALL_COOKIE;
   if (!cookie)
     throw new Error(
       'Set WARHALL_COOKIE to your own authenticated Warhall session cookie header. It is never saved or logged.',
     );
-  const filename = path.resolve(projectRoot, values.state);
+  const filename = path.resolve(projectRoot, values.state ?? target.stateFile);
   let state = {};
   try {
     state = JSON.parse(await readFile(filename, 'utf8'));
@@ -80,6 +93,7 @@ if (!values.apply) {
       await rename(`${filename}.tmp`, filename);
     },
     log: console.log,
+    defaultScale: values['default-scale'],
   });
   console.log('Shared mappings published. Refresh the catalogue in Warhall Test.');
 }

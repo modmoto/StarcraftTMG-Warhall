@@ -41,3 +41,29 @@ This publisher registers models and terrain appearances. It does not publish cus
 ## Marine calibration
 
 The shared Marine skin is 12999 (layer 33205). Its initial nonlegacy normalized scale was 1.1811023622, corresponding to approximately 80 mm maximum dimension. The catalogue editor was used to halve it on October 31, 2026; the model now fits within the 32 mm reference base in the web preview. In-game verification is pending. `model-publication-overrides.json` records its existing skin ID and approximately 0.5905511811 scale so regeneration retains this calibration and publication does not create another Marine skin. The publisher reuses existing skin IDs; it does not edit their transforms. Subsequent shared scale changes must be saved in the catalogue editor as well as recorded in the override. Existing local-test legacy scales are not interchangeable with new normalized web-import scales.
+
+## Next waves and default-scale import
+
+The reusable `$warhall-publish-skins` skill is installed in `~/.codex/skills/warhall-publish-skins`, with a repository copy under `.agents/skills/warhall-publish-skins`. It describes selection, creation, shared assignment and resume handling.
+
+To skip scale/transform calibration for new models and authenticate interactively:
+
+```sh
+npm run models:publish -- --apply --login --default-scale --accept-publication-terms
+```
+
+The local terminal asks for username/email and a hidden password. It uses the same Firebase password sign-in and `/sessionLogin` exchange as the website. No credentials or session cookies are saved. The public Firebase configuration is read from the test site's frontend. Interactive MFA/CAPTCHA or login policy restrictions require using the website or an explicitly supplied session; the command does not bypass them. Browser login alone does not authenticate this CLI.
+
+`--default-scale` sends `model_size: 1` and no transforms for new skins. It also omits multipart offsets/rotations; geometric arrangement and final size are deferred. Existing skins, including Marine 12999, retain their saved appearance. Use the same mode when resuming so fingerprints match.
+
+## Test and production targets
+
+`--server test` (the default) targets `https://apptest.warhall.eu`. `--server prod` targets `https://www.warhall.eu`. The literal HTTPS URLs are accepted as well. Preview production without writes:
+
+```sh
+npm run models:publish -- --server prod --default-scale
+```
+
+Add `--apply --login --accept-publication-terms` only when publication to that target is intended. Production uses `.cache/model-publication-prod.json`; test retains `.cache/model-publication.json`. Existing skin IDs are local to a server: the test Marine ID is not reused in production, and three native markers without verified production IDs are excluded. The publisher queries `/GetMySkinUsages` and skips a verified existing game/profile/default assignment, including the previously published Marine.
+
+Catalogue previews remain incomplete: this adapter currently sends no thumbnail data. The website's snapshot is passed as `thumbnail_data_url` during creation. An API call succeeding means model links and assignments were registered, not that a preview image exists. Updating thumbnails on the 27 already-created skins needs a supported update operation; none has yet been identified in the inspected frontend.

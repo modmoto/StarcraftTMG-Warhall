@@ -1,0 +1,4 @@
+interface:
+  display_name: "Warhall Skin Publisher"
+  short_description: "Publish model links and shared unit skins via API"
+  default_prompt: "Use $warhall-publish-skins to register the next wave of Starcraft skins in Warhall Test."
