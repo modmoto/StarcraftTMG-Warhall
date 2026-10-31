@@ -2,6 +2,7 @@ import { readFile, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 import { projectRoot } from '../src/paths.mjs';
 import { transforms, validateCatalogue } from '../src/models/catalogue.mjs';
+import { calibrateCatalogue } from '../src/models/calibration.mjs';
 import { nativeMarkers } from '../src/deployments/markers.mjs';
 
 const read = async file => JSON.parse(await readFile(path.join(projectRoot, file), 'utf8'));
@@ -48,12 +49,17 @@ for (const [profileId, override] of Object.entries(overrides)) {
   if (override.existingSkinId) entry.existingSkinId = override.existingSkinId;
   if (override.thumbnailFile) entry.thumbnailFile = override.thumbnailFile;
 }
-const catalogue = validateCatalogue({
+const raw = validateCatalogue({
   schemaVersion: 1,
   serverUrl: 'https://apptest.warhall.eu',
   gameName: 'Starcraft',
   entries,
 });
+const { catalogue, report } = await calibrateCatalogue(raw);
+await writeFile(
+  path.join(projectRoot, 'model-calibration-report.json'),
+  JSON.stringify(report, null, 2) + '\n',
+);
 await writeFile(
   path.join(projectRoot, 'model-catalogue.json'),
   JSON.stringify(catalogue, null, 2) + '\n',

@@ -228,27 +228,9 @@ export async function generateThumbnail(
   await mkdir(cacheDirectory, { recursive: true });
   const meshes = [];
   for (const part of entry.parts ?? []) {
-    const source = await cachedAsset(part.modelUrl, cacheDirectory);
-    const bytes = await readFile(source);
-    const externalTexture = part.textureUrl
-      ? await textureData(await cachedAsset(part.textureUrl, cacheDirectory))
-      : null;
-    let secondary;
-    if (bytes.subarray(0, 7).toString().startsWith('Unity') && !externalTexture) {
-      const inventory = JSON.parse(
-        await readFile(path.join(projectRoot, 'tts-model-sources.json'), 'utf8'),
-      );
-      const source = inventory.models.find(
-        model => model.customAssetbundle?.AssetbundleURL === part.modelUrl,
-      );
-      const url = source?.customAssetbundle?.AssetbundleSecondaryURL;
-      if (url) secondary = await cachedAsset(url, cacheDirectory);
-    }
-    const geometry = bytes.subarray(0, 7).toString().startsWith('Unity')
-      ? await unityGeometry(source, cacheDirectory, secondary)
-      : [parseObj(bytes.toString('utf8'))];
+    const { geometry } = await sourceGeometry(part, cacheDirectory);
     for (const mesh of geometry) {
-      const transform = {
+      const transform = part.previewTransforms ?? {
         ...part.transforms,
         scale: defaultScale ? 1 : (part.transforms?.scale ?? 1),
       };
@@ -277,8 +259,6 @@ export async function generateThumbnail(
             (transform[['positionX', 'positionY', 'positionZ'][i]] ?? 0),
         );
       });
-      mesh.texture =
-        externalTexture ?? (mesh.textureFile ? await textureData(mesh.textureFile) : null);
       meshes.push(mesh);
     }
   }
@@ -294,6 +274,39 @@ export async function generateThumbnail(
 
 export function renderFingerprint(entry, defaultScale) {
   return createHash('sha256')
-    .update(JSON.stringify({ parts: entry.parts, defaultScale, rendererVersion: 3 }))
+    .update(JSON.stringify({ parts: entry.parts, defaultScale, rendererVersion: 4 }))
     .digest('hex');
+}
+
+export async function sourceGeometry(
+  part,
+  cacheDirectory = path.join(projectRoot, '.cache/thumbnail-assets'),
+) {
+  await mkdir(cacheDirectory, { recursive: true });
+  part = { ...part, ...part.previewSource };
+  const source = await cachedAsset(part.modelUrl, cacheDirectory);
+  const bytes = await readFile(source);
+  const externalTexture = part.textureUrl
+    ? await textureData(await cachedAsset(part.textureUrl, cacheDirectory))
+    : null;
+  let secondary;
+  if (bytes.subarray(0, 7).toString().startsWith('Unity') && !externalTexture) {
+    const inventory = JSON.parse(
+      await readFile(path.join(projectRoot, 'tts-model-sources.json'), 'utf8'),
+    );
+    const source = inventory.models.find(
+      model => model.customAssetbundle?.AssetbundleURL === part.modelUrl,
+    );
+    const url = source?.customAssetbundle?.AssetbundleSecondaryURL;
+    if (url) secondary = await cachedAsset(url, cacheDirectory);
+  }
+  const format = bytes.subarray(0, 7).toString().startsWith('Unity') ? 'unity' : 'obj';
+  const geometry =
+    format === 'unity'
+      ? await unityGeometry(source, cacheDirectory, secondary)
+      : [parseObj(bytes.toString('utf8'))];
+  for (const mesh of geometry)
+    mesh.texture =
+      externalTexture ?? (mesh.textureFile ? await textureData(mesh.textureFile) : null);
+  return { geometry, format };
 }

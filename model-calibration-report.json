@@ -1,0 +1,2424 @@
+[
+  {
+    "profileId": "pdf_Protoss_profile_adepts",
+    "name": "Starcraft - Adepts",
+    "kind": "unit",
+    "authoredSizeMm": [
+      35.36072952896757,
+      54.999999948885105,
+      35.988693757555
+    ],
+    "correctedSizeMm": [
+      35.36072952896757,
+      54.999999948885105,
+      35.988693757555
+    ],
+    "scaleAdjustment": 1,
+    "portableParts": 1,
+    "sourceParts": [
+      {
+        "format": "unity",
+        "sourceSize": [
+          0.009123590774834156,
+          0.00928561482578516,
+          0.0141908127698116
+        ],
+        "cacheScale": 152.5884643691914,
+        "apiScale": 152.5884643691914,
+        "partCount": 1
+      }
+    ],
+    "rotations": [
+      [
+        270,
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "profileId": "pdf_Protoss_profile_artanis",
+    "name": "Starcraft - Artanis",
+    "kind": "unit",
+    "authoredSizeMm": [
+      38.28182883430367,
+      62.160000688722505,
+      30.256790330188945
+    ],
+    "correctedSizeMm": [
+      38.28182883430367,
+      62.160000688722505,
+      30.256790330188945
+    ],
+    "scaleAdjustment": 1,
+    "portableParts": 0,
+    "sourceParts": [
+      {
+        "format": "obj",
+        "sourceSize": [
+          0.57967689,
+          0.94124855,
+          0.45815894
+        ],
+        "cacheScale": 2.59999776,
+        "apiScale": 0.917716545601218,
+        "partCount": 1
+      }
+    ],
+    "rotations": [
+      [
+        0,
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "profileId": "pdf_Protoss_profile_high_templar",
+    "name": "Starcraft - High Templar",
+    "kind": "unit",
+    "authoredSizeMm": [
+      50.76561701312501,
+      47.560016861774,
+      40.21578580421013
+    ],
+    "correctedSizeMm": [
+      50.76561701312501,
+      47.560016861774,
+      40.21578580421013
+    ],
+    "scaleAdjustment": 1,
+    "portableParts": 0,
+    "sourceParts": [
+      {
+        "format": "obj",
+        "sourceSize": [
+          1.4804789999999999,
+          1.386994,
+          1.1728139999999998
+        ],
+        "cacheScale": 1.34999979,
+        "apiScale": 0.7494923771622787,
+        "partCount": 1
+      }
+    ],
+    "rotations": [
+      [
+        0,
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "profileId": "pdf_Protoss_profile_immortal",
+    "name": "Starcraft - Immortal",
+    "kind": "unit",
+    "authoredSizeMm": [
+      81.53064214382442,
+      82.80843452582765,
+      63.531942744771996
+    ],
+    "correctedSizeMm": [
+      81.53064214382442,
+      82.80843452582765,
+      63.531942744771996
+    ],
+    "scaleAdjustment": 1,
+    "portableParts": 0,
+    "sourceParts": [
+      {
+        "format": "obj",
+        "sourceSize": [
+          2.0708830000000003,
+          2.103339,
+          1.613715
+        ],
+        "cacheScale": 1.54999959,
+        "apiScale": 1.2225654703616289,
+        "partCount": 1
+      }
+    ],
+    "rotations": [
+      [
+        0,
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "profileId": "pdf_Protoss_profile_nerazim_watchers_adept",
+    "name": "Starcraft - Nerazim Watchers (Adept)",
+    "kind": "unit",
+    "authoredSizeMm": [
+      31.469096528955642,
+      49.42813979865604,
+      32.4371374472489
+    ],
+    "correctedSizeMm": [
+      31.469096528955642,
+      49.42813979865604,
+      32.4371374472489
+    ],
+    "scaleAdjustment": 1,
+    "portableParts": 0,
+    "sourceParts": [
+      {
+        "format": "obj",
+        "sourceSize": [
+          0.917734,
+          1.441474,
+          0.945965
+        ],
+        "cacheScale": 1.3499999,
+        "apiScale": 0.729746158444725,
+        "partCount": 1
+      }
+    ],
+    "rotations": [
+      [
+        0,
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "profileId": "pdf_Protoss_profile_praetor_guards",
+    "name": "Starcraft - Praetor Guards",
+    "kind": "unit",
+    "authoredSizeMm": [
+      44.42872662516482,
+      44.702815471932944,
+      42.01039528191185
+    ],
+    "correctedSizeMm": [
+      44.42872662516482,
+      44.702815471932944,
+      42.01039528191185
+    ],
+    "scaleAdjustment": 1,
+    "portableParts": 0,
+    "sourceParts": [
+      {
+        "format": "obj",
+        "sourceSize": [
+          1.206319,
+          1.213761,
+          1.140657
+        ],
+        "cacheScale": 1.44999993,
+        "apiScale": 0.6599825118887738,
+        "partCount": 1
+      }
+    ],
+    "rotations": [
+      [
+        0,
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "profileId": "pdf_Protoss_profile_pylon",
+    "name": "Starcraft - Pylon",
+    "kind": "unit",
+    "authoredSizeMm": [
+      57.363828203071975,
+      101.50208976579846,
+      64.57746561056271
+    ],
+    "correctedSizeMm": [
+      57.363828203071975,
+      101.50208976579846,
+      64.57746561056271
+    ],
+    "scaleAdjustment": 1,
+    "portableParts": 0,
+    "sourceParts": [
+      {
+        "format": "obj",
+        "sourceSize": [
+          0.45168373,
+          0.7992291300000001,
+          0.50848403
+        ],
+        "cacheScale": 4.99999952,
+        "apiScale": 1.498554474888757,
+        "partCount": 1
+      }
+    ],
+    "rotations": [
+      [
+        0,
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "profileId": "pdf_Protoss_profile_sentries",
+    "name": "Starcraft - Sentries",
+    "kind": "unit",
+    "authoredSizeMm": [
+      61.14185701499999,
+      36.16645548,
+      61.989692504999994
+    ],
+    "correctedSizeMm": [
+      61.14185701499999,
+      36.16645548,
+      61.989692504999994
+    ],
+    "scaleAdjustment": 1,
+    "portableParts": 0,
+    "sourceParts": [
+      {
+        "format": "obj",
+        "sourceSize": [
+          0.9628638900000001,
+          0.56955048,
+          0.97621563
+        ],
+        "cacheScale": 2.5,
+        "apiScale": 0.9152021531250001,
+        "partCount": 1
+      }
+    ],
+    "rotations": [
+      [
+        0,
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "profileId": "pdf_Protoss_profile_stalker",
+    "name": "Starcraft - Stalker",
+    "kind": "unit",
+    "authoredSizeMm": [
+      65.05348597300457,
+      86.09257246173905,
+      61.29478684452682
+    ],
+    "correctedSizeMm": [
+      65.05348597300457,
+      86.09257246173905,
+      61.29478684452682
+    ],
+    "scaleAdjustment": 1,
+    "portableParts": 0,
+    "sourceParts": [
+      {
+        "format": "obj",
+        "sourceSize": [
+          1.9701240000000002,
+          2.607286,
+          1.856293
+        ],
+        "cacheScale": 1.29999983,
+        "apiScale": 1.2710517587855177,
+        "partCount": 1
+      }
+    ],
+    "rotations": [
+      [
+        0,
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "profileId": "pdf_Protoss_profile_tassadar",
+    "name": "Starcraft - Tassadar",
+    "kind": "unit",
+    "authoredSizeMm": [
+      41.29592063618912,
+      45.61659712408378,
+      33.67064878234271
+    ],
+    "correctedSizeMm": [
+      41.29592063618912,
+      45.61659712408378,
+      33.67064878234271
+    ],
+    "scaleAdjustment": 1,
+    "portableParts": 0,
+    "sourceParts": [
+      {
+        "format": "obj",
+        "sourceSize": [
+          1.204314,
+          1.330318,
+          0.981938
+        ],
+        "cacheScale": 1.34999979,
+        "apiScale": 0.6734733827374575,
+        "partCount": 1
+      }
+    ],
+    "rotations": [
+      [
+        0,
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "profileId": "pdf_Protoss_profile_twilight_templar_high_templar",
+    "name": "Starcraft - Twilight Templar (High Templar)",
+    "kind": "unit",
+    "authoredSizeMm": [
+      39.82065185443338,
+      47.1026717062853,
+      43.6499868692009
+    ],
+    "correctedSizeMm": [
+      39.82065185443338,
+      47.1026717062853,
+      43.6499868692009
+    ],
+    "scaleAdjustment": 1,
+    "portableParts": 0,
+    "sourceParts": [
+      {
+        "format": "obj",
+        "sourceSize": [
+          1.254194,
+          1.483549,
+          1.374803
+        ],
+        "cacheScale": 1.24999976,
+        "apiScale": 0.69541346023059,
+        "partCount": 1
+      }
+    ],
+    "rotations": [
+      [
+        0,
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "profileId": "pdf_Protoss_profile_zealots",
+    "name": "Starcraft - Zealots",
+    "kind": "unit",
+    "authoredSizeMm": [
+      42.425253517267834,
+      46.917489382036095,
+      48.13016592861526
+    ],
+    "correctedSizeMm": [
+      42.425253517267834,
+      46.917489382036095,
+      48.13016592861526
+    ],
+    "scaleAdjustment": 1,
+    "portableParts": 0,
+    "sourceParts": [
+      {
+        "format": "obj",
+        "sourceSize": [
+          0.92793664,
+          1.02619204,
+          1.05271603
+        ],
+        "cacheScale": 1.79999959,
+        "apiScale": 0.7105831583949105,
+        "partCount": 1
+      }
+    ],
+    "rotations": [
+      [
+        0,
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "profileId": "pdf_Protoss_profile_zeratul",
+    "name": "Starcraft - Zeratul",
+    "kind": "unit",
+    "authoredSizeMm": [
+      34.53459438,
+      50.17597026,
+      29.450075719999997
+    ],
+    "correctedSizeMm": [
+      34.53459438,
+      50.17597026,
+      29.450075719999997
+    ],
+    "scaleAdjustment": 1,
+    "portableParts": 0,
+    "sourceParts": [
+      {
+        "format": "obj",
+        "sourceSize": [
+          1.045869,
+          1.297093,
+          0.891886
+        ],
+        "cacheScale": 1.3,
+        "apiScale": 1.3,
+        "partCount": 2
+      },
+      {
+        "format": "obj",
+        "sourceSize": [
+          0.061795000000000044,
+          1.023719,
+          0.14941100000000002
+        ],
+        "cacheScale": 1.3,
+        "apiScale": 1.3,
+        "partCount": 2
+      }
+    ],
+    "rotations": [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "profileId": "pdf_Terran_profile_auto_turret",
+    "name": "Starcraft - Auto-Turret",
+    "kind": "unit",
+    "authoredSizeMm": [
+      37.3829834,
+      28.843630400000002,
+      37.3829834
+    ],
+    "correctedSizeMm": [
+      37.3829834,
+      28.843630400000002,
+      37.3829834
+    ],
+    "scaleAdjustment": 1,
+    "portableParts": 0,
+    "sourceParts": [
+      {
+        "format": "obj",
+        "sourceSize": [
+          1.471771,
+          1.135576,
+          1.471771
+        ],
+        "cacheScale": 1,
+        "apiScale": 0.551914125,
+        "partCount": 1
+      }
+    ],
+    "rotations": [
+      [
+        0,
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "profileId": "pdf_Terran_profile_goliath",
+    "name": "Starcraft - Goliath",
+    "kind": "unit",
+    "authoredSizeMm": [
+      78.01592295132592,
+      91.36119731291735,
+      78.06695154184916
+    ],
+    "correctedSizeMm": [
+      78.01592295132592,
+      91.36119731291735,
+      78.06695154184916
+    ],
+    "scaleAdjustment": 1,
+    "portableParts": 0,
+    "sourceParts": [
+      {
+        "format": "obj",
+        "sourceSize": [
+          2.193924,
+          2.569213,
+          2.195359
+        ],
+        "cacheScale": 1.39999974,
+        "apiScale": 1.3488365745017326,
+        "partCount": 1
+      }
+    ],
+    "rotations": [
+      [
+        0,
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "profileId": "pdf_Terran_profile_holo_decoy",
+    "name": "Starcraft - Holo Decoy",
+    "kind": "unit",
+    "authoredSizeMm": [
+      18.594146199999997,
+      55.73322355999999,
+      24.57857416
+    ],
+    "correctedSizeMm": [
+      18.594146199999997,
+      55.73322355999999,
+      24.57857416
+    ],
+    "scaleAdjustment": 1,
+    "portableParts": 0,
+    "sourceParts": [
+      {
+        "format": "obj",
+        "sourceSize": [
+          0.522895,
+          1.567301,
+          0.6911860000000001
+        ],
+        "cacheScale": 1.4,
+        "apiScale": 0.822833025,
+        "partCount": 1
+      }
+    ],
+    "rotations": [
+      [
+        0,
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "profileId": "pdf_Terran_profile_jim_raynor",
+    "name": "Starcraft - Jim Raynor",
+    "kind": "unit",
+    "authoredSizeMm": [
+      53.38955906351879,
+      45.000000215990504,
+      28.11043835602461
+    ],
+    "correctedSizeMm": [
+      53.38955906351879,
+      45.000000215990504,
+      28.11043835602461
+    ],
+    "scaleAdjustment": 1,
+    "portableParts": 1,
+    "sourceParts": [
+      {
+        "format": "unity",
+        "sourceSize": [
+          0.01211507199332118,
+          0.006378774996846914,
+          0.010211326931312215
+        ],
+        "cacheScale": 173.4988570758631,
+        "apiScale": 173.4988570758631,
+        "partCount": 1
+      }
+    ],
+    "rotations": [
+      [
+        270,
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "profileId": "pdf_Terran_profile_marauders",
+    "name": "Starcraft - Marauders",
+    "kind": "unit",
+    "authoredSizeMm": [
+      51.7270867412,
+      48.915619974,
+      43.342122002400004
+    ],
+    "correctedSizeMm": [
+      51.7270867412,
+      48.915619974,
+      43.342122002400004
+    ],
+    "scaleAdjustment": 1,
+    "portableParts": 0,
+    "sourceParts": [
+      {
+        "format": "obj",
+        "sourceSize": [
+          1.56653806,
+          1.4813937,
+          1.31260212
+        ],
+        "cacheScale": 1.3,
+        "apiScale": 0.7636873042500001,
+        "partCount": 1
+      }
+    ],
+    "rotations": [
+      [
+        0,
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "profileId": "pdf_Terran_profile_medics",
+    "name": "Starcraft - Medics",
+    "kind": "unit",
+    "authoredSizeMm": [
+      32.030251916,
+      36.622525688,
+      33.658905250000004
+    ],
+    "correctedSizeMm": [
+      32.030251916,
+      36.622525688,
+      33.658905250000004
+    ],
+    "scaleAdjustment": 1,
+    "portableParts": 0,
+    "sourceParts": [
+      {
+        "format": "obj",
+        "sourceSize": [
+          1.2610335400000001,
+          1.4418317200000001,
+          1.3251537500000001
+        ],
+        "cacheScale": 1,
+        "apiScale": 0.5406868950000001,
+        "partCount": 1
+      }
+    ],
+    "rotations": [
+      [
+        0,
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "profileId": "pdf_Terran_profile_nova_assault_mode",
+    "name": "Starcraft - Nova Assault Mode",
+    "kind": "unit",
+    "authoredSizeMm": [
+      25.458112783760694,
+      44.99999992411601,
+      16.225725705587603
+    ],
+    "correctedSizeMm": [
+      25.458112783760694,
+      44.99999992411601,
+      16.225725705587603
+    ],
+    "scaleAdjustment": 1,
+    "portableParts": 1,
+    "sourceParts": [
+      {
+        "format": "unity",
+        "sourceSize": [
+          0.6173830128727879,
+          1.0912920281407423,
+          0.3934890031814575
+        ],
+        "cacheScale": 1.623445873913266,
+        "apiScale": 1.623445873913266,
+        "partCount": 1
+      }
+    ],
+    "rotations": [
+      [
+        0,
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "profileId": "pdf_Terran_profile_nova_stealth_mode",
+    "name": "Starcraft - Nova Stealth Mode",
+    "kind": "unit",
+    "authoredSizeMm": [
+      18.594146199999997,
+      55.73322355999999,
+      24.57857416
+    ],
+    "correctedSizeMm": [
+      18.594146199999997,
+      55.73322355999999,
+      24.57857416
+    ],
+    "scaleAdjustment": 1,
+    "portableParts": 0,
+    "sourceParts": [
+      {
+        "format": "obj",
+        "sourceSize": [
+          0.522895,
+          1.567301,
+          0.6911860000000001
+        ],
+        "cacheScale": 1.4,
+        "apiScale": 0.822833025,
+        "partCount": 1
+      }
+    ],
+    "rotations": [
+      [
+        0,
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "profileId": "pdf_Terran_profile_point_defense_drone",
+    "name": "Starcraft - Point Defense Drone",
+    "kind": "unit",
+    "authoredSizeMm": [
+      35.77648282641347,
+      30.55707300588656,
+      35.66493066051088
+    ],
+    "correctedSizeMm": [
+      35.77648282641347,
+      30.55707300588656,
+      35.66493066051088
+    ],
+    "scaleAdjustment": 1,
+    "portableParts": 0,
+    "sourceParts": [
+      {
+        "format": "obj",
+        "sourceSize": [
+          0.46950791000000003,
+          0.40101168,
+          0.46804397
+        ],
+        "cacheScale": 2.99999833,
+        "apiScale": 0.5281961047206714,
+        "partCount": 1
+      }
+    ],
+    "rotations": [
+      [
+        0,
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "profileId": "pdf_Terran_profile_raven",
+    "name": "Starcraft - Raven",
+    "kind": "unit",
+    "authoredSizeMm": [
+      76.39107352433784,
+      67.61279469485821,
+      97.95892027596852
+    ],
+    "correctedSizeMm": [
+      76.39107352433784,
+      67.61279469485821,
+      97.95892027596852
+    ],
+    "scaleAdjustment": 1,
+    "portableParts": 0,
+    "sourceParts": [
+      {
+        "format": "obj",
+        "sourceSize": [
+          1.879702,
+          1.6637009999999999,
+          2.410407
+        ],
+        "cacheScale": 1.59999967,
+        "apiScale": 1.446243901712134,
+        "partCount": 1
+      }
+    ],
+    "rotations": [
+      [
+        0,
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "profileId": "pdf_Terran_profile_raynor_s_raiders",
+    "name": "Starcraft - Raynor's Raiders",
+    "kind": "unit",
+    "authoredSizeMm": [
+      27.911530663999997,
+      37.267507126,
+      28.35629076
+    ],
+    "correctedSizeMm": [
+      27.911530663999997,
+      37.267507126,
+      28.35629076
+    ],
+    "scaleAdjustment": 1,
+    "portableParts": 0,
+    "sourceParts": [
+      {
+        "format": "obj",
+        "sourceSize": [
+          1.09887916,
+          1.4672246899999999,
+          1.1163894
+        ],
+        "cacheScale": 1,
+        "apiScale": 0.55020925875,
+        "partCount": 1
+      }
+    ],
+    "rotations": [
+      [
+        0,
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "profileId": "pdf_Terran_profile_sabotage_drone",
+    "name": "Starcraft - Sabotage Drone",
+    "kind": "unit",
+    "authoredSizeMm": [
+      32.73470829490459,
+      53.26141988600027,
+      33.228181974829525
+    ],
+    "correctedSizeMm": [
+      32.73470829490459,
+      53.26141988600027,
+      33.228181974829525
+    ],
+    "scaleAdjustment": 1,
+    "portableParts": 0,
+    "sourceParts": [
+      {
+        "format": "obj",
+        "sourceSize": [
+          1.120668,
+          1.823397,
+          1.137562
+        ],
+        "cacheScale": 1.14999986,
+        "apiScale": 0.7863398605216576,
+        "partCount": 1
+      }
+    ],
+    "rotations": [
+      [
+        0,
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "profileId": "pdf_Terran_profile_siege_tank",
+    "name": "Starcraft - Siege Tank",
+    "kind": "unit",
+    "authoredSizeMm": [
+      120.21585176999999,
+      72.87052101,
+      114.1441329
+    ],
+    "correctedSizeMm": [
+      120.21585176999999,
+      72.87052101,
+      114.1441329
+    ],
+    "scaleAdjustment": 1,
+    "portableParts": 0,
+    "sourceParts": [
+      {
+        "format": "obj",
+        "sourceSize": [
+          3.219665,
+          1.951645,
+          3.0570500000000003
+        ],
+        "cacheScale": 1.47,
+        "apiScale": 1.77484033125,
+        "partCount": 1
+      }
+    ],
+    "rotations": [
+      [
+        0,
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "profileId": "pdf_Terran_profile_spec_ops_marauder_marauder",
+    "name": "Starcraft - Spec Ops Marauder (Marauder)",
+    "kind": "unit",
+    "authoredSizeMm": [
+      55.87906527999999,
+      49.089528439999995,
+      52.89834987999999
+    ],
+    "correctedSizeMm": [
+      55.87906527999999,
+      49.089528439999995,
+      52.89834987999999
+    ],
+    "scaleAdjustment": 1,
+    "portableParts": 0,
+    "sourceParts": [
+      {
+        "format": "obj",
+        "sourceSize": [
+          1.2940960000000001,
+          1.1368580000000001,
+          1.225066
+        ],
+        "cacheScale": 1.7,
+        "apiScale": 0.8249862,
+        "partCount": 1
+      }
+    ],
+    "rotations": [
+      [
+        0,
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "profileId": "prof_marine",
+    "name": "Starcraft - Marines",
+    "kind": "unit",
+    "authoredSizeMm": [
+      22.023565935,
+      32.93459631,
+      36.903753345
+    ],
+    "correctedSizeMm": [
+      22.023565935,
+      32.93459631,
+      36.903753345
+    ],
+    "scaleAdjustment": 1,
+    "portableParts": 0,
+    "sourceParts": [
+      {
+        "format": "obj",
+        "sourceSize": [
+          0.502649,
+          0.7516740000000001,
+          0.842263
+        ],
+        "cacheScale": 1.725,
+        "apiScale": 0.544838878125,
+        "partCount": 1
+      }
+    ],
+    "rotations": [
+      [
+        0,
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "profileId": "pdf_Zerg_profile_bile_launcher",
+    "name": "Starcraft - Bile Launcher",
+    "kind": "unit",
+    "authoredSizeMm": [
+      94.6315297221079,
+      93.66315478021038,
+      94.62197932268091
+    ],
+    "correctedSizeMm": [
+      94.6315297221079,
+      93.66315478021038,
+      94.62197932268091
+    ],
+    "scaleAdjustment": 1,
+    "portableParts": 0,
+    "sourceParts": [
+      {
+        "format": "obj",
+        "sourceSize": [
+          3.725651,
+          3.687526,
+          3.725275
+        ],
+        "cacheScale": 0.99999994,
+        "apiScale": 1.3971190411728527,
+        "partCount": 1
+      }
+    ],
+    "rotations": [
+      [
+        0,
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "profileId": "pdf_Zerg_profile_corpsers_roach",
+    "name": "Starcraft - Corpsers (Roach)",
+    "kind": "unit",
+    "authoredSizeMm": [
+      40.53667302353702,
+      42.04633440078176,
+      58.4035651437179
+    ],
+    "correctedSizeMm": [
+      40.53667302353702,
+      42.04633440078176,
+      58.4035651437179
+    ],
+    "scaleAdjustment": 1,
+    "portableParts": 0,
+    "sourceParts": [
+      {
+        "format": "obj",
+        "sourceSize": [
+          1.100643,
+          1.141633,
+          1.5857610000000002
+        ],
+        "cacheScale": 1.44999969,
+        "apiScale": 0.862257359405284,
+        "partCount": 1
+      }
+    ],
+    "rotations": [
+      [
+        0,
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "profileId": "pdf_Zerg_profile_defiler",
+    "name": "Starcraft - Defiler",
+    "kind": "unit",
+    "authoredSizeMm": [
+      52.197762,
+      17.394529600000002,
+      92.23654400000001
+    ],
+    "correctedSizeMm": [
+      52.197762,
+      17.394529600000002,
+      92.23654400000001
+    ],
+    "scaleAdjustment": 1,
+    "portableParts": 0,
+    "sourceParts": [
+      {
+        "format": "obj",
+        "sourceSize": [
+          2.05503,
+          0.6848240000000001,
+          3.63136
+        ],
+        "cacheScale": 1,
+        "apiScale": 1.36176,
+        "partCount": 1
+      }
+    ],
+    "rotations": [
+      [
+        0,
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "profileId": "pdf_Zerg_profile_hydralisks",
+    "name": "Starcraft - Hydralisks",
+    "kind": "unit",
+    "authoredSizeMm": [
+      59.73967727997976,
+      59.583403809984276,
+      60.081878714277074
+    ],
+    "correctedSizeMm": [
+      59.73967727997976,
+      59.583403809984276,
+      60.081878714277074
+    ],
+    "scaleAdjustment": 1,
+    "portableParts": 0,
+    "sourceParts": [
+      {
+        "format": "obj",
+        "sourceSize": [
+          1.881565,
+          1.876643,
+          1.8923429999999999
+        ],
+        "cacheScale": 1.24999976,
+        "apiScale": 0.88703561093913,
+        "partCount": 1
+      }
+    ],
+    "rotations": [
+      [
+        0,
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "profileId": "pdf_Zerg_profile_kerrigan",
+    "name": "Starcraft - Kerrigan",
+    "kind": "unit",
+    "authoredSizeMm": [
+      104.0889714,
+      83.29419459999998,
+      64.52829359999998
+    ],
+    "correctedSizeMm": [
+      104.0889714,
+      83.29419459999998,
+      64.52829359999998
+    ],
+    "scaleAdjustment": 1,
+    "portableParts": 0,
+    "sourceParts": [
+      {
+        "format": "obj",
+        "sourceSize": [
+          4.097991,
+          3.279299,
+          2.5404839999999997
+        ],
+        "cacheScale": 1,
+        "apiScale": 1.5367466250000001,
+        "partCount": 1
+      }
+    ],
+    "rotations": [
+      [
+        0,
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "profileId": "pdf_Zerg_profile_kerrigan_swarm_raptors_zergling",
+    "name": "Starcraft - Kerrigan Swarm Raptors (Zergling)",
+    "kind": "unit",
+    "authoredSizeMm": [
+      24.109798102614697,
+      27.90108278232786,
+      49.766181640353324
+    ],
+    "correctedSizeMm": [
+      24.109798102614697,
+      27.90108278232786,
+      49.766181640353324
+    ],
+    "scaleAdjustment": 1,
+    "portableParts": 0,
+    "sourceParts": [
+      {
+        "format": "obj",
+        "sourceSize": [
+          0.791004,
+          0.91539,
+          1.632749
+        ],
+        "cacheScale": 1.19999981,
+        "apiScale": 0.7347369336666337,
+        "partCount": 1
+      }
+    ],
+    "rotations": [
+      [
+        0,
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "profileId": "pdf_Zerg_profile_omega_worm",
+    "name": "Starcraft - Omega Worm",
+    "kind": "unit",
+    "authoredSizeMm": [
+      226.74321635941618,
+      140.0000002560505,
+      164.7828113471948
+    ],
+    "correctedSizeMm": [
+      226.74321635941618,
+      140.0000002560505,
+      164.7828113471948
+    ],
+    "scaleAdjustment": 1,
+    "portableParts": 1,
+    "sourceParts": [
+      {
+        "format": "unity",
+        "sourceSize": [
+          3.86040997505188,
+          2.3835658952593803,
+          2.8055049180984497
+        ],
+        "cacheScale": 2.3124223436260314,
+        "apiScale": 2.3124223436260314,
+        "partCount": 1
+      }
+    ],
+    "rotations": [
+      [
+        0,
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "profileId": "pdf_Zerg_profile_queen",
+    "name": "Starcraft - Queen",
+    "kind": "unit",
+    "authoredSizeMm": [
+      84.4911278928749,
+      66.38899578137712,
+      93.32641920095136
+    ],
+    "correctedSizeMm": [
+      84.4911278928749,
+      66.38899578137712,
+      93.32641920095136
+    ],
+    "scaleAdjustment": 1,
+    "portableParts": 0,
+    "sourceParts": [
+      {
+        "format": "obj",
+        "sourceSize": [
+          3.008244,
+          2.363731,
+          3.322818
+        ],
+        "cacheScale": 1.1057688,
+        "apiScale": 1.3778506771794001,
+        "partCount": 1
+      }
+    ],
+    "rotations": [
+      [
+        0,
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "profileId": "pdf_Zerg_profile_raptors_zergling",
+    "name": "Starcraft - Raptors (Zergling)",
+    "kind": "unit",
+    "authoredSizeMm": [
+      28.57704216,
+      28.128589920000003,
+      51.93246408
+    ],
+    "correctedSizeMm": [
+      28.57704216,
+      28.128589920000003,
+      51.93246408
+    ],
+    "scaleAdjustment": 1,
+    "portableParts": 0,
+    "sourceParts": [
+      {
+        "format": "obj",
+        "sourceSize": [
+          0.937567,
+          0.9228540000000001,
+          1.703821
+        ],
+        "cacheScale": 1.2,
+        "apiScale": 0.76671945,
+        "partCount": 1
+      }
+    ],
+    "rotations": [
+      [
+        0,
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "profileId": "pdf_Zerg_profile_ravagers",
+    "name": "Starcraft - Ravagers",
+    "kind": "unit",
+    "authoredSizeMm": [
+      62.3714094860555,
+      63.31965957165593,
+      66.8731575280423
+    ],
+    "correctedSizeMm": [
+      62.3714094860555,
+      63.31965957165593,
+      66.8731575280423
+    ],
+    "scaleAdjustment": 1,
+    "portableParts": 0,
+    "sourceParts": [
+      {
+        "format": "obj",
+        "sourceSize": [
+          2.128159,
+          2.160514,
+          2.281762
+        ],
+        "cacheScale": 1.15384579,
+        "apiScale": 0.9873005540557427,
+        "partCount": 1
+      }
+    ],
+    "rotations": [
+      [
+        0,
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "profileId": "pdf_Zerg_profile_roaches",
+    "name": "Starcraft - Roaches",
+    "kind": "unit",
+    "authoredSizeMm": [
+      39.514272442119264,
+      38.34289454255183,
+      47.03149481498862
+    ],
+    "correctedSizeMm": [
+      39.514272442119264,
+      38.34289454255183,
+      47.03149481498862
+    ],
+    "scaleAdjustment": 1,
+    "portableParts": 0,
+    "sourceParts": [
+      {
+        "format": "obj",
+        "sourceSize": [
+          1.072883,
+          1.041078,
+          1.276989
+        ],
+        "cacheScale": 1.44999969,
+        "apiScale": 0.6943626203000288,
+        "partCount": 1
+      }
+    ],
+    "rotations": [
+      [
+        0,
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "profileId": "pdf_Zerg_profile_roachling",
+    "name": "Starcraft - Roachling",
+    "kind": "unit",
+    "authoredSizeMm": [
+      27.24438912728752,
+      20.187883339372277,
+      27.12915247594772
+    ],
+    "correctedSizeMm": [
+      27.24438912728752,
+      20.187883339372277,
+      27.12915247594772
+    ],
+    "scaleAdjustment": 1,
+    "portableParts": 0,
+    "sourceParts": [
+      {
+        "format": "obj",
+        "sourceSize": [
+          1.225844,
+          0.908341,
+          1.220659
+        ],
+        "cacheScale": 0.8750002,
+        "apiScale": 0.4022301544383,
+        "partCount": 1
+      }
+    ],
+    "rotations": [
+      [
+        0,
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "profileId": "pdf_Zerg_profile_swarmlings",
+    "name": "Starcraft - Swarmlings",
+    "kind": "unit",
+    "authoredSizeMm": [
+      21.677212170000004,
+      35.062828020000005,
+      45.299318850000006
+    ],
+    "correctedSizeMm": [
+      21.677212170000004,
+      35.062828020000005,
+      45.299318850000006
+    ],
+    "scaleAdjustment": 1,
+    "portableParts": 0,
+    "sourceParts": [
+      {
+        "format": "obj",
+        "sourceSize": [
+          0.632173,
+          1.022538,
+          1.321065
+        ],
+        "cacheScale": 1.35,
+        "apiScale": 0.66878915625,
+        "partCount": 1
+      }
+    ],
+    "rotations": [
+      [
+        0,
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "profileId": "pdf_Zerg_profile_vileling_zergling",
+    "name": "Starcraft - Vileling (Zergling)",
+    "kind": "unit",
+    "authoredSizeMm": [
+      21.571801354385936,
+      32.088508428453466,
+      43.0149809387797
+    ],
+    "correctedSizeMm": [
+      21.571801354385936,
+      32.088508428453466,
+      43.0149809387797
+    ],
+    "scaleAdjustment": 1,
+    "portableParts": 0,
+    "sourceParts": [
+      {
+        "format": "obj",
+        "sourceSize": [
+          0.6290990000000001,
+          0.935798,
+          1.2544469999999999
+        ],
+        "cacheScale": 1.34999979,
+        "apiScale": 0.6350636949622988,
+        "partCount": 1
+      }
+    ],
+    "rotations": [
+      [
+        0,
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "profileId": "pdf_Zerg_profile_viles_roach",
+    "name": "Starcraft - Viles (Roach)",
+    "kind": "unit",
+    "authoredSizeMm": [
+      67.06700263867718,
+      50.00000001610982,
+      54.263667497360544
+    ],
+    "correctedSizeMm": [
+      67.06700263867718,
+      50.00000001610982,
+      54.263667497360544
+    ],
+    "scaleAdjustment": 1,
+    "portableParts": 1,
+    "sourceParts": [
+      {
+        "format": "unity",
+        "sourceSize": [
+          1.3372140526771545,
+          0.9969239719212055,
+          1.0819350183010101
+        ],
+        "cacheScale": 1.9745777943814005,
+        "apiScale": 1.9745777943814005,
+        "partCount": 1
+      }
+    ],
+    "rotations": [
+      [
+        0,
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "profileId": "pdf_Zerg_profile_zagara",
+    "name": "Starcraft - Zagara",
+    "kind": "unit",
+    "authoredSizeMm": [
+      72.51553143753969,
+      69.91280648563297,
+      119.71051217796237
+    ],
+    "correctedSizeMm": [
+      72.51553143753969,
+      69.91280648563297,
+      119.71051217796237
+    ],
+    "scaleAdjustment": 1,
+    "portableParts": 0,
+    "sourceParts": [
+      {
+        "format": "obj",
+        "sourceSize": [
+          0.81569899,
+          0.78642195,
+          1.34657696
+        ],
+        "cacheScale": 3.49999475,
+        "apiScale": 1.7673796089266098,
+        "partCount": 1
+      }
+    ],
+    "rotations": [
+      [
+        0,
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "profileId": "pdf_Zerg_profile_zerglings",
+    "name": "Starcraft - Zerglings",
+    "kind": "unit",
+    "authoredSizeMm": [
+      24.908461740000007,
+      30.081142530000005,
+      47.06737983
+    ],
+    "correctedSizeMm": [
+      24.908461740000007,
+      30.081142530000005,
+      47.06737983
+    ],
+    "scaleAdjustment": 1,
+    "portableParts": 0,
+    "sourceParts": [
+      {
+        "format": "obj",
+        "sourceSize": [
+          0.726406,
+          0.8772570000000001,
+          1.372627
+        ],
+        "cacheScale": 1.35,
+        "apiScale": 0.6948924187500001,
+        "partCount": 1
+      }
+    ],
+    "rotations": [
+      [
+        0,
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "profileId": "sc_terrain_d903fea321acfebe",
+    "name": "Starcraft - Terrain - Head Statue - acfebe",
+    "kind": "terrain",
+    "authoredSizeMm": [
+      94.962236940526,
+      44.05414923128656,
+      101.12437988740672
+    ],
+    "correctedSizeMm": [
+      94.962236940526,
+      44.05414923128656,
+      101.12437988740672
+    ],
+    "scaleAdjustment": 1,
+    "portableParts": 0,
+    "sourceParts": [
+      {
+        "format": "obj",
+        "sourceSize": [
+          4.223224999999999,
+          1.959206,
+          4.497272000000001
+        ],
+        "cacheScale": 0.8852644,
+        "apiScale": 1.4929780495188,
+        "partCount": 1
+      }
+    ],
+    "rotations": [
+      [
+        0,
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "profileId": "sc_terrain_1cffe4ed683895d1",
+    "name": "Starcraft - Terrain - Wall Set 2 - 3895d1",
+    "kind": "terrain",
+    "authoredSizeMm": [
+      232.6501316,
+      132.20065,
+      59.68428500000001
+    ],
+    "correctedSizeMm": [
+      232.6501316,
+      132.20065,
+      59.68428500000001
+    ],
+    "scaleAdjustment": 1,
+    "portableParts": 0,
+    "sourceParts": [
+      {
+        "format": "obj",
+        "sourceSize": [
+          9.159454,
+          5.20475,
+          2.349775
+        ],
+        "cacheScale": 1,
+        "apiScale": 3.43479525,
+        "partCount": 1
+      }
+    ],
+    "rotations": [
+      [
+        0,
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "profileId": "sc_terrain_2e5381d1d3c2f1b7",
+    "name": "Starcraft - Terrain - Wall Set 3 - c2f1b7",
+    "kind": "terrain",
+    "authoredSizeMm": [
+      130.37360260000003,
+      101.0163842,
+      60.4701102
+    ],
+    "correctedSizeMm": [
+      130.37360260000003,
+      101.0163842,
+      60.4701102
+    ],
+    "scaleAdjustment": 1,
+    "portableParts": 0,
+    "sourceParts": [
+      {
+        "format": "obj",
+        "sourceSize": [
+          5.1328190000000005,
+          3.977023,
+          2.380713
+        ],
+        "cacheScale": 1,
+        "apiScale": 1.9248071250000003,
+        "partCount": 1
+      }
+    ],
+    "rotations": [
+      [
+        0,
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "profileId": "sc_terrain_0e597f350f0c8124",
+    "name": "Starcraft - Terrain - grass - 0c8124",
+    "kind": "terrain",
+    "authoredSizeMm": [
+      71.7462878,
+      51.309854200000004,
+      37.328475
+    ],
+    "correctedSizeMm": [
+      71.7462878,
+      51.309854200000004,
+      37.328475
+    ],
+    "scaleAdjustment": 1,
+    "portableParts": 0,
+    "sourceParts": [
+      {
+        "format": "obj",
+        "sourceSize": [
+          2.824657,
+          2.020073,
+          1.4696250000000002
+        ],
+        "cacheScale": 1,
+        "apiScale": 1.059246375,
+        "partCount": 1
+      }
+    ],
+    "rotations": [
+      [
+        0,
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "profileId": "sc_terrain_5395598da3627dc3",
+    "name": "Starcraft - Terrain - Temple Obelisk - 627dc3",
+    "kind": "terrain",
+    "authoredSizeMm": [
+      54.2346168345626,
+      96.97127032498072,
+      54.2346168345626
+    ],
+    "correctedSizeMm": [
+      54.2346168345626,
+      96.97127032498072,
+      54.2346168345626
+    ],
+    "scaleAdjustment": 1,
+    "portableParts": 0,
+    "sourceParts": [
+      {
+        "format": "obj",
+        "sourceSize": [
+          4.270438,
+          2.073404,
+          4.270438
+        ],
+        "cacheScale": 0.5000005,
+        "apiScale": 0.5000005,
+        "partCount": 2
+      },
+      {
+        "format": "obj",
+        "sourceSize": [
+          1.670456,
+          7.537617,
+          1.7314729999999998
+        ],
+        "cacheScale": 0.5000004699999699,
+        "apiScale": 0.5000004699999699,
+        "partCount": 2
+      }
+    ],
+    "rotations": [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0.671403348,
+        359.906158,
+        359.789581
+      ]
+    ]
+  },
+  {
+    "profileId": "sc_terrain_e8d245d869f43c5b",
+    "name": "Starcraft - Terrain - Wall Set 4 - f43c5b",
+    "kind": "terrain",
+    "authoredSizeMm": [
+      187.6056782180942,
+      101.0798842,
+      142.7693560616632
+    ],
+    "correctedSizeMm": [
+      187.6056782180942,
+      101.0798842,
+      142.7693560616632
+    ],
+    "scaleAdjustment": 1,
+    "portableParts": 0,
+    "sourceParts": [
+      {
+        "format": "obj",
+        "sourceSize": [
+          8.017935999999999,
+          3.979523,
+          3.618684
+        ],
+        "cacheScale": 1,
+        "apiScale": 3.0067259999999996,
+        "partCount": 1
+      }
+    ],
+    "rotations": [
+      [
+        0,
+        25,
+        0
+      ]
+    ]
+  },
+  {
+    "profileId": "sc_terrain_4b5400ce5539b63f",
+    "name": "Starcraft - Terrain - Wall Set 5 - 39b63f",
+    "kind": "terrain",
+    "authoredSizeMm": [
+      187.6056782180942,
+      101.0798842,
+      142.7693560616632
+    ],
+    "correctedSizeMm": [
+      187.6056782180942,
+      101.0798842,
+      142.7693560616632
+    ],
+    "scaleAdjustment": 1,
+    "portableParts": 0,
+    "sourceParts": [
+      {
+        "format": "obj",
+        "sourceSize": [
+          8.017935999999999,
+          3.979523,
+          3.618684
+        ],
+        "cacheScale": 1,
+        "apiScale": 3.0067259999999996,
+        "partCount": 1
+      }
+    ],
+    "rotations": [
+      [
+        0,
+        -25,
+        0
+      ]
+    ]
+  },
+  {
+    "profileId": "sc_terrain_0e9238ef444f6364",
+    "name": "Starcraft - Terrain - Protoss Banner - 4f6364",
+    "kind": "terrain",
+    "authoredSizeMm": [
+      46.974805091061484,
+      95.87302281480265,
+      22.65930243808032
+    ],
+    "correctedSizeMm": [
+      46.974805091061484,
+      95.87302281480265,
+      22.65930243808032
+    ],
+    "scaleAdjustment": 1,
+    "portableParts": 0,
+    "sourceParts": [
+      {
+        "format": "obj",
+        "sourceSize": [
+          1.50613,
+          2.5921399999999997,
+          0.453353
+        ],
+        "cacheScale": 1.0999999,
+        "apiScale": 1.0999999,
+        "partCount": 2
+      },
+      {
+        "format": "obj",
+        "sourceSize": [
+          1.679046,
+          2.8110109999999997,
+          0.810466
+        ],
+        "cacheScale": 1.100000427999952,
+        "apiScale": 1.100000427999952,
+        "partCount": 2
+      }
+    ],
+    "rotations": [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        359.19455,
+        359.924438,
+        0.8646406
+      ]
+    ]
+  },
+  {
+    "profileId": "sc_terrain_f910561ff3ef2272",
+    "name": "Starcraft - Terrain - Wall Set 6 - ef2272",
+    "kind": "terrain",
+    "authoredSizeMm": [
+      84.05345140000001,
+      101.0798842,
+      27.816251199999996
+    ],
+    "correctedSizeMm": [
+      84.05345140000001,
+      101.0798842,
+      27.816251199999996
+    ],
+    "scaleAdjustment": 1,
+    "portableParts": 0,
+    "sourceParts": [
+      {
+        "format": "obj",
+        "sourceSize": [
+          3.309191,
+          3.979523,
+          1.0951279999999999
+        ],
+        "cacheScale": 1,
+        "apiScale": 1.4923211250000001,
+        "partCount": 1
+      }
+    ],
+    "rotations": [
+      [
+        0,
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "profileId": "sc_terrain_f305a277f53c823b",
+    "name": "Starcraft - Terrain - Wall Set 1 - 3c823b",
+    "kind": "terrain",
+    "authoredSizeMm": [
+      198.73831220000002,
+      132.34581100000003,
+      33.778952000000004
+    ],
+    "correctedSizeMm": [
+      198.73831220000002,
+      132.34581100000003,
+      33.778952000000004
+    ],
+    "scaleAdjustment": 1,
+    "portableParts": 0,
+    "sourceParts": [
+      {
+        "format": "obj",
+        "sourceSize": [
+          7.824343000000001,
+          5.210465,
+          1.32988
+        ],
+        "cacheScale": 1,
+        "apiScale": 2.9341286250000005,
+        "partCount": 1
+      }
+    ],
+    "rotations": [
+      [
+        0,
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "profileId": "sc_terrain_696320bc52444def",
+    "name": "Starcraft - Terrain - Protoss Banner - 444def",
+    "kind": "terrain",
+    "authoredSizeMm": [
+      46.974800541334254,
+      95.8730284758491,
+      22.659299888637115
+    ],
+    "correctedSizeMm": [
+      46.974800541334254,
+      95.8730284758491,
+      22.659299888637115
+    ],
+    "scaleAdjustment": 1,
+    "portableParts": 0,
+    "sourceParts": [
+      {
+        "format": "obj",
+        "sourceSize": [
+          1.50613,
+          2.5921399999999997,
+          0.453353
+        ],
+        "cacheScale": 1.0999999,
+        "apiScale": 1.0999999,
+        "partCount": 2
+      },
+      {
+        "format": "obj",
+        "sourceSize": [
+          1.679046,
+          2.8110109999999997,
+          0.810466
+        ],
+        "cacheScale": 1.100000295999964,
+        "apiScale": 1.100000295999964,
+        "partCount": 2
+      }
+    ],
+    "rotations": [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        359.19455,
+        359.924438,
+        0.8646572
+      ]
+    ]
+  },
+  {
+    "profileId": "sc_terrain_8a9da51123d91b9c",
+    "name": "Starcraft - Terrain - Vespene Geyser - d91b9c",
+    "kind": "terrain",
+    "authoredSizeMm": [
+      86.33402088,
+      38.33548848,
+      85.44638232
+    ],
+    "correctedSizeMm": [
+      86.33402088,
+      38.33548848,
+      85.44638232
+    ],
+    "scaleAdjustment": 1,
+    "portableParts": 0,
+    "sourceParts": [
+      {
+        "format": "obj",
+        "sourceSize": [
+          2.8324809999999996,
+          1.257726,
+          2.803359
+        ],
+        "cacheScale": 1.2,
+        "apiScale": 1.27461645,
+        "partCount": 1
+      }
+    ],
+    "rotations": [
+      [
+        0,
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "profileId": "sc_terrain_342caed58291ae73",
+    "name": "Starcraft - Terrain - Statue Shard - 91ae73",
+    "kind": "terrain",
+    "authoredSizeMm": [
+      105.22766701010617,
+      31.0648533904646,
+      124.99392625030936
+    ],
+    "correctedSizeMm": [
+      105.22766701010617,
+      31.0648533904646,
+      124.99392625030936
+    ],
+    "scaleAdjustment": 1,
+    "portableParts": 0,
+    "sourceParts": [
+      {
+        "format": "obj",
+        "sourceSize": [
+          7.496228,
+          2.173455,
+          7.035970000000001
+        ],
+        "cacheScale": 0.255104423,
+        "apiScale": 0.255104423,
+        "partCount": 2
+      },
+      {
+        "format": "obj",
+        "sourceSize": [
+          7.496228,
+          2.173455,
+          7.035970000000001
+        ],
+        "cacheScale": 0.55326281946971,
+        "apiScale": 0.55326281946971,
+        "partCount": 2
+      }
+    ],
+    "rotations": [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0.455157846,
+        180.019363,
+        358.916718
+      ]
+    ]
+  },
+  {
+    "profileId": "sc_terrain_e45c33c511633ae2",
+    "name": "Starcraft - Terrain - Head Statue - 633ae2",
+    "kind": "terrain",
+    "authoredSizeMm": [
+      91.91348157092042,
+      42.63979413236015,
+      97.87778938877668
+    ],
+    "correctedSizeMm": [
+      91.91348157092042,
+      42.63979413236015,
+      97.87778938877668
+    ],
+    "scaleAdjustment": 1,
+    "portableParts": 0,
+    "sourceParts": [
+      {
+        "format": "obj",
+        "sourceSize": [
+          4.223224999999999,
+          1.959206,
+          4.497272000000001
+        ],
+        "cacheScale": 0.856843054,
+        "apiScale": 1.4450461031807584,
+        "partCount": 1
+      }
+    ],
+    "rotations": [
+      [
+        0,
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "profileId": "sc_terrain_f2dd0d048a087d53",
+    "name": "Starcraft - Terrain - High Ground - 087d53",
+    "kind": "terrain",
+    "authoredSizeMm": [
+      431.6668281217727,
+      69.8500158243383,
+      203.23159857693696
+    ],
+    "correctedSizeMm": [
+      431.6668281217727,
+      69.8500158243383,
+      203.23159857693696
+    ],
+    "scaleAdjustment": 1,
+    "portableParts": 0,
+    "sourceParts": [
+      {
+        "format": "obj",
+        "sourceSize": [
+          9.5,
+          2.697598,
+          3.830734
+        ],
+        "cacheScale": 1,
+        "apiScale": 1,
+        "partCount": 2
+      },
+      {
+        "format": "obj",
+        "sourceSize": [
+          11.25,
+          2.75,
+          8
+        ],
+        "cacheScale": 1,
+        "apiScale": 1,
+        "partCount": 2
+      }
+    ],
+    "rotations": [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        -0.000003634571,
+        359.992828,
+        -0.00000126076475
+      ]
+    ]
+  },
+  {
+    "profileId": "sc_terrain_442da683d2d26342",
+    "name": "Starcraft - Terrain - Protoss Banner - d26342",
+    "kind": "terrain",
+    "authoredSizeMm": [
+      46.974805091061484,
+      95.87302281480265,
+      22.65930243808032
+    ],
+    "correctedSizeMm": [
+      46.974805091061484,
+      95.87302281480265,
+      22.65930243808032
+    ],
+    "scaleAdjustment": 1,
+    "portableParts": 0,
+    "sourceParts": [
+      {
+        "format": "obj",
+        "sourceSize": [
+          1.50613,
+          2.5921399999999997,
+          0.453353
+        ],
+        "cacheScale": 1.0999999,
+        "apiScale": 1.0999999,
+        "partCount": 2
+      },
+      {
+        "format": "obj",
+        "sourceSize": [
+          1.679046,
+          2.8110109999999997,
+          0.810466
+        ],
+        "cacheScale": 1.100000427999952,
+        "apiScale": 1.100000427999952,
+        "partCount": 2
+      }
+    ],
+    "rotations": [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        359.19455,
+        359.924438,
+        0.8646406
+      ]
+    ]
+  },
+  {
+    "profileId": "sc_terrain_677b1df2f3ce2914",
+    "name": "Starcraft - Terrain - Protoss Banner - ce2914",
+    "kind": "terrain",
+    "authoredSizeMm": [
+      46.974805091061484,
+      95.87302190395874,
+      22.65930243808032
+    ],
+    "correctedSizeMm": [
+      46.974805091061484,
+      95.87302190395874,
+      22.65930243808032
+    ],
+    "scaleAdjustment": 1,
+    "portableParts": 0,
+    "sourceParts": [
+      {
+        "format": "obj",
+        "sourceSize": [
+          1.50613,
+          2.5921399999999997,
+          0.453353
+        ],
+        "cacheScale": 1.0999999,
+        "apiScale": 1.0999999,
+        "partCount": 2
+      },
+      {
+        "format": "obj",
+        "sourceSize": [
+          1.679046,
+          2.8110109999999997,
+          0.810466
+        ],
+        "cacheScale": 1.100000427999952,
+        "apiScale": 1.100000427999952,
+        "partCount": 2
+      }
+    ],
+    "rotations": [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        359.19455,
+        359.924438,
+        0.8646406
+      ]
+    ]
+  }
+]

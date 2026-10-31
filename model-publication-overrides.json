@@ -1,18 +1,5 @@
 {
   "prof_marine": {
-    "existingSkinId": 12999,
-    "parts": [
-      {
-        "transforms": {
-          "scale": 0.5905511811023622,
-          "rotationX": 0,
-          "rotationY": 0,
-          "rotationZ": 0,
-          "positionX": 0,
-          "positionY": 0,
-          "positionZ": 0
-        }
-      }
-    ]
+    "existingSkinId": 12999
   }
 }

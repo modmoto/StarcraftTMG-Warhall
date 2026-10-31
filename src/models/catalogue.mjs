@@ -58,7 +58,7 @@ export function skinRequest(entry, { defaultScale = false, thumbnailDataUrl } = 
   const parts = entry.parts.map(part => ({
     model_url: part.modelUrl,
     texture_url: part.textureUrl ?? null,
-    transforms: defaultScale ? null : part.transforms,
+    transforms: defaultScale && !entry.calibration ? null : part.transforms,
   }));
   const body = { skin_name: entry.name, is_public: 1, thumbnail_data_url: thumbnailDataUrl };
   if (parts.length > 1) {
@@ -158,7 +158,7 @@ export async function publishCatalogue(
   };
   for (const entry of catalogue.entries) {
     const fingerprint = entryFingerprint(
-      defaultScale
+      defaultScale && !entry.calibration
         ? { ...entry, parts: entry.parts?.map(part => ({ ...part, transforms: null })) }
         : entry,
     );

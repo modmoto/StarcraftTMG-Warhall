@@ -1,6 +1,7 @@
 import { parseArgs } from 'node:util';
 import { readFile, writeFile, mkdir, rename } from 'node:fs/promises';
 import path from 'node:path';
+import { verifyHostedAssets } from '../src/models/hosted-assets.mjs';
 import { loadThumbnail } from '../src/models/thumbnails.mjs';
 import { publicationTarget } from '../src/models/servers.mjs';
 import { promptLogin } from '../src/models/login.mjs';
@@ -90,6 +91,7 @@ if (!values.apply) {
     ),
   );
 } else {
+  await verifyHostedAssets(catalogue);
   if (!values['accept-publication-terms']) {
     throw new Error(
       'Review Warhall’s public-skin rights, hosting licence and takedown terms in Model Creator, then pass --accept-publication-terms if you can accept them.',
