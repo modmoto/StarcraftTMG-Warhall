@@ -34,7 +34,10 @@ test('thumbnail files become embedded image data in the API payload', async () =
       dataUrl,
     );
     await assert.rejects(
-      loadThumbnail({ profileId: 'missing', name: 'Missing' }, { directory, root: directory }),
+      loadThumbnail(
+        { profileId: 'missing', name: 'Missing' },
+        { directory, root: directory, generate: false },
+      ),
       /missing thumbnail/,
     );
   } finally {

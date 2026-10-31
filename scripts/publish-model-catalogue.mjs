@@ -47,6 +47,7 @@ for (const entry of catalogue.entries) {
       await loadThumbnail(entry, {
         directory: thumbnailDirectory,
         root: projectRoot,
+        defaultScale: values['default-scale'],
       }),
     );
   } catch (error) {

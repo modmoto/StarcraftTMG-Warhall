@@ -1,5 +1,6 @@
-import { readFile } from 'node:fs/promises';
+import { readFile, writeFile, mkdir } from 'node:fs/promises';
 import path from 'node:path';
+import { generateThumbnail, renderFingerprint } from './render-thumbnail.mjs';
 
 const maximumBytes = 5 * 1024 * 1024;
 
@@ -16,7 +17,10 @@ export function thumbnailDataUrl(bytes) {
   return `data:${mime};base64,${bytes.toString('base64')}`;
 }
 
-export async function loadThumbnail(entry, { directory, root }) {
+export async function loadThumbnail(
+  entry,
+  { directory, root, generate = true, defaultScale = true },
+) {
   const filenames = entry.thumbnailFile
     ? [path.resolve(root, entry.thumbnailFile)]
     : ['png', 'jpg', 'jpeg', 'webp'].map(extension =>
@@ -24,10 +28,29 @@ export async function loadThumbnail(entry, { directory, root }) {
       );
   for (const filename of filenames) {
     try {
-      return thumbnailDataUrl(await readFile(filename));
+      const bytes = await readFile(filename);
+      try {
+        const metadata = JSON.parse(await readFile(`${filename}.render.json`, 'utf8'));
+        if (generate && metadata.fingerprint !== renderFingerprint(entry, defaultScale)) break;
+      } catch (error) {
+        if (error.code !== 'ENOENT') throw error;
+      }
+      return thumbnailDataUrl(bytes);
     } catch (error) {
       if (error.code !== 'ENOENT') throw new Error(`${entry.name}: ${error.message}`);
     }
+  }
+  if (generate) {
+    const bytes = await generateThumbnail(entry, { directory, defaultScale });
+    if (entry.thumbnailFile) {
+      await mkdir(path.dirname(filenames[0]), { recursive: true });
+      await writeFile(filenames[0], bytes);
+      await writeFile(
+        `${filenames[0]}.render.json`,
+        JSON.stringify({ fingerprint: renderFingerprint(entry, defaultScale) }),
+      );
+    }
+    return thumbnailDataUrl(bytes);
   }
   throw new Error(
     `${entry.name}: missing thumbnail. Save a model snapshot as ${filenames[0]} or set thumbnailFile in model-catalogue.json`,

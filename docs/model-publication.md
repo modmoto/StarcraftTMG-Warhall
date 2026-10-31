@@ -70,7 +70,7 @@ The first batch omitted thumbnails. New skin creation now requires a prepared sn
 
 ## Thumbnail images
 
-Before creating skins, render actual model snapshots (preferably 512 × 512 PNG) and save them under `.cache/model-thumbnails/<profileId>.png`. JPEG and WebP are also accepted. The upload command sends these bytes as `thumbnail_data_url` for both single-part and multipart skins. The publisher does not automatically render 3D assets yet.
+Missing previews render automatically from the selected textured geometry as 512 × 512 PNG images under `.cache/model-thumbnails/<profileId>.png`. JPEG and WebP are also accepted. The upload command sends these bytes as `thumbnail_data_url` for both single-part and multipart skins. OBJ previews render in Node. Unity asset bundles use the included Python decoder for prefab transforms, skinning and materials. The renderer also resolves secondary TTS material bundles from `tts-model-sources.json` when required.
 
 Use `--thumbnails-dir PATH` for another folder, or add `thumbnailFile` to an entry in `model-catalogue.json`:
 
@@ -78,13 +78,13 @@ Use `--thumbnails-dir PATH` for another folder, or add `thumbnailFile` to an ent
 { "profileId": "prof_marine", "thumbnailFile": "previews/prof_marine.png" }
 ```
 
-This example shows the additional field, not a complete catalogue entry. A corresponding `thumbnailFile` override in `model-publication-overrides.json` survives catalogue regeneration. PNG, JPEG and WebP signatures are recognized; images must be nonempty and at most 5 MiB. Missing images are listed in dry-run output. Apply checks them for every selected model/terrain assembly before asking for credentials or making changes. There is no fallback to publishing a null thumbnail.
+This example shows the additional field, not a complete catalogue entry. A corresponding `thumbnailFile` override in `model-publication-overrides.json` survives catalogue regeneration. PNG, JPEG and WebP signatures are recognized; images must be nonempty and at most 5 MiB. Missing images are generated before login. Rendering failures are listed in dry-run output. Apply checks them for every selected model/terrain assembly before asking for credentials or making changes. There is no fallback to publishing a null thumbnail.
 
 Native marker skins need no snapshot. Uploaded model/terrain assemblies need snapshot files even when previously published, so image changes and deleted server data can be reconciled. Thumbnail paths do not invalidate saved model fingerprints. This avoids duplicate creation, but does not backfill previews for earlier uploads. Visual verification and a supported existing-thumbnail update operation remain separate.
 
 ## Fresh replacement
 
-After preparing the model snapshots, use:
+The command generates missing snapshots automatically. To force fresh skin uploads, use:
 
 ```sh
 npm run models:publish -- --apply --login --default-scale --replace --accept-publication-terms
@@ -95,3 +95,11 @@ The importer reads the owned server catalogue to reconcile checkpoint IDs. It re
 Each replacement creates the new skin with its snapshot, assigns it with override mode, then deletes the old owned skin through `/DeleteMySkin`. Native marker references are reused. Other users' skins are never deleted; an old skin referenced by another game/profile is retained and reported. A failed assignment leaves the old skin intact; failed deletion resumes cleanup without recreating the replacement. An incomplete replacement batch is resumed on retry; invoking `--replace` after completion intentionally starts a new full replacement. Keep the progress file.
 
 The supported way to refresh a screenshot here is replacing the owned skin, rather than an unverified thumbnail-update endpoint. This changes the skin ID and can affect saved games referencing the old ID. The replacement behaviour is tested with a simulated API; live replacement has not yet been verified.
+
+## Automatic thumbnail generation
+
+`npm run models:thumbnails` generates or validates all cached previews without logging in or publishing. Use `-- --profile PROFILE_ID` for one model, `-- --force` to regenerate images, or `-- --use-transforms` to include configured scales in preview geometry. The publisher generates missing previews automatically with its selected scale mode.
+
+Generated images have a `.render.json` sidecar fingerprint. Source/transform or renderer changes regenerate those images; manually supplied images without metadata are preserved. Network source files and decoded bundle geometry are cached under `.cache/thumbnail-assets`. The renderer uses real mesh geometry, UV textures, triangle depth testing and automatic framing. It produces a catalogue image, not a guarantee of matching Unity's lighting or final in-game rendering.
+
+Node and the cross-platform sharp dependency handle OBJ geometry, texture decoding and rasterization. Unity bundles additionally require Python 3.10+ available as `python3` on macOS or `python` on Windows. Set `WARHALL_PYTHON` to select another interpreter. On first use, the script installs pinned UnityPy and NumPy into the ignored asset cache. This helper only decodes downloaded model assets; it does not read Warhall credentials or application caches.
