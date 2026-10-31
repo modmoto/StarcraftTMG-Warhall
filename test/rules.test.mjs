@@ -174,7 +174,9 @@ test('profiles render phase sections and native weapon tables with independent h
   assert.ok(!('HP' in rifle.Attributes));
   assert.deepEqual(rifle.Children, []);
   for (const items of Object.values(data).filter(Array.isArray)) {
-    for (const item of items.filter(item => item.Type === 'Statline' && item.Id.endsWith('_table'))) {
+    for (const item of items.filter(
+      item => item.Type === 'Statline' && item.Id.endsWith('_table'),
+    )) {
       assert.deepEqual(item.Children, [], `Weapon row must not repeat its equipment: ${item.Id}`);
     }
   }

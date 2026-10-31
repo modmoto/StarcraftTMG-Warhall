@@ -34,11 +34,11 @@ test(
     const refs = data['Terran/profiles.json']
       .find(p => p.Id === 'prof_marine')
       .Children.map(c => c.Id);
-    const tableRefs = data['Terran/statlines.json']
-      .filter(row => refs.includes(row.Id) && row.Attributes.RoA)
-      .flatMap(row => row.Children.map(child => child.Id));
-    const weapons = data['Terran/equipment.json'].filter(w => tableRefs.includes(w.Id));
+    const weapons = data['Terran/statlines.json'].filter(
+      row => refs.includes(row.Id) && row.Attributes.RoA,
+    );
     assert.deepEqual(weapons.map(w => w.Name).sort(), ['C-14 Rifle', 'Strike']);
+    assert.ok(weapons.every(weapon => weapon.Children.length === 0));
     const zealot = data['Protoss/statlines.json'].find(s => s.Name === 'Zealot');
     assert.equal(zealot.Attributes.HP, '4');
     assert.equal(zealot.Attributes.Shd, '3');

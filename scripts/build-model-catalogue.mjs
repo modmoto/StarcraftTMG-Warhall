@@ -35,6 +35,18 @@ for (const marker of nativeMarkers) {
     existingSkinId: marker.skinId,
   });
 }
+const overrides = await read('model-publication-overrides.json');
+for (const [profileId, override] of Object.entries(overrides)) {
+  const entry = entries.find(entry => entry.profileId === profileId);
+  if (!entry) throw new Error(`Unknown published profile: ${profileId}`);
+  if (override.parts && override.parts.length !== entry.parts?.length) {
+    throw new Error(`Published part count differs: ${profileId}`);
+  }
+  if (override.parts) {
+    entry.parts = entry.parts.map((part, index) => ({ ...part, ...override.parts[index] }));
+  }
+  if (override.existingSkinId) entry.existingSkinId = override.existingSkinId;
+}
 const catalogue = validateCatalogue({
   schemaVersion: 1,
   serverUrl: 'https://apptest.warhall.eu',

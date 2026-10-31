@@ -565,7 +565,7 @@
           "modelUrl": "https://steamusercontent-a.akamaihd.net/ugc/13676960899368881933/1D1EBC0A58B38976237FF4B2831A599D5CC76425/",
           "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/18136473720657446110/CF8F3711C364DF5FE09DEFBACAD950DC703351AB/",
           "transforms": {
-            "scale": 1.725,
+            "scale": 0.5905511811023622,
             "rotationX": 0,
             "rotationY": 0,
             "rotationZ": 0,
@@ -574,7 +574,8 @@
             "positionZ": 0
           }
         }
-      ]
+      ],
+      "existingSkinId": 12999
     },
     {
       "profileId": "pdf_Zerg_profile_bile_launcher",
