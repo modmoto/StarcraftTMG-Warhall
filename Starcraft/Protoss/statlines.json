@@ -8,8 +8,8 @@
       "T": "All",
       "RoA": "2",
       "Hit": "3+",
-      "Surge": "Light (D3+1)",
-      "Damage": "1",
+      "Surge": "Light\n(D3+1)",
+      "D": "1",
       "Keywords": "ANTI-EVADE\n(1)"
     },
     "Children": []
@@ -24,7 +24,7 @@
       "RoA": "1",
       "Hit": "4+",
       "Surge": "-",
-      "Damage": "1",
+      "D": "1",
       "Keywords": "-"
     },
     "Children": []
@@ -38,8 +38,8 @@
       "T": "G",
       "RoA": "2",
       "Hit": "2+",
-      "Surge": "Armoured (D3)",
-      "Damage": "3",
+      "Surge": "Armoured\n(D3)",
+      "D": "3",
       "Keywords": "-"
     },
     "Children": []
@@ -53,8 +53,8 @@
       "T": "G",
       "RoA": "6",
       "Hit": "2+",
-      "Surge": "Light (D3+1)",
-      "Damage": "1",
+      "Surge": "Light\n(D3+1)",
+      "D": "1",
       "Keywords": "-"
     },
     "Children": []
@@ -68,8 +68,8 @@
       "T": "All",
       "RoA": "1",
       "Hit": "3+",
-      "Surge": "Light (D3)",
-      "Damage": "2",
+      "Surge": "Light\n(D3)",
+      "D": "2",
       "Keywords": "INSTANT"
     },
     "Children": []
@@ -84,7 +84,7 @@
       "RoA": "1",
       "Hit": "4+",
       "Surge": "-",
-      "Damage": "1",
+      "D": "1",
       "Keywords": "-"
     },
     "Children": []
@@ -98,8 +98,8 @@
       "T": "G",
       "RoA": "4",
       "Hit": "3+",
-      "Surge": "Armoured (D3)",
-      "Damage": "2",
+      "Surge": "Armoured\n(D3)",
+      "D": "2",
       "Keywords": "CONCENTRATED\nFIRE (1),\nLONG RANGE\n(16)"
     },
     "Children": []
@@ -113,8 +113,8 @@
       "T": "G",
       "RoA": "4",
       "Hit": "3+",
-      "Surge": "Armoured (D3)",
-      "Damage": "2",
+      "Surge": "Armoured\n(D3)",
+      "D": "2",
       "Keywords": "CONCENTRATED\nFIRE (1),\nLONG RANGE\n(16),\nSIDEARM"
     },
     "Children": []
@@ -129,7 +129,7 @@
       "RoA": "3",
       "Hit": "3+",
       "Surge": "-",
-      "Damage": "1",
+      "D": "1",
       "Keywords": "-"
     },
     "Children": []
@@ -143,8 +143,8 @@
       "T": "All",
       "RoA": "3",
       "Hit": "3+",
-      "Surge": "Light (D3+1)",
-      "Damage": "1",
+      "Surge": "Light\n(D3+1)",
+      "D": "1",
       "Keywords": "ANTI-EVADE\n(1),\nPINPOINT"
     },
     "Children": []
@@ -159,7 +159,7 @@
       "RoA": "1",
       "Hit": "5+",
       "Surge": "-",
-      "Damage": "1",
+      "D": "1",
       "Keywords": "-"
     },
     "Children": []
@@ -173,8 +173,8 @@
       "T": "G",
       "RoA": "4",
       "Hit": "3+",
-      "Surge": "Light (D3)",
-      "Damage": "1",
+      "Surge": "Light\n(D3)",
+      "D": "1",
       "Keywords": "-"
     },
     "Children": []
@@ -189,7 +189,7 @@
       "RoA": "2",
       "Hit": "2+",
       "Surge": "-",
-      "Damage": "1",
+      "D": "1",
       "Keywords": "INSTANT"
     },
     "Children": []
@@ -204,7 +204,7 @@
       "RoA": "2",
       "Hit": "3+",
       "Surge": "-",
-      "Damage": "1",
+      "D": "1",
       "Keywords": "-"
     },
     "Children": []
@@ -218,8 +218,8 @@
       "T": "All",
       "RoA": "4",
       "Hit": "3+",
-      "Surge": "Armoured (D3)",
-      "Damage": "2",
+      "Surge": "Armoured\n(D3)",
+      "D": "2",
       "Keywords": "-"
     },
     "Children": []
@@ -234,7 +234,7 @@
       "RoA": "2",
       "Hit": "5+",
       "Surge": "-",
-      "Damage": "1",
+      "D": "1",
       "Keywords": "-"
     },
     "Children": []
@@ -248,8 +248,8 @@
       "T": "All",
       "RoA": "6",
       "Hit": "3+",
-      "Surge": "Armoured (D3)",
-      "Damage": "1",
+      "Surge": "Armoured\n(D3)",
+      "D": "1",
       "Keywords": "INSTANT"
     },
     "Children": []
@@ -264,7 +264,7 @@
       "RoA": "6",
       "Hit": "4+",
       "Surge": "-",
-      "Damage": "1",
+      "D": "1",
       "Keywords": "-"
     },
     "Children": []
@@ -278,8 +278,8 @@
       "T": "All",
       "RoA": "2",
       "Hit": "3+",
-      "Surge": "Light (D3)",
-      "Damage": "2",
+      "Surge": "Light\n(D3)",
+      "D": "2",
       "Keywords": "INSTANT"
     },
     "Children": []
@@ -294,7 +294,7 @@
       "RoA": "1",
       "Hit": "4+",
       "Surge": "-",
-      "Damage": "1",
+      "D": "1",
       "Keywords": "-"
     },
     "Children": []
@@ -308,8 +308,8 @@
       "T": "G",
       "RoA": "4",
       "Hit": "3+",
-      "Surge": "Light (D3)",
-      "Damage": "1",
+      "Surge": "Light\n(D3)",
+      "D": "1",
       "Keywords": "-"
     },
     "Children": []
@@ -323,8 +323,8 @@
       "T": "G",
       "RoA": "4",
       "Hit": "3+",
-      "Surge": "L&A (D3)",
-      "Damage": "2",
+      "Surge": "L&A\n(D3)",
+      "D": "2",
       "Keywords": "INSTANT"
     },
     "Children": []

@@ -166,8 +166,8 @@ test('profiles render phase sections and native weapon tables with independent h
     T: 'All',
     RoA: '2',
     Hit: '3+',
-    Surge: 'Light (D3)',
-    Damage: '1',
+    Surge: 'Light\n(D3)',
+    D: '1',
     Keywords: '-',
   });
   assert.ok(!('HP' in rifle.Attributes));
@@ -223,15 +223,15 @@ test('weapon tables abbreviate targets and combine surge type with its dice', as
     T: 'G',
     RoA: '2',
     Hit: '3+',
-    Surge: 'Light (D3+1)',
-    Damage: '1',
+    Surge: 'Light\n(D3+1)',
+    D: '1',
     Keywords: '-',
   });
   assert.equal(weaponAttributes({ ...base, Tgt: 'Flying', Surge: 'Light, Armoured' }).T, 'A');
-  assert.equal(weaponAttributes({ ...base, Surge: 'Light, Armoured' }).Surge, 'L&A (D3+1)');
+  assert.equal(weaponAttributes({ ...base, Surge: 'Light, Armoured' }).Surge, 'L&A\n(D3+1)');
   assert.equal(
     weaponAttributes({ ...base, Surge: 'Armoured', 'S.Die': 'D6' }).Surge,
-    'Armoured (D6)',
+    'Armoured\n(D6)',
   );
   assert.equal(weaponAttributes({ ...base, Surge: '-', 'S.Die': '-' }).Surge, '-');
 });

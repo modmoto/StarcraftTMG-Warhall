@@ -9,7 +9,7 @@
       "RoA": "6",
       "Hit": "3+",
       "Surge": "-",
-      "Damage": "1",
+      "D": "1",
       "Keywords": "PINPOINT"
     },
     "Children": []
@@ -24,7 +24,7 @@
       "RoA": "9",
       "Hit": "4+",
       "Surge": "-",
-      "Damage": "1",
+      "D": "1",
       "Keywords": "LONG RANGE\n(18\")"
     },
     "Children": []
@@ -38,8 +38,8 @@
       "T": "G",
       "RoA": "6",
       "Hit": "3+",
-      "Surge": "Light (D3)",
-      "Damage": "1",
+      "Surge": "Light\n(D3)",
+      "D": "1",
       "Keywords": "PINPOINT,\nSIDEARM"
     },
     "Children": []
@@ -53,8 +53,8 @@
       "T": "A",
       "RoA": "6",
       "Hit": "3+",
-      "Surge": "Light (D3)",
-      "Damage": "1",
+      "Surge": "Light\n(D3)",
+      "D": "1",
       "Keywords": "ANTI-EVADE\n(1),\nSIDEARM"
     },
     "Children": []
@@ -69,7 +69,7 @@
       "RoA": "4",
       "Hit": "5+",
       "Surge": "-",
-      "Damage": "1",
+      "D": "1",
       "Keywords": "-"
     },
     "Children": []
@@ -83,8 +83,8 @@
       "T": "All",
       "RoA": "3",
       "Hit": "3+",
-      "Surge": "Armoured (D3)",
-      "Damage": "1",
+      "Surge": "Armoured\n(D3)",
+      "D": "1",
       "Keywords": "BULKY,\nPIERCE\nArmoured (3)"
     },
     "Children": []
@@ -99,7 +99,7 @@
       "RoA": "2",
       "Hit": "3+",
       "Surge": "-",
-      "Damage": "2",
+      "D": "2",
       "Keywords": "ANTI-EVADE\n(2),\nSIDEARM,\nPINPOINT"
     },
     "Children": []
@@ -113,8 +113,8 @@
       "T": "G",
       "RoA": "2",
       "Hit": "4+",
-      "Surge": "Light (D3)",
-      "Damage": "1",
+      "Surge": "Light\n(D3)",
+      "D": "1",
       "Keywords": "-"
     },
     "Children": []
@@ -128,8 +128,8 @@
       "T": "G",
       "RoA": "3",
       "Hit": "3+",
-      "Surge": "Armoured (D3)",
-      "Damage": "1",
+      "Surge": "Armoured\n(D3)",
+      "D": "1",
       "Keywords": "PIERCE\nArmoured (2)"
     },
     "Children": []
@@ -144,7 +144,7 @@
       "RoA": "2",
       "Hit": "4+",
       "Surge": "-",
-      "Damage": "1",
+      "D": "1",
       "Keywords": "-"
     },
     "Children": []
@@ -158,8 +158,8 @@
       "T": "All",
       "RoA": "2",
       "Hit": "3+",
-      "Surge": "Light (D3)",
-      "Damage": "1",
+      "Surge": "Light\n(D3)",
+      "D": "1",
       "Keywords": "-"
     },
     "Children": []
@@ -174,7 +174,7 @@
       "RoA": "1",
       "Hit": "5+",
       "Surge": "-",
-      "Damage": "1",
+      "D": "1",
       "Keywords": "-"
     },
     "Children": []
@@ -189,7 +189,7 @@
       "RoA": "1",
       "Hit": "5+",
       "Surge": "-",
-      "Damage": "1",
+      "D": "1",
       "Keywords": "-"
     },
     "Children": []
@@ -203,8 +203,8 @@
       "T": "G",
       "RoA": "3",
       "Hit": "4+",
-      "Surge": "Light (D3)",
-      "Damage": "2",
+      "Surge": "Light\n(D3)",
+      "D": "2",
       "Keywords": "ANTI-EVADE\n(1),\nBURST FIRE\n4\" (3)"
     },
     "Children": []
@@ -218,8 +218,8 @@
       "T": "G",
       "RoA": "8",
       "Hit": "3+",
-      "Surge": "L&A (D6)",
-      "Damage": "1",
+      "Surge": "L&A\n(D6)",
+      "D": "1",
       "Keywords": "-"
     },
     "Children": []
@@ -234,7 +234,7 @@
       "RoA": "4",
       "Hit": "3+",
       "Surge": "-",
-      "Damage": "2",
+      "D": "2",
       "Keywords": "CRITICAL HIT\n(2),\nLONG RANGE\n(18\")"
     },
     "Children": []
@@ -249,7 +249,7 @@
       "RoA": "3",
       "Hit": "5+",
       "Surge": "-",
-      "Damage": "1",
+      "D": "1",
       "Keywords": "-"
     },
     "Children": []
@@ -264,7 +264,7 @@
       "RoA": "4",
       "Hit": "3+",
       "Surge": "-",
-      "Damage": "1",
+      "D": "1",
       "Keywords": "-"
     },
     "Children": []
@@ -278,8 +278,8 @@
       "T": "All",
       "RoA": "2",
       "Hit": "3+",
-      "Surge": "Light (D3)",
-      "Damage": "1",
+      "Surge": "Light\n(D3)",
+      "D": "1",
       "Keywords": "-"
     },
     "Children": []
@@ -294,7 +294,7 @@
       "RoA": "2",
       "Hit": "5+",
       "Surge": "-",
-      "Damage": "1",
+      "D": "1",
       "Keywords": "-"
     },
     "Children": []
@@ -308,8 +308,8 @@
       "T": "G",
       "RoA": "8",
       "Hit": "3+",
-      "Surge": "Armoured (D6)",
-      "Damage": "1",
+      "Surge": "Armoured\n(D6)",
+      "D": "1",
       "Keywords": "PIERCE\nArmoured (2)"
     },
     "Children": []
@@ -323,8 +323,8 @@
       "T": "G",
       "RoA": "BT+4",
       "Hit": "4+",
-      "Surge": "L&A (BT)",
-      "Damage": "1",
+      "Surge": "L&A\n(BT)",
+      "D": "1",
       "Keywords": "SIEGE MODE\nStatus"
     },
     "Children": []
@@ -339,7 +339,7 @@
       "RoA": "2",
       "Hit": "2+",
       "Surge": "-",
-      "Damage": "1",
+      "D": "1",
       "Keywords": "-"
     },
     "Children": []
@@ -353,8 +353,8 @@
       "T": "G",
       "RoA": "3",
       "Hit": "3+",
-      "Surge": "Armoured (D3)",
-      "Damage": "1",
+      "Surge": "Armoured\n(D3)",
+      "D": "1",
       "Keywords": "LONG RANGE\n(16\"),\nPIERCE\nArmoured (2)"
     },
     "Children": []
@@ -369,7 +369,7 @@
       "RoA": "3",
       "Hit": "4+",
       "Surge": "-",
-      "Damage": "1",
+      "D": "1",
       "Keywords": "-"
     },
     "Children": []

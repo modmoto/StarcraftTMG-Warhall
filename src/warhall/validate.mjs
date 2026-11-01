@@ -71,7 +71,7 @@ export function validateData(data) {
         !/^(?:All|G|A)$/.test(item.Attributes.T) ||
         !/^(?:\d+|BT(?:\+\d+)?)$/.test(item.Attributes.RoA) ||
         !/^(?:\d\+|-)$/.test(item.Attributes.Hit) ||
-        !/^\d+$/.test(item.Attributes.Damage)
+        !/^\d+$/.test(item.Attributes.D)
       ) {
         throw new Error(`Invalid weapon table values: ${item.Id}`);
       }

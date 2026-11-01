@@ -4,7 +4,7 @@ export const weaponColumns = {
   RoA: 'RoA',
   Hit: 'Hit',
   Surge: 'Surge',
-  Damage: 'Dmg',
+  D: 'Dmg',
   Keywords: 'Keyword',
 };
 
@@ -37,8 +37,7 @@ export function weaponAttributes(attributes) {
   const armoured = /\barmou?red\b/i.test(values.Surge);
   const type = light && armoured ? 'L&A' : light ? 'Light' : armoured ? 'Armoured' : values.Surge;
   const dice = attributes['S.Die'];
-  values.Surge = type === '-' ? '-' : dice && dice !== '-' ? `${type} (${dice})` : type;
-  values.Surge = wrapTableText(values.Surge, 14);
+  values.Surge = type === '-' ? '-' : dice && dice !== '-' ? `${type}\n(${dice})` : type;
   values.Keywords = values.Keywords.split(/,\s*/)
     .map((keyword, index, list) => wrapTableText(keyword + (index < list.length - 1 ? ',' : '')))
     .join('\n');
