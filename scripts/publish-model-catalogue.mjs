@@ -14,6 +14,8 @@ const { values } = parseArgs({
     apply: { type: 'boolean', default: false },
     replace: { type: 'boolean', default: false },
     login: { type: 'boolean', default: false },
+    username: { type: 'string' },
+    'manual-login': { type: 'boolean', default: false },
     'default-scale': { type: 'boolean', default: false },
     catalogue: { type: 'string', default: 'model-catalogue.json' },
     state: { type: 'string' },
@@ -105,7 +107,12 @@ if (!values.apply) {
       'Review Warhall’s public-skin rights, hosting licence and takedown terms in Model Creator, then pass --accept-publication-terms if you can accept them.',
     );
   }
-  const cookie = values.login ? await promptLogin(catalogue.serverUrl) : process.env.WARHALL_COOKIE;
+  const cookie = values.login
+    ? await promptLogin(catalogue.serverUrl, {
+        username: values.username,
+        manual: values['manual-login'],
+      })
+    : process.env.WARHALL_COOKIE;
   if (!cookie)
     throw new Error(
       'Set WARHALL_COOKIE to your own authenticated Warhall session cookie header. It is never saved or logged.',

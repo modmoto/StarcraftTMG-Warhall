@@ -240,3 +240,7 @@ Weapon profile tables use `RNG`, `T`, `RoA`, `Hit`, `Surge`, `Damage` and `Keywo
 Release 23 shortens the weapon damage heading to `D` and always places surge dice on a second line, for example `Light` followed by `(D3+1)`. This avoids the horizontal clipping seen with single-line surge cells.
 
 Release 24 removes parentheses from the second surge line: `Light` above `D3+1`, or `L&A` above the dice.
+
+### Local publishing authentication
+
+Warhall logins default to `modmoto`. Run `npm run auth:setup` once in your terminal to save the Warhall password in macOS Keychain and approve GitHub browser sign-in for this repo's Git helper. Afterwards the assistant can push and publish with `--login` without printing or repeatedly asking for passwords. This uses ordinary Keychain access, not a guaranteed Touch ID prompt per operation. See [local authentication and credential management](docs/local-authentication.md).

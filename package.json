@@ -19,6 +19,9 @@
     "models:catalogue": "node scripts/build-model-catalogue.mjs",
     "models:publish": "node scripts/publish-model-catalogue.mjs",
     "models:thumbnails": "node scripts/generate-model-thumbnails.mjs",
+    "auth:setup": "node scripts/setup-local-auth.mjs",
+    "auth:github": "node scripts/setup-github-auth.mjs",
+    "models:credentials": "node scripts/manage-model-credentials.mjs",
     "models:repair": "node scripts/repair-model-transforms.mjs"
   },
   "engines": {

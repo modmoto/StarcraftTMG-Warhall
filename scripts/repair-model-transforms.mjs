@@ -11,6 +11,8 @@ const { values } = parseArgs({
     server: { type: 'string', default: 'test' },
     profile: { type: 'string' },
     login: { type: 'boolean', default: false },
+    username: { type: 'string' },
+    'manual-login': { type: 'boolean', default: false },
     apply: { type: 'boolean', default: false },
   },
 });
@@ -36,7 +38,12 @@ if (!values.apply) {
     ),
   );
 } else {
-  const cookie = values.login ? await promptLogin(catalogue.serverUrl) : process.env.WARHALL_COOKIE;
+  const cookie = values.login
+    ? await promptLogin(catalogue.serverUrl, {
+        username: values.username,
+        manual: values['manual-login'],
+      })
+    : process.env.WARHALL_COOKIE;
   if (!cookie) throw new Error('Use --login or explicitly supply WARHALL_COOKIE');
   const request = async (endpoint, body) => {
     const response = await fetch(new URL(endpoint, catalogue.serverUrl), {

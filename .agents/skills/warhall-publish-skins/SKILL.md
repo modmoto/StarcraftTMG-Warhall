@@ -18,13 +18,13 @@ Read `docs/model-publication.md`, `model-catalogue.json`, and the publisher's cu
 
 ## Authenticate and publish
 
-The browser login is not a Node session. Use an explicitly supplied `WARHALL_COOKIE`, or have the user run the interactive terminal login. Do not collect secrets in chat or read browser cookies/cache/auth storage.
+The browser login is not a Node session. `--login` uses the explicitly enrolled macOS Keychain entry when available, otherwise a hidden terminal password prompt. Username defaults to `modmoto`; `--username` overrides it. Read `docs/local-authentication.md`. Use an explicitly supplied `WARHALL_COOKIE` only when the user chooses that route. Do not collect secrets in chat or read browser cookies/cache/auth storage.
 
 ```sh
 npm run models:publish -- --apply --login --accept-publication-terms
 ```
 
-`--login` prompts locally for username/email and a hidden password for the selected target. It follows the website's Firebase password sign-in and `/sessionLogin` flow. Credentials and session cookies stay in memory. If MFA, CAPTCHA, denied access or an interactive challenge blocks login, stop and hand off the required authentication action rather than bypassing it.
+`--login` prompts locally for username/email and a hidden password for the selected target. It follows the website's Firebase password sign-in and `/sessionLogin` flow. Session cookies stay in memory. Passwords stay in memory during login and are stored in macOS Keychain only after the user explicitly enrolls them with `npm run models:credentials`. If MFA, CAPTCHA, denied access or an interactive challenge blocks login, stop and hand off the required authentication action rather than bypassing it.
 
 Publication requires Starcraft administrator access and agreement to Warhall's public-content terms. A command flag is not evidence that the human accepted them. Check existing session authorization; ask at the actual acceptance step only if acceptance is not already authorized. Do not infer asset ownership from their availability in TTS or GitHub.
 
@@ -111,3 +111,7 @@ Run `terrain:update`, `models:catalogue`, `terrain:review` and local checks, ins
 ## Mission markers still display swords
 
 Check `.cache/model-publication.json` for `sc_mission_*` entries. IDs 6201–6203 mean the native sword references were assigned, not that the new ring geometry was uploaded. `kind: marker` is separate from terrain; use the marker-only publication command. Release 25 removes hard-coded sword SkinId values from WDS marker records so profile-based shared assignments can resolve the new visuals. Retain `replacesNativeSkinId` only in the publication catalogue to permit overriding the old assignment without deleting shared native assets. Never claim a successful marker replacement from prepared previews or the old `assigned: true` native checkpoints. Verify returned custom skin IDs and fresh client-spawned markers after catalogue refresh.
+
+## Agent push and upload authentication
+
+The user authorized locally saved credentials so the assistant can push and upload without collecting secrets in chat. One-time enrollment is `npm run models:credentials` in the user's own terminal; GitHub approval is `npm run auth:github`. Confirm only non-secret status and publish results. Never execute password-printing Keychain commands or `gh auth token` as tool calls. Stored Warhall passwords are read only inside the uploader's private subprocess and login path; no credential stdout is logged. Keychain access denial aborts. No Touch ID-per-upload guarantee is implemented. Test/prod entries remain isolated. After enrollment, authorized publishing can use `--login` noninteractively and Git can use its configured helper.

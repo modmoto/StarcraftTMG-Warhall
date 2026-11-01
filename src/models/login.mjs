@@ -1,5 +1,5 @@
 import { servers } from './servers.mjs';
-import { createInterface } from 'node:readline/promises';
+import { defaultUsername, readSavedPassword } from './keychain.mjs';
 
 export async function loginWarhall(serverUrl, { fetcher = fetch, email, password }) {
   const server = new URL(serverUrl);
@@ -64,11 +64,19 @@ export async function loginWarhall(serverUrl, { fetcher = fetch, email, password
   return cookie;
 }
 
-export async function promptLogin(serverUrl) {
-  if (!process.stdin.isTTY) throw new Error('--login requires an interactive terminal');
-  const input = createInterface({ input: process.stdin, output: process.stdout });
-  const email = await input.question(`Warhall ${new URL(serverUrl).hostname} username or email: `);
-  input.close();
+export async function promptLogin(
+  serverUrl,
+  { username = defaultUsername(), manual = false } = {},
+) {
+  if (!manual) {
+    const saved = await readSavedPassword(serverUrl, username);
+    if (saved !== null) return loginWarhall(serverUrl, { email: username, password: saved });
+  }
+  if (!process.stdin.isTTY)
+    throw new Error(
+      'No saved credential. Run npm run models:credentials in your terminal, or use --login in an interactive terminal.',
+    );
+  process.stdout.write(`Warhall ${new URL(serverUrl).hostname}: ${username}\n`);
   const password = await new Promise((resolve, reject) => {
     let value = '';
     process.stdout.write('Password (hidden): ');
@@ -98,5 +106,5 @@ export async function promptLogin(serverUrl) {
     };
     process.stdin.on('data', read);
   });
-  return loginWarhall(serverUrl, { email: email.trim(), password });
+  return loginWarhall(serverUrl, { email: username, password });
 }
