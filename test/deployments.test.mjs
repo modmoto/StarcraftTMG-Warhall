@@ -47,10 +47,7 @@ test('deployment alone places existing native markers at exact centimeter coordi
     Z: 0,
     IsToken: false,
   });
-  assert.deepEqual(
-    markerTokens().map(t => t.SkinId),
-    [6201, 6202, 6203],
-  );
+  assert.ok(markerTokens().every(marker => !('SkinId' in marker)));
   assert.ok(output.deploymentTerrains[0].Items.every(t => !t.Name.includes('zone')));
 });
 test('L-shaped zones have no internal lines or duplicate overlap edges', () => {

@@ -8,11 +8,10 @@ export const nativeMarkers = [
 
 export function markerTokens() {
   return [
-    ...nativeMarkers.map(({ color, skinId }) => ({
+    ...nativeMarkers.map(({ color }) => ({
       Id: `sc_mission_${color}`,
       Name: `Mission marker - ${color}`,
       Type: 'Token',
-      SkinId: skinId,
       Description: `${color[0].toUpperCase() + color.slice(1)} mission marker. Mission-marker affinity: red 1/3, blue 2/4, green neutral 5. 32 mm marker; distances measure from the base edge. The decorative control ring extends 3 inches from that edge and has no separate selection footprint. Activation and control are manual.`,
     })),
   ];

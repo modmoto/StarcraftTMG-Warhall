@@ -9,6 +9,10 @@ test('markers measure 32 mm while the visual ring extends three inches from thei
     assert.equal(marker.Width, 3.2);
     assert.equal(marker.Length, 3.2);
     assert.equal(marker.Shape, 1);
+    assert.ok(
+      !('SkinId' in marker),
+      'Shared marker skins must resolve by profile instead of a pinned sword ID',
+    );
   }
   assert.equal(markerDiameterMm, 32);
   assert.equal(controlOuterRadiusMm, 92.2);

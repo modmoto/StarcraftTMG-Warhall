@@ -13,3 +13,9 @@ npm run models:publish -- --kind marker --apply --login --replace --accept-publi
 ```
 
 Default target is Warhall Test. Native skins 6201–6203 remain intact; the publisher overrides their Starcraft profile assignments with the new custom skins. No authenticated publication has been performed for this change. Release 19 uses shared deployment overlay skins as described in `shared-deployments.md`; no custom DeploymentDB registration is required.
+
+## Sword-token regression (release 25)
+
+The original marker publication checkpoint still referenced native Excalibur skins 6201–6203. New ring GLBs must be created and assigned through `--kind marker`; uploading only `--kind terrain` does not include them. Generated marker terrain records no longer pin the native sword `SkinId`. Shared visuals resolve through the stable `sc_mission_red`, `sc_mission_blue` and `sc_mission_green` profiles. Native IDs remain only as protected replacement metadata for the publisher, never deletion targets.
+
+After successful marker publication, push/update release 25, refresh the shared catalogue and spawn a fresh deployment. Existing room objects can retain the previous skin. A version bump alone does not upload the three shared skins.
