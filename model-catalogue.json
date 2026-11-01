@@ -2432,6 +2432,262 @@
           }
         }
       ]
+    },
+    {
+      "profileId": "sc_deployment_16231390",
+      "name": "Starcraft - Deployment - ACROPOLIS",
+      "kind": "deployment",
+      "calibration": "deployment-centimeters-v1",
+      "parts": [
+        {
+          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/e1d6edc29c795fd01002a853b51197353c670802b4fb5d58177001634e29d3ea.glb",
+          "textureUrl": null,
+          "hostedAsset": true,
+          "transforms": {
+            "scale": 0.39370078740157477,
+            "positionX": 0,
+            "positionY": 0,
+            "positionZ": 0,
+            "rotationX": 0,
+            "rotationY": 0,
+            "rotationZ": 0
+          },
+          "previewGeometryFile": "model-assets/e1d6edc29c795fd01002a853b51197353c670802b4fb5d58177001634e29d3ea.glb.preview.json",
+          "previewTransforms": {
+            "scale": 1,
+            "positionX": 0,
+            "positionY": 0,
+            "positionZ": 0,
+            "rotationX": 0,
+            "rotationY": 0,
+            "rotationZ": 0
+          }
+        }
+      ]
+    },
+    {
+      "profileId": "sc_deployment_16130426",
+      "name": "Starcraft - Deployment - BREACH",
+      "kind": "deployment",
+      "calibration": "deployment-centimeters-v1",
+      "parts": [
+        {
+          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/d99a39f81ce6e651c619a148c54ead791596e17b583525a6b9f7f94f46de0f6d.glb",
+          "textureUrl": null,
+          "hostedAsset": true,
+          "transforms": {
+            "scale": 0.39370078740157477,
+            "positionX": 0,
+            "positionY": 0,
+            "positionZ": 0,
+            "rotationX": 0,
+            "rotationY": 0,
+            "rotationZ": 0
+          },
+          "previewGeometryFile": "model-assets/d99a39f81ce6e651c619a148c54ead791596e17b583525a6b9f7f94f46de0f6d.glb.preview.json",
+          "previewTransforms": {
+            "scale": 1,
+            "positionX": 0,
+            "positionY": 0,
+            "positionZ": 0,
+            "rotationX": 0,
+            "rotationY": 0,
+            "rotationZ": 0
+          }
+        }
+      ]
+    },
+    {
+      "profileId": "sc_deployment_5379036",
+      "name": "Starcraft - Deployment - GAUNTLET",
+      "kind": "deployment",
+      "calibration": "deployment-centimeters-v1",
+      "parts": [
+        {
+          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/b0bb73aefe441c2dba129c3d6c990ac5a51dcce4fabf3b9bfa81133b042a1cf7.glb",
+          "textureUrl": null,
+          "hostedAsset": true,
+          "transforms": {
+            "scale": 0.39370078740157477,
+            "positionX": 0,
+            "positionY": 0,
+            "positionZ": 0,
+            "rotationX": 0,
+            "rotationY": 0,
+            "rotationZ": 0
+          },
+          "previewGeometryFile": "model-assets/b0bb73aefe441c2dba129c3d6c990ac5a51dcce4fabf3b9bfa81133b042a1cf7.glb.preview.json",
+          "previewTransforms": {
+            "scale": 1,
+            "positionX": 0,
+            "positionY": 0,
+            "positionZ": 0,
+            "rotationX": 0,
+            "rotationY": 0,
+            "rotationZ": 0
+          }
+        }
+      ]
+    },
+    {
+      "profileId": "sc_deployment_16426918",
+      "name": "Starcraft - Deployment - MEETING ENGAGEMENT",
+      "kind": "deployment",
+      "calibration": "deployment-centimeters-v1",
+      "parts": [
+        {
+          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/a6b8c5785e0b2010b10cf39080f89e0bd4db262904d3701d273a6369bc89f42f.glb",
+          "textureUrl": null,
+          "hostedAsset": true,
+          "transforms": {
+            "scale": 0.39370078740157477,
+            "positionX": 0,
+            "positionY": 0,
+            "positionZ": 0,
+            "rotationX": 0,
+            "rotationY": 0,
+            "rotationZ": 0
+          },
+          "previewGeometryFile": "model-assets/a6b8c5785e0b2010b10cf39080f89e0bd4db262904d3701d273a6369bc89f42f.glb.preview.json",
+          "previewTransforms": {
+            "scale": 1,
+            "positionX": 0,
+            "positionY": 0,
+            "positionZ": 0,
+            "rotationX": 0,
+            "rotationY": 0,
+            "rotationZ": 0
+          }
+        }
+      ]
+    },
+    {
+      "profileId": "sc_deployment_5995631",
+      "name": "Starcraft - Deployment - ONE BRIDGE TOO CLOSE",
+      "kind": "deployment",
+      "calibration": "deployment-centimeters-v1",
+      "parts": [
+        {
+          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/7d2d820080ef61b0dea6f0b9773bec68c9f8fe88915574d3217915b9f2341bb5.glb",
+          "textureUrl": null,
+          "hostedAsset": true,
+          "transforms": {
+            "scale": 0.39370078740157477,
+            "positionX": 0,
+            "positionY": 0,
+            "positionZ": 0,
+            "rotationX": 0,
+            "rotationY": 0,
+            "rotationZ": 0
+          },
+          "previewGeometryFile": "model-assets/7d2d820080ef61b0dea6f0b9773bec68c9f8fe88915574d3217915b9f2341bb5.glb.preview.json",
+          "previewTransforms": {
+            "scale": 1,
+            "positionX": 0,
+            "positionY": 0,
+            "positionZ": 0,
+            "rotationX": 0,
+            "rotationY": 0,
+            "rotationZ": 0
+          }
+        }
+      ]
+    },
+    {
+      "profileId": "sc_deployment_4030768",
+      "name": "Starcraft - Deployment - PROVING GROUNDS",
+      "kind": "deployment",
+      "calibration": "deployment-centimeters-v1",
+      "parts": [
+        {
+          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/f95ce05bfec3b1517594918c9a96b4b2485a8a2df6f871e164fd31e136eba81e.glb",
+          "textureUrl": null,
+          "hostedAsset": true,
+          "transforms": {
+            "scale": 0.39370078740157477,
+            "positionX": 0,
+            "positionY": 0,
+            "positionZ": 0,
+            "rotationX": 0,
+            "rotationY": 0,
+            "rotationZ": 0
+          },
+          "previewGeometryFile": "model-assets/f95ce05bfec3b1517594918c9a96b4b2485a8a2df6f871e164fd31e136eba81e.glb.preview.json",
+          "previewTransforms": {
+            "scale": 1,
+            "positionX": 0,
+            "positionY": 0,
+            "positionZ": 0,
+            "rotationX": 0,
+            "rotationY": 0,
+            "rotationZ": 0
+          }
+        }
+      ]
+    },
+    {
+      "profileId": "sc_deployment_14025690",
+      "name": "Starcraft - Deployment - TYPHOON",
+      "kind": "deployment",
+      "calibration": "deployment-centimeters-v1",
+      "parts": [
+        {
+          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/036afc9c741a2ee5abf18b7358b6bd15ce68505cc7564f96a7400a973b6a6dc1.glb",
+          "textureUrl": null,
+          "hostedAsset": true,
+          "transforms": {
+            "scale": 0.39370078740157477,
+            "positionX": 0,
+            "positionY": 0,
+            "positionZ": 0,
+            "rotationX": 0,
+            "rotationY": 0,
+            "rotationZ": 0
+          },
+          "previewGeometryFile": "model-assets/036afc9c741a2ee5abf18b7358b6bd15ce68505cc7564f96a7400a973b6a6dc1.glb.preview.json",
+          "previewTransforms": {
+            "scale": 1,
+            "positionX": 0,
+            "positionY": 0,
+            "positionZ": 0,
+            "rotationX": 0,
+            "rotationY": 0,
+            "rotationZ": 0
+          }
+        }
+      ]
+    },
+    {
+      "profileId": "sc_deployment_8634166",
+      "name": "Starcraft - Deployment - 3-INCH GRID (54x36)",
+      "kind": "deployment",
+      "calibration": "deployment-centimeters-v1",
+      "parts": [
+        {
+          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/343885e769af34fe52e56c666cd910c099e228f165da239b22ec6ba4e02d2f9d.glb",
+          "textureUrl": null,
+          "hostedAsset": true,
+          "transforms": {
+            "scale": 0.39370078740157477,
+            "positionX": 0,
+            "positionY": 0,
+            "positionZ": 0,
+            "rotationX": 0,
+            "rotationY": 0,
+            "rotationZ": 0
+          },
+          "previewGeometryFile": "model-assets/343885e769af34fe52e56c666cd910c099e228f165da239b22ec6ba4e02d2f9d.glb.preview.json",
+          "previewTransforms": {
+            "scale": 1,
+            "positionX": 0,
+            "positionY": 0,
+            "positionZ": 0,
+            "rotationX": 0,
+            "rotationY": 0,
+            "rotationZ": 0
+          }
+        }
+      ]
     }
   ]
 }

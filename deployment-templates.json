@@ -1,6 +1,7 @@
 [
   {
     "deploymentID": 16231390,
+    "deploymentName": "ACROPOLIS",
     "rotationAxis": 0,
     "centerlineAxis": "0",
     "lines": [
@@ -264,6 +265,7 @@
   },
   {
     "deploymentID": 16130426,
+    "deploymentName": "BREACH",
     "rotationAxis": 0,
     "centerlineAxis": "0",
     "lines": [
@@ -527,6 +529,7 @@
   },
   {
     "deploymentID": 5379036,
+    "deploymentName": "GAUNTLET",
     "rotationAxis": 0,
     "centerlineAxis": "0",
     "lines": [
@@ -886,6 +889,7 @@
   },
   {
     "deploymentID": 16426918,
+    "deploymentName": "MEETING ENGAGEMENT",
     "rotationAxis": 0,
     "centerlineAxis": "0",
     "lines": [
@@ -1053,6 +1057,7 @@
   },
   {
     "deploymentID": 5995631,
+    "deploymentName": "ONE BRIDGE TOO CLOSE",
     "rotationAxis": 0,
     "centerlineAxis": "0",
     "lines": [
@@ -1428,6 +1433,7 @@
   },
   {
     "deploymentID": 4030768,
+    "deploymentName": "PROVING GROUNDS",
     "rotationAxis": 0,
     "centerlineAxis": "0",
     "lines": [
@@ -1739,6 +1745,7 @@
   },
   {
     "deploymentID": 14025690,
+    "deploymentName": "TYPHOON",
     "rotationAxis": 0,
     "centerlineAxis": "0",
     "lines": [
@@ -1970,6 +1977,7 @@
   },
   {
     "deploymentID": 8634166,
+    "deploymentName": "3-INCH GRID (54x36)",
     "rotationAxis": 0,
     "centerlineAxis": "0",
     "lines": [

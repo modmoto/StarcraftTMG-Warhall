@@ -94,4 +94,10 @@ Push generated `model-assets/` files and version 18 WDS data before publishing. 
 npm run models:publish -- --kind marker --apply --login --replace --accept-publication-terms
 ```
 
-`--kind unit|terrain|marker` limits the batch. Test marker entries explicitly replace the profile assignments for native IDs 6201–6203; those shared native assets must never be deleted. Production does not reuse test-local native IDs. Preserve the existing profile IDs and deployment placements. Shared deployment-template registration remains a separate prerequisite documented in `docs/shared-deployments.md`.
+`--kind unit|terrain|marker|deployment` limits the batch. Test marker entries explicitly replace the profile assignments for native IDs 6201–6203; those shared native assets must never be deleted. Production does not reuse test-local native IDs. Preserve the existing profile IDs and deployment placements. Release 19 uses built-in template 12 plus shared deployment overlays; see `docs/shared-deployments.md`.
+
+## Deployment entry lines and grid
+
+Release 19 restores the original border-only entry lines through shared GLB skins, using built-in deployment template 12 with X=0,Y=0 for all eight menu entries. Duplicate native template IDs are intentional; indices select the matching `DeploymentTerrains` record. Do not revert to unavailable custom DeploymentDB IDs or fill the influence zones. `deployment-templates.json` retains the authored line coordinates and stable overlay identifiers; `models:catalogue` generates `kind: deployment` assets with centimeter calibration.
+
+After pushing assets, run `npm run models:publish -- --kind deployment --apply --login --accept-publication-terms`. This uploads eight overlays and generated thumbnails without touching unit skins. Existing marker publication remains separate. Verify a 54×36 fresh room, all deployment names, border lines, switching/flipping, marker positions and the grid. These overlays are spawned decorative terrain rather than native deployment-line objects; do not promise native line-toggle behavior or a completed live test from mock tests alone.

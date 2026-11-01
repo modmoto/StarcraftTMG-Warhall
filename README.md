@@ -115,21 +115,11 @@ npm run deployments:update -- --offline    # Reuse checksum-verified downloads
 npm run deployments:check                  # Read-only offline byte-for-byte check
 ```
 
-This updates the 7 standard 54x36 layouts in `Starcraft/deployments.json`, existing Warhall red, blue and green markers in `Starcraft/terrains.json`, and their placement in `Starcraft/gameconfig.json`. Unrelated manually maintained entries are preserved. Run this after updating the unit cards; the unit converter preserves these files. It does not automatically change the release version. A fresh checkout needs `npm ci`, `npm run convert`, and `npm run deployments:update` before the offline checks.
+This updates the 7 standard 54x36 layouts plus the three-inch grid in `Starcraft/deployments.json`, existing Warhall red, blue and green markers in `Starcraft/terrains.json`, and their placement in `Starcraft/gameconfig.json`. Unrelated manually maintained entries are preserved. Run this after updating the unit cards; the unit converter preserves these files. It does not automatically change the release version. A fresh checkout needs `npm ci`, `npm run convert`, and `npm run deployments:update` before the offline checks.
 
 The script reads PDF text, vector marker symbols, table boundaries and influence-zone artwork, handles upside-down cards, and reconciles repeated copies across factions. Current card artwork is approximate: coordinates are resolved on the printed 3-inch measurement grid and checked against printed edge measurements. All current coordinates have regression coverage. An unsupported grid, changed rule measurements/affinities, missing symbols or conflicting copies stops the migration before output is written. Review new or changed cards using `docs/deployments.html` and its source-page links; `deployment-report.json` retains source hashes and page numbers. A changed PDF design can require parser maintenance.
 
-The rules use red markers for 1/3, blue for 2/4 and green neutral for 5. The game uses existing Warhall ExcaliburRed/Blue/Green assets as terrain, keeping their native sizes. No custom PNGs, meshes or range rings are created. Marker coordinates come from the official cards; activation and control remain manual. Selecting a deployment places its markers and grey entry-edge segments together. The objective dropdown is reserved for scoring missions. Markers follow the Battlefield > Lock terrain switch. The current Warhall Test client explicitly unlocks terrain when a deployment creates it and exposes no WDS option to relock it automatically; automatic locking requires the client to call `SetTerrainLock(true)` after `PanelBattlefield.TerrainInDeployments`.
-
-Deployment outlines use the separate Warhall DeploymentDB. Close the test client, then install them with backups:
-
-```sh
-node scripts/install-warhall-deployment-cache.mjs /path/to/WarhallTest --apply
-node scripts/install-warhall-marker-cache.mjs /path/to/WarhallTest/Database --apply
-node scripts/install-warhall-data.mjs /path/to/WarhallTest --apply --local-source
-```
-
-The local-source option points the test client's Starcraft game-version entry to the workspace manifest, so opening a room does not overwrite local edits with the published release. It backs up GetGameVersions and the WDS files in the printed directory. Restore those backup files to return to the published source. Shared deployment template refreshes can overwrite locally installed outlines; the template adapter can be reapplied. The marker adapter associates the three existing native skins with Starcraft terrain IDs in the local catalogue; it creates no skins or assets and backs up both changed cache files. Shared catalogue registration is required for other machines.
+The rules use red markers for 1/3, blue for 2/4 and green neutral for 5. Markers have a 32 mm footprint with a decorative three-inch control ring. Deployment entry edges are shared GLB skins, preserving the original border-only line layout. Built-in template 12 with zero-length native lines keeps the deployment menu available on Mac and Windows without custom DeploymentDB installation. See [shared deployment publication](docs/shared-deployments.md) and [mission markers](docs/mission-markers.md).
 
 ## Current scope
 
@@ -233,8 +223,8 @@ Use `--local-source --local-assets` with the test-data installer to preview unpu
 
 Only deployments are enabled in the battlefield menu: `ShowDeploymentSection` is true, `ShowObjectiveSection` is false, and `objectives.json` is empty. Regenerating cards, deployments or unit data preserves that choice. Mission reference cards remain available separately.
 
-The seven custom deployment outlines also require Warhall's shared `DeploymentDB` to contain the records in `deployment-templates.json`. The installed Mac client skips the menu entries when these IDs are missing. The Windows cache installer was a local test adaptation; it did not register them for other computers. No supported template-publishing endpoint was identified in the inspected web editor. Shared registration remains required; publishing WDS JSON alone cannot complete it.
+Release 19 replaces unavailable custom-template references with built-in template 12. Exact border lines are automatically placed as shared decorative skins. Publish the eight deployment skins after pushing the generated assets; no client-cache installation is required. See [publication steps](docs/shared-deployments.md).
 
 ### Three-inch grid (test release 17)
 
-An eighth deployment, `3-INCH GRID (54x36)`, draws full horizontal and vertical lines every three inches, including the board border. It places no mission markers. The seven official deployment indices and marker placements remain unchanged; objectives stay hidden. Regeneration includes this grid automatically. All eight custom templates still need shared catalogue registration; [the exact registration records and IDs are listed here](docs/shared-deployments.md).
+An eighth deployment, `3-INCH GRID (54x36)`, draws full horizontal and vertical lines every three inches, including the board border. It places no mission markers. The seven official deployment indices and marker placements remain unchanged; objectives stay hidden. Regeneration includes this grid automatically. Publish the grid and seven entry overlays through the shared skin API; [instructions are here](docs/shared-deployments.md).

@@ -1,22 +1,19 @@
-# Shared deployment registration
+# Shared deployments (release 19)
 
-The current Warhall Test client loads template geometry from the shared `DeploymentDB` before it reads the game deployment references. It skips references whose template ID is absent. The inspected Mac cache contains only native IDs 0–15; none of these custom Starcraft IDs is registered there.
+The seven official deployments and the three-inch grid now use built-in deployment template 12 with X=0 and Y=0. Its eight native corner segments have zero length at those settings, so the client can create every menu entry without requiring custom DeploymentDB records. Duplicate template IDs are intentional: each entry has its own name and one-based menu index.
 
-Register the eight records from `deployment-templates.json` in the shared test deployment catalogue. Keep each ID unchanged so `Starcraft/deployments.json` and the marker indices continue to match. The game is exact-case `Starcraft`; game data release 18 enables deployments and disables objectives.
+The original border-only entry geometry remains in `deployment-templates.json`. The Node builder converts it into eight portable textured GLB overlays under `model-assets/`, registered as shared skins against `sc_deployment_<original-template-id>` terrain profiles. `DeploymentTerrains` places the matching overlay alongside the existing mission markers. These are thin lines on the battlefield border, not filled influence zones. The grid overlay contains the original 32 lines, including the board border.
 
-| Menu index | Deployment | Template ID |
-| --- | --- | --- |
-| 1 | ACROPOLIS | 16231390 |
-| 2 | BREACH | 16130426 |
-| 3 | GAUNTLET | 5379036 |
-| 4 | MEETING ENGAGEMENT | 16426918 |
-| 5 | ONE BRIDGE TOO CLOSE | 5995631 |
-| 6 | PROVING GROUNDS | 4030768 |
-| 7 | TYPHOON | 14025690 |
-| 8 | 3-INCH GRID (54x36) | 8634166 |
+Use a 54×36-inch board. The seven official deployment indices and marker coordinates are unchanged; index 8 is the grid. Objectives remain hidden. Cosmetic overlays have a tiny central terrain footprint, not a board-sized collision box. They are spawned terrain, so do not assume the deployment-line visibility toggle also hides them; verify selection, switching and flipping in the client.
 
-The final entry is a 54×36-inch three-inch grid: vertical lines at X=-27,-24,…,27 and horizontal lines at Z=-18,-15,…,18. It includes the border (32 lines total) and places no mission markers. The seven official deployments retain their existing indices and marker placements.
+## Publish
 
-The authenticated web editor exposes the deployment references/name/parameters, but no shared-template registration control was found. Its visible Upload to Git action publishes WDS files, which does not update DeploymentDB. No unsupported API endpoint is assumed here. Shared registration is still an external prerequisite; a local cache installer is not a universal fix.
+Push release 19 and its content-addressed GLBs to GitHub, then run:
 
-After registration, refresh Warhall Test’s shared catalogue, update Starcraft to version 18, set the board to 54×36 inches, and open a fresh room to verify all eight options. Do not publish a stale browser editor buffer over the current repository data.
+```sh
+npm run models:publish -- --kind deployment --apply --login --accept-publication-terms
+```
+
+The default target is Warhall Test. This publishes only the eight line-overlay skins, including generated thumbnails. Refresh the shared catalogue, update Starcraft, and create a fresh room to verify all eight deployments. Publish the three marker skins separately with `--kind marker` if still pending.
+
+The old Windows cache installer is a legacy test helper. It is not needed by this path. No authenticated upload or live client verification has been performed for this release yet. Do not upload a stale browser editor buffer over the current repository files; force sync only after the new files are pushed.

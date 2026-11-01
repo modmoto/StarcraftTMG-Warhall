@@ -37,7 +37,10 @@ test('three control rings are skin geometry, not separately spawned interactive 
   );
   assert.ok(
     config.DeploymentTerrains.every(layout =>
-      layout.Items.every(item => /^sc_mission_(red|blue|green)$/.test(item.Name)),
+      layout.Items.every(
+        item =>
+          /^sc_mission_(red|blue|green)$/.test(item.Name) || item.Name.startsWith('sc_deployment_'),
+      ),
     ),
   );
 });

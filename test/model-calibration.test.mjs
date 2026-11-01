@@ -62,7 +62,7 @@ test('portable bundle replacements include Adepts and preserve Windows cache dim
       ),
     ),
   ];
-  assert.equal(hosted.length, 8);
+  assert.equal(hosted.length, 16);
   assert.ok(hosted.every(file => files.includes(file)));
   for (const file of files) {
     if (!file.endsWith('.glb')) continue;

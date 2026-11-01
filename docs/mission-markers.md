@@ -12,4 +12,4 @@ After pushing the hosted assets and version 18 data, publish only marker skins:
 npm run models:publish -- --kind marker --apply --login --replace --accept-publication-terms
 ```
 
-Default target is Warhall Test. Native skins 6201–6203 remain intact; the publisher overrides their Starcraft profile assignments with the new custom skins. No authenticated publication has been performed for this change. Shared deployment registration is still required as described in `shared-deployments.md`.
+Default target is Warhall Test. Native skins 6201–6203 remain intact; the publisher overrides their Starcraft profile assignments with the new custom skins. No authenticated publication has been performed for this change. Release 19 uses shared deployment overlay skins as described in `shared-deployments.md`; no custom DeploymentDB registration is required.

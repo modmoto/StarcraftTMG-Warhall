@@ -207,7 +207,52 @@ test('three-inch grid covers the 54x36 board with horizontal and vertical lines'
   );
   assert.ok(vertical.every(line => line.sizeX === '36' && line.posY === '0'));
   assert.ok(horizontal.every(line => line.sizeX === '54' && line.posX === '0'));
-  assert.equal(grid.deployment.deploymentID, grid.template.deploymentID);
-  assert.deepEqual(grid.terrains, { DeploymentIndex: 8, Items: [] });
+  assert.equal(grid.deployment.deploymentID, 12);
+  assert.equal(grid.deployment.X, 0);
+  assert.equal(grid.deployment.Y, 0);
+  assert.equal(grid.terrains.DeploymentIndex, 8);
+  assert.equal(grid.terrains.Items.length, 1);
+  assert.equal(grid.terrains.Items[0].Name, grid.terrain.Id);
   assert.throws(() => gridDeployment({ width: 55 }), /divisible/);
+});
+
+test('shared deployment menu uses a built-in template and places the exact original entry overlay', async () => {
+  const deployments = JSON.parse(
+    await readFile(new URL('../Starcraft/deployments.json', import.meta.url)),
+  );
+  const config = JSON.parse(
+    await readFile(new URL('../Starcraft/gameconfig.json', import.meta.url)),
+  );
+  const terrains = JSON.parse(
+    await readFile(new URL('../Starcraft/terrains.json', import.meta.url)),
+  );
+  const templates = JSON.parse(
+    await readFile(new URL('../deployment-templates.json', import.meta.url)),
+  );
+  assert.equal(deployments.length, 8);
+  assert.equal(config.ShowDeploymentSection, true);
+  assert.equal(config.ShowObjectiveSection, false);
+  for (const [i, deployment] of deployments.entries()) {
+    assert.equal(deployment.deploymentID, 12);
+    assert.equal(deployment.X, 0);
+    assert.equal(deployment.Y, 0);
+    const placed = config.DeploymentTerrains.find(item => item.DeploymentIndex === i + 1);
+    const overlays = placed.Items.filter(item => item.Name.startsWith('sc_deployment_'));
+    assert.equal(overlays.length, 1);
+    assert.equal(overlays[0].Name, `sc_deployment_${templates[i].deploymentID}`);
+    assert.ok(terrains.some(item => item.Id === overlays[0].Name));
+  }
+});
+test('deployment overlay geometry preserves entry-edge coordinates without filled zones', async () => {
+  const { lineGeometry } = await import('../src/deployments/line-assets.mjs');
+  const mesh = lineGeometry(deploymentTemplate(layout));
+  assert.equal(mesh.vertices.length, deploymentTemplate(layout).lines.length * 4);
+  for (let i = 0; i < mesh.vertices.length; i += 4) {
+    const points = mesh.vertices.slice(i, i + 4);
+    const cx = points.reduce((sum, p) => sum + p[0], 0) / 4;
+    const cz = points.reduce((sum, p) => sum + p[2], 0) / 4;
+    assert.ok(
+      Math.abs(Math.abs(cx) - 18 * 2.54) < 1e-8 || Math.abs(Math.abs(cz) - 18 * 2.54) < 1e-8,
+    );
+  }
 });

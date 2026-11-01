@@ -3,6 +3,33 @@ import { sha256 } from '../io.mjs';
 import { markerTerrains } from './markers.mjs';
 
 export const deploymentName = l => l.name;
+export const sharedDeploymentTemplateId = 12;
+export const overlayId = template => `sc_deployment_${template.deploymentID}`;
+export const sharedDeployment = name => ({
+  deploymentID: sharedDeploymentTemplateId,
+  deploymentName: name,
+  X: 0,
+  Y: 0,
+  showCenterline: false,
+});
+export const overlayPlacement = template => ({
+  Name: overlayId(template),
+  X: 0,
+  Y: 0.02,
+  Z: 0,
+  IsToken: false,
+});
+export const overlayTerrain = template => ({
+  Id: overlayId(template),
+  Name: `Deployment lines - ${template.deploymentName}`,
+  Type: 'Terrain',
+  Description:
+    'Decorative deployment entry lines. Automatically placed with the deployment; no filled deployment zones.',
+  Width: 0.1,
+  Length: 0.1,
+  Height: 0.02,
+  Shape: 1,
+});
 export function deploymentId(name) {
   // Reserved local/import IDs; refuse collisions rather than renumbering layouts.
   return 100000 + parseInt(sha256(name).slice(0, 6), 16);
@@ -69,6 +96,7 @@ export function deploymentTemplate(layout) {
   );
   return {
     deploymentID: deploymentId(layout.name),
+    deploymentName: layout.name,
     rotationAxis: 0,
     centerlineAxis: '0',
     lines: boundary
@@ -88,24 +116,24 @@ export function buildDeployments(layouts) {
   const ids = layouts.map(l => deploymentId(l.name));
   assert.equal(new Set(ids).size, ids.length, 'Deployment template ID collision');
   return {
-    deployments: layouts.map(l => ({
-      deploymentID: deploymentId(l.name),
-      deploymentName: deploymentName(l),
-      showCenterline: false,
-    })),
+    deployments: layouts.map(l => sharedDeployment(l.name)),
     objectives: [],
     deploymentTerrains: layouts.map((l, i) => ({
       DeploymentIndex: i + 1,
-      Items: l.markers.map(m => ({
-        Name: `sc_mission_${m.color}`,
-        X: m.x * 2.54,
-        Y: 0.04,
-        Z: m.y * 2.54,
-        IsToken: false,
-      })),
+      Items: [
+        ...l.markers.map(m => ({
+          Name: `sc_mission_${m.color}`,
+          X: m.x * 2.54,
+          Y: 0.04,
+          Z: m.y * 2.54,
+          IsToken: false,
+        })),
+        overlayPlacement(deploymentTemplate(l)),
+      ],
     })),
     tokens: [],
     markerTerrains: markerTerrains(),
+    overlayTerrains: layouts.map(l => overlayTerrain(deploymentTemplate(l))),
     templates: layouts.map(deploymentTemplate),
   };
 }
@@ -138,8 +166,9 @@ export function gridDeployment({ width = 54, height = 36, spacing = 3, index = 8
     });
   }
   return {
-    deployment: { deploymentID, deploymentName: name, showCenterline: false },
-    template: { deploymentID, rotationAxis: 0, centerlineAxis: '0', lines },
-    terrains: { DeploymentIndex: index, Items: [] },
+    deployment: sharedDeployment(name),
+    template: { deploymentID, deploymentName: name, rotationAxis: 0, centerlineAxis: '0', lines },
+    terrains: { DeploymentIndex: index, Items: [overlayPlacement({ deploymentID })] },
+    terrain: overlayTerrain({ deploymentID, deploymentName: name }),
   };
 }

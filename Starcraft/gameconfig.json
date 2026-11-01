@@ -90,6 +90,13 @@
           "Y": 0.04,
           "Z": 0,
           "IsToken": false
+        },
+        {
+          "Name": "sc_deployment_16231390",
+          "X": 0,
+          "Y": 0.02,
+          "Z": 0,
+          "IsToken": false
         }
       ]
     },
@@ -128,6 +135,13 @@
           "Name": "sc_mission_green",
           "X": 0,
           "Y": 0.04,
+          "Z": 0,
+          "IsToken": false
+        },
+        {
+          "Name": "sc_deployment_16130426",
+          "X": 0,
+          "Y": 0.02,
           "Z": 0,
           "IsToken": false
         }
@@ -170,6 +184,13 @@
           "Y": 0.04,
           "Z": 0,
           "IsToken": false
+        },
+        {
+          "Name": "sc_deployment_5379036",
+          "X": 0,
+          "Y": 0.02,
+          "Z": 0,
+          "IsToken": false
         }
       ]
     },
@@ -208,6 +229,13 @@
           "Name": "sc_mission_green",
           "X": 0,
           "Y": 0.04,
+          "Z": 0,
+          "IsToken": false
+        },
+        {
+          "Name": "sc_deployment_16426918",
+          "X": 0,
+          "Y": 0.02,
           "Z": 0,
           "IsToken": false
         }
@@ -250,6 +278,13 @@
           "Y": 0.04,
           "Z": -30.48,
           "IsToken": false
+        },
+        {
+          "Name": "sc_deployment_5995631",
+          "X": 0,
+          "Y": 0.02,
+          "Z": 0,
+          "IsToken": false
         }
       ]
     },
@@ -289,6 +324,13 @@
           "X": 0,
           "Y": 0.04,
           "Z": 15.24,
+          "IsToken": false
+        },
+        {
+          "Name": "sc_deployment_4030768",
+          "X": 0,
+          "Y": 0.02,
+          "Z": 0,
           "IsToken": false
         }
       ]
@@ -330,12 +372,27 @@
           "Y": 0.04,
           "Z": 0,
           "IsToken": false
+        },
+        {
+          "Name": "sc_deployment_14025690",
+          "X": 0,
+          "Y": 0.02,
+          "Z": 0,
+          "IsToken": false
         }
       ]
     },
     {
       "DeploymentIndex": 8,
-      "Items": []
+      "Items": [
+        {
+          "Name": "sc_deployment_8634166",
+          "X": 0,
+          "Y": 0.02,
+          "Z": 0,
+          "IsToken": false
+        }
+      ]
     }
   ],
   "ShowObjectiveSection": false,

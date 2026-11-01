@@ -1,5 +1,85 @@
 [
   {
+    "Id": "sc_deployment_14025690",
+    "Name": "Deployment lines - TYPHOON",
+    "Type": "Terrain",
+    "Description": "Decorative deployment entry lines. Automatically placed with the deployment; no filled deployment zones.",
+    "Width": 0.1,
+    "Length": 0.1,
+    "Height": 0.02,
+    "Shape": 1
+  },
+  {
+    "Id": "sc_deployment_16130426",
+    "Name": "Deployment lines - BREACH",
+    "Type": "Terrain",
+    "Description": "Decorative deployment entry lines. Automatically placed with the deployment; no filled deployment zones.",
+    "Width": 0.1,
+    "Length": 0.1,
+    "Height": 0.02,
+    "Shape": 1
+  },
+  {
+    "Id": "sc_deployment_16231390",
+    "Name": "Deployment lines - ACROPOLIS",
+    "Type": "Terrain",
+    "Description": "Decorative deployment entry lines. Automatically placed with the deployment; no filled deployment zones.",
+    "Width": 0.1,
+    "Length": 0.1,
+    "Height": 0.02,
+    "Shape": 1
+  },
+  {
+    "Id": "sc_deployment_16426918",
+    "Name": "Deployment lines - MEETING ENGAGEMENT",
+    "Type": "Terrain",
+    "Description": "Decorative deployment entry lines. Automatically placed with the deployment; no filled deployment zones.",
+    "Width": 0.1,
+    "Length": 0.1,
+    "Height": 0.02,
+    "Shape": 1
+  },
+  {
+    "Id": "sc_deployment_4030768",
+    "Name": "Deployment lines - PROVING GROUNDS",
+    "Type": "Terrain",
+    "Description": "Decorative deployment entry lines. Automatically placed with the deployment; no filled deployment zones.",
+    "Width": 0.1,
+    "Length": 0.1,
+    "Height": 0.02,
+    "Shape": 1
+  },
+  {
+    "Id": "sc_deployment_5379036",
+    "Name": "Deployment lines - GAUNTLET",
+    "Type": "Terrain",
+    "Description": "Decorative deployment entry lines. Automatically placed with the deployment; no filled deployment zones.",
+    "Width": 0.1,
+    "Length": 0.1,
+    "Height": 0.02,
+    "Shape": 1
+  },
+  {
+    "Id": "sc_deployment_5995631",
+    "Name": "Deployment lines - ONE BRIDGE TOO CLOSE",
+    "Type": "Terrain",
+    "Description": "Decorative deployment entry lines. Automatically placed with the deployment; no filled deployment zones.",
+    "Width": 0.1,
+    "Length": 0.1,
+    "Height": 0.02,
+    "Shape": 1
+  },
+  {
+    "Id": "sc_deployment_8634166",
+    "Name": "Deployment lines - 3-INCH GRID (54x36)",
+    "Type": "Terrain",
+    "Description": "Decorative deployment entry lines. Automatically placed with the deployment; no filled deployment zones.",
+    "Width": 0.1,
+    "Length": 0.1,
+    "Height": 0.02,
+    "Shape": 1
+  },
+  {
     "Id": "sc_mission_blue",
     "Name": "Mission marker - blue",
     "Type": "Terrain",

@@ -2,6 +2,7 @@ import { readFile, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 import { projectRoot } from '../src/paths.mjs';
 import { transforms, validateCatalogue } from '../src/models/catalogue.mjs';
+import { createDeploymentAssets } from '../src/deployments/line-assets.mjs';
 import { createMarkerAssets } from '../src/deployments/marker-assets.mjs';
 import { calibrateCatalogue } from '../src/models/calibration.mjs';
 import { nativeMarkers } from '../src/deployments/markers.mjs';
@@ -62,6 +63,7 @@ for (const marker of markerAssets) {
   const index = catalogue.entries.findIndex(entry => entry.profileId === marker.profileId);
   catalogue.entries[index] = marker;
 }
+catalogue.entries.push(...(await createDeploymentAssets(await read('deployment-templates.json'))));
 validateCatalogue(catalogue);
 await writeFile(
   path.join(projectRoot, 'model-calibration-report.json'),
@@ -71,4 +73,4 @@ await writeFile(
   path.join(projectRoot, 'model-catalogue.json'),
   JSON.stringify(catalogue, null, 2) + '\n',
 );
-console.log(`Built model-catalogue.json: ${entries.length} shared mappings`);
+console.log(`Built model-catalogue.json: ${catalogue.entries.length} shared mappings`);

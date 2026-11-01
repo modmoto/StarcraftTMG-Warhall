@@ -6,7 +6,12 @@ import { projectRoot, defaultDataDirectory } from '../src/paths.mjs';
 import { readJson, sha256 } from '../src/io.mjs';
 import { downloadsUrl, loadSources } from '../src/sources/pdf/downloads.mjs';
 import { parseDeploymentPdf, reconcileDeployments } from '../src/deployments/pdf.mjs';
-import { buildDeployments, deploymentName, gridDeployment } from '../src/deployments/package.mjs';
+import {
+  buildDeployments,
+  deploymentName,
+  deploymentTemplate,
+  gridDeployment,
+} from '../src/deployments/package.mjs';
 import {
   markerDiameterMm,
   controlRangeInches,
@@ -111,6 +116,7 @@ const grid = gridDeployment({ index: generated.deployments.length + 1 });
 generated.deployments.push(grid.deployment);
 generated.templates.push(grid.template);
 generated.deploymentTerrains.push(grid.terrains);
+generated.overlayTerrains.push(grid.terrain);
 let previous = { layouts: [] };
 try {
   previous = await readJson(path.join(projectRoot, 'deployment-report.json'));
@@ -118,6 +124,10 @@ try {
   if (e.code !== 'ENOENT') throw e;
 }
 const ownedDeploymentIds = new Set(previous.layouts.map(l => l.templateId));
+const ownedDeploymentNames = new Set([
+  ...previous.layouts.map(l => l.name),
+  ...generated.deployments.map(l => l.deploymentName),
+]);
 const outputs = new Map();
 const json = (file, data) => outputs.set(file, Buffer.from(JSON.stringify(data, null, 2) + '\n'));
 for (const [file, records, owned] of [
@@ -125,6 +135,7 @@ for (const [file, records, owned] of [
     'deployments.json',
     generated.deployments,
     r =>
+      ownedDeploymentNames.has(r.deploymentName) ||
       ownedDeploymentIds.has(r.deploymentID) ||
       generated.templates.some(t => t.deploymentID === r.deploymentID),
   ],
@@ -137,26 +148,17 @@ for (const [file, records, owned] of [
   } catch (e) {
     if (e.code !== 'ENOENT') throw e;
   }
-  if (file === 'deployments.json') {
-    for (const record of existing) {
-      const incoming = records.find(r => r.deploymentID === record.deploymentID);
-      assert.ok(
-        !incoming ||
-          ownedDeploymentIds.has(record.deploymentID) ||
-          incoming.deploymentName === record.deploymentName,
-        'Deployment ID collides with an unrelated entry',
-      );
-    }
-  }
   json(path.join(options.output, file), [...existing.filter(r => !owned(r)), ...records]);
 }
 json(path.join(projectRoot, 'deployment-templates.json'), generated.templates);
 const terrains = await readJson(path.join(options.output, 'terrains.json'));
 json(
   path.join(options.output, 'terrains.json'),
-  [...terrains.filter(t => !t.Id.startsWith('sc_mission_')), ...generated.markerTerrains].sort(
-    (a, b) => a.Id.localeCompare(b.Id, 'en'),
-  ),
+  [
+    ...terrains.filter(t => !t.Id.startsWith('sc_mission_') && !t.Id.startsWith('sc_deployment_')),
+    ...generated.markerTerrains,
+    ...generated.overlayTerrains,
+  ].sort((a, b) => a.Id.localeCompare(b.Id, 'en')),
 );
 const config = await readJson(path.join(options.output, 'gameconfig.json'));
 config.DeploymentTerrains = generated.deploymentTerrains;
@@ -169,7 +171,7 @@ json(path.join(projectRoot, 'deployment-report.json'), {
   extraction:
     'PDF vector symbols and battlefield bounds; reviewed printed measurements on the current 3-inch grid. Unknown colors, missing symbols, off-grid positions and conflicting copies fail. Review new or changed cards against their printed arrows.',
   deploymentImport:
-    'deployment-templates.json must be registered in Warhall DeploymentDB. WDS does not load custom template geometry.',
+    'Built-in template 12 with X=0,Y=0 keeps the menu available; exact entry edges and grid are shared decorative skins placed through DeploymentTerrains. Publish kind deployment after pushing hosted assets.',
   markers: {
     nativeMarkers,
     rulesDiameterMm: markerDiameterMm,
@@ -184,7 +186,20 @@ const reviews = layouts
   .map(l => {
     const sx = x => x + l.width / 2,
       sy = y => l.height / 2 - y;
-    return `<section><h2>${escape(deploymentName(l))}</h2><svg viewBox="-3 -3 ${l.width + 6} ${l.height + 6}"><rect width="${l.width}" height="${l.height}" fill="#eee" stroke="#333" stroke-width=".2"/>${l.zones.map(z => `<rect x="${sx(z.bounds[0])}" y="${sy(z.bounds[3])}" width="${z.bounds[2] - z.bounds[0]}" height="${z.bounds[3] - z.bounds[1]}" fill="${z.color}" opacity=".2"/>`).join('')}${l.markers.map(m => `<circle cx="${sx(m.x)}" cy="${sy(m.y)}" r="${16 / 25.4 + 3}" fill="none" stroke="${m.color}" opacity=".3" stroke-width=".15"/><circle cx="${sx(m.x)}" cy="${sy(m.y)}" r="${16 / 25.4}" fill="${m.color}"/><text x="${sx(m.x)}" y="${sy(m.y) + 0.4}" font-size="1.4" text-anchor="middle" fill="white">${m.number}</text>`).join('')}</svg><p>${l.markers.map(m => `${m.number}: (${m.x}, ${m.y})`).join(' · ')}</p><p>${l.sources.map(s => `<a href="${escape(s.url)}">${escape(s.file)}, page ${s.page}</a>`).join('<br>')}</p></section>`;
+    return `<section><h2>${escape(deploymentName(l))}</h2><svg viewBox="-3 -3 ${l.width + 6} ${l.height + 6}"><rect width="${l.width}" height="${l.height}" fill="#eee" stroke="#333" stroke-width=".2"/>${deploymentTemplate(
+      l,
+    )
+      .lines.map(line => {
+        const angle = (Number(line.rotationY) * Math.PI) / 180;
+        const dx = (Math.cos(angle) * Number(line.sizeX)) / 2;
+        const dy = (Math.sin(angle) * Number(line.sizeX)) / 2;
+        const x = Number(line.posX),
+          y = Number(line.posY);
+        return `<line x1="${sx(x - dx)}" y1="${sy(y - dy)}" x2="${sx(x + dx)}" y2="${sy(y + dy)}" stroke="#156082" stroke-width=".4"/>`;
+      })
+      .join(
+        '',
+      )}${l.markers.map(m => `<circle cx="${sx(m.x)}" cy="${sy(m.y)}" r="${16 / 25.4 + 3}" fill="none" stroke="${m.color}" opacity=".3" stroke-width=".15"/><circle cx="${sx(m.x)}" cy="${sy(m.y)}" r="${16 / 25.4}" fill="${m.color}"/><text x="${sx(m.x)}" y="${sy(m.y) + 0.4}" font-size="1.4" text-anchor="middle" fill="white">${m.number}</text>`).join('')}</svg><p>${l.markers.map(m => `${m.number}: (${m.x}, ${m.y})`).join(' · ')}</p><p>${l.sources.map(s => `<a href="${escape(s.url)}">${escape(s.file)}, page ${s.page}</a>`).join('<br>')}</p></section>`;
   })
   .join('\n');
 outputs.set(
@@ -220,5 +235,5 @@ if (options.check) {
   }
 }
 console.log(
-  `${options.check ? 'Verified' : options.dryRun ? 'Previewed' : 'Updated'} ${generated.deployments.length} deployments, ${generated.objectives.length} objective presets and ${generated.markerTerrains.length} existing Warhall marker colors. Custom deployment templates require Warhall DeploymentDB import.`,
+  `${options.check ? 'Verified' : options.dryRun ? 'Previewed' : 'Updated'} ${generated.deployments.length} deployments, ${generated.objectives.length} objective presets and ${generated.markerTerrains.length} existing Warhall marker colors. Publish the deployment overlay skins to show the entry lines and grid.`,
 );
