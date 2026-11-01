@@ -234,3 +234,7 @@ Use `--local-source --local-assets` with the test-data installer to preview unpu
 Only deployments are enabled in the battlefield menu: `ShowDeploymentSection` is true, `ShowObjectiveSection` is false, and `objectives.json` is empty. Regenerating cards, deployments or unit data preserves that choice. Mission reference cards remain available separately.
 
 The seven custom deployment outlines also require Warhall's shared `DeploymentDB` to contain the records in `deployment-templates.json`. The installed Mac client skips the menu entries when these IDs are missing. The Windows cache installer was a local test adaptation; it did not register them for other computers. No supported template-publishing endpoint was identified in the inspected web editor. Shared registration remains required; publishing WDS JSON alone cannot complete it.
+
+### Three-inch grid (test release 17)
+
+An eighth deployment, `3-INCH GRID (54x36)`, draws full horizontal and vertical lines every three inches, including the board border. It places no mission markers. The seven official deployment indices and marker placements remain unchanged; objectives stay hidden. Regeneration includes this grid automatically. All eight custom templates still need shared catalogue registration; [the exact registration records and IDs are listed here](docs/shared-deployments.md).

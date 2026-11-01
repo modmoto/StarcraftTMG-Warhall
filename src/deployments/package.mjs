@@ -109,3 +109,37 @@ export function buildDeployments(layouts) {
     templates: layouts.map(deploymentTemplate),
   };
 }
+
+export function gridDeployment({ width = 54, height = 36, spacing = 3, index = 8 } = {}) {
+  assert.ok([width, height, spacing].every(value => Number.isFinite(value) && value > 0));
+  assert.equal(width % spacing, 0, 'Grid width must be divisible by its spacing');
+  assert.equal(height % spacing, 0, 'Grid height must be divisible by its spacing');
+  const name = `${spacing}-INCH GRID (${width}x${height})`;
+  const deploymentID = deploymentId(name);
+  const lines = [];
+  for (let x = -width / 2; x <= width / 2; x += spacing) {
+    lines.push({
+      anchor: 'center',
+      posX: String(x),
+      posY: '0',
+      sizeX: String(height),
+      rotationY: '90',
+      dummy: true,
+    });
+  }
+  for (let y = -height / 2; y <= height / 2; y += spacing) {
+    lines.push({
+      anchor: 'center',
+      posX: '0',
+      posY: String(y),
+      sizeX: String(width),
+      rotationY: '0',
+      dummy: true,
+    });
+  }
+  return {
+    deployment: { deploymentID, deploymentName: name, showCenterline: false },
+    template: { deploymentID, rotationAxis: 0, centerlineAxis: '0', lines },
+    terrains: { DeploymentIndex: index, Items: [] },
+  };
+}

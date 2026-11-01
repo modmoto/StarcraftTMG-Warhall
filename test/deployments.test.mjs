@@ -5,7 +5,11 @@ import path from 'node:path';
 import { loadSources } from '../src/sources/pdf/downloads.mjs';
 import { defaultPdfCacheDirectory } from '../src/paths.mjs';
 import { parseDeploymentPdf, reconcileDeployments } from '../src/deployments/pdf.mjs';
-import { buildDeployments, deploymentTemplate } from '../src/deployments/package.mjs';
+import {
+  buildDeployments,
+  deploymentTemplate,
+  gridDeployment,
+} from '../src/deployments/package.mjs';
 import { markerTokens } from '../src/deployments/markers.mjs';
 
 const layout = {
@@ -185,3 +189,25 @@ test(
     );
   },
 );
+
+test('three-inch grid covers the 54x36 board with horizontal and vertical lines', () => {
+  const grid = gridDeployment();
+  const lines = grid.template.lines;
+  const vertical = lines.filter(line => line.rotationY === '90');
+  const horizontal = lines.filter(line => line.rotationY === '0');
+  assert.equal(vertical.length, 19);
+  assert.equal(horizontal.length, 13);
+  assert.deepEqual(
+    vertical.map(line => Number(line.posX)),
+    Array.from({ length: 19 }, (_, i) => -27 + i * 3),
+  );
+  assert.deepEqual(
+    horizontal.map(line => Number(line.posY)),
+    Array.from({ length: 13 }, (_, i) => -18 + i * 3),
+  );
+  assert.ok(vertical.every(line => line.sizeX === '36' && line.posY === '0'));
+  assert.ok(horizontal.every(line => line.sizeX === '54' && line.posX === '0'));
+  assert.equal(grid.deployment.deploymentID, grid.template.deploymentID);
+  assert.deepEqual(grid.terrains, { DeploymentIndex: 8, Items: [] });
+  assert.throws(() => gridDeployment({ width: 55 }), /divisible/);
+});

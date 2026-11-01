@@ -6,7 +6,7 @@ import { projectRoot, defaultDataDirectory } from '../src/paths.mjs';
 import { readJson, sha256 } from '../src/io.mjs';
 import { downloadsUrl, loadSources } from '../src/sources/pdf/downloads.mjs';
 import { parseDeploymentPdf, reconcileDeployments } from '../src/deployments/pdf.mjs';
-import { buildDeployments, deploymentName } from '../src/deployments/package.mjs';
+import { buildDeployments, deploymentName, gridDeployment } from '../src/deployments/package.mjs';
 import {
   markerDiameterMm,
   controlRangeInches,
@@ -107,6 +107,10 @@ for (const source of sources) parsed.push(...(await parseDeploymentPdf(source)))
 const layouts = reconcileDeployments(parsed).filter(l => l.width === 54 && l.height === 36);
 assert.ok(layouts.length, 'No standard 54x36 deployments found');
 const generated = buildDeployments(layouts);
+const grid = gridDeployment({ index: generated.deployments.length + 1 });
+generated.deployments.push(grid.deployment);
+generated.templates.push(grid.template);
+generated.deploymentTerrains.push(grid.terrains);
 let previous = { layouts: [] };
 try {
   previous = await readJson(path.join(projectRoot, 'deployment-report.json'));
@@ -216,5 +220,5 @@ if (options.check) {
   }
 }
 console.log(
-  `${options.check ? 'Verified' : options.dryRun ? 'Previewed' : 'Updated'} ${layouts.length} deployments, ${generated.objectives.length} objective presets and ${generated.markerTerrains.length} existing Warhall marker colors. Custom deployment templates require Warhall DeploymentDB import.`,
+  `${options.check ? 'Verified' : options.dryRun ? 'Previewed' : 'Updated'} ${generated.deployments.length} deployments, ${generated.objectives.length} objective presets and ${generated.markerTerrains.length} existing Warhall marker colors. Custom deployment templates require Warhall DeploymentDB import.`,
 );
