@@ -3,18 +3,18 @@
     "Id": "sc_icon_terran",
     "Name": "Terran",
     "Type": "faction",
-    "URL": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft/assets/tokens/d6a773b0ef59e962d386da0c5b7f355a832ba6df69f946f3d44fb3e700daed3c.png"
+    "URL": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft/assets/tokens/8c92e285c566d5b945a8fafcc82cc73c56e61768e8532dac7d01f2a7c2f2caa2.png"
   },
   {
     "Id": "sc_icon_protoss",
     "Name": "Protoss",
     "Type": "faction",
-    "URL": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft/assets/tokens/766630a59ade4c04fa76e799f5b2687cb1e318eededd802c52fce198f2285723.png"
+    "URL": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft/assets/tokens/0e4db7e56eddbad1e6753aa06ff97ec79a8a381804fb88a34e765b16bf16aab0.png"
   },
   {
     "Id": "sc_icon_zerg",
     "Name": "Zerg",
     "Type": "faction",
-    "URL": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft/assets/tokens/0056c8356bee3def95586d6af8dfcdd884c0488b19af0ce1fe8290afb5b66b93.png"
+    "URL": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft/assets/tokens/ae26b8de7aa15c59c4ec6fa731c2a6940557e1c1a1ec225c49e7959a72d49ab3.png"
   }
 ]

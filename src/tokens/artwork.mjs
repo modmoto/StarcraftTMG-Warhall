@@ -2,13 +2,15 @@ import sharp from 'sharp';
 import { readFile } from 'node:fs/promises';
 import path from 'node:path';
 
+const arrow = '<path d="M256 102 378 242H310V374H202V242H134Z"/>';
+
 const symbols = {
-  arrow: '<path d="M256 102 378 242H310V374H202V242H134Z"/>',
+  arrow,
   crosshair:
     '<g fill="none" stroke="currentColor" stroke-width="22"><path d="M168 176V142H222M290 142H344V196M344 290V344H290M222 344H168V290M256 102V204M256 282V384M114 244H216M296 244H398"/><path d="M236 224H276V264H236Z" fill="currentColor" stroke="none"/></g>',
-  buff: '<path d="M256 112 367 234H302V324H210V234H145Z"/><path d="M172 350H340V374H172Z"/>',
-  debuff: '<path d="M256 374 367 252H302V162H210V252H145Z"/><path d="M172 112H340V136H172Z"/>',
-  stim: '<path d="M279 102 160 265H241L220 369 356 204H275Z"/>',
+  buff: arrow,
+  debuff: `<g transform="rotate(180 256 244)">${arrow}</g>`,
+  stim: '<g transform="rotate(40 256 244)"><path d="M208 100H304V120H266V166H246V120H208ZM202 162H310V180H202Z"/><rect x="226" y="187" width="60" height="124" rx="7" fill="none" stroke="currentColor" stroke-width="16"/><path d="M232 316H280L256 346Z"/><path d="M256 340V398M234 214H256M234 246H256M234 278H256" fill="none" stroke="currentColor" stroke-width="10"/></g>',
   burrowed:
     '<path d="M218 112H294V224H348L256 322 164 224H218Z"/><path d="M124 348 174 321 220 348 266 321 312 348 362 321 393 349V376H124Z"/>',
   hidden:
@@ -18,22 +20,19 @@ const symbols = {
 };
 const labels = { stim: 'STIM', burrowed: 'BURROWED', hidden: 'HIDDEN', siege: 'SIEGE' };
 
-async function logoImage(root, name, color) {
-  const { data, info } = await sharp(
-    await readFile(path.join(root, `token-artwork/factions/${name}.png`)),
-  )
-    .ensureAlpha()
-    .raw()
-    .toBuffer({ resolveWithObject: true });
-  const rgb = color.match(/[a-f0-9]{2}/gi).map(value => parseInt(value, 16));
-  for (let i = 0; i < data.length; i += 4) [data[i], data[i + 1], data[i + 2]] = rgb;
-  return sharp(data, { raw: { width: info.width, height: info.height, channels: 4 } })
-    .png()
-    .toBuffer();
+async function logoVector(root, name, color, placement = '') {
+  const source = await readFile(path.join(root, `token-artwork/factions/${name}.svg`), 'utf8');
+  const viewBox = source.match(/viewBox="([^"]+)"/)[1];
+  const paths = [...source.matchAll(/<path\b[\s\S]*?\/>/g)]
+    .map(([element]) => element.replace(/fill:\s*#[a-f0-9]+/gi, `fill:${color}`))
+    .join('');
+  return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="${viewBox}" ${placement}>${paths}</svg>`;
 }
 
 export async function factionLogo(root, name, color) {
-  return logoImage(root, name, color);
+  return sharp(Buffer.from(await logoVector(root, name, color, 'width="1024" height="1024"')))
+    .png()
+    .toBuffer();
 }
 
 export async function tokenImage(root, token, side) {
@@ -42,7 +41,7 @@ export async function tokenImage(root, token, side) {
   const background = token.inverted ? '#f7f6ee' : accent;
   const ink = token.inverted ? accent : '#ffffff';
   const logo = !symbols[symbol]
-    ? `<image x="120" y="105" width="272" height="272" href="data:image/png;base64,${(await logoImage(root, symbol, ink)).toString('base64')}"/>`
+    ? await logoVector(root, symbol, ink, 'x="120" y="105" width="272" height="272"')
     : `<g color="${ink}" fill="${ink}">${symbols[symbol]}</g>`;
   const label = labels[symbol];
   const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 512 512">
