@@ -25,6 +25,9 @@ test('board cards are sharp, contain no unit cards, and have clean descriptions'
     }
   }
   const objectives = await read('../Starcraft/objectives.json');
-  assert.equal(objectives.length, 7);
-  assert.ok(objectives.every(o => o.Items.length === 0));
+  assert.deepEqual(objectives, []);
+  const config = await read('../Starcraft/gameconfig.json');
+  assert.equal(config.ShowObjectiveSection, false);
+  assert.equal(config.ShowDeploymentSection, true);
+  assert.equal((await read('../Starcraft/deployments.json')).length, 7);
 });

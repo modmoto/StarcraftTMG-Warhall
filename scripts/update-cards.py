@@ -187,8 +187,7 @@ assert len(groups['Deployments']) == 7
 assert len(missions) == 7, f'Expected seven standard scoring missions, got {list(missions)}'
 write('Starcraft/cards.json',sorted(cards.values(),key=lambda c:c['Id']))
 hierarchy = read('Starcraft/hierarchy.json');hierarchy['Cards']={k:sorted(v) for k,v in sorted(groups.items())};write('Starcraft/hierarchy.json',hierarchy)
-existing = [o for o in read('Starcraft/objectives.json') if not o['Id'].startswith('sc_scoring_')]
-write('Starcraft/objectives.json',existing+sorted(missions.values(),key=lambda m:m['Name']))
+write('Starcraft/objectives.json',[])
 write('cards-report.json',{'imageDpi':DPI,'imageFormat':'lossless PNG','unitCards':False,'cards':report,'counts':{k:len(v) for k,v in sorted(groups.items())},'missions':len(missions)})
 print(f'Extracted {len(cards)} cards and {len(missions)} scoring missions.')
 

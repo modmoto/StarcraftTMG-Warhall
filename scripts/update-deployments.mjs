@@ -124,7 +124,7 @@ for (const [file, records, owned] of [
       ownedDeploymentIds.has(r.deploymentID) ||
       generated.templates.some(t => t.deploymentID === r.deploymentID),
   ],
-  ['objectives.json', generated.objectives, r => r.Id?.startsWith('sc_deployment_')],
+  ['objectives.json', generated.objectives, () => true],
   ['tokens.json', generated.tokens, r => r.Id?.startsWith('sc_mission_')],
 ]) {
   let existing = [];
@@ -156,7 +156,8 @@ json(
 );
 const config = await readJson(path.join(options.output, 'gameconfig.json'));
 config.DeploymentTerrains = generated.deploymentTerrains;
-config.ShowObjectiveSection = true;
+config.ShowObjectiveSection = false;
+config.ShowDeploymentSection = true;
 json(path.join(options.output, 'gameconfig.json'), config);
 json(path.join(projectRoot, 'deployment-report.json'), {
   rules: ruleSource,

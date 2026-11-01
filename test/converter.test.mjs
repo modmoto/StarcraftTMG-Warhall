@@ -23,6 +23,10 @@ test(
       'Zerg',
     ]);
     assert.equal(data['gameconfig.json'].WoundsAttribute, 'HP');
+    assert.equal(data['gameconfig.json'].ShowObjectiveSection, false);
+    assert.equal(data['gameconfig.json'].ShowDeploymentSection, true);
+    assert.deepEqual(data['objectives.json'], []);
+    assert.equal(data['deployments.json'].length, 7);
     const marineStats = data['Terran/statlines.json'].find(s => s.Id === 'stat_marine');
     assert.equal(marineStats.Attributes.HP, '2');
     assert.equal(marineStats.Attributes.Spd, '4/7');

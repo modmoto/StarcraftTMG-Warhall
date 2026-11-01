@@ -114,6 +114,9 @@ async function initialData(template) {
   }
 
   data['gameconfig.json'].WoundsAttribute = 'HP';
+  data['gameconfig.json'].ShowObjectiveSection = false;
+  data['gameconfig.json'].ShowDeploymentSection = true;
+  data['objectives.json'] = [];
   data['gameconfig.json'].ShowGroupHeader = false;
   data['gameconfig.json'].ShowStatlineHeader = true;
   data['bases.json'] = [];
