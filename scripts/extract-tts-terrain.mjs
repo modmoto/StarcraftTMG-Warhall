@@ -8,7 +8,7 @@ const bytes = await readFile(filename),
   bags = [];
 function walk(o) {
   if (!o || typeof o !== 'object') return;
-  if (o.Name === 'Bag' && /^All - Official PDF Map [1-5](?:\D|$)/.test(o.Nickname ?? ''))
+  if (o.Name === 'Bag' && /^All - Official PDF Map [1-6](?:\D|$)/.test(o.Nickname ?? ''))
     bags.push(o);
   for (const [k, v] of Object.entries(o))
     if (typeof v === 'object') Array.isArray(v) ? v.forEach(walk) : walk(v);
@@ -17,7 +17,27 @@ walk(save);
 bags.sort(
   (a, b) => Number(a.Nickname.match(/Map (\d)/)[1]) - Number(b.Nickname.match(/Map (\d)/)[1]),
 );
-assert.equal(bags.length, 5, 'Expected official standard maps 1-5');
+assert.deepEqual(
+  bags.map(bag => Number(bag.Nickname.match(/Map (\d)/)[1])),
+  [1, 2, 3, 4, 5, 6],
+  'Expected official standard maps 1-6',
+);
+let knownAssets = [];
+try {
+  knownAssets = JSON.parse(await readFile('terrain-sources.json', 'utf8')).assets;
+} catch (error) {
+  if (error.code !== 'ENOENT') throw error;
+}
+const approximatelyEqual = (a, b) => {
+  if (typeof a === 'number' && typeof b === 'number') return Math.abs(a - b) < 1e-6;
+  if (a && b && typeof a === 'object' && typeof b === 'object') {
+    const keys = Object.keys(a);
+    return (
+      keys.length === Object.keys(b).length && keys.every(key => approximatelyEqual(a[key], b[key]))
+    );
+  }
+  return a === b;
+};
 const assets = new Map(),
   maps = [];
 function attachedParts(object) {
@@ -44,28 +64,25 @@ for (const bag of bags) {
       o.CustomMesh?.MeshURL && o.CustomMesh.DiffuseURL,
       `Missing terrain mesh: ${o.Nickname}`,
     );
-    const t = o.Transform,
-      key = sha256(
-        JSON.stringify([
-          o.CustomMesh.MeshURL,
-          o.CustomMesh.DiffuseURL,
-          t.scaleX,
-          t.scaleY,
-          t.scaleZ,
-        ]),
-      ).slice(0, 16),
-      id = `sc_terrain_${key}`;
-    if (!assets.has(key))
-      assets.set(key, {
-        id,
-        name: o.Nickname.replace(/^Size \d - /, '')
-          .replace(/: Size \d$/, '')
-          .replace(/^wall /, 'Wall Set '),
-        meshUrl: o.CustomMesh.MeshURL,
-        textureUrl: o.CustomMesh.DiffuseURL,
-        ttsScale: [t.scaleX, t.scaleY, t.scaleZ],
-        attachments: attachedParts(o),
-      });
+    const t = o.Transform;
+    const candidate = {
+      name: o.Nickname.replace(/^Size \d - /, '')
+        .replace(/: Size \d$/, '')
+        .replace(/^wall /, 'Wall Set '),
+      meshUrl: o.CustomMesh.MeshURL,
+      textureUrl: o.CustomMesh.DiffuseURL,
+      ttsScale: [t.scaleX, t.scaleY, t.scaleZ],
+      attachments: attachedParts(o),
+    };
+    const known = knownAssets.find(({ id, ...definition }) =>
+      approximatelyEqual(definition, candidate),
+    );
+    const key = sha256(
+      JSON.stringify([candidate.meshUrl, candidate.textureUrl, ...candidate.ttsScale]),
+    ).slice(0, 16);
+    const asset = known ?? { id: `sc_terrain_${key}`, ...candidate };
+    const id = asset.id;
+    if (!assets.has(id)) assets.set(id, asset);
     const m = memory[o.GUID];
     assert.ok(m, `Missing saved placement: ${o.GUID}`);
     assert.ok(
@@ -76,7 +93,7 @@ for (const bag of bags) {
   }
   assert.equal(
     items.length,
-    number === 5 ? 32 : 30,
+    number >= 5 ? 32 : 30,
     `Unexpected official terrain count: map ${number}`,
   );
   maps.push({
@@ -95,7 +112,7 @@ await writeFile(
       source: 'https://steamcommunity.com/sharedfiles/filedetails/?id=3662791369',
       workshopSha256: sha256(bytes),
       policy:
-        'Official PDF maps 1-5, using their TTS memory-bag placements; decorative table excluded.',
+        'Official PDF maps 1-6, using their TTS memory-bag placements; decorative table excluded.',
       assets: [...assets.values()],
       maps,
     },

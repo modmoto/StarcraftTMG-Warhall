@@ -2,12 +2,12 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import { readFile } from 'node:fs/promises';
 const read = async file => JSON.parse(await readFile(new URL(file, import.meta.url), 'utf8'));
-test('five standard terrain maps retain all TTS pieces and world model positions', async () => {
+test('six standard terrain maps retain all TTS pieces and world model positions', async () => {
   const source = await read('../terrain-sources.json');
   const maps = await read('../Starcraft/maps.json');
   const models = await read('../terrain-models.json');
   const terrains = await read('../Starcraft/terrains.json');
-  assert.equal(maps.length, 5);
+  assert.equal(maps.length, 6);
   const report = await read('../terrain-report.json');
   assert.deepEqual(
     report.assets.filter(a => a.footprintYaw).map(a => [a.name, a.footprintYaw]),
@@ -25,7 +25,7 @@ test('five standard terrain maps retain all TTS pieces and world model positions
   assert.ok(highGround.attachments[0].layout.position.every(Number.isFinite));
   assert.deepEqual(
     maps.map(m => m.Items.length),
-    [30, 30, 30, 30, 32],
+    [30, 30, 30, 30, 32, 32],
   );
   for (const [i, map] of maps.entries()) {
     assert.equal(source.maps[i].width, 54);
@@ -49,4 +49,26 @@ test('five standard terrain maps retain all TTS pieces and world model positions
       assert.equal(new URL(model.model.textureUrl).protocol, 'https:');
     }
   }
+});
+
+test('map six has both east-west ramp assemblies and the reviewed TTS positions', async () => {
+  const source = await read('../terrain-sources.json');
+  const maps = await read('../Starcraft/maps.json');
+  const map = source.maps.find(map => map.number === 6);
+  assert.equal(map.pdfPage, 123);
+  const ramp = source.assets.find(asset => asset.name === 'High Ground');
+  const ramps = map.items.filter(item => item.id === ramp.id);
+  assert.equal(ramps.length, 2);
+  assert.deepEqual(
+    ramps.map(item => [item.x, item.z, Math.round(item.rotation)]),
+    [
+      [18.2777, 2.0579, 360],
+      [-18.4466, -2.155, 180],
+    ],
+  );
+  assert.equal(ramp.attachments.length, 1);
+  assert.equal(
+    maps.find(map => map.Id === 'sc_map_6').Items.filter(item => item.Id === ramp.id).length,
+    2,
+  );
 });

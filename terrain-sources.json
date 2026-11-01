@@ -1,7 +1,7 @@
 {
   "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=3662791369",
-  "workshopSha256": "b5de3ceb3be2c75d4ff24959898e95e81923d17c01d0b6962378edafe46e44e8",
-  "policy": "Official PDF maps 1-5, using their TTS memory-bag placements; decorative table excluded.",
+  "workshopSha256": "db25e40100cb0f3df3cca58621c50e6c6db4516e253f2972c235cd9b865c44cc",
+  "policy": "Official PDF maps 1-6, using their TTS memory-bag placements; decorative table excluded.",
   "assets": [
     {
       "id": "sc_terrain_d903fea321acfebe",
@@ -1427,6 +1427,239 @@
           "z": -5.8138,
           "rotation": 105.0016,
           "ttsGuid": "fc64ca"
+        }
+      ]
+    },
+    {
+      "name": "Official Map 6",
+      "number": 6,
+      "pdfPage": 123,
+      "width": 54,
+      "height": 36,
+      "items": [
+        {
+          "id": "sc_terrain_f2dd0d048a087d53",
+          "x": 18.2777,
+          "z": 2.0579,
+          "rotation": 359.9928,
+          "ttsGuid": "018f49"
+        },
+        {
+          "id": "sc_terrain_d903fea321acfebe",
+          "x": 2.7013,
+          "z": -13.7178,
+          "rotation": 75.012,
+          "ttsGuid": "07ed52"
+        },
+        {
+          "id": "sc_terrain_0e597f350f0c8124",
+          "x": 19.0038,
+          "z": 9.4798,
+          "rotation": 307.6684,
+          "ttsGuid": "1b124a"
+        },
+        {
+          "id": "sc_terrain_0e597f350f0c8124",
+          "x": 3.1815,
+          "z": 8.8688,
+          "rotation": 89.9947,
+          "ttsGuid": "24f861"
+        },
+        {
+          "id": "sc_terrain_0e597f350f0c8124",
+          "x": 17.5658,
+          "z": 7.8389,
+          "rotation": 116.921,
+          "ttsGuid": "297ad9"
+        },
+        {
+          "id": "sc_terrain_2e5381d1d3c2f1b7",
+          "x": -1.918,
+          "z": 5.5408,
+          "rotation": 119.9421,
+          "ttsGuid": "2b6ef0"
+        },
+        {
+          "id": "sc_terrain_5395598da3627dc3",
+          "x": -22.4321,
+          "z": 13.4483,
+          "rotation": 315.0088,
+          "ttsGuid": "305fb1"
+        },
+        {
+          "id": "sc_terrain_f305a277f53c823b",
+          "x": -3.7696,
+          "z": -14.6649,
+          "rotation": 89.9811,
+          "ttsGuid": "30b316"
+        },
+        {
+          "id": "sc_terrain_442da683d2d26342",
+          "x": -0.6637,
+          "z": 6.0749,
+          "rotation": 270.2884,
+          "ttsGuid": "37f756"
+        },
+        {
+          "id": "sc_terrain_f305a277f53c823b",
+          "x": 3.6397,
+          "z": 14.5834,
+          "rotation": 269.9837,
+          "ttsGuid": "40c149"
+        },
+        {
+          "id": "sc_terrain_f910561ff3ef2272",
+          "x": -15.8139,
+          "z": -6.2377,
+          "rotation": 279.5298,
+          "ttsGuid": "416f16"
+        },
+        {
+          "id": "sc_terrain_e8d245d869f43c5b",
+          "x": -8.5742,
+          "z": 13.1731,
+          "rotation": 290.1581,
+          "ttsGuid": "42a5d3"
+        },
+        {
+          "id": "sc_terrain_0e597f350f0c8124",
+          "x": 3.7161,
+          "z": 11.0852,
+          "rotation": 274.6223,
+          "ttsGuid": "4af188"
+        },
+        {
+          "id": "sc_terrain_f2dd0d048a087d53",
+          "x": -18.4466,
+          "z": -2.155,
+          "rotation": 179.9863,
+          "ttsGuid": "5b389f"
+        },
+        {
+          "id": "sc_terrain_0e597f350f0c8124",
+          "x": -19.1009,
+          "z": -9.6554,
+          "rotation": 126.2281,
+          "ttsGuid": "777805"
+        },
+        {
+          "id": "sc_terrain_f910561ff3ef2272",
+          "x": 15.7028,
+          "z": 6.112,
+          "rotation": 100.8998,
+          "ttsGuid": "77cd18"
+        },
+        {
+          "id": "sc_terrain_1cffe4ed683895d1",
+          "x": -7.046,
+          "z": -7.1432,
+          "rotation": 208.6042,
+          "ttsGuid": "7d7693"
+        },
+        {
+          "id": "sc_terrain_4b5400ce5539b63f",
+          "x": 14.018,
+          "z": 12.7603,
+          "rotation": 68.367,
+          "ttsGuid": "801763"
+        },
+        {
+          "id": "sc_terrain_677b1df2f3ce2914",
+          "x": 0.5182,
+          "z": -6.205,
+          "rotation": 90.0186,
+          "ttsGuid": "96b313"
+        },
+        {
+          "id": "sc_terrain_1cffe4ed683895d1",
+          "x": 6.9124,
+          "z": 6.9368,
+          "rotation": 27.7164,
+          "ttsGuid": "9c8829"
+        },
+        {
+          "id": "sc_terrain_5395598da3627dc3",
+          "x": 22.298,
+          "z": -13.5895,
+          "rotation": 225.0134,
+          "ttsGuid": "bb2e02"
+        },
+        {
+          "id": "sc_terrain_8a9da51123d91b9c",
+          "x": -17.3265,
+          "z": 8.8838,
+          "rotation": 59.9905,
+          "ttsGuid": "bcd7b1"
+        },
+        {
+          "id": "sc_terrain_0e597f350f0c8124",
+          "x": -3.79,
+          "z": -11.1984,
+          "rotation": 93.5826,
+          "ttsGuid": "bf6226"
+        },
+        {
+          "id": "sc_terrain_0e597f350f0c8124",
+          "x": -17.6529,
+          "z": -7.9352,
+          "rotation": 295.7178,
+          "ttsGuid": "bfb235"
+        },
+        {
+          "id": "sc_terrain_342caed58291ae73",
+          "x": -20.732,
+          "z": -12.8763,
+          "rotation": 92.2232,
+          "ttsGuid": "c2f010"
+        },
+        {
+          "id": "sc_terrain_e8d245d869f43c5b",
+          "x": 8.4264,
+          "z": -13.2636,
+          "rotation": 110.6355,
+          "ttsGuid": "c6f6aa"
+        },
+        {
+          "id": "sc_terrain_0e597f350f0c8124",
+          "x": -3.3534,
+          "z": -9.0781,
+          "rotation": 269.9949,
+          "ttsGuid": "cd5ea6"
+        },
+        {
+          "id": "sc_terrain_8a9da51123d91b9c",
+          "x": 17.5041,
+          "z": -9.2135,
+          "rotation": 120.0201,
+          "ttsGuid": "e5d91d"
+        },
+        {
+          "id": "sc_terrain_2e5381d1d3c2f1b7",
+          "x": 1.5602,
+          "z": -5.7961,
+          "rotation": 300.0075,
+          "ttsGuid": "f0c0e9"
+        },
+        {
+          "id": "sc_terrain_e45c33c511633ae2",
+          "x": -2.7307,
+          "z": 13.5495,
+          "rotation": 252.7329,
+          "ttsGuid": "f91c5a"
+        },
+        {
+          "id": "sc_terrain_342caed58291ae73",
+          "x": 20.6924,
+          "z": 12.7366,
+          "rotation": 273.842,
+          "ttsGuid": "fb2941"
+        },
+        {
+          "id": "sc_terrain_4b5400ce5539b63f",
+          "x": -14.1579,
+          "z": -12.9976,
+          "rotation": 247.8292,
+          "ttsGuid": "ffa23e"
         }
       ]
     }

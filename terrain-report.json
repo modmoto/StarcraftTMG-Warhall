@@ -25,6 +25,11 @@
       "name": "Official Map 5",
       "pdfPage": 122,
       "pieces": 32
+    },
+    {
+      "name": "Official Map 6",
+      "pdfPage": 123,
+      "pieces": 32
     }
   ],
   "assets": [
