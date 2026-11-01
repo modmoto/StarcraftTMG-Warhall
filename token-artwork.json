@@ -1,0 +1,61 @@
+{
+  "artwork": {
+    "activation_blue": {
+      "front": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft/assets/tokens/7b0c2b7e786407b46e69561c6a46847daa249fd05ee1e1e0706fd86c93f0259a.png",
+      "back": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft/assets/tokens/b3acaf8fd253b0590dc1d59b49107b7ca01a553639c232b5ee3101a41c234d17.png"
+    },
+    "activation_red": {
+      "front": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft/assets/tokens/e23cd99a23284270767dc9189d6060dbf29ef40fecc72bd30918d6b17cfe603e.png",
+      "back": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft/assets/tokens/ac16eb24ba5b14f64de185c083a9b152cfb1cd54819443686f7692bd7dfdf50d.png"
+    },
+    "faction_terran_color": {
+      "front": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft/assets/tokens/1966c7db2f9fb2556081bcaed1c445567dd93bcc416869b96acb28bc9a770ee5.png",
+      "back": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft/assets/tokens/1966c7db2f9fb2556081bcaed1c445567dd93bcc416869b96acb28bc9a770ee5.png"
+    },
+    "faction_terran_white": {
+      "front": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft/assets/tokens/5fd9f5104896a2f60d958ca41a4c5d166d62a6e71757ae2e981525f3f133b5d1.png",
+      "back": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft/assets/tokens/5fd9f5104896a2f60d958ca41a4c5d166d62a6e71757ae2e981525f3f133b5d1.png"
+    },
+    "faction_protoss_color": {
+      "front": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft/assets/tokens/2b0d69b862c276ea77cbd384423afaab949e2715c9b9ab9e077499a4d97f98b5.png",
+      "back": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft/assets/tokens/2b0d69b862c276ea77cbd384423afaab949e2715c9b9ab9e077499a4d97f98b5.png"
+    },
+    "faction_protoss_white": {
+      "front": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft/assets/tokens/3270ff2a7f3b9bc0d68dd6fae7a9fde341a91367943e6861490313d2457feeab.png",
+      "back": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft/assets/tokens/3270ff2a7f3b9bc0d68dd6fae7a9fde341a91367943e6861490313d2457feeab.png"
+    },
+    "faction_zerg_color": {
+      "front": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft/assets/tokens/aaeb4243b6e1d62beb5e6fff050a09c49bd661143091ca16c46508630dcfddbe.png",
+      "back": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft/assets/tokens/aaeb4243b6e1d62beb5e6fff050a09c49bd661143091ca16c46508630dcfddbe.png"
+    },
+    "faction_zerg_white": {
+      "front": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft/assets/tokens/895e5446c3d5cfb2965754a650175147e996d1a859aa6dfb0623378421dfb5a8.png",
+      "back": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft/assets/tokens/895e5446c3d5cfb2965754a650175147e996d1a859aa6dfb0623378421dfb5a8.png"
+    },
+    "buff_debuff": {
+      "front": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft/assets/tokens/953c9878bbdd594c9c20a3147d222231ea8f561dc8cd341908b009dbf3d137ea.png",
+      "back": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft/assets/tokens/afc2ecbb39c6e2bd29a3ea90577b5882549a6248e00e212e25ecf4c6381ae5a8.png"
+    },
+    "stim": {
+      "front": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft/assets/tokens/9492cd08c6446292983805ad4b41a3a764b5c091dbfc2c9a7f6aabecb1f5a33a.png",
+      "back": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft/assets/tokens/9492cd08c6446292983805ad4b41a3a764b5c091dbfc2c9a7f6aabecb1f5a33a.png"
+    },
+    "burrowed": {
+      "front": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft/assets/tokens/25c58c9c06a73d757cddd536eaa1d70f63a8fed87c33231323bf6e07d2a4a4b8.png",
+      "back": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft/assets/tokens/25c58c9c06a73d757cddd536eaa1d70f63a8fed87c33231323bf6e07d2a4a4b8.png"
+    },
+    "hidden": {
+      "front": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft/assets/tokens/e1db45f71a44bc72b69eae099695ea923bb86e72af568304d1594fba7eea252b.png",
+      "back": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft/assets/tokens/e1db45f71a44bc72b69eae099695ea923bb86e72af568304d1594fba7eea252b.png"
+    },
+    "siege": {
+      "front": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft/assets/tokens/13bda63f7125f93bc4d3e72a98cae82fb8b04e4ab0a3794a51cd27a8d1e4ecbc.png",
+      "back": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft/assets/tokens/13bda63f7125f93bc4d3e72a98cae82fb8b04e4ab0a3794a51cd27a8d1e4ecbc.png"
+    }
+  },
+  "icons": {
+    "terran": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft/assets/tokens/d6a773b0ef59e962d386da0c5b7f355a832ba6df69f946f3d44fb3e700daed3c.png",
+    "protoss": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft/assets/tokens/766630a59ade4c04fa76e799f5b2687cb1e318eededd802c52fce198f2285723.png",
+    "zerg": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft/assets/tokens/0056c8356bee3def95586d6af8dfcdd884c0488b19af0ce1fe8290afb5b66b93.png"
+  }
+}

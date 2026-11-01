@@ -8,6 +8,7 @@ Release 12 removes the equipment child from each weapon stat row, eliminating th
 
 ## Next work
 
+- [ ] Verify release 29 round tokens in Cards → Tokens: activation and buff/debuff Flip, inverted faction palettes, status artwork and 25 mm size. Verify decorated scenario marker centres after refreshing the shared skins.
 - [x] Implement local unit-rule cleanup from current official PDFs: individually named abilities, clear phases/costs, nested keyword links and the New Recruit reference comparison. Unit descriptions omit provenance, base sizes and manual-upgrade placeholders. Native weapon tables appear under phase headings. See [the implementation notes](docs/unit-rules.md). Included in test data release 11.
 - [ ] Verify release 28 profile layout in Warhall Test: abilities above weapons, full weapon-name headings, six-column stats, horizontal clickable keywords and unit-specific Devastating Charge summaries.
 - [ ] Verify the final L-shaped Wall Set 4/5 footprints in Warhall Test on macOS. Their skin rotation and map rotation compensate each other, preserving world placements. Other wall bases must retain their current orientation.
@@ -16,6 +17,7 @@ Release 12 removes the equipment child from each weapon stat row, eliminating th
 
 ## Requires Warhall client/catalogue support
 
+- [ ] Verify faction dropdown icons after adding release 29 icons.json. The extra left space is the image slot; faction names have no whitespace.
 - [ ] Fix **Flip map**: rotate terrain positions and orientations together by 180 degrees so asymmetric walls and ramps retain their layout. Verify two flips restore the original layout. See [the client findings](docs/warhall-flip-limitations.md).
 - [ ] Fix **Flip deployment**: include shared deployment overlays and mission markers, preserving the flip when switching/reloading deployments. See [the client findings](docs/warhall-flip-limitations.md).
 - [ ] Restore coloured deployment border lines for the red and blue deployment sides; verify colours remain correct when switching and flipping deployments.

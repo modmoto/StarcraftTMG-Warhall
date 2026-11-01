@@ -7,6 +7,8 @@ import { describeProfile, describeUnit } from './descriptions.mjs';
 import { createReport, unitReport } from './report.mjs';
 import { loadKeywordRules, linkKeywordRules, linkFactionRules } from './rule-links.mjs';
 import { validateData } from './validate.mjs';
+import { tokenCards, factionIcons } from '../tokens/package.mjs';
+import { projectRoot } from '../paths.mjs';
 
 const staticFiles = [
   'tokens.json',
@@ -15,6 +17,7 @@ const staticFiles = [
   'deployments.json',
   'maps.json',
   'cards.json',
+  'icons.json',
   'gameconfig.json',
   'version.json',
 ];
@@ -113,6 +116,16 @@ async function initialData(template) {
     }
   }
 
+  const tokenArtwork = await readJson(path.join(projectRoot, 'token-artwork.json'));
+  data['cards.json'] = [
+    ...data['cards.json'].filter(card => !card.Id.startsWith('sc_token_')),
+    ...tokenCards(tokenArtwork.artwork),
+  ];
+  data['icons.json'] = [
+    ...data['icons.json'].filter(icon => !icon.Id.startsWith('sc_icon_')),
+    ...factionIcons(tokenArtwork.icons),
+  ];
+
   data['gameconfig.json'].WoundsAttribute = 'HP';
   data['gameconfig.json'].ShowObjectiveSection = false;
   data['gameconfig.json'].ShowDeploymentSection = true;
@@ -157,6 +170,10 @@ export async function buildWarhallPackage(source, template = defaultDataDirector
   } catch (error) {
     if (error.code !== 'ENOENT') throw error;
   }
+  hierarchy.Cards ??= {};
+  hierarchy.Cards.Tokens = data['cards.json']
+    .filter(card => card.Id.startsWith('sc_token_'))
+    .map(card => card.Id);
   const bases = new Map();
 
   for (const faction of source.factions) {

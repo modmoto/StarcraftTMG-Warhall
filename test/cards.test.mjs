@@ -3,7 +3,9 @@ import assert from 'node:assert/strict';
 import { readFile } from 'node:fs/promises';
 const read = async file => JSON.parse(await readFile(new URL(file, import.meta.url), 'utf8'));
 test('board cards are sharp, contain no unit cards, and have clean descriptions', async () => {
-  const cards = await read('../Starcraft/cards.json');
+  const cards = (await read('../Starcraft/cards.json')).filter(
+    card => !card.Id.startsWith('sc_token_'),
+  );
   const hierarchy = await read('../Starcraft/hierarchy.json');
   const report = await read('../cards-report.json');
   assert.equal(cards.length, 63);

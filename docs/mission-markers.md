@@ -33,3 +33,7 @@ Generate with `npm run models:catalogue`, then inspect the numbered previews. Af
 The user removed the numerals again. All five stable deployment profile assignments remain so existing references stay valid, but same-color profiles now share identical open outline geometry. There is no center disc or numeral. Red, blue and green retain the sci-fi outer stroke and rails, 32 mm selection footprint and 184.4 mm outer diameter.
 
 Rebuild the catalogue and publish the five changed marker assignments with their regenerated thumbnails after pushing the hosted assets. Ordinary fingerprint reconciliation replaces the obsolete owned numbered skins; no full-catalogue replacement is needed.
+
+## Decorated centres (release 29)
+
+The user requested more distinctive inner scenario markers. The 32 mm centre now has a coloured rim, dark inset and white sci-fi targeting reticle, matching its red, blue or green outer outline. No numbers are restored. All centre geometry fits within a 30 mm circle, while the outer control outline stays open and retains its previous 184.4 mm diameter. Publish only the five changed marker skins with fresh thumbnails after pushing assets.

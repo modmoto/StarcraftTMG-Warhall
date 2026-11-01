@@ -1,0 +1,24 @@
+{
+  "workshop": "https://steamcommunity.com/sharedfiles/filedetails/?id=3662791369",
+  "method": "Light metallic emblem silhouette isolated from the blue TTS faction artwork; recoloured by the token generator.",
+  "factions": [
+    {
+      "faction": "terran",
+      "sourceUrl": "https://steamusercontent-a.akamaihd.net/ugc/9555775162993493912/FF6F57348A2DBB07CC9FAEDFDEAD0CCA4279449D/",
+      "sourceSha256": "6d1b35df919af6e0d9a03439792987c5bc604d50c0cb2e25a228f600ee695c97",
+      "file": "token-artwork/factions/terran.png"
+    },
+    {
+      "faction": "protoss",
+      "sourceUrl": "https://steamusercontent-a.akamaihd.net/ugc/14478050512341218211/D22D7C227A21977ABD3A811FDE16B1F9A2CA982E/",
+      "sourceSha256": "4a041e93a4697e9a20fce858048470a7a208377b5abc893318ac7fed5d4900df",
+      "file": "token-artwork/factions/protoss.png"
+    },
+    {
+      "faction": "zerg",
+      "sourceUrl": "https://steamusercontent-a.akamaihd.net/ugc/11101067436320944369/DB49231593DED75EA21F33B00DCEB9AB028E47A2/",
+      "sourceSha256": "cd9145d09fc3b88d8e775335b982e855980a06481f5ff5f381bf09444d492cac",
+      "file": "token-artwork/factions/zerg.png"
+    }
+  ]
+}

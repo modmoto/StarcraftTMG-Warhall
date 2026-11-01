@@ -59,14 +59,21 @@ test('five mission marker assignments use open control ring geometry, not separa
   );
 });
 
-test('outline geometry leaves the interior empty instead of relying on alpha transparency', () => {
+test('control rings stay open outside their decorated 32mm center', () => {
   const meshes = createMarkerGeometry({ color: 'blue', number: 2 });
-  assert.equal(meshes.length, 1);
+  assert.equal(meshes.length, 4);
   const outline = meshes.find(mesh => mesh.role === 'outline');
   assert.ok(
     outline.vertices.every(([x, , z]) => Math.hypot(x, z) > 4 && Math.hypot(x, z) <= 9.22 + 1e-9),
   );
   assert.ok(meshes.every(mesh => mesh.role !== 'number'));
+  for (const mesh of meshes.filter(mesh => mesh.role !== 'outline')) {
+    assert.ok(mesh.vertices.every(([x, , z]) => Math.hypot(x, z) <= 1.6));
+  }
+  assert.deepEqual(
+    [...meshes.find(mesh => mesh.role === 'center').texture.data],
+    [24, 103, 208, 255],
+  );
   for (const mesh of meshes) {
     assert.equal(mesh.texture.data.length, 4);
     assert.equal(mesh.texture.data[3], 255);

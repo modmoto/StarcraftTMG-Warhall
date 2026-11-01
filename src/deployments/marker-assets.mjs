@@ -116,7 +116,50 @@ export function createMarkerGeometry({ color }) {
         ),
       );
   }
-  return [merge(meshes, accents[color], 'outline')];
+  const disc = (radius, y) =>
+    polygon(
+      Array.from({ length: 64 }, (_, i) => [
+        Math.cos((i * Math.PI) / 32) * radius,
+        Math.sin((i * Math.PI) / 32) * radius,
+      ]),
+      y,
+    );
+  const details = [annulus(0.82, 0.94, 0.24)];
+  for (let quadrant = 0; quadrant < 4; quadrant++) {
+    const angle = (quadrant * Math.PI) / 2;
+    const line = stroke(
+      [
+        [0.6, 0],
+        [1.2, 0],
+      ],
+      0.13,
+    );
+    for (const mesh of line) {
+      mesh.vertices = mesh.vertices.map(([x, , z]) => [
+        x * Math.cos(angle) + z * Math.sin(angle),
+        0.24,
+        -x * Math.sin(angle) + z * Math.cos(angle),
+      ]);
+      details.push(mesh);
+    }
+  }
+  details.push(
+    polygon(
+      [
+        [-0.16, 0],
+        [0, 0.16],
+        [0.16, 0],
+        [0, -0.16],
+      ],
+      0.24,
+    ),
+  );
+  return [
+    merge(meshes, accents[color], 'outline'),
+    merge([disc(1.5, 0.2)], accents[color], 'center'),
+    merge([disc(1.1, 0.22)], [16, 27, 39], 'center-inset'),
+    merge(details, [245, 249, 255], 'center-detail'),
+  ];
 }
 export async function createMarkerAssets({
   directory = path.join(projectRoot, 'model-assets'),
