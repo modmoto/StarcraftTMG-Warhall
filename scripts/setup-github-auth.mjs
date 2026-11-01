@@ -75,6 +75,22 @@ if (process.argv.includes('--prepare')) {
 }
 if (!process.stdin.isTTY)
   throw new Error('Run npm run auth:github in your terminal to approve GitHub browser sign-in.');
+let git;
+for (const candidate of [
+  process.env.WARHALL_GIT,
+  'git',
+  '/Applications/Xcode.app/Contents/Developer/usr/bin/git',
+].filter(Boolean)) {
+  try {
+    if ((await execute(candidate, ['--version'])).code === 0) {
+      git = candidate;
+      break;
+    }
+  } catch {}
+}
+if (!git) throw new Error('Git is unavailable. Set WARHALL_GIT to a working Git executable.');
+if (path.isAbsolute(git))
+  process.env.PATH = path.dirname(git) + path.delimiter + (process.env.PATH ?? '');
 const authenticated = await execute(
   gh,
   ['auth', 'login', '--hostname', 'github.com', '--git-protocol', 'https', '--web'],
@@ -91,20 +107,6 @@ if (account.code !== 0 || !/^[a-z\d-]+$/i.test(account.output))
   throw new Error('Could not resolve the authenticated GitHub account');
 const quote = value => `'${value.replace(/'/g, "'\\''")}'`;
 const helper = `!${quote(gh)} auth git-credential`;
-let git;
-for (const candidate of [
-  process.env.WARHALL_GIT,
-  'git',
-  '/Applications/Xcode.app/Contents/Developer/usr/bin/git',
-].filter(Boolean)) {
-  try {
-    if ((await execute(candidate, ['--version'])).code === 0) {
-      git = candidate;
-      break;
-    }
-  } catch {}
-}
-if (!git) throw new Error('Git is unavailable. Set WARHALL_GIT to a working Git executable.');
 for (const args of [
   ['config', '--local', 'credential.https://github.com.username', account.output],
   ['config', '--local', 'credential.https://github.com.helper', ''],
