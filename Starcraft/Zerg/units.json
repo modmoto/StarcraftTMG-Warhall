@@ -3,7 +3,7 @@
     "Id": "pdf_Zerg_unit_bile_launcher",
     "Name": "Bile Launcher",
     "Type": "Unit",
-    "Description": "Categories: Support, Armoured, Biological, Ground",
+    "Description": "Categories: Support, Armoured, Biological, Ground\nModels / Supply: 1-1: 1",
     "BasicProfileIds": [
       "pdf_Zerg_profile_bile_launcher"
     ],
@@ -15,7 +15,7 @@
     "Id": "pdf_Zerg_unit_corpsers_roach",
     "Name": "Corpsers (Roach)",
     "Type": "Unit",
-    "Description": "Categories: Core, Armoured, Biological, Ground",
+    "Description": "Categories: Core, Armoured, Biological, Ground\nModels / Supply: 1-1: 0 | 2-3: 1",
     "BasicProfileIds": [
       "pdf_Zerg_profile_corpsers_roach"
     ],
@@ -27,7 +27,7 @@
     "Id": "pdf_Zerg_unit_defiler",
     "Name": "Defiler",
     "Type": "Unit",
-    "Description": "Categories: Support, Biological, Light, Psionic, Ground",
+    "Description": "Categories: Support, Biological, Light, Psionic, Ground\nModels / Supply: 1-1: 1",
     "BasicProfileIds": [
       "pdf_Zerg_profile_defiler"
     ],
@@ -39,7 +39,7 @@
     "Id": "pdf_Zerg_unit_hydralisks",
     "Name": "Hydralisks",
     "Type": "Unit",
-    "Description": "Categories: Elite, Biological, Light, Ground",
+    "Description": "Categories: Elite, Biological, Light, Ground\nModels / Supply: 1-1: 1 | 2-2: 2 | 3-4: 3",
     "BasicProfileIds": [
       "pdf_Zerg_profile_hydralisks"
     ],
@@ -51,7 +51,7 @@
     "Id": "pdf_Zerg_unit_kerrigan",
     "Name": "Kerrigan",
     "Type": "Unit",
-    "Description": "Categories: Hero, Biological, Psionic, Ground",
+    "Description": "Categories: Hero, Biological, Psionic, Ground\nModels / Supply: 1-1: 1",
     "BasicProfileIds": [
       "pdf_Zerg_profile_kerrigan"
     ],
@@ -63,7 +63,7 @@
     "Id": "pdf_Zerg_unit_kerrigan_swarm_raptors_zergling",
     "Name": "Kerrigan Swarm Raptors (Zergling)",
     "Type": "Unit",
-    "Description": "Categories: Elite, Biological, Light, Ground",
+    "Description": "Categories: Elite, Biological, Light, Ground\nModels / Supply: 1-3: 0 | 4-6: 1",
     "BasicProfileIds": [
       "pdf_Zerg_profile_kerrigan_swarm_raptors_zergling"
     ],
@@ -75,7 +75,7 @@
     "Id": "pdf_Zerg_unit_omega_worm",
     "Name": "Omega Worm",
     "Type": "Unit",
-    "Description": "Categories: Other, Armoured, Biological, Ground",
+    "Description": "Categories: Other, Armoured, Biological, Ground\nModels / Supply: 1-1: 0",
     "BasicProfileIds": [
       "pdf_Zerg_profile_omega_worm"
     ],
@@ -87,7 +87,7 @@
     "Id": "pdf_Zerg_unit_queen",
     "Name": "Queen",
     "Type": "Unit",
-    "Description": "Categories: Support, Armoured, Biological, Psionic, Ground",
+    "Description": "Categories: Support, Armoured, Biological, Psionic, Ground\nModels / Supply: 1-1: 1",
     "BasicProfileIds": [
       "pdf_Zerg_profile_queen"
     ],
@@ -99,7 +99,7 @@
     "Id": "pdf_Zerg_unit_raptors_zergling",
     "Name": "Raptors (Zergling)",
     "Type": "Unit",
-    "Description": "Categories: Elite, Biological, Light, Ground",
+    "Description": "Categories: Elite, Biological, Light, Ground\nModels / Supply: 1-6: 0 | 7-12: 1 | 13-18: 2",
     "BasicProfileIds": [
       "pdf_Zerg_profile_raptors_zergling"
     ],
@@ -111,7 +111,7 @@
     "Id": "pdf_Zerg_unit_ravagers",
     "Name": "Ravagers",
     "Type": "Unit",
-    "Description": "Categories: Core, Armoured, Biological, Ground",
+    "Description": "Categories: Core, Armoured, Biological, Ground\nModels / Supply: 1-1: 1 | 2-2: 2",
     "BasicProfileIds": [
       "pdf_Zerg_profile_ravagers"
     ],
@@ -123,7 +123,7 @@
     "Id": "pdf_Zerg_unit_roaches",
     "Name": "Roaches",
     "Type": "Unit",
-    "Description": "Categories: Core, Armoured, Biological, Ground",
+    "Description": "Categories: Core, Armoured, Biological, Ground\nModels / Supply: 1-1: 0 | 2-3: 1",
     "BasicProfileIds": [
       "pdf_Zerg_profile_roaches"
     ],
@@ -135,7 +135,7 @@
     "Id": "pdf_Zerg_unit_roachling",
     "Name": "Roachling",
     "Type": "Unit",
-    "Description": "Categories: Other, Biological, Light, Ground",
+    "Description": "Categories: Other, Biological, Light, Ground\nModels / Supply: 1-3: 0",
     "BasicProfileIds": [
       "pdf_Zerg_profile_roachling"
     ],
@@ -147,7 +147,7 @@
     "Id": "pdf_Zerg_unit_swarmlings",
     "Name": "Swarmlings",
     "Type": "Unit",
-    "Description": "Categories: Core, Biological, Light, Ground",
+    "Description": "Categories: Core, Biological, Light, Ground\nModels / Supply: 1-6: 0 | 7-18: 1",
     "BasicProfileIds": [
       "pdf_Zerg_profile_swarmlings"
     ],
@@ -159,7 +159,7 @@
     "Id": "pdf_Zerg_unit_vileling_zergling",
     "Name": "Vileling (Zergling)",
     "Type": "Unit",
-    "Description": "Categories: Core, Biological, Light, Ground",
+    "Description": "Categories: Core, Biological, Light, Ground\nModels / Supply: 1-6: 1 | 7-18: 2",
     "BasicProfileIds": [
       "pdf_Zerg_profile_vileling_zergling"
     ],
@@ -171,7 +171,7 @@
     "Id": "pdf_Zerg_unit_viles_roach",
     "Name": "Viles (Roach)",
     "Type": "Unit",
-    "Description": "Categories: Core, Armoured, Biological, Ground",
+    "Description": "Categories: Core, Armoured, Biological, Ground\nModels / Supply: 1-1: 0 | 2-3: 1",
     "BasicProfileIds": [
       "pdf_Zerg_profile_viles_roach"
     ],
@@ -183,7 +183,7 @@
     "Id": "pdf_Zerg_unit_zagara",
     "Name": "Zagara",
     "Type": "Unit",
-    "Description": "Categories: Hero, Biological, Psionic, Ground",
+    "Description": "Categories: Hero, Biological, Psionic, Ground\nModels / Supply: 1-1: 1",
     "BasicProfileIds": [
       "pdf_Zerg_profile_zagara"
     ],
@@ -195,7 +195,7 @@
     "Id": "pdf_Zerg_unit_zerglings",
     "Name": "Zerglings",
     "Type": "Unit",
-    "Description": "Categories: Core, Biological, Light, Ground",
+    "Description": "Categories: Core, Biological, Light, Ground\nModels / Supply: 1-6: 0 | 7-12: 1 | 13-18: 2",
     "BasicProfileIds": [
       "pdf_Zerg_profile_zerglings"
     ],

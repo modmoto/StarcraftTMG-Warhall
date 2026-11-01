@@ -179,7 +179,7 @@ test('profiles render phase sections and left-aligned full-width weapon tables',
   assert.equal(data['gameconfig.json'].ShowStatlineHeader, false);
   assert.equal(children[0].Name, '');
   assert.ok(!('Supply' in children[0].Attributes));
-  assert.doesNotMatch(data['Terran/units.json'][0].Description, /Supply/);
+  assert.match(data['Terran/units.json'][0].Description, /^Categories: [^\n]+\nModels \/ Supply:/);
 });
 
 test('catalogue activation typos and split PDF possessives format cleanly without changing values', () => {

@@ -3,7 +3,7 @@
     "Id": "pdf_Terran_unit_auto_turret",
     "Name": "Auto-Turret",
     "Type": "Unit",
-    "Description": "Categories: Other, Armoured, Mechanical, Ground",
+    "Description": "Categories: Other, Armoured, Mechanical, Ground\nModels / Supply: 1-1: 0",
     "BasicProfileIds": [
       "pdf_Terran_profile_auto_turret"
     ],
@@ -15,7 +15,7 @@
     "Id": "pdf_Terran_unit_goliath",
     "Name": "Goliath",
     "Type": "Unit",
-    "Description": "Categories: Elite, Armoured, Mechanical, Ground",
+    "Description": "Categories: Elite, Armoured, Mechanical, Ground\nModels / Supply: 1-1: 2",
     "BasicProfileIds": [
       "pdf_Terran_profile_goliath"
     ],
@@ -27,7 +27,7 @@
     "Id": "pdf_Terran_unit_holo_decoy",
     "Name": "Holo Decoy",
     "Type": "Unit",
-    "Description": "Categories: Other, Psionic, Ground",
+    "Description": "Categories: Other, Psionic, Ground\nModels / Supply: 1-1: 0",
     "BasicProfileIds": [
       "pdf_Terran_profile_holo_decoy"
     ],
@@ -39,7 +39,7 @@
     "Id": "pdf_Terran_unit_jim_raynor",
     "Name": "Jim Raynor",
     "Type": "Unit",
-    "Description": "Categories: Hero, Biological, Ground",
+    "Description": "Categories: Hero, Biological, Ground\nModels / Supply: 1-1: 1",
     "BasicProfileIds": [
       "pdf_Terran_profile_jim_raynor"
     ],
@@ -51,7 +51,7 @@
     "Id": "pdf_Terran_unit_marauders",
     "Name": "Marauders",
     "Type": "Unit",
-    "Description": "Categories: Core, Armoured, Biological, Ground",
+    "Description": "Categories: Core, Armoured, Biological, Ground\nModels / Supply: 1-1: 0 | 2-2: 1 | 3-4: 2",
     "BasicProfileIds": [
       "pdf_Terran_profile_marauders"
     ],
@@ -63,7 +63,7 @@
     "Id": "pdf_Terran_unit_medics",
     "Name": "Medics",
     "Type": "Unit",
-    "Description": "Categories: Support, Biological, Light, Ground",
+    "Description": "Categories: Support, Biological, Light, Ground\nModels / Supply: 1-1: 0 | 2-3: 1",
     "BasicProfileIds": [
       "pdf_Terran_profile_medics"
     ],
@@ -75,7 +75,7 @@
     "Id": "pdf_Terran_unit_nova_assault_mode",
     "Name": "Nova Assault Mode",
     "Type": "Unit",
-    "Description": "Categories: Hero, Biological, Psionic, Ground",
+    "Description": "Categories: Hero, Biological, Psionic, Ground\nModels / Supply: 1-1: 1",
     "BasicProfileIds": [
       "pdf_Terran_profile_nova_assault_mode"
     ],
@@ -87,7 +87,7 @@
     "Id": "pdf_Terran_unit_nova_stealth_mode",
     "Name": "Nova Stealth Mode",
     "Type": "Unit",
-    "Description": "Categories: Hero, Biological, Psionic, Ground",
+    "Description": "Categories: Hero, Biological, Psionic, Ground\nModels / Supply: 1-1: 1",
     "BasicProfileIds": [
       "pdf_Terran_profile_nova_stealth_mode"
     ],
@@ -99,7 +99,7 @@
     "Id": "pdf_Terran_unit_point_defense_drone",
     "Name": "Point Defense Drone",
     "Type": "Unit",
-    "Description": "Categories: Other, Armoured, Flying, Mechanical",
+    "Description": "Categories: Other, Armoured, Flying, Mechanical\nModels / Supply: 1-1: 0",
     "BasicProfileIds": [
       "pdf_Terran_profile_point_defense_drone"
     ],
@@ -111,7 +111,7 @@
     "Id": "pdf_Terran_unit_raven",
     "Name": "Raven",
     "Type": "Unit",
-    "Description": "Categories: Support, Light, Mechanical, Flying",
+    "Description": "Categories: Support, Light, Mechanical, Flying\nModels / Supply: 1-1: 1",
     "BasicProfileIds": [
       "pdf_Terran_profile_raven"
     ],
@@ -123,7 +123,7 @@
     "Id": "pdf_Terran_unit_raynor_s_raiders",
     "Name": "Raynor's Raiders",
     "Type": "Unit",
-    "Description": "Categories: Core, Biological, Light, Ground",
+    "Description": "Categories: Core, Biological, Light, Ground\nModels / Supply: 1-6: 1",
     "BasicProfileIds": [
       "pdf_Terran_profile_raynor_s_raiders"
     ],
@@ -135,7 +135,7 @@
     "Id": "pdf_Terran_unit_sabotage_drone",
     "Name": "Sabotage Drone",
     "Type": "Unit",
-    "Description": "Categories: Other, Armoured, Mechanical, Ground",
+    "Description": "Categories: Other, Armoured, Mechanical, Ground\nModels / Supply: 1-1: 0",
     "BasicProfileIds": [
       "pdf_Terran_profile_sabotage_drone"
     ],
@@ -147,7 +147,7 @@
     "Id": "pdf_Terran_unit_siege_tank",
     "Name": "Siege Tank",
     "Type": "Unit",
-    "Description": "Categories: Elite, Armoured, Mechanical, Ground",
+    "Description": "Categories: Elite, Armoured, Mechanical, Ground\nModels / Supply: 1-1: 2",
     "BasicProfileIds": [
       "pdf_Terran_profile_siege_tank"
     ],
@@ -159,7 +159,7 @@
     "Id": "pdf_Terran_unit_spec_ops_marauder_marauder",
     "Name": "Spec Ops Marauder (Marauder)",
     "Type": "Unit",
-    "Description": "Categories: Core, Armoured, Biological, Ground",
+    "Description": "Categories: Core, Armoured, Biological, Ground\nModels / Supply: 1-1: 0 | 2-2: 1",
     "BasicProfileIds": [
       "pdf_Terran_profile_spec_ops_marauder_marauder"
     ],
@@ -171,7 +171,7 @@
     "Id": "unit_marine",
     "Name": "Marines",
     "Type": "Unit",
-    "Description": "Categories: Core, Biological, Light, Ground",
+    "Description": "Categories: Core, Biological, Light, Ground\nModels / Supply: 1-3: 0 | 4-6: 1 | 7-9: 2",
     "BasicProfileIds": [
       "prof_marine"
     ],
