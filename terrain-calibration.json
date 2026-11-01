@@ -1,0 +1,2606 @@
+{
+  "schemaVersion": 1,
+  "units": "inches; centered 54x36 board; X right, Z up in the PDF map image",
+  "pdf": {
+    "url": "https://archon-studio.com/files/manuals/sc/StarCraft-TMG_EN.pdf",
+    "sha256": "27639c562e6db9777dd9ba984d0c9f9b581841ec30166848e021f893cd00ea54",
+    "pages": [
+      118,
+      119,
+      120,
+      121,
+      122,
+      123
+    ],
+    "imageSizePixels": [
+      1287,
+      869
+    ],
+    "boardPixelBounds": [
+      12,
+      14,
+      1275,
+      856
+    ]
+  },
+  "gridInches": 6,
+  "placementIncrementInches": 0.125,
+  "rotationIncrementDegrees": 15,
+  "policy": "PDF footprint measurements are raster estimates, not official physical dimensions. Reviewed centers and touching wall joins use 1/8-inch subdivisions of the six-inch grid. Cardinal wall centerlines use half-cell lines where the PDF is close, otherwise quarter-inch reference lines. Keep intentional diagonals in 15-degree steps. Heights come from authored TTS XYZ scales; the top-down PDF cannot establish heights.",
+  "assets": {
+    "Head Statue": {
+      "footprintInches": [
+        2.875,
+        4.25
+      ],
+      "alignmentYaw": 0,
+      "measurement": "Median of color-isolated PDF footprints in the snapped terrain frame, subtracting the one-pixel mask dilation, rounded to 1/8 inch.",
+      "measuredMedianInches": [
+        2.9286,
+        4.3339
+      ],
+      "measurementSamples": 12
+    },
+    "Wall Set 2": {
+      "footprintInches": [
+        8.875,
+        2.625
+      ],
+      "alignmentYaw": 0,
+      "measurement": "Median of color-isolated PDF footprints in the snapped terrain frame, subtracting the one-pixel mask dilation, rounded to 1/8 inch.",
+      "measuredMedianInches": [
+        8.9466,
+        2.706
+      ],
+      "measurementSamples": 12
+    },
+    "Wall Set 3": {
+      "footprintInches": [
+        5.0,
+        2.125
+      ],
+      "alignmentYaw": 0,
+      "measurement": "Median of color-isolated PDF footprints in the snapped terrain frame, subtracting the one-pixel mask dilation, rounded to 1/8 inch.",
+      "measuredMedianInches": [
+        5.0327,
+        2.1919
+      ],
+      "measurementSamples": 12
+    },
+    "grass": {
+      "footprintInches": [
+        2.824657,
+        1.469625
+      ],
+      "alignmentYaw": 0,
+      "measurement": "Existing authored footprint; the PDF does not isolate the shrub silhouette reliably."
+    },
+    "Temple Obelisk": {
+      "footprintInches": [
+        1.625,
+        1.625
+      ],
+      "alignmentYaw": 0,
+      "measurement": "Median of color-isolated PDF footprints in the snapped terrain frame, subtracting the one-pixel mask dilation, rounded to 1/8 inch.",
+      "measuredMedianInches": [
+        1.7381,
+        1.6943
+      ],
+      "measurementSamples": 12
+    },
+    "Wall Set 4": {
+      "footprintInches": [
+        7.625,
+        3.875
+      ],
+      "alignmentYaw": 20,
+      "measurement": "Median of color-isolated PDF footprints in the snapped terrain frame, subtracting the one-pixel mask dilation, rounded to 1/8 inch.",
+      "centerlineZ": -1.4375,
+      "measuredMedianInches": [
+        7.5249,
+        3.8907
+      ],
+      "measurementSamples": 12
+    },
+    "Wall Set 5": {
+      "footprintInches": [
+        7.625,
+        3.875
+      ],
+      "alignmentYaw": -20,
+      "measurement": "Median of color-isolated PDF footprints in the snapped terrain frame, subtracting the one-pixel mask dilation, rounded to 1/8 inch.",
+      "centerlineZ": -1.4375,
+      "measuredMedianInches": [
+        7.8029,
+        3.9762
+      ],
+      "measurementSamples": 12
+    },
+    "Protoss Banner": {
+      "footprintInches": [
+        2.0,
+        1.25
+      ],
+      "alignmentYaw": 0,
+      "measurement": "Median of color-isolated PDF footprints in the snapped terrain frame, subtracting the one-pixel mask dilation, rounded to 1/8 inch.",
+      "measuredMedianInches": [
+        2.0144,
+        1.3947
+      ],
+      "measurementSamples": 12
+    },
+    "Wall Set 6": {
+      "footprintInches": [
+        3.125,
+        1.25
+      ],
+      "alignmentYaw": 0,
+      "measurement": "Median of color-isolated PDF footprints in the snapped terrain frame, subtracting the one-pixel mask dilation, rounded to 1/8 inch.",
+      "measuredMedianInches": [
+        3.2451,
+        1.3914
+      ],
+      "measurementSamples": 12
+    },
+    "Wall Set 1": {
+      "footprintInches": [
+        7.0,
+        1.375
+      ],
+      "alignmentYaw": 0,
+      "measurement": "Median of color-isolated PDF footprints in the snapped terrain frame, subtracting the one-pixel mask dilation, rounded to 1/8 inch.",
+      "centerlineZ": 0,
+      "measuredMedianInches": [
+        7.1182,
+        1.522
+      ],
+      "measurementSamples": 12
+    },
+    "Vespene Geyser": {
+      "footprintInches": [
+        2.75,
+        3.125
+      ],
+      "alignmentYaw": 0,
+      "measurement": "Median of color-isolated PDF footprints in the snapped terrain frame, subtracting the one-pixel mask dilation, rounded to 1/8 inch.",
+      "measuredMedianInches": [
+        2.8203,
+        3.2095
+      ],
+      "measurementSamples": 12
+    },
+    "Statue Shard": {
+      "footprintInches": [
+        2.125,
+        3.125
+      ],
+      "alignmentYaw": 0,
+      "measurement": "Median of color-isolated PDF footprints in the snapped terrain frame, subtracting the one-pixel mask dilation, rounded to 1/8 inch.",
+      "measuredMedianInches": [
+        2.2667,
+        3.2494
+      ],
+      "measurementSamples": 12
+    },
+    "High Ground": {
+      "footprintInches": [
+        14.75,
+        8.0
+      ],
+      "alignmentYaw": 0,
+      "measurement": "PDF map 6 ramp/platform assembly spans approximately 14.75 by 8 inches. Keep the assembly intact; authored XYZ scale determines its height."
+    }
+  },
+  "maps": {
+    "1": {
+      "07ed52": {
+        "x": 18.5,
+        "z": -0.5,
+        "rotation": 75,
+        "referencePixelBounds": [
+          [
+            1023,
+            408
+          ],
+          [
+            1124,
+            476
+          ]
+        ]
+      },
+      "134e75": {
+        "x": -6.25,
+        "z": -0.25,
+        "rotation": 180,
+        "referencePixelBounds": [
+          [
+            385,
+            405
+          ],
+          [
+            603,
+            469
+          ]
+        ]
+      },
+      "1db20b": {
+        "x": 17.625,
+        "z": -11.375,
+        "rotation": 225,
+        "referencePixelBounds": [
+          [
+            1012,
+            660
+          ],
+          [
+            1088,
+            767
+          ]
+        ]
+      },
+      "300b95": {
+        "x": -20.5,
+        "z": 2.75,
+        "rotation": 240
+      },
+      "305fb1": {
+        "x": 3.75,
+        "z": -4.0,
+        "rotation": 330,
+        "referencePixelBounds": [
+          [
+            715,
+            513
+          ],
+          [
+            752,
+            548
+          ]
+        ]
+      },
+      "38c0cc": {
+        "x": 10.375,
+        "z": 10.4375,
+        "rotation": 0,
+        "referencePixelBounds": [
+          [
+            797,
+            154
+          ],
+          [
+            969,
+            246
+          ]
+        ]
+      },
+      "3eb88d": {
+        "x": -10.375,
+        "z": -10.4375,
+        "rotation": 180,
+        "referencePixelBounds": [
+          [
+            316,
+            624
+          ],
+          [
+            492,
+            715
+          ]
+        ]
+      },
+      "44876a": {
+        "x": 17.875,
+        "z": 10.4375,
+        "rotation": 0,
+        "referencePixelBounds": [
+          [
+            970,
+            152
+          ],
+          [
+            1150,
+            244
+          ]
+        ]
+      },
+      "4a0974": {
+        "x": 12.0,
+        "z": 6.0,
+        "rotation": 105,
+        "referencePixelBounds": [
+          [
+            909,
+            271
+          ],
+          [
+            937,
+            318
+          ]
+        ]
+      },
+      "57aba7": {
+        "x": 14.75,
+        "z": 0.0,
+        "rotation": 345
+      },
+      "5d1008": {
+        "x": 12.25,
+        "z": -0.25,
+        "rotation": 150
+      },
+      "68901e": {
+        "x": -10.25,
+        "z": 1.75,
+        "rotation": 105,
+        "referencePixelBounds": [
+          [
+            387,
+            359
+          ],
+          [
+            423,
+            434
+          ]
+        ]
+      },
+      "74a799": {
+        "x": 6.25,
+        "z": 0.25,
+        "rotation": 0,
+        "referencePixelBounds": [
+          [
+            687,
+            399
+          ],
+          [
+            899,
+            465
+          ]
+        ]
+      },
+      "76be55": {
+        "x": -17.875,
+        "z": -10.4375,
+        "rotation": 180,
+        "referencePixelBounds": [
+          [
+            121,
+            623
+          ],
+          [
+            314,
+            720
+          ]
+        ]
+      },
+      "8cc14b": {
+        "x": 12.875,
+        "z": -9.0,
+        "rotation": 0,
+        "referencePixelBounds": [
+          [
+            863,
+            643
+          ],
+          [
+            1029,
+            683
+          ]
+        ]
+      },
+      "90cfda": {
+        "x": 20.5,
+        "z": -2.5,
+        "rotation": 240
+      },
+      "96c1c4": {
+        "x": -12.25,
+        "z": 0.25,
+        "rotation": 330
+      },
+      "9eaac6": {
+        "x": -21.5,
+        "z": 4.5,
+        "rotation": 60
+      },
+      "9fc712": {
+        "x": 10.25,
+        "z": -1.75,
+        "rotation": 285,
+        "referencePixelBounds": [
+          [
+            854,
+            425
+          ],
+          [
+            899,
+            512
+          ]
+        ]
+      },
+      "a907d4": {
+        "x": 21.25,
+        "z": -4.75,
+        "rotation": 60
+      },
+      "b54b6d": {
+        "x": -12.25,
+        "z": -6.0,
+        "rotation": 90,
+        "referencePixelBounds": [
+          [
+            341,
+            550
+          ],
+          [
+            375,
+            600
+          ]
+        ]
+      },
+      "bb2e02": {
+        "x": -4.0,
+        "z": 3.5,
+        "rotation": 330,
+        "referencePixelBounds": [
+          [
+            533,
+            337
+          ],
+          [
+            570,
+            373
+          ]
+        ]
+      },
+      "bc9f33": {
+        "x": -14.75,
+        "z": -0.25,
+        "rotation": 165
+      },
+      "bcd7b1": {
+        "x": 0.0,
+        "z": 8.75,
+        "rotation": 15,
+        "referencePixelBounds": [
+          [
+            605,
+            200
+          ],
+          [
+            681,
+            260
+          ]
+        ]
+      },
+      "c2f010": {
+        "x": -22.75,
+        "z": 6.5,
+        "rotation": 225,
+        "referencePixelBounds": [
+          [
+            82,
+            251
+          ],
+          [
+            139,
+            314
+          ]
+        ]
+      },
+      "d17292": {
+        "x": -12.875,
+        "z": 9.0,
+        "rotation": 180,
+        "referencePixelBounds": [
+          [
+            255,
+            183
+          ],
+          [
+            425,
+            225
+          ]
+        ]
+      },
+      "da37e1": {
+        "x": -17.625,
+        "z": 11.375,
+        "rotation": 45,
+        "referencePixelBounds": [
+          [
+            196,
+            106
+          ],
+          [
+            274,
+            208
+          ]
+        ]
+      },
+      "e5d91d": {
+        "x": -0.0,
+        "z": -8.75,
+        "rotation": 195,
+        "referencePixelBounds": [
+          [
+            607,
+            610
+          ],
+          [
+            683,
+            672
+          ]
+        ]
+      },
+      "f91c5a": {
+        "x": -18.5,
+        "z": 0.5,
+        "rotation": 255,
+        "referencePixelBounds": [
+          [
+            165,
+            393
+          ],
+          [
+            263,
+            458
+          ]
+        ]
+      },
+      "fb2941": {
+        "x": 22.75,
+        "z": -6.5,
+        "rotation": 45,
+        "referencePixelBounds": [
+          [
+            1150,
+            554
+          ],
+          [
+            1206,
+            620
+          ]
+        ]
+      }
+    },
+    "2": {
+      "01fdf8": {
+        "x": -8.25,
+        "z": 12.0,
+        "rotation": 180,
+        "referencePixelBounds": [
+          [
+            385,
+            158
+          ],
+          [
+            551,
+            192
+          ]
+        ]
+      },
+      "05f90c": {
+        "x": 10.5625,
+        "z": -8.25,
+        "rotation": 270,
+        "referencePixelBounds": [
+          [
+            825,
+            506
+          ],
+          [
+            920,
+            692
+          ]
+        ]
+      },
+      "07ed52": {
+        "x": 11.25,
+        "z": 12.25,
+        "rotation": 150,
+        "referencePixelBounds": [
+          [
+            879,
+            95
+          ],
+          [
+            951,
+            193
+          ]
+        ]
+      },
+      "1cd7a2": {
+        "x": -7.375,
+        "z": -9.5,
+        "rotation": 165,
+        "referencePixelBounds": [
+          [
+            385,
+            614
+          ],
+          [
+            587,
+            692
+          ]
+        ]
+      },
+      "305fb1": {
+        "x": 18.5,
+        "z": -9.5,
+        "rotation": 270,
+        "referencePixelBounds": [
+          [
+            1058,
+            639
+          ],
+          [
+            1099,
+            680
+          ]
+        ]
+      },
+      "39f8c4": {
+        "x": 16.625,
+        "z": -2.625,
+        "rotation": 0,
+        "referencePixelBounds": [
+          [
+            991,
+            479
+          ],
+          [
+            1066,
+            506
+          ]
+        ]
+      },
+      "43151d": {
+        "x": 10.5625,
+        "z": 6.5,
+        "rotation": 270,
+        "referencePixelBounds": [
+          [
+            825,
+            191
+          ],
+          [
+            916,
+            368
+          ]
+        ]
+      },
+      "498a38": {
+        "x": -12.25,
+        "z": 3.25,
+        "rotation": 330
+      },
+      "4a0974": {
+        "x": 3.75,
+        "z": -4.0,
+        "rotation": 0,
+        "referencePixelBounds": [
+          [
+            703,
+            517
+          ],
+          [
+            756,
+            543
+          ]
+        ]
+      },
+      "4d931b": {
+        "x": -10.5625,
+        "z": -6.5,
+        "rotation": 90,
+        "referencePixelBounds": [
+          [
+            371,
+            502
+          ],
+          [
+            464,
+            677
+          ]
+        ]
+      },
+      "565de7": {
+        "x": -14.25,
+        "z": 3.0,
+        "rotation": 165
+      },
+      "645397": {
+        "x": -14.75,
+        "z": -15.75,
+        "rotation": 135
+      },
+      "70ec0a": {
+        "x": -20.375,
+        "z": 1.375,
+        "rotation": 315,
+        "referencePixelBounds": [
+          [
+            113,
+            362
+          ],
+          [
+            219,
+            439
+          ]
+        ]
+      },
+      "7e018c": {
+        "x": 8.25,
+        "z": -12.0,
+        "rotation": 0,
+        "referencePixelBounds": [
+          [
+            735,
+            675
+          ],
+          [
+            901,
+            710
+          ]
+        ]
+      },
+      "961896": {
+        "x": -10.5625,
+        "z": 8.25,
+        "rotation": 90,
+        "referencePixelBounds": [
+          [
+            357,
+            176
+          ],
+          [
+            463,
+            366
+          ]
+        ]
+      },
+      "99d151": {
+        "x": 14.25,
+        "z": -3.0,
+        "rotation": 345
+      },
+      "aaa786": {
+        "x": 12.0,
+        "z": -3.25,
+        "rotation": 150
+      },
+      "b1fe38": {
+        "x": -12.75,
+        "z": -14.25,
+        "rotation": 330
+      },
+      "b54b6d": {
+        "x": -4.25,
+        "z": 3.25,
+        "rotation": 0,
+        "referencePixelBounds": [
+          [
+            518,
+            341
+          ],
+          [
+            575,
+            372
+          ]
+        ]
+      },
+      "bb2e02": {
+        "x": -18.5,
+        "z": 9.75,
+        "rotation": 0,
+        "referencePixelBounds": [
+          [
+            190,
+            191
+          ],
+          [
+            229,
+            228
+          ]
+        ]
+      },
+      "bcd7b1": {
+        "x": -3.25,
+        "z": -3.5,
+        "rotation": 255,
+        "referencePixelBounds": [
+          [
+            532,
+            487
+          ],
+          [
+            608,
+            547
+          ]
+        ]
+      },
+      "c09386": {
+        "x": 12.75,
+        "z": 14.25,
+        "rotation": 150
+      },
+      "c2f010": {
+        "x": -16.5,
+        "z": -17.25,
+        "rotation": 60,
+        "referencePixelBounds": [
+          [
+            219,
+            808
+          ],
+          [
+            287,
+            859
+          ]
+        ]
+      },
+      "c466c0": {
+        "x": -16.625,
+        "z": 2.625,
+        "rotation": 180,
+        "referencePixelBounds": [
+          [
+            220,
+            362
+          ],
+          [
+            294,
+            390
+          ]
+        ]
+      },
+      "cca4b9": {
+        "x": 14.5,
+        "z": 15.75,
+        "rotation": 315
+      },
+      "dba95b": {
+        "x": 7.375,
+        "z": 9.5,
+        "rotation": 345,
+        "referencePixelBounds": [
+          [
+            703,
+            176
+          ],
+          [
+            902,
+            255
+          ]
+        ]
+      },
+      "e5d91d": {
+        "x": 3.25,
+        "z": 3.5,
+        "rotation": 75,
+        "referencePixelBounds": [
+          [
+            682,
+            323
+          ],
+          [
+            758,
+            383
+          ]
+        ]
+      },
+      "ef7d00": {
+        "x": 20.375,
+        "z": -1.375,
+        "rotation": 135,
+        "referencePixelBounds": [
+          [
+            1068,
+            431
+          ],
+          [
+            1172,
+            510
+          ]
+        ]
+      },
+      "f91c5a": {
+        "x": -11.25,
+        "z": -12.25,
+        "rotation": 330,
+        "referencePixelBounds": [
+          [
+            337,
+            675
+          ],
+          [
+            406,
+            773
+          ]
+        ]
+      },
+      "fb2941": {
+        "x": 16.5,
+        "z": 17.25,
+        "rotation": 240,
+        "referencePixelBounds": [
+          [
+            999,
+            11
+          ],
+          [
+            1067,
+            61
+          ]
+        ]
+      }
+    },
+    "3": {
+      "06072d": {
+        "x": 1.75,
+        "z": 8.75,
+        "rotation": 195
+      },
+      "07ed52": {
+        "x": 17.0,
+        "z": -8.75,
+        "rotation": 75,
+        "referencePixelBounds": [
+          [
+            989,
+            601
+          ],
+          [
+            1088,
+            671
+          ]
+        ]
+      },
+      "094d04": {
+        "x": -10.5,
+        "z": 4.0,
+        "rotation": 210
+      },
+      "24034d": {
+        "x": -13.375,
+        "z": 4.125,
+        "rotation": 135,
+        "referencePixelBounds": [
+          [
+            276,
+            325
+          ],
+          [
+            382,
+            400
+          ]
+        ]
+      },
+      "305fb1": {
+        "x": 12.25,
+        "z": 3.25,
+        "rotation": 0,
+        "referencePixelBounds": [
+          [
+            912,
+            339
+          ],
+          [
+            953,
+            378
+          ]
+        ]
+      },
+      "367030": {
+        "x": -9.25,
+        "z": 2.0,
+        "rotation": 75
+      },
+      "472517": {
+        "x": 9.25,
+        "z": -2.0,
+        "rotation": 255
+      },
+      "4a0974": {
+        "x": 12.0,
+        "z": 14.0,
+        "rotation": 0,
+        "referencePixelBounds": [
+          [
+            903,
+            95
+          ],
+          [
+            944,
+            118
+          ]
+        ]
+      },
+      "53c078": {
+        "x": -6.625,
+        "z": -6.125,
+        "rotation": 135,
+        "referencePixelBounds": [
+          [
+            459,
+            543
+          ],
+          [
+            512,
+            604
+          ]
+        ]
+      },
+      "545f5c": {
+        "x": -19.125,
+        "z": 3.0,
+        "rotation": 0,
+        "referencePixelBounds": [
+          [
+            108,
+            367
+          ],
+          [
+            275,
+            403
+          ]
+        ]
+      },
+      "55ec15": {
+        "x": 1.875,
+        "z": -7.625,
+        "rotation": 345,
+        "referencePixelBounds": [
+          [
+            607,
+            580
+          ],
+          [
+            806,
+            657
+          ]
+        ]
+      },
+      "57a834": {
+        "x": 10.25,
+        "z": -4.0,
+        "rotation": 30
+      },
+      "645397": {
+        "x": -3.25,
+        "z": -7.25,
+        "rotation": 210
+      },
+      "7e1685": {
+        "x": -7.4375,
+        "z": 10.625,
+        "rotation": 270,
+        "referencePixelBounds": [
+          [
+            406,
+            94
+          ],
+          [
+            497,
+            273
+          ]
+        ]
+      },
+      "7fb28a": {
+        "x": 7.4375,
+        "z": -10.625,
+        "rotation": 90,
+        "referencePixelBounds": [
+          [
+            789,
+            597
+          ],
+          [
+            880,
+            779
+          ]
+        ]
+      },
+      "8913f8": {
+        "x": 13.375,
+        "z": -4.125,
+        "rotation": 315,
+        "referencePixelBounds": [
+          [
+            905,
+            467
+          ],
+          [
+            1012,
+            545
+          ]
+        ]
+      },
+      "9e1bea": {
+        "x": 8.9375,
+        "z": 10.875,
+        "rotation": 90,
+        "referencePixelBounds": [
+          [
+            811,
+            92
+          ],
+          [
+            901,
+            267
+          ]
+        ]
+      },
+      "aab956": {
+        "x": 3.25,
+        "z": 7.25,
+        "rotation": 30
+      },
+      "ab65a3": {
+        "x": 6.625,
+        "z": 6.125,
+        "rotation": 315,
+        "referencePixelBounds": [
+          [
+            775,
+            264
+          ],
+          [
+            828,
+            325
+          ]
+        ]
+      },
+      "ab851a": {
+        "x": 19.125,
+        "z": -3.0,
+        "rotation": 180,
+        "referencePixelBounds": [
+          [
+            1012,
+            467
+          ],
+          [
+            1180,
+            500
+          ]
+        ]
+      },
+      "af90d3": {
+        "x": -8.9375,
+        "z": -10.875,
+        "rotation": 270,
+        "referencePixelBounds": [
+          [
+            387,
+            604
+          ],
+          [
+            477,
+            778
+          ]
+        ]
+      },
+      "b1fe38": {
+        "x": -1.75,
+        "z": -8.75,
+        "rotation": 30
+      },
+      "b54b6d": {
+        "x": -12.0,
+        "z": -14.0,
+        "rotation": 15,
+        "referencePixelBounds": [
+          [
+            338,
+            750
+          ],
+          [
+            384,
+            775
+          ]
+        ]
+      },
+      "bb2e02": {
+        "x": -12.25,
+        "z": -3.25,
+        "rotation": 0,
+        "referencePixelBounds": [
+          [
+            336,
+            491
+          ],
+          [
+            376,
+            529
+          ]
+        ]
+      },
+      "bcd7b1": {
+        "x": 7.5,
+        "z": -0.5,
+        "rotation": 75,
+        "referencePixelBounds": [
+          [
+            783,
+            416
+          ],
+          [
+            858,
+            477
+          ]
+        ]
+      },
+      "bd80a2": {
+        "x": -1.875,
+        "z": 7.625,
+        "rotation": 165,
+        "referencePixelBounds": [
+          [
+            479,
+            210
+          ],
+          [
+            680,
+            288
+          ]
+        ]
+      },
+      "c2f010": {
+        "x": -19.5,
+        "z": -11.0,
+        "rotation": 90,
+        "referencePixelBounds": [
+          [
+            153,
+            665
+          ],
+          [
+            227,
+            716
+          ]
+        ]
+      },
+      "e5d91d": {
+        "x": -7.5,
+        "z": 0.5,
+        "rotation": 255,
+        "referencePixelBounds": [
+          [
+            430,
+            393
+          ],
+          [
+            505,
+            454
+          ]
+        ]
+      },
+      "f91c5a": {
+        "x": -17.0,
+        "z": 8.75,
+        "rotation": 255,
+        "referencePixelBounds": [
+          [
+            198,
+            200
+          ],
+          [
+            298,
+            269
+          ]
+        ]
+      },
+      "fb2941": {
+        "x": 19.5,
+        "z": 11.0,
+        "rotation": 270,
+        "referencePixelBounds": [
+          [
+            1060,
+            153
+          ],
+          [
+            1136,
+            206
+          ]
+        ]
+      }
+    },
+    "4": {
+      "01cce8": {
+        "x": -13.75,
+        "z": 8.5,
+        "rotation": 75
+      },
+      "07ed52": {
+        "x": 21.75,
+        "z": -4.0,
+        "rotation": 345,
+        "referencePixelBounds": [
+          [
+            1112,
+            478
+          ],
+          [
+            1181,
+            576
+          ]
+        ]
+      },
+      "0ee3cd": {
+        "x": 12.5,
+        "z": -4.5,
+        "rotation": 270,
+        "referencePixelBounds": [
+          [
+            930,
+            463
+          ],
+          [
+            966,
+            627
+          ]
+        ]
+      },
+      "190493": {
+        "x": -4.5,
+        "z": 1.5,
+        "rotation": 150
+      },
+      "196cb2": {
+        "x": 4.25,
+        "z": -1.5,
+        "rotation": 345
+      },
+      "23d137": {
+        "x": -15.0,
+        "z": -10.0,
+        "rotation": 60,
+        "referencePixelBounds": [
+          [
+            234,
+            582
+          ],
+          [
+            348,
+            764
+          ]
+        ]
+      },
+      "23fa74": {
+        "x": 14.0,
+        "z": -10.75,
+        "rotation": 60
+      },
+      "305fb1": {
+        "x": 18.25,
+        "z": 9.25,
+        "rotation": 270,
+        "referencePixelBounds": [
+          [
+            1049,
+            197
+          ],
+          [
+            1089,
+            238
+          ]
+        ]
+      },
+      "32a14a": {
+        "x": -16.5,
+        "z": 11.0,
+        "rotation": 135,
+        "referencePixelBounds": [
+          [
+            199,
+            140
+          ],
+          [
+            304,
+            220
+          ]
+        ]
+      },
+      "32b469": {
+        "x": -14.0,
+        "z": 10.75,
+        "rotation": 240
+      },
+      "3b82e1": {
+        "x": 8.625,
+        "z": 0.1875,
+        "rotation": 0,
+        "referencePixelBounds": [
+          [
+            775,
+            384
+          ],
+          [
+            948,
+            478
+          ]
+        ]
+      },
+      "445140": {
+        "x": 13.5,
+        "z": -8.5,
+        "rotation": 255
+      },
+      "4a0974": {
+        "x": 19.75,
+        "z": -10.0,
+        "rotation": 0,
+        "referencePixelBounds": [
+          [
+            1087,
+            657
+          ],
+          [
+            1129,
+            678
+          ]
+        ]
+      },
+      "511cd7": {
+        "x": -0.75,
+        "z": -2.75,
+        "rotation": 345,
+        "referencePixelBounds": [
+          [
+            588,
+            478
+          ],
+          [
+            661,
+            520
+          ]
+        ]
+      },
+      "726595": {
+        "x": 1.75,
+        "z": -2.0,
+        "rotation": 165
+      },
+      "a52b14": {
+        "x": 4.3125,
+        "z": 5.875,
+        "rotation": 270,
+        "referencePixelBounds": [
+          [
+            714,
+            207
+          ],
+          [
+            805,
+            384
+          ]
+        ]
+      },
+      "b54b6d": {
+        "x": -20.0,
+        "z": 10.0,
+        "rotation": 0,
+        "referencePixelBounds": [
+          [
+            148,
+            182
+          ],
+          [
+            199,
+            216
+          ]
+        ]
+      },
+      "b893bb": {
+        "x": 16.5,
+        "z": -11.0,
+        "rotation": 315,
+        "referencePixelBounds": [
+          [
+            979,
+            653
+          ],
+          [
+            1087,
+            731
+          ]
+        ]
+      },
+      "bb2e02": {
+        "x": -18.25,
+        "z": -9.25,
+        "rotation": 270,
+        "referencePixelBounds": [
+          [
+            198,
+            633
+          ],
+          [
+            237,
+            671
+          ]
+        ]
+      },
+      "bcd7b1": {
+        "x": -6.0,
+        "z": 10.75,
+        "rotation": 255,
+        "referencePixelBounds": [
+          [
+            467,
+            152
+          ],
+          [
+            544,
+            211
+          ]
+        ]
+      },
+      "c2f010": {
+        "x": -3.75,
+        "z": -16.5,
+        "rotation": 0,
+        "referencePixelBounds": [
+          [
+            528,
+            780
+          ],
+          [
+            580,
+            858
+          ]
+        ]
+      },
+      "ca8153": {
+        "x": -4.3125,
+        "z": -5.875,
+        "rotation": 90,
+        "referencePixelBounds": [
+          [
+            480,
+            484
+          ],
+          [
+            571,
+            666
+          ]
+        ]
+      },
+      "cfae97": {
+        "x": 0.75,
+        "z": 2.75,
+        "rotation": 165,
+        "referencePixelBounds": [
+          [
+            627,
+            348
+          ],
+          [
+            700,
+            390
+          ]
+        ]
+      },
+      "e5d91d": {
+        "x": 6.0,
+        "z": -10.75,
+        "rotation": 75,
+        "referencePixelBounds": [
+          [
+            746,
+            658
+          ],
+          [
+            822,
+            719
+          ]
+        ]
+      },
+      "e71aa9": {
+        "x": -8.625,
+        "z": -0.1875,
+        "rotation": 180,
+        "referencePixelBounds": [
+          [
+            339,
+            394
+          ],
+          [
+            515,
+            483
+          ]
+        ]
+      },
+      "f2bb05": {
+        "x": -12.5,
+        "z": 4.5,
+        "rotation": 90,
+        "referencePixelBounds": [
+          [
+            320,
+            245
+          ],
+          [
+            354,
+            407
+          ]
+        ]
+      },
+      "f91c5a": {
+        "x": -21.75,
+        "z": 4.0,
+        "rotation": 165,
+        "referencePixelBounds": [
+          [
+            107,
+            292
+          ],
+          [
+            176,
+            390
+          ]
+        ]
+      },
+      "fa3f29": {
+        "x": 15.0,
+        "z": 10.0,
+        "rotation": 240,
+        "referencePixelBounds": [
+          [
+            939,
+            106
+          ],
+          [
+            1056,
+            287
+          ]
+        ]
+      },
+      "fb2941": {
+        "x": 3.75,
+        "z": 16.5,
+        "rotation": 180,
+        "referencePixelBounds": [
+          [
+            708,
+            12
+          ],
+          [
+            759,
+            90
+          ]
+        ]
+      },
+      "fb9263": {
+        "x": -1.75,
+        "z": 2.0,
+        "rotation": 345
+      }
+    },
+    "5": {
+      "018f49": {
+        "x": 7.375,
+        "z": -1.5,
+        "rotation": 0
+      },
+      "04a66f": {
+        "x": -5.0,
+        "z": 11.5,
+        "rotation": 270,
+        "referencePixelBounds": [
+          [
+            511,
+            128
+          ],
+          [
+            541,
+            207
+          ]
+        ]
+      },
+      "07ed52": {
+        "x": 25.0,
+        "z": 0.0,
+        "rotation": 60,
+        "referencePixelBounds": [
+          [
+            1174,
+            391
+          ],
+          [
+            1277,
+            461
+          ]
+        ]
+      },
+      "22da8f": {
+        "x": 5.0,
+        "z": -11.5,
+        "rotation": 90,
+        "referencePixelBounds": [
+          [
+            747,
+            662
+          ],
+          [
+            776,
+            739
+          ]
+        ]
+      },
+      "305fb1": {
+        "x": 1.5,
+        "z": -3.75,
+        "rotation": 330,
+        "referencePixelBounds": [
+          [
+            659,
+            506
+          ],
+          [
+            694,
+            541
+          ]
+        ]
+      },
+      "3445e2": {
+        "x": -7.375,
+        "z": 1.5,
+        "rotation": 180
+      },
+      "37f756": {
+        "x": 19.25,
+        "z": 2.0,
+        "rotation": 285,
+        "referencePixelBounds": [
+          [
+            1081,
+            360
+          ],
+          [
+            1104,
+            406
+          ]
+        ]
+      },
+      "38ed01": {
+        "x": 4.75,
+        "z": -6.75,
+        "rotation": 270
+      },
+      "45c4d7": {
+        "x": 17.625,
+        "z": 11.125,
+        "rotation": 15,
+        "referencePixelBounds": [
+          [
+            969,
+            106
+          ],
+          [
+            1136,
+            227
+          ]
+        ]
+      },
+      "4d7c2a": {
+        "x": -18.125,
+        "z": 5.5,
+        "rotation": 255,
+        "referencePixelBounds": [
+          [
+            175,
+            199
+          ],
+          [
+            257,
+            401
+          ]
+        ]
+      },
+      "4fd751": {
+        "x": -18.375,
+        "z": 12.25,
+        "rotation": 270,
+        "referencePixelBounds": [
+          [
+            193,
+            93
+          ],
+          [
+            245,
+            208
+          ]
+        ]
+      },
+      "540463": {
+        "x": -1.75,
+        "z": -9.0,
+        "rotation": 135,
+        "referencePixelBounds": [
+          [
+            518,
+            557
+          ],
+          [
+            646,
+            734
+          ]
+        ]
+      },
+      "59175f": {
+        "x": 5.0,
+        "z": -14.25,
+        "rotation": 270
+      },
+      "808d0c": {
+        "x": -5.0,
+        "z": 6.75,
+        "rotation": 90
+      },
+      "925505": {
+        "x": 1.75,
+        "z": 9.0,
+        "rotation": 315,
+        "referencePixelBounds": [
+          [
+            640,
+            136
+          ],
+          [
+            768,
+            310
+          ]
+        ]
+      },
+      "96b313": {
+        "x": -19.25,
+        "z": -2.0,
+        "rotation": 105,
+        "referencePixelBounds": [
+          [
+            174,
+            456
+          ],
+          [
+            212,
+            509
+          ]
+        ]
+      },
+      "b046e9": {
+        "x": -17.625,
+        "z": -11.125,
+        "rotation": 195,
+        "referencePixelBounds": [
+          [
+            150,
+            642
+          ],
+          [
+            319,
+            761
+          ]
+        ]
+      },
+      "bb2e02": {
+        "x": -1.5,
+        "z": 3.75,
+        "rotation": 240,
+        "referencePixelBounds": [
+          [
+            591,
+            327
+          ],
+          [
+            628,
+            363
+          ]
+        ]
+      },
+      "bcd7b1": {
+        "x": -13.0,
+        "z": -5.75,
+        "rotation": 90,
+        "referencePixelBounds": [
+          [
+            309,
+            534
+          ],
+          [
+            372,
+            608
+          ]
+        ]
+      },
+      "c2f010": {
+        "x": -18.5,
+        "z": 3.0,
+        "rotation": 300,
+        "referencePixelBounds": [
+          [
+            183,
+            341
+          ],
+          [
+            240,
+            395
+          ]
+        ]
+      },
+      "ca9d87": {
+        "x": -4.75,
+        "z": 9.0,
+        "rotation": 270
+      },
+      "d12e0f": {
+        "x": 18.125,
+        "z": -5.5,
+        "rotation": 75,
+        "referencePixelBounds": [
+          [
+            1030,
+            470
+          ],
+          [
+            1091,
+            666
+          ]
+        ]
+      },
+      "d6ef8b": {
+        "x": 5.0,
+        "z": -16.5,
+        "rotation": 75
+      },
+      "ddf7ce": {
+        "x": -5.0,
+        "z": 14.25,
+        "rotation": 90
+      },
+      "e03406": {
+        "x": -5.0,
+        "z": 16.5,
+        "rotation": 255
+      },
+      "e5d91d": {
+        "x": 13.25,
+        "z": 5.75,
+        "rotation": 135,
+        "referencePixelBounds": [
+          [
+            916,
+            261
+          ],
+          [
+            980,
+            336
+          ]
+        ]
+      },
+      "e73452": {
+        "x": 4.75,
+        "z": -8.75,
+        "rotation": 75
+      },
+      "ea8822": {
+        "x": 18.375,
+        "z": -12.25,
+        "rotation": 90,
+        "referencePixelBounds": [
+          [
+            1039,
+            661
+          ],
+          [
+            1081,
+            776
+          ]
+        ]
+      },
+      "f61b91": {
+        "x": 20.125,
+        "z": 5.625,
+        "rotation": 285,
+        "referencePixelBounds": [
+          [
+            1089,
+            224
+          ],
+          [
+            1139,
+            384
+          ]
+        ]
+      },
+      "f91c5a": {
+        "x": -25.0,
+        "z": -0.0,
+        "rotation": 240,
+        "referencePixelBounds": [
+          [
+            9,
+            409
+          ],
+          [
+            112,
+            478
+          ]
+        ]
+      },
+      "fb2941": {
+        "x": 18.5,
+        "z": -3.0,
+        "rotation": 120,
+        "referencePixelBounds": [
+          [
+            1043,
+            474
+          ],
+          [
+            1105,
+            536
+          ]
+        ]
+      },
+      "fc64ca": {
+        "x": -20.125,
+        "z": -5.625,
+        "rotation": 105,
+        "referencePixelBounds": [
+          [
+            143,
+            483
+          ],
+          [
+            198,
+            644
+          ]
+        ]
+      }
+    },
+    "6": {
+      "018f49": {
+        "x": 17.5,
+        "z": 0.0,
+        "rotation": 0
+      },
+      "07ed52": {
+        "x": 2.5,
+        "z": -13.5,
+        "rotation": 75,
+        "referencePixelBounds": [
+          [
+            650,
+            710
+          ],
+          [
+            751,
+            778
+          ]
+        ]
+      },
+      "1b124a": {
+        "x": 19.0,
+        "z": 9.5,
+        "rotation": 315
+      },
+      "24f861": {
+        "x": 3.25,
+        "z": 8.75,
+        "rotation": 90
+      },
+      "297ad9": {
+        "x": 17.5,
+        "z": 7.75,
+        "rotation": 120
+      },
+      "2b6ef0": {
+        "x": -2.75,
+        "z": 4.5,
+        "rotation": 120,
+        "referencePixelBounds": [
+          [
+            527,
+            283
+          ],
+          [
+            624,
+            375
+          ]
+        ]
+      },
+      "305fb1": {
+        "x": -22.5,
+        "z": 13.5,
+        "rotation": 315,
+        "referencePixelBounds": [
+          [
+            104,
+            106
+          ],
+          [
+            135,
+            136
+          ]
+        ]
+      },
+      "30b316": {
+        "x": -3.0,
+        "z": -14.5,
+        "rotation": 90,
+        "referencePixelBounds": [
+          [
+            535,
+            689
+          ],
+          [
+            569,
+            860
+          ]
+        ]
+      },
+      "37f756": {
+        "x": -0.5,
+        "z": 6.0,
+        "rotation": 270,
+        "referencePixelBounds": [
+          [
+            607,
+            270
+          ],
+          [
+            640,
+            314
+          ]
+        ]
+      },
+      "40c149": {
+        "x": 3.0,
+        "z": 14.5,
+        "rotation": 270,
+        "referencePixelBounds": [
+          [
+            711,
+            15
+          ],
+          [
+            747,
+            181
+          ]
+        ]
+      },
+      "416f16": {
+        "x": -17.0,
+        "z": -5.5,
+        "rotation": 285,
+        "referencePixelBounds": [
+          [
+            226,
+            533
+          ],
+          [
+            260,
+            606
+          ]
+        ]
+      },
+      "42a5d3": {
+        "x": -11.6875,
+        "z": 14.1875,
+        "rotation": 270,
+        "referencePixelBounds": [
+          [
+            324,
+            12
+          ],
+          [
+            413,
+            191
+          ]
+        ]
+      },
+      "4af188": {
+        "x": 3.75,
+        "z": 11.0,
+        "rotation": 270
+      },
+      "5b389f": {
+        "x": -17.5,
+        "z": -0.0,
+        "rotation": 180
+      },
+      "777805": {
+        "x": -19.25,
+        "z": -9.5,
+        "rotation": 120
+      },
+      "77cd18": {
+        "x": 17.0,
+        "z": 5.5,
+        "rotation": 105,
+        "referencePixelBounds": [
+          [
+            1023,
+            267
+          ],
+          [
+            1058,
+            340
+          ]
+        ]
+      },
+      "7d7693": {
+        "x": -6.5,
+        "z": -6.5,
+        "rotation": 210,
+        "referencePixelBounds": [
+          [
+            398,
+            529
+          ],
+          [
+            580,
+            635
+          ]
+        ]
+      },
+      "801763": {
+        "x": 17.4375,
+        "z": 14.0,
+        "rotation": 90,
+        "referencePixelBounds": [
+          [
+            1001,
+            15
+          ],
+          [
+            1093,
+            198
+          ]
+        ]
+      },
+      "96b313": {
+        "x": 0.5,
+        "z": -6.0,
+        "rotation": 90,
+        "referencePixelBounds": [
+          [
+            635,
+            558
+          ],
+          [
+            668,
+            604
+          ]
+        ]
+      },
+      "9c8829": {
+        "x": 6.5,
+        "z": 6.5,
+        "rotation": 30,
+        "referencePixelBounds": [
+          [
+            704,
+            238
+          ],
+          [
+            890,
+            344
+          ]
+        ]
+      },
+      "bb2e02": {
+        "x": 22.25,
+        "z": -13.5,
+        "rotation": 225,
+        "referencePixelBounds": [
+          [
+            1149,
+            735
+          ],
+          [
+            1180,
+            768
+          ]
+        ]
+      },
+      "bcd7b1": {
+        "x": -17.5,
+        "z": 8.75,
+        "rotation": 60,
+        "referencePixelBounds": [
+          [
+            199,
+            199
+          ],
+          [
+            266,
+            266
+          ]
+        ]
+      },
+      "bf6226": {
+        "x": -3.75,
+        "z": -11.25,
+        "rotation": 90
+      },
+      "bfb235": {
+        "x": -17.5,
+        "z": -8.0,
+        "rotation": 300
+      },
+      "c2f010": {
+        "x": -21.75,
+        "z": -12.75,
+        "rotation": 90,
+        "referencePixelBounds": [
+          [
+            95,
+            710
+          ],
+          [
+            170,
+            762
+          ]
+        ]
+      },
+      "c6f6aa": {
+        "x": 11.6875,
+        "z": -14.1875,
+        "rotation": 90,
+        "referencePixelBounds": [
+          [
+            871,
+            683
+          ],
+          [
+            961,
+            862
+          ]
+        ]
+      },
+      "cd5ea6": {
+        "x": -3.25,
+        "z": -9.0,
+        "rotation": 270
+      },
+      "e5d91d": {
+        "x": 17.5,
+        "z": -9.0,
+        "rotation": 120,
+        "referencePixelBounds": [
+          [
+            1016,
+            607
+          ],
+          [
+            1088,
+            676
+          ]
+        ]
+      },
+      "f0c0e9": {
+        "x": 2.75,
+        "z": -4.5,
+        "rotation": 300,
+        "referencePixelBounds": [
+          [
+            660,
+            500
+          ],
+          [
+            758,
+            592
+          ]
+        ]
+      },
+      "f91c5a": {
+        "x": -2.5,
+        "z": 13.5,
+        "rotation": 255,
+        "referencePixelBounds": [
+          [
+            534,
+            94
+          ],
+          [
+            632,
+            162
+          ]
+        ]
+      },
+      "fb2941": {
+        "x": 21.75,
+        "z": 12.75,
+        "rotation": 270,
+        "referencePixelBounds": [
+          [
+            1113,
+            111
+          ],
+          [
+            1189,
+            165
+          ]
+        ]
+      },
+      "ffa23e": {
+        "x": -17.4375,
+        "z": -14.0,
+        "rotation": 270,
+        "referencePixelBounds": [
+          [
+            188,
+            668
+          ],
+          [
+            282,
+            859
+          ]
+        ]
+      }
+    }
+  },
+  "connections": [
+    {
+      "map": 1,
+      "a": "134e75",
+      "b": "68901e",
+      "gapInches": 0.1241
+    },
+    {
+      "map": 1,
+      "a": "1db20b",
+      "b": "8cc14b",
+      "gapInches": 0.0915
+    },
+    {
+      "map": 1,
+      "a": "38c0cc",
+      "b": "44876a",
+      "gapInches": 0.0751
+    },
+    {
+      "map": 1,
+      "a": "3eb88d",
+      "b": "76be55",
+      "gapInches": 0.0751
+    },
+    {
+      "map": 1,
+      "a": "74a799",
+      "b": "9fc712",
+      "gapInches": 0.1241
+    },
+    {
+      "map": 1,
+      "a": "d17292",
+      "b": "da37e1",
+      "gapInches": 0.0915
+    },
+    {
+      "map": 2,
+      "a": "01fdf8",
+      "b": "961896",
+      "gapInches": 0.0682
+    },
+    {
+      "map": 2,
+      "a": "05f90c",
+      "b": "7e018c",
+      "gapInches": 0.0682
+    },
+    {
+      "map": 2,
+      "a": "1cd7a2",
+      "b": "4d931b",
+      "gapInches": 0.0704
+    },
+    {
+      "map": 2,
+      "a": "39f8c4",
+      "b": "ef7d00",
+      "gapInches": 0.0492
+    },
+    {
+      "map": 2,
+      "a": "43151d",
+      "b": "dba95b",
+      "gapInches": 0.0704
+    },
+    {
+      "map": 2,
+      "a": "70ec0a",
+      "b": "c466c0",
+      "gapInches": 0.0492
+    },
+    {
+      "map": 3,
+      "a": "24034d",
+      "b": "545f5c",
+      "gapInches": 0.0689
+    },
+    {
+      "map": 3,
+      "a": "53c078",
+      "b": "af90d3",
+      "gapInches": 0.1091
+    },
+    {
+      "map": 3,
+      "a": "55ec15",
+      "b": "7fb28a",
+      "gapInches": 0.0436
+    },
+    {
+      "map": 3,
+      "a": "7e1685",
+      "b": "bd80a2",
+      "gapInches": 0.0436
+    },
+    {
+      "map": 3,
+      "a": "8913f8",
+      "b": "ab851a",
+      "gapInches": 0.0689
+    },
+    {
+      "map": 3,
+      "a": "9e1bea",
+      "b": "ab65a3",
+      "gapInches": 0.1091
+    },
+    {
+      "map": 4,
+      "a": "0ee3cd",
+      "b": "3b82e1",
+      "gapInches": 0.1326
+    },
+    {
+      "map": 4,
+      "a": "3b82e1",
+      "b": "a52b14",
+      "gapInches": 0.1412
+    },
+    {
+      "map": 4,
+      "a": "ca8153",
+      "b": "e71aa9",
+      "gapInches": 0.1412
+    },
+    {
+      "map": 4,
+      "a": "e71aa9",
+      "b": "f2bb05",
+      "gapInches": 0.1326
+    },
+    {
+      "map": 5,
+      "a": "45c4d7",
+      "b": "f61b91",
+      "gapInches": 0.1033
+    },
+    {
+      "map": 5,
+      "a": "4d7c2a",
+      "b": "4fd751",
+      "gapInches": 0.1366
+    },
+    {
+      "map": 5,
+      "a": "b046e9",
+      "b": "fc64ca",
+      "gapInches": 0.1033
+    },
+    {
+      "map": 5,
+      "a": "d12e0f",
+      "b": "ea8822",
+      "gapInches": 0.1366
+    }
+  ]
+}

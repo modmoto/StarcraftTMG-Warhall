@@ -228,3 +228,7 @@ Release 19 replaces unavailable custom-template references with built-in templat
 ### Three-inch grid (test release 17)
 
 An eighth deployment, `3-INCH GRID (54x36)`, draws full horizontal and vertical lines every three inches, including the board border. It places no mission markers. The seven official deployment indices and marker placements remain unchanged; objectives stay hidden. Regeneration includes this grid automatically. Publish the grid and seven entry overlays through the shared skin API; [instructions are here](docs/shared-deployments.md).
+
+### PDF-grid terrain layout review (test release 21)
+
+All six maps use the explicit measurements and reviewed poses in `terrain-calibration.json`. The importer preserves separate XYZ scales and bakes complete terrain assemblies into portable textured GLBs. This corrects the oversized shard attachment, replaces guessed L-wall alignment, tightens touching wall groups, and keeps ramp/platform offsets together. `npm run terrain:review` generates top-down grid and base-outline views. See [calibration, review limits and terrain-only publication](docs/terrain-calibration.md).

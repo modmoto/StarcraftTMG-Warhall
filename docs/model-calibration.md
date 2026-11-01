@@ -1,4 +1,8 @@
-# Preserve the Windows cache layouts
+# Model calibration
+
+Release 21 intentionally recalibrates terrain against the official PDF grid at the user's request. Read [terrain-calibration.md](terrain-calibration.md) for the corrected XYZ composition, footprints and placements. The Windows baseline described below remains authoritative for units; terrain now uses `pdf-grid-v1` portable assemblies.
+
+## Original Windows cache baseline
 
 The working local adapter in `scripts/install-warhall-model-cache.mjs` used the selected model's layout size, position and rotation, with `UseLegacyScale: 1`. The shared website creates nonlegacy skins. In addition, the former `--default-scale` upload path sent `transforms: null`, losing position and rotation as well as scale. That reset broke the terrain/map rotation compensation and changed model dimensions.
 
@@ -33,7 +37,7 @@ npm run models:publish -- --apply --login --replace --accept-publication-terms
 
 The publisher generates updated thumbnails, replaces the selected shared skins, and cleans up old owned skins after successful assignment. It retains existing progress and reconciles live server data. If a previous batch stopped during creation with an uncertain outcome, reconcile that record before retrying.
 
-Checks compare every part's rotation and translation with the original Windows installer inputs and compare the client-computed scale multipliers. All 62 unit/terrain assemblies preserve the authored dimensions. Live macOS/Windows testing is still required: add fresh units and reload the map after refreshing the shared catalogue. In particular, check the Adept's orientation/materials and the Wall Set 4/5 map rotation compensation.
+Checks compare every part's rotation and translation with the original Windows installer inputs and compare the client-computed scale multipliers. The original baseline preserved 62 unit/terrain assemblies. Release 21 preserves unit dimensions and explicitly replaces the terrain dimensions with PDF-grid calibration. Live macOS/Windows testing is still required: add fresh units and reload the map after refreshing the shared catalogue. In particular, check the Adept's orientation/materials and the Wall Set 4/5 map rotation compensation.
 
 ## Server zero-to-null transform bug
 

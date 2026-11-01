@@ -1569,761 +1569,613 @@
       "profileId": "sc_terrain_d903fea321acfebe",
       "name": "Starcraft - Terrain - Head Statue - acfebe",
       "kind": "terrain",
+      "calibration": "pdf-grid-v1",
       "parts": [
         {
-          "modelUrl": "https://steamusercontent-a.akamaihd.net/ugc/16752883865032145389/29F01FF4B05FFA1FDE5C3D7B3C2247B913879055/",
-          "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/12266583770828535695/D34B84E0A65CA5FE4C72F487361102AF4691AD81/",
+          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/5780d4b53657b9ac7727a9682a88b6b02e4ead34d8a3c4f9234455fa7a39ada7.glb",
+          "textureUrl": null,
           "transforms": {
-            "scale": 1.4929780495188,
+            "scale": 0.39370078740157477,
             "rotationX": 0,
             "rotationY": 0,
             "rotationZ": 0,
-            "positionX": -0.3960555273961237,
-            "positionY": 0.043334029445679996,
-            "positionZ": 0.48245576591813616
+            "positionX": 0,
+            "positionY": 0.03,
+            "positionZ": 0
           },
           "previewSource": {
-            "modelUrl": "https://steamusercontent-a.akamaihd.net/ugc/16752883865032145389/29F01FF4B05FFA1FDE5C3D7B3C2247B913879055/",
-            "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/12266583770828535695/D34B84E0A65CA5FE4C72F487361102AF4691AD81/"
+            "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/5780d4b53657b9ac7727a9682a88b6b02e4ead34d8a3c4f9234455fa7a39ada7.glb",
+            "textureUrl": null
           },
           "previewTransforms": {
-            "scale": 2.248571576,
+            "scale": 0.9999999999999999,
             "rotationX": 0,
             "rotationY": 0,
             "rotationZ": 0,
-            "positionX": -0.3960555273961237,
-            "positionY": 0.043334029445679996,
-            "positionZ": 0.48245576591813616
-          }
+            "positionX": 0,
+            "positionY": 0.03,
+            "positionZ": 0
+          },
+          "hostedAsset": true,
+          "previewGeometryFile": "model-assets/5780d4b53657b9ac7727a9682a88b6b02e4ead34d8a3c4f9234455fa7a39ada7.glb.preview.json"
         }
-      ],
-      "calibration": "windows-cache-v1"
+      ]
     },
     {
       "profileId": "sc_terrain_1cffe4ed683895d1",
       "name": "Starcraft - Terrain - Wall Set 2 - 3895d1",
       "kind": "terrain",
+      "calibration": "pdf-grid-v1",
       "parts": [
         {
-          "modelUrl": "https://steamusercontent-a.akamaihd.net/ugc/16696069935400629216/E60B9B6B6AB2F81E6B7BDD2F437BA79AD8202F76/",
-          "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/14882615035596434474/4D9D65D31D0642898B66262948A1A6A0BE68F2A9/",
+          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/1779d6a36966885e3c5ae60c3f034cb2fc1150791b808d2369bd88a0a70f9b15.glb",
+          "textureUrl": null,
           "transforms": {
-            "scale": 3.43479525,
+            "scale": 0.39370078740157477,
             "rotationX": 0,
             "rotationY": 0,
             "rotationZ": 0,
-            "positionX": 0.49138331999999924,
-            "positionY": 1.29868936,
-            "positionZ": 1.39812903
+            "positionX": 0,
+            "positionY": 0.03,
+            "positionZ": 0
           },
           "previewSource": {
-            "modelUrl": "https://steamusercontent-a.akamaihd.net/ugc/16696069935400629216/E60B9B6B6AB2F81E6B7BDD2F437BA79AD8202F76/",
-            "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/14882615035596434474/4D9D65D31D0642898B66262948A1A6A0BE68F2A9/"
+            "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/1779d6a36966885e3c5ae60c3f034cb2fc1150791b808d2369bd88a0a70f9b15.glb",
+            "textureUrl": null
           },
           "previewTransforms": {
-            "scale": 2.54,
+            "scale": 0.9999999999999999,
             "rotationX": 0,
             "rotationY": 0,
             "rotationZ": 0,
-            "positionX": 0.49138331999999924,
-            "positionY": 1.29868936,
-            "positionZ": 1.39812903
-          }
+            "positionX": 0,
+            "positionY": 0.03,
+            "positionZ": 0
+          },
+          "hostedAsset": true,
+          "previewGeometryFile": "model-assets/1779d6a36966885e3c5ae60c3f034cb2fc1150791b808d2369bd88a0a70f9b15.glb.preview.json"
         }
-      ],
-      "calibration": "windows-cache-v1"
+      ]
     },
     {
       "profileId": "sc_terrain_2e5381d1d3c2f1b7",
       "name": "Starcraft - Terrain - Wall Set 3 - c2f1b7",
       "kind": "terrain",
+      "calibration": "pdf-grid-v1",
       "parts": [
         {
-          "modelUrl": "https://steamusercontent-a.akamaihd.net/ugc/15345174323865486993/8E36DA1F6593F67C9F3B1C316E999006544FAB33/",
-          "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/12466753613873081281/CC9E156F12D2D5FCD187C60140361ACF9E1CF850/",
+          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/aae2cd8e40537bc728c9e353f69539519c2ba066a7f1565a362ad5a08ac850ad.glb",
+          "textureUrl": null,
           "transforms": {
-            "scale": 1.9248071250000003,
+            "scale": 0.39370078740157477,
             "rotationX": 0,
             "rotationY": 0,
             "rotationZ": 0,
-            "positionX": -3.18072897,
-            "positionY": 0.34750000000000003,
-            "positionZ": 0.9675228300000002
+            "positionX": 0,
+            "positionY": 0.03,
+            "positionZ": 0
           },
           "previewSource": {
-            "modelUrl": "https://steamusercontent-a.akamaihd.net/ugc/15345174323865486993/8E36DA1F6593F67C9F3B1C316E999006544FAB33/",
-            "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/12466753613873081281/CC9E156F12D2D5FCD187C60140361ACF9E1CF850/"
+            "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/aae2cd8e40537bc728c9e353f69539519c2ba066a7f1565a362ad5a08ac850ad.glb",
+            "textureUrl": null
           },
           "previewTransforms": {
-            "scale": 2.54,
+            "scale": 0.9999999999999999,
             "rotationX": 0,
             "rotationY": 0,
             "rotationZ": 0,
-            "positionX": -3.18072897,
-            "positionY": 0.34750000000000003,
-            "positionZ": 0.9675228300000002
-          }
+            "positionX": 0,
+            "positionY": 0.03,
+            "positionZ": 0
+          },
+          "hostedAsset": true,
+          "previewGeometryFile": "model-assets/aae2cd8e40537bc728c9e353f69539519c2ba066a7f1565a362ad5a08ac850ad.glb.preview.json"
         }
-      ],
-      "calibration": "windows-cache-v1"
+      ]
     },
     {
       "profileId": "sc_terrain_0e597f350f0c8124",
       "name": "Starcraft - Terrain - grass - 0c8124",
       "kind": "terrain",
+      "calibration": "pdf-grid-v1",
       "parts": [
         {
-          "modelUrl": "https://steamusercontent-a.akamaihd.net/ugc/13453573848333998441/5E90C87B961EBA564BC81BC5257B2B46AF6F9171/",
-          "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/17816586817869580434/9765A05A92BE516DFA2A6B1F3BA8BD947B6CE8E7/",
+          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/d702675747ea75746709f86e091e5033fb81d19d604f89e5998afdfc78c513ec.glb",
+          "textureUrl": null,
           "transforms": {
-            "scale": 1.059246375,
+            "scale": 0.39370078740157477,
             "rotationX": 0,
             "rotationY": 0,
             "rotationZ": 0,
-            "positionX": -0.09624694999999998,
-            "positionY": 0.13013696,
-            "positionZ": 0.01898522999999999
+            "positionX": 0,
+            "positionY": 0.03,
+            "positionZ": 0
           },
           "previewSource": {
-            "modelUrl": "https://steamusercontent-a.akamaihd.net/ugc/13453573848333998441/5E90C87B961EBA564BC81BC5257B2B46AF6F9171/",
-            "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/17816586817869580434/9765A05A92BE516DFA2A6B1F3BA8BD947B6CE8E7/"
+            "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/d702675747ea75746709f86e091e5033fb81d19d604f89e5998afdfc78c513ec.glb",
+            "textureUrl": null
           },
           "previewTransforms": {
-            "scale": 2.54,
+            "scale": 0.9999999999999999,
             "rotationX": 0,
             "rotationY": 0,
             "rotationZ": 0,
-            "positionX": -0.09624694999999998,
-            "positionY": 0.13013696,
-            "positionZ": 0.01898522999999999
-          }
+            "positionX": 0,
+            "positionY": 0.03,
+            "positionZ": 0
+          },
+          "hostedAsset": true,
+          "previewGeometryFile": "model-assets/d702675747ea75746709f86e091e5033fb81d19d604f89e5998afdfc78c513ec.glb.preview.json"
         }
-      ],
-      "calibration": "windows-cache-v1"
+      ]
     },
     {
       "profileId": "sc_terrain_5395598da3627dc3",
       "name": "Starcraft - Terrain - Temple Obelisk - 627dc3",
       "kind": "terrain",
+      "calibration": "pdf-grid-v1",
       "parts": [
         {
-          "modelUrl": "https://steamusercontent-a.akamaihd.net/ugc/17858142237602324437/33D22A31760E14A9BA9DFFC3118A12E4321C8994/",
-          "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/8552585319863352/1819A075ABF36C76A9A4AC30DF88D9E39EC41E19/",
+          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/21c1aceb78e9305e1a32f961cabb1d46a4045151644b5be207e16c95ab968940.glb",
+          "textureUrl": null,
           "transforms": {
-            "scale": 0.5000005,
+            "scale": 0.39370078740157477,
             "rotationX": 0,
             "rotationY": 0,
             "rotationZ": 0,
             "positionX": 0,
-            "positionY": 0.03834009834009,
+            "positionY": 0.03,
             "positionZ": 0
           },
           "previewSource": {
-            "modelUrl": "https://steamusercontent-a.akamaihd.net/ugc/17858142237602324437/33D22A31760E14A9BA9DFFC3118A12E4321C8994/",
-            "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/8552585319863352/1819A075ABF36C76A9A4AC30DF88D9E39EC41E19/"
+            "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/21c1aceb78e9305e1a32f961cabb1d46a4045151644b5be207e16c95ab968940.glb",
+            "textureUrl": null
           },
           "previewTransforms": {
-            "scale": 1.2700012699999998,
+            "scale": 0.9999999999999999,
             "rotationX": 0,
             "rotationY": 0,
             "rotationZ": 0,
             "positionX": 0,
-            "positionY": 0.03834009834009,
+            "positionY": 0.03,
             "positionZ": 0
-          }
-        },
-        {
-          "modelUrl": "https://steamusercontent-a.akamaihd.net/ugc/18073083940881228987/138B0F8756445D406F99E07C9CAF091E3AD88E8F/",
-          "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/16415948190693985738/61E852A6AE3C1EFD5FEBB10A394C6E252C6C7CE0/",
-          "transforms": {
-            "scale": 0.5000004699999699,
-            "rotationX": 0.671403348,
-            "rotationY": 359.906158,
-            "rotationZ": 359.789581,
-            "positionX": 0.0002506817152814646,
-            "positionY": -0.534913836913272,
-            "positionZ": -0.1139207776206637
           },
-          "previewSource": {
-            "modelUrl": "https://steamusercontent-a.akamaihd.net/ugc/18073083940881228987/138B0F8756445D406F99E07C9CAF091E3AD88E8F/",
-            "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/16415948190693985738/61E852A6AE3C1EFD5FEBB10A394C6E252C6C7CE0/"
-          },
-          "previewTransforms": {
-            "scale": 1.2700011937999236,
-            "rotationX": 0.671403348,
-            "rotationY": 359.906158,
-            "rotationZ": 359.789581,
-            "positionX": 0.0002506817152814646,
-            "positionY": -0.534913836913272,
-            "positionZ": -0.1139207776206637
-          }
+          "hostedAsset": true,
+          "previewGeometryFile": "model-assets/21c1aceb78e9305e1a32f961cabb1d46a4045151644b5be207e16c95ab968940.glb.preview.json"
         }
-      ],
-      "calibration": "windows-cache-v1"
+      ]
     },
     {
       "profileId": "sc_terrain_e8d245d869f43c5b",
       "name": "Starcraft - Terrain - Wall Set 4 - f43c5b",
       "kind": "terrain",
+      "calibration": "pdf-grid-v1",
       "parts": [
         {
-          "modelUrl": "https://steamusercontent-a.akamaihd.net/ugc/17799036563116823363/214500903ACB4888525245004F0F07A72A65C02F/",
-          "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/14957008999031761450/39E163CE4AEC65343BD57655B4DBC4C6B2E657B9/",
+          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/7d04db1061af17e64be8d8a57535fe79158efa1b505213e44c9bee2aac7e19cd.glb",
+          "textureUrl": null,
           "transforms": {
-            "scale": 3.0067259999999996,
+            "scale": 0.39370078740157477,
             "rotationX": 0,
-            "rotationY": 25,
+            "rotationY": 0,
             "rotationZ": 0,
-            "positionX": -3.606748604721899,
-            "positionY": 0.35385,
-            "positionZ": -8.41081672186277
+            "positionX": 0,
+            "positionY": 0.03,
+            "positionZ": 0
           },
           "previewSource": {
-            "modelUrl": "https://steamusercontent-a.akamaihd.net/ugc/17799036563116823363/214500903ACB4888525245004F0F07A72A65C02F/",
-            "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/14957008999031761450/39E163CE4AEC65343BD57655B4DBC4C6B2E657B9/"
+            "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/7d04db1061af17e64be8d8a57535fe79158efa1b505213e44c9bee2aac7e19cd.glb",
+            "textureUrl": null
           },
           "previewTransforms": {
-            "scale": 2.54,
+            "scale": 0.9999999999999999,
             "rotationX": 0,
-            "rotationY": 25,
+            "rotationY": 0,
             "rotationZ": 0,
-            "positionX": -3.606748604721899,
-            "positionY": 0.35385,
-            "positionZ": -8.41081672186277
-          }
+            "positionX": 0,
+            "positionY": 0.03,
+            "positionZ": 0
+          },
+          "hostedAsset": true,
+          "previewGeometryFile": "model-assets/7d04db1061af17e64be8d8a57535fe79158efa1b505213e44c9bee2aac7e19cd.glb.preview.json"
         }
-      ],
-      "calibration": "windows-cache-v1"
+      ]
     },
     {
       "profileId": "sc_terrain_4b5400ce5539b63f",
       "name": "Starcraft - Terrain - Wall Set 5 - 39b63f",
       "kind": "terrain",
+      "calibration": "pdf-grid-v1",
       "parts": [
         {
-          "modelUrl": "https://steamusercontent-a.akamaihd.net/ugc/15364100364117888702/F9070FDDDBC5CA2D4867BE5F35536412329DC8CF/",
-          "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/11292566716676015408/E5E47AC4B3475FA4F0A91FFC4E27CC2F058AE0FD/",
+          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/ed37d226f2af1bd230ebceb50185dc7cbbe78632275bb15794c60b4579dbc944.glb",
+          "textureUrl": null,
           "transforms": {
-            "scale": 3.0067259999999996,
+            "scale": 0.39370078740157477,
             "rotationX": 0,
-            "rotationY": -25,
+            "rotationY": 0,
             "rotationZ": 0,
-            "positionX": 3.606748604721899,
-            "positionY": 0.35385,
-            "positionZ": -8.41081672186277
+            "positionX": 0,
+            "positionY": 0.03,
+            "positionZ": 0
           },
           "previewSource": {
-            "modelUrl": "https://steamusercontent-a.akamaihd.net/ugc/15364100364117888702/F9070FDDDBC5CA2D4867BE5F35536412329DC8CF/",
-            "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/11292566716676015408/E5E47AC4B3475FA4F0A91FFC4E27CC2F058AE0FD/"
+            "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/ed37d226f2af1bd230ebceb50185dc7cbbe78632275bb15794c60b4579dbc944.glb",
+            "textureUrl": null
           },
           "previewTransforms": {
-            "scale": 2.54,
+            "scale": 0.9999999999999999,
             "rotationX": 0,
-            "rotationY": -25,
+            "rotationY": 0,
             "rotationZ": 0,
-            "positionX": 3.606748604721899,
-            "positionY": 0.35385,
-            "positionZ": -8.41081672186277
-          }
+            "positionX": 0,
+            "positionY": 0.03,
+            "positionZ": 0
+          },
+          "hostedAsset": true,
+          "previewGeometryFile": "model-assets/ed37d226f2af1bd230ebceb50185dc7cbbe78632275bb15794c60b4579dbc944.glb.preview.json"
         }
-      ],
-      "calibration": "windows-cache-v1"
+      ]
     },
     {
       "profileId": "sc_terrain_0e9238ef444f6364",
       "name": "Starcraft - Terrain - Protoss Banner - 4f6364",
       "kind": "terrain",
+      "calibration": "pdf-grid-v1",
       "parts": [
         {
-          "modelUrl": "https://steamusercontent-a.akamaihd.net/ugc/14105390183802608805/7FFB47257CA9EFF2081057AD402634EE91CFE4B3/",
-          "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/10369507866648001983/1009F749FF7AEB13A8C31B3213295C1D860B339C/",
+          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/15d6fbca5ade6c07667af63ec84eb0e8a823a4ce079b2faf9fdbed0ce2079546.glb",
+          "textureUrl": null,
           "transforms": {
-            "scale": 1.0999999,
+            "scale": 0.39370078740157477,
             "rotationX": 0,
             "rotationY": 0,
             "rotationZ": 0,
-            "positionX": -0.04991840083928078,
-            "positionY": 0.19313588171006102,
-            "positionZ": -0.05404659728641471
+            "positionX": 0,
+            "positionY": 0.03,
+            "positionZ": 0
           },
           "previewSource": {
-            "modelUrl": "https://steamusercontent-a.akamaihd.net/ugc/14105390183802608805/7FFB47257CA9EFF2081057AD402634EE91CFE4B3/",
-            "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/10369507866648001983/1009F749FF7AEB13A8C31B3213295C1D860B339C/"
+            "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/15d6fbca5ade6c07667af63ec84eb0e8a823a4ce079b2faf9fdbed0ce2079546.glb",
+            "textureUrl": null
           },
           "previewTransforms": {
-            "scale": 2.793999746,
+            "scale": 0.9999999999999999,
             "rotationX": 0,
             "rotationY": 0,
             "rotationZ": 0,
-            "positionX": -0.04991840083928078,
-            "positionY": 0.19313588171006102,
-            "positionZ": -0.05404659728641471
-          }
-        },
-        {
-          "modelUrl": "https://steamusercontent-a.akamaihd.net/ugc/16187142815912427190/55A13DDB4E375A64ECFBD50D761B646072E7EBAD/",
-          "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/16657024294324500533/CEDC692BD0C7C290461E88545B49DE4793030D30/",
-          "transforms": {
-            "scale": 1.100000427999952,
-            "rotationX": 359.19455,
-            "rotationY": 359.924438,
-            "rotationZ": 0.8646406,
-            "positionX": 0.0030040894695833043,
-            "positionY": 0.1044691865862704,
-            "positionZ": 0.0027529029499938837
+            "positionX": 0,
+            "positionY": 0.03,
+            "positionZ": 0
           },
-          "previewSource": {
-            "modelUrl": "https://steamusercontent-a.akamaihd.net/ugc/16187142815912427190/55A13DDB4E375A64ECFBD50D761B646072E7EBAD/",
-            "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/16657024294324500533/CEDC692BD0C7C290461E88545B49DE4793030D30/"
-          },
-          "previewTransforms": {
-            "scale": 2.794001087119878,
-            "rotationX": 359.19455,
-            "rotationY": 359.924438,
-            "rotationZ": 0.8646406,
-            "positionX": 0.0030040894695833043,
-            "positionY": 0.1044691865862704,
-            "positionZ": 0.0027529029499938837
-          }
+          "hostedAsset": true,
+          "previewGeometryFile": "model-assets/15d6fbca5ade6c07667af63ec84eb0e8a823a4ce079b2faf9fdbed0ce2079546.glb.preview.json"
         }
-      ],
-      "calibration": "windows-cache-v1"
+      ]
     },
     {
       "profileId": "sc_terrain_f910561ff3ef2272",
       "name": "Starcraft - Terrain - Wall Set 6 - ef2272",
       "kind": "terrain",
+      "calibration": "pdf-grid-v1",
       "parts": [
         {
-          "modelUrl": "https://steamusercontent-a.akamaihd.net/ugc/11952332230460653328/56B0D84B67F78896DFA9C1A79692191DBC3CE376/",
-          "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/11600837580354471269/D4154E69960BB8E9BE3B9C3200FEE83950BF627C/",
+          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/810d7f9c9fd7bd236b3736dab13227f3f833a76ddb1f8eee7568ddb065fdf80d.glb",
+          "textureUrl": null,
           "transforms": {
-            "scale": 1.4923211250000001,
+            "scale": 0.39370078740157477,
             "rotationX": 0,
             "rotationY": 0,
             "rotationZ": 0,
-            "positionX": -0.7357198899999997,
-            "positionY": 0.35385,
-            "positionZ": -3.58789478
+            "positionX": 0,
+            "positionY": 0.03,
+            "positionZ": 0
           },
           "previewSource": {
-            "modelUrl": "https://steamusercontent-a.akamaihd.net/ugc/11952332230460653328/56B0D84B67F78896DFA9C1A79692191DBC3CE376/",
-            "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/11600837580354471269/D4154E69960BB8E9BE3B9C3200FEE83950BF627C/"
+            "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/810d7f9c9fd7bd236b3736dab13227f3f833a76ddb1f8eee7568ddb065fdf80d.glb",
+            "textureUrl": null
           },
           "previewTransforms": {
-            "scale": 2.54,
+            "scale": 0.9999999999999999,
             "rotationX": 0,
             "rotationY": 0,
             "rotationZ": 0,
-            "positionX": -0.7357198899999997,
-            "positionY": 0.35385,
-            "positionZ": -3.58789478
-          }
+            "positionX": 0,
+            "positionY": 0.03,
+            "positionZ": 0
+          },
+          "hostedAsset": true,
+          "previewGeometryFile": "model-assets/810d7f9c9fd7bd236b3736dab13227f3f833a76ddb1f8eee7568ddb065fdf80d.glb.preview.json"
         }
-      ],
-      "calibration": "windows-cache-v1"
+      ]
     },
     {
       "profileId": "sc_terrain_f305a277f53c823b",
       "name": "Starcraft - Terrain - Wall Set 1 - 3c823b",
       "kind": "terrain",
+      "calibration": "pdf-grid-v1",
       "parts": [
         {
-          "modelUrl": "https://steamusercontent-a.akamaihd.net/ugc/10702056937764223729/4D4B21E2F2E459760E4E6BD75EC21793750BA2E8/",
-          "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/9388973454819896394/206EB91C51C956CEE6615B46F68D3838933832CD/",
+          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/c43892d4b306f0f81e516133665ed69ce5cca881fe626756edfe11e3f4f2a8c4.glb",
+          "textureUrl": null,
           "transforms": {
-            "scale": 2.9341286250000005,
+            "scale": 0.39370078740157477,
             "rotationX": 0,
             "rotationY": 0,
             "rotationZ": 0,
-            "positionX": 1.2652616300000004,
-            "positionY": 1.3132054599999998,
-            "positionZ": 0.32617663999999996
+            "positionX": 0,
+            "positionY": 0.03,
+            "positionZ": 0
           },
           "previewSource": {
-            "modelUrl": "https://steamusercontent-a.akamaihd.net/ugc/10702056937764223729/4D4B21E2F2E459760E4E6BD75EC21793750BA2E8/",
-            "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/9388973454819896394/206EB91C51C956CEE6615B46F68D3838933832CD/"
+            "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/c43892d4b306f0f81e516133665ed69ce5cca881fe626756edfe11e3f4f2a8c4.glb",
+            "textureUrl": null
           },
           "previewTransforms": {
-            "scale": 2.54,
+            "scale": 0.9999999999999999,
             "rotationX": 0,
             "rotationY": 0,
             "rotationZ": 0,
-            "positionX": 1.2652616300000004,
-            "positionY": 1.3132054599999998,
-            "positionZ": 0.32617663999999996
-          }
+            "positionX": 0,
+            "positionY": 0.03,
+            "positionZ": 0
+          },
+          "hostedAsset": true,
+          "previewGeometryFile": "model-assets/c43892d4b306f0f81e516133665ed69ce5cca881fe626756edfe11e3f4f2a8c4.glb.preview.json"
         }
-      ],
-      "calibration": "windows-cache-v1"
+      ]
     },
     {
       "profileId": "sc_terrain_696320bc52444def",
       "name": "Starcraft - Terrain - Protoss Banner - 444def",
       "kind": "terrain",
+      "calibration": "pdf-grid-v1",
       "parts": [
         {
-          "modelUrl": "https://steamusercontent-a.akamaihd.net/ugc/14105390183802608805/7FFB47257CA9EFF2081057AD402634EE91CFE4B3/",
-          "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/12440890074480881284/A65395F996C5355697D12E1E06E7B73D45F7E2B2/",
+          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/511449a0c91f4f26002f3eed217a99fb4fb52db46a431bdff8d597b7b65dcdca.glb",
+          "textureUrl": null,
           "transforms": {
-            "scale": 1.0999999,
+            "scale": 0.39370078740157477,
             "rotationX": 0,
             "rotationY": 0,
             "rotationZ": 0,
-            "positionX": -0.049919058163648874,
-            "positionY": 0.19313638690296422,
-            "positionZ": -0.054046194379899035
+            "positionX": 0,
+            "positionY": 0.03,
+            "positionZ": 0
           },
           "previewSource": {
-            "modelUrl": "https://steamusercontent-a.akamaihd.net/ugc/14105390183802608805/7FFB47257CA9EFF2081057AD402634EE91CFE4B3/",
-            "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/12440890074480881284/A65395F996C5355697D12E1E06E7B73D45F7E2B2/"
+            "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/511449a0c91f4f26002f3eed217a99fb4fb52db46a431bdff8d597b7b65dcdca.glb",
+            "textureUrl": null
           },
           "previewTransforms": {
-            "scale": 2.793999746,
+            "scale": 0.9999999999999999,
             "rotationX": 0,
             "rotationY": 0,
             "rotationZ": 0,
-            "positionX": -0.049919058163648874,
-            "positionY": 0.19313638690296422,
-            "positionZ": -0.054046194379899035
-          }
-        },
-        {
-          "modelUrl": "https://steamusercontent-a.akamaihd.net/ugc/16187142815912427190/55A13DDB4E375A64ECFBD50D761B646072E7EBAD/",
-          "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/16657024294324500533/CEDC692BD0C7C290461E88545B49DE4793030D30/",
-          "transforms": {
-            "scale": 1.100000295999964,
-            "rotationX": 359.19455,
-            "rotationY": 359.924438,
-            "rotationZ": 0.8646572,
-            "positionX": 0.003004146850350234,
-            "positionY": 0.10446977504036603,
-            "positionZ": 0.0027529026823462227
+            "positionX": 0,
+            "positionY": 0.03,
+            "positionZ": 0
           },
-          "previewSource": {
-            "modelUrl": "https://steamusercontent-a.akamaihd.net/ugc/16187142815912427190/55A13DDB4E375A64ECFBD50D761B646072E7EBAD/",
-            "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/16657024294324500533/CEDC692BD0C7C290461E88545B49DE4793030D30/"
-          },
-          "previewTransforms": {
-            "scale": 2.7940007518399086,
-            "rotationX": 359.19455,
-            "rotationY": 359.924438,
-            "rotationZ": 0.8646572,
-            "positionX": 0.003004146850350234,
-            "positionY": 0.10446977504036603,
-            "positionZ": 0.0027529026823462227
-          }
+          "hostedAsset": true,
+          "previewGeometryFile": "model-assets/511449a0c91f4f26002f3eed217a99fb4fb52db46a431bdff8d597b7b65dcdca.glb.preview.json"
         }
-      ],
-      "calibration": "windows-cache-v1"
+      ]
     },
     {
       "profileId": "sc_terrain_8a9da51123d91b9c",
       "name": "Starcraft - Terrain - Vespene Geyser - d91b9c",
       "kind": "terrain",
+      "calibration": "pdf-grid-v1",
       "parts": [
         {
-          "modelUrl": "https://steamusercontent-a.akamaihd.net/ugc/16847790761879049548/73D02B6A7E9EB7662354E097CD19B60B7C6DA422/",
-          "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/12514039678784664250/D376B1CFBA958A5085F1C211CF483F73DB85F2C8/",
+          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/0b2da56405cf43da0254a49da9056189ec9fe27694682c1cac23c7160fd2e3d6.glb",
+          "textureUrl": null,
           "transforms": {
-            "scale": 1.27461645,
+            "scale": 0.39370078740157477,
             "rotationX": 0,
             "rotationY": 0,
             "rotationZ": 0,
-            "positionX": -0.006844283999999978,
-            "positionY": 0.06484168800000001,
-            "positionZ": -0.05049469199999972
+            "positionX": 0,
+            "positionY": 0.03,
+            "positionZ": 0
           },
           "previewSource": {
-            "modelUrl": "https://steamusercontent-a.akamaihd.net/ugc/16847790761879049548/73D02B6A7E9EB7662354E097CD19B60B7C6DA422/",
-            "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/12514039678784664250/D376B1CFBA958A5085F1C211CF483F73DB85F2C8/"
+            "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/0b2da56405cf43da0254a49da9056189ec9fe27694682c1cac23c7160fd2e3d6.glb",
+            "textureUrl": null
           },
           "previewTransforms": {
-            "scale": 3.048,
+            "scale": 0.9999999999999999,
             "rotationX": 0,
             "rotationY": 0,
             "rotationZ": 0,
-            "positionX": -0.006844283999999978,
-            "positionY": 0.06484168800000001,
-            "positionZ": -0.05049469199999972
-          }
+            "positionX": 0,
+            "positionY": 0.03,
+            "positionZ": 0
+          },
+          "hostedAsset": true,
+          "previewGeometryFile": "model-assets/0b2da56405cf43da0254a49da9056189ec9fe27694682c1cac23c7160fd2e3d6.glb.preview.json"
         }
-      ],
-      "calibration": "windows-cache-v1"
+      ]
     },
     {
       "profileId": "sc_terrain_342caed58291ae73",
       "name": "Starcraft - Terrain - Statue Shard - 91ae73",
       "kind": "terrain",
+      "calibration": "pdf-grid-v1",
       "parts": [
         {
-          "modelUrl": "https://steamusercontent-a.akamaihd.net/ugc/17085801959441924534/E60A1E0F01C1C5C35D227880F13ABC754AA83B34/",
-          "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/16717348948617320850/152BD21C67F86A8869A6586C003451801FFDAD36/",
+          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/77730f27d715cebc29fc266fae0656253e1a2bd32c8c2cf8256af045fbc7cbf1.glb",
+          "textureUrl": null,
           "transforms": {
-            "scale": 0.255104423,
+            "scale": 0.39370078740157477,
             "rotationX": 0,
             "rotationY": 0,
             "rotationZ": 0,
-            "positionX": 0.05806688030492199,
-            "positionY": 0.14017318832735223,
-            "positionZ": 4.138977488182193
+            "positionX": 0,
+            "positionY": 0.03,
+            "positionZ": 0
           },
           "previewSource": {
-            "modelUrl": "https://steamusercontent-a.akamaihd.net/ugc/17085801959441924534/E60A1E0F01C1C5C35D227880F13ABC754AA83B34/",
-            "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/16717348948617320850/152BD21C67F86A8869A6586C003451801FFDAD36/"
+            "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/77730f27d715cebc29fc266fae0656253e1a2bd32c8c2cf8256af045fbc7cbf1.glb",
+            "textureUrl": null
           },
           "previewTransforms": {
-            "scale": 0.6479652344200001,
+            "scale": 0.9999999999999999,
             "rotationX": 0,
             "rotationY": 0,
             "rotationZ": 0,
-            "positionX": 0.05806688030492199,
-            "positionY": 0.14017318832735223,
-            "positionZ": 4.138977488182193
-          }
-        },
-        {
-          "modelUrl": "https://steamusercontent-a.akamaihd.net/ugc/17085801959441924534/E60A1E0F01C1C5C35D227880F13ABC754AA83B34/",
-          "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/16717348948617320850/152BD21C67F86A8869A6586C003451801FFDAD36/",
-          "transforms": {
-            "scale": 0.55326281946971,
-            "rotationX": 0.455157846,
-            "rotationY": 180.019363,
-            "rotationZ": 358.916718,
-            "positionX": 0.05162059849427724,
-            "positionY": 0.13849465260836963,
-            "positionZ": -1.6670592698280577
+            "positionX": 0,
+            "positionY": 0.03,
+            "positionZ": 0
           },
-          "previewSource": {
-            "modelUrl": "https://steamusercontent-a.akamaihd.net/ugc/17085801959441924534/E60A1E0F01C1C5C35D227880F13ABC754AA83B34/",
-            "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/16717348948617320850/152BD21C67F86A8869A6586C003451801FFDAD36/"
-          },
-          "previewTransforms": {
-            "scale": 1.4052875614530635,
-            "rotationX": 0.455157846,
-            "rotationY": 180.019363,
-            "rotationZ": 358.916718,
-            "positionX": 0.05162059849427724,
-            "positionY": 0.13849465260836963,
-            "positionZ": -1.6670592698280577
-          }
+          "hostedAsset": true,
+          "previewGeometryFile": "model-assets/77730f27d715cebc29fc266fae0656253e1a2bd32c8c2cf8256af045fbc7cbf1.glb.preview.json"
         }
-      ],
-      "calibration": "windows-cache-v1"
+      ]
     },
     {
       "profileId": "sc_terrain_e45c33c511633ae2",
       "name": "Starcraft - Terrain - Head Statue - 633ae2",
       "kind": "terrain",
+      "calibration": "pdf-grid-v1",
       "parts": [
         {
-          "modelUrl": "https://steamusercontent-a.akamaihd.net/ugc/16752883865032145389/29F01FF4B05FFA1FDE5C3D7B3C2247B913879055/",
-          "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/12266583770828535695/D34B84E0A65CA5FE4C72F487361102AF4691AD81/",
+          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/4281455656e4a541b50e1be512abf3c5355cf20da2a22b5356d9808abed87a9c.glb",
+          "textureUrl": null,
           "transforms": {
-            "scale": 1.4450461031807584,
+            "scale": 0.39370078740157477,
             "rotationX": 0,
             "rotationY": 0,
             "rotationZ": 0,
-            "positionX": -0.38334019491541216,
-            "positionY": 0.0429059414479588,
-            "positionZ": 0.466966560373607
+            "positionX": 0,
+            "positionY": 0.03,
+            "positionZ": 0
           },
           "previewSource": {
-            "modelUrl": "https://steamusercontent-a.akamaihd.net/ugc/16752883865032145389/29F01FF4B05FFA1FDE5C3D7B3C2247B913879055/",
-            "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/12266583770828535695/D34B84E0A65CA5FE4C72F487361102AF4691AD81/"
+            "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/4281455656e4a541b50e1be512abf3c5355cf20da2a22b5356d9808abed87a9c.glb",
+            "textureUrl": null
           },
           "previewTransforms": {
-            "scale": 2.1763813571600004,
+            "scale": 0.9999999999999999,
             "rotationX": 0,
             "rotationY": 0,
             "rotationZ": 0,
-            "positionX": -0.38334019491541216,
-            "positionY": 0.0429059414479588,
-            "positionZ": 0.466966560373607
-          }
+            "positionX": 0,
+            "positionY": 0.03,
+            "positionZ": 0
+          },
+          "hostedAsset": true,
+          "previewGeometryFile": "model-assets/4281455656e4a541b50e1be512abf3c5355cf20da2a22b5356d9808abed87a9c.glb.preview.json"
         }
-      ],
-      "calibration": "windows-cache-v1"
+      ]
     },
     {
       "profileId": "sc_terrain_f2dd0d048a087d53",
       "name": "Starcraft - Terrain - High Ground - 087d53",
       "kind": "terrain",
+      "calibration": "pdf-grid-v1",
       "parts": [
         {
-          "modelUrl": "https://steamusercontent-a.akamaihd.net/ugc/17474291243223958637/258D5A00929C84CB834BB0EACB46F3B5A83BCEAC/",
-          "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/10975319265487922234/7CB6891237190BE9AF71B77CA86311D085ABF7F1/",
+          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/fa749903b83b1a520a4a2cfffcdbb3fca2f4ee018c0f886387c5faecb603886a.glb",
+          "textureUrl": null,
           "transforms": {
-            "scale": 1,
+            "scale": 0.39370078740157477,
             "rotationX": 0,
             "rotationY": 0,
             "rotationZ": 0,
-            "positionX": 1.899295299390536,
-            "positionY": 3.1601074756138803,
-            "positionZ": 4.9229083914
+            "positionX": 0,
+            "positionY": 0.03,
+            "positionZ": 0
           },
           "previewSource": {
-            "modelUrl": "https://steamusercontent-a.akamaihd.net/ugc/17474291243223958637/258D5A00929C84CB834BB0EACB46F3B5A83BCEAC/",
-            "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/10975319265487922234/7CB6891237190BE9AF71B77CA86311D085ABF7F1/"
+            "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/fa749903b83b1a520a4a2cfffcdbb3fca2f4ee018c0f886387c5faecb603886a.glb",
+            "textureUrl": null
           },
           "previewTransforms": {
-            "scale": 2.54,
+            "scale": 0.9999999999999999,
             "rotationX": 0,
             "rotationY": 0,
             "rotationZ": 0,
-            "positionX": 1.899295299390536,
-            "positionY": 3.1601074756138803,
-            "positionZ": 4.9229083914
-          }
-        },
-        {
-          "modelUrl": "https://steamusercontent-a.akamaihd.net/ugc/13253521238442170881/4A32EF9D5D7096599D6DAAD629DF1173DDA01917/",
-          "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/12656115804830739173/CF2FDFB55A76E77680B3DB2D1F4778BBD55B4860/",
-          "transforms": {
-            "scale": 1,
-            "rotationX": -0.000003634571,
-            "rotationY": 359.992828,
-            "rotationZ": -0.00000126076475,
-            "positionX": -12.105874556609464,
-            "positionY": 3.5225010612138803,
+            "positionX": 0,
+            "positionY": 0.03,
             "positionZ": 0
           },
-          "previewSource": {
-            "modelUrl": "https://steamusercontent-a.akamaihd.net/ugc/13253521238442170881/4A32EF9D5D7096599D6DAAD629DF1173DDA01917/",
-            "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/12656115804830739173/CF2FDFB55A76E77680B3DB2D1F4778BBD55B4860/"
-          },
-          "previewTransforms": {
-            "scale": 2.54,
-            "rotationX": -0.000003634571,
-            "rotationY": 359.992828,
-            "rotationZ": -0.00000126076475,
-            "positionX": -12.105874556609464,
-            "positionY": 3.5225010612138803,
-            "positionZ": 0
-          }
+          "hostedAsset": true,
+          "previewGeometryFile": "model-assets/fa749903b83b1a520a4a2cfffcdbb3fca2f4ee018c0f886387c5faecb603886a.glb.preview.json"
         }
-      ],
-      "calibration": "windows-cache-v1"
+      ]
     },
     {
       "profileId": "sc_terrain_442da683d2d26342",
       "name": "Starcraft - Terrain - Protoss Banner - d26342",
       "kind": "terrain",
+      "calibration": "pdf-grid-v1",
       "parts": [
         {
-          "modelUrl": "https://steamusercontent-a.akamaihd.net/ugc/14105390183802608805/7FFB47257CA9EFF2081057AD402634EE91CFE4B3/",
-          "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/10357068739505337484/227FFCA9C2EF66E7C219C9C58699DC368D2E91B0/",
+          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/c5aa952f86f8c1d980daa89e947fd07aba7c9b8d791b5cdf30b74e28d0372942.glb",
+          "textureUrl": null,
           "transforms": {
-            "scale": 1.0999999,
+            "scale": 0.39370078740157477,
             "rotationX": 0,
             "rotationY": 0,
             "rotationZ": 0,
-            "positionX": -0.04991840083928078,
-            "positionY": 0.19313588171006102,
-            "positionZ": -0.05404659728641471
+            "positionX": 0,
+            "positionY": 0.03,
+            "positionZ": 0
           },
           "previewSource": {
-            "modelUrl": "https://steamusercontent-a.akamaihd.net/ugc/14105390183802608805/7FFB47257CA9EFF2081057AD402634EE91CFE4B3/",
-            "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/10357068739505337484/227FFCA9C2EF66E7C219C9C58699DC368D2E91B0/"
+            "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/c5aa952f86f8c1d980daa89e947fd07aba7c9b8d791b5cdf30b74e28d0372942.glb",
+            "textureUrl": null
           },
           "previewTransforms": {
-            "scale": 2.793999746,
+            "scale": 0.9999999999999999,
             "rotationX": 0,
             "rotationY": 0,
             "rotationZ": 0,
-            "positionX": -0.04991840083928078,
-            "positionY": 0.19313588171006102,
-            "positionZ": -0.05404659728641471
-          }
-        },
-        {
-          "modelUrl": "https://steamusercontent-a.akamaihd.net/ugc/16187142815912427190/55A13DDB4E375A64ECFBD50D761B646072E7EBAD/",
-          "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/16657024294324500533/CEDC692BD0C7C290461E88545B49DE4793030D30/",
-          "transforms": {
-            "scale": 1.100000427999952,
-            "rotationX": 359.19455,
-            "rotationY": 359.924438,
-            "rotationZ": 0.8646406,
-            "positionX": 0.0030040894695833043,
-            "positionY": 0.1044691865862704,
-            "positionZ": 0.0027529029499938837
+            "positionX": 0,
+            "positionY": 0.03,
+            "positionZ": 0
           },
-          "previewSource": {
-            "modelUrl": "https://steamusercontent-a.akamaihd.net/ugc/16187142815912427190/55A13DDB4E375A64ECFBD50D761B646072E7EBAD/",
-            "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/16657024294324500533/CEDC692BD0C7C290461E88545B49DE4793030D30/"
-          },
-          "previewTransforms": {
-            "scale": 2.794001087119878,
-            "rotationX": 359.19455,
-            "rotationY": 359.924438,
-            "rotationZ": 0.8646406,
-            "positionX": 0.0030040894695833043,
-            "positionY": 0.1044691865862704,
-            "positionZ": 0.0027529029499938837
-          }
+          "hostedAsset": true,
+          "previewGeometryFile": "model-assets/c5aa952f86f8c1d980daa89e947fd07aba7c9b8d791b5cdf30b74e28d0372942.glb.preview.json"
         }
-      ],
-      "calibration": "windows-cache-v1"
+      ]
     },
     {
       "profileId": "sc_terrain_677b1df2f3ce2914",
       "name": "Starcraft - Terrain - Protoss Banner - ce2914",
       "kind": "terrain",
+      "calibration": "pdf-grid-v1",
       "parts": [
         {
-          "modelUrl": "https://steamusercontent-a.akamaihd.net/ugc/14105390183802608805/7FFB47257CA9EFF2081057AD402634EE91CFE4B3/",
-          "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/10385263367292569965/04D6173C96DFF029CF83DB7007C803E0231DA978/",
+          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/04155cec3d43f552f7f960baae0004790107376b05355e46580db8dbdd668b60.glb",
+          "textureUrl": null,
           "transforms": {
-            "scale": 1.0999999,
+            "scale": 0.39370078740157477,
             "rotationX": 0,
             "rotationY": 0,
             "rotationZ": 0,
-            "positionX": -0.049923221885842424,
-            "positionY": 0.1931357906256693,
-            "positionZ": -0.054047084001170524
+            "positionX": 0,
+            "positionY": 0.03,
+            "positionZ": 0
           },
           "previewSource": {
-            "modelUrl": "https://steamusercontent-a.akamaihd.net/ugc/14105390183802608805/7FFB47257CA9EFF2081057AD402634EE91CFE4B3/",
-            "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/10385263367292569965/04D6173C96DFF029CF83DB7007C803E0231DA978/"
+            "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/04155cec3d43f552f7f960baae0004790107376b05355e46580db8dbdd668b60.glb",
+            "textureUrl": null
           },
           "previewTransforms": {
-            "scale": 2.793999746,
+            "scale": 0.9999999999999999,
             "rotationX": 0,
             "rotationY": 0,
             "rotationZ": 0,
-            "positionX": -0.049923221885842424,
-            "positionY": 0.1931357906256693,
-            "positionZ": -0.054047084001170524
-          }
-        },
-        {
-          "modelUrl": "https://steamusercontent-a.akamaihd.net/ugc/16187142815912427190/55A13DDB4E375A64ECFBD50D761B646072E7EBAD/",
-          "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/16657024294324500533/CEDC692BD0C7C290461E88545B49DE4793030D30/",
-          "transforms": {
-            "scale": 1.100000427999952,
-            "rotationX": 359.19455,
-            "rotationY": 359.924438,
-            "rotationZ": 0.8646406,
-            "positionX": 0.0030040894695833806,
-            "positionY": 0.10446918658627039,
-            "positionZ": 0.002752902949993835
+            "positionX": 0,
+            "positionY": 0.03,
+            "positionZ": 0
           },
-          "previewSource": {
-            "modelUrl": "https://steamusercontent-a.akamaihd.net/ugc/16187142815912427190/55A13DDB4E375A64ECFBD50D761B646072E7EBAD/",
-            "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/16657024294324500533/CEDC692BD0C7C290461E88545B49DE4793030D30/"
-          },
-          "previewTransforms": {
-            "scale": 2.794001087119878,
-            "rotationX": 359.19455,
-            "rotationY": 359.924438,
-            "rotationZ": 0.8646406,
-            "positionX": 0.0030040894695833806,
-            "positionY": 0.10446918658627039,
-            "positionZ": 0.002752902949993835
-          }
+          "hostedAsset": true,
+          "previewGeometryFile": "model-assets/04155cec3d43f552f7f960baae0004790107376b05355e46580db8dbdd668b60.glb.preview.json"
         }
-      ],
-      "calibration": "windows-cache-v1"
+      ]
     },
     {
       "profileId": "sc_mission_red",

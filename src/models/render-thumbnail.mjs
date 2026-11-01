@@ -127,10 +127,16 @@ async function textureData(filename) {
   return { data, width: info.width, height: info.height };
 }
 
-export async function renderGeometry(meshes, { size = 512 } = {}) {
+export async function renderGeometry(
+  meshes,
+  { size = 512, topDown = false, frame = null, margin = 32 } = {},
+) {
+  const viewRight = topDown ? [1, 0, 0] : right;
+  const viewUp = topDown ? [0, 0, 1] : up;
+  const viewCamera = topDown ? [0, 1, 0] : camera;
   if (!meshes.length) throw new Error('No renderable model meshes');
   const projected = meshes.map(mesh =>
-    mesh.vertices.map(v => [dot(v, right), dot(v, up), dot(v, camera)]),
+    mesh.vertices.map(v => [dot(v, viewRight), dot(v, viewUp), dot(v, viewCamera)]),
   );
   const lower = [Infinity, Infinity, Infinity],
     upper = [-Infinity, -Infinity, -Infinity];
@@ -140,7 +146,10 @@ export async function renderGeometry(meshes, { size = 512 } = {}) {
         lower[axis] = Math.min(lower[axis], point[axis]);
         upper[axis] = Math.max(upper[axis], point[axis]);
       }
-  const scale = (size - 64) / Math.max(upper[0] - lower[0], upper[1] - lower[1], 0.0001);
+  if (frame) {
+    [lower[0], lower[1], upper[0], upper[1]] = frame;
+  }
+  const scale = (size - margin * 2) / Math.max(upper[0] - lower[0], upper[1] - lower[1], 0.0001);
   const center = lower.map((value, i) => (value + upper[i]) / 2);
   const pixels = Buffer.alloc(size * size * 4);
   for (let i = 0; i < pixels.length; i += 4) {

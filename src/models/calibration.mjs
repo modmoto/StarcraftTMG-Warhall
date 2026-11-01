@@ -81,10 +81,11 @@ export async function calibrateCatalogue(
         transforms: transform,
         previewSource: { modelUrl: part.modelUrl, textureUrl: part.textureUrl },
         previewTransforms: { ...transform, scale: scale * 2.54 },
-        ...(portable ? { hostedAsset: true } : {}),
+        ...(portable || part.hostedAsset ? { hostedAsset: true } : {}),
+        ...(part.previewGeometryFile ? { previewGeometryFile: part.previewGeometryFile } : {}),
       };
     });
-    entries.push({ ...entry, calibration: 'windows-cache-v1', parts });
+    entries.push({ ...entry, calibration: entry.calibration ?? 'windows-cache-v1', parts });
     report.push({
       profileId: entry.profileId,
       name: entry.name,

@@ -2,53 +2,39 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import { readFile } from 'node:fs/promises';
 const read = async file => JSON.parse(await readFile(new URL(file, import.meta.url), 'utf8'));
-test('six standard terrain maps retain all TTS pieces and world model positions', async () => {
+test('all six maps use the reviewed PDF centers, rotations and calibrated footprints', async () => {
   const source = await read('../terrain-sources.json');
+  const calibration = await read('../terrain-calibration.json');
   const maps = await read('../Starcraft/maps.json');
   const models = await read('../terrain-models.json');
   const terrains = await read('../Starcraft/terrains.json');
-  assert.equal(maps.length, 6);
-  const report = await read('../terrain-report.json');
   assert.deepEqual(
-    report.assets.filter(a => a.footprintYaw).map(a => [a.name, a.footprintYaw]),
-    [
-      ['Wall Set 4', 25],
-      ['Wall Set 5', -25],
-    ],
-  );
-  const highGround = models.models.find(m => m.unitName.startsWith('Terrain - High Ground'));
-  assert.equal(
-    highGround.attachments.length,
-    1,
-    'The raised platform must remain attached to the ramp',
-  );
-  assert.ok(highGround.attachments[0].layout.position.every(Number.isFinite));
-  assert.deepEqual(
-    maps.map(m => m.Items.length),
+    maps.map(map => map.Items.length),
     [30, 30, 30, 30, 32, 32],
   );
-  for (const [i, map] of maps.entries()) {
-    assert.equal(source.maps[i].width, 54);
-    assert.equal(source.maps[i].height, 36);
+  assert.equal(calibration.gridInches, 6);
+  for (const [i, map] of maps.entries())
     for (const [j, item] of map.Items.entries()) {
       const original = source.maps[i].items[j];
-      const model = models.models.find(m => m.terrainId === item.Id);
-      assert.ok(model && terrains.some(t => t.Id === item.Id && t.Type === 'Terrain'));
-      const [dx, , dz] = model.layout.position.map(v => v / 2.54);
-      const a = (item.Rotation * Math.PI) / 180;
-      assert.equal(
-        (item.Rotation + model.layout.rotation[1] + 360) % 360,
-        (Math.round(original.rotation) + 360) % 360,
-      );
-      const x = 27 - item.ShortSide + Math.cos(a) * dx + Math.sin(a) * dz;
-      const z = item.LongSide - 18 - Math.sin(a) * dx + Math.cos(a) * dz;
-      assert.ok(Math.abs(x - original.x) < 1e-9);
-      assert.ok(Math.abs(z - original.z) < 1e-9);
-      assert.equal(item.Type, 'Terrain');
-      assert.equal(new URL(model.model.meshUrl).protocol, 'https:');
-      assert.equal(new URL(model.model.textureUrl).protocol, 'https:');
+      const placement = calibration.maps[String(i + 1)][original.ttsGuid];
+      const asset = source.assets.find(asset => asset.id === item.Id);
+      const [width, length] = calibration.assets[asset.name].footprintInches;
+      const terrain = terrains.find(terrain => terrain.Id === item.Id);
+      assert.ok(Math.abs(terrain.Width - width * 2.54) < 1e-8);
+      assert.ok(Math.abs(terrain.Length - length * 2.54) < 1e-8);
+      assert.ok(Math.abs(27 - item.ShortSide - placement.x) < 1e-8);
+      assert.ok(Math.abs(item.LongSide - 18 - placement.z) < 1e-8);
+      assert.equal(item.Rotation, placement.rotation);
+      assert.equal(item.Rotation % 15, 0);
+      const model = models.models.find(model => model.terrainId === item.Id);
+      assert.equal(model.calibration, 'pdf-grid-v1');
+      assert.match(model.model.meshUrl, /model-assets\/.*\.glb$/);
+      assert.equal(model.attachments.length, 0);
     }
-  }
+  const highGround = models.models.find(model =>
+    model.unitName.startsWith('Terrain - High Ground'),
+  );
+  assert.equal(highGround.sourcePartCount, 2);
 });
 
 test('map six has both east-west ramp assemblies and the reviewed TTS positions', async () => {
@@ -71,4 +57,132 @@ test('map six has both east-west ramp assemblies and the reviewed TTS positions'
     maps.find(map => map.Id === 'sc_map_6').Items.filter(item => item.Id === ramp.id).length,
     2,
   );
+});
+
+test('cardinal wall centerlines use exact grid subdivisions without angular drift', async () => {
+  const source = await read('../terrain-sources.json');
+  const calibration = await read('../terrain-calibration.json');
+  let count = 0;
+  for (const map of source.maps)
+    for (const item of map.items) {
+      const asset = source.assets.find(asset => asset.id === item.id);
+      const definition = calibration.assets[asset.name];
+      const p = calibration.maps[String(map.number)][item.ttsGuid];
+      if (definition.centerlineZ === undefined || p.rotation % 90) continue;
+      const angle = (p.rotation * Math.PI) / 180;
+      const normal =
+        Math.abs(Math.cos(angle)) > 0.5
+          ? p.z + Math.cos(angle) * definition.centerlineZ
+          : p.x + Math.sin(angle) * definition.centerlineZ;
+      assert.ok(
+        Math.abs(normal * 4 - Math.round(normal * 4)) < 1e-7,
+        `${map.number}/${asset.name}: ${normal}`,
+      );
+      count++;
+    }
+  assert.ok(count >= 20);
+});
+test('separate XYZ scales are composed through attachments before geometry is centered', async () => {
+  const { terrainPoint } = await import('../src/terrain/geometry.mjs');
+  assert.deepEqual(
+    terrainPoint([1, 2, 3], [2, 3, 4], {
+      scaleX: 5,
+      scaleY: 6,
+      scaleZ: 7,
+      posX: 1,
+      posY: 2,
+      posZ: 3,
+    }),
+    [-8, 42, 96],
+  );
+  const terrains = await read('../Starcraft/terrains.json');
+  const source = await read('../terrain-sources.json');
+  const byName = name =>
+    terrains.filter(t => source.assets.some(a => a.id === t.Id && a.name === name));
+  const shard = byName('Statue Shard')[0],
+    head = byName('Head Statue')[0];
+  assert.ok(shard.Width * shard.Length < head.Width * head.Length * 0.7);
+  assert.ok(shard.Width < head.Width && shard.Length < head.Length);
+});
+
+test('touching PDF wall groups stay within four millimeters at their rendered tips', async () => {
+  const source = await read('../terrain-sources.json');
+  const calibration = await read('../terrain-calibration.json');
+  const models = await read('../terrain-models.json');
+  const { rotate } = await import('../src/terrain/geometry.mjs');
+  const endpoints = new Map();
+  for (const asset of source.assets.filter(asset => asset.name.startsWith('Wall'))) {
+    const model = models.models.find(model => model.terrainId === asset.id);
+    const geometry = await read(`../${model.model.previewGeometryFile}`);
+    const points = geometry.flatMap(mesh => mesh.vertices.map(([x, , z]) => [x / 2.54, z / 2.54]));
+    const end = (axis, maximum) => {
+      const value = points.reduce(
+        (value, p) => (maximum ? Math.max(value, p[axis]) : Math.min(value, p[axis])),
+        maximum ? -Infinity : Infinity,
+      );
+      const tip = points.filter(point => Math.abs(point[axis] - value) < 0.08);
+      return [0, 1].map(axis => tip.reduce((sum, p) => sum + p[axis], 0) / tip.length);
+    };
+    endpoints.set(
+      asset.id,
+      asset.name === 'Wall Set 4'
+        ? [end(0, true), end(1, true)]
+        : asset.name === 'Wall Set 5'
+          ? [end(0, false), end(1, true)]
+          : [end(0, false), end(0, true)],
+    );
+  }
+  for (const join of calibration.connections) {
+    const ends = guid => {
+      const item = source.maps[join.map - 1].items.find(item => item.ttsGuid === guid);
+      const p = calibration.maps[join.map][guid];
+      return endpoints.get(item.id).map(([x, z]) => {
+        const [xx, , zz] = rotate([x, 0, z], [0, p.rotation, 0]);
+        return [xx + p.x, zz + p.z];
+      });
+    };
+    const distance = Math.min(
+      ...ends(join.a).flatMap(a => ends(join.b).map(b => Math.hypot(a[0] - b[0], a[1] - b[1]))),
+    );
+    assert.ok(distance * 25.4 < 4, `${join.map}/${join.a}/${join.b}: ${distance} inches`);
+  }
+  const ramps = source.maps[4].items.filter(
+    item => source.assets.find(a => a.id === item.id).name === 'High Ground',
+  );
+  for (const ramp of ramps)
+    assert.equal(
+      Math.abs(calibration.maps['5'][ramp.ttsGuid].x),
+      calibration.assets['High Ground'].footprintInches[0] / 2,
+    );
+});
+
+test('portable terrain drops zero-area source triangles before normal generation', async () => {
+  const { assembleTerrain } = await import('../src/terrain/geometry.mjs');
+  const { meshes } = assembleTerrain(
+    { ttsScale: [1, 1, 1], attachments: [] },
+    [{ obj: 'v 0 0 0\nv 1 0 0\nv 0 0 1\nf 1 2 3\nf 1 1 1\n', texture: null }],
+    { footprintInches: [1, 1] },
+  );
+  assert.equal(meshes[0].faces.length, 1);
+});
+
+test('wall footprints remain inside the 54 by 36 inch battlefield', async () => {
+  const source = await read('../terrain-sources.json'),
+    calibration = await read('../terrain-calibration.json');
+  for (const map of source.maps)
+    for (const item of map.items) {
+      const asset = source.assets.find(asset => asset.id === item.id);
+      if (!asset.name.startsWith('Wall')) continue;
+      const p = calibration.maps[map.number][item.ttsGuid],
+        [w, l] = calibration.assets[asset.name].footprintInches;
+      const angle = (p.rotation * Math.PI) / 180;
+      assert.ok(
+        Math.abs(p.x) + (Math.abs(Math.cos(angle)) * w) / 2 + (Math.abs(Math.sin(angle)) * l) / 2 <=
+          27 + 1e-8,
+      );
+      assert.ok(
+        Math.abs(p.z) + (Math.abs(Math.sin(angle)) * w) / 2 + (Math.abs(Math.cos(angle)) * l) / 2 <=
+          18 + 1e-8,
+      );
+    }
 });

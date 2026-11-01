@@ -23,10 +23,14 @@ for (const selection of [...units.models, ...terrain.models].filter(m => m.statu
     profileId,
     name: `Starcraft - ${selection.unitName}`,
     kind: selection.terrainId ? 'terrain' : 'unit',
+    ...(selection.calibration ? { calibration: selection.calibration } : {}),
     parts: [selection.model, ...(selection.attachments ?? [])].map(part => ({
       modelUrl: part.meshUrl,
       textureUrl: part.textureUrl ?? null,
       transforms: transforms(part.layout ?? selection.layout, part.ttsTransform?.scaleY),
+      ...(part.hostedAsset
+        ? { hostedAsset: true, previewGeometryFile: part.previewGeometryFile }
+        : {}),
     })),
   });
 }
