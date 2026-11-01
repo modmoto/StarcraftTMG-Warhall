@@ -38,8 +38,8 @@ test(
     const refs = data['Terran/profiles.json']
       .find(p => p.Id === 'prof_marine')
       .Children.map(c => c.Id);
-    const weapons = data['Terran/statlines.json'].filter(
-      row => refs.includes(row.Id) && row.Attributes.RoA,
+    const weapons = data['Terran/rules.json'].filter(
+      row => refs.includes(row.Id) && row.Id.endsWith('_table'),
     );
     assert.deepEqual(
       weapons
@@ -52,7 +52,13 @@ test(
       ['<b>C-14 Rifle</b>', '<b>Strike</b>'],
     );
     assert.ok(weapons.every(weapon => weapon.Children.length === 0));
-    const zealot = data['Protoss/statlines.json'].find(s => s.Name === 'Zealot');
+    const zealotUnit = data['Protoss/units.json'].find(unit => unit.Name === 'Zealots');
+    const zealotProfile = data['Protoss/profiles.json'].find(
+      profile => profile.Id === zealotUnit.BasicProfileIds[0],
+    );
+    const zealot = data['Protoss/statlines.json'].find(
+      statline => statline.Id === zealotProfile.Children[0].Id,
+    );
     assert.equal(zealot.Attributes.HP, '4');
     assert.equal(zealot.Attributes.Shd, '3');
     const expected = {

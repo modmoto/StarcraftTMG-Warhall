@@ -8,8 +8,8 @@ const symbols = {
   arrow,
   crosshair:
     '<g fill="none" stroke="currentColor" stroke-width="22"><path d="M168 176V142H222M290 142H344V196M344 290V344H290M222 344H168V290M256 102V204M256 282V384M114 244H216M296 244H398"/><path d="M236 224H276V264H236Z" fill="currentColor" stroke="none"/></g>',
-  buff: arrow,
-  debuff: `<g transform="rotate(180 256 244)">${arrow}</g>`,
+  buff: '<path d="M279 102 160 265H241L220 369 356 204H275Z"/>',
+  debuff: '<path d="M279 102 160 265H241L220 369 356 204H275Z"/>',
   stim: '<g transform="rotate(40 256 244)"><path d="M208 100H304V120H266V166H246V120H208ZM202 162H310V180H202Z"/><rect x="226" y="187" width="60" height="124" rx="7" fill="none" stroke="currentColor" stroke-width="16"/><path d="M232 316H280L256 346Z"/><path d="M256 340V398M234 214H256M234 246H256M234 278H256" fill="none" stroke="currentColor" stroke-width="10"/></g>',
   burrowed:
     '<path d="M218 112H294V224H348L256 322 164 224H218Z"/><path d="M124 348 174 321 220 348 266 321 312 348 362 321 393 349V376H124Z"/>',

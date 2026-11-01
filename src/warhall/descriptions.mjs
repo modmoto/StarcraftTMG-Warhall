@@ -34,9 +34,5 @@ export function describeProfile(profile) {
 }
 
 export function describeUnit(unit) {
-  return [
-    `Categories: ${unit.categories.join(', ')}`,
-    ...(unit.attributes.Supply ? [`Models / Supply: ${unit.attributes.Supply}`] : []),
-    ...unit.costLabels,
-  ].join('\n');
+  return [`Categories: ${unit.categories.join(', ')}`, ...unit.costLabels].join('\n');
 }

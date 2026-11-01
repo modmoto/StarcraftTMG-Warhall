@@ -36,9 +36,6 @@
         "Id": "pdf_Zerg_equipment_bile_launcher_default_2_table"
       },
       {
-        "Id": "pdf_Zerg_equipment_bile_launcher_default_2_table_line_2"
-      },
-      {
         "Id": "pdf_Zerg_equipment_bile_launcher_default_2_keywords"
       }
     ]
@@ -81,9 +78,6 @@
       },
       {
         "Id": "pdf_Zerg_equipment_corpsers_roach_default_4_table"
-      },
-      {
-        "Id": "pdf_Zerg_equipment_corpsers_roach_default_4_table_line_2"
       }
     ]
   },
@@ -144,9 +138,6 @@
         "Id": "pdf_Zerg_equipment_hydralisks_default_1_table"
       },
       {
-        "Id": "pdf_Zerg_equipment_hydralisks_default_1_table_line_2"
-      },
-      {
         "Id": "pdf_Zerg_profile_hydralisks_phase_melee_phase"
       },
       {
@@ -189,9 +180,6 @@
       },
       {
         "Id": "pdf_Zerg_equipment_kerrigan_default_2_table"
-      },
-      {
-        "Id": "pdf_Zerg_equipment_kerrigan_default_2_table_line_2"
       },
       {
         "Id": "pdf_Zerg_profile_kerrigan_phase_melee_phase"
@@ -239,9 +227,6 @@
       },
       {
         "Id": "pdf_Zerg_equipment_kerrigan_swarm_raptors_zergling_default_2_table"
-      },
-      {
-        "Id": "pdf_Zerg_equipment_kerrigan_swarm_raptors_zergling_default_2_table_line_2"
       },
       {
         "Id": "pdf_Zerg_equipment_kerrigan_swarm_raptors_zergling_default_2_keywords"
@@ -305,16 +290,10 @@
         "Id": "pdf_Zerg_equipment_queen_default_1_table"
       },
       {
-        "Id": "pdf_Zerg_equipment_queen_default_1_table_line_2"
-      },
-      {
         "Id": "pdf_Zerg_equipment_queen_default_2_heading"
       },
       {
         "Id": "pdf_Zerg_equipment_queen_default_2_table"
-      },
-      {
-        "Id": "pdf_Zerg_equipment_queen_default_2_table_line_2"
       },
       {
         "Id": "pdf_Zerg_profile_queen_phase_melee_phase"
@@ -359,9 +338,6 @@
       },
       {
         "Id": "pdf_Zerg_equipment_raptors_zergling_default_2_table"
-      },
-      {
-        "Id": "pdf_Zerg_equipment_raptors_zergling_default_2_table_line_2"
       }
     ]
   },
@@ -394,9 +370,6 @@
       },
       {
         "Id": "pdf_Zerg_equipment_ravagers_default_2_table"
-      },
-      {
-        "Id": "pdf_Zerg_equipment_ravagers_default_2_table_line_2"
       },
       {
         "Id": "pdf_Zerg_profile_ravagers_phase_melee_phase"
@@ -618,16 +591,10 @@
         "Id": "pdf_Zerg_equipment_zagara_default_2_table"
       },
       {
-        "Id": "pdf_Zerg_equipment_zagara_default_2_table_line_2"
-      },
-      {
         "Id": "pdf_Zerg_equipment_zagara_default_3_heading"
       },
       {
         "Id": "pdf_Zerg_equipment_zagara_default_3_table"
-      },
-      {
-        "Id": "pdf_Zerg_equipment_zagara_default_3_table_line_2"
       },
       {
         "Id": "pdf_Zerg_profile_zagara_phase_melee_phase"
@@ -666,9 +633,6 @@
       },
       {
         "Id": "pdf_Zerg_equipment_zerglings_default_2_table"
-      },
-      {
-        "Id": "pdf_Zerg_equipment_zerglings_default_2_table_line_2"
       }
     ]
   }

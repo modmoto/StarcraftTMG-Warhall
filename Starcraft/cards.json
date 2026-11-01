@@ -1212,8 +1212,8 @@
     "Type": "Card",
     "Description": "Buff / Debuff\n\nFlip between the blue buff and red debuff faces. Track the effect and its value using the token notes.",
     "UIConfig": {
-      "ImageURL": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft/assets/tokens/7b0c2b7e786407b46e69561c6a46847daa249fd05ee1e1e0706fd86c93f0259a.png",
-      "ImageURLBack": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft/assets/tokens/19326d5c6cf6175d28db348f54c5e2fab696574fed601cfb05df95a40b3d7226.png",
+      "ImageURL": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft/assets/tokens/c9be89bfc9b25915bccc7e1a0a1371816f67d34c9d81c4f7836529beddef8625.png",
+      "ImageURLBack": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft/assets/tokens/27406cf72bea0e151ec10af98f9dd1b9946bf96029197882a1098bd5b1fe5d94.png",
       "Width": 25,
       "Length": 25,
       "IsRound": true,

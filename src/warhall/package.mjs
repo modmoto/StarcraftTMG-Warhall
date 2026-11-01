@@ -95,9 +95,11 @@ function addUnitRecords(unit, faction, records, bases, groups, report, baseMappi
   });
   records.statlines.push({
     Id: ids.statline,
-    Name: unit.statlineName,
+    Name: '',
     Type: 'Statline',
-    Attributes: unit.attributes,
+    Attributes: Object.fromEntries(
+      Object.entries(unit.attributes).filter(([key]) => !/^(?:Supply|Supl)$/i.test(key)),
+    ),
     Children: [],
   });
 
@@ -131,7 +133,7 @@ async function initialData(template) {
   data['gameconfig.json'].ShowDeploymentSection = true;
   data['objectives.json'] = [];
   data['gameconfig.json'].ShowGroupHeader = false;
-  data['gameconfig.json'].ShowStatlineHeader = true;
+  data['gameconfig.json'].ShowStatlineHeader = false;
   data['bases.json'] = [];
   for (const name of ['rules', 'equipment', 'options']) data[`${name}.json`] = [];
   data['dummylist.json'] = '';
@@ -143,7 +145,7 @@ function factionFiles(records) {
   return {
     units: records.units,
     profiles: records.profiles,
-    statlines: [...records.statlines, ...records.weaponTables.values()],
+    statlines: records.statlines,
     equipment: [...records.equipment.values()],
     rules: [...records.rules.values()],
     options: [],
@@ -185,7 +187,6 @@ export async function buildWarhallPackage(source, template = defaultDataDirector
       units: [],
       profiles: [],
       statlines: [],
-      weaponTables: new Map(),
       equipment: new Map(),
       rules: new Map(),
       contexts: [],

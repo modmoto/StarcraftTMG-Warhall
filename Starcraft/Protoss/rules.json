@@ -14,10 +14,24 @@
     "Children": []
   },
   {
+    "Id": "pdf_Protoss_equipment_adepts_default_2_table",
+    "Name": "",
+    "Type": "",
+    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=94%><nobr>D</nobr></color>\n<b><pos=0%><nobr>8</nobr><pos=14%><nobr>All</nobr><pos=32%><nobr>2</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>Light (D3+1)</nobr><pos=94%><nobr>1</nobr></b></size></align>",
+    "Children": []
+  },
+  {
     "Id": "pdf_Protoss_equipment_adepts_default_3_heading",
     "Name": "",
     "Type": "",
     "Description": "<b>STRIKE</b>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Protoss_equipment_adepts_default_3_table",
+    "Name": "",
+    "Type": "",
+    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=94%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>1</nobr><pos=46%><nobr>4+</nobr><pos=59%><nobr>-</nobr><pos=94%><nobr>1</nobr></b></size></align>",
     "Children": []
   },
   {
@@ -28,10 +42,24 @@
     "Children": []
   },
   {
+    "Id": "pdf_Protoss_equipment_artanis_default_3_table",
+    "Name": "",
+    "Type": "",
+    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=94%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>2</nobr><pos=46%><nobr>2+</nobr><pos=59%><nobr>Armored (D3)</nobr><pos=94%><nobr>3</nobr></b></size></align>",
+    "Children": []
+  },
+  {
     "Id": "pdf_Protoss_equipment_artanis_default_4_heading",
     "Name": "",
     "Type": "",
     "Description": "<b>TWILIGHT BLADES SWEEP</b>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Protoss_equipment_artanis_default_4_table",
+    "Name": "",
+    "Type": "",
+    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=94%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>6</nobr><pos=46%><nobr>2+</nobr><pos=59%><nobr>Light (D3+1)</nobr><pos=94%><nobr>1</nobr></b></size></align>",
     "Children": []
   },
   {
@@ -49,10 +77,24 @@
     "Children": []
   },
   {
+    "Id": "pdf_Protoss_equipment_high_templar_default_2_table",
+    "Name": "",
+    "Type": "",
+    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=94%><nobr>D</nobr></color>\n<b><pos=0%><nobr>8</nobr><pos=14%><nobr>All</nobr><pos=32%><nobr>1</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>Light (D3)</nobr><pos=94%><nobr>2</nobr></b></size></align>",
+    "Children": []
+  },
+  {
     "Id": "pdf_Protoss_equipment_high_templar_default_3_heading",
     "Name": "",
     "Type": "",
     "Description": "<b>STRIKE</b>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Protoss_equipment_high_templar_default_3_table",
+    "Name": "",
+    "Type": "",
+    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=94%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>1</nobr><pos=46%><nobr>4+</nobr><pos=59%><nobr>-</nobr><pos=94%><nobr>1</nobr></b></size></align>",
     "Children": []
   },
   {
@@ -70,6 +112,13 @@
     "Children": []
   },
   {
+    "Id": "pdf_Protoss_equipment_immortal_default_1_table",
+    "Name": "",
+    "Type": "",
+    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=94%><nobr>D</nobr></color>\n<b><pos=0%><nobr>12</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>4</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>Armored (D3)</nobr><pos=94%><nobr>2</nobr></b></size></align>",
+    "Children": []
+  },
+  {
     "Id": "pdf_Protoss_equipment_immortal_default_2_heading",
     "Name": "",
     "Type": "",
@@ -84,10 +133,24 @@
     "Children": []
   },
   {
+    "Id": "pdf_Protoss_equipment_immortal_default_2_table",
+    "Name": "",
+    "Type": "",
+    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=94%><nobr>D</nobr></color>\n<b><pos=0%><nobr>12</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>4</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>Armored (D3)</nobr><pos=94%><nobr>2</nobr></b></size></align>",
+    "Children": []
+  },
+  {
     "Id": "pdf_Protoss_equipment_immortal_default_4_heading",
     "Name": "",
     "Type": "",
     "Description": "<b>STOMP</b>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Protoss_equipment_immortal_default_4_table",
+    "Name": "",
+    "Type": "",
+    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=94%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>3</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>-</nobr><pos=94%><nobr>1</nobr></b></size></align>",
     "Children": []
   },
   {
@@ -105,6 +168,13 @@
     "Children": []
   },
   {
+    "Id": "pdf_Protoss_equipment_nerazim_watchers_adept_default_2_table",
+    "Name": "",
+    "Type": "",
+    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=94%><nobr>D</nobr></color>\n<b><pos=0%><nobr>8</nobr><pos=14%><nobr>All</nobr><pos=32%><nobr>3</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>Light (D3+1)</nobr><pos=94%><nobr>1</nobr></b></size></align>",
+    "Children": []
+  },
+  {
     "Id": "pdf_Protoss_equipment_nerazim_watchers_adept_default_3_heading",
     "Name": "",
     "Type": "",
@@ -112,10 +182,24 @@
     "Children": []
   },
   {
+    "Id": "pdf_Protoss_equipment_nerazim_watchers_adept_default_3_table",
+    "Name": "",
+    "Type": "",
+    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=94%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>1</nobr><pos=46%><nobr>5+</nobr><pos=59%><nobr>-</nobr><pos=94%><nobr>1</nobr></b></size></align>",
+    "Children": []
+  },
+  {
     "Id": "pdf_Protoss_equipment_praetor_guards_default_3_heading",
     "Name": "",
     "Type": "",
     "Description": "<b>PSI BLADES</b>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Protoss_equipment_praetor_guards_default_3_table",
+    "Name": "",
+    "Type": "",
+    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=94%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>4</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>Light (D3)</nobr><pos=94%><nobr>1</nobr></b></size></align>",
     "Children": []
   },
   {
@@ -133,10 +217,24 @@
     "Children": []
   },
   {
+    "Id": "pdf_Protoss_equipment_sentries_default_2_table",
+    "Name": "",
+    "Type": "",
+    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=94%><nobr>D</nobr></color>\n<b><pos=0%><nobr>8</nobr><pos=14%><nobr>All</nobr><pos=32%><nobr>2</nobr><pos=46%><nobr>2+</nobr><pos=59%><nobr>-</nobr><pos=94%><nobr>1</nobr></b></size></align>",
+    "Children": []
+  },
+  {
     "Id": "pdf_Protoss_equipment_sentries_default_3_heading",
     "Name": "",
     "Type": "",
     "Description": "<b>BEAM</b>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Protoss_equipment_sentries_default_3_table",
+    "Name": "",
+    "Type": "",
+    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=94%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>2</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>-</nobr><pos=94%><nobr>1</nobr></b></size></align>",
     "Children": []
   },
   {
@@ -147,10 +245,24 @@
     "Children": []
   },
   {
+    "Id": "pdf_Protoss_equipment_stalker_default_2_table",
+    "Name": "",
+    "Type": "",
+    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=94%><nobr>D</nobr></color>\n<b><pos=0%><nobr>12</nobr><pos=14%><nobr>All</nobr><pos=32%><nobr>4</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>Armored (D3)</nobr><pos=94%><nobr>2</nobr></b></size></align>",
+    "Children": []
+  },
+  {
     "Id": "pdf_Protoss_equipment_stalker_default_3_heading",
     "Name": "",
     "Type": "",
     "Description": "<b>STOMP</b>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Protoss_equipment_stalker_default_3_table",
+    "Name": "",
+    "Type": "",
+    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=94%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>2</nobr><pos=46%><nobr>5+</nobr><pos=59%><nobr>-</nobr><pos=94%><nobr>1</nobr></b></size></align>",
     "Children": []
   },
   {
@@ -168,10 +280,24 @@
     "Children": []
   },
   {
+    "Id": "pdf_Protoss_equipment_tassadar_default_2_table",
+    "Name": "",
+    "Type": "",
+    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=94%><nobr>D</nobr></color>\n<b><pos=0%><nobr>12</nobr><pos=14%><nobr>All</nobr><pos=32%><nobr>6</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>Armored (D3)</nobr><pos=94%><nobr>1</nobr></b></size></align>",
+    "Children": []
+  },
+  {
     "Id": "pdf_Protoss_equipment_tassadar_default_4_heading",
     "Name": "",
     "Type": "",
     "Description": "<b>STRIKE</b>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Protoss_equipment_tassadar_default_4_table",
+    "Name": "",
+    "Type": "",
+    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=94%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>6</nobr><pos=46%><nobr>4+</nobr><pos=59%><nobr>-</nobr><pos=94%><nobr>1</nobr></b></size></align>",
     "Children": []
   },
   {
@@ -189,6 +315,13 @@
     "Children": []
   },
   {
+    "Id": "pdf_Protoss_equipment_twilight_templar_high_templar_default_2_table",
+    "Name": "",
+    "Type": "",
+    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=94%><nobr>D</nobr></color>\n<b><pos=0%><nobr>8</nobr><pos=14%><nobr>All</nobr><pos=32%><nobr>2</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>Light (D3)</nobr><pos=94%><nobr>2</nobr></b></size></align>",
+    "Children": []
+  },
+  {
     "Id": "pdf_Protoss_equipment_twilight_templar_high_templar_default_3_heading",
     "Name": "",
     "Type": "",
@@ -196,10 +329,24 @@
     "Children": []
   },
   {
+    "Id": "pdf_Protoss_equipment_twilight_templar_high_templar_default_3_table",
+    "Name": "",
+    "Type": "",
+    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=94%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>1</nobr><pos=46%><nobr>4+</nobr><pos=59%><nobr>-</nobr><pos=94%><nobr>1</nobr></b></size></align>",
+    "Children": []
+  },
+  {
     "Id": "pdf_Protoss_equipment_zealots_default_1_heading",
     "Name": "",
     "Type": "",
     "Description": "<b>PSI BLADES</b>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Protoss_equipment_zealots_default_1_table",
+    "Name": "",
+    "Type": "",
+    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=94%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>4</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>Light (D3)</nobr><pos=94%><nobr>1</nobr></b></size></align>",
     "Children": []
   },
   {
@@ -214,6 +361,13 @@
     "Name": "",
     "Type": "",
     "Description": "<u><link=\"rule_keyword_instant\">INSTANT</link></u>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Protoss_equipment_zeratul_default_3_table",
+    "Name": "",
+    "Type": "",
+    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=94%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>4</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>L&A (D3)</nobr><pos=94%><nobr>2</nobr></b></size></align>",
     "Children": []
   },
   {

@@ -1,6 +1,6 @@
 export const weaponColumns = {
   RNG: 'Rng',
-  T: 'Tgt',
+  Target: 'Tgt',
   RoA: 'RoA',
   Hit: 'Hit',
   Surge: 'Surge',
@@ -11,13 +11,13 @@ export function weaponAttributes(attributes) {
   const values = Object.fromEntries(
     Object.entries(weaponColumns).map(([name, key]) => [name, attributes[key] || '-']),
   );
-  const targets = { ground: 'G', air: 'A', flying: 'A', all: 'All' };
-  values.T = targets[values.T.toLowerCase()] ?? values.T;
+  const targets = { ground: 'Ground', air: 'Air', flying: 'Air', all: 'All' };
+  values.Target = targets[values.Target.toLowerCase()] ?? values.Target;
   const light = /\blight\b/i.test(values.Surge);
   const armoured = /\barmou?red\b/i.test(values.Surge);
-  const type = light && armoured ? 'L&A' : light ? 'Light' : armoured ? 'Arm.' : values.Surge;
+  const type = light && armoured ? 'L&A' : light ? 'Light' : armoured ? 'Armored' : values.Surge;
   const dice = attributes['S.Die'];
-  values.Surge = type === '-' ? '-' : dice && dice !== '-' ? `${type}\n${dice}` : type;
+  values.Surge = type === '-' ? '-' : dice && dice !== '-' ? `${type} (${dice})` : type;
   return values;
 }
 
@@ -34,19 +34,23 @@ function profilePhase(profile) {
   return displayPhase(phase ?? 'Any Phase');
 }
 
-export function weaponRows(profile, id) {
-  const columns = Object.entries(weaponAttributes(profile.attributes)).map(([key, value]) => [
-    key,
-    value.split('\n'),
-  ]);
-  const count = Math.max(...columns.map(([, lines]) => lines.length));
-  return Array.from({ length: count }, (_, index) => ({
-    Id: `${id}_table${index ? `_line_${index + 1}` : ''}`,
-    Name: '',
-    Type: 'Statline',
-    Attributes: Object.fromEntries(columns.map(([key, lines]) => [key, lines[index] ?? ''])),
-    Children: [],
-  }));
+export function weaponTable(attributes) {
+  const values = weaponAttributes(attributes);
+  if (
+    !/^(?:E|\d+["”]?)$/.test(values.RNG) ||
+    !/^(?:All|Ground|Air)$/.test(values.Target) ||
+    !/^(?:\d+|BT(?:\+\d+)?)$/.test(values.RoA) ||
+    !/^(?:\d\+|-)$/.test(values.Hit) ||
+    !/^\d+$/.test(values.D)
+  )
+    throw new Error('Invalid weapon table values');
+  const positions = { RNG: 0, Target: 14, RoA: 32, Hit: 46, Surge: 59, D: 94 };
+  const row = entries =>
+    Object.entries(positions)
+      .map(([key, position]) => `<pos=${position}%><nobr>${entries[key]}</nobr>`)
+      .join('');
+  const headers = Object.fromEntries(Object.keys(positions).map(key => [key, key]));
+  return `<align=left><size=9><color=#2596be>${row(headers)}</color>\n<b>${row(values)}</b></size></align>`;
 }
 
 function textRow(records, id, description) {
@@ -85,10 +89,7 @@ export function profileChildren(unit, ids, references, records, glossary) {
     const group = groups.get(phase);
     if (!group) throw new Error(`Unknown display phase: ${unit.name}/${phase}`);
     group.push(textRow(records, `${id}_heading`, `<b>${profile.name}</b>`));
-    for (const row of weaponRows(profile, id)) {
-      records.weaponTables.set(row.Id, row);
-      group.push(row.Id);
-    }
+    group.push(textRow(records, `${id}_table`, weaponTable(profile.attributes)));
     const keywords = weaponKeywords(profile.attributes.Keyword, glossary);
     if (keywords) group.push(textRow(records, `${id}_keywords`, keywords));
   }

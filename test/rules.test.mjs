@@ -144,7 +144,7 @@ test('glossary extraction distinguishes list glyphs from the literal X parameter
   assert.equal(rule.description, 'Increase by X.\n• Use X');
 });
 
-test('profiles render phase sections and native weapon tables with independent headings', async () => {
+test('profiles render phase sections and left-aligned full-width weapon tables', async () => {
   const { data } = await build([card('marine'), card('hydra'), card('artanis')]);
   const records = new Map(
     Object.values(data)
@@ -156,28 +156,18 @@ test('profiles render phase sections and native weapon tables with independent h
   const profile = data['Terran/profiles.json'].find(profile => profile.Id === 'prof_marine');
   const children = profile.Children.map(child => records.get(child.Id));
   assert.deepEqual(
-    children.filter(item => item.Type === '').map(item => item.Description),
+    children
+      .filter(item => item.Type === '' && !item.Id.endsWith('_table'))
+      .map(item => item.Description),
     ['<b>Assault Phase</b>', '<b>C-14 RIFLE</b>', '<b>Melee Phase</b>', '<b>STRIKE</b>'],
   );
   const rifle = children.find(item => item.Id === 'pdf_Terran_equipment_marines_default_1_table');
-  assert.equal(rifle.Type, 'Statline');
-  assert.deepEqual(rifle.Attributes, {
-    RNG: '12',
-    T: 'All',
-    RoA: '2',
-    Hit: '3+',
-    Surge: 'Light',
-    D: '1',
-  });
-  assert.ok(!('HP' in rifle.Attributes));
+  assert.equal(rifle.Type, '');
+  assert.match(rifle.Description, /<align=left>/);
+  assert.match(rifle.Description, /<pos=0%><nobr>RNG<\/nobr>/);
+  assert.match(rifle.Description, /Target/);
+  assert.match(rifle.Description, /Light \(D3\)/);
   assert.deepEqual(rifle.Children, []);
-  for (const items of Object.values(data).filter(Array.isArray)) {
-    for (const item of items.filter(
-      item => item.Type === 'Statline' && item.Id.endsWith('_table'),
-    )) {
-      assert.deepEqual(item.Children, [], `Weapon row must not repeat its equipment: ${item.Id}`);
-    }
-  }
   assert.equal(children[0].Id, 'stat_marine');
   const assault = children.findIndex(item => item.Description === '<b>Assault Phase</b>');
   const melee = children.findIndex(item => item.Description === '<b>Melee Phase</b>');
@@ -186,12 +176,10 @@ test('profiles render phase sections and native weapon tables with independent h
   assert.ok(assault < rifleIndex && rifleIndex < melee && melee < strikeIndex);
   assert.ok(children.some(item => item.Name === 'Stimpack' && item.Type === 'Rule'));
   assert.equal(data['gameconfig.json'].ShowGroupHeader, false);
-  const broken = structuredClone(data);
-  const row = broken['Terran/statlines.json'].find(item => item.Id === rifle.Id);
-  row.Attributes.RNG = 'unknown';
-  assert.throws(() => validateData(broken), /Invalid weapon table values/);
-  delete row.Attributes.RNG;
-  assert.throws(() => validateData(broken), /Invalid weapon table headings/);
+  assert.equal(data['gameconfig.json'].ShowStatlineHeader, false);
+  assert.equal(children[0].Name, '');
+  assert.ok(!('Supply' in children[0].Attributes));
+  assert.doesNotMatch(data['Terran/units.json'][0].Description, /Supply/);
 });
 
 test('catalogue activation typos and split PDF possessives format cleanly without changing values', () => {
@@ -205,7 +193,7 @@ test('catalogue activation typos and split PDF possessives format cleanly withou
   assert.equal(cleanRuleText('A model gains BUFF Speed (3) .'), 'A model gains BUFF Speed (3).');
 });
 
-test('weapon tables abbreviate targets and combine surge type with its dice', async () => {
+test('weapon tables display full targets and combine surge type with its dice', async () => {
   const { weaponAttributes } = await import('../src/warhall/presentation.mjs');
   const base = {
     Rng: '12',
@@ -219,46 +207,41 @@ test('weapon tables abbreviate targets and combine surge type with its dice', as
   };
   assert.deepEqual(weaponAttributes(base), {
     RNG: '12',
-    T: 'G',
+    Target: 'Ground',
     RoA: '2',
     Hit: '3+',
-    Surge: 'Light\nD3+1',
+    Surge: 'Light (D3+1)',
     D: '1',
   });
-  assert.equal(weaponAttributes({ ...base, Tgt: 'Flying', Surge: 'Light, Armoured' }).T, 'A');
-  assert.equal(weaponAttributes({ ...base, Surge: 'Light, Armoured' }).Surge, 'L&A\nD3+1');
-  assert.equal(weaponAttributes({ ...base, Surge: 'Armoured', 'S.Die': 'D6' }).Surge, 'Arm.\nD6');
+  assert.equal(
+    weaponAttributes({ ...base, Tgt: 'Flying', Surge: 'Light, Armoured' }).Target,
+    'Air',
+  );
+  assert.equal(weaponAttributes({ ...base, Surge: 'Light, Armoured' }).Surge, 'L&A (D3+1)');
+  assert.equal(
+    weaponAttributes({ ...base, Surge: 'Armoured', 'S.Die': 'D6' }).Surge,
+    'Armored (D6)',
+  );
   assert.equal(weaponAttributes({ ...base, Surge: '-', 'S.Die': '-' }).Surge, '-');
 });
-test('weapon overflow uses visible single-line rows instead of clipped embedded newlines', async () => {
-  const { weaponRows } = await import('../src/warhall/presentation.mjs');
-  const rows = weaponRows(
-    {
-      name: 'GLAIVE CANNON',
-      attributes: {
-        Rng: '8',
-        Tgt: 'All',
-        RoA: '2',
-        Hit: '3+',
-        Surge: 'Light',
-        'S.Die': 'D3+1',
-        Dmg: '1',
-        Keyword: 'ANTI-EVADE (1)',
-      },
-    },
-    'glaive',
-  );
-  assert.ok(rows.every(row => row.Name === ''));
-  assert.equal(rows.length, 2);
-  assert.equal(rows[1].Attributes.Surge, 'D3+1');
-  for (const row of rows) {
-    assert.ok(!/[\r\n]/.test(row.Name));
-    assert.ok(Object.values(row.Attributes).every(value => !/[\r\n]/.test(value)));
-  }
-  assert.ok(
-    rows
-      .slice(1)
-      .every(row => ['RNG', 'T', 'RoA', 'Hit', 'D'].every(key => row.Attributes[key] === '')),
+test('wide weapon tables keep full targets and surge values on one data line', async () => {
+  const { weaponTable } = await import('../src/warhall/presentation.mjs');
+  const attributes = {
+    Rng: '8',
+    Tgt: 'Ground',
+    RoA: '2',
+    Hit: '3+',
+    Surge: 'Armoured',
+    'S.Die': 'D3',
+    Dmg: '1',
+  };
+  const table = weaponTable(attributes);
+  assert.equal(table.split('\n').length, 2);
+  assert.match(table.split('\n')[1], /<nobr>Armored \(D3\)<\/nobr>/);
+  assert.match(table, /<nobr>Ground<\/nobr>/);
+  assert.throws(
+    () => weaponTable({ ...attributes, Rng: 'unknown' }),
+    /Invalid weapon table values/,
   );
 });
 
@@ -288,7 +271,7 @@ test('full-width weapon keywords link complete labels and rules precede every we
         assert.equal(keyword.Type, '');
         assert.equal(keyword.Name, '');
         assert.ok(!keyword.Description.includes('\n'));
-        assert.ok(children[children.indexOf(keyword) - 1].Type === 'Statline');
+        assert.ok(children[children.indexOf(keyword) - 1].Id.endsWith('_table'));
       }
     }
   }
