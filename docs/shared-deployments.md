@@ -2,7 +2,7 @@
 
 The current Warhall Test client loads template geometry from the shared `DeploymentDB` before it reads the game deployment references. It skips references whose template ID is absent. The inspected Mac cache contains only native IDs 0–15; none of these custom Starcraft IDs is registered there.
 
-Register the eight records from `deployment-templates.json` in the shared test deployment catalogue. Keep each ID unchanged so `Starcraft/deployments.json` and the marker indices continue to match. The game is exact-case `Starcraft`; game data release 17 enables deployments and disables objectives.
+Register the eight records from `deployment-templates.json` in the shared test deployment catalogue. Keep each ID unchanged so `Starcraft/deployments.json` and the marker indices continue to match. The game is exact-case `Starcraft`; game data release 18 enables deployments and disables objectives.
 
 | Menu index | Deployment | Template ID |
 | --- | --- | --- |
@@ -19,4 +19,4 @@ The final entry is a 54×36-inch three-inch grid: vertical lines at X=-27,-24,�
 
 The authenticated web editor exposes the deployment references/name/parameters, but no shared-template registration control was found. Its visible Upload to Git action publishes WDS files, which does not update DeploymentDB. No unsupported API endpoint is assumed here. Shared registration is still an external prerequisite; a local cache installer is not a universal fix.
 
-After registration, refresh Warhall Test’s shared catalogue, update Starcraft to version 17, set the board to 54×36 inches, and open a fresh room to verify all eight options. Do not publish a stale browser editor buffer over the current repository data.
+After registration, refresh Warhall Test’s shared catalogue, update Starcraft to version 18, set the board to 54×36 inches, and open a fresh room to verify all eight options. Do not publish a stale browser editor buffer over the current repository data.

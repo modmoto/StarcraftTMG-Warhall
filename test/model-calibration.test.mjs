@@ -53,8 +53,19 @@ test('portable bundle replacements include Adepts and preserve Windows cache dim
     assert.ok(item.correctedSizeMm.every(value => value > 0));
   }
   const files = await readdir(new URL('../model-assets/', import.meta.url));
-  assert.equal(files.filter(file => file.endsWith('.glb')).length, 5);
+  const hosted = [
+    ...new Set(
+      catalogue.entries.flatMap(entry =>
+        (entry.parts ?? [])
+          .filter(part => part.hostedAsset)
+          .map(part => part.modelUrl.split('/').at(-1)),
+      ),
+    ),
+  ];
+  assert.equal(hosted.length, 8);
+  assert.ok(hosted.every(file => files.includes(file)));
   for (const file of files) {
+    if (!file.endsWith('.glb')) continue;
     const bytes = await readFile(new URL(`../model-assets/${file}`, import.meta.url));
     assert.equal(bytes.toString('ascii', 0, 4), 'glTF');
     assert.equal(bytes.readUInt32LE(8), bytes.length);

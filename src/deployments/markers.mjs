@@ -1,7 +1,4 @@
-// Existing public Warhall assets, verified in the test client's skin catalogue.
-// Terrain uses catalogue item/costume associations; the local test adapter
-// binds these existing skins without creating new assets.
-export const markerDiameterMm = 32; // Rules measurement; native placeholder size is unchanged.
+export const markerDiameterMm = 32; // The clickable footprint is independent of the visual control ring.
 export const controlRangeInches = 3;
 export const nativeMarkers = [
   { color: 'red', skinId: 6201, resource: 'Tokens/ExcaliburRed' },
@@ -16,7 +13,7 @@ export function markerTokens() {
       Name: `Mission marker - ${color}`,
       Type: 'Token',
       SkinId: skinId,
-      Description: `Existing Warhall ${color} marker. Mission-marker affinity: red 1/3, blue 2/4, green neutral 5. Activation and control are manual. Native marker dimensions are retained.`,
+      Description: `${color[0].toUpperCase() + color.slice(1)} mission marker. Mission-marker affinity: red 1/3, blue 2/4, green neutral 5. 32 mm marker; distances measure from the base edge. The decorative control ring extends 3 inches from that edge and has no separate selection footprint. Activation and control are manual.`,
     })),
   ];
 }
@@ -24,9 +21,9 @@ export function markerTerrains() {
   return markerTokens().map(t => ({
     ...t,
     Type: 'Terrain',
-    Width: 4,
-    Length: 4,
-    Height: 3.5,
+    Width: markerDiameterMm / 10,
+    Length: markerDiameterMm / 10,
+    Height: 0.2,
     Shape: 1,
   }));
 }

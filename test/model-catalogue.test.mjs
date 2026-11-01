@@ -49,7 +49,7 @@ test('catalogue covers all selected units, terrain and existing markers', async 
   );
   assert.equal(actual.entries.filter(e => e.kind === 'unit').length, 45);
   assert.equal(actual.entries.filter(e => e.kind === 'terrain' && e.parts).length, 17);
-  assert.equal(actual.entries.filter(e => e.kind === 'terrain' && e.existingSkinId).length, 3);
+  assert.equal(actual.entries.filter(e => e.kind === 'marker' && e.replacesNativeSkinId).length, 3);
 });
 
 test('rejects local URLs and invalid transforms', () => {

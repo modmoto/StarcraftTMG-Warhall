@@ -2328,20 +2328,110 @@
     {
       "profileId": "sc_mission_red",
       "name": "Starcraft - Mission marker red",
-      "kind": "terrain",
-      "existingSkinId": 6201
+      "kind": "marker",
+      "replacesNativeSkinId": 6201,
+      "calibration": "marker-centimeters-v1",
+      "markerDiameterMm": 32,
+      "controlRangeInches": 3,
+      "controlOuterDiameterMm": 184.4,
+      "parts": [
+        {
+          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/2df67b3fa6e7a8c689c24b532952cd6b50f31f41f7f7e85f6fbcbac984a58c84.glb",
+          "textureUrl": null,
+          "hostedAsset": true,
+          "transforms": {
+            "scale": 0.39370078740157477,
+            "positionX": 0,
+            "positionY": 0,
+            "positionZ": 0,
+            "rotationX": 0,
+            "rotationY": 0,
+            "rotationZ": 0
+          },
+          "previewGeometryFile": "model-assets/2df67b3fa6e7a8c689c24b532952cd6b50f31f41f7f7e85f6fbcbac984a58c84.glb.preview.json",
+          "previewTransforms": {
+            "scale": 1,
+            "positionX": 0,
+            "positionY": 0,
+            "positionZ": 0,
+            "rotationX": 0,
+            "rotationY": 0,
+            "rotationZ": 0
+          }
+        }
+      ]
     },
     {
       "profileId": "sc_mission_blue",
       "name": "Starcraft - Mission marker blue",
-      "kind": "terrain",
-      "existingSkinId": 6202
+      "kind": "marker",
+      "replacesNativeSkinId": 6202,
+      "calibration": "marker-centimeters-v1",
+      "markerDiameterMm": 32,
+      "controlRangeInches": 3,
+      "controlOuterDiameterMm": 184.4,
+      "parts": [
+        {
+          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/71888ff8890c40fe2e32dc060dfb85035bb43a3bed51b491e5740f031897c661.glb",
+          "textureUrl": null,
+          "hostedAsset": true,
+          "transforms": {
+            "scale": 0.39370078740157477,
+            "positionX": 0,
+            "positionY": 0,
+            "positionZ": 0,
+            "rotationX": 0,
+            "rotationY": 0,
+            "rotationZ": 0
+          },
+          "previewGeometryFile": "model-assets/71888ff8890c40fe2e32dc060dfb85035bb43a3bed51b491e5740f031897c661.glb.preview.json",
+          "previewTransforms": {
+            "scale": 1,
+            "positionX": 0,
+            "positionY": 0,
+            "positionZ": 0,
+            "rotationX": 0,
+            "rotationY": 0,
+            "rotationZ": 0
+          }
+        }
+      ]
     },
     {
       "profileId": "sc_mission_green",
       "name": "Starcraft - Mission marker green",
-      "kind": "terrain",
-      "existingSkinId": 6203
+      "kind": "marker",
+      "replacesNativeSkinId": 6203,
+      "calibration": "marker-centimeters-v1",
+      "markerDiameterMm": 32,
+      "controlRangeInches": 3,
+      "controlOuterDiameterMm": 184.4,
+      "parts": [
+        {
+          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/b866f811364a2fd639f387999d1529876ec0987a4ca5370a6e436192e88070c7.glb",
+          "textureUrl": null,
+          "hostedAsset": true,
+          "transforms": {
+            "scale": 0.39370078740157477,
+            "positionX": 0,
+            "positionY": 0,
+            "positionZ": 0,
+            "rotationX": 0,
+            "rotationY": 0,
+            "rotationZ": 0
+          },
+          "previewGeometryFile": "model-assets/b866f811364a2fd639f387999d1529876ec0987a4ca5370a6e436192e88070c7.glb.preview.json",
+          "previewTransforms": {
+            "scale": 1,
+            "positionX": 0,
+            "positionY": 0,
+            "positionZ": 0,
+            "rotationX": 0,
+            "rotationY": 0,
+            "rotationZ": 0
+          }
+        }
+      ]
     }
   ]
 }

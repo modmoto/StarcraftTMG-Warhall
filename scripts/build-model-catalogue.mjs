@@ -2,6 +2,7 @@ import { readFile, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 import { projectRoot } from '../src/paths.mjs';
 import { transforms, validateCatalogue } from '../src/models/catalogue.mjs';
+import { createMarkerAssets } from '../src/deployments/marker-assets.mjs';
 import { calibrateCatalogue } from '../src/models/calibration.mjs';
 import { nativeMarkers } from '../src/deployments/markers.mjs';
 
@@ -56,6 +57,12 @@ const raw = validateCatalogue({
   entries,
 });
 const { catalogue, report } = await calibrateCatalogue(raw);
+const markerAssets = await createMarkerAssets();
+for (const marker of markerAssets) {
+  const index = catalogue.entries.findIndex(entry => entry.profileId === marker.profileId);
+  catalogue.entries[index] = marker;
+}
+validateCatalogue(catalogue);
 await writeFile(
   path.join(projectRoot, 'model-calibration-report.json'),
   JSON.stringify(report, null, 2) + '\n',

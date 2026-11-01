@@ -174,8 +174,8 @@ json(path.join(projectRoot, 'deployment-report.json'), {
     nativeMarkers,
     rulesDiameterMm: markerDiameterMm,
     controlRangeInches,
-    customAssets: false,
-    size: 'Existing Warhall asset dimensions retained',
+    customAssets: true,
+    size: '32 mm circular selection and measurement footprint; decorative 3-inch edge range overlay',
   },
   layouts: layouts.map((l, i) => ({ ...l, templateId: generated.templates[i].deploymentID })),
 });
@@ -190,7 +190,7 @@ const reviews = layouts
 outputs.set(
   path.join(projectRoot, 'docs', 'deployments.html'),
   Buffer.from(
-    `<!doctype html><meta charset="utf-8"><title>StarCraft deployment review</title><style>body{font:16px sans-serif;max-width:1200px;margin:2em auto;background:#fafafa}main{display:grid;grid-template-columns:1fr 1fr;gap:2em}section{background:white;padding:1em;border:1px solid #ddd}svg{width:100%}p{font-size:12px;overflow-wrap:anywhere}</style><h1>StarCraft deployments</h1><p>Existing Warhall red, blue and green markers. The diagrams retain the official marker numbers for reference; no custom marker images or range rings are used in the game. Coordinates are inches from the table center. Set the table to the printed size and select a deployment to place both entry edges and markers. Activation and control remain manual.</p><main>${reviews}</main>\n`,
+    `<!doctype html><meta charset="utf-8"><title>StarCraft deployment review</title><style>body{font:16px sans-serif;max-width:1200px;margin:2em auto;background:#fafafa}main{display:grid;grid-template-columns:1fr 1fr;gap:2em}section{background:white;padding:1em;border:1px solid #ddd}svg{width:100%}p{font-size:12px;overflow-wrap:anywhere}</style><h1>StarCraft deployments</h1><p>32 mm red, blue and green markers with decorative control rings extending 3 inches from the marker edge. Only the marker footprint participates in selection and distance measurement. The diagrams retain the official marker numbers for reference. Coordinates are inches from the table center. Set the table to the printed size and select a deployment to place both entry edges and markers. Activation and control remain manual.</p><main>${reviews}</main>\n`,
   ),
 );
 if (options.check) {

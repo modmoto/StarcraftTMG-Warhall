@@ -14,7 +14,7 @@ Read `docs/model-publication.md`, `model-catalogue.json`, and the publisher's cu
 - Add visually selected model and texture URLs to `model-selections.json` (units) or `terrain-models.json` (terrain), using the actual WDS profile/terrain IDs. Run `npm run models:catalogue` and inspect its changes. Keep existing entries and `model-publication-overrides.json` so known skin IDs are reused.
 - Default target is `https://apptest.warhall.eu` (`--server test`). Production is `https://www.warhall.eu` (`--server prod`). The literal URLs are accepted too. Publish only to the target the user requested; supporting production does not authorize publishing there. Target game is `Starcraft` with exact case. There is also a distinct lowercase `starcraft` game. Resolve the game ID through `/GetGamesWeb/`, never infer it from the name or a local cache.
 - Current user requirement: retain the exact working Windows-cache layouts. Run `models:catalogue` to prepare equivalent shared-API transforms; read `docs/model-calibration.md`. Do not fit meshes to bases or reset rotations/positions. Prepared `windows-cache-v1` catalogue entries ignore the old `--default-scale` reset. Normal commands now omit that flag.
-- Missing previews render automatically as described under Catalogue previews; inspect them and preview `npm run --silent models:publish --`. The initial catalogue contains 45 units, 17 terrain assemblies and three existing marker skins; counts change with future waves. Marine skin 12999 is already published.
+- Missing previews render automatically as described under Catalogue previews; inspect them and preview `npm run --silent models:publish --`. The initial catalogue contains 45 units, 17 terrain assemblies and three custom marker skins; counts change with future waves. Marine skin 12999 is already published.
 
 ## Authenticate and publish
 
@@ -83,3 +83,15 @@ The five Unity-prefab sources are converted into textured static GLBs under `mod
 Read `docs/model-calibration.md` when multipart geometry or wall angles differ despite matching source JSON. The live creation API stored exact zero vector components as null; the client drops the entire vector if any component is null. `wirePayload` encodes zero position/rotation components as `1e-7` on create/update requests. Keep this transport adapter in the publishing path; source/catalogue transforms stay unchanged.
 
 Use `npm run models:repair -- --apply --login --profile PROFILE_ID` for an existing shared skin. Omit `--profile` only when repairing the whole selected catalogue is requested. Default server is test, with the same `--server` choices as publishing. This targets `/UpdateSkinLayerTransforms` and verifies `/SelectSkinParts` readback instead of reuploading or deleting models. No new content-licensing acceptance is needed for an already-authorized transform correction. Ask the user to authenticate only if a usable explicit API session is unavailable; never extract browser cookies. A successful readback must have all numeric components and the intended values. Refresh the client catalogue and reload spawned terrain to verify the visual repair.
+
+## Mission marker skins
+
+The three `kind: marker` entries combine a 32 mm central disc with the TTS objective chevron artwork in one collider-free GLB. The control range extends three inches from the disc edge (184.4 mm overall diameter). WDS Width/Length remain 3.2 cm; do not enlarge them to the decorative ring. The client minimum-distance calculation uses the base edge. Manual ruler modes and live selection still require a client check.
+
+Push generated `model-assets/` files and version 18 WDS data before publishing. To publish only these three skins, including their generated screenshots:
+
+```sh
+npm run models:publish -- --kind marker --apply --login --replace --accept-publication-terms
+```
+
+`--kind unit|terrain|marker` limits the batch. Test marker entries explicitly replace the profile assignments for native IDs 6201–6203; those shared native assets must never be deleted. Production does not reuse test-local native IDs. Preserve the existing profile IDs and deployment placements. Shared deployment-template registration remains a separate prerequisite documented in `docs/shared-deployments.md`.

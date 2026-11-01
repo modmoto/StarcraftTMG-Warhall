@@ -185,3 +185,23 @@ test('native marker skins are never recreated or deleted in replacement mode', a
   );
   assert.equal(state.entries.marker.skinId, 6201);
 });
+
+test('custom marker visuals can replace a native assignment without deleting native assets', async () => {
+  const mock = server(),
+    state = {};
+  const request = async (url, body) => {
+    if (url === '/GetMySkinUsages')
+      return {
+        error: 0,
+        result: [{ skinId: 6201, gameId: 16, profileId: 'marine', costumeDefault: 1 }],
+      };
+    return mock.request(url, body);
+  };
+  await publishCatalogue(
+    { ...catalogue, entries: [{ ...entry, replacesNativeSkinId: 6201 }] },
+    options(mock, state, { request }),
+  );
+  assert.ok(state.entries.marine.assigned);
+  assert.ok(!mock.calls.some(call => call.url === '/DeleteMySkin' && call.body.skinId === 6201));
+  assert.equal(mock.calls.find(call => call.url === '/AssignCatalogueSkin').body.mode, 'override');
+});

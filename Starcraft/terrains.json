@@ -4,10 +4,10 @@
     "Name": "Mission marker - blue",
     "Type": "Terrain",
     "SkinId": 6202,
-    "Description": "Existing Warhall blue marker. Mission-marker affinity: red 1/3, blue 2/4, green neutral 5. Activation and control are manual. Native marker dimensions are retained.",
-    "Width": 4,
-    "Length": 4,
-    "Height": 3.5,
+    "Description": "Blue mission marker. Mission-marker affinity: red 1/3, blue 2/4, green neutral 5. 32 mm marker; distances measure from the base edge. The decorative control ring extends 3 inches from that edge and has no separate selection footprint. Activation and control are manual.",
+    "Width": 3.2,
+    "Length": 3.2,
+    "Height": 0.2,
     "Shape": 1
   },
   {
@@ -15,10 +15,10 @@
     "Name": "Mission marker - green",
     "Type": "Terrain",
     "SkinId": 6203,
-    "Description": "Existing Warhall green marker. Mission-marker affinity: red 1/3, blue 2/4, green neutral 5. Activation and control are manual. Native marker dimensions are retained.",
-    "Width": 4,
-    "Length": 4,
-    "Height": 3.5,
+    "Description": "Green mission marker. Mission-marker affinity: red 1/3, blue 2/4, green neutral 5. 32 mm marker; distances measure from the base edge. The decorative control ring extends 3 inches from that edge and has no separate selection footprint. Activation and control are manual.",
+    "Width": 3.2,
+    "Length": 3.2,
+    "Height": 0.2,
     "Shape": 1
   },
   {
@@ -26,10 +26,10 @@
     "Name": "Mission marker - red",
     "Type": "Terrain",
     "SkinId": 6201,
-    "Description": "Existing Warhall red marker. Mission-marker affinity: red 1/3, blue 2/4, green neutral 5. Activation and control are manual. Native marker dimensions are retained.",
-    "Width": 4,
-    "Length": 4,
-    "Height": 3.5,
+    "Description": "Red mission marker. Mission-marker affinity: red 1/3, blue 2/4, green neutral 5. 32 mm marker; distances measure from the base edge. The decorative control ring extends 3 inches from that edge and has no separate selection footprint. Activation and control are manual.",
+    "Width": 3.2,
+    "Length": 3.2,
+    "Height": 0.2,
     "Shape": 1
   },
   {

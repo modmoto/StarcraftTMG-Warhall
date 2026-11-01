@@ -27,8 +27,8 @@
     ],
     "rulesDiameterMm": 32,
     "controlRangeInches": 3,
-    "customAssets": false,
-    "size": "Existing Warhall asset dimensions retained"
+    "customAssets": true,
+    "size": "32 mm circular selection and measurement footprint; decorative 3-inch edge range overlay"
   },
   "layouts": [
     {

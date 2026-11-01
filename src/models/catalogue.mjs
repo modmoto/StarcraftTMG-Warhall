@@ -167,7 +167,7 @@ export async function publishCatalogue(
       throw new Error(
         `Creation outcome unknown for ${entry.profileId}; reconcile the saved state with Warhall before retrying`,
       );
-    const knownId = progress?.skinId ?? entry.existingSkinId;
+    const knownId = progress?.skinId ?? entry.existingSkinId ?? entry.replacesNativeSkinId;
     if (!entry.parts?.length) {
       assert.ok(knownId, `Native skin reference missing: ${entry.profileId}`);
       if (!exactUsage(entry, knownId)) {
@@ -197,9 +197,11 @@ export async function publishCatalogue(
     }
     const imageChanged =
       thumbnailHash && progress?.thumbnailHash && thumbnailHash !== progress.thumbnailHash;
-    const needsCreate = !exists || force || changed || imageChanged;
+    const nativeVisualReplacement =
+      entry.replacesNativeSkinId !== undefined && knownId === entry.replacesNativeSkinId;
+    const needsCreate = !exists || force || changed || imageChanged || nativeVisualReplacement;
     if (needsCreate) {
-      if (exists && !owned.has(knownId))
+      if (exists && !owned.has(knownId) && entry.replacesNativeSkinId !== knownId)
         throw new Error(`Cannot replace skin ${knownId}: it is not in your owned catalogue`);
       thumbnailDataUrl ??= await getThumbnail(entry);
       thumbnailHash ??= createHash('sha256')
@@ -207,7 +209,12 @@ export async function publishCatalogue(
         .digest('hex');
       const payload = skinRequest(entry, { defaultScale, thumbnailDataUrl });
       const previousSkinIds = [
-        ...new Set([...(progress?.previousSkinIds ?? []), ...(exists ? [knownId] : [])]),
+        ...new Set([
+          ...(progress?.previousSkinIds ?? []),
+          ...(exists && owned.has(knownId) && entry.replacesNativeSkinId !== knownId
+            ? [knownId]
+            : []),
+        ]),
       ];
       progress = state.entries[entry.profileId] = {
         fingerprint,
@@ -215,6 +222,7 @@ export async function publishCatalogue(
         previousSkinIds,
         replacementRun: state.batch.id,
         thumbnailHash,
+        replacesAssignment: Boolean(exists),
       };
       await save(state);
       const response = await request(payload.path, payload.body);
@@ -239,7 +247,10 @@ export async function publishCatalogue(
         gameId: game.IdGame,
         selectedOptions: [],
         costumeDefault: 1,
-        mode: progress.previousSkinIds?.length || replace ? 'override' : 'add',
+        mode:
+          progress.previousSkinIds?.length || progress.replacesAssignment || replace
+            ? 'override'
+            : 'add',
       });
       assert.equal(response.error, 0, `Could not assign skin ${progress.skinId}`);
       progress.assigned = true;

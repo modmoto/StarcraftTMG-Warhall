@@ -12,6 +12,7 @@ export function publicationTarget(catalogue, target = 'test') {
   const entries = structuredClone(catalogue.entries);
   const excluded = [];
   const scoped = entries.filter(entry => {
+    if (sourceServer !== serverUrl) delete entry.replacesNativeSkinId;
     if (sourceServer === serverUrl || !entry.existingSkinId) return true;
     if (entry.parts?.length) {
       delete entry.existingSkinId;

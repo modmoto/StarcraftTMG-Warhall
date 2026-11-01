@@ -283,6 +283,14 @@ export async function sourceGeometry(
   cacheDirectory = path.join(projectRoot, '.cache/thumbnail-assets'),
 ) {
   await mkdir(cacheDirectory, { recursive: true });
+  if (part.previewGeometryFile) {
+    const geometry = JSON.parse(
+      await readFile(path.join(projectRoot, part.previewGeometryFile), 'utf8'),
+    );
+    for (const mesh of geometry)
+      mesh.texture = await textureData(Buffer.from(mesh.texture.png, 'base64'));
+    return { geometry, format: 'glb' };
+  }
   part = { ...part, ...part.previewSource };
   const source = await cachedAsset(part.modelUrl, cacheDirectory);
   const bytes = await readFile(source);

@@ -18,6 +18,7 @@ const { values } = parseArgs({
     catalogue: { type: 'string', default: 'model-catalogue.json' },
     state: { type: 'string' },
     server: { type: 'string', default: 'test' },
+    kind: { type: 'string' },
     'thumbnails-dir': { type: 'string', default: '.cache/model-thumbnails' },
     'accept-publication-terms': { type: 'boolean', default: false },
   },
@@ -26,6 +27,12 @@ const target = publicationTarget(
   JSON.parse(await readFile(path.resolve(projectRoot, values.catalogue), 'utf8')),
   values.server,
 );
+if (values.kind) {
+  if (!['unit', 'terrain', 'marker'].includes(values.kind))
+    throw new Error('--kind must be unit, terrain or marker');
+  target.catalogue.entries = target.catalogue.entries.filter(entry => entry.kind === values.kind);
+  if (!target.catalogue.entries.length) throw new Error('No matching catalogue entries');
+}
 const catalogue = validateCatalogue(target.catalogue);
 if (target.excluded.length)
   console.error(
