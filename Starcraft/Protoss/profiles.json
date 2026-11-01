@@ -27,6 +27,12 @@
         "Id": "pdf_Protoss_equipment_adepts_default_2_table"
       },
       {
+        "Id": "pdf_Protoss_equipment_adepts_default_2_table_line_2"
+      },
+      {
+        "Id": "pdf_Protoss_equipment_adepts_default_2_table_line_3"
+      },
+      {
         "Id": "pdf_Protoss_profile_adepts_phase_melee_phase"
       },
       {
@@ -74,7 +80,16 @@
         "Id": "pdf_Protoss_equipment_artanis_default_3_table"
       },
       {
+        "Id": "pdf_Protoss_equipment_artanis_default_3_table_line_2"
+      },
+      {
+        "Id": "pdf_Protoss_equipment_artanis_default_3_table_line_3"
+      },
+      {
         "Id": "pdf_Protoss_equipment_artanis_default_4_table"
+      },
+      {
+        "Id": "pdf_Protoss_equipment_artanis_default_4_table_line_2"
       }
     ]
   },
@@ -106,6 +121,9 @@
         "Id": "pdf_Protoss_equipment_high_templar_default_2_table"
       },
       {
+        "Id": "pdf_Protoss_equipment_high_templar_default_2_table_line_2"
+      },
+      {
         "Id": "pdf_Protoss_profile_high_templar_phase_melee_phase"
       },
       {
@@ -135,7 +153,46 @@
         "Id": "pdf_Protoss_equipment_immortal_default_1_table"
       },
       {
+        "Id": "pdf_Protoss_equipment_immortal_default_1_table_line_2"
+      },
+      {
+        "Id": "pdf_Protoss_equipment_immortal_default_1_table_line_3"
+      },
+      {
+        "Id": "pdf_Protoss_equipment_immortal_default_1_table_line_4"
+      },
+      {
+        "Id": "pdf_Protoss_equipment_immortal_default_1_table_line_5"
+      },
+      {
+        "Id": "pdf_Protoss_equipment_immortal_default_1_table_line_6"
+      },
+      {
+        "Id": "pdf_Protoss_equipment_immortal_default_1_table_line_7"
+      },
+      {
         "Id": "pdf_Protoss_equipment_immortal_default_2_table"
+      },
+      {
+        "Id": "pdf_Protoss_equipment_immortal_default_2_table_line_2"
+      },
+      {
+        "Id": "pdf_Protoss_equipment_immortal_default_2_table_line_3"
+      },
+      {
+        "Id": "pdf_Protoss_equipment_immortal_default_2_table_line_4"
+      },
+      {
+        "Id": "pdf_Protoss_equipment_immortal_default_2_table_line_5"
+      },
+      {
+        "Id": "pdf_Protoss_equipment_immortal_default_2_table_line_6"
+      },
+      {
+        "Id": "pdf_Protoss_equipment_immortal_default_2_table_line_7"
+      },
+      {
+        "Id": "pdf_Protoss_equipment_immortal_default_2_table_line_8"
       },
       {
         "Id": "pdf_Protoss_rule_immortal_assault_phase_indomitable"
@@ -182,6 +239,15 @@
         "Id": "pdf_Protoss_equipment_nerazim_watchers_adept_default_2_table"
       },
       {
+        "Id": "pdf_Protoss_equipment_nerazim_watchers_adept_default_2_table_line_2"
+      },
+      {
+        "Id": "pdf_Protoss_equipment_nerazim_watchers_adept_default_2_table_line_3"
+      },
+      {
+        "Id": "pdf_Protoss_equipment_nerazim_watchers_adept_default_2_table_line_4"
+      },
+      {
         "Id": "pdf_Protoss_profile_nerazim_watchers_adept_phase_melee_phase"
       },
       {
@@ -224,6 +290,9 @@
       },
       {
         "Id": "pdf_Protoss_equipment_praetor_guards_default_3_table"
+      },
+      {
+        "Id": "pdf_Protoss_equipment_praetor_guards_default_3_table_line_2"
       },
       {
         "Id": "pdf_Protoss_rule_praetor_guards_combat_phase_titan_killers"
@@ -290,6 +359,9 @@
         "Id": "pdf_Protoss_equipment_sentries_default_2_table"
       },
       {
+        "Id": "pdf_Protoss_equipment_sentries_default_2_table_line_2"
+      },
+      {
         "Id": "pdf_Protoss_profile_sentries_phase_melee_phase"
       },
       {
@@ -323,6 +395,9 @@
       },
       {
         "Id": "pdf_Protoss_equipment_stalker_default_2_table"
+      },
+      {
+        "Id": "pdf_Protoss_equipment_stalker_default_2_table_line_2"
       },
       {
         "Id": "pdf_Protoss_profile_stalker_phase_melee_phase"
@@ -364,6 +439,9 @@
       },
       {
         "Id": "pdf_Protoss_equipment_tassadar_default_2_table"
+      },
+      {
+        "Id": "pdf_Protoss_equipment_tassadar_default_2_table_line_2"
       },
       {
         "Id": "pdf_Protoss_rule_tassadar_assault_phase_psi_lightning"
@@ -413,6 +491,9 @@
         "Id": "pdf_Protoss_equipment_twilight_templar_high_templar_default_2_table"
       },
       {
+        "Id": "pdf_Protoss_equipment_twilight_templar_high_templar_default_2_table_line_2"
+      },
+      {
         "Id": "pdf_Protoss_profile_twilight_templar_high_templar_phase_melee_phase"
       },
       {
@@ -443,6 +524,9 @@
       },
       {
         "Id": "pdf_Protoss_equipment_zealots_default_1_table"
+      },
+      {
+        "Id": "pdf_Protoss_equipment_zealots_default_1_table_line_2"
       }
     ]
   },
@@ -487,6 +571,9 @@
       },
       {
         "Id": "pdf_Protoss_equipment_zeratul_default_3_table"
+      },
+      {
+        "Id": "pdf_Protoss_equipment_zeratul_default_3_table_line_2"
       },
       {
         "Id": "pdf_Protoss_rule_zeratul_combat_phase_shadow_strike"

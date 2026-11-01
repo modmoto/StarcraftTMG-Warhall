@@ -166,9 +166,9 @@ test('profiles render phase sections and native weapon tables with independent h
     T: 'All',
     RoA: '2',
     Hit: '3+',
-    Surge: 'Light\nD3',
+    Surge: 'Light',
     D: '1',
-    Keywords: '-',
+    KW: '-',
   });
   assert.ok(!('HP' in rifle.Attributes));
   assert.deepEqual(rifle.Children, []);
@@ -225,7 +225,7 @@ test('weapon tables abbreviate targets and combine surge type with its dice', as
     Hit: '3+',
     Surge: 'Light\nD3+1',
     D: '1',
-    Keywords: '-',
+    KW: '-',
   });
   assert.equal(weaponAttributes({ ...base, Tgt: 'Flying', Surge: 'Light, Armoured' }).T, 'A');
   assert.equal(weaponAttributes({ ...base, Surge: 'Light, Armoured' }).Surge, 'L&A\nD3+1');
@@ -240,8 +240,47 @@ test('long weapon names and complete keyword lists fit wrapped table cells', asy
   const name = 'UNDERBELLY MACHINE GUN';
   assert.equal(wrapTableText(name), 'UNDERBELLY\nMACHINE GUN');
   const keywords = 'CONCENTRATED FIRE (1), LONG RANGE (16), SIDEARM';
-  const actual = weaponAttributes({ Keyword: keywords }).Keywords;
-  assert.ok(actual.split('\n').every(line => line.length <= 12));
+  const actual = weaponAttributes({ Keyword: keywords }).KW;
+  assert.ok(actual.split('\n').every(line => line.length <= 8));
   assert.equal(actual.replace(/\s/g, ''), keywords.replace(/\s/g, ''));
   assert.equal(wrapTableText('EXTRAORDINARILY').replace(/\n/g, ''), 'EXTRAORDINARILY');
+});
+
+test('weapon overflow uses visible single-line rows instead of clipped embedded newlines', async () => {
+  const { weaponRows } = await import('../src/warhall/presentation.mjs');
+  const rows = weaponRows(
+    {
+      name: 'GLAIVE CANNON',
+      attributes: {
+        Rng: '8',
+        Tgt: 'All',
+        RoA: '2',
+        Hit: '3+',
+        Surge: 'Light',
+        'S.Die': 'D3+1',
+        Dmg: '1',
+        Keyword: 'ANTI-EVADE (1)',
+      },
+    },
+    'glaive',
+  );
+  assert.equal(rows[0].Name, 'GLAIVE');
+  assert.equal(rows[1].Name, 'CANNON');
+  assert.equal(rows[1].Attributes.Surge, 'D3+1');
+  assert.equal(
+    rows
+      .map(row => row.Attributes.KW)
+      .join('')
+      .replace(/\s/g, ''),
+    'ANTI-EVADE(1)',
+  );
+  for (const row of rows) {
+    assert.ok(!/[\r\n]/.test(row.Name));
+    assert.ok(Object.values(row.Attributes).every(value => !/[\r\n]/.test(value)));
+  }
+  assert.ok(
+    rows
+      .slice(1)
+      .every(row => ['RNG', 'T', 'RoA', 'Hit', 'D'].every(key => row.Attributes[key] === '')),
+  );
 });

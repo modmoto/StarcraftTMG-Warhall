@@ -67,6 +67,21 @@ export function validateData(data) {
         throw new Error(`Invalid weapon table headings: ${item.Id}`);
       }
       if (
+        Object.values(item.Attributes).some(
+          value => typeof value !== 'string' || /[\r\n]/.test(value),
+        )
+      ) {
+        throw new Error(`Weapon table cells must use separate continuation rows: ${item.Id}`);
+      }
+      const continuation = item.Id.match(/^(.*_table)_line_([2-9]\d*|1\d+)$/);
+      if (continuation) {
+        ref(continuation[1], item.Id, 'Statline');
+        if (['RNG', 'T', 'RoA', 'Hit', 'D'].some(key => item.Attributes[key] !== '')) {
+          throw new Error(`Repeated weapon statistics in continuation: ${item.Id}`);
+        }
+        continue;
+      }
+      if (
         !/^(?:E|\d+["”]?)$/.test(item.Attributes.RNG) ||
         !/^(?:All|G|A)$/.test(item.Attributes.T) ||
         !/^(?:\d+|BT(?:\+\d+)?)$/.test(item.Attributes.RoA) ||

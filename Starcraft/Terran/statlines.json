@@ -10,7 +10,7 @@
       "Hit": "3+",
       "Surge": "-",
       "D": "1",
-      "Keywords": "PINPOINT"
+      "KW": "PINPOINT"
     },
     "Children": []
   },
@@ -25,37 +25,142 @@
       "Hit": "4+",
       "Surge": "-",
       "D": "1",
-      "Keywords": "LONG RANGE\n(18\")"
+      "KW": "LONG"
+    },
+    "Children": []
+  },
+  {
+    "Id": "pdf_Terran_equipment_goliath_default_1_table_line_2",
+    "Name": "",
+    "Type": "Statline",
+    "Attributes": {
+      "RNG": "",
+      "T": "",
+      "RoA": "",
+      "Hit": "",
+      "Surge": "",
+      "D": "",
+      "KW": "RANGE"
+    },
+    "Children": []
+  },
+  {
+    "Id": "pdf_Terran_equipment_goliath_default_1_table_line_3",
+    "Name": "",
+    "Type": "Statline",
+    "Attributes": {
+      "RNG": "",
+      "T": "",
+      "RoA": "",
+      "Hit": "",
+      "Surge": "",
+      "D": "",
+      "KW": "(18\")"
     },
     "Children": []
   },
   {
     "Id": "pdf_Terran_equipment_goliath_default_2_table",
-    "Name": "UNDERBELLY\nMACHINE GUN",
+    "Name": "UNDERBELLY",
     "Type": "Statline",
     "Attributes": {
       "RNG": "8",
       "T": "G",
       "RoA": "6",
       "Hit": "3+",
-      "Surge": "Light\nD3",
+      "Surge": "Light",
       "D": "1",
-      "Keywords": "PINPOINT,\nSIDEARM"
+      "KW": "PINPOINT"
+    },
+    "Children": []
+  },
+  {
+    "Id": "pdf_Terran_equipment_goliath_default_2_table_line_2",
+    "Name": "MACHINE GUN",
+    "Type": "Statline",
+    "Attributes": {
+      "RNG": "",
+      "T": "",
+      "RoA": "",
+      "Hit": "",
+      "Surge": "D3",
+      "D": "",
+      "KW": ","
+    },
+    "Children": []
+  },
+  {
+    "Id": "pdf_Terran_equipment_goliath_default_2_table_line_3",
+    "Name": "",
+    "Type": "Statline",
+    "Attributes": {
+      "RNG": "",
+      "T": "",
+      "RoA": "",
+      "Hit": "",
+      "Surge": "",
+      "D": "",
+      "KW": "SIDEARM"
     },
     "Children": []
   },
   {
     "Id": "pdf_Terran_equipment_goliath_default_3_table",
-    "Name": "HELLFIRE\nMISSILES",
+    "Name": "HELLFIRE",
     "Type": "Statline",
     "Attributes": {
       "RNG": "16",
       "T": "A",
       "RoA": "6",
       "Hit": "3+",
-      "Surge": "Light\nD3",
+      "Surge": "Light",
       "D": "1",
-      "Keywords": "ANTI-EVADE\n(1),\nSIDEARM"
+      "KW": "ANTI-"
+    },
+    "Children": []
+  },
+  {
+    "Id": "pdf_Terran_equipment_goliath_default_3_table_line_2",
+    "Name": "MISSILES",
+    "Type": "Statline",
+    "Attributes": {
+      "RNG": "",
+      "T": "",
+      "RoA": "",
+      "Hit": "",
+      "Surge": "D3",
+      "D": "",
+      "KW": "EVADE"
+    },
+    "Children": []
+  },
+  {
+    "Id": "pdf_Terran_equipment_goliath_default_3_table_line_3",
+    "Name": "",
+    "Type": "Statline",
+    "Attributes": {
+      "RNG": "",
+      "T": "",
+      "RoA": "",
+      "Hit": "",
+      "Surge": "",
+      "D": "",
+      "KW": "(1),"
+    },
+    "Children": []
+  },
+  {
+    "Id": "pdf_Terran_equipment_goliath_default_3_table_line_4",
+    "Name": "",
+    "Type": "Statline",
+    "Attributes": {
+      "RNG": "",
+      "T": "",
+      "RoA": "",
+      "Hit": "",
+      "Surge": "",
+      "D": "",
+      "KW": "SIDEARM"
     },
     "Children": []
   },
@@ -70,28 +175,73 @@
       "Hit": "5+",
       "Surge": "-",
       "D": "1",
-      "Keywords": "-"
+      "KW": "-"
     },
     "Children": []
   },
   {
     "Id": "pdf_Terran_equipment_jim_raynor_default_2_table",
-    "Name": "COMMANDO\nRIFLE",
+    "Name": "COMMANDO",
     "Type": "Statline",
     "Attributes": {
       "RNG": "18",
       "T": "All",
       "RoA": "3",
       "Hit": "3+",
-      "Surge": "Armoured\nD3",
+      "Surge": "Armoured",
       "D": "1",
-      "Keywords": "BULKY,\nPIERCE\nArmoured (3)"
+      "KW": "BULKY,"
+    },
+    "Children": []
+  },
+  {
+    "Id": "pdf_Terran_equipment_jim_raynor_default_2_table_line_2",
+    "Name": "RIFLE",
+    "Type": "Statline",
+    "Attributes": {
+      "RNG": "",
+      "T": "",
+      "RoA": "",
+      "Hit": "",
+      "Surge": "D3",
+      "D": "",
+      "KW": "PIERCE"
+    },
+    "Children": []
+  },
+  {
+    "Id": "pdf_Terran_equipment_jim_raynor_default_2_table_line_3",
+    "Name": "",
+    "Type": "Statline",
+    "Attributes": {
+      "RNG": "",
+      "T": "",
+      "RoA": "",
+      "Hit": "",
+      "Surge": "",
+      "D": "",
+      "KW": "Armoured"
+    },
+    "Children": []
+  },
+  {
+    "Id": "pdf_Terran_equipment_jim_raynor_default_2_table_line_4",
+    "Name": "",
+    "Type": "Statline",
+    "Attributes": {
+      "RNG": "",
+      "T": "",
+      "RoA": "",
+      "Hit": "",
+      "Surge": "",
+      "D": "",
+      "KW": "(3)"
     },
     "Children": []
   },
   {
     "Id": "pdf_Terran_equipment_jim_raynor_default_3_table",
-    "Name": "“JUSTICE”\nREVOLVER",
+    "Name": "“JUSTICE”",
     "Type": "Statline",
     "Attributes": {
       "RNG": "6",
@@ -100,7 +250,67 @@
       "Hit": "3+",
       "Surge": "-",
       "D": "2",
-      "Keywords": "ANTI-EVADE\n(2),\nSIDEARM,\nPINPOINT"
+      "KW": "ANTI-"
+    },
+    "Children": []
+  },
+  {
+    "Id": "pdf_Terran_equipment_jim_raynor_default_3_table_line_2",
+    "Name": "REVOLVER",
+    "Type": "Statline",
+    "Attributes": {
+      "RNG": "",
+      "T": "",
+      "RoA": "",
+      "Hit": "",
+      "Surge": "",
+      "D": "",
+      "KW": "EVADE"
+    },
+    "Children": []
+  },
+  {
+    "Id": "pdf_Terran_equipment_jim_raynor_default_3_table_line_3",
+    "Name": "",
+    "Type": "Statline",
+    "Attributes": {
+      "RNG": "",
+      "T": "",
+      "RoA": "",
+      "Hit": "",
+      "Surge": "",
+      "D": "",
+      "KW": "(2),"
+    },
+    "Children": []
+  },
+  {
+    "Id": "pdf_Terran_equipment_jim_raynor_default_3_table_line_4",
+    "Name": "",
+    "Type": "Statline",
+    "Attributes": {
+      "RNG": "",
+      "T": "",
+      "RoA": "",
+      "Hit": "",
+      "Surge": "",
+      "D": "",
+      "KW": "SIDEARM,"
+    },
+    "Children": []
+  },
+  {
+    "Id": "pdf_Terran_equipment_jim_raynor_default_3_table_line_5",
+    "Name": "",
+    "Type": "Statline",
+    "Attributes": {
+      "RNG": "",
+      "T": "",
+      "RoA": "",
+      "Hit": "",
+      "Surge": "",
+      "D": "",
+      "KW": "PINPOINT"
     },
     "Children": []
   },
@@ -113,9 +323,24 @@
       "T": "G",
       "RoA": "2",
       "Hit": "4+",
-      "Surge": "Light\nD3",
+      "Surge": "Light",
       "D": "1",
-      "Keywords": "-"
+      "KW": "-"
+    },
+    "Children": []
+  },
+  {
+    "Id": "pdf_Terran_equipment_jim_raynor_default_4_table_line_2",
+    "Name": "",
+    "Type": "Statline",
+    "Attributes": {
+      "RNG": "",
+      "T": "",
+      "RoA": "",
+      "Hit": "",
+      "Surge": "D3",
+      "D": "",
+      "KW": ""
     },
     "Children": []
   },
@@ -128,9 +353,39 @@
       "T": "G",
       "RoA": "3",
       "Hit": "3+",
-      "Surge": "Armoured\nD3",
+      "Surge": "Armoured",
       "D": "1",
-      "Keywords": "PIERCE\nArmoured (2)"
+      "KW": "PIERCE"
+    },
+    "Children": []
+  },
+  {
+    "Id": "pdf_Terran_equipment_marauders_default_1_table_line_2",
+    "Name": "",
+    "Type": "Statline",
+    "Attributes": {
+      "RNG": "",
+      "T": "",
+      "RoA": "",
+      "Hit": "",
+      "Surge": "D3",
+      "D": "",
+      "KW": "Armoured"
+    },
+    "Children": []
+  },
+  {
+    "Id": "pdf_Terran_equipment_marauders_default_1_table_line_3",
+    "Name": "",
+    "Type": "Statline",
+    "Attributes": {
+      "RNG": "",
+      "T": "",
+      "RoA": "",
+      "Hit": "",
+      "Surge": "",
+      "D": "",
+      "KW": "(2)"
     },
     "Children": []
   },
@@ -145,7 +400,7 @@
       "Hit": "4+",
       "Surge": "-",
       "D": "1",
-      "Keywords": "-"
+      "KW": "-"
     },
     "Children": []
   },
@@ -158,9 +413,24 @@
       "T": "All",
       "RoA": "2",
       "Hit": "3+",
-      "Surge": "Light\nD3",
+      "Surge": "Light",
       "D": "1",
-      "Keywords": "-"
+      "KW": "-"
+    },
+    "Children": []
+  },
+  {
+    "Id": "pdf_Terran_equipment_marines_default_1_table_line_2",
+    "Name": "",
+    "Type": "Statline",
+    "Attributes": {
+      "RNG": "",
+      "T": "",
+      "RoA": "",
+      "Hit": "",
+      "Surge": "D3",
+      "D": "",
+      "KW": ""
     },
     "Children": []
   },
@@ -175,7 +445,7 @@
       "Hit": "5+",
       "Surge": "-",
       "D": "1",
-      "Keywords": "-"
+      "KW": "-"
     },
     "Children": []
   },
@@ -190,43 +460,133 @@
       "Hit": "5+",
       "Surge": "-",
       "D": "1",
-      "Keywords": "-"
+      "KW": "-"
     },
     "Children": []
   },
   {
     "Id": "pdf_Terran_equipment_nova_assault_mode_default_2_table",
-    "Name": "HELLFIRE\nSHOTGUN",
+    "Name": "HELLFIRE",
     "Type": "Statline",
     "Attributes": {
       "RNG": "8",
       "T": "G",
       "RoA": "3",
       "Hit": "4+",
-      "Surge": "Light\nD3",
+      "Surge": "Light",
       "D": "2",
-      "Keywords": "ANTI-EVADE\n(1),\nBURST FIRE\n4\" (3)"
+      "KW": "ANTI-"
+    },
+    "Children": []
+  },
+  {
+    "Id": "pdf_Terran_equipment_nova_assault_mode_default_2_table_line_2",
+    "Name": "SHOTGUN",
+    "Type": "Statline",
+    "Attributes": {
+      "RNG": "",
+      "T": "",
+      "RoA": "",
+      "Hit": "",
+      "Surge": "D3",
+      "D": "",
+      "KW": "EVADE"
+    },
+    "Children": []
+  },
+  {
+    "Id": "pdf_Terran_equipment_nova_assault_mode_default_2_table_line_3",
+    "Name": "",
+    "Type": "Statline",
+    "Attributes": {
+      "RNG": "",
+      "T": "",
+      "RoA": "",
+      "Hit": "",
+      "Surge": "",
+      "D": "",
+      "KW": "(1),"
+    },
+    "Children": []
+  },
+  {
+    "Id": "pdf_Terran_equipment_nova_assault_mode_default_2_table_line_4",
+    "Name": "",
+    "Type": "Statline",
+    "Attributes": {
+      "RNG": "",
+      "T": "",
+      "RoA": "",
+      "Hit": "",
+      "Surge": "",
+      "D": "",
+      "KW": "BURST"
+    },
+    "Children": []
+  },
+  {
+    "Id": "pdf_Terran_equipment_nova_assault_mode_default_2_table_line_5",
+    "Name": "",
+    "Type": "Statline",
+    "Attributes": {
+      "RNG": "",
+      "T": "",
+      "RoA": "",
+      "Hit": "",
+      "Surge": "",
+      "D": "",
+      "KW": "FIRE 4\""
+    },
+    "Children": []
+  },
+  {
+    "Id": "pdf_Terran_equipment_nova_assault_mode_default_2_table_line_6",
+    "Name": "",
+    "Type": "Statline",
+    "Attributes": {
+      "RNG": "",
+      "T": "",
+      "RoA": "",
+      "Hit": "",
+      "Surge": "",
+      "D": "",
+      "KW": "(3)"
     },
     "Children": []
   },
   {
     "Id": "pdf_Terran_equipment_nova_assault_mode_default_4_table",
-    "Name": "MONOMOLECULA\nR BLADE",
+    "Name": "MONOMOLECULA",
     "Type": "Statline",
     "Attributes": {
       "RNG": "E",
       "T": "G",
       "RoA": "8",
       "Hit": "3+",
-      "Surge": "L&A\nD6",
+      "Surge": "L&A",
       "D": "1",
-      "Keywords": "-"
+      "KW": "-"
+    },
+    "Children": []
+  },
+  {
+    "Id": "pdf_Terran_equipment_nova_assault_mode_default_4_table_line_2",
+    "Name": "R BLADE",
+    "Type": "Statline",
+    "Attributes": {
+      "RNG": "",
+      "T": "",
+      "RoA": "",
+      "Hit": "",
+      "Surge": "D6",
+      "D": "",
+      "KW": ""
     },
     "Children": []
   },
   {
     "Id": "pdf_Terran_equipment_nova_stealth_mode_default_2_table",
-    "Name": "C-20A\nCANISTER\nRIFLE",
+    "Name": "C-20A",
     "Type": "Statline",
     "Attributes": {
       "RNG": "12",
@@ -235,7 +595,67 @@
       "Hit": "3+",
       "Surge": "-",
       "D": "2",
-      "Keywords": "CRITICAL HIT\n(2),\nLONG RANGE\n(18\")"
+      "KW": "CRITICAL"
+    },
+    "Children": []
+  },
+  {
+    "Id": "pdf_Terran_equipment_nova_stealth_mode_default_2_table_line_2",
+    "Name": "CANISTER",
+    "Type": "Statline",
+    "Attributes": {
+      "RNG": "",
+      "T": "",
+      "RoA": "",
+      "Hit": "",
+      "Surge": "",
+      "D": "",
+      "KW": "HIT (2),"
+    },
+    "Children": []
+  },
+  {
+    "Id": "pdf_Terran_equipment_nova_stealth_mode_default_2_table_line_3",
+    "Name": "RIFLE",
+    "Type": "Statline",
+    "Attributes": {
+      "RNG": "",
+      "T": "",
+      "RoA": "",
+      "Hit": "",
+      "Surge": "",
+      "D": "",
+      "KW": "LONG"
+    },
+    "Children": []
+  },
+  {
+    "Id": "pdf_Terran_equipment_nova_stealth_mode_default_2_table_line_4",
+    "Name": "",
+    "Type": "Statline",
+    "Attributes": {
+      "RNG": "",
+      "T": "",
+      "RoA": "",
+      "Hit": "",
+      "Surge": "",
+      "D": "",
+      "KW": "RANGE"
+    },
+    "Children": []
+  },
+  {
+    "Id": "pdf_Terran_equipment_nova_stealth_mode_default_2_table_line_5",
+    "Name": "",
+    "Type": "Statline",
+    "Attributes": {
+      "RNG": "",
+      "T": "",
+      "RoA": "",
+      "Hit": "",
+      "Surge": "",
+      "D": "",
+      "KW": "(18\")"
     },
     "Children": []
   },
@@ -250,7 +670,7 @@
       "Hit": "5+",
       "Surge": "-",
       "D": "1",
-      "Keywords": "-"
+      "KW": "-"
     },
     "Children": []
   },
@@ -265,7 +685,7 @@
       "Hit": "3+",
       "Surge": "-",
       "D": "1",
-      "Keywords": "-"
+      "KW": "-"
     },
     "Children": []
   },
@@ -278,9 +698,24 @@
       "T": "All",
       "RoA": "2",
       "Hit": "3+",
-      "Surge": "Light\nD3",
+      "Surge": "Light",
       "D": "1",
-      "Keywords": "-"
+      "KW": "-"
+    },
+    "Children": []
+  },
+  {
+    "Id": "pdf_Terran_equipment_raynor_s_raiders_default_1_table_line_2",
+    "Name": "",
+    "Type": "Statline",
+    "Attributes": {
+      "RNG": "",
+      "T": "",
+      "RoA": "",
+      "Hit": "",
+      "Surge": "D3",
+      "D": "",
+      "KW": ""
     },
     "Children": []
   },
@@ -295,7 +730,7 @@
       "Hit": "5+",
       "Surge": "-",
       "D": "1",
-      "Keywords": "-"
+      "KW": "-"
     },
     "Children": []
   },
@@ -308,9 +743,39 @@
       "T": "G",
       "RoA": "8",
       "Hit": "3+",
-      "Surge": "Armoured\nD6",
+      "Surge": "Armoured",
       "D": "1",
-      "Keywords": "PIERCE\nArmoured (2)"
+      "KW": "PIERCE"
+    },
+    "Children": []
+  },
+  {
+    "Id": "pdf_Terran_equipment_siege_tank_default_1_table_line_2",
+    "Name": "",
+    "Type": "Statline",
+    "Attributes": {
+      "RNG": "",
+      "T": "",
+      "RoA": "",
+      "Hit": "",
+      "Surge": "D6",
+      "D": "",
+      "KW": "Armoured"
+    },
+    "Children": []
+  },
+  {
+    "Id": "pdf_Terran_equipment_siege_tank_default_1_table_line_3",
+    "Name": "",
+    "Type": "Statline",
+    "Attributes": {
+      "RNG": "",
+      "T": "",
+      "RoA": "",
+      "Hit": "",
+      "Surge": "",
+      "D": "",
+      "KW": "(2)"
     },
     "Children": []
   },
@@ -323,9 +788,39 @@
       "T": "G",
       "RoA": "BT+4",
       "Hit": "4+",
-      "Surge": "L&A\nBT",
+      "Surge": "L&A",
       "D": "1",
-      "Keywords": "SIEGE MODE\nStatus"
+      "KW": "SIEGE"
+    },
+    "Children": []
+  },
+  {
+    "Id": "pdf_Terran_equipment_siege_tank_default_2_table_line_2",
+    "Name": "",
+    "Type": "Statline",
+    "Attributes": {
+      "RNG": "",
+      "T": "",
+      "RoA": "",
+      "Hit": "",
+      "Surge": "BT",
+      "D": "",
+      "KW": "MODE"
+    },
+    "Children": []
+  },
+  {
+    "Id": "pdf_Terran_equipment_siege_tank_default_2_table_line_3",
+    "Name": "",
+    "Type": "Statline",
+    "Attributes": {
+      "RNG": "",
+      "T": "",
+      "RoA": "",
+      "Hit": "",
+      "Surge": "",
+      "D": "",
+      "KW": "Status"
     },
     "Children": []
   },
@@ -340,7 +835,7 @@
       "Hit": "2+",
       "Surge": "-",
       "D": "1",
-      "Keywords": "-"
+      "KW": "-"
     },
     "Children": []
   },
@@ -353,9 +848,84 @@
       "T": "G",
       "RoA": "3",
       "Hit": "3+",
-      "Surge": "Armoured\nD3",
+      "Surge": "Armoured",
       "D": "1",
-      "Keywords": "LONG RANGE\n(16\"),\nPIERCE\nArmoured (2)"
+      "KW": "LONG"
+    },
+    "Children": []
+  },
+  {
+    "Id": "pdf_Terran_equipment_spec_ops_marauder_marauder_default_2_table_line_2",
+    "Name": "",
+    "Type": "Statline",
+    "Attributes": {
+      "RNG": "",
+      "T": "",
+      "RoA": "",
+      "Hit": "",
+      "Surge": "D3",
+      "D": "",
+      "KW": "RANGE"
+    },
+    "Children": []
+  },
+  {
+    "Id": "pdf_Terran_equipment_spec_ops_marauder_marauder_default_2_table_line_3",
+    "Name": "",
+    "Type": "Statline",
+    "Attributes": {
+      "RNG": "",
+      "T": "",
+      "RoA": "",
+      "Hit": "",
+      "Surge": "",
+      "D": "",
+      "KW": "(16\"),"
+    },
+    "Children": []
+  },
+  {
+    "Id": "pdf_Terran_equipment_spec_ops_marauder_marauder_default_2_table_line_4",
+    "Name": "",
+    "Type": "Statline",
+    "Attributes": {
+      "RNG": "",
+      "T": "",
+      "RoA": "",
+      "Hit": "",
+      "Surge": "",
+      "D": "",
+      "KW": "PIERCE"
+    },
+    "Children": []
+  },
+  {
+    "Id": "pdf_Terran_equipment_spec_ops_marauder_marauder_default_2_table_line_5",
+    "Name": "",
+    "Type": "Statline",
+    "Attributes": {
+      "RNG": "",
+      "T": "",
+      "RoA": "",
+      "Hit": "",
+      "Surge": "",
+      "D": "",
+      "KW": "Armoured"
+    },
+    "Children": []
+  },
+  {
+    "Id": "pdf_Terran_equipment_spec_ops_marauder_marauder_default_2_table_line_6",
+    "Name": "",
+    "Type": "Statline",
+    "Attributes": {
+      "RNG": "",
+      "T": "",
+      "RoA": "",
+      "Hit": "",
+      "Surge": "",
+      "D": "",
+      "KW": "(2)"
     },
     "Children": []
   },
@@ -370,7 +940,7 @@
       "Hit": "4+",
       "Surge": "-",
       "D": "1",
-      "Keywords": "-"
+      "KW": "-"
     },
     "Children": []
   },

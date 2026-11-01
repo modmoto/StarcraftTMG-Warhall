@@ -8,9 +8,54 @@
       "T": "G",
       "RoA": "6",
       "Hit": "3+",
-      "Surge": "L&A\nD3",
+      "Surge": "L&A",
       "D": "1",
-      "Keywords": "PIERCE\nArmoured\n(2),\nPINPOINT"
+      "KW": "PIERCE"
+    },
+    "Children": []
+  },
+  {
+    "Id": "pdf_Zerg_equipment_bile_launcher_default_2_table_line_2",
+    "Name": "",
+    "Type": "Statline",
+    "Attributes": {
+      "RNG": "",
+      "T": "",
+      "RoA": "",
+      "Hit": "",
+      "Surge": "D3",
+      "D": "",
+      "KW": "Armoured"
+    },
+    "Children": []
+  },
+  {
+    "Id": "pdf_Zerg_equipment_bile_launcher_default_2_table_line_3",
+    "Name": "",
+    "Type": "Statline",
+    "Attributes": {
+      "RNG": "",
+      "T": "",
+      "RoA": "",
+      "Hit": "",
+      "Surge": "",
+      "D": "",
+      "KW": "(2),"
+    },
+    "Children": []
+  },
+  {
+    "Id": "pdf_Zerg_equipment_bile_launcher_default_2_table_line_4",
+    "Name": "",
+    "Type": "Statline",
+    "Attributes": {
+      "RNG": "",
+      "T": "",
+      "RoA": "",
+      "Hit": "",
+      "Surge": "",
+      "D": "",
+      "KW": "PINPOINT"
     },
     "Children": []
   },
@@ -25,7 +70,7 @@
       "Hit": "3+",
       "Surge": "-",
       "D": "1",
-      "Keywords": "-"
+      "KW": "-"
     },
     "Children": []
   },
@@ -38,9 +83,24 @@
       "T": "G",
       "RoA": "3",
       "Hit": "4+",
-      "Surge": "Light\nD3+1",
+      "Surge": "Light",
       "D": "1",
-      "Keywords": "-"
+      "KW": "-"
+    },
+    "Children": []
+  },
+  {
+    "Id": "pdf_Zerg_equipment_corpsers_roach_default_4_table_line_2",
+    "Name": "",
+    "Type": "Statline",
+    "Attributes": {
+      "RNG": "",
+      "T": "",
+      "RoA": "",
+      "Hit": "",
+      "Surge": "D3+1",
+      "D": "",
+      "KW": ""
     },
     "Children": []
   },
@@ -55,22 +115,37 @@
       "Hit": "3+",
       "Surge": "-",
       "D": "1",
-      "Keywords": "-"
+      "KW": "-"
     },
     "Children": []
   },
   {
     "Id": "pdf_Zerg_equipment_hydralisks_default_1_table",
-    "Name": "NEEDLE\nSPINES",
+    "Name": "NEEDLE",
     "Type": "Statline",
     "Attributes": {
       "RNG": "12",
       "T": "All",
       "RoA": "3",
       "Hit": "3+",
-      "Surge": "L&A\nD3+1",
+      "Surge": "L&A",
       "D": "2",
-      "Keywords": "-"
+      "KW": "-"
+    },
+    "Children": []
+  },
+  {
+    "Id": "pdf_Zerg_equipment_hydralisks_default_1_table_line_2",
+    "Name": "SPINES",
+    "Type": "Statline",
+    "Attributes": {
+      "RNG": "",
+      "T": "",
+      "RoA": "",
+      "Hit": "",
+      "Surge": "D3+1",
+      "D": "",
+      "KW": ""
     },
     "Children": []
   },
@@ -85,7 +160,7 @@
       "Hit": "4+",
       "Surge": "-",
       "D": "1",
-      "Keywords": "-"
+      "KW": "-"
     },
     "Children": []
   },
@@ -98,9 +173,24 @@
       "T": "All",
       "RoA": "5",
       "Hit": "3+",
-      "Surge": "L&A\nD3",
+      "Surge": "L&A",
       "D": "1",
-      "Keywords": "-"
+      "KW": "-"
+    },
+    "Children": []
+  },
+  {
+    "Id": "pdf_Zerg_equipment_kerrigan_default_2_table_line_2",
+    "Name": "",
+    "Type": "Statline",
+    "Attributes": {
+      "RNG": "",
+      "T": "",
+      "RoA": "",
+      "Hit": "",
+      "Surge": "D3",
+      "D": "",
+      "KW": ""
     },
     "Children": []
   },
@@ -115,7 +205,22 @@
       "Hit": "4+",
       "Surge": "-",
       "D": "2",
-      "Keywords": "CRITICAL HIT\n(2)"
+      "KW": "CRITICAL"
+    },
+    "Children": []
+  },
+  {
+    "Id": "pdf_Zerg_equipment_kerrigan_default_4_table_line_2",
+    "Name": "",
+    "Type": "Statline",
+    "Attributes": {
+      "RNG": "",
+      "T": "",
+      "RoA": "",
+      "Hit": "",
+      "Surge": "",
+      "D": "",
+      "KW": "HIT (2)"
     },
     "Children": []
   },
@@ -128,9 +233,24 @@
       "T": "G",
       "RoA": "2",
       "Hit": "3+",
-      "Surge": "L&A\nD6",
+      "Surge": "L&A",
       "D": "1",
-      "Keywords": "INSTANT"
+      "KW": "INSTANT"
+    },
+    "Children": []
+  },
+  {
+    "Id": "pdf_Zerg_equipment_kerrigan_swarm_raptors_zergling_default_2_table_line_2",
+    "Name": "",
+    "Type": "Statline",
+    "Attributes": {
+      "RNG": "",
+      "T": "",
+      "RoA": "",
+      "Hit": "",
+      "Surge": "D6",
+      "D": "",
+      "KW": ""
     },
     "Children": []
   },
@@ -143,9 +263,24 @@
       "T": "G",
       "RoA": "4",
       "Hit": "4+",
-      "Surge": "Light\nD3",
+      "Surge": "Light",
       "D": "2",
-      "Keywords": "-"
+      "KW": "-"
+    },
+    "Children": []
+  },
+  {
+    "Id": "pdf_Zerg_equipment_queen_default_1_table_line_2",
+    "Name": "",
+    "Type": "Statline",
+    "Attributes": {
+      "RNG": "",
+      "T": "",
+      "RoA": "",
+      "Hit": "",
+      "Surge": "D3",
+      "D": "",
+      "KW": ""
     },
     "Children": []
   },
@@ -158,9 +293,24 @@
       "T": "A",
       "RoA": "4",
       "Hit": "4+",
-      "Surge": "L&A\nD3",
+      "Surge": "L&A",
       "D": "2",
-      "Keywords": "-"
+      "KW": "-"
+    },
+    "Children": []
+  },
+  {
+    "Id": "pdf_Zerg_equipment_queen_default_2_table_line_2",
+    "Name": "",
+    "Type": "Statline",
+    "Attributes": {
+      "RNG": "",
+      "T": "",
+      "RoA": "",
+      "Hit": "",
+      "Surge": "D3",
+      "D": "",
+      "KW": ""
     },
     "Children": []
   },
@@ -175,7 +325,7 @@
       "Hit": "4+",
       "Surge": "-",
       "D": "1",
-      "Keywords": "-"
+      "KW": "-"
     },
     "Children": []
   },
@@ -188,24 +338,54 @@
       "T": "G",
       "RoA": "2",
       "Hit": "4+",
-      "Surge": "Light\nD3",
+      "Surge": "Light",
       "D": "1",
-      "Keywords": "-"
+      "KW": "-"
+    },
+    "Children": []
+  },
+  {
+    "Id": "pdf_Zerg_equipment_raptors_zergling_default_2_table_line_2",
+    "Name": "",
+    "Type": "Statline",
+    "Attributes": {
+      "RNG": "",
+      "T": "",
+      "RoA": "",
+      "Hit": "",
+      "Surge": "D3",
+      "D": "",
+      "KW": ""
     },
     "Children": []
   },
   {
     "Id": "pdf_Zerg_equipment_ravagers_default_2_table",
-    "Name": "PLASMA\nDISCHARGE",
+    "Name": "PLASMA",
     "Type": "Statline",
     "Attributes": {
       "RNG": "12",
       "T": "G",
       "RoA": "4",
       "Hit": "3+",
-      "Surge": "Light\nD3+1",
+      "Surge": "Light",
       "D": "1",
-      "Keywords": "-"
+      "KW": "-"
+    },
+    "Children": []
+  },
+  {
+    "Id": "pdf_Zerg_equipment_ravagers_default_2_table_line_2",
+    "Name": "DISCHARGE",
+    "Type": "Statline",
+    "Attributes": {
+      "RNG": "",
+      "T": "",
+      "RoA": "",
+      "Hit": "",
+      "Surge": "D3+1",
+      "D": "",
+      "KW": ""
     },
     "Children": []
   },
@@ -220,7 +400,7 @@
       "Hit": "4+",
       "Surge": "-",
       "D": "1",
-      "Keywords": "-"
+      "KW": "-"
     },
     "Children": []
   },
@@ -235,7 +415,7 @@
       "Hit": "3+",
       "Surge": "-",
       "D": "1",
-      "Keywords": "-"
+      "KW": "-"
     },
     "Children": []
   },
@@ -250,7 +430,7 @@
       "Hit": "4+",
       "Surge": "-",
       "D": "1",
-      "Keywords": "-"
+      "KW": "-"
     },
     "Children": []
   },
@@ -265,7 +445,7 @@
       "Hit": "4+",
       "Surge": "-",
       "D": "1",
-      "Keywords": "-"
+      "KW": "-"
     },
     "Children": []
   },
@@ -280,7 +460,7 @@
       "Hit": "5+",
       "Surge": "-",
       "D": "1",
-      "Keywords": "-"
+      "KW": "-"
     },
     "Children": []
   },
@@ -295,7 +475,7 @@
       "Hit": "5+",
       "Surge": "-",
       "D": "1",
-      "Keywords": "-"
+      "KW": "-"
     },
     "Children": []
   },
@@ -310,7 +490,7 @@
       "Hit": "3+",
       "Surge": "-",
       "D": "1",
-      "Keywords": "-"
+      "KW": "-"
     },
     "Children": []
   },
@@ -325,37 +505,67 @@
       "Hit": "4+",
       "Surge": "-",
       "D": "1",
-      "Keywords": "-"
+      "KW": "-"
     },
     "Children": []
   },
   {
     "Id": "pdf_Zerg_equipment_zagara_default_2_table",
-    "Name": "ZAGARA'S\nTALONS",
+    "Name": "ZAGARA'S",
     "Type": "Statline",
     "Attributes": {
       "RNG": "8",
       "T": "G",
       "RoA": "4",
       "Hit": "3+",
-      "Surge": "L&A\nD3",
+      "Surge": "L&A",
       "D": "2",
-      "Keywords": "-"
+      "KW": "-"
+    },
+    "Children": []
+  },
+  {
+    "Id": "pdf_Zerg_equipment_zagara_default_2_table_line_2",
+    "Name": "TALONS",
+    "Type": "Statline",
+    "Attributes": {
+      "RNG": "",
+      "T": "",
+      "RoA": "",
+      "Hit": "",
+      "Surge": "D3",
+      "D": "",
+      "KW": ""
     },
     "Children": []
   },
   {
     "Id": "pdf_Zerg_equipment_zagara_default_3_table",
-    "Name": "ZAGARA'S\nACID SPINES",
+    "Name": "ZAGARA'S",
     "Type": "Statline",
     "Attributes": {
       "RNG": "14",
       "T": "A",
       "RoA": "8",
       "Hit": "3+",
-      "Surge": "L&A\nD3",
+      "Surge": "L&A",
       "D": "1",
-      "Keywords": "-"
+      "KW": "-"
+    },
+    "Children": []
+  },
+  {
+    "Id": "pdf_Zerg_equipment_zagara_default_3_table_line_2",
+    "Name": "ACID SPINES",
+    "Type": "Statline",
+    "Attributes": {
+      "RNG": "",
+      "T": "",
+      "RoA": "",
+      "Hit": "",
+      "Surge": "D3",
+      "D": "",
+      "KW": ""
     },
     "Children": []
   },
@@ -370,7 +580,7 @@
       "Hit": "3+",
       "Surge": "-",
       "D": "1",
-      "Keywords": "-"
+      "KW": "-"
     },
     "Children": []
   },
@@ -383,9 +593,24 @@
       "T": "G",
       "RoA": "2",
       "Hit": "4+",
-      "Surge": "Light\nD3",
+      "Surge": "Light",
       "D": "1",
-      "Keywords": "-"
+      "KW": "-"
+    },
+    "Children": []
+  },
+  {
+    "Id": "pdf_Zerg_equipment_zerglings_default_2_table_line_2",
+    "Name": "",
+    "Type": "Statline",
+    "Attributes": {
+      "RNG": "",
+      "T": "",
+      "RoA": "",
+      "Hit": "",
+      "Surge": "D3",
+      "D": "",
+      "KW": ""
     },
     "Children": []
   },

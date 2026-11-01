@@ -84,65 +84,7 @@ function merge(meshes, color, role) {
   }
   return result;
 }
-function numeral(number, color) {
-  const segments = {
-    a: [
-      [-0.57, 1.2],
-      [0.57, 1.2],
-    ],
-    b: [
-      [0.675, 1.08],
-      [0.675, 0.12],
-    ],
-    c: [
-      [0.675, -0.12],
-      [0.675, -1.08],
-    ],
-    d: [
-      [-0.57, -1.2],
-      [0.57, -1.2],
-    ],
-    e: [
-      [-0.675, -1.08],
-      [-0.675, -0.12],
-    ],
-    f: [
-      [-0.675, 0.12],
-      [-0.675, 1.08],
-    ],
-    g: [
-      [-0.57, 0],
-      [0.57, 0],
-    ],
-  };
-  const digits = { 1: 'bc', 2: 'abged', 3: 'abgcd', 4: 'fgbc', 5: 'afgcd' };
-  const meshes = [...digits[number]].map(key => {
-    const [a, b] = segments[key],
-      dx = b[0] - a[0],
-      dz = b[1] - a[1],
-      length = Math.hypot(dx, dz),
-      ux = dx / length,
-      uz = dz / length;
-    const local = [
-      [0.1, 0.135],
-      [length - 0.1, 0.135],
-      [length, 0],
-      [length - 0.1, -0.135],
-      [0.1, -0.135],
-      [0, 0],
-    ];
-    return polygon(
-      local.map(([x, z]) => [a[0] + ux * x - uz * z, a[1] + uz * x + ux * z]),
-      0.13,
-    );
-  });
-  const mesh = merge(meshes, color, 'number');
-  const xs = mesh.vertices.map(v => v[0]),
-    center = (Math.min(...xs) + Math.max(...xs)) / 2;
-  mesh.vertices = mesh.vertices.map(([x, y, z]) => [x - center, y, z]);
-  return mesh;
-}
-export function createMarkerGeometry({ color, number }) {
+export function createMarkerGeometry({ color }) {
   const radius = controlOuterRadiusMm / 10,
     meshes = [annulus(radius - 0.44, radius, 0.12)];
   const onTop = x => [x, Math.sqrt((radius - 0.22) ** 2 - x * x)];
@@ -174,7 +116,7 @@ export function createMarkerGeometry({ color, number }) {
         ),
       );
   }
-  return [merge(meshes, accents[color], 'outline'), numeral(number, accents[color])];
+  return [merge(meshes, accents[color], 'outline')];
 }
 export async function createMarkerAssets({
   directory = path.join(projectRoot, 'model-assets'),

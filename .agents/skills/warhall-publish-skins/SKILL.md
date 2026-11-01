@@ -121,3 +121,8 @@ The user authorized locally saved credentials so the assistant can push and uplo
 The current marker wave has five `kind: marker` entries, with red 1/3, blue 2/4 and green 5. Preserve stable canonical profile IDs for 1/2/5 and suffixed IDs for 3/4. `markerProfileId` links official deployment numbers to their distinct shared skins. Do not collapse these back to three color-only models. The ring and rails use actual open geometry with flat unlit materials and solid-color pixels, rather than a tinted alpha plane. The numeral is geometry; no center disc is generated. Keep the center at 32 mm and the outer diameter at 184.4 mm. Native Warhall selection-base rendering remains independent.
 
 Build and visually inspect all five assets, validate GLBs and references, push version 26 plus hosted files, then run the existing marker-only publisher with saved `--login`. Normal fingerprint reconciliation replaces the three owned old ring skins and creates profiles 3/4; protected native IDs 6201–6203 are never deleted. Report actual API results and request a fresh client deployment check rather than claiming live rendering from the offline preview.
+
+
+## Unnumbered marker revision (release 27)
+
+The user removed the numeral artwork. Keep all five stable profile assignments, but use the same open geometry for markers of the same color. Do not add numbers back. Rebuild, push the hosted files, then publish only `--kind marker` with normal fingerprint replacement and fresh generated thumbnails. Keep the 32 mm footprint and 184.4 mm outer diameter.

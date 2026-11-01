@@ -34,7 +34,7 @@ test('markers measure 32 mm while the visual ring extends three inches from thei
   );
 });
 
-test('five numbered control rings are skin geometry, not separately spawned interactive terrain', async () => {
+test('five mission marker assignments use open control ring geometry, not separately spawned interactive terrain', async () => {
   const catalogue = JSON.parse(await readFile(new URL('../model-catalogue.json', import.meta.url)));
   const markers = catalogue.entries.filter(entry => entry.kind === 'marker');
   assert.equal(markers.length, 5);
@@ -61,12 +61,12 @@ test('five numbered control rings are skin geometry, not separately spawned inte
 
 test('outline geometry leaves the interior empty instead of relying on alpha transparency', () => {
   const meshes = createMarkerGeometry({ color: 'blue', number: 2 });
-  const outline = meshes.find(mesh => mesh.role === 'outline'),
-    number = meshes.find(mesh => mesh.role === 'number');
+  assert.equal(meshes.length, 1);
+  const outline = meshes.find(mesh => mesh.role === 'outline');
   assert.ok(
     outline.vertices.every(([x, , z]) => Math.hypot(x, z) > 4 && Math.hypot(x, z) <= 9.22 + 1e-9),
   );
-  assert.ok(number.vertices.every(([x, , z]) => Math.hypot(x, z) <= 1.6));
+  assert.ok(meshes.every(mesh => mesh.role !== 'number'));
   for (const mesh of meshes) {
     assert.equal(mesh.texture.data.length, 4);
     assert.equal(mesh.texture.data[3], 255);

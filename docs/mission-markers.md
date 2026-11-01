@@ -27,3 +27,9 @@ Five marker skins replace the former three unnumbered color skins: red 1/3, blue
 The large marker is now actual outline geometry: a 4.4 mm outer stroke, paired angular 2.8 mm sci-fi rails, and a beveled digital numeral. There is no annular face, transparent texture background, center disc or center plate spanning the open areas. All visible geometry is opaque with tiny solid-color textures; the empty space is genuinely absent geometry, so alpha/material import differences cannot tint the large interior. Materials request standard glTF unlit rendering. Numerals fit inside the 32 mm center. Warhall's own native 32 mm selection base is a separate client-rendered element; this skin change does not add a client hide-base option.
 
 Generate with `npm run models:catalogue`, then inspect the numbered previews. After pushing the immutable asset URLs and version 26 data, use the marker-only publisher. It replaces the three owned unnumbered skins and creates two additional numbered assignments. The protected native sword skins are retained. Refresh the shared catalogue, update Starcraft and create a fresh deployment to load numbers 1–5.
+
+## Unnumbered outlines (release 27)
+
+The user removed the numerals again. All five stable deployment profile assignments remain so existing references stay valid, but same-color profiles now share identical open outline geometry. There is no center disc or numeral. Red, blue and green retain the sci-fi outer stroke and rails, 32 mm selection footprint and 184.4 mm outer diameter.
+
+Rebuild the catalogue and publish the five changed marker assignments with their regenerated thumbnails after pushing the hosted assets. Ordinary fingerprint reconciliation replaces the obsolete owned numbered skins; no full-catalogue replacement is needed.

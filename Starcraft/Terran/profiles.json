@@ -50,10 +50,31 @@
         "Id": "pdf_Terran_equipment_goliath_default_1_table"
       },
       {
+        "Id": "pdf_Terran_equipment_goliath_default_1_table_line_2"
+      },
+      {
+        "Id": "pdf_Terran_equipment_goliath_default_1_table_line_3"
+      },
+      {
         "Id": "pdf_Terran_equipment_goliath_default_2_table"
       },
       {
+        "Id": "pdf_Terran_equipment_goliath_default_2_table_line_2"
+      },
+      {
+        "Id": "pdf_Terran_equipment_goliath_default_2_table_line_3"
+      },
+      {
         "Id": "pdf_Terran_equipment_goliath_default_3_table"
+      },
+      {
+        "Id": "pdf_Terran_equipment_goliath_default_3_table_line_2"
+      },
+      {
+        "Id": "pdf_Terran_equipment_goliath_default_3_table_line_3"
+      },
+      {
+        "Id": "pdf_Terran_equipment_goliath_default_3_table_line_4"
       },
       {
         "Id": "pdf_Terran_rule_goliath_assault_phase_indomitable"
@@ -126,13 +147,37 @@
         "Id": "pdf_Terran_equipment_jim_raynor_default_2_table"
       },
       {
+        "Id": "pdf_Terran_equipment_jim_raynor_default_2_table_line_2"
+      },
+      {
+        "Id": "pdf_Terran_equipment_jim_raynor_default_2_table_line_3"
+      },
+      {
+        "Id": "pdf_Terran_equipment_jim_raynor_default_2_table_line_4"
+      },
+      {
         "Id": "pdf_Terran_equipment_jim_raynor_default_3_table"
+      },
+      {
+        "Id": "pdf_Terran_equipment_jim_raynor_default_3_table_line_2"
+      },
+      {
+        "Id": "pdf_Terran_equipment_jim_raynor_default_3_table_line_3"
+      },
+      {
+        "Id": "pdf_Terran_equipment_jim_raynor_default_3_table_line_4"
+      },
+      {
+        "Id": "pdf_Terran_equipment_jim_raynor_default_3_table_line_5"
       },
       {
         "Id": "pdf_Terran_profile_jim_raynor_phase_melee_phase"
       },
       {
         "Id": "pdf_Terran_equipment_jim_raynor_default_4_table"
+      },
+      {
+        "Id": "pdf_Terran_equipment_jim_raynor_default_4_table_line_2"
       }
     ]
   },
@@ -156,6 +201,12 @@
       },
       {
         "Id": "pdf_Terran_equipment_marauders_default_1_table"
+      },
+      {
+        "Id": "pdf_Terran_equipment_marauders_default_1_table_line_2"
+      },
+      {
+        "Id": "pdf_Terran_equipment_marauders_default_1_table_line_3"
       },
       {
         "Id": "pdf_Terran_rule_marauders_assault_phase_concusive_shells"
@@ -237,6 +288,21 @@
         "Id": "pdf_Terran_equipment_nova_assault_mode_default_2_table"
       },
       {
+        "Id": "pdf_Terran_equipment_nova_assault_mode_default_2_table_line_2"
+      },
+      {
+        "Id": "pdf_Terran_equipment_nova_assault_mode_default_2_table_line_3"
+      },
+      {
+        "Id": "pdf_Terran_equipment_nova_assault_mode_default_2_table_line_4"
+      },
+      {
+        "Id": "pdf_Terran_equipment_nova_assault_mode_default_2_table_line_5"
+      },
+      {
+        "Id": "pdf_Terran_equipment_nova_assault_mode_default_2_table_line_6"
+      },
+      {
         "Id": "pdf_Terran_rule_nova_assault_mode_assault_phase_phase_reactor_suit"
       },
       {
@@ -247,6 +313,9 @@
       },
       {
         "Id": "pdf_Terran_equipment_nova_assault_mode_default_4_table"
+      },
+      {
+        "Id": "pdf_Terran_equipment_nova_assault_mode_default_4_table_line_2"
       }
     ]
   },
@@ -285,6 +354,18 @@
       },
       {
         "Id": "pdf_Terran_equipment_nova_stealth_mode_default_2_table"
+      },
+      {
+        "Id": "pdf_Terran_equipment_nova_stealth_mode_default_2_table_line_2"
+      },
+      {
+        "Id": "pdf_Terran_equipment_nova_stealth_mode_default_2_table_line_3"
+      },
+      {
+        "Id": "pdf_Terran_equipment_nova_stealth_mode_default_2_table_line_4"
+      },
+      {
+        "Id": "pdf_Terran_equipment_nova_stealth_mode_default_2_table_line_5"
       },
       {
         "Id": "pdf_Terran_rule_nova_stealth_mode_assault_phase_operational_efficiency"
@@ -383,6 +464,9 @@
         "Id": "pdf_Terran_equipment_raynor_s_raiders_default_1_table"
       },
       {
+        "Id": "pdf_Terran_equipment_raynor_s_raiders_default_1_table_line_2"
+      },
+      {
         "Id": "pdf_Terran_rule_raynor_s_raiders_assault_phase_slugthrower"
       },
       {
@@ -444,7 +528,19 @@
         "Id": "pdf_Terran_equipment_siege_tank_default_1_table"
       },
       {
+        "Id": "pdf_Terran_equipment_siege_tank_default_1_table_line_2"
+      },
+      {
+        "Id": "pdf_Terran_equipment_siege_tank_default_1_table_line_3"
+      },
+      {
         "Id": "pdf_Terran_equipment_siege_tank_default_2_table"
+      },
+      {
+        "Id": "pdf_Terran_equipment_siege_tank_default_2_table_line_2"
+      },
+      {
+        "Id": "pdf_Terran_equipment_siege_tank_default_2_table_line_3"
       },
       {
         "Id": "pdf_Terran_rule_siege_tank_assault_phase_indomitable"
@@ -494,6 +590,21 @@
         "Id": "pdf_Terran_equipment_spec_ops_marauder_marauder_default_2_table"
       },
       {
+        "Id": "pdf_Terran_equipment_spec_ops_marauder_marauder_default_2_table_line_2"
+      },
+      {
+        "Id": "pdf_Terran_equipment_spec_ops_marauder_marauder_default_2_table_line_3"
+      },
+      {
+        "Id": "pdf_Terran_equipment_spec_ops_marauder_marauder_default_2_table_line_4"
+      },
+      {
+        "Id": "pdf_Terran_equipment_spec_ops_marauder_marauder_default_2_table_line_5"
+      },
+      {
+        "Id": "pdf_Terran_equipment_spec_ops_marauder_marauder_default_2_table_line_6"
+      },
+      {
         "Id": "pdf_Terran_rule_spec_ops_marauder_marauder_assault_phase_magrail_munitions"
       },
       {
@@ -527,6 +638,9 @@
       },
       {
         "Id": "pdf_Terran_equipment_marines_default_1_table"
+      },
+      {
+        "Id": "pdf_Terran_equipment_marines_default_1_table_line_2"
       },
       {
         "Id": "prof_marine_phase_melee_phase"

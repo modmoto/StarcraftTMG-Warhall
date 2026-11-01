@@ -36,6 +36,15 @@
         "Id": "pdf_Zerg_equipment_bile_launcher_default_2_table"
       },
       {
+        "Id": "pdf_Zerg_equipment_bile_launcher_default_2_table_line_2"
+      },
+      {
+        "Id": "pdf_Zerg_equipment_bile_launcher_default_2_table_line_3"
+      },
+      {
+        "Id": "pdf_Zerg_equipment_bile_launcher_default_2_table_line_4"
+      },
+      {
         "Id": "pdf_Zerg_rule_bile_launcher_assault_phase_indomitable"
       }
     ]
@@ -78,6 +87,9 @@
       },
       {
         "Id": "pdf_Zerg_equipment_corpsers_roach_default_4_table"
+      },
+      {
+        "Id": "pdf_Zerg_equipment_corpsers_roach_default_4_table_line_2"
       }
     ]
   },
@@ -141,6 +153,9 @@
         "Id": "pdf_Zerg_equipment_hydralisks_default_1_table"
       },
       {
+        "Id": "pdf_Zerg_equipment_hydralisks_default_1_table_line_2"
+      },
+      {
         "Id": "pdf_Zerg_rule_hydralisks_assault_phase_lunge"
       },
       {
@@ -182,6 +197,9 @@
         "Id": "pdf_Zerg_equipment_kerrigan_default_2_table"
       },
       {
+        "Id": "pdf_Zerg_equipment_kerrigan_default_2_table_line_2"
+      },
+      {
         "Id": "pdf_Zerg_rule_kerrigan_assault_phase_leaping_strike"
       },
       {
@@ -192,6 +210,9 @@
       },
       {
         "Id": "pdf_Zerg_equipment_kerrigan_default_4_table"
+      },
+      {
+        "Id": "pdf_Zerg_equipment_kerrigan_default_4_table_line_2"
       }
     ]
   },
@@ -230,6 +251,9 @@
       },
       {
         "Id": "pdf_Zerg_equipment_kerrigan_swarm_raptors_zergling_default_2_table"
+      },
+      {
+        "Id": "pdf_Zerg_equipment_kerrigan_swarm_raptors_zergling_default_2_table_line_2"
       }
     ]
   },
@@ -290,7 +314,13 @@
         "Id": "pdf_Zerg_equipment_queen_default_1_table"
       },
       {
+        "Id": "pdf_Zerg_equipment_queen_default_1_table_line_2"
+      },
+      {
         "Id": "pdf_Zerg_equipment_queen_default_2_table"
+      },
+      {
+        "Id": "pdf_Zerg_equipment_queen_default_2_table_line_2"
       },
       {
         "Id": "pdf_Zerg_rule_queen_assault_phase_devastating_charge"
@@ -338,6 +368,9 @@
       },
       {
         "Id": "pdf_Zerg_equipment_raptors_zergling_default_2_table"
+      },
+      {
+        "Id": "pdf_Zerg_equipment_raptors_zergling_default_2_table_line_2"
       }
     ]
   },
@@ -370,6 +403,9 @@
       },
       {
         "Id": "pdf_Zerg_equipment_ravagers_default_2_table"
+      },
+      {
+        "Id": "pdf_Zerg_equipment_ravagers_default_2_table_line_2"
       },
       {
         "Id": "pdf_Zerg_rule_ravagers_assault_phase_devastating_charge"
@@ -594,7 +630,13 @@
         "Id": "pdf_Zerg_equipment_zagara_default_2_table"
       },
       {
+        "Id": "pdf_Zerg_equipment_zagara_default_2_table_line_2"
+      },
+      {
         "Id": "pdf_Zerg_equipment_zagara_default_3_table"
+      },
+      {
+        "Id": "pdf_Zerg_equipment_zagara_default_3_table_line_2"
       },
       {
         "Id": "pdf_Zerg_rule_zagara_assault_phase_indomitable"
@@ -639,6 +681,9 @@
       },
       {
         "Id": "pdf_Zerg_equipment_zerglings_default_2_table"
+      },
+      {
+        "Id": "pdf_Zerg_equipment_zerglings_default_2_table_line_2"
       }
     ]
   }

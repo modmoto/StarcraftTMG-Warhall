@@ -5,7 +5,7 @@ export const weaponColumns = {
   Hit: 'Hit',
   Surge: 'Surge',
   D: 'Dmg',
-  Keywords: 'Keyword',
+  KW: 'Keyword',
 };
 
 export function wrapTableText(text, width = 12) {
@@ -18,8 +18,10 @@ export function wrapTableText(text, width = 12) {
     }
     let rest = word;
     while (rest.length > width) {
-      lines.push(rest.slice(0, width));
-      rest = rest.slice(width);
+      const hyphen = rest.lastIndexOf('-', width - 1);
+      const end = hyphen > 0 ? hyphen + 1 : width;
+      lines.push(rest.slice(0, end));
+      rest = rest.slice(end);
     }
     line = line ? `${line} ${rest}` : rest;
   }
@@ -38,8 +40,8 @@ export function weaponAttributes(attributes) {
   const type = light && armoured ? 'L&A' : light ? 'Light' : armoured ? 'Armoured' : values.Surge;
   const dice = attributes['S.Die'];
   values.Surge = type === '-' ? '-' : dice && dice !== '-' ? `${type}\n${dice}` : type;
-  values.Keywords = values.Keywords.split(/,\s*/)
-    .map((keyword, index, list) => wrapTableText(keyword + (index < list.length - 1 ? ',' : '')))
+  values.KW = values.KW.split(/,\s*/)
+    .map((keyword, index, list) => wrapTableText(keyword + (index < list.length - 1 ? ',' : ''), 8))
     .join('\n');
   return values;
 }
@@ -57,18 +59,20 @@ function profilePhase(profile) {
   return displayPhase(phase ?? 'Any Phase');
 }
 
-function weaponRow(profile, id, records) {
-  const rowId = `${id}_table`;
-  if (!records.weaponTables.has(rowId)) {
-    records.weaponTables.set(rowId, {
-      Id: rowId,
-      Name: wrapTableText(profile.name),
-      Type: 'Statline',
-      Attributes: weaponAttributes(profile.attributes),
-      Children: [],
-    });
-  }
-  return rowId;
+export function weaponRows(profile, id) {
+  const names = wrapTableText(profile.name).split('\n');
+  const columns = Object.entries(weaponAttributes(profile.attributes)).map(([key, value]) => [
+    key,
+    value.split('\n'),
+  ]);
+  const count = Math.max(names.length, ...columns.map(([, lines]) => lines.length));
+  return Array.from({ length: count }, (_, index) => ({
+    Id: `${id}_table${index ? `_line_${index + 1}` : ''}`,
+    Name: names[index] ?? '',
+    Type: 'Statline',
+    Attributes: Object.fromEntries(columns.map(([key, lines]) => [key, lines[index] ?? ''])),
+    Children: [],
+  }));
 }
 
 export function profileChildren(unit, ids, references, records) {
@@ -78,8 +82,12 @@ export function profileChildren(unit, ids, references, records) {
     const group = groups.get(phase);
     if (!group) throw new Error(`Unknown display phase: ${unit.name}/${phase}`);
     const id = references[index];
-    if (/Weapon$/.test(profile.type)) group.weapons.push(weaponRow(profile, id, records));
-    else group.rules.push(id);
+    if (/Weapon$/.test(profile.type)) {
+      for (const row of weaponRows(profile, id)) {
+        records.weaponTables.set(row.Id, row);
+        group.weapons.push(row.Id);
+      }
+    } else group.rules.push(id);
   }
   const children = [{ Id: ids.statline }];
   for (const [phase, group] of groups) {
