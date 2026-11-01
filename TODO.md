@@ -16,7 +16,10 @@ Release 12 removes the equipment child from each weapon stat row, eliminating th
 
 ## Requires Warhall client/catalogue support
 
-- [ ] Enable mesh colliders on imported raised terrain using `ElevatedGround`, as native Ninth Age hills do. Imported OBJ geometry currently has collider generation disabled; the WDS Height field only sizes its selection box. Units cannot yet stand on the imported ramps/platforms.
+- [ ] Fix **Flip map**: rotate terrain positions and orientations together by 180 degrees so asymmetric walls and ramps retain their layout. Verify two flips restore the original layout. See [the client findings](docs/warhall-flip-limitations.md).
+- [ ] Fix **Flip deployment**: include shared deployment overlays and mission markers, preserving the flip when switching/reloading deployments. See [the client findings](docs/warhall-flip-limitations.md).
+- [ ] Restore coloured deployment border lines for the red and blue deployment sides; verify colours remain correct when switching and flipping deployments.
+- [ ] Fix ramp/platform collision: enable mesh colliders on imported raised terrain using `ElevatedGround`, as native Ninth Age hills do. Imported OBJ geometry currently has collider generation disabled; the WDS Height field only sizes its selection box. Units cannot yet stand on the imported ramps/platforms.
 - [ ] Add a per-terrain hide-base option that hides both base renderers while preserving selection/elevation colliders. The existing global switch affects unit bases too. See [the exact client findings and proposed changes](docs/warhall-client-terrain-support.md).
 - [ ] Relock terrain after deployment markers spawn. This client explicitly unlocks terrain on creation; the data format has no relock flag. Markers already use terrain and obey Battlefield > Lock terrain.
 - [ ] Register deployment templates and CDN skin/item associations in Warhall's shared catalogue. Current cache adapters only install them on the test machine; a GitHub manifest/version bump alone does not register them for another computer.
