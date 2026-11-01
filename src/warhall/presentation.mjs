@@ -5,29 +5,7 @@ export const weaponColumns = {
   Hit: 'Hit',
   Surge: 'Surge',
   D: 'Dmg',
-  KW: 'Keyword',
 };
-
-export function wrapTableText(text, width = 12) {
-  const lines = [];
-  let line = '';
-  for (const word of String(text).trim().split(/\s+/)) {
-    if (line && line.length + word.length + 1 > width) {
-      lines.push(line);
-      line = '';
-    }
-    let rest = word;
-    while (rest.length > width) {
-      const hyphen = rest.lastIndexOf('-', width - 1);
-      const end = hyphen > 0 ? hyphen + 1 : width;
-      lines.push(rest.slice(0, end));
-      rest = rest.slice(end);
-    }
-    line = line ? `${line} ${rest}` : rest;
-  }
-  if (line) lines.push(line);
-  return lines.join('\n');
-}
 
 export function weaponAttributes(attributes) {
   const values = Object.fromEntries(
@@ -37,12 +15,9 @@ export function weaponAttributes(attributes) {
   values.T = targets[values.T.toLowerCase()] ?? values.T;
   const light = /\blight\b/i.test(values.Surge);
   const armoured = /\barmou?red\b/i.test(values.Surge);
-  const type = light && armoured ? 'L&A' : light ? 'Light' : armoured ? 'Armoured' : values.Surge;
+  const type = light && armoured ? 'L&A' : light ? 'Light' : armoured ? 'Arm.' : values.Surge;
   const dice = attributes['S.Die'];
   values.Surge = type === '-' ? '-' : dice && dice !== '-' ? `${type}\n${dice}` : type;
-  values.KW = values.KW.split(/,\s*/)
-    .map((keyword, index, list) => wrapTableText(keyword + (index < list.length - 1 ? ',' : ''), 8))
-    .join('\n');
   return values;
 }
 
@@ -60,50 +35,69 @@ function profilePhase(profile) {
 }
 
 export function weaponRows(profile, id) {
-  const names = wrapTableText(profile.name).split('\n');
   const columns = Object.entries(weaponAttributes(profile.attributes)).map(([key, value]) => [
     key,
     value.split('\n'),
   ]);
-  const count = Math.max(names.length, ...columns.map(([, lines]) => lines.length));
+  const count = Math.max(...columns.map(([, lines]) => lines.length));
   return Array.from({ length: count }, (_, index) => ({
     Id: `${id}_table${index ? `_line_${index + 1}` : ''}`,
-    Name: names[index] ?? '',
+    Name: '',
     Type: 'Statline',
     Attributes: Object.fromEntries(columns.map(([key, lines]) => [key, lines[index] ?? ''])),
     Children: [],
   }));
 }
 
-export function profileChildren(unit, ids, references, records) {
-  const groups = new Map(phases.map(phase => [phase, { weapons: [], rules: [] }]));
+function textRow(records, id, description) {
+  records.rules.set(id, { Id: id, Name: '', Type: '', Description: description, Children: [] });
+  return id;
+}
+
+export function weaponKeywords(text, glossary) {
+  if (!text || text.trim() === '-') return '';
+  const aliases = glossary.entries
+    .flatMap(entry => entry.aliases.map(alias => ({ alias, id: entry.record.Id })))
+    .sort((a, b) => b.alias.length - a.alias.length);
+  return text
+    .split(/,\s*/)
+    .map(keyword => {
+      const target = aliases.find(
+        ({ alias }) =>
+          keyword.toLowerCase() === alias.toLowerCase() ||
+          keyword.toLowerCase().startsWith(`${alias.toLowerCase()} `),
+      );
+      return target ? `<u><link="${target.id}">${keyword}</link></u>` : keyword;
+    })
+    .join(', ');
+}
+
+export function profileChildren(unit, ids, references, records, glossary) {
+  const groups = new Map(phases.map(phase => [phase, []]));
+  const rules = [];
   for (const [index, profile] of unit.profiles.entries()) {
+    const id = references[index];
+    if (!/Weapon$/.test(profile.type)) {
+      rules.push(id);
+      continue;
+    }
     const phase = profilePhase(profile);
     const group = groups.get(phase);
     if (!group) throw new Error(`Unknown display phase: ${unit.name}/${phase}`);
-    const id = references[index];
-    if (/Weapon$/.test(profile.type)) {
-      for (const row of weaponRows(profile, id)) {
-        records.weaponTables.set(row.Id, row);
-        group.weapons.push(row.Id);
-      }
-    } else group.rules.push(id);
+    group.push(textRow(records, `${id}_heading`, `<b>${profile.name}</b>`));
+    for (const row of weaponRows(profile, id)) {
+      records.weaponTables.set(row.Id, row);
+      group.push(row.Id);
+    }
+    const keywords = weaponKeywords(profile.attributes.Keyword, glossary);
+    if (keywords) group.push(textRow(records, `${id}_keywords`, keywords));
   }
-  const children = [{ Id: ids.statline }];
-  for (const [phase, group] of groups) {
-    if (!group.weapons.length && !group.rules.length) continue;
+  const children = [{ Id: ids.statline }, ...[...new Set(rules)].map(Id => ({ Id }))];
+  for (const [phase, weapons] of groups) {
+    if (!weapons.length) continue;
     const headerId = `${ids.profile}_phase_${phase.toLowerCase().replace(/ /g, '_')}`;
-    records.rules.set(headerId, {
-      Id: headerId,
-      Name: '',
-      Type: '',
-      Description: `<b>${phase}</b>`,
-      Children: [],
-    });
-    children.push(
-      { Id: headerId },
-      ...[...new Set([...group.weapons, ...group.rules])].map(Id => ({ Id })),
-    );
+    textRow(records, headerId, `<b>${phase}</b>`);
+    children.push({ Id: headerId }, ...[...new Set(weapons)].map(Id => ({ Id })));
   }
   return children;
 }

@@ -1,9 +1,261 @@
 [
   {
-    "Id": "pdf_Terran_profile_auto_turret_phase_any_phase",
+    "Id": "pdf_Terran_equipment_auto_turret_default_1_heading",
     "Name": "",
     "Type": "",
-    "Description": "<b>Any Phase</b>",
+    "Description": "<b>GAUSS CANNON</b>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Terran_equipment_auto_turret_default_1_keywords",
+    "Name": "",
+    "Type": "",
+    "Description": "<u><link=\"rule_keyword_pinpoint\">PINPOINT</link></u>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Terran_equipment_goliath_default_1_heading",
+    "Name": "",
+    "Type": "",
+    "Description": "<b>AUTOCANNON</b>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Terran_equipment_goliath_default_1_keywords",
+    "Name": "",
+    "Type": "",
+    "Description": "<u><link=\"rule_keyword_long_range\">LONG RANGE (18\")</link></u>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Terran_equipment_goliath_default_2_heading",
+    "Name": "",
+    "Type": "",
+    "Description": "<b>UNDERBELLY MACHINE GUN</b>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Terran_equipment_goliath_default_2_keywords",
+    "Name": "",
+    "Type": "",
+    "Description": "<u><link=\"rule_keyword_pinpoint\">PINPOINT</link></u>, <u><link=\"rule_keyword_sidearm\">SIDEARM</link></u>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Terran_equipment_goliath_default_3_heading",
+    "Name": "",
+    "Type": "",
+    "Description": "<b>HELLFIRE MISSILES</b>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Terran_equipment_goliath_default_3_keywords",
+    "Name": "",
+    "Type": "",
+    "Description": "<u><link=\"rule_keyword_anti_evade\">ANTI-EVADE (1)</link></u>, <u><link=\"rule_keyword_sidearm\">SIDEARM</link></u>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Terran_equipment_goliath_default_5_heading",
+    "Name": "",
+    "Type": "",
+    "Description": "<b>STOMP</b>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Terran_equipment_jim_raynor_default_2_heading",
+    "Name": "",
+    "Type": "",
+    "Description": "<b>COMMANDO RIFLE</b>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Terran_equipment_jim_raynor_default_2_keywords",
+    "Name": "",
+    "Type": "",
+    "Description": "<u><link=\"rule_keyword_bulky\">BULKY</link></u>, <u><link=\"rule_keyword_pierce\">PIERCE Armoured (3)</link></u>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Terran_equipment_jim_raynor_default_3_heading",
+    "Name": "",
+    "Type": "",
+    "Description": "<b>“JUSTICE” REVOLVER</b>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Terran_equipment_jim_raynor_default_3_keywords",
+    "Name": "",
+    "Type": "",
+    "Description": "<u><link=\"rule_keyword_anti_evade\">ANTI-EVADE (2)</link></u>, <u><link=\"rule_keyword_sidearm\">SIDEARM</link></u>, <u><link=\"rule_keyword_pinpoint\">PINPOINT</link></u>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Terran_equipment_jim_raynor_default_4_heading",
+    "Name": "",
+    "Type": "",
+    "Description": "<b>BAYONET</b>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Terran_equipment_marauders_default_1_heading",
+    "Name": "",
+    "Type": "",
+    "Description": "<b>QUAD K12</b>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Terran_equipment_marauders_default_1_keywords",
+    "Name": "",
+    "Type": "",
+    "Description": "<u><link=\"rule_keyword_pierce\">PIERCE Armoured (2)</link></u>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Terran_equipment_marauders_default_3_heading",
+    "Name": "",
+    "Type": "",
+    "Description": "<b>STRIKE</b>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Terran_equipment_marines_default_1_heading",
+    "Name": "",
+    "Type": "",
+    "Description": "<b>C-14 RIFLE</b>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Terran_equipment_marines_default_2_heading",
+    "Name": "",
+    "Type": "",
+    "Description": "<b>STRIKE</b>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Terran_equipment_medics_default_2_heading",
+    "Name": "",
+    "Type": "",
+    "Description": "<b>STRIKE</b>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Terran_equipment_nova_assault_mode_default_2_heading",
+    "Name": "",
+    "Type": "",
+    "Description": "<b>HELLFIRE SHOTGUN</b>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Terran_equipment_nova_assault_mode_default_2_keywords",
+    "Name": "",
+    "Type": "",
+    "Description": "<u><link=\"rule_keyword_anti_evade\">ANTI-EVADE (1)</link></u>, <u><link=\"rule_keyword_burst_fire\">BURST FIRE 4\" (3)</link></u>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Terran_equipment_nova_assault_mode_default_4_heading",
+    "Name": "",
+    "Type": "",
+    "Description": "<b>MONOMOLECULAR BLADE</b>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Terran_equipment_nova_stealth_mode_default_2_heading",
+    "Name": "",
+    "Type": "",
+    "Description": "<b>C-20A CANISTER RIFLE</b>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Terran_equipment_nova_stealth_mode_default_2_keywords",
+    "Name": "",
+    "Type": "",
+    "Description": "<u><link=\"rule_keyword_critical_hit\">CRITICAL HIT (2)</link></u>, <u><link=\"rule_keyword_long_range\">LONG RANGE (18\")</link></u>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Terran_equipment_nova_stealth_mode_default_4_heading",
+    "Name": "",
+    "Type": "",
+    "Description": "<b>COMBAT KNIFE</b>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Terran_equipment_raven_default_2_heading",
+    "Name": "",
+    "Type": "",
+    "Description": "<b>RAILGUNS</b>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Terran_equipment_raynor_s_raiders_default_1_heading",
+    "Name": "",
+    "Type": "",
+    "Description": "<b>C-14 RIFLE</b>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Terran_equipment_raynor_s_raiders_default_3_heading",
+    "Name": "",
+    "Type": "",
+    "Description": "<b>BAYONET</b>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Terran_equipment_siege_tank_default_1_heading",
+    "Name": "",
+    "Type": "",
+    "Description": "<b>TWIN CANNON</b>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Terran_equipment_siege_tank_default_1_keywords",
+    "Name": "",
+    "Type": "",
+    "Description": "<u><link=\"rule_keyword_pierce\">PIERCE Armoured (2)</link></u>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Terran_equipment_siege_tank_default_2_heading",
+    "Name": "",
+    "Type": "",
+    "Description": "<b>SHOCK CANNON</b>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Terran_equipment_siege_tank_default_2_keywords",
+    "Name": "",
+    "Type": "",
+    "Description": "<u><link=\"rule_keyword_siege_mode\">SIEGE MODE Status</link></u>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Terran_equipment_siege_tank_default_4_heading",
+    "Name": "",
+    "Type": "",
+    "Description": "<b>ROLLING OVER</b>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Terran_equipment_spec_ops_marauder_marauder_default_2_heading",
+    "Name": "",
+    "Type": "",
+    "Description": "<b>QUAD K12</b>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Terran_equipment_spec_ops_marauder_marauder_default_2_keywords",
+    "Name": "",
+    "Type": "",
+    "Description": "<u><link=\"rule_keyword_long_range\">LONG RANGE (16\")</link></u>, <u><link=\"rule_keyword_pierce\">PIERCE Armoured (2)</link></u>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Terran_equipment_spec_ops_marauder_marauder_default_4_heading",
+    "Name": "",
+    "Type": "",
+    "Description": "<b>STRIKE</b>",
     "Children": []
   },
   {
@@ -28,27 +280,6 @@
     "Children": []
   },
   {
-    "Id": "pdf_Terran_profile_goliath_phase_movement_phase",
-    "Name": "",
-    "Type": "",
-    "Description": "<b>Movement Phase</b>",
-    "Children": []
-  },
-  {
-    "Id": "pdf_Terran_profile_holo_decoy_phase_any_phase",
-    "Name": "",
-    "Type": "",
-    "Description": "<b>Any Phase</b>",
-    "Children": []
-  },
-  {
-    "Id": "pdf_Terran_profile_jim_raynor_phase_any_phase",
-    "Name": "",
-    "Type": "",
-    "Description": "<b>Any Phase</b>",
-    "Children": []
-  },
-  {
     "Id": "pdf_Terran_profile_jim_raynor_phase_assault_phase",
     "Name": "",
     "Type": "",
@@ -60,13 +291,6 @@
     "Name": "",
     "Type": "",
     "Description": "<b>Melee Phase</b>",
-    "Children": []
-  },
-  {
-    "Id": "pdf_Terran_profile_jim_raynor_phase_movement_phase",
-    "Name": "",
-    "Type": "",
-    "Description": "<b>Movement Phase</b>",
     "Children": []
   },
   {
@@ -84,38 +308,10 @@
     "Children": []
   },
   {
-    "Id": "pdf_Terran_profile_marauders_phase_movement_phase",
-    "Name": "",
-    "Type": "",
-    "Description": "<b>Movement Phase</b>",
-    "Children": []
-  },
-  {
-    "Id": "pdf_Terran_profile_medics_phase_any_phase",
-    "Name": "",
-    "Type": "",
-    "Description": "<b>Any Phase</b>",
-    "Children": []
-  },
-  {
     "Id": "pdf_Terran_profile_medics_phase_melee_phase",
     "Name": "",
     "Type": "",
     "Description": "<b>Melee Phase</b>",
-    "Children": []
-  },
-  {
-    "Id": "pdf_Terran_profile_medics_phase_movement_phase",
-    "Name": "",
-    "Type": "",
-    "Description": "<b>Movement Phase</b>",
-    "Children": []
-  },
-  {
-    "Id": "pdf_Terran_profile_nova_assault_mode_phase_any_phase",
-    "Name": "",
-    "Type": "",
-    "Description": "<b>Any Phase</b>",
     "Children": []
   },
   {
@@ -133,20 +329,6 @@
     "Children": []
   },
   {
-    "Id": "pdf_Terran_profile_nova_assault_mode_phase_movement_phase",
-    "Name": "",
-    "Type": "",
-    "Description": "<b>Movement Phase</b>",
-    "Children": []
-  },
-  {
-    "Id": "pdf_Terran_profile_nova_stealth_mode_phase_any_phase",
-    "Name": "",
-    "Type": "",
-    "Description": "<b>Any Phase</b>",
-    "Children": []
-  },
-  {
     "Id": "pdf_Terran_profile_nova_stealth_mode_phase_assault_phase",
     "Name": "",
     "Type": "",
@@ -161,38 +343,10 @@
     "Children": []
   },
   {
-    "Id": "pdf_Terran_profile_nova_stealth_mode_phase_movement_phase",
-    "Name": "",
-    "Type": "",
-    "Description": "<b>Movement Phase</b>",
-    "Children": []
-  },
-  {
-    "Id": "pdf_Terran_profile_point_defense_drone_phase_any_phase",
-    "Name": "",
-    "Type": "",
-    "Description": "<b>Any Phase</b>",
-    "Children": []
-  },
-  {
-    "Id": "pdf_Terran_profile_raven_phase_any_phase",
-    "Name": "",
-    "Type": "",
-    "Description": "<b>Any Phase</b>",
-    "Children": []
-  },
-  {
     "Id": "pdf_Terran_profile_raven_phase_assault_phase",
     "Name": "",
     "Type": "",
     "Description": "<b>Assault Phase</b>",
-    "Children": []
-  },
-  {
-    "Id": "pdf_Terran_profile_raven_phase_movement_phase",
-    "Name": "",
-    "Type": "",
-    "Description": "<b>Movement Phase</b>",
     "Children": []
   },
   {
@@ -210,34 +364,6 @@
     "Children": []
   },
   {
-    "Id": "pdf_Terran_profile_raynor_s_raiders_phase_movement_phase",
-    "Name": "",
-    "Type": "",
-    "Description": "<b>Movement Phase</b>",
-    "Children": []
-  },
-  {
-    "Id": "pdf_Terran_profile_sabotage_drone_phase_any_phase",
-    "Name": "",
-    "Type": "",
-    "Description": "<b>Any Phase</b>",
-    "Children": []
-  },
-  {
-    "Id": "pdf_Terran_profile_sabotage_drone_phase_assault_phase",
-    "Name": "",
-    "Type": "",
-    "Description": "<b>Assault Phase</b>",
-    "Children": []
-  },
-  {
-    "Id": "pdf_Terran_profile_siege_tank_phase_any_phase",
-    "Name": "",
-    "Type": "",
-    "Description": "<b>Any Phase</b>",
-    "Children": []
-  },
-  {
     "Id": "pdf_Terran_profile_siege_tank_phase_assault_phase",
     "Name": "",
     "Type": "",
@@ -252,13 +378,6 @@
     "Children": []
   },
   {
-    "Id": "pdf_Terran_profile_spec_ops_marauder_marauder_phase_any_phase",
-    "Name": "",
-    "Type": "",
-    "Description": "<b>Any Phase</b>",
-    "Children": []
-  },
-  {
     "Id": "pdf_Terran_profile_spec_ops_marauder_marauder_phase_assault_phase",
     "Name": "",
     "Type": "",
@@ -270,13 +389,6 @@
     "Name": "",
     "Type": "",
     "Description": "<b>Melee Phase</b>",
-    "Children": []
-  },
-  {
-    "Id": "pdf_Terran_profile_spec_ops_marauder_marauder_phase_movement_phase",
-    "Name": "",
-    "Type": "",
-    "Description": "<b>Movement Phase</b>",
     "Children": []
   },
   {
@@ -299,7 +411,7 @@
   },
   {
     "Id": "pdf_Terran_rule_goliath_assault_phase_devastating_charge",
-    "Name": "Devastating Charge",
+    "Name": "Devastating Charge IMPACT (4) 3+",
     "Type": "Rule",
     "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Passive\n\nImmediately after this Unit completes a successful Charge, resolve the <link=\"rule_keyword_impact\">IMPACT</link> (4) 3+ effect."
   },
@@ -473,7 +585,7 @@
   },
   {
     "Id": "pdf_Terran_rule_nova_assault_mode_assault_phase_devastating_charge",
-    "Name": "Devastating Charge",
+    "Name": "Devastating Charge IMPACT (4) 4+",
     "Type": "Rule",
     "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Passive\n\nImmediately after this Unit completes a successful Charge, resolve the <link=\"rule_keyword_impact\">IMPACT</link> (4) 4+ effect."
   },
@@ -659,7 +771,7 @@
   },
   {
     "Id": "pdf_Terran_rule_siege_tank_assault_phase_devastating_charge",
-    "Name": "Devastating Charge",
+    "Name": "Devastating Charge IMPACT (4) 3+",
     "Type": "Rule",
     "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Passive\n\nImmediately after this Unit completes a successful Charge, resolve the <link=\"rule_keyword_impact\">IMPACT</link> (4) 3+ effect."
   },
@@ -735,13 +847,6 @@
     "Name": "",
     "Type": "",
     "Description": "<b>Melee Phase</b>",
-    "Children": []
-  },
-  {
-    "Id": "prof_marine_phase_movement_phase",
-    "Name": "",
-    "Type": "",
-    "Description": "<b>Movement Phase</b>",
     "Children": []
   }
 ]

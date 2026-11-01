@@ -1,7 +1,7 @@
 [
   {
     "Id": "pdf_Zerg_equipment_bile_launcher_default_2_table",
-    "Name": "BILE BOMB",
+    "Name": "",
     "Type": "Statline",
     "Attributes": {
       "RNG": "12",
@@ -9,8 +9,7 @@
       "RoA": "6",
       "Hit": "3+",
       "Surge": "L&A",
-      "D": "1",
-      "KW": "PIERCE"
+      "D": "1"
     },
     "Children": []
   },
@@ -24,44 +23,13 @@
       "RoA": "",
       "Hit": "",
       "Surge": "D3",
-      "D": "",
-      "KW": "Armoured"
-    },
-    "Children": []
-  },
-  {
-    "Id": "pdf_Zerg_equipment_bile_launcher_default_2_table_line_3",
-    "Name": "",
-    "Type": "Statline",
-    "Attributes": {
-      "RNG": "",
-      "T": "",
-      "RoA": "",
-      "Hit": "",
-      "Surge": "",
-      "D": "",
-      "KW": "(2),"
-    },
-    "Children": []
-  },
-  {
-    "Id": "pdf_Zerg_equipment_bile_launcher_default_2_table_line_4",
-    "Name": "",
-    "Type": "Statline",
-    "Attributes": {
-      "RNG": "",
-      "T": "",
-      "RoA": "",
-      "Hit": "",
-      "Surge": "",
-      "D": "",
-      "KW": "PINPOINT"
+      "D": ""
     },
     "Children": []
   },
   {
     "Id": "pdf_Zerg_equipment_corpsers_roach_default_2_table",
-    "Name": "ACID SALIVA",
+    "Name": "",
     "Type": "Statline",
     "Attributes": {
       "RNG": "8",
@@ -69,14 +37,13 @@
       "RoA": "2",
       "Hit": "3+",
       "Surge": "-",
-      "D": "1",
-      "KW": "-"
+      "D": "1"
     },
     "Children": []
   },
   {
     "Id": "pdf_Zerg_equipment_corpsers_roach_default_4_table",
-    "Name": "CLAWS",
+    "Name": "",
     "Type": "Statline",
     "Attributes": {
       "RNG": "E",
@@ -84,8 +51,7 @@
       "RoA": "3",
       "Hit": "4+",
       "Surge": "Light",
-      "D": "1",
-      "KW": "-"
+      "D": "1"
     },
     "Children": []
   },
@@ -99,14 +65,13 @@
       "RoA": "",
       "Hit": "",
       "Surge": "D3+1",
-      "D": "",
-      "KW": ""
+      "D": ""
     },
     "Children": []
   },
   {
     "Id": "pdf_Zerg_equipment_defiler_default_3_table",
-    "Name": "CLAWS",
+    "Name": "",
     "Type": "Statline",
     "Attributes": {
       "RNG": "E",
@@ -114,14 +79,13 @@
       "RoA": "4",
       "Hit": "3+",
       "Surge": "-",
-      "D": "1",
-      "KW": "-"
+      "D": "1"
     },
     "Children": []
   },
   {
     "Id": "pdf_Zerg_equipment_hydralisks_default_1_table",
-    "Name": "NEEDLE",
+    "Name": "",
     "Type": "Statline",
     "Attributes": {
       "RNG": "12",
@@ -129,14 +93,13 @@
       "RoA": "3",
       "Hit": "3+",
       "Surge": "L&A",
-      "D": "2",
-      "KW": "-"
+      "D": "2"
     },
     "Children": []
   },
   {
     "Id": "pdf_Zerg_equipment_hydralisks_default_1_table_line_2",
-    "Name": "SPINES",
+    "Name": "",
     "Type": "Statline",
     "Attributes": {
       "RNG": "",
@@ -144,14 +107,13 @@
       "RoA": "",
       "Hit": "",
       "Surge": "D3+1",
-      "D": "",
-      "KW": ""
+      "D": ""
     },
     "Children": []
   },
   {
     "Id": "pdf_Zerg_equipment_hydralisks_default_3_table",
-    "Name": "SCYTHE",
+    "Name": "",
     "Type": "Statline",
     "Attributes": {
       "RNG": "E",
@@ -159,14 +121,13 @@
       "RoA": "2",
       "Hit": "4+",
       "Surge": "-",
-      "D": "1",
-      "KW": "-"
+      "D": "1"
     },
     "Children": []
   },
   {
     "Id": "pdf_Zerg_equipment_kerrigan_default_2_table",
-    "Name": "ENERGY BLAST",
+    "Name": "",
     "Type": "Statline",
     "Attributes": {
       "RNG": "8",
@@ -174,8 +135,7 @@
       "RoA": "5",
       "Hit": "3+",
       "Surge": "L&A",
-      "D": "1",
-      "KW": "-"
+      "D": "1"
     },
     "Children": []
   },
@@ -189,14 +149,13 @@
       "RoA": "",
       "Hit": "",
       "Surge": "D3",
-      "D": "",
-      "KW": ""
+      "D": ""
     },
     "Children": []
   },
   {
     "Id": "pdf_Zerg_equipment_kerrigan_default_4_table",
-    "Name": "BLADES",
+    "Name": "",
     "Type": "Statline",
     "Attributes": {
       "RNG": "E",
@@ -204,29 +163,13 @@
       "RoA": "6",
       "Hit": "4+",
       "Surge": "-",
-      "D": "2",
-      "KW": "CRITICAL"
-    },
-    "Children": []
-  },
-  {
-    "Id": "pdf_Zerg_equipment_kerrigan_default_4_table_line_2",
-    "Name": "",
-    "Type": "Statline",
-    "Attributes": {
-      "RNG": "",
-      "T": "",
-      "RoA": "",
-      "Hit": "",
-      "Surge": "",
-      "D": "",
-      "KW": "HIT (2)"
+      "D": "2"
     },
     "Children": []
   },
   {
     "Id": "pdf_Zerg_equipment_kerrigan_swarm_raptors_zergling_default_2_table",
-    "Name": "CLAWS",
+    "Name": "",
     "Type": "Statline",
     "Attributes": {
       "RNG": "E",
@@ -234,8 +177,7 @@
       "RoA": "2",
       "Hit": "3+",
       "Surge": "L&A",
-      "D": "1",
-      "KW": "INSTANT"
+      "D": "1"
     },
     "Children": []
   },
@@ -249,14 +191,13 @@
       "RoA": "",
       "Hit": "",
       "Surge": "D6",
-      "D": "",
-      "KW": ""
+      "D": ""
     },
     "Children": []
   },
   {
     "Id": "pdf_Zerg_equipment_queen_default_1_table",
-    "Name": "TALONS",
+    "Name": "",
     "Type": "Statline",
     "Attributes": {
       "RNG": "6",
@@ -264,8 +205,7 @@
       "RoA": "4",
       "Hit": "4+",
       "Surge": "Light",
-      "D": "2",
-      "KW": "-"
+      "D": "2"
     },
     "Children": []
   },
@@ -279,14 +219,13 @@
       "RoA": "",
       "Hit": "",
       "Surge": "D3",
-      "D": "",
-      "KW": ""
+      "D": ""
     },
     "Children": []
   },
   {
     "Id": "pdf_Zerg_equipment_queen_default_2_table",
-    "Name": "ACID SPINES",
+    "Name": "",
     "Type": "Statline",
     "Attributes": {
       "RNG": "12",
@@ -294,8 +233,7 @@
       "RoA": "4",
       "Hit": "4+",
       "Surge": "L&A",
-      "D": "2",
-      "KW": "-"
+      "D": "2"
     },
     "Children": []
   },
@@ -309,14 +247,13 @@
       "RoA": "",
       "Hit": "",
       "Surge": "D3",
-      "D": "",
-      "KW": ""
+      "D": ""
     },
     "Children": []
   },
   {
     "Id": "pdf_Zerg_equipment_queen_default_4_table",
-    "Name": "TALONS",
+    "Name": "",
     "Type": "Statline",
     "Attributes": {
       "RNG": "E",
@@ -324,14 +261,13 @@
       "RoA": "3",
       "Hit": "4+",
       "Surge": "-",
-      "D": "1",
-      "KW": "-"
+      "D": "1"
     },
     "Children": []
   },
   {
     "Id": "pdf_Zerg_equipment_raptors_zergling_default_2_table",
-    "Name": "CLAWS",
+    "Name": "",
     "Type": "Statline",
     "Attributes": {
       "RNG": "E",
@@ -339,8 +275,7 @@
       "RoA": "2",
       "Hit": "4+",
       "Surge": "Light",
-      "D": "1",
-      "KW": "-"
+      "D": "1"
     },
     "Children": []
   },
@@ -354,14 +289,13 @@
       "RoA": "",
       "Hit": "",
       "Surge": "D3",
-      "D": "",
-      "KW": ""
+      "D": ""
     },
     "Children": []
   },
   {
     "Id": "pdf_Zerg_equipment_ravagers_default_2_table",
-    "Name": "PLASMA",
+    "Name": "",
     "Type": "Statline",
     "Attributes": {
       "RNG": "12",
@@ -369,14 +303,13 @@
       "RoA": "4",
       "Hit": "3+",
       "Surge": "Light",
-      "D": "1",
-      "KW": "-"
+      "D": "1"
     },
     "Children": []
   },
   {
     "Id": "pdf_Zerg_equipment_ravagers_default_2_table_line_2",
-    "Name": "DISCHARGE",
+    "Name": "",
     "Type": "Statline",
     "Attributes": {
       "RNG": "",
@@ -384,14 +317,13 @@
       "RoA": "",
       "Hit": "",
       "Surge": "D3+1",
-      "D": "",
-      "KW": ""
+      "D": ""
     },
     "Children": []
   },
   {
     "Id": "pdf_Zerg_equipment_ravagers_default_4_table",
-    "Name": "CLAWS",
+    "Name": "",
     "Type": "Statline",
     "Attributes": {
       "RNG": "E",
@@ -399,14 +331,13 @@
       "RoA": "2",
       "Hit": "4+",
       "Surge": "-",
-      "D": "1",
-      "KW": "-"
+      "D": "1"
     },
     "Children": []
   },
   {
     "Id": "pdf_Zerg_equipment_roaches_default_1_table",
-    "Name": "ACID SALIVA",
+    "Name": "",
     "Type": "Statline",
     "Attributes": {
       "RNG": "8",
@@ -414,14 +345,13 @@
       "RoA": "3",
       "Hit": "3+",
       "Surge": "-",
-      "D": "1",
-      "KW": "-"
+      "D": "1"
     },
     "Children": []
   },
   {
     "Id": "pdf_Zerg_equipment_roaches_default_3_table",
-    "Name": "CLAWS",
+    "Name": "",
     "Type": "Statline",
     "Attributes": {
       "RNG": "E",
@@ -429,14 +359,13 @@
       "RoA": "2",
       "Hit": "4+",
       "Surge": "-",
-      "D": "1",
-      "KW": "-"
+      "D": "1"
     },
     "Children": []
   },
   {
     "Id": "pdf_Zerg_equipment_roachling_default_1_table",
-    "Name": "CLAWS",
+    "Name": "",
     "Type": "Statline",
     "Attributes": {
       "RNG": "E",
@@ -444,14 +373,13 @@
       "RoA": "2",
       "Hit": "4+",
       "Surge": "-",
-      "D": "1",
-      "KW": "-"
+      "D": "1"
     },
     "Children": []
   },
   {
     "Id": "pdf_Zerg_equipment_swarmlings_default_3_table",
-    "Name": "CLAWS",
+    "Name": "",
     "Type": "Statline",
     "Attributes": {
       "RNG": "E",
@@ -459,14 +387,13 @@
       "RoA": "2",
       "Hit": "5+",
       "Surge": "-",
-      "D": "1",
-      "KW": "-"
+      "D": "1"
     },
     "Children": []
   },
   {
     "Id": "pdf_Zerg_equipment_vileling_zergling_default_3_table",
-    "Name": "CLAWS",
+    "Name": "",
     "Type": "Statline",
     "Attributes": {
       "RNG": "E",
@@ -474,14 +401,13 @@
       "RoA": "2",
       "Hit": "5+",
       "Surge": "-",
-      "D": "1",
-      "KW": "-"
+      "D": "1"
     },
     "Children": []
   },
   {
     "Id": "pdf_Zerg_equipment_viles_roach_default_1_table",
-    "Name": "ACID SALIVA",
+    "Name": "",
     "Type": "Statline",
     "Attributes": {
       "RNG": "8",
@@ -489,14 +415,13 @@
       "RoA": "4",
       "Hit": "3+",
       "Surge": "-",
-      "D": "1",
-      "KW": "-"
+      "D": "1"
     },
     "Children": []
   },
   {
     "Id": "pdf_Zerg_equipment_viles_roach_default_3_table",
-    "Name": "VILE CLAWS",
+    "Name": "",
     "Type": "Statline",
     "Attributes": {
       "RNG": "E",
@@ -504,14 +429,13 @@
       "RoA": "2",
       "Hit": "4+",
       "Surge": "-",
-      "D": "1",
-      "KW": "-"
+      "D": "1"
     },
     "Children": []
   },
   {
     "Id": "pdf_Zerg_equipment_zagara_default_2_table",
-    "Name": "ZAGARA'S",
+    "Name": "",
     "Type": "Statline",
     "Attributes": {
       "RNG": "8",
@@ -519,14 +443,13 @@
       "RoA": "4",
       "Hit": "3+",
       "Surge": "L&A",
-      "D": "2",
-      "KW": "-"
+      "D": "2"
     },
     "Children": []
   },
   {
     "Id": "pdf_Zerg_equipment_zagara_default_2_table_line_2",
-    "Name": "TALONS",
+    "Name": "",
     "Type": "Statline",
     "Attributes": {
       "RNG": "",
@@ -534,14 +457,13 @@
       "RoA": "",
       "Hit": "",
       "Surge": "D3",
-      "D": "",
-      "KW": ""
+      "D": ""
     },
     "Children": []
   },
   {
     "Id": "pdf_Zerg_equipment_zagara_default_3_table",
-    "Name": "ZAGARA'S",
+    "Name": "",
     "Type": "Statline",
     "Attributes": {
       "RNG": "14",
@@ -549,14 +471,13 @@
       "RoA": "8",
       "Hit": "3+",
       "Surge": "L&A",
-      "D": "1",
-      "KW": "-"
+      "D": "1"
     },
     "Children": []
   },
   {
     "Id": "pdf_Zerg_equipment_zagara_default_3_table_line_2",
-    "Name": "ACID SPINES",
+    "Name": "",
     "Type": "Statline",
     "Attributes": {
       "RNG": "",
@@ -564,14 +485,13 @@
       "RoA": "",
       "Hit": "",
       "Surge": "D3",
-      "D": "",
-      "KW": ""
+      "D": ""
     },
     "Children": []
   },
   {
     "Id": "pdf_Zerg_equipment_zagara_default_5_table",
-    "Name": "TALONS",
+    "Name": "",
     "Type": "Statline",
     "Attributes": {
       "RNG": "E",
@@ -579,14 +499,13 @@
       "RoA": "4",
       "Hit": "3+",
       "Surge": "-",
-      "D": "1",
-      "KW": "-"
+      "D": "1"
     },
     "Children": []
   },
   {
     "Id": "pdf_Zerg_equipment_zerglings_default_2_table",
-    "Name": "CLAWS",
+    "Name": "",
     "Type": "Statline",
     "Attributes": {
       "RNG": "E",
@@ -594,8 +513,7 @@
       "RoA": "2",
       "Hit": "4+",
       "Surge": "Light",
-      "D": "1",
-      "KW": "-"
+      "D": "1"
     },
     "Children": []
   },
@@ -609,8 +527,7 @@
       "RoA": "",
       "Hit": "",
       "Surge": "D3",
-      "D": "",
-      "KW": ""
+      "D": ""
     },
     "Children": []
   },

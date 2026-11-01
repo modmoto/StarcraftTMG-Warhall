@@ -1,7 +1,7 @@
 [
   {
     "Id": "pdf_Terran_equipment_auto_turret_default_1_table",
-    "Name": "GAUSS CANNON",
+    "Name": "",
     "Type": "Statline",
     "Attributes": {
       "RNG": "8",
@@ -9,14 +9,13 @@
       "RoA": "6",
       "Hit": "3+",
       "Surge": "-",
-      "D": "1",
-      "KW": "PINPOINT"
+      "D": "1"
     },
     "Children": []
   },
   {
     "Id": "pdf_Terran_equipment_goliath_default_1_table",
-    "Name": "AUTOCANNON",
+    "Name": "",
     "Type": "Statline",
     "Attributes": {
       "RNG": "12",
@@ -24,44 +23,13 @@
       "RoA": "9",
       "Hit": "4+",
       "Surge": "-",
-      "D": "1",
-      "KW": "LONG"
-    },
-    "Children": []
-  },
-  {
-    "Id": "pdf_Terran_equipment_goliath_default_1_table_line_2",
-    "Name": "",
-    "Type": "Statline",
-    "Attributes": {
-      "RNG": "",
-      "T": "",
-      "RoA": "",
-      "Hit": "",
-      "Surge": "",
-      "D": "",
-      "KW": "RANGE"
-    },
-    "Children": []
-  },
-  {
-    "Id": "pdf_Terran_equipment_goliath_default_1_table_line_3",
-    "Name": "",
-    "Type": "Statline",
-    "Attributes": {
-      "RNG": "",
-      "T": "",
-      "RoA": "",
-      "Hit": "",
-      "Surge": "",
-      "D": "",
-      "KW": "(18\")"
+      "D": "1"
     },
     "Children": []
   },
   {
     "Id": "pdf_Terran_equipment_goliath_default_2_table",
-    "Name": "UNDERBELLY",
+    "Name": "",
     "Type": "Statline",
     "Attributes": {
       "RNG": "8",
@@ -69,28 +37,12 @@
       "RoA": "6",
       "Hit": "3+",
       "Surge": "Light",
-      "D": "1",
-      "KW": "PINPOINT"
+      "D": "1"
     },
     "Children": []
   },
   {
     "Id": "pdf_Terran_equipment_goliath_default_2_table_line_2",
-    "Name": "MACHINE GUN",
-    "Type": "Statline",
-    "Attributes": {
-      "RNG": "",
-      "T": "",
-      "RoA": "",
-      "Hit": "",
-      "Surge": "D3",
-      "D": "",
-      "KW": ","
-    },
-    "Children": []
-  },
-  {
-    "Id": "pdf_Terran_equipment_goliath_default_2_table_line_3",
     "Name": "",
     "Type": "Statline",
     "Attributes": {
@@ -98,15 +50,14 @@
       "T": "",
       "RoA": "",
       "Hit": "",
-      "Surge": "",
-      "D": "",
-      "KW": "SIDEARM"
+      "Surge": "D3",
+      "D": ""
     },
     "Children": []
   },
   {
     "Id": "pdf_Terran_equipment_goliath_default_3_table",
-    "Name": "HELLFIRE",
+    "Name": "",
     "Type": "Statline",
     "Attributes": {
       "RNG": "16",
@@ -114,14 +65,13 @@
       "RoA": "6",
       "Hit": "3+",
       "Surge": "Light",
-      "D": "1",
-      "KW": "ANTI-"
+      "D": "1"
     },
     "Children": []
   },
   {
     "Id": "pdf_Terran_equipment_goliath_default_3_table_line_2",
-    "Name": "MISSILES",
+    "Name": "",
     "Type": "Statline",
     "Attributes": {
       "RNG": "",
@@ -129,44 +79,13 @@
       "RoA": "",
       "Hit": "",
       "Surge": "D3",
-      "D": "",
-      "KW": "EVADE"
-    },
-    "Children": []
-  },
-  {
-    "Id": "pdf_Terran_equipment_goliath_default_3_table_line_3",
-    "Name": "",
-    "Type": "Statline",
-    "Attributes": {
-      "RNG": "",
-      "T": "",
-      "RoA": "",
-      "Hit": "",
-      "Surge": "",
-      "D": "",
-      "KW": "(1),"
-    },
-    "Children": []
-  },
-  {
-    "Id": "pdf_Terran_equipment_goliath_default_3_table_line_4",
-    "Name": "",
-    "Type": "Statline",
-    "Attributes": {
-      "RNG": "",
-      "T": "",
-      "RoA": "",
-      "Hit": "",
-      "Surge": "",
-      "D": "",
-      "KW": "SIDEARM"
+      "D": ""
     },
     "Children": []
   },
   {
     "Id": "pdf_Terran_equipment_goliath_default_5_table",
-    "Name": "STOMP",
+    "Name": "",
     "Type": "Statline",
     "Attributes": {
       "RNG": "E",
@@ -174,29 +93,27 @@
       "RoA": "4",
       "Hit": "5+",
       "Surge": "-",
-      "D": "1",
-      "KW": "-"
+      "D": "1"
     },
     "Children": []
   },
   {
     "Id": "pdf_Terran_equipment_jim_raynor_default_2_table",
-    "Name": "COMMANDO",
+    "Name": "",
     "Type": "Statline",
     "Attributes": {
       "RNG": "18",
       "T": "All",
       "RoA": "3",
       "Hit": "3+",
-      "Surge": "Armoured",
-      "D": "1",
-      "KW": "BULKY,"
+      "Surge": "Arm.",
+      "D": "1"
     },
     "Children": []
   },
   {
     "Id": "pdf_Terran_equipment_jim_raynor_default_2_table_line_2",
-    "Name": "RIFLE",
+    "Name": "",
     "Type": "Statline",
     "Attributes": {
       "RNG": "",
@@ -204,44 +121,13 @@
       "RoA": "",
       "Hit": "",
       "Surge": "D3",
-      "D": "",
-      "KW": "PIERCE"
-    },
-    "Children": []
-  },
-  {
-    "Id": "pdf_Terran_equipment_jim_raynor_default_2_table_line_3",
-    "Name": "",
-    "Type": "Statline",
-    "Attributes": {
-      "RNG": "",
-      "T": "",
-      "RoA": "",
-      "Hit": "",
-      "Surge": "",
-      "D": "",
-      "KW": "Armoured"
-    },
-    "Children": []
-  },
-  {
-    "Id": "pdf_Terran_equipment_jim_raynor_default_2_table_line_4",
-    "Name": "",
-    "Type": "Statline",
-    "Attributes": {
-      "RNG": "",
-      "T": "",
-      "RoA": "",
-      "Hit": "",
-      "Surge": "",
-      "D": "",
-      "KW": "(3)"
+      "D": ""
     },
     "Children": []
   },
   {
     "Id": "pdf_Terran_equipment_jim_raynor_default_3_table",
-    "Name": "“JUSTICE”",
+    "Name": "",
     "Type": "Statline",
     "Attributes": {
       "RNG": "6",
@@ -249,74 +135,13 @@
       "RoA": "2",
       "Hit": "3+",
       "Surge": "-",
-      "D": "2",
-      "KW": "ANTI-"
-    },
-    "Children": []
-  },
-  {
-    "Id": "pdf_Terran_equipment_jim_raynor_default_3_table_line_2",
-    "Name": "REVOLVER",
-    "Type": "Statline",
-    "Attributes": {
-      "RNG": "",
-      "T": "",
-      "RoA": "",
-      "Hit": "",
-      "Surge": "",
-      "D": "",
-      "KW": "EVADE"
-    },
-    "Children": []
-  },
-  {
-    "Id": "pdf_Terran_equipment_jim_raynor_default_3_table_line_3",
-    "Name": "",
-    "Type": "Statline",
-    "Attributes": {
-      "RNG": "",
-      "T": "",
-      "RoA": "",
-      "Hit": "",
-      "Surge": "",
-      "D": "",
-      "KW": "(2),"
-    },
-    "Children": []
-  },
-  {
-    "Id": "pdf_Terran_equipment_jim_raynor_default_3_table_line_4",
-    "Name": "",
-    "Type": "Statline",
-    "Attributes": {
-      "RNG": "",
-      "T": "",
-      "RoA": "",
-      "Hit": "",
-      "Surge": "",
-      "D": "",
-      "KW": "SIDEARM,"
-    },
-    "Children": []
-  },
-  {
-    "Id": "pdf_Terran_equipment_jim_raynor_default_3_table_line_5",
-    "Name": "",
-    "Type": "Statline",
-    "Attributes": {
-      "RNG": "",
-      "T": "",
-      "RoA": "",
-      "Hit": "",
-      "Surge": "",
-      "D": "",
-      "KW": "PINPOINT"
+      "D": "2"
     },
     "Children": []
   },
   {
     "Id": "pdf_Terran_equipment_jim_raynor_default_4_table",
-    "Name": "BAYONET",
+    "Name": "",
     "Type": "Statline",
     "Attributes": {
       "RNG": "E",
@@ -324,8 +149,7 @@
       "RoA": "2",
       "Hit": "4+",
       "Surge": "Light",
-      "D": "1",
-      "KW": "-"
+      "D": "1"
     },
     "Children": []
   },
@@ -339,23 +163,21 @@
       "RoA": "",
       "Hit": "",
       "Surge": "D3",
-      "D": "",
-      "KW": ""
+      "D": ""
     },
     "Children": []
   },
   {
     "Id": "pdf_Terran_equipment_marauders_default_1_table",
-    "Name": "QUAD K12",
+    "Name": "",
     "Type": "Statline",
     "Attributes": {
       "RNG": "12",
       "T": "G",
       "RoA": "3",
       "Hit": "3+",
-      "Surge": "Armoured",
-      "D": "1",
-      "KW": "PIERCE"
+      "Surge": "Arm.",
+      "D": "1"
     },
     "Children": []
   },
@@ -369,29 +191,13 @@
       "RoA": "",
       "Hit": "",
       "Surge": "D3",
-      "D": "",
-      "KW": "Armoured"
-    },
-    "Children": []
-  },
-  {
-    "Id": "pdf_Terran_equipment_marauders_default_1_table_line_3",
-    "Name": "",
-    "Type": "Statline",
-    "Attributes": {
-      "RNG": "",
-      "T": "",
-      "RoA": "",
-      "Hit": "",
-      "Surge": "",
-      "D": "",
-      "KW": "(2)"
+      "D": ""
     },
     "Children": []
   },
   {
     "Id": "pdf_Terran_equipment_marauders_default_3_table",
-    "Name": "STRIKE",
+    "Name": "",
     "Type": "Statline",
     "Attributes": {
       "RNG": "E",
@@ -399,14 +205,13 @@
       "RoA": "2",
       "Hit": "4+",
       "Surge": "-",
-      "D": "1",
-      "KW": "-"
+      "D": "1"
     },
     "Children": []
   },
   {
     "Id": "pdf_Terran_equipment_marines_default_1_table",
-    "Name": "C-14 RIFLE",
+    "Name": "",
     "Type": "Statline",
     "Attributes": {
       "RNG": "12",
@@ -414,8 +219,7 @@
       "RoA": "2",
       "Hit": "3+",
       "Surge": "Light",
-      "D": "1",
-      "KW": "-"
+      "D": "1"
     },
     "Children": []
   },
@@ -429,14 +233,13 @@
       "RoA": "",
       "Hit": "",
       "Surge": "D3",
-      "D": "",
-      "KW": ""
+      "D": ""
     },
     "Children": []
   },
   {
     "Id": "pdf_Terran_equipment_marines_default_2_table",
-    "Name": "STRIKE",
+    "Name": "",
     "Type": "Statline",
     "Attributes": {
       "RNG": "E",
@@ -444,14 +247,13 @@
       "RoA": "1",
       "Hit": "5+",
       "Surge": "-",
-      "D": "1",
-      "KW": "-"
+      "D": "1"
     },
     "Children": []
   },
   {
     "Id": "pdf_Terran_equipment_medics_default_2_table",
-    "Name": "STRIKE",
+    "Name": "",
     "Type": "Statline",
     "Attributes": {
       "RNG": "E",
@@ -459,14 +261,13 @@
       "RoA": "1",
       "Hit": "5+",
       "Surge": "-",
-      "D": "1",
-      "KW": "-"
+      "D": "1"
     },
     "Children": []
   },
   {
     "Id": "pdf_Terran_equipment_nova_assault_mode_default_2_table",
-    "Name": "HELLFIRE",
+    "Name": "",
     "Type": "Statline",
     "Attributes": {
       "RNG": "8",
@@ -474,14 +275,13 @@
       "RoA": "3",
       "Hit": "4+",
       "Surge": "Light",
-      "D": "2",
-      "KW": "ANTI-"
+      "D": "2"
     },
     "Children": []
   },
   {
     "Id": "pdf_Terran_equipment_nova_assault_mode_default_2_table_line_2",
-    "Name": "SHOTGUN",
+    "Name": "",
     "Type": "Statline",
     "Attributes": {
       "RNG": "",
@@ -489,74 +289,13 @@
       "RoA": "",
       "Hit": "",
       "Surge": "D3",
-      "D": "",
-      "KW": "EVADE"
-    },
-    "Children": []
-  },
-  {
-    "Id": "pdf_Terran_equipment_nova_assault_mode_default_2_table_line_3",
-    "Name": "",
-    "Type": "Statline",
-    "Attributes": {
-      "RNG": "",
-      "T": "",
-      "RoA": "",
-      "Hit": "",
-      "Surge": "",
-      "D": "",
-      "KW": "(1),"
-    },
-    "Children": []
-  },
-  {
-    "Id": "pdf_Terran_equipment_nova_assault_mode_default_2_table_line_4",
-    "Name": "",
-    "Type": "Statline",
-    "Attributes": {
-      "RNG": "",
-      "T": "",
-      "RoA": "",
-      "Hit": "",
-      "Surge": "",
-      "D": "",
-      "KW": "BURST"
-    },
-    "Children": []
-  },
-  {
-    "Id": "pdf_Terran_equipment_nova_assault_mode_default_2_table_line_5",
-    "Name": "",
-    "Type": "Statline",
-    "Attributes": {
-      "RNG": "",
-      "T": "",
-      "RoA": "",
-      "Hit": "",
-      "Surge": "",
-      "D": "",
-      "KW": "FIRE 4\""
-    },
-    "Children": []
-  },
-  {
-    "Id": "pdf_Terran_equipment_nova_assault_mode_default_2_table_line_6",
-    "Name": "",
-    "Type": "Statline",
-    "Attributes": {
-      "RNG": "",
-      "T": "",
-      "RoA": "",
-      "Hit": "",
-      "Surge": "",
-      "D": "",
-      "KW": "(3)"
+      "D": ""
     },
     "Children": []
   },
   {
     "Id": "pdf_Terran_equipment_nova_assault_mode_default_4_table",
-    "Name": "MONOMOLECULA",
+    "Name": "",
     "Type": "Statline",
     "Attributes": {
       "RNG": "E",
@@ -564,14 +303,13 @@
       "RoA": "8",
       "Hit": "3+",
       "Surge": "L&A",
-      "D": "1",
-      "KW": "-"
+      "D": "1"
     },
     "Children": []
   },
   {
     "Id": "pdf_Terran_equipment_nova_assault_mode_default_4_table_line_2",
-    "Name": "R BLADE",
+    "Name": "",
     "Type": "Statline",
     "Attributes": {
       "RNG": "",
@@ -579,14 +317,13 @@
       "RoA": "",
       "Hit": "",
       "Surge": "D6",
-      "D": "",
-      "KW": ""
+      "D": ""
     },
     "Children": []
   },
   {
     "Id": "pdf_Terran_equipment_nova_stealth_mode_default_2_table",
-    "Name": "C-20A",
+    "Name": "",
     "Type": "Statline",
     "Attributes": {
       "RNG": "12",
@@ -594,74 +331,13 @@
       "RoA": "4",
       "Hit": "3+",
       "Surge": "-",
-      "D": "2",
-      "KW": "CRITICAL"
-    },
-    "Children": []
-  },
-  {
-    "Id": "pdf_Terran_equipment_nova_stealth_mode_default_2_table_line_2",
-    "Name": "CANISTER",
-    "Type": "Statline",
-    "Attributes": {
-      "RNG": "",
-      "T": "",
-      "RoA": "",
-      "Hit": "",
-      "Surge": "",
-      "D": "",
-      "KW": "HIT (2),"
-    },
-    "Children": []
-  },
-  {
-    "Id": "pdf_Terran_equipment_nova_stealth_mode_default_2_table_line_3",
-    "Name": "RIFLE",
-    "Type": "Statline",
-    "Attributes": {
-      "RNG": "",
-      "T": "",
-      "RoA": "",
-      "Hit": "",
-      "Surge": "",
-      "D": "",
-      "KW": "LONG"
-    },
-    "Children": []
-  },
-  {
-    "Id": "pdf_Terran_equipment_nova_stealth_mode_default_2_table_line_4",
-    "Name": "",
-    "Type": "Statline",
-    "Attributes": {
-      "RNG": "",
-      "T": "",
-      "RoA": "",
-      "Hit": "",
-      "Surge": "",
-      "D": "",
-      "KW": "RANGE"
-    },
-    "Children": []
-  },
-  {
-    "Id": "pdf_Terran_equipment_nova_stealth_mode_default_2_table_line_5",
-    "Name": "",
-    "Type": "Statline",
-    "Attributes": {
-      "RNG": "",
-      "T": "",
-      "RoA": "",
-      "Hit": "",
-      "Surge": "",
-      "D": "",
-      "KW": "(18\")"
+      "D": "2"
     },
     "Children": []
   },
   {
     "Id": "pdf_Terran_equipment_nova_stealth_mode_default_4_table",
-    "Name": "COMBAT KNIFE",
+    "Name": "",
     "Type": "Statline",
     "Attributes": {
       "RNG": "E",
@@ -669,14 +345,13 @@
       "RoA": "3",
       "Hit": "5+",
       "Surge": "-",
-      "D": "1",
-      "KW": "-"
+      "D": "1"
     },
     "Children": []
   },
   {
     "Id": "pdf_Terran_equipment_raven_default_2_table",
-    "Name": "RAILGUNS",
+    "Name": "",
     "Type": "Statline",
     "Attributes": {
       "RNG": "12",
@@ -684,14 +359,13 @@
       "RoA": "4",
       "Hit": "3+",
       "Surge": "-",
-      "D": "1",
-      "KW": "-"
+      "D": "1"
     },
     "Children": []
   },
   {
     "Id": "pdf_Terran_equipment_raynor_s_raiders_default_1_table",
-    "Name": "C-14 RIFLE",
+    "Name": "",
     "Type": "Statline",
     "Attributes": {
       "RNG": "12",
@@ -699,8 +373,7 @@
       "RoA": "2",
       "Hit": "3+",
       "Surge": "Light",
-      "D": "1",
-      "KW": "-"
+      "D": "1"
     },
     "Children": []
   },
@@ -714,14 +387,13 @@
       "RoA": "",
       "Hit": "",
       "Surge": "D3",
-      "D": "",
-      "KW": ""
+      "D": ""
     },
     "Children": []
   },
   {
     "Id": "pdf_Terran_equipment_raynor_s_raiders_default_3_table",
-    "Name": "BAYONET",
+    "Name": "",
     "Type": "Statline",
     "Attributes": {
       "RNG": "E",
@@ -729,23 +401,21 @@
       "RoA": "2",
       "Hit": "5+",
       "Surge": "-",
-      "D": "1",
-      "KW": "-"
+      "D": "1"
     },
     "Children": []
   },
   {
     "Id": "pdf_Terran_equipment_siege_tank_default_1_table",
-    "Name": "TWIN CANNON",
+    "Name": "",
     "Type": "Statline",
     "Attributes": {
       "RNG": "12",
       "T": "G",
       "RoA": "8",
       "Hit": "3+",
-      "Surge": "Armoured",
-      "D": "1",
-      "KW": "PIERCE"
+      "Surge": "Arm.",
+      "D": "1"
     },
     "Children": []
   },
@@ -759,29 +429,13 @@
       "RoA": "",
       "Hit": "",
       "Surge": "D6",
-      "D": "",
-      "KW": "Armoured"
-    },
-    "Children": []
-  },
-  {
-    "Id": "pdf_Terran_equipment_siege_tank_default_1_table_line_3",
-    "Name": "",
-    "Type": "Statline",
-    "Attributes": {
-      "RNG": "",
-      "T": "",
-      "RoA": "",
-      "Hit": "",
-      "Surge": "",
-      "D": "",
-      "KW": "(2)"
+      "D": ""
     },
     "Children": []
   },
   {
     "Id": "pdf_Terran_equipment_siege_tank_default_2_table",
-    "Name": "SHOCK CANNON",
+    "Name": "",
     "Type": "Statline",
     "Attributes": {
       "RNG": "18",
@@ -789,8 +443,7 @@
       "RoA": "BT+4",
       "Hit": "4+",
       "Surge": "L&A",
-      "D": "1",
-      "KW": "SIEGE"
+      "D": "1"
     },
     "Children": []
   },
@@ -804,29 +457,13 @@
       "RoA": "",
       "Hit": "",
       "Surge": "BT",
-      "D": "",
-      "KW": "MODE"
-    },
-    "Children": []
-  },
-  {
-    "Id": "pdf_Terran_equipment_siege_tank_default_2_table_line_3",
-    "Name": "",
-    "Type": "Statline",
-    "Attributes": {
-      "RNG": "",
-      "T": "",
-      "RoA": "",
-      "Hit": "",
-      "Surge": "",
-      "D": "",
-      "KW": "Status"
+      "D": ""
     },
     "Children": []
   },
   {
     "Id": "pdf_Terran_equipment_siege_tank_default_4_table",
-    "Name": "ROLLING OVER",
+    "Name": "",
     "Type": "Statline",
     "Attributes": {
       "RNG": "E",
@@ -834,23 +471,21 @@
       "RoA": "2",
       "Hit": "2+",
       "Surge": "-",
-      "D": "1",
-      "KW": "-"
+      "D": "1"
     },
     "Children": []
   },
   {
     "Id": "pdf_Terran_equipment_spec_ops_marauder_marauder_default_2_table",
-    "Name": "QUAD K12",
+    "Name": "",
     "Type": "Statline",
     "Attributes": {
       "RNG": "12",
       "T": "G",
       "RoA": "3",
       "Hit": "3+",
-      "Surge": "Armoured",
-      "D": "1",
-      "KW": "LONG"
+      "Surge": "Arm.",
+      "D": "1"
     },
     "Children": []
   },
@@ -864,74 +499,13 @@
       "RoA": "",
       "Hit": "",
       "Surge": "D3",
-      "D": "",
-      "KW": "RANGE"
-    },
-    "Children": []
-  },
-  {
-    "Id": "pdf_Terran_equipment_spec_ops_marauder_marauder_default_2_table_line_3",
-    "Name": "",
-    "Type": "Statline",
-    "Attributes": {
-      "RNG": "",
-      "T": "",
-      "RoA": "",
-      "Hit": "",
-      "Surge": "",
-      "D": "",
-      "KW": "(16\"),"
-    },
-    "Children": []
-  },
-  {
-    "Id": "pdf_Terran_equipment_spec_ops_marauder_marauder_default_2_table_line_4",
-    "Name": "",
-    "Type": "Statline",
-    "Attributes": {
-      "RNG": "",
-      "T": "",
-      "RoA": "",
-      "Hit": "",
-      "Surge": "",
-      "D": "",
-      "KW": "PIERCE"
-    },
-    "Children": []
-  },
-  {
-    "Id": "pdf_Terran_equipment_spec_ops_marauder_marauder_default_2_table_line_5",
-    "Name": "",
-    "Type": "Statline",
-    "Attributes": {
-      "RNG": "",
-      "T": "",
-      "RoA": "",
-      "Hit": "",
-      "Surge": "",
-      "D": "",
-      "KW": "Armoured"
-    },
-    "Children": []
-  },
-  {
-    "Id": "pdf_Terran_equipment_spec_ops_marauder_marauder_default_2_table_line_6",
-    "Name": "",
-    "Type": "Statline",
-    "Attributes": {
-      "RNG": "",
-      "T": "",
-      "RoA": "",
-      "Hit": "",
-      "Surge": "",
-      "D": "",
-      "KW": "(2)"
+      "D": ""
     },
     "Children": []
   },
   {
     "Id": "pdf_Terran_equipment_spec_ops_marauder_marauder_default_4_table",
-    "Name": "STRIKE",
+    "Name": "",
     "Type": "Statline",
     "Attributes": {
       "RNG": "E",
@@ -939,8 +513,7 @@
       "RoA": "3",
       "Hit": "4+",
       "Surge": "-",
-      "D": "1",
-      "KW": "-"
+      "D": "1"
     },
     "Children": []
   },

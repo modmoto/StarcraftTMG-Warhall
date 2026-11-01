@@ -9,7 +9,7 @@ Release 12 removes the equipment child from each weapon stat row, eliminating th
 ## Next work
 
 - [x] Implement local unit-rule cleanup from current official PDFs: individually named abilities, clear phases/costs, nested keyword links and the New Recruit reference comparison. Unit descriptions omit provenance, base sizes and manual-upgrade placeholders. Native weapon tables appear under phase headings. See [the implementation notes](docs/unit-rules.md). Included in test data release 11.
-- [ ] Verify phase headings, weapon-table width/wrapping, per-row details and nested ability/keyword popups in Warhall Test in test data release 11.
+- [ ] Verify release 28 profile layout in Warhall Test: abilities above weapons, full weapon-name headings, six-column stats, horizontal clickable keywords and unit-specific Devastating Charge summaries.
 - [ ] Verify the final L-shaped Wall Set 4/5 footprints in Warhall Test on macOS. Their skin rotation and map rotation compensate each other, preserving world placements. Other wall bases must retain their current orientation.
 - [ ] Verify sharp tactical, faction, creep, deployment and mission cards in Warhall Test, including flip behavior and readable descriptions. Unit cards are intentionally removed; unit data will be presented on units later.
 - [ ] Verify scoring missions change no board objects. Deployment selection alone owns markers and border segments. Select the map before the deployment: loading a map clears terrain, including deployment markers.

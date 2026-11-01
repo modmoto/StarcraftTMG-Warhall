@@ -157,9 +157,9 @@ test('profiles render phase sections and native weapon tables with independent h
   const children = profile.Children.map(child => records.get(child.Id));
   assert.deepEqual(
     children.filter(item => item.Type === '').map(item => item.Description),
-    ['<b>Movement Phase</b>', '<b>Assault Phase</b>', '<b>Melee Phase</b>'],
+    ['<b>Assault Phase</b>', '<b>C-14 RIFLE</b>', '<b>Melee Phase</b>', '<b>STRIKE</b>'],
   );
-  const rifle = children.find(item => item.Name === 'C-14 RIFLE');
+  const rifle = children.find(item => item.Id === 'pdf_Terran_equipment_marines_default_1_table');
   assert.equal(rifle.Type, 'Statline');
   assert.deepEqual(rifle.Attributes, {
     RNG: '12',
@@ -168,7 +168,6 @@ test('profiles render phase sections and native weapon tables with independent h
     Hit: '3+',
     Surge: 'Light',
     D: '1',
-    KW: '-',
   });
   assert.ok(!('HP' in rifle.Attributes));
   assert.deepEqual(rifle.Children, []);
@@ -183,7 +182,7 @@ test('profiles render phase sections and native weapon tables with independent h
   const assault = children.findIndex(item => item.Description === '<b>Assault Phase</b>');
   const melee = children.findIndex(item => item.Description === '<b>Melee Phase</b>');
   const rifleIndex = children.indexOf(rifle);
-  const strikeIndex = children.findIndex(item => item.Name === 'STRIKE');
+  const strikeIndex = children.findIndex(item => item.Description === '<b>STRIKE</b>');
   assert.ok(assault < rifleIndex && rifleIndex < melee && melee < strikeIndex);
   assert.ok(children.some(item => item.Name === 'Stimpack' && item.Type === 'Rule'));
   assert.equal(data['gameconfig.json'].ShowGroupHeader, false);
@@ -225,27 +224,12 @@ test('weapon tables abbreviate targets and combine surge type with its dice', as
     Hit: '3+',
     Surge: 'Light\nD3+1',
     D: '1',
-    KW: '-',
   });
   assert.equal(weaponAttributes({ ...base, Tgt: 'Flying', Surge: 'Light, Armoured' }).T, 'A');
   assert.equal(weaponAttributes({ ...base, Surge: 'Light, Armoured' }).Surge, 'L&A\nD3+1');
-  assert.equal(
-    weaponAttributes({ ...base, Surge: 'Armoured', 'S.Die': 'D6' }).Surge,
-    'Armoured\nD6',
-  );
+  assert.equal(weaponAttributes({ ...base, Surge: 'Armoured', 'S.Die': 'D6' }).Surge, 'Arm.\nD6');
   assert.equal(weaponAttributes({ ...base, Surge: '-', 'S.Die': '-' }).Surge, '-');
 });
-test('long weapon names and complete keyword lists fit wrapped table cells', async () => {
-  const { weaponAttributes, wrapTableText } = await import('../src/warhall/presentation.mjs');
-  const name = 'UNDERBELLY MACHINE GUN';
-  assert.equal(wrapTableText(name), 'UNDERBELLY\nMACHINE GUN');
-  const keywords = 'CONCENTRATED FIRE (1), LONG RANGE (16), SIDEARM';
-  const actual = weaponAttributes({ Keyword: keywords }).KW;
-  assert.ok(actual.split('\n').every(line => line.length <= 8));
-  assert.equal(actual.replace(/\s/g, ''), keywords.replace(/\s/g, ''));
-  assert.equal(wrapTableText('EXTRAORDINARILY').replace(/\n/g, ''), 'EXTRAORDINARILY');
-});
-
 test('weapon overflow uses visible single-line rows instead of clipped embedded newlines', async () => {
   const { weaponRows } = await import('../src/warhall/presentation.mjs');
   const rows = weaponRows(
@@ -264,16 +248,9 @@ test('weapon overflow uses visible single-line rows instead of clipped embedded 
     },
     'glaive',
   );
-  assert.equal(rows[0].Name, 'GLAIVE');
-  assert.equal(rows[1].Name, 'CANNON');
+  assert.ok(rows.every(row => row.Name === ''));
+  assert.equal(rows.length, 2);
   assert.equal(rows[1].Attributes.Surge, 'D3+1');
-  assert.equal(
-    rows
-      .map(row => row.Attributes.KW)
-      .join('')
-      .replace(/\s/g, ''),
-    'ANTI-EVADE(1)',
-  );
   for (const row of rows) {
     assert.ok(!/[\r\n]/.test(row.Name));
     assert.ok(Object.values(row.Attributes).every(value => !/[\r\n]/.test(value)));
@@ -283,4 +260,51 @@ test('weapon overflow uses visible single-line rows instead of clipped embedded 
       .slice(1)
       .every(row => ['RNG', 'T', 'RoA', 'Hit', 'D'].every(key => row.Attributes[key] === '')),
   );
+});
+
+test('full-width weapon keywords link complete labels and rules precede every weapon phase', async () => {
+  const marine = card('marine');
+  marine.profiles.find(profile => /Weapon$/.test(profile.type)).attributes.Keyword =
+    'CONCENTRATED FIRE (1), LONG RANGE (16), SIDEARM';
+  const { data } = await build([marine, card('hydra'), card('artanis')]);
+  for (const faction of ['Terran', 'Protoss']) {
+    const records = new Map(
+      ['profiles', 'statlines', 'rules']
+        .flatMap(file => data[`${faction}/${file}.json`])
+        .map(row => [row.Id, row]),
+    );
+    for (const profile of data[`${faction}/profiles.json`]) {
+      const children = profile.Children.map(child => records.get(child.Id));
+      const firstPhase = children.findIndex(
+        child => child.Id.includes('_phase_') && child.Name === '',
+      );
+      assert.ok(
+        children
+          .filter(child => child.Type === 'Rule')
+          .every(child => children.indexOf(child) < firstPhase),
+      );
+      assert.ok(!children.some(child => child.Description === '<b>Any Phase</b>'));
+      for (const keyword of children.filter(child => child.Id.endsWith('_keywords'))) {
+        assert.equal(keyword.Type, '');
+        assert.equal(keyword.Name, '');
+        assert.ok(!keyword.Description.includes('\n'));
+        assert.ok(children[children.indexOf(keyword) - 1].Type === 'Statline');
+      }
+    }
+  }
+  const line = data['Terran/rules.json'].find(
+    row => row.Id === 'pdf_Terran_equipment_marines_default_1_keywords',
+  );
+  assert.equal(plain(line.Description), 'CONCENTRATED FIRE (1), LONG RANGE (16), SIDEARM');
+  assert.match(
+    line.Description,
+    /<link="rule_keyword_concentrated_fire">CONCENTRATED FIRE \(1\)<\/link>/,
+  );
+  assert.match(line.Description, /<link="rule_keyword_long_range">LONG RANGE \(16\)<\/link>/);
+  assert.match(line.Description, /<link="rule_keyword_sidearm">SIDEARM<\/link>/);
+  const charge = data['Protoss/rules.json'].find(row =>
+    row.Id.endsWith('_assault_phase_devastating_charge'),
+  );
+  assert.match(charge.Name, /^Devastating Charge IMPACT \(\d+\) \d\+$/);
+  assert.ok(plain(charge.Description).includes(charge.Name.replace('Devastating Charge ', '')));
 });

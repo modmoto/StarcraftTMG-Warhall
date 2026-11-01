@@ -41,7 +41,16 @@ test(
     const weapons = data['Terran/statlines.json'].filter(
       row => refs.includes(row.Id) && row.Attributes.RoA,
     );
-    assert.deepEqual(weapons.map(w => w.Name).sort(), ['C-14 Rifle', 'Strike']);
+    assert.deepEqual(
+      weapons
+        .map(
+          w =>
+            data['Terran/rules.json'].find(rule => rule.Id === w.Id.replace(/_table$/, '_heading'))
+              .Description,
+        )
+        .sort(),
+      ['<b>C-14 Rifle</b>', '<b>Strike</b>'],
+    );
     assert.ok(weapons.every(weapon => weapon.Children.length === 0));
     const zealot = data['Protoss/statlines.json'].find(s => s.Name === 'Zealot');
     assert.equal(zealot.Attributes.HP, '4');

@@ -1,9 +1,219 @@
 [
   {
-    "Id": "pdf_Protoss_profile_adepts_phase_any_phase",
+    "Id": "pdf_Protoss_equipment_adepts_default_2_heading",
     "Name": "",
     "Type": "",
-    "Description": "<b>Any Phase</b>",
+    "Description": "<b>GLAIVE CANNON</b>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Protoss_equipment_adepts_default_2_keywords",
+    "Name": "",
+    "Type": "",
+    "Description": "<u><link=\"rule_keyword_anti_evade\">ANTI-EVADE (1)</link></u>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Protoss_equipment_adepts_default_3_heading",
+    "Name": "",
+    "Type": "",
+    "Description": "<b>STRIKE</b>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Protoss_equipment_artanis_default_3_heading",
+    "Name": "",
+    "Type": "",
+    "Description": "<b>TWILIGHT BLADES STRIKE</b>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Protoss_equipment_artanis_default_4_heading",
+    "Name": "",
+    "Type": "",
+    "Description": "<b>TWILIGHT BLADES SWEEP</b>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Protoss_equipment_high_templar_default_2_heading",
+    "Name": "",
+    "Type": "",
+    "Description": "<b>PSI BLAST</b>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Protoss_equipment_high_templar_default_2_keywords",
+    "Name": "",
+    "Type": "",
+    "Description": "<u><link=\"rule_keyword_instant\">INSTANT</link></u>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Protoss_equipment_high_templar_default_3_heading",
+    "Name": "",
+    "Type": "",
+    "Description": "<b>STRIKE</b>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Protoss_equipment_immortal_default_1_heading",
+    "Name": "",
+    "Type": "",
+    "Description": "<b>LEFT PHOTON DISRUPTOR</b>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Protoss_equipment_immortal_default_1_keywords",
+    "Name": "",
+    "Type": "",
+    "Description": "<u><link=\"rule_keyword_concentrated_fire\">CONCENTRATED FIRE (1)</link></u>, <u><link=\"rule_keyword_long_range\">LONG RANGE (16)</link></u>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Protoss_equipment_immortal_default_2_heading",
+    "Name": "",
+    "Type": "",
+    "Description": "<b>RIGHT PHOTON DISRUPTOR</b>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Protoss_equipment_immortal_default_2_keywords",
+    "Name": "",
+    "Type": "",
+    "Description": "<u><link=\"rule_keyword_concentrated_fire\">CONCENTRATED FIRE (1)</link></u>, <u><link=\"rule_keyword_long_range\">LONG RANGE (16)</link></u>, <u><link=\"rule_keyword_sidearm\">SIDEARM</link></u>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Protoss_equipment_immortal_default_4_heading",
+    "Name": "",
+    "Type": "",
+    "Description": "<b>STOMP</b>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Protoss_equipment_nerazim_watchers_adept_default_2_heading",
+    "Name": "",
+    "Type": "",
+    "Description": "<b>GLAIVE CANNON</b>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Protoss_equipment_nerazim_watchers_adept_default_2_keywords",
+    "Name": "",
+    "Type": "",
+    "Description": "<u><link=\"rule_keyword_anti_evade\">ANTI-EVADE (1)</link></u>, <u><link=\"rule_keyword_pinpoint\">PINPOINT</link></u>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Protoss_equipment_nerazim_watchers_adept_default_3_heading",
+    "Name": "",
+    "Type": "",
+    "Description": "<b>STRIKE</b>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Protoss_equipment_praetor_guards_default_3_heading",
+    "Name": "",
+    "Type": "",
+    "Description": "<b>PSI BLADES</b>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Protoss_equipment_sentries_default_2_heading",
+    "Name": "",
+    "Type": "",
+    "Description": "<b>DISRUPTION BEAM</b>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Protoss_equipment_sentries_default_2_keywords",
+    "Name": "",
+    "Type": "",
+    "Description": "<u><link=\"rule_keyword_instant\">INSTANT</link></u>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Protoss_equipment_sentries_default_3_heading",
+    "Name": "",
+    "Type": "",
+    "Description": "<b>BEAM</b>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Protoss_equipment_stalker_default_2_heading",
+    "Name": "",
+    "Type": "",
+    "Description": "<b>PARTICLE DISRUPTORS</b>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Protoss_equipment_stalker_default_3_heading",
+    "Name": "",
+    "Type": "",
+    "Description": "<b>STOMP</b>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Protoss_equipment_tassadar_default_2_heading",
+    "Name": "",
+    "Type": "",
+    "Description": "<b>RESONANCE BEAM</b>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Protoss_equipment_tassadar_default_2_keywords",
+    "Name": "",
+    "Type": "",
+    "Description": "<u><link=\"rule_keyword_instant\">INSTANT</link></u>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Protoss_equipment_tassadar_default_4_heading",
+    "Name": "",
+    "Type": "",
+    "Description": "<b>STRIKE</b>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Protoss_equipment_twilight_templar_high_templar_default_2_heading",
+    "Name": "",
+    "Type": "",
+    "Description": "<b>PSI BLAST</b>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Protoss_equipment_twilight_templar_high_templar_default_2_keywords",
+    "Name": "",
+    "Type": "",
+    "Description": "<u><link=\"rule_keyword_instant\">INSTANT</link></u>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Protoss_equipment_twilight_templar_high_templar_default_3_heading",
+    "Name": "",
+    "Type": "",
+    "Description": "<b>STRIKE</b>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Protoss_equipment_zealots_default_1_heading",
+    "Name": "",
+    "Type": "",
+    "Description": "<b>PSI BLADES</b>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Protoss_equipment_zeratul_default_3_heading",
+    "Name": "",
+    "Type": "",
+    "Description": "<b>MASTER WARP BLADE</b>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Protoss_equipment_zeratul_default_3_keywords",
+    "Name": "",
+    "Type": "",
+    "Description": "<u><link=\"rule_keyword_instant\">INSTANT</link></u>",
     "Children": []
   },
   {
@@ -21,45 +231,10 @@
     "Children": []
   },
   {
-    "Id": "pdf_Protoss_profile_adepts_phase_movement_phase",
-    "Name": "",
-    "Type": "",
-    "Description": "<b>Movement Phase</b>",
-    "Children": []
-  },
-  {
-    "Id": "pdf_Protoss_profile_artanis_phase_any_phase",
-    "Name": "",
-    "Type": "",
-    "Description": "<b>Any Phase</b>",
-    "Children": []
-  },
-  {
-    "Id": "pdf_Protoss_profile_artanis_phase_assault_phase",
-    "Name": "",
-    "Type": "",
-    "Description": "<b>Assault Phase</b>",
-    "Children": []
-  },
-  {
     "Id": "pdf_Protoss_profile_artanis_phase_melee_phase",
     "Name": "",
     "Type": "",
     "Description": "<b>Melee Phase</b>",
-    "Children": []
-  },
-  {
-    "Id": "pdf_Protoss_profile_artanis_phase_movement_phase",
-    "Name": "",
-    "Type": "",
-    "Description": "<b>Movement Phase</b>",
-    "Children": []
-  },
-  {
-    "Id": "pdf_Protoss_profile_high_templar_phase_any_phase",
-    "Name": "",
-    "Type": "",
-    "Description": "<b>Any Phase</b>",
     "Children": []
   },
   {
@@ -77,20 +252,6 @@
     "Children": []
   },
   {
-    "Id": "pdf_Protoss_profile_high_templar_phase_movement_phase",
-    "Name": "",
-    "Type": "",
-    "Description": "<b>Movement Phase</b>",
-    "Children": []
-  },
-  {
-    "Id": "pdf_Protoss_profile_immortal_phase_any_phase",
-    "Name": "",
-    "Type": "",
-    "Description": "<b>Any Phase</b>",
-    "Children": []
-  },
-  {
     "Id": "pdf_Protoss_profile_immortal_phase_assault_phase",
     "Name": "",
     "Type": "",
@@ -102,13 +263,6 @@
     "Name": "",
     "Type": "",
     "Description": "<b>Melee Phase</b>",
-    "Children": []
-  },
-  {
-    "Id": "pdf_Protoss_profile_nerazim_watchers_adept_phase_any_phase",
-    "Name": "",
-    "Type": "",
-    "Description": "<b>Any Phase</b>",
     "Children": []
   },
   {
@@ -126,59 +280,10 @@
     "Children": []
   },
   {
-    "Id": "pdf_Protoss_profile_nerazim_watchers_adept_phase_movement_phase",
-    "Name": "",
-    "Type": "",
-    "Description": "<b>Movement Phase</b>",
-    "Children": []
-  },
-  {
-    "Id": "pdf_Protoss_profile_praetor_guards_phase_any_phase",
-    "Name": "",
-    "Type": "",
-    "Description": "<b>Any Phase</b>",
-    "Children": []
-  },
-  {
-    "Id": "pdf_Protoss_profile_praetor_guards_phase_assault_phase",
-    "Name": "",
-    "Type": "",
-    "Description": "<b>Assault Phase</b>",
-    "Children": []
-  },
-  {
     "Id": "pdf_Protoss_profile_praetor_guards_phase_melee_phase",
     "Name": "",
     "Type": "",
     "Description": "<b>Melee Phase</b>",
-    "Children": []
-  },
-  {
-    "Id": "pdf_Protoss_profile_praetor_guards_phase_movement_phase",
-    "Name": "",
-    "Type": "",
-    "Description": "<b>Movement Phase</b>",
-    "Children": []
-  },
-  {
-    "Id": "pdf_Protoss_profile_pylon_phase_any_phase",
-    "Name": "",
-    "Type": "",
-    "Description": "<b>Any Phase</b>",
-    "Children": []
-  },
-  {
-    "Id": "pdf_Protoss_profile_pylon_phase_movement_phase",
-    "Name": "",
-    "Type": "",
-    "Description": "<b>Movement Phase</b>",
-    "Children": []
-  },
-  {
-    "Id": "pdf_Protoss_profile_sentries_phase_any_phase",
-    "Name": "",
-    "Type": "",
-    "Description": "<b>Any Phase</b>",
     "Children": []
   },
   {
@@ -196,20 +301,6 @@
     "Children": []
   },
   {
-    "Id": "pdf_Protoss_profile_sentries_phase_movement_phase",
-    "Name": "",
-    "Type": "",
-    "Description": "<b>Movement Phase</b>",
-    "Children": []
-  },
-  {
-    "Id": "pdf_Protoss_profile_stalker_phase_any_phase",
-    "Name": "",
-    "Type": "",
-    "Description": "<b>Any Phase</b>",
-    "Children": []
-  },
-  {
     "Id": "pdf_Protoss_profile_stalker_phase_assault_phase",
     "Name": "",
     "Type": "",
@@ -221,20 +312,6 @@
     "Name": "",
     "Type": "",
     "Description": "<b>Melee Phase</b>",
-    "Children": []
-  },
-  {
-    "Id": "pdf_Protoss_profile_stalker_phase_movement_phase",
-    "Name": "",
-    "Type": "",
-    "Description": "<b>Movement Phase</b>",
-    "Children": []
-  },
-  {
-    "Id": "pdf_Protoss_profile_tassadar_phase_any_phase",
-    "Name": "",
-    "Type": "",
-    "Description": "<b>Any Phase</b>",
     "Children": []
   },
   {
@@ -252,20 +329,6 @@
     "Children": []
   },
   {
-    "Id": "pdf_Protoss_profile_tassadar_phase_movement_phase",
-    "Name": "",
-    "Type": "",
-    "Description": "<b>Movement Phase</b>",
-    "Children": []
-  },
-  {
-    "Id": "pdf_Protoss_profile_twilight_templar_high_templar_phase_any_phase",
-    "Name": "",
-    "Type": "",
-    "Description": "<b>Any Phase</b>",
-    "Children": []
-  },
-  {
     "Id": "pdf_Protoss_profile_twilight_templar_high_templar_phase_assault_phase",
     "Name": "",
     "Type": "",
@@ -280,20 +343,6 @@
     "Children": []
   },
   {
-    "Id": "pdf_Protoss_profile_twilight_templar_high_templar_phase_movement_phase",
-    "Name": "",
-    "Type": "",
-    "Description": "<b>Movement Phase</b>",
-    "Children": []
-  },
-  {
-    "Id": "pdf_Protoss_profile_zealots_phase_assault_phase",
-    "Name": "",
-    "Type": "",
-    "Description": "<b>Assault Phase</b>",
-    "Children": []
-  },
-  {
     "Id": "pdf_Protoss_profile_zealots_phase_melee_phase",
     "Name": "",
     "Type": "",
@@ -301,31 +350,10 @@
     "Children": []
   },
   {
-    "Id": "pdf_Protoss_profile_zeratul_phase_any_phase",
-    "Name": "",
-    "Type": "",
-    "Description": "<b>Any Phase</b>",
-    "Children": []
-  },
-  {
-    "Id": "pdf_Protoss_profile_zeratul_phase_assault_phase",
-    "Name": "",
-    "Type": "",
-    "Description": "<b>Assault Phase</b>",
-    "Children": []
-  },
-  {
     "Id": "pdf_Protoss_profile_zeratul_phase_melee_phase",
     "Name": "",
     "Type": "",
     "Description": "<b>Melee Phase</b>",
-    "Children": []
-  },
-  {
-    "Id": "pdf_Protoss_profile_zeratul_phase_movement_phase",
-    "Name": "",
-    "Type": "",
-    "Description": "<b>Movement Phase</b>",
     "Children": []
   },
   {
@@ -360,7 +388,7 @@
   },
   {
     "Id": "pdf_Protoss_rule_artanis_assault_phase_devastating_charge",
-    "Name": "Devastating Charge",
+    "Name": "Devastating Charge IMPACT (6) 4+",
     "Type": "Rule",
     "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Passive\n\nImmediately after this Unit completes a successful Charge, resolve the <link=\"rule_keyword_impact\">IMPACT</link> (6) 4+ effect."
   },
@@ -414,7 +442,7 @@
   },
   {
     "Id": "pdf_Protoss_rule_immortal_assault_phase_devastating_charge",
-    "Name": "Devastating Charge",
+    "Name": "Devastating Charge IMPACT (4) 3+",
     "Type": "Rule",
     "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Passive\n\nImmediately after this Unit completes a successful Charge, resolve the <link=\"rule_keyword_impact\">IMPACT</link> (4) 3+ effect."
   },
@@ -474,7 +502,7 @@
   },
   {
     "Id": "pdf_Protoss_rule_praetor_guards_assault_phase_devastating_charge",
-    "Name": "Devastating Charge",
+    "Name": "Devastating Charge IMPACT (3) 4+",
     "Type": "Rule",
     "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Passive\n\nImmediately after this Unit completes a successful Charge, resolve the <link=\"rule_keyword_impact\">IMPACT</link> (3) 4+ effect."
   },
@@ -636,7 +664,7 @@
   },
   {
     "Id": "pdf_Protoss_rule_zealots_assault_phase_devastating_charge",
-    "Name": "Devastating Charge",
+    "Name": "Devastating Charge IMPACT (3) 4+",
     "Type": "Rule",
     "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Passive\n\nImmediately after this Unit completes a successful Charge, resolve the <link=\"rule_keyword_impact\">IMPACT</link> (3) 4+ effect."
   },
@@ -678,7 +706,7 @@
   },
   {
     "Id": "pdf_Protoss_rule_zeratul_assault_phase_devastating_charge",
-    "Name": "Devastating Charge",
+    "Name": "Devastating Charge IMPACT (4) 4+",
     "Type": "Rule",
     "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Passive\n\nImmediately after this Unit completes a successful Charge, resolve the <link=\"rule_keyword_impact\">IMPACT</link> (4) 4+ effect."
   },

@@ -56,7 +56,7 @@ function addProfileRecord(profile, faction, records) {
   return id;
 }
 
-function addUnitRecords(unit, faction, records, bases, groups, report, baseMapping) {
+function addUnitRecords(unit, faction, records, bases, groups, report, baseMapping, glossary) {
   if (!/^\d+$/.test(unit.attributes.HP ?? '') || Number(unit.attributes.HP) <= 0) {
     throw new Error(`Missing/invalid HP: ${faction}/${unit.name}`);
   }
@@ -88,7 +88,7 @@ function addUnitRecords(unit, faction, records, bases, groups, report, baseMappi
     Name: unit.statlineName,
     Type: 'Profile',
     BaseId: base.Id,
-    Children: profileChildren(unit, ids, references, records),
+    Children: profileChildren(unit, ids, references, records, glossary),
   });
   records.statlines.push({
     Id: ids.statline,
@@ -176,10 +176,17 @@ export async function buildWarhallPackage(source, template = defaultDataDirector
     const groups = {};
 
     for (const unit of faction.units) {
-      addUnitRecords(unit, faction.name, records, bases, groups, report, baseMapping);
+      addUnitRecords(unit, faction.name, records, bases, groups, report, baseMapping, glossary);
     }
 
     report.ruleCleanup.links += linkFactionRules(records, glossary);
+    for (const rule of records.rules.values()) {
+      if (!/^Devastating Charge$/i.test(rule.Name)) continue;
+      const effect = rule.Description.replace(/<[^>]*>/g, '');
+      const impact = effect.match(/\bIMPACT\s*\([^)]+\)\s*\d\+/i);
+      if (impact) rule.Name += ` ${impact[0]}`;
+    }
+
     hierarchy.Factions[faction.name] = groups;
     for (const [name, values] of Object.entries(factionFiles(records))) {
       data[`${faction.name}/${name}.json`] = values.sort((a, b) => a.Id.localeCompare(b.Id, 'en'));

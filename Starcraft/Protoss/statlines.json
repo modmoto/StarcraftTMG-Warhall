@@ -1,7 +1,7 @@
 [
   {
     "Id": "pdf_Protoss_equipment_adepts_default_2_table",
-    "Name": "GLAIVE",
+    "Name": "",
     "Type": "Statline",
     "Attributes": {
       "RNG": "8",
@@ -9,28 +9,12 @@
       "RoA": "2",
       "Hit": "3+",
       "Surge": "Light",
-      "D": "1",
-      "KW": "ANTI-"
+      "D": "1"
     },
     "Children": []
   },
   {
     "Id": "pdf_Protoss_equipment_adepts_default_2_table_line_2",
-    "Name": "CANNON",
-    "Type": "Statline",
-    "Attributes": {
-      "RNG": "",
-      "T": "",
-      "RoA": "",
-      "Hit": "",
-      "Surge": "D3+1",
-      "D": "",
-      "KW": "EVADE"
-    },
-    "Children": []
-  },
-  {
-    "Id": "pdf_Protoss_equipment_adepts_default_2_table_line_3",
     "Name": "",
     "Type": "Statline",
     "Attributes": {
@@ -38,15 +22,14 @@
       "T": "",
       "RoA": "",
       "Hit": "",
-      "Surge": "",
-      "D": "",
-      "KW": "(1)"
+      "Surge": "D3+1",
+      "D": ""
     },
     "Children": []
   },
   {
     "Id": "pdf_Protoss_equipment_adepts_default_3_table",
-    "Name": "STRIKE",
+    "Name": "",
     "Type": "Statline",
     "Attributes": {
       "RNG": "E",
@@ -54,29 +37,27 @@
       "RoA": "1",
       "Hit": "4+",
       "Surge": "-",
-      "D": "1",
-      "KW": "-"
+      "D": "1"
     },
     "Children": []
   },
   {
     "Id": "pdf_Protoss_equipment_artanis_default_3_table",
-    "Name": "TWILIGHT",
+    "Name": "",
     "Type": "Statline",
     "Attributes": {
       "RNG": "E",
       "T": "G",
       "RoA": "2",
       "Hit": "2+",
-      "Surge": "Armoured",
-      "D": "3",
-      "KW": "-"
+      "Surge": "Arm.",
+      "D": "3"
     },
     "Children": []
   },
   {
     "Id": "pdf_Protoss_equipment_artanis_default_3_table_line_2",
-    "Name": "BLADES",
+    "Name": "",
     "Type": "Statline",
     "Attributes": {
       "RNG": "",
@@ -84,29 +65,13 @@
       "RoA": "",
       "Hit": "",
       "Surge": "D3",
-      "D": "",
-      "KW": ""
-    },
-    "Children": []
-  },
-  {
-    "Id": "pdf_Protoss_equipment_artanis_default_3_table_line_3",
-    "Name": "STRIKE",
-    "Type": "Statline",
-    "Attributes": {
-      "RNG": "",
-      "T": "",
-      "RoA": "",
-      "Hit": "",
-      "Surge": "",
-      "D": "",
-      "KW": ""
+      "D": ""
     },
     "Children": []
   },
   {
     "Id": "pdf_Protoss_equipment_artanis_default_4_table",
-    "Name": "TWILIGHT",
+    "Name": "",
     "Type": "Statline",
     "Attributes": {
       "RNG": "E",
@@ -114,14 +79,13 @@
       "RoA": "6",
       "Hit": "2+",
       "Surge": "Light",
-      "D": "1",
-      "KW": "-"
+      "D": "1"
     },
     "Children": []
   },
   {
     "Id": "pdf_Protoss_equipment_artanis_default_4_table_line_2",
-    "Name": "BLADES SWEEP",
+    "Name": "",
     "Type": "Statline",
     "Attributes": {
       "RNG": "",
@@ -129,14 +93,13 @@
       "RoA": "",
       "Hit": "",
       "Surge": "D3+1",
-      "D": "",
-      "KW": ""
+      "D": ""
     },
     "Children": []
   },
   {
     "Id": "pdf_Protoss_equipment_high_templar_default_2_table",
-    "Name": "PSI BLAST",
+    "Name": "",
     "Type": "Statline",
     "Attributes": {
       "RNG": "8",
@@ -144,8 +107,7 @@
       "RoA": "1",
       "Hit": "3+",
       "Surge": "Light",
-      "D": "2",
-      "KW": "INSTANT"
+      "D": "2"
     },
     "Children": []
   },
@@ -159,14 +121,13 @@
       "RoA": "",
       "Hit": "",
       "Surge": "D3",
-      "D": "",
-      "KW": ""
+      "D": ""
     },
     "Children": []
   },
   {
     "Id": "pdf_Protoss_equipment_high_templar_default_3_table",
-    "Name": "STRIKE",
+    "Name": "",
     "Type": "Statline",
     "Attributes": {
       "RNG": "E",
@@ -174,29 +135,27 @@
       "RoA": "1",
       "Hit": "4+",
       "Surge": "-",
-      "D": "1",
-      "KW": "-"
+      "D": "1"
     },
     "Children": []
   },
   {
     "Id": "pdf_Protoss_equipment_immortal_default_1_table",
-    "Name": "LEFT PHOTON",
+    "Name": "",
     "Type": "Statline",
     "Attributes": {
       "RNG": "12",
       "T": "G",
       "RoA": "4",
       "Hit": "3+",
-      "Surge": "Armoured",
-      "D": "2",
-      "KW": "CONCENTR"
+      "Surge": "Arm.",
+      "D": "2"
     },
     "Children": []
   },
   {
     "Id": "pdf_Protoss_equipment_immortal_default_1_table_line_2",
-    "Name": "DISRUPTOR",
+    "Name": "",
     "Type": "Statline",
     "Attributes": {
       "RNG": "",
@@ -204,104 +163,27 @@
       "RoA": "",
       "Hit": "",
       "Surge": "D3",
-      "D": "",
-      "KW": "ATED"
-    },
-    "Children": []
-  },
-  {
-    "Id": "pdf_Protoss_equipment_immortal_default_1_table_line_3",
-    "Name": "",
-    "Type": "Statline",
-    "Attributes": {
-      "RNG": "",
-      "T": "",
-      "RoA": "",
-      "Hit": "",
-      "Surge": "",
-      "D": "",
-      "KW": "FIRE"
-    },
-    "Children": []
-  },
-  {
-    "Id": "pdf_Protoss_equipment_immortal_default_1_table_line_4",
-    "Name": "",
-    "Type": "Statline",
-    "Attributes": {
-      "RNG": "",
-      "T": "",
-      "RoA": "",
-      "Hit": "",
-      "Surge": "",
-      "D": "",
-      "KW": "(1),"
-    },
-    "Children": []
-  },
-  {
-    "Id": "pdf_Protoss_equipment_immortal_default_1_table_line_5",
-    "Name": "",
-    "Type": "Statline",
-    "Attributes": {
-      "RNG": "",
-      "T": "",
-      "RoA": "",
-      "Hit": "",
-      "Surge": "",
-      "D": "",
-      "KW": "LONG"
-    },
-    "Children": []
-  },
-  {
-    "Id": "pdf_Protoss_equipment_immortal_default_1_table_line_6",
-    "Name": "",
-    "Type": "Statline",
-    "Attributes": {
-      "RNG": "",
-      "T": "",
-      "RoA": "",
-      "Hit": "",
-      "Surge": "",
-      "D": "",
-      "KW": "RANGE"
-    },
-    "Children": []
-  },
-  {
-    "Id": "pdf_Protoss_equipment_immortal_default_1_table_line_7",
-    "Name": "",
-    "Type": "Statline",
-    "Attributes": {
-      "RNG": "",
-      "T": "",
-      "RoA": "",
-      "Hit": "",
-      "Surge": "",
-      "D": "",
-      "KW": "(16)"
+      "D": ""
     },
     "Children": []
   },
   {
     "Id": "pdf_Protoss_equipment_immortal_default_2_table",
-    "Name": "RIGHT PHOTON",
+    "Name": "",
     "Type": "Statline",
     "Attributes": {
       "RNG": "12",
       "T": "G",
       "RoA": "4",
       "Hit": "3+",
-      "Surge": "Armoured",
-      "D": "2",
-      "KW": "CONCENTR"
+      "Surge": "Arm.",
+      "D": "2"
     },
     "Children": []
   },
   {
     "Id": "pdf_Protoss_equipment_immortal_default_2_table_line_2",
-    "Name": "DISRUPTOR",
+    "Name": "",
     "Type": "Statline",
     "Attributes": {
       "RNG": "",
@@ -309,104 +191,13 @@
       "RoA": "",
       "Hit": "",
       "Surge": "D3",
-      "D": "",
-      "KW": "ATED"
-    },
-    "Children": []
-  },
-  {
-    "Id": "pdf_Protoss_equipment_immortal_default_2_table_line_3",
-    "Name": "",
-    "Type": "Statline",
-    "Attributes": {
-      "RNG": "",
-      "T": "",
-      "RoA": "",
-      "Hit": "",
-      "Surge": "",
-      "D": "",
-      "KW": "FIRE"
-    },
-    "Children": []
-  },
-  {
-    "Id": "pdf_Protoss_equipment_immortal_default_2_table_line_4",
-    "Name": "",
-    "Type": "Statline",
-    "Attributes": {
-      "RNG": "",
-      "T": "",
-      "RoA": "",
-      "Hit": "",
-      "Surge": "",
-      "D": "",
-      "KW": "(1),"
-    },
-    "Children": []
-  },
-  {
-    "Id": "pdf_Protoss_equipment_immortal_default_2_table_line_5",
-    "Name": "",
-    "Type": "Statline",
-    "Attributes": {
-      "RNG": "",
-      "T": "",
-      "RoA": "",
-      "Hit": "",
-      "Surge": "",
-      "D": "",
-      "KW": "LONG"
-    },
-    "Children": []
-  },
-  {
-    "Id": "pdf_Protoss_equipment_immortal_default_2_table_line_6",
-    "Name": "",
-    "Type": "Statline",
-    "Attributes": {
-      "RNG": "",
-      "T": "",
-      "RoA": "",
-      "Hit": "",
-      "Surge": "",
-      "D": "",
-      "KW": "RANGE"
-    },
-    "Children": []
-  },
-  {
-    "Id": "pdf_Protoss_equipment_immortal_default_2_table_line_7",
-    "Name": "",
-    "Type": "Statline",
-    "Attributes": {
-      "RNG": "",
-      "T": "",
-      "RoA": "",
-      "Hit": "",
-      "Surge": "",
-      "D": "",
-      "KW": "(16),"
-    },
-    "Children": []
-  },
-  {
-    "Id": "pdf_Protoss_equipment_immortal_default_2_table_line_8",
-    "Name": "",
-    "Type": "Statline",
-    "Attributes": {
-      "RNG": "",
-      "T": "",
-      "RoA": "",
-      "Hit": "",
-      "Surge": "",
-      "D": "",
-      "KW": "SIDEARM"
+      "D": ""
     },
     "Children": []
   },
   {
     "Id": "pdf_Protoss_equipment_immortal_default_4_table",
-    "Name": "STOMP",
+    "Name": "",
     "Type": "Statline",
     "Attributes": {
       "RNG": "E",
@@ -414,14 +205,13 @@
       "RoA": "3",
       "Hit": "3+",
       "Surge": "-",
-      "D": "1",
-      "KW": "-"
+      "D": "1"
     },
     "Children": []
   },
   {
     "Id": "pdf_Protoss_equipment_nerazim_watchers_adept_default_2_table",
-    "Name": "GLAIVE",
+    "Name": "",
     "Type": "Statline",
     "Attributes": {
       "RNG": "8",
@@ -429,14 +219,13 @@
       "RoA": "3",
       "Hit": "3+",
       "Surge": "Light",
-      "D": "1",
-      "KW": "ANTI-"
+      "D": "1"
     },
     "Children": []
   },
   {
     "Id": "pdf_Protoss_equipment_nerazim_watchers_adept_default_2_table_line_2",
-    "Name": "CANNON",
+    "Name": "",
     "Type": "Statline",
     "Attributes": {
       "RNG": "",
@@ -444,44 +233,13 @@
       "RoA": "",
       "Hit": "",
       "Surge": "D3+1",
-      "D": "",
-      "KW": "EVADE"
-    },
-    "Children": []
-  },
-  {
-    "Id": "pdf_Protoss_equipment_nerazim_watchers_adept_default_2_table_line_3",
-    "Name": "",
-    "Type": "Statline",
-    "Attributes": {
-      "RNG": "",
-      "T": "",
-      "RoA": "",
-      "Hit": "",
-      "Surge": "",
-      "D": "",
-      "KW": "(1),"
-    },
-    "Children": []
-  },
-  {
-    "Id": "pdf_Protoss_equipment_nerazim_watchers_adept_default_2_table_line_4",
-    "Name": "",
-    "Type": "Statline",
-    "Attributes": {
-      "RNG": "",
-      "T": "",
-      "RoA": "",
-      "Hit": "",
-      "Surge": "",
-      "D": "",
-      "KW": "PINPOINT"
+      "D": ""
     },
     "Children": []
   },
   {
     "Id": "pdf_Protoss_equipment_nerazim_watchers_adept_default_3_table",
-    "Name": "STRIKE",
+    "Name": "",
     "Type": "Statline",
     "Attributes": {
       "RNG": "E",
@@ -489,14 +247,13 @@
       "RoA": "1",
       "Hit": "5+",
       "Surge": "-",
-      "D": "1",
-      "KW": "-"
+      "D": "1"
     },
     "Children": []
   },
   {
     "Id": "pdf_Protoss_equipment_praetor_guards_default_3_table",
-    "Name": "PSI BLADES",
+    "Name": "",
     "Type": "Statline",
     "Attributes": {
       "RNG": "E",
@@ -504,8 +261,7 @@
       "RoA": "4",
       "Hit": "3+",
       "Surge": "Light",
-      "D": "1",
-      "KW": "-"
+      "D": "1"
     },
     "Children": []
   },
@@ -519,14 +275,13 @@
       "RoA": "",
       "Hit": "",
       "Surge": "D3",
-      "D": "",
-      "KW": ""
+      "D": ""
     },
     "Children": []
   },
   {
     "Id": "pdf_Protoss_equipment_sentries_default_2_table",
-    "Name": "DISRUPTION",
+    "Name": "",
     "Type": "Statline",
     "Attributes": {
       "RNG": "8",
@@ -534,29 +289,13 @@
       "RoA": "2",
       "Hit": "2+",
       "Surge": "-",
-      "D": "1",
-      "KW": "INSTANT"
-    },
-    "Children": []
-  },
-  {
-    "Id": "pdf_Protoss_equipment_sentries_default_2_table_line_2",
-    "Name": "BEAM",
-    "Type": "Statline",
-    "Attributes": {
-      "RNG": "",
-      "T": "",
-      "RoA": "",
-      "Hit": "",
-      "Surge": "",
-      "D": "",
-      "KW": ""
+      "D": "1"
     },
     "Children": []
   },
   {
     "Id": "pdf_Protoss_equipment_sentries_default_3_table",
-    "Name": "BEAM",
+    "Name": "",
     "Type": "Statline",
     "Attributes": {
       "RNG": "E",
@@ -564,29 +303,27 @@
       "RoA": "2",
       "Hit": "3+",
       "Surge": "-",
-      "D": "1",
-      "KW": "-"
+      "D": "1"
     },
     "Children": []
   },
   {
     "Id": "pdf_Protoss_equipment_stalker_default_2_table",
-    "Name": "PARTICLE",
+    "Name": "",
     "Type": "Statline",
     "Attributes": {
       "RNG": "12",
       "T": "All",
       "RoA": "4",
       "Hit": "3+",
-      "Surge": "Armoured",
-      "D": "2",
-      "KW": "-"
+      "Surge": "Arm.",
+      "D": "2"
     },
     "Children": []
   },
   {
     "Id": "pdf_Protoss_equipment_stalker_default_2_table_line_2",
-    "Name": "DISRUPTORS",
+    "Name": "",
     "Type": "Statline",
     "Attributes": {
       "RNG": "",
@@ -594,14 +331,13 @@
       "RoA": "",
       "Hit": "",
       "Surge": "D3",
-      "D": "",
-      "KW": ""
+      "D": ""
     },
     "Children": []
   },
   {
     "Id": "pdf_Protoss_equipment_stalker_default_3_table",
-    "Name": "STOMP",
+    "Name": "",
     "Type": "Statline",
     "Attributes": {
       "RNG": "E",
@@ -609,29 +345,27 @@
       "RoA": "2",
       "Hit": "5+",
       "Surge": "-",
-      "D": "1",
-      "KW": "-"
+      "D": "1"
     },
     "Children": []
   },
   {
     "Id": "pdf_Protoss_equipment_tassadar_default_2_table",
-    "Name": "RESONANCE",
+    "Name": "",
     "Type": "Statline",
     "Attributes": {
       "RNG": "12",
       "T": "All",
       "RoA": "6",
       "Hit": "3+",
-      "Surge": "Armoured",
-      "D": "1",
-      "KW": "INSTANT"
+      "Surge": "Arm.",
+      "D": "1"
     },
     "Children": []
   },
   {
     "Id": "pdf_Protoss_equipment_tassadar_default_2_table_line_2",
-    "Name": "BEAM",
+    "Name": "",
     "Type": "Statline",
     "Attributes": {
       "RNG": "",
@@ -639,14 +373,13 @@
       "RoA": "",
       "Hit": "",
       "Surge": "D3",
-      "D": "",
-      "KW": ""
+      "D": ""
     },
     "Children": []
   },
   {
     "Id": "pdf_Protoss_equipment_tassadar_default_4_table",
-    "Name": "STRIKE",
+    "Name": "",
     "Type": "Statline",
     "Attributes": {
       "RNG": "E",
@@ -654,14 +387,13 @@
       "RoA": "6",
       "Hit": "4+",
       "Surge": "-",
-      "D": "1",
-      "KW": "-"
+      "D": "1"
     },
     "Children": []
   },
   {
     "Id": "pdf_Protoss_equipment_twilight_templar_high_templar_default_2_table",
-    "Name": "PSI BLAST",
+    "Name": "",
     "Type": "Statline",
     "Attributes": {
       "RNG": "8",
@@ -669,8 +401,7 @@
       "RoA": "2",
       "Hit": "3+",
       "Surge": "Light",
-      "D": "2",
-      "KW": "INSTANT"
+      "D": "2"
     },
     "Children": []
   },
@@ -684,14 +415,13 @@
       "RoA": "",
       "Hit": "",
       "Surge": "D3",
-      "D": "",
-      "KW": ""
+      "D": ""
     },
     "Children": []
   },
   {
     "Id": "pdf_Protoss_equipment_twilight_templar_high_templar_default_3_table",
-    "Name": "STRIKE",
+    "Name": "",
     "Type": "Statline",
     "Attributes": {
       "RNG": "E",
@@ -699,14 +429,13 @@
       "RoA": "1",
       "Hit": "4+",
       "Surge": "-",
-      "D": "1",
-      "KW": "-"
+      "D": "1"
     },
     "Children": []
   },
   {
     "Id": "pdf_Protoss_equipment_zealots_default_1_table",
-    "Name": "PSI BLADES",
+    "Name": "",
     "Type": "Statline",
     "Attributes": {
       "RNG": "E",
@@ -714,8 +443,7 @@
       "RoA": "4",
       "Hit": "3+",
       "Surge": "Light",
-      "D": "1",
-      "KW": "-"
+      "D": "1"
     },
     "Children": []
   },
@@ -729,14 +457,13 @@
       "RoA": "",
       "Hit": "",
       "Surge": "D3",
-      "D": "",
-      "KW": ""
+      "D": ""
     },
     "Children": []
   },
   {
     "Id": "pdf_Protoss_equipment_zeratul_default_3_table",
-    "Name": "MASTER WARP",
+    "Name": "",
     "Type": "Statline",
     "Attributes": {
       "RNG": "E",
@@ -744,14 +471,13 @@
       "RoA": "4",
       "Hit": "3+",
       "Surge": "L&A",
-      "D": "2",
-      "KW": "INSTANT"
+      "D": "2"
     },
     "Children": []
   },
   {
     "Id": "pdf_Protoss_equipment_zeratul_default_3_table_line_2",
-    "Name": "BLADE",
+    "Name": "",
     "Type": "Statline",
     "Attributes": {
       "RNG": "",
@@ -759,8 +485,7 @@
       "RoA": "",
       "Hit": "",
       "Surge": "D3",
-      "D": "",
-      "KW": ""
+      "D": ""
     },
     "Children": []
   },

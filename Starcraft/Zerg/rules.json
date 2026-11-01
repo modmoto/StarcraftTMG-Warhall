@@ -1,9 +1,205 @@
 [
   {
-    "Id": "pdf_Zerg_profile_bile_launcher_phase_any_phase",
+    "Id": "pdf_Zerg_equipment_bile_launcher_default_2_heading",
     "Name": "",
     "Type": "",
-    "Description": "<b>Any Phase</b>",
+    "Description": "<b>BILE BOMB</b>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Zerg_equipment_bile_launcher_default_2_keywords",
+    "Name": "",
+    "Type": "",
+    "Description": "<u><link=\"rule_keyword_pierce\">PIERCE Armoured (2)</link></u>, <u><link=\"rule_keyword_pinpoint\">PINPOINT</link></u>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Zerg_equipment_corpsers_roach_default_2_heading",
+    "Name": "",
+    "Type": "",
+    "Description": "<b>ACID SALIVA</b>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Zerg_equipment_corpsers_roach_default_4_heading",
+    "Name": "",
+    "Type": "",
+    "Description": "<b>CLAWS</b>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Zerg_equipment_defiler_default_3_heading",
+    "Name": "",
+    "Type": "",
+    "Description": "<b>CLAWS</b>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Zerg_equipment_hydralisks_default_1_heading",
+    "Name": "",
+    "Type": "",
+    "Description": "<b>NEEDLE SPINES</b>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Zerg_equipment_hydralisks_default_3_heading",
+    "Name": "",
+    "Type": "",
+    "Description": "<b>SCYTHE</b>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Zerg_equipment_kerrigan_default_2_heading",
+    "Name": "",
+    "Type": "",
+    "Description": "<b>ENERGY BLAST</b>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Zerg_equipment_kerrigan_default_4_heading",
+    "Name": "",
+    "Type": "",
+    "Description": "<b>BLADES</b>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Zerg_equipment_kerrigan_default_4_keywords",
+    "Name": "",
+    "Type": "",
+    "Description": "<u><link=\"rule_keyword_critical_hit\">CRITICAL HIT (2)</link></u>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Zerg_equipment_kerrigan_swarm_raptors_zergling_default_2_heading",
+    "Name": "",
+    "Type": "",
+    "Description": "<b>CLAWS</b>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Zerg_equipment_kerrigan_swarm_raptors_zergling_default_2_keywords",
+    "Name": "",
+    "Type": "",
+    "Description": "<u><link=\"rule_keyword_instant\">INSTANT</link></u>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Zerg_equipment_queen_default_1_heading",
+    "Name": "",
+    "Type": "",
+    "Description": "<b>TALONS</b>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Zerg_equipment_queen_default_2_heading",
+    "Name": "",
+    "Type": "",
+    "Description": "<b>ACID SPINES</b>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Zerg_equipment_queen_default_4_heading",
+    "Name": "",
+    "Type": "",
+    "Description": "<b>TALONS</b>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Zerg_equipment_raptors_zergling_default_2_heading",
+    "Name": "",
+    "Type": "",
+    "Description": "<b>CLAWS</b>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Zerg_equipment_ravagers_default_2_heading",
+    "Name": "",
+    "Type": "",
+    "Description": "<b>PLASMA DISCHARGE</b>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Zerg_equipment_ravagers_default_4_heading",
+    "Name": "",
+    "Type": "",
+    "Description": "<b>CLAWS</b>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Zerg_equipment_roaches_default_1_heading",
+    "Name": "",
+    "Type": "",
+    "Description": "<b>ACID SALIVA</b>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Zerg_equipment_roaches_default_3_heading",
+    "Name": "",
+    "Type": "",
+    "Description": "<b>CLAWS</b>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Zerg_equipment_roachling_default_1_heading",
+    "Name": "",
+    "Type": "",
+    "Description": "<b>CLAWS</b>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Zerg_equipment_swarmlings_default_3_heading",
+    "Name": "",
+    "Type": "",
+    "Description": "<b>CLAWS</b>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Zerg_equipment_vileling_zergling_default_3_heading",
+    "Name": "",
+    "Type": "",
+    "Description": "<b>CLAWS</b>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Zerg_equipment_viles_roach_default_1_heading",
+    "Name": "",
+    "Type": "",
+    "Description": "<b>ACID SALIVA</b>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Zerg_equipment_viles_roach_default_3_heading",
+    "Name": "",
+    "Type": "",
+    "Description": "<b>VILE CLAWS</b>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Zerg_equipment_zagara_default_2_heading",
+    "Name": "",
+    "Type": "",
+    "Description": "<b>ZAGARA'S TALONS</b>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Zerg_equipment_zagara_default_3_heading",
+    "Name": "",
+    "Type": "",
+    "Description": "<b>ZAGARA'S ACID SPINES</b>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Zerg_equipment_zagara_default_5_heading",
+    "Name": "",
+    "Type": "",
+    "Description": "<b>TALONS</b>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Zerg_equipment_zerglings_default_2_heading",
+    "Name": "",
+    "Type": "",
+    "Description": "<b>CLAWS</b>",
     "Children": []
   },
   {
@@ -11,20 +207,6 @@
     "Name": "",
     "Type": "",
     "Description": "<b>Assault Phase</b>",
-    "Children": []
-  },
-  {
-    "Id": "pdf_Zerg_profile_bile_launcher_phase_movement_phase",
-    "Name": "",
-    "Type": "",
-    "Description": "<b>Movement Phase</b>",
-    "Children": []
-  },
-  {
-    "Id": "pdf_Zerg_profile_corpsers_roach_phase_any_phase",
-    "Name": "",
-    "Type": "",
-    "Description": "<b>Any Phase</b>",
     "Children": []
   },
   {
@@ -42,45 +224,10 @@
     "Children": []
   },
   {
-    "Id": "pdf_Zerg_profile_corpsers_roach_phase_movement_phase",
-    "Name": "",
-    "Type": "",
-    "Description": "<b>Movement Phase</b>",
-    "Children": []
-  },
-  {
-    "Id": "pdf_Zerg_profile_defiler_phase_any_phase",
-    "Name": "",
-    "Type": "",
-    "Description": "<b>Any Phase</b>",
-    "Children": []
-  },
-  {
-    "Id": "pdf_Zerg_profile_defiler_phase_assault_phase",
-    "Name": "",
-    "Type": "",
-    "Description": "<b>Assault Phase</b>",
-    "Children": []
-  },
-  {
     "Id": "pdf_Zerg_profile_defiler_phase_melee_phase",
     "Name": "",
     "Type": "",
     "Description": "<b>Melee Phase</b>",
-    "Children": []
-  },
-  {
-    "Id": "pdf_Zerg_profile_defiler_phase_movement_phase",
-    "Name": "",
-    "Type": "",
-    "Description": "<b>Movement Phase</b>",
-    "Children": []
-  },
-  {
-    "Id": "pdf_Zerg_profile_hydralisks_phase_any_phase",
-    "Name": "",
-    "Type": "",
-    "Description": "<b>Any Phase</b>",
     "Children": []
   },
   {
@@ -98,13 +245,6 @@
     "Children": []
   },
   {
-    "Id": "pdf_Zerg_profile_kerrigan_phase_any_phase",
-    "Name": "",
-    "Type": "",
-    "Description": "<b>Any Phase</b>",
-    "Children": []
-  },
-  {
     "Id": "pdf_Zerg_profile_kerrigan_phase_assault_phase",
     "Name": "",
     "Type": "",
@@ -119,45 +259,10 @@
     "Children": []
   },
   {
-    "Id": "pdf_Zerg_profile_kerrigan_phase_movement_phase",
-    "Name": "",
-    "Type": "",
-    "Description": "<b>Movement Phase</b>",
-    "Children": []
-  },
-  {
-    "Id": "pdf_Zerg_profile_kerrigan_swarm_raptors_zergling_phase_any_phase",
-    "Name": "",
-    "Type": "",
-    "Description": "<b>Any Phase</b>",
-    "Children": []
-  },
-  {
-    "Id": "pdf_Zerg_profile_kerrigan_swarm_raptors_zergling_phase_assault_phase",
-    "Name": "",
-    "Type": "",
-    "Description": "<b>Assault Phase</b>",
-    "Children": []
-  },
-  {
     "Id": "pdf_Zerg_profile_kerrigan_swarm_raptors_zergling_phase_melee_phase",
     "Name": "",
     "Type": "",
     "Description": "<b>Melee Phase</b>",
-    "Children": []
-  },
-  {
-    "Id": "pdf_Zerg_profile_omega_worm_phase_any_phase",
-    "Name": "",
-    "Type": "",
-    "Description": "<b>Any Phase</b>",
-    "Children": []
-  },
-  {
-    "Id": "pdf_Zerg_profile_queen_phase_any_phase",
-    "Name": "",
-    "Type": "",
-    "Description": "<b>Any Phase</b>",
     "Children": []
   },
   {
@@ -175,31 +280,10 @@
     "Children": []
   },
   {
-    "Id": "pdf_Zerg_profile_raptors_zergling_phase_any_phase",
-    "Name": "",
-    "Type": "",
-    "Description": "<b>Any Phase</b>",
-    "Children": []
-  },
-  {
-    "Id": "pdf_Zerg_profile_raptors_zergling_phase_assault_phase",
-    "Name": "",
-    "Type": "",
-    "Description": "<b>Assault Phase</b>",
-    "Children": []
-  },
-  {
     "Id": "pdf_Zerg_profile_raptors_zergling_phase_melee_phase",
     "Name": "",
     "Type": "",
     "Description": "<b>Melee Phase</b>",
-    "Children": []
-  },
-  {
-    "Id": "pdf_Zerg_profile_ravagers_phase_any_phase",
-    "Name": "",
-    "Type": "",
-    "Description": "<b>Any Phase</b>",
     "Children": []
   },
   {
@@ -217,20 +301,6 @@
     "Children": []
   },
   {
-    "Id": "pdf_Zerg_profile_ravagers_phase_movement_phase",
-    "Name": "",
-    "Type": "",
-    "Description": "<b>Movement Phase</b>",
-    "Children": []
-  },
-  {
-    "Id": "pdf_Zerg_profile_roaches_phase_any_phase",
-    "Name": "",
-    "Type": "",
-    "Description": "<b>Any Phase</b>",
-    "Children": []
-  },
-  {
     "Id": "pdf_Zerg_profile_roaches_phase_assault_phase",
     "Name": "",
     "Type": "",
@@ -245,31 +315,10 @@
     "Children": []
   },
   {
-    "Id": "pdf_Zerg_profile_roachling_phase_any_phase",
-    "Name": "",
-    "Type": "",
-    "Description": "<b>Any Phase</b>",
-    "Children": []
-  },
-  {
     "Id": "pdf_Zerg_profile_roachling_phase_melee_phase",
     "Name": "",
     "Type": "",
     "Description": "<b>Melee Phase</b>",
-    "Children": []
-  },
-  {
-    "Id": "pdf_Zerg_profile_swarmlings_phase_any_phase",
-    "Name": "",
-    "Type": "",
-    "Description": "<b>Any Phase</b>",
-    "Children": []
-  },
-  {
-    "Id": "pdf_Zerg_profile_swarmlings_phase_assault_phase",
-    "Name": "",
-    "Type": "",
-    "Description": "<b>Assault Phase</b>",
     "Children": []
   },
   {
@@ -280,45 +329,10 @@
     "Children": []
   },
   {
-    "Id": "pdf_Zerg_profile_swarmlings_phase_movement_phase",
-    "Name": "",
-    "Type": "",
-    "Description": "<b>Movement Phase</b>",
-    "Children": []
-  },
-  {
-    "Id": "pdf_Zerg_profile_vileling_zergling_phase_any_phase",
-    "Name": "",
-    "Type": "",
-    "Description": "<b>Any Phase</b>",
-    "Children": []
-  },
-  {
-    "Id": "pdf_Zerg_profile_vileling_zergling_phase_assault_phase",
-    "Name": "",
-    "Type": "",
-    "Description": "<b>Assault Phase</b>",
-    "Children": []
-  },
-  {
     "Id": "pdf_Zerg_profile_vileling_zergling_phase_melee_phase",
     "Name": "",
     "Type": "",
     "Description": "<b>Melee Phase</b>",
-    "Children": []
-  },
-  {
-    "Id": "pdf_Zerg_profile_vileling_zergling_phase_movement_phase",
-    "Name": "",
-    "Type": "",
-    "Description": "<b>Movement Phase</b>",
-    "Children": []
-  },
-  {
-    "Id": "pdf_Zerg_profile_viles_roach_phase_any_phase",
-    "Name": "",
-    "Type": "",
-    "Description": "<b>Any Phase</b>",
     "Children": []
   },
   {
@@ -336,13 +350,6 @@
     "Children": []
   },
   {
-    "Id": "pdf_Zerg_profile_zagara_phase_any_phase",
-    "Name": "",
-    "Type": "",
-    "Description": "<b>Any Phase</b>",
-    "Children": []
-  },
-  {
     "Id": "pdf_Zerg_profile_zagara_phase_assault_phase",
     "Name": "",
     "Type": "",
@@ -354,27 +361,6 @@
     "Name": "",
     "Type": "",
     "Description": "<b>Melee Phase</b>",
-    "Children": []
-  },
-  {
-    "Id": "pdf_Zerg_profile_zagara_phase_movement_phase",
-    "Name": "",
-    "Type": "",
-    "Description": "<b>Movement Phase</b>",
-    "Children": []
-  },
-  {
-    "Id": "pdf_Zerg_profile_zerglings_phase_any_phase",
-    "Name": "",
-    "Type": "",
-    "Description": "<b>Any Phase</b>",
-    "Children": []
-  },
-  {
-    "Id": "pdf_Zerg_profile_zerglings_phase_assault_phase",
-    "Name": "",
-    "Type": "",
-    "Description": "<b>Assault Phase</b>",
     "Children": []
   },
   {
@@ -428,7 +414,7 @@
   },
   {
     "Id": "pdf_Zerg_rule_corpsers_roach_assault_phase_devastating_charge",
-    "Name": "Devastating Charge",
+    "Name": "Devastating Charge IMPACT (3) 4+",
     "Type": "Rule",
     "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Passive\n\nImmediately after this Unit completes a successful Charge, resolve the <link=\"rule_keyword_impact\">IMPACT</link> (3) 4+ effect."
   },
@@ -482,7 +468,7 @@
   },
   {
     "Id": "pdf_Zerg_rule_defiler_assault_phase_devastating_charge",
-    "Name": "Devastating Charge",
+    "Name": "Devastating Charge IMPACT (4) 4+",
     "Type": "Rule",
     "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Passive\n\nImmediately after this Unit completes a successful Charge, resolve the <link=\"rule_keyword_impact\">IMPACT</link> (4) 4+ effect."
   },
@@ -548,7 +534,7 @@
   },
   {
     "Id": "pdf_Zerg_rule_kerrigan_assault_phase_devastating_charge",
-    "Name": "Devastating Charge",
+    "Name": "Devastating Charge IMPACT (4) 4+",
     "Type": "Rule",
     "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Passive\n\nImmediately after this Unit completes a successful Charge, resolve the <link=\"rule_keyword_impact\">IMPACT</link> (4) 4+ effect."
   },
@@ -590,7 +576,7 @@
   },
   {
     "Id": "pdf_Zerg_rule_kerrigan_swarm_raptors_zergling_assault_phase_devastating_charge",
-    "Name": "Devastating Charge",
+    "Name": "Devastating Charge IMPACT (2) 5+",
     "Type": "Rule",
     "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Passive\n\nImmediately after this Unit completes a successful Charge, resolve the <link=\"rule_keyword_impact\">IMPACT</link> (2) 5+ effect."
   },
@@ -650,7 +636,7 @@
   },
   {
     "Id": "pdf_Zerg_rule_queen_assault_phase_devastating_charge",
-    "Name": "Devastating Charge",
+    "Name": "Devastating Charge IMPACT (4) 3+",
     "Type": "Rule",
     "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Passive\n\nImmediately after this Unit completes a successful Charge, resolve the <link=\"rule_keyword_impact\">IMPACT</link> (4) 3+ effect."
   },
@@ -686,7 +672,7 @@
   },
   {
     "Id": "pdf_Zerg_rule_raptors_zergling_assault_phase_devastating_charge",
-    "Name": "Devastating Charge",
+    "Name": "Devastating Charge IMPACT (1) 5+",
     "Type": "Rule",
     "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Passive\n\nImmediately after this Unit completes a successful Charge, resolve the <link=\"rule_keyword_impact\">IMPACT</link> (1) 5+ effect."
   },
@@ -716,7 +702,7 @@
   },
   {
     "Id": "pdf_Zerg_rule_ravagers_assault_phase_devastating_charge",
-    "Name": "Devastating Charge",
+    "Name": "Devastating Charge IMPACT (2) 4+",
     "Type": "Rule",
     "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Passive\n\nImmediately after this Unit completes a successful Charge, resolve the <link=\"rule_keyword_impact\">IMPACT</link> (2) 4+ effect."
   },
@@ -758,7 +744,7 @@
   },
   {
     "Id": "pdf_Zerg_rule_roaches_assault_phase_devastating_charge",
-    "Name": "Devastating Charge",
+    "Name": "Devastating Charge IMPACT (2) 4+",
     "Type": "Rule",
     "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Passive\n\nImmediately after this Unit completes a successful Charge, resolve the <link=\"rule_keyword_impact\">IMPACT</link> (2) 4+ effect."
   },
@@ -806,7 +792,7 @@
   },
   {
     "Id": "pdf_Zerg_rule_swarmlings_assault_phase_devastating_charge",
-    "Name": "Devastating Charge",
+    "Name": "Devastating Charge IMPACT (1) 5+",
     "Type": "Rule",
     "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Passive\n\nImmediately after this Unit completes a successful Charge, resolve the <link=\"rule_keyword_impact\">IMPACT</link> (1) 5+ effect."
   },
@@ -836,7 +822,7 @@
   },
   {
     "Id": "pdf_Zerg_rule_vileling_zergling_assault_phase_devastating_charge",
-    "Name": "Devastating Charge",
+    "Name": "Devastating Charge IMPACT (1) 5+",
     "Type": "Rule",
     "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Passive\n\nImmediately after this Unit completes a successful Charge, resolve the <link=\"rule_keyword_impact\">IMPACT</link> (1) 5+ effect."
   },
@@ -878,7 +864,7 @@
   },
   {
     "Id": "pdf_Zerg_rule_viles_roach_assault_phase_devastating_charge",
-    "Name": "Devastating Charge",
+    "Name": "Devastating Charge IMPACT (1) 4+",
     "Type": "Rule",
     "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Passive\n\nImmediately after this Unit completes a successful Charge, resolve the <link=\"rule_keyword_impact\">IMPACT</link> (1) 4+ effect."
   },
@@ -932,7 +918,7 @@
   },
   {
     "Id": "pdf_Zerg_rule_zagara_assault_phase_devastating_charge",
-    "Name": "Devastating Charge",
+    "Name": "Devastating Charge IMPACT (6) 3+",
     "Type": "Rule",
     "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Passive\n\nImmediately after this Unit completes a successful Charge, resolve the <link=\"rule_keyword_impact\">IMPACT</link> (6) 3+ effect."
   },
@@ -962,7 +948,7 @@
   },
   {
     "Id": "pdf_Zerg_rule_zerglings_assault_phase_devastating_charge",
-    "Name": "Devastating Charge",
+    "Name": "Devastating Charge IMPACT (1) 5+",
     "Type": "Rule",
     "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Passive\n\nImmediately after this Unit completes a successful Charge, resolve the <link=\"rule_keyword_impact\">IMPACT</link> (1) 5+ effect."
   },
