@@ -37,7 +37,7 @@ export function weaponAttributes(attributes) {
   const armoured = /\barmou?red\b/i.test(values.Surge);
   const type = light && armoured ? 'L&A' : light ? 'Light' : armoured ? 'Armoured' : values.Surge;
   const dice = attributes['S.Die'];
-  values.Surge = type === '-' ? '-' : dice && dice !== '-' ? `${type}\n(${dice})` : type;
+  values.Surge = type === '-' ? '-' : dice && dice !== '-' ? `${type}\n${dice}` : type;
   values.Keywords = values.Keywords.split(/,\s*/)
     .map((keyword, index, list) => wrapTableText(keyword + (index < list.length - 1 ? ',' : '')))
     .join('\n');

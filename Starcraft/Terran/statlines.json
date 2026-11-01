@@ -38,7 +38,7 @@
       "T": "G",
       "RoA": "6",
       "Hit": "3+",
-      "Surge": "Light\n(D3)",
+      "Surge": "Light\nD3",
       "D": "1",
       "Keywords": "PINPOINT,\nSIDEARM"
     },
@@ -53,7 +53,7 @@
       "T": "A",
       "RoA": "6",
       "Hit": "3+",
-      "Surge": "Light\n(D3)",
+      "Surge": "Light\nD3",
       "D": "1",
       "Keywords": "ANTI-EVADE\n(1),\nSIDEARM"
     },
@@ -83,7 +83,7 @@
       "T": "All",
       "RoA": "3",
       "Hit": "3+",
-      "Surge": "Armoured\n(D3)",
+      "Surge": "Armoured\nD3",
       "D": "1",
       "Keywords": "BULKY,\nPIERCE\nArmoured (3)"
     },
@@ -113,7 +113,7 @@
       "T": "G",
       "RoA": "2",
       "Hit": "4+",
-      "Surge": "Light\n(D3)",
+      "Surge": "Light\nD3",
       "D": "1",
       "Keywords": "-"
     },
@@ -128,7 +128,7 @@
       "T": "G",
       "RoA": "3",
       "Hit": "3+",
-      "Surge": "Armoured\n(D3)",
+      "Surge": "Armoured\nD3",
       "D": "1",
       "Keywords": "PIERCE\nArmoured (2)"
     },
@@ -158,7 +158,7 @@
       "T": "All",
       "RoA": "2",
       "Hit": "3+",
-      "Surge": "Light\n(D3)",
+      "Surge": "Light\nD3",
       "D": "1",
       "Keywords": "-"
     },
@@ -203,7 +203,7 @@
       "T": "G",
       "RoA": "3",
       "Hit": "4+",
-      "Surge": "Light\n(D3)",
+      "Surge": "Light\nD3",
       "D": "2",
       "Keywords": "ANTI-EVADE\n(1),\nBURST FIRE\n4\" (3)"
     },
@@ -218,7 +218,7 @@
       "T": "G",
       "RoA": "8",
       "Hit": "3+",
-      "Surge": "L&A\n(D6)",
+      "Surge": "L&A\nD6",
       "D": "1",
       "Keywords": "-"
     },
@@ -278,7 +278,7 @@
       "T": "All",
       "RoA": "2",
       "Hit": "3+",
-      "Surge": "Light\n(D3)",
+      "Surge": "Light\nD3",
       "D": "1",
       "Keywords": "-"
     },
@@ -308,7 +308,7 @@
       "T": "G",
       "RoA": "8",
       "Hit": "3+",
-      "Surge": "Armoured\n(D6)",
+      "Surge": "Armoured\nD6",
       "D": "1",
       "Keywords": "PIERCE\nArmoured (2)"
     },
@@ -323,7 +323,7 @@
       "T": "G",
       "RoA": "BT+4",
       "Hit": "4+",
-      "Surge": "L&A\n(BT)",
+      "Surge": "L&A\nBT",
       "D": "1",
       "Keywords": "SIEGE MODE\nStatus"
     },
@@ -353,7 +353,7 @@
       "T": "G",
       "RoA": "3",
       "Hit": "3+",
-      "Surge": "Armoured\n(D3)",
+      "Surge": "Armoured\nD3",
       "D": "1",
       "Keywords": "LONG RANGE\n(16\"),\nPIERCE\nArmoured (2)"
     },

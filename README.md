@@ -238,3 +238,5 @@ All six maps use the explicit measurements and reviewed poses in `terrain-calibr
 Weapon profile tables use `RNG`, `T`, `RoA`, `Hit`, `Surge`, `Damage` and `Keywords`. Targets display as G (Ground), A (Air/Flying) or All. Surge type and dice share one cell, such as `Light (D3+1)` or `L&A (D3+1)`. Names and full keyword lists wrap at word boundaries around 12 characters; unusually long words split without dropping characters. Keyword entries use separate lines. These are display changes; imported equipment and gameplay values remain unchanged. Refresh the game data and check native row heights in Warhall Test after publication.
 
 Release 23 shortens the weapon damage heading to `D` and always places surge dice on a second line, for example `Light` followed by `(D3+1)`. This avoids the horizontal clipping seen with single-line surge cells.
+
+Release 24 removes parentheses from the second surge line: `Light` above `D3+1`, or `L&A` above the dice.
