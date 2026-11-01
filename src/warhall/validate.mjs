@@ -67,7 +67,8 @@ export function validateData(data) {
         throw new Error(`Invalid weapon table headings: ${item.Id}`);
       }
       if (
-        !/^(?:E|\d+["”]?)$/.test(item.Attributes.Range) ||
+        !/^(?:E|\d+["”]?)$/.test(item.Attributes.RNG) ||
+        !/^(?:All|G|A)$/.test(item.Attributes.T) ||
         !/^(?:\d+|BT(?:\+\d+)?)$/.test(item.Attributes.RoA) ||
         !/^(?:\d\+|-)$/.test(item.Attributes.Hit) ||
         !/^\d+$/.test(item.Attributes.Damage)

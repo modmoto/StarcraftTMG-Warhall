@@ -1,13 +1,49 @@
 export const weaponColumns = {
-  Range: 'Rng',
-  Target: 'Tgt',
+  RNG: 'Rng',
+  T: 'Tgt',
   RoA: 'RoA',
   Hit: 'Hit',
-  'Surge Type': 'Surge',
-  'Surge Dice': 'S.Die',
+  Surge: 'Surge',
   Damage: 'Dmg',
   Keywords: 'Keyword',
 };
+
+export function wrapTableText(text, width = 12) {
+  const lines = [];
+  let line = '';
+  for (const word of String(text).trim().split(/\s+/)) {
+    if (line && line.length + word.length + 1 > width) {
+      lines.push(line);
+      line = '';
+    }
+    let rest = word;
+    while (rest.length > width) {
+      lines.push(rest.slice(0, width));
+      rest = rest.slice(width);
+    }
+    line = line ? `${line} ${rest}` : rest;
+  }
+  if (line) lines.push(line);
+  return lines.join('\n');
+}
+
+export function weaponAttributes(attributes) {
+  const values = Object.fromEntries(
+    Object.entries(weaponColumns).map(([name, key]) => [name, attributes[key] || '-']),
+  );
+  const targets = { ground: 'G', air: 'A', flying: 'A', all: 'All' };
+  values.T = targets[values.T.toLowerCase()] ?? values.T;
+  const light = /\blight\b/i.test(values.Surge);
+  const armoured = /\barmou?red\b/i.test(values.Surge);
+  const type = light && armoured ? 'L&A' : light ? 'Light' : armoured ? 'Armoured' : values.Surge;
+  const dice = attributes['S.Die'];
+  values.Surge = type === '-' ? '-' : dice && dice !== '-' ? `${type} (${dice})` : type;
+  values.Surge = wrapTableText(values.Surge, 14);
+  values.Keywords = values.Keywords.split(/,\s*/)
+    .map((keyword, index, list) => wrapTableText(keyword + (index < list.length - 1 ? ',' : '')))
+    .join('\n');
+  return values;
+}
 
 const phases = ['Any Phase', 'Movement Phase', 'Assault Phase', 'Melee Phase'];
 
@@ -27,11 +63,9 @@ function weaponRow(profile, id, records) {
   if (!records.weaponTables.has(rowId)) {
     records.weaponTables.set(rowId, {
       Id: rowId,
-      Name: profile.name,
+      Name: wrapTableText(profile.name),
       Type: 'Statline',
-      Attributes: Object.fromEntries(
-        Object.entries(weaponColumns).map(([name, key]) => [name, profile.attributes[key] || '-']),
-      ),
+      Attributes: weaponAttributes(profile.attributes),
       Children: [],
     });
   }

@@ -4,12 +4,11 @@
     "Name": "GAUSS CANNON",
     "Type": "Statline",
     "Attributes": {
-      "Range": "8",
-      "Target": "All",
+      "RNG": "8",
+      "T": "All",
       "RoA": "6",
       "Hit": "3+",
-      "Surge Type": "-",
-      "Surge Dice": "-",
+      "Surge": "-",
       "Damage": "1",
       "Keywords": "PINPOINT"
     },
@@ -20,46 +19,43 @@
     "Name": "AUTOCANNON",
     "Type": "Statline",
     "Attributes": {
-      "Range": "12",
-      "Target": "Ground",
+      "RNG": "12",
+      "T": "G",
       "RoA": "9",
       "Hit": "4+",
-      "Surge Type": "-",
-      "Surge Dice": "-",
+      "Surge": "-",
       "Damage": "1",
-      "Keywords": "LONG RANGE (18\")"
+      "Keywords": "LONG RANGE\n(18\")"
     },
     "Children": []
   },
   {
     "Id": "pdf_Terran_equipment_goliath_default_2_table",
-    "Name": "UNDERBELLY MACHINE GUN",
+    "Name": "UNDERBELLY\nMACHINE GUN",
     "Type": "Statline",
     "Attributes": {
-      "Range": "8",
-      "Target": "Ground",
+      "RNG": "8",
+      "T": "G",
       "RoA": "6",
       "Hit": "3+",
-      "Surge Type": "Light",
-      "Surge Dice": "D3",
+      "Surge": "Light (D3)",
       "Damage": "1",
-      "Keywords": "PINPOINT, SIDEARM"
+      "Keywords": "PINPOINT,\nSIDEARM"
     },
     "Children": []
   },
   {
     "Id": "pdf_Terran_equipment_goliath_default_3_table",
-    "Name": "HELLFIRE MISSILES",
+    "Name": "HELLFIRE\nMISSILES",
     "Type": "Statline",
     "Attributes": {
-      "Range": "16",
-      "Target": "Flying",
+      "RNG": "16",
+      "T": "A",
       "RoA": "6",
       "Hit": "3+",
-      "Surge Type": "Light",
-      "Surge Dice": "D3",
+      "Surge": "Light (D3)",
       "Damage": "1",
-      "Keywords": "ANTI-EVADE (1), SIDEARM"
+      "Keywords": "ANTI-EVADE\n(1),\nSIDEARM"
     },
     "Children": []
   },
@@ -68,12 +64,11 @@
     "Name": "STOMP",
     "Type": "Statline",
     "Attributes": {
-      "Range": "E",
-      "Target": "Ground",
+      "RNG": "E",
+      "T": "G",
       "RoA": "4",
       "Hit": "5+",
-      "Surge Type": "-",
-      "Surge Dice": "-",
+      "Surge": "-",
       "Damage": "1",
       "Keywords": "-"
     },
@@ -81,33 +76,31 @@
   },
   {
     "Id": "pdf_Terran_equipment_jim_raynor_default_2_table",
-    "Name": "COMMANDO RIFLE",
+    "Name": "COMMANDO\nRIFLE",
     "Type": "Statline",
     "Attributes": {
-      "Range": "18",
-      "Target": "All",
+      "RNG": "18",
+      "T": "All",
       "RoA": "3",
       "Hit": "3+",
-      "Surge Type": "Armoured",
-      "Surge Dice": "D3",
+      "Surge": "Armoured (D3)",
       "Damage": "1",
-      "Keywords": "BULKY, PIERCE Armoured (3)"
+      "Keywords": "BULKY,\nPIERCE\nArmoured (3)"
     },
     "Children": []
   },
   {
     "Id": "pdf_Terran_equipment_jim_raynor_default_3_table",
-    "Name": "“JUSTICE” REVOLVER",
+    "Name": "“JUSTICE”\nREVOLVER",
     "Type": "Statline",
     "Attributes": {
-      "Range": "6",
-      "Target": "Ground",
+      "RNG": "6",
+      "T": "G",
       "RoA": "2",
       "Hit": "3+",
-      "Surge Type": "-",
-      "Surge Dice": "-",
+      "Surge": "-",
       "Damage": "2",
-      "Keywords": "ANTI-EVADE (2), SIDEARM, PINPOINT"
+      "Keywords": "ANTI-EVADE\n(2),\nSIDEARM,\nPINPOINT"
     },
     "Children": []
   },
@@ -116,12 +109,11 @@
     "Name": "BAYONET",
     "Type": "Statline",
     "Attributes": {
-      "Range": "E",
-      "Target": "Ground",
+      "RNG": "E",
+      "T": "G",
       "RoA": "2",
       "Hit": "4+",
-      "Surge Type": "Light",
-      "Surge Dice": "D3",
+      "Surge": "Light (D3)",
       "Damage": "1",
       "Keywords": "-"
     },
@@ -132,14 +124,13 @@
     "Name": "QUAD K12",
     "Type": "Statline",
     "Attributes": {
-      "Range": "12",
-      "Target": "Ground",
+      "RNG": "12",
+      "T": "G",
       "RoA": "3",
       "Hit": "3+",
-      "Surge Type": "Armoured",
-      "Surge Dice": "D3",
+      "Surge": "Armoured (D3)",
       "Damage": "1",
-      "Keywords": "PIERCE Armoured (2)"
+      "Keywords": "PIERCE\nArmoured (2)"
     },
     "Children": []
   },
@@ -148,12 +139,11 @@
     "Name": "STRIKE",
     "Type": "Statline",
     "Attributes": {
-      "Range": "E",
-      "Target": "Ground",
+      "RNG": "E",
+      "T": "G",
       "RoA": "2",
       "Hit": "4+",
-      "Surge Type": "-",
-      "Surge Dice": "-",
+      "Surge": "-",
       "Damage": "1",
       "Keywords": "-"
     },
@@ -164,12 +154,11 @@
     "Name": "C-14 RIFLE",
     "Type": "Statline",
     "Attributes": {
-      "Range": "12",
-      "Target": "All",
+      "RNG": "12",
+      "T": "All",
       "RoA": "2",
       "Hit": "3+",
-      "Surge Type": "Light",
-      "Surge Dice": "D3",
+      "Surge": "Light (D3)",
       "Damage": "1",
       "Keywords": "-"
     },
@@ -180,12 +169,11 @@
     "Name": "STRIKE",
     "Type": "Statline",
     "Attributes": {
-      "Range": "E",
-      "Target": "Ground",
+      "RNG": "E",
+      "T": "G",
       "RoA": "1",
       "Hit": "5+",
-      "Surge Type": "-",
-      "Surge Dice": "-",
+      "Surge": "-",
       "Damage": "1",
       "Keywords": "-"
     },
@@ -196,12 +184,11 @@
     "Name": "STRIKE",
     "Type": "Statline",
     "Attributes": {
-      "Range": "E",
-      "Target": "Ground",
+      "RNG": "E",
+      "T": "G",
       "RoA": "1",
       "Hit": "5+",
-      "Surge Type": "-",
-      "Surge Dice": "-",
+      "Surge": "-",
       "Damage": "1",
       "Keywords": "-"
     },
@@ -209,31 +196,29 @@
   },
   {
     "Id": "pdf_Terran_equipment_nova_assault_mode_default_2_table",
-    "Name": "HELLFIRE SHOTGUN",
+    "Name": "HELLFIRE\nSHOTGUN",
     "Type": "Statline",
     "Attributes": {
-      "Range": "8",
-      "Target": "Ground",
+      "RNG": "8",
+      "T": "G",
       "RoA": "3",
       "Hit": "4+",
-      "Surge Type": "Light",
-      "Surge Dice": "D3",
+      "Surge": "Light (D3)",
       "Damage": "2",
-      "Keywords": "ANTI-EVADE (1), BURST FIRE 4\" (3)"
+      "Keywords": "ANTI-EVADE\n(1),\nBURST FIRE\n4\" (3)"
     },
     "Children": []
   },
   {
     "Id": "pdf_Terran_equipment_nova_assault_mode_default_4_table",
-    "Name": "MONOMOLECULAR BLADE",
+    "Name": "MONOMOLECULA\nR BLADE",
     "Type": "Statline",
     "Attributes": {
-      "Range": "E",
-      "Target": "Ground",
+      "RNG": "E",
+      "T": "G",
       "RoA": "8",
       "Hit": "3+",
-      "Surge Type": "Light, Armoured",
-      "Surge Dice": "D6",
+      "Surge": "L&A (D6)",
       "Damage": "1",
       "Keywords": "-"
     },
@@ -241,17 +226,16 @@
   },
   {
     "Id": "pdf_Terran_equipment_nova_stealth_mode_default_2_table",
-    "Name": "C-20A CANISTER RIFLE",
+    "Name": "C-20A\nCANISTER\nRIFLE",
     "Type": "Statline",
     "Attributes": {
-      "Range": "12",
-      "Target": "All",
+      "RNG": "12",
+      "T": "All",
       "RoA": "4",
       "Hit": "3+",
-      "Surge Type": "-",
-      "Surge Dice": "-",
+      "Surge": "-",
       "Damage": "2",
-      "Keywords": "CRITICAL HIT (2), LONG RANGE (18\")"
+      "Keywords": "CRITICAL HIT\n(2),\nLONG RANGE\n(18\")"
     },
     "Children": []
   },
@@ -260,12 +244,11 @@
     "Name": "COMBAT KNIFE",
     "Type": "Statline",
     "Attributes": {
-      "Range": "E",
-      "Target": "Ground",
+      "RNG": "E",
+      "T": "G",
       "RoA": "3",
       "Hit": "5+",
-      "Surge Type": "-",
-      "Surge Dice": "-",
+      "Surge": "-",
       "Damage": "1",
       "Keywords": "-"
     },
@@ -276,12 +259,11 @@
     "Name": "RAILGUNS",
     "Type": "Statline",
     "Attributes": {
-      "Range": "12",
-      "Target": "Ground",
+      "RNG": "12",
+      "T": "G",
       "RoA": "4",
       "Hit": "3+",
-      "Surge Type": "-",
-      "Surge Dice": "-",
+      "Surge": "-",
       "Damage": "1",
       "Keywords": "-"
     },
@@ -292,12 +274,11 @@
     "Name": "C-14 RIFLE",
     "Type": "Statline",
     "Attributes": {
-      "Range": "12",
-      "Target": "All",
+      "RNG": "12",
+      "T": "All",
       "RoA": "2",
       "Hit": "3+",
-      "Surge Type": "Light",
-      "Surge Dice": "D3",
+      "Surge": "Light (D3)",
       "Damage": "1",
       "Keywords": "-"
     },
@@ -308,12 +289,11 @@
     "Name": "BAYONET",
     "Type": "Statline",
     "Attributes": {
-      "Range": "E",
-      "Target": "Ground",
+      "RNG": "E",
+      "T": "G",
       "RoA": "2",
       "Hit": "5+",
-      "Surge Type": "-",
-      "Surge Dice": "-",
+      "Surge": "-",
       "Damage": "1",
       "Keywords": "-"
     },
@@ -324,14 +304,13 @@
     "Name": "TWIN CANNON",
     "Type": "Statline",
     "Attributes": {
-      "Range": "12",
-      "Target": "Ground",
+      "RNG": "12",
+      "T": "G",
       "RoA": "8",
       "Hit": "3+",
-      "Surge Type": "Armoured",
-      "Surge Dice": "D6",
+      "Surge": "Armoured (D6)",
       "Damage": "1",
-      "Keywords": "PIERCE Armoured (2)"
+      "Keywords": "PIERCE\nArmoured (2)"
     },
     "Children": []
   },
@@ -340,14 +319,13 @@
     "Name": "SHOCK CANNON",
     "Type": "Statline",
     "Attributes": {
-      "Range": "18",
-      "Target": "Ground",
+      "RNG": "18",
+      "T": "G",
       "RoA": "BT+4",
       "Hit": "4+",
-      "Surge Type": "Light, Armoured",
-      "Surge Dice": "BT",
+      "Surge": "L&A (BT)",
       "Damage": "1",
-      "Keywords": "SIEGE MODE Status"
+      "Keywords": "SIEGE MODE\nStatus"
     },
     "Children": []
   },
@@ -356,12 +334,11 @@
     "Name": "ROLLING OVER",
     "Type": "Statline",
     "Attributes": {
-      "Range": "E",
-      "Target": "Ground",
+      "RNG": "E",
+      "T": "G",
       "RoA": "2",
       "Hit": "2+",
-      "Surge Type": "-",
-      "Surge Dice": "-",
+      "Surge": "-",
       "Damage": "1",
       "Keywords": "-"
     },
@@ -372,14 +349,13 @@
     "Name": "QUAD K12",
     "Type": "Statline",
     "Attributes": {
-      "Range": "12",
-      "Target": "Ground",
+      "RNG": "12",
+      "T": "G",
       "RoA": "3",
       "Hit": "3+",
-      "Surge Type": "Armoured",
-      "Surge Dice": "D3",
+      "Surge": "Armoured (D3)",
       "Damage": "1",
-      "Keywords": "LONG RANGE (16\"), PIERCE Armoured (2)"
+      "Keywords": "LONG RANGE\n(16\"),\nPIERCE\nArmoured (2)"
     },
     "Children": []
   },
@@ -388,12 +364,11 @@
     "Name": "STRIKE",
     "Type": "Statline",
     "Attributes": {
-      "Range": "E",
-      "Target": "Ground",
+      "RNG": "E",
+      "T": "G",
       "RoA": "3",
       "Hit": "4+",
-      "Surge Type": "-",
-      "Surge Dice": "-",
+      "Surge": "-",
       "Damage": "1",
       "Keywords": "-"
     },

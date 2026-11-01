@@ -162,12 +162,11 @@ test('profiles render phase sections and native weapon tables with independent h
   const rifle = children.find(item => item.Name === 'C-14 RIFLE');
   assert.equal(rifle.Type, 'Statline');
   assert.deepEqual(rifle.Attributes, {
-    Range: '12',
-    Target: 'All',
+    RNG: '12',
+    T: 'All',
     RoA: '2',
     Hit: '3+',
-    'Surge Type': 'Light',
-    'Surge Dice': 'D3',
+    Surge: 'Light (D3)',
     Damage: '1',
     Keywords: '-',
   });
@@ -190,9 +189,9 @@ test('profiles render phase sections and native weapon tables with independent h
   assert.equal(data['gameconfig.json'].ShowGroupHeader, false);
   const broken = structuredClone(data);
   const row = broken['Terran/statlines.json'].find(item => item.Id === rifle.Id);
-  row.Attributes.Range = 'unknown';
+  row.Attributes.RNG = 'unknown';
   assert.throws(() => validateData(broken), /Invalid weapon table values/);
-  delete row.Attributes.Range;
+  delete row.Attributes.RNG;
   assert.throws(() => validateData(broken), /Invalid weapon table headings/);
 });
 
@@ -205,4 +204,44 @@ test('catalogue activation typos and split PDF possessives format cleanly withou
   assert.match(description, /Cost:<\/b> 1 PE/);
   assert.match(description, /Artanis' Activation ends/);
   assert.equal(cleanRuleText('A model gains BUFF Speed (3) .'), 'A model gains BUFF Speed (3).');
+});
+
+test('weapon tables abbreviate targets and combine surge type with its dice', async () => {
+  const { weaponAttributes } = await import('../src/warhall/presentation.mjs');
+  const base = {
+    Rng: '12',
+    Tgt: 'Ground',
+    RoA: '2',
+    Hit: '3+',
+    Surge: 'Light',
+    'S.Die': 'D3+1',
+    Dmg: '1',
+    Keyword: '-',
+  };
+  assert.deepEqual(weaponAttributes(base), {
+    RNG: '12',
+    T: 'G',
+    RoA: '2',
+    Hit: '3+',
+    Surge: 'Light (D3+1)',
+    Damage: '1',
+    Keywords: '-',
+  });
+  assert.equal(weaponAttributes({ ...base, Tgt: 'Flying', Surge: 'Light, Armoured' }).T, 'A');
+  assert.equal(weaponAttributes({ ...base, Surge: 'Light, Armoured' }).Surge, 'L&A (D3+1)');
+  assert.equal(
+    weaponAttributes({ ...base, Surge: 'Armoured', 'S.Die': 'D6' }).Surge,
+    'Armoured (D6)',
+  );
+  assert.equal(weaponAttributes({ ...base, Surge: '-', 'S.Die': '-' }).Surge, '-');
+});
+test('long weapon names and complete keyword lists fit wrapped table cells', async () => {
+  const { weaponAttributes, wrapTableText } = await import('../src/warhall/presentation.mjs');
+  const name = 'UNDERBELLY MACHINE GUN';
+  assert.equal(wrapTableText(name), 'UNDERBELLY\nMACHINE GUN');
+  const keywords = 'CONCENTRATED FIRE (1), LONG RANGE (16), SIDEARM';
+  const actual = weaponAttributes({ Keyword: keywords }).Keywords;
+  assert.ok(actual.split('\n').every(line => line.length <= 12));
+  assert.equal(actual.replace(/\s/g, ''), keywords.replace(/\s/g, ''));
+  assert.equal(wrapTableText('EXTRAORDINARILY').replace(/\n/g, ''), 'EXTRAORDINARILY');
 });

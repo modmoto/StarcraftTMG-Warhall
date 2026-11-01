@@ -232,3 +232,7 @@ An eighth deployment, `3-INCH GRID (54x36)`, draws full horizontal and vertical 
 ### PDF-grid terrain layout review (test release 21)
 
 All six maps use the explicit measurements and reviewed poses in `terrain-calibration.json`. The importer preserves separate XYZ scales and bakes complete terrain assemblies into portable textured GLBs. This corrects the oversized shard attachment, replaces guessed L-wall alignment, tightens touching wall groups, and keeps ramp/platform offsets together. `npm run terrain:review` generates top-down grid and base-outline views. See [calibration, review limits and terrain-only publication](docs/terrain-calibration.md).
+
+### Compact weapon tables (test release 22)
+
+Weapon profile tables use `RNG`, `T`, `RoA`, `Hit`, `Surge`, `Damage` and `Keywords`. Targets display as G (Ground), A (Air/Flying) or All. Surge type and dice share one cell, such as `Light (D3+1)` or `L&A (D3+1)`. Names and full keyword lists wrap at word boundaries around 12 characters; unusually long words split without dropping characters. Keyword entries use separate lines. These are display changes; imported equipment and gameplay values remain unchanged. Refresh the game data and check native row heights in Warhall Test after publication.

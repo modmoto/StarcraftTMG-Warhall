@@ -1,17 +1,16 @@
 [
   {
     "Id": "pdf_Protoss_equipment_adepts_default_2_table",
-    "Name": "GLAIVE CANNON",
+    "Name": "GLAIVE\nCANNON",
     "Type": "Statline",
     "Attributes": {
-      "Range": "8",
-      "Target": "All",
+      "RNG": "8",
+      "T": "All",
       "RoA": "2",
       "Hit": "3+",
-      "Surge Type": "Light",
-      "Surge Dice": "D3+1",
+      "Surge": "Light (D3+1)",
       "Damage": "1",
-      "Keywords": "ANTI-EVADE (1)"
+      "Keywords": "ANTI-EVADE\n(1)"
     },
     "Children": []
   },
@@ -20,12 +19,11 @@
     "Name": "STRIKE",
     "Type": "Statline",
     "Attributes": {
-      "Range": "E",
-      "Target": "Ground",
+      "RNG": "E",
+      "T": "G",
       "RoA": "1",
       "Hit": "4+",
-      "Surge Type": "-",
-      "Surge Dice": "-",
+      "Surge": "-",
       "Damage": "1",
       "Keywords": "-"
     },
@@ -33,15 +31,14 @@
   },
   {
     "Id": "pdf_Protoss_equipment_artanis_default_3_table",
-    "Name": "TWILIGHT BLADES STRIKE",
+    "Name": "TWILIGHT\nBLADES\nSTRIKE",
     "Type": "Statline",
     "Attributes": {
-      "Range": "E",
-      "Target": "Ground",
+      "RNG": "E",
+      "T": "G",
       "RoA": "2",
       "Hit": "2+",
-      "Surge Type": "Armoured",
-      "Surge Dice": "D3",
+      "Surge": "Armoured (D3)",
       "Damage": "3",
       "Keywords": "-"
     },
@@ -49,15 +46,14 @@
   },
   {
     "Id": "pdf_Protoss_equipment_artanis_default_4_table",
-    "Name": "TWILIGHT BLADES SWEEP",
+    "Name": "TWILIGHT\nBLADES SWEEP",
     "Type": "Statline",
     "Attributes": {
-      "Range": "E",
-      "Target": "Ground",
+      "RNG": "E",
+      "T": "G",
       "RoA": "6",
       "Hit": "2+",
-      "Surge Type": "Light",
-      "Surge Dice": "D3+1",
+      "Surge": "Light (D3+1)",
       "Damage": "1",
       "Keywords": "-"
     },
@@ -68,12 +64,11 @@
     "Name": "PSI BLAST",
     "Type": "Statline",
     "Attributes": {
-      "Range": "8",
-      "Target": "All",
+      "RNG": "8",
+      "T": "All",
       "RoA": "1",
       "Hit": "3+",
-      "Surge Type": "Light",
-      "Surge Dice": "D3",
+      "Surge": "Light (D3)",
       "Damage": "2",
       "Keywords": "INSTANT"
     },
@@ -84,12 +79,11 @@
     "Name": "STRIKE",
     "Type": "Statline",
     "Attributes": {
-      "Range": "E",
-      "Target": "Ground",
+      "RNG": "E",
+      "T": "G",
       "RoA": "1",
       "Hit": "4+",
-      "Surge Type": "-",
-      "Surge Dice": "-",
+      "Surge": "-",
       "Damage": "1",
       "Keywords": "-"
     },
@@ -97,33 +91,31 @@
   },
   {
     "Id": "pdf_Protoss_equipment_immortal_default_1_table",
-    "Name": "LEFT PHOTON DISRUPTOR",
+    "Name": "LEFT PHOTON\nDISRUPTOR",
     "Type": "Statline",
     "Attributes": {
-      "Range": "12",
-      "Target": "Ground",
+      "RNG": "12",
+      "T": "G",
       "RoA": "4",
       "Hit": "3+",
-      "Surge Type": "Armoured",
-      "Surge Dice": "D3",
+      "Surge": "Armoured (D3)",
       "Damage": "2",
-      "Keywords": "CONCENTRATED FIRE (1), LONG RANGE (16)"
+      "Keywords": "CONCENTRATED\nFIRE (1),\nLONG RANGE\n(16)"
     },
     "Children": []
   },
   {
     "Id": "pdf_Protoss_equipment_immortal_default_2_table",
-    "Name": "RIGHT PHOTON DISRUPTOR",
+    "Name": "RIGHT PHOTON\nDISRUPTOR",
     "Type": "Statline",
     "Attributes": {
-      "Range": "12",
-      "Target": "Ground",
+      "RNG": "12",
+      "T": "G",
       "RoA": "4",
       "Hit": "3+",
-      "Surge Type": "Armoured",
-      "Surge Dice": "D3",
+      "Surge": "Armoured (D3)",
       "Damage": "2",
-      "Keywords": "CONCENTRATED FIRE (1), LONG RANGE (16), SIDEARM"
+      "Keywords": "CONCENTRATED\nFIRE (1),\nLONG RANGE\n(16),\nSIDEARM"
     },
     "Children": []
   },
@@ -132,12 +124,11 @@
     "Name": "STOMP",
     "Type": "Statline",
     "Attributes": {
-      "Range": "E",
-      "Target": "Ground",
+      "RNG": "E",
+      "T": "G",
       "RoA": "3",
       "Hit": "3+",
-      "Surge Type": "-",
-      "Surge Dice": "-",
+      "Surge": "-",
       "Damage": "1",
       "Keywords": "-"
     },
@@ -145,17 +136,16 @@
   },
   {
     "Id": "pdf_Protoss_equipment_nerazim_watchers_adept_default_2_table",
-    "Name": "GLAIVE CANNON",
+    "Name": "GLAIVE\nCANNON",
     "Type": "Statline",
     "Attributes": {
-      "Range": "8",
-      "Target": "All",
+      "RNG": "8",
+      "T": "All",
       "RoA": "3",
       "Hit": "3+",
-      "Surge Type": "Light",
-      "Surge Dice": "D3+1",
+      "Surge": "Light (D3+1)",
       "Damage": "1",
-      "Keywords": "ANTI-EVADE (1), PINPOINT"
+      "Keywords": "ANTI-EVADE\n(1),\nPINPOINT"
     },
     "Children": []
   },
@@ -164,12 +154,11 @@
     "Name": "STRIKE",
     "Type": "Statline",
     "Attributes": {
-      "Range": "E",
-      "Target": "Ground",
+      "RNG": "E",
+      "T": "G",
       "RoA": "1",
       "Hit": "5+",
-      "Surge Type": "-",
-      "Surge Dice": "-",
+      "Surge": "-",
       "Damage": "1",
       "Keywords": "-"
     },
@@ -180,12 +169,11 @@
     "Name": "PSI BLADES",
     "Type": "Statline",
     "Attributes": {
-      "Range": "E",
-      "Target": "Ground",
+      "RNG": "E",
+      "T": "G",
       "RoA": "4",
       "Hit": "3+",
-      "Surge Type": "Light",
-      "Surge Dice": "D3",
+      "Surge": "Light (D3)",
       "Damage": "1",
       "Keywords": "-"
     },
@@ -193,15 +181,14 @@
   },
   {
     "Id": "pdf_Protoss_equipment_sentries_default_2_table",
-    "Name": "DISRUPTION BEAM",
+    "Name": "DISRUPTION\nBEAM",
     "Type": "Statline",
     "Attributes": {
-      "Range": "8",
-      "Target": "All",
+      "RNG": "8",
+      "T": "All",
       "RoA": "2",
       "Hit": "2+",
-      "Surge Type": "-",
-      "Surge Dice": "-",
+      "Surge": "-",
       "Damage": "1",
       "Keywords": "INSTANT"
     },
@@ -212,12 +199,11 @@
     "Name": "BEAM",
     "Type": "Statline",
     "Attributes": {
-      "Range": "E",
-      "Target": "Ground",
+      "RNG": "E",
+      "T": "G",
       "RoA": "2",
       "Hit": "3+",
-      "Surge Type": "-",
-      "Surge Dice": "-",
+      "Surge": "-",
       "Damage": "1",
       "Keywords": "-"
     },
@@ -225,15 +211,14 @@
   },
   {
     "Id": "pdf_Protoss_equipment_stalker_default_2_table",
-    "Name": "PARTICLE DISRUPTORS",
+    "Name": "PARTICLE\nDISRUPTORS",
     "Type": "Statline",
     "Attributes": {
-      "Range": "12",
-      "Target": "All",
+      "RNG": "12",
+      "T": "All",
       "RoA": "4",
       "Hit": "3+",
-      "Surge Type": "Armoured",
-      "Surge Dice": "D3",
+      "Surge": "Armoured (D3)",
       "Damage": "2",
       "Keywords": "-"
     },
@@ -244,12 +229,11 @@
     "Name": "STOMP",
     "Type": "Statline",
     "Attributes": {
-      "Range": "E",
-      "Target": "Ground",
+      "RNG": "E",
+      "T": "G",
       "RoA": "2",
       "Hit": "5+",
-      "Surge Type": "-",
-      "Surge Dice": "-",
+      "Surge": "-",
       "Damage": "1",
       "Keywords": "-"
     },
@@ -257,15 +241,14 @@
   },
   {
     "Id": "pdf_Protoss_equipment_tassadar_default_2_table",
-    "Name": "RESONANCE BEAM",
+    "Name": "RESONANCE\nBEAM",
     "Type": "Statline",
     "Attributes": {
-      "Range": "12",
-      "Target": "All",
+      "RNG": "12",
+      "T": "All",
       "RoA": "6",
       "Hit": "3+",
-      "Surge Type": "Armoured",
-      "Surge Dice": "D3",
+      "Surge": "Armoured (D3)",
       "Damage": "1",
       "Keywords": "INSTANT"
     },
@@ -276,12 +259,11 @@
     "Name": "STRIKE",
     "Type": "Statline",
     "Attributes": {
-      "Range": "E",
-      "Target": "Ground",
+      "RNG": "E",
+      "T": "G",
       "RoA": "6",
       "Hit": "4+",
-      "Surge Type": "-",
-      "Surge Dice": "-",
+      "Surge": "-",
       "Damage": "1",
       "Keywords": "-"
     },
@@ -292,12 +274,11 @@
     "Name": "PSI BLAST",
     "Type": "Statline",
     "Attributes": {
-      "Range": "8",
-      "Target": "All",
+      "RNG": "8",
+      "T": "All",
       "RoA": "2",
       "Hit": "3+",
-      "Surge Type": "Light",
-      "Surge Dice": "D3",
+      "Surge": "Light (D3)",
       "Damage": "2",
       "Keywords": "INSTANT"
     },
@@ -308,12 +289,11 @@
     "Name": "STRIKE",
     "Type": "Statline",
     "Attributes": {
-      "Range": "E",
-      "Target": "Ground",
+      "RNG": "E",
+      "T": "G",
       "RoA": "1",
       "Hit": "4+",
-      "Surge Type": "-",
-      "Surge Dice": "-",
+      "Surge": "-",
       "Damage": "1",
       "Keywords": "-"
     },
@@ -324,12 +304,11 @@
     "Name": "PSI BLADES",
     "Type": "Statline",
     "Attributes": {
-      "Range": "E",
-      "Target": "Ground",
+      "RNG": "E",
+      "T": "G",
       "RoA": "4",
       "Hit": "3+",
-      "Surge Type": "Light",
-      "Surge Dice": "D3",
+      "Surge": "Light (D3)",
       "Damage": "1",
       "Keywords": "-"
     },
@@ -337,15 +316,14 @@
   },
   {
     "Id": "pdf_Protoss_equipment_zeratul_default_3_table",
-    "Name": "MASTER WARP BLADE",
+    "Name": "MASTER WARP\nBLADE",
     "Type": "Statline",
     "Attributes": {
-      "Range": "E",
-      "Target": "Ground",
+      "RNG": "E",
+      "T": "G",
       "RoA": "4",
       "Hit": "3+",
-      "Surge Type": "Light, Armoured",
-      "Surge Dice": "D3",
+      "Surge": "L&A (D3)",
       "Damage": "2",
       "Keywords": "INSTANT"
     },
