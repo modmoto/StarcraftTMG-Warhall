@@ -6,19 +6,37 @@ export const nativeMarkers = [
   { color: 'green', skinId: 6203, resource: 'Tokens/ExcaliburGreen' },
 ];
 
+export const missionMarkers = Array.from({ length: 5 }, (_, index) => {
+  const number = index + 1;
+  const color = number === 5 ? 'green' : number % 2 ? 'red' : 'blue';
+  const suffix = number === 3 || number === 4 ? `_${number}` : '';
+  return {
+    number,
+    color,
+    profileId: `sc_mission_${color}${suffix}`,
+    ...(suffix
+      ? {}
+      : { replacesNativeSkinId: nativeMarkers.find(marker => marker.color === color).skinId }),
+  };
+});
+
+export function markerProfileId({ number, color }) {
+  const marker = missionMarkers.find(marker => marker.number === number && marker.color === color);
+  if (!marker) throw new Error(`Unknown mission marker: ${number}/${color}`);
+  return marker.profileId;
+}
+
 export function markerTokens() {
-  return [
-    ...nativeMarkers.map(({ color }) => ({
-      Id: `sc_mission_${color}`,
-      Name: `Mission marker - ${color}`,
-      Type: 'Token',
-      Description: `${color[0].toUpperCase() + color.slice(1)} mission marker. Mission-marker affinity: red 1/3, blue 2/4, green neutral 5. 32 mm marker; distances measure from the base edge. The decorative control ring extends 3 inches from that edge and has no separate selection footprint. Activation and control are manual.`,
-    })),
-  ];
+  return missionMarkers.map(({ number, color, profileId }) => ({
+    Id: profileId,
+    Name: `Mission marker ${number} - ${color}`,
+    Type: 'Token',
+    Description: `Mission marker ${number}. 32 mm circular selection and measurement footprint. Open sci-fi outline with a transparent interior and a numbered center. The outline extends 3 inches from the marker edge. Activation and control are manual.`,
+  }));
 }
 export function markerTerrains() {
-  return markerTokens().map(t => ({
-    ...t,
+  return markerTokens().map(marker => ({
+    ...marker,
     Type: 'Terrain',
     Width: markerDiameterMm / 10,
     Length: markerDiameterMm / 10,

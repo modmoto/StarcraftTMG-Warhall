@@ -2,20 +2,11 @@ import sharp from 'sharp';
 import { mkdir, writeFile } from 'node:fs/promises';
 import { createHash } from 'node:crypto';
 import path from 'node:path';
-import { sourceGeometry } from '../models/render-thumbnail.mjs';
 import { encodeGlb } from '../models/portable-glb.mjs';
 import { projectRoot } from '../paths.mjs';
-import { controlRangeInches, markerDiameterMm, nativeMarkers } from './markers.mjs';
+import { controlRangeInches, markerDiameterMm, missionMarkers } from './markers.mjs';
 
-export const ttsObjectiveReference = {
-  workshopId: '3662791369',
-  scriptGuid: 'd87518',
-  modelUrl:
-    'https://steamusercontent-a.akamaihd.net/ugc/2492270022769002891/E40281F9F7B0FDC8D90F249D2AA481BF3BB82CD4/',
-  textureUrl:
-    'https://steamusercontent-a.akamaihd.net/ugc/10292823844618557163/FD312D1B5405C94295E291614BCACD4D5DE19C16/',
-};
-const accents = { red: [240, 66, 58], blue: [56, 161, 255], green: [65, 216, 139] };
+const accents = { red: [226, 61, 65], blue: [24, 103, 208], green: [34, 175, 103] };
 export const controlOuterRadiusMm = Number(
   (markerDiameterMm / 2 + controlRangeInches * 25.4).toFixed(6),
 );
@@ -27,10 +18,8 @@ export function annulus(innerRadius, outerRadius, y, segments = 192) {
   for (let i = 0; i <= segments; i++) {
     const angle = (i / segments) * Math.PI * 2;
     for (const radius of [innerRadius, outerRadius]) {
-      const x = Math.cos(angle) * radius,
-        z = Math.sin(angle) * radius;
-      vertices.push([x, y, z]);
-      uv.push([0.5 + x / (outerRadius * 2), 0.5 + z / (outerRadius * 2)]);
+      vertices.push([Math.cos(angle) * radius, y, Math.sin(angle) * radius]);
+      uv.push([0, 0]);
     }
     if (i < segments) {
       const n = i * 2;
@@ -39,83 +28,175 @@ export function annulus(innerRadius, outerRadius, y, segments = 192) {
   }
   return { vertices, uv, faces };
 }
-
-function disk(radius, y, color) {
-  const vertices = [[0, y, 0]],
-    uv = [[0, 0]],
+function polygon(points, y = 0.12) {
+  const vertices = points.map(([x, z]) => [x, y, z]),
     faces = [];
-  for (let i = 0; i <= 96; i++) {
-    const a = (i / 96) * Math.PI * 2;
-    vertices.push([Math.cos(a) * radius, y, Math.sin(a) * radius]);
-    uv.push([0, 0]);
-    if (i < 96) faces.push([0, i + 2, i + 1]);
+  for (let i = 1; i < points.length - 1; i++) {
+    const [a, b, c] = [points[0], points[i], points[i + 1]];
+    const up = (b[1] - a[1]) * (c[0] - a[0]) - (b[0] - a[0]) * (c[1] - a[1]);
+    faces.push(up > 0 ? [0, i, i + 1] : [0, i + 1, i]);
   }
-  return {
-    vertices,
-    uv,
-    faces,
-    texture: { width: 1, height: 1, data: Buffer.from([...color, 255]) },
-  };
+  return { vertices, faces, uv: vertices.map(() => [0, 0]) };
 }
-
+function stroke(points, width) {
+  const meshes = [];
+  for (let i = 1; i < points.length; i++) {
+    const [a, b] = [points[i - 1], points[i]],
+      dx = b[0] - a[0],
+      dz = b[1] - a[1],
+      length = Math.hypot(dx, dz);
+    const x = ((-dz / length) * width) / 2,
+      z = ((dx / length) * width) / 2;
+    meshes.push(
+      polygon([
+        [a[0] + x, a[1] + z],
+        [b[0] + x, b[1] + z],
+        [b[0] - x, b[1] - z],
+        [a[0] - x, a[1] - z],
+      ]),
+    );
+  }
+  for (const point of points.slice(1, -1))
+    meshes.push(
+      polygon(
+        Array.from({ length: 8 }, (_, i) => [
+          point[0] + (Math.cos((i * Math.PI) / 4) * width) / 2,
+          point[1] + (Math.sin((i * Math.PI) / 4) * width) / 2,
+        ]),
+      ),
+    );
+  return meshes;
+}
+function merge(meshes, color, role) {
+  const result = {
+    vertices: [],
+    faces: [],
+    uv: [],
+    texture: { width: 1, height: 1, data: Buffer.from([...color, 255]) },
+    unlit: true,
+    role,
+  };
+  for (const mesh of meshes) {
+    const offset = result.vertices.length;
+    result.vertices.push(...mesh.vertices);
+    result.uv.push(...mesh.uv);
+    result.faces.push(...mesh.faces.map(face => face.map(index => index + offset)));
+  }
+  return result;
+}
+function numeral(number, color) {
+  const segments = {
+    a: [
+      [-0.57, 1.2],
+      [0.57, 1.2],
+    ],
+    b: [
+      [0.675, 1.08],
+      [0.675, 0.12],
+    ],
+    c: [
+      [0.675, -0.12],
+      [0.675, -1.08],
+    ],
+    d: [
+      [-0.57, -1.2],
+      [0.57, -1.2],
+    ],
+    e: [
+      [-0.675, -1.08],
+      [-0.675, -0.12],
+    ],
+    f: [
+      [-0.675, 0.12],
+      [-0.675, 1.08],
+    ],
+    g: [
+      [-0.57, 0],
+      [0.57, 0],
+    ],
+  };
+  const digits = { 1: 'bc', 2: 'abged', 3: 'abgcd', 4: 'fgbc', 5: 'afgcd' };
+  const meshes = [...digits[number]].map(key => {
+    const [a, b] = segments[key],
+      dx = b[0] - a[0],
+      dz = b[1] - a[1],
+      length = Math.hypot(dx, dz),
+      ux = dx / length,
+      uz = dz / length;
+    const local = [
+      [0.1, 0.135],
+      [length - 0.1, 0.135],
+      [length, 0],
+      [length - 0.1, -0.135],
+      [0.1, -0.135],
+      [0, 0],
+    ];
+    return polygon(
+      local.map(([x, z]) => [a[0] + ux * x - uz * z, a[1] + uz * x + ux * z]),
+      0.13,
+    );
+  });
+  const mesh = merge(meshes, color, 'number');
+  const xs = mesh.vertices.map(v => v[0]),
+    center = (Math.min(...xs) + Math.max(...xs)) / 2;
+  mesh.vertices = mesh.vertices.map(([x, y, z]) => [x - center, y, z]);
+  return mesh;
+}
+export function createMarkerGeometry({ color, number }) {
+  const radius = controlOuterRadiusMm / 10,
+    meshes = [annulus(radius - 0.44, radius, 0.12)];
+  const onTop = x => [x, Math.sqrt((radius - 0.22) ** 2 - x * x)];
+  const onRight = z => [Math.sqrt((radius - 0.22) ** 2 - z * z), z];
+  const rails = [
+    [
+      onTop(radius * 0.22),
+      [radius * 0.22, radius * 0.56],
+      [radius * 0.53, radius * 0.25],
+      onRight(radius * 0.25),
+    ],
+    [
+      onTop(radius * 0.15),
+      [radius * 0.15, radius * 0.52],
+      [radius * 0.49, radius * 0.18],
+      onRight(radius * 0.18),
+    ],
+  ];
+  for (let quadrant = 0; quadrant < 4; quadrant++) {
+    const angle = (quadrant * Math.PI) / 2;
+    for (const rail of rails)
+      meshes.push(
+        ...stroke(
+          rail.map(([x, z]) => [
+            x * Math.cos(angle) + z * Math.sin(angle),
+            -x * Math.sin(angle) + z * Math.cos(angle),
+          ]),
+          0.28,
+        ),
+      );
+  }
+  return [merge(meshes, accents[color], 'outline'), numeral(number, accents[color])];
+}
 export async function createMarkerAssets({
   directory = path.join(projectRoot, 'model-assets'),
   baseUrl = 'https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets',
 } = {}) {
   await mkdir(directory, { recursive: true });
-  const { geometry } = await sourceGeometry(ttsObjectiveReference);
-  const artwork = geometry.find(mesh => mesh.texture)?.texture;
-  if (!artwork) throw new Error('TTS objective reference has no texture');
-  let artworkRadius = 0;
-  for (let y = 0; y < artwork.height; y++)
-    for (let x = 0; x < artwork.width; x++) {
-      if (artwork.data[(y * artwork.width + x) * 4 + 3] >= 64) {
-        artworkRadius = Math.max(
-          artworkRadius,
-          Math.hypot((x + 0.5) / artwork.width - 0.5, (y + 0.5) / artwork.height - 0.5),
-        );
-      }
-    }
-  const uvScale = Math.min(1, artworkRadius * 2);
-
   const result = [];
-  for (const marker of nativeMarkers) {
-    const color = accents[marker.color];
-    const tinted = Buffer.from(artwork.data);
-    for (let i = 0; i < tinted.length; i += 4) {
-      const brightness = Math.min(
-        1,
-        Math.max(artwork.data[i], artwork.data[i + 1], artwork.data[i + 2]) / 128,
-      );
-      for (let channel = 0; channel < 3; channel++)
-        tinted[i + channel] = Math.round(color[channel] * brightness);
-    }
-    const ring = annulus(markerDiameterMm / 20, controlOuterRadiusMm / 10, 0.025);
-    ring.uv = ring.uv.map(([u, v]) => [0.5 + (u - 0.5) * uvScale, 0.5 + (v - 0.5) * uvScale]);
-    ring.texture = { ...artwork, data: tinted };
-    const center = disk(markerDiameterMm / 20, 0.075, [25, 33, 44]);
-    const face = disk(
-      markerDiameterMm / 20 - 0.09,
-      0.08,
-      color.map(v => Math.round(v * 0.65)),
-    );
-    const core = disk(0.32, 0.085, color);
-    const meshes = [ring, center, face, core];
-    const bytes = await encodeGlb(meshes);
-    const file = `${createHash('sha256').update(bytes).digest('hex')}.glb`;
+  for (const marker of missionMarkers) {
+    const meshes = createMarkerGeometry(marker),
+      bytes = await encodeGlb(meshes);
+    const file = `${createHash('sha256').update(bytes).digest('hex')}.glb`,
+      previewGeometryFile = `model-assets/${file}.preview.json`;
     await writeFile(path.join(directory, file), bytes);
-    const previewFile = path.join(directory, `${file}.preview.json`);
     await writeFile(
-      previewFile,
+      path.join(directory, `${file}.preview.json`),
       JSON.stringify(
         await Promise.all(
           meshes.map(async mesh => ({
             ...mesh,
             texture: {
               png: (
-                await sharp(mesh.texture.data, {
-                  raw: { width: mesh.texture.width, height: mesh.texture.height, channels: 4 },
-                })
+                await sharp(mesh.texture.data, { raw: { width: 1, height: 1, channels: 4 } })
                   .png()
                   .toBuffer()
               ).toString('base64'),
@@ -124,12 +205,23 @@ export async function createMarkerAssets({
         ),
       ),
     );
+    const transforms = {
+      scale: 1 / 2.54,
+      positionX: 0,
+      positionY: 0,
+      positionZ: 0,
+      rotationX: 0,
+      rotationY: 0,
+      rotationZ: 0,
+    };
     result.push({
-      profileId: `sc_mission_${marker.color}`,
-      name: `Starcraft - Mission marker ${marker.color}`,
+      profileId: marker.profileId,
+      name: `Starcraft - Mission marker ${marker.number} - ${marker.color}`,
       kind: 'marker',
-      replacesNativeSkinId: marker.skinId,
-      calibration: 'marker-centimeters-v1',
+      ...(marker.replacesNativeSkinId ? { replacesNativeSkinId: marker.replacesNativeSkinId } : {}),
+      calibration: 'marker-centimeters-v2',
+      markerNumber: marker.number,
+      markerColor: marker.color,
       markerDiameterMm,
       controlRangeInches,
       controlOuterDiameterMm: controlOuterRadiusMm * 2,
@@ -138,25 +230,9 @@ export async function createMarkerAssets({
           modelUrl: `${baseUrl}/${file}`,
           textureUrl: null,
           hostedAsset: true,
-          transforms: {
-            scale: 1 / 2.54,
-            positionX: 0,
-            positionY: 0,
-            positionZ: 0,
-            rotationX: 0,
-            rotationY: 0,
-            rotationZ: 0,
-          },
-          previewGeometryFile: path.relative(projectRoot, previewFile),
-          previewTransforms: {
-            scale: 1,
-            positionX: 0,
-            positionY: 0,
-            positionZ: 0,
-            rotationX: 0,
-            rotationY: 0,
-            rotationZ: 0,
-          },
+          transforms,
+          previewGeometryFile,
+          previewTransforms: { ...transforms, scale: 1 },
         },
       ],
     });

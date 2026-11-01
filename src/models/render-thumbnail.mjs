@@ -177,7 +177,7 @@ export async function renderGeometry(
           v[2].map((n, i) => n - v[0][i]),
         ),
       );
-      const shade = 0.42 + 0.58 * Math.abs(dot(normal, light));
+      const shade = mesh.unlit ? 1 : 0.42 + 0.58 * Math.abs(dot(normal, light));
       const texIndices = mesh.textureFaces?.[faceIndex] ?? face;
       const texCoords = texIndices.map(index => mesh.uv?.[index]);
       const hasTexture = mesh.texture && texCoords.every(p => p?.length >= 2);

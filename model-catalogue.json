@@ -2179,16 +2179,18 @@
     },
     {
       "profileId": "sc_mission_red",
-      "name": "Starcraft - Mission marker red",
+      "name": "Starcraft - Mission marker 1 - red",
       "kind": "marker",
       "replacesNativeSkinId": 6201,
-      "calibration": "marker-centimeters-v1",
+      "calibration": "marker-centimeters-v2",
+      "markerNumber": 1,
+      "markerColor": "red",
       "markerDiameterMm": 32,
       "controlRangeInches": 3,
       "controlOuterDiameterMm": 184.4,
       "parts": [
         {
-          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/2df67b3fa6e7a8c689c24b532952cd6b50f31f41f7f7e85f6fbcbac984a58c84.glb",
+          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/b683e4bc5990328ea131aeaeea30ddfa295bf3f351372e9325e1ef26ed184b2a.glb",
           "textureUrl": null,
           "hostedAsset": true,
           "transforms": {
@@ -2200,7 +2202,7 @@
             "rotationY": 0,
             "rotationZ": 0
           },
-          "previewGeometryFile": "model-assets/2df67b3fa6e7a8c689c24b532952cd6b50f31f41f7f7e85f6fbcbac984a58c84.glb.preview.json",
+          "previewGeometryFile": "model-assets/b683e4bc5990328ea131aeaeea30ddfa295bf3f351372e9325e1ef26ed184b2a.glb.preview.json",
           "previewTransforms": {
             "scale": 1,
             "positionX": 0,
@@ -2215,16 +2217,18 @@
     },
     {
       "profileId": "sc_mission_blue",
-      "name": "Starcraft - Mission marker blue",
+      "name": "Starcraft - Mission marker 2 - blue",
       "kind": "marker",
       "replacesNativeSkinId": 6202,
-      "calibration": "marker-centimeters-v1",
+      "calibration": "marker-centimeters-v2",
+      "markerNumber": 2,
+      "markerColor": "blue",
       "markerDiameterMm": 32,
       "controlRangeInches": 3,
       "controlOuterDiameterMm": 184.4,
       "parts": [
         {
-          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/71888ff8890c40fe2e32dc060dfb85035bb43a3bed51b491e5740f031897c661.glb",
+          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/90ebef3a549c215dcc71c72bdd6c8f392d474299f0e47d85d82866c10c32faa3.glb",
           "textureUrl": null,
           "hostedAsset": true,
           "transforms": {
@@ -2236,7 +2240,81 @@
             "rotationY": 0,
             "rotationZ": 0
           },
-          "previewGeometryFile": "model-assets/71888ff8890c40fe2e32dc060dfb85035bb43a3bed51b491e5740f031897c661.glb.preview.json",
+          "previewGeometryFile": "model-assets/90ebef3a549c215dcc71c72bdd6c8f392d474299f0e47d85d82866c10c32faa3.glb.preview.json",
+          "previewTransforms": {
+            "scale": 1,
+            "positionX": 0,
+            "positionY": 0,
+            "positionZ": 0,
+            "rotationX": 0,
+            "rotationY": 0,
+            "rotationZ": 0
+          }
+        }
+      ]
+    },
+    {
+      "profileId": "sc_mission_red_3",
+      "name": "Starcraft - Mission marker 3 - red",
+      "kind": "marker",
+      "calibration": "marker-centimeters-v2",
+      "markerNumber": 3,
+      "markerColor": "red",
+      "markerDiameterMm": 32,
+      "controlRangeInches": 3,
+      "controlOuterDiameterMm": 184.4,
+      "parts": [
+        {
+          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/8f2425b48f418dc6834734146d0d93bbd5090f4e26c425884b8b2070f4dc6270.glb",
+          "textureUrl": null,
+          "hostedAsset": true,
+          "transforms": {
+            "scale": 0.39370078740157477,
+            "positionX": 0,
+            "positionY": 0,
+            "positionZ": 0,
+            "rotationX": 0,
+            "rotationY": 0,
+            "rotationZ": 0
+          },
+          "previewGeometryFile": "model-assets/8f2425b48f418dc6834734146d0d93bbd5090f4e26c425884b8b2070f4dc6270.glb.preview.json",
+          "previewTransforms": {
+            "scale": 1,
+            "positionX": 0,
+            "positionY": 0,
+            "positionZ": 0,
+            "rotationX": 0,
+            "rotationY": 0,
+            "rotationZ": 0
+          }
+        }
+      ]
+    },
+    {
+      "profileId": "sc_mission_blue_4",
+      "name": "Starcraft - Mission marker 4 - blue",
+      "kind": "marker",
+      "calibration": "marker-centimeters-v2",
+      "markerNumber": 4,
+      "markerColor": "blue",
+      "markerDiameterMm": 32,
+      "controlRangeInches": 3,
+      "controlOuterDiameterMm": 184.4,
+      "parts": [
+        {
+          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/854d9cce96bb8f7db99ff2c41c20a6558e17ed5ba3504c56d99efba3ddd0aa7f.glb",
+          "textureUrl": null,
+          "hostedAsset": true,
+          "transforms": {
+            "scale": 0.39370078740157477,
+            "positionX": 0,
+            "positionY": 0,
+            "positionZ": 0,
+            "rotationX": 0,
+            "rotationY": 0,
+            "rotationZ": 0
+          },
+          "previewGeometryFile": "model-assets/854d9cce96bb8f7db99ff2c41c20a6558e17ed5ba3504c56d99efba3ddd0aa7f.glb.preview.json",
           "previewTransforms": {
             "scale": 1,
             "positionX": 0,
@@ -2251,16 +2329,18 @@
     },
     {
       "profileId": "sc_mission_green",
-      "name": "Starcraft - Mission marker green",
+      "name": "Starcraft - Mission marker 5 - green",
       "kind": "marker",
       "replacesNativeSkinId": 6203,
-      "calibration": "marker-centimeters-v1",
+      "calibration": "marker-centimeters-v2",
+      "markerNumber": 5,
+      "markerColor": "green",
       "markerDiameterMm": 32,
       "controlRangeInches": 3,
       "controlOuterDiameterMm": 184.4,
       "parts": [
         {
-          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/b866f811364a2fd639f387999d1529876ec0987a4ca5370a6e436192e88070c7.glb",
+          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/cabd179827d413cc8d99b0b308359f1fa4ff70f15c0b4dd2e392c9708b2f9287.glb",
           "textureUrl": null,
           "hostedAsset": true,
           "transforms": {
@@ -2272,7 +2352,7 @@
             "rotationY": 0,
             "rotationZ": 0
           },
-          "previewGeometryFile": "model-assets/b866f811364a2fd639f387999d1529876ec0987a4ca5370a6e436192e88070c7.glb.preview.json",
+          "previewGeometryFile": "model-assets/cabd179827d413cc8d99b0b308359f1fa4ff70f15c0b4dd2e392c9708b2f9287.glb.preview.json",
           "previewTransforms": {
             "scale": 1,
             "positionX": 0,

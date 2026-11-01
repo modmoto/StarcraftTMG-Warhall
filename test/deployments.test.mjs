@@ -37,7 +37,7 @@ test('deployment alone places existing native markers at exact centimeter coordi
   const output = buildDeployments([layout]);
   assert.deepEqual(output.objectives, []);
   assert.deepEqual(output.tokens, []);
-  assert.equal(output.markerTerrains.length, 3);
+  assert.equal(output.markerTerrains.length, 5);
   assert.ok(output.markerTerrains.every(t => t.Type === 'Terrain'));
   assert.equal(output.deploymentTerrains[0].DeploymentIndex, 1);
   assert.deepEqual(output.deploymentTerrains[0].Items[0], {

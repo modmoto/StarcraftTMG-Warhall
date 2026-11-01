@@ -5,7 +5,6 @@ import { transforms, validateCatalogue } from '../src/models/catalogue.mjs';
 import { createDeploymentAssets } from '../src/deployments/line-assets.mjs';
 import { createMarkerAssets } from '../src/deployments/marker-assets.mjs';
 import { calibrateCatalogue } from '../src/models/calibration.mjs';
-import { nativeMarkers } from '../src/deployments/markers.mjs';
 
 const read = async file => JSON.parse(await readFile(path.join(projectRoot, file), 'utf8'));
 const units = await read('model-selections.json');
@@ -34,14 +33,6 @@ for (const selection of [...units.models, ...terrain.models].filter(m => m.statu
     })),
   });
 }
-for (const marker of nativeMarkers) {
-  entries.push({
-    profileId: `sc_mission_${marker.color}`,
-    name: `Starcraft - Mission marker ${marker.color}`,
-    kind: 'terrain',
-    existingSkinId: marker.skinId,
-  });
-}
 const overrides = await read('model-publication-overrides.json');
 for (const [profileId, override] of Object.entries(overrides)) {
   const entry = entries.find(entry => entry.profileId === profileId);
@@ -63,10 +54,7 @@ const raw = validateCatalogue({
 });
 const { catalogue, report } = await calibrateCatalogue(raw);
 const markerAssets = await createMarkerAssets();
-for (const marker of markerAssets) {
-  const index = catalogue.entries.findIndex(entry => entry.profileId === marker.profileId);
-  catalogue.entries[index] = marker;
-}
+catalogue.entries.push(...markerAssets);
 catalogue.entries.push(...(await createDeploymentAssets(await read('deployment-templates.json'))));
 validateCatalogue(catalogue);
 await writeFile(

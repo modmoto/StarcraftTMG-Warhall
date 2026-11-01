@@ -71,14 +71,14 @@
           "IsToken": false
         },
         {
-          "Name": "sc_mission_red",
+          "Name": "sc_mission_red_3",
           "X": 38.1,
           "Y": 0.04,
           "Z": -15.24,
           "IsToken": false
         },
         {
-          "Name": "sc_mission_blue",
+          "Name": "sc_mission_blue_4",
           "X": -38.1,
           "Y": 0.04,
           "Z": -15.24,
@@ -118,14 +118,14 @@
           "IsToken": false
         },
         {
-          "Name": "sc_mission_red",
+          "Name": "sc_mission_red_3",
           "X": 22.86,
           "Y": 0.04,
           "Z": -30.48,
           "IsToken": false
         },
         {
-          "Name": "sc_mission_blue",
+          "Name": "sc_mission_blue_4",
           "X": -22.86,
           "Y": 0.04,
           "Z": -30.48,
@@ -165,14 +165,14 @@
           "IsToken": false
         },
         {
-          "Name": "sc_mission_red",
+          "Name": "sc_mission_red_3",
           "X": 22.86,
           "Y": 0.04,
           "Z": 15.24,
           "IsToken": false
         },
         {
-          "Name": "sc_mission_blue",
+          "Name": "sc_mission_blue_4",
           "X": -22.86,
           "Y": 0.04,
           "Z": -15.24,
@@ -212,14 +212,14 @@
           "IsToken": false
         },
         {
-          "Name": "sc_mission_red",
+          "Name": "sc_mission_red_3",
           "X": 38.1,
           "Y": 0.04,
           "Z": 15.24,
           "IsToken": false
         },
         {
-          "Name": "sc_mission_blue",
+          "Name": "sc_mission_blue_4",
           "X": -38.1,
           "Y": 0.04,
           "Z": -15.24,
@@ -259,14 +259,14 @@
           "IsToken": false
         },
         {
-          "Name": "sc_mission_red",
+          "Name": "sc_mission_red_3",
           "X": 38.1,
           "Y": 0.04,
           "Z": -30.48,
           "IsToken": false
         },
         {
-          "Name": "sc_mission_blue",
+          "Name": "sc_mission_blue_4",
           "X": -38.1,
           "Y": 0.04,
           "Z": -30.48,
@@ -306,14 +306,14 @@
           "IsToken": false
         },
         {
-          "Name": "sc_mission_red",
+          "Name": "sc_mission_red_3",
           "X": 38.1,
           "Y": 0.04,
           "Z": 15.24,
           "IsToken": false
         },
         {
-          "Name": "sc_mission_blue",
+          "Name": "sc_mission_blue_4",
           "X": -22.86,
           "Y": 0.04,
           "Z": -15.24,
@@ -353,14 +353,14 @@
           "IsToken": false
         },
         {
-          "Name": "sc_mission_red",
+          "Name": "sc_mission_red_3",
           "X": 53.34,
           "Y": 0.04,
           "Z": -30.48,
           "IsToken": false
         },
         {
-          "Name": "sc_mission_blue",
+          "Name": "sc_mission_blue_4",
           "X": 22.86,
           "Y": 0.04,
           "Z": -15.24,

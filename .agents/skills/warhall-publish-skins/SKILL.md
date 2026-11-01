@@ -115,3 +115,9 @@ Check `.cache/model-publication.json` for `sc_mission_*` entries. IDs 6201–620
 ## Agent push and upload authentication
 
 The user authorized locally saved credentials so the assistant can push and upload without collecting secrets in chat. One-time enrollment is `npm run models:credentials` in the user's own terminal; GitHub approval is `npm run auth:github`. Confirm only non-secret status and publish results. Never execute password-printing Keychain commands or `gh auth token` as tool calls. Stored Warhall passwords are read only inside the uploader's private subprocess and login path; no credential stdout is logged. Keychain access denial aborts. No Touch ID-per-upload guarantee is implemented. Test/prod entries remain isolated. After enrollment, authorized publishing can use `--login` noninteractively and Git can use its configured helper.
+
+## Numbered open mission rings (release 26)
+
+The current marker wave has five `kind: marker` entries, with red 1/3, blue 2/4 and green 5. Preserve stable canonical profile IDs for 1/2/5 and suffixed IDs for 3/4. `markerProfileId` links official deployment numbers to their distinct shared skins. Do not collapse these back to three color-only models. The ring and rails use actual open geometry with flat unlit materials and solid-color pixels, rather than a tinted alpha plane. The numeral is geometry; no center disc is generated. Keep the center at 32 mm and the outer diameter at 184.4 mm. Native Warhall selection-base rendering remains independent.
+
+Build and visually inspect all five assets, validate GLBs and references, push version 26 plus hosted files, then run the existing marker-only publisher with saved `--login`. Normal fingerprint reconciliation replaces the three owned old ring skins and creates profiles 3/4; protected native IDs 6201–6203 are never deleted. Report actual API results and request a fresh client deployment check rather than claiming live rendering from the offline preview.

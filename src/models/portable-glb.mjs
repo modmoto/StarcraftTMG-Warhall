@@ -72,6 +72,7 @@ export async function encodeGlb(geometry) {
       doubleSided: true,
       pbrMetallicRoughness: { metallicFactor: 0, roughnessFactor: 1 },
     };
+    if (geometryMesh.unlit) material.extensions = { KHR_materials_unlit: {} };
     if (geometryMesh.texture) {
       const t = geometryMesh.texture;
       const png = await sharp(t.data, { raw: { width: t.width, height: t.height, channels: 4 } })
@@ -109,6 +110,7 @@ export async function encodeGlb(geometry) {
     materials,
     images,
     textures,
+    ...(geometry.some(mesh => mesh.unlit) ? { extensionsUsed: ['KHR_materials_unlit'] } : {}),
     buffers: [{ byteLength: binary.length }],
     bufferViews: views,
     accessors,

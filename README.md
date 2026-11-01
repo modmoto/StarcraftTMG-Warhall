@@ -244,3 +244,7 @@ Release 24 removes parentheses from the second surge line: `Light` above `D3+1`,
 ### Local publishing authentication
 
 Warhall logins default to `modmoto`. Run `npm run auth:setup` once in your terminal to save the Warhall password in macOS Keychain and approve GitHub browser sign-in for this repo's Git helper. Afterwards the assistant can push and publish with `--login` without printing or repeatedly asking for passwords. This uses ordinary Keychain access, not a guaranteed Touch ID prompt per operation. See [local authentication and credential management](docs/local-authentication.md).
+
+### Open numbered mission rings (test release 26)
+
+Mission markers now use five shared skins: red 1/3, blue 2/4 and green 5. The range ring and sci-fi rails are actual open geometry, with digital numerals in the center and no filled backdrop. This avoids the tinted transparent-plane artifact. Measurement stays on the 32 mm footprint; deployment positions are preserved. Publish with `--kind marker` after pushing the generated files.
