@@ -4,13 +4,14 @@ Release 33 moves all game tokens into Warhall's **Tokens** menu. They are native
 
 Release 37 uses each shared skin's exact name as the WDS menu Id. Canonical `sc_token_*` publication IDs remain registered for compatibility; run `npm run models:menus -- --apply --login` to synchronize the menu aliases after publication. The publisher also updates aliases during future replacements. See [editor compatibility](wds-editor-compatibility.md) before saving any web-editor draft.
 
-The menu contains 16 separate tokens:
+The menu contains 17 separate tokens:
 
 - Blue movement arrow and blue assault crosshair.
 - Red movement arrow and red assault crosshair.
 - Terran blue/white, Protoss yellow/white and Zerg purple/white faction markers, with a separate inverted variant for each faction.
 - Blue Buff and red Debuff lightning bolts.
 - Stim syringe, Burrowed, Hidden and Siege Status reminders.
+- Shield: blue with a lighter-blue, large-cell hexagonal raster for Protoss shields.
 
 The artwork is generated in Node from SVG shapes and original faction logo paths in token-artwork/factions. The vectors come from [sc2-icons](https://github.com/sc2-pulse/sc2-icons), pinned to the revision and checksums in token-artwork/sources.json. Source headers and the MIT vectorization licence are retained. Paths render directly at final resolution for both token faces and faction dropdown logos.
 
@@ -26,7 +27,7 @@ Use the saved login; default target is Warhall Test. Normal fingerprint reconcil
 
 The faction dropdown uses icons.json with Type faction and exact faction names. These PNGs load directly through HTTPS and do not need shared skin registration. Scenario markers are separate 32 mm terrain profiles.
 
-After updating to release 33, refresh the shared catalogue and reopen the Tokens menu. Verify all 16 entries, single-face artwork, 25 mm size and placement on Mac/Windows. This does not claim a live client render test.
+After updating to release 33, refresh the shared catalogue and reopen the Tokens menu. Verify all 17 entries, single-face artwork, 25 mm size and placement on Mac/Windows. This does not claim a live client render test.
 
 ## Release 42: built-in Warhall tokens
 

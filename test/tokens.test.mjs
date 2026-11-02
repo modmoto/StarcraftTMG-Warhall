@@ -15,7 +15,7 @@ test('native tokens replace round cards and publish every distinct face', async 
     entry => entry.kind === 'token',
   );
   const artwork = (await read('token-artwork.json')).artwork;
-  assert.equal(tokens.length, 16);
+  assert.equal(tokens.length, 17);
   assert.equal(new Set(tokens.map(token => token.Id)).size, tokens.length);
   assert.equal(catalogue.length, tokens.length);
   assert.ok(!cards.some(card => card.Id.startsWith('sc_token_')));
@@ -46,6 +46,7 @@ test('native tokens replace round cards and publish every distinct face', async 
     'activation_blue_crosshair',
     'activation_red_arrow',
     'activation_red_crosshair',
+    'shield',
     'buff',
     'debuff',
   ]) {

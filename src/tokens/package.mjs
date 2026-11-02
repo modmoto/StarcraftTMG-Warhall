@@ -47,6 +47,13 @@ export const tokenDefinitions = [
     color,
     description: `Reminder for ${name}. Apply the unit's printed rules manually.`,
   })),
+  {
+    id: 'shield',
+    name: 'Shield',
+    symbol: 'shield',
+    color: '#194fa8',
+    description: 'Protoss shield counter. Track the remaining shields using the token notes.',
+  },
 ];
 
 export const builtinTokenNames = [

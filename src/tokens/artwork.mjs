@@ -4,7 +4,26 @@ import path from 'node:path';
 
 const arrow = '<path d="M256 102 378 242H310V374H202V242H134Z"/>';
 
+function shieldRaster() {
+  const radius = 80;
+  const height = Math.sqrt(3) * radius;
+  const cells = [];
+  for (let column = -2; column <= 2; column++) {
+    for (let row = -2; row <= 2; row++) {
+      const x = 256 + column * radius * 1.5;
+      const y = 256 + height * (row + column / 2);
+      const points = Array.from({ length: 6 }, (_, corner) => {
+        const angle = (corner * Math.PI) / 3;
+        return `${x + radius * Math.cos(angle)},${y + radius * Math.sin(angle)}`;
+      }).join(' ');
+      cells.push(`<polygon points="${points}"/>`);
+    }
+  }
+  return `<defs><clipPath id="shield-grid"><circle cx="256" cy="256" r="210"/></clipPath></defs><g clip-path="url(#shield-grid)" fill="none" stroke="currentColor" stroke-width="9" stroke-linejoin="round">${cells.join('')}</g>`;
+}
+
 const symbols = {
+  shield: shieldRaster(),
   arrow,
   crosshair:
     '<g fill="none" stroke="currentColor" stroke-width="22"><path d="M168 176V142H222M290 142H344V196M344 290V344H290M222 344H168V290M256 102V204M256 282V384M114 244H216M296 244H398"/><path d="M236 224H276V264H236Z" fill="currentColor" stroke="none"/></g>',
@@ -39,7 +58,7 @@ export async function tokenImage(root, token) {
   const symbol = token.symbol;
   const accent = token.color;
   const background = token.inverted ? '#f7f6ee' : accent;
-  const ink = token.inverted ? accent : '#ffffff';
+  const ink = symbol === 'shield' ? '#83d4ff' : token.inverted ? accent : '#ffffff';
   const logo = !symbols[symbol]
     ? await logoVector(root, symbol, ink, 'x="120" y="105" width="272" height="272"')
     : `<g color="${ink}" fill="${ink}">${symbols[symbol]}</g>`;
