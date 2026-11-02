@@ -18,7 +18,9 @@ test('all six maps use the reviewed PDF centers, rotations and calibrated footpr
     for (const [j, item] of map.Items.entries()) {
       const original = source.maps[i].items[j];
       const placement = calibration.maps[String(i + 1)][original.ttsGuid];
-      const asset = source.assets.find(asset => asset.id === original.id);
+      const asset = source.assets.find(
+        asset => asset.id === (calibration.assetAliases?.[original.id] ?? original.id),
+      );
       assert.equal(item.Id, terrainMenuId(asset));
       const [width, length] = calibration.assets[asset.name].footprintInches;
       const terrain = terrains.find(terrain => terrain.Id === item.Id);
@@ -28,7 +30,7 @@ test('all six maps use the reviewed PDF centers, rotations and calibrated footpr
       assert.ok(Math.abs(item.LongSide - 18 - placement.z) < 1e-8);
       assert.equal(item.Rotation, placement.rotation);
       assert.equal(item.Rotation % 15, 0);
-      const model = models.models.find(model => model.terrainId === original.id);
+      const model = models.models.find(model => model.terrainId === asset.id);
       assert.equal(model.calibration, 'pdf-grid-v1');
       assert.match(model.model.meshUrl, /model-assets\/.*\.glb$/);
       assert.equal(model.attachments.length, 0);

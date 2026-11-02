@@ -90,16 +90,6 @@
     "Shape": 0
   },
   {
-    "Id": "Starcraft - Terrain - Head Statue - 633ae2",
-    "Name": "Head Statue",
-    "Type": "Terrain",
-    "Description": "StarCraft terrain: Head Statue. PDF grid-calibrated footprint and layout. Resolve cover, elevation and movement using the rulebook.",
-    "Width": 7.3025,
-    "Length": 10.795,
-    "Height": 2.7240816407041564,
-    "Shape": 0
-  },
-  {
     "Id": "Starcraft - Terrain - Head Statue - acfebe",
     "Name": "Head Statue",
     "Type": "Terrain",
@@ -117,36 +107,6 @@
     "Width": 37.465,
     "Length": 20.32,
     "Height": 9.988552648976038,
-    "Shape": 0
-  },
-  {
-    "Id": "Starcraft - Terrain - Protoss Banner - 444def",
-    "Name": "Protoss Banner",
-    "Type": "Terrain",
-    "Description": "StarCraft terrain: Protoss Banner. PDF grid-calibrated footprint and layout. Resolve cover, elevation and movement using the rulebook.",
-    "Width": 5.08,
-    "Length": 3.175,
-    "Height": 9.595509080159468,
-    "Shape": 0
-  },
-  {
-    "Id": "Starcraft - Terrain - Protoss Banner - 4f6364",
-    "Name": "Protoss Banner",
-    "Type": "Terrain",
-    "Description": "StarCraft terrain: Protoss Banner. PDF grid-calibrated footprint and layout. Resolve cover, elevation and movement using the rulebook.",
-    "Width": 5.08,
-    "Length": 3.175,
-    "Height": 9.595508567940254,
-    "Shape": 0
-  },
-  {
-    "Id": "Starcraft - Terrain - Protoss Banner - ce2914",
-    "Name": "Protoss Banner",
-    "Type": "Terrain",
-    "Description": "StarCraft terrain: Protoss Banner. PDF grid-calibrated footprint and layout. Resolve cover, elevation and movement using the rulebook.",
-    "Width": 5.08,
-    "Length": 3.175,
-    "Height": 9.595508476855862,
     "Shape": 0
   },
   {

@@ -251,37 +251,6 @@
       "policy": "Preserve separate parent/attachment XYZ scales, bake attachments into one portable GLB, then fit the reviewed PDF footprint. Height retains the authored TTS scale."
     },
     {
-      "id": "sc_terrain_0e9238ef444f6364",
-      "name": "Protoss Banner",
-      "parts": [
-        {
-          "meshSha256": "adf697d6bdaabd8e1f082444d73c81e1f8cda139452d75b641b2eb22c90069be",
-          "textureSha256": "7bc6e5fa1f4da645a555d6bf19a3507b1d549f17462323b6e7da3f7509bdf571"
-        },
-        {
-          "meshSha256": "4b1e5f97b4f057a36491c8a7ea4cd211c0ffebb5e7d3a0a0cb2d03d1e723969c",
-          "textureSha256": "13349d2d307f54321bf4d0cfb24a5627f1722bc35250f15900281007f60d6bc4"
-        }
-      ],
-      "sourceScale": [
-        1.0999999,
-        1.0999999,
-        1.0999999
-      ],
-      "footprintYaw": 0,
-      "sourceSizeInches": [
-        1.849370840176944,
-        3.777759278716635,
-        0.8956930382899497
-      ],
-      "calibratedSizeInches": [
-        2,
-        3.777759278716635,
-        1.25
-      ],
-      "policy": "Preserve separate parent/attachment XYZ scales, bake attachments into one portable GLB, then fit the reviewed PDF footprint. Height retains the authored TTS scale."
-    },
-    {
       "id": "sc_terrain_f910561ff3ef2272",
       "name": "Wall Set 6",
       "parts": [
@@ -332,37 +301,6 @@
         7,
         5.210465,
         1.375
-      ],
-      "policy": "Preserve separate parent/attachment XYZ scales, bake attachments into one portable GLB, then fit the reviewed PDF footprint. Height retains the authored TTS scale."
-    },
-    {
-      "id": "sc_terrain_696320bc52444def",
-      "name": "Protoss Banner",
-      "parts": [
-        {
-          "meshSha256": "adf697d6bdaabd8e1f082444d73c81e1f8cda139452d75b641b2eb22c90069be",
-          "textureSha256": "7a24725d0aef456d35336e20010014f71c2dd578e3e6c47f59f9f18e91131a61"
-        },
-        {
-          "meshSha256": "4b1e5f97b4f057a36491c8a7ea4cd211c0ffebb5e7d3a0a0cb2d03d1e723969c",
-          "textureSha256": "13349d2d307f54321bf4d0cfb24a5627f1722bc35250f15900281007f60d6bc4"
-        }
-      ],
-      "sourceScale": [
-        1.0999999,
-        1.0999999,
-        1.0999999
-      ],
-      "footprintYaw": 0,
-      "sourceSizeInches": [
-        1.8493708829837407,
-        3.7777594803777435,
-        0.8956929247517122
-      ],
-      "calibratedSizeInches": [
-        2,
-        3.7777594803777435,
-        1.25
       ],
       "policy": "Preserve separate parent/attachment XYZ scales, bake attachments into one portable GLB, then fit the reviewed PDF footprint. Height retains the authored TTS scale."
     },
@@ -425,33 +363,6 @@
       "policy": "Preserve separate parent/attachment XYZ scales, bake attachments into one portable GLB, then fit the reviewed PDF footprint. Height retains the authored TTS scale."
     },
     {
-      "id": "sc_terrain_e45c33c511633ae2",
-      "name": "Head Statue",
-      "parts": [
-        {
-          "meshSha256": "24a8c32a2782e14b26883958c8ecad2bae8820104b0798032bad501dcd6aebd9",
-          "textureSha256": "7387933dc2de5e73af8ad73fc8c151efaf425623150a7f7b65e7ed9d0f0d07dd"
-        }
-      ],
-      "sourceScale": [
-        0.856843054,
-        0.5474019,
-        0.8568426
-      ],
-      "footprintYaw": 0,
-      "sourceSizeInches": [
-        3.61864100672915,
-        1.0724730868914,
-        3.8534542333872004
-      ],
-      "calibratedSizeInches": [
-        2.875,
-        1.0724730868914,
-        4.25
-      ],
-      "policy": "Preserve separate parent/attachment XYZ scales, bake attachments into one portable GLB, then fit the reviewed PDF footprint. Height retains the authored TTS scale."
-    },
-    {
       "id": "sc_terrain_f2dd0d048a087d53",
       "name": "High Ground",
       "parts": [
@@ -509,37 +420,6 @@
       "calibratedSizeInches": [
         2,
         3.777759278716635,
-        1.25
-      ],
-      "policy": "Preserve separate parent/attachment XYZ scales, bake attachments into one portable GLB, then fit the reviewed PDF footprint. Height retains the authored TTS scale."
-    },
-    {
-      "id": "sc_terrain_677b1df2f3ce2914",
-      "name": "Protoss Banner",
-      "parts": [
-        {
-          "meshSha256": "adf697d6bdaabd8e1f082444d73c81e1f8cda139452d75b641b2eb22c90069be",
-          "textureSha256": "ef12a70ff2a1b69dd7de15da2d6496254788db79d9563ed7f1a46313eabed57a"
-        },
-        {
-          "meshSha256": "4b1e5f97b4f057a36491c8a7ea4cd211c0ffebb5e7d3a0a0cb2d03d1e723969c",
-          "textureSha256": "13349d2d307f54321bf4d0cfb24a5627f1722bc35250f15900281007f60d6bc4"
-        }
-      ],
-      "sourceScale": [
-        1.0999999,
-        1.0999999,
-        1.0999999
-      ],
-      "footprintYaw": 0,
-      "sourceSizeInches": [
-        1.849370840176944,
-        3.7777592428566384,
-        0.8956930382899497
-      ],
-      "calibratedSizeInches": [
-        2,
-        3.7777592428566384,
         1.25
       ],
       "policy": "Preserve separate parent/attachment XYZ scales, bake attachments into one portable GLB, then fit the reviewed PDF footprint. Height retains the authored TTS scale."

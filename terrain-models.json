@@ -192,33 +192,6 @@
       "attachments": []
     },
     {
-      "terrainId": "sc_terrain_0e9238ef444f6364",
-      "unitName": "Terrain - Protoss Banner - 4f6364",
-      "status": "selected",
-      "calibration": "pdf-grid-v1",
-      "sourcePartCount": 2,
-      "model": {
-        "meshUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/15d6fbca5ade6c07667af63ec84eb0e8a823a4ce079b2faf9fdbed0ce2079546.glb",
-        "textureUrl": null,
-        "hostedAsset": true,
-        "previewGeometryFile": "model-assets/15d6fbca5ade6c07667af63ec84eb0e8a823a4ce079b2faf9fdbed0ce2079546.glb.preview.json"
-      },
-      "layout": {
-        "size": 0.39370078740157477,
-        "position": [
-          0,
-          0.03,
-          0
-        ],
-        "rotation": [
-          0,
-          0,
-          0
-        ]
-      },
-      "attachments": []
-    },
-    {
       "terrainId": "sc_terrain_f910561ff3ef2272",
       "unitName": "Terrain - Wall Set 6 - ef2272",
       "status": "selected",
@@ -256,33 +229,6 @@
         "textureUrl": null,
         "hostedAsset": true,
         "previewGeometryFile": "model-assets/c43892d4b306f0f81e516133665ed69ce5cca881fe626756edfe11e3f4f2a8c4.glb.preview.json"
-      },
-      "layout": {
-        "size": 0.39370078740157477,
-        "position": [
-          0,
-          0.03,
-          0
-        ],
-        "rotation": [
-          0,
-          0,
-          0
-        ]
-      },
-      "attachments": []
-    },
-    {
-      "terrainId": "sc_terrain_696320bc52444def",
-      "unitName": "Terrain - Protoss Banner - 444def",
-      "status": "selected",
-      "calibration": "pdf-grid-v1",
-      "sourcePartCount": 2,
-      "model": {
-        "meshUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/511449a0c91f4f26002f3eed217a99fb4fb52db46a431bdff8d597b7b65dcdca.glb",
-        "textureUrl": null,
-        "hostedAsset": true,
-        "previewGeometryFile": "model-assets/511449a0c91f4f26002f3eed217a99fb4fb52db46a431bdff8d597b7b65dcdca.glb.preview.json"
       },
       "layout": {
         "size": 0.39370078740157477,
@@ -354,33 +300,6 @@
       "attachments": []
     },
     {
-      "terrainId": "sc_terrain_e45c33c511633ae2",
-      "unitName": "Terrain - Head Statue - 633ae2",
-      "status": "selected",
-      "calibration": "pdf-grid-v1",
-      "sourcePartCount": 1,
-      "model": {
-        "meshUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/4281455656e4a541b50e1be512abf3c5355cf20da2a22b5356d9808abed87a9c.glb",
-        "textureUrl": null,
-        "hostedAsset": true,
-        "previewGeometryFile": "model-assets/4281455656e4a541b50e1be512abf3c5355cf20da2a22b5356d9808abed87a9c.glb.preview.json"
-      },
-      "layout": {
-        "size": 0.39370078740157477,
-        "position": [
-          0,
-          0.03,
-          0
-        ],
-        "rotation": [
-          0,
-          0,
-          0
-        ]
-      },
-      "attachments": []
-    },
-    {
       "terrainId": "sc_terrain_f2dd0d048a087d53",
       "unitName": "Terrain - High Ground - 087d53",
       "status": "selected",
@@ -418,33 +337,6 @@
         "textureUrl": null,
         "hostedAsset": true,
         "previewGeometryFile": "model-assets/c5aa952f86f8c1d980daa89e947fd07aba7c9b8d791b5cdf30b74e28d0372942.glb.preview.json"
-      },
-      "layout": {
-        "size": 0.39370078740157477,
-        "position": [
-          0,
-          0.03,
-          0
-        ],
-        "rotation": [
-          0,
-          0,
-          0
-        ]
-      },
-      "attachments": []
-    },
-    {
-      "terrainId": "sc_terrain_677b1df2f3ce2914",
-      "unitName": "Terrain - Protoss Banner - ce2914",
-      "status": "selected",
-      "calibration": "pdf-grid-v1",
-      "sourcePartCount": 2,
-      "model": {
-        "meshUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/04155cec3d43f552f7f960baae0004790107376b05355e46580db8dbdd668b60.glb",
-        "textureUrl": null,
-        "hostedAsset": true,
-        "previewGeometryFile": "model-assets/04155cec3d43f552f7f960baae0004790107376b05355e46580db8dbdd668b60.glb.preview.json"
       },
       "layout": {
         "size": 0.39370078740157477,

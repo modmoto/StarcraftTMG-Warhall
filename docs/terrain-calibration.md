@@ -38,3 +38,7 @@ npm run models:publish -- --kind terrain --apply --login --replace --accept-publ
 Default target is Warhall Test. Unit skins, marker skins and deployment-line skins are separate batches. The publisher includes updated screenshots and removes old owned terrain skins only after the new assignment succeeds. Refresh the shared catalogue, update Starcraft and reload a fresh map. Confirm the L-wall/base alignment, wall joins, relative shard/head size and ramps on Mac and Windows. Local rendering and glTF validation do not establish live client success.
 
 Imported ramps still need the client-side elevated-ground support described in `warhall-client-terrain-support.md` for units to stand on their mesh surfaces. Correct geometry does not add that client feature.
+
+## Release 39: shared statue and banner variants
+
+Only Head Statue acfebe and the dark green Protoss Banner d26342 are generated. terrain-calibration.json assetAliases maps the removed statue 633ae2 and three other banner variants to these retained source assets. All six maps retain their placement counts, positions, rotations and calibrated footprints. The menu has 13 map models plus eight deployment overlays. Old cloud skin registrations remain available for saved games; no unchanged meshes need uploading.

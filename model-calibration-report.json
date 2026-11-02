@@ -1944,43 +1944,6 @@
     ]
   },
   {
-    "profileId": "sc_terrain_0e9238ef444f6364",
-    "name": "Starcraft - Terrain - Protoss Banner - 4f6364",
-    "kind": "terrain",
-    "authoredSizeMm": [
-      50.79999999999999,
-      95.95508567940252,
-      31.749999999999993
-    ],
-    "correctedSizeMm": [
-      50.79999999999999,
-      95.95508567940252,
-      31.749999999999993
-    ],
-    "scaleAdjustment": 1,
-    "portableParts": 0,
-    "sourceParts": [
-      {
-        "format": "glb",
-        "sourceSize": [
-          5.08,
-          9.595508567940254,
-          3.175
-        ],
-        "cacheScale": 0.39370078740157477,
-        "apiScale": 0.39370078740157477,
-        "partCount": 1
-      }
-    ],
-    "rotations": [
-      [
-        0,
-        0,
-        0
-      ]
-    ]
-  },
-  {
     "profileId": "sc_terrain_f910561ff3ef2272",
     "name": "Starcraft - Terrain - Wall Set 6 - ef2272",
     "kind": "terrain",
@@ -2040,43 +2003,6 @@
           17.78,
           13.2345811,
           3.4925
-        ],
-        "cacheScale": 0.39370078740157477,
-        "apiScale": 0.39370078740157477,
-        "partCount": 1
-      }
-    ],
-    "rotations": [
-      [
-        0,
-        0,
-        0
-      ]
-    ]
-  },
-  {
-    "profileId": "sc_terrain_696320bc52444def",
-    "name": "Starcraft - Terrain - Protoss Banner - 444def",
-    "kind": "terrain",
-    "authoredSizeMm": [
-      50.79999999999999,
-      95.95509080159466,
-      31.749999999999993
-    ],
-    "correctedSizeMm": [
-      50.79999999999999,
-      95.95509080159466,
-      31.749999999999993
-    ],
-    "scaleAdjustment": 1,
-    "portableParts": 0,
-    "sourceParts": [
-      {
-        "format": "glb",
-        "sourceSize": [
-          5.08,
-          9.595509080159468,
-          3.175
         ],
         "cacheScale": 0.39370078740157477,
         "apiScale": 0.39370078740157477,
@@ -2166,43 +2092,6 @@
     ]
   },
   {
-    "profileId": "sc_terrain_e45c33c511633ae2",
-    "name": "Starcraft - Terrain - Head Statue - 633ae2",
-    "kind": "terrain",
-    "authoredSizeMm": [
-      73.02499999999999,
-      27.24081640704156,
-      107.94999999999999
-    ],
-    "correctedSizeMm": [
-      73.02499999999999,
-      27.24081640704156,
-      107.94999999999999
-    ],
-    "scaleAdjustment": 1,
-    "portableParts": 0,
-    "sourceParts": [
-      {
-        "format": "glb",
-        "sourceSize": [
-          7.3025,
-          2.7240816407041564,
-          10.795
-        ],
-        "cacheScale": 0.39370078740157477,
-        "apiScale": 0.39370078740157477,
-        "partCount": 1
-      }
-    ],
-    "rotations": [
-      [
-        0,
-        0,
-        0
-      ]
-    ]
-  },
-  {
     "profileId": "sc_terrain_f2dd0d048a087d53",
     "name": "Starcraft - Terrain - High Ground - 087d53",
     "kind": "terrain",
@@ -2261,43 +2150,6 @@
         "sourceSize": [
           5.08,
           9.595508567940254,
-          3.175
-        ],
-        "cacheScale": 0.39370078740157477,
-        "apiScale": 0.39370078740157477,
-        "partCount": 1
-      }
-    ],
-    "rotations": [
-      [
-        0,
-        0,
-        0
-      ]
-    ]
-  },
-  {
-    "profileId": "sc_terrain_677b1df2f3ce2914",
-    "name": "Starcraft - Terrain - Protoss Banner - ce2914",
-    "kind": "terrain",
-    "authoredSizeMm": [
-      50.79999999999999,
-      95.9550847685586,
-      31.749999999999993
-    ],
-    "correctedSizeMm": [
-      50.79999999999999,
-      95.9550847685586,
-      31.749999999999993
-    ],
-    "scaleAdjustment": 1,
-    "portableParts": 0,
-    "sourceParts": [
-      {
-        "format": "glb",
-        "sourceSize": [
-          5.08,
-          9.595508476855862,
           3.175
         ],
         "cacheScale": 0.39370078740157477,

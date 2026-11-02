@@ -2602,5 +2602,11 @@
       "b": "ea8822",
       "gapInches": 0.1366
     }
-  ]
+  ],
+  "assetAliases": {
+    "sc_terrain_e45c33c511633ae2": "sc_terrain_d903fea321acfebe",
+    "sc_terrain_0e9238ef444f6364": "sc_terrain_442da683d2d26342",
+    "sc_terrain_696320bc52444def": "sc_terrain_442da683d2d26342",
+    "sc_terrain_677b1df2f3ce2914": "sc_terrain_442da683d2d26342"
+  }
 }

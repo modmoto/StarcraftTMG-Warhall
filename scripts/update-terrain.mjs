@@ -37,7 +37,20 @@ async function download(url, extension) {
   await writeFile(file, bytes);
   return bytes;
 }
-for (const asset of source.assets) {
+const aliases = calibration.assetAliases ?? {};
+const canonicalAsset = id => {
+  const asset = source.assets.find(asset => asset.id === (aliases[id] ?? id));
+  assert.ok(asset && !aliases[asset.id], `Invalid terrain alias: ${id}`);
+  return asset;
+};
+for (const [id, target] of Object.entries(aliases)) {
+  assert.ok(
+    source.assets.some(asset => asset.id === id),
+    `Unknown terrain alias: ${id}`,
+  );
+  assert.equal(source.assets.find(asset => asset.id === id).name, canonicalAsset(target).name);
+}
+for (const asset of source.assets.filter(asset => !aliases[asset.id])) {
   const definition = calibration.assets[asset.name];
   assert.ok(definition, `Missing PDF size calibration: ${asset.name}`);
   const parts = [],
@@ -122,7 +135,7 @@ const maps = source.maps.map(map => ({
     const placement = calibration.maps[String(map.number)][item.ttsGuid];
     assert.ok(placement, `Missing reviewed placement: ${map.number}/${item.ttsGuid}`);
     return {
-      Id: terrainMenuId(source.assets.find(asset => asset.id === item.id)),
+      Id: terrainMenuId(canonicalAsset(item.id)),
       Quadrant: 1,
       Rotation: placement.rotation,
       ShortSide: 27 - placement.x,
