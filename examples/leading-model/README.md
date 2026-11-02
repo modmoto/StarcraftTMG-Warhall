@@ -4,14 +4,24 @@ Highest-priority Warhall feature. This is a standalone planning example, **not a
 
 ![Numbered leading-model formation and previous unit position](../../docs/images/leading-model-placement.png)
 
-## Intended behavior
+## Movement workflow
 
-1. Choose one of the two alternative input schemes below. In **explicit L mode**, select a model and press **L** to mark it as the leader; dragging only that model invokes whole-unit placement. Other models move individually and never create another circle or change the leader. In **modifier mode**, normal left-drag invokes whole-unit placement; **Shift-drag or Ctrl-drag** moves only the dragged model/explicit subset. Modifier mode does not require pressing L first; select one modifier binding during integration. These are alternatives, not combined requirements.
-2. Before whole-unit movement, snapshot the **whole unit**. The chosen input scheme supplies the anchor model and its destination to the planner. Show dotted ghosts of the old bases, mark the old anchor L and draw its old-to-new movement arrow. Both players see the same ghosts and coherency ring. If offering automatic anchor selection, `ClosestModel` finds the old model closest to the destination; never silently replace an explicitly marked leader.
-3. The drag direction defines forward. Place follower **1** at the forward-most point on the allowed circular boundary. Continue around the front semicircle alternating **left, right, left, right**, with touching, non-overlapping bases. Preserve the exact circular outer arc ahead of compact packing.
-4. After that outer rank is full, fill inward gaps, searching from larger radii toward smaller radii and from forward toward the sides. Use the rear half only if the front cannot accommodate the unit. Number followers in placement order; the leader is **L**, not number 1.
-5. Individual adjustment follows the chosen scheme: ordinary non-leader dragging in explicit L mode, or modifier-dragging in modifier mode. It moves only the dragged model or explicitly selected subset. It must not create another circle, mark a new leader or rearrange the other models. Turn the shared ring red if the actual unit is out of coherency. Recompute this from real positions, not the proposed plan.
-6. **Ctrl+Z undoes the whole unit move**, restoring all models from the pre-drag snapshot. Treat the leader move and automatic follower moves as one undo/network transaction. Later manual adjustments should remain separate undo actions.
+1. Select a model and press **L** to mark it as the unit's **leading model**. This remains the leader until explicitly changed.
+2. Drag that leading model to its new position. This **one drag** also places the rest of the unit around it. Before moving anything, snapshot the whole unit for ghosts and undo. The leader's drag direction defines forward.
+3. Place follower **1** at the forward-most point on the allowed circular boundary. Continue around the front semicircle alternating **left, right, left, right**, with touching, non-overlapping bases. The exact circular outer arc takes priority over compact rows.
+4. Once the front outer rank is full, fill inward gaps from larger radii to smaller radii, favoring forward placement. Use the rear half only if needed. Label the leader **L** and followers **1–17** in placement order for the illustrated 18-model unit.
+5. Both players see the coherency circle, dotted outlines of the unit's previous positions, the old leader marked L and its movement arrow. Turn the circle red whenever the actual unit is out of coherency.
+6. After automatic placement, drag individual **non-leading** models to fine-adjust them. These drags move only that model: no new leader, no additional circle and no rearrangement of the rest of the unit.
+7. **Ctrl+Z undoes the whole unit move**, restoring the pre-drag snapshot as one undo/network transaction. Later individual adjustments are separate undo actions.
+
+## Alternative input workflow: automatically mark the dragged model
+
+Instead of requiring an L keypress first:
+
+1. Click and drag any model normally. **That exact clicked model automatically becomes the leading model**. Move it to the destination and place the whole unit using the same algorithm, ghosts, coherency feedback and undo behavior described above.
+2. Once the unit has been placed, **Shift-click and drag**, or alternatively **Ctrl-click and drag**, an individual **non-leading** model to fine-adjust only that model. The modifier prevents a new leader from being assigned and prevents the whole unit from moving again. Choose one modifier binding during integration.
+
+This is an alternative to the explicit L workflow, not an extra prerequisite for it. In this alternative, do not substitute the closest model or a previously marked leader for the model the player actually clicked.
 
 ## Inputs and a minimal call
 
@@ -65,7 +75,7 @@ This is a **greedy placement heuristic**, not proof of globally optimal packing 
 ## Unity wiring
 
 - **Explicit L mode:** pressing L marks the selected model, replacing the previous leader. Call the planner only when `draggedModelId == unit.LeaderModelId`; all other drags remain individual moves.
-- **Alternative modifier mode:** normal left-drag invokes whole-unit placement; Shift-drag or Ctrl-drag bypasses the planner for individual adjustment. No prior L keypress is required. Supply the selected/automatic anchor index and destination explicitly. Do not apply this rule together with explicit L-mode drag gating.
+- **Alternative modifier mode:** normal left-drag invokes whole-unit placement; Shift-drag or Ctrl-drag bypasses the planner for individual adjustment. No prior L keypress is required. Assign `leaderIndex = draggedModelIndex` on a normal drag and use that exact model as the anchor. Modifier-dragging a follower preserves the current leader and moves only that follower. Do not apply this rule together with explicit L-mode drag gating.
 - Convert Unity X/Z coordinates to millimetres before calling; convert back afterward. Do not assume one Unity unit equals one metre—use Warhall's existing board conversion.
 - Preserve each model's identity, rotation and height in the actual undo snapshot. Project planned positions onto legal ground/elevated-ground surfaces separately; the algorithm is 2D.
 - During a drag, preview locally. At commit, the authoritative client/server validates and sends one final plan plus the ghost snapshot to both players. Do not independently recompute approximate packing on each peer.
