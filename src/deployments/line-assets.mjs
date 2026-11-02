@@ -20,7 +20,31 @@ export function lineGeometry(template, thickness = 1, color = [235, 242, 255]) {
       if (Math.abs(Math.sin(angle)) > 0.5) x += (Math.sign(x) * thickness) / 2;
       else z += (Math.sign(z) * thickness) / 2;
     }
-    const length = Number(line.sizeX) * 2.54 + (line.color ? thickness : 0);
+    const length = Number(line.sizeX) * 2.54;
+    const cornerExtension = along => {
+      if (!line.color) return 0;
+      const ex = Number(line.posX) * 2.54 + ((along * length) / 2) * Math.cos(angle);
+      const ez = Number(line.posY) * 2.54 + ((along * length) / 2) * Math.sin(angle);
+      return template.lines.some(other => {
+        if (other === line || other.color !== line.color) return false;
+        const oa = (Number(other.rotationY) * Math.PI) / 180;
+        if (Math.abs(Math.sin(oa - angle)) < 0.99) return false;
+        return [-1, 1].some(
+          end =>
+            Math.hypot(
+              Number(other.posX) * 2.54 +
+                ((end * Number(other.sizeX) * 2.54) / 2) * Math.cos(oa) -
+                ex,
+              Number(other.posY) * 2.54 +
+                ((end * Number(other.sizeX) * 2.54) / 2) * Math.sin(oa) -
+                ez,
+            ) < 1e-6,
+        );
+      })
+        ? thickness
+        : 0;
+    };
+    const extensions = { [-1]: cornerExtension(-1), [1]: cornerExtension(1) };
     if (![angle, x, z, length].every(Number.isFinite) || length <= 0)
       throw new Error(`Invalid deployment line: ${template.deploymentName}`);
     const first = vertices.length;
@@ -31,7 +55,7 @@ export function lineGeometry(template, thickness = 1, color = [235, 242, 255]) {
         [1, 1],
         [1, -1],
       ]) {
-        const a = (along * length) / 2,
+        const a = along * (length / 2 + extensions[along]),
           b = (across * thickness) / 2;
         vertices.push([
           x + a * Math.cos(angle) - b * Math.sin(angle),

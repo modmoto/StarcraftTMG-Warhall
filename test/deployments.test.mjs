@@ -286,21 +286,33 @@ test('widened red and blue strips never intrude into the battlefield', async () 
   }
 });
 
-test('outward strips overlap at a right-angle corner', async () => {
+test('same-colour corner strips cover the outer corner square', async () => {
   const { lineGeometry } = await import('../src/deployments/line-assets.mjs');
-  const horizontal = lineGeometry({
+  const mesh = lineGeometry({
     deploymentName: 'corner',
-    lines: [{ color: 'blue', posX: 24, posY: 18, sizeX: 6, rotationY: 0 }],
+    lines: [
+      { color: 'blue', posX: 24, posY: 18, sizeX: 6, rotationY: 0 },
+      { color: 'blue', posX: 27, posY: 15, sizeX: 6, rotationY: 90 },
+    ],
   });
-  const vertical = lineGeometry({
-    deploymentName: 'corner',
-    lines: [{ color: 'blue', posX: 27, posY: 15, sizeX: 6, rotationY: 90 }],
-  });
-  for (const mesh of [horizontal, vertical]) {
+  for (let i = 0; i < 16; i += 8)
     for (const axis of [0, 2]) {
-      const corner = (axis === 0 ? 27 : 18) * 2.54 + 0.25;
-      assert.ok(Math.min(...mesh.vertices.map(v => v[axis])) < corner);
-      assert.ok(Math.max(...mesh.vertices.map(v => v[axis])) > corner);
+      const points = mesh.vertices.slice(i, i + 8);
+      const corner = (axis === 0 ? 27 : 18) * 2.54 + 0.99;
+      assert.ok(Math.min(...points.map(v => v[axis])) < corner);
+      assert.ok(Math.max(...points.map(v => v[axis])) > corner);
     }
-  }
+});
+
+test('red and blue strips meet flush without coplanar overlap', async () => {
+  const { lineGeometry } = await import('../src/deployments/line-assets.mjs');
+  const mesh = lineGeometry({
+    deploymentName: 'meeting',
+    lines: [
+      { color: 'red', posX: -3, posY: 18, sizeX: 6, rotationY: 0 },
+      { color: 'blue', posX: 3, posY: 18, sizeX: 6, rotationY: 0 },
+    ],
+  });
+  assert.equal(Math.max(...mesh.vertices.slice(0, 8).map(v => v[0])), 0);
+  assert.equal(Math.min(...mesh.vertices.slice(8).map(v => v[0])), 0);
 });
