@@ -279,7 +279,7 @@ export async function buildWarhallPackage(source, template = defaultDataDirector
     if (!/(?:^|\/)rules\.json$/.test(file)) continue;
     for (const rule of records) {
       if (rule.Name && rule.Description?.includes('<b>Upgrade ability</b>'))
-        rule.Name = `<color=#4da6ff>${rule.Name}</color>`;
+        rule.Name = `<color=#2596be>${rule.Name}</color>`;
     }
   }
 

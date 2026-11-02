@@ -66,7 +66,7 @@ test('Kinetic Foam changes the top HP row from 5 to 6 and selected blue rules pr
     for (const name of order) {
       const index = selected.findIndex(row => plain(row.Name).toLowerCase() === name.toLowerCase());
       assert.ok(defaultRule < index && index < phase);
-      assert.match(selected[index].Name, /^<color=#4da6ff>/);
+      assert.match(selected[index].Name, /^<color=#2596be>/);
     }
     assert.doesNotMatch(selected[defaultRule].Name, /color=/);
   }
@@ -79,7 +79,7 @@ test('Raynor C-14 Rifle replaces Commando Rifle without changing the other weapo
   assert.ok(weapons(selected).includes('C-14 RIFLE'));
   assert.equal(weapons(selected).length, 3);
   const choice = selected.find(row => plain(row.Name) === 'C-14 Rifle');
-  assert.match(choice.Name, /color=#4da6ff/);
+  assert.match(choice.Name, /color=#2596be/);
   assert.ok(
     selected.indexOf(choice) <
       selected.findIndex(row => row.Description === '<b>Assault Phase</b>'),
@@ -132,4 +132,17 @@ test('option IDs are readable names so the native generic importer can match exp
   assert.ok(data['options.json'].length > 0);
   assert.ok(data['options.json'].every(option => option.Id === option.Name && option.Type === 1));
   assert.ok(data['options.json'].some(option => option.Id === 'Kinetic Foam'));
+});
+
+test('profile groups render inline and weapon headers stay unlinked', () => {
+  const records = Object.values(data).flat();
+  const groups = records.filter(row => /_(?:stats|selected_options|slot)$/.test(row.Id ?? ''));
+  assert.ok(groups.length > 0);
+  for (const row of groups) assert.equal(row.Type, 'Profile', row.Id);
+  const tables = records.filter(row => row.Id?.endsWith('_table'));
+  assert.ok(tables.length > 0);
+  for (const row of tables) {
+    assert.doesNotMatch(row.Description, /<link=/, row.Id);
+    assert.match(row.Description, /<color=#2596be>/);
+  }
 });

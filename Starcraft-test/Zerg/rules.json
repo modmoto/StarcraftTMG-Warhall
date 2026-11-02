@@ -16,7 +16,7 @@
   {
     "Id": "pdf_Zerg_equipment_bile_launcher_default_2_slot",
     "Name": "",
-    "Type": "",
+    "Type": "Profile",
     "Description": "",
     "Children": [
       {
@@ -34,7 +34,7 @@
     "Id": "pdf_Zerg_equipment_bile_launcher_default_2_table",
     "Name": "",
     "Type": "",
-    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr><u><link=\"rule_chapter_8_7_4\">Surge</link></u></nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>12</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>6</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>L&A (D3)</nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>12</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>6</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>L&A (D3)</nobr><pos=86%><nobr>1</nobr></b></size></align>",
     "Children": []
   },
   {
@@ -47,7 +47,7 @@
   {
     "Id": "pdf_Zerg_equipment_corpsers_roach_default_2_slot",
     "Name": "",
-    "Type": "",
+    "Type": "Profile",
     "Description": "",
     "Children": [
       {
@@ -62,7 +62,7 @@
     "Id": "pdf_Zerg_equipment_corpsers_roach_default_2_table",
     "Name": "",
     "Type": "",
-    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr><u><link=\"rule_chapter_8_7_4\">Surge</link></u></nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>8</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>2</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>8</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>2</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align>",
     "Children": []
   },
   {
@@ -75,7 +75,7 @@
   {
     "Id": "pdf_Zerg_equipment_corpsers_roach_default_4_slot",
     "Name": "",
-    "Type": "",
+    "Type": "Profile",
     "Description": "",
     "Children": [
       {
@@ -90,7 +90,7 @@
     "Id": "pdf_Zerg_equipment_corpsers_roach_default_4_table",
     "Name": "",
     "Type": "",
-    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr><u><link=\"rule_chapter_8_7_4\">Surge</link></u></nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>3</nobr><pos=46%><nobr>4+</nobr><pos=59%><nobr>Light (D3+1)</nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>3</nobr><pos=46%><nobr>4+</nobr><pos=59%><nobr>Light (D3+1)</nobr><pos=86%><nobr>1</nobr></b></size></align>",
     "Children": []
   },
   {
@@ -103,7 +103,7 @@
   {
     "Id": "pdf_Zerg_equipment_defiler_default_3_slot",
     "Name": "",
-    "Type": "",
+    "Type": "Profile",
     "Description": "",
     "Children": [
       {
@@ -118,12 +118,12 @@
     "Id": "pdf_Zerg_equipment_defiler_default_3_table",
     "Name": "",
     "Type": "",
-    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr><u><link=\"rule_chapter_8_7_4\">Surge</link></u></nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>4</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>4</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align>",
     "Children": []
   },
   {
     "Id": "pdf_Zerg_equipment_defiler_upgrade_2_choice",
-    "Name": "<color=#4da6ff>Cancerous Bite</color>",
+    "Name": "<color=#2596be>Cancerous Bite</color>",
     "Type": "Rule",
     "Description": "<b>Upgrade ability</b>\n\nCombat Weapon\nRng: E\nTgt: Ground\nRoA: 2\nHit: 3+\n<u><link=\"rule_chapter_8_7_4\">Surge</link></u>: -\nS.Die: -\nDmg: 2\nKeyword: <u><link=\"rule_keyword_critical_hit\">CRITICAL HIT</link></u> (1), <u><link=\"rule_keyword_sidearm\">SIDEARM</link></u>"
   },
@@ -145,7 +145,7 @@
     "Id": "pdf_Zerg_equipment_defiler_upgrade_2_table",
     "Name": "",
     "Type": "",
-    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr><u><link=\"rule_chapter_8_7_4\">Surge</link></u></nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>2</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>2</nobr></b></size></align>",
+    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>2</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>2</nobr></b></size></align>",
     "Children": []
   },
   {
@@ -158,7 +158,7 @@
   {
     "Id": "pdf_Zerg_equipment_hydralisks_default_1_slot",
     "Name": "",
-    "Type": "",
+    "Type": "Profile",
     "Description": "",
     "Children": [
       {
@@ -173,7 +173,7 @@
     "Id": "pdf_Zerg_equipment_hydralisks_default_1_table",
     "Name": "",
     "Type": "",
-    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr><u><link=\"rule_chapter_8_7_4\">Surge</link></u></nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>12</nobr><pos=14%><nobr>All</nobr><pos=32%><nobr>3</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>L&A (D3+1)</nobr><pos=86%><nobr>2</nobr></b></size></align>",
+    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>12</nobr><pos=14%><nobr>All</nobr><pos=32%><nobr>3</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>L&A (D3+1)</nobr><pos=86%><nobr>2</nobr></b></size></align>",
     "Children": []
   },
   {
@@ -186,7 +186,7 @@
   {
     "Id": "pdf_Zerg_equipment_hydralisks_default_3_slot",
     "Name": "",
-    "Type": "",
+    "Type": "Profile",
     "Description": "",
     "Children": [
       {
@@ -201,7 +201,7 @@
     "Id": "pdf_Zerg_equipment_hydralisks_default_3_table",
     "Name": "",
     "Type": "",
-    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr><u><link=\"rule_chapter_8_7_4\">Surge</link></u></nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>2</nobr><pos=46%><nobr>4+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>2</nobr><pos=46%><nobr>4+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align>",
     "Children": []
   },
   {
@@ -214,7 +214,7 @@
   {
     "Id": "pdf_Zerg_equipment_kerrigan_default_2_slot",
     "Name": "",
-    "Type": "",
+    "Type": "Profile",
     "Description": "",
     "Children": [
       {
@@ -229,7 +229,7 @@
     "Id": "pdf_Zerg_equipment_kerrigan_default_2_table",
     "Name": "",
     "Type": "",
-    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr><u><link=\"rule_chapter_8_7_4\">Surge</link></u></nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>8</nobr><pos=14%><nobr>All</nobr><pos=32%><nobr>5</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>L&A (D3)</nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>8</nobr><pos=14%><nobr>All</nobr><pos=32%><nobr>5</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>L&A (D3)</nobr><pos=86%><nobr>1</nobr></b></size></align>",
     "Children": []
   },
   {
@@ -249,7 +249,7 @@
   {
     "Id": "pdf_Zerg_equipment_kerrigan_default_4_slot",
     "Name": "",
-    "Type": "",
+    "Type": "Profile",
     "Description": "",
     "Children": [
       {
@@ -267,7 +267,7 @@
     "Id": "pdf_Zerg_equipment_kerrigan_default_4_table",
     "Name": "",
     "Type": "",
-    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr><u><link=\"rule_chapter_8_7_4\">Surge</link></u></nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>6</nobr><pos=46%><nobr>4+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>2</nobr></b></size></align>",
+    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>6</nobr><pos=46%><nobr>4+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>2</nobr></b></size></align>",
     "Children": []
   },
   {
@@ -287,7 +287,7 @@
   {
     "Id": "pdf_Zerg_equipment_kerrigan_swarm_raptors_zergling_default_2_slot",
     "Name": "",
-    "Type": "",
+    "Type": "Profile",
     "Description": "",
     "Children": [
       {
@@ -305,7 +305,7 @@
     "Id": "pdf_Zerg_equipment_kerrigan_swarm_raptors_zergling_default_2_table",
     "Name": "",
     "Type": "",
-    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr><u><link=\"rule_chapter_8_7_4\">Surge</link></u></nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>2</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>L&A (D6)</nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>2</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>L&A (D6)</nobr><pos=86%><nobr>1</nobr></b></size></align>",
     "Children": []
   },
   {
@@ -318,7 +318,7 @@
   {
     "Id": "pdf_Zerg_equipment_queen_default_1_slot",
     "Name": "",
-    "Type": "",
+    "Type": "Profile",
     "Description": "",
     "Children": [
       {
@@ -333,7 +333,7 @@
     "Id": "pdf_Zerg_equipment_queen_default_1_table",
     "Name": "",
     "Type": "",
-    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr><u><link=\"rule_chapter_8_7_4\">Surge</link></u></nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>6</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>4</nobr><pos=46%><nobr>4+</nobr><pos=59%><nobr>Light (D3)</nobr><pos=86%><nobr>2</nobr></b></size></align>",
+    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>6</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>4</nobr><pos=46%><nobr>4+</nobr><pos=59%><nobr>Light (D3)</nobr><pos=86%><nobr>2</nobr></b></size></align>",
     "Children": []
   },
   {
@@ -346,7 +346,7 @@
   {
     "Id": "pdf_Zerg_equipment_queen_default_2_slot",
     "Name": "",
-    "Type": "",
+    "Type": "Profile",
     "Description": "",
     "Children": [
       {
@@ -361,7 +361,7 @@
     "Id": "pdf_Zerg_equipment_queen_default_2_table",
     "Name": "",
     "Type": "",
-    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr><u><link=\"rule_chapter_8_7_4\">Surge</link></u></nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>12</nobr><pos=14%><nobr>Air</nobr><pos=32%><nobr>4</nobr><pos=46%><nobr>4+</nobr><pos=59%><nobr>L&A (D3)</nobr><pos=86%><nobr>2</nobr></b></size></align>",
+    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>12</nobr><pos=14%><nobr>Air</nobr><pos=32%><nobr>4</nobr><pos=46%><nobr>4+</nobr><pos=59%><nobr>L&A (D3)</nobr><pos=86%><nobr>2</nobr></b></size></align>",
     "Children": []
   },
   {
@@ -374,7 +374,7 @@
   {
     "Id": "pdf_Zerg_equipment_queen_default_4_slot",
     "Name": "",
-    "Type": "",
+    "Type": "Profile",
     "Description": "",
     "Children": [
       {
@@ -389,7 +389,7 @@
     "Id": "pdf_Zerg_equipment_queen_default_4_table",
     "Name": "",
     "Type": "",
-    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr><u><link=\"rule_chapter_8_7_4\">Surge</link></u></nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>3</nobr><pos=46%><nobr>4+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>3</nobr><pos=46%><nobr>4+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align>",
     "Children": []
   },
   {
@@ -402,7 +402,7 @@
   {
     "Id": "pdf_Zerg_equipment_raptors_zergling_default_2_slot",
     "Name": "",
-    "Type": "",
+    "Type": "Profile",
     "Description": "",
     "Children": [
       {
@@ -417,12 +417,12 @@
     "Id": "pdf_Zerg_equipment_raptors_zergling_default_2_table",
     "Name": "",
     "Type": "",
-    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr><u><link=\"rule_chapter_8_7_4\">Surge</link></u></nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>2</nobr><pos=46%><nobr>4+</nobr><pos=59%><nobr>Light (D3)</nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>2</nobr><pos=46%><nobr>4+</nobr><pos=59%><nobr>Light (D3)</nobr><pos=86%><nobr>1</nobr></b></size></align>",
     "Children": []
   },
   {
     "Id": "pdf_Zerg_equipment_raptors_zergling_upgrade_1_choice",
-    "Name": "<color=#4da6ff>Shredding Claws</color>",
+    "Name": "<color=#2596be>Shredding Claws</color>",
     "Type": "Rule",
     "Description": "<b>Upgrade ability</b>\n\nCombat Weapon\nRng: E\nTgt: Ground\nRoA: 2\nHit: 4+\n<u><link=\"rule_chapter_8_7_4\">Surge</link></u>: Light, Armoured\nS.Die: D3\nDmg: 1\nKeyword: -\nNotes: ↑ FOR CLAWS"
   },
@@ -437,7 +437,7 @@
     "Id": "pdf_Zerg_equipment_raptors_zergling_upgrade_1_table",
     "Name": "",
     "Type": "",
-    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr><u><link=\"rule_chapter_8_7_4\">Surge</link></u></nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>2</nobr><pos=46%><nobr>4+</nobr><pos=59%><nobr>L&A (D3)</nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>2</nobr><pos=46%><nobr>4+</nobr><pos=59%><nobr>L&A (D3)</nobr><pos=86%><nobr>1</nobr></b></size></align>",
     "Children": []
   },
   {
@@ -450,7 +450,7 @@
   {
     "Id": "pdf_Zerg_equipment_ravagers_default_2_slot",
     "Name": "",
-    "Type": "",
+    "Type": "Profile",
     "Description": "",
     "Children": [
       {
@@ -465,7 +465,7 @@
     "Id": "pdf_Zerg_equipment_ravagers_default_2_table",
     "Name": "",
     "Type": "",
-    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr><u><link=\"rule_chapter_8_7_4\">Surge</link></u></nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>12</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>4</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>Light (D3+1)</nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>12</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>4</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>Light (D3+1)</nobr><pos=86%><nobr>1</nobr></b></size></align>",
     "Children": []
   },
   {
@@ -478,7 +478,7 @@
   {
     "Id": "pdf_Zerg_equipment_ravagers_default_4_slot",
     "Name": "",
-    "Type": "",
+    "Type": "Profile",
     "Description": "",
     "Children": [
       {
@@ -493,7 +493,7 @@
     "Id": "pdf_Zerg_equipment_ravagers_default_4_table",
     "Name": "",
     "Type": "",
-    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr><u><link=\"rule_chapter_8_7_4\">Surge</link></u></nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>2</nobr><pos=46%><nobr>4+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>2</nobr><pos=46%><nobr>4+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align>",
     "Children": []
   },
   {
@@ -506,7 +506,7 @@
   {
     "Id": "pdf_Zerg_equipment_roaches_default_1_slot",
     "Name": "",
-    "Type": "",
+    "Type": "Profile",
     "Description": "",
     "Children": [
       {
@@ -521,7 +521,7 @@
     "Id": "pdf_Zerg_equipment_roaches_default_1_table",
     "Name": "",
     "Type": "",
-    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr><u><link=\"rule_chapter_8_7_4\">Surge</link></u></nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>8</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>3</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>8</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>3</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align>",
     "Children": []
   },
   {
@@ -534,7 +534,7 @@
   {
     "Id": "pdf_Zerg_equipment_roaches_default_3_slot",
     "Name": "",
-    "Type": "",
+    "Type": "Profile",
     "Description": "",
     "Children": [
       {
@@ -549,7 +549,7 @@
     "Id": "pdf_Zerg_equipment_roaches_default_3_table",
     "Name": "",
     "Type": "",
-    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr><u><link=\"rule_chapter_8_7_4\">Surge</link></u></nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>2</nobr><pos=46%><nobr>4+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>2</nobr><pos=46%><nobr>4+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align>",
     "Children": []
   },
   {
@@ -562,7 +562,7 @@
   {
     "Id": "pdf_Zerg_equipment_roachling_default_1_slot",
     "Name": "",
-    "Type": "",
+    "Type": "Profile",
     "Description": "",
     "Children": [
       {
@@ -577,7 +577,7 @@
     "Id": "pdf_Zerg_equipment_roachling_default_1_table",
     "Name": "",
     "Type": "",
-    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr><u><link=\"rule_chapter_8_7_4\">Surge</link></u></nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>2</nobr><pos=46%><nobr>4+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>2</nobr><pos=46%><nobr>4+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align>",
     "Children": []
   },
   {
@@ -590,7 +590,7 @@
   {
     "Id": "pdf_Zerg_equipment_swarmlings_default_3_slot",
     "Name": "",
-    "Type": "",
+    "Type": "Profile",
     "Description": "",
     "Children": [
       {
@@ -605,7 +605,7 @@
     "Id": "pdf_Zerg_equipment_swarmlings_default_3_table",
     "Name": "",
     "Type": "",
-    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr><u><link=\"rule_chapter_8_7_4\">Surge</link></u></nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>2</nobr><pos=46%><nobr>5+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>2</nobr><pos=46%><nobr>5+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align>",
     "Children": []
   },
   {
@@ -618,7 +618,7 @@
   {
     "Id": "pdf_Zerg_equipment_vileling_zergling_default_3_slot",
     "Name": "",
-    "Type": "",
+    "Type": "Profile",
     "Description": "",
     "Children": [
       {
@@ -633,7 +633,7 @@
     "Id": "pdf_Zerg_equipment_vileling_zergling_default_3_table",
     "Name": "",
     "Type": "",
-    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr><u><link=\"rule_chapter_8_7_4\">Surge</link></u></nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>2</nobr><pos=46%><nobr>5+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>2</nobr><pos=46%><nobr>5+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align>",
     "Children": []
   },
   {
@@ -646,7 +646,7 @@
   {
     "Id": "pdf_Zerg_equipment_viles_roach_default_1_slot",
     "Name": "",
-    "Type": "",
+    "Type": "Profile",
     "Description": "",
     "Children": [
       {
@@ -661,7 +661,7 @@
     "Id": "pdf_Zerg_equipment_viles_roach_default_1_table",
     "Name": "",
     "Type": "",
-    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr><u><link=\"rule_chapter_8_7_4\">Surge</link></u></nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>8</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>4</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>8</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>4</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align>",
     "Children": []
   },
   {
@@ -674,7 +674,7 @@
   {
     "Id": "pdf_Zerg_equipment_viles_roach_default_3_slot",
     "Name": "",
-    "Type": "",
+    "Type": "Profile",
     "Description": "",
     "Children": [
       {
@@ -689,7 +689,7 @@
     "Id": "pdf_Zerg_equipment_viles_roach_default_3_table",
     "Name": "",
     "Type": "",
-    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr><u><link=\"rule_chapter_8_7_4\">Surge</link></u></nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>2</nobr><pos=46%><nobr>4+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>2</nobr><pos=46%><nobr>4+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align>",
     "Children": []
   },
   {
@@ -702,7 +702,7 @@
   {
     "Id": "pdf_Zerg_equipment_zagara_default_2_slot",
     "Name": "",
-    "Type": "",
+    "Type": "Profile",
     "Description": "",
     "Children": [
       {
@@ -717,7 +717,7 @@
     "Id": "pdf_Zerg_equipment_zagara_default_2_table",
     "Name": "",
     "Type": "",
-    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr><u><link=\"rule_chapter_8_7_4\">Surge</link></u></nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>8</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>4</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>L&A (D3)</nobr><pos=86%><nobr>2</nobr></b></size></align>",
+    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>8</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>4</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>L&A (D3)</nobr><pos=86%><nobr>2</nobr></b></size></align>",
     "Children": []
   },
   {
@@ -730,7 +730,7 @@
   {
     "Id": "pdf_Zerg_equipment_zagara_default_3_slot",
     "Name": "",
-    "Type": "",
+    "Type": "Profile",
     "Description": "",
     "Children": [
       {
@@ -745,7 +745,7 @@
     "Id": "pdf_Zerg_equipment_zagara_default_3_table",
     "Name": "",
     "Type": "",
-    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr><u><link=\"rule_chapter_8_7_4\">Surge</link></u></nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>14</nobr><pos=14%><nobr>Air</nobr><pos=32%><nobr>8</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>L&A (D3)</nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>14</nobr><pos=14%><nobr>Air</nobr><pos=32%><nobr>8</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>L&A (D3)</nobr><pos=86%><nobr>1</nobr></b></size></align>",
     "Children": []
   },
   {
@@ -758,7 +758,7 @@
   {
     "Id": "pdf_Zerg_equipment_zagara_default_5_slot",
     "Name": "",
-    "Type": "",
+    "Type": "Profile",
     "Description": "",
     "Children": [
       {
@@ -773,7 +773,7 @@
     "Id": "pdf_Zerg_equipment_zagara_default_5_table",
     "Name": "",
     "Type": "",
-    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr><u><link=\"rule_chapter_8_7_4\">Surge</link></u></nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>4</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>4</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align>",
     "Children": []
   },
   {
@@ -786,7 +786,7 @@
   {
     "Id": "pdf_Zerg_equipment_zerglings_default_2_slot",
     "Name": "",
-    "Type": "",
+    "Type": "Profile",
     "Description": "",
     "Children": [
       {
@@ -801,7 +801,7 @@
     "Id": "pdf_Zerg_equipment_zerglings_default_2_table",
     "Name": "",
     "Type": "",
-    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr><u><link=\"rule_chapter_8_7_4\">Surge</link></u></nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>2</nobr><pos=46%><nobr>4+</nobr><pos=59%><nobr>Light (D3)</nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>2</nobr><pos=46%><nobr>4+</nobr><pos=59%><nobr>Light (D3)</nobr><pos=86%><nobr>1</nobr></b></size></align>",
     "Children": []
   },
   {
@@ -815,7 +815,7 @@
     "Id": "pdf_Zerg_equipment_zerglings_upgrade_1_table",
     "Name": "",
     "Type": "",
-    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr><u><link=\"rule_chapter_8_7_4\">Surge</link></u></nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>2</nobr><pos=46%><nobr>4+</nobr><pos=59%><nobr>L&A (D3)</nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>2</nobr><pos=46%><nobr>4+</nobr><pos=59%><nobr>L&A (D3)</nobr><pos=86%><nobr>1</nobr></b></size></align>",
     "Children": []
   },
   {
@@ -828,14 +828,14 @@
   {
     "Id": "pdf_Zerg_profile_bile_launcher_selected_options",
     "Name": "",
-    "Type": "",
+    "Type": "Profile",
     "Description": "",
     "Children": []
   },
   {
     "Id": "pdf_Zerg_profile_bile_launcher_stats",
     "Name": "",
-    "Type": "",
+    "Type": "Profile",
     "Description": "",
     "Children": [
       {
@@ -860,14 +860,14 @@
   {
     "Id": "pdf_Zerg_profile_corpsers_roach_selected_options",
     "Name": "",
-    "Type": "",
+    "Type": "Profile",
     "Description": "",
     "Children": []
   },
   {
     "Id": "pdf_Zerg_profile_corpsers_roach_stats",
     "Name": "",
-    "Type": "",
+    "Type": "Profile",
     "Description": "",
     "Children": [
       {
@@ -885,14 +885,14 @@
   {
     "Id": "pdf_Zerg_profile_defiler_selected_options",
     "Name": "",
-    "Type": "",
+    "Type": "Profile",
     "Description": "",
     "Children": []
   },
   {
     "Id": "pdf_Zerg_profile_defiler_stats",
     "Name": "",
-    "Type": "",
+    "Type": "Profile",
     "Description": "",
     "Children": [
       {
@@ -917,14 +917,14 @@
   {
     "Id": "pdf_Zerg_profile_hydralisks_selected_options",
     "Name": "",
-    "Type": "",
+    "Type": "Profile",
     "Description": "",
     "Children": []
   },
   {
     "Id": "pdf_Zerg_profile_hydralisks_stats",
     "Name": "",
-    "Type": "",
+    "Type": "Profile",
     "Description": "",
     "Children": [
       {
@@ -949,14 +949,14 @@
   {
     "Id": "pdf_Zerg_profile_kerrigan_selected_options",
     "Name": "",
-    "Type": "",
+    "Type": "Profile",
     "Description": "",
     "Children": []
   },
   {
     "Id": "pdf_Zerg_profile_kerrigan_stats",
     "Name": "",
-    "Type": "",
+    "Type": "Profile",
     "Description": "",
     "Children": [
       {
@@ -974,14 +974,14 @@
   {
     "Id": "pdf_Zerg_profile_kerrigan_swarm_raptors_zergling_selected_options",
     "Name": "",
-    "Type": "",
+    "Type": "Profile",
     "Description": "",
     "Children": []
   },
   {
     "Id": "pdf_Zerg_profile_kerrigan_swarm_raptors_zergling_stats",
     "Name": "",
-    "Type": "",
+    "Type": "Profile",
     "Description": "",
     "Children": [
       {
@@ -992,14 +992,14 @@
   {
     "Id": "pdf_Zerg_profile_omega_worm_selected_options",
     "Name": "",
-    "Type": "",
+    "Type": "Profile",
     "Description": "",
     "Children": []
   },
   {
     "Id": "pdf_Zerg_profile_omega_worm_stats",
     "Name": "",
-    "Type": "",
+    "Type": "Profile",
     "Description": "",
     "Children": [
       {
@@ -1024,14 +1024,14 @@
   {
     "Id": "pdf_Zerg_profile_queen_selected_options",
     "Name": "",
-    "Type": "",
+    "Type": "Profile",
     "Description": "",
     "Children": []
   },
   {
     "Id": "pdf_Zerg_profile_queen_stats",
     "Name": "",
-    "Type": "",
+    "Type": "Profile",
     "Description": "",
     "Children": [
       {
@@ -1049,14 +1049,14 @@
   {
     "Id": "pdf_Zerg_profile_raptors_zergling_selected_options",
     "Name": "",
-    "Type": "",
+    "Type": "Profile",
     "Description": "",
     "Children": []
   },
   {
     "Id": "pdf_Zerg_profile_raptors_zergling_stats",
     "Name": "",
-    "Type": "",
+    "Type": "Profile",
     "Description": "",
     "Children": [
       {
@@ -1081,14 +1081,14 @@
   {
     "Id": "pdf_Zerg_profile_ravagers_selected_options",
     "Name": "",
-    "Type": "",
+    "Type": "Profile",
     "Description": "",
     "Children": []
   },
   {
     "Id": "pdf_Zerg_profile_ravagers_stats",
     "Name": "",
-    "Type": "",
+    "Type": "Profile",
     "Description": "",
     "Children": [
       {
@@ -1113,14 +1113,14 @@
   {
     "Id": "pdf_Zerg_profile_roaches_selected_options",
     "Name": "",
-    "Type": "",
+    "Type": "Profile",
     "Description": "",
     "Children": []
   },
   {
     "Id": "pdf_Zerg_profile_roaches_stats",
     "Name": "",
-    "Type": "",
+    "Type": "Profile",
     "Description": "",
     "Children": [
       {
@@ -1138,14 +1138,14 @@
   {
     "Id": "pdf_Zerg_profile_roachling_selected_options",
     "Name": "",
-    "Type": "",
+    "Type": "Profile",
     "Description": "",
     "Children": []
   },
   {
     "Id": "pdf_Zerg_profile_roachling_stats",
     "Name": "",
-    "Type": "",
+    "Type": "Profile",
     "Description": "",
     "Children": [
       {
@@ -1163,14 +1163,14 @@
   {
     "Id": "pdf_Zerg_profile_swarmlings_selected_options",
     "Name": "",
-    "Type": "",
+    "Type": "Profile",
     "Description": "",
     "Children": []
   },
   {
     "Id": "pdf_Zerg_profile_swarmlings_stats",
     "Name": "",
-    "Type": "",
+    "Type": "Profile",
     "Description": "",
     "Children": [
       {
@@ -1188,14 +1188,14 @@
   {
     "Id": "pdf_Zerg_profile_vileling_zergling_selected_options",
     "Name": "",
-    "Type": "",
+    "Type": "Profile",
     "Description": "",
     "Children": []
   },
   {
     "Id": "pdf_Zerg_profile_vileling_zergling_stats",
     "Name": "",
-    "Type": "",
+    "Type": "Profile",
     "Description": "",
     "Children": [
       {
@@ -1220,14 +1220,14 @@
   {
     "Id": "pdf_Zerg_profile_viles_roach_selected_options",
     "Name": "",
-    "Type": "",
+    "Type": "Profile",
     "Description": "",
     "Children": []
   },
   {
     "Id": "pdf_Zerg_profile_viles_roach_stats",
     "Name": "",
-    "Type": "",
+    "Type": "Profile",
     "Description": "",
     "Children": [
       {
@@ -1252,14 +1252,14 @@
   {
     "Id": "pdf_Zerg_profile_zagara_selected_options",
     "Name": "",
-    "Type": "",
+    "Type": "Profile",
     "Description": "",
     "Children": []
   },
   {
     "Id": "pdf_Zerg_profile_zagara_stats",
     "Name": "",
-    "Type": "",
+    "Type": "Profile",
     "Description": "",
     "Children": [
       {
@@ -1277,14 +1277,14 @@
   {
     "Id": "pdf_Zerg_profile_zerglings_selected_options",
     "Name": "",
-    "Type": "",
+    "Type": "Profile",
     "Description": "",
     "Children": []
   },
   {
     "Id": "pdf_Zerg_profile_zerglings_stats",
     "Name": "",
-    "Type": "",
+    "Type": "Profile",
     "Description": "",
     "Children": [
       {
@@ -1336,25 +1336,25 @@
   },
   {
     "Id": "pdf_Zerg_rule_corpsers_roach_upgrade_any_phase_tunneling_claws",
-    "Name": "<color=#4da6ff>Tunneling Claws (Corpsers (Roach), Roaches)</color>",
+    "Name": "<color=#2596be>Tunneling Claws (Corpsers (Roach), Roaches)</color>",
     "Type": "Rule",
     "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Passive\n<b>Upgrade ability</b>\n\nWhile this Unit has the <u><link=\"rule_keyword_burrowed\">Burrowed</link></u> <u><link=\"rule_keyword_status\">Status</link></u>, it may perform the Move and Run actions without losing that <u><link=\"rule_keyword_status\">Status</link></u>. It may also move through other <u><link=\"rule_chapter_2_2\">Units</link></u>' <u><link=\"rule_chapter_2_3\">bases</link></u>."
   },
   {
     "Id": "pdf_Zerg_rule_corpsers_roach_upgrade_assault_phase_hydriodic_bile",
-    "Name": "<color=#4da6ff>Hydriodic Bile</color>",
+    "Name": "<color=#2596be>Hydriodic Bile</color>",
     "Type": "Rule",
     "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Passive\n<b>Upgrade ability</b>\n\nThis Unit's Acid Saliva weapon gains <u><link=\"rule_chapter_8_7_4\">Surge</link></u> Type: Light, and S <u><link=\"rule_chapter_3_1\">Dice</link></u>: D3+1."
   },
   {
     "Id": "pdf_Zerg_rule_corpsers_roach_upgrade_movement_phase_burrow_ambush",
-    "Name": "<color=#4da6ff>Burrow Ambush (Corpsers (Roach), Hydralisks, Raptors (Zergling), Ravagers, Roaches, Swarmlings, Viles (Roach), Zerglings)</color>",
+    "Name": "<color=#2596be>Burrow Ambush (Corpsers (Roach), Hydralisks, Raptors (Zergling), Ravagers, Roaches, Swarmlings, Viles (Roach), Zerglings)</color>",
     "Type": "Rule",
     "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Passive\n<b>Upgrade ability</b>\n\nWhen this Unit is nominated to deploy from the <u><link=\"rule_keyword_reserves\">Reserves</link></u>, it may resolve the <u><link=\"rule_keyword_place\">PLACE</link></u> (18) effect from the <u><link=\"rule_keyword_controlling_player\">controlling player</link></u>'s <u><link=\"rule_keyword_entry_edge\">Entry Edge</link></u>. No model may be set <u><link=\"rule_keyword_within\">Within</link></u> 10\" of any <u><link=\"rule_keyword_enemy\">Enemy</link></u> model. This Unit's Activation ends."
   },
   {
     "Id": "pdf_Zerg_rule_corpsers_roach_upgrade_movement_phase_glial_reconstitution",
-    "Name": "<color=#4da6ff>Glial Reconstitution (Corpsers (Roach), Roaches)</color>",
+    "Name": "<color=#2596be>Glial Reconstitution (Corpsers (Roach), Roaches)</color>",
     "Type": "Rule",
     "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Active\n<b>Cost:</b> 1 CP\n<b>Upgrade ability</b>\n\nThis Unit gains <u><link=\"rule_keyword_buff\">BUFF</link></u> SPEED (1), or <u><link=\"rule_keyword_buff\">BUFF</link></u> SPEED (2) if the Unit is <u><link=\"rule_keyword_on_creep\">ON CREEP</link></u>."
   },
@@ -1378,13 +1378,13 @@
   },
   {
     "Id": "pdf_Zerg_rule_defiler_upgrade_assault_phase_plague",
-    "Name": "<color=#4da6ff>Plague</color>",
+    "Name": "<color=#2596be>Plague</color>",
     "Type": "Rule",
     "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Active\n<b>Cost:</b> X BM\n<b>Upgrade ability</b>\n\nYou may spend 1 to 3 BM to activate this ability. Set a Plague Blast Template <u><link=\"rule_keyword_wholly_within\">Wholly Within</link></u> 10\" and <u><link=\"rule_keyword_line_of_sight\">Line of Sight</link></u> of this Unit. For each Unit that has at least one model whose base is partially covered by the template, roll 2 <u><link=\"rule_chapter_3_1\">dice</link></u>, plus 1 additional die for each model in that Unit whose base is partially covered. That Unit loses its <u><link=\"rule_keyword_hidden\">HIDDEN</link></u> <u><link=\"rule_keyword_status\">Status</link></u>, and, depending on the BM spent, it suffers <u><link=\"rule_keyword_non_lethal_damage\">NON-LETHAL DAMAGE</link></u> (1) for:\n1 BM: each result of 5+.\n2 BM: each result of 4+.\n3 BM: each result of 3+."
   },
   {
     "Id": "pdf_Zerg_rule_defiler_upgrade_movement_phase_burrow_ambush",
-    "Name": "<color=#4da6ff>Burrow Ambush (Defiler)</color>",
+    "Name": "<color=#2596be>Burrow Ambush (Defiler)</color>",
     "Type": "Rule",
     "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Passive\n<b>Upgrade ability</b>\n\nWhen this Unit is nominated to deploy from <u><link=\"rule_keyword_reserves\">Reserves</link></u>, it may resolve the <u><link=\"rule_keyword_place\">PLACE</link></u> (18) effect from the <u><link=\"rule_keyword_controlling_player\">controlling player</link></u>'s <u><link=\"rule_keyword_entry_edge\">Entry Edge</link></u>. No model may be placed <u><link=\"rule_keyword_within\">Within</link></u> 10\" of any <u><link=\"rule_keyword_enemy\">Enemy</link></u> model. This Unit's Activation ends."
   },
@@ -1396,19 +1396,19 @@
   },
   {
     "Id": "pdf_Zerg_rule_hydralisks_upgrade_any_phase_ancillary_carapace",
-    "Name": "<color=#4da6ff>Ancillary Carapace</color>",
+    "Name": "<color=#2596be>Ancillary Carapace</color>",
     "Type": "Rule",
     "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Passive\n<b>Upgrade ability</b>\n\nThis Unit gains <u><link=\"rule_keyword_tough\">TOUGH</link></u> (1) on the first <u><link=\"rule_chapter_8_7_4\">Armour Roll</link></u> of each Activation."
   },
   {
     "Id": "pdf_Zerg_rule_hydralisks_upgrade_any_phase_lurking",
-    "Name": "<color=#4da6ff>Lurking</color>",
+    "Name": "<color=#2596be>Lurking</color>",
     "Type": "Rule",
     "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Passive\n<b>Upgrade ability</b>\n\nIf this Unit has <u><link=\"rule_keyword_stationary\">Stationary</link></u> <u><link=\"rule_keyword_status\">Status</link></u>, it is eligible to make an <u><link=\"rule_chapter_8_7_4\">Evade Roll</link></u> against the first <u><link=\"rule_chapter_8_7_3\">Ranged Attack</link></u> targeting it this Round. If this Unit is <u><link=\"rule_keyword_on_creep\">ON CREEP</link></u>, it gains +1 <u><link=\"rule_keyword_modifier\">Modifier</link></u> to this <u><link=\"rule_chapter_8_7_4\">Evade Roll</link></u>."
   },
   {
     "Id": "pdf_Zerg_rule_hydralisks_upgrade_assault_phase_grooved_spines",
-    "Name": "<color=#4da6ff>Grooved Spines</color>",
+    "Name": "<color=#2596be>Grooved Spines</color>",
     "Type": "Rule",
     "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Passive\n<b>Upgrade ability</b>\n\nThis Unit's Needle Spines ranged weapon gains <u><link=\"rule_keyword_long_range\">LONG RANGE</link></u> (16\")."
   },
@@ -1498,13 +1498,13 @@
   },
   {
     "Id": "pdf_Zerg_rule_queen_upgrade_any_phase_creep_speed",
-    "Name": "<color=#4da6ff>Creep Speed</color>",
+    "Name": "<color=#2596be>Creep Speed</color>",
     "Type": "Rule",
     "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Passive\n<b>Upgrade ability</b>\n\nWhile this Unit is <u><link=\"rule_keyword_on_creep\">ON CREEP</link></u>, increase this Unit's Speed characteristic by 2."
   },
   {
     "Id": "pdf_Zerg_rule_queen_upgrade_movement_phase_domineering_presence",
-    "Name": "<color=#4da6ff>Domineering Presence</color>",
+    "Name": "<color=#2596be>Domineering Presence</color>",
     "Type": "Rule",
     "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Active\n<b>Cost:</b> 1 BM\n<b>Upgrade ability</b>\n\nSelect another <u><link=\"rule_keyword_friendly\">Friendly</link></u> Unit <u><link=\"rule_keyword_within\">Within</link></u> 6\" (<u><link=\"rule_keyword_line_of_sight\">Line of Sight</link></u> is not required). That Unit's Supply characteristic is increased by 1 for Controlling and Contesting <u><link=\"rule_keyword_mission_markers\">Mission Markers</link></u> and completing objectives."
   },
@@ -1522,7 +1522,7 @@
   },
   {
     "Id": "pdf_Zerg_rule_raptors_zergling_upgrade_combat_phase_adrenal_glands",
-    "Name": "<color=#4da6ff>Adrenal Glands</color>",
+    "Name": "<color=#2596be>Adrenal Glands</color>",
     "Type": "Rule",
     "Description": "<b>Phase:</b> Melee Phase\n<b>Type:</b> Passive\n<b>Upgrade ability</b>\n\nThis Unit's Claws and Shredding Claws weapons gain <u><link=\"rule_keyword_precision\">PRECISION</link></u> (2)."
   },
@@ -1546,13 +1546,13 @@
   },
   {
     "Id": "pdf_Zerg_rule_ravagers_upgrade_any_phase_bloated_bile_ducts",
-    "Name": "<color=#4da6ff>Bloated Bile Ducts</color>",
+    "Name": "<color=#2596be>Bloated Bile Ducts</color>",
     "Type": "Rule",
     "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Passive\n<b>Upgrade ability</b>\n\nIncrease the area of effect of this Unit's <u><link=\"pdf_Zerg_rule_ravagers_movement_phase_corrosive_bile\">Corrosive Bile</link></u> ability to 2\"."
   },
   {
     "Id": "pdf_Zerg_rule_ravagers_upgrade_assault_phase_potent_bile",
-    "Name": "<color=#4da6ff>Potent Bile</color>",
+    "Name": "<color=#2596be>Potent Bile</color>",
     "Type": "Rule",
     "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Passive\n<b>Upgrade ability</b>\n\nBefore an <u><link=\"rule_keyword_enemy\">Enemy</link></u> Unit resolves an <u><link=\"rule_chapter_8_7_4\">Armour Roll</link></u> against the <u><link=\"rule_keyword_hits\">HITS</link></u> effect generated by this Unit's <u><link=\"pdf_Zerg_rule_ravagers_movement_phase_corrosive_bile\">Corrosive Bile</link></u> ability, that Unit suffers <u><link=\"rule_keyword_debuff\">DEBUFF</link></u> Armour (1)."
   },
@@ -1594,13 +1594,13 @@
   },
   {
     "Id": "pdf_Zerg_rule_viles_roach_upgrade_movement_phase_glial_reconstitution",
-    "Name": "<color=#4da6ff>Glial Reconstitution (Viles (Roach))</color>",
+    "Name": "<color=#2596be>Glial Reconstitution (Viles (Roach))</color>",
     "Type": "Rule",
     "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Active\n<b>Cost:</b> 1 BM\n<b>Upgrade ability</b>\n\nThis Unit gains <u><link=\"rule_keyword_buff\">BUFF</link></u> SPEED (1), or <u><link=\"rule_keyword_buff\">BUFF</link></u> SPEED (2) if the Unit is <u><link=\"rule_keyword_on_creep\">ON CREEP</link></u>."
   },
   {
     "Id": "pdf_Zerg_rule_viles_roach_upgrade_movement_phase_tunneling_claws",
-    "Name": "<color=#4da6ff>Tunneling Claws (Viles (Roach))</color>",
+    "Name": "<color=#2596be>Tunneling Claws (Viles (Roach))</color>",
     "Type": "Rule",
     "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Passive\n<b>Upgrade ability</b>\n\nWhile this Unit has the <u><link=\"rule_keyword_burrowed\">Burrowed</link></u> <u><link=\"rule_keyword_status\">Status</link></u>, it may perform the Move and Run actions without losing that <u><link=\"rule_keyword_status\">Status</link></u>. It may also move through other <u><link=\"rule_chapter_2_2\">Units</link></u>' <u><link=\"rule_chapter_2_3\">bases</link></u>."
   },
@@ -1618,7 +1618,7 @@
   },
   {
     "Id": "pdf_Zerg_rule_zagara_upgrade_movement_phase_broodmother",
-    "Name": "<color=#4da6ff>Broodmother</color>",
+    "Name": "<color=#2596be>Broodmother</color>",
     "Type": "Rule",
     "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Active\n<b>Cost:</b> 1 BM\n<b>Upgrade ability</b>\n\nApply one of the following effects to all <u><link=\"rule_keyword_friendly\">Friendly</link></u> <u><link=\"rule_chapter_2_2\">units</link></u> (<u><link=\"rule_keyword_line_of_sight\">Line of Sight</link></u> is not required). You cannot apply the effect chosen in the previous Game Round:\n• <u><link=\"rule_chapter_2_2\">Units</link></u> of Size 1 gain a +1 <u><link=\"rule_keyword_modifier\">Modifier</link></u> to all <u><link=\"rule_keyword_impact\">IMPACT</link></u> Rolls.\n• All weapons of Size 2 <u><link=\"rule_chapter_2_2\">Units</link></u> gain <u><link=\"rule_keyword_critical_hit\">CRITICAL HIT</link></u> (1).\n• <u><link=\"rule_chapter_2_2\">Units</link></u> of Size 3 or more gain <u><link=\"rule_keyword_tough\">TOUGH</link></u> (1)."
   }

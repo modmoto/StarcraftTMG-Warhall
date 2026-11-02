@@ -6,7 +6,7 @@ The option IDs deliberately equal their readable names, such as `Kinetic Foam` a
 
 ## Display and effects
 
-- Selected upgrade names appear blue below default rules and before weapon phases. Weapon names/stat values keep their existing colours.
+- Selected upgrade names appear table-header blue (#2596be) below default rules and before weapon phases. Weapon names/stat values keep their existing colours.
 - Kinetic Foam replaces the Marauder's top stat row with HP 6. Its default row remains HP 5 when unselected. This updates the profile's real HP, including the native wound calculation; it is not a second +1 stat row.
 - Jim Raynor's C-14 Rifle replaces Commando Rifle while retaining the revolver and bayonet.
 - Goliath's Scatter Missiles or Haywire Missiles replace Hellfire Missiles in its Assault phase. Applying another alternative removes the previous weapon presentation.
@@ -17,6 +17,8 @@ Empty layout containers keep the stat row, selected rules and individual weapon 
 
 Printed replacement notes are authoritative. Where the PDF omits a repeated note, a unique same-phase weapon, explicit left/right side, or unique weapon-name suffix resolves the slot. Ambiguous replacements fail during generation. The New Recruit catalogue's named choices were compared for Raynor, Goliath and Immortal.
 
-`applyProfileOptions` provides a read-only preview using the inspected native reference operations. Regression checks cover combinations/order, real HP values, retained weapons, blue selected names and shared Marine/Raider Stimpack. Marines and Raynor's Raiders use Stimpack (Marines); Marauders use Stimpack (Marauders).
+`applyProfileOptions` provides a read-only preview using the inspected native reference operations. Regression checks cover combinations/order, real HP values, retained weapons, table-header blue (#2596be) selected names and shared Marine/Raider Stimpack. Marines and Raynor's Raiders use Stimpack (Marines); Marauders use Stimpack (Marauders).
 
 After refreshing the game data, re-import the list or create fresh units to resolve the new WDS options. Previously spawned fallback rule references are not retroactively converted into option selections. Live client import/layout testing is still needed; passing adapter checks is not proof of a played-room test.
+
+Presentation groups use the native Profile type to render inline, without collapsible summaries. Weapon table headers remain plain text; rule descriptions retain keyword links.

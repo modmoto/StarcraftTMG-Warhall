@@ -95,7 +95,7 @@ export function linkRuleIndex(data, glossary, book) {
     if (!/(?:^|\/)(?:rules|equipment|cards)\.json$/.test(file)) continue;
     for (const rule of records) {
       if (!rule?.Description) continue;
-      if (rule.Id?.endsWith('_heading')) continue;
+      if (/_heading$|_table$/.test(rule.Id ?? '')) continue;
       rule.Description = rule.Description.split(/(<link="[^"]+">[\s\S]*?<\/link>|<[^>]+>)/g)
         .map(segment => {
           if (segment.startsWith('<')) return segment;

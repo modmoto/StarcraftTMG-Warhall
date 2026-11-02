@@ -166,7 +166,7 @@ test('profiles render phase sections and left-aligned full-width weapon tables',
     ),
   )
     .slice(1)
-    .filter(child => child.Type || child.Description);
+    .filter(child => (child.Type && child.Type !== 'Profile') || child.Description);
   assert.deepEqual(
     children
       .filter(item => item.Type === '' && !item.Id.endsWith('_table'))
@@ -279,7 +279,7 @@ test('full-width weapon keywords link complete labels and rules precede every we
         ),
       )
         .slice(1)
-        .filter(child => child.Type || child.Description);
+        .filter(child => (child.Type && child.Type !== 'Profile') || child.Description);
       const firstPhase = children.findIndex(
         child => child.Id.includes('_phase_') && child.Name === '',
       );

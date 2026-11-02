@@ -60,6 +60,7 @@ export function textRow(records, id, description) {
 
 export function textContainer(records, id, children = []) {
   textRow(records, id, '');
+  records.rules.get(id).Type = 'Profile';
   records.rules.get(id).Children = children.map(Id => ({ Id }));
   return id;
 }
