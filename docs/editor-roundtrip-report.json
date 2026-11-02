@@ -1,0 +1,42 @@
+{
+  "baselineCommit": "0a3733e8d6c55be98528be286da28cc9522bba49",
+  "editorCommit": "401432f6e5158c425bd5dc77df7a076c12a4a545",
+  "changedFiles": [
+    "Starcraft/manifest.json",
+    "Starcraft/terrains.json",
+    "Starcraft/tokens.json"
+  ],
+  "manifest": {
+    "beforeVersion": 34,
+    "afterVersion": 35,
+    "missingFiles": [],
+    "addedFiles": []
+  },
+  "versionFile": {
+    "version": 34,
+    "url": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft/manifest.json"
+  },
+  "tokens": {
+    "beforeCount": 16,
+    "after": [
+      {
+        "Id": "Starcraft - Token - Activation - blue - movement",
+        "Name": "Starcraft - Token - Activation - blue - movement",
+        "Type": "Token"
+      }
+    ]
+  },
+  "terrains": {
+    "beforeCount": 30,
+    "after": [
+      {
+        "Id": "Starcraft - Terrain - High Ground - 087d53",
+        "Name": "Starcraft - Terrain - High Ground - 087d53",
+        "Type": "Terrain",
+        "Width": 10.16,
+        "Length": 10.16,
+        "Shape": 0
+      }
+    ]
+  }
+}

@@ -1,10 +1,302 @@
 [
   {
-    "Id": "Starcraft - Terrain - High Ground - 087d53",
-    "Name": "Starcraft - Terrain - High Ground - 087d53",
+    "Id": "sc_deployment_14025690",
+    "Name": "Deployment lines - TYPHOON",
     "Type": "Terrain",
-    "Width": 10.16,
-    "Length": 10.16,
+    "Description": "Decorative deployment entry lines. Automatically placed with the deployment; no filled deployment zones.",
+    "Width": 0.1,
+    "Length": 0.1,
+    "Height": 0.02,
+    "Shape": 1
+  },
+  {
+    "Id": "sc_deployment_16130426",
+    "Name": "Deployment lines - BREACH",
+    "Type": "Terrain",
+    "Description": "Decorative deployment entry lines. Automatically placed with the deployment; no filled deployment zones.",
+    "Width": 0.1,
+    "Length": 0.1,
+    "Height": 0.02,
+    "Shape": 1
+  },
+  {
+    "Id": "sc_deployment_16231390",
+    "Name": "Deployment lines - ACROPOLIS",
+    "Type": "Terrain",
+    "Description": "Decorative deployment entry lines. Automatically placed with the deployment; no filled deployment zones.",
+    "Width": 0.1,
+    "Length": 0.1,
+    "Height": 0.02,
+    "Shape": 1
+  },
+  {
+    "Id": "sc_deployment_16426918",
+    "Name": "Deployment lines - MEETING ENGAGEMENT",
+    "Type": "Terrain",
+    "Description": "Decorative deployment entry lines. Automatically placed with the deployment; no filled deployment zones.",
+    "Width": 0.1,
+    "Length": 0.1,
+    "Height": 0.02,
+    "Shape": 1
+  },
+  {
+    "Id": "sc_deployment_4030768",
+    "Name": "Deployment lines - PROVING GROUNDS",
+    "Type": "Terrain",
+    "Description": "Decorative deployment entry lines. Automatically placed with the deployment; no filled deployment zones.",
+    "Width": 0.1,
+    "Length": 0.1,
+    "Height": 0.02,
+    "Shape": 1
+  },
+  {
+    "Id": "sc_deployment_5379036",
+    "Name": "Deployment lines - GAUNTLET",
+    "Type": "Terrain",
+    "Description": "Decorative deployment entry lines. Automatically placed with the deployment; no filled deployment zones.",
+    "Width": 0.1,
+    "Length": 0.1,
+    "Height": 0.02,
+    "Shape": 1
+  },
+  {
+    "Id": "sc_deployment_5995631",
+    "Name": "Deployment lines - ONE BRIDGE TOO CLOSE",
+    "Type": "Terrain",
+    "Description": "Decorative deployment entry lines. Automatically placed with the deployment; no filled deployment zones.",
+    "Width": 0.1,
+    "Length": 0.1,
+    "Height": 0.02,
+    "Shape": 1
+  },
+  {
+    "Id": "sc_deployment_8634166",
+    "Name": "Deployment lines - 3-INCH GRID (54x36)",
+    "Type": "Terrain",
+    "Description": "Decorative deployment entry lines. Automatically placed with the deployment; no filled deployment zones.",
+    "Width": 0.1,
+    "Length": 0.1,
+    "Height": 0.02,
+    "Shape": 1
+  },
+  {
+    "Id": "sc_mission_blue",
+    "Name": "Mission marker 2 - blue",
+    "Type": "Terrain",
+    "Description": "Mission marker 2. 32 mm circular selection and measurement footprint. Open sci-fi outline with a transparent interior and a numbered center. The outline extends 3 inches from the marker edge. Activation and control are manual.",
+    "Width": 3.2,
+    "Length": 3.2,
+    "Height": 0.2,
+    "Shape": 1
+  },
+  {
+    "Id": "sc_mission_blue_4",
+    "Name": "Mission marker 4 - blue",
+    "Type": "Terrain",
+    "Description": "Mission marker 4. 32 mm circular selection and measurement footprint. Open sci-fi outline with a transparent interior and a numbered center. The outline extends 3 inches from the marker edge. Activation and control are manual.",
+    "Width": 3.2,
+    "Length": 3.2,
+    "Height": 0.2,
+    "Shape": 1
+  },
+  {
+    "Id": "sc_mission_green",
+    "Name": "Mission marker 5 - green",
+    "Type": "Terrain",
+    "Description": "Mission marker 5. 32 mm circular selection and measurement footprint. Open sci-fi outline with a transparent interior and a numbered center. The outline extends 3 inches from the marker edge. Activation and control are manual.",
+    "Width": 3.2,
+    "Length": 3.2,
+    "Height": 0.2,
+    "Shape": 1
+  },
+  {
+    "Id": "sc_mission_red",
+    "Name": "Mission marker 1 - red",
+    "Type": "Terrain",
+    "Description": "Mission marker 1. 32 mm circular selection and measurement footprint. Open sci-fi outline with a transparent interior and a numbered center. The outline extends 3 inches from the marker edge. Activation and control are manual.",
+    "Width": 3.2,
+    "Length": 3.2,
+    "Height": 0.2,
+    "Shape": 1
+  },
+  {
+    "Id": "sc_mission_red_3",
+    "Name": "Mission marker 3 - red",
+    "Type": "Terrain",
+    "Description": "Mission marker 3. 32 mm circular selection and measurement footprint. Open sci-fi outline with a transparent interior and a numbered center. The outline extends 3 inches from the marker edge. Activation and control are manual.",
+    "Width": 3.2,
+    "Length": 3.2,
+    "Height": 0.2,
+    "Shape": 1
+  },
+  {
+    "Id": "sc_terrain_0e597f350f0c8124",
+    "Name": "grass",
+    "Type": "Terrain",
+    "Description": "StarCraft terrain: grass. PDF grid-calibrated footprint and layout. Resolve cover, elevation and movement using the rulebook.",
+    "Width": 7.174628780000001,
+    "Length": 3.7328475,
+    "Height": 5.13098542,
+    "Shape": 0
+  },
+  {
+    "Id": "sc_terrain_0e9238ef444f6364",
+    "Name": "Protoss Banner",
+    "Type": "Terrain",
+    "Description": "StarCraft terrain: Protoss Banner. PDF grid-calibrated footprint and layout. Resolve cover, elevation and movement using the rulebook.",
+    "Width": 5.08,
+    "Length": 3.175,
+    "Height": 9.595508567940254,
+    "Shape": 0
+  },
+  {
+    "Id": "sc_terrain_1cffe4ed683895d1",
+    "Name": "Wall Set 2",
+    "Type": "Terrain",
+    "Description": "StarCraft terrain: Wall Set 2. PDF grid-calibrated footprint and layout. Resolve cover, elevation and movement using the rulebook.",
+    "Width": 22.5425,
+    "Length": 6.6675,
+    "Height": 13.220065,
+    "Shape": 0
+  },
+  {
+    "Id": "sc_terrain_2e5381d1d3c2f1b7",
+    "Name": "Wall Set 3",
+    "Type": "Terrain",
+    "Description": "StarCraft terrain: Wall Set 3. PDF grid-calibrated footprint and layout. Resolve cover, elevation and movement using the rulebook.",
+    "Width": 12.7,
+    "Length": 5.3975,
+    "Height": 10.10163842,
+    "Shape": 0
+  },
+  {
+    "Id": "sc_terrain_342caed58291ae73",
+    "Name": "Statue Shard",
+    "Type": "Terrain",
+    "Description": "StarCraft terrain: Statue Shard. PDF grid-calibrated footprint and layout. Resolve cover, elevation and movement using the rulebook.",
+    "Width": 5.3975,
+    "Length": 7.9375,
+    "Height": 2.376342562119059,
+    "Shape": 0
+  },
+  {
+    "Id": "sc_terrain_442da683d2d26342",
+    "Name": "Protoss Banner",
+    "Type": "Terrain",
+    "Description": "StarCraft terrain: Protoss Banner. PDF grid-calibrated footprint and layout. Resolve cover, elevation and movement using the rulebook.",
+    "Width": 5.08,
+    "Length": 3.175,
+    "Height": 9.595508567940254,
+    "Shape": 0
+  },
+  {
+    "Id": "sc_terrain_4b5400ce5539b63f",
+    "Name": "Wall Set 5",
+    "Type": "Terrain",
+    "Description": "StarCraft terrain: Wall Set 5. PDF grid-calibrated footprint and layout. Resolve cover, elevation and movement using the rulebook.",
+    "Width": 19.3675,
+    "Length": 9.842499999999998,
+    "Height": 10.10798842,
+    "Shape": 0
+  },
+  {
+    "Id": "sc_terrain_5395598da3627dc3",
+    "Name": "Temple Obelisk",
+    "Type": "Terrain",
+    "Description": "StarCraft terrain: Temple Obelisk. PDF grid-calibrated footprint and layout. Resolve cover, elevation and movement using the rulebook.",
+    "Width": 4.1275,
+    "Length": 4.1275,
+    "Height": 9.69712570851072,
+    "Shape": 0
+  },
+  {
+    "Id": "sc_terrain_677b1df2f3ce2914",
+    "Name": "Protoss Banner",
+    "Type": "Terrain",
+    "Description": "StarCraft terrain: Protoss Banner. PDF grid-calibrated footprint and layout. Resolve cover, elevation and movement using the rulebook.",
+    "Width": 5.08,
+    "Length": 3.175,
+    "Height": 9.595508476855862,
+    "Shape": 0
+  },
+  {
+    "Id": "sc_terrain_696320bc52444def",
+    "Name": "Protoss Banner",
+    "Type": "Terrain",
+    "Description": "StarCraft terrain: Protoss Banner. PDF grid-calibrated footprint and layout. Resolve cover, elevation and movement using the rulebook.",
+    "Width": 5.08,
+    "Length": 3.175,
+    "Height": 9.595509080159468,
+    "Shape": 0
+  },
+  {
+    "Id": "sc_terrain_8a9da51123d91b9c",
+    "Name": "Vespene Geyser",
+    "Type": "Terrain",
+    "Description": "StarCraft terrain: Vespene Geyser. PDF grid-calibrated footprint and layout. Resolve cover, elevation and movement using the rulebook.",
+    "Width": 6.985,
+    "Length": 7.9375,
+    "Height": 2.5556992320000003,
+    "Shape": 0
+  },
+  {
+    "Id": "sc_terrain_d903fea321acfebe",
+    "Name": "Head Statue",
+    "Type": "Terrain",
+    "Description": "StarCraft terrain: Head Statue. PDF grid-calibrated footprint and layout. Resolve cover, elevation and movement using the rulebook.",
+    "Width": 7.3025,
+    "Length": 10.795,
+    "Height": 2.8144390703122633,
+    "Shape": 0
+  },
+  {
+    "Id": "sc_terrain_e45c33c511633ae2",
+    "Name": "Head Statue",
+    "Type": "Terrain",
+    "Description": "StarCraft terrain: Head Statue. PDF grid-calibrated footprint and layout. Resolve cover, elevation and movement using the rulebook.",
+    "Width": 7.3025,
+    "Length": 10.795,
+    "Height": 2.7240816407041564,
+    "Shape": 0
+  },
+  {
+    "Id": "sc_terrain_e8d245d869f43c5b",
+    "Name": "Wall Set 4",
+    "Type": "Terrain",
+    "Description": "StarCraft terrain: Wall Set 4. PDF grid-calibrated footprint and layout. Resolve cover, elevation and movement using the rulebook.",
+    "Width": 19.3675,
+    "Length": 9.842499999999998,
+    "Height": 10.10798842,
+    "Shape": 0
+  },
+  {
+    "Id": "sc_terrain_f2dd0d048a087d53",
+    "Name": "High Ground",
+    "Type": "Terrain",
+    "Description": "StarCraft terrain: High Ground. PDF grid-calibrated footprint and layout. Resolve cover, elevation and movement using the rulebook.",
+    "Width": 37.465,
+    "Length": 20.32,
+    "Height": 9.988552648976038,
+    "Shape": 0
+  },
+  {
+    "Id": "sc_terrain_f305a277f53c823b",
+    "Name": "Wall Set 1",
+    "Type": "Terrain",
+    "Description": "StarCraft terrain: Wall Set 1. PDF grid-calibrated footprint and layout. Resolve cover, elevation and movement using the rulebook.",
+    "Width": 17.78,
+    "Length": 3.4925,
+    "Height": 13.2345811,
+    "Shape": 0
+  },
+  {
+    "Id": "sc_terrain_f910561ff3ef2272",
+    "Name": "Wall Set 6",
+    "Type": "Terrain",
+    "Description": "StarCraft terrain: Wall Set 6. PDF grid-calibrated footprint and layout. Resolve cover, elevation and movement using the rulebook.",
+    "Width": 7.9375,
+    "Length": 3.1750000000000003,
+    "Height": 10.10798842,
     "Shape": 0
   }
 ]
