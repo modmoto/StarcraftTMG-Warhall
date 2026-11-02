@@ -17,6 +17,9 @@ Release 12 removes the equipment child from each weapon stat row, eliminating th
 
 ## Requires Warhall client/catalogue support
 
+- [ ] Fix editor preservation of custom token/terrain IDs. Its release-34 export omitted all 16 tokens; adding a reference terrain replaced all 30 existing terrain records. Never upload an unchecked editor draft. Use `scripts/compare-wds-export.py` and see `docs/wds-editor-compatibility.md`.
+- [ ] Make TerrainPanel's addressable-prefab lookup null-safe for hosted GLB/OBJ skins before loading thumbnails. Keep shared profile IDs and existing map/deployment references intact.
+
 - [ ] Fix native token preview URLs: AllSkinData emits relative Thumbnail paths while TokenPanel expects absolute HTTPS URLs. Confirm the token panel activation path and make preview failures show a fallback button. See [the investigation](docs/token-menu-client-issue.md).
 - [ ] Verify faction dropdown icons after adding release 29 icons.json. The extra left space is the image slot; faction names have no whitespace.
 - [ ] Fix **Flip map**: rotate terrain positions and orientations together by 180 degrees so asymmetric walls and ramps retain their layout. Verify two flips restore the original layout. See [the client findings](docs/warhall-flip-limitations.md).

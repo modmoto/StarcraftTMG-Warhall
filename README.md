@@ -8,6 +8,8 @@ Repository text and generated JSON use UTF-8 with LF line endings on Windows, ma
 
 Normal play loads the published HTTPS game data and Warhall shared skins. Local cache installers below are legacy development helpers, not setup steps. See [cloud client setup and retiring local overrides](docs/cloud-client.md).
 
+Before uploading from the WDS editor, download its ZIP and run `python scripts/compare-wds-export.py EXPORT.zip`. The editor can omit tokens and replace terrain records even when its UI looks empty. See [the verified comparison and client-menu findings](docs/wds-editor-compatibility.md).
+
 ## Generate from official PDFs (default)
 
 From this repository:
