@@ -66,10 +66,12 @@ export function assembleTerrain(asset, parts, calibration) {
   const source = bounds(meshes);
   const [width, length] = calibration.footprintInches;
   const center = source.lo.map((v, i) => (v + source.hi[i]) / 2);
+  const heightScale =
+    calibration.heightMm === undefined ? 2.54 : calibration.heightMm / (10 * source.size[1]);
   for (const mesh of meshes)
     mesh.vertices = mesh.vertices.map(([x, y, z]) => [
       (((x - center[0]) * width) / source.size[0]) * 2.54,
-      (y - source.lo[1]) * 2.54,
+      (y - source.lo[1]) * heightScale,
       (((z - center[2]) * length) / source.size[2]) * 2.54,
     ]);
   return { meshes, sourceBounds: source, calibratedBounds: bounds(meshes) };

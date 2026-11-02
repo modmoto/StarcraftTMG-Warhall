@@ -124,7 +124,10 @@ for (const asset of source.assets.filter(asset => !aliases[asset.id])) {
     sourceSizeInches: sourceBounds.size,
     calibratedSizeInches: calibratedBounds.size.map(v => v / 2.54),
     policy:
-      'Preserve separate parent/attachment XYZ scales, bake attachments into one portable GLB, then fit the reviewed PDF footprint. Height retains the authored TTS scale.',
+      'Preserve separate parent/attachment XYZ scales, bake attachments into one portable GLB, then fit the reviewed PDF footprint. ' +
+      (definition.heightMm === undefined
+        ? 'Height retains the authored TTS scale.'
+        : `Temporary vertical compression to ${definition.heightMm} mm while imported ramp collision is unavailable.`),
   });
 }
 const maps = source.maps.map(map => ({
