@@ -188,20 +188,20 @@ test(
   },
 );
 
-test('three-inch grid covers the 54x36 board with horizontal and vertical lines', () => {
+test('six-inch grid covers the 54x36 board with horizontal and vertical lines', () => {
   const grid = gridDeployment();
   const lines = grid.template.lines;
   const vertical = lines.filter(line => line.rotationY === '90');
   const horizontal = lines.filter(line => line.rotationY === '0');
-  assert.equal(vertical.length, 19);
-  assert.equal(horizontal.length, 13);
+  assert.equal(vertical.length, 10);
+  assert.equal(horizontal.length, 7);
   assert.deepEqual(
     vertical.map(line => Number(line.posX)),
-    Array.from({ length: 19 }, (_, i) => -27 + i * 3),
+    Array.from({ length: 10 }, (_, i) => -27 + i * 6),
   );
   assert.deepEqual(
     horizontal.map(line => Number(line.posY)),
-    Array.from({ length: 13 }, (_, i) => -18 + i * 3),
+    Array.from({ length: 7 }, (_, i) => -18 + i * 6),
   );
   assert.ok(vertical.every(line => line.sizeX === '36' && line.posY === '0'));
   assert.ok(horizontal.every(line => line.sizeX === '54' && line.posX === '0'));

@@ -29,3 +29,7 @@ At the user's explicit request, terrain Height fields have been removed from map
 Red/blue strips are now 1 cm wide, matching the native deployment line width in the inspected client. Each strip is shifted outward by 0.5 cm along the board-edge normal, so its inner side stays on the playable boundary. Both ends extend by 0.5 cm so adjacent strips overlap, including perpendicular corner joins. The optional pale grid keeps its previous width and centered positions. Thickness above the board remains 0.05 cm. Exact visual matching to the green battlefield border remains subject to in-game review.
 
 Release 47 extends same-colour perpendicular corner endpoints by the full strip width (1 cm). Red/blue meeting points and straight strip joins stay flush without extensions. Half-width extensions left the outermost corner square uncovered after the outward offset; the full extension covers that square. The regression test checks near the outer corner, not just its inner quarter.
+
+## Six-inch grid (test data 57)
+
+The optional grid deployment is now `6-INCH GRID (54x36)`, with ten vertical and seven horizontal lines spaced six inches apart, including the board edges. It replaces the old three-inch menu entry. The seven official deployments and mission-marker control radii are unchanged. Its new content-addressed skin is published separately; old assets remain available for the live snapshot.

@@ -138,7 +138,7 @@ export function buildDeployments(layouts) {
   };
 }
 
-export function gridDeployment({ width = 54, height = 36, spacing = 3, index = 8 } = {}) {
+export function gridDeployment({ width = 54, height = 36, spacing = 6, index = 8 } = {}) {
   assert.ok([width, height, spacing].every(value => Number.isFinite(value) && value > 0));
   assert.equal(width % spacing, 0, 'Grid width must be divisible by its spacing');
   assert.equal(height % spacing, 0, 'Grid height must be divisible by its spacing');

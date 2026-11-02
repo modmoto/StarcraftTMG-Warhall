@@ -2,6 +2,10 @@
   "schemaVersion": 1,
   "serverUrl": "https://apptest.warhall.eu",
   "gameName": "Starcraft",
+  "gameNames": {
+    "test": "Starcraft-test",
+    "prod": "Starcraft"
+  },
   "entries": [
     {
       "profileId": "pdf_Protoss_profile_adepts",
@@ -3049,13 +3053,13 @@
       ]
     },
     {
-      "profileId": "sc_deployment_8634166",
-      "name": "Starcraft - Deployment - 3-INCH GRID (54x36)",
+      "profileId": "sc_deployment_3600022",
+      "name": "Starcraft - Deployment - 6-INCH GRID (54x36)",
       "kind": "deployment",
       "calibration": "deployment-centimeters-v1",
       "parts": [
         {
-          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/d78dfcfec9610d7dffbd09698e304da4f0270567aeaf8696a82bcb0772689ba5.glb",
+          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/13dfa1978d6f4f4fa731ec761a09ae06883b96fb438505a309cb837c0667d833.glb",
           "textureUrl": null,
           "hostedAsset": true,
           "transforms": {
@@ -3067,7 +3071,7 @@
             "rotationY": 0,
             "rotationZ": 0
           },
-          "previewGeometryFile": "model-assets/d78dfcfec9610d7dffbd09698e304da4f0270567aeaf8696a82bcb0772689ba5.glb.preview.json",
+          "previewGeometryFile": "model-assets/13dfa1978d6f4f4fa731ec761a09ae06883b96fb438505a309cb837c0667d833.glb.preview.json",
           "previewTransforms": {
             "scale": 1,
             "positionX": 0,
@@ -3080,9 +3084,5 @@
         }
       ]
     }
-  ],
-  "gameNames": {
-    "test": "Starcraft-test",
-    "prod": "Starcraft"
-  }
+  ]
 }

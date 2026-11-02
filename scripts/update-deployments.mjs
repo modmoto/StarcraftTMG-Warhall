@@ -136,6 +136,7 @@ for (const [file, records, owned] of [
     generated.deployments,
     r =>
       ownedDeploymentNames.has(r.deploymentName) ||
+      /^\d+-INCH GRID \(\d+x\d+\)$/.test(r.deploymentName) ||
       ownedDeploymentIds.has(r.deploymentID) ||
       generated.templates.some(t => t.deploymentID === r.deploymentID),
   ],
