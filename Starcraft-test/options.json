@@ -1,1 +1,350 @@
-[]
+[
+  {
+    "Id": "A-13 Flash Grenade Launcher",
+    "Name": "A-13 Flash Grenade Launcher",
+    "Type": 1,
+    "ItemsToAdd": []
+  },
+  {
+    "Id": "Adrenal Glands",
+    "Name": "Adrenal Glands",
+    "Type": 1,
+    "ItemsToAdd": []
+  },
+  {
+    "Id": "Advanced Medic Facilities",
+    "Name": "Advanced Medic Facilities",
+    "Type": 1,
+    "ItemsToAdd": []
+  },
+  {
+    "Id": "Agg-12",
+    "Name": "Agg-12",
+    "Type": 1,
+    "ItemsToAdd": []
+  },
+  {
+    "Id": "Ancillary Carapace",
+    "Name": "Ancillary Carapace",
+    "Type": 1,
+    "ItemsToAdd": []
+  },
+  {
+    "Id": "Ares-Class Targeting System",
+    "Name": "Ares-Class Targeting System",
+    "Type": 1,
+    "ItemsToAdd": []
+  },
+  {
+    "Id": "Bayonet",
+    "Name": "Bayonet",
+    "Type": 1,
+    "ItemsToAdd": []
+  },
+  {
+    "Id": "Bloated Bile Ducts",
+    "Name": "Bloated Bile Ducts",
+    "Type": 1,
+    "ItemsToAdd": []
+  },
+  {
+    "Id": "Broodmother",
+    "Name": "Broodmother",
+    "Type": 1,
+    "ItemsToAdd": []
+  },
+  {
+    "Id": "Burrow Ambush",
+    "Name": "Burrow Ambush",
+    "Type": 1,
+    "ItemsToAdd": []
+  },
+  {
+    "Id": "C-14 Rifle",
+    "Name": "C-14 Rifle",
+    "Type": 1,
+    "ItemsToAdd": []
+  },
+  {
+    "Id": "Cancerous Bite",
+    "Name": "Cancerous Bite",
+    "Type": 1,
+    "ItemsToAdd": []
+  },
+  {
+    "Id": "Combat Shield",
+    "Name": "Combat Shield",
+    "Type": 1,
+    "ItemsToAdd": []
+  },
+  {
+    "Id": "Coordinated Strike",
+    "Name": "Coordinated Strike",
+    "Type": 1,
+    "ItemsToAdd": []
+  },
+  {
+    "Id": "Corvid Reactor",
+    "Name": "Corvid Reactor",
+    "Type": 1,
+    "ItemsToAdd": []
+  },
+  {
+    "Id": "Creep Speed",
+    "Name": "Creep Speed",
+    "Type": 1,
+    "ItemsToAdd": []
+  },
+  {
+    "Id": "Domineering Presence",
+    "Name": "Domineering Presence",
+    "Type": 1,
+    "ItemsToAdd": []
+  },
+  {
+    "Id": "Explosive Shrapnel Shells",
+    "Name": "Explosive Shrapnel Shells",
+    "Type": 1,
+    "ItemsToAdd": []
+  },
+  {
+    "Id": "Farsight",
+    "Name": "Farsight",
+    "Type": 1,
+    "ItemsToAdd": []
+  },
+  {
+    "Id": "For The Ancients",
+    "Name": "For The Ancients",
+    "Type": 1,
+    "ItemsToAdd": []
+  },
+  {
+    "Id": "Fury Of The Nerazim",
+    "Name": "Fury Of The Nerazim",
+    "Type": 1,
+    "ItemsToAdd": []
+  },
+  {
+    "Id": "Fury Unyielding",
+    "Name": "Fury Unyielding",
+    "Type": 1,
+    "ItemsToAdd": []
+  },
+  {
+    "Id": "Glaive Strike",
+    "Name": "Glaive Strike",
+    "Type": 1,
+    "ItemsToAdd": []
+  },
+  {
+    "Id": "Glial Reconstitution",
+    "Name": "Glial Reconstitution",
+    "Type": 1,
+    "ItemsToAdd": []
+  },
+  {
+    "Id": "Grenades - Frag",
+    "Name": "Grenades - Frag",
+    "Type": 1,
+    "ItemsToAdd": []
+  },
+  {
+    "Id": "Grooved Spines",
+    "Name": "Grooved Spines",
+    "Type": 1,
+    "ItemsToAdd": []
+  },
+  {
+    "Id": "Guidance",
+    "Name": "Guidance",
+    "Type": 1,
+    "ItemsToAdd": []
+  },
+  {
+    "Id": "Hallucination",
+    "Name": "Hallucination",
+    "Type": 1,
+    "ItemsToAdd": []
+  },
+  {
+    "Id": "Haywire Missiles",
+    "Name": "Haywire Missiles",
+    "Type": 1,
+    "ItemsToAdd": []
+  },
+  {
+    "Id": "Hydriodic Bile",
+    "Name": "Hydriodic Bile",
+    "Type": 1,
+    "ItemsToAdd": []
+  },
+  {
+    "Id": "Internal Tech Module",
+    "Name": "Internal Tech Module",
+    "Type": 1,
+    "ItemsToAdd": []
+  },
+  {
+    "Id": "Kinetic Foam",
+    "Name": "Kinetic Foam",
+    "Type": 1,
+    "ItemsToAdd": []
+  },
+  {
+    "Id": "Laser Targeting Systems",
+    "Name": "Laser Targeting Systems",
+    "Type": 1,
+    "ItemsToAdd": []
+  },
+  {
+    "Id": "Left Phase Disruptor",
+    "Name": "Left Phase Disruptor",
+    "Type": 1,
+    "ItemsToAdd": []
+  },
+  {
+    "Id": "Leg Enhancements",
+    "Name": "Leg Enhancements",
+    "Type": 1,
+    "ItemsToAdd": []
+  },
+  {
+    "Id": "Lurking",
+    "Name": "Lurking",
+    "Type": 1,
+    "ItemsToAdd": []
+  },
+  {
+    "Id": "Mode Transformation",
+    "Name": "Mode Transformation",
+    "Type": 1,
+    "ItemsToAdd": []
+  },
+  {
+    "Id": "My Life For Aiur",
+    "Name": "My Life For Aiur",
+    "Type": 1,
+    "ItemsToAdd": []
+  },
+  {
+    "Id": "Path Of Shadows",
+    "Name": "Path Of Shadows",
+    "Type": 1,
+    "ItemsToAdd": []
+  },
+  {
+    "Id": "Plague",
+    "Name": "Plague",
+    "Type": 1,
+    "ItemsToAdd": []
+  },
+  {
+    "Id": "Potent Bile",
+    "Name": "Potent Bile",
+    "Type": 1,
+    "ItemsToAdd": []
+  },
+  {
+    "Id": "Psionic Storm",
+    "Name": "Psionic Storm",
+    "Type": 1,
+    "ItemsToAdd": []
+  },
+  {
+    "Id": "Resonating Glaves",
+    "Name": "Resonating Glaves",
+    "Type": 1,
+    "ItemsToAdd": []
+  },
+  {
+    "Id": "Right Phase Disruptor",
+    "Name": "Right Phase Disruptor",
+    "Type": 1,
+    "ItemsToAdd": []
+  },
+  {
+    "Id": "Rocket Launcher",
+    "Name": "Rocket Launcher",
+    "Type": 1,
+    "ItemsToAdd": []
+  },
+  {
+    "Id": "Scatter Missiles",
+    "Name": "Scatter Missiles",
+    "Type": 1,
+    "ItemsToAdd": []
+  },
+  {
+    "Id": "Seeker Missile",
+    "Name": "Seeker Missile",
+    "Type": 1,
+    "ItemsToAdd": []
+  },
+  {
+    "Id": "Shaped Blast",
+    "Name": "Shaped Blast",
+    "Type": 1,
+    "ItemsToAdd": []
+  },
+  {
+    "Id": "Shield Overcharge",
+    "Name": "Shield Overcharge",
+    "Type": 1,
+    "ItemsToAdd": []
+  },
+  {
+    "Id": "Shredding Claws",
+    "Name": "Shredding Claws",
+    "Type": 1,
+    "ItemsToAdd": []
+  },
+  {
+    "Id": "Slugthrower",
+    "Name": "Slugthrower",
+    "Type": 1,
+    "ItemsToAdd": []
+  },
+  {
+    "Id": "Smart Shells",
+    "Name": "Smart Shells",
+    "Type": 1,
+    "ItemsToAdd": []
+  },
+  {
+    "Id": "Solid-Field Projectors",
+    "Name": "Solid-Field Projectors",
+    "Type": 1,
+    "ItemsToAdd": []
+  },
+  {
+    "Id": "Stabilizer Medpacks",
+    "Name": "Stabilizer Medpacks",
+    "Type": 1,
+    "ItemsToAdd": []
+  },
+  {
+    "Id": "Tunneling Claws",
+    "Name": "Tunneling Claws",
+    "Type": 1,
+    "ItemsToAdd": []
+  },
+  {
+    "Id": "Veteran Of Tarsonis",
+    "Name": "Veteran Of Tarsonis",
+    "Type": 1,
+    "ItemsToAdd": []
+  },
+  {
+    "Id": "We Stand As One",
+    "Name": "We Stand As One",
+    "Type": 1,
+    "ItemsToAdd": []
+  },
+  {
+    "Id": "Zealous Round",
+    "Name": "Zealous Round",
+    "Type": 1,
+    "ItemsToAdd": []
+  }
+]

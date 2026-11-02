@@ -7,6 +7,7 @@ import path from 'node:path';
 import { buildFromNewRecruit as build } from '../src/convert.mjs';
 import { projectRoot as project } from '../src/paths.mjs';
 import { validateData } from '../src/warhall/validate.mjs';
+import { applyProfileOptions, flattenProfile } from '../src/lists/apply-options.mjs';
 
 const source = path.resolve(project, '../StarcraftTMG-NR');
 const optionalSource = { skip: !existsSync(source) };
@@ -35,9 +36,9 @@ test(
     assert.ok(
       report.units.find(u => u.name === 'Marines').optionalUpgrades.includes('Combat Shield'),
     );
-    const refs = data['Terran/profiles.json']
-      .find(p => p.Id === 'prof_marine')
-      .Children.map(c => c.Id);
+    const refs = flattenProfile(applyProfileOptions(data, 'prof_marine', 'unit_marine', [])).map(
+      row => row.Id,
+    );
     const weapons = data['Terran/rules.json'].filter(
       row => refs.includes(row.Id) && row.Id.endsWith('_table'),
     );
@@ -57,7 +58,11 @@ test(
       profile => profile.Id === zealotUnit.BasicProfileIds[0],
     );
     const zealot = data['Protoss/statlines.json'].find(
-      statline => statline.Id === zealotProfile.Children[0].Id,
+      statline =>
+        statline.Id ===
+        flattenProfile(applyProfileOptions(data, zealotProfile.Id, zealotUnit.Id, [])).find(
+          row => row.Type === 'Statline',
+        ).Id,
     );
     assert.equal(zealot.Attributes.HP, '4');
     assert.equal(zealot.Attributes.Shd, '3');

@@ -9,6 +9,7 @@ import { createReport, unitReport } from './report.mjs';
 import { loadKeywordRules, linkKeywordRules, linkFactionRules } from './rule-links.mjs';
 import { loadRulebookRules } from './rulebook.mjs';
 import { consolidateRules, linkRuleIndex } from './rule-index.mjs';
+import { addUpgradeOptions } from './upgrades.mjs';
 import { validateData } from './validate.mjs';
 import { nativeTokens, factionIcons, builtinTokenNames } from '../tokens/package.mjs';
 import { projectRoot } from '../paths.mjs';
@@ -73,10 +74,17 @@ function addUnitRecords(unit, faction, records, bases, groups, report, baseMappi
   const category = unit.categories.find(value => unitCategories.includes(value)) ?? 'Other';
   const references = unit.profiles.map(profile => addProfileRecord(profile, faction, records));
 
-  const upgrades = unit.optionalUpgrades
+  const upgradeProfiles = unit.optionalUpgrades
     .flatMap(upgrade => upgrade.profiles)
-    .filter(profile => profile.type === 'Ability' || profile.type?.startsWith('Rules ('))
-    .map(profile => addProfileRecord({ ...profile, isUpgrade: true }, faction, records));
+    .filter(
+      profile =>
+        profile.type === 'Ability' ||
+        profile.type?.startsWith('Rules (') ||
+        /Weapon$/.test(profile.type),
+    );
+  const upgrades = upgradeProfiles.map(profile =>
+    addProfileRecord({ ...profile, isUpgrade: true }, faction, records),
+  );
   records.contexts.push([...references, ...upgrades]);
   for (const id of [...references, ...upgrades]) {
     if (!records.owners.has(id)) records.owners.set(id, new Set());
@@ -109,6 +117,7 @@ function addUnitRecords(unit, faction, records, bases, groups, report, baseMappi
     ),
     Children: [],
   });
+  addUpgradeOptions(unit, ids, upgradeProfiles, upgrades, references, records, glossary);
 
   (groups[category] ??= []).push(ids.unit);
   report.units.push(unitReport(unit, faction, ids, footprint));
@@ -178,8 +187,8 @@ function factionFiles(records) {
     equipment: [...records.equipment.values()],
     rules: [...records.rules.values()],
     options: [],
-    modifiedprofile: [],
-    modifiedunit: [],
+    modifiedprofile: records.modifiedprofile,
+    modifiedunit: records.modifiedunit,
   };
 }
 
@@ -195,6 +204,7 @@ export async function buildWarhallPackage(source, template = defaultDataDirector
       .map(entry => `<link="${entry.record.Id}">${entry.record.Name}</link>`)
       .join(', ');
   const owners = new Map();
+  const options = new Map();
   report.ruleCleanup = {
     keywordSource: glossary.source,
     keywordDefinitions: glossary.entries.length,
@@ -224,6 +234,9 @@ export async function buildWarhallPackage(source, template = defaultDataDirector
       rules: new Map(),
       contexts: [],
       owners,
+      options,
+      modifiedprofile: [],
+      modifiedunit: [],
     };
     const groups = {};
 
@@ -241,12 +254,16 @@ export async function buildWarhallPackage(source, template = defaultDataDirector
 
     hierarchy.Factions[faction.name] = groups;
     for (const [name, values] of Object.entries(factionFiles(records))) {
-      data[`${faction.name}/${name}.json`] = values.sort((a, b) => a.Id.localeCompare(b.Id, 'en'));
+      const key = item => item.Id ?? `${item.UnitId}/${item.ProfileId ?? ''}/${item.OptionId}`;
+      data[`${faction.name}/${name}.json`] = values.sort((a, b) =>
+        key(a).localeCompare(key(b), 'en'),
+      );
     }
   }
 
   data['bases.json'] = [...bases.values()].sort((a, b) => a.Width - b.Width || a.Length - b.Length);
   data['hierarchy.json'] = hierarchy;
+  data['options.json'] = [...options.values()].sort((a, b) => a.Id.localeCompare(b.Id, 'en'));
   report.ruleCleanup.rulebookSource = book.source;
   report.ruleCleanup.chapters = book.entries.length;
   report.ruleCleanup.duplicatesRemoved = consolidateRules(data, owners);
@@ -258,6 +275,13 @@ export async function buildWarhallPackage(source, template = defaultDataDirector
       (total, record) => total + [...(record?.Description ?? '').matchAll(/<link=/g)].length,
       0,
     );
+  for (const [file, records] of Object.entries(data)) {
+    if (!/(?:^|\/)rules\.json$/.test(file)) continue;
+    for (const rule of records) {
+      if (rule.Name && rule.Description?.includes('<b>Upgrade ability</b>'))
+        rule.Name = `<color=#4da6ff>${rule.Name}</color>`;
+    }
+  }
 
   const previousManifest = await readJson(path.join(template, 'manifest.json'));
   data['manifest.json'] = { version: previousManifest.version, files: Object.keys(data).sort() };

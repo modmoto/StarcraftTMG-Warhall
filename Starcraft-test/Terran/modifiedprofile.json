@@ -1,1 +1,652 @@
-[]
+[
+  {
+    "UnitId": "pdf_Terran_unit_goliath",
+    "ProfileId": "pdf_Terran_profile_goliath",
+    "OptionId": "Ares-Class Targeting System",
+    "ReferencedItemsToRemove": [],
+    "ReferencedItemsToAdd": [
+      {
+        "Id": "pdf_Terran_profile_goliath_selected_options",
+        "Ref": [
+          {
+            "Id": "pdf_Terran_rule_goliath_upgrade_any_phase_ares_class_targeting_system"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "UnitId": "pdf_Terran_unit_goliath",
+    "ProfileId": "pdf_Terran_profile_goliath",
+    "OptionId": "Haywire Missiles",
+    "ReferencedItemsToRemove": [
+      {
+        "Id": "pdf_Terran_equipment_goliath_default_3_slot",
+        "Ref": [
+          {
+            "Id": "pdf_Terran_equipment_goliath_default_3_heading"
+          },
+          {
+            "Id": "pdf_Terran_equipment_goliath_default_3_table"
+          },
+          {
+            "Id": "pdf_Terran_equipment_goliath_default_3_keywords"
+          },
+          {
+            "Id": "pdf_Terran_equipment_goliath_upgrade_1_heading"
+          },
+          {
+            "Id": "pdf_Terran_equipment_goliath_upgrade_1_table"
+          },
+          {
+            "Id": "pdf_Terran_equipment_goliath_upgrade_1_keywords"
+          },
+          {
+            "Id": "pdf_Terran_equipment_goliath_upgrade_2_heading"
+          },
+          {
+            "Id": "pdf_Terran_equipment_goliath_upgrade_2_table"
+          },
+          {
+            "Id": "pdf_Terran_equipment_goliath_upgrade_2_keywords"
+          }
+        ]
+      }
+    ],
+    "ReferencedItemsToAdd": [
+      {
+        "Id": "pdf_Terran_profile_goliath_selected_options",
+        "Ref": [
+          {
+            "Id": "pdf_Terran_equipment_goliath_upgrade_2_choice"
+          }
+        ]
+      },
+      {
+        "Id": "pdf_Terran_equipment_goliath_default_3_slot",
+        "Ref": [
+          {
+            "Id": "pdf_Terran_equipment_goliath_upgrade_2_heading"
+          },
+          {
+            "Id": "pdf_Terran_equipment_goliath_upgrade_2_table"
+          },
+          {
+            "Id": "pdf_Terran_equipment_goliath_upgrade_2_keywords"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "UnitId": "pdf_Terran_unit_goliath",
+    "ProfileId": "pdf_Terran_profile_goliath",
+    "OptionId": "Scatter Missiles",
+    "ReferencedItemsToRemove": [
+      {
+        "Id": "pdf_Terran_equipment_goliath_default_3_slot",
+        "Ref": [
+          {
+            "Id": "pdf_Terran_equipment_goliath_default_3_heading"
+          },
+          {
+            "Id": "pdf_Terran_equipment_goliath_default_3_table"
+          },
+          {
+            "Id": "pdf_Terran_equipment_goliath_default_3_keywords"
+          },
+          {
+            "Id": "pdf_Terran_equipment_goliath_upgrade_1_heading"
+          },
+          {
+            "Id": "pdf_Terran_equipment_goliath_upgrade_1_table"
+          },
+          {
+            "Id": "pdf_Terran_equipment_goliath_upgrade_1_keywords"
+          },
+          {
+            "Id": "pdf_Terran_equipment_goliath_upgrade_2_heading"
+          },
+          {
+            "Id": "pdf_Terran_equipment_goliath_upgrade_2_table"
+          },
+          {
+            "Id": "pdf_Terran_equipment_goliath_upgrade_2_keywords"
+          }
+        ]
+      }
+    ],
+    "ReferencedItemsToAdd": [
+      {
+        "Id": "pdf_Terran_profile_goliath_selected_options",
+        "Ref": [
+          {
+            "Id": "pdf_Terran_equipment_goliath_upgrade_1_choice"
+          }
+        ]
+      },
+      {
+        "Id": "pdf_Terran_equipment_goliath_default_3_slot",
+        "Ref": [
+          {
+            "Id": "pdf_Terran_equipment_goliath_upgrade_1_heading"
+          },
+          {
+            "Id": "pdf_Terran_equipment_goliath_upgrade_1_table"
+          },
+          {
+            "Id": "pdf_Terran_equipment_goliath_upgrade_1_keywords"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "UnitId": "pdf_Terran_unit_jim_raynor",
+    "ProfileId": "pdf_Terran_profile_jim_raynor",
+    "OptionId": "C-14 Rifle",
+    "ReferencedItemsToRemove": [
+      {
+        "Id": "pdf_Terran_equipment_jim_raynor_default_2_slot",
+        "Ref": [
+          {
+            "Id": "pdf_Terran_equipment_jim_raynor_default_2_heading"
+          },
+          {
+            "Id": "pdf_Terran_equipment_jim_raynor_default_2_table"
+          },
+          {
+            "Id": "pdf_Terran_equipment_jim_raynor_default_2_keywords"
+          },
+          {
+            "Id": "pdf_Terran_equipment_jim_raynor_upgrade_0_heading"
+          },
+          {
+            "Id": "pdf_Terran_equipment_jim_raynor_upgrade_0_table"
+          },
+          {
+            "Id": "pdf_Terran_equipment_jim_raynor_upgrade_0_keywords"
+          }
+        ]
+      }
+    ],
+    "ReferencedItemsToAdd": [
+      {
+        "Id": "pdf_Terran_profile_jim_raynor_selected_options",
+        "Ref": [
+          {
+            "Id": "pdf_Terran_equipment_jim_raynor_upgrade_0_choice"
+          }
+        ]
+      },
+      {
+        "Id": "pdf_Terran_equipment_jim_raynor_default_2_slot",
+        "Ref": [
+          {
+            "Id": "pdf_Terran_equipment_jim_raynor_upgrade_0_heading"
+          },
+          {
+            "Id": "pdf_Terran_equipment_jim_raynor_upgrade_0_table"
+          },
+          {
+            "Id": "pdf_Terran_equipment_jim_raynor_upgrade_0_keywords"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "UnitId": "pdf_Terran_unit_marauders",
+    "ProfileId": "pdf_Terran_profile_marauders",
+    "OptionId": "Kinetic Foam",
+    "ReferencedItemsToRemove": [
+      {
+        "Id": "pdf_Terran_profile_marauders_stats",
+        "Ref": [
+          {
+            "Id": "pdf_Terran_stat_marauders"
+          }
+        ]
+      }
+    ],
+    "ReferencedItemsToAdd": [
+      {
+        "Id": "pdf_Terran_profile_marauders_selected_options",
+        "Ref": [
+          {
+            "Id": "pdf_Terran_rule_marauders_upgrade_any_phase_kinetic_foam"
+          }
+        ]
+      },
+      {
+        "Id": "pdf_Terran_profile_marauders_stats",
+        "Ref": [
+          {
+            "Id": "pdf_Terran_stat_marauders_kinetic_foam"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "UnitId": "pdf_Terran_unit_marauders",
+    "ProfileId": "pdf_Terran_profile_marauders",
+    "OptionId": "Laser Targeting Systems",
+    "ReferencedItemsToRemove": [],
+    "ReferencedItemsToAdd": [
+      {
+        "Id": "pdf_Terran_profile_marauders_selected_options",
+        "Ref": [
+          {
+            "Id": "pdf_Terran_rule_marauders_upgrade_assault_phase_laser_targeting_systems"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "UnitId": "pdf_Terran_unit_marauders",
+    "ProfileId": "pdf_Terran_profile_marauders",
+    "OptionId": "Veteran Of Tarsonis",
+    "ReferencedItemsToRemove": [],
+    "ReferencedItemsToAdd": [
+      {
+        "Id": "pdf_Terran_profile_marauders_selected_options",
+        "Ref": [
+          {
+            "Id": "pdf_Terran_rule_marauders_upgrade_any_phase_veteran_of_tarsonis"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "UnitId": "pdf_Terran_unit_medics",
+    "ProfileId": "pdf_Terran_profile_medics",
+    "OptionId": "A-13 Flash Grenade Launcher",
+    "ReferencedItemsToRemove": [],
+    "ReferencedItemsToAdd": [
+      {
+        "Id": "pdf_Terran_profile_medics_selected_options",
+        "Ref": [
+          {
+            "Id": "pdf_Terran_rule_medics_upgrade_any_phase_a_13_flash_grenade_launcher"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "UnitId": "pdf_Terran_unit_medics",
+    "ProfileId": "pdf_Terran_profile_medics",
+    "OptionId": "Advanced Medic Facilities",
+    "ReferencedItemsToRemove": [],
+    "ReferencedItemsToAdd": [
+      {
+        "Id": "pdf_Terran_profile_medics_selected_options",
+        "Ref": [
+          {
+            "Id": "pdf_Terran_rule_medics_upgrade_any_phase_advanced_medic_facilities"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "UnitId": "pdf_Terran_unit_medics",
+    "ProfileId": "pdf_Terran_profile_medics",
+    "OptionId": "Stabilizer Medpacks",
+    "ReferencedItemsToRemove": [],
+    "ReferencedItemsToAdd": [
+      {
+        "Id": "pdf_Terran_profile_medics_selected_options",
+        "Ref": [
+          {
+            "Id": "pdf_Terran_rule_medics_upgrade_any_phase_stabilizer_medpacks"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "UnitId": "pdf_Terran_unit_raven",
+    "ProfileId": "pdf_Terran_profile_raven",
+    "OptionId": "Corvid Reactor",
+    "ReferencedItemsToRemove": [],
+    "ReferencedItemsToAdd": [
+      {
+        "Id": "pdf_Terran_profile_raven_selected_options",
+        "Ref": [
+          {
+            "Id": "pdf_Terran_rule_raven_upgrade_any_phase_corvid_reactor"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "UnitId": "pdf_Terran_unit_raven",
+    "ProfileId": "pdf_Terran_profile_raven",
+    "OptionId": "Explosive Shrapnel Shells",
+    "ReferencedItemsToRemove": [],
+    "ReferencedItemsToAdd": [
+      {
+        "Id": "pdf_Terran_profile_raven_selected_options",
+        "Ref": [
+          {
+            "Id": "pdf_Terran_rule_raven_upgrade_assault_phase_explosive_shrapnel_shells"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "UnitId": "pdf_Terran_unit_raven",
+    "ProfileId": "pdf_Terran_profile_raven",
+    "OptionId": "Internal Tech Module",
+    "ReferencedItemsToRemove": [],
+    "ReferencedItemsToAdd": [
+      {
+        "Id": "pdf_Terran_profile_raven_selected_options",
+        "Ref": [
+          {
+            "Id": "pdf_Terran_rule_raven_upgrade_movement_phase_internal_tech_module"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "UnitId": "pdf_Terran_unit_raven",
+    "ProfileId": "pdf_Terran_profile_raven",
+    "OptionId": "Seeker Missile",
+    "ReferencedItemsToRemove": [],
+    "ReferencedItemsToAdd": [
+      {
+        "Id": "pdf_Terran_profile_raven_selected_options",
+        "Ref": [
+          {
+            "Id": "pdf_Terran_rule_raven_upgrade_movement_phase_seeker_missile"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "UnitId": "pdf_Terran_unit_siege_tank",
+    "ProfileId": "pdf_Terran_profile_siege_tank",
+    "OptionId": "Coordinated Strike",
+    "ReferencedItemsToRemove": [],
+    "ReferencedItemsToAdd": [
+      {
+        "Id": "pdf_Terran_profile_siege_tank_selected_options",
+        "Ref": [
+          {
+            "Id": "pdf_Terran_rule_siege_tank_upgrade_movement_phase_coordinated_strike"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "UnitId": "pdf_Terran_unit_siege_tank",
+    "ProfileId": "pdf_Terran_profile_siege_tank",
+    "OptionId": "Mode Transformation",
+    "ReferencedItemsToRemove": [],
+    "ReferencedItemsToAdd": [
+      {
+        "Id": "pdf_Terran_profile_siege_tank_selected_options",
+        "Ref": [
+          {
+            "Id": "pdf_Terran_rule_siege_tank_upgrade_movement_phase_mode_transformation"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "UnitId": "pdf_Terran_unit_siege_tank",
+    "ProfileId": "pdf_Terran_profile_siege_tank",
+    "OptionId": "Shaped Blast",
+    "ReferencedItemsToRemove": [],
+    "ReferencedItemsToAdd": [
+      {
+        "Id": "pdf_Terran_profile_siege_tank_selected_options",
+        "Ref": [
+          {
+            "Id": "pdf_Terran_rule_siege_tank_upgrade_assault_phase_shaped_blast"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "UnitId": "pdf_Terran_unit_siege_tank",
+    "ProfileId": "pdf_Terran_profile_siege_tank",
+    "OptionId": "Smart Shells",
+    "ReferencedItemsToRemove": [],
+    "ReferencedItemsToAdd": [
+      {
+        "Id": "pdf_Terran_profile_siege_tank_selected_options",
+        "Ref": [
+          {
+            "Id": "pdf_Terran_rule_siege_tank_upgrade_assault_phase_smart_shells"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "UnitId": "unit_marine",
+    "ProfileId": "prof_marine",
+    "OptionId": "Agg-12",
+    "ReferencedItemsToRemove": [
+      {
+        "Id": "pdf_Terran_equipment_marines_default_1_slot",
+        "Ref": [
+          {
+            "Id": "pdf_Terran_equipment_marines_default_1_heading"
+          },
+          {
+            "Id": "pdf_Terran_equipment_marines_default_1_table"
+          },
+          {
+            "Id": "pdf_Terran_equipment_marines_upgrade_1_heading"
+          },
+          {
+            "Id": "pdf_Terran_equipment_marines_upgrade_1_table"
+          },
+          {
+            "Id": "pdf_Terran_equipment_marines_upgrade_1_keywords"
+          },
+          {
+            "Id": "pdf_Terran_equipment_marines_upgrade_2_heading"
+          },
+          {
+            "Id": "pdf_Terran_equipment_marines_upgrade_2_table"
+          },
+          {
+            "Id": "pdf_Terran_equipment_marines_upgrade_2_keywords"
+          }
+        ]
+      }
+    ],
+    "ReferencedItemsToAdd": [
+      {
+        "Id": "prof_marine_selected_options",
+        "Ref": [
+          {
+            "Id": "pdf_Terran_equipment_marines_upgrade_1_choice"
+          }
+        ]
+      },
+      {
+        "Id": "pdf_Terran_equipment_marines_default_1_slot",
+        "Ref": [
+          {
+            "Id": "pdf_Terran_equipment_marines_upgrade_1_heading"
+          },
+          {
+            "Id": "pdf_Terran_equipment_marines_upgrade_1_table"
+          },
+          {
+            "Id": "pdf_Terran_equipment_marines_upgrade_1_keywords"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "UnitId": "unit_marine",
+    "ProfileId": "prof_marine",
+    "OptionId": "Bayonet",
+    "ReferencedItemsToRemove": [
+      {
+        "Id": "pdf_Terran_equipment_marines_default_2_slot",
+        "Ref": [
+          {
+            "Id": "pdf_Terran_equipment_marines_default_2_heading"
+          },
+          {
+            "Id": "pdf_Terran_equipment_marines_default_2_table"
+          },
+          {
+            "Id": "pdf_Terran_equipment_marines_upgrade_4_heading"
+          },
+          {
+            "Id": "pdf_Terran_equipment_marines_upgrade_4_table"
+          }
+        ]
+      }
+    ],
+    "ReferencedItemsToAdd": [
+      {
+        "Id": "prof_marine_selected_options",
+        "Ref": [
+          {
+            "Id": "pdf_Terran_equipment_marines_upgrade_4_choice"
+          }
+        ]
+      },
+      {
+        "Id": "pdf_Terran_equipment_marines_default_2_slot",
+        "Ref": [
+          {
+            "Id": "pdf_Terran_equipment_marines_upgrade_4_heading"
+          },
+          {
+            "Id": "pdf_Terran_equipment_marines_upgrade_4_table"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "UnitId": "unit_marine",
+    "ProfileId": "prof_marine",
+    "OptionId": "Combat Shield",
+    "ReferencedItemsToRemove": [],
+    "ReferencedItemsToAdd": [
+      {
+        "Id": "prof_marine_selected_options",
+        "Ref": [
+          {
+            "Id": "pdf_Terran_rule_marines_upgrade_movement_phase_combat_shield"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "UnitId": "unit_marine",
+    "ProfileId": "prof_marine",
+    "OptionId": "Grenades - Frag",
+    "ReferencedItemsToRemove": [],
+    "ReferencedItemsToAdd": [
+      {
+        "Id": "prof_marine_selected_options",
+        "Ref": [
+          {
+            "Id": "pdf_Terran_rule_marines_upgrade_assault_phase_grenades_frag"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "UnitId": "unit_marine",
+    "ProfileId": "prof_marine",
+    "OptionId": "Rocket Launcher",
+    "ReferencedItemsToRemove": [
+      {
+        "Id": "pdf_Terran_equipment_marines_default_1_slot",
+        "Ref": [
+          {
+            "Id": "pdf_Terran_equipment_marines_default_1_heading"
+          },
+          {
+            "Id": "pdf_Terran_equipment_marines_default_1_table"
+          },
+          {
+            "Id": "pdf_Terran_equipment_marines_upgrade_1_heading"
+          },
+          {
+            "Id": "pdf_Terran_equipment_marines_upgrade_1_table"
+          },
+          {
+            "Id": "pdf_Terran_equipment_marines_upgrade_1_keywords"
+          },
+          {
+            "Id": "pdf_Terran_equipment_marines_upgrade_2_heading"
+          },
+          {
+            "Id": "pdf_Terran_equipment_marines_upgrade_2_table"
+          },
+          {
+            "Id": "pdf_Terran_equipment_marines_upgrade_2_keywords"
+          }
+        ]
+      }
+    ],
+    "ReferencedItemsToAdd": [
+      {
+        "Id": "prof_marine_selected_options",
+        "Ref": [
+          {
+            "Id": "pdf_Terran_equipment_marines_upgrade_2_choice"
+          }
+        ]
+      },
+      {
+        "Id": "pdf_Terran_equipment_marines_default_1_slot",
+        "Ref": [
+          {
+            "Id": "pdf_Terran_equipment_marines_upgrade_2_heading"
+          },
+          {
+            "Id": "pdf_Terran_equipment_marines_upgrade_2_table"
+          },
+          {
+            "Id": "pdf_Terran_equipment_marines_upgrade_2_keywords"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "UnitId": "unit_marine",
+    "ProfileId": "prof_marine",
+    "OptionId": "Slugthrower",
+    "ReferencedItemsToRemove": [],
+    "ReferencedItemsToAdd": [
+      {
+        "Id": "prof_marine_selected_options",
+        "Ref": [
+          {
+            "Id": "pdf_Terran_rule_marines_upgrade_assault_phase_slugthrower"
+          }
+        ]
+      }
+    ]
+  }
+]

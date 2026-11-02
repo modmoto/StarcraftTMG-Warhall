@@ -78,7 +78,12 @@ export function linkRuleIndex(data, glossary, book) {
     .flatMap(([, rules]) => rules)
     .filter(rule => rule.Name && rule.Type === 'Rule');
   for (const rule of namedRules)
-    if (!/^\d/.test(rule.Name) && !targets.has(rule.Name.toLowerCase())) add(rule.Name, rule.Id);
+    if (
+      !/^\d/.test(rule.Name) &&
+      !rule.Id.endsWith('_choice') &&
+      !targets.has(rule.Name.toLowerCase())
+    )
+      add(rule.Name, rule.Id);
   const aliases = [...targets.keys()].sort((a, b) => b.length - a.length);
   const pattern = new RegExp(
     `\\b(?:Parts?|Sections?|Chapters?)\\s+(\\d+(?:\\.\\d+){0,2})(?!\\d|\\.\\d)|(?<![\\p{L}\\p{N}_.])(\\d+\\.\\d+(?:\\.\\d+)?)(?![\\p{L}\\p{N}_]|\\.\\d|\\s*["”″])|(?<![\\p{L}\\p{N}_])(?:${aliases.map(escape).join('|')})(?![\\p{L}\\p{N}_])`,
@@ -90,6 +95,7 @@ export function linkRuleIndex(data, glossary, book) {
     if (!/(?:^|\/)(?:rules|equipment|cards)\.json$/.test(file)) continue;
     for (const rule of records) {
       if (!rule?.Description) continue;
+      if (rule.Id?.endsWith('_heading')) continue;
       rule.Description = rule.Description.split(/(<link="[^"]+">[\s\S]*?<\/link>|<[^>]+>)/g)
         .map(segment => {
           if (segment.startsWith('<')) return segment;

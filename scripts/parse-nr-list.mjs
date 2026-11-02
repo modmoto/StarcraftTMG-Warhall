@@ -16,6 +16,9 @@ for (const faction of ['Terran', 'Protoss', 'Zerg']) {
     units: await json(`${faction}/units.json`),
     profiles: await json(`${faction}/profiles.json`),
     rules: await json(`${faction}/rules.json`),
+    options: [...(await json('options.json')), ...(await json(`${faction}/options.json`))],
+    modifiedunit: await json(`${faction}/modifiedunit.json`),
+    modifiedprofile: await json(`${faction}/modifiedprofile.json`),
   };
 }
 const plan = planNewRecruitList(await readFile(values.input, 'utf8'), {

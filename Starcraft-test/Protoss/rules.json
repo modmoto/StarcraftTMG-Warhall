@@ -14,6 +14,23 @@
     "Children": []
   },
   {
+    "Id": "pdf_Protoss_equipment_adepts_default_2_slot",
+    "Name": "",
+    "Type": "",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Protoss_equipment_adepts_default_2_heading"
+      },
+      {
+        "Id": "pdf_Protoss_equipment_adepts_default_2_table"
+      },
+      {
+        "Id": "pdf_Protoss_equipment_adepts_default_2_keywords"
+      }
+    ]
+  },
+  {
     "Id": "pdf_Protoss_equipment_adepts_default_2_table",
     "Name": "",
     "Type": "",
@@ -28,10 +45,51 @@
     "Children": []
   },
   {
+    "Id": "pdf_Protoss_equipment_adepts_default_3_slot",
+    "Name": "",
+    "Type": "",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Protoss_equipment_adepts_default_3_heading"
+      },
+      {
+        "Id": "pdf_Protoss_equipment_adepts_default_3_table"
+      }
+    ]
+  },
+  {
     "Id": "pdf_Protoss_equipment_adepts_default_3_table",
     "Name": "",
     "Type": "",
     "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr><u><link=\"rule_chapter_8_7_4\">Surge</link></u></nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>1</nobr><pos=46%><nobr>4+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Protoss_equipment_adepts_upgrade_1_choice",
+    "Name": "<color=#4da6ff>Glaive Strike</color>",
+    "Type": "Rule",
+    "Description": "<b>Upgrade ability</b>\n\nCombat Weapon\nRng: E\nTgt: Ground\nRoA: 1\nHit: 4+\n<u><link=\"rule_chapter_8_7_4\">Surge</link></u>: Light\nS.Die: D3\nDmg: 1\nKeyword: <u><link=\"rule_keyword_pierce\">PIERCE</link></u> Light (2)\nNotes: ↑ FOR STRIKE"
+  },
+  {
+    "Id": "pdf_Protoss_equipment_adepts_upgrade_1_heading",
+    "Name": "",
+    "Type": "",
+    "Description": "<b>GLAIVE STRIKE</b>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Protoss_equipment_adepts_upgrade_1_keywords",
+    "Name": "",
+    "Type": "",
+    "Description": "<u><link=\"rule_keyword_pierce\">PIERCE Light (2)</link></u>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Protoss_equipment_adepts_upgrade_1_table",
+    "Name": "",
+    "Type": "",
+    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr><u><link=\"rule_chapter_8_7_4\">Surge</link></u></nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>1</nobr><pos=46%><nobr>4+</nobr><pos=59%><nobr>Light (D3)</nobr><pos=86%><nobr>1</nobr></b></size></align>",
     "Children": []
   },
   {
@@ -40,6 +98,20 @@
     "Type": "",
     "Description": "<b>TWILIGHT BLADES STRIKE</b>",
     "Children": []
+  },
+  {
+    "Id": "pdf_Protoss_equipment_artanis_default_3_slot",
+    "Name": "",
+    "Type": "",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Protoss_equipment_artanis_default_3_heading"
+      },
+      {
+        "Id": "pdf_Protoss_equipment_artanis_default_3_table"
+      }
+    ]
   },
   {
     "Id": "pdf_Protoss_equipment_artanis_default_3_table",
@@ -54,6 +126,20 @@
     "Type": "",
     "Description": "<b>TWILIGHT BLADES SWEEP</b>",
     "Children": []
+  },
+  {
+    "Id": "pdf_Protoss_equipment_artanis_default_4_slot",
+    "Name": "",
+    "Type": "",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Protoss_equipment_artanis_default_4_heading"
+      },
+      {
+        "Id": "pdf_Protoss_equipment_artanis_default_4_table"
+      }
+    ]
   },
   {
     "Id": "pdf_Protoss_equipment_artanis_default_4_table",
@@ -77,6 +163,23 @@
     "Children": []
   },
   {
+    "Id": "pdf_Protoss_equipment_high_templar_default_2_slot",
+    "Name": "",
+    "Type": "",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Protoss_equipment_high_templar_default_2_heading"
+      },
+      {
+        "Id": "pdf_Protoss_equipment_high_templar_default_2_table"
+      },
+      {
+        "Id": "pdf_Protoss_equipment_high_templar_default_2_keywords"
+      }
+    ]
+  },
+  {
     "Id": "pdf_Protoss_equipment_high_templar_default_2_table",
     "Name": "",
     "Type": "",
@@ -89,6 +192,20 @@
     "Type": "",
     "Description": "<b>STRIKE</b>",
     "Children": []
+  },
+  {
+    "Id": "pdf_Protoss_equipment_high_templar_default_3_slot",
+    "Name": "",
+    "Type": "",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Protoss_equipment_high_templar_default_3_heading"
+      },
+      {
+        "Id": "pdf_Protoss_equipment_high_templar_default_3_table"
+      }
+    ]
   },
   {
     "Id": "pdf_Protoss_equipment_high_templar_default_3_table",
@@ -112,6 +229,23 @@
     "Children": []
   },
   {
+    "Id": "pdf_Protoss_equipment_immortal_default_1_slot",
+    "Name": "",
+    "Type": "",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Protoss_equipment_immortal_default_1_heading"
+      },
+      {
+        "Id": "pdf_Protoss_equipment_immortal_default_1_table"
+      },
+      {
+        "Id": "pdf_Protoss_equipment_immortal_default_1_keywords"
+      }
+    ]
+  },
+  {
     "Id": "pdf_Protoss_equipment_immortal_default_1_table",
     "Name": "",
     "Type": "",
@@ -133,6 +267,23 @@
     "Children": []
   },
   {
+    "Id": "pdf_Protoss_equipment_immortal_default_2_slot",
+    "Name": "",
+    "Type": "",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Protoss_equipment_immortal_default_2_heading"
+      },
+      {
+        "Id": "pdf_Protoss_equipment_immortal_default_2_table"
+      },
+      {
+        "Id": "pdf_Protoss_equipment_immortal_default_2_keywords"
+      }
+    ]
+  },
+  {
     "Id": "pdf_Protoss_equipment_immortal_default_2_table",
     "Name": "",
     "Type": "",
@@ -147,10 +298,78 @@
     "Children": []
   },
   {
+    "Id": "pdf_Protoss_equipment_immortal_default_4_slot",
+    "Name": "",
+    "Type": "",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Protoss_equipment_immortal_default_4_heading"
+      },
+      {
+        "Id": "pdf_Protoss_equipment_immortal_default_4_table"
+      }
+    ]
+  },
+  {
     "Id": "pdf_Protoss_equipment_immortal_default_4_table",
     "Name": "",
     "Type": "",
     "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr><u><link=\"rule_chapter_8_7_4\">Surge</link></u></nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>3</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Protoss_equipment_immortal_upgrade_1_choice",
+    "Name": "<color=#4da6ff>Left Phase Disruptor</color>",
+    "Type": "Rule",
+    "Description": "<b>Upgrade ability</b>\n\nAssault Weapon\nRng: 12\nTgt: Ground\nRoA: 4\nHit: 3+\n<u><link=\"rule_chapter_8_7_4\">Surge</link></u>: Armoured\nS.Die: D3\nDmg: 1\nKeyword: <u><link=\"rule_keyword_pierce\">PIERCE</link></u> Armoured (3)"
+  },
+  {
+    "Id": "pdf_Protoss_equipment_immortal_upgrade_1_heading",
+    "Name": "",
+    "Type": "",
+    "Description": "<b>LEFT PHASE DISRUPTOR</b>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Protoss_equipment_immortal_upgrade_1_keywords",
+    "Name": "",
+    "Type": "",
+    "Description": "<u><link=\"rule_keyword_pierce\">PIERCE Armoured (3)</link></u>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Protoss_equipment_immortal_upgrade_1_table",
+    "Name": "",
+    "Type": "",
+    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr><u><link=\"rule_chapter_8_7_4\">Surge</link></u></nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>12</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>4</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>Armored (D3)</nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Protoss_equipment_immortal_upgrade_2_choice",
+    "Name": "<color=#4da6ff>Right Phase Disruptor</color>",
+    "Type": "Rule",
+    "Description": "<b>Upgrade ability</b>\n\nAssault Weapon\nRng: 12\nTgt: Ground\nRoA: 4\nHit: 3+\n<u><link=\"rule_chapter_8_7_4\">Surge</link></u>: Armoured\nS.Die: D3\nDmg: 1\nKeyword: <u><link=\"rule_keyword_pierce\">PIERCE</link></u> Armoured (3), <u><link=\"rule_keyword_sidearm\">SIDEARM</link></u>"
+  },
+  {
+    "Id": "pdf_Protoss_equipment_immortal_upgrade_2_heading",
+    "Name": "",
+    "Type": "",
+    "Description": "<b>RIGHT PHASE DISRUPTOR</b>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Protoss_equipment_immortal_upgrade_2_keywords",
+    "Name": "",
+    "Type": "",
+    "Description": "<u><link=\"rule_keyword_pierce\">PIERCE Armoured (3)</link></u>, <u><link=\"rule_keyword_sidearm\">SIDEARM</link></u>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Protoss_equipment_immortal_upgrade_2_table",
+    "Name": "",
+    "Type": "",
+    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr><u><link=\"rule_chapter_8_7_4\">Surge</link></u></nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>12</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>4</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>Armored (D3)</nobr><pos=86%><nobr>1</nobr></b></size></align>",
     "Children": []
   },
   {
@@ -168,6 +387,23 @@
     "Children": []
   },
   {
+    "Id": "pdf_Protoss_equipment_nerazim_watchers_adept_default_2_slot",
+    "Name": "",
+    "Type": "",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Protoss_equipment_nerazim_watchers_adept_default_2_heading"
+      },
+      {
+        "Id": "pdf_Protoss_equipment_nerazim_watchers_adept_default_2_table"
+      },
+      {
+        "Id": "pdf_Protoss_equipment_nerazim_watchers_adept_default_2_keywords"
+      }
+    ]
+  },
+  {
     "Id": "pdf_Protoss_equipment_nerazim_watchers_adept_default_2_table",
     "Name": "",
     "Type": "",
@@ -182,6 +418,20 @@
     "Children": []
   },
   {
+    "Id": "pdf_Protoss_equipment_nerazim_watchers_adept_default_3_slot",
+    "Name": "",
+    "Type": "",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Protoss_equipment_nerazim_watchers_adept_default_3_heading"
+      },
+      {
+        "Id": "pdf_Protoss_equipment_nerazim_watchers_adept_default_3_table"
+      }
+    ]
+  },
+  {
     "Id": "pdf_Protoss_equipment_nerazim_watchers_adept_default_3_table",
     "Name": "",
     "Type": "",
@@ -194,6 +444,20 @@
     "Type": "",
     "Description": "<b>PSI BLADES</b>",
     "Children": []
+  },
+  {
+    "Id": "pdf_Protoss_equipment_praetor_guards_default_3_slot",
+    "Name": "",
+    "Type": "",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Protoss_equipment_praetor_guards_default_3_heading"
+      },
+      {
+        "Id": "pdf_Protoss_equipment_praetor_guards_default_3_table"
+      }
+    ]
   },
   {
     "Id": "pdf_Protoss_equipment_praetor_guards_default_3_table",
@@ -217,6 +481,23 @@
     "Children": []
   },
   {
+    "Id": "pdf_Protoss_equipment_sentries_default_2_slot",
+    "Name": "",
+    "Type": "",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Protoss_equipment_sentries_default_2_heading"
+      },
+      {
+        "Id": "pdf_Protoss_equipment_sentries_default_2_table"
+      },
+      {
+        "Id": "pdf_Protoss_equipment_sentries_default_2_keywords"
+      }
+    ]
+  },
+  {
     "Id": "pdf_Protoss_equipment_sentries_default_2_table",
     "Name": "",
     "Type": "",
@@ -229,6 +510,20 @@
     "Type": "",
     "Description": "<b>BEAM</b>",
     "Children": []
+  },
+  {
+    "Id": "pdf_Protoss_equipment_sentries_default_3_slot",
+    "Name": "",
+    "Type": "",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Protoss_equipment_sentries_default_3_heading"
+      },
+      {
+        "Id": "pdf_Protoss_equipment_sentries_default_3_table"
+      }
+    ]
   },
   {
     "Id": "pdf_Protoss_equipment_sentries_default_3_table",
@@ -245,6 +540,20 @@
     "Children": []
   },
   {
+    "Id": "pdf_Protoss_equipment_stalker_default_2_slot",
+    "Name": "",
+    "Type": "",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Protoss_equipment_stalker_default_2_heading"
+      },
+      {
+        "Id": "pdf_Protoss_equipment_stalker_default_2_table"
+      }
+    ]
+  },
+  {
     "Id": "pdf_Protoss_equipment_stalker_default_2_table",
     "Name": "",
     "Type": "",
@@ -257,6 +566,20 @@
     "Type": "",
     "Description": "<b>STOMP</b>",
     "Children": []
+  },
+  {
+    "Id": "pdf_Protoss_equipment_stalker_default_3_slot",
+    "Name": "",
+    "Type": "",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Protoss_equipment_stalker_default_3_heading"
+      },
+      {
+        "Id": "pdf_Protoss_equipment_stalker_default_3_table"
+      }
+    ]
   },
   {
     "Id": "pdf_Protoss_equipment_stalker_default_3_table",
@@ -280,6 +603,23 @@
     "Children": []
   },
   {
+    "Id": "pdf_Protoss_equipment_tassadar_default_2_slot",
+    "Name": "",
+    "Type": "",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Protoss_equipment_tassadar_default_2_heading"
+      },
+      {
+        "Id": "pdf_Protoss_equipment_tassadar_default_2_table"
+      },
+      {
+        "Id": "pdf_Protoss_equipment_tassadar_default_2_keywords"
+      }
+    ]
+  },
+  {
     "Id": "pdf_Protoss_equipment_tassadar_default_2_table",
     "Name": "",
     "Type": "",
@@ -292,6 +632,20 @@
     "Type": "",
     "Description": "<b>STRIKE</b>",
     "Children": []
+  },
+  {
+    "Id": "pdf_Protoss_equipment_tassadar_default_4_slot",
+    "Name": "",
+    "Type": "",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Protoss_equipment_tassadar_default_4_heading"
+      },
+      {
+        "Id": "pdf_Protoss_equipment_tassadar_default_4_table"
+      }
+    ]
   },
   {
     "Id": "pdf_Protoss_equipment_tassadar_default_4_table",
@@ -315,6 +669,23 @@
     "Children": []
   },
   {
+    "Id": "pdf_Protoss_equipment_twilight_templar_high_templar_default_2_slot",
+    "Name": "",
+    "Type": "",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Protoss_equipment_twilight_templar_high_templar_default_2_heading"
+      },
+      {
+        "Id": "pdf_Protoss_equipment_twilight_templar_high_templar_default_2_table"
+      },
+      {
+        "Id": "pdf_Protoss_equipment_twilight_templar_high_templar_default_2_keywords"
+      }
+    ]
+  },
+  {
     "Id": "pdf_Protoss_equipment_twilight_templar_high_templar_default_2_table",
     "Name": "",
     "Type": "",
@@ -329,6 +700,20 @@
     "Children": []
   },
   {
+    "Id": "pdf_Protoss_equipment_twilight_templar_high_templar_default_3_slot",
+    "Name": "",
+    "Type": "",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Protoss_equipment_twilight_templar_high_templar_default_3_heading"
+      },
+      {
+        "Id": "pdf_Protoss_equipment_twilight_templar_high_templar_default_3_table"
+      }
+    ]
+  },
+  {
     "Id": "pdf_Protoss_equipment_twilight_templar_high_templar_default_3_table",
     "Name": "",
     "Type": "",
@@ -341,6 +726,20 @@
     "Type": "",
     "Description": "<b>PSI BLADES</b>",
     "Children": []
+  },
+  {
+    "Id": "pdf_Protoss_equipment_zealots_default_1_slot",
+    "Name": "",
+    "Type": "",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Protoss_equipment_zealots_default_1_heading"
+      },
+      {
+        "Id": "pdf_Protoss_equipment_zealots_default_1_table"
+      }
+    ]
   },
   {
     "Id": "pdf_Protoss_equipment_zealots_default_1_table",
@@ -364,6 +763,23 @@
     "Children": []
   },
   {
+    "Id": "pdf_Protoss_equipment_zeratul_default_3_slot",
+    "Name": "",
+    "Type": "",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Protoss_equipment_zeratul_default_3_heading"
+      },
+      {
+        "Id": "pdf_Protoss_equipment_zeratul_default_3_table"
+      },
+      {
+        "Id": "pdf_Protoss_equipment_zeratul_default_3_keywords"
+      }
+    ]
+  },
+  {
     "Id": "pdf_Protoss_equipment_zeratul_default_3_table",
     "Name": "",
     "Type": "",
@@ -385,11 +801,47 @@
     "Children": []
   },
   {
+    "Id": "pdf_Protoss_profile_adepts_selected_options",
+    "Name": "",
+    "Type": "",
+    "Description": "",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Protoss_profile_adepts_stats",
+    "Name": "",
+    "Type": "",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Protoss_stat_adepts"
+      }
+    ]
+  },
+  {
     "Id": "pdf_Protoss_profile_artanis_phase_melee_phase",
     "Name": "",
     "Type": "",
     "Description": "<b>Melee Phase</b>",
     "Children": []
+  },
+  {
+    "Id": "pdf_Protoss_profile_artanis_selected_options",
+    "Name": "",
+    "Type": "",
+    "Description": "",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Protoss_profile_artanis_stats",
+    "Name": "",
+    "Type": "",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Protoss_stat_artanis"
+      }
+    ]
   },
   {
     "Id": "pdf_Protoss_profile_high_templar_phase_assault_phase",
@@ -406,6 +858,24 @@
     "Children": []
   },
   {
+    "Id": "pdf_Protoss_profile_high_templar_selected_options",
+    "Name": "",
+    "Type": "",
+    "Description": "",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Protoss_profile_high_templar_stats",
+    "Name": "",
+    "Type": "",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Protoss_stat_high_templar"
+      }
+    ]
+  },
+  {
     "Id": "pdf_Protoss_profile_immortal_phase_assault_phase",
     "Name": "",
     "Type": "",
@@ -418,6 +888,24 @@
     "Type": "",
     "Description": "<b>Melee Phase</b>",
     "Children": []
+  },
+  {
+    "Id": "pdf_Protoss_profile_immortal_selected_options",
+    "Name": "",
+    "Type": "",
+    "Description": "",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Protoss_profile_immortal_stats",
+    "Name": "",
+    "Type": "",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Protoss_stat_immortal"
+      }
+    ]
   },
   {
     "Id": "pdf_Protoss_profile_nerazim_watchers_adept_phase_assault_phase",
@@ -434,11 +922,65 @@
     "Children": []
   },
   {
+    "Id": "pdf_Protoss_profile_nerazim_watchers_adept_selected_options",
+    "Name": "",
+    "Type": "",
+    "Description": "",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Protoss_profile_nerazim_watchers_adept_stats",
+    "Name": "",
+    "Type": "",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Protoss_stat_nerazim_watchers_adept"
+      }
+    ]
+  },
+  {
     "Id": "pdf_Protoss_profile_praetor_guards_phase_melee_phase",
     "Name": "",
     "Type": "",
     "Description": "<b>Melee Phase</b>",
     "Children": []
+  },
+  {
+    "Id": "pdf_Protoss_profile_praetor_guards_selected_options",
+    "Name": "",
+    "Type": "",
+    "Description": "",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Protoss_profile_praetor_guards_stats",
+    "Name": "",
+    "Type": "",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Protoss_stat_praetor_guards"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Protoss_profile_pylon_selected_options",
+    "Name": "",
+    "Type": "",
+    "Description": "",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Protoss_profile_pylon_stats",
+    "Name": "",
+    "Type": "",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Protoss_stat_pylon"
+      }
+    ]
   },
   {
     "Id": "pdf_Protoss_profile_sentries_phase_assault_phase",
@@ -455,6 +997,24 @@
     "Children": []
   },
   {
+    "Id": "pdf_Protoss_profile_sentries_selected_options",
+    "Name": "",
+    "Type": "",
+    "Description": "",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Protoss_profile_sentries_stats",
+    "Name": "",
+    "Type": "",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Protoss_stat_sentries"
+      }
+    ]
+  },
+  {
     "Id": "pdf_Protoss_profile_stalker_phase_assault_phase",
     "Name": "",
     "Type": "",
@@ -467,6 +1027,24 @@
     "Type": "",
     "Description": "<b>Melee Phase</b>",
     "Children": []
+  },
+  {
+    "Id": "pdf_Protoss_profile_stalker_selected_options",
+    "Name": "",
+    "Type": "",
+    "Description": "",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Protoss_profile_stalker_stats",
+    "Name": "",
+    "Type": "",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Protoss_stat_stalker"
+      }
+    ]
   },
   {
     "Id": "pdf_Protoss_profile_tassadar_phase_assault_phase",
@@ -483,6 +1061,24 @@
     "Children": []
   },
   {
+    "Id": "pdf_Protoss_profile_tassadar_selected_options",
+    "Name": "",
+    "Type": "",
+    "Description": "",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Protoss_profile_tassadar_stats",
+    "Name": "",
+    "Type": "",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Protoss_stat_tassadar"
+      }
+    ]
+  },
+  {
     "Id": "pdf_Protoss_profile_twilight_templar_high_templar_phase_assault_phase",
     "Name": "",
     "Type": "",
@@ -497,6 +1093,24 @@
     "Children": []
   },
   {
+    "Id": "pdf_Protoss_profile_twilight_templar_high_templar_selected_options",
+    "Name": "",
+    "Type": "",
+    "Description": "",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Protoss_profile_twilight_templar_high_templar_stats",
+    "Name": "",
+    "Type": "",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Protoss_stat_twilight_templar_high_templar"
+      }
+    ]
+  },
+  {
     "Id": "pdf_Protoss_profile_zealots_phase_melee_phase",
     "Name": "",
     "Type": "",
@@ -504,11 +1118,47 @@
     "Children": []
   },
   {
+    "Id": "pdf_Protoss_profile_zealots_selected_options",
+    "Name": "",
+    "Type": "",
+    "Description": "",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Protoss_profile_zealots_stats",
+    "Name": "",
+    "Type": "",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Protoss_stat_zealots"
+      }
+    ]
+  },
+  {
     "Id": "pdf_Protoss_profile_zeratul_phase_melee_phase",
     "Name": "",
     "Type": "",
     "Description": "<b>Melee Phase</b>",
     "Children": []
+  },
+  {
+    "Id": "pdf_Protoss_profile_zeratul_selected_options",
+    "Name": "",
+    "Type": "",
+    "Description": "",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Protoss_profile_zeratul_stats",
+    "Name": "",
+    "Type": "",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Protoss_stat_zeratul"
+      }
+    ]
   },
   {
     "Id": "pdf_Protoss_rule_adepts_any_phase_psionic_presence",
@@ -524,13 +1174,13 @@
   },
   {
     "Id": "pdf_Protoss_rule_adepts_upgrade_assault_phase_guidance",
-    "Name": "Guidance",
+    "Name": "<color=#4da6ff>Guidance</color>",
     "Type": "Rule",
     "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Passive\n<b>Upgrade ability</b>\n\nThis Unit's Glaive Cannon Ranged weapon gains <u><link=\"rule_keyword_anti_evade\">ANTI-EVADE</link></u> (2)."
   },
   {
     "Id": "pdf_Protoss_rule_adepts_upgrade_assault_phase_resonating_glaves",
-    "Name": "Resonating Glaves",
+    "Name": "<color=#4da6ff>Resonating Glaves</color>",
     "Type": "Rule",
     "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Active\n<b>Cost:</b> 1 PE\n<b>Upgrade ability</b>\n\nThis Unit's Glaive Cannon gains <u><link=\"rule_keyword_buff\">BUFF</link></u> RoA (1)."
   },
@@ -578,13 +1228,13 @@
   },
   {
     "Id": "pdf_Protoss_rule_high_templar_upgrade_movement_phase_farsight",
-    "Name": "Farsight",
+    "Name": "<color=#4da6ff>Farsight</color>",
     "Type": "Rule",
     "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Active\n<b>Cost:</b> 1 PE\n<b>Upgrade ability</b>\n\nTarget one <u><link=\"rule_keyword_friendly\">Friendly</link></u> Unit <u><link=\"rule_keyword_within\">Within</link></u> 12\". Until the End of the Round, that Unit is eligible to make an <u><link=\"rule_chapter_8_7_4\">Evade Roll</link></u> against any attacks targeting it."
   },
   {
     "Id": "pdf_Protoss_rule_high_templar_upgrade_movement_phase_psionic_storm",
-    "Name": "Psionic Storm",
+    "Name": "<color=#4da6ff>Psionic Storm</color>",
     "Type": "Rule",
     "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Active\n<b>Cost:</b> 2 PE\n<b>Upgrade ability</b>\n\nSet a Psionic Storm token <u><link=\"rule_keyword_within\">Within</link></u> 10\" and <u><link=\"rule_keyword_line_of_sight\">Line of Sight</link></u> of this Unit. This token is not removed if this Unit is Destroyed. At the End of each Phase, set a Psionic Storm Blast Template on the centre of this token. For each Unit that has at least one model whose base is partially covered by the template, roll 3 <u><link=\"rule_chapter_3_1\">dice</link></u>, plus 1 additional die for each model in that Unit whose base is partially covered. For each result of 5+, that Unit suffers an effect depending on the current Phase:\n• Movement Phase: <u><link=\"rule_keyword_non_lethal_damage\">NON-LETHAL DAMAGE</link></u> (1).\n• Assault Phase: 1 Dama ge. If multiple effects trigger at the End of the Assault Phase, resolve them in the order specified in <u><link=\"rule_chapter_8_9_4\">Part 8.9.4</link></u>."
   },
@@ -608,19 +1258,19 @@
   },
   {
     "Id": "pdf_Protoss_rule_immortal_upgrade_any_phase_shield_overcharge",
-    "Name": "Shield Overcharge (Immortal)",
+    "Name": "<color=#4da6ff>Shield Overcharge (Immortal)</color>",
     "Type": "Rule",
     "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Reaction\n<b>Cost:</b> 1 PE\n<b>Upgrade ability</b>\n\nUse before this Unit makes an <u><link=\"rule_chapter_8_7_4\">Armour Roll</link></u>. If this Unit has the <u><link=\"rule_keyword_shielded\">Shielded</link></u> <u><link=\"rule_keyword_status\">Status</link></u>, It gains <u><link=\"rule_keyword_tough\">TOUGH</link></u> (2) for this roll."
   },
   {
     "Id": "pdf_Protoss_rule_immortal_upgrade_assault_phase_for_the_ancients",
-    "Name": "For The Ancients",
+    "Name": "<color=#4da6ff>For The Ancients</color>",
     "Type": "Rule",
     "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Passive\n<b>Upgrade ability</b>\n\nWhen this Unit makes a <u><link=\"rule_chapter_8_7_3\">Ranged Attack</link></u>, if the target Unit is more than 8\" away, the attacking weapons gain <u><link=\"rule_keyword_precision\">PRECISION</link></u> (1)."
   },
   {
     "Id": "pdf_Protoss_rule_immortal_upgrade_assault_phase_fury_unyielding",
-    "Name": "Fury Unyielding",
+    "Name": "<color=#4da6ff>Fury Unyielding</color>",
     "Type": "Rule",
     "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Passive\n<b>Upgrade ability</b>\n<b>Replaces:</b> RIGHT PHOTON DISRUPTOR\n\nWhile this Unit is <u><link=\"rule_keyword_within\">Within</link></u> 3\" of a Mission Marker, its Ranged Weapons gain <u><link=\"rule_keyword_critical_hit\">CRITICAL HIT</link></u> (1) when targeting an <u><link=\"rule_keyword_enemy\">Enemy</link></u> Unit that is also <u><link=\"rule_keyword_within\">Within</link></u> 3\" of that same Mission Marker."
   },
@@ -710,13 +1360,13 @@
   },
   {
     "Id": "pdf_Protoss_rule_sentries_upgrade_assault_phase_hallucination",
-    "Name": "Hallucination",
+    "Name": "<color=#4da6ff>Hallucination</color>",
     "Type": "Rule",
     "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Reaction\n<b>Cost:</b> 0 PE\n<b>Upgrade ability</b>\n\nWhen an <u><link=\"rule_keyword_enemy\">Enemy</link></u> Unit declares a <u><link=\"rule_chapter_8_7_3\">Ranged Attack</link></u> against a <u><link=\"rule_keyword_friendly\">Friendly</link></u> Unit <u><link=\"rule_keyword_within\">Within</link></u> 4\", the targeted <u><link=\"rule_keyword_friendly\">Friendly</link></u> Unit is eligible to make an <u><link=\"rule_chapter_8_7_4\">Evade Roll</link></u> against that attack."
   },
   {
     "Id": "pdf_Protoss_rule_sentries_upgrade_movement_phase_solid_field_projectors",
-    "Name": "Solid-Field Projectors",
+    "Name": "<color=#4da6ff>Solid-Field Projectors</color>",
     "Type": "Rule",
     "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Active\n<b>Cost:</b> 1 PE\n<b>Upgrade ability</b>\n\nSet a <u><link=\"pdf_Protoss_rule_sentries_movement_phase_force_field\">Force Field</link></u> token <u><link=\"rule_keyword_within\">Within</link></u> 8\" in an unoccupied space. <u><link=\"rule_chapter_2_2\">Units</link></u> of Size 2 or lower cannot move across Force Fields. <u><link=\"rule_chapter_2_1\">Models</link></u> of Size 3 or more can move over it, and it's then removed."
   },
@@ -734,13 +1384,13 @@
   },
   {
     "Id": "pdf_Protoss_rule_stalker_upgrade_any_phase_path_of_shadows",
-    "Name": "Path Of Shadows (Stalker)",
+    "Name": "<color=#4da6ff>Path Of Shadows (Stalker)</color>",
     "Type": "Rule",
     "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Active\n<b>Cost:</b> 1 PE\n<b>Upgrade ability</b>\n\nThis Unit gains <u><link=\"rule_keyword_hidden\">HIDDEN</link></u> <u><link=\"rule_keyword_status\">Status</link></u> until it performs another action."
   },
   {
     "Id": "pdf_Protoss_rule_stalker_upgrade_assault_phase_fury_of_the_nerazim",
-    "Name": "Fury Of The Nerazim",
+    "Name": "<color=#4da6ff>Fury Of The Nerazim</color>",
     "Type": "Rule",
     "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Passive\n<b>Upgrade ability</b>\n\nWhen this Unit attacks an <u><link=\"rule_keyword_enemy\">Enemy</link></u> Unit that has already been Activated during this Phase, its Particle Disruptors gain <u><link=\"rule_keyword_instant\">INSTANT</link></u> for that attack."
   },
@@ -794,25 +1444,25 @@
   },
   {
     "Id": "pdf_Protoss_rule_zealots_upgrade_any_phase_my_life_for_aiur",
-    "Name": "My Life For Aiur",
+    "Name": "<color=#4da6ff>My Life For Aiur</color>",
     "Type": "Rule",
     "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Passive\n<b>Upgrade ability</b>\n\nWhen this Unit resolves <u><link=\"rule_keyword_impact\">IMPACT</link></u>, each eligible model generates 1 additional <u><link=\"rule_keyword_impact\">IMPACT</link></u> die."
   },
   {
     "Id": "pdf_Protoss_rule_zealots_upgrade_assault_phase_zealous_round",
-    "Name": "Zealous Round",
+    "Name": "<color=#4da6ff>Zealous Round</color>",
     "Type": "Rule",
     "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Reaction\n<b>Cost:</b> 0 PE\n<b>Upgrade ability</b>\n\nWhen this Unit is not Activated and receives Damage, the <u><link=\"rule_keyword_controlling_player\">controlling player</link></u> may count this Unit as Activated in this Phase (flip its Activation Marker) to reduce the Total Damage by 2."
   },
   {
     "Id": "pdf_Protoss_rule_zealots_upgrade_combat_phase_we_stand_as_one",
-    "Name": "We Stand As One",
+    "Name": "<color=#4da6ff>We Stand As One</color>",
     "Type": "Rule",
     "Description": "<b>Phase:</b> Melee Phase\n<b>Type:</b> Passive\n<b>Upgrade ability</b>\n\nWhen this Unit makes a Close Combat Attack, if the target is <u><link=\"rule_keyword_engaged\">Engaged</link></u> with at least 1 other <u><link=\"rule_keyword_friendly\">Friendly</link></u> Unit, this Unit's Close Combat Weapon gains <u><link=\"rule_keyword_precision\">PRECISION</link></u> (2)."
   },
   {
     "Id": "pdf_Protoss_rule_zealots_upgrade_movement_phase_leg_enhancements",
-    "Name": "Leg Enhancements (Zealots)",
+    "Name": "<color=#4da6ff>Leg Enhancements (Zealots)</color>",
     "Type": "Rule",
     "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Active\n<b>Cost:</b> 1 PE\n<b>Upgrade ability</b>\n\nThis Unit performs a 2\" <u><link=\"rule_chapter_8_5_2\">Move</link></u> action. This does not count towards its action limit."
   },

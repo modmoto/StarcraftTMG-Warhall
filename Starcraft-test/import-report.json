@@ -70,10 +70,11 @@
   "limitations": [
     "Base footprints come from the printed cards; flight stands use the user-specified 100 mm round footprint.",
     "Manual placement only; army-list import and roster legality are not implemented.",
+    "Default profiles remain unchanged until an upgrade is selected. Supported HP increases and weapon replacements use WDS option mappings; conditional effects remain manual.",
     "All units are exposed, including faction-restricted and summoned units; eligibility is manual.",
     "Shields are displayed separately from HP; shield loss/healing is manual.",
     "Warhall client compatibility/loading has not been verified.",
-    "Official unit cards are parsed; cost tables, FAQ/errata reconciliation and automatic upgrades are not implemented.",
+    "Official unit cards are parsed. Selected HP increases and weapon replacements are supported; cost tables, FAQ/errata reconciliation and conditional effects are not automated.",
     "Tactical, mission and deployment pages are reported separately rather than imported as miniatures."
   ],
   "warnings": [],
@@ -2887,7 +2888,7 @@
       "extraction": "Official Part 11 glossary; PDF text and headings, whitespace normalized."
     },
     "keywordDefinitions": 76,
-    "links": 2913,
+    "links": 3005,
     "rulebookSource": {
       "url": "https://archon-studio.com/files/manuals/sc/StarCraft-TMG_EN.pdf",
       "sha256": "27639c562e6db9777dd9ba984d0c9f9b581841ec30166848e021f893cd00ea54",
@@ -2899,7 +2900,7 @@
       "printedPageOffset": 2
     },
     "chapters": 101,
-    "duplicatesRemoved": 65
+    "duplicatesRemoved": 66
   },
   "counts": {
     "factions": 3,

@@ -5,7 +5,7 @@ export function createReport(metadata, baseMapping) {
       ? 'Base footprints come from the printed cards; flight stands use the user-specified 100 mm round footprint.'
       : 'Base footprints use the hard-coded mapping; unset units fall back to the hero/default round diameter.',
     'Manual placement only; army-list import and roster legality are not implemented.',
-    'Default catalogue values only. Upgrades and conditional modifiers are documented, not applied.',
+    'Default profiles remain unchanged until an upgrade is selected. Supported HP increases and weapon replacements use WDS option mappings; conditional effects remain manual.',
     'All units are exposed, including faction-restricted and summoned units; eligibility is manual.',
     'Shields are displayed separately from HP; shield loss/healing is manual.',
     'Source completeness against current official releases is not established.',
@@ -32,7 +32,7 @@ export function createReport(metadata, baseMapping) {
       value => !value.startsWith('Default catalogue') && !value.startsWith('Source completeness'),
     );
     report.limitations.push(
-      'Official unit cards are parsed; cost tables, FAQ/errata reconciliation and automatic upgrades are not implemented.',
+      'Official unit cards are parsed. Selected HP increases and weapon replacements are supported; cost tables, FAQ/errata reconciliation and conditional effects are not automated.',
       'Tactical, mission and deployment pages are reported separately rather than imported as miniatures.',
     );
     report.cardCoverage = metadata.coverage;

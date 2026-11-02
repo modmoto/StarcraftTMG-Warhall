@@ -20,18 +20,27 @@
       "upgrades": [
         {
           "name": "Kinetic Foam",
+          "optionIds": [
+            "Kinetic Foam"
+          ],
           "ruleIds": [
             "pdf_Terran_rule_marauders_upgrade_any_phase_kinetic_foam"
           ]
         },
         {
           "name": "Veteran of Tarsonis",
+          "optionIds": [
+            "Veteran Of Tarsonis"
+          ],
           "ruleIds": [
             "pdf_Terran_rule_marauders_upgrade_any_phase_veteran_of_tarsonis"
           ]
         },
         {
           "name": "Laser Targeting Systems",
+          "optionIds": [
+            "Laser Targeting Systems"
+          ],
           "ruleIds": [
             "pdf_Terran_rule_marauders_upgrade_assault_phase_laser_targeting_systems"
           ]
@@ -47,18 +56,27 @@
       "upgrades": [
         {
           "name": "Kinetic Foam",
+          "optionIds": [
+            "Kinetic Foam"
+          ],
           "ruleIds": [
             "pdf_Terran_rule_marauders_upgrade_any_phase_kinetic_foam"
           ]
         },
         {
           "name": "Veteran of Tarsonis",
+          "optionIds": [
+            "Veteran Of Tarsonis"
+          ],
           "ruleIds": [
             "pdf_Terran_rule_marauders_upgrade_any_phase_veteran_of_tarsonis"
           ]
         },
         {
           "name": "Laser Targeting Systems",
+          "optionIds": [
+            "Laser Targeting Systems"
+          ],
           "ruleIds": [
             "pdf_Terran_rule_marauders_upgrade_assault_phase_laser_targeting_systems"
           ]
@@ -90,24 +108,36 @@
       "upgrades": [
         {
           "name": "Shaped Blast",
+          "optionIds": [
+            "Shaped Blast"
+          ],
           "ruleIds": [
             "pdf_Terran_rule_siege_tank_upgrade_assault_phase_shaped_blast"
           ]
         },
         {
           "name": "Smart Shells",
+          "optionIds": [
+            "Smart Shells"
+          ],
           "ruleIds": [
             "pdf_Terran_rule_siege_tank_upgrade_assault_phase_smart_shells"
           ]
         },
         {
           "name": "Coordinated Strike",
+          "optionIds": [
+            "Coordinated Strike"
+          ],
           "ruleIds": [
             "pdf_Terran_rule_siege_tank_upgrade_movement_phase_coordinated_strike"
           ]
         },
         {
           "name": "Mode Transformation",
+          "optionIds": [
+            "Mode Transformation"
+          ],
           "ruleIds": [
             "pdf_Terran_rule_siege_tank_upgrade_movement_phase_mode_transformation"
           ]
@@ -123,6 +153,9 @@
       "upgrades": [
         {
           "name": "Stabilizer Medpacks",
+          "optionIds": [
+            "Stabilizer Medpacks"
+          ],
           "ruleIds": [
             "pdf_Terran_rule_medics_upgrade_any_phase_stabilizer_medpacks"
           ]
@@ -138,6 +171,9 @@
       "upgrades": [
         {
           "name": "Stabilizer Medpacks",
+          "optionIds": [
+            "Stabilizer Medpacks"
+          ],
           "ruleIds": [
             "pdf_Terran_rule_medics_upgrade_any_phase_stabilizer_medpacks"
           ]

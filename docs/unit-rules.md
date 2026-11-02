@@ -24,7 +24,7 @@ Descriptions use validated TextMeshPro `<link="recordId">text</link>` references
 
 `rules-reference-report.json` compares the current New Recruit catalogue snapshot with the current cards. It records source hashes, catalogue IDs, phase/cost text and nested keyword relationships. Of the 45 official units, 31 have catalogue counterparts. Among the 175 default abilities, 108 effects match, three differ in wording/formatting and 64 have no counterpart. The three differences are punctuation for Zeratul's Shadow Strike, list formatting for Raynor's Orders, and “not Engaged” versus “Unengaged” for Viles' Burrow. Two additional catalogue activation/cost strings differ by spelling: “Reactive” versus “Reaction” and “Pasive” versus “Passive.” No numeric resource-cost difference was found among matched entries. There are no phase mismatches among matched entries.
 
-Source pages and SHA-256 checksums, raw card text and parsed upgrades remain in import reports. Unit descriptions show neither source/provenance text nor base sizes, catalogue internals or manual-upgrade placeholders. The underlying base geometry is unchanged. Conditional effects, upgrade application and FAQ/errata reconciliation are not automated.
+Source pages and SHA-256 checksums, raw card text and parsed upgrades remain in import reports. Unit descriptions show neither source/provenance text nor base sizes, catalogue internals or manual-upgrade placeholders. The underlying base geometry is unchanged. Selected upgrades now use WDS option mappings for HP increases and weapon trades; see [import options](import-options.md). Conditional effects and FAQ/errata reconciliation remain manual.
 
 ## Native client compatibility
 

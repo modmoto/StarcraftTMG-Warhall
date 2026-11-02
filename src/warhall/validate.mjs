@@ -13,6 +13,7 @@ export function validateData(data) {
     if (!(name in data)) throw new Error(`Missing manifest file: ${name}`);
     if (!Array.isArray(data[name]) || ['objectives.json', 'deployments.json'].includes(name))
       continue;
+    if (/(?:^|\/)modified(?:profile|unit)\.json$/.test(name)) continue;
     for (const record of data[name]) {
       if (!record || typeof record.Id !== 'string' || !record.Id)
         throw new Error(`Missing record ID: ${name}`);
@@ -27,11 +28,30 @@ export function validateData(data) {
       throw new Error(`Expected ${expected} at ${context}: ${id}`);
     return target;
   };
-  const unitStatlines = new Set(
-    [...ids.values()]
-      .filter(item => item.Type === 'Profile')
-      .map(profile => profile.Children?.find(child => ids.get(child.Id)?.Type === 'Statline')?.Id),
-  );
+  const unitStatlines = new Set();
+  const visitStats = (item, visited = new Set()) => {
+    if (!item || visited.has(item.Id)) return;
+    visited.add(item.Id);
+    if (item.Type === 'Statline') unitStatlines.add(item.Id);
+    for (const child of item.Children ?? []) visitStats(ids.get(child.Id), visited);
+  };
+  for (const item of ids.values()) if (item.Type === 'Profile') visitStats(item);
+  const validateRefs = (references, context) => {
+    for (const child of references ?? []) {
+      ref(child.Id, context);
+      validateRefs(child.Ref, context);
+    }
+  };
+  for (const [file, records] of Object.entries(data)) {
+    if (!/(?:^|\/)modified(?:profile|unit)\.json$/.test(file)) continue;
+    for (const modifier of records) {
+      ref(modifier.OptionId, file);
+      if (modifier.UnitId) ref(modifier.UnitId, file, 'Unit');
+      if (modifier.ProfileId) ref(modifier.ProfileId, file, 'Profile');
+      validateRefs(modifier.ReferencedItemsToRemove, file);
+      validateRefs(modifier.ReferencedItemsToAdd, file);
+    }
+  }
   for (const item of ids.values()) {
     for (const id of item.BasicProfileIds ?? []) ref(id, item.Id, 'Profile');
     for (const child of item.Children ?? []) ref(child.Id, item.Id);

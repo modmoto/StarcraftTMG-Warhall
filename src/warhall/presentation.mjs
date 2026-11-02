@@ -53,9 +53,25 @@ export function weaponTable(attributes) {
   return `<align=left><size=9><color=#2596be>${row(headers)}</color>\n<b>${row(values)}</b></size></align>`;
 }
 
-function textRow(records, id, description) {
+export function textRow(records, id, description) {
   records.rules.set(id, { Id: id, Name: '', Type: '', Description: description, Children: [] });
   return id;
+}
+
+export function textContainer(records, id, children = []) {
+  textRow(records, id, '');
+  records.rules.get(id).Children = children.map(Id => ({ Id }));
+  return id;
+}
+
+export function weaponRows(profile, id, records, glossary) {
+  const rows = [
+    textRow(records, `${id}_heading`, `<b>${profile.name}</b>`),
+    textRow(records, `${id}_table`, weaponTable(profile.attributes)),
+  ];
+  const keywords = weaponKeywords(profile.attributes.Keyword, glossary);
+  if (keywords) rows.push(textRow(records, `${id}_keywords`, keywords));
+  return rows;
 }
 
 export function weaponKeywords(text, glossary) {
@@ -88,12 +104,13 @@ export function profileChildren(unit, ids, references, records, glossary) {
     const phase = profilePhase(profile);
     const group = groups.get(phase);
     if (!group) throw new Error(`Unknown display phase: ${unit.name}/${phase}`);
-    group.push(textRow(records, `${id}_heading`, `<b>${profile.name}</b>`));
-    group.push(textRow(records, `${id}_table`, weaponTable(profile.attributes)));
-    const keywords = weaponKeywords(profile.attributes.Keyword, glossary);
-    if (keywords) group.push(textRow(records, `${id}_keywords`, keywords));
+    group.push(textContainer(records, `${id}_slot`, weaponRows(profile, id, records, glossary)));
   }
-  const children = [{ Id: ids.statline }, ...[...new Set(rules)].map(Id => ({ Id }))];
+  const children = [
+    { Id: textContainer(records, `${ids.profile}_stats`, [ids.statline]) },
+    ...[...new Set(rules)].map(Id => ({ Id })),
+    { Id: textContainer(records, `${ids.profile}_selected_options`) },
+  ];
   for (const [phase, weapons] of groups) {
     if (!weapons.length) continue;
     const headerId = `${ids.profile}_phase_${phase.toLowerCase().replace(/ /g, '_')}`;

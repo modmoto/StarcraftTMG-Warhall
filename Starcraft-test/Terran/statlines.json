@@ -70,6 +70,20 @@
     "Children": []
   },
   {
+    "Id": "pdf_Terran_stat_marauders_kinetic_foam",
+    "Name": "",
+    "Type": "Statline",
+    "Attributes": {
+      "Spd": "4/7",
+      "Arm": "4+",
+      "Eva": "6+",
+      "HP": "6",
+      "Size": "2",
+      "Shd": ""
+    },
+    "Children": []
+  },
+  {
     "Id": "pdf_Terran_stat_medics",
     "Name": "",
     "Type": "Statline",

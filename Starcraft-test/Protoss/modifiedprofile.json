@@ -1,1 +1,401 @@
-[]
+[
+  {
+    "UnitId": "pdf_Protoss_unit_adepts",
+    "ProfileId": "pdf_Protoss_profile_adepts",
+    "OptionId": "Glaive Strike",
+    "ReferencedItemsToRemove": [
+      {
+        "Id": "pdf_Protoss_equipment_adepts_default_3_slot",
+        "Ref": [
+          {
+            "Id": "pdf_Protoss_equipment_adepts_default_3_heading"
+          },
+          {
+            "Id": "pdf_Protoss_equipment_adepts_default_3_table"
+          },
+          {
+            "Id": "pdf_Protoss_equipment_adepts_upgrade_1_heading"
+          },
+          {
+            "Id": "pdf_Protoss_equipment_adepts_upgrade_1_table"
+          },
+          {
+            "Id": "pdf_Protoss_equipment_adepts_upgrade_1_keywords"
+          }
+        ]
+      }
+    ],
+    "ReferencedItemsToAdd": [
+      {
+        "Id": "pdf_Protoss_profile_adepts_selected_options",
+        "Ref": [
+          {
+            "Id": "pdf_Protoss_equipment_adepts_upgrade_1_choice"
+          }
+        ]
+      },
+      {
+        "Id": "pdf_Protoss_equipment_adepts_default_3_slot",
+        "Ref": [
+          {
+            "Id": "pdf_Protoss_equipment_adepts_upgrade_1_heading"
+          },
+          {
+            "Id": "pdf_Protoss_equipment_adepts_upgrade_1_table"
+          },
+          {
+            "Id": "pdf_Protoss_equipment_adepts_upgrade_1_keywords"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "UnitId": "pdf_Protoss_unit_adepts",
+    "ProfileId": "pdf_Protoss_profile_adepts",
+    "OptionId": "Guidance",
+    "ReferencedItemsToRemove": [],
+    "ReferencedItemsToAdd": [
+      {
+        "Id": "pdf_Protoss_profile_adepts_selected_options",
+        "Ref": [
+          {
+            "Id": "pdf_Protoss_rule_adepts_upgrade_assault_phase_guidance"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "UnitId": "pdf_Protoss_unit_adepts",
+    "ProfileId": "pdf_Protoss_profile_adepts",
+    "OptionId": "Resonating Glaves",
+    "ReferencedItemsToRemove": [],
+    "ReferencedItemsToAdd": [
+      {
+        "Id": "pdf_Protoss_profile_adepts_selected_options",
+        "Ref": [
+          {
+            "Id": "pdf_Protoss_rule_adepts_upgrade_assault_phase_resonating_glaves"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "UnitId": "pdf_Protoss_unit_high_templar",
+    "ProfileId": "pdf_Protoss_profile_high_templar",
+    "OptionId": "Farsight",
+    "ReferencedItemsToRemove": [],
+    "ReferencedItemsToAdd": [
+      {
+        "Id": "pdf_Protoss_profile_high_templar_selected_options",
+        "Ref": [
+          {
+            "Id": "pdf_Protoss_rule_high_templar_upgrade_movement_phase_farsight"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "UnitId": "pdf_Protoss_unit_high_templar",
+    "ProfileId": "pdf_Protoss_profile_high_templar",
+    "OptionId": "Psionic Storm",
+    "ReferencedItemsToRemove": [],
+    "ReferencedItemsToAdd": [
+      {
+        "Id": "pdf_Protoss_profile_high_templar_selected_options",
+        "Ref": [
+          {
+            "Id": "pdf_Protoss_rule_high_templar_upgrade_movement_phase_psionic_storm"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "UnitId": "pdf_Protoss_unit_immortal",
+    "ProfileId": "pdf_Protoss_profile_immortal",
+    "OptionId": "For The Ancients",
+    "ReferencedItemsToRemove": [],
+    "ReferencedItemsToAdd": [
+      {
+        "Id": "pdf_Protoss_profile_immortal_selected_options",
+        "Ref": [
+          {
+            "Id": "pdf_Protoss_rule_immortal_upgrade_assault_phase_for_the_ancients"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "UnitId": "pdf_Protoss_unit_immortal",
+    "ProfileId": "pdf_Protoss_profile_immortal",
+    "OptionId": "Fury Unyielding",
+    "ReferencedItemsToRemove": [],
+    "ReferencedItemsToAdd": [
+      {
+        "Id": "pdf_Protoss_profile_immortal_selected_options",
+        "Ref": [
+          {
+            "Id": "pdf_Protoss_rule_immortal_upgrade_assault_phase_fury_unyielding"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "UnitId": "pdf_Protoss_unit_immortal",
+    "ProfileId": "pdf_Protoss_profile_immortal",
+    "OptionId": "Left Phase Disruptor",
+    "ReferencedItemsToRemove": [
+      {
+        "Id": "pdf_Protoss_equipment_immortal_default_1_slot",
+        "Ref": [
+          {
+            "Id": "pdf_Protoss_equipment_immortal_default_1_heading"
+          },
+          {
+            "Id": "pdf_Protoss_equipment_immortal_default_1_table"
+          },
+          {
+            "Id": "pdf_Protoss_equipment_immortal_default_1_keywords"
+          },
+          {
+            "Id": "pdf_Protoss_equipment_immortal_upgrade_1_heading"
+          },
+          {
+            "Id": "pdf_Protoss_equipment_immortal_upgrade_1_table"
+          },
+          {
+            "Id": "pdf_Protoss_equipment_immortal_upgrade_1_keywords"
+          }
+        ]
+      }
+    ],
+    "ReferencedItemsToAdd": [
+      {
+        "Id": "pdf_Protoss_profile_immortal_selected_options",
+        "Ref": [
+          {
+            "Id": "pdf_Protoss_equipment_immortal_upgrade_1_choice"
+          }
+        ]
+      },
+      {
+        "Id": "pdf_Protoss_equipment_immortal_default_1_slot",
+        "Ref": [
+          {
+            "Id": "pdf_Protoss_equipment_immortal_upgrade_1_heading"
+          },
+          {
+            "Id": "pdf_Protoss_equipment_immortal_upgrade_1_table"
+          },
+          {
+            "Id": "pdf_Protoss_equipment_immortal_upgrade_1_keywords"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "UnitId": "pdf_Protoss_unit_immortal",
+    "ProfileId": "pdf_Protoss_profile_immortal",
+    "OptionId": "Right Phase Disruptor",
+    "ReferencedItemsToRemove": [
+      {
+        "Id": "pdf_Protoss_equipment_immortal_default_2_slot",
+        "Ref": [
+          {
+            "Id": "pdf_Protoss_equipment_immortal_default_2_heading"
+          },
+          {
+            "Id": "pdf_Protoss_equipment_immortal_default_2_table"
+          },
+          {
+            "Id": "pdf_Protoss_equipment_immortal_default_2_keywords"
+          },
+          {
+            "Id": "pdf_Protoss_equipment_immortal_upgrade_2_heading"
+          },
+          {
+            "Id": "pdf_Protoss_equipment_immortal_upgrade_2_table"
+          },
+          {
+            "Id": "pdf_Protoss_equipment_immortal_upgrade_2_keywords"
+          }
+        ]
+      }
+    ],
+    "ReferencedItemsToAdd": [
+      {
+        "Id": "pdf_Protoss_profile_immortal_selected_options",
+        "Ref": [
+          {
+            "Id": "pdf_Protoss_equipment_immortal_upgrade_2_choice"
+          }
+        ]
+      },
+      {
+        "Id": "pdf_Protoss_equipment_immortal_default_2_slot",
+        "Ref": [
+          {
+            "Id": "pdf_Protoss_equipment_immortal_upgrade_2_heading"
+          },
+          {
+            "Id": "pdf_Protoss_equipment_immortal_upgrade_2_table"
+          },
+          {
+            "Id": "pdf_Protoss_equipment_immortal_upgrade_2_keywords"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "UnitId": "pdf_Protoss_unit_immortal",
+    "ProfileId": "pdf_Protoss_profile_immortal",
+    "OptionId": "Shield Overcharge",
+    "ReferencedItemsToRemove": [],
+    "ReferencedItemsToAdd": [
+      {
+        "Id": "pdf_Protoss_profile_immortal_selected_options",
+        "Ref": [
+          {
+            "Id": "pdf_Protoss_rule_immortal_upgrade_any_phase_shield_overcharge"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "UnitId": "pdf_Protoss_unit_sentries",
+    "ProfileId": "pdf_Protoss_profile_sentries",
+    "OptionId": "Hallucination",
+    "ReferencedItemsToRemove": [],
+    "ReferencedItemsToAdd": [
+      {
+        "Id": "pdf_Protoss_profile_sentries_selected_options",
+        "Ref": [
+          {
+            "Id": "pdf_Protoss_rule_sentries_upgrade_assault_phase_hallucination"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "UnitId": "pdf_Protoss_unit_sentries",
+    "ProfileId": "pdf_Protoss_profile_sentries",
+    "OptionId": "Solid-Field Projectors",
+    "ReferencedItemsToRemove": [],
+    "ReferencedItemsToAdd": [
+      {
+        "Id": "pdf_Protoss_profile_sentries_selected_options",
+        "Ref": [
+          {
+            "Id": "pdf_Protoss_rule_sentries_upgrade_movement_phase_solid_field_projectors"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "UnitId": "pdf_Protoss_unit_stalker",
+    "ProfileId": "pdf_Protoss_profile_stalker",
+    "OptionId": "Fury Of The Nerazim",
+    "ReferencedItemsToRemove": [],
+    "ReferencedItemsToAdd": [
+      {
+        "Id": "pdf_Protoss_profile_stalker_selected_options",
+        "Ref": [
+          {
+            "Id": "pdf_Protoss_rule_stalker_upgrade_assault_phase_fury_of_the_nerazim"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "UnitId": "pdf_Protoss_unit_stalker",
+    "ProfileId": "pdf_Protoss_profile_stalker",
+    "OptionId": "Path Of Shadows",
+    "ReferencedItemsToRemove": [],
+    "ReferencedItemsToAdd": [
+      {
+        "Id": "pdf_Protoss_profile_stalker_selected_options",
+        "Ref": [
+          {
+            "Id": "pdf_Protoss_rule_stalker_upgrade_any_phase_path_of_shadows"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "UnitId": "pdf_Protoss_unit_zealots",
+    "ProfileId": "pdf_Protoss_profile_zealots",
+    "OptionId": "Leg Enhancements",
+    "ReferencedItemsToRemove": [],
+    "ReferencedItemsToAdd": [
+      {
+        "Id": "pdf_Protoss_profile_zealots_selected_options",
+        "Ref": [
+          {
+            "Id": "pdf_Protoss_rule_zealots_upgrade_movement_phase_leg_enhancements"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "UnitId": "pdf_Protoss_unit_zealots",
+    "ProfileId": "pdf_Protoss_profile_zealots",
+    "OptionId": "My Life For Aiur",
+    "ReferencedItemsToRemove": [],
+    "ReferencedItemsToAdd": [
+      {
+        "Id": "pdf_Protoss_profile_zealots_selected_options",
+        "Ref": [
+          {
+            "Id": "pdf_Protoss_rule_zealots_upgrade_any_phase_my_life_for_aiur"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "UnitId": "pdf_Protoss_unit_zealots",
+    "ProfileId": "pdf_Protoss_profile_zealots",
+    "OptionId": "We Stand As One",
+    "ReferencedItemsToRemove": [],
+    "ReferencedItemsToAdd": [
+      {
+        "Id": "pdf_Protoss_profile_zealots_selected_options",
+        "Ref": [
+          {
+            "Id": "pdf_Protoss_rule_zealots_upgrade_combat_phase_we_stand_as_one"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "UnitId": "pdf_Protoss_unit_zealots",
+    "ProfileId": "pdf_Protoss_profile_zealots",
+    "OptionId": "Zealous Round",
+    "ReferencedItemsToRemove": [],
+    "ReferencedItemsToAdd": [
+      {
+        "Id": "pdf_Protoss_profile_zealots_selected_options",
+        "Ref": [
+          {
+            "Id": "pdf_Protoss_rule_zealots_upgrade_assault_phase_zealous_round"
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,7 +1,13 @@
 import assert from 'node:assert/strict';
 
 const key = value =>
-  value.normalize('NFKC').toLowerCase().replace(/[’‘]/g, "'").replace(/\s+/g, ' ').trim();
+  value
+    .replace(/<[^>]+>/g, '')
+    .normalize('NFKC')
+    .toLowerCase()
+    .replace(/[’‘]/g, "'")
+    .replace(/\s+/g, ' ')
+    .trim();
 const cardTitle = value => value.replace(/\s+\((?:CP|PE|BM):[^)]+\)$/i, '');
 const split = value =>
   value
@@ -111,6 +117,24 @@ export function planNewRecruitList(text, { factions, cards, deployments }) {
       const ownedPrefix = unit.Id.replace('_unit_', '_rule_') + '_';
       const rules = army.rules.filter(r => ruleIds.has(r.Id) || r.Id.startsWith(ownedPrefix));
       const upgrades = split(match[5] ?? '').map(name => {
+        const available = new Set(
+          (army.modifiedunit ?? [])
+            .filter(mapping => mapping.UnitId === unit.Id)
+            .map(mapping => mapping.OptionId),
+        );
+        const options = (army.options ?? []).filter(
+          option => available.has(option.Id) && key(option.Name) === key(name),
+        );
+        if (options.length) {
+          assert.equal(options.length, 1, `Ambiguous upgrade on ${unit.Name}: ${name}`);
+          const option = options[0];
+          const ruleIds = (army.modifiedprofile ?? [])
+            .filter(mapping => mapping.UnitId === unit.Id && mapping.OptionId === option.Id)
+            .flatMap(mapping => mapping.ReferencedItemsToAdd ?? [])
+            .filter(reference => reference.Id.endsWith('_selected_options'))
+            .flatMap(reference => (reference.Ref ?? []).map(child => child.Id));
+          return { name, optionIds: [option.Id], ruleIds };
+        }
         const matches = rules.filter(rule => key(rule.Name) === key(name));
         assert.ok(matches.length, `Upgrade not found on ${unit.Name}: ${name}`);
         return { name, ruleIds: matches.map(rule => rule.Id) };

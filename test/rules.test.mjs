@@ -9,6 +9,7 @@ import { buildWarhallPackage } from '../src/warhall/package.mjs';
 import { describeProfile } from '../src/warhall/descriptions.mjs';
 import { cleanRuleText } from '../src/text.mjs';
 import { validateData } from '../src/warhall/validate.mjs';
+import { applyProfileOptions, flattenProfile } from '../src/lists/apply-options.mjs';
 
 const snapshots = JSON.parse(
   await readFile(new URL('./fixtures/official-card-layouts.json', import.meta.url), 'utf8'),
@@ -92,7 +93,7 @@ test('Stimpack links to official Precision while different unit values remain di
     /Source:|Official card|manual|not applied|OPTIONAL UPGRADE|Base:|\bmm\b/,
   );
   assert.ok(report.units.find(unit => unit.name === 'Marines').card.url);
-  const shield = data['Terran/rules.json'].find(rule => rule.Name === 'Combat Shield');
+  const shield = data['Terran/rules.json'].find(rule => plain(rule.Name) === 'Combat Shield');
   assert.match(shield.Description, /Upgrade ability/);
   const profile = data['Terran/profiles.json'].find(profile => profile.Id === 'prof_marine');
   assert.ok(!profile.Children.some(child => child.Id === shield.Id));
@@ -120,7 +121,7 @@ test('abilities can reference an upgrade ability without granting that upgrade t
   );
   const { data } = await build([card('marine'), card('hydra'), unit]);
   const rules = data['Protoss/rules.json'];
-  const storm = rules.find(rule => rule.Name === 'Psionic Storm');
+  const storm = rules.find(rule => plain(rule.Name) === 'Psionic Storm');
   const minds = rules.find(rule => rule.Name === 'Our Minds As One');
   assert.ok(minds.Description.includes(`<link="${storm.Id}">Psionic Storm</link>`));
   assert.ok(!data['Protoss/profiles.json'][0].Children.some(child => child.Id === storm.Id));
@@ -156,7 +157,16 @@ test('profiles render phase sections and left-aligned full-width weapon tables',
       .map(item => [item.Id, item]),
   );
   const profile = data['Terran/profiles.json'].find(profile => profile.Id === 'prof_marine');
-  const children = profile.Children.map(child => records.get(child.Id));
+  const children = flattenProfile(
+    applyProfileOptions(
+      data,
+      profile.Id,
+      data['Terran/units.json'].find(unit => unit.BasicProfileIds.includes(profile.Id)).Id,
+      [],
+    ),
+  )
+    .slice(1)
+    .filter(child => child.Type || child.Description);
   assert.deepEqual(
     children
       .filter(item => item.Type === '' && !item.Id.endsWith('_table'))
@@ -260,7 +270,16 @@ test('full-width weapon keywords link complete labels and rules precede every we
         .map(row => [row.Id, row]),
     );
     for (const profile of data[`${faction}/profiles.json`]) {
-      const children = profile.Children.map(child => records.get(child.Id));
+      const children = flattenProfile(
+        applyProfileOptions(
+          data,
+          profile.Id,
+          data[`${faction}/units.json`].find(unit => unit.BasicProfileIds.includes(profile.Id)).Id,
+          [],
+        ),
+      )
+        .slice(1)
+        .filter(child => child.Type || child.Description);
       const firstPhase = children.findIndex(
         child => child.Id.includes('_phase_') && child.Name === '',
       );

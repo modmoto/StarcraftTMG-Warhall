@@ -17,7 +17,7 @@ npm run lists:parse -- --input my-list.txt --output import-plan.json
 This is a **validated planning/export command, not a Warhall deployment API**. `src/lists/new-recruit.mjs` accepts the Starcraft NR text format and resolves exact case-insensitive names against current WDS records. It returns:
 
 - Separate unit selections, model counts and mineral/supply values; repeated squads remain separate.
-- Upgrades mapped to that unit's rule IDs. These are references, not a claim that an upgrade's mechanical effects are automatically applied.
+- Upgrades mapped to unit-scoped WDS option IDs and their linked rules. HP increases and weapon replacements use native modified-profile mappings; conditional abilities still require play decisions. See [import options](import-options.md).
 - Tactical and faction card IDs, preserving duplicates such as two Barracks cards.
 - Deployment candidates with their menu indices/template IDs and deployment-card IDs.
 - Mission candidates with their scoring-card IDs.

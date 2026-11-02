@@ -30,6 +30,18 @@
     "Description": "Combat Weapon\nRng: E\nTgt: Ground\nRoA: 4\nHit: 5+\n<u><link=\"rule_chapter_8_7_4\">Surge</link></u>: -\nS.Die: -\nDmg: 1\nKeyword: -"
   },
   {
+    "Id": "pdf_Terran_equipment_goliath_upgrade_1",
+    "Name": "SCATTER MISSILES",
+    "Type": "Equipment",
+    "Description": "Assault Weapon\nRng: 18\nTgt: Ground\nRoA: 6\nHit: 5+\n<u><link=\"rule_chapter_8_7_4\">Surge</link></u>: Light\nS.Die: D3\nDmg: 1\nKeyword: <u><link=\"rule_keyword_indirect_fire\">INDIRECT FIRE</link></u>, <u><link=\"rule_keyword_locked_in\">LOCKED IN</link></u> (6), <u><link=\"rule_keyword_long_range\">LONG RANGE</link></u> (24\"), <u><link=\"rule_keyword_sidearm\">SIDEARM</link></u>\nNotes: ↑ FOR HELLFIRE MISSILES"
+  },
+  {
+    "Id": "pdf_Terran_equipment_goliath_upgrade_2",
+    "Name": "HAYWIRE MISSILES",
+    "Type": "Equipment",
+    "Description": "Assault Weapon\nRng: 12\nTgt: Ground\nRoA: 3\nHit: 3+\n<u><link=\"rule_chapter_8_7_4\">Surge</link></u>: Armoured\nS.Die: D3\nDmg: 1\nKeyword: <u><link=\"rule_keyword_pierce\">PIERCE</link></u> Armoured (3), <u><link=\"rule_keyword_sidearm\">SIDEARM</link></u>\nNotes: ↑ FOR HELLFIRE MISSILES"
+  },
+  {
     "Id": "pdf_Terran_equipment_jim_raynor_default_2",
     "Name": "COMMANDO RIFLE",
     "Type": "Equipment",
@@ -46,6 +58,12 @@
     "Name": "BAYONET",
     "Type": "Equipment",
     "Description": "Combat Weapon\nRng: E\nTgt: Ground\nRoA: 2\nHit: 4+\n<u><link=\"rule_chapter_8_7_4\">Surge</link></u>: Light\nS.Die: D3\nDmg: 1\nKeyword: -"
+  },
+  {
+    "Id": "pdf_Terran_equipment_jim_raynor_upgrade_0",
+    "Name": "C-14 RIFLE",
+    "Type": "Equipment",
+    "Description": "Assault Weapon\nRng: 12\nTgt: All\nRoA: 6\nHit: 3+\n<u><link=\"rule_chapter_8_7_4\">Surge</link></u>: Light\nS.Die: D3+1\nDmg: 1\nKeyword: <u><link=\"rule_keyword_burst_fire\">BURST FIRE</link></u> 8\" (3)\nNotes: ↑ FOR COMMANDO RIFLE"
   },
   {
     "Id": "pdf_Terran_equipment_marauders_default_1",
@@ -70,6 +88,24 @@
     "Name": "STRIKE",
     "Type": "Equipment",
     "Description": "Combat Weapon\nRng: E\nTgt: Ground\nRoA: 1\nHit: 5+\n<u><link=\"rule_chapter_8_7_4\">Surge</link></u>: -\nS.Die: -\nDmg: 1\nKeyword: -"
+  },
+  {
+    "Id": "pdf_Terran_equipment_marines_upgrade_1",
+    "Name": "AGG-12",
+    "Type": "Equipment",
+    "Description": "Assault Weapon\nRng: 12\nTgt: Ground\nRoA: 2\nHit: 3+\n<u><link=\"rule_chapter_8_7_4\">Surge</link></u>: Armoured\nS.Die: D3\nDmg: 1\nKeyword: <u><link=\"rule_keyword_long_range\">LONG RANGE</link></u> (18\"), <u><link=\"rule_keyword_specialist\">SPECIALIST</link></u>\nNotes: ↑ FOR C-14 RIFFLE"
+  },
+  {
+    "Id": "pdf_Terran_equipment_marines_upgrade_2",
+    "Name": "ROCKET LAUNCHER",
+    "Type": "Equipment",
+    "Description": "Assault Weapon\nRng: 12\nTgt: Ground\nRoA: 4\nHit: 3+\n<u><link=\"rule_chapter_8_7_4\">Surge</link></u>: -\nS.Die: -\nDmg: 1\nKeyword: <u><link=\"rule_keyword_indirect_fire\">INDIRECT FIRE</link></u>, <u><link=\"rule_keyword_long_range\">LONG RANGE</link></u> (18\"), <u><link=\"rule_keyword_sidearm\">SIDEARM</link></u>, <u><link=\"rule_keyword_specialist\">SPECIALIST</link></u>"
+  },
+  {
+    "Id": "pdf_Terran_equipment_marines_upgrade_4",
+    "Name": "BAYONET",
+    "Type": "Equipment",
+    "Description": "Combat Weapon\nRng: E\nTgt: Ground\nRoA: 2\nHit: 5+\n<u><link=\"rule_chapter_8_7_4\">Surge</link></u>: -\nS.Die: -\nDmg: 1\nKeyword: -\nNotes: ↑ FOR STRIKE"
   },
   {
     "Id": "pdf_Terran_equipment_medics_default_2",

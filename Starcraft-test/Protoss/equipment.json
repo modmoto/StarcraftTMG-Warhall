@@ -12,6 +12,12 @@
     "Description": "Combat Weapon\nRng: E\nTgt: Ground\nRoA: 1\nHit: 4+\n<u><link=\"rule_chapter_8_7_4\">Surge</link></u>: -\nS.Die: -\nDmg: 1\nKeyword: -"
   },
   {
+    "Id": "pdf_Protoss_equipment_adepts_upgrade_1",
+    "Name": "GLAIVE STRIKE",
+    "Type": "Equipment",
+    "Description": "Combat Weapon\nRng: E\nTgt: Ground\nRoA: 1\nHit: 4+\n<u><link=\"rule_chapter_8_7_4\">Surge</link></u>: Light\nS.Die: D3\nDmg: 1\nKeyword: <u><link=\"rule_keyword_pierce\">PIERCE</link></u> Light (2)\nNotes: ↑ FOR STRIKE"
+  },
+  {
     "Id": "pdf_Protoss_equipment_artanis_default_3",
     "Name": "TWILIGHT BLADES STRIKE",
     "Type": "Equipment",
@@ -52,6 +58,18 @@
     "Name": "STOMP",
     "Type": "Equipment",
     "Description": "Combat Weapon\nRng: E\nTgt: Ground\nRoA: 3\nHit: 3+\n<u><link=\"rule_chapter_8_7_4\">Surge</link></u>: -\nS.Die: -\nDmg: 1\nKeyword: -"
+  },
+  {
+    "Id": "pdf_Protoss_equipment_immortal_upgrade_1",
+    "Name": "LEFT PHASE DISRUPTOR",
+    "Type": "Equipment",
+    "Description": "Assault Weapon\nRng: 12\nTgt: Ground\nRoA: 4\nHit: 3+\n<u><link=\"rule_chapter_8_7_4\">Surge</link></u>: Armoured\nS.Die: D3\nDmg: 1\nKeyword: <u><link=\"rule_keyword_pierce\">PIERCE</link></u> Armoured (3)"
+  },
+  {
+    "Id": "pdf_Protoss_equipment_immortal_upgrade_2",
+    "Name": "RIGHT PHASE DISRUPTOR",
+    "Type": "Equipment",
+    "Description": "Assault Weapon\nRng: 12\nTgt: Ground\nRoA: 4\nHit: 3+\n<u><link=\"rule_chapter_8_7_4\">Surge</link></u>: Armoured\nS.Die: D3\nDmg: 1\nKeyword: <u><link=\"rule_keyword_pierce\">PIERCE</link></u> Armoured (3), <u><link=\"rule_keyword_sidearm\">SIDEARM</link></u>"
   },
   {
     "Id": "pdf_Protoss_equipment_nerazim_watchers_adept_default_2",
