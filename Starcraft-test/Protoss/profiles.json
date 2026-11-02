@@ -182,7 +182,7 @@
         "Id": "pdf_Protoss_rule_nerazim_watchers_adept_any_phase_nerazim_farsight"
       },
       {
-        "Id": "pdf_Protoss_rule_nerazim_watchers_adept_movement_phase_psionic_transfer"
+        "Id": "pdf_Protoss_rule_adepts_movement_phase_psionic_transfer"
       },
       {
         "Id": "pdf_Protoss_profile_nerazim_watchers_adept_phase_assault_phase"
@@ -351,7 +351,7 @@
         "Id": "pdf_Protoss_stat_tassadar"
       },
       {
-        "Id": "pdf_Protoss_rule_tassadar_any_phase_commander"
+        "Id": "pdf_Protoss_rule_artanis_any_phase_commander"
       },
       {
         "Id": "pdf_Protoss_rule_tassadar_movement_phase_force_wall"
@@ -407,7 +407,7 @@
         "Id": "pdf_Protoss_rule_twilight_templar_high_templar_movement_phase_psionic_gale"
       },
       {
-        "Id": "pdf_Protoss_rule_twilight_templar_high_templar_movement_phase_feedback"
+        "Id": "pdf_Protoss_rule_high_templar_movement_phase_feedback"
       },
       {
         "Id": "pdf_Protoss_rule_twilight_templar_high_templar_movement_phase_warp_in"
@@ -445,10 +445,10 @@
         "Id": "pdf_Protoss_stat_zealots"
       },
       {
-        "Id": "pdf_Protoss_rule_zealots_assault_phase_charge"
+        "Id": "pdf_Protoss_rule_praetor_guards_assault_phase_charge"
       },
       {
-        "Id": "pdf_Protoss_rule_zealots_assault_phase_devastating_charge"
+        "Id": "pdf_Protoss_rule_praetor_guards_assault_phase_devastating_charge"
       },
       {
         "Id": "pdf_Protoss_profile_zealots_phase_melee_phase"

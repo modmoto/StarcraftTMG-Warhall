@@ -7,6 +7,8 @@ import { profileChildren } from './presentation.mjs';
 import { describeProfile, describeUnit } from './descriptions.mjs';
 import { createReport, unitReport } from './report.mjs';
 import { loadKeywordRules, linkKeywordRules, linkFactionRules } from './rule-links.mjs';
+import { loadRulebookRules } from './rulebook.mjs';
+import { consolidateRules, linkRuleIndex } from './rule-index.mjs';
 import { validateData } from './validate.mjs';
 import { nativeTokens, factionIcons, builtinTokenNames } from '../tokens/package.mjs';
 import { projectRoot } from '../paths.mjs';
@@ -76,6 +78,10 @@ function addUnitRecords(unit, faction, records, bases, groups, report, baseMappi
     .filter(profile => profile.type === 'Ability' || profile.type?.startsWith('Rules ('))
     .map(profile => addProfileRecord({ ...profile, isUpgrade: true }, faction, records));
   records.contexts.push([...references, ...upgrades]);
+  for (const id of [...references, ...upgrades]) {
+    if (!records.owners.has(id)) records.owners.set(id, new Set());
+    records.owners.get(id).add(unit.name);
+  }
   bases.set(base.Id, base);
   records.units.push({
     Id: ids.unit,
@@ -174,12 +180,19 @@ export async function buildWarhallPackage(source, template = defaultDataDirector
   const baseMapping = await loadBaseMapping(source.metadata.mode);
   const report = createReport(source.metadata, baseMapping);
   const glossary = await loadKeywordRules();
+  const book = await loadRulebookRules();
+  book.entries.find(rule => rule.Id === 'rule_chapter_11').Description +=
+    '\n\n' +
+    glossary.entries
+      .map(entry => `<link="${entry.record.Id}">${entry.record.Name}</link>`)
+      .join(', ');
+  const owners = new Map();
   report.ruleCleanup = {
     keywordSource: glossary.source,
     keywordDefinitions: glossary.entries.length,
     links: linkKeywordRules(glossary),
   };
-  data['rules.json'] = glossary.entries.map(entry => entry.record);
+  data['rules.json'] = [...glossary.entries.map(entry => entry.record), ...book.entries];
   const hierarchy = { Factions: {} };
   try {
     const previous = await readJson(path.join(template, 'hierarchy.json'));
@@ -202,6 +215,7 @@ export async function buildWarhallPackage(source, template = defaultDataDirector
       equipment: new Map(),
       rules: new Map(),
       contexts: [],
+      owners,
     };
     const groups = {};
 
@@ -225,6 +239,10 @@ export async function buildWarhallPackage(source, template = defaultDataDirector
 
   data['bases.json'] = [...bases.values()].sort((a, b) => a.Width - b.Width || a.Length - b.Length);
   data['hierarchy.json'] = hierarchy;
+  report.ruleCleanup.rulebookSource = book.source;
+  report.ruleCleanup.chapters = book.entries.length;
+  report.ruleCleanup.duplicatesRemoved = consolidateRules(data, owners);
+  report.ruleCleanup.links += linkRuleIndex(data, glossary, book);
 
   const previousManifest = await readJson(path.join(template, 'manifest.json'));
   data['manifest.json'] = { version: previousManifest.version, files: Object.keys(data).sort() };

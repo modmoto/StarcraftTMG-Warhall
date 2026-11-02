@@ -17,7 +17,7 @@
     "Id": "pdf_Protoss_equipment_adepts_default_2_table",
     "Name": "",
     "Type": "",
-    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>8</nobr><pos=14%><nobr>All</nobr><pos=32%><nobr>2</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>Light (D3+1)</nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr><link=\"rule_chapter_8_7_4\">Surge</link></nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>8</nobr><pos=14%><nobr>All</nobr><pos=32%><nobr>2</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>Light (D3+1)</nobr><pos=86%><nobr>1</nobr></b></size></align>",
     "Children": []
   },
   {
@@ -31,7 +31,7 @@
     "Id": "pdf_Protoss_equipment_adepts_default_3_table",
     "Name": "",
     "Type": "",
-    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>1</nobr><pos=46%><nobr>4+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr><link=\"rule_chapter_8_7_4\">Surge</link></nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>1</nobr><pos=46%><nobr>4+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align>",
     "Children": []
   },
   {
@@ -45,7 +45,7 @@
     "Id": "pdf_Protoss_equipment_artanis_default_3_table",
     "Name": "",
     "Type": "",
-    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>2</nobr><pos=46%><nobr>2+</nobr><pos=59%><nobr>Armored (D3)</nobr><pos=86%><nobr>3</nobr></b></size></align>",
+    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr><link=\"rule_chapter_8_7_4\">Surge</link></nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>2</nobr><pos=46%><nobr>2+</nobr><pos=59%><nobr>Armored (D3)</nobr><pos=86%><nobr>3</nobr></b></size></align>",
     "Children": []
   },
   {
@@ -59,7 +59,7 @@
     "Id": "pdf_Protoss_equipment_artanis_default_4_table",
     "Name": "",
     "Type": "",
-    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>6</nobr><pos=46%><nobr>2+</nobr><pos=59%><nobr>Light (D3+1)</nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr><link=\"rule_chapter_8_7_4\">Surge</link></nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>6</nobr><pos=46%><nobr>2+</nobr><pos=59%><nobr>Light (D3+1)</nobr><pos=86%><nobr>1</nobr></b></size></align>",
     "Children": []
   },
   {
@@ -80,7 +80,7 @@
     "Id": "pdf_Protoss_equipment_high_templar_default_2_table",
     "Name": "",
     "Type": "",
-    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>8</nobr><pos=14%><nobr>All</nobr><pos=32%><nobr>1</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>Light (D3)</nobr><pos=86%><nobr>2</nobr></b></size></align>",
+    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr><link=\"rule_chapter_8_7_4\">Surge</link></nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>8</nobr><pos=14%><nobr>All</nobr><pos=32%><nobr>1</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>Light (D3)</nobr><pos=86%><nobr>2</nobr></b></size></align>",
     "Children": []
   },
   {
@@ -94,7 +94,7 @@
     "Id": "pdf_Protoss_equipment_high_templar_default_3_table",
     "Name": "",
     "Type": "",
-    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>1</nobr><pos=46%><nobr>4+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr><link=\"rule_chapter_8_7_4\">Surge</link></nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>1</nobr><pos=46%><nobr>4+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align>",
     "Children": []
   },
   {
@@ -115,7 +115,7 @@
     "Id": "pdf_Protoss_equipment_immortal_default_1_table",
     "Name": "",
     "Type": "",
-    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>12</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>4</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>Armored (D3)</nobr><pos=86%><nobr>2</nobr></b></size></align>",
+    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr><link=\"rule_chapter_8_7_4\">Surge</link></nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>12</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>4</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>Armored (D3)</nobr><pos=86%><nobr>2</nobr></b></size></align>",
     "Children": []
   },
   {
@@ -136,7 +136,7 @@
     "Id": "pdf_Protoss_equipment_immortal_default_2_table",
     "Name": "",
     "Type": "",
-    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>12</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>4</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>Armored (D3)</nobr><pos=86%><nobr>2</nobr></b></size></align>",
+    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr><link=\"rule_chapter_8_7_4\">Surge</link></nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>12</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>4</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>Armored (D3)</nobr><pos=86%><nobr>2</nobr></b></size></align>",
     "Children": []
   },
   {
@@ -150,7 +150,7 @@
     "Id": "pdf_Protoss_equipment_immortal_default_4_table",
     "Name": "",
     "Type": "",
-    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>3</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr><link=\"rule_chapter_8_7_4\">Surge</link></nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>3</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align>",
     "Children": []
   },
   {
@@ -171,7 +171,7 @@
     "Id": "pdf_Protoss_equipment_nerazim_watchers_adept_default_2_table",
     "Name": "",
     "Type": "",
-    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>8</nobr><pos=14%><nobr>All</nobr><pos=32%><nobr>3</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>Light (D3+1)</nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr><link=\"rule_chapter_8_7_4\">Surge</link></nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>8</nobr><pos=14%><nobr>All</nobr><pos=32%><nobr>3</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>Light (D3+1)</nobr><pos=86%><nobr>1</nobr></b></size></align>",
     "Children": []
   },
   {
@@ -185,7 +185,7 @@
     "Id": "pdf_Protoss_equipment_nerazim_watchers_adept_default_3_table",
     "Name": "",
     "Type": "",
-    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>1</nobr><pos=46%><nobr>5+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr><link=\"rule_chapter_8_7_4\">Surge</link></nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>1</nobr><pos=46%><nobr>5+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align>",
     "Children": []
   },
   {
@@ -199,7 +199,7 @@
     "Id": "pdf_Protoss_equipment_praetor_guards_default_3_table",
     "Name": "",
     "Type": "",
-    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>4</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>Light (D3)</nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr><link=\"rule_chapter_8_7_4\">Surge</link></nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>4</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>Light (D3)</nobr><pos=86%><nobr>1</nobr></b></size></align>",
     "Children": []
   },
   {
@@ -220,7 +220,7 @@
     "Id": "pdf_Protoss_equipment_sentries_default_2_table",
     "Name": "",
     "Type": "",
-    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>8</nobr><pos=14%><nobr>All</nobr><pos=32%><nobr>2</nobr><pos=46%><nobr>2+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr><link=\"rule_chapter_8_7_4\">Surge</link></nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>8</nobr><pos=14%><nobr>All</nobr><pos=32%><nobr>2</nobr><pos=46%><nobr>2+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align>",
     "Children": []
   },
   {
@@ -234,7 +234,7 @@
     "Id": "pdf_Protoss_equipment_sentries_default_3_table",
     "Name": "",
     "Type": "",
-    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>2</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr><link=\"rule_chapter_8_7_4\">Surge</link></nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>2</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align>",
     "Children": []
   },
   {
@@ -248,7 +248,7 @@
     "Id": "pdf_Protoss_equipment_stalker_default_2_table",
     "Name": "",
     "Type": "",
-    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>12</nobr><pos=14%><nobr>All</nobr><pos=32%><nobr>4</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>Armored (D3)</nobr><pos=86%><nobr>2</nobr></b></size></align>",
+    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr><link=\"rule_chapter_8_7_4\">Surge</link></nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>12</nobr><pos=14%><nobr>All</nobr><pos=32%><nobr>4</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>Armored (D3)</nobr><pos=86%><nobr>2</nobr></b></size></align>",
     "Children": []
   },
   {
@@ -262,7 +262,7 @@
     "Id": "pdf_Protoss_equipment_stalker_default_3_table",
     "Name": "",
     "Type": "",
-    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>2</nobr><pos=46%><nobr>5+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr><link=\"rule_chapter_8_7_4\">Surge</link></nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>2</nobr><pos=46%><nobr>5+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align>",
     "Children": []
   },
   {
@@ -283,7 +283,7 @@
     "Id": "pdf_Protoss_equipment_tassadar_default_2_table",
     "Name": "",
     "Type": "",
-    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>12</nobr><pos=14%><nobr>All</nobr><pos=32%><nobr>6</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>Armored (D3)</nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr><link=\"rule_chapter_8_7_4\">Surge</link></nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>12</nobr><pos=14%><nobr>All</nobr><pos=32%><nobr>6</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>Armored (D3)</nobr><pos=86%><nobr>1</nobr></b></size></align>",
     "Children": []
   },
   {
@@ -297,7 +297,7 @@
     "Id": "pdf_Protoss_equipment_tassadar_default_4_table",
     "Name": "",
     "Type": "",
-    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>6</nobr><pos=46%><nobr>4+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr><link=\"rule_chapter_8_7_4\">Surge</link></nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>6</nobr><pos=46%><nobr>4+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align>",
     "Children": []
   },
   {
@@ -318,7 +318,7 @@
     "Id": "pdf_Protoss_equipment_twilight_templar_high_templar_default_2_table",
     "Name": "",
     "Type": "",
-    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>8</nobr><pos=14%><nobr>All</nobr><pos=32%><nobr>2</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>Light (D3)</nobr><pos=86%><nobr>2</nobr></b></size></align>",
+    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr><link=\"rule_chapter_8_7_4\">Surge</link></nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>8</nobr><pos=14%><nobr>All</nobr><pos=32%><nobr>2</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>Light (D3)</nobr><pos=86%><nobr>2</nobr></b></size></align>",
     "Children": []
   },
   {
@@ -332,7 +332,7 @@
     "Id": "pdf_Protoss_equipment_twilight_templar_high_templar_default_3_table",
     "Name": "",
     "Type": "",
-    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>1</nobr><pos=46%><nobr>4+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr><link=\"rule_chapter_8_7_4\">Surge</link></nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>1</nobr><pos=46%><nobr>4+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align>",
     "Children": []
   },
   {
@@ -346,7 +346,7 @@
     "Id": "pdf_Protoss_equipment_zealots_default_1_table",
     "Name": "",
     "Type": "",
-    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>4</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>Light (D3)</nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr><link=\"rule_chapter_8_7_4\">Surge</link></nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>4</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>Light (D3)</nobr><pos=86%><nobr>1</nobr></b></size></align>",
     "Children": []
   },
   {
@@ -367,7 +367,7 @@
     "Id": "pdf_Protoss_equipment_zeratul_default_3_table",
     "Name": "",
     "Type": "",
-    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>4</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>L&A (D3)</nobr><pos=86%><nobr>2</nobr></b></size></align>",
+    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr><link=\"rule_chapter_8_7_4\">Surge</link></nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>4</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>L&A (D3)</nobr><pos=86%><nobr>2</nobr></b></size></align>",
     "Children": []
   },
   {
@@ -514,13 +514,13 @@
     "Id": "pdf_Protoss_rule_adepts_any_phase_psionic_presence",
     "Name": "Psionic Presence",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Passive\n\nAll Weapons of <link=\"rule_keyword_friendly\">Friendly</link> Units targeting an <link=\"rule_keyword_enemy\">Enemy</link> Unit <link=\"rule_keyword_within\">Within</link> 4\" of this Unit's Shade token gain <link=\"rule_keyword_precision\">PRECISION</link> (1)."
+    "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Passive\n\nAll Weapons of <link=\"rule_keyword_friendly\">Friendly</link> <link=\"rule_chapter_2_2\">Units</link> targeting an <link=\"rule_keyword_enemy\">Enemy</link> Unit <link=\"rule_keyword_within\">Within</link> 4\" of this Unit's Shade token gain <link=\"rule_keyword_precision\">PRECISION</link> (1)."
   },
   {
     "Id": "pdf_Protoss_rule_adepts_movement_phase_psionic_transfer",
     "Name": "Psionic Transfer",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Active\n<b>Cost:</b> 1 PE\n\nSet a Shade token <link=\"rule_keyword_wholly_within\">Wholly Within</link> 12\" of any model in this Unit. At the End of the Round, the <link=\"rule_keyword_controlling_player\">controlling player</link> may set all models of this Unit in Coherency, treating the Shade token as the <link=\"rule_keyword_leading_model\">Leading Model</link>. The Shade token has <link=\"rule_keyword_displacement\">DISPLACEMENT</link>."
+    "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Active\n<b>Cost:</b> 1 PE\n\nSet a Shade token <link=\"rule_keyword_wholly_within\">Wholly Within</link> 12\" of any model in this Unit. At the End of the Round, the <link=\"rule_keyword_controlling_player\">controlling player</link> may set all <link=\"rule_chapter_2_1\">models</link> of this Unit in <link=\"rule_chapter_4_4\">Coherency</link>, treating the Shade token as the <link=\"rule_keyword_leading_model\">Leading Model</link>. The Shade token has <link=\"rule_keyword_displacement\">DISPLACEMENT</link>."
   },
   {
     "Id": "pdf_Protoss_rule_adepts_upgrade_assault_phase_guidance",
@@ -538,37 +538,37 @@
     "Id": "pdf_Protoss_rule_artanis_any_phase_commander",
     "Name": "Commander",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Passive\n\nTreat this Unit's Supply characteristic as increased by 1 for Controlling and Contesting <link=\"rule_keyword_mission_markers\">Mission Markers</link>, completing objectives, and resolving Disengage checks."
+    "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Passive\n\nTreat this Unit's Supply characteristic as increased by 1 for Controlling and Contesting <link=\"rule_keyword_mission_markers\">Mission Markers</link>, completing objectives, and resolving <link=\"rule_chapter_8_5_4\">Disengage</link> checks."
   },
   {
     "Id": "pdf_Protoss_rule_artanis_assault_phase_devastating_charge",
     "Name": "Devastating Charge IMPACT (6) 4+",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Passive\n\nImmediately after this Unit completes a successful Charge, resolve the <link=\"rule_keyword_impact\">IMPACT</link> (6) 4+ effect."
+    "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Passive\n\nImmediately after this Unit completes a successful <link=\"rule_chapter_8_7_7\">Charge</link>, resolve the <link=\"rule_keyword_impact\">IMPACT</link> (6) 4+ effect."
   },
   {
     "Id": "pdf_Protoss_rule_artanis_assault_phase_hierarch_s_stand",
     "Name": "Hierarch'S Stand",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Reaction\n<b>Cost:</b> 1 PE\n\nWhen another <link=\"rule_keyword_friendly\">Friendly</link> Unit <link=\"rule_keyword_within\">Within</link> 8\" is declared as the target of a Ranged Attack and this Unit is a valid target, redirect the attack to this Unit. This Unit is eligible to make an Evade Roll against the redirected attack. This <link=\"rule_keyword_special_ability\">Special Ability</link> remains active until the End of the current Activation."
+    "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Reaction\n<b>Cost:</b> 1 PE\n\nWhen another <link=\"rule_keyword_friendly\">Friendly</link> Unit <link=\"rule_keyword_within\">Within</link> 8\" is declared as the target of a <link=\"rule_chapter_8_7_3\">Ranged Attack</link> and this Unit is a valid target, redirect the attack to this Unit. This Unit is eligible to make an <link=\"rule_chapter_8_7_4\">Evade Roll</link> against the redirected attack. This <link=\"rule_keyword_special_ability\">Special Ability</link> remains active until the End of the current Activation."
   },
   {
     "Id": "pdf_Protoss_rule_artanis_assault_phase_lightning_dash",
     "Name": "Lightning Dash",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Reaction\n<b>Cost:</b> 1 PE\n\nAfter this Unit resolves a successful Charge action, it may declare a second Charge action against a different <link=\"rule_keyword_enemy\">Enemy</link> Unit, ignoring the restriction on Charging while <link=\"rule_keyword_engaged\">Engaged</link>. The <link=\"pdf_Protoss_rule_artanis_assault_phase_devastating_charge\">Devastating Charge</link> ability does not trigger a second time."
+    "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Reaction\n<b>Cost:</b> 1 PE\n\nAfter this Unit resolves a successful <link=\"rule_chapter_8_7_7\">Charge</link> action, it may declare a second Charge action against a different <link=\"rule_keyword_enemy\">Enemy</link> Unit, ignoring the restriction on Charging while <link=\"rule_keyword_engaged\">Engaged</link>. The <link=\"pdf_Protoss_rule_artanis_assault_phase_devastating_charge\">Devastating Charge</link> ability does not trigger a second time."
   },
   {
     "Id": "pdf_Protoss_rule_artanis_movement_phase_phase_prism",
     "Name": "Phase Prism",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Passive\n\nWhen Artanis is nominated to deploy from <link=\"rule_keyword_reserves\">Reserves</link>, it may resolve the <link=\"rule_keyword_place\">PLACE</link> (0) effect from another <link=\"rule_keyword_friendly\">Friendly</link> Unit. That Friendly Unit is removed from the battlefield and returned to Reserves. Artanis' Activation ends."
+    "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Passive\n\nWhen Artanis is nominated to deploy from <link=\"rule_keyword_reserves\">Reserves</link>, it may resolve the <link=\"rule_keyword_place\">PLACE</link> (0) effect from another <link=\"rule_keyword_friendly\">Friendly</link> Unit. That Friendly Unit is removed from <link=\"rule_chapter_7\">the battlefield</link> and returned to Reserves. Artanis' Activation ends."
   },
   {
     "Id": "pdf_Protoss_rule_high_templar_any_phase_our_minds_as_one",
     "Name": "Our Minds As One",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Passive\n\nWhile this Unit's <link=\"rule_keyword_current_supply_value\">Current Supply Value</link> is 2, it gains the following effects: The first <link=\"rule_keyword_special_ability\">Special Ability</link> resolved by this Unit each Round has its PE cost reduced by 1 (to a minimum of 0). Apply a +1 <link=\"rule_keyword_modifier\">Modifier</link> to the dice rolled for its <link=\"pdf_Protoss_rule_high_templar_upgrade_movement_phase_psionic_storm\">Psionic Storm</link> Special Ability."
+    "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Passive\n\nWhile this Unit's <link=\"rule_keyword_current_supply_value\">Current Supply Value</link> is 2, it gains the following effects: The first <link=\"rule_keyword_special_ability\">Special Ability</link> resolved by this Unit each Round has its PE cost reduced by 1 (to a minimum of 0). Apply a +1 <link=\"rule_keyword_modifier\">Modifier</link> to the <link=\"rule_chapter_3_1\">dice</link> rolled for its <link=\"pdf_Protoss_rule_high_templar_upgrade_movement_phase_psionic_storm\">Psionic Storm</link> Special Ability."
   },
   {
     "Id": "pdf_Protoss_rule_high_templar_movement_phase_feedback",
@@ -580,13 +580,13 @@
     "Id": "pdf_Protoss_rule_high_templar_upgrade_movement_phase_farsight",
     "Name": "Farsight",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Active\n<b>Cost:</b> 1 PE\n<b>Upgrade ability</b>\n\nTarget one <link=\"rule_keyword_friendly\">Friendly</link> Unit <link=\"rule_keyword_within\">Within</link> 12\". Until the End of the Round, that Unit is eligible to make an Evade Roll against any attacks targeting it."
+    "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Active\n<b>Cost:</b> 1 PE\n<b>Upgrade ability</b>\n\nTarget one <link=\"rule_keyword_friendly\">Friendly</link> Unit <link=\"rule_keyword_within\">Within</link> 12\". Until the End of the Round, that Unit is eligible to make an <link=\"rule_chapter_8_7_4\">Evade Roll</link> against any attacks targeting it."
   },
   {
     "Id": "pdf_Protoss_rule_high_templar_upgrade_movement_phase_psionic_storm",
     "Name": "Psionic Storm",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Active\n<b>Cost:</b> 2 PE\n<b>Upgrade ability</b>\n\nSet a Psionic Storm token <link=\"rule_keyword_within\">Within</link> 10\" and <link=\"rule_keyword_line_of_sight\">Line of Sight</link> of this Unit. This token is not removed if this Unit is Destroyed. At the End of each Phase, set a Psionic Storm Blast Template on the centre of this token. For each Unit that has at least one model whose base is partially covered by the template, roll 3 dice, plus 1 additional die for each model in that Unit whose base is partially covered. For each result of 5+, that Unit suffers an effect depending on the current Phase:\n• Movement Phase: <link=\"rule_keyword_non_lethal_damage\">NON-LETHAL DAMAGE</link> (1).\n• Assault Phase: 1 Dama ge. If multiple effects trigger at the End of the Assault Phase, resolve them in the order specified in Part 8.9.4."
+    "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Active\n<b>Cost:</b> 2 PE\n<b>Upgrade ability</b>\n\nSet a Psionic Storm token <link=\"rule_keyword_within\">Within</link> 10\" and <link=\"rule_keyword_line_of_sight\">Line of Sight</link> of this Unit. This token is not removed if this Unit is Destroyed. At the End of each Phase, set a Psionic Storm Blast Template on the centre of this token. For each Unit that has at least one model whose base is partially covered by the template, roll 3 <link=\"rule_chapter_3_1\">dice</link>, plus 1 additional die for each model in that Unit whose base is partially covered. For each result of 5+, that Unit suffers an effect depending on the current Phase:\n• Movement Phase: <link=\"rule_keyword_non_lethal_damage\">NON-LETHAL DAMAGE</link> (1).\n• Assault Phase: 1 Dama ge. If multiple effects trigger at the End of the Assault Phase, resolve them in the order specified in Part 8.9.4."
   },
   {
     "Id": "pdf_Protoss_rule_immortal_any_phase_improved_barrier",
@@ -598,25 +598,25 @@
     "Id": "pdf_Protoss_rule_immortal_assault_phase_devastating_charge",
     "Name": "Devastating Charge IMPACT (4) 3+",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Passive\n\nImmediately after this Unit completes a successful Charge, resolve the <link=\"rule_keyword_impact\">IMPACT</link> (4) 3+ effect."
+    "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Passive\n\nImmediately after this Unit completes a successful <link=\"rule_chapter_8_7_7\">Charge</link>, resolve the <link=\"rule_keyword_impact\">IMPACT</link> (4) 3+ effect."
   },
   {
     "Id": "pdf_Protoss_rule_immortal_assault_phase_indomitable",
     "Name": "Indomitable",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Passive\n\nWhile <link=\"rule_keyword_engaged\">Engaged</link>, this Unit may target and be targeted by <link=\"rule_keyword_unengaged\">Unengaged</link> <link=\"rule_keyword_enemy\">Enemy</link> Units. In both cases, the defending Unit gains an Evade Roll against those attacks."
+    "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Passive\n\nWhile <link=\"rule_keyword_engaged\">Engaged</link>, this Unit may target and be targeted by <link=\"rule_keyword_unengaged\">Unengaged</link> <link=\"rule_keyword_enemy\">Enemy</link> <link=\"rule_chapter_2_2\">Units</link>. In both cases, the defending Unit gains an <link=\"rule_chapter_8_7_4\">Evade Roll</link> against those attacks."
   },
   {
     "Id": "pdf_Protoss_rule_immortal_upgrade_any_phase_shield_overcharge",
-    "Name": "Shield Overcharge",
+    "Name": "Shield Overcharge (Immortal)",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Reaction\n<b>Cost:</b> 1 PE\n<b>Upgrade ability</b>\n\nUse before this Unit makes an Armour Roll. If this Unit has the <link=\"rule_keyword_shielded\">Shielded</link> <link=\"rule_keyword_status\">Status</link>, It gains <link=\"rule_keyword_tough\">TOUGH</link> (2) for this roll."
+    "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Reaction\n<b>Cost:</b> 1 PE\n<b>Upgrade ability</b>\n\nUse before this Unit makes an <link=\"rule_chapter_8_7_4\">Armour Roll</link>. If this Unit has the <link=\"rule_keyword_shielded\">Shielded</link> <link=\"rule_keyword_status\">Status</link>, It gains <link=\"rule_keyword_tough\">TOUGH</link> (2) for this roll."
   },
   {
     "Id": "pdf_Protoss_rule_immortal_upgrade_assault_phase_for_the_ancients",
     "Name": "For The Ancients",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Passive\n<b>Upgrade ability</b>\n\nWhen this Unit makes a Ranged Attack, if the target Unit is more than 8\" away, the attacking weapons gain <link=\"rule_keyword_precision\">PRECISION</link> (1)."
+    "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Passive\n<b>Upgrade ability</b>\n\nWhen this Unit makes a <link=\"rule_chapter_8_7_3\">Ranged Attack</link>, if the target Unit is more than 8\" away, the attacking weapons gain <link=\"rule_keyword_precision\">PRECISION</link> (1)."
   },
   {
     "Id": "pdf_Protoss_rule_immortal_upgrade_assault_phase_fury_unyielding",
@@ -628,43 +628,37 @@
     "Id": "pdf_Protoss_rule_nerazim_watchers_adept_any_phase_nerazim_farsight",
     "Name": "Nerazim Farsight",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Passive\n\nWhile <link=\"rule_keyword_enemy\">Enemy</link> Units are <link=\"rule_keyword_within\">Within</link> 6\" of this Unit's Shade token, they lose <link=\"rule_keyword_hidden\">HIDDEN</link> <link=\"rule_keyword_status\">Status</link>."
+    "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Passive\n\nWhile <link=\"rule_keyword_enemy\">Enemy</link> <link=\"rule_chapter_2_2\">Units</link> are <link=\"rule_keyword_within\">Within</link> 6\" of this Unit's Shade token, they lose <link=\"rule_keyword_hidden\">HIDDEN</link> <link=\"rule_keyword_status\">Status</link>."
   },
   {
     "Id": "pdf_Protoss_rule_nerazim_watchers_adept_any_phase_path_of_shadows",
-    "Name": "Path Of Shadows",
+    "Name": "Path Of Shadows (Nerazim Watchers (Adept))",
     "Type": "Rule",
     "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Active\n<b>Cost:</b> 1 PE\n\nThis Unit gains <link=\"rule_keyword_hidden\">HIDDEN</link> <link=\"rule_keyword_status\">Status</link> until it performs another action."
   },
   {
-    "Id": "pdf_Protoss_rule_nerazim_watchers_adept_movement_phase_psionic_transfer",
-    "Name": "Psionic Transfer",
-    "Type": "Rule",
-    "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Active\n<b>Cost:</b> 1 PE\n\nSet a Shade token <link=\"rule_keyword_wholly_within\">Wholly Within</link> 12\" of any model in this Unit. At the End of the Round, the <link=\"rule_keyword_controlling_player\">controlling player</link> may set all models of this Unit in Coherency, treating the Shade token as the <link=\"rule_keyword_leading_model\">Leading Model</link>. The Shade token has <link=\"rule_keyword_displacement\">DISPLACEMENT</link>."
-  },
-  {
     "Id": "pdf_Protoss_rule_praetor_guards_any_phase_shield_overcharge",
-    "Name": "Shield Overcharge",
+    "Name": "Shield Overcharge (Praetor Guards)",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Passive\n\nThis Unit gains <link=\"rule_keyword_tough\">TOUGH</link> (2) on the first Armour Roll each Round."
+    "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Passive\n\nThis Unit gains <link=\"rule_keyword_tough\">TOUGH</link> (2) on the first <link=\"rule_chapter_8_7_4\">Armour Roll</link> each Round."
   },
   {
     "Id": "pdf_Protoss_rule_praetor_guards_assault_phase_charge",
     "Name": "Charge",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Active\n<b>Cost:</b> 1 PE\n\nWhen determining Charge Distance for this Unit, roll 2D6 instead of D6 and use the higher result to add to the Unit's Speed characteristic."
+    "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Active\n<b>Cost:</b> 1 PE\n\nWhen determining <link=\"rule_chapter_8_7_7\">Charge</link> Distance for this Unit, roll 2D6 instead of D6 and use the higher result to add to the Unit's Speed characteristic."
   },
   {
     "Id": "pdf_Protoss_rule_praetor_guards_assault_phase_devastating_charge",
     "Name": "Devastating Charge IMPACT (3) 4+",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Passive\n\nImmediately after this Unit completes a successful Charge, resolve the <link=\"rule_keyword_impact\">IMPACT</link> (3) 4+ effect."
+    "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Passive\n\nImmediately after this Unit completes a successful <link=\"rule_chapter_8_7_7\">Charge</link>, resolve the <link=\"rule_keyword_impact\">IMPACT</link> (3) 4+ effect."
   },
   {
     "Id": "pdf_Protoss_rule_praetor_guards_combat_phase_precognition",
     "Name": "Precognition",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Melee Phase\n<b>Type:</b> Passive\n\nThis Unit is eligible to make an Evade roll against all attacks targeting it."
+    "Description": "<b>Phase:</b> Melee Phase\n<b>Type:</b> Passive\n\nThis Unit is eligible to make an <link=\"rule_chapter_8_7_4\">Evade roll</link> against all attacks targeting it."
   },
   {
     "Id": "pdf_Protoss_rule_praetor_guards_combat_phase_titan_killers",
@@ -674,9 +668,9 @@
   },
   {
     "Id": "pdf_Protoss_rule_praetor_guards_movement_phase_leg_enhancements",
-    "Name": "Leg Enhancements",
+    "Name": "Leg Enhancements (Praetor Guards)",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Active\n<b>Cost:</b> 1 PE\n\nThis Unit performs a 2\" Move action. This does not count towards its action limit."
+    "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Active\n<b>Cost:</b> 1 PE\n\nThis Unit performs a 2\" <link=\"rule_chapter_8_5_2\">Move</link> action. This does not count towards its action limit."
   },
   {
     "Id": "pdf_Protoss_rule_pylon_any_phase_khalai_ingenuity",
@@ -698,7 +692,7 @@
   },
   {
     "Id": "pdf_Protoss_rule_sentries_any_phase_restoration",
-    "Name": "Restoration",
+    "Name": "Restoration (Sentries)",
     "Type": "Rule",
     "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Reaction\n<b>Cost:</b> 1 PE\n\nUse when a <link=\"rule_keyword_friendly\">Friendly</link> Unit <link=\"rule_keyword_within\">Within</link> 4\" receives a <link=\"rule_keyword_debuff\">DEBUFF</link>. Remove all DEBUFFS from it."
   },
@@ -706,7 +700,7 @@
     "Id": "pdf_Protoss_rule_sentries_movement_phase_force_field",
     "Name": "Force Field",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Active\n<b>Cost:</b> 1 PE\n\nSet a Force Field token <link=\"rule_keyword_within\">Within</link> 8\" in an unoccupied space. Units of Size 2 or lower cannot move across Force Fields. Models of Size 3 or more can move over it, and it's then removed."
+    "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Active\n<b>Cost:</b> 1 PE\n\nSet a Force Field token <link=\"rule_keyword_within\">Within</link> 8\" in an unoccupied space. <link=\"rule_chapter_2_2\">Units</link> of Size 2 or lower cannot move across Force Fields. <link=\"rule_chapter_2_1\">Models</link> of Size 3 or more can move over it, and it's then removed."
   },
   {
     "Id": "pdf_Protoss_rule_sentries_movement_phase_guardian_shield",
@@ -718,29 +712,29 @@
     "Id": "pdf_Protoss_rule_sentries_upgrade_assault_phase_hallucination",
     "Name": "Hallucination",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Reaction\n<b>Cost:</b> 0 PE\n<b>Upgrade ability</b>\n\nWhen an <link=\"rule_keyword_enemy\">Enemy</link> Unit declares a Ranged Attack against a <link=\"rule_keyword_friendly\">Friendly</link> Unit <link=\"rule_keyword_within\">Within</link> 4\", the targeted Friendly Unit is eligible to make an Evade Roll against that attack."
+    "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Reaction\n<b>Cost:</b> 0 PE\n<b>Upgrade ability</b>\n\nWhen an <link=\"rule_keyword_enemy\">Enemy</link> Unit declares a <link=\"rule_chapter_8_7_3\">Ranged Attack</link> against a <link=\"rule_keyword_friendly\">Friendly</link> Unit <link=\"rule_keyword_within\">Within</link> 4\", the targeted Friendly Unit is eligible to make an <link=\"rule_chapter_8_7_4\">Evade Roll</link> against that attack."
   },
   {
     "Id": "pdf_Protoss_rule_sentries_upgrade_movement_phase_solid_field_projectors",
     "Name": "Solid-Field Projectors",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Active\n<b>Cost:</b> 1 PE\n<b>Upgrade ability</b>\n\nSet a Force Field token <link=\"rule_keyword_within\">Within</link> 8\" in an unoccupied space. Units of Size 2 or lower cannot move across Force Fields. Models of Size 3 or more can move over it, and it's then removed."
+    "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Active\n<b>Cost:</b> 1 PE\n<b>Upgrade ability</b>\n\nSet a <link=\"pdf_Protoss_rule_sentries_movement_phase_force_field\">Force Field</link> token <link=\"rule_keyword_within\">Within</link> 8\" in an unoccupied space. <link=\"rule_chapter_2_2\">Units</link> of Size 2 or lower cannot move across Force Fields. <link=\"rule_chapter_2_1\">Models</link> of Size 3 or more can move over it, and it's then removed."
   },
   {
     "Id": "pdf_Protoss_rule_stalker_any_phase_squadron",
     "Name": "Squadron",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Passive\n\nThis Unit's Horizontal Coherency is 4\"."
+    "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Passive\n\nThis Unit's Horizontal <link=\"rule_chapter_4_4\">Coherency</link> is 4\"."
   },
   {
     "Id": "pdf_Protoss_rule_stalker_movement_phase_blink",
     "Name": "Blink",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Active\n<b>Cost:</b> 1 PE\n\nResolve the <link=\"rule_keyword_place\">PLACE</link> (6) effect. Models set by this effect cannot be set up <link=\"rule_keyword_within\">Within</link> the <link=\"rule_keyword_engagement_range\">Engagement Range</link> of any <link=\"rule_keyword_enemy\">Enemy</link> Unit."
+    "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Active\n<b>Cost:</b> 1 PE\n\nResolve the <link=\"rule_keyword_place\">PLACE</link> (6) effect. <link=\"rule_chapter_2_1\">Models</link> set by this effect cannot be set up <link=\"rule_keyword_within\">Within</link> the <link=\"rule_keyword_engagement_range\">Engagement Range</link> of any <link=\"rule_keyword_enemy\">Enemy</link> Unit."
   },
   {
     "Id": "pdf_Protoss_rule_stalker_upgrade_any_phase_path_of_shadows",
-    "Name": "Path Of Shadows",
+    "Name": "Path Of Shadows (Stalker)",
     "Type": "Rule",
     "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Active\n<b>Cost:</b> 1 PE\n<b>Upgrade ability</b>\n\nThis Unit gains <link=\"rule_keyword_hidden\">HIDDEN</link> <link=\"rule_keyword_status\">Status</link> until it performs another action."
   },
@@ -751,34 +745,28 @@
     "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Passive\n<b>Upgrade ability</b>\n\nWhen this Unit attacks an <link=\"rule_keyword_enemy\">Enemy</link> Unit that has already been Activated during this Phase, its Particle Disruptors gain <link=\"rule_keyword_instant\">INSTANT</link> for that attack."
   },
   {
-    "Id": "pdf_Protoss_rule_tassadar_any_phase_commander",
-    "Name": "Commander",
-    "Type": "Rule",
-    "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Passive\n\nTreat this Unit's Supply characteristic as increased by 1 for Controlling and Contesting <link=\"rule_keyword_mission_markers\">Mission Markers</link>, completing objectives, and resolving Disengage checks."
-  },
-  {
     "Id": "pdf_Protoss_rule_tassadar_assault_phase_psi_lightning",
     "Name": "Psi Lightning",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Active\n<b>Cost:</b> 0 PE\n\nEach Unit <link=\"rule_keyword_within\">Within</link> 2\" of one or more <link=\"rule_keyword_friendly\">Friendly</link> Force Wall tokens suffers 1 Damage."
+    "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Active\n<b>Cost:</b> 0 PE\n\nEach Unit <link=\"rule_keyword_within\">Within</link> 2\" of one or more <link=\"rule_keyword_friendly\">Friendly</link> <link=\"pdf_Protoss_rule_tassadar_movement_phase_force_wall\">Force Wall</link> <link=\"rule_chapter_7_3_1\">tokens</link> suffers 1 Damage."
   },
   {
     "Id": "pdf_Protoss_rule_tassadar_assault_phase_telekinetic_push",
     "Name": "Telekinetic Push",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Active\n<b>Cost:</b> 1 PE\n\nSet each <link=\"rule_keyword_friendly\">Friendly</link> Force Wall token <link=\"rule_keyword_wholly_within\">Wholly Within</link> 6\" of its current position."
+    "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Active\n<b>Cost:</b> 1 PE\n\nSet each <link=\"rule_keyword_friendly\">Friendly</link> <link=\"pdf_Protoss_rule_tassadar_movement_phase_force_wall\">Force Wall</link> token <link=\"rule_keyword_wholly_within\">Wholly Within</link> 6\" of its current position."
   },
   {
     "Id": "pdf_Protoss_rule_tassadar_movement_phase_executor_s_will",
     "Name": "Executor'S Will",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Active\n<b>Cost:</b> 1 PE\n\nTarget two <link=\"rule_keyword_enemy\">Enemy</link> Units on the battlefield (<link=\"rule_keyword_line_of_sight\">Line of Sight</link> is not required) and <link=\"rule_keyword_place\">place</link> a Faction Indicator next to each of them. During the next Assault Phase, if either of these Units ends its Activation while its Faction Indicator remains on the battlefield, you may Activate two <link=\"rule_keyword_friendly\">Friendly</link> Units consecutively. Remove both Faction Indicators after any Enemy Unit completes its Activation in the following Assault Phase."
+    "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Active\n<b>Cost:</b> 1 PE\n\nTarget two <link=\"rule_keyword_enemy\">Enemy</link> <link=\"rule_chapter_2_2\">Units</link> on <link=\"rule_chapter_7\">the battlefield</link> (<link=\"rule_keyword_line_of_sight\">Line of Sight</link> is not required) and <link=\"rule_keyword_place\">place</link> a Faction Indicator next to each of them. During the next Assault Phase, if either of these Units ends its Activation while its Faction Indicator remains on the battlefield, you may Activate two <link=\"rule_keyword_friendly\">Friendly</link> Units consecutively. Remove both Faction Indicators after any Enemy Unit completes its Activation in the following Assault Phase."
   },
   {
     "Id": "pdf_Protoss_rule_tassadar_movement_phase_force_wall",
     "Name": "Force Wall",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Active\n<b>Cost:</b> 1 PE\n\nSet two Force Wall tokens <link=\"rule_keyword_wholly_within\">Wholly Within</link> 8\" in an unoccupied space. Units of Size 2 or lower cannot move across the Force Wall. Models of Size 3 or more can move over it, and it's then removed."
+    "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Active\n<b>Cost:</b> 1 PE\n\nSet two Force Wall <link=\"rule_chapter_7_3_1\">tokens</link> <link=\"rule_keyword_wholly_within\">Wholly Within</link> 8\" in an unoccupied space. <link=\"rule_chapter_2_2\">Units</link> of Size 2 or lower cannot move across the Force Wall. <link=\"rule_chapter_2_1\">Models</link> of Size 3 or more can move over it, and it's then removed."
   },
   {
     "Id": "pdf_Protoss_rule_tassadar_movement_phase_khala_s_gift",
@@ -793,34 +781,16 @@
     "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Reaction\n<b>Cost:</b> 0 PE\n\nUse when the <link=\"rule_keyword_current_supply_value\">Current Supply Value</link> of another <link=\"rule_keyword_friendly\">Friendly</link> Unit <link=\"rule_keyword_within\">Within</link> 8\" of this Unit is reduced. Return one Non-Unique Exhausted Tactical Card to the <link=\"rule_keyword_ready\">Ready</link> state."
   },
   {
-    "Id": "pdf_Protoss_rule_twilight_templar_high_templar_movement_phase_feedback",
-    "Name": "Feedback",
-    "Type": "Rule",
-    "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Active\n<b>Cost:</b> 1 PE\n\nTarget one <link=\"rule_keyword_enemy\">Enemy</link> Mechanical or Psionic Unit <link=\"rule_keyword_within\">Within</link> 8\". Until the End of the Round, after that Unit resolves an Active or Reaction <link=\"rule_keyword_special_ability\">Special Ability</link> (excluding abilities granted by a Tactical Card or Faction Card), it suffers <link=\"rule_keyword_non_lethal_damage\">NON-LETHAL DAMAGE</link> (3)."
-  },
-  {
     "Id": "pdf_Protoss_rule_twilight_templar_high_templar_movement_phase_psionic_gale",
     "Name": "Psionic Gale",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Active\n<b>Cost:</b> 2 PE\n\nSet a Psionic Storm token <link=\"rule_keyword_within\">Within</link> 10\" and <link=\"rule_keyword_line_of_sight\">Line of Sight</link> of this Unit. This token is not removed if this Unit is Destroyed. At the End of each Phase, set a Psionic Storm Blast Template on the centre of this token. For each Unit that has at least one model whose base is partially covered by the template, roll 3 dice, plus 1 additional die for each model in that Unit whose base is partially covered. For each result of 4+, that Unit suffers an effect depending on the current Phase:\n• Movement Phase: <link=\"rule_keyword_non_lethal_damage\">NON-LETHAL DAMAGE</link> (1).\n• Assault Phase: 1 Damage. If multiple effects trigger at the End of the Assault Phase, resolve them in the order specified in Part 8.9.4."
+    "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Active\n<b>Cost:</b> 2 PE\n\nSet a <link=\"pdf_Protoss_rule_high_templar_upgrade_movement_phase_psionic_storm\">Psionic Storm</link> token <link=\"rule_keyword_within\">Within</link> 10\" and <link=\"rule_keyword_line_of_sight\">Line of Sight</link> of this Unit. This token is not removed if this Unit is Destroyed. At the End of each Phase, set a Psionic Storm Blast Template on the centre of this token. For each Unit that has at least one model whose base is partially covered by the template, roll 3 <link=\"rule_chapter_3_1\">dice</link>, plus 1 additional die for each model in that Unit whose base is partially covered. For each result of 4+, that Unit suffers an effect depending on the current Phase:\n• Movement Phase: <link=\"rule_keyword_non_lethal_damage\">NON-LETHAL DAMAGE</link> (1).\n• Assault Phase: 1 Damage. If multiple effects trigger at the End of the Assault Phase, resolve them in the order specified in Part 8.9.4."
   },
   {
     "Id": "pdf_Protoss_rule_twilight_templar_high_templar_movement_phase_warp_in",
     "Name": "Warp-In",
     "Type": "Rule",
     "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Active\n<b>Cost:</b> 1 PE\n\nResolve the <link=\"rule_keyword_place\">PLACE</link> (6) effect."
-  },
-  {
-    "Id": "pdf_Protoss_rule_zealots_assault_phase_charge",
-    "Name": "Charge",
-    "Type": "Rule",
-    "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Active\n<b>Cost:</b> 1 PE\n\nWhen determining Charge Distance for this Unit, roll 2D6 instead of D6 and use the higher result to add to the Unit's Speed characteristic."
-  },
-  {
-    "Id": "pdf_Protoss_rule_zealots_assault_phase_devastating_charge",
-    "Name": "Devastating Charge IMPACT (3) 4+",
-    "Type": "Rule",
-    "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Passive\n\nImmediately after this Unit completes a successful Charge, resolve the <link=\"rule_keyword_impact\">IMPACT</link> (3) 4+ effect."
   },
   {
     "Id": "pdf_Protoss_rule_zealots_upgrade_any_phase_my_life_for_aiur",
@@ -842,9 +812,9 @@
   },
   {
     "Id": "pdf_Protoss_rule_zealots_upgrade_movement_phase_leg_enhancements",
-    "Name": "Leg Enhancements",
+    "Name": "Leg Enhancements (Zealots)",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Active\n<b>Cost:</b> 1 PE\n<b>Upgrade ability</b>\n\nThis Unit performs a 2\" Move action. This does not count towards its action limit."
+    "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Active\n<b>Cost:</b> 1 PE\n<b>Upgrade ability</b>\n\nThis Unit performs a 2\" <link=\"rule_chapter_8_5_2\">Move</link> action. This does not count towards its action limit."
   },
   {
     "Id": "pdf_Protoss_rule_zeratul_any_phase_one_with_the_shadows",
@@ -862,7 +832,7 @@
     "Id": "pdf_Protoss_rule_zeratul_assault_phase_devastating_charge",
     "Name": "Devastating Charge IMPACT (4) 4+",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Passive\n\nImmediately after this Unit completes a successful Charge, resolve the <link=\"rule_keyword_impact\">IMPACT</link> (4) 4+ effect."
+    "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Passive\n\nImmediately after this Unit completes a successful <link=\"rule_chapter_8_7_7\">Charge</link>, resolve the <link=\"rule_keyword_impact\">IMPACT</link> (4) 4+ effect."
   },
   {
     "Id": "pdf_Protoss_rule_zeratul_assault_phase_void_blink",
@@ -874,18 +844,18 @@
     "Id": "pdf_Protoss_rule_zeratul_combat_phase_shadow_strike",
     "Name": "Shadow Strike",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Melee Phase\n<b>Type:</b> Active\n<b>Cost:</b> 1 PE\n\nAll <link=\"rule_keyword_enemy\">Enemy</link> Units <link=\"rule_keyword_engaged\">Engaged</link> with this Unit suffer <link=\"rule_keyword_hits\">HITS</link> 4 (1)."
+    "Description": "<b>Phase:</b> Melee Phase\n<b>Type:</b> Active\n<b>Cost:</b> 1 PE\n\nAll <link=\"rule_keyword_enemy\">Enemy</link> <link=\"rule_chapter_2_2\">Units</link> <link=\"rule_keyword_engaged\">Engaged</link> with this Unit suffer <link=\"rule_keyword_hits\">HITS</link> 4 (1)."
   },
   {
     "Id": "pdf_Protoss_rule_zeratul_movement_phase_sentenced_to_death",
     "Name": "Sentenced To Death",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Active\n<b>Cost:</b> 1 PE\n\nTarget <link=\"rule_keyword_enemy\">Enemy</link> Unit on the battlefield. Whenever Zeratul makes a Close Combat Attack targeting the selected Unit, its weapon gains <link=\"rule_keyword_critical_hit\">CRITICAL HIT</link> (2)."
+    "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Active\n<b>Cost:</b> 1 PE\n\nTarget <link=\"rule_keyword_enemy\">Enemy</link> Unit on <link=\"rule_chapter_7\">the battlefield</link>. Whenever Zeratul makes a Close Combat Attack targeting the selected Unit, its weapon gains <link=\"rule_keyword_critical_hit\">CRITICAL HIT</link> (2)."
   },
   {
     "Id": "pdf_Protoss_rule_zeratul_movement_phase_void_prison",
     "Name": "Void Prison",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Active\n<b>Cost:</b> 1 PE\n\nSet a Faction Indicator on the battlefield <link=\"rule_keyword_within\">Within</link> 8\" of this Unit. While <link=\"rule_keyword_enemy\">Enemy</link> Units are Within 2\" of this Faction Indicator they suffer <link=\"rule_keyword_debuff\">DEBUFF</link> Speed (2)."
+    "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Active\n<b>Cost:</b> 1 PE\n\nSet a Faction Indicator on <link=\"rule_chapter_7\">the battlefield</link> <link=\"rule_keyword_within\">Within</link> 8\" of this Unit. While <link=\"rule_keyword_enemy\">Enemy</link> <link=\"rule_chapter_2_2\">Units</link> are Within 2\" of this Faction Indicator they suffer <link=\"rule_keyword_debuff\">DEBUFF</link> Speed (2)."
   }
 ]

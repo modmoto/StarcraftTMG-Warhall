@@ -77,8 +77,10 @@ test('Stimpack links to official Precision while different unit values remain di
     'Its Quad K12 gains PRECISION (2).';
   const { data, report } = await build([marine, marauder, card('hydra'), card('artanis')]);
   const precision = data['rules.json'].find(rule => rule.Name === 'Precision');
-  const rules = data['Terran/rules.json'].filter(rule => rule.Name === 'Stimpack');
+  const rules = data['Terran/rules.json'].filter(rule => rule.Name.startsWith('Stimpack ('));
   assert.equal(rules.length, 2);
+  assert.ok(rules.some(rule => rule.Name === 'Stimpack (Marines)'));
+  assert.ok(rules.some(rule => rule.Name === 'Stimpack (Marauders)'));
   assert.ok(
     rules.every(rule => rule.Description.includes(`<link="${precision.Id}">PRECISION</link>`)),
   );

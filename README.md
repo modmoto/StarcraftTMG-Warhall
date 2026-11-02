@@ -71,14 +71,14 @@ Unit stats stay at the top of the panel. Below them, populated sections appear i
 
 Weapon rows are WDS `Statline` records with their own ordered columns: Range, Target, RoA, Hit, Surge Type, Surge Dice, Damage and Keywords. They contain no HP field and do not contribute wounds. The row's expand control links to the detailed weapon item and its nested keywords. Plain phase headings use WDS text records; no Markdown table or client binary patch is needed. Empty phases are omitted. Generic rule-group labels are disabled while table names remain visible.
 
-Each ability has a separate record, so Stimpack's unit-specific Precision value is preserved. Popup descriptions show the phase, Active/Passive/Reaction type and resource cost on separate lines. Official keyword definitions live in global `rules.json`, with validated TextMeshPro links such as Stimpack → Precision. Explicit references to other abilities also link to their records. Upgrade abilities are available as reference targets but are not attached as default abilities. Upgrades are not automatically equipped.
+Identical abilities share one record across units; versions with different costs or effects have unit labels, so Stimpack's unit-specific Precision value is preserved. Popup descriptions show the phase, Active/Passive/Reaction type and resource cost on separate lines. Official keyword definitions live in global `rules.json`, with validated TextMeshPro links such as Stimpack → Precision. Explicit references to other abilities also link to their records. Upgrade abilities are available as reference targets but are not attached as default abilities. Upgrades are not automatically equipped.
 
 Unit descriptions contain no source URLs, base sizes, implementation notes or manual-upgrade placeholders. Source pages, checksums, raw card text and upgrade details remain in `import-report.json`. Base geometry and unit HP are unchanged. Existing unit, profile, unit-statline and equipment IDs are retained; named abilities and presentation rows have new IDs.
 
-The committed `rule-keywords.json` snapshot is extracted from the current official core-rulebook glossary. Card text is refreshed by normal PDF imports; refresh and review the glossary separately when the core rulebook changes:
+The committed `rulebook.json` and `rule-keywords.json` snapshots contain the numbered gameplay chapters and individual glossary definitions. Introductory examples, army-building sections, repeated reference tables and maps are excluded. Chapter numbers remain visible in search, such as `8.7.7 Charge`, with links to related rules. See [rulebook import and deduplication](docs/rulebook.md). Refresh both snapshots when the core rulebook changes:
 
 ```sh
-npm run rules:update-keywords
+npm run rules:update-book
 npm run rules:compare -- /path/to/StarcraftTMG-NR
 npm run convert -- --offline
 npm run check:local

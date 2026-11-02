@@ -12,7 +12,7 @@
         "Id": "pdf_Terran_rule_auto_turret_any_phase_timed_life"
       },
       {
-        "Id": "pdf_Terran_rule_auto_turret_any_phase_structure"
+        "Id": "pdf_Protoss_rule_pylon_any_phase_structure"
       },
       {
         "Id": "pdf_Terran_rule_auto_turret_assault_phase_overwatch"
@@ -44,10 +44,10 @@
         "Id": "pdf_Terran_rule_goliath_movement_phase_target_lock"
       },
       {
-        "Id": "pdf_Terran_rule_goliath_assault_phase_indomitable"
+        "Id": "pdf_Protoss_rule_immortal_assault_phase_indomitable"
       },
       {
-        "Id": "pdf_Terran_rule_goliath_assault_phase_devastating_charge"
+        "Id": "pdf_Protoss_rule_immortal_assault_phase_devastating_charge"
       },
       {
         "Id": "pdf_Terran_profile_goliath_phase_assault_phase"
@@ -100,7 +100,7 @@
         "Id": "pdf_Terran_stat_holo_decoy"
       },
       {
-        "Id": "pdf_Terran_rule_holo_decoy_any_phase_timed_life"
+        "Id": "pdf_Terran_rule_auto_turret_any_phase_timed_life"
       },
       {
         "Id": "pdf_Terran_rule_holo_decoy_any_phase_decoy"
@@ -123,7 +123,7 @@
         "Id": "pdf_Terran_stat_jim_raynor"
       },
       {
-        "Id": "pdf_Terran_rule_jim_raynor_any_phase_commander"
+        "Id": "pdf_Protoss_rule_artanis_any_phase_commander"
       },
       {
         "Id": "pdf_Terran_rule_jim_raynor_any_phase_freedom_fighters"
@@ -258,7 +258,7 @@
         "Id": "pdf_Terran_rule_nova_assault_mode_assault_phase_phase_reactor_suit"
       },
       {
-        "Id": "pdf_Terran_rule_nova_assault_mode_assault_phase_devastating_charge"
+        "Id": "pdf_Protoss_rule_zeratul_assault_phase_devastating_charge"
       },
       {
         "Id": "pdf_Terran_profile_nova_assault_mode_phase_assault_phase"
@@ -293,19 +293,19 @@
         "Id": "pdf_Terran_stat_nova_stealth_mode"
       },
       {
-        "Id": "pdf_Terran_rule_nova_stealth_mode_any_phase_battle_preparation"
+        "Id": "pdf_Terran_rule_nova_assault_mode_any_phase_battle_preparation"
       },
       {
         "Id": "pdf_Terran_rule_nova_stealth_mode_any_phase_tactical_stealth_suit"
       },
       {
-        "Id": "pdf_Terran_rule_nova_stealth_mode_any_phase_ghost_visor"
+        "Id": "pdf_Terran_rule_nova_assault_mode_any_phase_ghost_visor"
       },
       {
-        "Id": "pdf_Terran_rule_nova_stealth_mode_movement_phase_super_stimpack"
+        "Id": "pdf_Terran_rule_nova_assault_mode_movement_phase_super_stimpack"
       },
       {
-        "Id": "pdf_Terran_rule_nova_stealth_mode_movement_phase_holo_decoy"
+        "Id": "pdf_Terran_rule_nova_assault_mode_movement_phase_holo_decoy"
       },
       {
         "Id": "pdf_Terran_rule_nova_stealth_mode_assault_phase_operational_efficiency"
@@ -352,7 +352,7 @@
         "Id": "pdf_Terran_rule_point_defense_drone_any_phase_gliding"
       },
       {
-        "Id": "pdf_Terran_rule_point_defense_drone_any_phase_structure"
+        "Id": "pdf_Protoss_rule_pylon_any_phase_structure"
       }
     ]
   },
@@ -395,7 +395,7 @@
         "Id": "pdf_Terran_stat_raynor_s_raiders"
       },
       {
-        "Id": "pdf_Terran_rule_raynor_s_raiders_movement_phase_stimpack"
+        "Id": "pdf_Terran_rule_marines_movement_phase_stimpack"
       },
       {
         "Id": "pdf_Terran_rule_raynor_s_raiders_movement_phase_raiders_roll"
@@ -439,7 +439,7 @@
         "Id": "pdf_Terran_stat_sabotage_drone"
       },
       {
-        "Id": "pdf_Terran_rule_sabotage_drone_any_phase_structure"
+        "Id": "pdf_Protoss_rule_pylon_any_phase_structure"
       },
       {
         "Id": "pdf_Terran_rule_sabotage_drone_assault_phase_have_a_nice_day"
@@ -462,7 +462,7 @@
         "Id": "pdf_Terran_rule_siege_tank_any_phase_heavy_plating"
       },
       {
-        "Id": "pdf_Terran_rule_siege_tank_assault_phase_indomitable"
+        "Id": "pdf_Protoss_rule_immortal_assault_phase_indomitable"
       },
       {
         "Id": "pdf_Terran_rule_siege_tank_assault_phase_point_blank"
@@ -471,7 +471,7 @@
         "Id": "pdf_Terran_rule_siege_tank_assault_phase_aftershock_rounds"
       },
       {
-        "Id": "pdf_Terran_rule_siege_tank_assault_phase_devastating_charge"
+        "Id": "pdf_Protoss_rule_immortal_assault_phase_devastating_charge"
       },
       {
         "Id": "pdf_Terran_profile_siege_tank_phase_assault_phase"
