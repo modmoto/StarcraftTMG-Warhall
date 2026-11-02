@@ -1,4 +1,5 @@
 import assert from 'node:assert/strict';
+import { builtinTerrains } from '../src/terrain/native.mjs';
 import { terrainMenuId } from '../src/models/menu-ids.mjs';
 import { readFile, writeFile, mkdir } from 'node:fs/promises';
 import path from 'node:path';
@@ -151,9 +152,13 @@ json(
   path.join(target, 'terrains.json'),
   [
     ...existing.filter(
-      t => !t.Id.startsWith('sc_terrain_') && !t.Id.startsWith('Starcraft - Terrain - '),
+      t =>
+        !builtinTerrains.some(native => native.Id === t.Id) &&
+        !t.Id.startsWith('sc_terrain_') &&
+        !t.Id.startsWith('Starcraft - Terrain - '),
     ),
     ...terrains,
+    ...builtinTerrains,
   ].sort((a, b) => a.Id.localeCompare(b.Id, 'en')),
 );
 json(path.join(target, 'maps.json'), maps);

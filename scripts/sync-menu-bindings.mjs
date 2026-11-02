@@ -1,4 +1,5 @@
 import assert from 'node:assert/strict';
+import { builtinTerrains } from '../src/terrain/native.mjs';
 import { builtinTokenNames } from '../src/tokens/package.mjs';
 import { readFile } from 'node:fs/promises';
 import { parseArgs } from 'node:util';
@@ -49,9 +50,9 @@ assert.ok(Array.isArray(usages), 'Invalid shared assignment response');
 const defaults = id => defaultMenuSkins(usages, game.IdGame, id);
 const plan = menuBindingPlan(entries, usages, game.IdGame);
 // Built-in reference: resolve on this server rather than copying a test skin ID.
-for (const nativeName of builtinTokenNames) {
+for (const nativeName of [...builtinTokenNames, ...builtinTerrains.map(terrain => terrain.Id)]) {
   const nativeResult = await request(
-    `/GetCatalogueSkins?viewMode=public&search=${nativeName}&perPage=200&page=1&sortOrder=newest`,
+    `/GetCatalogueSkins?viewMode=public&search=${encodeURIComponent(nativeName)}&perPage=200&page=1&sortOrder=newest`,
   );
   const nativeSkins = nativeResult.result?.skins?.filter(skin => skin.name === nativeName);
   assert.equal(nativeSkins?.length, 1, `Expected one native skin: ${nativeName}`);

@@ -191,3 +191,17 @@ test('wall footprints remain inside the 54 by 36 inch battlefield', async () => 
       );
     }
 });
+
+test('built-in hill reference is preserved separately from calibrated map terrain', async () => {
+  const { builtinTerrains } = await import('../src/terrain/native.mjs');
+  const terrains = await read('../Starcraft/terrains.json');
+  const maps = await read('../Starcraft/maps.json');
+  assert.equal(builtinTerrains.length, 1);
+  assert.equal(builtinTerrains[0].Id, 'Hill snow');
+  assert.deepEqual(
+    terrains.filter(t => t.Id === 'Hill snow'),
+    builtinTerrains,
+  );
+  assert.ok(builtinTerrains[0].Height > 0);
+  assert.ok(maps.every(map => map.Items.every(item => item.Id !== 'Hill snow')));
+});
