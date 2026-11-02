@@ -1,62 +1,27 @@
-# Warhall Test handoff
+# Warhall developer TODO
 
-Release 10: `npm run check:local` passed (23 tests passed, 3 optional catalogue tests skipped). Windows Warhall Test loaded version 10, Official Map 5 with complete raised platform assemblies, and the regenerated Acropolis card. Full card readability/flip checks and Mac verification remain below.
+Prioritized client/editor requests for the Starcraft mod. Supporting code and investigation notes are linked below.
 
-Release 11 includes the unit-rule cleanup, phase weapon tables and JSON model publisher for testing. Shared catalogue publication is separate: the Marine was submitted through Model Creator; the remaining model/terrain mappings, portable Unity-bundle replacements and custom deployment templates still require publication or verification.
+1. [ ] **Leading-model movement.** Select a model and press **L** to mark it as the unit's leading model. Normal **left-click and drag** moves/rearranges the whole unit, using the marked leader as the placement anchor. If another unit member is dragged normally, apply its drag displacement to the marked leader's destination. **Shift+drag** fine-adjusts individual models (or an explicitly selected subset) without creating another circle, changing the leader or moving the rest of the unit. Fill the exact forward circular arc first, alternating left/right, then fill inward gaps. Show the shared circle in red when coherency is invalid, dotted previous unit positions, the old leader's movement arrow and numbered placement slots. **Ctrl+Z** restores the whole pre-move unit as one undo transaction. Preserve manual follower adjustments as separate undo actions.
 
-Release 12 removes the equipment child from each weapon stat row, eliminating the repeated weapon link and its redundant popup. Live layout verification remains pending.
+   ![Leading-model movement: numbered formation and dotted previous positions](docs/images/leading-model-placement.png)
 
-## Next work
+   [Standalone C# planner](examples/leading-model/LeadingModelPlacement.cs) · [Unity integration and acceptance checks](examples/leading-model/README.md). Example: 18 models including the leader, 32 mm bases, 4-inch coherency. This is a proposed feature; the planner does not wire up game input, networking or undo.
 
-- [ ] Verify release 33 native Tokens menu: 16 separate single-face tokens, activation arrow/crosshair, blue/red lightning buffs, inverted faction palettes, status artwork and 25 mm size. Verify decorated scenario marker centres after refreshing the shared skins.
-- [x] Implement local unit-rule cleanup from current official PDFs: individually named abilities, clear phases/costs, nested keyword links and the New Recruit reference comparison. Unit descriptions omit provenance, base sizes and manual-upgrade placeholders. Native weapon tables appear under phase headings. See [the implementation notes](docs/unit-rules.md). Included in test data release 11.
-- [ ] Verify release 31 profile layout in Warhall Test: no duplicate statline name or table Supply, Supply below Categories, left-aligned full-width weapon tables, full Target labels, single-line Surge, horizontal clickable keywords and unit-specific Devastating Charge summaries.
-- [ ] Verify the current PDF-grid terrain calibration and L-shaped Wall Set 4/5 footprints on both clients. See `docs/terrain-calibration.md`; the old Windows ±25° workaround is superseded.
-- [ ] Verify sharp tactical, faction, creep, deployment and mission cards in Warhall Test, including flip behavior and readable descriptions. Unit cards are intentionally removed; unit data will be presented on units later.
-- [ ] Verify scoring missions change no board objects. Deployment selection alone owns markers and border segments. Select the map before the deployment: loading a map clears terrain, including deployment markers.
+2. [ ] **Platform collision.** Allow units to stand on imported ramps/platforms using mesh colliders on `ElevatedGround`, as they can on native Hill snow. Imported model collider generation is disabled; terrain selection height does not provide a walkable surface. Preserve elevated-ground collision when terrain is locked. [Client findings](docs/warhall-client-terrain-support.md).
 
-## Requires Warhall client/catalogue support (priority order)
+3. [ ] **Token previews.** Resolve relative thumbnail paths to absolute URLs and provide a visible fallback on failure. Native tokens can use an embedded prefab `AssetUIConfig.UISprite`; custom GLB tokens need a reliable equivalent preview path. Keep custom artwork. [Investigation and native-token comparison](docs/token-menu-client-issue.md).
 
-1. [ ] Implement leading-model movement: L marks the leader; moving it places followers along the exact forward circular arc first, alternating left/right, then fills inward gaps. Show numbered placement slots, a shared coherency ring (red when invalid), dotted old unit positions and the old leader movement arrow. Allow manual follower adjustments. Ctrl+C restores the whole pre-move unit as one undo transaction. Highest priority. See [the Unity handoff and standalone C# algorithm](examples/leading-model/README.md). This is a proposed client feature, not implemented game behavior.
+4. [ ] **32 mm marker measurement.** Measure from the circular base edge (16 mm radius), rather than a terrain corner or token center. Keep the decorative control ring separate from the measurement footprint.
 
-   ![Leading-model placement: 18 models, numbered outer arc first, dotted previous positions](docs/images/leading-model-placement.png)
+5. [ ] **Hide terrain bases.** Add a per-terrain option to hide both base renderers while preserving necessary colliders. Do not hide unit bases. [Proposed client change](docs/warhall-client-terrain-support.md).
 
-   [C# placement algorithm](examples/leading-model/LeadingModelPlacement.cs) · [Unity integration notes](examples/leading-model/README.md)
+6. [ ] **Terrain locking/unlocking.** Loading deployments must not globally unlock map terrain. Preserve/restore the lock while spawning helpers, retain the manual lock toggle and test both map/deployment loading orders. [Client findings](docs/warhall-client-terrain-support.md).
 
-2. [ ] Fix ramp/platform collision: enable mesh colliders on imported raised terrain using `ElevatedGround`, as native Ninth Age hills do (the user confirmed standing on Hill snow works). Imported OBJ geometry currently has collider generation disabled; the WDS Height field only sizes its selection box. Units cannot yet stand on the imported ramps/platforms.
+7. [ ] **Cloud terrain menu.** Make `TerrainPanel` tolerate missing addressable prefabs for hosted GLB/OBJ models, create the button and then load a thumbnail with fallback. Native Hill snow works via `Frozen Tundra/Hill_FT`; the hosted ramp fails this lookup. [Comparison](docs/wds-editor-compatibility.md).
 
-3. [ ] Fix native token preview URLs: AllSkinData emits relative Thumbnail paths while TokenPanel expects absolute HTTPS URLs. Confirm the token panel activation path and make preview failures show a fallback button. See [the investigation](docs/token-menu-client-issue.md). Native prefab previews use AssetUIConfig.UISprite; support a custom preview route or repair cloud thumbnail loading without changing custom artwork.
+8. [ ] **Flip map.** Rotate terrain positions and orientations together by 180 degrees. Two flips must restore the original layout. [Client findings](docs/warhall-flip-limitations.md).
 
-4. [ ] Fix 32 mm mission-marker measurement: markers currently use round Terrain records, but measurement starts from a corner of the terrain footprint. Support measuring from the circular 32 mm edge (16 mm radius), rather than the rectangular corner or token center. Preserve the decorative control ring independently of the measurement footprint.
+9. [ ] **Flip deployment.** Include mission markers and the red/blue border objects. Preserve their positions, colors and flip state when switching/reloading deployments. [Client findings](docs/warhall-flip-limitations.md).
 
-5. [ ] Add a per-terrain hide-base option that hides both base renderers while preserving selection/elevation colliders. The existing global switch affects unit bases too. See [the exact client findings and proposed changes](docs/warhall-client-terrain-support.md).
-
-6. [ ] Fix terrain locking/unlocking when loading maps and deployments: map loading ends with SetTerrainLock(true), but deployment helpers call CreateTerrain, which globally calls SetTerrainLock(false). Preserve/restore the lock while loading helpers so loading order does not unexpectedly unlock the board. Keep manual Lock terrain/Unlock terrain usable and verify both loading orders; the WDS schema has no per-placement lock flag.
-
-7. [ ] Make TerrainPanel's addressable-prefab lookup null-safe for hosted GLB/OBJ skins before loading thumbnails. Comparison confirmed by the user: native Hill snow appears in the menu and supports units standing on top; our hosted ramp does neither. Hill snow uses the installed Frozen Tundra/Hill_FT prefab and can use its embedded AssetUIConfig.UISprite; the ramp is a GLB URL. Add the menu button even without an installed prefab, then load the cloud thumbnail with a fallback. Keep shared profile IDs and existing map/deployment references intact. The temporary hill reference was removed in release 48.
-
-8. [ ] Fix **Flip map**: rotate terrain positions and orientations together by 180 degrees so asymmetric walls and ramps retain their layout. Verify two flips restore the original layout. See [the client findings](docs/warhall-flip-limitations.md).
-
-9. [ ] Fix **Flip deployment**: include shared deployment overlays and mission markers, preserving the flip when switching/reloading deployments. See [the client findings](docs/warhall-flip-limitations.md).
-
-10. [ ] Fix editor preservation of custom token/terrain IDs. Its release-34 export omitted all 16 tokens; adding a reference terrain replaced all 30 existing terrain records. Never upload an unchecked editor draft. Use `scripts/compare-wds-export.py` and see `docs/wds-editor-compatibility.md`.
-
-Deployment border objects are implemented in red/blue; switching and flipping still require verification as part of the deployment-flip item.
-
-- [x] Move normal play to published WDS data and shared skin assignments. Built-in deployment template 12 plus shared overlays replaces custom local deployment templates. Legacy cache installers are not required; see `docs/cloud-client.md`.
-
-## Start on the Mac
-
-1. Pull `main` from this repository and run `npm ci` (Node 22 recommended).
-2. Run `npm run convert` to download/cache the official PDFs, then `npm run deployments:update` and `npm run terrain:update`. Do not bump versions merely for local regeneration.
-3. Run `npm run check:local`. Three New Recruit integration tests are skipped unless a suitable catalogue fixture is installed. The official-PDF tests remain active.
-4. Card regeneration additionally needs Python 3, Pillow, pypdf and Poppler's `pdftoppm` on PATH (`brew install poppler`, then install the Python packages in a virtual environment). Run `python scripts/update-cards.py`; it renders lossless PNG faces from the source PDFs. Generated images are committed, so this step is unnecessary just to play or inspect the current release.
-5. Start Warhall Test online and use the published Starcraft game and shared skins. No local cache installation is needed. To retire an older machine-local preview, use [the cloud reset instructions](docs/cloud-client.md). Do not restore old local catalogue backups over cloud data.
-
-## Rules research already gathered
-
-- Old World example: https://github.com/christophcarstensen/ToW-WDS (release branch, TOW directory).
-- StarCraft New Recruit: https://github.com/modmoto/StarcraftTMG-NR.
-- Warhall `RuleLinks` accepts TextMeshPro `<link="recordId">text</link>` references and opens the matching WDS item. Validate every generated target ID. Do not replace official PDF values with potentially older catalogue values.
-
-No client executable has been modified. Temporary downloads, previews and local cache backups are ignored by Git.
+10. [ ] **Lossless editor roundtrip.** Opening Tokens/Terrain must not silently edit data or drop unrecognized helpers. Preserve original IDs, dimensions, extra fields and references; emit changes only after an intentional edit. Keep manifest/version.json versions aligned on upload. [Roundtrip findings](docs/wds-editor-compatibility.md).

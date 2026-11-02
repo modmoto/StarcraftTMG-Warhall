@@ -6,12 +6,12 @@ Highest-priority Warhall feature. This is a standalone planning example, **not a
 
 ## Intended behavior
 
-1. Select a model and press **L** to mark it as the unit's leader. Keep that identity until deliberately changed. If offering automatic selection, `ClosestModel` picks the old model closest to the requested destination; do not silently override an explicitly marked leader.
-2. Before dragging the leader, snapshot the **whole unit**. Show dotted ghosts of the old bases, mark the old leader L and draw its old-to-new movement arrow. Both players see the same ghosts and coherency ring.
+1. Select a model and press **L** to mark it as the unit's leader. The marked leader remains the whole-unit placement anchor and owns the only coherency circle. Keep that identity until deliberately changed. If offering automatic selection, `ClosestModel` picks the old model closest to the requested destination; do not silently override an explicitly marked leader.
+2. For a normal **left-click and drag** on a unit member, snapshot the **whole unit**. Use the drag displacement to move the marked leader, then plan follower placement around its destination. Show dotted ghosts of the old bases, mark the old leader L and draw its old-to-new movement arrow. Both players see the same ghosts and coherency ring.
 3. The drag direction defines forward. Place follower **1** at the forward-most point on the allowed circular boundary. Continue around the front semicircle alternating **left, right, left, right**, with touching, non-overlapping bases. Preserve the exact circular outer arc ahead of compact packing.
 4. After that outer rank is full, fill inward gaps, searching from larger radii toward smaller radii and from forward toward the sides. Use the rear half only if the front cannot accommodate the unit. Number followers in placement order; the leader is **L**, not number 1.
-5. Allow manual follower adjustments without rebuilding the formation or creating another leader ring. Turn the shared ring red if the actual unit is out of coherency. Recompute this from real positions, not the proposed plan.
-6. **Ctrl+C undoes the whole unit move**, restoring all models from the pre-drag snapshot. Treat the leader move and automatic follower moves as one undo/network transaction. Later manual adjustments should remain separate undo actions.
+5. **Shift+drag** fine-adjusts only the dragged model or explicitly selected subset. It must not create another circle, mark a new leader or rearrange the other models. Turn the shared ring red if the actual unit is out of coherency. Recompute this from real positions, not the proposed plan.
+6. **Ctrl+Z undoes the whole unit move**, restoring all models from the pre-drag snapshot. Treat the leader move and automatic follower moves as one undo/network transaction. Later manual adjustments should remain separate undo actions.
 
 ## Inputs and a minimal call
 
@@ -36,7 +36,7 @@ var plan = LeadingModelPlacement.Build(
 
 // Apply only after validating the COMPLETE plan. Also save rotations and heights.
 CommitWholeUnitMove(plan.Before, plan.After, plan.Ordered);
-// Ctrl+C: restore the saved whole-unit snapshot through the network/undo system.
+// Ctrl+Z: restore the saved whole-unit snapshot through the network/undo system.
 ```
 
 `ReadUnitPositionsInMillimetres`, `IsBasePositionLegal` and `CommitWholeUnitMove` above are integration placeholders, not included methods. For the illustrated unit, the input contains **18 models total: L plus 17 followers**.
@@ -64,6 +64,8 @@ This is a **greedy placement heuristic**, not proof of globally optimal packing 
 
 ## Unity wiring
 
+- On keyboard **L**, mark the selected model as the unit leader; replace the previous leader explicitly. Normal left-drag calls the whole-unit planner. For any dragged member, use `leaderDestination = leaderStart + dragDelta`. Shift-drag bypasses the planner and moves only the dragged model/explicit subset. Never infer a new leader from the model being dragged.
+
 - Convert Unity X/Z coordinates to millimetres before calling; convert back afterward. Do not assume one Unity unit equals one metre—use Warhall's existing board conversion.
 - Preserve each model's identity, rotation and height in the actual undo snapshot. Project planned positions onto legal ground/elevated-ground surfaces separately; the algorithm is 2D.
 - During a drag, preview locally. At commit, the authoritative client/server validates and sends one final plan plus the ghost snapshot to both players. Do not independently recompute approximate packing on each peer.
@@ -77,7 +79,7 @@ This is a **greedy placement heuristic**, not proof of globally optimal packing 
 - Outer rank follows a circular arc and fills before inward positions.
 - Left/right ordering rotates with the drag direction; zero-length drags use an explicit fallback.
 - Both players see the old bases, old leader, movement arrow and coherency state.
-- Ctrl+C restores the entire unit, including rotations/heights, as one transaction.
+- Ctrl+Z restores the entire unit, including rotations/heights, as one transaction.
 - An impossible/blocked placement changes nothing. Mixed bases are handled by a future extension rather than passed as equal circles.
 
 `PlacementChecks.cs` contains a standalone console test runner (exclude it when copying the planner into Unity). Compile it together with LeadingModelPlacement.cs in a .NET console project. It checks the 18-model count, numbering, snapshots, no overlaps, circular outer rank, left/right ordering, rotation invariance, determinism, blocked placement and both measurement conventions. It has been compiled and run with .NET 8.
