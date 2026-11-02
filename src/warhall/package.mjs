@@ -136,10 +136,7 @@ async function initialData(template) {
   ];
 
   data['gameconfig.json'].WoundsAttribute = 'HP';
-  data['gameconfig.json'].Formations = [
-    { Index: 0, Type: 'Cloud' },
-    { Index: 1, Type: 'None' },
-  ];
+  data['gameconfig.json'].Formations = [{ Index: 0, Type: 'Cloud' }];
   data['gameconfig.json'].DefaultFormation = 'Cloud';
   data['gameconfig.json'].ShownButtons = (data['gameconfig.json'].ShownButtons ?? []).filter(
     name => name !== 'Reform' && name !== 'ButtonReform',

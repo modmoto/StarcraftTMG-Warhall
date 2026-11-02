@@ -11,10 +11,6 @@
     {
       "Index": 0,
       "Type": "Cloud"
-    },
-    {
-      "Index": 1,
-      "Type": "None"
     }
   ],
   "DefaultFormation": "Cloud",
