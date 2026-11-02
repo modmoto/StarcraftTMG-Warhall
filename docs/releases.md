@@ -1,5 +1,9 @@
 # Wave releases
 
+## Current workflow override — November 2, 2026
+
+The user has temporarily suspended staging/promotion and requested direct commits and pushes to `main`, with generated URLs targeting `main`. Keep the release scripts available, but do not run them or automatically switch to `test` until the user re-enables that workflow. Production/test project configuration will be reconciled separately by the user; a Git push does not authorize changing Warhall server settings or publishing production skins. The staged process below is retained for later use.
+
 Use `test` for development and Warhall Test, and `main` for approved Warhall production. Both games are named Starcraft and both branches keep the Starcraft folder. Main is never updated automatically after a playtest; the user's “release wave N” instruction is the approval.
 
 The user-facing workflow is “do wave 4” → test the prerelease → “release wave 4”. The wave-release skill handles official content updates, model selection/review, release notes and these commands:

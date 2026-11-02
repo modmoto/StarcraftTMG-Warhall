@@ -5,6 +5,10 @@ description: Update a Starcraft miniature-game wave, publish a playable Warhall 
 
 # Wave release workflow
 
+## Active user override (November 2, 2026)
+
+The user explicitly suspended the release process and requested direct work/pushes on main, with generated URLs pointing to main. Do not switch to test or run staging/promotion unless the user re-enables it. Retain these scripts for later. The user will reconcile prod/test project configuration separately; do not change server manifest paths or publish production skins based on this Git-only override. This instruction supersedes the default branch workflow below.
+
 The user wants to say “do wave 4”, test the result, then say “release wave 4”. Handle the intermediate work autonomously. Keep the game named exactly Starcraft on both servers. `test` is the development branch and Warhall Test; `main` is approved production. Keep the single Starcraft folder. See docs/releases.md for commands, environment setup and recovery.
 
 ## “Do wave N”: stage only
