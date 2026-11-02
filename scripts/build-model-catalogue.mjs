@@ -26,7 +26,7 @@ for (const selection of [...units.models, ...terrain.models].filter(m => m.statu
     name: `Starcraft - ${selection.unitName}`,
     kind: selection.terrainId ? 'terrain' : 'unit',
     ...(!selection.terrainId ? { faction: selection.faction } : {}),
-    ...(flying ? { flightClearanceMm: 30 } : {}),
+    ...(flying ? { flightClearanceMm: 150 } : {}),
     ...(selection.calibration ? { calibration: selection.calibration } : {}),
     parts: [selection.model, ...(selection.attachments ?? [])].map(part => ({
       modelUrl: part.meshUrl,

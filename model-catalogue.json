@@ -794,7 +794,7 @@
       "name": "Starcraft - Point Defense Drone",
       "kind": "unit",
       "faction": "Terran",
-      "flightClearanceMm": 30,
+      "flightClearanceMm": 150,
       "parts": [
         {
           "modelUrl": "https://steamusercontent-a.akamaihd.net/ugc/16724548689103041369/47BA9CADBA1382E27A756DCAB7B65AA64BA063ED/",
@@ -805,7 +805,7 @@
             "rotationY": 0,
             "rotationZ": 0,
             "positionX": 0,
-            "positionY": 0.9227752879224003,
+            "positionY": 12.9227752879224,
             "positionZ": 0
           },
           "previewSource": {
@@ -818,7 +818,7 @@
             "rotationY": 0,
             "rotationZ": 0,
             "positionX": 0,
-            "positionY": 0.9227752879224003,
+            "positionY": 12.9227752879224,
             "positionZ": 0
           },
           "factionPalette": "Terran"
@@ -831,7 +831,7 @@
       "name": "Starcraft - Raven",
       "kind": "unit",
       "faction": "Terran",
-      "flightClearanceMm": 30,
+      "flightClearanceMm": 150,
       "parts": [
         {
           "modelUrl": "https://steamusercontent-a.akamaihd.net/ugc/12783889514308410174/8BEF0E485105274125CA8662DA5907FF0BE0223D/",
@@ -842,7 +842,7 @@
             "rotationY": 0,
             "rotationZ": 0,
             "positionX": 0,
-            "positionY": 1.1884642456293264,
+            "positionY": 13.188464245629326,
             "positionZ": 0
           },
           "previewSource": {
@@ -855,7 +855,7 @@
             "rotationY": 0,
             "rotationZ": 0,
             "positionX": 0,
-            "positionY": 1.1884642456293264,
+            "positionY": 13.188464245629326,
             "positionZ": 0
           },
           "factionPalette": "Terran"

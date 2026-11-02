@@ -15,14 +15,14 @@ test('single OBJ scale compensates client normalization while multipart scale re
   assert.equal(normalizedObjScale(legacy, bounds, 2), legacy);
 });
 
-test('current flyers share thirty millimeters of model clearance without changing scale', async () => {
+test('current flyers share 150 millimeters of model clearance without changing scale', async () => {
   const catalogue = await json('model-catalogue.json');
   const report = await json('model-calibration-report.json');
   for (const name of ['Raven', 'Point Defense Drone']) {
     const entry = catalogue.entries.find(e => e.name === `Starcraft - ${name}`);
     const measurement = report.find(r => r.profileId === entry.profileId);
-    assert.equal(entry.flightClearanceMm, 30);
-    assert.equal(measurement.flightClearanceMm, 30);
+    assert.equal(entry.flightClearanceMm, 150);
+    assert.equal(measurement.flightClearanceMm, 150);
     assert.ok(measurement.flightLift > 0);
     assert.deepEqual(measurement.correctedSizeMm, measurement.authoredSizeMm);
   }
