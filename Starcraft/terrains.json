@@ -1,13 +1,5 @@
 [
   {
-    "Id": "Hill snow",
-    "Name": "Hill snow",
-    "Type": "Terrain",
-    "Width": 10.16,
-    "Length": 10.16,
-    "Shape": 0
-  },
-  {
     "Id": "sc_deployment_14025690",
     "Name": "Deployment lines - TYPHOON",
     "Type": "Terrain",

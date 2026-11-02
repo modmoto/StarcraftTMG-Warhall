@@ -192,12 +192,11 @@ test('wall footprints remain inside the 54 by 36 inch battlefield', async () => 
     }
 });
 
-test('built-in hill reference is preserved separately from calibrated map terrain', async () => {
+test('temporary built-in hill is absent from terrain and maps', async () => {
   const { builtinTerrains } = await import('../src/terrain/native.mjs');
   const terrains = await read('../Starcraft/terrains.json');
   const maps = await read('../Starcraft/maps.json');
-  assert.equal(builtinTerrains.length, 1);
-  assert.equal(builtinTerrains[0].Id, 'Hill snow');
+  assert.equal(builtinTerrains.length, 0);
   assert.deepEqual(
     terrains.filter(t => t.Id === 'Hill snow'),
     builtinTerrains,
