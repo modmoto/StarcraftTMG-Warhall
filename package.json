@@ -28,7 +28,8 @@
     "tokens:check": "node scripts/update-tokens.mjs --check",
     "lists:parse": "node scripts/parse-nr-list.mjs",
     "data:publish": "node scripts/publish-data.mjs",
-    "rules:update-book": "node scripts/update-rulebook.mjs"
+    "rules:update-book": "node scripts/update-rulebook.mjs",
+    "cards:update": "node scripts/update-cards.mjs"
   },
   "engines": {
     "node": ">=22.13.0"

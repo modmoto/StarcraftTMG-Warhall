@@ -70,7 +70,7 @@ test('chapter extraction retains numbered sections, symbols and continuation pag
 test('identical abilities share references; different costs remain labelled by unit', () => {
   const ability = (Id, cost) => ({
     Id,
-    Name: 'Stimpack',
+    Name: 'Restoration',
     Type: 'Rule',
     Description: `Cost: ${cost}. Gain PRECISION.`,
   });

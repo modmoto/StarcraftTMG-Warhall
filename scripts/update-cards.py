@@ -6,13 +6,14 @@ from pathlib import Path
 import re
 import subprocess
 
-from PIL import Image
+from PIL import Image, ImageDraw
 from pypdf import PdfReader
 from pypdf._text_extraction import mult
 
 ROOT = Path(__file__).resolve().parent.parent
 CACHE = ROOT / '.cache/pdf'
-DPI = 360
+DPI = 600
+MAX_EDGE = 2048
 RENDERS = ROOT / f'.cache/cards/{DPI}dpi'
 ASSETS = ROOT / 'Starcraft-test/assets/cards'
 for directory in [RENDERS, ASSETS]:
@@ -92,17 +93,63 @@ def render(file, number):
         subprocess.run(['pdftoppm', '-f', str(number), '-singlefile', '-r', str(DPI), '-png', str(CACHE/file), str(stem)], check=True, capture_output=True)
     return Image.open(target)
 
-def face(file, number, page, box, rotate=0):
+trim_cache = {}
+
+def trim_box(file, number, page, rough):
+    key = (file, number)
+    if key not in trim_cache:
+        rectangles = []
+        def visit(operator, arguments, cm, tm):
+            if operator != b're':
+                return
+            x, y, width, height = map(float, arguments)
+            corners = [(cm[0]*px + cm[2]*py + cm[4], cm[1]*px + cm[3]*py + cm[5])
+                       for px, py in [(x,y),(x+width,y),(x,y+height),(x+width,y+height)]]
+            left, right = min(p[0] for p in corners), max(p[0] for p in corners)
+            bottom, top = min(p[1] for p in corners), max(p[1] for p in corners)
+            if right-left > 180 and top-bottom > 170:
+                rectangles.append((left, float(page.mediabox.height)-top, right, float(page.mediabox.height)-bottom))
+        page.extract_text(visitor_operand_after=visit)
+        trim_cache[key] = rectangles
+    bleed = 3 * 72 / 25.4
+    width, height = rough[2]-rough[0], rough[3]-rough[1]
+    candidates = []
+    for left, top, right, bottom in trim_cache[key]:
+        if abs((right-left)-width-2*bleed) > 2.5 or abs((bottom-top)-height-2*bleed) > 2.5:
+            continue
+        distance = abs((left+right)-(rough[0]+rough[2])) + abs((top+bottom)-(rough[1]+rough[3]))
+        if distance < 100:
+            candidates.append((distance, (left+bleed,top+bleed,right-bleed,bottom-bleed)))
+    assert candidates, f'Missing exact card trim: {file}:{number}:{rough}'
+    return min(candidates)[1]
+
+def face(file, number, page, box, rotate=0, label='card'):
+    exact = trim_box(file, number, page, box)
     im = render(file, number)
     sx = im.width / float(page.mediabox.width)
     sy = im.height / float(page.mediabox.height)
-    crop = im.crop(tuple(round(v * (sx if i % 2 == 0 else sy)) for i,v in enumerate(box)))
+    crop = im.crop(tuple(round(v * (sx if i % 2 == 0 else sy)) for i,v in enumerate(exact)))
     if rotate:
         crop = crop.rotate(rotate, expand=True)
-    # Content-addressed images also invalidate Warhall's URL texture cache.
-    digest = hashlib.sha256(crop.tobytes()).hexdigest()[:24]
-    name = f'{digest}.png'
-    crop.convert('RGB').save(ASSETS/name, optimize=True)
+    size = tuple(round(value * MAX_EDGE / max(crop.size)) for value in crop.size)
+    assert max(crop.size) >= MAX_EDGE, f'Insufficient source resolution: {file}:{number}'
+    crop = crop.convert('RGB')
+    for side in ['left', 'right']:
+        for _ in range(12):
+            x = 0 if side == 'left' else crop.width - 1
+            strip = list(crop.crop((x, crop.height//5, x+1, crop.height*4//5)).getdata())
+            if sum(min(pixel) >= 252 for pixel in strip) < len(strip) * 0.98:
+                break
+            crop = crop.crop((1 if side == 'left' else 0, 0,
+                              crop.width-1 if side == 'right' else crop.width, crop.height))
+    crop = crop.resize(size, Image.Resampling.LANCZOS).convert('RGBA')
+    mask = Image.new('L', (size[0]*2,size[1]*2), 0)
+    radius = MAX_EDGE * (2.5 * 72 / 25.4) / max(exact[2]-exact[0], exact[3]-exact[1])
+    ImageDraw.Draw(mask).rounded_rectangle((2,2,size[0]*2-3,size[1]*2-3), radius=radius*2, fill=255)
+    crop.putalpha(mask.resize(size, Image.Resampling.LANCZOS))
+    digest = hashlib.sha256(crop.tobytes()).hexdigest()[:12]
+    name = f'{slug(label)}-{digest}.png'
+    crop.save(ASSETS/name, optimize=True)
     return f'https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/{name}'
 
 cards = {}
@@ -114,7 +161,7 @@ def add(group, name, front, back, width, length, source, text=''):
     identity = f'sc_card_{slug(group)}_{slug(name)}'
     record = {'Id': identity, 'Name': name.title(), 'Type': 'Card', 'Description': name.title() + ('\n\n' + text if text else ''),
               'UIConfig': {'ImageURL': front, 'ImageURLBack': back, 'Width': width, 'Length': length,
-                           'IsRound': False, 'ShowInitials': False, 'Border': False, 'Color': '#FFFFFF', 'Color2': '#FFFFFF'}}
+                           'IsRound': False, 'ShowInitials': False, 'Border': False, 'Color': '#FFFFFF', 'Color2': ''}}
     if identity in cards:
         assert cards[identity] == record, f'Conflicting card: {identity}'
         return
@@ -147,8 +194,8 @@ for source in sources:
                 assert name, f'Missing tactical title: {file}:{number}:{row}:{col}'
                 reverse = (x0,y0+178.5,x0+249.5,y0+357)
                 text = describe(ts, reverse, name)
-                add(source['faction']+' tactics', name, face(file,number,page,reverse,-90),
-                    face(file,number,page,graphic,-90), 63,88, {'file':file,'page':number,'url':source['url']},text)
+                add(source['faction']+' tactics', name, face(file,number,page,reverse,-90,label=source['faction']+'-'+name+'-front'),
+                    face(file,number,page,graphic,-90,label=source['faction']+'-'+name+'-back'), 63,88, {'file':file,'page':number,'url':source['url']},text)
         # Standard missions occupy the left column; the right is skirmish.
         # Base missions repeat across factions, so use the Terran copy once.
         if source['wave'] == 1 and source['faction'] != 'Terran':
@@ -164,7 +211,7 @@ for source in sources:
             # Missions repeat between waves/factions; retain the first official copy.
             if identity in missions:
                 continue
-            image = face(file,number,page,box)
+            image = face(file,number,page,box,label='scenario-'+name+'-front')
             text = describe(ts, box, name, mission=True)
             add('Missions',name,image,image,63,108,{'file':file,'page':number,'url':source['url']},text)
             missions[identity] = {'Id':f'sc_scoring_{identity}', 'Name':name.title(), 'Items':[]}
@@ -179,7 +226,7 @@ for deployment in read('deployment-report.json')['layouts']:
     col = int((t['x']-48)//249.5); row = int((t['y']-82)//178.5)
     assert col in (0,1) and row in (1,3), 'Unsupported standard deployment layout'
     box = (48+col*249.5,82+row*178.5,48+(col+1)*249.5,82+(row+1)*178.5)
-    image = face(file,number,page,box)
+    image = face(file,number,page,box,label='deployment-'+deployment['name']+'-front')
     add('Deployments',deployment['name'],image,image,88,63,src,'Standard engagement deployment.')
 
 assert not any(g.endswith(' units') for g in groups)
@@ -188,13 +235,13 @@ assert len(missions) == 7, f'Expected seven standard scoring missions, got {list
 write('Starcraft-test/cards.json',sorted(cards.values(),key=lambda c:c['Id']))
 hierarchy = read('Starcraft-test/hierarchy.json');hierarchy['Cards']={k:sorted(v) for k,v in sorted(groups.items())};write('Starcraft-test/hierarchy.json',hierarchy)
 write('Starcraft-test/objectives.json',[])
-write('cards-report.json',{'imageDpi':DPI,'imageFormat':'lossless PNG','unitCards':False,'cards':report,'counts':{k:len(v) for k,v in sorted(groups.items())},'missions':len(missions)})
+write('cards-report.json',{'imageDpi':DPI,'maxImageEdge':MAX_EDGE,'cropMethod':'PDF bleed rectangles with exact 3mm trim inset','imageFormat':'lossless PNG','unitCards':False,'cards':report,'counts':{k:len(v) for k,v in sorted(groups.items())},'missions':len(missions)})
 print(f'Extracted {len(cards)} cards and {len(missions)} scoring missions.')
 
 # Remove only obsolete generated hash-named faces in the owned card directory.
 used = {url.rsplit('/',1)[-1] for card in cards.values() for key,url in card['UIConfig'].items() if key in ('ImageURL','ImageURLBack')}
 asset_root = ASSETS.resolve()
 for file in ASSETS.iterdir():
-    if re.fullmatch(r'[a-f0-9]{24}\.(?:jpg|png)',file.name) and file.name not in used:
+    if re.fullmatch(r'(?:[a-f0-9]{24}|[a-z0-9_-]+-[a-f0-9]{12})\.(?:jpg|png)',file.name) and file.name not in used:
         assert file.resolve().parent == asset_root
         file.unlink()

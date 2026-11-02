@@ -127,6 +127,12 @@ async function initialData(template) {
 
   const tokenArtwork = await readJson(path.join(projectRoot, 'token-artwork.json'));
   data['cards.json'] = data['cards.json'].filter(card => !card.Id.startsWith('sc_token_'));
+  for (const card of data['cards.json']) {
+    card.Description = card.Description.replace(
+      /(?:<u>)?<link="(?:pdf|nr)_[^"]+">([\s\S]*?)<\/link>(?:<\/u>)?/g,
+      '$1',
+    );
+  }
   data['tokens.json'] = [
     ...data['tokens.json'].filter(
       token =>
@@ -142,6 +148,7 @@ async function initialData(template) {
   ];
 
   data['gameconfig.json'].WoundsAttribute = 'HP';
+  data['gameconfig.json'].DefaultCardConfig.Color2 = '';
   data['gameconfig.json'].Formations = [{ Index: 0, Type: 'Cloud' }];
   data['gameconfig.json'].DefaultFormation = 'Cloud';
   data['gameconfig.json'].MaxCloudSeparation = 4;
@@ -243,7 +250,14 @@ export async function buildWarhallPackage(source, template = defaultDataDirector
   report.ruleCleanup.rulebookSource = book.source;
   report.ruleCleanup.chapters = book.entries.length;
   report.ruleCleanup.duplicatesRemoved = consolidateRules(data, owners);
-  report.ruleCleanup.links += linkRuleIndex(data, glossary, book);
+  linkRuleIndex(data, glossary, book);
+  report.ruleCleanup.links = Object.values(data)
+    .filter(Array.isArray)
+    .flat()
+    .reduce(
+      (total, record) => total + [...(record?.Description ?? '').matchAll(/<link=/g)].length,
+      0,
+    );
 
   const previousManifest = await readJson(path.join(template, 'manifest.json'));
   data['manifest.json'] = { version: previousManifest.version, files: Object.keys(data).sort() };

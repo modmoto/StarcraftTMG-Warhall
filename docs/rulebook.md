@@ -8,6 +8,6 @@ Excluded: the introductory battle report, Part 9 army building/preparation, Part
 
 Descriptions link named keywords and core rules, bare chapter numbers, section-sign references, and singular/plural Part/Section/Chapter references. Links are underlined like Warhall’s native rule buttons. Repeated keyword occurrences remain clickable. Existing links are preserved without nested markup or repeated changes on regeneration. Ambiguous generic names are not guessed across different unit abilities.
 
-Previously every unit and upgrade generated its own named ability record. Identical name/text entries now share a canonical ID, with profile children and nested references remapped. Different costs or effects remain separate and their names identify the applicable units. This avoids merging genuinely different versions just because their names match. Empty-name profile layout records are deliberately retained.
+Previously every unit and upgrade generated its own named ability record. Identical name/text entries now share a canonical ID, with profile children and nested references remapped. Different costs or effects remain separate and their names identify the applicable units. Marines and Raynor’s Raiders share Stimpack (Marines); Marauders use Stimpack (Marauders). This avoids merging genuinely different versions just because their names match. Empty-name profile layout records are deliberately retained.
 
 Changes build into `Starcraft-test/`; publishing to `Starcraft/` remains a separate user-requested step.

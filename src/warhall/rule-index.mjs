@@ -31,9 +31,14 @@ export function consolidateRules(data, owners) {
   }
   const names = Map.groupBy([...unique.values()], rule => rule.Name.toLowerCase());
   for (const group of names.values()) {
-    if (group.length < 2) continue;
+    if (group.length < 2 && !/^Stimpack$/i.test(group[0].Name)) continue;
     for (const rule of group) {
-      const context = [...(owners.get(rule.Id) ?? [])].sort().join(', ');
+      const unitNames = [...(owners.get(rule.Id) ?? [])];
+      const context =
+        /^Stimpack$/i.test(rule.Name) &&
+        unitNames.some(name => /^(?:Marines|Raynor.s Raiders)$/.test(name))
+          ? 'Marines'
+          : unitNames.sort().join(', ');
       rule.Name += ` (${context || rule.Id})`;
     }
   }
@@ -82,7 +87,7 @@ export function linkRuleIndex(data, glossary, book) {
   const ids = new Set(namedRules.map(rule => rule.Id));
   let count = 0;
   for (const [file, records] of Object.entries(data)) {
-    if (!/(?:^|\/)(?:rules|equipment)\.json$/.test(file)) continue;
+    if (!/(?:^|\/)(?:rules|equipment|cards)\.json$/.test(file)) continue;
     for (const rule of records) {
       if (!rule?.Description) continue;
       rule.Description = rule.Description.split(/(<link="[^"]+">[\s\S]*?<\/link>|<[^>]+>)/g)
@@ -98,6 +103,7 @@ export function linkRuleIndex(data, glossary, book) {
             const id = number
               ? `rule_chapter_${number.replaceAll('.', '_')}`
               : targets.get(text.toLowerCase());
+            if (file === 'cards.json' && !/^rule_(?:chapter|keyword)_/.test(id)) return text;
             if (!ids.has(id) || id === rule.Id) return text;
             count++;
             return `<link="${id}">${text}</link>`;

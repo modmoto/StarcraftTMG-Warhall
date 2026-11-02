@@ -176,7 +176,7 @@ test('profiles render phase sections and left-aligned full-width weapon tables',
   const rifleIndex = children.indexOf(rifle);
   const strikeIndex = children.findIndex(item => item.Description === '<b>STRIKE</b>');
   assert.ok(assault < rifleIndex && rifleIndex < melee && melee < strikeIndex);
-  assert.ok(children.some(item => item.Name === 'Stimpack' && item.Type === 'Rule'));
+  assert.ok(children.some(item => item.Name === 'Stimpack (Marines)' && item.Type === 'Rule'));
   assert.equal(data['gameconfig.json'].MaxCloudSeparation, 4);
   assert.equal(data['gameconfig.json'].ShowGroupHeader, false);
   assert.equal(data['gameconfig.json'].ShowStatlineHeader, false);

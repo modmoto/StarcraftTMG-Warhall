@@ -1,0 +1,21 @@
+{
+  "sc_card_terran_tactics_vanadium_plating": {
+    "CRYSTALLINE ALLOY": "reaction"
+  },
+  "sc_card_protoss_tactics_templar_caste": {
+    "KHASSAR DE TEMPLARI": "active"
+  },
+  "sc_card_protoss_tactics_twilight_council": {
+    "WEAPONS OF THE FIRSTBORN": "active"
+  },
+  "sc_card_zerg_tactics_malignant_creep": {
+    "MALEVOLENT MATRIARCH": "passive"
+  },
+  "sc_card_zerg_tactics_reactive_creep": {
+    "CREEP REMOVAL": "passive",
+    "REACTIVE TISSUE": "passive"
+  },
+  "sc_card_zerg_tactics_zagara_s_swarm": {
+    "ZERG CREEP": "passive"
+  }
+}

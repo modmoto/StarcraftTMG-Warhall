@@ -2,6 +2,7 @@ import assert from 'node:assert/strict';
 
 const key = value =>
   value.normalize('NFKC').toLowerCase().replace(/[’‘]/g, "'").replace(/\s+/g, ' ').trim();
+const cardTitle = value => value.replace(/\s+\((?:CP|PE|BM):[^)]+\)$/i, '');
 const split = value =>
   value
     .split(/,(?![^()]*\))/)
@@ -21,7 +22,7 @@ export function planNewRecruitList(text, { factions, cards, deployments }) {
   assert.equal(faction.length, 1, 'Expected one supported faction in the list heading');
   const army = factions[faction[0]];
   const resolve = (name, records, kind) => {
-    const matches = records.filter(record => key(record.Name) === key(name));
+    const matches = records.filter(record => key(cardTitle(record.Name)) === key(name));
     assert.equal(matches.length, 1, `Unknown or ambiguous ${kind}: ${name}`);
     return matches[0];
   };
@@ -82,7 +83,7 @@ export function planNewRecruitList(text, { factions, cards, deployments }) {
             cards.filter(c => c.Id.startsWith('sc_card_missions_')),
             'mission',
           );
-          return { id: card.Id, name: card.Name };
+          return { id: card.Id, name: cardTitle(card.Name) };
         }),
       );
       continue;
@@ -130,7 +131,7 @@ export function planNewRecruitList(text, { factions, cards, deployments }) {
       );
       plan[section === 'faction' ? 'factionCards' : 'tacticalCards'].push({
         id: card.Id,
-        name: card.Name,
+        name: cardTitle(card.Name),
       });
     } else throw new Error(`Unrecognized list line: ${line}`);
   }

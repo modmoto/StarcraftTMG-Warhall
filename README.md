@@ -215,7 +215,7 @@ Select the map first under Create > Battlefield, then select the deployment. War
 
 ## Board cards and handoff
 
-See [TODO.md](TODO.md) for the remaining work and macOS setup. Board cards include 49 tactical/faction/creep cards, seven standard deployments and seven scoring missions. Unit cards are intentionally excluded. Card faces are lossless PNG crops rendered at 360 dpi from the official PDF sources; descriptions omit copyright/version metadata and retain structured headings. Regenerate with `python scripts/update-cards.py` after refreshing the PDFs. Python requires Pillow and pypdf; Poppler's `pdftoppm` must be on PATH. The generator owns only its hash-named images under `Starcraft/assets/cards` and removes obsolete generated faces.
+See [TODO.md](TODO.md) for the remaining work and macOS setup. Board cards include 49 tactical/faction/creep cards, seven standard deployments and seven scoring missions. Unit cards are intentionally excluded. Card faces are lossless PNG crops rendered at 600 dpi from the official PDF sources; descriptions omit copyright/version metadata and retain structured headings. Regenerate with `npm run cards:update` after refreshing the PDFs. Python requires Pillow and pypdf; Poppler's `pdftoppm` must be on PATH. The generator owns only its hash-named images under `Starcraft/assets/cards` and removes obsolete generated faces.
 
 Use `--local-source --local-assets` with the test-data installer to preview unpublished card images. This uses a local snapshot, so reapply after changing generated data. The L-shaped Wall Sets 4/5 use compensated skin/base rotations; all other footprint orientations remain unchanged.
 

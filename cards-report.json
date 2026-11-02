@@ -1,5 +1,7 @@
 {
-  "imageDpi": 360,
+  "imageDpi": 600,
+  "maxImageEdge": 2048,
+  "cropMethod": "PDF bleed rectangles with exact 3mm trim inset",
   "imageFormat": "lossless PNG",
   "unitCards": false,
   "cards": [

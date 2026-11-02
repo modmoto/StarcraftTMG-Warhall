@@ -25,7 +25,8 @@
     "TextColor": "#000000",
     "Color": "rgb(163, 163, 163)",
     "Border": true,
-    "BorderColor": "#000000"
+    "BorderColor": "#000000",
+    "Color2": ""
   },
   "ResultCalculatorAlgorithm": 0,
   "ListParsingAlgorithm": 0,
