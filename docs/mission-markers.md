@@ -37,3 +37,11 @@ Rebuild the catalogue and publish the five changed marker assignments with their
 ## Decorated centres (release 29)
 
 The user requested more distinctive inner scenario markers. The 32 mm centre now has a coloured rim, dark inset and white sci-fi targeting reticle, matching its red, blue or green outer outline. No numbers are restored. All centre geometry fits within a 30 mm circle, while the outer control outline stays open and retains its previous 184.4 mm diameter. Publish only the five changed marker skins with fresh thumbnails after pushing assets.
+
+## Release 38: objective markers are tokens
+
+The five mission markers now live in tokens.json, using their exact shared skin names as IDs and Names. DeploymentTerrains uses IsToken=true and the matching token Name (the client resolves this field by name). Existing marker meshes and canonical sc_mission_* assignments remain unchanged; models:menus assigns five additional name aliases. The package contains 21 tokens and 25 terrains (17 map models and eight deployment overlays).
+
+Tokens use the normal freely movable Token path rather than terrain collision/locking. No supported per-token sticky setting exists in the inspected WDS schema. This does not change scoring's sticky-control rule.
+
+Terrain locking has a client limitation: NinthAgeSetupController.LoadPresetMap ends with SetTerrainLock(true), but PanelBattlefield.TerrainInDeployments spawns the border overlay through TerrainController.CreateTerrain, which calls SetTerrainLock(false) globally. DeploymentTerrainEntry has no lock field. Loading the map after the deployment leaves terrain locked; loading a deployment afterward unlocks it again. Warhall should preserve/restore the previous terrain lock after spawning deployment helpers (or explicitly lock at the end). A WDS data upload cannot enforce this in both loading orders. Do not add unsupported Locked/Sticky fields or change all unit movement defaults.

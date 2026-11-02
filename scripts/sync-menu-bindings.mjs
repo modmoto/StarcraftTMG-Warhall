@@ -17,7 +17,9 @@ const { catalogue } = publicationTarget(
   JSON.parse(await readFile(new URL('../model-catalogue.json', import.meta.url))),
   values.server,
 );
-const entries = catalogue.entries.filter(entry => ['token', 'terrain'].includes(entry.kind));
+const entries = catalogue.entries.filter(entry =>
+  ['token', 'terrain', 'marker'].includes(entry.kind),
+);
 const cookie = values.login ? await promptLogin(catalogue.serverUrl) : process.env.WARHALL_COOKIE;
 assert.ok(cookie, 'Use --login or an explicitly supplied WARHALL_COOKIE');
 const request = async (endpoint, body) => {

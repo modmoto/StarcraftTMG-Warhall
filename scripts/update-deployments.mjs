@@ -140,7 +140,11 @@ for (const [file, records, owned] of [
       generated.templates.some(t => t.deploymentID === r.deploymentID),
   ],
   ['objectives.json', generated.objectives, () => true],
-  ['tokens.json', generated.tokens, r => r.Id?.startsWith('sc_mission_')],
+  [
+    'tokens.json',
+    generated.tokens,
+    r => r.Id?.startsWith('sc_mission_') || r.Id?.startsWith('Starcraft - Mission marker '),
+  ],
 ]) {
   let existing = [];
   try {
@@ -235,5 +239,5 @@ if (options.check) {
   }
 }
 console.log(
-  `${options.check ? 'Verified' : options.dryRun ? 'Previewed' : 'Updated'} ${generated.deployments.length} deployments, ${generated.objectives.length} objective presets and ${generated.markerTerrains.length} numbered mission markers. Publish the deployment overlay skins to show the entry lines and grid.`,
+  `${options.check ? 'Verified' : options.dryRun ? 'Previewed' : 'Updated'} ${generated.deployments.length} deployments, ${generated.objectives.length} objective presets and ${generated.tokens.length} mission marker tokens. Publish the deployment overlay skins to show the entry lines and grid.`,
 );

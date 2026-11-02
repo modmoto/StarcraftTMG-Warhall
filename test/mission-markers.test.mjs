@@ -6,6 +6,7 @@ import {
   markerDiameterMm,
   missionMarkers,
   markerProfileId,
+  markerMenuId,
 } from '../src/deployments/markers.mjs';
 import {
   annulus,
@@ -52,7 +53,7 @@ test('five mission marker assignments use open control ring geometry, not separa
     config.DeploymentTerrains.every(layout =>
       layout.Items.every(
         item =>
-          missionMarkers.some(marker => marker.profileId === item.Name) ||
+          missionMarkers.some(marker => markerMenuId(marker) === item.Name) ||
           item.Name.startsWith('sc_deployment_'),
       ),
     ),
@@ -107,7 +108,8 @@ test('each deployment references the correct numbered marker while keeping the 3
       assert.ok(
         items.some(
           item =>
-            item.Name === markerProfileId(marker) &&
+            item.Name === markerMenuId(marker) &&
+            item.IsToken === true &&
             item.X === marker.x * 2.54 &&
             item.Z === marker.y * 2.54,
         ),

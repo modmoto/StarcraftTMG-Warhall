@@ -26,12 +26,15 @@ export function markerProfileId({ number, color }) {
   return marker.profileId;
 }
 
+export const markerMenuId = marker =>
+  `Starcraft - Mission marker ${marker.number} - ${marker.color}`;
+
 export function markerTokens() {
-  return missionMarkers.map(({ number, color, profileId }) => ({
-    Id: profileId,
-    Name: `Mission marker ${number} - ${color}`,
+  return missionMarkers.map(({ number, color }) => ({
+    Id: markerMenuId({ number, color }),
+    Name: markerMenuId({ number, color }),
     Type: 'Token',
-    Description: `Mission marker ${number}. 32 mm circular selection and measurement footprint. Open sci-fi outline with a transparent interior and a numbered center. The outline extends 3 inches from the marker edge. Activation and control are manual.`,
+    Description: `Mission marker ${number}. 32 mm circular selection and measurement footprint. Open control ring with a decorated center. The outline extends 3 inches from the marker edge. Activation and control are manual.`,
   }));
 }
 export function markerTerrains() {

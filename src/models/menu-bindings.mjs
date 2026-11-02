@@ -16,7 +16,7 @@ export const defaultMenuSkins = (usages, gameId, id) => [
 
 export function menuBindingPlan(entries, usages, gameId) {
   return entries
-    .filter(entry => ['token', 'terrain'].includes(entry.kind))
+    .filter(entry => ['token', 'terrain', 'marker'].includes(entry.kind))
     .map(entry => {
       const source = defaultMenuSkins(usages, gameId, entry.profileId);
       const target = defaultMenuSkins(usages, gameId, entry.name);

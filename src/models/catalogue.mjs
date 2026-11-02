@@ -190,7 +190,7 @@ export async function publishCatalogue(
       );
       if (matches.length) knownId = matches[0];
     }
-    const menuAlias = ['token', 'terrain'].includes(entry.kind) ? entry.name : null;
+    const menuAlias = ['token', 'terrain', 'marker'].includes(entry.kind) ? entry.name : null;
     if (menuAlias) {
       const aliases = usages.result.filter(
         usage =>
