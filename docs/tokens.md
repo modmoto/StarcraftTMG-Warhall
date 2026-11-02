@@ -1,20 +1,27 @@
 # Tokens and faction icons
 
-Release 29 adds 13 round 25 mm tokens under **Cards → Tokens**. They use the existing native round-card objects because those support front/back textures and Flip; regular imported skin tokens have no corresponding two-face texture configuration. They are shared HTTPS assets and require no machine-local cache installation or separate skin registration.
+Release 33 moves all game tokens into Warhall's **Tokens** menu. They are native Token records backed by shared 25 mm round GLB skins. There are no token cards, Tokens card group, front/back faces or flipping.
 
-- Blue and red activation markers: movement arrow on the front, assault crosshair on the reverse.
-- Terran blue/white, Protoss yellow/white and Zerg purple/white faction markers. Each has a separate inverted white/colour version so two players can distinguish the same faction. Their reverse repeats their faction face.
-- One reversible buff/debuff token, blue lightning bolt / red lightning bolt.
-- Stim, Burrowed, Hidden and Siege Status reminders. These have the same face on both sides; their gameplay effects are applied manually.
+The menu contains 16 separate tokens:
 
-The artwork is generated in Node from SVG shapes and original faction logo paths in `token-artwork/factions`. Release 30 replaces the grainy raster masks with vector paths from [sc2-icons](https://github.com/sc2-pulse/sc2-icons), pinned to the revision recorded in the source manifest. The paths are rendered directly at final resolution for both tokens and dropdown logos. The emblem source URLs, source checksums and vector provenance are in `token-artwork/sources.json`. These are existing StarCraft emblems, not newly invented faction symbols. Token sizes are a presentation choice, not a claim about official physical token dimensions.
+- Blue movement arrow and blue assault crosshair.
+- Red movement arrow and red assault crosshair.
+- Terran blue/white, Protoss yellow/white and Zerg purple/white faction markers, with a separate inverted variant for each faction.
+- Blue Buff and red Debuff lightning bolts.
+- Stim syringe, Burrowed, Hidden and Siege Status reminders.
 
-`npm run tokens:update` regenerates hash-named PNG faces and `token-artwork.json`. `npm run convert` incorporates the token cards, hierarchy group and `icons.json`. `npm run check:local` checks deterministic artwork and all token references. The PDF card generator preserves token cards and their menu group. Scenario markers are separate 32 mm terrain profiles and remain outside this token menu.
+The artwork is generated in Node from SVG shapes and original faction logo paths in token-artwork/factions. The vectors come from [sc2-icons](https://github.com/sc2-pulse/sc2-icons), pinned to the revision and checksums in token-artwork/sources.json. Source headers and the MIT vectorization licence are retained. Paths render directly at final resolution for both token faces and faction dropdown logos.
 
-The faction dropdown's extra left margin is the image slot. The inspected client uses `PanelNewUnit` → `UI.CreateDropdownOptions` → `WDSAccess.GetFactionIcon` and loads `Type: faction` icons by exact faction name from icons.json. Protoss, Terran and Zerg have no whitespace in their names. The supplied coloured transparent PNGs fill that slot after updating and downloading the new images.
+Each skin is a thin circular mesh with an embedded unlit PNG texture. Geometry is authored in centimetres, converted through the existing shared-asset scale adapter, and uses a 25 mm diameter. Sizes are a presentation choice, not a claim about official physical tokens. Gameplay effects remain manual.
 
-Refresh Starcraft to release 31, then test Cards → Tokens, both activation faces, buff/debuff Flip, both faction palettes, status reminders and all faction dropdown logos. Native flip behavior and image rendering still require a live client check.
+Run npm run tokens:update to regenerate artwork and token-artwork.json, then npm run convert to generate tokens.json and remove obsolete token cards. Run npm run models:catalogue to build the portable skins and previews. Push the generated assets before publishing only these skins:
 
-Release 30 changes Stim to a syringe and uses plain up/down arrows without the extra bars for buff/debuff, matching the reference token style. Activation faces retain their arrow/crosshair design. The upstream SVG copyright headers and MIT vectorization licence are retained in token-artwork/factions.
+```sh
+npm run models:publish -- --kind token --apply --login --accept-publication-terms
+```
 
-Release 31 changes buff/debuff back to lightning-bolt artwork, matching the uploaded physical-token reference. The activation token retains the movement arrow and assault crosshair, and Stim retains its syringe.
+Use the saved login; default target is Warhall Test. Normal fingerprint reconciliation preserves unchanged skins and replaces only changed owned uploads. The publisher supplies generated thumbnails and shared defaults for each token ID. Tokens require shared catalogue publication as well as the WDS update; a data version alone cannot populate their visual models.
+
+The faction dropdown uses icons.json with Type faction and exact faction names. These PNGs load directly through HTTPS and do not need shared skin registration. Scenario markers are separate 32 mm terrain profiles.
+
+After updating to release 33, refresh the shared catalogue and reopen the Tokens menu. Verify all 16 entries, single-face artwork, 25 mm size and placement on Mac/Windows. This does not claim a live client render test.

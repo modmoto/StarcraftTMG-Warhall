@@ -155,21 +155,6 @@
       "sc_card_zerg_tactics_spawning_pool_six_pool",
       "sc_card_zerg_tactics_zagara_s_swarm",
       "sc_card_zerg_tactics_zerg_swarm"
-    ],
-    "Tokens": [
-      "sc_token_activation_blue",
-      "sc_token_activation_red",
-      "sc_token_faction_terran_color",
-      "sc_token_faction_terran_white",
-      "sc_token_faction_protoss_color",
-      "sc_token_faction_protoss_white",
-      "sc_token_faction_zerg_color",
-      "sc_token_faction_zerg_white",
-      "sc_token_buff_debuff",
-      "sc_token_stim",
-      "sc_token_burrowed",
-      "sc_token_hidden",
-      "sc_token_siege"
     ]
   }
 }

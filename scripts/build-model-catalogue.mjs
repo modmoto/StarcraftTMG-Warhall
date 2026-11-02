@@ -3,6 +3,7 @@ import path from 'node:path';
 import { projectRoot } from '../src/paths.mjs';
 import { transforms, validateCatalogue } from '../src/models/catalogue.mjs';
 import { createDeploymentAssets } from '../src/deployments/line-assets.mjs';
+import { createTokenAssets } from '../src/tokens/model-assets.mjs';
 import { createMarkerAssets } from '../src/deployments/marker-assets.mjs';
 import { calibrateCatalogue } from '../src/models/calibration.mjs';
 
@@ -55,6 +56,7 @@ const raw = validateCatalogue({
 const { catalogue, report } = await calibrateCatalogue(raw);
 const markerAssets = await createMarkerAssets();
 catalogue.entries.push(...markerAssets);
+catalogue.entries.push(...(await createTokenAssets()));
 catalogue.entries.push(...(await createDeploymentAssets(await read('deployment-templates.json'))));
 validateCatalogue(catalogue);
 await writeFile(

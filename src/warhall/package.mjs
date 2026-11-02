@@ -7,7 +7,7 @@ import { describeProfile, describeUnit } from './descriptions.mjs';
 import { createReport, unitReport } from './report.mjs';
 import { loadKeywordRules, linkKeywordRules, linkFactionRules } from './rule-links.mjs';
 import { validateData } from './validate.mjs';
-import { tokenCards, factionIcons } from '../tokens/package.mjs';
+import { nativeTokens, factionIcons } from '../tokens/package.mjs';
 import { projectRoot } from '../paths.mjs';
 
 const staticFiles = [
@@ -119,9 +119,10 @@ async function initialData(template) {
   }
 
   const tokenArtwork = await readJson(path.join(projectRoot, 'token-artwork.json'));
-  data['cards.json'] = [
-    ...data['cards.json'].filter(card => !card.Id.startsWith('sc_token_')),
-    ...tokenCards(tokenArtwork.artwork),
+  data['cards.json'] = data['cards.json'].filter(card => !card.Id.startsWith('sc_token_'));
+  data['tokens.json'] = [
+    ...data['tokens.json'].filter(token => !token.Id.startsWith('sc_token_')),
+    ...nativeTokens(),
   ];
   data['icons.json'] = [
     ...data['icons.json'].filter(icon => !icon.Id.startsWith('sc_icon_')),
@@ -172,10 +173,7 @@ export async function buildWarhallPackage(source, template = defaultDataDirector
   } catch (error) {
     if (error.code !== 'ENOENT') throw error;
   }
-  hierarchy.Cards ??= {};
-  hierarchy.Cards.Tokens = data['cards.json']
-    .filter(card => card.Id.startsWith('sc_token_'))
-    .map(card => card.Id);
+  if (hierarchy.Cards) delete hierarchy.Cards.Tokens;
   const bases = new Map();
 
   for (const faction of source.factions) {

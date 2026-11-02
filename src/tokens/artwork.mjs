@@ -35,9 +35,9 @@ export async function factionLogo(root, name, color) {
     .toBuffer();
 }
 
-export async function tokenImage(root, token, side) {
-  const symbol = token[side];
-  const accent = side === 'back' ? (token.backColor ?? token.color) : token.color;
+export async function tokenImage(root, token) {
+  const symbol = token.symbol;
+  const accent = token.color;
   const background = token.inverted ? '#f7f6ee' : accent;
   const ink = token.inverted ? accent : '#ffffff';
   const logo = !symbols[symbol]

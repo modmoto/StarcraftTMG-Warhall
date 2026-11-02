@@ -24,10 +24,7 @@ function asset(bytes) {
   return `${base}/${filename}`;
 }
 for (const token of tokenDefinitions) {
-  artwork[token.id] = {
-    front: asset(await tokenImage(projectRoot, token, 'front')),
-    back: asset(await tokenImage(projectRoot, token, 'back')),
-  };
+  artwork[token.id] = asset(await tokenImage(projectRoot, token));
 }
 for (const [name, color] of Object.entries(factionColors)) {
   icons[name.toLowerCase()] = asset(await factionLogo(projectRoot, name.toLowerCase(), color));
@@ -43,5 +40,5 @@ for (const [filename, bytes] of files) {
   else await writeFile(filename, bytes);
 }
 console.log(
-  `${check ? 'Verified' : 'Generated'} ${tokenDefinitions.length} reversible round tokens and three faction icons.`,
+  `${check ? 'Verified' : 'Generated'} ${tokenDefinitions.length} single-sided round tokens and three faction icons.`,
 );

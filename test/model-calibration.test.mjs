@@ -64,7 +64,10 @@ test('portable bundle replacements include Adepts and preserve Windows cache dim
   ];
   const terrainModels = await json('terrain-models.json');
   const terrainAssets = new Set(terrainModels.models.map(model => model.model.meshUrl));
-  assert.equal(hosted.length, 16 + terrainAssets.size);
+  const tokenAssets = new Set(
+    catalogue.entries.filter(entry => entry.kind === 'token').map(entry => entry.parts[0].modelUrl),
+  );
+  assert.equal(hosted.length, 16 + terrainAssets.size + tokenAssets.size);
   assert.ok(hosted.every(file => files.includes(file)));
   for (const file of files) {
     if (!file.endsWith('.glb')) continue;

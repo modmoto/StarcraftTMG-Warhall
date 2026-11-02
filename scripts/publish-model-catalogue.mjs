@@ -30,8 +30,8 @@ const target = publicationTarget(
   values.server,
 );
 if (values.kind) {
-  if (!['unit', 'terrain', 'marker', 'deployment'].includes(values.kind))
-    throw new Error('--kind must be unit, terrain, marker or deployment');
+  if (!['unit', 'terrain', 'marker', 'deployment', 'token'].includes(values.kind))
+    throw new Error('--kind must be unit, terrain, marker, deployment or token');
   target.catalogue.entries = target.catalogue.entries.filter(entry => entry.kind === values.kind);
   if (!target.catalogue.entries.length) throw new Error('No matching catalogue entries');
 }

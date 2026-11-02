@@ -271,7 +271,7 @@ export async function generateThumbnail(
       meshes.push(mesh);
     }
   }
-  const png = await renderGeometry(meshes);
+  const png = await renderGeometry(meshes, { topDown: entry.kind === 'token' });
   const filename = path.join(directory, `${entry.profileId}.png`);
   await writeFile(filename, png);
   await writeFile(
@@ -283,7 +283,14 @@ export async function generateThumbnail(
 
 export function renderFingerprint(entry, defaultScale) {
   return createHash('sha256')
-    .update(JSON.stringify({ parts: entry.parts, defaultScale, rendererVersion: 4 }))
+    .update(
+      JSON.stringify({
+        parts: entry.parts,
+        defaultScale,
+        rendererVersion: 4,
+        ...(entry.kind === 'token' ? { view: 'topDown' } : {}),
+      }),
+    )
     .digest('hex');
 }
 

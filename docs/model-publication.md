@@ -109,3 +109,7 @@ Node and the cross-platform sharp dependency handle OBJ geometry, texture decodi
 The current catalogue now compensates for the shared client's OBJ normalization and retains the original Windows cache sizes, translations and rotations. Do not reset these transforms with default import values. The previous default-scale mode dropped wall rotations and caused incorrect sizes. Prepared catalogue entries retain their transforms even if an older command includes that flag. See [the scale conversion and portable-model notes](model-calibration.md).
 
 Five Unity-bundle sources, including the Adept, now use embedded-texture GLBs in `model-assets/`. Push those files and the regenerated catalogue first, then run `npm run models:publish -- --apply --login --replace --accept-publication-terms`. Availability is checked before login. This is a shared skin correction, not a WDS data-version change. The earlier isolated Marine half-size adjustment is superseded by restoring its authored Windows cache layout.
+
+## Native token skins (release 33)
+
+Use `--kind token` to publish the 16 single-sided native Tokens menu entries and their generated thumbnails. Their round GLBs are built by models:catalogue from the existing vector token artwork. Publish after pushing assets; retain the normal shared default/checkpoint workflow. See [tokens.md](tokens.md).

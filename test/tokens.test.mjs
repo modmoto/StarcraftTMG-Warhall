@@ -5,44 +5,53 @@ import { tokenDefinitions, tokenDiameterMm, factionColors } from '../src/tokens/
 
 const read = async file => JSON.parse(await readFile(new URL(`../${file}`, import.meta.url)));
 
-test('round tokens retain both faces, inverted faction sets and remote artwork', async () => {
-  const cards = (await read('Starcraft/cards.json')).filter(card =>
-    card.Id.startsWith('sc_token_'),
+test('native tokens replace round cards and publish every distinct face', async () => {
+  const tokens = (await read('Starcraft/tokens.json')).filter(token =>
+    token.Id.startsWith('sc_token_'),
   );
-  assert.equal(cards.length, 13);
-  assert.equal(new Set(cards.map(card => card.Id)).size, cards.length);
-  const group = (await read('Starcraft/hierarchy.json')).Cards.Tokens;
-  assert.deepEqual(new Set(group), new Set(cards.map(card => card.Id)));
-  for (const card of cards) {
-    assert.equal(card.Type, 'Card');
-    assert.equal(card.UIConfig.Width, tokenDiameterMm);
-    assert.equal(card.UIConfig.Length, tokenDiameterMm);
-    assert.equal(card.UIConfig.IsRound, true);
-    for (const key of ['ImageURL', 'ImageURLBack']) {
-      const url = new URL(card.UIConfig[key]);
-      assert.equal(url.protocol, 'https:');
-      assert.equal(url.hostname, 'raw.githubusercontent.com');
-      const file = url.pathname.split('/').at(-1);
-      const bytes = await readFile(new URL(`../Starcraft/assets/tokens/${file}`, import.meta.url));
-      assert.equal(bytes.subarray(1, 4).toString(), 'PNG');
-      assert.equal(bytes.readUInt32BE(16), 1024);
-      assert.equal(bytes.readUInt32BE(20), 1024);
-    }
+  const cards = await read('Starcraft/cards.json');
+  const catalogue = (await read('model-catalogue.json')).entries.filter(
+    entry => entry.kind === 'token',
+  );
+  const artwork = (await read('token-artwork.json')).artwork;
+  assert.equal(tokens.length, 16);
+  assert.equal(new Set(tokens.map(token => token.Id)).size, tokens.length);
+  assert.equal(catalogue.length, tokens.length);
+  assert.ok(!cards.some(card => card.Id.startsWith('sc_token_')));
+  assert.ok(!('Tokens' in (await read('Starcraft/hierarchy.json')).Cards));
+  for (const token of tokens) {
+    assert.equal(token.Type, 'Token');
+    assert.ok(!token.UIConfig);
+    assert.doesNotMatch(token.Description, /flip/i);
+    const skin = catalogue.find(entry => entry.profileId === token.Id);
+    assert.ok(skin);
+    assert.equal(skin.tokenDiameterMm, tokenDiameterMm);
+    assert.ok(Math.abs(skin.parts[0].transforms.scale * 2.54 - 1) < 1e-12);
+    const url = new URL(artwork[token.Id.replace('sc_token_', '')]);
+    assert.equal(url.protocol, 'https:');
+    const file = url.pathname.split('/').at(-1);
+    const bytes = await readFile(new URL(`../Starcraft/assets/tokens/${file}`, import.meta.url));
+    assert.equal(bytes.subarray(1, 4).toString(), 'PNG');
+    assert.equal(bytes.readUInt32BE(16), 1024);
+    assert.equal(bytes.readUInt32BE(20), 1024);
   }
-  for (const name of ['activation_blue', 'activation_red', 'buff_debuff']) {
-    const token = cards.find(card => card.Id === `sc_token_${name}`);
-    assert.notEqual(token.UIConfig.ImageURL, token.UIConfig.ImageURLBack);
+  for (const id of [
+    'activation_blue_arrow',
+    'activation_blue_crosshair',
+    'activation_red_arrow',
+    'activation_red_crosshair',
+    'buff',
+    'debuff',
+  ]) {
+    assert.ok(tokens.some(token => token.Id === `sc_token_${id}`));
   }
   for (const faction of Object.keys(factionColors)) {
-    const pair = tokenDefinitions.filter(token => token.front === faction.toLowerCase());
+    const pair = tokenDefinitions.filter(token => token.symbol === faction.toLowerCase());
     assert.deepEqual(
       pair.map(token => token.inverted),
       [false, true],
     );
-    const faces = pair.map(
-      token => cards.find(card => card.Id === `sc_token_${token.id}`).UIConfig.ImageURL,
-    );
-    assert.notEqual(faces[0], faces[1]);
+    assert.notEqual(artwork[pair[0].id], artwork[pair[1].id]);
   }
 });
 
