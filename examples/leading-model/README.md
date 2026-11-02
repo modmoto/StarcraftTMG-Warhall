@@ -2,6 +2,8 @@
 
 Highest-priority Warhall feature. This is a standalone planning example, **not an installed game feature**.
 
+![Numbered leading-model formation and previous unit position](../../docs/images/leading-model-placement.png)
+
 ## Intended behavior
 
 1. Select a model and press **L** to mark it as the unit's leader. Keep that identity until deliberately changed. If offering automatic selection, `ClosestModel` picks the old model closest to the requested destination; do not silently override an explicitly marked leader.

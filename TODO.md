@@ -19,6 +19,10 @@ Release 12 removes the equipment child from each weapon stat row, eliminating th
 
 1. [ ] Implement leading-model movement: L marks the leader; moving it places followers along the exact forward circular arc first, alternating left/right, then fills inward gaps. Show numbered placement slots, a shared coherency ring (red when invalid), dotted old unit positions and the old leader movement arrow. Allow manual follower adjustments. Ctrl+C restores the whole pre-move unit as one undo transaction. Highest priority. See [the Unity handoff and standalone C# algorithm](examples/leading-model/README.md). This is a proposed client feature, not implemented game behavior.
 
+   ![Leading-model placement: 18 models, numbered outer arc first, dotted previous positions](docs/images/leading-model-placement.png)
+
+   [C# placement algorithm](examples/leading-model/LeadingModelPlacement.cs) · [Unity integration notes](examples/leading-model/README.md)
+
 2. [ ] Fix ramp/platform collision: enable mesh colliders on imported raised terrain using `ElevatedGround`, as native Ninth Age hills do (the user confirmed standing on Hill snow works). Imported OBJ geometry currently has collider generation disabled; the WDS Height field only sizes its selection box. Units cannot yet stand on the imported ramps/platforms.
 
 3. [ ] Fix native token preview URLs: AllSkinData emits relative Thumbnail paths while TokenPanel expects absolute HTTPS URLs. Confirm the token panel activation path and make preview failures show a fallback button. See [the investigation](docs/token-menu-client-issue.md). Native prefab previews use AssetUIConfig.UISprite; support a custom preview route or repair cloud thumbnail loading without changing custom artwork.
