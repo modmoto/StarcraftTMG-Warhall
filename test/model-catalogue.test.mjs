@@ -96,6 +96,41 @@ test('multipart payload retains independent attachment transforms', () => {
   assert.equal(request.body.thumbnail_data_url, thumbnailDataUrl);
 });
 
+test('token replacement updates its editor alias before retiring the old skin', async () => {
+  const calls = [];
+  await publishCatalogue(
+    { ...catalogue, entries: [{ ...entry, kind: 'token' }] },
+    {
+      state: {},
+      save: async () => {},
+      getThumbnail,
+      replace: true,
+      request: async (endpoint, body) => {
+        calls.push({ endpoint, body });
+        if (endpoint === '/GetMySkinUsages')
+          return {
+            error: 0,
+            result: ['marine', 'Marine'].map(profileId => ({
+              skinId: 12999,
+              profileId,
+              gameId: 16,
+              costumeDefault: 1,
+              optionNames: [],
+            })),
+          };
+        return respond(endpoint);
+      },
+    },
+  );
+  const alias = calls.findIndex(
+    c => c.endpoint === '/AssignCatalogueSkin' && c.body.profileId === 'Marine',
+  );
+  const deletion = calls.findIndex(c => c.endpoint === '/DeleteMySkin');
+  assert.ok(alias >= 0 && deletion > alias);
+  assert.equal(calls[alias].body.skinId, 123);
+  assert.equal(calls[deletion].body.skinId, 12999);
+});
+
 test('resumes a failed assignment without recreating the skin', async () => {
   const state = {};
   const calls = [];

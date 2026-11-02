@@ -140,3 +140,22 @@ Activation, faction and status tokens use WDS round Card objects under Cards →
 The user explicitly moved tokens out of Cards and disabled flipping. The current package has 16 native Token records and no Tokens card group. Separate arrow/crosshair and buff/debuff records each have one 25 mm GLB skin. This supersedes the release 29 round-card workflow above.
 
 Run tokens:update, convert and models:catalogue. Push the generated assets, then publish only `--kind token --apply --login --accept-publication-terms`. The publisher generates thumbnails, registers shared defaults and resumes with the usual checkpoint rules. Do not republish unchanged unit, terrain, deployment or scenario marker skins. See docs/tokens.md. Faction dropdown icons still load directly through HTTPS, independently of shared token skins.
+
+## Editor-compatible menu IDs (release 37; supersedes stable WDS menu IDs above)
+
+The real editor-to-Git experiment confirmed that TokensEditor and TerrainsEditor identify menu entries by the shared skin's exact name and register that name as a profile ID on upload. Opening either panel with unrecognized canonical IDs silently rebuilds its data and removes those entries. Merely publishing the mesh against `sc_token_*`/`sc_terrain_*` does not make the web editor recognize the record.
+
+The generators now emit skin-name IDs for the 16 tokens and 17 map terrain models. `terrain:update` migrates all six map references together. Canonical source IDs remain in model-catalogue.json/terrain-models.json for resumable publication and old saved games. The 13 mission-marker/deployment-overlay terrain records keep their canonical IDs and must be retained. Do not delete them because they are absent from the web terrain picker.
+
+After publishing or repairing token/terrain shared defaults, run:
+
+```sh
+npm run models:menus -- --login
+npm run models:menus -- --apply --login
+```
+
+This synchronizes the 33 skin-name aliases to existing canonical default skins, requires exact-case Starcraft administration, stops on conflicting aliases and reads back both aliases and canonical associations. It creates no meshes. The main publisher updates the menu alias before deleting an old owned token/terrain skin during replacements. Preserve this ordering; otherwise an old menu assignment can pin the obsolete skin or show stale models.
+
+For a future asset the Node path cannot represent, create a reference token/terrain through the web editor and download its ZIP. Compare it using `python scripts/compare-wds-export.py EXPORT.zip`, merge only the intended changes into the source generators, migrate every affected map/deployment reference and keep all other records and fields. Never upload an unchecked whole editor draft: its terrain serializer omits helper records, Height/Description and rounds dimensions; its token serializer omits descriptions. Preserve all 30 terrains and 16 tokens (or the deliberately updated future counts). The editor also increments manifest.version without version.json; keep both aligned.
+
+Verify the published release in the editor: Tokens must list 16 and Terrain must list 17 visible map models. Opening these panels still makes a normalized local draft, so export/compare it and discard that draft with the user's existing authorization before finishing. Never claim that web-menu verification establishes native-client rendering; hosted-asset thumbnail/prefab client defects remain separate. Record findings and screenshots. Do not modify local game caches to mask a failed shared deployment.

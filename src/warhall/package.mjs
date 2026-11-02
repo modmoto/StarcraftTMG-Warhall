@@ -121,7 +121,9 @@ async function initialData(template) {
   const tokenArtwork = await readJson(path.join(projectRoot, 'token-artwork.json'));
   data['cards.json'] = data['cards.json'].filter(card => !card.Id.startsWith('sc_token_'));
   data['tokens.json'] = [
-    ...data['tokens.json'].filter(token => !token.Id.startsWith('sc_token_')),
+    ...data['tokens.json'].filter(
+      token => !token.Id.startsWith('sc_token_') && !token.Id.startsWith('Starcraft - Token - '),
+    ),
     ...nativeTokens(),
   ];
   data['icons.json'] = [

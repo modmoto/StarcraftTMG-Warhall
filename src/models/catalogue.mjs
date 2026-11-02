@@ -190,6 +190,21 @@ export async function publishCatalogue(
       );
       if (matches.length) knownId = matches[0];
     }
+    const menuAlias = ['token', 'terrain'].includes(entry.kind) ? entry.name : null;
+    if (menuAlias) {
+      const aliases = usages.result.filter(
+        usage =>
+          usage.profileId === menuAlias &&
+          Number(usage.gameId) === Number(game.IdGame) &&
+          Number(usage.costumeDefault) === 1 &&
+          !usage.optionNames?.length,
+      );
+      const allowed = new Set([knownId, ...(progress?.previousSkinIds ?? [])]);
+      assert.ok(
+        aliases.every(usage => allowed.has(Number(usage.skinId))),
+        `Conflicting menu assignment: ${menuAlias}`,
+      );
+    }
     if (!entry.parts?.length) {
       assert.ok(knownId, `Native skin reference missing: ${entry.profileId}`);
       if (!exactUsage(entry, knownId)) {
@@ -278,6 +293,35 @@ export async function publishCatalogue(
       progress.assigned = true;
       await save(state);
       log(`${entry.name}: skin ${progress.skinId} assigned`);
+    }
+    if (menuAlias && !exactUsage({ profileId: menuAlias }, progress.skinId)) {
+      const response = await request('/AssignCatalogueSkin', {
+        skinId: progress.skinId,
+        profileId: menuAlias,
+        gameId: game.IdGame,
+        selectedOptions: [],
+        costumeDefault: 1,
+        mode: 'override',
+      });
+      assert.equal(response.error, 0, `Could not assign menu skin ${menuAlias}`);
+      // Reflect the reassignment before old-skin cleanup checks references to other profiles.
+      usages.result = usages.result.filter(
+        usage =>
+          !(
+            usage.profileId === menuAlias &&
+            Number(usage.gameId) === Number(game.IdGame) &&
+            Number(usage.costumeDefault) === 1 &&
+            !usage.optionNames?.length
+          ),
+      );
+      usages.result.push({
+        skinId: progress.skinId,
+        profileId: menuAlias,
+        gameId: game.IdGame,
+        costumeDefault: 1,
+        optionNames: [],
+      });
+      log(`${entry.name}: editor menu assignment updated`);
     }
     await cleanup(entry, progress);
   }

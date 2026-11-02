@@ -1,4 +1,5 @@
 import assert from 'node:assert/strict';
+import { terrainMenuId } from '../src/models/menu-ids.mjs';
 import { readFile, writeFile, mkdir } from 'node:fs/promises';
 import path from 'node:path';
 import sharp from 'sharp';
@@ -77,7 +78,7 @@ for (const asset of source.assets) {
   files.set(path.join(projectRoot, previewGeometryFile), Buffer.from(JSON.stringify(preview)));
   const [width, , length] = calibratedBounds.size;
   terrains.push({
-    Id: asset.id,
+    Id: terrainMenuId(asset),
     Name: asset.name,
     Type: 'Terrain',
     Description: `StarCraft terrain: ${asset.name}. PDF grid-calibrated footprint and layout. Resolve cover, elevation and movement using the rulebook.`,
@@ -121,7 +122,7 @@ const maps = source.maps.map(map => ({
     const placement = calibration.maps[String(map.number)][item.ttsGuid];
     assert.ok(placement, `Missing reviewed placement: ${map.number}/${item.ttsGuid}`);
     return {
-      Id: item.id,
+      Id: terrainMenuId(source.assets.find(asset => asset.id === item.id)),
       Quadrant: 1,
       Rotation: placement.rotation,
       ShortSide: 27 - placement.x,
@@ -135,9 +136,12 @@ const existing = await readJson(path.join(target, 'terrains.json'));
 const json = (file, data) => files.set(file, Buffer.from(JSON.stringify(data, null, 2) + '\n'));
 json(
   path.join(target, 'terrains.json'),
-  [...existing.filter(t => !t.Id.startsWith('sc_terrain_')), ...terrains].sort((a, b) =>
-    a.Id.localeCompare(b.Id, 'en'),
-  ),
+  [
+    ...existing.filter(
+      t => !t.Id.startsWith('sc_terrain_') && !t.Id.startsWith('Starcraft - Terrain - '),
+    ),
+    ...terrains,
+  ].sort((a, b) => a.Id.localeCompare(b.Id, 'en')),
 );
 json(path.join(target, 'maps.json'), maps);
 json(path.join(projectRoot, 'terrain-models.json'), {

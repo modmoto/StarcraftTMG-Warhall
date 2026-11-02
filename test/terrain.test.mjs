@@ -1,6 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import { readFile } from 'node:fs/promises';
+import { terrainMenuId } from '../src/models/menu-ids.mjs';
 const read = async file => JSON.parse(await readFile(new URL(file, import.meta.url), 'utf8'));
 test('all six maps use the reviewed PDF centers, rotations and calibrated footprints', async () => {
   const source = await read('../terrain-sources.json');
@@ -17,7 +18,8 @@ test('all six maps use the reviewed PDF centers, rotations and calibrated footpr
     for (const [j, item] of map.Items.entries()) {
       const original = source.maps[i].items[j];
       const placement = calibration.maps[String(i + 1)][original.ttsGuid];
-      const asset = source.assets.find(asset => asset.id === item.Id);
+      const asset = source.assets.find(asset => asset.id === original.id);
+      assert.equal(item.Id, terrainMenuId(asset));
       const [width, length] = calibration.assets[asset.name].footprintInches;
       const terrain = terrains.find(terrain => terrain.Id === item.Id);
       assert.ok(Math.abs(terrain.Width - width * 2.54) < 1e-8);
@@ -26,7 +28,7 @@ test('all six maps use the reviewed PDF centers, rotations and calibrated footpr
       assert.ok(Math.abs(item.LongSide - 18 - placement.z) < 1e-8);
       assert.equal(item.Rotation, placement.rotation);
       assert.equal(item.Rotation % 15, 0);
-      const model = models.models.find(model => model.terrainId === item.Id);
+      const model = models.models.find(model => model.terrainId === original.id);
       assert.equal(model.calibration, 'pdf-grid-v1');
       assert.match(model.model.meshUrl, /model-assets\/.*\.glb$/);
       assert.equal(model.attachments.length, 0);
@@ -54,7 +56,8 @@ test('map six has both east-west ramp assemblies and the reviewed TTS positions'
   );
   assert.equal(ramp.attachments.length, 1);
   assert.equal(
-    maps.find(map => map.Id === 'sc_map_6').Items.filter(item => item.Id === ramp.id).length,
+    maps.find(map => map.Id === 'sc_map_6').Items.filter(item => item.Id === terrainMenuId(ramp))
+      .length,
     2,
   );
 });
@@ -98,7 +101,7 @@ test('separate XYZ scales are composed through attachments before geometry is ce
   const terrains = await read('../Starcraft/terrains.json');
   const source = await read('../terrain-sources.json');
   const byName = name =>
-    terrains.filter(t => source.assets.some(a => a.id === t.Id && a.name === name));
+    terrains.filter(t => source.assets.some(a => terrainMenuId(a) === t.Id && a.name === name));
   const shard = byName('Statue Shard')[0],
     head = byName('Head Statue')[0];
   assert.ok(shard.Width * shard.Length < head.Width * head.Length * 0.7);

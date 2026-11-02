@@ -2,12 +2,13 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import { readFile } from 'node:fs/promises';
 import { tokenDefinitions, tokenDiameterMm, factionColors } from '../src/tokens/package.mjs';
+import { tokenMenuId } from '../src/models/menu-ids.mjs';
 
 const read = async file => JSON.parse(await readFile(new URL(`../${file}`, import.meta.url)));
 
 test('native tokens replace round cards and publish every distinct face', async () => {
   const tokens = (await read('Starcraft/tokens.json')).filter(token =>
-    token.Id.startsWith('sc_token_'),
+    token.Id.startsWith('Starcraft - Token - '),
   );
   const cards = await read('Starcraft/cards.json');
   const catalogue = (await read('model-catalogue.json')).entries.filter(
@@ -23,11 +24,14 @@ test('native tokens replace round cards and publish every distinct face', async 
     assert.equal(token.Type, 'Token');
     assert.ok(!token.UIConfig);
     assert.doesNotMatch(token.Description, /flip/i);
-    const skin = catalogue.find(entry => entry.profileId === token.Id);
+    const skin = catalogue.find(entry => entry.name === token.Id);
     assert.ok(skin);
     assert.equal(skin.tokenDiameterMm, tokenDiameterMm);
     assert.ok(Math.abs(skin.parts[0].transforms.scale * 2.54 - 1) < 1e-12);
-    const url = new URL(artwork[token.Id.replace('sc_token_', '')]);
+    const definition = tokenDefinitions.find(
+      definition => tokenMenuId(definition.name) === token.Id,
+    );
+    const url = new URL(artwork[definition.id]);
     assert.equal(url.protocol, 'https:');
     const file = url.pathname.split('/').at(-1);
     const bytes = await readFile(new URL(`../Starcraft/assets/tokens/${file}`, import.meta.url));
@@ -43,7 +47,12 @@ test('native tokens replace round cards and publish every distinct face', async 
     'buff',
     'debuff',
   ]) {
-    assert.ok(tokens.some(token => token.Id === `sc_token_${id}`));
+    assert.ok(
+      tokens.some(
+        token =>
+          token.Id === tokenMenuId(tokenDefinitions.find(definition => definition.id === id).name),
+      ),
+    );
   }
   for (const faction of Object.keys(factionColors)) {
     const pair = tokenDefinitions.filter(token => token.symbol === faction.toLowerCase());

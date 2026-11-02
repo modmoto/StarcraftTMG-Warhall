@@ -1,3 +1,5 @@
+import { tokenMenuId } from '../models/menu-ids.mjs';
+
 export const tokenDiameterMm = 25;
 export const factionColors = { Terran: '#2467d1', Protoss: '#e7be24', Zerg: '#9a44bd' };
 
@@ -48,7 +50,7 @@ export const tokenDefinitions = [
 
 export function nativeTokens() {
   return tokenDefinitions.map(token => ({
-    Id: `sc_token_${token.id}`,
+    Id: tokenMenuId(token.name),
     Name: token.name,
     Type: 'Token',
     Description: `${token.name}\n\n${token.description}`,

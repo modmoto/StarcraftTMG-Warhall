@@ -23,6 +23,7 @@
     "auth:github": "node scripts/setup-github-auth.mjs",
     "models:credentials": "node scripts/manage-model-credentials.mjs",
     "models:repair": "node scripts/repair-model-transforms.mjs",
+    "models:menus": "node scripts/sync-menu-bindings.mjs",
     "tokens:update": "node scripts/update-tokens.mjs",
     "tokens:check": "node scripts/update-tokens.mjs --check"
   },

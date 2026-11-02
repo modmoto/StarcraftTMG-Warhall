@@ -130,7 +130,7 @@
     "Shape": 1
   },
   {
-    "Id": "sc_terrain_0e597f350f0c8124",
+    "Id": "Starcraft - Terrain - grass - 0c8124",
     "Name": "grass",
     "Type": "Terrain",
     "Description": "StarCraft terrain: grass. PDF grid-calibrated footprint and layout. Resolve cover, elevation and movement using the rulebook.",
@@ -140,117 +140,7 @@
     "Shape": 0
   },
   {
-    "Id": "sc_terrain_0e9238ef444f6364",
-    "Name": "Protoss Banner",
-    "Type": "Terrain",
-    "Description": "StarCraft terrain: Protoss Banner. PDF grid-calibrated footprint and layout. Resolve cover, elevation and movement using the rulebook.",
-    "Width": 5.08,
-    "Length": 3.175,
-    "Height": 9.595508567940254,
-    "Shape": 0
-  },
-  {
-    "Id": "sc_terrain_1cffe4ed683895d1",
-    "Name": "Wall Set 2",
-    "Type": "Terrain",
-    "Description": "StarCraft terrain: Wall Set 2. PDF grid-calibrated footprint and layout. Resolve cover, elevation and movement using the rulebook.",
-    "Width": 22.5425,
-    "Length": 6.6675,
-    "Height": 13.220065,
-    "Shape": 0
-  },
-  {
-    "Id": "sc_terrain_2e5381d1d3c2f1b7",
-    "Name": "Wall Set 3",
-    "Type": "Terrain",
-    "Description": "StarCraft terrain: Wall Set 3. PDF grid-calibrated footprint and layout. Resolve cover, elevation and movement using the rulebook.",
-    "Width": 12.7,
-    "Length": 5.3975,
-    "Height": 10.10163842,
-    "Shape": 0
-  },
-  {
-    "Id": "sc_terrain_342caed58291ae73",
-    "Name": "Statue Shard",
-    "Type": "Terrain",
-    "Description": "StarCraft terrain: Statue Shard. PDF grid-calibrated footprint and layout. Resolve cover, elevation and movement using the rulebook.",
-    "Width": 5.3975,
-    "Length": 7.9375,
-    "Height": 2.376342562119059,
-    "Shape": 0
-  },
-  {
-    "Id": "sc_terrain_442da683d2d26342",
-    "Name": "Protoss Banner",
-    "Type": "Terrain",
-    "Description": "StarCraft terrain: Protoss Banner. PDF grid-calibrated footprint and layout. Resolve cover, elevation and movement using the rulebook.",
-    "Width": 5.08,
-    "Length": 3.175,
-    "Height": 9.595508567940254,
-    "Shape": 0
-  },
-  {
-    "Id": "sc_terrain_4b5400ce5539b63f",
-    "Name": "Wall Set 5",
-    "Type": "Terrain",
-    "Description": "StarCraft terrain: Wall Set 5. PDF grid-calibrated footprint and layout. Resolve cover, elevation and movement using the rulebook.",
-    "Width": 19.3675,
-    "Length": 9.842499999999998,
-    "Height": 10.10798842,
-    "Shape": 0
-  },
-  {
-    "Id": "sc_terrain_5395598da3627dc3",
-    "Name": "Temple Obelisk",
-    "Type": "Terrain",
-    "Description": "StarCraft terrain: Temple Obelisk. PDF grid-calibrated footprint and layout. Resolve cover, elevation and movement using the rulebook.",
-    "Width": 4.1275,
-    "Length": 4.1275,
-    "Height": 9.69712570851072,
-    "Shape": 0
-  },
-  {
-    "Id": "sc_terrain_677b1df2f3ce2914",
-    "Name": "Protoss Banner",
-    "Type": "Terrain",
-    "Description": "StarCraft terrain: Protoss Banner. PDF grid-calibrated footprint and layout. Resolve cover, elevation and movement using the rulebook.",
-    "Width": 5.08,
-    "Length": 3.175,
-    "Height": 9.595508476855862,
-    "Shape": 0
-  },
-  {
-    "Id": "sc_terrain_696320bc52444def",
-    "Name": "Protoss Banner",
-    "Type": "Terrain",
-    "Description": "StarCraft terrain: Protoss Banner. PDF grid-calibrated footprint and layout. Resolve cover, elevation and movement using the rulebook.",
-    "Width": 5.08,
-    "Length": 3.175,
-    "Height": 9.595509080159468,
-    "Shape": 0
-  },
-  {
-    "Id": "sc_terrain_8a9da51123d91b9c",
-    "Name": "Vespene Geyser",
-    "Type": "Terrain",
-    "Description": "StarCraft terrain: Vespene Geyser. PDF grid-calibrated footprint and layout. Resolve cover, elevation and movement using the rulebook.",
-    "Width": 6.985,
-    "Length": 7.9375,
-    "Height": 2.5556992320000003,
-    "Shape": 0
-  },
-  {
-    "Id": "sc_terrain_d903fea321acfebe",
-    "Name": "Head Statue",
-    "Type": "Terrain",
-    "Description": "StarCraft terrain: Head Statue. PDF grid-calibrated footprint and layout. Resolve cover, elevation and movement using the rulebook.",
-    "Width": 7.3025,
-    "Length": 10.795,
-    "Height": 2.8144390703122633,
-    "Shape": 0
-  },
-  {
-    "Id": "sc_terrain_e45c33c511633ae2",
+    "Id": "Starcraft - Terrain - Head Statue - 633ae2",
     "Name": "Head Statue",
     "Type": "Terrain",
     "Description": "StarCraft terrain: Head Statue. PDF grid-calibrated footprint and layout. Resolve cover, elevation and movement using the rulebook.",
@@ -260,17 +150,17 @@
     "Shape": 0
   },
   {
-    "Id": "sc_terrain_e8d245d869f43c5b",
-    "Name": "Wall Set 4",
+    "Id": "Starcraft - Terrain - Head Statue - acfebe",
+    "Name": "Head Statue",
     "Type": "Terrain",
-    "Description": "StarCraft terrain: Wall Set 4. PDF grid-calibrated footprint and layout. Resolve cover, elevation and movement using the rulebook.",
-    "Width": 19.3675,
-    "Length": 9.842499999999998,
-    "Height": 10.10798842,
+    "Description": "StarCraft terrain: Head Statue. PDF grid-calibrated footprint and layout. Resolve cover, elevation and movement using the rulebook.",
+    "Width": 7.3025,
+    "Length": 10.795,
+    "Height": 2.8144390703122633,
     "Shape": 0
   },
   {
-    "Id": "sc_terrain_f2dd0d048a087d53",
+    "Id": "Starcraft - Terrain - High Ground - 087d53",
     "Name": "High Ground",
     "Type": "Terrain",
     "Description": "StarCraft terrain: High Ground. PDF grid-calibrated footprint and layout. Resolve cover, elevation and movement using the rulebook.",
@@ -280,7 +170,77 @@
     "Shape": 0
   },
   {
-    "Id": "sc_terrain_f305a277f53c823b",
+    "Id": "Starcraft - Terrain - Protoss Banner - 444def",
+    "Name": "Protoss Banner",
+    "Type": "Terrain",
+    "Description": "StarCraft terrain: Protoss Banner. PDF grid-calibrated footprint and layout. Resolve cover, elevation and movement using the rulebook.",
+    "Width": 5.08,
+    "Length": 3.175,
+    "Height": 9.595509080159468,
+    "Shape": 0
+  },
+  {
+    "Id": "Starcraft - Terrain - Protoss Banner - 4f6364",
+    "Name": "Protoss Banner",
+    "Type": "Terrain",
+    "Description": "StarCraft terrain: Protoss Banner. PDF grid-calibrated footprint and layout. Resolve cover, elevation and movement using the rulebook.",
+    "Width": 5.08,
+    "Length": 3.175,
+    "Height": 9.595508567940254,
+    "Shape": 0
+  },
+  {
+    "Id": "Starcraft - Terrain - Protoss Banner - ce2914",
+    "Name": "Protoss Banner",
+    "Type": "Terrain",
+    "Description": "StarCraft terrain: Protoss Banner. PDF grid-calibrated footprint and layout. Resolve cover, elevation and movement using the rulebook.",
+    "Width": 5.08,
+    "Length": 3.175,
+    "Height": 9.595508476855862,
+    "Shape": 0
+  },
+  {
+    "Id": "Starcraft - Terrain - Protoss Banner - d26342",
+    "Name": "Protoss Banner",
+    "Type": "Terrain",
+    "Description": "StarCraft terrain: Protoss Banner. PDF grid-calibrated footprint and layout. Resolve cover, elevation and movement using the rulebook.",
+    "Width": 5.08,
+    "Length": 3.175,
+    "Height": 9.595508567940254,
+    "Shape": 0
+  },
+  {
+    "Id": "Starcraft - Terrain - Statue Shard - 91ae73",
+    "Name": "Statue Shard",
+    "Type": "Terrain",
+    "Description": "StarCraft terrain: Statue Shard. PDF grid-calibrated footprint and layout. Resolve cover, elevation and movement using the rulebook.",
+    "Width": 5.3975,
+    "Length": 7.9375,
+    "Height": 2.376342562119059,
+    "Shape": 0
+  },
+  {
+    "Id": "Starcraft - Terrain - Temple Obelisk - 627dc3",
+    "Name": "Temple Obelisk",
+    "Type": "Terrain",
+    "Description": "StarCraft terrain: Temple Obelisk. PDF grid-calibrated footprint and layout. Resolve cover, elevation and movement using the rulebook.",
+    "Width": 4.1275,
+    "Length": 4.1275,
+    "Height": 9.69712570851072,
+    "Shape": 0
+  },
+  {
+    "Id": "Starcraft - Terrain - Vespene Geyser - d91b9c",
+    "Name": "Vespene Geyser",
+    "Type": "Terrain",
+    "Description": "StarCraft terrain: Vespene Geyser. PDF grid-calibrated footprint and layout. Resolve cover, elevation and movement using the rulebook.",
+    "Width": 6.985,
+    "Length": 7.9375,
+    "Height": 2.5556992320000003,
+    "Shape": 0
+  },
+  {
+    "Id": "Starcraft - Terrain - Wall Set 1 - 3c823b",
     "Name": "Wall Set 1",
     "Type": "Terrain",
     "Description": "StarCraft terrain: Wall Set 1. PDF grid-calibrated footprint and layout. Resolve cover, elevation and movement using the rulebook.",
@@ -290,7 +250,47 @@
     "Shape": 0
   },
   {
-    "Id": "sc_terrain_f910561ff3ef2272",
+    "Id": "Starcraft - Terrain - Wall Set 2 - 3895d1",
+    "Name": "Wall Set 2",
+    "Type": "Terrain",
+    "Description": "StarCraft terrain: Wall Set 2. PDF grid-calibrated footprint and layout. Resolve cover, elevation and movement using the rulebook.",
+    "Width": 22.5425,
+    "Length": 6.6675,
+    "Height": 13.220065,
+    "Shape": 0
+  },
+  {
+    "Id": "Starcraft - Terrain - Wall Set 3 - c2f1b7",
+    "Name": "Wall Set 3",
+    "Type": "Terrain",
+    "Description": "StarCraft terrain: Wall Set 3. PDF grid-calibrated footprint and layout. Resolve cover, elevation and movement using the rulebook.",
+    "Width": 12.7,
+    "Length": 5.3975,
+    "Height": 10.10163842,
+    "Shape": 0
+  },
+  {
+    "Id": "Starcraft - Terrain - Wall Set 4 - f43c5b",
+    "Name": "Wall Set 4",
+    "Type": "Terrain",
+    "Description": "StarCraft terrain: Wall Set 4. PDF grid-calibrated footprint and layout. Resolve cover, elevation and movement using the rulebook.",
+    "Width": 19.3675,
+    "Length": 9.842499999999998,
+    "Height": 10.10798842,
+    "Shape": 0
+  },
+  {
+    "Id": "Starcraft - Terrain - Wall Set 5 - 39b63f",
+    "Name": "Wall Set 5",
+    "Type": "Terrain",
+    "Description": "StarCraft terrain: Wall Set 5. PDF grid-calibrated footprint and layout. Resolve cover, elevation and movement using the rulebook.",
+    "Width": 19.3675,
+    "Length": 9.842499999999998,
+    "Height": 10.10798842,
+    "Shape": 0
+  },
+  {
+    "Id": "Starcraft - Terrain - Wall Set 6 - ef2272",
     "Name": "Wall Set 6",
     "Type": "Terrain",
     "Description": "StarCraft terrain: Wall Set 6. PDF grid-calibrated footprint and layout. Resolve cover, elevation and movement using the rulebook.",

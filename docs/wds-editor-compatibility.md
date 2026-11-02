@@ -1,5 +1,9 @@
 # WDS editor comparison and menu investigation
 
+Release 37 implements a data-side compatibility migration: all 16 token IDs and 17 visible map-terrain IDs now equal the shared skin names; all six map references migrate together. The source catalogue retains canonical publication IDs. `npm run models:menus -- --apply --login` adds/verifies the corresponding skin-name assignments using existing skins. The 13 mission/deployment helpers remain in terrains.json under their original IDs. Future token/terrain skin replacements update their menu aliases before old-skin cleanup. This fixes web-editor recognition without recreating every skin.
+
+The editor remains a lossy serializer: do not overwrite the full repository from a normalized draft. Merge intended edits while preserving descriptions, terrain heights/precision, the scenario helpers and every map/deployment reference. Client-side rendering/menu issues described below are separate from web-editor recognition.
+
 The November 2, 2026 editor export was compared, as parsed JSON, against every manifest-listed repository file plus version.json at release 34. Before the reference experiment, all files matched except tokens.json: the repository had 16 records and the editor exported an empty list. terrains.json still matched the complete repository even though the editor displayed zero terrain entries. No editor upload to Git was performed.
 
 An editor draft must not be treated as the authoritative repository. Download it first and run:

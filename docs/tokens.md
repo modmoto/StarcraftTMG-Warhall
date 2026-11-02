@@ -2,6 +2,8 @@
 
 Release 33 moves all game tokens into Warhall's **Tokens** menu. They are native Token records backed by shared 25 mm round GLB skins. There are no token cards, Tokens card group, front/back faces or flipping.
 
+Release 37 uses each shared skin's exact name as the WDS menu Id. Canonical `sc_token_*` publication IDs remain registered for compatibility; run `npm run models:menus -- --apply --login` to synchronize the menu aliases after publication. The publisher also updates aliases during future replacements. See [editor compatibility](wds-editor-compatibility.md) before saving any web-editor draft.
+
 The menu contains 16 separate tokens:
 
 - Blue movement arrow and blue assault crosshair.
