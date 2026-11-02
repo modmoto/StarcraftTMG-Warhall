@@ -250,7 +250,8 @@ test('deployment overlay geometry preserves entry-edge coordinates without fille
     const cx = points.reduce((sum, p) => sum + p[0], 0) / 8;
     const cz = points.reduce((sum, p) => sum + p[2], 0) / 8;
     assert.ok(
-      Math.abs(Math.abs(cx) - 18 * 2.54) < 1e-8 || Math.abs(Math.abs(cz) - 18 * 2.54) < 1e-8,
+      Math.abs(Math.abs(cx) - (18 * 2.54 + 0.5)) < 1e-8 ||
+        Math.abs(Math.abs(cz) - (18 * 2.54 + 0.5)) < 1e-8,
     );
   }
 });
@@ -269,5 +270,37 @@ test('deployment strips share marker colours and have narrow solid geometry', as
     assert.deepEqual([...mesh.texture.data], [...accents[color], 255]);
     assert.deepEqual([...new Set(mesh.vertices.map(point => point[1]))], [0, 0.05]);
     assert.equal(mesh.faces.length, (mesh.vertices.length / 8) * 12);
+  }
+});
+
+test('widened red and blue strips never intrude into the battlefield', async () => {
+  const { lineGeometry } = await import('../src/deployments/line-assets.mjs');
+  for (const line of deploymentTemplate(layout).lines) {
+    const mesh = lineGeometry({ deploymentName: 'edge', lines: [line] });
+    const vertical = Number(line.rotationY) === 90;
+    const axis = vertical ? 0 : 2;
+    const boundary = Math.abs(Number(vertical ? line.posX : line.posY)) * 2.54;
+    const distances = mesh.vertices.map(point => Math.abs(point[axis]));
+    assert.ok(Math.abs(Math.min(...distances) - boundary) < 1e-9);
+    assert.ok(Math.abs(Math.max(...distances) - boundary - 1) < 1e-9);
+  }
+});
+
+test('outward strips overlap at a right-angle corner', async () => {
+  const { lineGeometry } = await import('../src/deployments/line-assets.mjs');
+  const horizontal = lineGeometry({
+    deploymentName: 'corner',
+    lines: [{ color: 'blue', posX: 24, posY: 18, sizeX: 6, rotationY: 0 }],
+  });
+  const vertical = lineGeometry({
+    deploymentName: 'corner',
+    lines: [{ color: 'blue', posX: 27, posY: 15, sizeX: 6, rotationY: 90 }],
+  });
+  for (const mesh of [horizontal, vertical]) {
+    for (const axis of [0, 2]) {
+      const corner = (axis === 0 ? 27 : 18) * 2.54 + 0.25;
+      assert.ok(Math.min(...mesh.vertices.map(v => v[axis])) < corner);
+      assert.ok(Math.max(...mesh.vertices.map(v => v[axis])) > corner);
+    }
   }
 });

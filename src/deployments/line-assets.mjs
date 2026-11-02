@@ -7,15 +7,20 @@ import { encodeGlb } from '../models/portable-glb.mjs';
 import { projectRoot } from '../paths.mjs';
 import { overlayId } from './package.mjs';
 
-export function lineGeometry(template, thickness = 0.15, color = [235, 242, 255]) {
+export function lineGeometry(template, thickness = 1, color = [235, 242, 255]) {
   const vertices = [],
     uv = [],
     faces = [];
   for (const line of template.lines) {
     const angle = (Number(line.rotationY) * Math.PI) / 180;
-    const x = Number(line.posX) * 2.54,
+    let x = Number(line.posX) * 2.54,
       z = Number(line.posY) * 2.54;
-    const length = Number(line.sizeX) * 2.54;
+    // Coloured strips sit wholly outside the playable area; grid lines stay centred.
+    if (line.color) {
+      if (Math.abs(Math.sin(angle)) > 0.5) x += (Math.sign(x) * thickness) / 2;
+      else z += (Math.sign(z) * thickness) / 2;
+    }
+    const length = Number(line.sizeX) * 2.54 + (line.color ? thickness : 0);
     if (![angle, x, z, length].every(Number.isFinite) || length <= 0)
       throw new Error(`Invalid deployment line: ${template.deploymentName}`);
     const first = vertices.length;
@@ -68,7 +73,7 @@ export async function createDeploymentAssets(templates) {
     const meshes = colors.map(color =>
       lineGeometry(
         { ...template, lines: template.lines.filter(line => (line.color ?? 'grid') === color) },
-        0.15,
+        color === 'grid' ? 0.15 : 1,
         color === 'grid' ? [235, 242, 255] : accents[color],
       ),
     );
