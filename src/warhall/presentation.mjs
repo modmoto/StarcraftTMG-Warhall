@@ -44,7 +44,7 @@ export function weaponTable(attributes) {
     !/^\d+$/.test(values.D)
   )
     throw new Error('Invalid weapon table values');
-  const positions = { RNG: 0, Target: 14, RoA: 32, Hit: 46, Surge: 59, D: 94 };
+  const positions = { RNG: 0, Target: 14, RoA: 32, Hit: 46, Surge: 59, D: 86 };
   const row = entries =>
     Object.entries(positions)
       .map(([key, position]) => `<pos=${position}%><nobr>${entries[key]}</nobr>`)
