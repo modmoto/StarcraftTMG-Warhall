@@ -80,6 +80,56 @@
     "Shape": 1
   },
   {
+    "Id": "Starcraft - Mission marker 1 - red",
+    "Name": "Starcraft - Mission marker 1 - red",
+    "Type": "Terrain",
+    "Description": "Mission marker 1. 32 mm circular selection and measurement footprint. Open control ring with a decorated center. The outline extends 3 inches from the marker edge. Activation and control are manual.",
+    "Width": 3.2,
+    "Length": 3.2,
+    "Height": 0.2,
+    "Shape": 1
+  },
+  {
+    "Id": "Starcraft - Mission marker 2 - blue",
+    "Name": "Starcraft - Mission marker 2 - blue",
+    "Type": "Terrain",
+    "Description": "Mission marker 2. 32 mm circular selection and measurement footprint. Open control ring with a decorated center. The outline extends 3 inches from the marker edge. Activation and control are manual.",
+    "Width": 3.2,
+    "Length": 3.2,
+    "Height": 0.2,
+    "Shape": 1
+  },
+  {
+    "Id": "Starcraft - Mission marker 3 - red",
+    "Name": "Starcraft - Mission marker 3 - red",
+    "Type": "Terrain",
+    "Description": "Mission marker 3. 32 mm circular selection and measurement footprint. Open control ring with a decorated center. The outline extends 3 inches from the marker edge. Activation and control are manual.",
+    "Width": 3.2,
+    "Length": 3.2,
+    "Height": 0.2,
+    "Shape": 1
+  },
+  {
+    "Id": "Starcraft - Mission marker 4 - blue",
+    "Name": "Starcraft - Mission marker 4 - blue",
+    "Type": "Terrain",
+    "Description": "Mission marker 4. 32 mm circular selection and measurement footprint. Open control ring with a decorated center. The outline extends 3 inches from the marker edge. Activation and control are manual.",
+    "Width": 3.2,
+    "Length": 3.2,
+    "Height": 0.2,
+    "Shape": 1
+  },
+  {
+    "Id": "Starcraft - Mission marker 5 - green",
+    "Name": "Starcraft - Mission marker 5 - green",
+    "Type": "Terrain",
+    "Description": "Mission marker 5. 32 mm circular selection and measurement footprint. Open control ring with a decorated center. The outline extends 3 inches from the marker edge. Activation and control are manual.",
+    "Width": 3.2,
+    "Length": 3.2,
+    "Height": 0.2,
+    "Shape": 1
+  },
+  {
     "Id": "Starcraft - Terrain - grass - 0c8124",
     "Name": "grass",
     "Type": "Terrain",

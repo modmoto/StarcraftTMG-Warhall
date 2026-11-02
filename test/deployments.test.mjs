@@ -36,9 +36,9 @@ test('conflicting faction copies fail instead of silently choosing a deployment'
 test('deployment alone places existing native markers at exact centimeter coordinates', () => {
   const output = buildDeployments([layout]);
   assert.deepEqual(output.objectives, []);
-  assert.equal(output.tokens.length, 5);
+  assert.equal(output.tokens.length, 0);
   assert.ok(output.tokens.every(t => t.Type === 'Token'));
-  assert.equal(output.markerTerrains.length, 0);
+  assert.equal(output.markerTerrains.length, 5);
   assert.ok(output.markerTerrains.every(t => t.Type === 'Terrain'));
   assert.equal(output.deploymentTerrains[0].DeploymentIndex, 1);
   assert.deepEqual(output.deploymentTerrains[0].Items[0], {
@@ -46,7 +46,7 @@ test('deployment alone places existing native markers at exact centimeter coordi
     X: -30.48,
     Y: 0.04,
     Z: 0,
-    IsToken: true,
+    IsToken: false,
   });
   assert.ok(markerTokens().every(marker => !('SkinId' in marker)));
   assert.ok(output.deploymentTerrains[0].Items.every(t => !t.Name.includes('zone')));

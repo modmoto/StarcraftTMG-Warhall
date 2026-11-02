@@ -45,3 +45,7 @@ The five mission markers now live in tokens.json, using their exact shared skin 
 Tokens use the normal freely movable Token path rather than terrain collision/locking. No supported per-token sticky setting exists in the inspected WDS schema. This does not change scoring's sticky-control rule.
 
 Terrain locking has a client limitation: NinthAgeSetupController.LoadPresetMap ends with SetTerrainLock(true), but PanelBattlefield.TerrainInDeployments spawns the border overlay through TerrainController.CreateTerrain, which calls SetTerrainLock(false) globally. DeploymentTerrainEntry has no lock field. Loading the map after the deployment leaves terrain locked; loading a deployment afterward unlocks it again. Warhall should preserve/restore the previous terrain lock after spawning deployment helpers (or explicitly lock at the end). A WDS data upload cannot enforce this in both loading orders. Do not add unsupported Locked/Sticky fields or change all unit movement defaults.
+
+## Release 40: return mission markers to terrain
+
+At the user's request, all five mission markers are Terrain again and deployments set IsToken=false. Their skin-name IDs, shared bindings, geometry and positions are preserved. The package has 16 tokens and 26 terrains: 13 map models, five mission markers and eight overlays. Terrain measurement uses the terrain footprint again. This supersedes release 38's marker-token arrangement; the client terrain-lock limitation remains.

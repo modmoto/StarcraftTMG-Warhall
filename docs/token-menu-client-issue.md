@@ -14,3 +14,9 @@ The appropriate server fix is to serialize absolute thumbnail URLs in AllSkinDat
 The native TokenPanel component is present and enabled in the battlefield scene. A separate missing script logged on SpellPanel belongs to another panel; that warning alone does not establish a Tokens menu failure. The inspected log has no TokenPanel button-creation messages, so the exact menu route and panel activation remain to be confirmed.
 
 No application binary, scene, catalogue cache or credentials were modified during this investigation. Do not mask the issue by installing machine-local mappings or repeatedly republishing unchanged skins. After a server/client fix, refresh the shared catalogue, reopen the battlefield token placement panel and verify all 16 buttons and token creation.
+
+## Release 40 preview recheck
+
+Rechecked all 16 owned token catalogue entries against the live test service. Every catalogue thumbnail URL was absolute HTTPS, returned HTTP 200, and decoded through sharp as a valid 512x512 PNG. Uploaded files use .jpg names despite PNG contents; this is not sufficient evidence of a Unity decode failure. Missing files, invalid image bytes and zero-sized images are ruled out at the hosted catalogue URL. Raw results are retained locally in .cache/token-preview-checks.json.
+
+The public catalogue frontend exposes model-transform editing but no observed thumbnail-path override. The existing upload contract takes thumbnail_data_url and lets the service choose the stored path. WDS token UIConfig images are not read by TokenPanel.CreateNewButton, so adding an ImageURL there cannot repair this particular menu. No skin was replaced or unsupported API fields sent. The relative AllSkinData path remains the identified client compatibility issue; these checks are not a successful native preview test.

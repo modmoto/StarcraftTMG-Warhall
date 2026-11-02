@@ -61,35 +61,35 @@
           "X": -38.1,
           "Y": 0.04,
           "Z": 15.24,
-          "IsToken": true
+          "IsToken": false
         },
         {
           "Name": "Starcraft - Mission marker 2 - blue",
           "X": 38.1,
           "Y": 0.04,
           "Z": 15.24,
-          "IsToken": true
+          "IsToken": false
         },
         {
           "Name": "Starcraft - Mission marker 3 - red",
           "X": 38.1,
           "Y": 0.04,
           "Z": -15.24,
-          "IsToken": true
+          "IsToken": false
         },
         {
           "Name": "Starcraft - Mission marker 4 - blue",
           "X": -38.1,
           "Y": 0.04,
           "Z": -15.24,
-          "IsToken": true
+          "IsToken": false
         },
         {
           "Name": "Starcraft - Mission marker 5 - green",
           "X": 0,
           "Y": 0.04,
           "Z": 0,
-          "IsToken": true
+          "IsToken": false
         },
         {
           "Name": "sc_deployment_16231390",
@@ -108,35 +108,35 @@
           "X": -22.86,
           "Y": 0.04,
           "Z": 30.48,
-          "IsToken": true
+          "IsToken": false
         },
         {
           "Name": "Starcraft - Mission marker 2 - blue",
           "X": 22.86,
           "Y": 0.04,
           "Z": 30.48,
-          "IsToken": true
+          "IsToken": false
         },
         {
           "Name": "Starcraft - Mission marker 3 - red",
           "X": 22.86,
           "Y": 0.04,
           "Z": -30.48,
-          "IsToken": true
+          "IsToken": false
         },
         {
           "Name": "Starcraft - Mission marker 4 - blue",
           "X": -22.86,
           "Y": 0.04,
           "Z": -30.48,
-          "IsToken": true
+          "IsToken": false
         },
         {
           "Name": "Starcraft - Mission marker 5 - green",
           "X": 0,
           "Y": 0.04,
           "Z": 0,
-          "IsToken": true
+          "IsToken": false
         },
         {
           "Name": "sc_deployment_16130426",
@@ -155,35 +155,35 @@
           "X": -38.1,
           "Y": 0.04,
           "Z": 15.24,
-          "IsToken": true
+          "IsToken": false
         },
         {
           "Name": "Starcraft - Mission marker 2 - blue",
           "X": 38.1,
           "Y": 0.04,
           "Z": -15.24,
-          "IsToken": true
+          "IsToken": false
         },
         {
           "Name": "Starcraft - Mission marker 3 - red",
           "X": 22.86,
           "Y": 0.04,
           "Z": 15.24,
-          "IsToken": true
+          "IsToken": false
         },
         {
           "Name": "Starcraft - Mission marker 4 - blue",
           "X": -22.86,
           "Y": 0.04,
           "Z": -15.24,
-          "IsToken": true
+          "IsToken": false
         },
         {
           "Name": "Starcraft - Mission marker 5 - green",
           "X": 0,
           "Y": 0.04,
           "Z": 0,
-          "IsToken": true
+          "IsToken": false
         },
         {
           "Name": "sc_deployment_5379036",
@@ -202,35 +202,35 @@
           "X": -38.1,
           "Y": 0.04,
           "Z": 15.24,
-          "IsToken": true
+          "IsToken": false
         },
         {
           "Name": "Starcraft - Mission marker 2 - blue",
           "X": 38.1,
           "Y": 0.04,
           "Z": -15.24,
-          "IsToken": true
+          "IsToken": false
         },
         {
           "Name": "Starcraft - Mission marker 3 - red",
           "X": 38.1,
           "Y": 0.04,
           "Z": 15.24,
-          "IsToken": true
+          "IsToken": false
         },
         {
           "Name": "Starcraft - Mission marker 4 - blue",
           "X": -38.1,
           "Y": 0.04,
           "Z": -15.24,
-          "IsToken": true
+          "IsToken": false
         },
         {
           "Name": "Starcraft - Mission marker 5 - green",
           "X": 0,
           "Y": 0.04,
           "Z": 0,
-          "IsToken": true
+          "IsToken": false
         },
         {
           "Name": "sc_deployment_16426918",
@@ -249,35 +249,35 @@
           "X": 22.86,
           "Y": 0.04,
           "Z": 7.62,
-          "IsToken": true
+          "IsToken": false
         },
         {
           "Name": "Starcraft - Mission marker 2 - blue",
           "X": -22.86,
           "Y": 0.04,
           "Z": 7.62,
-          "IsToken": true
+          "IsToken": false
         },
         {
           "Name": "Starcraft - Mission marker 3 - red",
           "X": 38.1,
           "Y": 0.04,
           "Z": -30.48,
-          "IsToken": true
+          "IsToken": false
         },
         {
           "Name": "Starcraft - Mission marker 4 - blue",
           "X": -38.1,
           "Y": 0.04,
           "Z": -30.48,
-          "IsToken": true
+          "IsToken": false
         },
         {
           "Name": "Starcraft - Mission marker 5 - green",
           "X": 0,
           "Y": 0.04,
           "Z": -30.48,
-          "IsToken": true
+          "IsToken": false
         },
         {
           "Name": "sc_deployment_5995631",
@@ -296,35 +296,35 @@
           "X": -38.1,
           "Y": 0.04,
           "Z": 15.24,
-          "IsToken": true
+          "IsToken": false
         },
         {
           "Name": "Starcraft - Mission marker 2 - blue",
           "X": 22.86,
           "Y": 0.04,
           "Z": -15.24,
-          "IsToken": true
+          "IsToken": false
         },
         {
           "Name": "Starcraft - Mission marker 3 - red",
           "X": 38.1,
           "Y": 0.04,
           "Z": 15.24,
-          "IsToken": true
+          "IsToken": false
         },
         {
           "Name": "Starcraft - Mission marker 4 - blue",
           "X": -22.86,
           "Y": 0.04,
           "Z": -15.24,
-          "IsToken": true
+          "IsToken": false
         },
         {
           "Name": "Starcraft - Mission marker 5 - green",
           "X": 0,
           "Y": 0.04,
           "Z": 15.24,
-          "IsToken": true
+          "IsToken": false
         },
         {
           "Name": "sc_deployment_4030768",
@@ -343,35 +343,35 @@
           "X": -22.86,
           "Y": 0.04,
           "Z": 15.24,
-          "IsToken": true
+          "IsToken": false
         },
         {
           "Name": "Starcraft - Mission marker 2 - blue",
           "X": -53.34,
           "Y": 0.04,
           "Z": 30.48,
-          "IsToken": true
+          "IsToken": false
         },
         {
           "Name": "Starcraft - Mission marker 3 - red",
           "X": 53.34,
           "Y": 0.04,
           "Z": -30.48,
-          "IsToken": true
+          "IsToken": false
         },
         {
           "Name": "Starcraft - Mission marker 4 - blue",
           "X": 22.86,
           "Y": 0.04,
           "Z": -15.24,
-          "IsToken": true
+          "IsToken": false
         },
         {
           "Name": "Starcraft - Mission marker 5 - green",
           "X": 0,
           "Y": 0.04,
           "Z": 0,
-          "IsToken": true
+          "IsToken": false
         },
         {
           "Name": "sc_deployment_14025690",

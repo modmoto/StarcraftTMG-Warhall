@@ -109,7 +109,7 @@ test('each deployment references the correct numbered marker while keeping the 3
         items.some(
           item =>
             item.Name === markerMenuId(marker) &&
-            item.IsToken === true &&
+            item.IsToken === false &&
             item.X === marker.x * 2.54 &&
             item.Z === marker.y * 2.54,
         ),

@@ -159,7 +159,12 @@ const terrains = await readJson(path.join(options.output, 'terrains.json'));
 json(
   path.join(options.output, 'terrains.json'),
   [
-    ...terrains.filter(t => !t.Id.startsWith('sc_mission_') && !t.Id.startsWith('sc_deployment_')),
+    ...terrains.filter(
+      t =>
+        !t.Id.startsWith('sc_mission_') &&
+        !t.Id.startsWith('sc_deployment_') &&
+        !t.Id.startsWith('Starcraft - Mission marker '),
+    ),
     ...generated.markerTerrains,
     ...generated.overlayTerrains,
   ].sort((a, b) => a.Id.localeCompare(b.Id, 'en')),
@@ -239,5 +244,5 @@ if (options.check) {
   }
 }
 console.log(
-  `${options.check ? 'Verified' : options.dryRun ? 'Previewed' : 'Updated'} ${generated.deployments.length} deployments, ${generated.objectives.length} objective presets and ${generated.tokens.length} mission marker tokens. Publish the deployment overlay skins to show the entry lines and grid.`,
+  `${options.check ? 'Verified' : options.dryRun ? 'Previewed' : 'Updated'} ${generated.deployments.length} deployments, ${generated.objectives.length} objective presets and ${generated.markerTerrains.length} mission marker terrains. Publish the deployment overlay skins to show the entry lines and grid.`,
 );

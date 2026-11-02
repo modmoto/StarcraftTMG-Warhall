@@ -1,6 +1,6 @@
 import assert from 'node:assert/strict';
 import { sha256 } from '../io.mjs';
-import { markerTokens, markerMenuId } from './markers.mjs';
+import { markerTerrains, markerMenuId } from './markers.mjs';
 
 export const deploymentName = l => l.name;
 export const sharedDeploymentTemplateId = 12;
@@ -126,13 +126,13 @@ export function buildDeployments(layouts) {
           X: m.x * 2.54,
           Y: 0.04,
           Z: m.y * 2.54,
-          IsToken: true,
+          IsToken: false,
         })),
         overlayPlacement(deploymentTemplate(l)),
       ],
     })),
-    tokens: markerTokens(),
-    markerTerrains: [],
+    tokens: [],
+    markerTerrains: markerTerrains(),
     overlayTerrains: layouts.map(l => overlayTerrain(deploymentTemplate(l))),
     templates: layouts.map(deploymentTemplate),
   };
