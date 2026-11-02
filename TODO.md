@@ -17,6 +17,7 @@ Release 12 removes the equipment child from each weapon stat row, eliminating th
 
 ## Requires Warhall client/catalogue support
 
+- [ ] Fix native token preview URLs: AllSkinData emits relative Thumbnail paths while TokenPanel expects absolute HTTPS URLs. Confirm the token panel activation path and make preview failures show a fallback button. See [the investigation](docs/token-menu-client-issue.md).
 - [ ] Verify faction dropdown icons after adding release 29 icons.json. The extra left space is the image slot; faction names have no whitespace.
 - [ ] Fix **Flip map**: rotate terrain positions and orientations together by 180 degrees so asymmetric walls and ramps retain their layout. Verify two flips restore the original layout. See [the client findings](docs/warhall-flip-limitations.md).
 - [ ] Fix **Flip deployment**: include shared deployment overlays and mission markers, preserving the flip when switching/reloading deployments. See [the client findings](docs/warhall-flip-limitations.md).
