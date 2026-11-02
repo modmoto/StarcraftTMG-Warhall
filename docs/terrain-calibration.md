@@ -43,8 +43,8 @@ Imported ramps still need the client-side elevated-ground support described in `
 
 Only Head Statue acfebe and the dark green Protoss Banner d26342 are generated. terrain-calibration.json assetAliases maps the removed statue 633ae2 and three other banner variants to these retained source assets. All six maps retain their placement counts, positions, rotations and calibrated footprints. The menu has 13 map models plus eight deployment overlays. Old cloud skin registrations remain available for saved games; no unchanged meshes need uploading.
 
-## Temporary 50 mm ramp height
+## Temporary compressed ramp height
 
-The High Ground ramp/platform assembly is vertically compressed to 50 mm using its heightMm override in terrain-calibration.json. Its bottom stays grounded; its X/Z footprint, assembly joins, map placement and shared menu IDs are unchanged. This is a temporary visibility workaround while imported elevated collision remains unsupported. It does not make the mesh walkable.
+The High Ground ramp/platform assembly is vertically compressed to approximately 16.7 mm (one third of the previous 50 mm workaround) using its heightMm override in terrain-calibration.json. Its bottom stays grounded; its X/Z footprint, assembly joins, map placement and shared menu IDs are unchanged. This is a temporary visibility workaround while imported elevated collision remains unsupported. It does not make the mesh walkable.
 
 To undo this temporary change, revert its dedicated commit, regenerate the terrain/catalogue and republish only sc_terrain_f2dd0d048a087d53, including its menu alias. Reverting Git alone does not change an already-published skin. No WDS version bump is required for this shared-skin-only adjustment.
