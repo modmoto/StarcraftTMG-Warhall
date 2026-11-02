@@ -7,7 +7,7 @@ import { describeProfile, describeUnit } from './descriptions.mjs';
 import { createReport, unitReport } from './report.mjs';
 import { loadKeywordRules, linkKeywordRules, linkFactionRules } from './rule-links.mjs';
 import { validateData } from './validate.mjs';
-import { nativeTokens, factionIcons } from '../tokens/package.mjs';
+import { nativeTokens, factionIcons, builtinTokenNames } from '../tokens/package.mjs';
 import { projectRoot } from '../paths.mjs';
 
 const staticFiles = [
@@ -123,7 +123,7 @@ async function initialData(template) {
   data['tokens.json'] = [
     ...data['tokens.json'].filter(
       token =>
-        token.Id !== 'TokenWarhallPurple' &&
+        !builtinTokenNames.includes(token.Id) &&
         !token.Id.startsWith('sc_token_') &&
         !token.Id.startsWith('Starcraft - Token - '),
     ),

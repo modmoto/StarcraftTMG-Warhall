@@ -1,4 +1,5 @@
 import assert from 'node:assert/strict';
+import { builtinTokenNames } from '../src/tokens/package.mjs';
 import { readFile } from 'node:fs/promises';
 import { parseArgs } from 'node:util';
 import { promptLogin } from '../src/models/login.mjs';
@@ -48,24 +49,25 @@ assert.ok(Array.isArray(usages), 'Invalid shared assignment response');
 const defaults = id => defaultMenuSkins(usages, game.IdGame, id);
 const plan = menuBindingPlan(entries, usages, game.IdGame);
 // Built-in reference: resolve on this server rather than copying a test skin ID.
-const nativeName = 'TokenWarhallPurple';
-const nativeResult = await request(
-  `/GetCatalogueSkins?viewMode=public&search=${nativeName}&perPage=200&page=1&sortOrder=newest`,
-);
-const nativeSkins = nativeResult.result?.skins?.filter(skin => skin.name === nativeName);
-assert.equal(nativeSkins?.length, 1, 'Expected one built-in purple reference skin');
-const nativeSkinId = Number(nativeSkins[0].id);
-const nativeDefaults = defaults(nativeName);
-assert.ok(
-  !nativeDefaults.length || (nativeDefaults.length === 1 && nativeDefaults[0] === nativeSkinId),
-  'Conflicting purple reference assignment',
-);
-plan.push({
-  canonicalId: nativeName,
-  menuId: nativeName,
-  skinId: nativeSkinId,
-  assigned: nativeDefaults.length === 1,
-});
+for (const nativeName of builtinTokenNames) {
+  const nativeResult = await request(
+    `/GetCatalogueSkins?viewMode=public&search=${nativeName}&perPage=200&page=1&sortOrder=newest`,
+  );
+  const nativeSkins = nativeResult.result?.skins?.filter(skin => skin.name === nativeName);
+  assert.equal(nativeSkins?.length, 1, `Expected one native skin: ${nativeName}`);
+  const nativeSkinId = Number(nativeSkins[0].id);
+  const nativeDefaults = defaults(nativeName);
+  assert.ok(
+    !nativeDefaults.length || (nativeDefaults.length === 1 && nativeDefaults[0] === nativeSkinId),
+    `Conflicting native assignment: ${nativeName}`,
+  );
+  plan.push({
+    canonicalId: nativeName,
+    menuId: nativeName,
+    skinId: nativeSkinId,
+    assigned: nativeDefaults.length === 1,
+  });
+}
 
 let assigned = 0;
 for (const item of plan) {

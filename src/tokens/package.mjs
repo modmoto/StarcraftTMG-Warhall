@@ -48,6 +48,16 @@ export const tokenDefinitions = [
   })),
 ];
 
+export const builtinTokenNames = [
+  'TokenWarhallBlue',
+  'TokenWarhallOrange',
+  'TokenWarhallBlack',
+  'TokenWarhallWhite',
+  'TokenWarhallPurple',
+  'Token3Inch',
+  'Token5Inch',
+];
+
 export function nativeTokens() {
   return [
     ...tokenDefinitions.map(token => ({
@@ -56,7 +66,7 @@ export function nativeTokens() {
       Type: 'Token',
       Description: `${token.name}\n\n${token.description}`,
     })),
-    { Id: 'TokenWarhallPurple', Name: 'TokenWarhallPurple', Type: 'Token' },
+    ...builtinTokenNames.map(name => ({ Id: name, Name: name, Type: 'Token' })),
   ];
 }
 

@@ -80,18 +80,30 @@ test('all faction names match icon lookup and icons ship in the manifest', async
   }
 });
 
-test('built-in purple reference uses native identity without uploading a duplicate skin', async () => {
-  const { nativeTokens } = await import('../src/tokens/package.mjs');
-  const reference = { Id: 'TokenWarhallPurple', Name: 'TokenWarhallPurple', Type: 'Token' };
-  assert.deepEqual(
-    nativeTokens().find(token => token.Id === reference.Id),
-    reference,
-  );
-  assert.deepEqual(
-    (await read('Starcraft/tokens.json')).find(token => token.Id === reference.Id),
-    reference,
-  );
-  assert.ok(
-    !(await read('model-catalogue.json')).entries.some(entry => entry.profileId === reference.Id),
-  );
+test('all seven native tokens retain their prefab identities without duplicate uploads', async () => {
+  const { nativeTokens, builtinTokenNames } = await import('../src/tokens/package.mjs');
+  assert.deepEqual(builtinTokenNames, [
+    'TokenWarhallBlue',
+    'TokenWarhallOrange',
+    'TokenWarhallBlack',
+    'TokenWarhallWhite',
+    'TokenWarhallPurple',
+    'Token3Inch',
+    'Token5Inch',
+  ]);
+  const generated = nativeTokens();
+  const shipped = await read('Starcraft/tokens.json');
+  const catalogue = await read('model-catalogue.json');
+  for (const name of builtinTokenNames) {
+    const reference = { Id: name, Name: name, Type: 'Token' };
+    assert.deepEqual(
+      generated.filter(token => token.Id === name),
+      [reference],
+    );
+    assert.deepEqual(
+      shipped.filter(token => token.Id === name),
+      [reference],
+    );
+    assert.ok(!catalogue.entries.some(entry => entry.profileId === name));
+  }
 });

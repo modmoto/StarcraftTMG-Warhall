@@ -27,3 +27,7 @@ Use the saved login; default target is Warhall Test. Normal fingerprint reconcil
 The faction dropdown uses icons.json with Type faction and exact faction names. These PNGs load directly through HTTPS and do not need shared skin registration. Scenario markers are separate 32 mm terrain profiles.
 
 After updating to release 33, refresh the shared catalogue and reopen the Tokens menu. Verify all 16 entries, single-face artwork, 25 mm size and placement on Mac/Windows. This does not claim a live client render test.
+
+## Release 42: built-in Warhall tokens
+
+The token menu contains 16 custom tokens plus the native blue, orange, black, white and purple Warhall tokens and native 3-inch/5-inch templates (23 total). builtinTokenNames in src/tokens/package.mjs owns the native list. models:menus resolves exact public native skin names on the selected server and verifies default bindings without reuploading their models or previews.
