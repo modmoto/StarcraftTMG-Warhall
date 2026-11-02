@@ -3080,5 +3080,9 @@
         }
       ]
     }
-  ]
+  ],
+  "gameNames": {
+    "test": "Starcraft-test",
+    "prod": "Starcraft"
+  }
 }

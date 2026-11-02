@@ -6,7 +6,7 @@ Use main for all work. There are no GitHub Actions, GitHub releases or branch pr
 - `Starcraft/` is the live snapshot. Normal builds leave it unchanged.
 - Root model inputs, `model-catalogue.json` and hash-named `model-assets/` are shared. Existing assets remain available when new ones are added.
 
-Both Warhall games are named Starcraft. Their manifest settings should be:
+The Warhall Test game is named `Starcraft-test`; the production game is `Starcraft`. Their manifest settings should be:
 
 - Test: https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/manifest.json
 - Production: https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft/manifest.json

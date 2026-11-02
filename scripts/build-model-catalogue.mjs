@@ -57,6 +57,7 @@ const raw = validateCatalogue({
   schemaVersion: 1,
   serverUrl: 'https://apptest.warhall.eu',
   gameName: 'Starcraft',
+  gameNames: { test: 'Starcraft-test', prod: 'Starcraft' },
   entries,
 });
 const { catalogue, report } = await calibrateCatalogue(raw);

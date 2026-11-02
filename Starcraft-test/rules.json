@@ -1,1 +1,1064 @@
-[]
+[
+  {
+    "Id": "rule_keyword_access_point",
+    "Name": "Access Point",
+    "Type": "Rule",
+    "Description": "Part of a Terrain that connects different elevation levels. <link=\"rule_chapter_2_1\">Models</link> moving through an ACCESS POINT can change their elevation."
+  },
+  {
+    "Id": "rule_keyword_active_player",
+    "Name": "Active Player",
+    "Type": "Rule",
+    "Description": "The player whose turn it is to act."
+  },
+  {
+    "Id": "rule_keyword_anti_evade",
+    "Name": "Anti-Evade",
+    "Type": "Rule",
+    "Description": "When resolving an attack with this weapon against <link=\"rule_keyword_enemy\">Enemy</link> <link=\"rule_chapter_2_2\">Units</link>, the target Unit suffers a - X <link=\"rule_keyword_modifier\">Modifier</link> to its <link=\"rule_chapter_8_7_4\">Evade Roll</link> for this attack (<link=\"rule_chapter_8_7_4\">Part 8.7.4</link>, Step 4)."
+  },
+  {
+    "Id": "rule_keyword_army_slot",
+    "Name": "Army Slot",
+    "Type": "Rule",
+    "Description": "Army Slots determine how many and what types of <link=\"rule_chapter_2_2\">Units</link> may be included in an army. Each Army Slot has a specific type: Core, Elite, Support, Air, or Hero. Every Unit occupies a number of Army Slots of its designated type equal to its starting <link=\"rule_keyword_supply_value\">Supply Value</link>. The Faction Card provides the initial pool of Army Slots. Additional Army Slots are unlocked by purchasing <link=\"rule_chapter_5_3\">Tactical Cards</link> with Vespene Gas during Army Building (Part 9.1.5). Unused Army Slots are lost – they cannot be converted, exchanged, or carried forward."
+  },
+  {
+    "Id": "rule_keyword_available_supply",
+    "Name": "Available Supply",
+    "Type": "Rule",
+    "Description": "Available Supply is the remaining Supply capacity available for new deployments. It equals the current Supply Pool minus the Total <link=\"rule_keyword_current_supply_value\">Current Supply Value</link> of all <link=\"rule_keyword_friendly\">Friendly</link> <link=\"rule_chapter_2_2\">Units</link> on <link=\"rule_chapter_7\">the battlefield</link> (<link=\"rule_chapter_8_3_2\">Part 8.3.2</link>). A Unit may only be deployed from <link=\"rule_keyword_reserves\">Reserves</link> if its Current Supply Value is less than or equal to the Available Supply. At no point may the Total Current Supply of a player’s on-table Units exceed <link=\"rule_chapter_8_3_1\">the Supply Pool</link>. Units Destroyed or reduced by casualties free up Available Supply for new arrivals. In the final Round of the game, the Supply Pool becomes unlimited, and the Available Supply restrictions are lifted."
+  },
+  {
+    "Id": "rule_keyword_blocking_terrain",
+    "Name": "Blocking Terrain",
+    "Type": "Rule",
+    "Description": "Any terrain piece with an <link=\"rule_keyword_effective_size\">Effective Size</link> of 1 or greater. Blocking Terrain obstructs <link=\"rule_keyword_line_of_sight\">Line of Sight</link> according to the <link=\"rule_chapter_7_1_1\">Cover</link> rules (<link=\"rule_chapter_7_1_1\">Part 7.1.1</link>). Whether a model may move through that terrain is determined separately by the movement rules, terrain Size, ACCESS POINTS, <link=\"rule_chapter_4_6\">Gap Clearance</link>, and any relevant terrain <link=\"rule_chapter_2_6_1\">keywords</link>."
+  },
+  {
+    "Id": "rule_keyword_buff",
+    "Name": "Buff",
+    "Type": "Rule",
+    "Description": "The Unit gains a bonus of X to the specified characteristic until the End of the Round.\n• Target Number characteristic (e.g. Armour, Hit): reduce the value by X (easier to roll).\n• Value characteristic (e.g. Speed, RoA): increase the value by X."
+  },
+  {
+    "Id": "rule_keyword_bulky",
+    "Name": "Bulky",
+    "Type": "Rule",
+    "Description": "This weapon cannot be used to make a <link=\"rule_chapter_8_7_3\">Ranged Attack</link> while the Unit is currently <link=\"rule_keyword_engaged\">Engaged</link> (<link=\"rule_chapter_8_7_3\">Part 8.7.3</link>)."
+  },
+  {
+    "Id": "rule_keyword_burrowed",
+    "Name": "Burrowed",
+    "Type": "Rule",
+    "Description": "• BURROWED is classified as a <link=\"rule_keyword_status\">Status</link>.\n• When a Unit gains BURROWED Status it also gains the <link=\"rule_keyword_hidden\">HIDDEN</link> STATUS.\n• At the Start of the Round BURROWED <link=\"rule_chapter_2_2\">Units</link> gain HIDDEN Status.\n• When BURROWED Status is removed, a Unit also loses HIDDEN Status.\n• Its Size is treated as 0 for all purposes.\n• Its <link=\"rule_keyword_current_supply_value\">Current Supply Value</link> is treated as 0 for <link=\"rule_chapter_8_5_4\">Disengage</link> checks.\n• A BURROWED Unit cannot Control or Contest <link=\"rule_keyword_mission_markers\">Mission Markers</link> (overrides Parts 6.2 and 8.9.1).\n• While BURROWED, the Unit may only perform Deploy, Move, Disengage, Run, Hold and Close Ranks actions. Performing any of these (except Hold) immediately removes the BURROWED status.\n• BURROWED Units may use <link=\"rule_chapter_10_1\">Special Abilities</link> unless stated otherwise.\n• BURROWED Units may make an <link=\"rule_chapter_8_7_4\">Evade Roll</link> against every attack targeting them.\n• Other <link=\"rule_chapter_2_1\">models</link> may move through a BURROWED Unit’s models, provided they do not end <link=\"rule_keyword_within\">Within</link> the <link=\"rule_keyword_engagement_range\">Engagement Range</link> of the BURROWED Unit (overrides <link=\"rule_chapter_8_5_3\">Part 8.5.3</link>).\n• If a BURROWED Unit is <link=\"rule_keyword_engaged\">Engaged</link> at the start of the Combat Phase, it must be Activated but cannot perform a Close Combat Attack in its BURROWED state. The Unit may perform Close Ranks as its first step, which immediately removes the BURROWED status. Once the status is removed, the Unit completes the remaining steps of <link=\"rule_chapter_8_8_1\">the Close Combat Attack</link> normally. If the Unit does not or cannot perform Close Ranks, it does not attack. <link=\"rule_keyword_enemy\">Enemy</link> Units Engaged with a BURROWED Unit may attack it as normal regardless of its status."
+  },
+  {
+    "Id": "rule_keyword_burst_fire",
+    "Name": "Burst Fire",
+    "Type": "Rule",
+    "Description": "When making a <link=\"rule_chapter_8_7_3\">Ranged Attack</link> against a target <link=\"rule_keyword_within\">Within</link> Y” of the attacking model, increase this weapon’s RoA by X for that attack."
+  },
+  {
+    "Id": "rule_keyword_combat_tags",
+    "Name": "Combat Tags",
+    "Type": "Rule",
+    "Description": "Combat Tags are <link=\"rule_chapter_2_6_1\">keywords</link> printed on a Unit Card that identify a Unit’s physical nature and tactical class. Type <link=\"rule_chapter_2_4\">Tags</link>: Armoured, Biological, Light, Mechanical, Psionic, <link=\"rule_keyword_flying\">Flying</link>, and Ground.\n• Targeting: Some weapons can fire only at specific Combat Tags (e.g., “Target: Flying ”).\n• <link=\"rule_chapter_8_7_4\">Surge</link>: A weapon’s Surge efficiency triggers only when the target has the Combat Tag listed in the weapon’s Surge Type (<link=\"rule_chapter_8_7_4\">Part 8.7.4</link>).\n• Bonuses: Abilities such as <link=\"rule_keyword_anti_evade\">ANTI-EVADE</link> (X) or <link=\"rule_keyword_pierce\">PIERCE</link> (X) often apply only against specific Combat Tags. Note: The Ground Combat Tag and the <link=\"rule_keyword_ground_level\">GROUND LEVEL</link> elevation (<link=\"rule_chapter_8_5_3\">Part 8.5.3</link>) are distinct concepts. A Flying Unit standing on the playmat is at GROUND LEVEL but does not have the Ground Combat Tag. Throughout these rules, Ground in bold always refers to the Combat Tag. GROUND LEVEL always refers to elevation."
+  },
+  {
+    "Id": "rule_keyword_concentrated_fire",
+    "Name": "Concentrated Fire",
+    "Type": "Rule",
+    "Description": "Attacks with this weapon may remove no more than X <link=\"rule_chapter_2_1\">models</link> as casualties. Once X models have been removed, discard any remaining Total Damage. It is not recorded as a Damage Marker and does not carry over."
+  },
+  {
+    "Id": "rule_keyword_controlling_player",
+    "Name": "Controlling Player",
+    "Type": "Rule",
+    "Description": "The player who commands a specific Unit, model, or Token. They make all decisions and roll all <link=\"rule_chapter_3_1\">dice</link>. Certain abilities (e.g., Neural Parasite) can transfer control; the new controller then acts in every respect as though the Unit were their own."
+  },
+  {
+    "Id": "rule_keyword_critical_hit",
+    "Name": "Critical Hit",
+    "Type": "Rule",
+    "Description": "Move X <link=\"rule_chapter_3_1\">dice</link> from the Armour Pool directly to the Damage Pool, bypassing Armour. CRITICAL HIT can never move more dice than are in the Armour Pool."
+  },
+  {
+    "Id": "rule_keyword_current_supply_value",
+    "Name": "Current Supply Value",
+    "Type": "Rule",
+    "Description": "The Current Supply Value of a Unit is its <link=\"rule_keyword_supply_value\">Supply Value</link> at this moment, based on the number of <link=\"rule_chapter_2_1\">models</link> remaining in the Unit as shown on <link=\"rule_chapter_6_1\">the Supply Profile</link> (<link=\"rule_chapter_6_1\">Part 6.1</link>). Update the Current Supply Value immediately whenever a casualty reduces the model count into a lower bracket. The Current Supply Value is referenced when checking whether a Unit may be deployed from <link=\"rule_keyword_reserves\">Reserves</link> (<link=\"rule_chapter_8_3_2\">Part 8.3.2</link>), when determining Mission Marker Control (<link=\"rule_chapter_8_9_1\">Part 8.9.1</link>), when evaluating <link=\"rule_keyword_tactical_mass\">Tactical Mass</link> for <link=\"rule_chapter_8_5_4\">Disengage</link> (<link=\"rule_chapter_8_5_4\">Part 8.5.4</link>), and when calculating Victory Points for Supply-based scoring conditions."
+  },
+  {
+    "Id": "rule_keyword_debuff",
+    "Name": "Debuff",
+    "Type": "Rule",
+    "Description": "The Unit suffers a penalty of X to the specified characteristic until the End of the Round.\n• Target Number characteristic: increase the value by X (harder to roll).\n• Value characteristic: decrease the value by X (minimum 0)."
+  },
+  {
+    "Id": "rule_keyword_displacement",
+    "Name": "Displacement",
+    "Type": "Rule",
+    "Description": "The <link=\"rule_keyword_leading_model\">Leading Model</link> may end a move overlapping this Token or Unit (overrides <link=\"rule_chapter_7_3_1\">Part 7.3.1</link>). If <link=\"rule_chapter_4_3\">the Leading Model</link> ends any Move, Deploy, Run, <link=\"rule_chapter_8_7_7\">Charge</link>, <link=\"rule_chapter_8_5_4\">Disengage</link>, Close Ranks or <link=\"rule_keyword_special_ability\">Special Ability</link> move Overlapping this Token or model, the <link=\"rule_keyword_controlling_player\">controlling player</link> of the Leading Model immediately sets it in Base- to-Base contact with the Leading Model. If Base-to- Base is not possible, sets it as close as possible."
+  },
+  {
+    "Id": "rule_keyword_dodge",
+    "Name": "Dodge",
+    "Type": "Rule",
+    "Description": "When this Unit is targeted by an attack, reduce the number of <link=\"rule_chapter_3_1\">dice</link> moved from the Armour Pool to the Damage Pool by <link=\"rule_chapter_8_7_4\">Surge</link> or <link=\"rule_keyword_critical_hit\">CRITICAL HIT</link> by X (minimum 0). Apply during the Resolve Surge step."
+  },
+  {
+    "Id": "rule_keyword_effective_size",
+    "Name": "Effective Size",
+    "Type": "Rule",
+    "Description": "A model’s Effective Size is equal to its Size characteristic plus the Size of any terrain it is standing on (<link=\"rule_chapter_7_1_2\">Part 7.1.2</link>). A model at <link=\"rule_keyword_ground_level\">GROUND LEVEL</link> has an Effective Size equal to its own Size characteristic only. A model on <link=\"rule_keyword_high_ground\">HIGH GROUND</link> (Size 3+) or <link=\"rule_keyword_mid_ground\">MID GROUND</link> (Size 1–2) adds the terrain’s Size to its own. Terrain pieces set on elevated surfaces stack in the same way – a terrain piece’s Effective Size equals its own Size plus the Size of the terrain it stands on. Effective Size determines which terrain blocks <link=\"rule_keyword_line_of_sight\">Line of Sight</link> through Full <link=\"rule_chapter_7_1_1\">Cover</link> and Direct Cover (<link=\"rule_chapter_7_1_1\">Part 7.1.1</link>). <link=\"rule_keyword_flying\">Flying</link> <link=\"rule_chapter_2_1\">models</link> are treated as having an Effective Size higher than any terrain piece on the table for Cover purposes (<link=\"rule_chapter_7_1_4\">Part 7.1.4</link>)."
+  },
+  {
+    "Id": "rule_keyword_elevation_level",
+    "Name": "Elevation Level",
+    "Type": "Rule",
+    "Description": "<link=\"rule_chapter_2_1\">Models</link> can stand one of three elevations:\n• <link=\"rule_keyword_ground_level\">GROUND LEVEL</link>: Standing directly on the playmat.\n• <link=\"rule_keyword_mid_ground\">MID GROUND</link>: Standing on horizontal terrain of Size 1 or 2.\n• <link=\"rule_keyword_high_ground\">HIGH GROUND</link>: Standing on horizontal terrain of Size 3 or larger. The model stands on elevation if its base is at that elevation. If the model’s base is on multiple elevation levels, assume it is standing on the highest of those elevations."
+  },
+  {
+    "Id": "rule_keyword_enemy",
+    "Name": "Enemy",
+    "Type": "Rule",
+    "Description": "All <link=\"rule_chapter_2_2\">Units</link>, <link=\"rule_chapter_7_3_1\">Tokens</link>, and cards belonging to the opponent are Enemies. In team games, all opposing players’ Units, Tokens, and cards are Enemies. A Unit may never target a <link=\"rule_keyword_friendly\">Friendly</link> Unit with an attack unless a rule explicitly states otherwise. Enemy is the opposite of Friendly and is referenced throughout the rules to determine valid targets, Engagement, and Mission Marker contests."
+  },
+  {
+    "Id": "rule_keyword_engaged",
+    "Name": "Engaged",
+    "Type": "Rule",
+    "Description": "A Ground Unit is Engaged when any of its <link=\"rule_chapter_2_1\">models</link> is <link=\"rule_keyword_within\">Within</link> 1” (<link=\"rule_keyword_engagement_range\">Engagement Range</link>) of any model in an <link=\"rule_keyword_enemy\">Enemy</link> Ground Unit, provided the following conditions are met (<link=\"rule_chapter_7_2_1\">Part 7.2.1</link>):\n• <link=\"rule_keyword_combat_tags\">Combat Tags</link> match: Ground models Engage only Ground models. <link=\"rule_keyword_flying\">Flying</link> models cannot be Engaged by any model.\n• Terrain does not block: Size 2+ terrain between the models prevents Engagement, even if they are Within 1”. Models on <link=\"rule_keyword_high_ground\">HIGH GROUND</link> cannot Engage models at <link=\"rule_keyword_ground_level\">GROUND LEVEL</link>, and vice versa. When any model in a Unit is Engaged, the entire Unit is considered Engaged. An Engaged Unit cannot perform a standard Move – it must <link=\"rule_chapter_8_5_4\">Disengage</link> (<link=\"rule_chapter_8_5_4\">Part 8.5.4</link>) or Hold. Engaged <link=\"rule_chapter_2_2\">Units</link> are also subject to restrictions on Ranged Attacks (<link=\"rule_chapter_8_7_3\">Part 8.7.3</link>)."
+  },
+  {
+    "Id": "rule_keyword_engagement_range",
+    "Name": "Engagement Range",
+    "Type": "Rule",
+    "Description": "The Engagement Range extends 1” horizontally from any model’s base. When two <link=\"rule_keyword_enemy\">Enemy</link> Ground <link=\"rule_chapter_2_1\">models</link> are <link=\"rule_keyword_within\">Within</link> each other’s Engagement Range, they are <link=\"rule_keyword_engaged\">Engaged</link> (<link=\"rule_chapter_7_2\">Part 7.2</link>). Engagement Range is measured horizontally from a top-down perspective, ignoring vertical height (<link=\"rule_chapter_4_1\">Part 4.1</link>). It is referenced when resolving Move restrictions (<link=\"rule_chapter_8_5_3\">Part 8.5.3</link>), <link=\"rule_chapter_8_5_4\">Disengage</link> (<link=\"rule_chapter_8_5_4\">Part 8.5.4</link>), <link=\"rule_chapter_8_7_7\">Charge</link> (<link=\"rule_chapter_8_6_2\">Part 8.6.2</link>), the <link=\"rule_keyword_fighting_rank\">Fighting Rank</link> (<link=\"rule_chapter_8_8_1\">Part 8.8.1</link>), and <link=\"rule_keyword_place\">PLACE</link> effects. Melee weapons list E as their Range, indicating they may only strike targets Within the Engagement Range."
+  },
+  {
+    "Id": "rule_keyword_entry_edge",
+    "Name": "Entry Edge",
+    "Type": "Rule",
+    "Description": "The table edge assigned to a player by the Deployment Card. <link=\"rule_chapter_2_2\">Units</link> enter <link=\"rule_chapter_7\">the battlefield</link> from this edge when deploying from <link=\"rule_keyword_reserves\">Reserves</link>."
+  },
+  {
+    "Id": "rule_keyword_faction_tags",
+    "Name": "Faction Tags",
+    "Type": "Rule",
+    "Description": "Faction Tags are <link=\"rule_chapter_2_6_1\">keywords</link> printed on <link=\"rule_chapter_5_1\">Unit Cards</link>, <link=\"rule_chapter_5_3\">Tactical Cards</link>, and <link=\"rule_chapter_5_4\">Faction Cards</link> that identify allegiance.\n• Race <link=\"rule_chapter_2_4\">Tags</link>: Terran, Zerg, Protoss.\n• Sub-Faction Tags: Specific broods or organisations, e.g., Kerrigan’s Swarm, Raynor’s Raiders.\n• Function: During Army Building, a player may include only <link=\"rule_chapter_2_2\">Units</link> and Tactical Cards whose Faction Tags all appear on the chosen Faction Card. If even one tag on the Unit or Tactical Card does not appear on the Faction Card, that card cannot be included. A Unit with fewer tags than the Faction Card is permitted – it only requires its own tags to be present (Part 9.1.2)."
+  },
+  {
+    "Id": "rule_keyword_fighting_rank",
+    "Name": "Fighting Rank",
+    "Type": "Rule",
+    "Description": "A model is in the Fighting Rank if it is <link=\"rule_keyword_within\">Within</link> the <link=\"rule_keyword_engagement_range\">Engagement Range</link> (1”) of an <link=\"rule_keyword_enemy\">Enemy</link> model. <link=\"rule_chapter_2_1\">Models</link> in the Fighting Rank may strike with their Combat Phase weapons. See <link=\"rule_chapter_8_8_1\">Part 8.8.1</link>, Step 2."
+  },
+  {
+    "Id": "rule_keyword_first_player_marker",
+    "Name": "First Player Marker",
+    "Type": "Rule",
+    "Description": "A physical Token used to track which player has initiative. At the start of the game, the winner of the Roll-Off (<link=\"rule_chapter_3_2\">Part 3.2</link>) assigns the First Player Marker to either player for Round 1. The holder of the First Player Marker chooses which player activates first at the start of each Phase. The Marker changes hands in two ways: the first player to Pass during Phase 1 or Phase 2 takes the First Player Marker for the following Phase, and at the end of Phase 4 the Marker is awarded to the player with fewer Victory Points (<link=\"rule_chapter_8_9_6\">Part 8.9.6</link>). If Victory Points are tied, both players Roll-Off and the winner takes the Marker."
+  },
+  {
+    "Id": "rule_keyword_flying",
+    "Name": "Flying",
+    "Type": "Rule",
+    "Description": "Flying <link=\"rule_chapter_2_2\">Units</link> trade board control (no <link=\"rule_keyword_mission_markers\">Mission Markers</link>, no melee) for mobility and immunity to terrain.\n• A Flying Unit ignores all terrain for movement purposes. The <link=\"rule_keyword_leading_model\">Leading Model</link> moves point-to- point, measuring horizontally. Other <link=\"rule_chapter_2_1\">models</link> may pass through a Flying model’s base as if it were not there, and vice versa.\n• A Flying Unit is never <link=\"rule_keyword_engaged\">Engaged</link>. Ground models cannot Engage Flying models, and Flying models cannot Engage other Flying models. A Flying Unit must end its movement at least 1” away from all <link=\"rule_keyword_enemy\">Enemy</link> Flying Units.\n• Flying model ignore the Full <link=\"rule_chapter_7_1_1\">Cover</link> rule. Direct Cover and the Elevation Dead Zone rules still apply. Assume that Flying Units’ <link=\"rule_keyword_effective_size\">Effective Size</link> is higher than the Effective Size of any terrain piece on the table.\n• A Flying Unit does not benefit from <link=\"rule_keyword_high_ground\">HIGH GROUND</link> Cover (<link=\"rule_chapter_7_1_3\">Part 7.1.3</link>).\n• A Flying Unit cannot Control or Contest Mission Markers (overrides Parts 6.2 and 8.9.1).\n• A Flying Unit cannot <link=\"rule_chapter_8_7_7\">Charge</link> or be Charged.\n• A Flying Unit cannot participate in the Combat Phase (<link=\"rule_chapter_8_8\">Part 8.8</link>).\n• A Flying Unit ignores elevation. It does not use Access Points. For Cover and <link=\"rule_keyword_line_of_sight\">Line of Sight</link> purposes, treat a Flying Unit’s Effective Size as higher than the Effective Size of any terrain piece on the table (<link=\"rule_chapter_7_1_4\">Part 7.1.4</link>). Terrain does not contribute to a Flying model’s Effective Size.\n• A Flying Unit moving over <link=\"rule_keyword_grass\">Grass</link> does not destroy the Grass terrain piece. If a Flying Unit ends on a Grass terrain piece, it is removed as normal."
+  },
+  {
+    "Id": "rule_keyword_friendly",
+    "Name": "Friendly",
+    "Type": "Rule",
+    "Description": "All <link=\"rule_chapter_2_2\">Units</link>, <link=\"rule_chapter_7_3_1\">Tokens</link>, and cards belonging to the <link=\"rule_keyword_controlling_player\">Controlling Player</link> are Friendly to one another. In team games, all teammates’ Units, Tokens, and cards are also Friendly. A Unit’s own <link=\"rule_chapter_2_1\">models</link> are always Friendly to it. Friendly is the opposite of <link=\"rule_keyword_enemy\">Enemy</link> and is used throughout the rules to determine targeting restrictions, movement interactions, and ability eligibility."
+  },
+  {
+    "Id": "rule_keyword_grass",
+    "Name": "Grass",
+    "Type": "Rule",
+    "Description": "A terrain piece with a Size of 2 that follows special rules. Unlike other Size 2 terrain, Grass does not block movement but does block <link=\"rule_keyword_line_of_sight\">Line of Sight</link>, following the standard <link=\"rule_chapter_7_1_1\">Cover</link> rules (<link=\"rule_chapter_7_1_1\">Part 7.1.1</link>). Grass is destroyed by the passage of war. If a <link=\"rule_keyword_leading_model\">Leading Model</link>’s path of travel passes through or any model of a Unit ends on a Grass terrain piece during any movement action (Move, Deploy, Run, <link=\"rule_chapter_8_7_7\">Charge</link>, <link=\"rule_chapter_8_5_4\">Disengage</link> or Close Ranks), that Grass terrain piece is immediately removed from the game. It does not return during <link=\"rule_chapter_8_9_5\">Cleanup & Refresh</link> and cannot be replaced by any means. A <link=\"rule_keyword_flying\">Flying</link> Unit moving over Grass does not destroy the Grass terrain piece. Flying <link=\"rule_chapter_2_1\">models</link> pass above the terrain, not through it. If any model of a Flying Unit ends on a Grass terrain piece, it is removed as normal."
+  },
+  {
+    "Id": "rule_keyword_ground_level",
+    "Name": "Ground Level",
+    "Type": "Rule",
+    "Description": "One of the elevation levels. Model is on the GROUND LEVEL when it is standing directly on the playmat. <link=\"rule_chapter_2_1\">Models</link> on GROUND LEVEL cannot Engage models on <link=\"rule_keyword_high_ground\">HIGH GROUND</link>, and vice versa. Models on GROUND LEVEL can Engage models on <link=\"rule_keyword_mid_ground\">MID GROUND</link> only if both models are adjacent to the same <link=\"rule_keyword_access_point\">ACCESS POINT</link> connecting their respective elevations. A model at GROUND LEVEL has an <link=\"rule_keyword_effective_size\">Effective Size</link> equal to its own Size characteristic only."
+  },
+  {
+    "Id": "rule_keyword_heal",
+    "Name": "Heal",
+    "Type": "Rule",
+    "Description": "Remove X points of accumulated Damage from the Unit (reduce its Damage Marker accordingly). HEAL cannot return Destroyed <link=\"rule_chapter_2_1\">models</link> – it only reduces existing Damage. See also: <link=\"rule_keyword_respawn\">RESPAWN</link>."
+  },
+  {
+    "Id": "rule_keyword_hidden",
+    "Name": "Hidden",
+    "Type": "Rule",
+    "Description": "This Unit cannot be selected as the target of a <link=\"rule_chapter_8_7_3\">Ranged Attack</link> or any LoS-requiring <link=\"rule_keyword_special_ability\">Special Ability</link> unless the acting model is <link=\"rule_keyword_within\">Within</link> 4” of it. A HIDDEN Unit is immune to the <link=\"rule_keyword_impact\">IMPACT</link> keyword. A HIDDEN Unit may make an <link=\"rule_chapter_8_7_4\">Evade Roll</link> against every attack targeting it. HIDDEN is classified as a <link=\"rule_keyword_status\">Status</link>."
+  },
+  {
+    "Id": "rule_keyword_high_ground",
+    "Name": "High Ground",
+    "Type": "Rule",
+    "Description": "One of the elevation levels. Model is on the HIGH GROUND when standing on horizontal terrain of Size 3 or larger. <link=\"rule_chapter_2_1\">Models</link> on HIGH GROUND cannot Engage models on <link=\"rule_keyword_ground_level\">GROUND LEVEL</link>, and vice versa. Models on HIGH GROUND can Engage models on <link=\"rule_keyword_mid_ground\">MID GROUND</link> only if both models are adjacent to the same <link=\"rule_keyword_access_point\">ACCESS POINT</link> connecting their respective elevations. A model on HIGH GROUND has an <link=\"rule_keyword_effective_size\">Effective Size</link> equal to its own Size plus the terrain’s Size."
+  },
+  {
+    "Id": "rule_keyword_hits",
+    "Name": "Hits",
+    "Type": "Rule",
+    "Description": "The affected Unit suffers X automatic hits. Set X <link=\"rule_chapter_3_1\">dice</link> directly into the Armour Pool and proceed immediately to Armour Rolls (<link=\"rule_chapter_8_7_4\">Part 8.7.4</link>, Steps 3–4). Treat the Damage characteristic as Y. These hits do not generate Surge."
+  },
+  {
+    "Id": "rule_keyword_impact",
+    "Name": "Impact",
+    "Type": "Rule",
+    "Description": "Immediately after this Unit completes a successful <link=\"rule_chapter_8_7_7\">Charge</link>, check every model in the <link=\"rule_keyword_fighting_rank\">Fighting Rank</link> or <link=\"rule_keyword_supporting_rank\">Supporting Rank</link>. For each eligible model, generate X Impact <link=\"rule_chapter_3_1\">Dice</link>:\n• If the model is in the Fighting Rank or Supporting Rank against only one <link=\"rule_keyword_enemy\">Enemy</link> Unit, all X dice go to that Unit.\n• If the model is in the Fighting Rank or Supporting Rank against multiple Enemy <link=\"rule_chapter_2_2\">Units</link>, the <link=\"rule_keyword_controlling_player\">controlling player</link> may split the dice between those Units. Roll the allocated dice for each target Unit separately (this is the Impact Hit Roll). For each result of Y or higher, set 1 die into the target’s Armour Pool. Proceed immediately to Armour Rolls. These <link=\"rule_keyword_hits\">hits</link> do not generate <link=\"rule_chapter_8_7_4\">Surge</link> and treat Damage as 1."
+  },
+  {
+    "Id": "rule_keyword_impassable_terrain",
+    "Name": "Impassable Terrain",
+    "Type": "Rule",
+    "Description": "A terrain piece is Impassable if it has no <link=\"rule_keyword_access_point\">Access Point</link> connecting it to an adjacent <link=\"rule_keyword_elevation_level\">elevation level</link>. <link=\"rule_chapter_2_1\">Models</link> cannot move through, onto, or across IMPASSABLE TERRAIN, and no model may end its movement overlapping it. Models can move through Terrain of Sizes 0 and 1."
+  },
+  {
+    "Id": "rule_keyword_indirect_fire",
+    "Name": "Indirect Fire",
+    "Type": "Rule",
+    "Description": "Ranged Attacks with this weapon may ignore <link=\"rule_keyword_line_of_sight\">Line of Sight</link> when selecting a target and resolving Damage. The target must still be <link=\"rule_keyword_within\">Within</link> Range. If the target is not within Line of Sight, it may make an <link=\"rule_chapter_8_7_4\">Evade Roll</link> against this attack."
+  },
+  {
+    "Id": "rule_keyword_instant",
+    "Name": "Instant",
+    "Type": "Rule",
+    "Description": "<link=\"rule_keyword_enemy\">Enemy</link> <link=\"rule_chapter_2_2\">Units</link> cannot declare or resolve <link=\"rule_chapter_10_4\">Reaction abilities</link> in response to attacks made with this weapon."
+  },
+  {
+    "Id": "rule_keyword_leading_model",
+    "Name": "Leading Model",
+    "Type": "Rule",
+    "Description": "<link=\"rule_chapter_4_3\">The Leading Model</link> is a temporary reference point used to execute a Unit’s movement. Whenever a Unit performs a Move, Deploy, Run, <link=\"rule_chapter_8_7_7\">Charge</link>, <link=\"rule_chapter_8_5_4\">Disengage</link>, Close Ranks, or any action that instructs the Unit to nominate a Leading Model, the <link=\"rule_keyword_controlling_player\">Controlling Player</link> selects one model in the Unit. Move the Leading Model first, measuring its exact path. Then set the remaining <link=\"rule_chapter_2_1\">models</link> in valid <link=\"rule_chapter_4_4\">Coherency</link> around the Leading Model’s new position (<link=\"rule_chapter_4_4\">Part 4.4</link>). The Leading Model nomination ends once the action resolves. The Leading Model determines the Unit’s <link=\"rule_chapter_4_6\">Gap Clearance</link> category and interacts with terrain restrictions (<link=\"rule_chapter_4_6\">Part 4.6</link>)."
+  },
+  {
+    "Id": "rule_keyword_line_of_sight",
+    "Name": "Line Of Sight",
+    "Type": "Rule",
+    "Description": "Line of Sight determines what a model can see and, by extension, what it can target with attacks and abilities. All Line of Sight checks are resolved from a 2D top- down perspective, looking directly down at <link=\"rule_chapter_7\">the battlefield</link> from above. To determine if a model can see a target, trace an imaginary straight line from any part of the acting model’s base to any part of the target model’s base. Vertical height is never factored into the trace. If the trace does not pass through any <link=\"rule_keyword_blocking_terrain\">Blocking Terrain</link> (any terrain piece with an <link=\"rule_keyword_effective_size\">Effective Size</link> of 1 or greater), the target is <link=\"rule_keyword_visible\">Visible</link>. No further checks are required. If the trace passes through Blocking Terrain, the target is not automatically <link=\"rule_keyword_hidden\">hidden</link>. Apply the <link=\"rule_chapter_7_1_1\">Cover</link> rules (<link=\"rule_chapter_7_1_1\">Part 7.1.1</link>) to determine whether that terrain actually blocks the Line of Sight:\n• Full Cover: The terrain’s Effective Size is equal to or greater than the Effective Size of both the attacker and the target. Line of Sight is blocked.\n• Direct Cover: The trace passes through a terrain piece, and either the attacker or the target is <link=\"rule_keyword_within\">Within</link> 1” of that terrain, provided the terrain’s Effective Size is equal to or greater than the Effective Size of the model that is Within 1”. Line of Sight is blocked. Exception: If both the attacker and the target are Within 1” of the same terrain piece and Within 3” of each other, resolve Line of Sight normally.\n• Elevation Dead Zone: A model on <link=\"rule_keyword_high_ground\">HIGH GROUND</link> (Size 3+) cannot see a model at <link=\"rule_keyword_ground_level\">GROUND LEVEL</link> that is Within 1” of the base of the same terrain piece, and vice versa. The same Close Quarters exception applies. Each terrain piece is assessed independently. Terrain pieces do not combine their Effective Size or proximity. If no single terrain piece meets the requirements for Full Cover or Direct Cover, Line of Sight is not blocked, regardless of how many terrain pieces the trace passes through. A terrain piece’s footprint is defined by its physical base or outermost edges viewed from above. Gaps, windows, doorways, and open interiors within the footprint do block the Line of Sight unless players agree otherwise during Battlefield Setup (<link=\"rule_chapter_7_1\">Part 7.1</link>). <link=\"rule_keyword_flying\">Flying</link> <link=\"rule_chapter_2_1\">models</link> ignore the Full Cover rule. Direct Cover and the Elevation Dead Zone still apply. Treat a Flying model’s Effective Size as higher than the Effective Size of any terrain piece on the table (<link=\"rule_chapter_7_1_4\">Part 7.1.4</link>). Line of Sight is mutual: if Model A can see Model B, Model B can see Model A through the same trace."
+  },
+  {
+    "Id": "rule_keyword_locked_in",
+    "Name": "Locked In",
+    "Type": "Rule",
+    "Description": "When making a <link=\"rule_chapter_8_7_3\">Ranged Attack</link> with this weapon, add X to its RoA if the target Unit has <link=\"rule_keyword_stationary\">Stationary</link> <link=\"rule_keyword_status\">Status</link>."
+  },
+  {
+    "Id": "rule_keyword_long_range",
+    "Name": "Long Range",
+    "Type": "Rule",
+    "Description": "The maximum Range of this weapon increases to X”. Measure each attacking model’s distance to the target individually:\n• <link=\"rule_keyword_within\">Within</link> normal profile Range: attack resolves normally.\n• Beyond profile Range but Within X”: the model suffers a -1 <link=\"rule_keyword_modifier\">Modifier</link> to its Hit roll. If a Batch contains <link=\"rule_chapter_2_1\">models</link> at both Standard and Long Range, generate the total <link=\"rule_chapter_3_1\">dice</link> but roll the two groups separately to account for different Hit Target Numbers."
+  },
+  {
+    "Id": "rule_keyword_mid_ground",
+    "Name": "Mid Ground",
+    "Type": "Rule",
+    "Description": "One of the elevation levels. Model is on the MID GROUND when standing on horizontal terrain of Size 1 or 2. <link=\"rule_chapter_2_1\">Models</link> on MID GROUND can Engage models on <link=\"rule_keyword_high_ground\">HIGH GROUND</link> or <link=\"rule_keyword_ground_level\">GROUND LEVEL</link> only if both models are adjacent to the same <link=\"rule_keyword_access_point\">ACCESS POINT</link> connecting their respective elevations. A model on MID GROUND has an <link=\"rule_keyword_effective_size\">Effective Size</link> equal to its own Size plus the terrain’s Size."
+  },
+  {
+    "Id": "rule_keyword_mission_markers",
+    "Name": "Mission Markers",
+    "Type": "Rule",
+    "Description": "Numbered <link=\"rule_chapter_7_3_2\">Markers</link> are set on <link=\"rule_chapter_7\">the battlefield</link> during Setup at the coordinates shown on the Deployment Card. Each Marker is 32mm in diameter and has two sides: Activated or Deactivated. Markers 1 & 3 are Red, Markers 2 & 4 are Blue, and Marker 5 is Neutral. Mission Markers are the primary scoring mechanism. At the end of each Round, players determine Control of each Marker by comparing the Total <link=\"rule_keyword_current_supply_value\">Current Supply Value</link> of their eligible contesting <link=\"rule_chapter_2_2\">Units</link> (<link=\"rule_chapter_8_9_1\">Part 8.9.1</link>). A Unit may Contest a Mission Marker only if it is on the battlefield, In <link=\"rule_chapter_4_4\">Coherency</link>, and has at least one model <link=\"rule_keyword_within\">Within</link> 3” with <link=\"rule_keyword_line_of_sight\">Line of Sight</link> to the Marker on the same elevation. <link=\"rule_keyword_flying\">Flying</link> Units and <link=\"rule_keyword_burrowed\">BURROWED</link> Units cannot Contest or Control Mission Markers. Control is Sticky – once a player Controls a Marker, it remains under their control until the opponent reclaims it with a higher contesting Supply total. A tied result never transfers control."
+  },
+  {
+    "Id": "rule_keyword_modifier",
+    "Name": "Modifier",
+    "Type": "Rule",
+    "Description": "A Modifier adjusts the Target Number of a roll. Apply all <link=\"rule_chapter_3_4\">Modifiers</link> before rolling (<link=\"rule_chapter_3_4\">Part 3.4</link>).\n• +X Modifier: Makes the roll easier by reducing the Target Number by X.\n• -X Modifier: Makes the roll harder by increasing the Target Number by X. Modifiers from different named sources are cumulative unless otherwise stated. A Target Number can never be modified below 2+ or above 6+. Modifiers adjust the Target Number, not the <link=\"rule_chapter_3_1\">dice</link> result. A natural roll of 6 always succeeds, and a natural roll of 1 always fails, regardless of Modifiers (<link=\"rule_chapter_3_6\">Part 3.6</link>). A Modifier is distinct from a Fixed Addition (<link=\"rule_chapter_3_5\">Part 3.5</link>), which generates a value rather than adjusting a Target Number."
+  },
+  {
+    "Id": "rule_keyword_morph",
+    "Name": "Morph",
+    "Type": "Rule",
+    "Description": "To perform this ability, the <link=\"rule_keyword_controlling_player\">controlling player</link> must have sufficient <link=\"rule_keyword_available_supply\">Available Supply</link>. Set one (Name) model in Base-to-Base contact with a model from the active Unit, then remove X <link=\"rule_chapter_2_1\">models</link> from that Unit from <link=\"rule_chapter_7\">the battlefield</link>. The (Name) model forms a new Unit and cannot be set <link=\"rule_keyword_within\">Within</link> 1” of any <link=\"rule_keyword_enemy\">Enemy</link> Unit. <link=\"rule_keyword_place\">Place</link> an Activation Marker next to the new Unit; it cannot be Activated for the remainder of the Round."
+  },
+  {
+    "Id": "rule_keyword_non_lethal_damage",
+    "Name": "Non-Lethal Damage",
+    "Type": "Rule",
+    "Description": "The Unit suffers X points of Damage. Add this amount effectively to the Unit’s Damage Marker. Do not remove any <link=\"rule_chapter_2_1\">models</link>, even if Total Damage exceeds a model’s HP. If the Unit subsequently suffers standard Damage, the combined Total Damage triggers casualty removal normally."
+  },
+  {
+    "Id": "rule_keyword_on_creep",
+    "Name": "On Creep",
+    "Type": "Rule",
+    "Description": "A <link=\"rule_keyword_friendly\">Friendly</link> or <link=\"rule_keyword_enemy\">Enemy</link> Ground Zerg Unit is considered to be ON CREEP while it is <link=\"rule_keyword_within\">Within</link> 6” of any Creep Tumor Token or any model designated as a Source of Creep. While satisfying this condition, the Unit gains the ON CREEP keyword. This allows the Unit to trigger specific <link=\"rule_chapter_10_1\">Special Abilities</link> or Upgrades that require this state."
+  },
+  {
+    "Id": "rule_keyword_pierce",
+    "Name": "Pierce",
+    "Type": "Rule",
+    "Description": "When attacking a Unit with the specified Combat Tag, treat this weapon’s Damage characteristic as X."
+  },
+  {
+    "Id": "rule_keyword_pinpoint",
+    "Name": "Pinpoint",
+    "Type": "Rule",
+    "Description": "Ranged Attacks with this weapon may target <link=\"rule_keyword_engaged\">Engaged</link> <link=\"rule_keyword_enemy\">Enemy</link> <link=\"rule_chapter_2_2\">Units</link>, ignoring the standard Engagement <link=\"rule_keyword_status\">Status</link> restriction (overrides <link=\"rule_chapter_8_7_3\">Part 8.7.3</link>, Step 1)."
+  },
+  {
+    "Id": "rule_keyword_place",
+    "Name": "Place",
+    "Type": "Rule",
+    "Description": "Choose a <link=\"rule_keyword_leading_model\">Leading Model</link>. Remove it and set it <link=\"rule_keyword_wholly_within\">Wholly Within</link> X” of its starting position. Then remove and replace all other <link=\"rule_chapter_2_1\">models</link> in the Unit, maintaining <link=\"rule_chapter_4_4\">Coherency</link> (<link=\"rule_chapter_4_4\">Part 4.4</link>). PLACE ignores <link=\"rule_chapter_4_6\">Gap Clearance</link>, and elevation requirements. <link=\"rule_chapter_4_3\">The Leading Model</link> is removed and set directly, not moved along a path. However, they must end in a legal position and not <link=\"rule_keyword_within\">Within</link> the <link=\"rule_keyword_engagement_range\">Engagement Range</link> of any <link=\"rule_keyword_enemy\">enemy</link> model. Models using the PLACE effect during the Assault Phase may be set Within the Engagement Range of Enemy models (the Unit becomes <link=\"rule_keyword_engaged\">Engaged</link>)."
+  },
+  {
+    "Id": "rule_keyword_precision",
+    "Name": "Precision",
+    "Type": "Rule",
+    "Description": "After rolling to Hit, move up to X failed Attack <link=\"rule_chapter_3_1\">Dice</link> directly into the Armour Pool. Treat them as successful <link=\"rule_keyword_hits\">Hits</link> for all purposes, including <link=\"rule_chapter_8_7_4\">Surge</link>."
+  },
+  {
+    "Id": "rule_keyword_ready",
+    "Name": "Ready",
+    "Type": "Rule",
+    "Description": "The default state of a Tactical Card or Faction Card. A Ready card is face-up, its abilities are available, and it may be Exhausted to pay resource costs or activate its <link=\"rule_chapter_10_1\">Special Abilities</link>. All <link=\"rule_chapter_5_3\">Tactical Cards</link> and <link=\"rule_chapter_5_4\">Faction Cards</link> begin each Round in the Ready state. Cards that have been Exhausted are returned to Ready during <link=\"rule_chapter_8_9_5\">Cleanup & Refresh</link> (<link=\"rule_chapter_8_9_5\">Part 8.9.5</link>)."
+  },
+  {
+    "Id": "rule_keyword_repeatable",
+    "Name": "Repeatable",
+    "Type": "Rule",
+    "Description": "This ability is exempt from the Once Per Round limit (<link=\"rule_chapter_2_7_1\">Part 2.7.1</link>). It may be used multiple times per Round and per Activation, provided all Costs and trigger conditions are met each time."
+  },
+  {
+    "Id": "rule_keyword_reserves",
+    "Name": "Reserves",
+    "Type": "Rule",
+    "Description": "A holding area off <link=\"rule_chapter_7\">the battlefield</link> where <link=\"rule_chapter_2_2\">Units</link> remain until they are deployed. All Units begin the game in Reserves. While in Reserves, a Unit:\n• Cannot be targeted by attacks or abilities unless an ability explicitly states it affects Units in Reserves.\n• Cannot use <link=\"rule_chapter_10_2\">Active Abilities</link>, <link=\"rule_chapter_10_3\">Passive Abilities</link>, or <link=\"rule_chapter_10_4\">Reaction Abilities</link> unless the ability explicitly states otherwise.\n• Cannot Control or Contest <link=\"rule_keyword_mission_markers\">Mission Markers</link>.\n• Does not contribute its <link=\"rule_keyword_current_supply_value\">Current Supply Value</link> to the player’s Total Current Supply on the battlefield.\n• Retains all equipment, upgrades, and weapon selections assigned during Army Building.\n• A Unit leaves Reserves when it is deployed to the battlefield via a <link=\"rule_chapter_8_5_5\">Deploy</link> action (<link=\"rule_chapter_8_5_5\">Part 8.5.5</link>). Some rules may return a Unit to Reserves during play – see <link=\"rule_chapter_8_5_5\">Part 8.5.5</link> for how Damage, effects, and Supply are handled. In the final Round of the game, all Units still in Reserves that are not deployed are treated as Destroyed for scoring purposes (<link=\"rule_chapter_8_10\">Part 8.10</link>)."
+  },
+  {
+    "Id": "rule_keyword_respawn",
+    "Name": "Respawn",
+    "Type": "Rule",
+    "Description": "Return up to X Destroyed <link=\"rule_chapter_2_1\">models</link> to this Unit.\n• The return cannot increase the Unit’s <link=\"rule_keyword_current_supply_value\">Current Supply Value</link>. Do not return a model if doing so would push the Unit into a higher Supply bracket.\n• Set each returned model in Base-to-Base contact with an existing model in the Unit. Returned models cannot be set <link=\"rule_keyword_within\">Within</link> the <link=\"rule_keyword_engagement_range\">Engagement Range</link> of any <link=\"rule_keyword_enemy\">Enemy</link> Unit.\n• If a model cannot be set legally, it cannot be returned."
+  },
+  {
+    "Id": "rule_keyword_shielded",
+    "Name": "Shielded",
+    "Type": "Rule",
+    "Description": "If a Shield value is present on a Unit Card, add it to the Hit Points (HP) of the first model. The Unit is Shielded. The Unit loses its Shielded <link=\"rule_keyword_status\">Status</link> when the Total Damage assigned to it exceeds its Shield value or when the first model in the Unit is removed. The Shielded Status is referenced by other abilities. Losing Shielded Status does not remove any remaining Hit Points, it only ends effects that require the Unit to be Shielded. Shielded Status cannot be restored by <link=\"rule_keyword_heal\">HEAL</link>."
+  },
+  {
+    "Id": "rule_keyword_sidearm",
+    "Name": "Sidearm",
+    "Type": "Rule",
+    "Description": "When this Unit performs a <link=\"rule_chapter_8_7_3\">Ranged Attack</link> or Close Combat Attack, <link=\"rule_chapter_2_1\">models</link> equipped with this weapon may use it, ignoring the normal restriction of one weapon per model (<link=\"rule_chapter_8_7_3\">Part 8.7.3</link>). If a model is equipped with multiple SIDEARM weapons, it may use all of them in the same activation. Attacks made with each SIDEARM must be resolved in separate Batches. Because they are separate Batches, SIDEARM attacks may target a different <link=\"rule_keyword_enemy\">Enemy</link> Unit than the Unit’s other weapons, subject to all standard target eligibility requirements."
+  },
+  {
+    "Id": "rule_keyword_siege_mode",
+    "Name": "Siege Mode",
+    "Type": "Rule",
+    "Description": "While a Unit has the SIEGE MODE <link=\"rule_keyword_status\">Status</link>, apply the following rules:\n• This Unit cannot perform the Move, <link=\"rule_chapter_8_5_4\">Disengage</link>, Run, <link=\"rule_chapter_8_7_7\">Charge</link> or Close Ranks actions.\n• Weapons profile with Siege Mode Status can only be used while this unit has SIEGE MODE Status.\n• While this unit has Siege Mode Status any other weapons can’t be used.\n• When this Unit is returned to <link=\"rule_keyword_reserves\">Reserves</link>, it loses the SIEGE MODE Status."
+  },
+  {
+    "Id": "rule_keyword_special_ability",
+    "Name": "Special Ability",
+    "Type": "Rule",
+    "Description": "A Special Ability is any named ability printed on a Unit Card, Tactical Card, or Faction Card. Every Special Ability falls into one of three categories: <link=\"rule_chapter_10_2\">Active Ability</link>, <link=\"rule_chapter_10_3\">Passive Ability</link>, or <link=\"rule_chapter_10_4\">Reaction Ability</link> (<link=\"rule_chapter_2_7\">Part 2.7</link>).\n• Active Abilities require the Unit to be Activated and are triggered immediately before or after an action. Each named Active Ability may be used once per Round per Unit unless it has the <link=\"rule_keyword_repeatable\">REPEATABLE</link> keyword.\n• Passive Abilities are always in effect as long as the Unit is on <link=\"rule_chapter_7\">the battlefield</link>.\n• Reaction Abilities fire in response to a specific trigger. Each player may resolve only one Reaction per Activation, and each named Reaction Ability may be used only once per Round per Unit. All three types are inactive while the Unit is in <link=\"rule_keyword_reserves\">Reserves</link> unless the ability explicitly states otherwise. A Unit cannot be affected by multiple instances of the same- named Special Ability simultaneously."
+  },
+  {
+    "Id": "rule_keyword_specialist",
+    "Name": "Specialist",
+    "Type": "Rule",
+    "Description": "A Unit may include only one model equipped with this weapon. Multiple upgrades configuring more than one instance of this weapon are not permitted (Part 9.1.7)."
+  },
+  {
+    "Id": "rule_keyword_spillover",
+    "Name": "Spillover",
+    "Type": "Rule",
+    "Description": "Additional <link=\"rule_keyword_hits\">hits</link> generated by a Template Weapon that strike <link=\"rule_chapter_2_1\">models</link> outside the Primary target Unit. When a Blast Template (BT) or Flamer Template (FT) covers models belonging to <link=\"rule_chapter_2_2\">Units</link> other than the Primary target, those models are resolved as Spillover. Each affected Unit is resolved as a separate Batch. Spillover Batches do not apply Rate of Attack <link=\"rule_chapter_3_4\">modifiers</link> and do not generate <link=\"rule_chapter_8_7_4\">Surge</link>. Spillover may affect both <link=\"rule_keyword_friendly\">Friendly</link> and <link=\"rule_keyword_enemy\">Enemy</link> Units. See <link=\"rule_chapter_8_7_6\">Part 8.7.6</link> for the full Template Weapon procedure."
+  },
+  {
+    "Id": "rule_keyword_stationary",
+    "Name": "Stationary",
+    "Type": "Rule",
+    "Description": "At the Start of the Round, all <link=\"rule_chapter_2_2\">Units</link> gain this <link=\"rule_keyword_status\">Status</link>. A Unit immediately loses this Status if any model in this Unit moves, is moved, or is PLACED for any reason."
+  },
+  {
+    "Id": "rule_keyword_status",
+    "Name": "Status",
+    "Type": "Rule",
+    "Description": "A category of keyword representing a temporary or persistent operational mode, condition, or statistic <link=\"rule_keyword_modifier\">modifier</link> affecting a Unit (e.g. <link=\"rule_keyword_burrowed\">BURROWED</link>, <link=\"rule_keyword_siege_mode\">SIEGE MODE</link>). Unless stated otherwise, Statuses aren’t removed during the Scoring and Cleanup Phase. They stay on the Unit until they are removed by other means A Unit’s active Status is visually tracked using Status <link=\"rule_chapter_7_3_2\">Markers</link> set next to the Unit:\n• Modes: Use Plastic Markers to track operational shifts (e.g. SIEGE MODE, BURROWED). Those Status Markers have <link=\"rule_keyword_stay_in_play\">STAY IN PLAY</link>.\n• Other Statuses: Use Markers to track other effects affecting the Unit. Positive effects are tracked with <link=\"rule_keyword_buff\">Buff</link> Markers (Blue), and negative effects are tracked with <link=\"rule_keyword_debuff\">Debuff</link> Markers (Red). Those Status Markers have STAY IN PLAY."
+  },
+  {
+    "Id": "rule_keyword_stay_in_play",
+    "Name": "Stay In Play",
+    "Type": "Rule",
+    "Description": "This Token, Marker or Ability Effect persists through <link=\"rule_chapter_8_9_5\">Cleanup & Refresh</link> (overrides <link=\"rule_chapter_8_9_5\">Part 8.9.5</link>). It remains until a specific condition removes it (e.g. destroyed or duration expires)."
+  },
+  {
+    "Id": "rule_keyword_summon",
+    "Name": "Summon",
+    "Type": "Rule",
+    "Description": "Set the <link=\"rule_keyword_leading_model\">Leading Model</link> of the named Unit in Base- to-Base contact with the Parent Unit. Set remaining <link=\"rule_chapter_2_1\">models</link> In <link=\"rule_chapter_4_4\">Coherency</link>. Models cannot be set <link=\"rule_keyword_within\">Within</link> the <link=\"rule_keyword_engagement_range\">Engagement Range</link> of any <link=\"rule_keyword_enemy\">Enemy</link> Unit. Set an Activation Marker next to the summoned Unit – it cannot be Activated during the Phase in which it was summoned. In subsequent Phases, this Unit must be Activated immediately after its Parent Unit’s activation ends, before the opponent’s next activation. The Summoned Unit cannot be set Within the opponent’s <link=\"rule_keyword_zone_of_influence\">Zone of Influence</link>. The player must have sufficient <link=\"rule_keyword_available_supply\">Available Supply</link>. If the Unit’s <link=\"rule_keyword_current_supply_value\">Current Supply Value</link> would cause Total Current Supply to exceed <link=\"rule_chapter_8_3_1\">the Supply Pool</link>, it cannot be Summoned. If the Parent is not present on <link=\"rule_chapter_7\">the battlefield</link>, this Unit can be Activated normally."
+  },
+  {
+    "Id": "rule_keyword_supply_value",
+    "Name": "Supply Value",
+    "Type": "Rule",
+    "Description": "The Supply Value of a Unit is the value shown on the Unit Card’s Supply Profile corresponding to the Unit’s current model count. A Unit’s starting Supply Value is determined during Army Building by the Composition Option selected (Part 9.1.6) and defines how many Army Slots the Unit occupies. Supply Value is a dynamic characteristic – as casualties reduce the model count into a lower bracket on <link=\"rule_chapter_6_1\">the Supply Profile</link>, the Supply Value decreases. Update immediately when a casualty moves the Unit into a lower bracket. Supply is used for Deployment, Mission Marker Control, <link=\"rule_keyword_tactical_mass\">Tactical Mass</link>, and scoring."
+  },
+  {
+    "Id": "rule_keyword_supporting_rank",
+    "Name": "Supporting Rank",
+    "Type": "Rule",
+    "Description": "A model is in the Supporting Rank if it is in Base-to- Base contact with a <link=\"rule_keyword_friendly\">Friendly</link> model from the same Unit that is in the <link=\"rule_keyword_fighting_rank\">Fighting Rank</link>, but is not itself <link=\"rule_keyword_within\">Within</link> the <link=\"rule_keyword_engagement_range\">Engagement Range</link> of an <link=\"rule_keyword_enemy\">Enemy</link> model. <link=\"rule_chapter_2_1\">Models</link> in the Supporting Rank may strike with their Combat Phase weapons as though they were in the fight. See <link=\"rule_chapter_8_8_1\">Part 8.8.1</link>, Step 2."
+  },
+  {
+    "Id": "rule_keyword_tactical_mass",
+    "Name": "Tactical Mass",
+    "Type": "Rule",
+    "Description": "A Unit has Tactical Mass when its <link=\"rule_keyword_current_supply_value\">Current Supply Value</link> exceeds the Combined Current Supply Value of all <link=\"rule_keyword_enemy\">Enemy</link> <link=\"rule_chapter_2_2\">Units</link> it is <link=\"rule_keyword_engaged\">Engaged</link> with. A Unit with Tactical Mass ignores the <link=\"rule_chapter_8_5_4\">Disengage</link> penalty (<link=\"rule_chapter_8_5_4\">Part 8.5.4</link>): it may <link=\"rule_chapter_8_7_3\">Ranged Attack</link> and <link=\"rule_chapter_8_7_7\">Charge</link> normally in the following Assault Phase after Disengaging."
+  },
+  {
+    "Id": "rule_keyword_tough",
+    "Name": "Tough",
+    "Type": "Rule",
+    "Description": "When this Unit resolves an <link=\"rule_chapter_8_7_4\">Armour Roll</link>, change up to X failed results into successes. Treat them as meeting or exceeding the Armour characteristic – discard them without moving to the Damage Pool."
+  },
+  {
+    "Id": "rule_keyword_unengaged",
+    "Name": "Unengaged",
+    "Type": "Rule",
+    "Description": "A Ground Unit is Unengaged when none of its <link=\"rule_chapter_2_1\">models</link> is <link=\"rule_keyword_within\">Within</link> 1” of any <link=\"rule_keyword_enemy\">Enemy</link> Ground model, or when terrain restrictions (<link=\"rule_chapter_7_2_1\">Part 7.2.1</link>) prevent valid Engagement despite proximity. <link=\"rule_keyword_flying\">Flying</link> <link=\"rule_chapter_2_2\">Units</link> are always Unengaged. An Unengaged Unit may perform a standard Move, Run, <link=\"rule_chapter_8_7_3\">Ranged Attack</link>, or <link=\"rule_chapter_8_7_7\">Charge</link> without restriction. Only Unengaged Units may be selected to perform a <link=\"rule_chapter_8_5_2\">Move</link> action (<link=\"rule_chapter_8_5_2\">Part 8.5.2</link>)."
+  },
+  {
+    "Id": "rule_keyword_visible",
+    "Name": "Visible",
+    "Type": "Rule",
+    "Description": "A model is Visible to another model if a valid <link=\"rule_keyword_line_of_sight\">Line of Sight</link> trace can be drawn between them (<link=\"rule_chapter_7_1\">Part 7.1</link>). If the trace does not pass through any <link=\"rule_keyword_blocking_terrain\">Blocking Terrain</link>, the target is Visible without further checks. If the trace passes through Blocking Terrain, apply the <link=\"rule_chapter_7_1_1\">Cover</link> rules (<link=\"rule_chapter_7_1_1\">Part 7.1.1</link>) – the target remains Visible unless Full Cover or Direct Cover blocks the Line of Sight. A model with the <link=\"rule_keyword_hidden\">HIDDEN</link> keyword is not Visible to any model more than 4” away, regardless of Line of Sight."
+  },
+  {
+    "Id": "rule_keyword_wholly_within",
+    "Name": "Wholly Within",
+    "Type": "Rule",
+    "Description": "A model is Wholly Within a distance only if its entire base sits inside that range - no part of the base may extend beyond the edge. A Unit is Wholly Within a distance only if every model in the Unit satisfies this condition. Wholly Within is a stricter requirement than <link=\"rule_keyword_within\">Within</link> and is used for <link=\"rule_chapter_4_4\">Coherency</link> checks (<link=\"rule_chapter_4_4\">Part 4.4</link>), certain ability areas of effect, and Mission Marker eligibility. When a rule specifies Wholly Within, partial overlap is not sufficient."
+  },
+  {
+    "Id": "rule_keyword_within",
+    "Name": "Within",
+    "Type": "Rule",
+    "Description": "A model is Within a distance if any part of its base touches or crosses into that range. A Unit is Within a distance if at least one model in the Unit meets this condition. Within is a less restrictive requirement than <link=\"rule_keyword_wholly_within\">Wholly Within</link>. When a rule specifies Within without the word “Wholly,” partial overlap is sufficient."
+  },
+  {
+    "Id": "rule_keyword_zone_of_influence",
+    "Name": "Zone Of Influence",
+    "Type": "Rule",
+    "Description": "A restricted area of <link=\"rule_chapter_7\">the battlefield</link> extending 6” inward from a player’s <link=\"rule_keyword_entry_edge\">Entry Edge</link>, as defined by the Deployment Card. Where the Entry Edge does not run the full length of a table edge, the Zone of Influence is marked using Zone of Influence <link=\"rule_chapter_7_3_2\">Markers</link> set at the corners of the Entry Edge. <link=\"rule_chapter_2_2\">Units</link> arriving from <link=\"rule_keyword_reserves\">Reserves</link> cannot end their deployment <link=\"rule_keyword_within\">Within</link> the opponent’s Zone of Influence. This restriction applies to all forms of arrival - whether by standard deployment, transport, or <link=\"rule_keyword_summon\">SUMMON</link> (<link=\"rule_chapter_8_3_3\">Part 8.3.3</link>). The Zone of Influence does not affect Units already on the battlefield. It does not restrict movement, block <link=\"rule_keyword_line_of_sight\">Line of Sight</link>, or interact with any other rule once a Unit has completed its arrival."
+  },
+  {
+    "Id": "rule_chapter_2",
+    "Name": "2 Core Concepts",
+    "Type": "Rule",
+    "Description": "<i>Core rulebook, p. 28</i>\n\nBefore the first shot is fired, every <link=\"pdf_Protoss_rule_artanis_any_phase_commander\">commander</link> must understand the language of <link=\"rule_chapter_7\">the battlefield</link>. This Part covers the basic building blocks of the game: models, Units, measurements, and the terminology used throughout the rest of the rulebook.\n\n<link=\"rule_chapter_2_1\">2.1 Models</link>\n\n<link=\"rule_chapter_2_2\">2.2 Units</link>\n\n<link=\"rule_chapter_2_3\">2.3 Bases</link>\n\n<link=\"rule_chapter_2_4\">2.4 Tags</link>\n\n<link=\"rule_chapter_2_5\">2.5 Player Roles</link>\n\n<link=\"rule_chapter_2_6\">2.6 Keywords And Rule Priority</link>\n\n<link=\"rule_chapter_2_7\">2.7 Ability Types</link>"
+  },
+  {
+    "Id": "rule_chapter_2_1",
+    "Name": "2.1 Models",
+    "Type": "Rule",
+    "Description": "<i>Core rulebook, p. 28</i>\n\nEvery Archon Studio miniature in a player’s army is a model – a single entity (Marine, Zergling, Ultralisk) mounted on its own independent base. All rules apply to the model through its base. The physical miniature above the base is purely for aesthetic purposes."
+  },
+  {
+    "Id": "rule_chapter_2_2",
+    "Name": "2.2 Units",
+    "Type": "Rule",
+    "Description": "<i>Core rulebook, p. 28</i>\n\nAn army is made up of Units. A Unit is one or more <link=\"rule_chapter_2_1\">models</link> acting together as a single formation.\n\n• Composition: Each Unit Card specifies the number of models it contains. An infantry squad may have many soldiers; a vehicle may operate alone.\n\n• Cohesion: Models <link=\"rule_keyword_within\">within</link> a Unit fight and move as a single entity. They are bound by the rules of <link=\"rule_chapter_4_4\">Coherency</link> (<link=\"rule_chapter_4_4\">Part 4.4</link>), representing the discipline and communication required to operate on a battlefield.\n\n• <link=\"rule_keyword_friendly\">Friendly</link> & <link=\"rule_keyword_enemy\">Enemy</link>: A player’s own Units are Friendly. The opponent’s Units are Enemies."
+  },
+  {
+    "Id": "rule_chapter_2_3",
+    "Name": "2.3 Bases",
+    "Type": "Rule",
+    "Description": "<i>Core rulebook, p. 28</i>\n\nEvery model stands on a base, and that base is the single most important physical object in the game. It does not matter how a miniature is posed, whether a Zealot is mid-<link=\"pdf_Zerg_rule_kerrigan_swarm_raptors_zergling_assault_phase_leap\">leap</link> or a Hydralisk is rearing back to strike; the rules see only the base. Every measurement, every <link=\"rule_keyword_line_of_sight\">Line of Sight</link> check, and every question about whether\n\ntwo <link=\"rule_chapter_2_1\">models</link> are touching or overlapping is resolved by looking at their bases, nothing else.\n\nEvery model must be mounted on the correct base size as specified on its Unit Card. Using the wrong base size changes a model’s physical footprint and directly affects gameplay, so consistency matters.\n\n• No Overlap: Bases may never overlap. If a model cannot be set without its base overlapping another base or <link=\"rule_keyword_impassable_terrain\">impassable terrain</link>, it simply cannot go there.\n\n• Scenic Freedom: Players are free to add scenic basing, custom conversions, player dramatic poses, and flight stands. The game encourages creativity – just know that, for rules purposes, the base and the Size Characteristic on the Unit Card are the only things that count. A Marine standing on a pile of rubble is no taller than one standing on a bare base. A Mutalisk on a towering flight stand has the same Size as one on a short peg.\n\n• Flight Stands: If a model uses a flight stand, the bottom of the stand counts as the model’s base for all measurements and positioning.\n\n• Wobbly Model Syndrome: When a model cannot sit flat on the terrain, both players should agree on where the model would stand if the surface allowed it. Set the model as close to that spot as possible, or use a marker to indicate its actual position. The model is treated as occupying the agreed position for all purposes."
+  },
+  {
+    "Id": "rule_chapter_2_4",
+    "Name": "2.4 Tags",
+    "Type": "Rule",
+    "Description": "<i>Core rulebook, p. 29</i>\n\nTags are <link=\"rule_chapter_2_6_1\">keywords</link> printed at the bottom of each Unit Card. They allow rules to target specific types of <link=\"rule_chapter_2_2\">Units</link> without repeating lengthy definitions.\n\n<link=\"rule_chapter_2_4_1\">2.4.1 Faction Tags</link>\n\n<link=\"rule_chapter_2_4_2\">2.4.2 Combat Tags</link>"
+  },
+  {
+    "Id": "rule_chapter_2_4_1",
+    "Name": "2.4.1 Faction Tags",
+    "Type": "Rule",
+    "Description": "<i>Core rulebook, p. 29</i>\n\n<link=\"rule_keyword_faction_tags\">Faction Tags</link> identify a Unit’s allegiance.\n\n• Race <link=\"rule_chapter_2_4\">Tags</link>: Terran, Zerg, Protoss.\n\n• Sub-Faction Tags: Specific broods or organisations, e.g., Kerrigan’s Swarm, Raynor’s Raiders.\n\n• Function: During Army Building, a player may include only <link=\"rule_chapter_2_2\">Units</link> and <link=\"rule_chapter_5_3\">Tactical Cards</link> that share Faction Tags with the chosen Faction Card."
+  },
+  {
+    "Id": "rule_chapter_2_4_2",
+    "Name": "2.4.2 Combat Tags",
+    "Type": "Rule",
+    "Description": "<i>Core rulebook, p. 29</i>\n\n<link=\"rule_keyword_combat_tags\">Combat Tags</link> identify a Unit’s physical nature and tactical class.\n\nType <link=\"rule_chapter_2_4\">Tags</link>: Armoured, Biological, Light, Mechanical, Psionic, <link=\"rule_keyword_flying\">Flying</link>, and Ground.\n\n• Targeting: Some weapons can fire only at specific tags (e.g., “Target: Flying”).\n\n• <link=\"rule_chapter_8_7_4\">Surge</link>: A weapon’s Surge efficiency triggers only when the target has the Combat Tag listed in the weapon’s Surge Type (<link=\"rule_chapter_8_7_4\">Part 8.7.4</link>).\n\n• Bonuses: Abilities such as <link=\"rule_keyword_anti_evade\">ANTI-EVADE</link> (X) or <link=\"rule_keyword_pierce\">PIERCE</link> (X) often apply only against specific tags."
+  },
+  {
+    "Id": "rule_chapter_2_5",
+    "Name": "2.5 Player Roles",
+    "Type": "Rule",
+    "Description": "<i>Core rulebook, p. 29</i>\n\nAt any given moment, each player occupies one or more of the following roles. These terms appear throughout the rules and determine who makes decisions, who rolls <link=\"rule_chapter_3_1\">dice</link>, and who is affected by an ability.\n\n• <link=\"rule_keyword_active_player\">Active Player</link>: The player whose turn it is to act. Some rules, particularly Reactions, refer to this to determine priority when both sides respond to the same event.\n\n• <link=\"rule_keyword_controlling_player\">Controlling Player</link>: The player who commands a specific Unit, model, or Token. They make all decisions and roll all dice. Certain abilities (e.g., Neural Parasite) can transfer control; the new controller then acts in every respect as though the Unit were their own.\n\n• <link=\"rule_keyword_friendly\">Friendly</link> and <link=\"rule_keyword_enemy\">Enemy</link>: Anything belonging to the controlling player or their teammates is Friendly. Anything belonging to an opponent is an enemy. In team games, all teammates are Friendly to one another."
+  },
+  {
+    "Id": "rule_chapter_2_6",
+    "Name": "2.6 Keywords And Rule Priority",
+    "Type": "Rule",
+    "Description": "<i>Core rulebook, p. 29</i>\n\n<link=\"rule_chapter_2_6_1\">2.6.1 Keywords</link>\n\n<link=\"rule_chapter_2_6_2\">2.6.2 The Priority</link>"
+  },
+  {
+    "Id": "rule_chapter_2_6_1",
+    "Name": "2.6.1 Keywords",
+    "Type": "Rule",
+    "Description": "<i>Core rulebook, p. 29</i>\n\nKeywords are written in BOLD CAPS (e.g. <link=\"rule_keyword_sidearm\">SIDEARM</link>, <link=\"rule_keyword_pierce\">PIERCE</link>, <link=\"rule_keyword_hidden\">HIDDEN</link>). A keyword always means the same thing, regardless of the Unit in which it appears. Full definitions are in <link=\"rule_chapter_11\">Part 11</link>: Keyword Glossary and Definitions.\n\nKeywords do not stack. Gaining the same keyword twice provides no extra benefit. If a keyword has a numeric value (e.g., <link=\"rule_keyword_precision\">PRECISION</link> (1) and PRECISION (2)), use only the highest value."
+  },
+  {
+    "Id": "rule_chapter_2_6_2",
+    "Name": "2.6.2 The Priority",
+    "Type": "Rule",
+    "Description": "<i>Core rulebook, p. 29</i>\n\nSpecific Rules take precedence over General Rules. If text on a Unit Card, Mission Card, or <link=\"rule_keyword_special_ability\">Special Ability</link> contradicts the Core Rules, the card or ability takes precedence."
+  },
+  {
+    "Id": "rule_chapter_2_7",
+    "Name": "2.7 Ability Types",
+    "Type": "Rule",
+    "Description": "<i>Core rulebook, p. 29</i>\n\nEvery <link=\"rule_keyword_special_ability\">Special Ability</link> falls into one of three categories. Understanding the difference is essential, as it determines when the ability can be used, whether it requires a conscious decision, and what happens if both players want to act at the same time. <link=\"rule_chapter_10\">Part 10</link> covers these in full detail; what follows is a working summary.\n\n<link=\"rule_chapter_2_7_1\">2.7.1 Active Abilities</link>\n\n<link=\"rule_chapter_2_7_2\">2.7.2 Passive Abilities</link>\n\n<link=\"rule_chapter_2_7_3\">2.7.3 Reaction Abilities</link>"
+  },
+  {
+    "Id": "rule_chapter_2_7_1",
+    "Name": "2.7.1 Active Abilities",
+    "Type": "Rule",
+    "Description": "<i>Core rulebook, p. 29</i>\n\n<link=\"rule_chapter_10_2\">Active Abilities</link> are deliberate choices, a stim injection, a mode switch, a called shot. They require the Unit to be Activated, and must be triggered immediately before declaring an action or immediately after one fully resolves. A player cannot interrupt an action mid-flow to use one.\n\nA Unit in <link=\"rule_keyword_reserves\">Reserves</link> cannot use Active Abilities unless the ability explicitly states otherwise. Each named Active Ability may be used only once per Round by a specific Unit, unless it has the <link=\"rule_keyword_repeatable\">REPEATABLE</link> keyword. Effects granted by Active Abilities expire at the End of the Current Round unless otherwise stated."
+  },
+  {
+    "Id": "rule_chapter_2_7_2",
+    "Name": "2.7.2 Passive Abilities",
+    "Type": "Rule",
+    "Description": "<i>Core rulebook, p. 30</i>\n\n<link=\"rule_chapter_10_3\">Passive Abilities</link> are always active. They represent innate traits, permanent equipment, or biological adaptations that require no decision to activate; they simply function as long as the Unit is on <link=\"rule_chapter_7\">the battlefield</link>.\n\nLike <link=\"rule_chapter_10_2\">Active Abilities</link>, Passive Abilities are inactive while the Unit is in <link=\"rule_keyword_reserves\">Reserves</link>, unless otherwise stated."
+  },
+  {
+    "Id": "rule_chapter_2_7_3",
+    "Name": "2.7.3 Reaction Abilities",
+    "Type": "Rule",
+    "Description": "<i>Core rulebook, p. 30</i>\n\n<link=\"rule_chapter_10_4\">Reaction Abilities</link> are <link=\"rule_chapter_7\">the battlefield</link>’s reflexes. They fire in response to a specific trigger, such as an incoming attack, an <link=\"rule_keyword_enemy\">Enemy</link> <link=\"rule_chapter_8_7_7\">Charge</link>, or a model being Destroyed, and allow a player to act outside the normal activation sequence. The catch is timing: a Reaction must be declared at the exact moment its trigger occurs. If the moment passes, the opportunity is gone.\n\nEach player may resolve only one Reaction per Activation.\n\nEach named Reaction Ability may be used only once per Round by a specific Unit. This limit applies across the entire Round (all Phases and all Activations). A single Unit cannot use the same-named Reaction more than once per Round, even on different triggers.\n\nDifferent <link=\"rule_chapter_2_2\">Units</link> may each use the same named Reaction once per Round.\n\nIf both players want to react to the same trigger, the <link=\"rule_keyword_active_player\">Active Player</link> resolves their Reaction first.\n\nLike Active and <link=\"rule_chapter_10_3\">Passive Abilities</link>, Reaction Abilities cannot be used while the Unit is in <link=\"rule_keyword_reserves\">Reserves</link> unless stated otherwise.\n\nEXAMPLE: If a Zealot Unit is attacked, it may use OR, not both in the same Enemy Activation.\n\nIf a Marine Unit is attacked, and it uses for its <link=\"rule_chapter_8_7_4\">Armour Roll</link>, the Medic Unit behind will not be able to use its in the same Enemy Activation."
+  },
+  {
+    "Id": "rule_chapter_3",
+    "Name": "3 Dice And Rolling",
+    "Type": "Rule",
+    "Description": "<i>Core rulebook, p. 31</i>\n\nChance plays a vital role on <link=\"rule_chapter_7\">the battlefield</link>, as a wellaimed volley can harmlessly ricochet off reinforced armour, or a desperate last stand can turn the tide of an entire battle. In this Part, we’ll discuss how dice are used to resolve uncertain outcomes, from basic rolls and modifiers to the Roll-Off, which settles disputes and decides initiative.\n\n<link=\"rule_chapter_3_1\">3.1 Dice</link>\n\n<link=\"rule_chapter_3_2\">3.2 Roll-Offs</link>\n\n<link=\"rule_chapter_3_3\">3.3 Re-Rolls</link>\n\n<link=\"rule_chapter_3_4\">3.4 Modifiers</link>\n\n<link=\"rule_chapter_3_5\">3.5 Fixed Additions</link>\n\n<link=\"rule_chapter_3_6\">3.6 Automatic Results</link>\n\n<link=\"rule_chapter_3_7\">3.7 Tests</link>\n\n<link=\"rule_chapter_3_8\">3.8 Cocked Dice</link>"
+  },
+  {
+    "Id": "rule_chapter_3_1",
+    "Name": "3.1 Dice",
+    "Type": "Rule",
+    "Description": "<i>Core rulebook, p. 31</i>\n\nThe game uses standard six-sided dice (D6).\n\n• D6: Roll one die. The result is the number shown.\n\n• D3: Roll one D6 and halve the result, rounding up:\n\n• 1–2 = 1,\n\n• 3–4 = 2,\n\n• 5–6 = 3.\n\n• Multiple Dice (2D6, 3D6): Roll the stated number of dice and add the results together."
+  },
+  {
+    "Id": "rule_chapter_3_2",
+    "Name": "3.2 Roll-Offs",
+    "Type": "Rule",
+    "Description": "<i>Core rulebook, p. 31</i>\n\nWhen a rule calls for a Roll-Off, both players roll 2D6. The higher total wins. Ties are re-rolled until a winner is determined."
+  },
+  {
+    "Id": "rule_chapter_3_3",
+    "Name": "3.3 Re-Rolls",
+    "Type": "Rule",
+    "Description": "<i>Core rulebook, p. 31</i>\n\nSome abilities grant the chance to re-roll, allowing a second attempt when the first result is unfavourable. Pick up the die and roll it again. The new result replaces the original, even if it is worse. Unless stated otherwise, a re-roll applies to a single die. If an ability specifies rerolling multiple <link=\"rule_chapter_3_1\">dice</link>, follow its instructions."
+  },
+  {
+    "Id": "rule_chapter_3_4",
+    "Name": "3.4 Modifiers",
+    "Type": "Rule",
+    "Description": "<i>Core rulebook, p. 31</i>\n\nModifiers adjust the Target Number of a roll. Apply all modifiers before rolling.\n\n• +X <link=\"rule_keyword_modifier\">Modifier</link>: Makes the roll easier, reducing the Target Number by X.\n\n• -X Modifier: Makes the roll harder, increasing the Target Number by X.\n\n• Modifiers from different named sources are cumulative unless otherwise stated.\n\nEXAMPLE: A Marine needs 5+ to hit.\n\n• A +1 Modifier reduces the Target Number by 1. He now <link=\"rule_keyword_hits\">hits</link> on 4+.\n\n• A -1 Modifier increases the Target Number by 1. He now hits on 6+.\n\nAbility text: “+1 to Armour” means the <link=\"rule_chapter_8_7_4\">Armour Roll</link> improves (Target Number decreases). “-1 to Hit” means hitting becomes harder (Target Number increases).\n\nA Target Number can never be modified below 2+ or above 6+.\n\nA Null Value (-) indicates that the capability does not exist. No modifier can grant a roll where a Null Value applies."
+  },
+  {
+    "Id": "rule_chapter_3_5",
+    "Name": "3.5 Fixed Additions",
+    "Type": "Rule",
+    "Description": "<i>Core rulebook, p. 31</i>\n\nIf a rule says “D3+1”, roll the die and add 1 to the result. This is not a <link=\"rule_keyword_modifier\">modifier</link> to a Target Number – it generates a value (e.g. 4 Damage instead of 3)."
+  },
+  {
+    "Id": "rule_chapter_3_6",
+    "Name": "3.6 Automatic Results",
+    "Type": "Rule",
+    "Description": "<i>Core rulebook, p. 31</i>\n\nNo amount of preparation guarantees a perfect outcome, and no situation is ever truly hopeless. The <link=\"rule_chapter_3_1\">dice</link> always leave room for the unexpected.\n\nRegardless of the final Target Number, a natural roll of 6 always succeeds, and a natural roll of 1 always fails. No <link=\"rule_keyword_modifier\">modifier</link> or ability can override these boundaries."
+  },
+  {
+    "Id": "rule_chapter_3_7",
+    "Name": "3.7 Tests",
+    "Type": "Rule",
+    "Description": "<i>Core rulebook, p. 31</i>\n\nWhenever the rules ask a player to roll against a number, an <link=\"rule_chapter_8_7_4\">Armour Roll</link>, a Hit Roll, or an Evade Check, that roll is a Test. Every Test follows the same logic: there is a Target Number, the player rolls, and the result either meets the threshold or it does not.\n\nTests come in two flavours:\n\n• Characteristic Tests use a value from the Unit’s own profile, its Armour, its Evade, and its native resilience. When a squad of Marines takes fire and rolls their Armour Rolls, that is a Characteristic Test.\n\n• Attribute Tests use a value from a Weapon Profile or Special Rule, such as a weapon’s Hit characteristic. When those same Marines fire their C-14 Rifles and roll to hit, that is an Attribute Test.\n\nNot everything involving <link=\"rule_chapter_3_1\">dice</link> is a Test. Value Generation – a <link=\"rule_chapter_8_7_7\">Charge</link> Roll, a D3 Damage result, simply produces a number. The player adds the die result to the base value as instructed. There is no Target Number to beat.\n\nTo resolve any Test: identify the base Target Number, apply all <link=\"rule_chapter_3_4\">Modifiers</link> to determine the final Target Number, and roll the die. If the result is equal to or exceeds the Target Number, the Test succeeds. If it falls short, the Test fails."
+  },
+  {
+    "Id": "rule_chapter_3_8",
+    "Name": "3.8 Cocked Dice",
+    "Type": "Rule",
+    "Description": "<i>Core rulebook, p. 32</i>\n\nIf a die does not land flat on the playing surface, lodged against terrain, tilted on a base, or off the table entirely, the roll is invalid. Pick it up and roll it again. Players should agree before the game on what constitutes a cocked die. The simplest test: if the result isn’t obvious at a glance, re-roll it."
+  },
+  {
+    "Id": "rule_chapter_4",
+    "Name": "4 Measuring And Movement",
+    "Type": "Rule",
+    "Description": "<i>Core rulebook, p. 33</i>\n\nPositioning is everything. A few inches can be the difference between a deadly flanking <link=\"rule_chapter_8_7_7\">charge</link> and an exposed Unit caught out in the open. This Part covers how distances are measured, how <link=\"rule_chapter_2_1\">models</link> move across <link=\"rule_chapter_7\">the battlefield</link>, and the rules of Coherency that bind a Unit together.\n\n<link=\"rule_chapter_4_1\">4.1 Measuring Distances</link>\n\n<link=\"rule_chapter_4_2\">4.2 Within Vs. Wholly Within</link>\n\n<link=\"rule_chapter_4_3\">4.3 The Leading Model</link>\n\n<link=\"rule_chapter_4_4\">4.4 Unit Coherency</link>\n\n<link=\"rule_chapter_4_5\">4.5 Directly Towards & Directly Away</link>\n\n<link=\"rule_chapter_4_6\">4.6 Gap Clearance And Model Size</link>"
+  },
+  {
+    "Id": "rule_chapter_4_1",
+    "Name": "4.1 Measuring Distances",
+    "Type": "Rule",
+    "Description": "<i>Core rulebook, p. 33</i>\n\nAll distances are measured in inches (ˮ) using a tape measure or ruler.\n\nPlayers may measure any distance at any time, including before declaring an action, during an opponent’s activation, and between Phases. There are no restrictions on pre-measuring. Players are encouraged to measure thoroughly and agree on distances before committing to an action.\n\nBetween <link=\"rule_chapter_2_1\">Models</link>: Measure from the nearest point of one model’s base to the nearest point of the other model’s base. For models on flight stands, the bottom of the stand is treated as the model’s base for all measurements (<link=\"rule_chapter_2_3\">Part 2.3</link>).\n\n• Ignore Overhang: Weapons, wings, limbs, and scenic elements extending beyond the base rim are ignored.\n\n• Base-to-Base Contact: If two bases are physically touching, the distance between them is 0ˮ.\n\n• <link=\"rule_chapter_7_3_1\">Tokens</link> and <link=\"rule_chapter_7_3_2\">Markers</link>: Measure to the nearest physical edge.\n\n• Elevation: When calculating distances between models at different elevations, always measure horizontally from a top-down perspective. The vertical height difference should not be included in your measurements. This applies to Range, <link=\"rule_keyword_engagement_range\">Engagement Range</link>, and the ranges of abilities. Movement distances are measured as specified by the action being performed (see <link=\"rule_chapter_8_5_3\">Part 8.5.3</link>)."
+  },
+  {
+    "Id": "rule_chapter_4_2",
+    "Name": "4.2 Within Vs. Wholly Within",
+    "Type": "Rule",
+    "Description": "<i>Core rulebook, p. 34</i>\n\n<link=\"rule_keyword_within\">WITHIN</link> A model is Within a distance if any part of its base touches or crosses into that range. A Unit is Within a distance if at least one model’s base touches or crosses into that range.\n\n<link=\"rule_keyword_wholly_within\">WHOLLY WITHIN</link> A model is Wholly Within a distance only if its entire base sits inside that range – no part of the base may extend beyond the edge. A Unit is Wholly Within only if every model’s base in the Unit satisfies this condition."
+  },
+  {
+    "Id": "rule_chapter_4_3",
+    "Name": "4.3 The Leading Model",
+    "Type": "Rule",
+    "Description": "<i>Core rulebook, p. 35</i>\n\nThe Leading Model is a temporary reference point used to execute a Unit’s movement. Whenever a Unit resolves a Move, Deploy, Run, <link=\"rule_chapter_8_7_7\">Charge</link>, <link=\"rule_chapter_8_5_4\">Disengage</link>, or Close Ranks action, or any other action or ability that instructs the Unit to nominate a <link=\"rule_keyword_leading_model\">Leading Model</link>.\n\nMove the Leading Model first, measuring its exact path. Then set the remaining <link=\"rule_chapter_2_1\">models</link> in valid <link=\"rule_chapter_4_4\">Coherency</link> around the Leading Model’s new position. The Leading Model nomination ends once the action resolves."
+  },
+  {
+    "Id": "rule_chapter_4_4",
+    "Name": "4.4 Unit Coherency",
+    "Type": "Rule",
+    "Description": "<i>Core rulebook, p. 35</i>\n\nCoherency is checked at the end of any action that repositions <link=\"rule_chapter_2_1\">models</link>, including Move, Deploy, <link=\"rule_chapter_8_7_7\">Charge</link>, <link=\"rule_chapter_8_5_4\">Disengage</link>, Close Ranks, Run, <link=\"rule_keyword_place\">PLACE</link>, and <link=\"rule_keyword_summon\">SUMMON</link>.\n\nAt the end of such an action, all models in the Unit must be <link=\"rule_keyword_wholly_within\">Wholly Within</link> 3” of <link=\"rule_chapter_4_3\">the Leading Model</link> and able to trace a valid Coherency Link to it. If this condition is met, the Unit is In Coherency.\n\n<link=\"rule_chapter_7\">The battlefield</link> is rarely so accommodating. Terrain and crowded positions may prevent a model from reaching a legal position Wholly Within 3” of the Leading Model. When this occurs, set the affected model as close as possible to the Leading Model. The model must still maintain a valid Coherency Link. A Unit with one or more models set beyond 3” is Out of Coherency.\n\nIf a model cannot be set in any legal position while maintaining a valid Coherency Link, it is removed as a casualty immediately.\n\nA Unit that is In Coherency remains so until its next repositioning action. Casualties from any source never trigger a Coherency check and never cause a Unit to become Out of Coherency.\n\nA Unit is Out of Coherency only if this condition was not met at the end of its last repositioning action.\n\nWhile In Coherency, the Unit may control and contest <link=\"rule_keyword_mission_markers\">Mission Markers</link> normally (see 8.9.1).\n\nCOHERENCY LINK When placing models after a move, set the Leading Model first. Then set each remaining model one at a time, Wholly Within 3” of the Leading Model, and able to trace a Coherency Link to it.\n\nA Coherency Link is a chain of imaginary lines drawn model-to-model through models of the same Unit. Links cannot pass through models from other <link=\"rule_chapter_2_2\">Units</link>, terrain, or gaps that the Leading Model itself could not move through. A link may pass through <link=\"rule_keyword_enemy\">Enemy</link> models that the Unit is currently <link=\"rule_keyword_engaged\">Engaged</link> with and ACCESS POINTS.\n\nAny model that cannot find a legal position maintaining the Coherency Link is immediately removed as a casualty.\n\n<link=\"rule_keyword_flying\">FLYING</link> UNITS AND COHERENCY LINKS: When drawing Coherency Links for a Flying Unit, ignore terrain. Links may pass freely through terrain pieces of any Size, and may also pass through models from other Units.\n\nOUT OF COHERENCY If at the end of an action that repositions models, any model is not Wholly Within 3” of the Leading Model, the Unit is Out of Coherency. Out of Coherency Units cannot control or contest Mission Markers (<link=\"rule_chapter_8_9_1\">Part 8.9.1</link>).\n\n3”\n\n3”"
+  },
+  {
+    "Id": "rule_chapter_4_5",
+    "Name": "4.5 Directly Towards & Directly Away",
+    "Type": "Rule",
+    "Description": "<i>Core rulebook, p. 37</i>\n\nSome abilities force a Unit to move DIRECTLY TOWARDS or DIRECTLY AWAY from another Unit. Draw an imaginary straight line from the centre of the acting model’s base through the centre of the target model’s base. The affected model follows this line.\n\nIf terrain or another model blocks the path, the affected model bypasses it via the shortest possible route, then continues in the original direction. If two routes are equally short, the <link=\"rule_keyword_controlling_player\">controlling player</link> chooses.\n\nAfter completing the move:\n\n• A model moving DIRECTLY TOWARDS cannot end further from the target than it started.\n\n• A model moving DIRECTLY AWAY cannot end closer to the target than it started.\n\nMulti-model <link=\"rule_chapter_2_2\">Units</link> moving DIRECTLY TOWARDS: <link=\"rule_chapter_4_3\">The Leading Model</link> must be the one with the shortest route to the target. Move it first. Set the remaining <link=\"rule_chapter_2_1\">models</link> as close to the target as possible while maintaining <link=\"rule_chapter_4_4\">Coherency</link>.\n\nMulti-model Units moving DIRECTLY AWAY: The Leading Model must be the one with the shortest route to the target. Move it first. Set the remaining models as far from the target as possible while maintaining Coherency.\n\nWhen multiple models exist in the target Unit, draw an imaginary line to the model that is physically closest (when moving towards) or furthest (when moving away) from the acting model.\n\nIf a model is forced to move off <link=\"rule_chapter_7\">the battlefield</link> edge by any involuntary movement effect, it stops at the edge of the battlefield in contact with the table edge. The model cannot be moved beyond the battlefield boundary."
+  },
+  {
+    "Id": "rule_chapter_4_6",
+    "Name": "4.6 Gap Clearance And Model Size",
+    "Type": "Rule",
+    "Description": "<i>Core rulebook, p. 37</i>\n\nNot every gap in the terrain is wide enough to squeeze through, and a Siege Tank does not thread the same needle as a Zergling.\n\nA gap is any physical space between terrain pieces or <link=\"rule_chapter_2_1\">models</link>, through which a model’s path of movement passes.\n\n<link=\"rule_chapter_4_3\">The Leading Model</link> can pass through gaps depending on the Unit’s Size:\n\n• Size 2 or lower: May pass through gaps at least 1” wide. Infantry and smaller creatures exploit narrow corridors that larger <link=\"rule_chapter_2_2\">Units</link> cannot.\n\n• Size 3 or larger: Requires a gap at least 3” wide.\n\nRegardless of clearance, a model cannot be set where its base doesn’t physically fit. Clearance governs movement through a space, not stopping inside one.\n\nOpenings in terrain pieces – such as archways, doorways, and breaches – are treated as gaps for the purpose of Gap Clearance, even if the surrounding terrain piece is Size 2 or larger. The gap must be wide enough for the model’s Size category. Players should agree on which terrain openings are passable during Battlefield Setup.\n\nThis applies to all movement types: Move, Run, <link=\"rule_chapter_8_7_7\">Charge</link>, <link=\"rule_chapter_8_5_4\">Disengage</link>, and Close Ranks.\n\n<link=\"rule_keyword_flying\">Flying</link> Units ignore Gap Clearance during movement. Their <link=\"rule_keyword_leading_model\">Leading Model</link> moves point-to-point, bypassing all terrain in transit. However, the Leading Model must still end in a legal position where its base or stand physically fits without overlapping another model’s base or stand, or terrain."
+  },
+  {
+    "Id": "rule_chapter_5",
+    "Name": "5 Cards And Characteristics",
+    "Type": "Rule",
+    "Description": "<i>Core rulebook, p. 38</i>\n\nEach Unit, weapon, and ability in the game has a set of characteristics represented on cards. This Part explains the anatomy of Unit Cards and Weapon Profiles, what each statistic means, and how to read the data that drives every action on <link=\"rule_chapter_7\">the battlefield</link>.\n\n<link=\"rule_chapter_5_1\">5.1 Unit Cards</link>\n\n<link=\"rule_chapter_5_2\">5.2 Special Rules And Upgrades</link>\n\n<link=\"rule_chapter_5_3\">5.3 Tactical Cards</link>\n\n<link=\"rule_chapter_5_4\">5.4 Faction Cards</link>\n\n<link=\"rule_chapter_5_5\">5.5 Mission Cards</link>\n\n<link=\"rule_chapter_5_6\">5.6 Deployment Cards</link>"
+  },
+  {
+    "Id": "rule_chapter_5_1",
+    "Name": "5.1 Unit Cards",
+    "Type": "Rule",
+    "Description": "<i>Core rulebook, p. 38</i>\n\nEvery Unit has a Unit Card that provides all the information needed to use it in a game.\n\n1. UNIT NAME\n\n2. SPEED: The maximum distance in inches <link=\"rule_chapter_4_3\">the Leading Model</link> may traverse in a standard Move.\n\n• Split Values (e.g. 4”/7”): Use the second value only when the Unit is reduced to a single remaining model, or when the Unit started with a single model.\n\n• Null Value (-): The Unit cannot move or be repositioned by any means, including <link=\"rule_keyword_place\">PLACE</link> and involuntary movement effects.\n\n3. ARMOUR: The Target Number the defender must meet or exceed on a D6 to cancel a hit.\n\n4. EVADE: A secondary defensive characteristic representing agility. Used only when a rule or condition specifically grants an <link=\"rule_chapter_8_7_4\">Evade Roll</link>.\n\n• A Null Value (-): The Unit cannot make Evade Rolls. An ability that explicitly grants an Evade Roll does not override this.\n\n5. HIT POINTS (HP): Damage a single model must sustain before it is removed.\n\n6. SHIELD (OPTIONAL): If this value is present on a Unit Card, add it to the Hit Points (HP) of the first model. The Unit is <link=\"rule_keyword_shielded\">Shielded</link>. The Unit loses its Shielded <link=\"rule_keyword_status\">Status</link> when the Total Damage assigned to it exceeds its Shield value or when the first model in the Unit is removed.\n\n• The Shielded Status is referenced by other abilities. Losing Shielded Status does not remove any remaining Hit Points, it only ends effects that require the Unit to be Shielded. Shielded Status cannot be restored by <link=\"rule_keyword_heal\">HEAL</link>.\n\n1\n\n2 3 4 5\n\n6 7\n\n8\n\n9\n\n10\n\n11\n\n12\n\n7. SIZE: The model’s vertical height category, used for <link=\"rule_keyword_line_of_sight\">Line of Sight</link> and terrain interaction.\n\n8. SUPPLY PROFILE: Links the number of remaining <link=\"rule_chapter_2_1\">models</link> in the Unit to its <link=\"rule_keyword_current_supply_value\">Current Supply Value</link>. Update immediately when casualties reduce the model count to a lower bracket. Supply is used for Deployment, Mission Marker Control, and <link=\"rule_chapter_8_5_4\">Disengage</link> checks.\n\n9. PHASE BOXES: <link=\"rule_chapter_10_1\">Special Abilities</link> and weapon profiles available during specific Phases.\n\n10. WEAPON PROFILES: Each weapon is assigned to either the Assault Phase or the Combat Phase and may be used only during that phase. Each weapon profile lists:\n\n• [RNG] Range: Maximum effective distance. Melee weapons list E (<link=\"rule_keyword_engagement_range\">Engagement Range</link>). Some <link=\"rule_chapter_8_7_6\">template weapons</link> list FT.\n\n• Target: What the weapon can hit. Ground (Ground <link=\"rule_chapter_2_2\">Units</link> only), <link=\"rule_keyword_flying\">Flying</link> (Flying Units only), or All (both Ground and Flying Units).\n\n• [RoA] Rate of Attack: <link=\"rule_chapter_3_1\">Dice</link> rolled per firing model.\n\n• Hit: Target Number required on a D6 to score a hit.\n\n• Surge Type: The Combat Tag that triggers the weapon’s Surge efficiency.\n\n• S Dice: Die type rolled to determine Surge results (D3 or D6).\n\n• [DMG] Damage: Damage inflicted per die in the Damage Pool.\n\n• Keyword: Special rules on the weapon (e.g., <link=\"rule_keyword_pierce\">PIERCE</link>, <link=\"rule_keyword_sidearm\">SIDEARM</link>).\n\n11. <link=\"rule_keyword_combat_tags\">COMBAT TAGS</link>: The Unit’s Combat Tags.\n\n12. FACTION TAG: The Faction the Unit belongs to."
+  },
+  {
+    "Id": "rule_chapter_5_2",
+    "Name": "5.2 Special Rules And Upgrades",
+    "Type": "Rule",
+    "Description": "<i>Core rulebook, p. 39</i>\n\nThe reverse of each Unit Card lists optional Upgrades available during Army Building.\n\n13. UPGRADE: New abilities or weapons added to the profile.\n\n14. REPLACEMENTS ( FOR): An entry showing “ FOR [Weapon Name]” means the new weapon replaces the original entirely.\n\n17\n\n15\n\n14\n\n16\n\n13\n\n18\n\n15. COMBAT RANGE: The preferred distance this Unit seeks to maintain from <link=\"rule_keyword_enemy\">enemy</link> <link=\"rule_chapter_2_2\">Units</link>.\n\n16. <link=\"rule_keyword_army_slot\">ARMY SLOT</link>: The slot type (Core, Elite, Support, Air, or Hero) required to field this Unit. Each Unit occupies a number of slots of this type equal to its starting <link=\"rule_keyword_supply_value\">Supply Value</link> (Part 9.1.6).\n\n17. Flavour text describing the Unit’s role.\n\n18. Base diameter on which the model must be mounted on."
+  },
+  {
+    "Id": "rule_chapter_5_3",
+    "Name": "5.3 Tactical Cards",
+    "Type": "Rule",
+    "Description": "<i>Core rulebook, p. 40</i>\n\nNo <link=\"pdf_Protoss_rule_artanis_any_phase_commander\">commander</link> goes into combat alone with guns. A creep tumor in a good position, a sensor sweep in reserve, or a <link=\"pdf_Protoss_rule_high_templar_upgrade_movement_phase_psionic_storm\">psionic storm</link> held back can change a lost battle into a rout. The Tactical Cards are the strategic resources, <link=\"pdf_Terran_rule_jim_raynor_movement_phase_orders\">orders</link>, and doctrines a military leader has available to them, bought before the battle and deployed when they are most needed.\n\nTactical Cards are purchased with Vespene Gas during Army Building (Part 9.1.4).\n\n1. NAME: The name of the Tactical Card.\n\n2. UNIQUE MARKING: If present, only one copy of this card may be included in an army.\n\n3. <link=\"rule_keyword_faction_tags\">FACTION TAGS</link>: The Race Tag and any Sub- Faction Tags that determine which armies may include this card (Part 9.1.2).\n\n4. ARMY SLOTS: The organisation slots unlocked when this card is included in the army (e.g., 2× Core, 1× Support). These slots are in addition to those provided by the Faction Card.\n\n5. RESOURCE TYPE AND VALUE: The faction’s resource (CP for Terran, BM for Zerg, PE for Protoss) and the amount generated when this card is Exhausted instead of using its <link=\"rule_keyword_special_ability\">Special Ability</link>.\n\n6. <link=\"rule_chapter_10_1\">SPECIAL ABILITIES</link>: One or more Active, Passive, or <link=\"rule_chapter_10_4\">Reaction Abilities</link> resolved using the standard rules (Parts 10.1–10.4).\n\n1\n\n2 3\n\n4\n\n5\n\n6"
+  },
+  {
+    "Id": "rule_chapter_5_4",
+    "Name": "5.4 Faction Cards",
+    "Type": "Rule",
+    "Description": "<i>Core rulebook, p. 41</i>\n\nThe Faction Card is the foundation of every army. It defines who you are, what doctrine you follow, and what forces you are permitted to bring to <link=\"rule_chapter_7\">the battlefield</link>.\n\nEvery army must include exactly one Faction Card, selected during Army Building.\n\n1. FACTION NAME: The name of the Faction. This may also function as a keyword referenced by other rules and abilities.\n\n2. <link=\"rule_keyword_faction_tags\">FACTION TAGS</link>: The Race Tag and any Sub- Faction Tags that specify which <link=\"rule_chapter_2_2\">Units</link> and <link=\"rule_chapter_5_3\">Tactical Cards</link> can be included in the army (Part 9.1.2).\n\n3. STARTING ARMY SLOTS: The organisation slots provided by the Faction Card itself (e.g. 3× Core, 1× Hero, 2× Support). Additional slots are unlocked by purchasing Tactical Cards.\n\n4. RESOURCE TYPE AND VALUE: The faction’s resource (CP for Terran, BM for Zerg, PE for Protoss) and the amount generated when this card is Exhausted instead of using its <link=\"rule_keyword_special_ability\">Special Ability</link>.\n\n5. <link=\"rule_chapter_10_1\">SPECIAL ABILITIES</link>: One or more Active, Passive, or <link=\"rule_chapter_10_4\">Reaction Abilities</link> resolved using the standard rules (Parts 10.1–10.4).\n\n1\n\n2\n\n3\n\n4\n\n5"
+  },
+  {
+    "Id": "rule_chapter_5_5",
+    "Name": "5.5 Mission Cards",
+    "Type": "Rule",
+    "Description": "<i>Core rulebook, p. 42</i>\n\nEvery conflict has a purpose. A contested line of minerals, a crashed shuttle with vital information, or a Xel’Naga relic glowing with power buried deep beneath the surface. Mission Cards decide what the conflict is about, how long the battle will last, and what must be achieved to win. The mission determines the fight, not the other way round.\n\nMission Cards are chosen during the Draft (Part 9.2).\n\n1. NAME: The name of the Mission.\n\n2. ENGAGEMENT SCALE: The game scale this mission is designed for (Skirmish, Standard, or Grand Offensive).\n\n3. STARTING SUPPLY: <link=\"rule_chapter_8_3_1\">The Supply Pool</link> available to each player in Round 1.\n\n4. SUPPLY ESCALATION: The amount by which the Supply Pool increases at the start of each subsequent Round.\n\n5. GAME LENGTH: The number of Rounds played before the game ends (usually 5).\n\n6. MISSION PARAMETERS: Setup instructions, Mission Marker states, and any special conditions that apply from the start of the game.\n\n7. SCORING CONDITIONS: How players earn Victory Points at the end of each Round.\n\n8. ADDITIONAL CONDITIONS: Special rules or winning conditions unique to this mission, including any <link=\"rule_keyword_instant\">instant</link> victory triggers.\n\n1\n\n2\n\n3 4\n\n5\n\n6\n\n7\n\n8"
+  },
+  {
+    "Id": "rule_chapter_5_6",
+    "Name": "5.6 Deployment Cards",
+    "Type": "Rule",
+    "Description": "<i>Core rulebook, p. 43</i>\n\nThe location from which you engage in the battle is as important as what you bring into it. A narrow canyon channels the entire attack into a kill zone. Parallel zones of deployment across open ground give the victory to whoever shoots first. The Deployment Cards determine the war’s geometry, entry points, restricted zones, and the ground that must be taken.\n\nDeployment Cards are selected during the Draft.\n\n1. NAME: The name of the Deployment layout.\n\n2. ENGAGEMENT SCALE: The game scale this deployment is designed for (Skirmish, Standard, or Grand Offensive).\n\n3. BATTLEFIELD DIMENSIONS: The required table size for this deployment.\n\n4. ENTRY EDGES: The table edges assigned to each player. <link=\"rule_chapter_2_2\">Units</link> enter <link=\"rule_chapter_7\">the battlefield</link> from their assigned <link=\"rule_keyword_entry_edge\">Entry Edge</link> when deploying from <link=\"rule_keyword_reserves\">Reserves</link>.\n\n5. <link=\"rule_keyword_zone_of_influence\">ZONE OF INFLUENCE</link>: A restricted area extending 6” inward from each player’s Entry Edge. <link=\"rule_keyword_enemy\">Enemy</link> Units arriving from Reserves cannot end their deployment <link=\"rule_keyword_within\">within</link> this area. The Zone of Influence does not affect Units already on the battlefield.\n\n6. MARKER COORDINATES: The precise measurements for positioning each numbered Mission Marker on the battlefield.\n\nUsing the Deployment Card during Setup: Once the Deployment Card is selected, follow its instructions in this order: confirm the table dimensions, assign Entry Edges to each player, set Zone of Influence <link=\"rule_chapter_7_3_2\">Markers</link> at the corners of each player’s Entry Edge, where applicable, then set <link=\"rule_keyword_mission_markers\">Mission Markers</link> at the listed coordinates. See Part 9.3 for the full setup sequence.\n\n1\n\n2\n\n3\n\n4\n\n5\n\n6"
+  },
+  {
+    "Id": "rule_chapter_6",
+    "Name": "6 The Supply System",
+    "Type": "Rule",
+    "Description": "<i>Core rulebook, p. 44</i>\n\nThe armies in StarCraft: Tabletop Miniature Game do not deploy at full strength. Reinforcements arrive in waves, and as <link=\"rule_chapter_2_2\">Units</link> take casualties, their ability to deploy effectively shrinks. The Supply system governs when and how many Units a player can field, creating a constant tension between committing forces now and holding them in reserve.\n\nSupply represents a Unit’s battlefield presence, its manpower, momentum, and command resources necessary to keep it fighting. Unlike fixed characteristics, Supply is dynamic: as a Unit takes casualties, its Supply declines.\n\n<link=\"rule_chapter_6_1\">6.1 The Supply Profile</link>\n\n<link=\"rule_chapter_6_2\">6.2 How Supply Is Used</link>"
+  },
+  {
+    "Id": "rule_chapter_6_1",
+    "Name": "6.1 The Supply Profile",
+    "Type": "Rule",
+    "Description": "<i>Core rulebook, p. 44</i>\n\nEvery Unit Card includes a Supply Profile in the topright corner, linking the number of remaining <link=\"rule_chapter_2_1\">models</link> to a <link=\"rule_keyword_current_supply_value\">Current Supply Value</link>. As casualties reduce the model count into a lower bracket, update the Current Supply Value immediately.\n\nEXAMPLE: A squad of 9 Marines has a Supply of 2. A squad of 6 Marines has a Supply of 1. When reduced to 3 models, their Supply drops to 0."
+  },
+  {
+    "Id": "rule_chapter_6_2",
+    "Name": "6.2 How Supply Is Used",
+    "Type": "Rule",
+    "Description": "<i>Core rulebook, p. 44</i>\n\nDEPLOYMENT Each mission establishes a Supply Pool, which is the maximum amount of Supply that can be on <link=\"rule_chapter_7\">the battlefield</link> at any one time. <link=\"rule_chapter_8_3_1\">The Supply Pool</link> starts at the value listed on the Mission Card and increases by the Supply Escalation value each Round.\n\nA player can only set a Unit in play from <link=\"rule_keyword_reserves\">Reserves</link> if the Unit’s <link=\"rule_keyword_current_supply_value\">Current Supply Value</link> is less than or equal to the <link=\"rule_keyword_available_supply\">Available Supply</link>, which is the current Supply Pool value minus the total Supply of all <link=\"rule_keyword_friendly\">Friendly</link> <link=\"rule_chapter_2_2\">Units</link> already in play on the battlefield.\n\nAt no point can the Total Current Supply of a player’s Units on the battlefield exceed the Supply Pool.\n\nIn the final Round of play (as determined by the Mission Card), the Supply Pool is unlimited. All Units remaining in Reserves may be set into play without Supply restrictions, following the normal alternating activation sequence.\n\nMISSION MARKER CONTROL Supply determines who controls the ground. To determine control of a Mission Marker, each player calculates the Current Supply Value of all their eligible Units contesting that Marker (see <link=\"rule_chapter_8_9_1\">Part 8.9.1</link> for full eligibility requirements), not the number of <link=\"rule_chapter_2_1\">models</link>, but their total Supply. The player with the highest total controls the Marker.\n\nA Unit with Supply 0 can control a Marker if no <link=\"rule_keyword_enemy\">Enemy</link> Units are contesting it. However, a Unit that is Out of <link=\"rule_chapter_4_4\">Coherency</link> can never control or contest a Mission Marker.\n\n<link=\"rule_keyword_flying\">Flying</link> Units cannot Contest or Control <link=\"rule_keyword_mission_markers\">Mission Markers</link>, as they are airborne and do not hold ground.\n\n<link=\"rule_keyword_tactical_mass\">TACTICAL MASS</link> Breaking away from a melee is a desperate act. A Unit that Disengages suffers a severe penalty: it cannot perform <link=\"rule_chapter_8_7_3\">Ranged Attack</link> or <link=\"rule_chapter_8_7_7\">Charge</link> actions in the following Assault Phase. The squad is too busy pulling back to mount an effective attack.\n\nHowever, if at the moment the <link=\"rule_chapter_8_5_4\">Disengage</link> is declared, the Disengaging Unit’s Current Supply Value exceeds the Combined Supply of all Enemy Units it is <link=\"rule_keyword_engaged\">Engaged</link> with, this penalty is ignored.\n\nA superior force has the mass to pull away cleanly. A lone screening squad should slow the enemy, not shut them down entirely.\n\nUNIT STARTING SUPPLY Some <link=\"rule_chapter_5_5\">Mission Cards</link> award Victory Points equal to the Enemy Supply destroyed in a Round. In such cases, the <link=\"rule_keyword_supply_value\">Supply Value</link> destroyed in that Round is added to the score during the Scoring Phase."
+  },
+  {
+    "Id": "rule_chapter_7",
+    "Name": "7 The Battlefield",
+    "Type": "Rule",
+    "Description": "<i>Core rulebook, p. 45</i>\n\nThe terrain where a battle takes <link=\"rule_keyword_place\">place</link> is as crucial as the armies involved. Walls block <link=\"rule_keyword_line_of_sight\">Line of Sight</link>, height offers a commanding fire position, and narrow passages can funnel an entire assault into a killing zone. This part explains how Line of Sight functions, how terrain impacts <link=\"rule_chapter_2_1\">models</link> of various Sizes, and how <link=\"rule_chapter_7_1_1\">cover</link> and elevation influence the flow of combat.\n\n<link=\"rule_chapter_7_1\">7.1 Line Of Sight</link>\n\n<link=\"rule_chapter_7_2\">7.2 Engagement And Engagement Range</link>\n\n<link=\"rule_chapter_7_3\">7.3 Markers And Tokens</link>\n\n<link=\"rule_chapter_7_4\">7.4 Destroyed Units</link>"
+  },
+  {
+    "Id": "rule_chapter_7_1",
+    "Name": "7.1 Line Of Sight",
+    "Type": "Rule",
+    "Description": "<i>Core rulebook, p. 45</i>\n\nEvery shot, every ability, and every order that requires a clear view of the target follows the same process. <link=\"rule_keyword_line_of_sight\">Line of Sight</link> determines what a model can see and, by extension, what it can shoot at.\n\nuses a 2D Line of Sight (LoS) system. All Line of Sight checks are resolved from a top-down perspective, looking directly down at <link=\"rule_chapter_7\">the battlefield</link> from above.\n\nTo determine whether an acting model can see a target, trace an imaginary straight line from any part of the acting model’s base to any part of the target model’s base.\n\nIf the line does not pass through any <link=\"rule_keyword_blocking_terrain\">Blocking Terrain</link> (any terrain piece with an <link=\"rule_keyword_effective_size\">Effective Size</link> of 1 or greater – see <link=\"rule_chapter_11\">Part 11</link>), the target is <link=\"rule_keyword_visible\">Visible</link>. No further checks are required.\n\nIf the line passes through Blocking Terrain, the target is not automatically <link=\"rule_keyword_hidden\">hidden</link>. Check the Cover rules (<link=\"rule_chapter_7_1_1\">Part 7.1.1</link>) to determine whether the terrain actually blocks Line of Sight. Terrain that intersects the trace but does not meet the requirements for Full Cover or Direct Cover does not block Line of Sight. The target remains Visible.\n\nFor Line of Sight purposes, a terrain piece’s footprint is defined by its physical base or, if it has no base, the outermost edges of its solid <link=\"pdf_Protoss_rule_pylon_any_phase_structure\">structure</link> viewed from above. Unless players agree otherwise during Battlefield Setup, gaps, windows, doorways, and open interiors <link=\"rule_keyword_within\">within</link> the footprint do block the Line of Sight.\n\nA terrain opening may be passable for movement without counting as open for Line of Sight (see <link=\"rule_chapter_4_6\">Part 4.6</link> for Gap Clearance rules).\n\nPlayers must agree during Battlefield Setup on the footprint of each terrain piece and on which openings, if any, count as passable gaps for movement.\n\n<link=\"rule_chapter_7_1_1\">7.1.1 Cover</link>\n\n<link=\"rule_chapter_7_1_2\">7.1.2 Verticality And Effective Size</link>\n\n<link=\"rule_chapter_7_1_3\">7.1.3 High Ground Cover</link>\n\n<link=\"rule_chapter_7_1_4\">7.1.4 Flying Units And Cover</link>"
+  },
+  {
+    "Id": "rule_chapter_7_1_1",
+    "Name": "7.1.1 Cover",
+    "Type": "Rule",
+    "Description": "<i>Core rulebook, p. 46</i>\n\nTerrain pieces may block the <link=\"rule_keyword_line_of_sight\">Line of Sight</link> between <link=\"rule_chapter_2_1\">models</link>. A terrain piece provides Cover in one of two ways:\n\n• Full Cover: A terrain piece blocks Line of Sight if its <link=\"rule_keyword_effective_size\">Effective Size</link> (<link=\"rule_chapter_7_1_2\">Part 7.1.2</link>) is equal to or greater than the Effective Size of both the attacker and the Target. Neither model can see over the terrain – Line of Sight is blocked.\n\n• Direct Cover: If the Line of Sight trace passes through a terrain piece, and either the attacker or the target is <link=\"rule_keyword_within\">Within</link> 1” of that terrain, the Line of Sight between them is blocked, provided the terrain piece’s Effective Size is equal to or greater than the Effective Size of the model that is Within 1”.\n\nEach terrain piece is assessed for Cover independently. Terrain pieces do not combine their Effective Size or proximity. If no single terrain piece meets the requirements for Full Cover or Direct Cover, Line of Sight is not blocked, regardless of how many terrain pieces the trace passes through.\n\nELEVATION DEAD ZONE If a model on <link=\"rule_keyword_high_ground\">HIGH GROUND</link> (Size 3+) draws Line of Sight to a model at <link=\"rule_keyword_ground_level\">GROUND LEVEL</link> that is Within 1” of the base of the same terrain piece, Line of Sight is\n\nblocked. This applies in both directions – neither model can see the other.\n\nCLOSE QUARTERS If both models are Within 1” of the same terrain piece and Within 3” of each other, Direct Cover, Elevation and Dead Zone do not apply. Resolve Line of Sight normally using the standard trace (<link=\"rule_chapter_7_1\">Part 7.1</link>)."
+  },
+  {
+    "Id": "rule_chapter_7_1_2",
+    "Name": "7.1.2 Verticality And Effective Size",
+    "Type": "Rule",
+    "Description": "<i>Core rulebook, p. 48</i>\n\nWhen a model stands on top of a terrain piece (such as <link=\"rule_keyword_high_ground\">HIGH GROUND</link>): <link=\"rule_keyword_effective_size\">Effective Size</link> is equal to the model Size plus the terrain Size.\n\nEXAMPLE: A Marine (Size 2) on HIGH GROUND (Size 4) has an Effective Size of 6. He can see over Size 5 walls that would blind him at <link=\"rule_keyword_ground_level\">GROUND LEVEL</link>.\n\n• Top-Down Perspective: Only terrain pieces that rise vertically between the two <link=\"rule_chapter_2_1\">models</link>’ positions (as viewed from above) can block the shot. The horizontal surface a model stands on does not obstruct the topdown trace.\n\n• Stacking Terrain: When a terrain piece is set on HIGH GROUND or <link=\"rule_keyword_mid_ground\">MID GROUND</link>, its Effective Size increases in the same way as a model’s – it gains the Size of the terrain it stands on."
+  },
+  {
+    "Id": "rule_chapter_7_1_3",
+    "Name": "7.1.3 High Ground Cover",
+    "Type": "Rule",
+    "Description": "<i>Core rulebook, p. 49</i>\n\nIf all <link=\"rule_chapter_2_1\">models</link> of a Unit are standing on <link=\"rule_keyword_high_ground\">HIGH GROUND</link> (Size 3 or larger terrain) with any part of their <link=\"rule_chapter_2_3\">bases</link>, the Unit becomes eligible to make an <link=\"rule_chapter_8_7_4\">Evade Roll</link> against all Ranged Attacks originating from a lower elevation. The attack originates from the lower elevation if at least one model of the attacking Unit isn’t standing on the HIGH GROUND with any part of their base.\n\nException: <link=\"rule_keyword_flying\">Flying</link> <link=\"rule_chapter_2_2\">Units</link> never benefit from HIGH GROUND Cover, regardless of their physical position on <link=\"rule_chapter_7\">the battlefield</link>. Ranged Attacks made by Flying Units never originate from the lower elevation, regardless of their position on the battlefield."
+  },
+  {
+    "Id": "rule_chapter_7_1_4",
+    "Name": "7.1.4 Flying Units And Cover",
+    "Type": "Rule",
+    "Description": "<i>Core rulebook, p. 49</i>\n\nWhen checking <link=\"rule_keyword_line_of_sight\">Line of Sight</link> to or from a <link=\"rule_keyword_flying\">Flying</link> model, ignore the Full <link=\"rule_chapter_7_1_1\">Cover</link> rule.\n\nDirect Cover and the Elevation Dead Zone rules still apply.\n\nFor Cover purposes, treat a Flying model’s <link=\"rule_keyword_effective_size\">Effective Size</link> as higher than the Effective Size of any terrain piece on the table.\n\nBecause of this, terrain can never provide Full Cover against a Flying model and can never provide Direct Cover to a Flying model as the model that is <link=\"rule_keyword_within\">Within</link> 1” of terrain. However, a Flying model still obeys any Direct Cover or Elevation Dead Zone rule that applies to the other model in the attack."
+  },
+  {
+    "Id": "rule_chapter_7_2",
+    "Name": "7.2 Engagement And Engagement Range",
+    "Type": "Rule",
+    "Description": "<i>Core rulebook, p. 53</i>\n\nThe <link=\"rule_keyword_engagement_range\">Engagement Range</link> extends 1” horizontally from any model’s base. When two <link=\"rule_keyword_enemy\">Enemy</link> <link=\"rule_chapter_2_1\">models</link> are <link=\"rule_keyword_within\">Within</link> 1” of each other, they are <link=\"rule_keyword_engaged\">Engaged</link> – <link=\"rule_keyword_locked_in\">locked in</link> close combat.\n\nUnless stated otherwise, a Unit cannot end any movement or be <link=\"rule_keyword_place\">PLACE</link> within the Engagement Range of any enemy model.\n\nWhen any model in a Unit is Engaged with any model in an Enemy Unit, both <link=\"rule_chapter_2_2\">Units</link> are considered Engaged.\n\n<link=\"rule_chapter_7_2_1\">7.2.1 Engagement Restrictions</link>"
+  },
+  {
+    "Id": "rule_chapter_7_2_1",
+    "Name": "7.2.1 Engagement Restrictions",
+    "Type": "Rule",
+    "Description": "<i>Core rulebook, p. 53</i>\n\n<link=\"rule_chapter_2_1\">Models</link> are <link=\"rule_keyword_engaged\">Engaged</link> only when all of the following conditions are met:\n\n• <link=\"rule_keyword_combat_tags\">Combat Tags</link> match: Ground models Engage only Ground models. <link=\"rule_keyword_flying\">Flying</link> models cannot be Engaged by any model.\n\n• Terrain does not block:\n\n• Size 0–1 terrain: Engagement is possible across it.\n\n• Size 2+ terrain: Models cannot Engage through it. Even <link=\"rule_keyword_within\">Within</link> 1”, a Size 2+ wall between them means they are not Engaged.\n\n• Models on <link=\"rule_keyword_high_ground\">HIGH GROUND</link> cannot Engage models on <link=\"rule_keyword_ground_level\">GROUND LEVEL</link>, and vice versa.\n\n• Models on <link=\"rule_keyword_mid_ground\">MID GROUND</link> can Engage models on HIGH GROUND or GROUND LEVEL only if both models are adjacent to the same <link=\"rule_keyword_access_point\">ACCESS POINT</link> connecting their respective elevations."
+  },
+  {
+    "Id": "rule_chapter_7_3",
+    "Name": "7.3 Markers And Tokens",
+    "Type": "Rule",
+    "Description": "<i>Core rulebook, p. 53</i>\n\n<link=\"rule_chapter_7_3_1\">7.3.1 Tokens</link>\n\n<link=\"rule_chapter_7_3_2\">7.3.2 Markers</link>"
+  },
+  {
+    "Id": "rule_chapter_7_3_1",
+    "Name": "7.3.1 Tokens",
+    "Type": "Rule",
+    "Description": "<i>Core rulebook, p. 53</i>\n\nTokens represent tangible battlefield assets – Creep Tumors, <link=\"pdf_Zerg_rule_ravagers_movement_phase_corrosive_bile\">Corrosive Bile</link>, and Shades. Treat them as Terrain (Size 0) with their own base. <link=\"rule_chapter_2_1\">Models</link> may move through Tokens, but cannot end movement overlapping them unless specified. Tokens are removed at the end of the Game Round unless stated otherwise. Always measure to the closest base edge of a Token."
+  },
+  {
+    "Id": "rule_chapter_7_3_2",
+    "Name": "7.3.2 Markers",
+    "Type": "Rule",
+    "Description": "<i>Core rulebook, p. 53</i>\n\nMarkers are used to keep track of <link=\"rule_keyword_status\">status</link> or game states. Unlike <link=\"rule_chapter_7_3_1\">Tokens</link>, they have no physical presence. They do not block <link=\"rule_keyword_line_of_sight\">Line of Sight</link> or Movement.\n\n• <link=\"rule_keyword_mission_markers\">Mission Markers</link> are numbered Markers used on <link=\"rule_chapter_7\">the battlefield</link> during Setup at coordinates shown on the Deployment Card. Each Marker is 32mm in diameter and has two sides: Activated or Deactivated. Each one is colour-coded by number: Markers 1 & 3 are Red, Markers 2 & 4 are Blue, and Marker 5 is Neutral.\n\n• Activation Markers are set beside the Unit that has completed its turn in a Phase. They are double-sided with the arrow facing upwards, showing that the Unit has finished its turn in Phase 1 (Movement). The reverse side indicates that the Unit has completed its turn in Phase 2 (Assault).\n\n• Faction Indicators are used on Mission Markers to show which player controls that Mission Marker at any moment. Some <link=\"rule_chapter_10_1\">Special Abilities</link> utilise Faction Indicators to mark an area of the battlefield.\n\n• Modes Markers are used to track operational shifts (e.g. <link=\"rule_keyword_siege_mode\">SIEGE MODE</link>, <link=\"rule_keyword_burrowed\">BURROWED</link>). Those Status Markers have <link=\"rule_keyword_stay_in_play\">STAY IN PLAY</link>.\n\n• <link=\"rule_keyword_zone_of_influence\">Zone of Influence</link> Markers are used to define the Zone of Influence when the <link=\"rule_keyword_entry_edge\">Entry Edge</link> doesn’t extend along the entire table edge. These are L-shaped corner markers that must be set exactly as shown on the Deployment Card.\n\n• <link=\"rule_keyword_first_player_marker\">First Player Marker</link> is used to track which player has initiative. The holder chooses which player activates first at the beginning of each Phase. The Marker passes between players throughout the game, usually when a player Passes early in a Phase or when Victory Points are tallied at the end of the Round.\n\n• <link=\"rule_keyword_buff\">Buff</link>/<link=\"rule_keyword_debuff\">Debuff</link> Markers are used to track effects and some statuses affecting the Unit. Positive effects are tracked with Buff Markers (Blue), and negative effects are tracked with Debuff Markers (Red)."
+  },
+  {
+    "Id": "rule_chapter_7_4",
+    "Name": "7.4 Destroyed Units",
+    "Type": "Rule",
+    "Description": "<i>Core rulebook, p. 54</i>\n\nWhen the last model falls, the Unit is Destroyed.\n\nEvery effect, ability, and condition currently on the Destroyed Unit immediately ends. <link=\"rule_chapter_7_3_1\">Tokens</link> created by the destroyed Unit are removed (unless they are <link=\"rule_keyword_stay_in_play\">STAY IN PLAY</link>). Effects that the Destroyed Unit applied to other <link=\"rule_chapter_2_2\">Units</link> remain on those Units unless the effect explicitly states otherwise.\n\nA Destroyed Unit cannot return to play unless a specific rule states otherwise."
+  },
+  {
+    "Id": "rule_chapter_8",
+    "Name": "8 The Game Sequence",
+    "Type": "Rule",
+    "Description": "<i>Core rulebook, p. 54</i>\n\nWith the basics covered and the troops assembled, the time to fight has arrived. Each Round of the battle follows a straightforward progression: moving <link=\"rule_chapter_2_2\">Units</link>, shooting, savage close combat, and scoring objectives. This section will <link=\"rule_chapter_7_1_1\">cover</link> each step of the fight cycle, beginning with the initial <link=\"rule_chapter_8_5_2\">Move</link> action and concluding with the final Victory Point tally.\n\n<link=\"rule_chapter_8_1\">8.1 Rounds And Phases</link>\n\n<link=\"rule_chapter_8_2\">8.2 The Activation System</link>\n\n<link=\"rule_chapter_8_3\">8.3 Deployment And Reserves</link>\n\n<link=\"rule_chapter_8_4\">8.4 Phase 1: The Movement Phase</link>\n\n<link=\"rule_chapter_8_5\">8.5 Movement Phase Actions</link>\n\n<link=\"rule_chapter_8_6\">8.6 Phase 2: The Assault Phase</link>\n\n<link=\"rule_chapter_8_7\">8.7 Assault Phase Actions</link>\n\n<link=\"rule_chapter_8_8\">8.8 Phase 3: The Combat Phase</link>\n\n<link=\"rule_chapter_8_9\">8.9 Phase 4: The Scoring & Cleanup Phase</link>\n\n<link=\"rule_chapter_8_10\">8.10 The Final Score</link>"
+  },
+  {
+    "Id": "rule_chapter_8_1",
+    "Name": "8.1 Rounds And Phases",
+    "Type": "Rule",
+    "Description": "<i>Core rulebook, p. 54</i>\n\nA game lasts up to 5 Rounds. Each Round has four Phases resolved in strict order:"
+  },
+  {
+    "Id": "rule_chapter_8_2",
+    "Name": "8.2 The Activation System",
+    "Type": "Rule",
+    "Description": "<i>Core rulebook, p. 54</i>\n\nDuring Phases 1, 2 and 3, players use Alternating Activation. The holder of the <link=\"rule_keyword_first_player_marker\">First Player Marker</link> decides which player activates first each Phase. Players then alternate, each activating one Unit per turn. Each Activated Unit performs exactly one action from the list available in that Phase.\n\n1 The Movement Phase Deploy, Move, <link=\"rule_chapter_8_5_4\">Disengage</link>, Hold\n\n3 The Combat Phase Close Ranks, Close Combat Attack\n\n2 The Assault Phase\n\nThe Scoring & Cleanup Phase\n\n<link=\"rule_chapter_8_7_3\">Ranged Attack</link>, <link=\"rule_chapter_8_7_7\">Charge</link>, Run, Hold\n\nControl <link=\"rule_chapter_7_3_2\">Markers</link>, Score VP, Cleanup 4\n\n<link=\"rule_chapter_8_2_1\">8.2.1 Passing And Initiative</link>\n\n<link=\"rule_chapter_8_2_2\">8.2.2 Determining The First Player</link>"
+  },
+  {
+    "Id": "rule_chapter_8_2_1",
+    "Name": "8.2.1 Passing And Initiative",
+    "Type": "Rule",
+    "Description": "<i>Core rulebook, p. 55</i>\n\nAt any point during a turn, the <link=\"rule_keyword_active_player\">Active Player</link> may Pass instead of activating a Unit. A player must Pass if they have no eligible <link=\"rule_chapter_2_2\">Units</link> left.\n\nThe first player to Pass in a Phase takes the <link=\"rule_keyword_first_player_marker\">First Player Marker</link> for the next Phase. Once a player Passes, they cannot activate any further Units this Phase. The opponent then completes their remaining activations."
+  },
+  {
+    "Id": "rule_chapter_8_2_2",
+    "Name": "8.2.2 Determining The First Player",
+    "Type": "Rule",
+    "Description": "<i>Core rulebook, p. 55</i>\n\nPlayers Roll-Off (<link=\"rule_chapter_3_2\">Part 3.2</link>). The winner assigns the <link=\"rule_keyword_first_player_marker\">First Player Marker</link> to either player for Round 1."
+  },
+  {
+    "Id": "rule_chapter_8_3",
+    "Name": "8.3 Deployment And Reserves",
+    "Type": "Rule",
+    "Description": "<i>Core rulebook, p. 55</i>\n\nNo <link=\"rule_chapter_2_2\">Units</link> begin on <link=\"rule_chapter_7\">the battlefield</link>. All Units included in the Army List start in <link=\"rule_keyword_reserves\">Reserves</link>. Bring them onto the battlefield during the Movement Phase as Supply allows.\n\n<link=\"rule_chapter_8_3_1\">8.3.1 The Supply Pool</link>\n\n<link=\"rule_chapter_8_3_2\">8.3.2 Available Supply</link>\n\n<link=\"rule_chapter_8_3_3\">8.3.3 Deployment Restrictions</link>"
+  },
+  {
+    "Id": "rule_chapter_8_3_1",
+    "Name": "8.3.1 The Supply Pool",
+    "Type": "Rule",
+    "Description": "<i>Core rulebook, p. 55</i>\n\nReinforcements do not arrive all at once; Warp conduits take time to stabilise, Overlords require flight corridors, and Dropships queue on orbital approach vectors.\n\nThe Supply Pool is the total available capacity that any <link=\"pdf_Protoss_rule_artanis_any_phase_commander\">commander</link> may have at any <link=\"rule_keyword_instant\">instant</link>, and this increases as logistics close the gap on the frontline.\n\n• Round 1: Supply Pool equals the Mission Card’s starting Supply.\n\n• Later Rounds: Supply Pool increases by the Supply Escalation value each Round.\n\n• Final Round: In the last Round of every game (as defined by the Mission Card), the Supply Pool becomes unlimited. All remaining <link=\"rule_chapter_2_2\">Units</link> in <link=\"rule_keyword_reserves\">Reserves</link> may be deployed without Supply restrictions, following the normal alternating activation sequence.\n\n• Hard Cap: Total Current Supply of on-table Units may never exceed the Supply Pool."
+  },
+  {
+    "Id": "rule_chapter_8_3_2",
+    "Name": "8.3.2 Available Supply",
+    "Type": "Rule",
+    "Description": "<i>Core rulebook, p. 55</i>\n\nA <link=\"pdf_Protoss_rule_artanis_any_phase_commander\">commander</link>’s resources are only so plentiful. Every squad draws from the same pool of ammunition, bandwidth, and command focus. The resources you’ve committed so far will determine what remains available. Managing the gap between what’s been committed and what’s still accessible is what distinguishes a measured escalation from an army peaking too early.\n\n<link=\"rule_keyword_available_supply\">Available Supply</link> equals the Current Supply Pool minus the Total Supply of <link=\"rule_keyword_friendly\">Friendly</link> <link=\"rule_chapter_2_2\">Units</link> on <link=\"rule_chapter_7\">the Battlefield</link>.\n\nA Unit can only be fielded if its <link=\"rule_keyword_current_supply_value\">Current Supply Value</link> is less than or equal to the Available Supply. Units Destroyed in battle (or reduced by casualties) free up Available Supply for new arrivals."
+  },
+  {
+    "Id": "rule_chapter_8_3_3",
+    "Name": "8.3.3 Deployment Restrictions",
+    "Type": "Rule",
+    "Description": "<i>Core rulebook, p. 55</i>\n\nWhen a Unit arrives from <link=\"rule_keyword_reserves\">Reserves</link>, that Unit cannot end its arrival during that Activation inside the opponent’s <link=\"rule_keyword_zone_of_influence\">Zone of Influence</link>. This restriction applies to all forms of arrival, whether the Unit enters from an edge, arrives via a Warp Prism, or is summoned. Additionally, a Unit can never end a <link=\"rule_chapter_8_5_5\">Deploy</link> action Out of <link=\"rule_chapter_4_4\">Coherency</link>. If all <link=\"rule_chapter_2_1\">models</link> cannot be placed legally while maintaining Coherency, the Unit cannot be deployed in that location.\n\nInformation about the Influence Zone can be found on the deployment card."
+  },
+  {
+    "Id": "rule_chapter_8_4",
+    "Name": "8.4 Phase 1: The Movement Phase",
+    "Type": "Rule",
+    "Description": "<i>Core rulebook, p. 56</i>\n\nThe ground is constantly shifting even before the first shot is fired. Teams dig in, reinforcements pour in from above, and exhausted <link=\"rule_chapter_2_2\">Units</link> fall back to regroup. During the Movement Phase, <link=\"rule_chapter_7\">the battlefield</link> terrain changes as a command decides where the battles will be fought.\n\nAt the start of the Movement Phase:\n\n• Resolve all “Start of the Round” abilities. The first player resolves their first if both players have effects. If a player has multiple “Start of the Round” effects to resolve, that player chooses the order in which their effects resolve. Each effect is fully resolved before the next begins.\n\n• Verify <link=\"rule_keyword_available_supply\">Available Supply</link> for all players.\n\n<link=\"rule_chapter_8_4_1\">8.4.1 Activations</link>\n\n<link=\"rule_chapter_8_4_2\">8.4.2 Passing</link>"
+  },
+  {
+    "Id": "rule_chapter_8_4_1",
+    "Name": "8.4.1 Activations",
+    "Type": "Rule",
+    "Description": "<i>Core rulebook, p. 56</i>\n\n<link=\"pdf_Terran_rule_jim_raynor_movement_phase_orders\">Orders</link> are issued one at a time. A squad moves, a position is taken, and the <link=\"rule_keyword_enemy\">Enemy</link> reacts. Every activation is a commitment.\n\nOn the <link=\"rule_keyword_active_player\">Active Player</link>’s turn, choose one:\n\n• Activate a Unit on <link=\"rule_chapter_7\">the battlefield</link> without an Activation Marker – perform a Move, Hold or <link=\"rule_chapter_8_5_4\">Disengage</link> action.\n\n• Activate a Unit in <link=\"rule_keyword_reserves\">Reserves</link> without an Activation Marker – perform a <link=\"rule_chapter_8_5_5\">Deploy</link> action to enter the battlefield.\n\nAfter the action, set an Activation Marker (Movement side) next to the Unit."
+  },
+  {
+    "Id": "rule_chapter_8_4_2",
+    "Name": "8.4.2 Passing",
+    "Type": "Rule",
+    "Description": "<i>Core rulebook, p. 56</i>\n\nThe first player to Pass takes the <link=\"rule_keyword_first_player_marker\">First Player Marker</link> for Phase 2. Set Activation <link=\"rule_chapter_7_3_2\">Markers</link> (Movement side) next to any <link=\"rule_keyword_friendly\">Friendly</link> on-table <link=\"rule_chapter_2_2\">Units</link> that did not activate."
+  },
+  {
+    "Id": "rule_chapter_8_5",
+    "Name": "8.5 Movement Phase Actions",
+    "Type": "Rule",
+    "Description": "<i>Core rulebook, p. 56</i>\n\n<link=\"rule_chapter_8_5_1\">8.5.1 Hold</link>\n\n<link=\"rule_chapter_8_5_2\">8.5.2 Move</link>\n\n<link=\"rule_chapter_8_5_3\">8.5.3 Resolving A Move</link>\n\n<link=\"rule_chapter_8_5_4\">8.5.4 Disengage</link>\n\n<link=\"rule_chapter_8_5_5\">8.5.5 Deploy</link>"
+  },
+  {
+    "Id": "rule_chapter_8_5_1",
+    "Name": "8.5.1 Hold",
+    "Type": "Rule",
+    "Description": "<i>Core rulebook, p. 56</i>\n\nThe Unit performs no action. Set an Activation Marker beside it.\n\nThe Unit counts as Activated for the current Phase."
+  },
+  {
+    "Id": "rule_chapter_8_5_2",
+    "Name": "8.5.2 Move",
+    "Type": "Rule",
+    "Description": "<i>Core rulebook, p. 56</i>\n\nAn <link=\"rule_keyword_unengaged\">Unengaged</link> Unit changes its position on <link=\"rule_chapter_7\">the battlefield</link>."
+  },
+  {
+    "Id": "rule_chapter_8_5_3",
+    "Name": "8.5.3 Resolving A Move",
+    "Type": "Rule",
+    "Description": "<i>Core rulebook, p. 56</i>\n\nWhen a rule instructs a Unit to Move, Run, or otherwise reposition using standard movement, resolve it as follows:\n\nSTEP 1 - <link=\"rule_chapter_4_3\">THE LEADING MODEL</link>\n\n• Choose a <link=\"rule_keyword_leading_model\">Leading Model</link> and move it up to the Unit’s Speed (see <link=\"rule_chapter_5_1\">Part 5.1</link> for split Speed values). Measure the actual path travelled.\n\n• The Leading Model may pass through <link=\"rule_keyword_friendly\">Friendly</link> <link=\"rule_chapter_2_1\">models</link> in its own Unit.\n\n• The Leading Model may not pass through <link=\"rule_keyword_enemy\">Enemy</link> models or Friendly models from other <link=\"rule_chapter_2_2\">Units</link>. Ground models may pass through a <link=\"rule_keyword_flying\">Flying</link> model’s base as if it were not there, and vice versa.\n\n• The Leading Model cannot move through terrain of Size 2 or larger.\n\n• Follow <link=\"rule_chapter_4_6\">Gap Clearance</link> rules (<link=\"rule_chapter_4_6\">Part 4.6</link>).\n\n• The Leading Model cannot change elevation unless it passes through an <link=\"rule_keyword_access_point\">ACCESS POINT</link>.\n\n• The Leading Model may not end overlapping terrain or another model’s base.\n\n• The Leading Model’s entire base must end on <link=\"rule_chapter_7\">the battlefield</link>.\n\n• The Leading Model cannot end <link=\"rule_keyword_within\">Within</link> 1” (<link=\"rule_keyword_engagement_range\">Engagement Range</link>) of an Enemy Ground Unit.\n\n• No part of a base of the Leading Model can move more than its unit Speed value.\n\nSTEP 2 - OTHER MODELS\n\n• Pick up all remaining models and set them In <link=\"rule_chapter_4_4\">Coherency</link> (<link=\"rule_chapter_4_4\">Part 4.4</link>) around the Leading Model.\n\n• These models are set, not moved – they may ignore intervening obstacles. However, they must end in a legal position: no overlapping <link=\"rule_chapter_2_3\">bases</link>, entire bases on the battlefield, and not Within 1” of an Enemy Unit.\n\nTERRAIN INTERACTIONS\n\n• Size 0 & Size 1: Pass through freely. Cannot end movement overlapping the terrain’s footprint.\n\n• <link=\"rule_keyword_grass\">Grass</link> (Size 2 - special case): Refer to the GRASS keyword (<link=\"rule_chapter_11\">Part 11</link>) for the full rules. Grass does not block movement but does block <link=\"rule_keyword_line_of_sight\">Line of Sight</link>, following the standard <link=\"rule_chapter_7_1_1\">Cover</link> rules (<link=\"rule_chapter_7_1_1\">Part 7.1.1</link>). If the Leading Model’s path of travel passes through or any model of a Unit ends on a Grass terrain piece, that Grass piece is immediately removed from the game for the remainder of the battle.\n\n• Flying Units: A Flying Unit moving over Grass does not destroy the Grass terrain piece. Flying models pass above the terrain, not through it. If any model of a Flying Unit ends on a Grass terrain piece, it is removed as normal.\n\n• Size 2 and larger: Cannot move through.\n\nELEVATION Models can stand on one of three elevations:\n\n• <link=\"rule_keyword_ground_level\">GROUND LEVEL</link>: Standing directly on the playmat.\n\n• <link=\"rule_keyword_mid_ground\">MID GROUND</link>: Standing on horizontal terrain of Size 1 or 2.\n\n• <link=\"rule_keyword_high_ground\">HIGH GROUND</link>: Standing on horizontal terrain of Size 3 or larger.\n\nThe model stands on Elevation if its base is at that elevation. If the model’s base is on multiple elevation levels, assume it is standing on the highest of those elevations.\n\nACCESS POINTS connect different elevation levels. Models change elevation only by moving through an ACCESS POINT (examples: ladders, portals, doors). Coherency links may pass through ACCESS POINTS.\n\nRAMPS are Size 1 MID GROUND terrain. A model on a ramp at any point along its surface is at MID GROUND elevation. Models cannot pass through a ramp freely – they may only enter and exit through the ramp’s two ACCESS POINTS (one at the base, one at the top) and may end their movement on the ramp.\n\nFLYING MOVE Units with the Flying Combat Tag ignore all normal movement restrictions. The Leading Model moves point-to-point, ignoring all terrain and models between the start and end. Other models may pass through a Flying model’s base as if it were not there.\n\nFlying Units and Engagement Range:\n\n• A Flying Unit may end its movement in Base-to-Base contact with Ground Units and vice versa – Flying models are never <link=\"rule_keyword_engaged\">Engaged</link>, and this proximity has no effect on either Unit’s ability to act.\n\n• Flying models are never Engaged (<link=\"rule_chapter_7_2_1\">Part 7.2.1</link>). A Flying Unit must end its movement at least 1” away from all Enemy Flying Units."
+  },
+  {
+    "Id": "rule_chapter_8_5_4",
+    "Name": "8.5.4 Disengage",
+    "Type": "Rule",
+    "Description": "<i>Core rulebook, p. 58</i>\n\nThe most challenging manoeuvre a squad will ever make is to pull back under heavy fire. Losing the initiative on a pinned position demands calm discipline, swift action, and enough firepower to keep the pursuers at bay.\n\nAn <link=\"rule_keyword_engaged\">Engaged</link> Unit withdraws from melee.\n\n• Move it following the standard Move rules (<link=\"rule_chapter_8_5_3\">Part 8.5.3</link>).\n\n• Any individual model that cannot end its movement strictly outside the <link=\"rule_keyword_engagement_range\">Engagement Range</link> of all <link=\"rule_keyword_enemy\">Enemy</link> <link=\"rule_chapter_2_2\">Units</link> is immediately removed and considered Destroyed. Other <link=\"rule_chapter_2_1\">models</link> in the Unit that successfully clear the Engagement Range remain unaffected – the Unit continues with its remaining models.\n\n• If <link=\"rule_chapter_4_3\">the Leading Model</link> itself cannot end its movement outside the Engagement Range of all Enemy Units, the Disengage fails. The Unit does not move, the Leading Model is removed, and the Unit’s activation ends.\n\n• A Unit that Disengages cannot perform <link=\"rule_chapter_8_7_3\">Ranged Attack</link> or <link=\"rule_chapter_8_7_7\">Charge</link> in the following Assault Phase – unless its <link=\"rule_keyword_current_supply_value\">Current Supply Value</link> is greater than the Combined Supply of all enemies it was Engaged with."
+  },
+  {
+    "Id": "rule_chapter_8_5_5",
+    "Name": "8.5.5 Deploy",
+    "Type": "Rule",
+    "Description": "<i>Core rulebook, p. 58</i>\n\nThe moment boots hit the ground, there is no going back. Timing a deployment correctly can swing an entire flank. Timing it wrong feeds reinforcements into a meat grinder.\n\nA Unit from <link=\"rule_keyword_reserves\">Reserves</link> enters <link=\"rule_chapter_7\">the battlefield</link>.\n\n• Confirm the Unit’s <link=\"rule_keyword_current_supply_value\">Current Supply Value</link> fits <link=\"rule_keyword_within\">within</link> the <link=\"rule_keyword_available_supply\">Available Supply</link>.\n\n• Set <link=\"rule_chapter_4_3\">the Leading Model</link> in contact with the player’s <link=\"rule_keyword_entry_edge\">Entry Edge</link> outside of the battlefield, then move it up to the Unit’s Speed following standard Move rules (<link=\"rule_chapter_8_5_3\">Part 8.5.3</link>).\n\n• Treat the Entry Edge as a base of a <link=\"rule_keyword_leading_model\">Leading Model</link>, then move it up to the Unit’s speed following standard Move rules (<link=\"rule_chapter_8_5_3\">Part 8.5.3</link>).\n\n• The Leading Model enters first. Set the rest of the Unit In <link=\"rule_chapter_4_4\">Coherency</link>.\n\n• The Unit cannot finish its activation within the <link=\"rule_keyword_enemy\">enemy</link>’s <link=\"rule_keyword_zone_of_influence\">Zone of Influence</link>.\n\n• Unit can never end a Deploy action Out of Coherency. If all <link=\"rule_chapter_2_1\">models</link> cannot be placed legally while maintaining Coherency, the Unit cannot be deployed in that location.\n\n<link=\"rule_chapter_2_2\">UNITS</link> RETURNED TO RESERVES Some rules will remove the Unit from the battlefield and return it to the Reserves. The Unit is not Destroyed; it has left the battlefield. When the Unit is returned to the Reserves, the Current Supply used by the Unit is released, and the Available Supply is recalculated from that moment onwards.\n\nThe Unit keeps all the equipment it had when it left the battlefield. The Damage recorded by the Damage Marker that the Unit suffered before it was removed remains with the Unit. When the Unit is redeployed, it will carry the same Damage.\n\nAny buffs, debuffs, or mission effects with a set duration “until the End of the Round” and similar effects stay on the Unit. However, the clock does not pause just because the Unit has left. If an effect were to expire during <link=\"rule_chapter_8_9_5\">Cleanup & Refresh</link> (<link=\"rule_chapter_8_9_5\">Part 8.9.5</link>), it still would, whether the Unit is on the table or not.\n\nWhile in Reserves, the Unit keeps all its Active, Passive, and <link=\"rule_chapter_10_4\">Reaction Abilities</link>, but none of them function. They cannot be triggered, they produce no effects, and they cannot be used to pay costs or respond to events. They are on the card, not on the battlefield. When the Unit redeploys, all its abilities resume immediately unless an ability explicitly states otherwise.\n\nHowever, the <link=\"rule_chapter_7_3_1\">Tokens</link> and <link=\"rule_chapter_7_3_2\">Markers</link> that the Unit left behind on the battlefield will be removed, unless they have the <link=\"rule_keyword_stay_in_play\">STAY IN PLAY</link> keyword.\n\nIf the Unit was Activated during the current Phase, once it is returned to the Reserves, it will remain Activated and will not be able to take further action within the current Phase."
+  },
+  {
+    "Id": "rule_chapter_8_6",
+    "Name": "8.6 Phase 2: The Assault Phase",
+    "Type": "Rule",
+    "Description": "<i>Core rulebook, p. 59</i>\n\nIt is here that the line finally breaks. Gauss Rifle fire cracks along the fire lanes, siege shells soar over the barricades, and Zealots <link=\"rule_chapter_8_7_7\">charge</link> the last metres in a lastditch push. The Assault Phase is when the Damage is done, Ranged Attacks tear through exposed <link=\"rule_chapter_2_2\">Units</link>, and Charges strike defenders who chose a poor position.\n\n<link=\"rule_chapter_8_6_1\">8.6.1 Activations</link>\n\n<link=\"rule_chapter_8_6_2\">8.6.2 Passing</link>"
+  },
+  {
+    "Id": "rule_chapter_8_6_1",
+    "Name": "8.6.1 Activations",
+    "Type": "Rule",
+    "Description": "<i>Core rulebook, p. 59</i>\n\nOn the <link=\"rule_keyword_active_player\">Active Player</link>’s turn, activate a Unit with an Activation Marker (Movement side) and select one action: Run, Hold, <link=\"rule_chapter_8_7_7\">Charge</link>, or <link=\"rule_chapter_8_7_3\">Ranged Attack</link>. After completing the action, set an Activation Marker (Assault side) next to it. <link=\"rule_chapter_2_2\">Units</link> still in <link=\"rule_keyword_reserves\">Reserves</link> cannot act during this Phase."
+  },
+  {
+    "Id": "rule_chapter_8_6_2",
+    "Name": "8.6.2 Passing",
+    "Type": "Rule",
+    "Description": "<i>Core rulebook, p. 60</i>\n\nThe first player to Pass takes the <link=\"rule_keyword_first_player_marker\">First Player Marker</link> for Phase 3. Set Activation <link=\"rule_chapter_7_3_2\">Markers</link> (Assault side) next to any <link=\"rule_chapter_2_2\">Units</link> that did not activate."
+  },
+  {
+    "Id": "rule_chapter_8_7",
+    "Name": "8.7 Assault Phase Actions",
+    "Type": "Rule",
+    "Description": "<i>Core rulebook, p. 60</i>\n\n<link=\"rule_chapter_8_7_1\">8.7.1 Run</link>\n\n<link=\"rule_chapter_8_7_2\">8.7.2 Hold</link>\n\n<link=\"rule_chapter_8_7_3\">8.7.3 Ranged Attack</link>\n\n<link=\"rule_chapter_8_7_4\">8.7.4 Ranged Attack Resolution</link>\n\n<link=\"rule_chapter_8_7_5\">8.7.5 Removing Models From Engaged Units</link>\n\n<link=\"rule_chapter_8_7_6\">8.7.6 Template Weapons</link>\n\n<link=\"rule_chapter_8_7_7\">8.7.7 Charge</link>"
+  },
+  {
+    "Id": "rule_chapter_8_7_1",
+    "Name": "8.7.1 Run",
+    "Type": "Rule",
+    "Description": "<i>Core rulebook, p. 60</i>\n\nSometimes the best use of a Unit’s activation is not to fight at all. A squad repositioning to claim a Marker next Round, a flanking force closing the gap before a decisive <link=\"rule_chapter_8_7_7\">Charge</link>, or a screening Unit pulling back from an exposed position are all valid reasons to give up an entire Assault Phase activation without firing a shot.\n\nAn <link=\"rule_keyword_unengaged\">Unengaged</link> Unit moves across <link=\"rule_chapter_7\">the battlefield</link> following the standard Move rules (<link=\"rule_chapter_8_5_3\">Part 8.5.3</link>). The procedure is identical to a Movement Phase Move:\n\nNominate a <link=\"rule_keyword_leading_model\">Leading Model</link>, move it up to the Unit’s Speed, and set remaining <link=\"rule_chapter_2_1\">models</link> In <link=\"rule_chapter_4_4\">Coherency</link>. All standard restrictions apply, including <link=\"rule_chapter_4_6\">Gap Clearance</link> (<link=\"rule_chapter_4_6\">Part 4.6</link>) and the prohibition on ending <link=\"rule_keyword_within\">Within</link> the <link=\"rule_keyword_engagement_range\">Engagement Range</link> of <link=\"rule_keyword_enemy\">Enemy</link> <link=\"rule_chapter_2_2\">Units</link>."
+  },
+  {
+    "Id": "rule_chapter_8_7_2",
+    "Name": "8.7.2 Hold",
+    "Type": "Rule",
+    "Description": "<i>Core rulebook, p. 60</i>\n\nThe Unit does not take any action. Set an Activation Marker (Assault side)."
+  },
+  {
+    "Id": "rule_chapter_8_7_3",
+    "Name": "8.7.3 Ranged Attack",
+    "Type": "Rule",
+    "Description": "<i>Core rulebook, p. 60</i>\n\nFire is the language of the Assault Phase. A volley of Gauss Rifle rounds tears through a Unit caught crossing open ground. A Hydralisk spine salvo pins down an advancing squad behind a wall. A single Siege Tank shell lands among a cluster of infantry and scatters them. Every ranged weapon on <link=\"rule_chapter_7\">the battlefield</link> has the potential to reshape the fight before the <link=\"rule_keyword_enemy\">enemy</link> can close the distance, but only if the shot is aimed at the right target, at the right time, with the right weapon.\n\nA Ranged Attack is resolved in two stages. First, the attacking player selects a valid target and assigns weapons to it. Second, the attack is resolved through the three-pool system: <link=\"rule_chapter_3_1\">dice</link> move from the Attack Pool through the Armour Pool to the Damage Pool, with each stage giving both sides a chance to influence the outcome. <link=\"rule_chapter_2_2\">Units</link> with multiple weapon profiles may split their fire across different targets, resolving each weapon as a separate Batch.\n\n1. TARGET ELIGIBILITY A valid target must meet all of the following criteria:\n\n• At least one <link=\"rule_keyword_visible\">Visible</link> model from the target Unit is <link=\"rule_keyword_within\">Within</link> the weapon’s maximum Range. Measure from the attacking model’s base to the target model’s base.\n\n• Only <link=\"rule_chapter_2_1\">models</link> Within Range to at least one Visible model from the target Unit contribute dice to the Attack Roll.\n\n• The target’s Combat Tag matches the weapon’s target characteristic (Ground, <link=\"rule_keyword_flying\">Flying</link> or All).\n\n• Engagement <link=\"rule_keyword_status\">Status</link>: An <link=\"rule_keyword_unengaged\">Unengaged</link> attacking Unit cannot select an <link=\"rule_keyword_engaged\">Engaged</link> Unit as a target (except <link=\"rule_keyword_spillover\">Spillover</link> from <link=\"rule_chapter_8_7_6\">Template Weapons</link> – see <link=\"rule_chapter_8_7_6\">Part 8.7.6</link>). An Engaged attacking Unit may only target the Unit(s) it is currently Engaged with.\n\n2. WEAPON SELECTION AND BATCHING Each model fires one of its available Assault Phase weapons. All models using the same Weapon Profile must fire at the same target – the player cannot split a single profile’s fire. A Batch consists of all models firing the same weapon at the same target. This same-profile, same-target rule applies to <link=\"rule_keyword_sidearm\">SIDEARM</link> weapons as well – all models firing the same SIDEARM profile must target the same Unit, although that Unit may differ from the target of the Unit’s other weapons.\n\nIf a Unit has multiple Weapon Profiles, it may fire at different targets – resolved in separate Batches.\n\nREMOVING DICE: When a <link=\"rule_keyword_special_ability\">Special Ability</link> reduces the number of dice within a Batch, the player controlling the Unit resolving that ability chooses which dice are removed.\n\nBATCH SEQUENCE: Declare the target of one Batch, resolve it fully, and then declare the next Batch. The player does not declare all targets simultaneously."
+  },
+  {
+    "Id": "rule_chapter_8_7_4",
+    "Name": "8.7.4 Ranged Attack Resolution (Hit, Surge, Armour, Evade, Damage)",
+    "Type": "Rule",
+    "Description": "<i>Core rulebook, p. 61</i>\n\nEvery attack is resolved by moving <link=\"rule_chapter_3_1\">dice</link> through three pools. Dice begin in the Attack Pool, pass through the Armour Pool, and end in the Damage Pool. Dice that survive the entire sequence inflict casualties.\n\nATTACK POOL. Generate a number of dice equal to each attacking model’s Rate of Attack (RoA). Roll all dice in this pool against the weapon’s Hit characteristic. Each die that meets or exceeds the Hit value is a success. Move it to the Armour Pool. Discard all failures.\n\nARMOUR POOL. The defender rolls all dice in this pool against the target Unit’s Armour characteristic. Each die that meets or exceeds the Armour value is a success. Discard it. Move all failures to the Damage Pool. Some effects bypass this roll entirely: dice moved out of the Armour Pool by Surge or <link=\"rule_keyword_critical_hit\">CRITICAL HIT</link> are set directly into the Damage Pool without an Armour Roll.\n\nDAMAGE POOL. Each die remaining in this pool inflicts Damage equal to the weapon’s Damage characteristic. If the target Unit is eligible for an Evade Roll, the defender rolls all dice in this pool against the Unit’s Evade characteristic before Damage is applied. Each die that meets or exceeds the Evade value is a success and is discarded. Remaining dice inflict Damage as normal.\n\nResolve each Batch in sequence:\n\n1. ROLL TO HIT\n\n• For each attacking model with an eligible target, add dice equal to the weapon’s RoA to the Attack Pool.\n\n• If the weapon has an S Dice characteristic, add one Surge Die (use a different colour). If there is no S Dice, the Surge Result is 0.\n\n• Roll all Attack Dice. Results equal to or higher than the weapon’s Hit value are successes. Move successful dice to the Armour Pool.\n\n2. RESOLVE SURGE\n\n• Check if the target Unit’s Combat Tag matches the weapon’s Surge Type. If not, the Surge Die result is ignored entirely – discard it. No dice move from the Armour Pool at this step.\n\n• If it matches, move a number of dice equal to the Surge Die result from the Armour Pool directly to the Damage Pool. These bypass Armour entirely. Surge can never move more dice than are currently in the Armour Pool.\n\n3. ARMOUR ROLLS\n\n• The defender rolls all dice in the Armour Pool.\n\n• Results equal to or higher than the Unit’s Armour characteristic: success – discard the die.\n\n• Results lower than Armour: failure – move the die to the Damage Pool.\n\n4. EVADE ROLLS Perform this step only if the target Unit qualifies:\n\n• A <link=\"rule_keyword_special_ability\">Special Ability</link> or keyword grants an Evade Roll.\n\n• The target is <link=\"rule_keyword_engaged\">Engaged</link> and is suffering Damage from a <link=\"rule_chapter_8_7_3\">Ranged Attack</link>.\n\nIf eligible, the defender rolls all dice in the Damage Pool. Results equal to or higher than the Unit’s Evade characteristic: success – remove those dice. Remaining dice are confirmed Damage.\n\n5. RESOLVE DAMAGE AND CASUALTIES If there are no dice left in the Damage Pool, ignore this phase.\n\n• Multiply the remaining dice in the Damage Pool by the weapon’s Damage characteristic.\n\n• Add any previously accumulated Damage (from earlier attacks in this or previous Rounds), indicated by a Damage Marker. This total is the Total Damage.\n\n• Apply any Special Skills that reduce the Total Damage.\n\n• Remove casualties model by model. The defending player removes <link=\"rule_chapter_2_1\">models</link> from the target Unit, following these rules:\n\n• The attack cannot remove more models than the number of <link=\"rule_keyword_visible\">Visible</link> models in the target Unit.\n\n• While Total Damage equals or exceeds a model’s HP, remove one Visible model and reduce Total Damage by that model’s HP. Repeat.\n\n• If all Visible models are Destroyed, discard remaining Total Damage – it does not carry over to non-Visible models.\n\n• If Total Damage remains but cannot Destroy the next Visible model, record it with a Damage Marker (e.g. a D6 set next to the Unit)."
+  },
+  {
+    "Id": "rule_chapter_8_7_5",
+    "Name": "8.7.5 Removing Models From Engaged Units",
+    "Type": "Rule",
+    "Description": "<i>Core rulebook, p. 63</i>\n\nWhen the target Unit is <link=\"rule_keyword_engaged\">Engaged</link>, ignore standard Visibility rules.\n\nWhenever an Engaged Unit suffers casualties from any source, ignore standard Visibility rules and apply the following priority order instead.\n\nThe defending player must remove casualties in this strict priority order: Priority 1: <link=\"rule_chapter_2_1\">Models</link> not <link=\"rule_keyword_within\">Within</link> the <link=\"rule_keyword_engagement_range\">Engagement Range</link> of any <link=\"rule_keyword_enemy\">Enemy</link> Unit.\n\nPriority 2: Models Within the Engagement Range but not in Base-to-Base contact. Priority 3: Models in Base-to-Base contact with an Enemy model. When selecting a model to remove at Priority 2 or 3, the defending player cannot choose a model if removing it would cause the Unit to stop being Engaged with a specific Enemy Unit – provided there is another valid casualty in any priority tier."
+  },
+  {
+    "Id": "rule_chapter_8_7_6",
+    "Name": "8.7.6 Template Weapons",
+    "Type": "Rule",
+    "Description": "<i>Core rulebook, p. 64</i>\n\nBLAST TEMPLATE (BT) / FLAMER TEMPLATE (FT)\n\n1. ALIGNMENT\n\n• BT: The template must <link=\"rule_chapter_7_1_1\">cover</link> as much of the target model’s base as possible. The centre of the target model’s base is the Target Point.\n\n• FT: The narrow end must be flush with the attacking model’s base edge and aimed at the target. The centre of the target model’s base is the Target Point.\n\n• Templates affect only <link=\"rule_chapter_2_1\">models</link> at the same <link=\"rule_keyword_elevation_level\">elevation level</link> as the Target Point.\n\n• <link=\"rule_keyword_flying\">Flying</link> models are not on any elevation level for template purposes. A template set at <link=\"rule_keyword_ground_level\">GROUND LEVEL</link> does not affect Flying models, and a template cannot be set on a Flying model’s elevation level, unless the template weapon has Target: ALL or Target: Flying.\n\n2. DECLARING TARGETS Follow standard Target Eligibility (<link=\"rule_chapter_8_7_3\">Part 8.7.3</link>) with this exception: select one <link=\"rule_keyword_enemy\">Enemy</link> Unit as the Primary target – all models in that Unit covered by the template are the Main target. Every other model (<link=\"rule_keyword_friendly\">Friendly</link> or Enemy) covered by the template is resolved under <link=\"rule_keyword_spillover\">Spillover</link>, provided they share the same elevation and Combat Tag as the Primary target.\n\n3. DETERMINING <link=\"rule_keyword_hits\">HITS</link> A model is affected if all of the following are true:\n\n• Its base is partially or fully covered by the template.\n\n• It is on the same elevation as the declared Target Point.\n\n• A line traced from the target model’s base (BT) or Attacking Model’s base (FT) to the model’s base is not blocked by a terrain (Size 2+).\n\n• It is an eligible target type (e.g., a Ground-only template does not affect Flying models, even if it is covered).\n\n4. ATTACK POOL GENERATION\n\n• Main Target: Generate a number of Attack <link=\"rule_chapter_3_1\">Dice</link> equal to the number of Affected models in the target Unit, plus any weapon Rate of Attack <link=\"rule_chapter_3_4\">modifiers</link>.\n\n• Spillover (separate Batches per Unit): Generate a number of Attack Dice equal to the number of Affected models in that Unit only. Do not apply Rate of Attack modifiers. Do not apply <link=\"rule_chapter_8_7_4\">Surge</link>.\n\n5. RESOLUTION\n\n• Roll to Hit as normal. Roll the generated Attack Dice for the Batch. Any result equal to or higher than the weapon’s Hit characteristic is a success and is moved to the Armour Pool.\n\n• Do not roll a Surge Die. For the Main target, the Surge Result equals the number of Affected models in that Unit. Spillover attacks do not generate Surge.\n\n• Apply Surge efficiency normally for the Main target if the Combat Tag matches. Do not apply Surge to Spillover."
+  },
+  {
+    "Id": "rule_chapter_8_7_7",
+    "Name": "8.7.7 Charge",
+    "Type": "Rule",
+    "Description": "<i>Core rulebook, p. 65</i>\n\nThe last few metres are the longest. A charging squad crosses open ground with nothing between them and the <link=\"rule_keyword_enemy\">Enemy</link> but speed, aggression, and the hope that the <link=\"rule_chapter_3_1\">dice</link> fall right.\n\nAn <link=\"rule_keyword_unengaged\">Unengaged</link> Ground Unit moves into the <link=\"rule_keyword_engagement_range\">Engagement Range</link> of Enemy <link=\"rule_chapter_2_2\">Units</link>.\n\n1. DECLARE TARGETS\n\n• All targets must possess the Ground Combat Tag. <link=\"rule_keyword_flying\">Flying</link> Units cannot Charge or be Charged.\n\n• A Charge does not require <link=\"rule_keyword_line_of_sight\">Line of Sight</link>.\n\n• Declare all intended targets before rolling.\n\n2. DETERMINE CHARGE DISTANCE\n\n• Choose <link=\"rule_chapter_4_3\">the Leading Model</link> and nominate one model per target Unit as the Charge target.\n\n• Roll 1D6 and add it to the Unit’s Speed. This is the Charge Roll Distance.\n\n• Measure along the actual path of travel – bypass impassable obstacles. Follow <link=\"rule_chapter_4_6\">Gap Clearance</link> rules (<link=\"rule_chapter_4_6\">Part 4.6</link>).\n\n3. SUCCESSFUL AND FAILED CHARGES The Charge succeeds only if the Leading Model can be legally set in a position that is:\n\n<link=\"rule_keyword_wholly_within\">Wholly Within</link> the Charge Roll Distance of its starting point.\n\n• <link=\"rule_keyword_within\">Within</link> the Engagement Range (1”) of every declared Charge target.\n\n• Not overlapping other <link=\"rule_chapter_2_3\">bases</link> or <link=\"rule_keyword_impassable_terrain\">impassable terrain</link>.\n\n• Not Within the Engagement Range of any Enemy Unit that was not declared as a target.\n\nIf the Charge fails, the Unit does not move. Its activation ends immediately.\n\n4. EXECUTE THE MOVE Move the Leading Model into the valid position. Set it in Base-to-Base contact with the Charge target(s)\n\nif possible – otherwise as close as possible Within the Engagement Range.\n\nSet remaining <link=\"rule_chapter_2_1\">models</link> In <link=\"rule_chapter_4_4\">Coherency</link>. Coherency Links may pass through Enemy models the Unit is <link=\"rule_keyword_engaged\">Engaged</link> with (<link=\"rule_chapter_4_4\">Part 4.4</link>). None may end Within the Engagement Range of a Unit not declared as a target. Placement priority:\n\n• Priority A: Base-to-Base contact with declared target models (whenever physically possible).\n\n• Priority B: Within the Engagement Range of targets (if Base-to-Base is impossible).\n\n• Priority C: As close as possible to the Leading Model to maintain Coherency."
+  },
+  {
+    "Id": "rule_chapter_8_8",
+    "Name": "8.8 Phase 3: The Combat Phase",
+    "Type": "Rule",
+    "Description": "<i>Core rulebook, p. 67</i>\n\nThere is no room for tactics at arm’s length. Psi blades clash with claws, bayonets scrape against carapace, and the only thing that matters is who is still standing when the dust settles. During the Combat Phase, <link=\"rule_keyword_engaged\">Engaged</link> <link=\"rule_chapter_2_2\">Units</link> close the distance to their foes and trade blows in brutal melee combat. Unlike the previous Phases, where activation is voluntary, every Unit currently in the <link=\"rule_keyword_engagement_range\">Engagement Range</link> of an <link=\"rule_keyword_enemy\">Enemy</link> must act in this Phase. A player cannot choose to skip a fight.\n\n<link=\"rule_keyword_flying\">Flying</link> Units are never Engaged and therefore never participate in the Combat Phase. They cannot be Activated, cannot Close Ranks, and cannot be the target of Close Combat Attacks.\n\nACTIVATIONS Players take turns activating one Engaged Unit at a time. The holder of the <link=\"rule_keyword_first_player_marker\">First Player Marker</link> chooses who activates first. Players then alternate, each activating one Engaged Unit per turn. When an eligible Unit is Activated, it follows the Close Combat Attack (<link=\"rule_chapter_8_8_1\">Part 8.8.1</link>).\n\nUNIT ELIGIBILITY Only Engaged Units may be Activated during this Phase. <link=\"rule_keyword_unengaged\">Unengaged</link> Units cannot act. Once a Unit’s Close Combat Attack is fully resolved, remove its Activation Marker.\n\nPASSING A player Passes only when they have no remaining Engaged Units to activate. When both players Pass, the Phase ends.\n\n<link=\"rule_chapter_8_8_1\">8.8.1 The Close Combat Attack</link>"
+  },
+  {
+    "Id": "rule_chapter_8_8_1",
+    "Name": "8.8.1 The Close Combat Attack",
+    "Type": "Rule",
+    "Description": "<i>Core rulebook, p. 67</i>\n\nAn <link=\"rule_keyword_engaged\">Engaged</link> Ground Unit attacks <link=\"rule_keyword_enemy\">Enemy</link> <link=\"rule_chapter_2_2\">Units</link> it is Engaged with.\n\n1. CLOSE RANKS (OPTIONAL) Before rolling the <link=\"rule_chapter_3_1\">dice</link>, the Unit may press into the fight:\n\n• Choose a <link=\"rule_keyword_leading_model\">Leading Model</link> and move it up to 3” – following standard Move rules (<link=\"rule_chapter_8_5_3\">Part 8.5.3</link>) with two restrictions:\n\n• <link=\"rule_chapter_4_3\">The Leading Model</link> must end closer to the Unit(s) it is Engaged with than it started.\n\n• This move cannot bring the Unit into Engagement with new Enemy Units not already Engaged at the start of this Phase.\n\n• Reposition the rest of the Unit into <link=\"rule_chapter_4_4\">Coherency</link>- Coherency Links may pass through Enemy <link=\"rule_chapter_2_1\">models</link> the Unit is Engaged with (<link=\"rule_chapter_4_4\">Part 4.4</link>).\n\n• Set models in Base-to-Base contact with Enemy models wherever possible.\n\n• If Base-to-Base contact is not possible, set models in Base-to-Base contact with <link=\"rule_keyword_friendly\">Friendly</link> models from the same Unit that are <link=\"rule_keyword_within\">Within</link> the <link=\"rule_keyword_engagement_range\">Engagement Range</link>.\n\n• Models already in Base-to-Base contact at the start of this step are not moved – they are physically pinned.\n\n• Models cannot use this move to <link=\"rule_chapter_8_5_4\">Disengage</link> from other Enemy Units.\n\n2. DECLARE ATTACKERS Determine which models may strike:\n\n• <link=\"rule_keyword_fighting_rank\">Fighting Rank</link>: Within the Engagement Range (1”) of an Enemy model.\n\n• <link=\"rule_keyword_supporting_rank\">Supporting Rank</link>: In Base-to-Base contact with a Friendly model from the same Unit that is in the Fighting Rank.\n\n<link=\"rule_keyword_line_of_sight\">Line of Sight</link> is not required. Eligible models strike the Enemy Unit as a whole.\n\n3. ROLL ATTACKS Resolve attacks using the same sequence as Ranged Attacks (<link=\"rule_chapter_8_7_4\">Part 8.7.4</link>) with this restriction:\n\n• Use only Combat Phase weapons listed on the Unit Card.\n\n• If a model has more than one eligible Combat Phase weapon, the <link=\"rule_keyword_controlling_player\">controlling player</link> chooses one.\n\nNote: Evade Rolls are only available in the Combat Phase if the Unit has a <link=\"rule_keyword_special_ability\">Special Ability</link> or keyword that explicitly grants an Evade Roll against Close Combat attacks.\n\n4. FIGHTING MULTIPLE UNITS If Engaged with more than one Enemy Unit simultaneously:\n\n• A model is eligible to attack an Enemy Unit only if it is in Fighting Rank with a model from that Enemy Unit, or if it is in the Supporting Rank (in Base-to-Base\n\ncontact with a friendly model that is in Fighting Rank contact with that Enemy Unit).\n\n• Declare which target receives the Surge Die before rolling. The Surge Die cannot be split.\n\n5. CASUALTY REMOVAL Follow the Engaged Unit rules (<link=\"rule_chapter_8_7_5\">Part 8.7.5</link>).\n\n6. POST-COMBAT <link=\"rule_keyword_status\">STATUS</link> After casualties are removed:\n\n• If none of the Unit’s remaining models is Within 1” of an enemy, the Unit is immediately <link=\"rule_keyword_unengaged\">Unengaged</link>.\n\n• A Unit freed from combat that has not yet Activated this Phase is no longer bound by mandatory Combat activation. It effectively Passes, but acts normally from the next Round.\n\n• In rare cases, a <link=\"rule_chapter_10_4\">Reaction Ability</link> or specific trigger may allow a freed Unit to act in the current Phase."
+  },
+  {
+    "Id": "rule_chapter_8_9",
+    "Name": "8.9 Phase 4: The Scoring & Cleanup Phase",
+    "Type": "Rule",
+    "Description": "<i>Core rulebook, p. 69</i>\n\nThe first player initiates each step in order:\n\n1. Determine Mission Marker Control 2.Score Victory Points 3.End of Game Check\n\n4. Resolve End of the Round Effects 5.Cleanup & Refresh 6.Determine Initiative\n\n<link=\"rule_chapter_8_9_1\">8.9.1 Determine Mission Marker Control</link>\n\n<link=\"rule_chapter_8_9_2\">8.9.2 Score Victory Points</link>\n\n<link=\"rule_chapter_8_9_3\">8.9.3 End Of Game Check</link>\n\n<link=\"rule_chapter_8_9_4\">8.9.4 Resolve End Of The Round Effects</link>\n\n<link=\"rule_chapter_8_9_5\">8.9.5 Cleanup & Refresh</link>\n\n<link=\"rule_chapter_8_9_6\">8.9.6 Determine Initiative</link>"
+  },
+  {
+    "Id": "rule_chapter_8_9_1",
+    "Name": "8.9.1 Determine Mission Marker Control",
+    "Type": "Rule",
+    "Description": "<i>Core rulebook, p. 69</i>\n\nIDENTIFY CONTESTING <link=\"rule_chapter_2_2\">UNITS</link> A Unit may Contest a Mission Marker only if all three conditions are met:\n\n• It is on <link=\"rule_chapter_7\">the battlefield</link> (not in <link=\"rule_keyword_reserves\">Reserves</link>).\n\n• At least one model is <link=\"rule_keyword_within\">Within</link> 3”, has LoS to the Marker, and is on the same elevation as the marker. For the purpose of tracing LoS, assume that the Marker has Size 0.\n\n• The Unit is In <link=\"rule_chapter_4_4\">Coherency</link>.\n\nA <link=\"rule_keyword_flying\">Flying</link> Unit cannot Contest or Control <link=\"rule_keyword_mission_markers\">Mission Markers</link>, regardless of its position or Coherency state.\n\nCALCULATE CONTROL For each Marker:\n\n• Each player sums the <link=\"rule_keyword_current_supply_value\">Current Supply Value</link> of all their contesting Units.\n\n• The player with the higher total Controls the Marker.\n\n• A tie means the Marker is Contested – control does not change.\n\n• A Unit at Supply 0 may still Control a Marker if no <link=\"rule_keyword_enemy\">Enemy</link> Units contest it.\n\nSTICKY CONTROL Set a Faction Indicator on each controlled Marker. Once a Marker is controlled, it remains under that player’s control – even if they move Units away – until the opponent actively reclaims it by ending a Scoring Phase with a higher contesting Supply total. A Contested result (tied Supply) never transfers control: the Marker stays with whoever currently holds it, or remains neutral if it has never been controlled. A Marker cannot become neutral again once a player has taken control of it.\n\nKEY RULE: Control is determined by Current Supply Value, not the number of <link=\"rule_chapter_2_1\">models</link>. A single high-Supply Elite Unit outvotes many low-Supply models on the same Marker.\n\nPlayer A Supply > Player B Supply\n\nControlled Marker owner moves away\n\n<link=\"rule_chapter_7_3_2\">Markers</link> 1 & 3\n\nOnce controlled - can it revert to neutral?\n\nPlayer A Supply = Player B Supply\n\nContested result (tied Supply)\n\nMarker 5\n\nMarkers 2 & 4\n\nOnly one player contests\n\nNo player contests\n\nSum Current Supply Value of all eligible contesting Units - not model count.\n\nControl is only lost if the opponent ends a Scoring Phase with a higher Supply total.\n\nAffinity is set after the draft is complete.\n\nOnce a player has taken control, the Marker cannot become neutral again.\n\nNo change of control. Stays with current owner (or neutral if never held).\n\nTied Supply never transfers control. Current owner keeps it.\n\nNo player affinity.\n\nAffinity is set after the draft is complete.\n\nIncludes the case where the only contesting Unit is at Supply 0.\n\nSticky Control - Marker stays with the current owner until actively reclaimed.\n\nNEVER NEUTRAL AGAIN\n\nNO CHANGE\n\nRED PLAYER\n\nBLUE PLAYER\n\nTHAT PLAYER CONTROLS\n\nSTAYS CONTROLLED\n\nPLAYER A CONTROLS\n\nCONTESTED\n\nNO TRANSFER\n\nNEUTRAL\n\nUnit on the battlefield\n\nSupply 0 Unit\n\nAt least one model Within 3” of the Marker has LoS, on the same elevation\n\n<link=\"rule_keyword_burrowed\">BURROWED</link> Unit\n\nFlying Unit\n\nOut of Coherency Unit\n\nUnit is In Coherency\n\nUnits in Reserves cannot contest.\n\nCan control a Marker if no Enemy Units contest it. Cannot win a contest.\n\nMeasured from base edge. LoS and elevation checks are both required.\n\nOverrides standard contesting rules regardless of position. (BURROWED)\n\nAirborne Units do not hold ground. Overrides standard contesting rules regardless of position. (Flying)\n\nIneligible even if models are Within 3”.\n\nOut of Coherency Units cannot contest or control any Marker.\n\nCANNOT CONTEST\n\nCANNOT CONTEST\n\nCANNOT CONTEST\n\nREQUIRED\n\nREQUIRED\n\nREQUIRED\n\nCONDITIONAL"
+  },
+  {
+    "Id": "rule_chapter_8_9_2",
+    "Name": "8.9.2 Score Victory Points",
+    "Type": "Rule",
+    "Description": "<i>Core rulebook, p. 72</i>\n\nBoth players simultaneously tally VPs based on the Mission Card’s scoring conditions."
+  },
+  {
+    "Id": "rule_chapter_8_9_3",
+    "Name": "8.9.3 End Of Game Check",
+    "Type": "Rule",
+    "Description": "<i>Core rulebook, p. 72</i>\n\nThe game ends immediately if:\n\n• A Special Winning Condition is fulfilled. The player who meets it wins outright.\n\n• A player has no <link=\"rule_chapter_2_1\">models</link> on <link=\"rule_chapter_7\">the battlefield</link> and no <link=\"rule_chapter_2_2\">Units</link> in <link=\"rule_keyword_reserves\">Reserves</link>. The surviving player gains +10 VP.\n\n• The final Phase of the final Round (usually Round 5) is complete - proceed to Part 8.10."
+  },
+  {
+    "Id": "rule_chapter_8_9_4",
+    "Name": "8.9.4 Resolve End Of The Round Effects",
+    "Type": "Rule",
+    "Description": "<i>Core rulebook, p. 72</i>\n\nResolve all “End of the Round” abilities. The holder of the <link=\"rule_keyword_first_player_marker\">First Player Marker</link> resolves their first.\n\nIf a player has multiple “End of the Round” effects to resolve, that player chooses the order in which their effects resolve. Each effect is fully resolved before the next begins."
+  },
+  {
+    "Id": "rule_chapter_8_9_5",
+    "Name": "8.9.5 Cleanup & Refresh",
+    "Type": "Rule",
+    "Description": "<i>Core rulebook, p. 72</i>\n\n• Remove all <link=\"rule_chapter_7_3_1\">Tokens</link> and <link=\"rule_chapter_7_3_2\">Markers</link> except:\n\n• Tokens and Markers with <link=\"rule_keyword_stay_in_play\">STAY IN PLAY</link>.\n\n• Damage Markers.\n\n• <link=\"rule_keyword_mission_markers\">Mission Markers</link>.\n\n• Faction Indicators that represent Control over Mission Markers.\n\n• Flip all Exhausted Tactical and <link=\"rule_chapter_5_4\">Faction Cards</link> back to their active (face-up) side."
+  },
+  {
+    "Id": "rule_chapter_8_9_6",
+    "Name": "8.9.6 Determine Initiative",
+    "Type": "Rule",
+    "Description": "<i>Core rulebook, p. 72</i>\n\n• Award the <link=\"rule_keyword_first_player_marker\">First Player Marker</link> to the player with fewer Victory Points.\n\n• If tied, conduct a Roll-Off. The winner takes the First Player Marker.\n\n• Begin Phase 1 of the next Round."
+  },
+  {
+    "Id": "rule_chapter_8_10",
+    "Name": "8.10 The Final Score",
+    "Type": "Rule",
+    "Description": "<i>Core rulebook, p. 72</i>\n\nWhen the last round is fired, and silence falls, the final victory hinges on territory gained and lives lost. Every objective taken, every <link=\"rule_keyword_enemy\">Enemy</link> line crossed, every soldier kept in reserve – all details contribute to deciding the day’s victor. <link=\"rule_chapter_7\">The battlefield</link> tells a story, but the scoreboard tells who wrote it.\n\nIf the game ends by the Round Limit:\n\n• Mission Score: Total all VP earned from objectives.\n\n• Final Round - All <link=\"rule_chapter_2_2\">Units</link> Destroyed: At the start of the final Scoring Phase, all Units remaining in <link=\"rule_keyword_reserves\">Reserves</link> are considered Destroyed. Each player is awarded Victory Points for these Units as normal, following the Mission Card’s scoring conditions for Destroyed Enemy Units.\n\nDetermine Winner: The player with the highest final VP total wins.\n\nTiebreaker: If both forces have scored the same number of total VPs, apply the Mission Card’s tiebreaker. If none is defined, the game is a Draw."
+  },
+  {
+    "Id": "rule_chapter_10",
+    "Name": "10 Advanced Rules",
+    "Type": "Rule",
+    "Description": "<i>Core rulebook, p. 79</i>\n\nThe basic systems outline the essentials of movement, firing, and hand-to-hand combat, but the true depth of StarCraft: Tabletop Miniature Game lies in the complex systems built upon these fundamental ones. This section will introduce Special Abilities (Active, Passive, and Reaction), the Tactical and Faction Card systems, which give every army a unique personality, and the resources needed to unleash powerful abilities in crucial moments.\n\n<link=\"rule_chapter_10_1\">10.1 Special Abilities</link>\n\n<link=\"rule_chapter_10_2\">10.2 Active Abilities (Full Rules)</link>\n\n<link=\"rule_chapter_10_3\">10.3 Passive Abilities (Full Rules)</link>\n\n<link=\"rule_chapter_10_4\">10.4 Reaction Abilities (Full Rules)</link>\n\n<link=\"rule_chapter_10_5\">10.5 Tactical Cards & Faction Cards</link>"
+  },
+  {
+    "Id": "rule_chapter_10_1",
+    "Name": "10.1 Special Abilities",
+    "Type": "Rule",
+    "Description": "<i>Core rulebook, p. 79</i>\n\nAll Special Abilities follow the same <link=\"pdf_Protoss_rule_pylon_any_phase_structure\">structure</link> and universal rules. Each ability on a Unit Card or Tactical Card is presented using a consistent format:\n\n• A Name identifying the ability.\n\n• A Phase Limitation restricting when it can be used (if applicable).\n\n• A Type declaring whether it is Passive, Active, or Reaction.\n\n• A Cost specifying the resource payment required in CP, BM, or PE, and the Instruction text describing exactly what occurs when the ability resolves. Special Abilities with 0 cost are free. They don’t use any resources.\n\nAn ability may be used only when all its requirements are met.\n\n• The timing or trigger condition must be correct, and any Phase restrictions must be satisfied.\n\n• The target must be <link=\"rule_keyword_within\">Within</link> Range and <link=\"rule_keyword_line_of_sight\">Line of Sight</link> (unless the ability explicitly states otherwise).\n\n• If a <link=\"rule_keyword_special_ability\">Special Ability</link> does not specify a target, the Line of Sight requirement does not apply, unless stated otherwise. Setting a Token or Marker on <link=\"rule_chapter_7\">the battlefield</link> is not a target, and so does not require Line of Sight or a target Unit.\n\n• All Costs must be paid in full before the ability resolves, and the Unit using the ability must be on the battlefield.\n\n• If a Unit is affected by multiple instances of a Special Ability with the same name simultaneously, their effects do not stack. The Unit applies the effects of only one instance of that ability at any given time.\n\nUnless stated otherwise, all effects granted by Active or <link=\"rule_chapter_10_4\">Reaction Abilities</link> that expire “at the End of the Round” remain active until all End of the Round effects (<link=\"rule_chapter_8_9_4\">Part 8.9.4</link>) are resolved. They are removed during <link=\"rule_chapter_8_9_5\">Cleanup & Refresh</link> (<link=\"rule_chapter_8_9_5\">Part 8.9.5</link>)."
+  },
+  {
+    "Id": "rule_chapter_10_2",
+    "Name": "10.2 Active Abilities (Full Rules)",
+    "Type": "Rule",
+    "Description": "<i>Core rulebook, p. 79</i>\n\nActive Abilities represent deliberate manoeuvres, technologies or enhancements that require a command to execute. A Unit may only use an Active Ability when it is currently Activated.\n\n• The ability must be triggered either immediately before declaring an action or immediately after fully resolving one.\n\n• It cannot be used during an action.\n\n• Active Abilities cannot be used while the Unit is in <link=\"rule_keyword_reserves\">Reserves</link> unless the ability explicitly states otherwise.\n\n• Unless stated otherwise, <link=\"rule_chapter_3_4\">modifiers</link> and effects granted by an Active Ability expire at the End of the Current Round.\n\nOnce Per Round: A specific Unit may use a named Active Ability only once per Game Round, unless the ability has the <link=\"rule_keyword_repeatable\">REPEATABLE</link> keyword. This limit applies to each Unit individually. Two different squads of the same Unit type can both use the same-named ability in the same Round, but a single squad may not use it twice. If a Unit gains access to an Active Ability via a Tactical Card, the Once Per Round limit still applies, regardless of how many copies of that card the player controls.\n\nEffects granted by Active Abilities that expire at the End of the Round remain active through the resolution of all End of the Round effects (<link=\"rule_chapter_8_9_4\">Part 8.9.4</link>). They are removed during <link=\"rule_chapter_8_9_5\">Cleanup & Refresh</link> (<link=\"rule_chapter_8_9_5\">Part 8.9.5</link>)."
+  },
+  {
+    "Id": "rule_chapter_10_3",
+    "Name": "10.3 Passive Abilities (Full Rules)",
+    "Type": "Rule",
+    "Description": "<i>Core rulebook, p. 80</i>\n\nPassive Abilities represent innate traits, permanent equipment or constant biological adaptations.\n\n• They are always active as long as the Unit is on <link=\"rule_chapter_7\">the battlefield</link> and do not require the Unit to be Activated to function.\n\n• Like <link=\"rule_chapter_10_2\">Active Abilities</link>, Passive Abilities on a Unit are not in effect while that Unit is in <link=\"rule_keyword_reserves\">Reserves</link>, unless the ability explicitly states otherwise.\n\nPriority: If multiple Passive Abilities trigger simultaneously, the <link=\"rule_keyword_controlling_player\">controlling player</link> chooses the order in which they resolve. If both players have Passive Abilities triggering at the same time, the <link=\"rule_keyword_active_player\">Active Player</link> resolves theirs first."
+  },
+  {
+    "Id": "rule_chapter_10_4",
+    "Name": "10.4 Reaction Abilities (Full Rules)",
+    "Type": "Rule",
+    "Description": "<i>Core rulebook, p. 80</i>\n\nReaction Abilities allow a player to act outside the usual activation sequence, responding to specific events as they occur. A Reaction is used in direct response to a defined trigger (for example, “When this Unit is targeted by an attack”).\n\n• It must be declared at the exact moment the trigger occurs.\n\n• If the window is missed, the ability cannot be used retroactively.\n\n• Like <link=\"rule_chapter_10_2\">Active Abilities</link>, Reaction Abilities cannot be used while the Unit is in <link=\"rule_keyword_reserves\">Reserves</link> unless stated otherwise.\n\n• Unless stated otherwise, <link=\"rule_chapter_3_4\">modifiers</link> and effects granted by a Reaction Ability expire at the End of the Current Round.\n\nFrequency Limit: A specific Unit may use a named Reaction Ability only once per Game Round. This follows the same rules as the Active Ability frequency limit described in Part 10.2.\n\nReaction Limit: Each player may resolve only one Reaction per each Activation. If both players wish to use a Reaction in response to the same trigger, the <link=\"rule_keyword_active_player\">Active Player</link> resolves their Reaction first, and the opponent resolves theirs second.\n\nEXAMPLE: If a Zealot Unit is attacked, it may use <link=\"pdf_Protoss_rule_zealots_upgrade_assault_phase_zealous_round\">Zealous Round</link> OR Ground Armour, not both in the same <link=\"rule_keyword_enemy\">Enemy</link> Activation. If a Marine Unit is attacked, and it uses Infantry Armor for its <link=\"rule_chapter_8_7_4\">Armour Roll</link>, the Medic Unit behind will not be able to use its <link=\"pdf_Terran_rule_medics_any_phase_life_support\">Life Support</link> in the same Enemy Activation."
+  },
+  {
+    "Id": "rule_chapter_10_5",
+    "Name": "10.5 Tactical Cards & Faction Cards",
+    "Type": "Rule",
+    "Description": "<i>Core rulebook, p. 81</i>\n\nAn army isn’t just men and guns; it’s doctrine, infrastructure, and command <link=\"pdf_Protoss_rule_pylon_any_phase_structure\">structure</link> that keep everything in line. The <link=\"rule_chapter_5_4\">Faction Cards</link> outline what you are, what philosophy you adhere to, and what command structure your men follow. The <link=\"rule_chapter_5_3\">Tactical Cards</link> represent the facilities, technology, and strategic planning done before the first bullet is ever fired. Together, they define not just what you can bring to <link=\"rule_chapter_7\">the battlefield</link>, but how you can deploy it.\n\nEach card is presented with a standard layout. It displays a Card Name. The card specifies its Type (either Faction Card or Tactical Card), lists the resources it provides in CP, BM, or PE when Exhausted, and includes any <link=\"rule_chapter_10_1\">Special Abilities</link> that are resolved using the standard rules described in Parts 10.1 through 10.4.\n\nIf a card is marked as Unique, only a single copy is allowed (Part 9.1.5).\n\n<link=\"rule_chapter_10_5_1\">10.5.1 Resources And Costs</link>\n\n<link=\"rule_chapter_10_5_2\">10.5.2 Managing Card States</link>"
+  },
+  {
+    "Id": "rule_chapter_10_5_1",
+    "Name": "10.5.1 Resources And Costs",
+    "Type": "Rule",
+    "Description": "<i>Core rulebook, p. 81</i>\n\nEach faction has a separate resource type to spend on the faction’s abilities: Terran uses CP, Zerg uses BM, and Protoss uses PE. These resources are provided by Exhausting cards.\n\nExhausting a Card: To pay for an ability’s cost, such as “Cost: 1 CP,” the player must Exhaust a <link=\"rule_keyword_ready\">Ready</link> card that matches the resource type of the cost, such as a CP card. Exhausting a card means flipping it face down, after which it is regarded as Exhausted.\n\nIf the player cannot Exhaust enough cards to pay the entire cost, they cannot activate the ability. If a card generates more resources than are needed to pay for a cost, any excess resources are lost. Resources generated to activate one ability can not be saved or spent on another ability."
+  },
+  {
+    "Id": "rule_chapter_10_5_2",
+    "Name": "10.5.2 Managing Card States",
+    "Type": "Rule",
+    "Description": "<i>Core rulebook, p. 81</i>\n\nEvery Tactical Card and Faction Card is in one of two states: <link=\"rule_keyword_ready\">Ready</link> (face-up) or Exhausted (face-down). A Ready card may be Exhausted in two ways: the player Exhausts it to use an Active or Reaction <link=\"rule_keyword_special_ability\">Special Ability</link> printed directly on the card, or the player Exhausts it to generate its Resource in order to pay for an ability located elsewhere (for example, on a Unit Card).\n\nOnce a card is Exhausted, it provides no resources for the rest of the round, and its abilities can not be used until it is Refreshed (flipped face-up) during Phase 4 Cleanup."
+  },
+  {
+    "Id": "rule_chapter_11",
+    "Name": "11 Keyword Glossary And Definitions",
+    "Type": "Rule",
+    "Description": "Keyword definitions are listed individually. Follow a linked keyword to read its full definition.\n\n<link=\"rule_keyword_access_point\">Access Point</link>, <link=\"rule_keyword_active_player\">Active Player</link>, <link=\"rule_keyword_anti_evade\">Anti-Evade</link>, <link=\"rule_keyword_army_slot\">Army Slot</link>, <link=\"rule_keyword_available_supply\">Available Supply</link>, <link=\"rule_keyword_blocking_terrain\">Blocking Terrain</link>, <link=\"rule_keyword_buff\">Buff</link>, <link=\"rule_keyword_bulky\">Bulky</link>, <link=\"rule_keyword_burrowed\">Burrowed</link>, <link=\"rule_keyword_burst_fire\">Burst Fire</link>, <link=\"rule_keyword_combat_tags\">Combat Tags</link>, <link=\"rule_keyword_concentrated_fire\">Concentrated Fire</link>, <link=\"rule_keyword_controlling_player\">Controlling Player</link>, <link=\"rule_keyword_critical_hit\">Critical Hit</link>, <link=\"rule_keyword_current_supply_value\">Current Supply Value</link>, <link=\"rule_keyword_debuff\">Debuff</link>, <link=\"rule_keyword_displacement\">Displacement</link>, <link=\"rule_keyword_dodge\">Dodge</link>, <link=\"rule_keyword_effective_size\">Effective Size</link>, <link=\"rule_keyword_elevation_level\">Elevation Level</link>, <link=\"rule_keyword_enemy\">Enemy</link>, <link=\"rule_keyword_engaged\">Engaged</link>, <link=\"rule_keyword_engagement_range\">Engagement Range</link>, <link=\"rule_keyword_entry_edge\">Entry Edge</link>, <link=\"rule_keyword_faction_tags\">Faction Tags</link>, <link=\"rule_keyword_fighting_rank\">Fighting Rank</link>, <link=\"rule_keyword_first_player_marker\">First Player Marker</link>, <link=\"rule_keyword_flying\">Flying</link>, <link=\"rule_keyword_friendly\">Friendly</link>, <link=\"rule_keyword_grass\">Grass</link>, <link=\"rule_keyword_ground_level\">Ground Level</link>, <link=\"rule_keyword_heal\">Heal</link>, <link=\"rule_keyword_hidden\">Hidden</link>, <link=\"rule_keyword_high_ground\">High Ground</link>, <link=\"rule_keyword_hits\">Hits</link>, <link=\"rule_keyword_impact\">Impact</link>, <link=\"rule_keyword_impassable_terrain\">Impassable Terrain</link>, <link=\"rule_keyword_indirect_fire\">Indirect Fire</link>, <link=\"rule_keyword_instant\">Instant</link>, <link=\"rule_keyword_leading_model\">Leading Model</link>, <link=\"rule_keyword_line_of_sight\">Line Of Sight</link>, <link=\"rule_keyword_locked_in\">Locked In</link>, <link=\"rule_keyword_long_range\">Long Range</link>, <link=\"rule_keyword_mid_ground\">Mid Ground</link>, <link=\"rule_keyword_mission_markers\">Mission Markers</link>, <link=\"rule_keyword_modifier\">Modifier</link>, <link=\"rule_keyword_morph\">Morph</link>, <link=\"rule_keyword_non_lethal_damage\">Non-Lethal Damage</link>, <link=\"rule_keyword_on_creep\">On Creep</link>, <link=\"rule_keyword_pierce\">Pierce</link>, <link=\"rule_keyword_pinpoint\">Pinpoint</link>, <link=\"rule_keyword_place\">Place</link>, <link=\"rule_keyword_precision\">Precision</link>, <link=\"rule_keyword_ready\">Ready</link>, <link=\"rule_keyword_repeatable\">Repeatable</link>, <link=\"rule_keyword_reserves\">Reserves</link>, <link=\"rule_keyword_respawn\">Respawn</link>, <link=\"rule_keyword_shielded\">Shielded</link>, <link=\"rule_keyword_sidearm\">Sidearm</link>, <link=\"rule_keyword_siege_mode\">Siege Mode</link>, <link=\"rule_keyword_special_ability\">Special Ability</link>, <link=\"rule_keyword_specialist\">Specialist</link>, <link=\"rule_keyword_spillover\">Spillover</link>, <link=\"rule_keyword_stationary\">Stationary</link>, <link=\"rule_keyword_status\">Status</link>, <link=\"rule_keyword_stay_in_play\">Stay In Play</link>, <link=\"rule_keyword_summon\">Summon</link>, <link=\"rule_keyword_supply_value\">Supply Value</link>, <link=\"rule_keyword_supporting_rank\">Supporting Rank</link>, <link=\"rule_keyword_tactical_mass\">Tactical Mass</link>, <link=\"rule_keyword_tough\">Tough</link>, <link=\"rule_keyword_unengaged\">Unengaged</link>, <link=\"rule_keyword_visible\">Visible</link>, <link=\"rule_keyword_wholly_within\">Wholly Within</link>, <link=\"rule_keyword_within\">Within</link>, <link=\"rule_keyword_zone_of_influence\">Zone Of Influence</link>"
+  }
+]

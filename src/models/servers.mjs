@@ -9,6 +9,8 @@ export function publicationTarget(catalogue, target = 'test') {
     throw new Error('Use --server test|prod or the corresponding HTTPS Warhall URL');
   }
   const sourceServer = catalogue.serverUrl.replace(/\/$/, '');
+  const gameName =
+    catalogue.gameNames?.[serverUrl === servers.test ? 'test' : 'prod'] ?? catalogue.gameName;
   const entries = structuredClone(catalogue.entries);
   const excluded = [];
   const scoped = entries.filter(entry => {
@@ -22,10 +24,12 @@ export function publicationTarget(catalogue, target = 'test') {
     return false;
   });
   return {
-    catalogue: { ...catalogue, serverUrl, entries: scoped },
+    catalogue: { ...catalogue, gameName, serverUrl, entries: scoped },
     stateFile:
       serverUrl === servers.test
-        ? '.cache/model-publication.json'
+        ? gameName === catalogue.gameName
+          ? '.cache/model-publication.json'
+          : `.cache/model-publication-${gameName.toLowerCase().replace(/[^a-z0-9-]/g, '_')}.json`
         : '.cache/model-publication-prod.json',
     excluded,
   };

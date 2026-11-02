@@ -5,7 +5,7 @@ description: Update Starcraft test data or publish a tested Starcraft-test folde
 
 # Starcraft folder publication
 
-Work in StarcraftTMG-Warhall on main. Starcraft-test/ is the working copy; Starcraft/ is the live copy. Both use GitHub main URLs and the game name Starcraft. Do not use the old test branch, create GitHub releases/tags or reintroduce Actions. See docs/releases.md.
+Work in StarcraftTMG-Warhall on main. Starcraft-test/ is the working copy; Starcraft/ is the live copy. Both use GitHub main URLs. The registered Test game is Starcraft-test; production is Starcraft. Do not use the old test branch, create GitHub releases/tags or reintroduce Actions. See docs/releases.md.
 
 ## Prepare and test
 

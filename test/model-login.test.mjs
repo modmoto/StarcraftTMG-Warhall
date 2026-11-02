@@ -83,3 +83,20 @@ test('publication defaults to test and isolates production references and progre
   assert.equal(source.entries[0].existingSkinId, 12999);
   assert.throws(() => publicationTarget(source, 'https://example.com'), /--server/);
 });
+
+test('new Test registration uses its own game name and checkpoint without changing production', async () => {
+  const { publicationTarget } = await import('../src/models/servers.mjs');
+  const source = {
+    serverUrl: 'https://apptest.warhall.eu',
+    gameName: 'Starcraft',
+    gameNames: { test: 'Starcraft-test', prod: 'Starcraft' },
+    entries: [],
+  };
+  const target = publicationTarget(source);
+  assert.equal(target.catalogue.gameName, 'Starcraft-test');
+  assert.equal(target.stateFile, '.cache/model-publication-starcraft-test.json');
+  const prod = publicationTarget(source, 'prod');
+  assert.equal(prod.catalogue.gameName, 'Starcraft');
+  assert.equal(prod.stateFile, '.cache/model-publication-prod.json');
+  assert.equal(source.gameName, 'Starcraft');
+});
