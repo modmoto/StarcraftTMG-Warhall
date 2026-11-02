@@ -81,7 +81,7 @@ export async function readSavedPassword(
         ]);
   if (result.code !== 0)
     throw new Error(
-      'Credential store access was denied. Unlock your keychain or use --login --manual-login in your terminal.',
+      `Credential store access was denied (stage ${result.code}). Unlock your keychain or use --login --manual-login in your terminal.`,
     );
   const password = platform === 'win32' ? result.output : result.output.replace(/\r?\n$/, '');
   if (!password)
