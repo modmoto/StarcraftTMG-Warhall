@@ -73,7 +73,11 @@ export function nativeTokens() {
       Name: token.name,
       Type: 'Token',
     })),
-    ...builtinTokenNames.map(name => ({ Id: name, Name: name, Type: 'Token' })),
+    ...builtinTokenNames.map(name => ({
+      Id: name,
+      Name: name === 'Token5Inch' ? 'Blast Template' : name,
+      Type: 'Token',
+    })),
   ];
   const ranks = new Map(tokenMenuOrder.map((id, index) => [id, index]));
   return tokens.sort(

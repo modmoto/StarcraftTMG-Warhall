@@ -99,7 +99,11 @@ test('all seven native tokens retain their prefab identities without duplicate u
   const shipped = await read('Starcraft-test/tokens.json');
   const catalogue = await read('model-catalogue.json');
   for (const name of builtinTokenNames) {
-    const reference = { Id: name, Name: name, Type: 'Token' };
+    const reference = {
+      Id: name,
+      Name: name === 'Token5Inch' ? 'Blast Template' : name,
+      Type: 'Token',
+    };
     assert.deepEqual(
       generated.filter(token => token.Id === name),
       [reference],

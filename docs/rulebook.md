@@ -6,7 +6,7 @@ The importer includes Parts 2–8 and 10: core concepts, dice, measuring/movemen
 
 Excluded: the introductory battle report, Part 9 army building/preparation, Part 12 quick reference/army lists, map layouts, repeated summary tables, illustration captions and italic advice sidebars. Figures are not reproduced. Each chapter gives its printed PDF page for checking diagrams. The attack-resolution heading also lists Hit, Surge, Armour, Evade and Damage so searching Surge finds its governing chapter.
 
-Descriptions link named keywords and core rules, and explicit Part/Section/Chapter references link to the numbered section. Existing links are preserved without nested markup or repeated changes on regeneration. Ambiguous generic names are not guessed across different unit abilities.
+Descriptions link named keywords and core rules, bare chapter numbers, section-sign references, and singular/plural Part/Section/Chapter references. Links are underlined like Warhall’s native rule buttons. Repeated keyword occurrences remain clickable. Existing links are preserved without nested markup or repeated changes on regeneration. Ambiguous generic names are not guessed across different unit abilities.
 
 Previously every unit and upgrade generated its own named ability record. Identical name/text entries now share a canonical ID, with profile children and nested references remapped. Different costs or effects remain separate and their names identify the applicable units. This avoids merging genuinely different versions just because their names match. Empty-name profile layout records are deliberately retained.
 

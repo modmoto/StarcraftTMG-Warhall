@@ -76,7 +76,7 @@ export function linkRuleIndex(data, glossary, book) {
     if (!/^\d/.test(rule.Name) && !targets.has(rule.Name.toLowerCase())) add(rule.Name, rule.Id);
   const aliases = [...targets.keys()].sort((a, b) => b.length - a.length);
   const pattern = new RegExp(
-    `\\b(?:Part|Section|Chapter)\\s+(\\d+(?:\\.\\d+){0,2})(?![\\d.])|(?<![\\p{L}\\p{N}_])(?:${aliases.map(escape).join('|')})(?![\\p{L}\\p{N}_])`,
+    `\\b(?:Parts?|Sections?|Chapters?)\\s+(\\d+(?:\\.\\d+){0,2})(?!\\d|\\.\\d)|(?<![\\p{L}\\p{N}_.])(\\d+\\.\\d+(?:\\.\\d+)?)(?![\\p{L}\\p{N}_]|\\.\\d|\\s*["”″])|(?<![\\p{L}\\p{N}_])(?:${aliases.map(escape).join('|')})(?![\\p{L}\\p{N}_])`,
     'giu',
   );
   const ids = new Set(namedRules.map(rule => rule.Id));
@@ -85,13 +85,11 @@ export function linkRuleIndex(data, glossary, book) {
     if (!/(?:^|\/)(?:rules|equipment)\.json$/.test(file)) continue;
     for (const rule of records) {
       if (!rule?.Description) continue;
-      const linked = new Set(
-        [...rule.Description.matchAll(/<link="([^"]+)">/g)].map(match => match[1]),
-      );
       rule.Description = rule.Description.split(/(<link="[^"]+">[\s\S]*?<\/link>|<[^>]+>)/g)
         .map(segment => {
           if (segment.startsWith('<')) return segment;
-          return segment.replace(pattern, (text, number, offset, original) => {
+          return segment.replace(pattern, (text, prefixedNumber, bareNumber, offset, original) => {
+            const number = prefixedNumber ?? bareNumber;
             if (
               /^(?:move|hold|run|deploy)$/i.test(text) &&
               !/^\s+action\b/i.test(original.slice(offset + text.length))
@@ -100,13 +98,23 @@ export function linkRuleIndex(data, glossary, book) {
             const id = number
               ? `rule_chapter_${number.replaceAll('.', '_')}`
               : targets.get(text.toLowerCase());
-            if (!ids.has(id) || id === rule.Id || (!number && linked.has(id))) return text;
-            linked.add(id);
+            if (!ids.has(id) || id === rule.Id) return text;
             count++;
             return `<link="${id}">${text}</link>`;
           });
         })
         .join('');
+      rule.Description = rule.Description.replace(
+        /<link="[^"]+">[\s\S]*?<\/link>/g,
+        (tag, offset, original) => {
+          if (
+            original.slice(0, offset).endsWith('<u>') &&
+            original.slice(offset + tag.length).startsWith('</u>')
+          )
+            return tag;
+          return `<u>${tag}</u>`;
+        },
+      );
     }
   }
   return count;

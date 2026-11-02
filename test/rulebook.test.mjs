@@ -175,3 +175,44 @@ test('shipped search index includes gameplay chapters and no duplicate named rul
     /<link="rule_chapter_4_6">Part 4.6<\/link>/,
   );
 });
+
+test('bare chapter numbers, plural references and repeated keywords have visible links', () => {
+  const glossary = {
+    entries: [{ record: { Id: 'precision', Name: 'Precision' }, aliases: ['Precision'] }],
+  };
+  const book = {
+    chapters: [
+      { number: '8.7.7', title: 'Charge' },
+      { number: '8.7.4', title: 'Ranged Attack Resolution' },
+    ],
+  };
+  const data = {
+    'rules.json': [
+      { Id: 'precision', Name: 'Precision', Type: 'Rule', Description: '' },
+      { Id: 'rule_chapter_8_7_7', Name: '8.7.7 Charge', Type: 'Rule', Description: '' },
+      {
+        Id: 'rule_chapter_8_7_4',
+        Name: '8.7.4 Ranged Attack Resolution',
+        Type: 'Rule',
+        Description: '',
+      },
+      {
+        Id: 'ability',
+        Name: 'Ability',
+        Type: 'Rule',
+        Description: 'Parts 8.7.4 and 8.7.7. See §8.7.4 and 8.7.7. PRECISION and PRECISION.',
+      },
+    ],
+  };
+  linkRuleIndex(data, glossary, book);
+  const text = data['rules.json'][3].Description;
+  assert.equal([...text.matchAll(/<u><link=/g)].length, 6);
+  assert.match(text, /<u><link="rule_chapter_8_7_7">8.7.7<\/link><\/u>\./);
+  assert.match(
+    text,
+    /<u><link="precision">PRECISION<\/link><\/u> and <u><link="precision">PRECISION<\/link><\/u>/,
+  );
+  const before = JSON.stringify(data);
+  linkRuleIndex(data, glossary, book);
+  assert.equal(JSON.stringify(data), before);
+});

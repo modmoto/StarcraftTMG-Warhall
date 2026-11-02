@@ -17,7 +17,7 @@
     "Id": "pdf_Zerg_equipment_bile_launcher_default_2_table",
     "Name": "",
     "Type": "",
-    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr><link=\"rule_chapter_8_7_4\">Surge</link></nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>12</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>6</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>L&A (D3)</nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr><u><link=\"rule_chapter_8_7_4\">Surge</link></u></nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>12</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>6</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>L&A (D3)</nobr><pos=86%><nobr>1</nobr></b></size></align>",
     "Children": []
   },
   {
@@ -31,7 +31,7 @@
     "Id": "pdf_Zerg_equipment_corpsers_roach_default_2_table",
     "Name": "",
     "Type": "",
-    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr><link=\"rule_chapter_8_7_4\">Surge</link></nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>8</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>2</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr><u><link=\"rule_chapter_8_7_4\">Surge</link></u></nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>8</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>2</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align>",
     "Children": []
   },
   {
@@ -45,7 +45,7 @@
     "Id": "pdf_Zerg_equipment_corpsers_roach_default_4_table",
     "Name": "",
     "Type": "",
-    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr><link=\"rule_chapter_8_7_4\">Surge</link></nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>3</nobr><pos=46%><nobr>4+</nobr><pos=59%><nobr>Light (D3+1)</nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr><u><link=\"rule_chapter_8_7_4\">Surge</link></u></nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>3</nobr><pos=46%><nobr>4+</nobr><pos=59%><nobr>Light (D3+1)</nobr><pos=86%><nobr>1</nobr></b></size></align>",
     "Children": []
   },
   {
@@ -59,7 +59,7 @@
     "Id": "pdf_Zerg_equipment_defiler_default_3_table",
     "Name": "",
     "Type": "",
-    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr><link=\"rule_chapter_8_7_4\">Surge</link></nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>4</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr><u><link=\"rule_chapter_8_7_4\">Surge</link></u></nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>4</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align>",
     "Children": []
   },
   {
@@ -73,7 +73,7 @@
     "Id": "pdf_Zerg_equipment_hydralisks_default_1_table",
     "Name": "",
     "Type": "",
-    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr><link=\"rule_chapter_8_7_4\">Surge</link></nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>12</nobr><pos=14%><nobr>All</nobr><pos=32%><nobr>3</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>L&A (D3+1)</nobr><pos=86%><nobr>2</nobr></b></size></align>",
+    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr><u><link=\"rule_chapter_8_7_4\">Surge</link></u></nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>12</nobr><pos=14%><nobr>All</nobr><pos=32%><nobr>3</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>L&A (D3+1)</nobr><pos=86%><nobr>2</nobr></b></size></align>",
     "Children": []
   },
   {
@@ -87,7 +87,7 @@
     "Id": "pdf_Zerg_equipment_hydralisks_default_3_table",
     "Name": "",
     "Type": "",
-    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr><link=\"rule_chapter_8_7_4\">Surge</link></nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>2</nobr><pos=46%><nobr>4+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr><u><link=\"rule_chapter_8_7_4\">Surge</link></u></nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>2</nobr><pos=46%><nobr>4+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align>",
     "Children": []
   },
   {
@@ -101,7 +101,7 @@
     "Id": "pdf_Zerg_equipment_kerrigan_default_2_table",
     "Name": "",
     "Type": "",
-    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr><link=\"rule_chapter_8_7_4\">Surge</link></nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>8</nobr><pos=14%><nobr>All</nobr><pos=32%><nobr>5</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>L&A (D3)</nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr><u><link=\"rule_chapter_8_7_4\">Surge</link></u></nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>8</nobr><pos=14%><nobr>All</nobr><pos=32%><nobr>5</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>L&A (D3)</nobr><pos=86%><nobr>1</nobr></b></size></align>",
     "Children": []
   },
   {
@@ -122,7 +122,7 @@
     "Id": "pdf_Zerg_equipment_kerrigan_default_4_table",
     "Name": "",
     "Type": "",
-    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr><link=\"rule_chapter_8_7_4\">Surge</link></nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>6</nobr><pos=46%><nobr>4+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>2</nobr></b></size></align>",
+    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr><u><link=\"rule_chapter_8_7_4\">Surge</link></u></nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>6</nobr><pos=46%><nobr>4+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>2</nobr></b></size></align>",
     "Children": []
   },
   {
@@ -143,7 +143,7 @@
     "Id": "pdf_Zerg_equipment_kerrigan_swarm_raptors_zergling_default_2_table",
     "Name": "",
     "Type": "",
-    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr><link=\"rule_chapter_8_7_4\">Surge</link></nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>2</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>L&A (D6)</nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr><u><link=\"rule_chapter_8_7_4\">Surge</link></u></nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>2</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>L&A (D6)</nobr><pos=86%><nobr>1</nobr></b></size></align>",
     "Children": []
   },
   {
@@ -157,7 +157,7 @@
     "Id": "pdf_Zerg_equipment_queen_default_1_table",
     "Name": "",
     "Type": "",
-    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr><link=\"rule_chapter_8_7_4\">Surge</link></nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>6</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>4</nobr><pos=46%><nobr>4+</nobr><pos=59%><nobr>Light (D3)</nobr><pos=86%><nobr>2</nobr></b></size></align>",
+    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr><u><link=\"rule_chapter_8_7_4\">Surge</link></u></nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>6</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>4</nobr><pos=46%><nobr>4+</nobr><pos=59%><nobr>Light (D3)</nobr><pos=86%><nobr>2</nobr></b></size></align>",
     "Children": []
   },
   {
@@ -171,7 +171,7 @@
     "Id": "pdf_Zerg_equipment_queen_default_2_table",
     "Name": "",
     "Type": "",
-    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr><link=\"rule_chapter_8_7_4\">Surge</link></nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>12</nobr><pos=14%><nobr>Air</nobr><pos=32%><nobr>4</nobr><pos=46%><nobr>4+</nobr><pos=59%><nobr>L&A (D3)</nobr><pos=86%><nobr>2</nobr></b></size></align>",
+    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr><u><link=\"rule_chapter_8_7_4\">Surge</link></u></nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>12</nobr><pos=14%><nobr>Air</nobr><pos=32%><nobr>4</nobr><pos=46%><nobr>4+</nobr><pos=59%><nobr>L&A (D3)</nobr><pos=86%><nobr>2</nobr></b></size></align>",
     "Children": []
   },
   {
@@ -185,7 +185,7 @@
     "Id": "pdf_Zerg_equipment_queen_default_4_table",
     "Name": "",
     "Type": "",
-    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr><link=\"rule_chapter_8_7_4\">Surge</link></nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>3</nobr><pos=46%><nobr>4+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr><u><link=\"rule_chapter_8_7_4\">Surge</link></u></nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>3</nobr><pos=46%><nobr>4+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align>",
     "Children": []
   },
   {
@@ -199,7 +199,7 @@
     "Id": "pdf_Zerg_equipment_raptors_zergling_default_2_table",
     "Name": "",
     "Type": "",
-    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr><link=\"rule_chapter_8_7_4\">Surge</link></nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>2</nobr><pos=46%><nobr>4+</nobr><pos=59%><nobr>Light (D3)</nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr><u><link=\"rule_chapter_8_7_4\">Surge</link></u></nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>2</nobr><pos=46%><nobr>4+</nobr><pos=59%><nobr>Light (D3)</nobr><pos=86%><nobr>1</nobr></b></size></align>",
     "Children": []
   },
   {
@@ -213,7 +213,7 @@
     "Id": "pdf_Zerg_equipment_ravagers_default_2_table",
     "Name": "",
     "Type": "",
-    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr><link=\"rule_chapter_8_7_4\">Surge</link></nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>12</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>4</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>Light (D3+1)</nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr><u><link=\"rule_chapter_8_7_4\">Surge</link></u></nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>12</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>4</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>Light (D3+1)</nobr><pos=86%><nobr>1</nobr></b></size></align>",
     "Children": []
   },
   {
@@ -227,7 +227,7 @@
     "Id": "pdf_Zerg_equipment_ravagers_default_4_table",
     "Name": "",
     "Type": "",
-    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr><link=\"rule_chapter_8_7_4\">Surge</link></nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>2</nobr><pos=46%><nobr>4+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr><u><link=\"rule_chapter_8_7_4\">Surge</link></u></nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>2</nobr><pos=46%><nobr>4+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align>",
     "Children": []
   },
   {
@@ -241,7 +241,7 @@
     "Id": "pdf_Zerg_equipment_roaches_default_1_table",
     "Name": "",
     "Type": "",
-    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr><link=\"rule_chapter_8_7_4\">Surge</link></nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>8</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>3</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr><u><link=\"rule_chapter_8_7_4\">Surge</link></u></nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>8</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>3</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align>",
     "Children": []
   },
   {
@@ -255,7 +255,7 @@
     "Id": "pdf_Zerg_equipment_roaches_default_3_table",
     "Name": "",
     "Type": "",
-    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr><link=\"rule_chapter_8_7_4\">Surge</link></nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>2</nobr><pos=46%><nobr>4+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr><u><link=\"rule_chapter_8_7_4\">Surge</link></u></nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>2</nobr><pos=46%><nobr>4+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align>",
     "Children": []
   },
   {
@@ -269,7 +269,7 @@
     "Id": "pdf_Zerg_equipment_roachling_default_1_table",
     "Name": "",
     "Type": "",
-    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr><link=\"rule_chapter_8_7_4\">Surge</link></nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>2</nobr><pos=46%><nobr>4+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr><u><link=\"rule_chapter_8_7_4\">Surge</link></u></nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>2</nobr><pos=46%><nobr>4+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align>",
     "Children": []
   },
   {
@@ -283,7 +283,7 @@
     "Id": "pdf_Zerg_equipment_swarmlings_default_3_table",
     "Name": "",
     "Type": "",
-    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr><link=\"rule_chapter_8_7_4\">Surge</link></nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>2</nobr><pos=46%><nobr>5+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr><u><link=\"rule_chapter_8_7_4\">Surge</link></u></nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>2</nobr><pos=46%><nobr>5+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align>",
     "Children": []
   },
   {
@@ -297,7 +297,7 @@
     "Id": "pdf_Zerg_equipment_vileling_zergling_default_3_table",
     "Name": "",
     "Type": "",
-    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr><link=\"rule_chapter_8_7_4\">Surge</link></nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>2</nobr><pos=46%><nobr>5+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr><u><link=\"rule_chapter_8_7_4\">Surge</link></u></nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>2</nobr><pos=46%><nobr>5+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align>",
     "Children": []
   },
   {
@@ -311,7 +311,7 @@
     "Id": "pdf_Zerg_equipment_viles_roach_default_1_table",
     "Name": "",
     "Type": "",
-    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr><link=\"rule_chapter_8_7_4\">Surge</link></nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>8</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>4</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr><u><link=\"rule_chapter_8_7_4\">Surge</link></u></nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>8</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>4</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align>",
     "Children": []
   },
   {
@@ -325,7 +325,7 @@
     "Id": "pdf_Zerg_equipment_viles_roach_default_3_table",
     "Name": "",
     "Type": "",
-    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr><link=\"rule_chapter_8_7_4\">Surge</link></nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>2</nobr><pos=46%><nobr>4+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr><u><link=\"rule_chapter_8_7_4\">Surge</link></u></nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>2</nobr><pos=46%><nobr>4+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align>",
     "Children": []
   },
   {
@@ -339,7 +339,7 @@
     "Id": "pdf_Zerg_equipment_zagara_default_2_table",
     "Name": "",
     "Type": "",
-    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr><link=\"rule_chapter_8_7_4\">Surge</link></nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>8</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>4</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>L&A (D3)</nobr><pos=86%><nobr>2</nobr></b></size></align>",
+    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr><u><link=\"rule_chapter_8_7_4\">Surge</link></u></nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>8</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>4</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>L&A (D3)</nobr><pos=86%><nobr>2</nobr></b></size></align>",
     "Children": []
   },
   {
@@ -353,7 +353,7 @@
     "Id": "pdf_Zerg_equipment_zagara_default_3_table",
     "Name": "",
     "Type": "",
-    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr><link=\"rule_chapter_8_7_4\">Surge</link></nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>14</nobr><pos=14%><nobr>Air</nobr><pos=32%><nobr>8</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>L&A (D3)</nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr><u><link=\"rule_chapter_8_7_4\">Surge</link></u></nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>14</nobr><pos=14%><nobr>Air</nobr><pos=32%><nobr>8</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>L&A (D3)</nobr><pos=86%><nobr>1</nobr></b></size></align>",
     "Children": []
   },
   {
@@ -367,7 +367,7 @@
     "Id": "pdf_Zerg_equipment_zagara_default_5_table",
     "Name": "",
     "Type": "",
-    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr><link=\"rule_chapter_8_7_4\">Surge</link></nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>4</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr><u><link=\"rule_chapter_8_7_4\">Surge</link></u></nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>4</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align>",
     "Children": []
   },
   {
@@ -381,7 +381,7 @@
     "Id": "pdf_Zerg_equipment_zerglings_default_2_table",
     "Name": "",
     "Type": "",
-    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr><link=\"rule_chapter_8_7_4\">Surge</link></nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>2</nobr><pos=46%><nobr>4+</nobr><pos=59%><nobr>Light (D3)</nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr><u><link=\"rule_chapter_8_7_4\">Surge</link></u></nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>2</nobr><pos=46%><nobr>4+</nobr><pos=59%><nobr>Light (D3)</nobr><pos=86%><nobr>1</nobr></b></size></align>",
     "Children": []
   },
   {
@@ -556,193 +556,193 @@
     "Id": "pdf_Zerg_rule_bile_launcher_any_phase_biological_structure",
     "Name": "Biological Structure",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Passive\n\nThis Unit cannot gain the <link=\"rule_keyword_burrowed\">BURROWED</link> <link=\"rule_keyword_status\">Status</link>, cannot be returned to <link=\"rule_keyword_reserves\">Reserves</link>, and is immune to the <link=\"rule_keyword_impact\">IMPACT</link> keyword."
+    "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Passive\n\nThis Unit cannot gain the <u><link=\"rule_keyword_burrowed\">BURROWED</link></u> <u><link=\"rule_keyword_status\">Status</link></u>, cannot be returned to <u><link=\"rule_keyword_reserves\">Reserves</link></u>, and is immune to the <u><link=\"rule_keyword_impact\">IMPACT</link></u> keyword."
   },
   {
     "Id": "pdf_Zerg_rule_bile_launcher_any_phase_source_of_creep",
     "Name": "Source Of Creep (Bile Launcher)",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Passive\n\nA <link=\"rule_keyword_friendly\">Friendly</link> or <link=\"rule_keyword_enemy\">Enemy</link> Ground Zerg Unit <link=\"rule_keyword_within\">Within</link> 6\" of this Unit counts as being <link=\"rule_keyword_on_creep\">ON CREEP</link>."
+    "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Passive\n\nA <u><link=\"rule_keyword_friendly\">Friendly</link></u> or <u><link=\"rule_keyword_enemy\">Enemy</link></u> Ground Zerg Unit <u><link=\"rule_keyword_within\">Within</link></u> 6\" of this Unit counts as being <u><link=\"rule_keyword_on_creep\">ON CREEP</link></u>."
   },
   {
     "Id": "pdf_Zerg_rule_bile_launcher_movement_phase_bombard",
     "Name": "Bombard",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Active\n<b>Cost:</b> 1 BM\n\nSet a Bile Bomb token on <link=\"rule_chapter_7\">the battlefield</link> <link=\"rule_keyword_within\">Within</link> 24\" of this Unit. When this Unit resolves a <link=\"rule_chapter_8_7_3\">Ranged Attack</link> using the Bile Bomb weapon profile this Round, it may choose to ignore the weapon's standard Range characteristic. If it does, it may target an <link=\"rule_keyword_enemy\">Enemy</link> Unit that is Within 3\" of that token (<link=\"rule_keyword_line_of_sight\">Line of Sight</link> is not required), ignoring the <link=\"rule_keyword_hidden\">HIDDEN</link> <link=\"rule_keyword_status\">Status</link>. After the attack is fully resolved, remove the Bile Bomb token from the battlefield. When the Bile Bomb token is about to be removed, set a Creep Tumor token in base-to-base contact with it. The Bile Bomb token has <link=\"rule_keyword_displacement\">DISPLACEMENT</link>."
+    "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Active\n<b>Cost:</b> 1 BM\n\nSet a Bile Bomb token on <u><link=\"rule_chapter_7\">the battlefield</link></u> <u><link=\"rule_keyword_within\">Within</link></u> 24\" of this Unit. When this Unit resolves a <u><link=\"rule_chapter_8_7_3\">Ranged Attack</link></u> using the Bile Bomb weapon profile this Round, it may choose to ignore the weapon's standard Range characteristic. If it does, it may target an <u><link=\"rule_keyword_enemy\">Enemy</link></u> Unit that is <u><link=\"rule_keyword_within\">Within</link></u> 3\" of that token (<u><link=\"rule_keyword_line_of_sight\">Line of Sight</link></u> is not required), ignoring the <u><link=\"rule_keyword_hidden\">HIDDEN</link></u> <u><link=\"rule_keyword_status\">Status</link></u>. After the attack is fully resolved, remove the Bile Bomb token from <u><link=\"rule_chapter_7\">the battlefield</link></u>. When the Bile Bomb token is about to be removed, set a Creep Tumor token in base-to-base contact with it. The Bile Bomb token has <u><link=\"rule_keyword_displacement\">DISPLACEMENT</link></u>."
   },
   {
     "Id": "pdf_Zerg_rule_bile_launcher_movement_phase_burrow_ambush",
     "Name": "Burrow Ambush (Bile Launcher, Vileling (Zergling))",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Passive\n\nWhen this Unit is nominated to deploy from the <link=\"rule_keyword_reserves\">Reserves</link>, it may resolve the <link=\"rule_keyword_place\">PLACE</link> (18) effect from the <link=\"rule_keyword_controlling_player\">controlling player</link>'s <link=\"rule_keyword_entry_edge\">Entry Edge</link>. No model may be set <link=\"rule_keyword_within\">Within</link> 10\" of any <link=\"rule_keyword_enemy\">Enemy</link> model. This Unit's Activation ends."
+    "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Passive\n\nWhen this Unit is nominated to deploy from the <u><link=\"rule_keyword_reserves\">Reserves</link></u>, it may resolve the <u><link=\"rule_keyword_place\">PLACE</link></u> (18) effect from the <u><link=\"rule_keyword_controlling_player\">controlling player</link></u>'s <u><link=\"rule_keyword_entry_edge\">Entry Edge</link></u>. No model may be set <u><link=\"rule_keyword_within\">Within</link></u> 10\" of any <u><link=\"rule_keyword_enemy\">Enemy</link></u> model. This Unit's Activation ends."
   },
   {
     "Id": "pdf_Zerg_rule_corpsers_roach_any_phase_burrow",
     "Name": "Burrow (Corpsers (Roach), Roaches)",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Active\n<b>Cost:</b> 2 BM\n\nIf this Unit is <link=\"rule_keyword_unengaged\">Unengaged</link>, it gains or loses the <link=\"rule_keyword_burrowed\">Burrowed</link> <link=\"rule_keyword_status\">Status</link>."
+    "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Active\n<b>Cost:</b> 2 BM\n\nIf this Unit is <u><link=\"rule_keyword_unengaged\">Unengaged</link></u>, it gains or loses the <u><link=\"rule_keyword_burrowed\">Burrowed</link></u> <u><link=\"rule_keyword_status\">Status</link></u>."
   },
   {
     "Id": "pdf_Zerg_rule_corpsers_roach_assault_phase_regeneration",
     "Name": "Regeneration",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Passive\n\nWhen this Unit becomes Activated, if it has the <link=\"rule_keyword_burrowed\">Burrowed</link> <link=\"rule_keyword_status\">Status</link>, resolve the <link=\"rule_keyword_heal\">HEAL</link> (2) effect."
+    "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Passive\n\nWhen this Unit becomes Activated, if it has the <u><link=\"rule_keyword_burrowed\">Burrowed</link></u> <u><link=\"rule_keyword_status\">Status</link></u>, resolve the <u><link=\"rule_keyword_heal\">HEAL</link></u> (2) effect."
   },
   {
     "Id": "pdf_Zerg_rule_corpsers_roach_movement_phase_roachling_infestation",
     "Name": "Roachling Infestation",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Active\n<b>Cost:</b> 2 BM\n\nOnce Per Game. Resolve the <link=\"rule_keyword_summon\">SUMMON</link> (Roachling) effect."
+    "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Active\n<b>Cost:</b> 2 BM\n\nOnce Per Game. Resolve the <u><link=\"rule_keyword_summon\">SUMMON</link></u> (Roachling) effect."
   },
   {
     "Id": "pdf_Zerg_rule_corpsers_roach_upgrade_any_phase_tunneling_claws",
     "Name": "Tunneling Claws (Corpsers (Roach), Roaches)",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Passive\n<b>Upgrade ability</b>\n\nWhile this Unit has the <link=\"rule_keyword_burrowed\">Burrowed</link> <link=\"rule_keyword_status\">Status</link>, it may perform the Move and Run actions without losing that Status. It may also move through other <link=\"rule_chapter_2_2\">Units</link>' <link=\"rule_chapter_2_3\">bases</link>."
+    "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Passive\n<b>Upgrade ability</b>\n\nWhile this Unit has the <u><link=\"rule_keyword_burrowed\">Burrowed</link></u> <u><link=\"rule_keyword_status\">Status</link></u>, it may perform the Move and Run actions without losing that <u><link=\"rule_keyword_status\">Status</link></u>. It may also move through other <u><link=\"rule_chapter_2_2\">Units</link></u>' <u><link=\"rule_chapter_2_3\">bases</link></u>."
   },
   {
     "Id": "pdf_Zerg_rule_corpsers_roach_upgrade_assault_phase_hydriodic_bile",
     "Name": "Hydriodic Bile",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Passive\n<b>Upgrade ability</b>\n\nThis Unit's Acid Saliva weapon gains <link=\"rule_chapter_8_7_4\">Surge</link> Type: Light, and S <link=\"rule_chapter_3_1\">Dice</link>: D3+1."
+    "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Passive\n<b>Upgrade ability</b>\n\nThis Unit's Acid Saliva weapon gains <u><link=\"rule_chapter_8_7_4\">Surge</link></u> Type: Light, and S <u><link=\"rule_chapter_3_1\">Dice</link></u>: D3+1."
   },
   {
     "Id": "pdf_Zerg_rule_corpsers_roach_upgrade_movement_phase_burrow_ambush",
     "Name": "Burrow Ambush (Corpsers (Roach), Hydralisks, Raptors (Zergling), Ravagers, Roaches, Swarmlings, Viles (Roach), Zerglings)",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Passive\n<b>Upgrade ability</b>\n\nWhen this Unit is nominated to deploy from the <link=\"rule_keyword_reserves\">Reserves</link>, it may resolve the <link=\"rule_keyword_place\">PLACE</link> (18) effect from the <link=\"rule_keyword_controlling_player\">controlling player</link>'s <link=\"rule_keyword_entry_edge\">Entry Edge</link>. No model may be set <link=\"rule_keyword_within\">Within</link> 10\" of any <link=\"rule_keyword_enemy\">Enemy</link> model. This Unit's Activation ends."
+    "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Passive\n<b>Upgrade ability</b>\n\nWhen this Unit is nominated to deploy from the <u><link=\"rule_keyword_reserves\">Reserves</link></u>, it may resolve the <u><link=\"rule_keyword_place\">PLACE</link></u> (18) effect from the <u><link=\"rule_keyword_controlling_player\">controlling player</link></u>'s <u><link=\"rule_keyword_entry_edge\">Entry Edge</link></u>. No model may be set <u><link=\"rule_keyword_within\">Within</link></u> 10\" of any <u><link=\"rule_keyword_enemy\">Enemy</link></u> model. This Unit's Activation ends."
   },
   {
     "Id": "pdf_Zerg_rule_corpsers_roach_upgrade_movement_phase_glial_reconstitution",
     "Name": "Glial Reconstitution (Corpsers (Roach), Roaches)",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Active\n<b>Cost:</b> 1 CP\n<b>Upgrade ability</b>\n\nThis Unit gains <link=\"rule_keyword_buff\">BUFF</link> SPEED (1), or BUFF SPEED (2) if the Unit is <link=\"rule_keyword_on_creep\">ON CREEP</link>."
+    "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Active\n<b>Cost:</b> 1 CP\n<b>Upgrade ability</b>\n\nThis Unit gains <u><link=\"rule_keyword_buff\">BUFF</link></u> SPEED (1), or <u><link=\"rule_keyword_buff\">BUFF</link></u> SPEED (2) if the Unit is <u><link=\"rule_keyword_on_creep\">ON CREEP</link></u>."
   },
   {
     "Id": "pdf_Zerg_rule_defiler_any_phase_consume",
     "Name": "Consume",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Passive\n\nWhen this Unit resolves a <link=\"rule_keyword_special_ability\">Special Ability</link> that costs BM, it can remove one model from a <link=\"rule_keyword_friendly\">Friendly</link> Unit <link=\"rule_keyword_within\">Within</link> 4\" to generate 1 BM to spend towards that ability's cost."
+    "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Passive\n\nWhen this Unit resolves a <u><link=\"rule_keyword_special_ability\">Special Ability</link></u> that costs BM, it can remove one model from a <u><link=\"rule_keyword_friendly\">Friendly</link></u> Unit <u><link=\"rule_keyword_within\">Within</link></u> 4\" to generate 1 BM to spend towards that ability's cost."
   },
   {
     "Id": "pdf_Zerg_rule_defiler_assault_phase_dark_swarm",
     "Name": "Dark Swarm",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Reaction\n<b>Cost:</b> 1 BM\n\n<link=\"rule_keyword_repeatable\">REPEATABLE</link>. Use when a <link=\"rule_keyword_friendly\">Friendly</link> Unit <link=\"rule_keyword_within\">Within</link> 4\" of a Friendly Dark Swarm token is selected as the target of an attack. If this Unit is Within 4'' of the same token, the Targeted Friendly Unit is eligible to make an <link=\"rule_chapter_8_7_4\">Evade Roll</link> against that attack. If the targeted Unit is a Size 1, it gains a +1 <link=\"rule_keyword_modifier\">Modifier</link> to this Evade Roll."
+    "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Reaction\n<b>Cost:</b> 1 BM\n\n<u><link=\"rule_keyword_repeatable\">REPEATABLE</link></u>. Use when a <u><link=\"rule_keyword_friendly\">Friendly</link></u> Unit <u><link=\"rule_keyword_within\">Within</link></u> 4\" of a <u><link=\"rule_keyword_friendly\">Friendly</link></u> Dark Swarm token is selected as the target of an attack. If this Unit is <u><link=\"rule_keyword_within\">Within</link></u> 4'' of the same token, the Targeted <u><link=\"rule_keyword_friendly\">Friendly</link></u> Unit is eligible to make an <u><link=\"rule_chapter_8_7_4\">Evade Roll</link></u> against that attack. If the targeted Unit is a Size 1, it gains a +1 <u><link=\"rule_keyword_modifier\">Modifier</link></u> to this <u><link=\"rule_chapter_8_7_4\">Evade Roll</link></u>."
   },
   {
     "Id": "pdf_Zerg_rule_defiler_movement_phase_gestate_dark_swarm",
     "Name": "Gestate Dark Swarm",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Active\n<b>Cost:</b> 0 BM\n\nSet a <link=\"pdf_Zerg_rule_defiler_assault_phase_dark_swarm\">Dark Swarm</link> token in an unoccupied space <link=\"rule_keyword_within\">Within</link> 4\" and <link=\"rule_keyword_line_of_sight\">Line of Sight</link> of this Unit. The Dark Swarm token has <link=\"rule_keyword_displacement\">DISPLACEMENT</link>."
+    "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Active\n<b>Cost:</b> 0 BM\n\nSet a <u><link=\"pdf_Zerg_rule_defiler_assault_phase_dark_swarm\">Dark Swarm</link></u> token in an unoccupied space <u><link=\"rule_keyword_within\">Within</link></u> 4\" and <u><link=\"rule_keyword_line_of_sight\">Line of Sight</link></u> of this Unit. The <u><link=\"pdf_Zerg_rule_defiler_assault_phase_dark_swarm\">Dark Swarm</link></u> token has <u><link=\"rule_keyword_displacement\">DISPLACEMENT</link></u>."
   },
   {
     "Id": "pdf_Zerg_rule_defiler_upgrade_assault_phase_plague",
     "Name": "Plague",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Active\n<b>Cost:</b> X BM\n<b>Upgrade ability</b>\n\nYou may spend 1 to 3 BM to activate this ability. Set a Plague Blast Template <link=\"rule_keyword_wholly_within\">Wholly Within</link> 10\" and <link=\"rule_keyword_line_of_sight\">Line of Sight</link> of this Unit. For each Unit that has at least one model whose base is partially covered by the template, roll 2 <link=\"rule_chapter_3_1\">dice</link>, plus 1 additional die for each model in that Unit whose base is partially covered. That Unit loses its <link=\"rule_keyword_hidden\">HIDDEN</link> <link=\"rule_keyword_status\">Status</link>, and, depending on the BM spent, it suffers <link=\"rule_keyword_non_lethal_damage\">NON-LETHAL DAMAGE</link> (1) for:\n1 BM: each result of 5+.\n2 BM: each result of 4+.\n3 BM: each result of 3+."
+    "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Active\n<b>Cost:</b> X BM\n<b>Upgrade ability</b>\n\nYou may spend 1 to 3 BM to activate this ability. Set a Plague Blast Template <u><link=\"rule_keyword_wholly_within\">Wholly Within</link></u> 10\" and <u><link=\"rule_keyword_line_of_sight\">Line of Sight</link></u> of this Unit. For each Unit that has at least one model whose base is partially covered by the template, roll 2 <u><link=\"rule_chapter_3_1\">dice</link></u>, plus 1 additional die for each model in that Unit whose base is partially covered. That Unit loses its <u><link=\"rule_keyword_hidden\">HIDDEN</link></u> <u><link=\"rule_keyword_status\">Status</link></u>, and, depending on the BM spent, it suffers <u><link=\"rule_keyword_non_lethal_damage\">NON-LETHAL DAMAGE</link></u> (1) for:\n1 BM: each result of 5+.\n2 BM: each result of 4+.\n3 BM: each result of 3+."
   },
   {
     "Id": "pdf_Zerg_rule_defiler_upgrade_movement_phase_burrow_ambush",
     "Name": "Burrow Ambush (Defiler)",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Passive\n<b>Upgrade ability</b>\n\nWhen this Unit is nominated to deploy from <link=\"rule_keyword_reserves\">Reserves</link>, it may resolve the <link=\"rule_keyword_place\">PLACE</link> (18) effect from the <link=\"rule_keyword_controlling_player\">controlling player</link>'s <link=\"rule_keyword_entry_edge\">Entry Edge</link>. No model may be placed <link=\"rule_keyword_within\">Within</link> 10\" of any <link=\"rule_keyword_enemy\">Enemy</link> model. This Unit's Activation ends."
+    "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Passive\n<b>Upgrade ability</b>\n\nWhen this Unit is nominated to deploy from <u><link=\"rule_keyword_reserves\">Reserves</link></u>, it may resolve the <u><link=\"rule_keyword_place\">PLACE</link></u> (18) effect from the <u><link=\"rule_keyword_controlling_player\">controlling player</link></u>'s <u><link=\"rule_keyword_entry_edge\">Entry Edge</link></u>. No model may be placed <u><link=\"rule_keyword_within\">Within</link></u> 10\" of any <u><link=\"rule_keyword_enemy\">Enemy</link></u> model. This Unit's Activation ends."
   },
   {
     "Id": "pdf_Zerg_rule_hydralisks_assault_phase_lunge",
     "Name": "Lunge",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Reaction\n<b>Cost:</b> 1 BM\n\nWhen another <link=\"rule_keyword_friendly\">Friendly</link> Unit <link=\"rule_keyword_within\">Within</link> 10\" is the target of a <link=\"rule_chapter_8_7_3\">Ranged Attack</link>, after the attack is fully resolved, this Unit, if <link=\"rule_keyword_unengaged\">Unengaged</link>, may perform a <link=\"rule_chapter_8_5_2\">Move</link> action Directly Towards the attacking Unit."
+    "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Reaction\n<b>Cost:</b> 1 BM\n\nWhen another <u><link=\"rule_keyword_friendly\">Friendly</link></u> Unit <u><link=\"rule_keyword_within\">Within</link></u> 10\" is the target of a <u><link=\"rule_chapter_8_7_3\">Ranged Attack</link></u>, after the attack is fully resolved, this Unit, if <u><link=\"rule_keyword_unengaged\">Unengaged</link></u>, may perform a <u><link=\"rule_chapter_8_5_2\">Move</link></u> action Directly Towards the attacking Unit."
   },
   {
     "Id": "pdf_Zerg_rule_hydralisks_upgrade_any_phase_ancillary_carapace",
     "Name": "Ancillary Carapace",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Passive\n<b>Upgrade ability</b>\n\nThis Unit gains <link=\"rule_keyword_tough\">TOUGH</link> (1) on the first <link=\"rule_chapter_8_7_4\">Armour Roll</link> of each Activation."
+    "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Passive\n<b>Upgrade ability</b>\n\nThis Unit gains <u><link=\"rule_keyword_tough\">TOUGH</link></u> (1) on the first <u><link=\"rule_chapter_8_7_4\">Armour Roll</link></u> of each Activation."
   },
   {
     "Id": "pdf_Zerg_rule_hydralisks_upgrade_any_phase_lurking",
     "Name": "Lurking",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Passive\n<b>Upgrade ability</b>\n\nIf this Unit has <link=\"rule_keyword_stationary\">Stationary</link> <link=\"rule_keyword_status\">Status</link>, it is eligible to make an <link=\"rule_chapter_8_7_4\">Evade Roll</link> against the first <link=\"rule_chapter_8_7_3\">Ranged Attack</link> targeting it this Round. If this Unit is <link=\"rule_keyword_on_creep\">ON CREEP</link>, it gains +1 <link=\"rule_keyword_modifier\">Modifier</link> to this Evade Roll."
+    "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Passive\n<b>Upgrade ability</b>\n\nIf this Unit has <u><link=\"rule_keyword_stationary\">Stationary</link></u> <u><link=\"rule_keyword_status\">Status</link></u>, it is eligible to make an <u><link=\"rule_chapter_8_7_4\">Evade Roll</link></u> against the first <u><link=\"rule_chapter_8_7_3\">Ranged Attack</link></u> targeting it this Round. If this Unit is <u><link=\"rule_keyword_on_creep\">ON CREEP</link></u>, it gains +1 <u><link=\"rule_keyword_modifier\">Modifier</link></u> to this <u><link=\"rule_chapter_8_7_4\">Evade Roll</link></u>."
   },
   {
     "Id": "pdf_Zerg_rule_hydralisks_upgrade_assault_phase_grooved_spines",
     "Name": "Grooved Spines",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Passive\n<b>Upgrade ability</b>\n\nThis Unit's Needle Spines ranged weapon gains <link=\"rule_keyword_long_range\">LONG RANGE</link> (16\")."
+    "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Passive\n<b>Upgrade ability</b>\n\nThis Unit's Needle Spines ranged weapon gains <u><link=\"rule_keyword_long_range\">LONG RANGE</link></u> (16\")."
   },
   {
     "Id": "pdf_Zerg_rule_kerrigan_assault_phase_leaping_strike",
     "Name": "Leaping Strike",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Active\n<b>Cost:</b> 1 BM\n\nIf <link=\"rule_keyword_unengaged\">Unengaged</link>, resolve the <link=\"rule_keyword_place\">PLACE</link> (6) effect."
+    "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Active\n<b>Cost:</b> 1 BM\n\nIf <u><link=\"rule_keyword_unengaged\">Unengaged</link></u>, resolve the <u><link=\"rule_keyword_place\">PLACE</link></u> (6) effect."
   },
   {
     "Id": "pdf_Zerg_rule_kerrigan_movement_phase_crushing_grip",
     "Name": "Crushing Grip",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Active\n<b>Cost:</b> 1 BM\n\nSelect one <link=\"rule_keyword_enemy\">Enemy</link> Unit <link=\"rule_keyword_within\">Within</link> 12\". That Unit counts as Activated in this Phase (set an Activation Marker next to it)."
+    "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Active\n<b>Cost:</b> 1 BM\n\nSelect one <u><link=\"rule_keyword_enemy\">Enemy</link></u> Unit <u><link=\"rule_keyword_within\">Within</link></u> 12\". That Unit counts as Activated in this Phase (set an Activation Marker next to it)."
   },
   {
     "Id": "pdf_Zerg_rule_kerrigan_movement_phase_mutating_carapace",
     "Name": "Mutating Carapace",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Active\n<b>Cost:</b> 1 BM\n\nSelect one <link=\"rule_keyword_enemy\">Enemy</link> Unit <link=\"rule_keyword_within\">Within</link> 18\". This Unit is eligible to make an <link=\"rule_chapter_8_7_4\">Evade Roll</link> against all attacks made by the selected Enemy Unit, with a +2 <link=\"rule_keyword_modifier\">Modifier</link> applied to those Evade Rolls."
+    "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Active\n<b>Cost:</b> 1 BM\n\nSelect one <u><link=\"rule_keyword_enemy\">Enemy</link></u> Unit <u><link=\"rule_keyword_within\">Within</link></u> 18\". This Unit is eligible to make an <u><link=\"rule_chapter_8_7_4\">Evade Roll</link></u> against all attacks made by the selected <u><link=\"rule_keyword_enemy\">Enemy</link></u> Unit, with a +2 <u><link=\"rule_keyword_modifier\">Modifier</link></u> applied to those Evade Rolls."
   },
   {
     "Id": "pdf_Zerg_rule_kerrigan_swarm_raptors_zergling_any_phase_raptor_strain",
     "Name": "Raptor Strain",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Passive\n\nThis Unit can move through <link=\"rule_keyword_impassable_terrain\">IMPASSABLE TERRAIN</link> of Size 4 or less and change elevation without using ACCESS POINTS."
+    "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Passive\n\nThis Unit can move through <u><link=\"rule_keyword_impassable_terrain\">IMPASSABLE TERRAIN</link></u> of Size 4 or less and change elevation without using ACCESS POINTS."
   },
   {
     "Id": "pdf_Zerg_rule_kerrigan_swarm_raptors_zergling_assault_phase_adrenal_overload",
     "Name": "Adrenal Overload",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Active\n<b>Cost:</b> 1 BM\n\nThis Unit gains a +1 <link=\"rule_keyword_modifier\">Modifier</link> to all <link=\"rule_keyword_impact\">IMPACT</link> Hit Rolls."
+    "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Active\n<b>Cost:</b> 1 BM\n\nThis Unit gains a +1 <u><link=\"rule_keyword_modifier\">Modifier</link></u> to all <u><link=\"rule_keyword_impact\">IMPACT</link></u> Hit Rolls."
   },
   {
     "Id": "pdf_Zerg_rule_kerrigan_swarm_raptors_zergling_assault_phase_devastating_charge",
     "Name": "Devastating Charge IMPACT (2) 5+",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Passive\n\nImmediately after this Unit completes a successful <link=\"rule_chapter_8_7_7\">Charge</link>, resolve the <link=\"rule_keyword_impact\">IMPACT</link> (2) 5+ effect."
+    "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Passive\n\nImmediately after this Unit completes a successful <u><link=\"rule_chapter_8_7_7\">Charge</link></u>, resolve the <u><link=\"rule_keyword_impact\">IMPACT</link></u> (2) 5+ effect."
   },
   {
     "Id": "pdf_Zerg_rule_kerrigan_swarm_raptors_zergling_assault_phase_leap",
     "Name": "Leap",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Active\n<b>Cost:</b> 1 BM\n\nWhen determining <link=\"rule_chapter_8_7_7\">Charge</link> Distance for this Unit, add 2 to the Charge Distance."
+    "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Active\n<b>Cost:</b> 1 BM\n\nWhen determining <u><link=\"rule_chapter_8_7_7\">Charge</link></u> Distance for this Unit, add 2 to the <u><link=\"rule_chapter_8_7_7\">Charge</link></u> Distance."
   },
   {
     "Id": "pdf_Zerg_rule_omega_worm_any_phase_detection",
     "Name": "Detection (Omega Worm)",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Passive\n\nWhile <link=\"rule_keyword_enemy\">Enemy</link> <link=\"rule_chapter_2_2\">Units</link> are <link=\"rule_keyword_within\">Within</link> 6\" of this Unit, they lose <link=\"rule_keyword_hidden\">HIDDEN</link> <link=\"rule_keyword_status\">Status</link>."
+    "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Passive\n\nWhile <u><link=\"rule_keyword_enemy\">Enemy</link></u> <u><link=\"rule_chapter_2_2\">Units</link></u> are <u><link=\"rule_keyword_within\">Within</link></u> 6\" of this Unit, they lose <u><link=\"rule_keyword_hidden\">HIDDEN</link></u> <u><link=\"rule_keyword_status\">Status</link></u>."
   },
   {
     "Id": "pdf_Zerg_rule_omega_worm_any_phase_omega_network",
     "Name": "Omega Network",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Passive\n\nThe base of the Omega Worm counts as an <link=\"rule_keyword_entry_edge\">Entry Edge</link>. Each Round, <link=\"rule_keyword_friendly\">Friendly</link> <link=\"rule_chapter_2_2\">Units</link> with a combined Supply cost of 2 or less may be Deployed via this Entry Edge. If a Friendly <link=\"rule_keyword_leading_model\">Leading model</link> finishes a Move, <link=\"rule_chapter_8_5_4\">Disengage</link>, or <link=\"rule_chapter_8_7_1\">Run</link> action in base-to-base contact with the Omega Worm, the <link=\"rule_keyword_controlling_player\">controlling player</link> may remove that Unit from <link=\"rule_chapter_7\">the battlefield</link> and return it to <link=\"rule_keyword_reserves\">Reserves</link>."
+    "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Passive\n\nThe base of the Omega Worm counts as an <u><link=\"rule_keyword_entry_edge\">Entry Edge</link></u>. Each Round, <u><link=\"rule_keyword_friendly\">Friendly</link></u> <u><link=\"rule_chapter_2_2\">Units</link></u> with a combined Supply cost of 2 or less may be Deployed via this <u><link=\"rule_keyword_entry_edge\">Entry Edge</link></u>. If a <u><link=\"rule_keyword_friendly\">Friendly</link></u> <u><link=\"rule_keyword_leading_model\">Leading model</link></u> finishes a Move, <u><link=\"rule_chapter_8_5_4\">Disengage</link></u>, or <u><link=\"rule_chapter_8_7_1\">Run</link></u> action in base-to-base contact with the Omega Worm, the <u><link=\"rule_keyword_controlling_player\">controlling player</link></u> may remove that Unit from <u><link=\"rule_chapter_7\">the battlefield</link></u> and return it to <u><link=\"rule_keyword_reserves\">Reserves</link></u>."
   },
   {
     "Id": "pdf_Zerg_rule_omega_worm_any_phase_source_of_creep",
     "Name": "Source Of Creep (Omega Worm)",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Passive\n\nA <link=\"rule_keyword_friendly\">Friendly</link> or <link=\"rule_keyword_enemy\">Enemy</link> Ground Zerg Unit <link=\"rule_keyword_within\">Within</link> 6\" of this Unit, counts as being <link=\"rule_keyword_on_creep\">ON CREEP</link>."
+    "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Passive\n\nA <u><link=\"rule_keyword_friendly\">Friendly</link></u> or <u><link=\"rule_keyword_enemy\">Enemy</link></u> Ground Zerg Unit <u><link=\"rule_keyword_within\">Within</link></u> 6\" of this Unit, counts as being <u><link=\"rule_keyword_on_creep\">ON CREEP</link></u>."
   },
   {
     "Id": "pdf_Zerg_rule_queen_any_phase_psionic_link",
     "Name": "Psionic Link",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Passive\n\nOnce per Round, if there are at least 7 <link=\"rule_keyword_friendly\">Friendly</link> <link=\"rule_chapter_2_1\">models</link> <link=\"rule_keyword_within\">Within</link> 6\" of this Unit, it may resolve its <link=\"rule_keyword_special_ability\">Special Ability</link> with the BM cost reduced by 1."
+    "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Passive\n\nOnce per Round, if there are at least 7 <u><link=\"rule_keyword_friendly\">Friendly</link></u> <u><link=\"rule_chapter_2_1\">models</link></u> <u><link=\"rule_keyword_within\">Within</link></u> 6\" of this Unit, it may resolve its <u><link=\"rule_keyword_special_ability\">Special Ability</link></u> with the BM cost reduced by 1."
   },
   {
     "Id": "pdf_Zerg_rule_queen_any_phase_restoration",
     "Name": "Restoration (Queen)",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Reaction\n<b>Cost:</b> 1 BM\n\nUse when a <link=\"rule_keyword_friendly\">Friendly</link> Unit <link=\"rule_keyword_within\">Within</link> 4\" receives a <link=\"rule_keyword_debuff\">DEBUFF</link>. Remove all DEBUFFS from it."
+    "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Reaction\n<b>Cost:</b> 1 BM\n\nUse when a <u><link=\"rule_keyword_friendly\">Friendly</link></u> Unit <u><link=\"rule_keyword_within\">Within</link></u> 4\" receives a <u><link=\"rule_keyword_debuff\">DEBUFF</link></u>. Remove all DEBUFFS from it."
   },
   {
     "Id": "pdf_Zerg_rule_queen_any_phase_spawn_creep_tumor",
@@ -754,132 +754,132 @@
     "Id": "pdf_Zerg_rule_queen_any_phase_transfusion",
     "Name": "Transfusion",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Reaction\n<b>Cost:</b> 1 BM\n\nUse when another <link=\"rule_keyword_friendly\">Friendly</link> Biological Unit (including a <link=\"pdf_Protoss_rule_pylon_any_phase_structure\">Structure</link>) suffers Damage <link=\"rule_keyword_within\">Within</link> 4\". Reduce the Total Damage before allocation by 2."
+    "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Reaction\n<b>Cost:</b> 1 BM\n\nUse when another <u><link=\"rule_keyword_friendly\">Friendly</link></u> Biological Unit (including a <u><link=\"pdf_Protoss_rule_pylon_any_phase_structure\">Structure</link></u>) suffers Damage <u><link=\"rule_keyword_within\">Within</link></u> 4\". Reduce the Total Damage before allocation by 2."
   },
   {
     "Id": "pdf_Zerg_rule_queen_upgrade_any_phase_creep_speed",
     "Name": "Creep Speed",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Passive\n<b>Upgrade ability</b>\n\nWhile this Unit is <link=\"rule_keyword_on_creep\">ON CREEP</link>, increase this Unit's Speed characteristic by 2."
+    "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Passive\n<b>Upgrade ability</b>\n\nWhile this Unit is <u><link=\"rule_keyword_on_creep\">ON CREEP</link></u>, increase this Unit's Speed characteristic by 2."
   },
   {
     "Id": "pdf_Zerg_rule_queen_upgrade_movement_phase_domineering_presence",
     "Name": "Domineering Presence",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Active\n<b>Cost:</b> 1 BM\n<b>Upgrade ability</b>\n\nSelect another <link=\"rule_keyword_friendly\">Friendly</link> Unit <link=\"rule_keyword_within\">Within</link> 6\" (<link=\"rule_keyword_line_of_sight\">Line of Sight</link> is not required). That Unit's Supply characteristic is increased by 1 for Controlling and Contesting <link=\"rule_keyword_mission_markers\">Mission Markers</link> and completing objectives."
+    "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Active\n<b>Cost:</b> 1 BM\n<b>Upgrade ability</b>\n\nSelect another <u><link=\"rule_keyword_friendly\">Friendly</link></u> Unit <u><link=\"rule_keyword_within\">Within</link></u> 6\" (<u><link=\"rule_keyword_line_of_sight\">Line of Sight</link></u> is not required). That Unit's Supply characteristic is increased by 1 for Controlling and Contesting <u><link=\"rule_keyword_mission_markers\">Mission Markers</link></u> and completing objectives."
   },
   {
     "Id": "pdf_Zerg_rule_raptors_zergling_assault_phase_devastating_charge",
     "Name": "Devastating Charge IMPACT (1) 5+",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Passive\n\nImmediately after this Unit completes a successful <link=\"rule_chapter_8_7_7\">Charge</link>, resolve the <link=\"rule_keyword_impact\">IMPACT</link> (1) 5+ effect."
+    "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Passive\n\nImmediately after this Unit completes a successful <u><link=\"rule_chapter_8_7_7\">Charge</link></u>, resolve the <u><link=\"rule_keyword_impact\">IMPACT</link></u> (1) 5+ effect."
   },
   {
     "Id": "pdf_Zerg_rule_raptors_zergling_assault_phase_metabolic_boost",
     "Name": "Metabolic Boost",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Active\n<b>Cost:</b> 1 BM\n\nWhen determining <link=\"rule_chapter_8_7_7\">Charge</link> Distance for this Unit, roll 2D6 instead of D6 and use the higher result to add to the Unit's Speed characteristic."
+    "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Active\n<b>Cost:</b> 1 BM\n\nWhen determining <u><link=\"rule_chapter_8_7_7\">Charge</link></u> Distance for this Unit, roll 2D6 instead of D6 and use the higher result to add to the Unit's Speed characteristic."
   },
   {
     "Id": "pdf_Zerg_rule_raptors_zergling_upgrade_combat_phase_adrenal_glands",
     "Name": "Adrenal Glands",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Melee Phase\n<b>Type:</b> Passive\n<b>Upgrade ability</b>\n\nThis Unit's Claws and Shredding Claws weapons gain <link=\"rule_keyword_precision\">PRECISION</link> (2)."
+    "Description": "<b>Phase:</b> Melee Phase\n<b>Type:</b> Passive\n<b>Upgrade ability</b>\n\nThis Unit's Claws and Shredding Claws weapons gain <u><link=\"rule_keyword_precision\">PRECISION</link></u> (2)."
   },
   {
     "Id": "pdf_Zerg_rule_ravagers_assault_phase_devastating_charge",
     "Name": "Devastating Charge IMPACT (2) 4+",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Passive\n\nImmediately after this Unit completes a successful <link=\"rule_chapter_8_7_7\">Charge</link>, resolve the <link=\"rule_keyword_impact\">IMPACT</link> (2) 4+ effect."
+    "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Passive\n\nImmediately after this Unit completes a successful <u><link=\"rule_chapter_8_7_7\">Charge</link></u>, resolve the <u><link=\"rule_keyword_impact\">IMPACT</link></u> (2) 4+ effect."
   },
   {
     "Id": "pdf_Zerg_rule_ravagers_movement_phase_corrosive_bile",
     "Name": "Corrosive Bile",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Active\n<b>Cost:</b> 1 BM\n\nFor each model in this Unit, set one Corrosive Bile token on <link=\"rule_chapter_7\">the battlefield</link> <link=\"rule_keyword_within\">Within</link> 14\" of that model. These <link=\"rule_chapter_7_3_1\">tokens</link> are not removed if this Unit is Destroyed. At the End of the Assault Phase, each Unit suffers <link=\"rule_keyword_hits\">HITS</link> 5 (1) effect for each of this Unit's Corrosive Bile tokens it is Within 1\" of. Then, remove all of this Unit's Corrosive Bile tokens from the battlefield. If multiple effects trigger at the End of the Assault Phase, resolve them in the order specified in Part 8.9.4."
+    "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Active\n<b>Cost:</b> 1 BM\n\nFor each model in this Unit, set one Corrosive Bile token on <u><link=\"rule_chapter_7\">the battlefield</link></u> <u><link=\"rule_keyword_within\">Within</link></u> 14\" of that model. These <u><link=\"rule_chapter_7_3_1\">tokens</link></u> are not removed if this Unit is Destroyed. At the End of the Assault Phase, each Unit suffers <u><link=\"rule_keyword_hits\">HITS</link></u> 5 (1) effect for each of this Unit's Corrosive Bile <u><link=\"rule_chapter_7_3_1\">tokens</link></u> it is <u><link=\"rule_keyword_within\">Within</link></u> 1\" of. Then, remove all of this Unit's Corrosive Bile <u><link=\"rule_chapter_7_3_1\">tokens</link></u> from <u><link=\"rule_chapter_7\">the battlefield</link></u>. If multiple effects trigger at the End of the Assault Phase, resolve them in the order specified in <u><link=\"rule_chapter_8_9_4\">Part 8.9.4</link></u>."
   },
   {
     "Id": "pdf_Zerg_rule_ravagers_movement_phase_deep_tunnel",
     "Name": "Deep Tunnel",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Active\n<b>Cost:</b> 1 BM\n\nSet a Ravager Burrow token <link=\"rule_keyword_wholly_within\">Wholly Within</link> 12\" of any model in this Unit. At the End of the Round, the <link=\"rule_keyword_controlling_player\">controlling player</link> may set all <link=\"rule_chapter_2_1\">models</link> of this Unit in <link=\"rule_chapter_4_4\">Coherency</link>, treating the Ravager Burrow token as the <link=\"rule_keyword_leading_model\">Leading Model</link>. The Ravager Burrow token has <link=\"rule_keyword_displacement\">DISPLACEMENT</link>."
+    "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Active\n<b>Cost:</b> 1 BM\n\nSet a Ravager Burrow token <u><link=\"rule_keyword_wholly_within\">Wholly Within</link></u> 12\" of any model in this Unit. At the End of the Round, the <u><link=\"rule_keyword_controlling_player\">controlling player</link></u> may set all <u><link=\"rule_chapter_2_1\">models</link></u> of this Unit in <u><link=\"rule_chapter_4_4\">Coherency</link></u>, treating the Ravager Burrow token as the <u><link=\"rule_keyword_leading_model\">Leading Model</link></u>. The Ravager Burrow token has <u><link=\"rule_keyword_displacement\">DISPLACEMENT</link></u>."
   },
   {
     "Id": "pdf_Zerg_rule_ravagers_upgrade_any_phase_bloated_bile_ducts",
     "Name": "Bloated Bile Ducts",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Passive\n<b>Upgrade ability</b>\n\nIncrease the area of effect of this Unit's <link=\"pdf_Zerg_rule_ravagers_movement_phase_corrosive_bile\">Corrosive Bile</link> ability to 2\"."
+    "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Passive\n<b>Upgrade ability</b>\n\nIncrease the area of effect of this Unit's <u><link=\"pdf_Zerg_rule_ravagers_movement_phase_corrosive_bile\">Corrosive Bile</link></u> ability to 2\"."
   },
   {
     "Id": "pdf_Zerg_rule_ravagers_upgrade_assault_phase_potent_bile",
     "Name": "Potent Bile",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Passive\n<b>Upgrade ability</b>\n\nBefore an <link=\"rule_keyword_enemy\">Enemy</link> Unit resolves an <link=\"rule_chapter_8_7_4\">Armour Roll</link> against the <link=\"rule_keyword_hits\">HITS</link> effect generated by this Unit's <link=\"pdf_Zerg_rule_ravagers_movement_phase_corrosive_bile\">Corrosive Bile</link> ability, that Unit suffers <link=\"rule_keyword_debuff\">DEBUFF</link> Armour (1)."
+    "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Passive\n<b>Upgrade ability</b>\n\nBefore an <u><link=\"rule_keyword_enemy\">Enemy</link></u> Unit resolves an <u><link=\"rule_chapter_8_7_4\">Armour Roll</link></u> against the <u><link=\"rule_keyword_hits\">HITS</link></u> effect generated by this Unit's <u><link=\"pdf_Zerg_rule_ravagers_movement_phase_corrosive_bile\">Corrosive Bile</link></u> ability, that Unit suffers <u><link=\"rule_keyword_debuff\">DEBUFF</link></u> Armour (1)."
   },
   {
     "Id": "pdf_Zerg_rule_roachling_any_phase_underdeveloped_claws",
     "Name": "Underdeveloped Claws",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Passive\n\nThis Unit cannot gain <link=\"rule_keyword_burrowed\">Burrowed</link> <link=\"rule_keyword_status\">Status</link>."
+    "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Passive\n\nThis Unit cannot gain <u><link=\"rule_keyword_burrowed\">Burrowed</link></u> <u><link=\"rule_keyword_status\">Status</link></u>."
   },
   {
     "Id": "pdf_Zerg_rule_swarmlings_movement_phase_zergling_reconstitution",
     "Name": "Zergling Reconstitution",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Active\n<b>Cost:</b> 1 BM\n\nResolve the <link=\"rule_keyword_respawn\">RESPAWN</link> (2) effect, or RESPAWN (3) if the Unit is <link=\"rule_keyword_on_creep\">ON CREEP</link>."
+    "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Active\n<b>Cost:</b> 1 BM\n\nResolve the <u><link=\"rule_keyword_respawn\">RESPAWN</link></u> (2) effect, or <u><link=\"rule_keyword_respawn\">RESPAWN</link></u> (3) if the Unit is <u><link=\"rule_keyword_on_creep\">ON CREEP</link></u>."
   },
   {
     "Id": "pdf_Zerg_rule_vileling_zergling_combat_phase_debilitating_claws",
     "Name": "Debilitating Claws",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Melee Phase\n<b>Type:</b> Passive\n\nAfter an <link=\"rule_keyword_enemy\">Enemy</link> Unit suffers Damage from this Unit, apply <link=\"rule_keyword_debuff\">DEBUFF</link> Hit (1) to each of that Unit's Weapons."
+    "Description": "<b>Phase:</b> Melee Phase\n<b>Type:</b> Passive\n\nAfter an <u><link=\"rule_keyword_enemy\">Enemy</link></u> Unit suffers Damage from this Unit, apply <u><link=\"rule_keyword_debuff\">DEBUFF</link></u> Hit (1) to each of that Unit's Weapons."
   },
   {
     "Id": "pdf_Zerg_rule_viles_roach_any_phase_burrow",
     "Name": "Burrow (Viles (Roach))",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Active\n<b>Cost:</b> 2 BM\n\nIf this Unit is not <link=\"rule_keyword_engaged\">Engaged</link>, it gains or loses the <link=\"rule_keyword_burrowed\">Burrowed</link> <link=\"rule_keyword_status\">Status</link>."
+    "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Active\n<b>Cost:</b> 2 BM\n\nIf this Unit is not <u><link=\"rule_keyword_engaged\">Engaged</link></u>, it gains or loses the <u><link=\"rule_keyword_burrowed\">Burrowed</link></u> <u><link=\"rule_keyword_status\">Status</link></u>."
   },
   {
     "Id": "pdf_Zerg_rule_viles_roach_any_phase_debilitating_saliva",
     "Name": "Debilitating Saliva",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Reaction\n<b>Cost:</b> 1 BM\n\nUse when an <link=\"rule_keyword_enemy\">Enemy</link> Unit <link=\"rule_keyword_within\">Within</link> 8\" of this Unit declares a <link=\"rule_chapter_8_7_3\">Ranged Attack</link>. Apply <link=\"rule_keyword_debuff\">DEBUFF</link> Hit (1) to each of that Unit's Ranged Weapons."
+    "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Reaction\n<b>Cost:</b> 1 BM\n\nUse when an <u><link=\"rule_keyword_enemy\">Enemy</link></u> Unit <u><link=\"rule_keyword_within\">Within</link></u> 8\" of this Unit declares a <u><link=\"rule_chapter_8_7_3\">Ranged Attack</link></u>. Apply <u><link=\"rule_keyword_debuff\">DEBUFF</link></u> Hit (1) to each of that Unit's Ranged Weapons."
   },
   {
     "Id": "pdf_Zerg_rule_viles_roach_assault_phase_devastating_charge",
     "Name": "Devastating Charge IMPACT (1) 4+",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Passive\n\nImmediately after this Unit completes a successful <link=\"rule_chapter_8_7_7\">Charge</link>, resolve the <link=\"rule_keyword_impact\">IMPACT</link> (1) 4+ effect."
+    "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Passive\n\nImmediately after this Unit completes a successful <u><link=\"rule_chapter_8_7_7\">Charge</link></u>, resolve the <u><link=\"rule_keyword_impact\">IMPACT</link></u> (1) 4+ effect."
   },
   {
     "Id": "pdf_Zerg_rule_viles_roach_upgrade_movement_phase_glial_reconstitution",
     "Name": "Glial Reconstitution (Viles (Roach))",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Active\n<b>Cost:</b> 1 BM\n<b>Upgrade ability</b>\n\nThis Unit gains <link=\"rule_keyword_buff\">BUFF</link> SPEED (1), or BUFF SPEED (2) if the Unit is <link=\"rule_keyword_on_creep\">ON CREEP</link>."
+    "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Active\n<b>Cost:</b> 1 BM\n<b>Upgrade ability</b>\n\nThis Unit gains <u><link=\"rule_keyword_buff\">BUFF</link></u> SPEED (1), or <u><link=\"rule_keyword_buff\">BUFF</link></u> SPEED (2) if the Unit is <u><link=\"rule_keyword_on_creep\">ON CREEP</link></u>."
   },
   {
     "Id": "pdf_Zerg_rule_viles_roach_upgrade_movement_phase_tunneling_claws",
     "Name": "Tunneling Claws (Viles (Roach))",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Passive\n<b>Upgrade ability</b>\n\nWhile this Unit has the <link=\"rule_keyword_burrowed\">Burrowed</link> <link=\"rule_keyword_status\">Status</link>, it may perform the Move and Run actions without losing that Status. It may also move through other <link=\"rule_chapter_2_2\">Units</link>' <link=\"rule_chapter_2_3\">bases</link>."
+    "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Passive\n<b>Upgrade ability</b>\n\nWhile this Unit has the <u><link=\"rule_keyword_burrowed\">Burrowed</link></u> <u><link=\"rule_keyword_status\">Status</link></u>, it may perform the Move and Run actions without losing that <u><link=\"rule_keyword_status\">Status</link></u>. It may also move through other <u><link=\"rule_chapter_2_2\">Units</link></u>' <u><link=\"rule_chapter_2_3\">bases</link></u>."
   },
   {
     "Id": "pdf_Zerg_rule_zagara_assault_phase_devastating_charge",
     "Name": "Devastating Charge IMPACT (6) 3+",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Passive\n\nImmediately after this Unit completes a successful <link=\"rule_chapter_8_7_7\">Charge</link>, resolve the <link=\"rule_keyword_impact\">IMPACT</link> (6) 3+ effect."
+    "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Passive\n\nImmediately after this Unit completes a successful <u><link=\"rule_chapter_8_7_7\">Charge</link></u>, resolve the <u><link=\"rule_keyword_impact\">IMPACT</link></u> (6) 3+ effect."
   },
   {
     "Id": "pdf_Zerg_rule_zagara_movement_phase_infested_drop",
     "Name": "Infested Drop",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Passive\n\nThe base of the Zagara counts as an <link=\"rule_keyword_entry_edge\">Entry Edge</link>. Each Round, <link=\"rule_keyword_friendly\">Friendly</link> <link=\"rule_chapter_2_2\">Units</link> with a combined Supply cost of 1 may be Deployed via this Entry Edge."
+    "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Passive\n\nThe base of the Zagara counts as an <u><link=\"rule_keyword_entry_edge\">Entry Edge</link></u>. Each Round, <u><link=\"rule_keyword_friendly\">Friendly</link></u> <u><link=\"rule_chapter_2_2\">Units</link></u> with a combined Supply cost of 1 may be Deployed via this <u><link=\"rule_keyword_entry_edge\">Entry Edge</link></u>."
   },
   {
     "Id": "pdf_Zerg_rule_zagara_upgrade_movement_phase_broodmother",
     "Name": "Broodmother",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Active\n<b>Cost:</b> 1 BM\n<b>Upgrade ability</b>\n\nApply one of the following effects to all <link=\"rule_keyword_friendly\">Friendly</link> <link=\"rule_chapter_2_2\">units</link> (<link=\"rule_keyword_line_of_sight\">Line of Sight</link> is not required). You cannot apply the effect chosen in the previous Game Round:\n• Units of Size 1 gain a +1 <link=\"rule_keyword_modifier\">Modifier</link> to all <link=\"rule_keyword_impact\">IMPACT</link> Rolls.\n• All weapons of Size 2 Units gain <link=\"rule_keyword_critical_hit\">CRITICAL HIT</link> (1).\n• Units of Size 3 or more gain <link=\"rule_keyword_tough\">TOUGH</link> (1)."
+    "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Active\n<b>Cost:</b> 1 BM\n<b>Upgrade ability</b>\n\nApply one of the following effects to all <u><link=\"rule_keyword_friendly\">Friendly</link></u> <u><link=\"rule_chapter_2_2\">units</link></u> (<u><link=\"rule_keyword_line_of_sight\">Line of Sight</link></u> is not required). You cannot apply the effect chosen in the previous Game Round:\n• <u><link=\"rule_chapter_2_2\">Units</link></u> of Size 1 gain a +1 <u><link=\"rule_keyword_modifier\">Modifier</link></u> to all <u><link=\"rule_keyword_impact\">IMPACT</link></u> Rolls.\n• All weapons of Size 2 <u><link=\"rule_chapter_2_2\">Units</link></u> gain <u><link=\"rule_keyword_critical_hit\">CRITICAL HIT</link></u> (1).\n• <u><link=\"rule_chapter_2_2\">Units</link></u> of Size 3 or more gain <u><link=\"rule_keyword_tough\">TOUGH</link></u> (1)."
   }
 ]
