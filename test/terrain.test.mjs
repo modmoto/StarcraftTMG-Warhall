@@ -202,6 +202,6 @@ test('built-in hill reference is preserved separately from calibrated map terrai
     terrains.filter(t => t.Id === 'Hill snow'),
     builtinTerrains,
   );
-  assert.ok(builtinTerrains[0].Height > 0);
+  assert.ok(terrains.every(terrain => !('Height' in terrain)));
   assert.ok(maps.every(map => map.Items.every(item => item.Id !== 'Hill snow')));
 });

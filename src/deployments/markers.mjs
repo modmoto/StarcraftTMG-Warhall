@@ -43,7 +43,6 @@ export function markerTerrains() {
     Type: 'Terrain',
     Width: markerDiameterMm / 10,
     Length: markerDiameterMm / 10,
-    Height: 0.2,
     Shape: 1,
   }));
 }

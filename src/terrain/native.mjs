@@ -6,7 +6,6 @@ export const builtinTerrains = [
     Type: 'Terrain',
     Width: 10.16,
     Length: 10.16,
-    Height: 2,
     Shape: 0,
   },
 ];

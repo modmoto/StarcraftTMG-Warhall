@@ -6,7 +6,7 @@ import { encodeGlb } from '../models/portable-glb.mjs';
 import { projectRoot } from '../paths.mjs';
 import { controlRangeInches, markerDiameterMm, missionMarkers } from './markers.mjs';
 
-const accents = { red: [226, 61, 65], blue: [24, 103, 208], green: [34, 175, 103] };
+export const accents = { red: [226, 61, 65], blue: [24, 103, 208], green: [34, 175, 103] };
 export const controlOuterRadiusMm = Number(
   (markerDiameterMm / 2 + controlRangeInches * 25.4).toFixed(6),
 );

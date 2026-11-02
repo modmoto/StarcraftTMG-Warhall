@@ -17,3 +17,9 @@ npm run models:publish -- --kind deployment --apply --login --accept-publication
 The default target is Warhall Test. This publishes only the eight line-overlay skins, including generated thumbnails. Refresh the shared catalogue, update Starcraft, and create a fresh room to verify all eight deployments. Publish the three marker skins separately with `--kind marker` if still pending.
 
 The old Windows cache installer is a legacy test helper. It is not needed by this path. No authenticated upload or live client verification has been performed for this release yet. Do not upload a stale browser editor buffer over the current repository files; force sync only after the new files are pushed.
+
+## Release 45: coloured solid border objects
+
+Deployment borders are now narrow closed rectangular mesh strips, 0.15 cm wide and 0.05 cm high, grouped into red/blue materials within each existing shared deployment object. They use exactly the mission-marker accent colours: red RGB 226/61/65 and blue RGB 24/103/208. The PDF-derived border positions and stable deployment assignments are unchanged. These are ordinary spawned model objects, not Warhall native deployment-line components. The optional grid retains its pale colour. Publish only kind deployment after pushing the new GLBs.
+
+At the user's explicit request, terrain Height fields have been removed from map terrain, markers, deployment strips and the native reference. This changes selection collider sizing, not the visible model heights or raised-platform support. It supersedes the earlier requirement to retain these fields. The editor's unrelated loss of helper records remains a separate issue.

@@ -27,7 +27,6 @@ export const overlayTerrain = template => ({
     'Decorative deployment entry lines. Automatically placed with the deployment; no filled deployment zones.',
   Width: 0.1,
   Length: 0.1,
-  Height: 0.02,
   Shape: 1,
 });
 export function deploymentId(name) {
@@ -101,7 +100,8 @@ export function deploymentTemplate(layout) {
     centerlineAxis: '0',
     lines: boundary
       .sort((a, b) => a.key.localeCompare(b.key, 'en'))
-      .map(({ a, b }) => ({
+      .map(({ a, b, color }) => ({
+        color,
         anchor: 'center',
         posX: String((a[0] + b[0]) / 2),
         posY: String((a[1] + b[1]) / 2),

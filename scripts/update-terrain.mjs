@@ -98,7 +98,6 @@ for (const asset of source.assets.filter(asset => !aliases[asset.id])) {
     Description: `StarCraft terrain: ${asset.name}. PDF grid-calibrated footprint and layout. Resolve cover, elevation and movement using the rulebook.`,
     Width: width,
     Length: length,
-    Height: Math.max(calibratedBounds.size[1], 0.1),
     Shape: 0,
   });
   models.push({

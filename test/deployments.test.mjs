@@ -244,13 +244,30 @@ test('shared deployment menu uses a built-in template and places the exact origi
 test('deployment overlay geometry preserves entry-edge coordinates without filled zones', async () => {
   const { lineGeometry } = await import('../src/deployments/line-assets.mjs');
   const mesh = lineGeometry(deploymentTemplate(layout));
-  assert.equal(mesh.vertices.length, deploymentTemplate(layout).lines.length * 4);
-  for (let i = 0; i < mesh.vertices.length; i += 4) {
-    const points = mesh.vertices.slice(i, i + 4);
-    const cx = points.reduce((sum, p) => sum + p[0], 0) / 4;
-    const cz = points.reduce((sum, p) => sum + p[2], 0) / 4;
+  assert.equal(mesh.vertices.length, deploymentTemplate(layout).lines.length * 8);
+  for (let i = 0; i < mesh.vertices.length; i += 8) {
+    const points = mesh.vertices.slice(i, i + 8);
+    const cx = points.reduce((sum, p) => sum + p[0], 0) / 8;
+    const cz = points.reduce((sum, p) => sum + p[2], 0) / 8;
     assert.ok(
       Math.abs(Math.abs(cx) - 18 * 2.54) < 1e-8 || Math.abs(Math.abs(cz) - 18 * 2.54) < 1e-8,
     );
+  }
+});
+
+test('deployment strips share marker colours and have narrow solid geometry', async () => {
+  const { accents } = await import('../src/deployments/marker-assets.mjs');
+  const template = deploymentTemplate(layout);
+  assert.deepEqual([...new Set(template.lines.map(line => line.color))].sort(), ['blue', 'red']);
+  const { lineGeometry } = await import('../src/deployments/line-assets.mjs');
+  for (const color of ['red', 'blue']) {
+    const mesh = lineGeometry(
+      { ...template, lines: template.lines.filter(line => line.color === color) },
+      0.15,
+      accents[color],
+    );
+    assert.deepEqual([...mesh.texture.data], [...accents[color], 255]);
+    assert.deepEqual([...new Set(mesh.vertices.map(point => point[1]))], [0, 0.05]);
+    assert.equal(mesh.faces.length, (mesh.vertices.length / 8) * 12);
   }
 });
