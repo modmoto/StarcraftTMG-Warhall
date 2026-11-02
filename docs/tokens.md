@@ -31,3 +31,9 @@ After updating to release 33, refresh the shared catalogue and reopen the Tokens
 ## Release 42: built-in Warhall tokens
 
 The token menu contains 16 custom tokens plus the native blue, orange, black, white and purple Warhall tokens and native 3-inch/5-inch templates (23 total). builtinTokenNames in src/tokens/package.mjs owns the native list. models:menus resolves exact public native skin names on the selected server and verifies default bindings without reuploading their models or previews.
+
+## Editor serialization compatibility
+
+The generator emits only Id, Name and Type for native token records, matching TokensEditor.buildTokensJson. Explanatory descriptions remain in the source tokenDefinitions for artwork/documentation but are not emitted into tokens.json. token-menu-order.json records the actual 23-token catalogue order from the release-43 editor upload; nativeTokens sorts by that order rather than definition order. This prevents opening Tokens from creating a normalization-only draft for the current catalogue.
+
+The editor orders selected skins by its public-then-shared catalogue response (deduplicated by skin ID), not alphabetically or by the incoming JSON order. Republishing skins can change this remote order. After a deliberate catalogue change, export the Tokens panel, compare all records and refresh token-menu-order.json from that reviewed token ID sequence. Do not upload unrelated terrain normalization. The regression test compares the generated token array with the actual editor-uploaded package. This change does not fix native thumbnail previews.

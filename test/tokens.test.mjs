@@ -23,7 +23,7 @@ test('native tokens replace round cards and publish every distinct face', async 
   for (const token of tokens) {
     assert.equal(token.Type, 'Token');
     assert.ok(!token.UIConfig);
-    assert.doesNotMatch(token.Description, /flip/i);
+    assert.equal('Description' in token, false);
     const skin = catalogue.find(entry => entry.name === token.Id);
     assert.ok(skin);
     assert.equal(skin.tokenDiameterMm, tokenDiameterMm);
@@ -106,4 +106,17 @@ test('all seven native tokens retain their prefab identities without duplicate u
     );
     assert.ok(!catalogue.entries.some(entry => entry.profileId === name));
   }
+});
+
+test('generator reproduces the editor token records and catalogue order exactly', async () => {
+  const { nativeTokens } = await import('../src/tokens/package.mjs');
+  const order = await read('token-menu-order.json');
+  const tokens = nativeTokens();
+  assert.deepEqual(tokens, await read('Starcraft/tokens.json'));
+  assert.deepEqual(
+    tokens.map(token => token.Id),
+    order,
+  );
+  assert.equal(new Set(order).size, tokens.length);
+  for (const token of tokens) assert.deepEqual(Object.keys(token), ['Id', 'Name', 'Type']);
 });

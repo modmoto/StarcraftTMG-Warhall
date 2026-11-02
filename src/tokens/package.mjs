@@ -1,3 +1,4 @@
+import tokenMenuOrder from '../../token-menu-order.json' with { type: 'json' };
 import { tokenMenuId } from '../models/menu-ids.mjs';
 
 export const tokenDiameterMm = 25;
@@ -59,15 +60,20 @@ export const builtinTokenNames = [
 ];
 
 export function nativeTokens() {
-  return [
+  const tokens = [
     ...tokenDefinitions.map(token => ({
       Id: tokenMenuId(token.name),
       Name: token.name,
       Type: 'Token',
-      Description: `${token.name}\n\n${token.description}`,
     })),
     ...builtinTokenNames.map(name => ({ Id: name, Name: name, Type: 'Token' })),
   ];
+  const ranks = new Map(tokenMenuOrder.map((id, index) => [id, index]));
+  return tokens.sort(
+    (a, b) =>
+      (ranks.get(a.Id) ?? Infinity) - (ranks.get(b.Id) ?? Infinity) ||
+      a.Id.localeCompare(b.Id, 'en'),
+  );
 }
 
 export function factionIcons(artwork) {
