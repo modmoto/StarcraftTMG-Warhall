@@ -10,7 +10,7 @@
       "faction": "Protoss",
       "parts": [
         {
-          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/8e423ffb6656f35174518aa07cadee98ee5a0826d175eec0a0894d28e793a761.glb",
+          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/test/model-assets/8e423ffb6656f35174518aa07cadee98ee5a0826d175eec0a0894d28e793a761.glb",
           "textureUrl": null,
           "transforms": {
             "scale": 152.5884643691914,
@@ -48,7 +48,7 @@
       "parts": [
         {
           "modelUrl": "https://steamusercontent-a.akamaihd.net/ugc/17389884646380172200/852A705C283A6B494E5B3476D720D70FD78F0686/",
-          "textureUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/6c042cb4961fce0a53cdb4a7756f66ad05d7d46467db511acf9bbd8622f9f03e.png",
+          "textureUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/test/model-assets/6c042cb4961fce0a53cdb4a7756f66ad05d7d46467db511acf9bbd8622f9f03e.png",
           "transforms": {
             "scale": 0.917716545601218,
             "rotationX": 0,
@@ -84,7 +84,7 @@
       "parts": [
         {
           "modelUrl": "https://steamusercontent-a.akamaihd.net/ugc/13358083638766320133/F0EEA58CBC5196D5245DC070D3F3588F4BDD74FC/",
-          "textureUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/a847226a4bd3ef4668138c86c6c9d8e10491984e9f1f7070aeb51e28ee031299.png",
+          "textureUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/test/model-assets/a847226a4bd3ef4668138c86c6c9d8e10491984e9f1f7070aeb51e28ee031299.png",
           "transforms": {
             "scale": 0.7494923771622787,
             "rotationX": 0,
@@ -120,7 +120,7 @@
       "parts": [
         {
           "modelUrl": "https://steamusercontent-a.akamaihd.net/ugc/13121363716450345724/BAE94B9CE0174EAB1935DB7F703844F7ED3C7638/",
-          "textureUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/998275798dd6648434a0e705dedea016ca82008aad3d74fbf7626fe68d862cd4.png",
+          "textureUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/test/model-assets/998275798dd6648434a0e705dedea016ca82008aad3d74fbf7626fe68d862cd4.png",
           "transforms": {
             "scale": 1.2225654703616289,
             "rotationX": 0,
@@ -156,7 +156,7 @@
       "parts": [
         {
           "modelUrl": "https://steamusercontent-a.akamaihd.net/ugc/15678455513010701611/1E127B6D05194BC0E700269E3F07AE89683B33C4/",
-          "textureUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/0aff725856a43ae146e3100ce08b1af601dc03baf068fc3dc0785f05f0a98673.png",
+          "textureUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/test/model-assets/0aff725856a43ae146e3100ce08b1af601dc03baf068fc3dc0785f05f0a98673.png",
           "transforms": {
             "scale": 0.729746158444725,
             "rotationX": 0,
@@ -192,7 +192,7 @@
       "parts": [
         {
           "modelUrl": "https://steamusercontent-a.akamaihd.net/ugc/11457860537374907668/55416D6FE1FE57DAB0272201E0F9668AB3D0A925/",
-          "textureUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/65091b4945bdc2a53ea938b02182e3f4ac01c23b0581932ce7cce67a75a5abf3.png",
+          "textureUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/test/model-assets/65091b4945bdc2a53ea938b02182e3f4ac01c23b0581932ce7cce67a75a5abf3.png",
           "transforms": {
             "scale": 0.6599825118887738,
             "rotationX": 0,
@@ -228,7 +228,7 @@
       "parts": [
         {
           "modelUrl": "https://steamusercontent-a.akamaihd.net/ugc/15844952089701479666/71E0E14ADA21C85A08DBEFD01D0C8EAED842BFBE/",
-          "textureUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/f6d8e851e506dfb8ffafa22f3bd5c75e5bd0fee210a9f130468f867db3288d9a.png",
+          "textureUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/test/model-assets/f6d8e851e506dfb8ffafa22f3bd5c75e5bd0fee210a9f130468f867db3288d9a.png",
           "transforms": {
             "scale": 1.498554474888757,
             "rotationX": 0,
@@ -264,7 +264,7 @@
       "parts": [
         {
           "modelUrl": "https://steamusercontent-a.akamaihd.net/ugc/17542236405298897588/1BAA4007A994A3964056D4934EB53868835093DF/",
-          "textureUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/c3c4b19034ca2a75a12d77676a5440f26807e65d5fb70664d323179bae2fe541.png",
+          "textureUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/test/model-assets/c3c4b19034ca2a75a12d77676a5440f26807e65d5fb70664d323179bae2fe541.png",
           "transforms": {
             "scale": 0.9152021531250001,
             "rotationX": 0,
@@ -300,7 +300,7 @@
       "parts": [
         {
           "modelUrl": "https://steamusercontent-a.akamaihd.net/ugc/15129021142985132011/753B3E7E2E7FA3447547C9CDF81415A63F4DE307/",
-          "textureUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/9d58e0d92dc380fc510c46b828cb8986006c37f4c05041255334045d939d6479.png",
+          "textureUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/test/model-assets/9d58e0d92dc380fc510c46b828cb8986006c37f4c05041255334045d939d6479.png",
           "transforms": {
             "scale": 1.2710517587855177,
             "rotationX": 0,
@@ -336,7 +336,7 @@
       "parts": [
         {
           "modelUrl": "https://steamusercontent-a.akamaihd.net/ugc/16840604407767716825/C4C969EBE028A8BC031C49B0F6C83E21624AC656/",
-          "textureUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/38ce2c4e75d9e67b2dfe8ed09838055860f004c5555d75c779638b58c1a1d18b.png",
+          "textureUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/test/model-assets/38ce2c4e75d9e67b2dfe8ed09838055860f004c5555d75c779638b58c1a1d18b.png",
           "transforms": {
             "scale": 0.6734733827374575,
             "rotationX": 0,
@@ -372,7 +372,7 @@
       "parts": [
         {
           "modelUrl": "https://steamusercontent-a.akamaihd.net/ugc/17318310556111765243/26E167FBCBF2E604376FBDAB076B9EBB8CC26962/",
-          "textureUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/20d25edddd906186e6b79b4a050852999b4200f67488c6095525fd823a327047.png",
+          "textureUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/test/model-assets/20d25edddd906186e6b79b4a050852999b4200f67488c6095525fd823a327047.png",
           "transforms": {
             "scale": 0.69541346023059,
             "rotationX": 0,
@@ -408,7 +408,7 @@
       "parts": [
         {
           "modelUrl": "https://steamusercontent-a.akamaihd.net/ugc/13125139103274426458/3152D59248A4B81CF354D30501767FE04BFBEA32/",
-          "textureUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/67921c33c9dd124ef320203c2387a8ad4445d7e5193903dfcc253fa2da4f08ae.png",
+          "textureUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/test/model-assets/67921c33c9dd124ef320203c2387a8ad4445d7e5193903dfcc253fa2da4f08ae.png",
           "transforms": {
             "scale": 0.7105831583949105,
             "rotationX": 0,
@@ -444,7 +444,7 @@
       "parts": [
         {
           "modelUrl": "https://steamusercontent-a.akamaihd.net/ugc/14056316204408219923/B54DF5F8C1658776E9CD3CA1B508ED3C9A62FFD8/",
-          "textureUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/b78afd45c6ea086290ab758cb59366666367eff8bc197a41820c18cf333464b5.png",
+          "textureUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/test/model-assets/b78afd45c6ea086290ab758cb59366666367eff8bc197a41820c18cf333464b5.png",
           "transforms": {
             "scale": 1.3,
             "rotationX": 0,
@@ -471,7 +471,7 @@
         },
         {
           "modelUrl": "https://steamusercontent-a.akamaihd.net/ugc/14648176725355613391/B226AC63C0976A38234ACD3D9FE909D015E57F02/",
-          "textureUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/be3dbaf1812eb4695953fd489473db59a3a04ea19a2d61ac3daaecc0b482342f.png",
+          "textureUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/test/model-assets/be3dbaf1812eb4695953fd489473db59a3a04ea19a2d61ac3daaecc0b482342f.png",
           "transforms": {
             "scale": 1.3,
             "rotationX": 0,
@@ -507,7 +507,7 @@
       "parts": [
         {
           "modelUrl": "https://steamusercontent-a.akamaihd.net/ugc/14025728949677490242/664096B747BC6D82F2ED371AB232183099CF799B/",
-          "textureUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/43087a8a2f91636e26b4c910c8983bc9b8c515538c41596fdd912fa180806baf.png",
+          "textureUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/test/model-assets/43087a8a2f91636e26b4c910c8983bc9b8c515538c41596fdd912fa180806baf.png",
           "transforms": {
             "scale": 0.551914125,
             "rotationX": 0,
@@ -543,7 +543,7 @@
       "parts": [
         {
           "modelUrl": "https://steamusercontent-a.akamaihd.net/ugc/16892631073922839391/E2289964204231529A7AD26B243D6FE9DDC78F7E/",
-          "textureUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/f8ff36e9af95b397c9f4f28284662bb50300a41f6396584439512d7dd5ecc5b7.png",
+          "textureUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/test/model-assets/f8ff36e9af95b397c9f4f28284662bb50300a41f6396584439512d7dd5ecc5b7.png",
           "transforms": {
             "scale": 1.3488365745017326,
             "rotationX": 0,
@@ -579,7 +579,7 @@
       "parts": [
         {
           "modelUrl": "https://steamusercontent-a.akamaihd.net/ugc/17581228745774372404/A341024A169F435951E7916CB9E8F823EB1643F6/",
-          "textureUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/7486dae17b5ec433d168d4d03eab2f187c169de04b44f36db72816de3335e84a.png",
+          "textureUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/test/model-assets/7486dae17b5ec433d168d4d03eab2f187c169de04b44f36db72816de3335e84a.png",
           "transforms": {
             "scale": 0.822833025,
             "rotationX": 0,
@@ -614,7 +614,7 @@
       "faction": "Terran",
       "parts": [
         {
-          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/c7bbe5176b5089c63c5550e661ff234ba423f9a9b3cbfb4274351d01ab35700b.glb",
+          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/test/model-assets/c7bbe5176b5089c63c5550e661ff234ba423f9a9b3cbfb4274351d01ab35700b.glb",
           "textureUrl": null,
           "transforms": {
             "scale": 173.4988570758631,
@@ -652,7 +652,7 @@
       "parts": [
         {
           "modelUrl": "https://steamusercontent-a.akamaihd.net/ugc/11979516860378392008/B06F0361E08A15C0C276D3810F0DA515C048B35D/",
-          "textureUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/5159b3d27ed88bf7411b15038c13c917bdd1ab85c8828c6e691bf422fb0d591e.png",
+          "textureUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/test/model-assets/5159b3d27ed88bf7411b15038c13c917bdd1ab85c8828c6e691bf422fb0d591e.png",
           "transforms": {
             "scale": 0.7636873042500001,
             "rotationX": 0,
@@ -688,7 +688,7 @@
       "parts": [
         {
           "modelUrl": "https://steamusercontent-a.akamaihd.net/ugc/15846916301642369325/A0778272A7FC1F9EF4C8C93F7101D758C9356067/",
-          "textureUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/e3926ccb10f4b774a8daff97e90d2fec9ee57d6ba7590bcaa62ade540dc1485f.png",
+          "textureUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/test/model-assets/e3926ccb10f4b774a8daff97e90d2fec9ee57d6ba7590bcaa62ade540dc1485f.png",
           "transforms": {
             "scale": 0.5406868950000001,
             "rotationX": 0,
@@ -723,7 +723,7 @@
       "faction": "Terran",
       "parts": [
         {
-          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/3994198792635e5ceb978490ba94d89f3dd7ca19730b49f6ed4a1b3c9afdb58a.glb",
+          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/test/model-assets/3994198792635e5ceb978490ba94d89f3dd7ca19730b49f6ed4a1b3c9afdb58a.glb",
           "textureUrl": null,
           "transforms": {
             "scale": 1.623445873913266,
@@ -761,7 +761,7 @@
       "parts": [
         {
           "modelUrl": "https://steamusercontent-a.akamaihd.net/ugc/17581228745774372404/A341024A169F435951E7916CB9E8F823EB1643F6/",
-          "textureUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/8c37f34dd506cdf45a8435f808682963b96e0e1e2a94ab7c2194ae38fe570c8d.png",
+          "textureUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/test/model-assets/8c37f34dd506cdf45a8435f808682963b96e0e1e2a94ab7c2194ae38fe570c8d.png",
           "transforms": {
             "scale": 0.822833025,
             "rotationX": 0,
@@ -798,7 +798,7 @@
       "parts": [
         {
           "modelUrl": "https://steamusercontent-a.akamaihd.net/ugc/16724548689103041369/47BA9CADBA1382E27A756DCAB7B65AA64BA063ED/",
-          "textureUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/65c69e7c84a3c1ac6c1f65a3f1d8c506d6cb3adaf1dc782f86a283870b66474b.png",
+          "textureUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/test/model-assets/65c69e7c84a3c1ac6c1f65a3f1d8c506d6cb3adaf1dc782f86a283870b66474b.png",
           "transforms": {
             "scale": 0.5281961047206714,
             "rotationX": 0,
@@ -835,7 +835,7 @@
       "parts": [
         {
           "modelUrl": "https://steamusercontent-a.akamaihd.net/ugc/12783889514308410174/8BEF0E485105274125CA8662DA5907FF0BE0223D/",
-          "textureUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/6209c97dc946658252121ed13d1ca8bd90d6d6ae6433557080e485aa97582b32.png",
+          "textureUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/test/model-assets/6209c97dc946658252121ed13d1ca8bd90d6d6ae6433557080e485aa97582b32.png",
           "transforms": {
             "scale": 1.446243901712134,
             "rotationX": 0,
@@ -871,7 +871,7 @@
       "parts": [
         {
           "modelUrl": "https://steamusercontent-a.akamaihd.net/ugc/13410382357072100990/131B78DBACDBC06ED5FD4FBFF22DC9DEF56CCEDD/",
-          "textureUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/8618f19d2c9ab4b274839bdad71eaf4a5aad26ddde47fab6e850a0e50e125379.png",
+          "textureUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/test/model-assets/8618f19d2c9ab4b274839bdad71eaf4a5aad26ddde47fab6e850a0e50e125379.png",
           "transforms": {
             "scale": 0.55020925875,
             "rotationX": 0,
@@ -907,7 +907,7 @@
       "parts": [
         {
           "modelUrl": "https://steamusercontent-a.akamaihd.net/ugc/17520067522889415297/DF0FD155A175F273B6C0088B5AA93E7A69D02D53/",
-          "textureUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/3b9892efb1865155636fb414d30017e89b772a1284d4d946c3f6423eb02a29ed.png",
+          "textureUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/test/model-assets/3b9892efb1865155636fb414d30017e89b772a1284d4d946c3f6423eb02a29ed.png",
           "transforms": {
             "scale": 0.7863398605216576,
             "rotationX": 0,
@@ -943,7 +943,7 @@
       "parts": [
         {
           "modelUrl": "https://steamusercontent-a.akamaihd.net/ugc/10924463587930246298/5C08DBBBB1B34C66796D02F27805AB6ACC3C3E75/",
-          "textureUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/659fce8be21d549abc98661e647122f324f53e0896ad6a2ecd0b271323222985.png",
+          "textureUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/test/model-assets/659fce8be21d549abc98661e647122f324f53e0896ad6a2ecd0b271323222985.png",
           "transforms": {
             "scale": 2.0117314950089025,
             "rotationX": 0,
@@ -979,7 +979,7 @@
       "parts": [
         {
           "modelUrl": "https://steamusercontent-a.akamaihd.net/ugc/16433214436580589175/0FAAC5677902C9E47EC259DAC387FFF3E867D33C/",
-          "textureUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/35a4a886925c18e1f78422023b8f20fb65f2e254d2180302cbe7e1f5c309cc05.png",
+          "textureUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/test/model-assets/35a4a886925c18e1f78422023b8f20fb65f2e254d2180302cbe7e1f5c309cc05.png",
           "transforms": {
             "scale": 0.8249862,
             "rotationX": 0,
@@ -1015,7 +1015,7 @@
       "parts": [
         {
           "modelUrl": "https://steamusercontent-a.akamaihd.net/ugc/13676960899368881933/1D1EBC0A58B38976237FF4B2831A599D5CC76425/",
-          "textureUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/46d88412792042cbd766e1fae79d3bb50ab32890ff3f423d9d42db41e11d0f58.png",
+          "textureUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/test/model-assets/46d88412792042cbd766e1fae79d3bb50ab32890ff3f423d9d42db41e11d0f58.png",
           "transforms": {
             "scale": 0.544838878125,
             "rotationX": 0,
@@ -1541,7 +1541,7 @@
       "faction": "Zerg",
       "parts": [
         {
-          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/d65731bdfe4d9d9086656dcbd8ac465e93c22f94d1acc49c204f201487d7f1ad.glb",
+          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/test/model-assets/d65731bdfe4d9d9086656dcbd8ac465e93c22f94d1acc49c204f201487d7f1ad.glb",
           "textureUrl": null,
           "transforms": {
             "scale": 1.9745777943814005,
@@ -1647,7 +1647,7 @@
       "calibration": "pdf-grid-v1",
       "parts": [
         {
-          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/5780d4b53657b9ac7727a9682a88b6b02e4ead34d8a3c4f9234455fa7a39ada7.glb",
+          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/test/model-assets/5780d4b53657b9ac7727a9682a88b6b02e4ead34d8a3c4f9234455fa7a39ada7.glb",
           "textureUrl": null,
           "transforms": {
             "scale": 0.39370078740157477,
@@ -1659,7 +1659,7 @@
             "positionZ": 0
           },
           "previewSource": {
-            "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/5780d4b53657b9ac7727a9682a88b6b02e4ead34d8a3c4f9234455fa7a39ada7.glb",
+            "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/test/model-assets/5780d4b53657b9ac7727a9682a88b6b02e4ead34d8a3c4f9234455fa7a39ada7.glb",
             "textureUrl": null
           },
           "previewTransforms": {
@@ -1683,7 +1683,7 @@
       "calibration": "pdf-grid-v1",
       "parts": [
         {
-          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/1779d6a36966885e3c5ae60c3f034cb2fc1150791b808d2369bd88a0a70f9b15.glb",
+          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/test/model-assets/1779d6a36966885e3c5ae60c3f034cb2fc1150791b808d2369bd88a0a70f9b15.glb",
           "textureUrl": null,
           "transforms": {
             "scale": 0.39370078740157477,
@@ -1695,7 +1695,7 @@
             "positionZ": 0
           },
           "previewSource": {
-            "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/1779d6a36966885e3c5ae60c3f034cb2fc1150791b808d2369bd88a0a70f9b15.glb",
+            "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/test/model-assets/1779d6a36966885e3c5ae60c3f034cb2fc1150791b808d2369bd88a0a70f9b15.glb",
             "textureUrl": null
           },
           "previewTransforms": {
@@ -1719,7 +1719,7 @@
       "calibration": "pdf-grid-v1",
       "parts": [
         {
-          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/aae2cd8e40537bc728c9e353f69539519c2ba066a7f1565a362ad5a08ac850ad.glb",
+          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/test/model-assets/aae2cd8e40537bc728c9e353f69539519c2ba066a7f1565a362ad5a08ac850ad.glb",
           "textureUrl": null,
           "transforms": {
             "scale": 0.39370078740157477,
@@ -1731,7 +1731,7 @@
             "positionZ": 0
           },
           "previewSource": {
-            "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/aae2cd8e40537bc728c9e353f69539519c2ba066a7f1565a362ad5a08ac850ad.glb",
+            "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/test/model-assets/aae2cd8e40537bc728c9e353f69539519c2ba066a7f1565a362ad5a08ac850ad.glb",
             "textureUrl": null
           },
           "previewTransforms": {
@@ -1755,7 +1755,7 @@
       "calibration": "pdf-grid-v1",
       "parts": [
         {
-          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/d702675747ea75746709f86e091e5033fb81d19d604f89e5998afdfc78c513ec.glb",
+          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/test/model-assets/d702675747ea75746709f86e091e5033fb81d19d604f89e5998afdfc78c513ec.glb",
           "textureUrl": null,
           "transforms": {
             "scale": 0.39370078740157477,
@@ -1767,7 +1767,7 @@
             "positionZ": 0
           },
           "previewSource": {
-            "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/d702675747ea75746709f86e091e5033fb81d19d604f89e5998afdfc78c513ec.glb",
+            "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/test/model-assets/d702675747ea75746709f86e091e5033fb81d19d604f89e5998afdfc78c513ec.glb",
             "textureUrl": null
           },
           "previewTransforms": {
@@ -1791,7 +1791,7 @@
       "calibration": "pdf-grid-v1",
       "parts": [
         {
-          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/21c1aceb78e9305e1a32f961cabb1d46a4045151644b5be207e16c95ab968940.glb",
+          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/test/model-assets/21c1aceb78e9305e1a32f961cabb1d46a4045151644b5be207e16c95ab968940.glb",
           "textureUrl": null,
           "transforms": {
             "scale": 0.39370078740157477,
@@ -1803,7 +1803,7 @@
             "positionZ": 0
           },
           "previewSource": {
-            "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/21c1aceb78e9305e1a32f961cabb1d46a4045151644b5be207e16c95ab968940.glb",
+            "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/test/model-assets/21c1aceb78e9305e1a32f961cabb1d46a4045151644b5be207e16c95ab968940.glb",
             "textureUrl": null
           },
           "previewTransforms": {
@@ -1827,7 +1827,7 @@
       "calibration": "pdf-grid-v1",
       "parts": [
         {
-          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/7d04db1061af17e64be8d8a57535fe79158efa1b505213e44c9bee2aac7e19cd.glb",
+          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/test/model-assets/7d04db1061af17e64be8d8a57535fe79158efa1b505213e44c9bee2aac7e19cd.glb",
           "textureUrl": null,
           "transforms": {
             "scale": 0.39370078740157477,
@@ -1839,7 +1839,7 @@
             "positionZ": 0
           },
           "previewSource": {
-            "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/7d04db1061af17e64be8d8a57535fe79158efa1b505213e44c9bee2aac7e19cd.glb",
+            "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/test/model-assets/7d04db1061af17e64be8d8a57535fe79158efa1b505213e44c9bee2aac7e19cd.glb",
             "textureUrl": null
           },
           "previewTransforms": {
@@ -1863,7 +1863,7 @@
       "calibration": "pdf-grid-v1",
       "parts": [
         {
-          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/ed37d226f2af1bd230ebceb50185dc7cbbe78632275bb15794c60b4579dbc944.glb",
+          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/test/model-assets/ed37d226f2af1bd230ebceb50185dc7cbbe78632275bb15794c60b4579dbc944.glb",
           "textureUrl": null,
           "transforms": {
             "scale": 0.39370078740157477,
@@ -1875,7 +1875,7 @@
             "positionZ": 0
           },
           "previewSource": {
-            "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/ed37d226f2af1bd230ebceb50185dc7cbbe78632275bb15794c60b4579dbc944.glb",
+            "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/test/model-assets/ed37d226f2af1bd230ebceb50185dc7cbbe78632275bb15794c60b4579dbc944.glb",
             "textureUrl": null
           },
           "previewTransforms": {
@@ -1899,7 +1899,7 @@
       "calibration": "pdf-grid-v1",
       "parts": [
         {
-          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/810d7f9c9fd7bd236b3736dab13227f3f833a76ddb1f8eee7568ddb065fdf80d.glb",
+          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/test/model-assets/810d7f9c9fd7bd236b3736dab13227f3f833a76ddb1f8eee7568ddb065fdf80d.glb",
           "textureUrl": null,
           "transforms": {
             "scale": 0.39370078740157477,
@@ -1911,7 +1911,7 @@
             "positionZ": 0
           },
           "previewSource": {
-            "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/810d7f9c9fd7bd236b3736dab13227f3f833a76ddb1f8eee7568ddb065fdf80d.glb",
+            "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/test/model-assets/810d7f9c9fd7bd236b3736dab13227f3f833a76ddb1f8eee7568ddb065fdf80d.glb",
             "textureUrl": null
           },
           "previewTransforms": {
@@ -1935,7 +1935,7 @@
       "calibration": "pdf-grid-v1",
       "parts": [
         {
-          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/c43892d4b306f0f81e516133665ed69ce5cca881fe626756edfe11e3f4f2a8c4.glb",
+          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/test/model-assets/c43892d4b306f0f81e516133665ed69ce5cca881fe626756edfe11e3f4f2a8c4.glb",
           "textureUrl": null,
           "transforms": {
             "scale": 0.39370078740157477,
@@ -1947,7 +1947,7 @@
             "positionZ": 0
           },
           "previewSource": {
-            "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/c43892d4b306f0f81e516133665ed69ce5cca881fe626756edfe11e3f4f2a8c4.glb",
+            "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/test/model-assets/c43892d4b306f0f81e516133665ed69ce5cca881fe626756edfe11e3f4f2a8c4.glb",
             "textureUrl": null
           },
           "previewTransforms": {
@@ -1971,7 +1971,7 @@
       "calibration": "pdf-grid-v1",
       "parts": [
         {
-          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/0b2da56405cf43da0254a49da9056189ec9fe27694682c1cac23c7160fd2e3d6.glb",
+          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/test/model-assets/0b2da56405cf43da0254a49da9056189ec9fe27694682c1cac23c7160fd2e3d6.glb",
           "textureUrl": null,
           "transforms": {
             "scale": 0.39370078740157477,
@@ -1983,7 +1983,7 @@
             "positionZ": 0
           },
           "previewSource": {
-            "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/0b2da56405cf43da0254a49da9056189ec9fe27694682c1cac23c7160fd2e3d6.glb",
+            "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/test/model-assets/0b2da56405cf43da0254a49da9056189ec9fe27694682c1cac23c7160fd2e3d6.glb",
             "textureUrl": null
           },
           "previewTransforms": {
@@ -2007,7 +2007,7 @@
       "calibration": "pdf-grid-v1",
       "parts": [
         {
-          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/77730f27d715cebc29fc266fae0656253e1a2bd32c8c2cf8256af045fbc7cbf1.glb",
+          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/test/model-assets/77730f27d715cebc29fc266fae0656253e1a2bd32c8c2cf8256af045fbc7cbf1.glb",
           "textureUrl": null,
           "transforms": {
             "scale": 0.39370078740157477,
@@ -2019,7 +2019,7 @@
             "positionZ": 0
           },
           "previewSource": {
-            "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/77730f27d715cebc29fc266fae0656253e1a2bd32c8c2cf8256af045fbc7cbf1.glb",
+            "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/test/model-assets/77730f27d715cebc29fc266fae0656253e1a2bd32c8c2cf8256af045fbc7cbf1.glb",
             "textureUrl": null
           },
           "previewTransforms": {
@@ -2043,7 +2043,7 @@
       "calibration": "pdf-grid-v1",
       "parts": [
         {
-          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/87d858f59fef63b9402e81d6e0991cf4d70f5261371e223955a71485b3b22289.glb",
+          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/test/model-assets/87d858f59fef63b9402e81d6e0991cf4d70f5261371e223955a71485b3b22289.glb",
           "textureUrl": null,
           "transforms": {
             "scale": 0.39370078740157477,
@@ -2055,7 +2055,7 @@
             "positionZ": 0
           },
           "previewSource": {
-            "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/87d858f59fef63b9402e81d6e0991cf4d70f5261371e223955a71485b3b22289.glb",
+            "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/test/model-assets/87d858f59fef63b9402e81d6e0991cf4d70f5261371e223955a71485b3b22289.glb",
             "textureUrl": null
           },
           "previewTransforms": {
@@ -2079,7 +2079,7 @@
       "calibration": "pdf-grid-v1",
       "parts": [
         {
-          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/c5aa952f86f8c1d980daa89e947fd07aba7c9b8d791b5cdf30b74e28d0372942.glb",
+          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/test/model-assets/c5aa952f86f8c1d980daa89e947fd07aba7c9b8d791b5cdf30b74e28d0372942.glb",
           "textureUrl": null,
           "transforms": {
             "scale": 0.39370078740157477,
@@ -2091,7 +2091,7 @@
             "positionZ": 0
           },
           "previewSource": {
-            "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/c5aa952f86f8c1d980daa89e947fd07aba7c9b8d791b5cdf30b74e28d0372942.glb",
+            "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/test/model-assets/c5aa952f86f8c1d980daa89e947fd07aba7c9b8d791b5cdf30b74e28d0372942.glb",
             "textureUrl": null
           },
           "previewTransforms": {
@@ -2121,7 +2121,7 @@
       "controlOuterDiameterMm": 184.4,
       "parts": [
         {
-          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/04691baeff6d4e315e775223a61e649e2925bb5e65576b71ae54ab16a9cb766d.glb",
+          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/test/model-assets/04691baeff6d4e315e775223a61e649e2925bb5e65576b71ae54ab16a9cb766d.glb",
           "textureUrl": null,
           "hostedAsset": true,
           "transforms": {
@@ -2159,7 +2159,7 @@
       "controlOuterDiameterMm": 184.4,
       "parts": [
         {
-          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/e70556bd07896ba09dfeddfbb2847f4eb5faf4d3c78d26cabaf4ab539f5202ae.glb",
+          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/test/model-assets/e70556bd07896ba09dfeddfbb2847f4eb5faf4d3c78d26cabaf4ab539f5202ae.glb",
           "textureUrl": null,
           "hostedAsset": true,
           "transforms": {
@@ -2196,7 +2196,7 @@
       "controlOuterDiameterMm": 184.4,
       "parts": [
         {
-          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/04691baeff6d4e315e775223a61e649e2925bb5e65576b71ae54ab16a9cb766d.glb",
+          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/test/model-assets/04691baeff6d4e315e775223a61e649e2925bb5e65576b71ae54ab16a9cb766d.glb",
           "textureUrl": null,
           "hostedAsset": true,
           "transforms": {
@@ -2233,7 +2233,7 @@
       "controlOuterDiameterMm": 184.4,
       "parts": [
         {
-          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/e70556bd07896ba09dfeddfbb2847f4eb5faf4d3c78d26cabaf4ab539f5202ae.glb",
+          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/test/model-assets/e70556bd07896ba09dfeddfbb2847f4eb5faf4d3c78d26cabaf4ab539f5202ae.glb",
           "textureUrl": null,
           "hostedAsset": true,
           "transforms": {
@@ -2271,7 +2271,7 @@
       "controlOuterDiameterMm": 184.4,
       "parts": [
         {
-          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/2eda9131ed5caebaca5d9d79ce715cc93bab2b8456be7d9a173d1e202d56909c.glb",
+          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/test/model-assets/2eda9131ed5caebaca5d9d79ce715cc93bab2b8456be7d9a173d1e202d56909c.glb",
           "textureUrl": null,
           "hostedAsset": true,
           "transforms": {
@@ -2304,7 +2304,7 @@
       "tokenDiameterMm": 25,
       "parts": [
         {
-          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/49489d038b40ee3198abba6e2080be7820a59ee74fd6f48f8d52df19a0a6427b.glb",
+          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/test/model-assets/49489d038b40ee3198abba6e2080be7820a59ee74fd6f48f8d52df19a0a6427b.glb",
           "textureUrl": null,
           "hostedAsset": true,
           "transforms": {
@@ -2337,7 +2337,7 @@
       "tokenDiameterMm": 25,
       "parts": [
         {
-          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/26cb469c6a78a95955b930858553506df7846e7435ae1328544e615b1ba54c22.glb",
+          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/test/model-assets/26cb469c6a78a95955b930858553506df7846e7435ae1328544e615b1ba54c22.glb",
           "textureUrl": null,
           "hostedAsset": true,
           "transforms": {
@@ -2370,7 +2370,7 @@
       "tokenDiameterMm": 25,
       "parts": [
         {
-          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/9cc0ef8845596adb72dd32ea038ddccb62fd8c6e9d996be904fb66270dcdf742.glb",
+          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/test/model-assets/9cc0ef8845596adb72dd32ea038ddccb62fd8c6e9d996be904fb66270dcdf742.glb",
           "textureUrl": null,
           "hostedAsset": true,
           "transforms": {
@@ -2403,7 +2403,7 @@
       "tokenDiameterMm": 25,
       "parts": [
         {
-          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/af74154683671585b97d6b43e6fd23ef6a93d9839bff274b194e145fd759fb12.glb",
+          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/test/model-assets/af74154683671585b97d6b43e6fd23ef6a93d9839bff274b194e145fd759fb12.glb",
           "textureUrl": null,
           "hostedAsset": true,
           "transforms": {
@@ -2436,7 +2436,7 @@
       "tokenDiameterMm": 25,
       "parts": [
         {
-          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/3cec2d3ad5fc7afc5a55c64e71feb8d6b2455ffc54919e8e5eba8c1fc3f78b1c.glb",
+          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/test/model-assets/3cec2d3ad5fc7afc5a55c64e71feb8d6b2455ffc54919e8e5eba8c1fc3f78b1c.glb",
           "textureUrl": null,
           "hostedAsset": true,
           "transforms": {
@@ -2469,7 +2469,7 @@
       "tokenDiameterMm": 25,
       "parts": [
         {
-          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/4f2a76368f33aa8028f8a67020ace8f979b0cd4175b1009728a3b4fafdc24617.glb",
+          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/test/model-assets/4f2a76368f33aa8028f8a67020ace8f979b0cd4175b1009728a3b4fafdc24617.glb",
           "textureUrl": null,
           "hostedAsset": true,
           "transforms": {
@@ -2502,7 +2502,7 @@
       "tokenDiameterMm": 25,
       "parts": [
         {
-          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/1c37df2f5d4782735657f0c7158c235d130090a026a10bc29050f8e71668fa13.glb",
+          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/test/model-assets/1c37df2f5d4782735657f0c7158c235d130090a026a10bc29050f8e71668fa13.glb",
           "textureUrl": null,
           "hostedAsset": true,
           "transforms": {
@@ -2535,7 +2535,7 @@
       "tokenDiameterMm": 25,
       "parts": [
         {
-          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/74b5a69b8903d003c64fcf6b2ca6f7b92e83bc0c150258df62f1cecc0deda62c.glb",
+          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/test/model-assets/74b5a69b8903d003c64fcf6b2ca6f7b92e83bc0c150258df62f1cecc0deda62c.glb",
           "textureUrl": null,
           "hostedAsset": true,
           "transforms": {
@@ -2568,7 +2568,7 @@
       "tokenDiameterMm": 25,
       "parts": [
         {
-          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/8feed9e912b3c77763747772a613a93ffc690399c4b2a432d00aefcb8d536f43.glb",
+          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/test/model-assets/8feed9e912b3c77763747772a613a93ffc690399c4b2a432d00aefcb8d536f43.glb",
           "textureUrl": null,
           "hostedAsset": true,
           "transforms": {
@@ -2601,7 +2601,7 @@
       "tokenDiameterMm": 25,
       "parts": [
         {
-          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/27fca963944331386a69b1e7f44782aacef591e2c44305ee2cea0cffafacc298.glb",
+          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/test/model-assets/27fca963944331386a69b1e7f44782aacef591e2c44305ee2cea0cffafacc298.glb",
           "textureUrl": null,
           "hostedAsset": true,
           "transforms": {
@@ -2634,7 +2634,7 @@
       "tokenDiameterMm": 25,
       "parts": [
         {
-          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/a1b68c120c47a8e4890c8eac3e51d5b9476eeb9f14ef45b54ee95afa167d5492.glb",
+          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/test/model-assets/a1b68c120c47a8e4890c8eac3e51d5b9476eeb9f14ef45b54ee95afa167d5492.glb",
           "textureUrl": null,
           "hostedAsset": true,
           "transforms": {
@@ -2667,7 +2667,7 @@
       "tokenDiameterMm": 25,
       "parts": [
         {
-          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/7b9057a71d3026dfc58b5ce2a4a0d48592777853a363eacdc0a625acdb4ce85c.glb",
+          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/test/model-assets/7b9057a71d3026dfc58b5ce2a4a0d48592777853a363eacdc0a625acdb4ce85c.glb",
           "textureUrl": null,
           "hostedAsset": true,
           "transforms": {
@@ -2700,7 +2700,7 @@
       "tokenDiameterMm": 25,
       "parts": [
         {
-          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/6aca9bf606e22910949e70127a10a702415244d82928414677f9382eb805282b.glb",
+          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/test/model-assets/6aca9bf606e22910949e70127a10a702415244d82928414677f9382eb805282b.glb",
           "textureUrl": null,
           "hostedAsset": true,
           "transforms": {
@@ -2733,7 +2733,7 @@
       "tokenDiameterMm": 25,
       "parts": [
         {
-          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/75fbe32067e4ded1a18cf954c88114c3b70b492202ccdb1f30043b7962dc77ab.glb",
+          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/test/model-assets/75fbe32067e4ded1a18cf954c88114c3b70b492202ccdb1f30043b7962dc77ab.glb",
           "textureUrl": null,
           "hostedAsset": true,
           "transforms": {
@@ -2766,7 +2766,7 @@
       "tokenDiameterMm": 25,
       "parts": [
         {
-          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/922167eb6e924f4c7fd2468d804b505a06ea4ea669737186032f817190b7cb96.glb",
+          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/test/model-assets/922167eb6e924f4c7fd2468d804b505a06ea4ea669737186032f817190b7cb96.glb",
           "textureUrl": null,
           "hostedAsset": true,
           "transforms": {
@@ -2799,7 +2799,7 @@
       "tokenDiameterMm": 25,
       "parts": [
         {
-          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/1cea4230b8e46e260345082720fc77d2fbec2e8e8df5ccc4837fadc89d1d0de3.glb",
+          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/test/model-assets/1cea4230b8e46e260345082720fc77d2fbec2e8e8df5ccc4837fadc89d1d0de3.glb",
           "textureUrl": null,
           "hostedAsset": true,
           "transforms": {
@@ -2831,7 +2831,7 @@
       "calibration": "deployment-centimeters-v1",
       "parts": [
         {
-          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/5dba47624e5ffa1d0650957f59bd410382ee0fefaf2c986f2797ea6643286913.glb",
+          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/test/model-assets/5dba47624e5ffa1d0650957f59bd410382ee0fefaf2c986f2797ea6643286913.glb",
           "textureUrl": null,
           "hostedAsset": true,
           "transforms": {
@@ -2863,7 +2863,7 @@
       "calibration": "deployment-centimeters-v1",
       "parts": [
         {
-          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/aac24f59a49242383ec87c6b1363ddf7980f1bc092efd9d76b106f46eb169a32.glb",
+          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/test/model-assets/aac24f59a49242383ec87c6b1363ddf7980f1bc092efd9d76b106f46eb169a32.glb",
           "textureUrl": null,
           "hostedAsset": true,
           "transforms": {
@@ -2895,7 +2895,7 @@
       "calibration": "deployment-centimeters-v1",
       "parts": [
         {
-          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/6f7034e7fad1b766415d1fb00b0ca09f8061958f7cd41cdbd41e60ca8a52cdf4.glb",
+          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/test/model-assets/6f7034e7fad1b766415d1fb00b0ca09f8061958f7cd41cdbd41e60ca8a52cdf4.glb",
           "textureUrl": null,
           "hostedAsset": true,
           "transforms": {
@@ -2927,7 +2927,7 @@
       "calibration": "deployment-centimeters-v1",
       "parts": [
         {
-          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/befb16e8846a62aea07582e2045d1a495c808deb92e690d2e52d0cfc8c740394.glb",
+          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/test/model-assets/befb16e8846a62aea07582e2045d1a495c808deb92e690d2e52d0cfc8c740394.glb",
           "textureUrl": null,
           "hostedAsset": true,
           "transforms": {
@@ -2959,7 +2959,7 @@
       "calibration": "deployment-centimeters-v1",
       "parts": [
         {
-          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/7256fb095c543041246fad276c7dbba2a361fc3c50fbed5096f66cb992b94e6a.glb",
+          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/test/model-assets/7256fb095c543041246fad276c7dbba2a361fc3c50fbed5096f66cb992b94e6a.glb",
           "textureUrl": null,
           "hostedAsset": true,
           "transforms": {
@@ -2991,7 +2991,7 @@
       "calibration": "deployment-centimeters-v1",
       "parts": [
         {
-          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/3a3ccfd3eac7bf9061cd18b9a4107c8fa82e58457165a32fe72ff7da01109791.glb",
+          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/test/model-assets/3a3ccfd3eac7bf9061cd18b9a4107c8fa82e58457165a32fe72ff7da01109791.glb",
           "textureUrl": null,
           "hostedAsset": true,
           "transforms": {
@@ -3023,7 +3023,7 @@
       "calibration": "deployment-centimeters-v1",
       "parts": [
         {
-          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/751cdc2291f1f44ee159b51f332d1ea07cd87969c1176cfc87121b36db5d1f4e.glb",
+          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/test/model-assets/751cdc2291f1f44ee159b51f332d1ea07cd87969c1176cfc87121b36db5d1f4e.glb",
           "textureUrl": null,
           "hostedAsset": true,
           "transforms": {
@@ -3055,7 +3055,7 @@
       "calibration": "deployment-centimeters-v1",
       "parts": [
         {
-          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/d78dfcfec9610d7dffbd09698e304da4f0270567aeaf8696a82bcb0772689ba5.glb",
+          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/test/model-assets/d78dfcfec9610d7dffbd09698e304da4f0270567aeaf8696a82bcb0772689ba5.glb",
           "textureUrl": null,
           "hostedAsset": true,
           "transforms": {
