@@ -79,3 +79,19 @@ test('all faction names match icon lookup and icons ship in the manifest', async
     );
   }
 });
+
+test('built-in purple reference uses native identity without uploading a duplicate skin', async () => {
+  const { nativeTokens } = await import('../src/tokens/package.mjs');
+  const reference = { Id: 'TokenWarhallPurple', Name: 'TokenWarhallPurple', Type: 'Token' };
+  assert.deepEqual(
+    nativeTokens().find(token => token.Id === reference.Id),
+    reference,
+  );
+  assert.deepEqual(
+    (await read('Starcraft/tokens.json')).find(token => token.Id === reference.Id),
+    reference,
+  );
+  assert.ok(
+    !(await read('model-catalogue.json')).entries.some(entry => entry.profileId === reference.Id),
+  );
+});

@@ -49,12 +49,15 @@ export const tokenDefinitions = [
 ];
 
 export function nativeTokens() {
-  return tokenDefinitions.map(token => ({
-    Id: tokenMenuId(token.name),
-    Name: token.name,
-    Type: 'Token',
-    Description: `${token.name}\n\n${token.description}`,
-  }));
+  return [
+    ...tokenDefinitions.map(token => ({
+      Id: tokenMenuId(token.name),
+      Name: token.name,
+      Type: 'Token',
+      Description: `${token.name}\n\n${token.description}`,
+    })),
+    { Id: 'TokenWarhallPurple', Name: 'TokenWarhallPurple', Type: 'Token' },
+  ];
 }
 
 export function factionIcons(artwork) {

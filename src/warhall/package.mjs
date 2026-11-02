@@ -122,7 +122,10 @@ async function initialData(template) {
   data['cards.json'] = data['cards.json'].filter(card => !card.Id.startsWith('sc_token_'));
   data['tokens.json'] = [
     ...data['tokens.json'].filter(
-      token => !token.Id.startsWith('sc_token_') && !token.Id.startsWith('Starcraft - Token - '),
+      token =>
+        token.Id !== 'TokenWarhallPurple' &&
+        !token.Id.startsWith('sc_token_') &&
+        !token.Id.startsWith('Starcraft - Token - '),
     ),
     ...nativeTokens(),
   ];
