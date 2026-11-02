@@ -6,11 +6,11 @@ Highest-priority Warhall feature. This is a standalone planning example, **not a
 
 ## Intended behavior
 
-1. Select a model and press **L** to mark it as the unit's leader. The marked leader remains the whole-unit placement anchor and owns the only coherency circle. Keep that identity until deliberately changed. If offering automatic selection, `ClosestModel` picks the old model closest to the requested destination; do not silently override an explicitly marked leader.
-2. For a normal **left-click and drag** on a unit member, snapshot the **whole unit**. Use the drag displacement to move the marked leader, then plan follower placement around its destination. Show dotted ghosts of the old bases, mark the old leader L and draw its old-to-new movement arrow. Both players see the same ghosts and coherency ring.
+1. Choose one of the two alternative input schemes below. In **explicit L mode**, select a model and press **L** to mark it as the leader; dragging only that model invokes whole-unit placement. Other models move individually and never create another circle or change the leader. In **modifier mode**, normal left-drag invokes whole-unit placement; **Shift-drag or Ctrl-drag** moves only the dragged model/explicit subset. Modifier mode does not require pressing L first; select one modifier binding during integration. These are alternatives, not combined requirements.
+2. Before whole-unit movement, snapshot the **whole unit**. The chosen input scheme supplies the anchor model and its destination to the planner. Show dotted ghosts of the old bases, mark the old anchor L and draw its old-to-new movement arrow. Both players see the same ghosts and coherency ring. If offering automatic anchor selection, `ClosestModel` finds the old model closest to the destination; never silently replace an explicitly marked leader.
 3. The drag direction defines forward. Place follower **1** at the forward-most point on the allowed circular boundary. Continue around the front semicircle alternating **left, right, left, right**, with touching, non-overlapping bases. Preserve the exact circular outer arc ahead of compact packing.
 4. After that outer rank is full, fill inward gaps, searching from larger radii toward smaller radii and from forward toward the sides. Use the rear half only if the front cannot accommodate the unit. Number followers in placement order; the leader is **L**, not number 1.
-5. **Shift+drag** fine-adjusts only the dragged model or explicitly selected subset. It must not create another circle, mark a new leader or rearrange the other models. Turn the shared ring red if the actual unit is out of coherency. Recompute this from real positions, not the proposed plan.
+5. Individual adjustment follows the chosen scheme: ordinary non-leader dragging in explicit L mode, or modifier-dragging in modifier mode. It moves only the dragged model or explicitly selected subset. It must not create another circle, mark a new leader or rearrange the other models. Turn the shared ring red if the actual unit is out of coherency. Recompute this from real positions, not the proposed plan.
 6. **Ctrl+Z undoes the whole unit move**, restoring all models from the pre-drag snapshot. Treat the leader move and automatic follower moves as one undo/network transaction. Later manual adjustments should remain separate undo actions.
 
 ## Inputs and a minimal call
@@ -64,8 +64,8 @@ This is a **greedy placement heuristic**, not proof of globally optimal packing 
 
 ## Unity wiring
 
-- On keyboard **L**, mark the selected model as the unit leader; replace the previous leader explicitly. Normal left-drag calls the whole-unit planner. For any dragged member, use `leaderDestination = leaderStart + dragDelta`. Shift-drag bypasses the planner and moves only the dragged model/explicit subset. Never infer a new leader from the model being dragged.
-
+- **Explicit L mode:** pressing L marks the selected model, replacing the previous leader. Call the planner only when `draggedModelId == unit.LeaderModelId`; all other drags remain individual moves.
+- **Alternative modifier mode:** normal left-drag invokes whole-unit placement; Shift-drag or Ctrl-drag bypasses the planner for individual adjustment. No prior L keypress is required. Supply the selected/automatic anchor index and destination explicitly. Do not apply this rule together with explicit L-mode drag gating.
 - Convert Unity X/Z coordinates to millimetres before calling; convert back afterward. Do not assume one Unity unit equals one metre—use Warhall's existing board conversion.
 - Preserve each model's identity, rotation and height in the actual undo snapshot. Project planned positions onto legal ground/elevated-ground surfaces separately; the algorithm is 2D.
 - During a drag, preview locally. At commit, the authoritative client/server validates and sends one final plan plus the ghost snapshot to both players. Do not independently recompute approximate packing on each peer.
