@@ -6,6 +6,8 @@ Requires **Node.js 22.13 or newer** (Node 24 recommended), with npm. The PDF pat
 
 Repository text and generated JSON use UTF-8 with LF line endings on Windows, macOS and Linux. `.gitattributes` preserves LF during Git checkout, and `.editorconfig` and Prettier use the same convention.
 
+Normal play loads the published HTTPS game data and Warhall shared skins. Local cache installers below are legacy development helpers, not setup steps. See [cloud client setup and retiring local overrides](docs/cloud-client.md).
+
 ## Generate from official PDFs (default)
 
 From this repository:
