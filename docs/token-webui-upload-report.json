@@ -1,0 +1,125 @@
+{
+  "baseline": "codex/before-token-webui-test-20261102",
+  "editorCommit": "9e0c98b",
+  "beforeCount": 23,
+  "afterCount": 23,
+  "removedIds": [],
+  "addedIds": [],
+  "changedRecords": [
+    {
+      "id": "Starcraft - Token - Activation - blue - assault",
+      "removedFields": [
+        "Description"
+      ],
+      "changedFields": []
+    },
+    {
+      "id": "Starcraft - Token - Activation - blue - movement",
+      "removedFields": [
+        "Description"
+      ],
+      "changedFields": []
+    },
+    {
+      "id": "Starcraft - Token - Activation - red - assault",
+      "removedFields": [
+        "Description"
+      ],
+      "changedFields": []
+    },
+    {
+      "id": "Starcraft - Token - Activation - red - movement",
+      "removedFields": [
+        "Description"
+      ],
+      "changedFields": []
+    },
+    {
+      "id": "Starcraft - Token - Buff",
+      "removedFields": [
+        "Description"
+      ],
+      "changedFields": []
+    },
+    {
+      "id": "Starcraft - Token - Burrowed",
+      "removedFields": [
+        "Description"
+      ],
+      "changedFields": []
+    },
+    {
+      "id": "Starcraft - Token - Debuff",
+      "removedFields": [
+        "Description"
+      ],
+      "changedFields": []
+    },
+    {
+      "id": "Starcraft - Token - Hidden",
+      "removedFields": [
+        "Description"
+      ],
+      "changedFields": []
+    },
+    {
+      "id": "Starcraft - Token - Protoss - white",
+      "removedFields": [
+        "Description"
+      ],
+      "changedFields": []
+    },
+    {
+      "id": "Starcraft - Token - Protoss - yellow",
+      "removedFields": [
+        "Description"
+      ],
+      "changedFields": []
+    },
+    {
+      "id": "Starcraft - Token - Siege Status",
+      "removedFields": [
+        "Description"
+      ],
+      "changedFields": []
+    },
+    {
+      "id": "Starcraft - Token - Stim",
+      "removedFields": [
+        "Description"
+      ],
+      "changedFields": []
+    },
+    {
+      "id": "Starcraft - Token - Terran - blue",
+      "removedFields": [
+        "Description"
+      ],
+      "changedFields": []
+    },
+    {
+      "id": "Starcraft - Token - Terran - white",
+      "removedFields": [
+        "Description"
+      ],
+      "changedFields": []
+    },
+    {
+      "id": "Starcraft - Token - Zerg - purple",
+      "removedFields": [
+        "Description"
+      ],
+      "changedFields": []
+    },
+    {
+      "id": "Starcraft - Token - Zerg - white",
+      "removedFields": [
+        "Description"
+      ],
+      "changedFields": []
+    }
+  ],
+  "terrainAndMapsUnchanged": true,
+  "manifestVersion": 43,
+  "nativePreviewResult": "Pending user test"
+}
