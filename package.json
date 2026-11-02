@@ -29,7 +29,8 @@
     "channel:prepare": "node scripts/prepare-channel.mjs",
     "release:context": "node scripts/release-notes-context.mjs",
     "release:stage": "node scripts/wave-release.mjs stage",
-    "release:promote": "node scripts/wave-release.mjs promote"
+    "release:promote": "node scripts/wave-release.mjs promote",
+    "lists:parse": "node scripts/parse-nr-list.mjs"
   },
   "engines": {
     "node": ">=22.13.0"

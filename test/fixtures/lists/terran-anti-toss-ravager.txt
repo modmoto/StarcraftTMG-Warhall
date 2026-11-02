@@ -1,0 +1,31 @@
+Terran - Anti Toss and Ravager (2000 Minerals, 200 Gas)
+11 Supply, 7 CP
+
+Deployment Maps: Breach, Typhoon
+Mission Card: Divide and Conquer, Gather the Resources
+
+# Faction:
+Terran Armed Forces
+
+# Tactical:
+Barracks
+Barracks
+Dropship
+Factory (Tech Lab)
+Orbital Command
+Supply Depot
+
+# Units:
+4x Marauders (410, 2S): Kinetic Foam, Veteran of Tarsonis, Laser Targeting Systems
+4x Marauders (410, 2S): Kinetic Foam, Veteran of Tarsonis, Laser Targeting Systems
+6x Marines (170, 1S)
+6x Marines (170, 1S)
+
+Siege Tank (280, 2S): Shaped Blast, Smart Shells, Coordinated Strike, Mode Transformation
+
+3x Medics (140, 1S): Stabilizer Medpacks
+3x Medics (140, 1S): Stabilizer Medpacks
+
+Jim Raynor (280, 1S)
+
+Created with newrecruit.eu v37.13

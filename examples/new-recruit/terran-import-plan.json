@@ -1,0 +1,212 @@
+{
+  "schemaVersion": 1,
+  "title": "Terran - Anti Toss and Ravager (2000 Minerals, 200 Gas)",
+  "faction": "Terran",
+  "totals": {
+    "minerals": 2000,
+    "gas": 200,
+    "supply": 11,
+    "cp": 7,
+    "units": 8,
+    "models": 28
+  },
+  "units": [
+    {
+      "id": "pdf_Terran_unit_marauders",
+      "name": "Marauders",
+      "modelCount": 4,
+      "minerals": 410,
+      "supply": 2,
+      "upgrades": [
+        {
+          "name": "Kinetic Foam",
+          "ruleIds": [
+            "pdf_Terran_rule_marauders_upgrade_any_phase_kinetic_foam"
+          ]
+        },
+        {
+          "name": "Veteran of Tarsonis",
+          "ruleIds": [
+            "pdf_Terran_rule_marauders_upgrade_any_phase_veteran_of_tarsonis"
+          ]
+        },
+        {
+          "name": "Laser Targeting Systems",
+          "ruleIds": [
+            "pdf_Terran_rule_marauders_upgrade_assault_phase_laser_targeting_systems"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pdf_Terran_unit_marauders",
+      "name": "Marauders",
+      "modelCount": 4,
+      "minerals": 410,
+      "supply": 2,
+      "upgrades": [
+        {
+          "name": "Kinetic Foam",
+          "ruleIds": [
+            "pdf_Terran_rule_marauders_upgrade_any_phase_kinetic_foam"
+          ]
+        },
+        {
+          "name": "Veteran of Tarsonis",
+          "ruleIds": [
+            "pdf_Terran_rule_marauders_upgrade_any_phase_veteran_of_tarsonis"
+          ]
+        },
+        {
+          "name": "Laser Targeting Systems",
+          "ruleIds": [
+            "pdf_Terran_rule_marauders_upgrade_assault_phase_laser_targeting_systems"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit_marine",
+      "name": "Marines",
+      "modelCount": 6,
+      "minerals": 170,
+      "supply": 1,
+      "upgrades": []
+    },
+    {
+      "id": "unit_marine",
+      "name": "Marines",
+      "modelCount": 6,
+      "minerals": 170,
+      "supply": 1,
+      "upgrades": []
+    },
+    {
+      "id": "pdf_Terran_unit_siege_tank",
+      "name": "Siege Tank",
+      "modelCount": 1,
+      "minerals": 280,
+      "supply": 2,
+      "upgrades": [
+        {
+          "name": "Shaped Blast",
+          "ruleIds": [
+            "pdf_Terran_rule_siege_tank_upgrade_assault_phase_shaped_blast"
+          ]
+        },
+        {
+          "name": "Smart Shells",
+          "ruleIds": [
+            "pdf_Terran_rule_siege_tank_upgrade_assault_phase_smart_shells"
+          ]
+        },
+        {
+          "name": "Coordinated Strike",
+          "ruleIds": [
+            "pdf_Terran_rule_siege_tank_upgrade_movement_phase_coordinated_strike"
+          ]
+        },
+        {
+          "name": "Mode Transformation",
+          "ruleIds": [
+            "pdf_Terran_rule_siege_tank_upgrade_movement_phase_mode_transformation"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pdf_Terran_unit_medics",
+      "name": "Medics",
+      "modelCount": 3,
+      "minerals": 140,
+      "supply": 1,
+      "upgrades": [
+        {
+          "name": "Stabilizer Medpacks",
+          "ruleIds": [
+            "pdf_Terran_rule_medics_upgrade_any_phase_stabilizer_medpacks"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pdf_Terran_unit_medics",
+      "name": "Medics",
+      "modelCount": 3,
+      "minerals": 140,
+      "supply": 1,
+      "upgrades": [
+        {
+          "name": "Stabilizer Medpacks",
+          "ruleIds": [
+            "pdf_Terran_rule_medics_upgrade_any_phase_stabilizer_medpacks"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pdf_Terran_unit_jim_raynor",
+      "name": "Jim Raynor",
+      "modelCount": 1,
+      "minerals": 280,
+      "supply": 1,
+      "upgrades": []
+    }
+  ],
+  "factionCards": [
+    {
+      "id": "sc_card_terran_tactics_terran_armed_forces",
+      "name": "Terran Armed Forces"
+    }
+  ],
+  "tacticalCards": [
+    {
+      "id": "sc_card_terran_tactics_barracks",
+      "name": "Barracks"
+    },
+    {
+      "id": "sc_card_terran_tactics_barracks",
+      "name": "Barracks"
+    },
+    {
+      "id": "sc_card_terran_tactics_dropship",
+      "name": "Dropship"
+    },
+    {
+      "id": "sc_card_terran_tactics_factory_tech_lab",
+      "name": "Factory (Tech Lab)"
+    },
+    {
+      "id": "sc_card_terran_tactics_orbital_command",
+      "name": "Orbital Command"
+    },
+    {
+      "id": "sc_card_terran_tactics_supply_depot",
+      "name": "Supply Depot"
+    }
+  ],
+  "deploymentChoices": [
+    {
+      "name": "BREACH",
+      "deploymentIndex": 2,
+      "templateId": 12,
+      "cardId": "sc_card_deployments_breach"
+    },
+    {
+      "name": "TYPHOON",
+      "deploymentIndex": 7,
+      "templateId": 12,
+      "cardId": "sc_card_deployments_typhoon"
+    }
+  ],
+  "missionChoices": [
+    {
+      "id": "sc_card_missions_divide_and_conquer",
+      "name": "Divide And Conquer"
+    },
+    {
+      "id": "sc_card_missions_gather_the_resources",
+      "name": "Gather The Resources"
+    }
+  ]
+}
