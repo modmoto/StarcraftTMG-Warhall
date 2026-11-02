@@ -47,7 +47,7 @@ test('five mission marker assignments use open control ring geometry, not separa
     assert.ok(marker.parts[0].hostedAsset);
   }
   const config = JSON.parse(
-    await readFile(new URL('../Starcraft/gameconfig.json', import.meta.url)),
+    await readFile(new URL('../Starcraft-test/gameconfig.json', import.meta.url)),
   );
   assert.ok(
     config.DeploymentTerrains.every(layout =>
@@ -100,7 +100,7 @@ test('control rings stay open outside their decorated 32mm center', () => {
 test('each deployment references the correct numbered marker while keeping the 32mm footprint', async () => {
   const report = JSON.parse(await readFile(new URL('../deployment-report.json', import.meta.url)));
   const config = JSON.parse(
-    await readFile(new URL('../Starcraft/gameconfig.json', import.meta.url)),
+    await readFile(new URL('../Starcraft-test/gameconfig.json', import.meta.url)),
   );
   for (const [index, layout] of report.layouts.entries()) {
     const items = config.DeploymentTerrains.find(row => row.DeploymentIndex === index + 1).Items;

@@ -15,7 +15,7 @@ for (const selection of [...units.models, ...terrain.models].filter(m => m.statu
   let profileId = selection.terrainId ?? selection.tokenId;
   let flying = false;
   if (!profileId) {
-    const faction = await read(`Starcraft/${selection.faction}/units.json`);
+    const faction = await read(`Starcraft-test/${selection.faction}/units.json`);
     const unit = faction.find(unit => unit.Id === selection.unitId);
     if (unit?.BasicProfileIds.length !== 1) throw new Error(`Unknown unit: ${selection.unitName}`);
     [profileId] = unit.BasicProfileIds;

@@ -1,4 +1,4 @@
-import { rawRepositoryUrl } from '../src/channel.mjs';
+import { dataAssetBaseUrl } from '../src/urls.mjs';
 import assert from 'node:assert/strict';
 import { createHash } from 'node:crypto';
 import { mkdir, readFile, writeFile } from 'node:fs/promises';
@@ -13,8 +13,8 @@ assert.ok(
   'Unknown token artwork flag',
 );
 const check = flags.includes('--check');
-const directory = path.join(projectRoot, 'Starcraft/assets/tokens');
-const base = `${rawRepositoryUrl}/Starcraft/assets/tokens`;
+const directory = path.join(projectRoot, 'Starcraft-test/assets/tokens');
+const base = `${dataAssetBaseUrl}/assets/tokens`;
 const files = new Map();
 const artwork = {},
   icons = {};

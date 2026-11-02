@@ -26,11 +26,8 @@
     "models:menus": "node scripts/sync-menu-bindings.mjs",
     "tokens:update": "node scripts/update-tokens.mjs",
     "tokens:check": "node scripts/update-tokens.mjs --check",
-    "channel:prepare": "node scripts/prepare-channel.mjs",
-    "release:context": "node scripts/release-notes-context.mjs",
-    "release:stage": "node scripts/wave-release.mjs stage",
-    "release:promote": "node scripts/wave-release.mjs promote",
-    "lists:parse": "node scripts/parse-nr-list.mjs"
+    "lists:parse": "node scripts/parse-nr-list.mjs",
+    "data:publish": "node scripts/publish-data.mjs"
   },
   "engines": {
     "node": ">=22.13.0"

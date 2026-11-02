@@ -1,0 +1,58 @@
+[
+  {
+    "deploymentID": 12,
+    "deploymentName": "ACROPOLIS",
+    "X": 0,
+    "Y": 0,
+    "showCenterline": false
+  },
+  {
+    "deploymentID": 12,
+    "deploymentName": "BREACH",
+    "X": 0,
+    "Y": 0,
+    "showCenterline": false
+  },
+  {
+    "deploymentID": 12,
+    "deploymentName": "GAUNTLET",
+    "X": 0,
+    "Y": 0,
+    "showCenterline": false
+  },
+  {
+    "deploymentID": 12,
+    "deploymentName": "MEETING ENGAGEMENT",
+    "X": 0,
+    "Y": 0,
+    "showCenterline": false
+  },
+  {
+    "deploymentID": 12,
+    "deploymentName": "ONE BRIDGE TOO CLOSE",
+    "X": 0,
+    "Y": 0,
+    "showCenterline": false
+  },
+  {
+    "deploymentID": 12,
+    "deploymentName": "PROVING GROUNDS",
+    "X": 0,
+    "Y": 0,
+    "showCenterline": false
+  },
+  {
+    "deploymentID": 12,
+    "deploymentName": "TYPHOON",
+    "X": 0,
+    "Y": 0,
+    "showCenterline": false
+  },
+  {
+    "deploymentID": 12,
+    "deploymentName": "3-INCH GRID (54x36)",
+    "X": 0,
+    "Y": 0,
+    "showCenterline": false
+  }
+]

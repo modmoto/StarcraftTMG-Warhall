@@ -8,9 +8,9 @@ import { rotate } from '../src/terrain/geometry.mjs';
 const output = path.resolve(process.argv[2] ?? path.join(projectRoot, '.cache', 'terrain-review'));
 await mkdir(output, { recursive: true });
 const read = async file => JSON.parse(await readFile(path.join(projectRoot, file), 'utf8'));
-const maps = await read('Starcraft/maps.json'),
+const maps = await read('Starcraft-test/maps.json'),
   catalogue = await read('model-catalogue.json');
-const terrains = await read('Starcraft/terrains.json');
+const terrains = await read('Starcraft-test/terrains.json');
 const meshes = new Map();
 for (const entry of catalogue.entries.filter(e => e.kind === 'terrain')) {
   meshes.set(entry.profileId, (await sourceGeometry(entry.parts[0])).geometry);

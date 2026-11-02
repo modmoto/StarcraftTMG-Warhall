@@ -1,4 +1,4 @@
-import { modelAssetBaseUrl } from '../src/channel.mjs';
+import { modelAssetBaseUrl } from '../src/urls.mjs';
 import assert from 'node:assert/strict';
 import { builtinTerrains } from '../src/terrain/native.mjs';
 import { terrainMenuId } from '../src/models/menu-ids.mjs';
@@ -6,7 +6,7 @@ import { readFile, writeFile, mkdir } from 'node:fs/promises';
 import path from 'node:path';
 import sharp from 'sharp';
 import { sha256, readJson } from '../src/io.mjs';
-import { projectRoot } from '../src/paths.mjs';
+import { projectRoot, defaultDataDirectory } from '../src/paths.mjs';
 import { assembleTerrain } from '../src/terrain/geometry.mjs';
 import { encodeGlb } from '../src/models/portable-glb.mjs';
 
@@ -148,7 +148,7 @@ const maps = source.maps.map(map => ({
     };
   }),
 }));
-const target = path.join(projectRoot, 'Starcraft');
+const target = defaultDataDirectory;
 const existing = await readJson(path.join(target, 'terrains.json'));
 const json = (file, data) => files.set(file, Buffer.from(JSON.stringify(data, null, 2) + '\n'));
 json(

@@ -255,4 +255,4 @@ Mission markers now use five shared skins: red 1/3, blue 2/4 and green 5. The ra
 
 Single-sided activation, faction and status tokens are available in the **Tokens** menu. See [the token setup and regeneration notes](docs/tokens.md). Faction dropdown logos are supplied through `icons.json`.
 
-Wave updates are staged on `test` and promoted to `main` only after playtesting. Say “do wave 4” to prepare a beta, then “release wave 4” to publish the tested build. See [the release workflow](docs/releases.md).
+Development stays on `main` in `Starcraft-test/`. The live `Starcraft/` folder changes only when publishing a tested copy. There are no GitHub Actions or GitHub releases. See [the publication workflow](docs/releases.md).

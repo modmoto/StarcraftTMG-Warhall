@@ -1,4 +1,4 @@
-import { modelAssetBaseUrl } from '../channel.mjs';
+import { modelAssetBaseUrl } from '../urls.mjs';
 import { mkdir, readFile, writeFile } from 'node:fs/promises';
 import { createHash } from 'node:crypto';
 import path from 'node:path';
@@ -42,7 +42,7 @@ export async function createTokenAssets() {
   for (const token of tokenDefinitions) {
     const image = path.join(
       projectRoot,
-      'Starcraft/assets/tokens',
+      'Starcraft-test/assets/tokens',
       index.artwork[token.id].split('/').at(-1),
     );
     const { data, info } = await sharp(image)

@@ -34,7 +34,7 @@ test('menu binding plan reuses canonical skins, resumes aliases, and rejects con
 
 test('menu migration preserves all map and scenario helper references without duplicate records', async () => {
   const json = async name =>
-    JSON.parse(await readFile(new URL(`../Starcraft/${name}.json`, import.meta.url)));
+    JSON.parse(await readFile(new URL(`../Starcraft-test/${name}.json`, import.meta.url)));
   const terrains = await json('terrains');
   const ids = new Set(terrains.map(t => t.Id));
   assert.equal(ids.size, 26);

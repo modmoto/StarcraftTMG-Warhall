@@ -1,0 +1,240 @@
+[
+  {
+    "Id": "pdf_Zerg_stat_bile_launcher",
+    "Name": "",
+    "Type": "Statline",
+    "Attributes": {
+      "Spd": "-",
+      "Arm": "4+",
+      "Eva": "-",
+      "HP": "10",
+      "Size": "3",
+      "Shd": ""
+    },
+    "Children": []
+  },
+  {
+    "Id": "pdf_Zerg_stat_corpsers_roach",
+    "Name": "",
+    "Type": "Statline",
+    "Attributes": {
+      "Spd": "4/7",
+      "Arm": "3+",
+      "Eva": "5+",
+      "HP": "4",
+      "Size": "2",
+      "Shd": ""
+    },
+    "Children": []
+  },
+  {
+    "Id": "pdf_Zerg_stat_defiler",
+    "Name": "",
+    "Type": "Statline",
+    "Attributes": {
+      "Spd": "7",
+      "Arm": "5+",
+      "Eva": "5+",
+      "HP": "8",
+      "Size": "2",
+      "Shd": ""
+    },
+    "Children": []
+  },
+  {
+    "Id": "pdf_Zerg_stat_hydralisks",
+    "Name": "",
+    "Type": "Statline",
+    "Attributes": {
+      "Spd": "4/8",
+      "Arm": "5+",
+      "Eva": "5+",
+      "HP": "4",
+      "Size": "2",
+      "Shd": ""
+    },
+    "Children": []
+  },
+  {
+    "Id": "pdf_Zerg_stat_kerrigan",
+    "Name": "",
+    "Type": "Statline",
+    "Attributes": {
+      "Spd": "7",
+      "Arm": "5+",
+      "Eva": "6+",
+      "HP": "9",
+      "Size": "2",
+      "Shd": ""
+    },
+    "Children": []
+  },
+  {
+    "Id": "pdf_Zerg_stat_kerrigan_swarm_raptors_zergling",
+    "Name": "",
+    "Type": "Statline",
+    "Attributes": {
+      "Spd": "5/9",
+      "Arm": "5+",
+      "Eva": "4+",
+      "HP": "2",
+      "Size": "1",
+      "Shd": ""
+    },
+    "Children": []
+  },
+  {
+    "Id": "pdf_Zerg_stat_omega_worm",
+    "Name": "",
+    "Type": "Statline",
+    "Attributes": {
+      "Spd": "-",
+      "Arm": "5+",
+      "Eva": "-",
+      "HP": "10",
+      "Size": "3",
+      "Shd": ""
+    },
+    "Children": []
+  },
+  {
+    "Id": "pdf_Zerg_stat_queen",
+    "Name": "",
+    "Type": "Statline",
+    "Attributes": {
+      "Spd": "4",
+      "Arm": "4+",
+      "Eva": "-",
+      "HP": "9",
+      "Size": "3",
+      "Shd": ""
+    },
+    "Children": []
+  },
+  {
+    "Id": "pdf_Zerg_stat_raptors_zergling",
+    "Name": "",
+    "Type": "Statline",
+    "Attributes": {
+      "Spd": "5/9",
+      "Arm": "6+",
+      "Eva": "4+",
+      "HP": "1",
+      "Size": "1",
+      "Shd": ""
+    },
+    "Children": []
+  },
+  {
+    "Id": "pdf_Zerg_stat_ravagers",
+    "Name": "",
+    "Type": "Statline",
+    "Attributes": {
+      "Spd": "4/8",
+      "Arm": "5+",
+      "Eva": "5+",
+      "HP": "9",
+      "Size": "3",
+      "Shd": ""
+    },
+    "Children": []
+  },
+  {
+    "Id": "pdf_Zerg_stat_roaches",
+    "Name": "",
+    "Type": "Statline",
+    "Attributes": {
+      "Spd": "4/7",
+      "Arm": "3+",
+      "Eva": "5+",
+      "HP": "4",
+      "Size": "2",
+      "Shd": ""
+    },
+    "Children": []
+  },
+  {
+    "Id": "pdf_Zerg_stat_roachling",
+    "Name": "",
+    "Type": "Statline",
+    "Attributes": {
+      "Spd": "4/7",
+      "Arm": "6+",
+      "Eva": "6+",
+      "HP": "1",
+      "Size": "1",
+      "Shd": ""
+    },
+    "Children": []
+  },
+  {
+    "Id": "pdf_Zerg_stat_swarmlings",
+    "Name": "",
+    "Type": "Statline",
+    "Attributes": {
+      "Spd": "4/8",
+      "Arm": "6+",
+      "Eva": "5+",
+      "HP": "1",
+      "Size": "1",
+      "Shd": ""
+    },
+    "Children": []
+  },
+  {
+    "Id": "pdf_Zerg_stat_vileling_zergling",
+    "Name": "",
+    "Type": "Statline",
+    "Attributes": {
+      "Spd": "4/8",
+      "Arm": "6+",
+      "Eva": "5+",
+      "HP": "1",
+      "Size": "1",
+      "Shd": ""
+    },
+    "Children": []
+  },
+  {
+    "Id": "pdf_Zerg_stat_viles_roach",
+    "Name": "",
+    "Type": "Statline",
+    "Attributes": {
+      "Spd": "4/7",
+      "Arm": "3+",
+      "Eva": "5+",
+      "HP": "4",
+      "Size": "2",
+      "Shd": ""
+    },
+    "Children": []
+  },
+  {
+    "Id": "pdf_Zerg_stat_zagara",
+    "Name": "",
+    "Type": "Statline",
+    "Attributes": {
+      "Spd": "7",
+      "Arm": "4+",
+      "Eva": "6+",
+      "HP": "10",
+      "Size": "3",
+      "Shd": ""
+    },
+    "Children": []
+  },
+  {
+    "Id": "pdf_Zerg_stat_zerglings",
+    "Name": "",
+    "Type": "Statline",
+    "Attributes": {
+      "Spd": "4/8",
+      "Arm": "6+",
+      "Eva": "4+",
+      "HP": "1",
+      "Size": "1",
+      "Shd": ""
+    },
+    "Children": []
+  }
+]

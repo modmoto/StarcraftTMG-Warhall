@@ -1,4 +1,4 @@
-import { manifestUrl } from '../src/channel.mjs';
+import { manifestUrl } from '../src/urls.mjs';
 import assert from 'node:assert/strict';
 import { readFile } from 'node:fs/promises';
 import { spawnSync } from 'node:child_process';

@@ -4,7 +4,7 @@ import { readFile } from 'node:fs/promises';
 import { planNewRecruitList } from '../src/lists/new-recruit.mjs';
 
 const json = async file =>
-  JSON.parse(await readFile(new URL(`../Starcraft/${file}`, import.meta.url), 'utf8'));
+  JSON.parse(await readFile(new URL(`../Starcraft-test/${file}`, import.meta.url), 'utf8'));
 const sample = await readFile(
   new URL('./fixtures/lists/terran-anti-toss-ravager.txt', import.meta.url),
   'utf8',

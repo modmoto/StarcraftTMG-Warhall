@@ -9,11 +9,11 @@ import zipfile
 from pathlib import Path
 
 root = Path(__file__).resolve().parent.parent
-manifest = json.loads((root / 'Starcraft/manifest.json').read_text(encoding='utf8'))
+manifest = json.loads((root / 'Starcraft-test/manifest.json').read_text(encoding='utf8'))
 differences = []
 with zipfile.ZipFile(sys.argv[1]) as archive:
     for name in sorted(set(manifest['files']) | {'version.json'}):
-        expected = json.loads((root / 'Starcraft' / name).read_text(encoding='utf8'))
+        expected = json.loads((root / 'Starcraft-test' / name).read_text(encoding='utf8'))
         if name not in archive.namelist():
             differences.append({'file': name, 'status': 'missing from editor'})
             continue

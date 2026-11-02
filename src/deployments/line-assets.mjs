@@ -1,4 +1,4 @@
-import { modelAssetBaseUrl } from '../channel.mjs';
+import { modelAssetBaseUrl } from '../urls.mjs';
 import sharp from 'sharp';
 import { accents } from './marker-assets.mjs';
 import { mkdir, writeFile } from 'node:fs/promises';

@@ -7,10 +7,10 @@ import { tokenMenuId } from '../src/models/menu-ids.mjs';
 const read = async file => JSON.parse(await readFile(new URL(`../${file}`, import.meta.url)));
 
 test('native tokens replace round cards and publish every distinct face', async () => {
-  const tokens = (await read('Starcraft/tokens.json')).filter(token =>
+  const tokens = (await read('Starcraft-test/tokens.json')).filter(token =>
     token.Id.startsWith('Starcraft - Token - '),
   );
-  const cards = await read('Starcraft/cards.json');
+  const cards = await read('Starcraft-test/cards.json');
   const catalogue = (await read('model-catalogue.json')).entries.filter(
     entry => entry.kind === 'token',
   );
@@ -19,7 +19,7 @@ test('native tokens replace round cards and publish every distinct face', async 
   assert.equal(new Set(tokens.map(token => token.Id)).size, tokens.length);
   assert.equal(catalogue.length, tokens.length);
   assert.ok(!cards.some(card => card.Id.startsWith('sc_token_')));
-  assert.ok(!('Tokens' in (await read('Starcraft/hierarchy.json')).Cards));
+  assert.ok(!('Tokens' in (await read('Starcraft-test/hierarchy.json')).Cards));
   for (const token of tokens) {
     assert.equal(token.Type, 'Token');
     assert.ok(!token.UIConfig);
@@ -34,7 +34,9 @@ test('native tokens replace round cards and publish every distinct face', async 
     const url = new URL(artwork[definition.id]);
     assert.equal(url.protocol, 'https:');
     const file = url.pathname.split('/').at(-1);
-    const bytes = await readFile(new URL(`../Starcraft/assets/tokens/${file}`, import.meta.url));
+    const bytes = await readFile(
+      new URL(`../Starcraft-test/assets/tokens/${file}`, import.meta.url),
+    );
     assert.equal(bytes.subarray(1, 4).toString(), 'PNG');
     assert.equal(bytes.readUInt32BE(16), 1024);
     assert.equal(bytes.readUInt32BE(20), 1024);
@@ -65,9 +67,9 @@ test('native tokens replace round cards and publish every distinct face', async 
 });
 
 test('all faction names match icon lookup and icons ship in the manifest', async () => {
-  const icons = await read('Starcraft/icons.json');
-  const factions = Object.keys((await read('Starcraft/hierarchy.json')).Factions);
-  assert.ok((await read('Starcraft/manifest.json')).files.includes('icons.json'));
+  const icons = await read('Starcraft-test/icons.json');
+  const factions = Object.keys((await read('Starcraft-test/hierarchy.json')).Factions);
+  assert.ok((await read('Starcraft-test/manifest.json')).files.includes('icons.json'));
   assert.deepEqual(icons.map(icon => icon.Name).sort(), factions.sort());
   for (const icon of icons) {
     assert.equal(icon.Name, icon.Name.trim());
@@ -75,7 +77,8 @@ test('all faction names match icon lookup and icons ship in the manifest', async
     assert.equal(new URL(icon.URL).protocol, 'https:');
     const file = new URL(icon.URL).pathname.split('/').at(-1);
     assert.ok(
-      (await readFile(new URL(`../Starcraft/assets/tokens/${file}`, import.meta.url))).length > 100,
+      (await readFile(new URL(`../Starcraft-test/assets/tokens/${file}`, import.meta.url))).length >
+        100,
     );
   }
 });
@@ -92,7 +95,7 @@ test('all seven native tokens retain their prefab identities without duplicate u
     'Token5Inch',
   ]);
   const generated = nativeTokens();
-  const shipped = await read('Starcraft/tokens.json');
+  const shipped = await read('Starcraft-test/tokens.json');
   const catalogue = await read('model-catalogue.json');
   for (const name of builtinTokenNames) {
     const reference = { Id: name, Name: name, Type: 'Token' };
@@ -112,7 +115,7 @@ test('generator reproduces the editor token records and catalogue order exactly'
   const { nativeTokens } = await import('../src/tokens/package.mjs');
   const order = await read('token-menu-order.json');
   const tokens = nativeTokens();
-  assert.deepEqual(tokens, await read('Starcraft/tokens.json'));
+  assert.deepEqual(tokens, await read('Starcraft-test/tokens.json'));
   assert.deepEqual(
     tokens.map(token => token.Id),
     order,

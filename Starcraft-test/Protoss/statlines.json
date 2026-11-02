@@ -1,0 +1,184 @@
+[
+  {
+    "Id": "pdf_Protoss_stat_adepts",
+    "Name": "",
+    "Type": "Statline",
+    "Attributes": {
+      "Spd": "5/8",
+      "Arm": "5+",
+      "Eva": "5+",
+      "HP": "3",
+      "Size": "2",
+      "Shd": "2"
+    },
+    "Children": []
+  },
+  {
+    "Id": "pdf_Protoss_stat_artanis",
+    "Name": "",
+    "Type": "Statline",
+    "Attributes": {
+      "Spd": "7",
+      "Arm": "4+",
+      "Eva": "5+",
+      "HP": "8",
+      "Size": "2",
+      "Shd": "4"
+    },
+    "Children": []
+  },
+  {
+    "Id": "pdf_Protoss_stat_high_templar",
+    "Name": "",
+    "Type": "Statline",
+    "Attributes": {
+      "Spd": "4/7",
+      "Arm": "5+",
+      "Eva": "6+",
+      "HP": "3",
+      "Size": "2",
+      "Shd": "3"
+    },
+    "Children": []
+  },
+  {
+    "Id": "pdf_Protoss_stat_immortal",
+    "Name": "",
+    "Type": "Statline",
+    "Attributes": {
+      "Spd": "7",
+      "Arm": "4+",
+      "Eva": "-",
+      "HP": "8",
+      "Size": "3",
+      "Shd": "6"
+    },
+    "Children": []
+  },
+  {
+    "Id": "pdf_Protoss_stat_nerazim_watchers_adept",
+    "Name": "",
+    "Type": "Statline",
+    "Attributes": {
+      "Spd": "5/8",
+      "Arm": "5+",
+      "Eva": "5+",
+      "HP": "3",
+      "Size": "2",
+      "Shd": "2"
+    },
+    "Children": []
+  },
+  {
+    "Id": "pdf_Protoss_stat_praetor_guards",
+    "Name": "",
+    "Type": "Statline",
+    "Attributes": {
+      "Spd": "4/7",
+      "Arm": "5+",
+      "Eva": "5+",
+      "HP": "4",
+      "Size": "2",
+      "Shd": "3"
+    },
+    "Children": []
+  },
+  {
+    "Id": "pdf_Protoss_stat_pylon",
+    "Name": "",
+    "Type": "Statline",
+    "Attributes": {
+      "Spd": "-",
+      "Arm": "5+",
+      "Eva": "-",
+      "HP": "8",
+      "Size": "3",
+      "Shd": "2"
+    },
+    "Children": []
+  },
+  {
+    "Id": "pdf_Protoss_stat_sentries",
+    "Name": "",
+    "Type": "Statline",
+    "Attributes": {
+      "Spd": "4/7",
+      "Arm": "5+",
+      "Eva": "6+",
+      "HP": "4",
+      "Size": "1",
+      "Shd": "2"
+    },
+    "Children": []
+  },
+  {
+    "Id": "pdf_Protoss_stat_stalker",
+    "Name": "",
+    "Type": "Statline",
+    "Attributes": {
+      "Spd": "4/8",
+      "Arm": "4+",
+      "Eva": "6+",
+      "HP": "6",
+      "Size": "3",
+      "Shd": "3"
+    },
+    "Children": []
+  },
+  {
+    "Id": "pdf_Protoss_stat_tassadar",
+    "Name": "",
+    "Type": "Statline",
+    "Attributes": {
+      "Spd": "7",
+      "Arm": "5+",
+      "Eva": "5+",
+      "HP": "6",
+      "Size": "2",
+      "Shd": "3"
+    },
+    "Children": []
+  },
+  {
+    "Id": "pdf_Protoss_stat_twilight_templar_high_templar",
+    "Name": "",
+    "Type": "Statline",
+    "Attributes": {
+      "Spd": "4/7",
+      "Arm": "5+",
+      "Eva": "6+",
+      "HP": "3",
+      "Size": "2",
+      "Shd": "3"
+    },
+    "Children": []
+  },
+  {
+    "Id": "pdf_Protoss_stat_zealots",
+    "Name": "",
+    "Type": "Statline",
+    "Attributes": {
+      "Spd": "4/7",
+      "Arm": "5+",
+      "Eva": "5+",
+      "HP": "4",
+      "Size": "2",
+      "Shd": "3"
+    },
+    "Children": []
+  },
+  {
+    "Id": "pdf_Protoss_stat_zeratul",
+    "Name": "",
+    "Type": "Statline",
+    "Attributes": {
+      "Spd": "7",
+      "Arm": "5+",
+      "Eva": "5+",
+      "HP": "5",
+      "Size": "2",
+      "Shd": "3"
+    },
+    "Children": []
+  }
+]

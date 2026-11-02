@@ -1,4 +1,4 @@
-import { modelAssetBaseUrl } from '../channel.mjs';
+import { modelAssetBaseUrl } from '../urls.mjs';
 import { mkdir, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 import { createHash } from 'node:crypto';

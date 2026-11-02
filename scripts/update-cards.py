@@ -14,7 +14,7 @@ ROOT = Path(__file__).resolve().parent.parent
 CACHE = ROOT / '.cache/pdf'
 DPI = 360
 RENDERS = ROOT / f'.cache/cards/{DPI}dpi'
-ASSETS = ROOT / 'Starcraft/assets/cards'
+ASSETS = ROOT / 'Starcraft-test/assets/cards'
 for directory in [RENDERS, ASSETS]:
     directory.mkdir(parents=True, exist_ok=True)
 
@@ -103,8 +103,7 @@ def face(file, number, page, box, rotate=0):
     digest = hashlib.sha256(crop.tobytes()).hexdigest()[:24]
     name = f'{digest}.png'
     crop.convert('RGB').save(ASSETS/name, optimize=True)
-    branch = 'test' if '/test/Starcraft/' in read('Starcraft/version.json')['url'] else 'main'
-    return f'https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/{branch}/Starcraft/assets/cards/{name}'
+    return f'https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/{name}'
 
 cards = {}
 groups = {}
@@ -125,7 +124,7 @@ def add(group, name, front, back, width, length, source, text=''):
 
 sources = read('.cache/pdf/sources.json')['cards']
 documents = {s['file']: PdfReader(CACHE/s['file']) for s in sources}
-units = read('Starcraft/import-report.json')['units']
+units = read('Starcraft-test/import-report.json')['units']
 unit_pages = {(u['card']['file'], u['card']['page']) for u in units}
 
 for source in sources:
@@ -186,9 +185,9 @@ for deployment in read('deployment-report.json')['layouts']:
 assert not any(g.endswith(' units') for g in groups)
 assert len(groups['Deployments']) == 7
 assert len(missions) == 7, f'Expected seven standard scoring missions, got {list(missions)}'
-write('Starcraft/cards.json',sorted(cards.values(),key=lambda c:c['Id']))
-hierarchy = read('Starcraft/hierarchy.json');hierarchy['Cards']={k:sorted(v) for k,v in sorted(groups.items())};write('Starcraft/hierarchy.json',hierarchy)
-write('Starcraft/objectives.json',[])
+write('Starcraft-test/cards.json',sorted(cards.values(),key=lambda c:c['Id']))
+hierarchy = read('Starcraft-test/hierarchy.json');hierarchy['Cards']={k:sorted(v) for k,v in sorted(groups.items())};write('Starcraft-test/hierarchy.json',hierarchy)
+write('Starcraft-test/objectives.json',[])
 write('cards-report.json',{'imageDpi':DPI,'imageFormat':'lossless PNG','unitCards':False,'cards':report,'counts':{k:len(v) for k,v in sorted(groups.items())},'missions':len(missions)})
 print(f'Extracted {len(cards)} cards and {len(missions)} scoring missions.')
 

@@ -188,7 +188,7 @@ function reference(id) {
   };
 }
 for (const [faction, units] of Object.entries(choices)) {
-  const gameUnits = JSON.parse(await readFile(`Starcraft/${faction}/units.json`, 'utf8'));
+  const gameUnits = JSON.parse(await readFile(`Starcraft-test/${faction}/units.json`, 'utf8'));
   for (const unit of gameUnits) {
     const choice = units[unit.Name];
     if (!choice) throw new Error(`Unreviewed unit: ${faction}/${unit.Name}`);

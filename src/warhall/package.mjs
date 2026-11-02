@@ -1,4 +1,4 @@
-import { manifestUrl } from '../channel.mjs';
+import { manifestUrl } from '../urls.mjs';
 import path from 'node:path';
 import { readJson, writeJson } from '../io.mjs';
 import { defaultDataDirectory } from '../paths.mjs';
