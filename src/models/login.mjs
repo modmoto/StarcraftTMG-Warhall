@@ -56,9 +56,17 @@ export async function loginWarhall(serverUrl, { fetcher = fetch, email, password
     body: JSON.stringify({ idToken: auth.idToken }),
   });
   if (!session.ok) throw new Error('Warhall refused the session login');
-  const cookie = session.headers
-    .getSetCookie()
-    .map(value => value.split(';')[0])
+  // Production clears the old session before setting its replacement. Sending
+  // both same-name cookies makes some endpoints read the empty first value.
+  const cookies = new Map();
+  for (const header of session.headers.getSetCookie()) {
+    const pair = header.split(';')[0];
+    const separator = pair.indexOf('=');
+    if (separator > 0) cookies.set(pair.slice(0, separator).trim(), pair.slice(separator + 1));
+  }
+  const cookie = [...cookies]
+    .filter(([, value]) => value.length > 0)
+    .map(([name, value]) => `${name}=${value}`)
     .join('; ');
   if (!cookie) throw new Error('Warhall returned no session cookie');
   return cookie;

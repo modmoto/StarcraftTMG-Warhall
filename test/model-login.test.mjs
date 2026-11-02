@@ -15,10 +15,12 @@ test('Warhall login follows Firebase and session exchange without persisting cre
     if (url.includes('/GetEmail/')) return Response.json({ error: 0, result: 'test@example.com' });
     if (url.includes('identitytoolkit.googleapis.com'))
       return Response.json({ idToken: 'test-token' });
-    if (url.endsWith('/sessionLogin'))
-      return new Response('{}', {
-        headers: { 'Set-Cookie': 'session=test; HttpOnly; Secure; Path=/' },
-      });
+    if (url.endsWith('/sessionLogin')) {
+      const headers = new Headers();
+      headers.append('Set-Cookie', 'session=; Max-Age=0; Path=/');
+      headers.append('Set-Cookie', 'session=test; HttpOnly; Secure; Path=/');
+      return new Response('{}', { headers });
+    }
     throw new Error('Unexpected URL');
   };
   assert.equal(
