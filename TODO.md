@@ -15,23 +15,29 @@ Release 12 removes the equipment child from each weapon stat row, eliminating th
 - [ ] Verify sharp tactical, faction, creep, deployment and mission cards in Warhall Test, including flip behavior and readable descriptions. Unit cards are intentionally removed; unit data will be presented on units later.
 - [ ] Verify scoring missions change no board objects. Deployment selection alone owns markers and border segments. Select the map before the deployment: loading a map clears terrain, including deployment markers.
 
-## Requires Warhall client/catalogue support
+## Requires Warhall client/catalogue support (priority order)
 
-- [ ] Fix editor preservation of custom token/terrain IDs. Its release-34 export omitted all 16 tokens; adding a reference terrain replaced all 30 existing terrain records. Never upload an unchecked editor draft. Use `scripts/compare-wds-export.py` and see `docs/wds-editor-compatibility.md`.
-- [ ] Make TerrainPanel's addressable-prefab lookup null-safe for hosted GLB/OBJ skins before loading thumbnails. Comparison confirmed by the user: native Hill snow appears in the menu and supports units standing on top; our hosted ramp does neither. Hill snow uses the installed Frozen Tundra/Hill_FT prefab and can use its embedded AssetUIConfig.UISprite; the ramp is a GLB URL. Add the menu button even without an installed prefab, then load the cloud thumbnail with a fallback. Keep shared profile IDs and existing map/deployment references intact. The temporary hill reference was removed in release 48.
+1. [ ] Fix ramp/platform collision: enable mesh colliders on imported raised terrain using `ElevatedGround`, as native Ninth Age hills do (the user confirmed standing on Hill snow works). Imported OBJ geometry currently has collider generation disabled; the WDS Height field only sizes its selection box. Units cannot yet stand on the imported ramps/platforms.
 
-- [ ] Fix native token preview URLs: AllSkinData emits relative Thumbnail paths while TokenPanel expects absolute HTTPS URLs. Confirm the token panel activation path and make preview failures show a fallback button. See [the investigation](docs/token-menu-client-issue.md).
-- [ ] Verify faction dropdown icons after adding release 29 icons.json. The extra left space is the image slot; faction names have no whitespace.
-- [ ] Fix **Flip map**: rotate terrain positions and orientations together by 180 degrees so asymmetric walls and ramps retain their layout. Verify two flips restore the original layout. See [the client findings](docs/warhall-flip-limitations.md).
-- [ ] Fix **Flip deployment**: include shared deployment overlays and mission markers, preserving the flip when switching/reloading deployments. See [the client findings](docs/warhall-flip-limitations.md).
-- [ ] Restore coloured deployment border lines for the red and blue deployment sides; verify colours remain correct when switching and flipping deployments.
-- [ ] Fix ramp/platform collision: enable mesh colliders on imported raised terrain using `ElevatedGround`, as native Ninth Age hills do (the user confirmed standing on Hill snow works). Imported OBJ geometry currently has collider generation disabled; the WDS Height field only sizes its selection box. Units cannot yet stand on the imported ramps/platforms.
-- [ ] Add a per-terrain hide-base option that hides both base renderers while preserving selection/elevation colliders. The existing global switch affects unit bases too. See [the exact client findings and proposed changes](docs/warhall-client-terrain-support.md).
-- [ ] Fix 32 mm mission-marker measurement: markers currently use round Terrain records, but measurement starts from a corner of the terrain footprint. Support measuring from the circular 32 mm edge (16 mm radius), rather than the rectangular corner or token center. Preserve the decorative control ring independently of the measurement footprint.
-- [ ] Fix terrain locking/unlocking when loading maps and deployments: map loading ends with SetTerrainLock(true), but deployment helpers call CreateTerrain, which globally calls SetTerrainLock(false). Preserve/restore the lock while loading helpers so loading order does not unexpectedly unlock the board. Keep manual Lock terrain/Unlock terrain usable and verify both loading orders; the WDS schema has no per-placement lock flag.
-- [ ] Support prefab-style previews for custom tokens: native Warhall tokens can use AssetUIConfig.UISprite embedded in their built-in Unity prefab, while hosted GLB tokens have no such component. Provide a supported custom preview/prefab route or make the cloud-thumbnail fallback reliable. Do not require replacing custom token artwork with native models. Compare against the five default Warhall tokens and 3-inch/5-inch templates added in release 42; see [the comparison](docs/token-menu-client-issue.md).
+2. [ ] Fix native token preview URLs: AllSkinData emits relative Thumbnail paths while TokenPanel expects absolute HTTPS URLs. Confirm the token panel activation path and make preview failures show a fallback button. See [the investigation](docs/token-menu-client-issue.md). Native prefab previews use AssetUIConfig.UISprite; support a custom preview route or repair cloud thumbnail loading without changing custom artwork.
+
+3. [ ] Fix 32 mm mission-marker measurement: markers currently use round Terrain records, but measurement starts from a corner of the terrain footprint. Support measuring from the circular 32 mm edge (16 mm radius), rather than the rectangular corner or token center. Preserve the decorative control ring independently of the measurement footprint.
+
+4. [ ] Add a per-terrain hide-base option that hides both base renderers while preserving selection/elevation colliders. The existing global switch affects unit bases too. See [the exact client findings and proposed changes](docs/warhall-client-terrain-support.md).
+
+5. [ ] Fix terrain locking/unlocking when loading maps and deployments: map loading ends with SetTerrainLock(true), but deployment helpers call CreateTerrain, which globally calls SetTerrainLock(false). Preserve/restore the lock while loading helpers so loading order does not unexpectedly unlock the board. Keep manual Lock terrain/Unlock terrain usable and verify both loading orders; the WDS schema has no per-placement lock flag.
+
+6. [ ] Make TerrainPanel's addressable-prefab lookup null-safe for hosted GLB/OBJ skins before loading thumbnails. Comparison confirmed by the user: native Hill snow appears in the menu and supports units standing on top; our hosted ramp does neither. Hill snow uses the installed Frozen Tundra/Hill_FT prefab and can use its embedded AssetUIConfig.UISprite; the ramp is a GLB URL. Add the menu button even without an installed prefab, then load the cloud thumbnail with a fallback. Keep shared profile IDs and existing map/deployment references intact. The temporary hill reference was removed in release 48.
+
+7. [ ] Fix **Flip map**: rotate terrain positions and orientations together by 180 degrees so asymmetric walls and ramps retain their layout. Verify two flips restore the original layout. See [the client findings](docs/warhall-flip-limitations.md).
+
+8. [ ] Fix **Flip deployment**: include shared deployment overlays and mission markers, preserving the flip when switching/reloading deployments. See [the client findings](docs/warhall-flip-limitations.md).
+
+9. [ ] Fix editor preservation of custom token/terrain IDs. Its release-34 export omitted all 16 tokens; adding a reference terrain replaced all 30 existing terrain records. Never upload an unchecked editor draft. Use `scripts/compare-wds-export.py` and see `docs/wds-editor-compatibility.md`.
+
+Deployment border objects are implemented in red/blue; switching and flipping still require verification as part of the deployment-flip item.
+
 - [x] Move normal play to published WDS data and shared skin assignments. Built-in deployment template 12 plus shared overlays replaces custom local deployment templates. Legacy cache installers are not required; see `docs/cloud-client.md`.
-- [ ] Check grass alpha rendering and any nonuniform TTS scale differences. The current remote-skin format exposes uniform scale.
 
 ## Start on the Mac
 
