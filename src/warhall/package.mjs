@@ -136,6 +136,12 @@ async function initialData(template) {
   ];
 
   data['gameconfig.json'].WoundsAttribute = 'HP';
+  data['gameconfig.json'].ShownButtons = (data['gameconfig.json'].ShownButtons ?? []).filter(
+    name => name !== 'Reform' && name !== 'ButtonReform',
+  );
+  data['gameconfig.json'].HiddenButtons = [
+    ...new Set([...(data['gameconfig.json'].HiddenButtons ?? []), 'Reform']),
+  ];
   data['gameconfig.json'].ShowObjectiveSection = false;
   data['gameconfig.json'].ShowDeploymentSection = true;
   data['objectives.json'] = [];

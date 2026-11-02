@@ -44,7 +44,6 @@
     "Concentric lines",
     "Base Size",
     "Base Color",
-    "Reform",
     "Duplicate",
     "Reset Card Stack",
     "Draw Card Stack",
@@ -398,5 +397,8 @@
   "ShowObjectiveSection": false,
   "ShowGroupHeader": false,
   "ShowStatlineHeader": false,
-  "ShowDeploymentSection": true
+  "ShowDeploymentSection": true,
+  "HiddenButtons": [
+    "Reform"
+  ]
 }
