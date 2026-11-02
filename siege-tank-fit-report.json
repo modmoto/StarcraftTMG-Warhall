@@ -1,0 +1,19 @@
+{
+  "profileId": "pdf_Terran_profile_siege_tank",
+  "baseDiameterMm": 150,
+  "maximumRadiusMm": 75,
+  "increasePercent": 13.347181692229327,
+  "layout": {
+    "size": 1.666203570875771,
+    "position": [
+      0.0025389768699059364,
+      0.10204924625225943,
+      -0.1103774855318929
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ]
+  }
+}

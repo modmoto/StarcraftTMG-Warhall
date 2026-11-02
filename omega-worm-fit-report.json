@@ -1,0 +1,21 @@
+{
+  "profileId": "pdf_Zerg_profile_omega_worm",
+  "baseDiameterMm": 80,
+  "radialMarginMm": 2,
+  "maximumRadiusMm": 38,
+  "heightMm": 42.00537429535187,
+  "modelUrl": "https://steamusercontent-a.akamaihd.net/ugc/13392127980943399585/BA37524830D3DBD078B3797C03A877C8ABCD2297/",
+  "layout": {
+    "size": 3.4095932123901336,
+    "position": [
+      0.011628447655276987,
+      0.6069260847329783,
+      -0.530255593592039
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ]
+  }
+}

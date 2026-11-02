@@ -20,8 +20,16 @@
     },
     "layout": {
       "size": 152.5884643691914,
-      "position": [0.16479188072310155, 0.19004852201847272, -0.042577594161753655],
-      "rotation": [270, 0, 0]
+      "position": [
+        0.16479188072310155,
+        0.19004852201847272,
+        -0.042577594161753655
+      ],
+      "rotation": [
+        270,
+        0,
+        0
+      ]
     },
     "notes": "Complete TTS prefab; measured root geometry is centered and raised above the base."
   },
@@ -46,8 +54,16 @@
     },
     "layout": {
       "size": 173.4988570758631,
-      "position": [1.2613979775563489, 0.08549566325002025, -0.24668753669676063],
-      "rotation": [270, 0, 0]
+      "position": [
+        1.2613979775563489,
+        0.08549566325002025,
+        -0.24668753669676063
+      ],
+      "rotation": [
+        270,
+        0,
+        0
+      ]
     },
     "notes": "Complete TTS prefab; measured root geometry is centered and raised above the base."
   },
@@ -72,36 +88,52 @@
     },
     "layout": {
       "size": 1.623445873913266,
-      "position": [-0.031794739105923134, 0.047814517086190465, 0.2689195331657554],
-      "rotation": [0, 0, 0]
+      "position": [
+        -0.031794739105923134,
+        0.047814517086190465,
+        0.2689195331657554
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
     },
     "notes": "Complete TTS prefab; measured root geometry is centered and raised above the base."
   },
   "Omega Worm": {
     "model": {
-      "sourceName": "Omega Worm",
+      "sourceName": "nydus (emerged body)",
       "workshopId": "3662791369",
-      "guid": "dc11b1",
-      "meshUrl": "https://steamusercontent-a.akamaihd.net/ugc/18352668358571898735/EB4DB9CF50C0FDBC85EE185BCA5755037AAD9F6E/",
+      "guid": "eafc76",
+      "meshUrl": "https://steamusercontent-a.akamaihd.net/ugc/13392127980943399585/BA37524830D3DBD078B3797C03A877C8ABCD2297/",
       "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/13743206127385021615/3D4E9FD5259D6E0595CDDD794569635C8077E84B/",
       "ttsTransform": {
-        "posX": 0.0204494335,
-        "posY": 1.08054769,
-        "posZ": -0.008615907,
-        "rotX": 0.0000701590252,
-        "rotY": 315.003754,
-        "rotZ": 0.0000959316458,
-        "scaleX": 0.2434195,
-        "scaleY": 4.625,
-        "scaleZ": 0.243419513
+        "posX": 0.01923117,
+        "posY": 0.3273687,
+        "posZ": -0.0966389552,
+        "rotX": -0.0005120926,
+        "rotY": 0.02355287,
+        "rotZ": 0.00008178945,
+        "scaleX": 3.50962377,
+        "scaleY": 3.50960827,
+        "scaleZ": 3.50962639
       }
     },
     "layout": {
-      "size": 2.3124223436260314,
-      "position": [-0.007900163394639186, 0.5986192001624268, -0.35962295117268156],
-      "rotation": [0, 0, 0]
+      "size": 3.4095932123901336,
+      "position": [
+        0.011628447655276987,
+        0.6069260847329783,
+        -0.530255593592039
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
     },
-    "notes": "Complete TTS prefab; measured root geometry is centered and raised above the base."
+    "notes": "Emerged TTS Nydus OBJ body. All vertices, including ground spikes, fit within the 80 mm round base with a 2 mm radial margin; original Zerg texture."
   },
   "Viles (Roach)": {
     "model": {
@@ -124,41 +156,81 @@
     },
     "layout": {
       "size": 1.9745777943814005,
-      "position": [0.8127349884060104, 0.31776867203982473, -0.762146920572654],
-      "rotation": [0, 0, 0]
+      "position": [
+        0.8127349884060104,
+        0.31776867203982473,
+        -0.762146920572654
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
     },
     "notes": "Complete TTS prefab; measured root geometry is centered and raised above the base."
   },
   "Medics": {
     "layout": {
       "size": 1,
-      "position": [0.16042, -0.1545, -1.4943],
-      "rotation": [0, 0, 0]
+      "position": [
+        0.16042,
+        -0.1545,
+        -1.4943
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
     },
     "notes": "Body centered over the base; feet lifted to base surface."
   },
   "Sentries": {
     "layout": {
       "size": 2.5,
-      "position": [0.18455, -1.10929, 0.94227],
-      "rotation": [0, 0, 0]
+      "position": [
+        0.18455,
+        -1.10929,
+        0.94227
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
     },
     "notes": "Centered floating chassis; retain one centimeter of clearance."
   },
   "Siege Tank": {
     "layout": {
-      "size": 1.47,
-      "position": [0.00224, 0.09121, -0.09738],
-      "rotation": [0, 0, 0]
+      "size": 1.666203570875771,
+      "position": [
+        0.0025389768699059364,
+        0.10204924625225943,
+        -0.1103774855318929
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
     },
-    "notes": "Deployed siege pose, extended stabilizers centered across approximately twelve centimeters."
+    "notes": "Deployed siege pose enlarged 13.3% from the reviewed 1.47 baseline. Furthest geometry touches the 150 mm circular base edge; centering and ground clearance preserved."
   },
   "Zeratul": {
     "includeAttachments": true,
     "layout": {
       "size": 1.3,
-      "position": [0.42517, 0.05, 0.03383],
-      "rotation": [0, 0, 0]
+      "position": [
+        0.42517,
+        0.05,
+        0.03383
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
     },
     "notes": "Body and psi blade loaded together using their shared exported coordinates."
   }

@@ -945,26 +945,26 @@
           "modelUrl": "https://steamusercontent-a.akamaihd.net/ugc/10924463587930246298/5C08DBBBB1B34C66796D02F27805AB6ACC3C3E75/",
           "textureUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/659fce8be21d549abc98661e647122f324f53e0896ad6a2ecd0b271323222985.png",
           "transforms": {
-            "scale": 1.77484033125,
+            "scale": 2.0117314950089025,
             "rotationX": 0,
             "rotationY": 0,
             "rotationZ": 0,
-            "positionX": 0.00224,
-            "positionY": 0.09121,
-            "positionZ": -0.09738
+            "positionX": 0.0025389768699059364,
+            "positionY": 0.10204924625225943,
+            "positionZ": -0.1103774855318929
           },
           "previewSource": {
             "modelUrl": "https://steamusercontent-a.akamaihd.net/ugc/10924463587930246298/5C08DBBBB1B34C66796D02F27805AB6ACC3C3E75/",
             "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/10751870198150330225/673A4FD83172C1AA32DE8C48032EA590288F7F30/"
           },
           "previewTransforms": {
-            "scale": 3.7338,
+            "scale": 4.232157070024458,
             "rotationX": 0,
             "rotationY": 0,
             "rotationZ": 0,
-            "positionX": 0.00224,
-            "positionY": 0.09121,
-            "positionZ": -0.09738
+            "positionX": 0.0025389768699059364,
+            "positionY": 0.10204924625225943,
+            "positionZ": -0.1103774855318929
           },
           "factionPalette": "Terran"
         }
@@ -1261,31 +1261,30 @@
       "faction": "Zerg",
       "parts": [
         {
-          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/37976c540b4c400dd1879a37ffc9645077a6cff507070c97f6996828d1597d8a.glb",
-          "textureUrl": null,
+          "modelUrl": "https://steamusercontent-a.akamaihd.net/ugc/13392127980943399585/BA37524830D3DBD078B3797C03A877C8ABCD2297/",
+          "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/13743206127385021615/3D4E9FD5259D6E0595CDDD794569635C8077E84B/",
           "transforms": {
-            "scale": 2.3124223436260314,
+            "scale": 1.0069432127909688,
             "rotationX": 0,
             "rotationY": 0,
             "rotationZ": 0,
-            "positionX": -0.007900163394639186,
-            "positionY": 0.5986192001624268,
-            "positionZ": -0.35962295117268156
+            "positionX": 0.011628447655276987,
+            "positionY": 0.6069260847329783,
+            "positionZ": -0.530255593592039
           },
           "previewSource": {
-            "modelUrl": "https://steamusercontent-a.akamaihd.net/ugc/18352668358571898735/EB4DB9CF50C0FDBC85EE185BCA5755037AAD9F6E/",
+            "modelUrl": "https://steamusercontent-a.akamaihd.net/ugc/13392127980943399585/BA37524830D3DBD078B3797C03A877C8ABCD2297/",
             "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/13743206127385021615/3D4E9FD5259D6E0595CDDD794569635C8077E84B/"
           },
           "previewTransforms": {
-            "scale": 5.87355275281012,
+            "scale": 8.66036675947094,
             "rotationX": 0,
             "rotationY": 0,
             "rotationZ": 0,
-            "positionX": -0.007900163394639186,
-            "positionY": 0.5986192001624268,
-            "positionZ": -0.35962295117268156
-          },
-          "hostedAsset": true
+            "positionX": 0.011628447655276987,
+            "positionY": 0.6069260847329783,
+            "positionZ": -0.530255593592039
+          }
         }
       ],
       "calibration": "windows-cache-v1"
