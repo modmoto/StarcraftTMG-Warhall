@@ -18,7 +18,7 @@ Read `docs/model-publication.md`, `model-catalogue.json`, and the publisher's cu
 
 ## Authenticate and publish
 
-The browser login is not a Node session. `--login` uses the explicitly enrolled macOS Keychain entry when available, otherwise a hidden terminal password prompt. Username defaults to `modmoto`; `--username` overrides it. Read `docs/local-authentication.md`. Use an explicitly supplied `WARHALL_COOKIE` only when the user chooses that route. Do not collect secrets in chat or read browser cookies/cache/auth storage.
+The browser login is not a Node session. `--login` uses an explicitly enrolled macOS Keychain or Windows user-bound DPAPI entry when available, otherwise a hidden terminal password prompt. Username defaults to `modmoto`; `--username` overrides it. Read `docs/local-authentication.md`. Use an explicitly supplied `WARHALL_COOKIE` only when the user chooses that route. Do not collect secrets in chat or read browser cookies/cache/auth storage. Never run the Windows credential helper's `read` mode directly; only the publisher may capture that private output.
 
 ```sh
 npm run models:publish -- --apply --login --accept-publication-terms

@@ -2,7 +2,7 @@
 
 Warhall commands default to username `modmoto`. Use `--username NAME` on publishing, transform repair or credential setup, or set `WARHALL_USERNAME` to change it. Test and production credentials are separate Keychain entries.
 
-## One-time setup on this Mac
+## One-time setup on macOS or Windows
 
 Run these in your own terminal from the repository:
 
@@ -10,7 +10,9 @@ Run these in your own terminal from the repository:
 npm run auth:setup
 ```
 
-The setup first invokes macOS `security` with a hidden interactive password prompt. The password is never passed in command arguments or read by the setup script. It creates an encrypted generic-password item named for the Warhall host and account. This explicitly trusts Apple's `/usr/bin/security` credential reader for subsequent script logins. No password is stored in JSON, environment files, the repository or Git.
+On macOS, setup invokes `security` with a hidden interactive password prompt and saves a Keychain generic-password item. On Windows, PowerShell prompts with `Read-Host -AsSecureString` and saves a DPAPI-encrypted value under `%LOCALAPPDATA%/WarhallPublisher/Credentials`. It can be decrypted only in the enrolled Windows user context on that machine. Test and production accounts have distinct entries. Passwords are not passed in command arguments or stored as plaintext in JSON, environment files, the repository or Git. Enrollment must be run in your own terminal.
+
+Windows GitHub setup uses Git for Windows Credential Manager and its browser sign-in. An existing working Git credential helper need not be re-enrolled. The GitHub CLI setup below describes macOS.
 
 It then prepares GitHub's official CLI, verifies its release checksum, and opens GitHub's browser/device authorization flow. Approve it yourself. The setup requires GitHub CLI to report OS Keychain storage before configuring this repository's credential helper. It resolves the actual signed-in GitHub username rather than assuming that it matches the Warhall username. The GitHub CLI's normal OS credential/configuration settings are used. Do not choose insecure token storage.
 
@@ -33,4 +35,4 @@ npm run models:credentials -- --forget
 npm run models:publish -- --apply --login --manual-login
 ```
 
-Status shows only the host, username and whether an entry exists. Re-run enrollment after a password change. `--forget` removes only the selected Warhall host/account entry. Cancelling or denying a Keychain read fails the operation; it does not silently switch authentication methods. `--manual-login` explicitly bypasses saved credentials and prompts for a hidden password in an interactive terminal. Windows retains that manual login path.
+Status shows only the host, username and whether an entry exists. Re-run enrollment after a password change. `--forget` removes only the selected Warhall host/account entry. Cancelling or denying a saved-credential read fails the operation; it does not silently switch authentication methods. `--manual-login` explicitly bypasses saved credentials and prompts for a hidden password in an interactive terminal on either platform. The Windows reader returns decrypted bytes only through the publisher's private pipe; never run its `read` mode directly in a terminal or tool call.

@@ -5,7 +5,7 @@ import {
   credentialIdentity,
   hasSavedPassword,
   savePassword,
-  runPrivate,
+  forgetPassword,
 } from '../src/models/keychain.mjs';
 
 const { values } = parseArgs({
@@ -20,32 +20,24 @@ const server = publicationTarget({ serverUrl: servers.test, entries: [] }, value
   .serverUrl;
 const username = values.username ?? defaultUsername();
 const identity = credentialIdentity(server, username);
-if (process.platform !== 'darwin')
+if (!['darwin', 'win32'].includes(process.platform))
   throw new Error(
-    'This credential manager requires macOS. Other platforms can use --login with a hidden password.',
+    'This credential manager requires macOS or Windows. Other platforms can use manual login.',
   );
 if (values.status) {
   console.log(
     JSON.stringify({ server, username, saved: await hasSavedPassword(server, username) }, null, 2),
   );
 } else if (values.forget) {
-  const result = await runPrivate('/usr/bin/security', [
-    'delete-generic-password',
-    '-s',
-    identity.service,
-    '-a',
-    identity.username,
-  ]);
-  if (result.code !== 0 && (await hasSavedPassword(server, username)))
-    throw new Error('Could not remove the saved credential');
+  await forgetPassword(server, username);
   console.log(`Removed saved credential for ${username} on ${server}.`);
 } else {
   if (!process.stdin.isTTY)
     throw new Error('Save credentials in your own terminal: npm run models:credentials');
-  console.log(`Save the Warhall password for ${username} on ${server} in macOS Keychain.`);
-  console.log(
-    'The next prompt is from macOS security; the password is hidden and is not passed in command arguments.',
-  );
+  console.log(`Save the Warhall password for ${username} on ${server} in the OS credential store.`);
+  console.log('The next OS prompt hides the password; it is not passed in command arguments.');
   await savePassword(server, username);
-  console.log('Saved. Future --login commands use Keychain without printing the password.');
+  console.log(
+    'Saved. Future --login commands use the OS credential store without printing the password.',
+  );
 }

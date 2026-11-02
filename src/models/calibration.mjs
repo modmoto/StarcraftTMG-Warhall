@@ -4,6 +4,7 @@ import { createHash } from 'node:crypto';
 import { projectRoot } from '../paths.mjs';
 import { sourceGeometry } from './render-thumbnail.mjs';
 import { encodeGlb } from './portable-glb.mjs';
+import sharp from 'sharp';
 
 export function transformPoint(point, transform) {
   let [x, y, z] = point.map(value => value * transform.scale);
@@ -50,7 +51,8 @@ export async function calibrateCatalogue(
     const sources = [];
     const worldPoints = [];
     for (const part of entry.parts) {
-      const { geometry, format } = await sourceGeometry(part);
+      const factionPalette = entry.kind === 'unit' ? entry.faction : undefined;
+      const { geometry, format } = await sourceGeometry({ ...part, factionPalette });
       const sourceBounds = bounds(geometry.flatMap(mesh => mesh.vertices));
       const worldTransform = { ...part.transforms, scale: part.transforms.scale * 2.54 };
       for (const mesh of geometry)
@@ -58,6 +60,18 @@ export async function calibrateCatalogue(
       let modelUrl = part.modelUrl,
         textureUrl = part.textureUrl;
       let portable = false;
+      if (factionPalette && format === 'obj') {
+        const texture = geometry[0].texture;
+        if (!texture) throw new Error(`Missing faction texture: ${entry.name}`);
+        const png = await sharp(texture.data, {
+          raw: { width: texture.width, height: texture.height, channels: 4 },
+        })
+          .png()
+          .toBuffer();
+        const name = `${createHash('sha256').update(png).digest('hex')}.png`;
+        await writeFile(path.join(assetDirectory, name), png);
+        textureUrl = `${assetBaseUrl}/${name}`;
+      }
       if (format === 'unity') {
         const glb = await encodeGlb(geometry);
         const name = `${createHash('sha256').update(glb).digest('hex')}.glb`;
@@ -66,25 +80,31 @@ export async function calibrateCatalogue(
         textureUrl = null;
         portable = true;
       }
-      sources.push({ part, format, sourceBounds, modelUrl, textureUrl, portable });
+      sources.push({ part, format, sourceBounds, modelUrl, textureUrl, portable, factionPalette });
     }
     const authored = bounds(worldPoints);
-    const parts = sources.map(({ part, format, sourceBounds, modelUrl, textureUrl, portable }) => {
-      const scale = part.transforms.scale;
-      const transform = {
-        ...part.transforms,
-        scale: format === 'obj' ? normalizedObjScale(scale, sourceBounds, sources.length) : scale,
-      };
-      return {
-        modelUrl,
-        textureUrl,
-        transforms: transform,
-        previewSource: { modelUrl: part.modelUrl, textureUrl: part.textureUrl },
-        previewTransforms: { ...transform, scale: scale * 2.54 },
-        ...(portable || part.hostedAsset ? { hostedAsset: true } : {}),
-        ...(part.previewGeometryFile ? { previewGeometryFile: part.previewGeometryFile } : {}),
-      };
-    });
+    const flightLift =
+      entry.flightClearanceMm === undefined ? 0 : entry.flightClearanceMm / 10 - authored.min[1];
+    const parts = sources.map(
+      ({ part, format, sourceBounds, modelUrl, textureUrl, portable, factionPalette }) => {
+        const scale = part.transforms.scale;
+        const transform = {
+          ...part.transforms,
+          positionY: part.transforms.positionY + flightLift,
+          scale: format === 'obj' ? normalizedObjScale(scale, sourceBounds, sources.length) : scale,
+        };
+        return {
+          modelUrl,
+          textureUrl,
+          transforms: transform,
+          previewSource: { modelUrl: part.modelUrl, textureUrl: part.textureUrl },
+          previewTransforms: { ...transform, scale: scale * 2.54 },
+          ...(factionPalette ? { factionPalette } : {}),
+          ...(portable || part.hostedAsset ? { hostedAsset: true } : {}),
+          ...(part.previewGeometryFile ? { previewGeometryFile: part.previewGeometryFile } : {}),
+        };
+      },
+    );
     entries.push({ ...entry, calibration: entry.calibration ?? 'windows-cache-v1', parts });
     report.push({
       profileId: entry.profileId,
@@ -101,6 +121,9 @@ export async function calibrateCatalogue(
         apiScale: parts[index].transforms.scale,
         partCount: parts.length,
       })),
+      ...(entry.flightClearanceMm === undefined
+        ? {}
+        : { flightClearanceMm: entry.flightClearanceMm, flightLift }),
       rotations: parts.map(part => [
         part.transforms.rotationX,
         part.transforms.rotationY,

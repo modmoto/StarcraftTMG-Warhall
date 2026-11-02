@@ -1,5 +1,18 @@
 import { spawn } from 'node:child_process';
 import { servers } from './servers.mjs';
+import { fileURLToPath } from 'node:url';
+
+const windowsArgs = (mode, identity) => [
+  '-NoProfile',
+  '-File',
+  fileURLToPath(new URL('../../scripts/windows-model-credential.ps1', import.meta.url)),
+  '-Mode',
+  mode,
+  '-Service',
+  identity.service,
+  '-Username',
+  identity.username,
+];
 
 export const defaultUsername = () => process.env.WARHALL_USERNAME?.trim() || 'modmoto';
 
@@ -20,7 +33,7 @@ export function runPrivate(file, args, { interactive = false } = {}) {
       child.stdout.on('data', chunk => chunks.push(chunk));
       child.stderr.resume();
     }
-    child.once('error', () => reject(new Error('Could not start macOS Keychain access')));
+    child.once('error', () => reject(new Error('Could not start credential store access')));
     child.once('close', code => resolve({ code, output: Buffer.concat(chunks).toString('utf8') }));
   });
 }
@@ -31,6 +44,11 @@ export async function hasSavedPassword(
   { runner = runPrivate, platform = process.platform } = {},
 ) {
   const identity = credentialIdentity(serverUrl, username);
+  if (platform === 'win32') {
+    const result = await runner('powershell.exe', windowsArgs('status', identity));
+    if (result.code > 1) throw new Error('Windows credential store access failed');
+    return result.code === 0;
+  }
   if (platform !== 'darwin') return false;
   const result = await runner('/usr/bin/security', [
     'find-generic-password',
@@ -50,19 +68,22 @@ export async function readSavedPassword(
   const identity = credentialIdentity(serverUrl, username);
   if (!(await hasSavedPassword(identity.server, identity.username, { runner, platform })))
     return null;
-  const result = await runner('/usr/bin/security', [
-    'find-generic-password',
-    '-s',
-    identity.service,
-    '-a',
-    identity.username,
-    '-w',
-  ]);
+  const result =
+    platform === 'win32'
+      ? await runner('powershell.exe', windowsArgs('read', identity))
+      : await runner('/usr/bin/security', [
+          'find-generic-password',
+          '-s',
+          identity.service,
+          '-a',
+          identity.username,
+          '-w',
+        ]);
   if (result.code !== 0)
     throw new Error(
-      'Keychain access was denied. Unlock your keychain or use --login --manual-login in your terminal.',
+      'Credential store access was denied. Unlock your keychain or use --login --manual-login in your terminal.',
     );
-  const password = result.output.replace(/\r?\n$/, '');
+  const password = platform === 'win32' ? result.output : result.output.replace(/\r?\n$/, '');
   if (!password)
     throw new Error('The saved password is empty. Run npm run models:credentials to update it.');
   return password;
@@ -73,8 +94,16 @@ export async function savePassword(
   username,
   { runner = runPrivate, platform = process.platform } = {},
 ) {
-  if (platform !== 'darwin') throw new Error('Saved credentials require macOS Keychain');
   const identity = credentialIdentity(serverUrl, username);
+  if (platform === 'win32') {
+    const result = await runner('powershell.exe', windowsArgs('save', identity), {
+      interactive: true,
+    });
+    if (result.code !== 0)
+      throw new Error('The password was not saved to Windows user-encrypted storage');
+    return;
+  }
+  if (platform !== 'darwin') throw new Error('Saved credentials require macOS or Windows');
   const result = await runner(
     '/usr/bin/security',
     [
@@ -93,4 +122,24 @@ export async function savePassword(
     { interactive: true },
   );
   if (result.code !== 0) throw new Error('The password was not saved to Keychain');
+}
+
+export async function forgetPassword(
+  serverUrl,
+  username,
+  { runner = runPrivate, platform = process.platform } = {},
+) {
+  const identity = credentialIdentity(serverUrl, username);
+  const result =
+    platform === 'win32'
+      ? await runner('powershell.exe', windowsArgs('forget', identity))
+      : await runner('/usr/bin/security', [
+          'delete-generic-password',
+          '-s',
+          identity.service,
+          '-a',
+          identity.username,
+        ]);
+  if (result.code !== 0 && (await hasSavedPassword(serverUrl, username, { runner, platform })))
+    throw new Error('Could not remove the saved credential');
 }

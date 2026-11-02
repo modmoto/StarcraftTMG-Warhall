@@ -4,6 +4,7 @@ import path from 'node:path';
 import { spawnSync } from 'node:child_process';
 import sharp from 'sharp';
 import { projectRoot } from '../paths.mjs';
+import { factionTexture } from './faction-colors.mjs';
 
 const cross = (a, b) => [
   a[1] * b[2] - a[2] * b[1],
@@ -332,5 +333,7 @@ export async function sourceGeometry(
   for (const mesh of geometry)
     mesh.texture =
       externalTexture ?? (mesh.textureFile ? await textureData(mesh.textureFile) : null);
+  if (part.factionPalette)
+    for (const mesh of geometry) mesh.texture = factionTexture(mesh.texture, part.factionPalette);
   return { geometry, format };
 }

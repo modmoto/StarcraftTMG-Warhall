@@ -18,6 +18,6 @@ async function run(script) {
   if (code !== 0) throw new Error('Authentication setup was not completed');
 }
 if (!(await hasSavedPassword(servers.test, username))) await run('manage-model-credentials.mjs');
-else console.log(`Warhall Test already has a Keychain credential for ${username}.`);
+else console.log(`Warhall Test already has an OS-stored credential for ${username}.`);
 await run('setup-github-auth.mjs');
 console.log('Setup complete. The assistant can now test Git push and Warhall upload access.');

@@ -13,16 +13,20 @@ const terrain = await read('terrain-models.json');
 const entries = [];
 for (const selection of [...units.models, ...terrain.models].filter(m => m.status === 'selected')) {
   let profileId = selection.terrainId ?? selection.tokenId;
+  let flying = false;
   if (!profileId) {
     const faction = await read(`Starcraft/${selection.faction}/units.json`);
     const unit = faction.find(unit => unit.Id === selection.unitId);
     if (unit?.BasicProfileIds.length !== 1) throw new Error(`Unknown unit: ${selection.unitName}`);
     [profileId] = unit.BasicProfileIds;
+    flying = /\bFlying\b/.test(unit.Description.split('\n')[0]);
   }
   entries.push({
     profileId,
     name: `Starcraft - ${selection.unitName}`,
     kind: selection.terrainId ? 'terrain' : 'unit',
+    ...(!selection.terrainId ? { faction: selection.faction } : {}),
+    ...(flying ? { flightClearanceMm: 30 } : {}),
     ...(selection.calibration ? { calibration: selection.calibration } : {}),
     parts: [selection.model, ...(selection.attachments ?? [])].map(part => ({
       modelUrl: part.meshUrl,

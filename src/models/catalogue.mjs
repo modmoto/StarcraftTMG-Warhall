@@ -167,7 +167,29 @@ export async function publishCatalogue(
       throw new Error(
         `Creation outcome unknown for ${entry.profileId}; reconcile the saved state with Warhall before retrying`,
       );
-    const knownId = progress?.skinId ?? entry.existingSkinId ?? entry.replacesNativeSkinId;
+    let knownId = progress?.skinId ?? entry.existingSkinId ?? entry.replacesNativeSkinId;
+    // Another publishing machine may have the checkpoint. Reconcile owned shared defaults first.
+    if (!progress && entry.parts?.length && (!knownId || !owned.has(knownId))) {
+      const matches = [
+        ...new Set(
+          usages.result
+            .filter(
+              usage =>
+                usage.profileId === entry.profileId &&
+                Number(usage.gameId) === Number(game.IdGame) &&
+                Number(usage.costumeDefault) === 1 &&
+                !usage.optionNames?.length &&
+                owned.has(Number(usage.skinId)),
+            )
+            .map(usage => Number(usage.skinId)),
+        ),
+      ];
+      assert.ok(
+        matches.length <= 1,
+        `Multiple owned defaults for ${entry.profileId}; reconcile before replacing`,
+      );
+      if (matches.length) knownId = matches[0];
+    }
     if (!entry.parts?.length) {
       assert.ok(knownId, `Native skin reference missing: ${entry.profileId}`);
       if (!exactUsage(entry, knownId)) {

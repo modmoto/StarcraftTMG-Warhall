@@ -62,6 +62,31 @@ test('rejects local URLs and invalid transforms', () => {
   assert.throws(() => transforms({ size: -1 }), /positive/);
 });
 
+test('a fresh publishing machine reconciles the owned shared default before replacement', async () => {
+  const calls = [];
+  const state = {};
+  await publishCatalogue(catalogue, {
+    state,
+    save: async () => {},
+    getThumbnail,
+    replace: true,
+    request: async (endpoint, body) => {
+      calls.push({ endpoint, body });
+      if (endpoint === '/GetMySkinUsages')
+        return {
+          error: 0,
+          result: [
+            { skinId: 12999, profileId: 'marine', gameId: 16, costumeDefault: 1, optionNames: [] },
+          ],
+        };
+      return respond(endpoint);
+    },
+  });
+  assert.equal(calls.find(c => c.endpoint === '/AssignCatalogueSkin').body.mode, 'override');
+  assert.equal(calls.find(c => c.endpoint === '/DeleteMySkin').body.skinId, 12999);
+  assert.equal(state.entries.marine.skinId, 123);
+});
+
 test('multipart payload retains independent attachment transforms', () => {
   const extra = { ...entry.parts[0], transforms: transforms({ size: 2, position: [1, 2, 3] }) };
   const request = skinRequest({ ...entry, parts: [...entry.parts, extra] }, { thumbnailDataUrl });

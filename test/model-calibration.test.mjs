@@ -15,6 +15,19 @@ test('single OBJ scale compensates client normalization while multipart scale re
   assert.equal(normalizedObjScale(legacy, bounds, 2), legacy);
 });
 
+test('current flyers share thirty millimeters of model clearance without changing scale', async () => {
+  const catalogue = await json('model-catalogue.json');
+  const report = await json('model-calibration-report.json');
+  for (const name of ['Raven', 'Point Defense Drone']) {
+    const entry = catalogue.entries.find(e => e.name === `Starcraft - ${name}`);
+    const measurement = report.find(r => r.profileId === entry.profileId);
+    assert.equal(entry.flightClearanceMm, 30);
+    assert.equal(measurement.flightClearanceMm, 30);
+    assert.ok(measurement.flightLift > 0);
+    assert.deepEqual(measurement.correctedSizeMm, measurement.authoredSizeMm);
+  }
+});
+
 test('calibrated terrain keeps every authored translation and rotation, even with old CLI flags', async () => {
   const catalogue = await json('model-catalogue.json');
   const terrain = await json('terrain-models.json');
@@ -80,6 +93,7 @@ test('portable bundle replacements include Adepts and preserve Windows cache dim
 test('all profiles preserve the exact Windows cache rotation and translation', async () => {
   const catalogue = await json('model-catalogue.json');
   const units = await json('model-selections.json');
+  const report = await json('model-calibration-report.json');
   for (const model of units.models) {
     const entry = catalogue.entries.find(entry => entry.name === `Starcraft - ${model.unitName}`);
     for (const [index, source] of [model.model, ...(model.attachments ?? [])].entries()) {
@@ -87,7 +101,13 @@ test('all profiles preserve the exact Windows cache rotation and translation', a
       const target = entry.parts[index].transforms;
       assert.deepEqual(
         [target.positionX, target.positionY, target.positionZ],
-        layout.position ?? [0, 0, 0],
+        (layout.position ?? [0, 0, 0]).map(
+          (value, axis) =>
+            value +
+            (axis === 1
+              ? (report.find(item => item.profileId === entry.profileId)?.flightLift ?? 0)
+              : 0),
+        ),
         model.unitName,
       );
       assert.deepEqual(

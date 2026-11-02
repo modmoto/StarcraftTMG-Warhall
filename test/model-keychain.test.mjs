@@ -57,7 +57,7 @@ test('denied Keychain access does not leak captured output or fall back silently
       }),
     }),
     error => {
-      assert.match(error.message, /Keychain access was denied/);
+      assert.match(error.message, /Credential store access was denied/);
       assert.ok(!error.message.includes('sensitive'));
       return true;
     },
@@ -65,15 +65,31 @@ test('denied Keychain access does not leak captured output or fall back silently
   assert.equal(
     await hasSavedPassword(testServer, 'modmoto', {
       platform: 'win32',
-      runner: () => {
-        throw new Error('must not launch');
-      },
+      runner: async () => ({ code: 1, output: '' }),
     }),
     false,
   );
 });
 test('the private process wrapper suppresses subprocess error details', async () => {
   await assert.rejects(runPrivate('/missing/fixture-program', []), {
-    message: 'Could not start macOS Keychain access',
+    message: 'Could not start credential store access',
   });
+});
+
+test('Windows enrollment uses a hidden OS prompt and reads only through the private pipe', async () => {
+  const calls = [];
+  const runner = async (file, args, options) => {
+    calls.push({ file, args, options });
+    return { code: 0, output: args.includes('read') ? ' fixture secret ' : '' };
+  };
+  await savePassword(testServer, 'modmoto', { platform: 'win32', runner });
+  assert.equal(calls[0].file, 'powershell.exe');
+  assert.deepEqual(calls[0].options, { interactive: true });
+  assert.ok(calls[0].args.includes('save'));
+  assert.equal(
+    await readSavedPassword(testServer, 'modmoto', { platform: 'win32', runner }),
+    ' fixture secret ',
+  );
+  assert.ok(calls.at(-1).args.includes('read'));
+  assert.ok(calls.every(call => !call.args.includes(' fixture secret ')));
 });

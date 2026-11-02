@@ -2,7 +2,14 @@ export async function verifyHostedAssets(catalogue, fetcher = fetch) {
   const urls = [
     ...new Set(
       catalogue.entries.flatMap(entry =>
-        (entry.parts ?? []).filter(part => part.hostedAsset).map(part => part.modelUrl),
+        (entry.parts ?? []).flatMap(part => [
+          ...(part.hostedAsset ? [part.modelUrl] : []),
+          ...(part.textureUrl?.startsWith(
+            'https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/',
+          )
+            ? [part.textureUrl]
+            : []),
+        ]),
       ),
     ),
   ];

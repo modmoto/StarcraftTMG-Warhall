@@ -22,6 +22,20 @@ function execute(file, args, { interactive = false } = {}) {
     );
   });
 }
+if (process.platform === 'win32') {
+  if (!process.stdin.isTTY) throw new Error('Run npm run auth:github in your own terminal.');
+  const available = await execute('git', ['credential-manager', '--version']);
+  if (available.code !== 0)
+    throw new Error('Install Git for Windows with Git Credential Manager, then retry.');
+  const login = await execute('git', ['credential-manager', 'github', 'login'], {
+    interactive: true,
+  });
+  if (login.code !== 0) throw new Error('GitHub browser sign-in was not completed');
+  const configured = await execute('git', ['config', '--local', 'credential.helper', 'manager']);
+  if (configured.code !== 0) throw new Error('Could not configure Git Credential Manager');
+  console.log('GitHub authentication configured using Git for Windows Credential Manager.');
+  process.exit(0);
+}
 const directory = path.join(projectRoot, '.cache', 'github-cli');
 const gh = path.join(directory, 'gh');
 try {
