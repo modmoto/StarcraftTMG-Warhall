@@ -5,6 +5,7 @@ import { projectRoot } from '../paths.mjs';
 import { sourceGeometry } from './render-thumbnail.mjs';
 import { encodeGlb } from './portable-glb.mjs';
 import sharp from 'sharp';
+import { factionHues } from './faction-colors.mjs';
 
 export function transformPoint(point, transform) {
   let [x, y, z] = point.map(value => value * transform.scale);
@@ -51,7 +52,8 @@ export async function calibrateCatalogue(
     const sources = [];
     const worldPoints = [];
     for (const part of entry.parts) {
-      const factionPalette = entry.kind === 'unit' ? entry.faction : undefined;
+      const factionPalette =
+        entry.kind === 'unit' && entry.faction in factionHues ? entry.faction : undefined;
       const { geometry, format } = await sourceGeometry({ ...part, factionPalette });
       const sourceBounds = bounds(geometry.flatMap(mesh => mesh.vertices));
       const worldTransform = { ...part.transforms, scale: part.transforms.scale * 2.54 };

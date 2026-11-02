@@ -1,10 +1,10 @@
 # Shared faction materials and flight height
 
-Unit skins use blue Terran (hue 220°), yellow/gold Protoss (48°) and purple Zerg (280°). The catalogue builder recolors chromatic texture pixels while retaining brightness, saturation, transparency and neutral details. Dark pixels below value 20/255 and low-saturation pixels below 22% remain unchanged. This also covers weapons, attachments and embedded Unity-prefab materials. Terrain and scenario markers keep their existing materials.
+Unit skins use blue Terran (hue 220°) and yellow/gold Protoss (48°). Zerg retain their original source textures and embedded materials. The catalogue builder recolors chromatic texture pixels while retaining brightness, saturation, transparency and neutral details. Dark pixels below value 20/255 and low-saturation pixels below 22% remain unchanged. This also covers weapons, attachments and embedded Unity-prefab materials. Terrain and scenario markers keep their existing materials.
 
 `npm run models:catalogue` writes content-addressed PNG textures and portable GLBs into `model-assets/`. Original source URLs remain unchanged in `model-selections.json`. Previews use the same palette transformation. Regeneration is deterministic, and remote skins use hosted HTTPS assets rather than client-cache patches.
 
-Units whose WDS Categories include `Flying` receive a shared 150 mm clearance from the base plane to the lowest point of the complete model assembly. The builder derives one vertical lift for all parts after their authored scale/rotation/offsets, preserving assembly geometry and dimensions. New flying units inherit this rule automatically. Raven and Point Defense Drone are the current flyers. This is a visual skin offset, not an elevated collision surface or gameplay measurement change.
+Units whose WDS Categories include `Flying` receive a shared 150 mm clearance from the base plane to the lowest point of the complete model assembly. The builder derives one vertical lift for all parts after their authored scale/rotation/offsets, preserving assembly geometry and dimensions. New flying units inherit this rule automatically. Raven currently uses this height. Point Defense Drone has the Flying category but uses an explicit lower clearance of 50 mm. This is a visual skin offset, not an elevated collision surface or gameplay measurement change.
 
 After reviewing previews and running checks, push assets before publishing only units:
 

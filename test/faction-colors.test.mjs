@@ -11,7 +11,6 @@ test('faction palettes unify colored pixels while preserving neutral shading and
   for (const [faction, dominant] of [
     ['Terran', 2],
     ['Protoss', 0],
-    ['Zerg', 2],
   ]) {
     const result = factionTexture(original, faction);
     assert.equal(Math.max(...result.data.subarray(0, 3)), 200);

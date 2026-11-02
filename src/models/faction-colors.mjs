@@ -1,5 +1,5 @@
 // Keep neutral pixels and original value/saturation; unify chromatic material hues.
-export const factionHues = { Terran: 220, Protoss: 48, Zerg: 280 };
+export const factionHues = { Terran: 220, Protoss: 48 };
 
 export function factionTexture(texture, faction) {
   if (!texture) return null;

@@ -15,10 +15,22 @@ test('single OBJ scale compensates client normalization while multipart scale re
   assert.equal(normalizedObjScale(legacy, bounds, 2), legacy);
 });
 
+test('Zerg retain source materials while Terran and Protoss use faction palettes', async () => {
+  const catalogue = await json('model-catalogue.json');
+  for (const entry of catalogue.entries.filter(e => e.kind === 'unit')) {
+    for (const part of entry.parts) {
+      if (entry.faction === 'Zerg') {
+        assert.equal(part.factionPalette, undefined);
+        if (!part.hostedAsset) assert.equal(part.textureUrl, part.previewSource.textureUrl);
+      } else assert.equal(part.factionPalette, entry.faction);
+    }
+  }
+});
+
 test('current flyers share 150 millimeters of model clearance without changing scale', async () => {
   const catalogue = await json('model-catalogue.json');
   const report = await json('model-calibration-report.json');
-  for (const name of ['Raven', 'Point Defense Drone']) {
+  for (const name of ['Raven']) {
     const entry = catalogue.entries.find(e => e.name === `Starcraft - ${name}`);
     const measurement = report.find(r => r.profileId === entry.profileId);
     assert.equal(entry.flightClearanceMm, 150);
@@ -26,6 +38,9 @@ test('current flyers share 150 millimeters of model clearance without changing s
     assert.ok(measurement.flightLift > 0);
     assert.deepEqual(measurement.correctedSizeMm, measurement.authoredSizeMm);
   }
+  const drone = catalogue.entries.find(e => e.name === 'Starcraft - Point Defense Drone');
+  assert.equal(drone.flightClearanceMm, 50);
+  assert.equal(report.find(r => r.profileId === drone.profileId).flightClearanceMm, 50);
 });
 
 test('calibrated terrain keeps every authored translation and rotation, even with old CLI flags', async () => {
