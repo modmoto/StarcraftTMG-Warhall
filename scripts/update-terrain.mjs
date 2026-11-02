@@ -1,3 +1,4 @@
+import { modelAssetBaseUrl } from '../src/channel.mjs';
 import assert from 'node:assert/strict';
 import { builtinTerrains } from '../src/terrain/native.mjs';
 import { terrainMenuId } from '../src/models/menu-ids.mjs';
@@ -107,7 +108,7 @@ for (const asset of source.assets.filter(asset => !aliases[asset.id])) {
     calibration: 'pdf-grid-v1',
     sourcePartCount: parts.length,
     model: {
-      meshUrl: `https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/${file}`,
+      meshUrl: `${modelAssetBaseUrl}/${file}`,
       textureUrl: null,
       hostedAsset: true,
       previewGeometryFile,

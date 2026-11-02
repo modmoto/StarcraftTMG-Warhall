@@ -103,7 +103,8 @@ def face(file, number, page, box, rotate=0):
     digest = hashlib.sha256(crop.tobytes()).hexdigest()[:24]
     name = f'{digest}.png'
     crop.convert('RGB').save(ASSETS/name, optimize=True)
-    return f'https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft/assets/cards/{name}'
+    branch = 'test' if '/test/Starcraft/' in read('Starcraft/version.json')['url'] else 'main'
+    return f'https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/{branch}/Starcraft/assets/cards/{name}'
 
 cards = {}
 groups = {}

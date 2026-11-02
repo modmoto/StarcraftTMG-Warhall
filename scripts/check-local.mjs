@@ -1,3 +1,4 @@
+import { manifestUrl } from '../src/channel.mjs';
 import assert from 'node:assert/strict';
 import { readFile } from 'node:fs/promises';
 import { spawnSync } from 'node:child_process';
@@ -14,11 +15,7 @@ assert.equal(
   data['manifest.json'].version,
   'Release versions differ',
 );
-assert.equal(
-  data['version.json'].url,
-  'https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft/manifest.json',
-  'Unexpected update manifest URL',
-);
+assert.equal(data['version.json'].url, manifestUrl, 'Unexpected update manifest URL');
 for (const [name, value] of Object.entries({ ...data, 'import-report.json': report })) {
   const actual = await readFile(path.join(defaultDataDirectory, name));
   const expected = Buffer.from(`${JSON.stringify(value, null, 2)}\n`, 'utf8');

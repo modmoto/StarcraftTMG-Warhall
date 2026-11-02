@@ -25,7 +25,11 @@
     "models:repair": "node scripts/repair-model-transforms.mjs",
     "models:menus": "node scripts/sync-menu-bindings.mjs",
     "tokens:update": "node scripts/update-tokens.mjs",
-    "tokens:check": "node scripts/update-tokens.mjs --check"
+    "tokens:check": "node scripts/update-tokens.mjs --check",
+    "channel:prepare": "node scripts/prepare-channel.mjs",
+    "release:context": "node scripts/release-notes-context.mjs",
+    "release:stage": "node scripts/wave-release.mjs stage",
+    "release:promote": "node scripts/wave-release.mjs promote"
   },
   "engines": {
     "node": ">=22.13.0"

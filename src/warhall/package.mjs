@@ -1,3 +1,4 @@
+import { manifestUrl } from '../channel.mjs';
 import path from 'node:path';
 import { readJson, writeJson } from '../io.mjs';
 import { defaultDataDirectory } from '../paths.mjs';
@@ -220,6 +221,7 @@ export async function buildWarhallPackage(source, template = defaultDataDirector
   const previousManifest = await readJson(path.join(template, 'manifest.json'));
   data['manifest.json'] = { version: previousManifest.version, files: Object.keys(data).sort() };
   data['version.json'].version = previousManifest.version;
+  data['version.json'].url = manifestUrl;
   report.counts = { factions: source.factions.length, units: report.units.length };
 
   validateData(data);

@@ -1,3 +1,4 @@
+import { modelAssetBaseUrl } from '../channel.mjs';
 import sharp from 'sharp';
 import { mkdir, writeFile } from 'node:fs/promises';
 import { createHash } from 'node:crypto';
@@ -163,7 +164,7 @@ export function createMarkerGeometry({ color }) {
 }
 export async function createMarkerAssets({
   directory = path.join(projectRoot, 'model-assets'),
-  baseUrl = 'https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets',
+  baseUrl = modelAssetBaseUrl,
 } = {}) {
   await mkdir(directory, { recursive: true });
   const result = [];

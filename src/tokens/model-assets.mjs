@@ -1,3 +1,4 @@
+import { modelAssetBaseUrl } from '../channel.mjs';
 import { mkdir, readFile, writeFile } from 'node:fs/promises';
 import { createHash } from 'node:crypto';
 import path from 'node:path';
@@ -85,7 +86,7 @@ export async function createTokenAssets() {
       tokenDiameterMm,
       parts: [
         {
-          modelUrl: `https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/${filename}`,
+          modelUrl: `${modelAssetBaseUrl}/${filename}`,
           textureUrl: null,
           hostedAsset: true,
           transforms,

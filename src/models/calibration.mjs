@@ -1,3 +1,4 @@
+import { modelAssetBaseUrl } from '../channel.mjs';
 import { mkdir, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 import { createHash } from 'node:crypto';
@@ -38,7 +39,7 @@ export async function calibrateCatalogue(
   catalogue,
   {
     assetDirectory = path.join(projectRoot, 'model-assets'),
-    assetBaseUrl = 'https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets',
+    assetBaseUrl = modelAssetBaseUrl,
   } = {},
 ) {
   await mkdir(assetDirectory, { recursive: true });

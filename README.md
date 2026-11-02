@@ -254,3 +254,5 @@ Warhall logins default to `modmoto`. Run `npm run auth:setup` once in your termi
 Mission markers now use five shared skins: red 1/3, blue 2/4 and green 5. The range ring and sci-fi rails are actual open geometry, with digital numerals in the center and no filled backdrop. This avoids the tinted transparent-plane artifact. Measurement stays on the 32 mm footprint; deployment positions are preserved. Publish with `--kind marker` after pushing the generated files.
 
 Single-sided activation, faction and status tokens are available in the **Tokens** menu. See [the token setup and regeneration notes](docs/tokens.md). Faction dropdown logos are supplied through `icons.json`.
+
+Wave updates are staged on `test` and promoted to `main` only after playtesting. Say “do wave 4” to prepare a beta, then “release wave 4” to publish the tested build. See [the release workflow](docs/releases.md).

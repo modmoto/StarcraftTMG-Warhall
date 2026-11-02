@@ -1,3 +1,4 @@
+import { modelAssetBaseUrl } from '../channel.mjs';
 import sharp from 'sharp';
 import { accents } from './marker-assets.mjs';
 import { mkdir, writeFile } from 'node:fs/promises';
@@ -134,7 +135,7 @@ export async function createDeploymentAssets(templates) {
       calibration: 'deployment-centimeters-v1',
       parts: [
         {
-          modelUrl: `https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/${file}`,
+          modelUrl: `${modelAssetBaseUrl}/${file}`,
           textureUrl: null,
           hostedAsset: true,
           transforms,
