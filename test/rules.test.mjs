@@ -285,8 +285,8 @@ test('full-width weapon keywords link complete labels and rules precede every we
       );
       assert.ok(!children.some(child => child.Description === '<b>Any Phase</b>'));
       for (const keyword of children.filter(child => child.Id.endsWith('_keywords'))) {
-        assert.equal(keyword.Type, '');
-        assert.equal(keyword.Name, '');
+        assert.equal(keyword.Type, 'Imported');
+        assert.equal(keyword.Name, `<color=#ffffff>${keyword.Description}</color>`);
         assert.ok(!keyword.Description.includes('\n'));
         assert.ok(children[children.indexOf(keyword) - 1].Id.endsWith('_table'));
       }

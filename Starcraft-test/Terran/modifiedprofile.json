@@ -8,10 +8,10 @@
         "Id": "pdf_Terran_equipment_goliath_default_1_slot",
         "Ref": [
           {
-            "Id": "pdf_Terran_equipment_goliath_default_1_body",
+            "Id": "pdf_Terran_equipment_goliath_default_1_keyword_row",
             "Ref": [
               {
-                "Id": "pdf_Terran_equipment_goliath_default_1_table"
+                "Id": "pdf_Terran_equipment_goliath_default_1_keywords"
               }
             ]
           }
@@ -21,10 +21,10 @@
         "Id": "pdf_Terran_equipment_goliath_default_2_slot",
         "Ref": [
           {
-            "Id": "pdf_Terran_equipment_goliath_default_2_body",
+            "Id": "pdf_Terran_equipment_goliath_default_2_keyword_row",
             "Ref": [
               {
-                "Id": "pdf_Terran_equipment_goliath_default_2_table"
+                "Id": "pdf_Terran_equipment_goliath_default_2_keywords"
               }
             ]
           }
@@ -44,10 +44,10 @@
         "Id": "pdf_Terran_equipment_goliath_default_1_slot",
         "Ref": [
           {
-            "Id": "pdf_Terran_equipment_goliath_default_1_body",
+            "Id": "pdf_Terran_equipment_goliath_default_1_keyword_row",
             "Ref": [
               {
-                "Id": "pdf_Terran_rule_goliath_upgrade_any_phase_ares_class_targeting_system_effect_0_table"
+                "Id": "pdf_Terran_rule_goliath_upgrade_any_phase_ares_class_targeting_system_effect_0_keywords"
               }
             ]
           }
@@ -57,10 +57,10 @@
         "Id": "pdf_Terran_equipment_goliath_default_2_slot",
         "Ref": [
           {
-            "Id": "pdf_Terran_equipment_goliath_default_2_body",
+            "Id": "pdf_Terran_equipment_goliath_default_2_keyword_row",
             "Ref": [
               {
-                "Id": "pdf_Terran_rule_goliath_upgrade_any_phase_ares_class_targeting_system_effect_1_table"
+                "Id": "pdf_Terran_rule_goliath_upgrade_any_phase_ares_class_targeting_system_effect_1_keywords"
               }
             ]
           }
@@ -91,6 +91,25 @@
             ]
           }
         ]
+      },
+      {
+        "Id": "pdf_Terran_equipment_goliath_default_3_slot",
+        "Ref": [
+          {
+            "Id": "pdf_Terran_equipment_goliath_default_3_keyword_row",
+            "Ref": [
+              {
+                "Id": "pdf_Terran_equipment_goliath_default_3_keywords"
+              },
+              {
+                "Id": "pdf_Terran_equipment_goliath_upgrade_1_keywords"
+              },
+              {
+                "Id": "pdf_Terran_equipment_goliath_upgrade_2_keywords"
+              }
+            ]
+          }
+        ]
       }
     ],
     "ReferencedItemsToAdd": [
@@ -110,6 +129,19 @@
             "Ref": [
               {
                 "Id": "pdf_Terran_equipment_goliath_upgrade_2_table"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Id": "pdf_Terran_equipment_goliath_default_3_slot",
+        "Ref": [
+          {
+            "Id": "pdf_Terran_equipment_goliath_default_3_keyword_row",
+            "Ref": [
+              {
+                "Id": "pdf_Terran_equipment_goliath_upgrade_2_keywords"
               }
             ]
           }
@@ -140,6 +172,25 @@
             ]
           }
         ]
+      },
+      {
+        "Id": "pdf_Terran_equipment_goliath_default_3_slot",
+        "Ref": [
+          {
+            "Id": "pdf_Terran_equipment_goliath_default_3_keyword_row",
+            "Ref": [
+              {
+                "Id": "pdf_Terran_equipment_goliath_default_3_keywords"
+              },
+              {
+                "Id": "pdf_Terran_equipment_goliath_upgrade_1_keywords"
+              },
+              {
+                "Id": "pdf_Terran_equipment_goliath_upgrade_2_keywords"
+              }
+            ]
+          }
+        ]
       }
     ],
     "ReferencedItemsToAdd": [
@@ -159,6 +210,19 @@
             "Ref": [
               {
                 "Id": "pdf_Terran_equipment_goliath_upgrade_1_table"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Id": "pdf_Terran_equipment_goliath_default_3_slot",
+        "Ref": [
+          {
+            "Id": "pdf_Terran_equipment_goliath_default_3_keyword_row",
+            "Ref": [
+              {
+                "Id": "pdf_Terran_equipment_goliath_upgrade_1_keywords"
               }
             ]
           }
@@ -186,6 +250,22 @@
             ]
           }
         ]
+      },
+      {
+        "Id": "pdf_Terran_equipment_jim_raynor_default_2_slot",
+        "Ref": [
+          {
+            "Id": "pdf_Terran_equipment_jim_raynor_default_2_keyword_row",
+            "Ref": [
+              {
+                "Id": "pdf_Terran_equipment_jim_raynor_default_2_keywords"
+              },
+              {
+                "Id": "pdf_Terran_equipment_jim_raynor_upgrade_0_keywords"
+              }
+            ]
+          }
+        ]
       }
     ],
     "ReferencedItemsToAdd": [
@@ -205,6 +285,19 @@
             "Ref": [
               {
                 "Id": "pdf_Terran_equipment_jim_raynor_upgrade_0_table"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Id": "pdf_Terran_equipment_jim_raynor_default_2_slot",
+        "Ref": [
+          {
+            "Id": "pdf_Terran_equipment_jim_raynor_default_2_keyword_row",
+            "Ref": [
+              {
+                "Id": "pdf_Terran_equipment_jim_raynor_upgrade_0_keywords"
               }
             ]
           }
@@ -254,10 +347,10 @@
         "Id": "pdf_Terran_equipment_marauders_default_1_slot",
         "Ref": [
           {
-            "Id": "pdf_Terran_equipment_marauders_default_1_body",
+            "Id": "pdf_Terran_equipment_marauders_default_1_keyword_row",
             "Ref": [
               {
-                "Id": "pdf_Terran_equipment_marauders_default_1_table"
+                "Id": "pdf_Terran_equipment_marauders_default_1_keywords"
               }
             ]
           }
@@ -277,10 +370,10 @@
         "Id": "pdf_Terran_equipment_marauders_default_1_slot",
         "Ref": [
           {
-            "Id": "pdf_Terran_equipment_marauders_default_1_body",
+            "Id": "pdf_Terran_equipment_marauders_default_1_keyword_row",
             "Ref": [
               {
-                "Id": "pdf_Terran_rule_marauders_upgrade_assault_phase_laser_targeting_systems_effect_0_table"
+                "Id": "pdf_Terran_rule_marauders_upgrade_assault_phase_laser_targeting_systems_effect_0_keywords"
               }
             ]
           }
@@ -543,6 +636,9 @@
         "Ref": [
           {
             "Id": "pdf_Terran_equipment_marines_upgrade_1_table"
+          },
+          {
+            "Id": "pdf_Terran_equipment_marines_upgrade_1_keywords"
           }
         ]
       }
@@ -672,6 +768,9 @@
         "Ref": [
           {
             "Id": "pdf_Terran_equipment_marines_upgrade_2_table"
+          },
+          {
+            "Id": "pdf_Terran_equipment_marines_upgrade_2_keywords"
           }
         ]
       }
@@ -695,7 +794,12 @@
         "Id": "pdf_Terran_equipment_marines_default_1_slot",
         "Ref": [
           {
-            "Id": "pdf_Terran_rule_marines_upgrade_assault_phase_slugthrower_effect_0"
+            "Id": "pdf_Terran_equipment_marines_default_1_keyword_row",
+            "Ref": [
+              {
+                "Id": "pdf_Terran_rule_marines_upgrade_assault_phase_slugthrower_effect_0"
+              }
+            ]
           }
         ]
       }

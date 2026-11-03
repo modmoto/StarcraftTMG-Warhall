@@ -77,6 +77,18 @@ export function textContainer(records, id, children = []) {
   return id;
 }
 
+// Imported rows share one client text group and accept explicit links in their labels.
+export function weaponKeywordRow(records, id, text) {
+  records.rules.set(id, {
+    Id: id,
+    Name: `<color=#ffffff>${text}</color>`,
+    Type: 'Imported',
+    Description: text,
+    Children: [],
+  });
+  return id;
+}
+
 export function weaponRows(
   profile,
   id,
@@ -88,16 +100,14 @@ export function weaponRows(
   const heading = `<b>${profile.name}</b>`;
   const keywords = weaponKeywords(profile.attributes.Keyword, glossary, baseline.Keyword);
   textRow(records, `${id}_heading`, heading);
-  if (keywords) textRow(records, `${id}_keywords`, keywords);
-  const separateKeywords = profile.name.toUpperCase() === 'GLAIVE CANNON';
+  if (keywords) weaponKeywordRow(records, `${id}_keywords`, keywords);
   const sections = [
     phase && `<b>${phase}</b>`,
     heading,
     weaponTable(profile.attributes, baseline, profile.conditionalSurge, profile.conditionalRoa),
-    !separateKeywords && keywords,
   ];
   const table = textRow(records, `${id}_table`, sections.filter(Boolean).join('\n'));
-  return separateKeywords && keywords ? [table, `${id}_keywords`] : [table];
+  return keywords ? [table, `${id}_keywords`] : [table];
 }
 
 export function weaponKeywords(text, glossary, baseline = text) {
@@ -135,9 +145,12 @@ export function profileChildren(unit, ids, references, records, glossary) {
     const group = groups.get(phase);
     if (!group) throw new Error(`Unknown display phase: ${unit.name}/${phase}`);
     const rows = weaponRows(profile, id, records, glossary, group.length ? '' : phase);
-    if (profile.name.toUpperCase() === 'GLAIVE CANNON')
-      rows[0] = textContainer(records, `${id}_stats_row`, [rows[0]]);
-    group.push(textContainer(records, `${id}_slot`, [textContainer(records, `${id}_body`, rows)]));
+    group.push(
+      textContainer(records, `${id}_slot`, [
+        textContainer(records, `${id}_body`, rows.slice(0, 1)),
+        textContainer(records, `${id}_keyword_row`, rows.slice(1)),
+      ]),
+    );
   }
   const children = [
     { Id: textContainer(records, `${ids.profile}_stats`, [ids.statline]) },

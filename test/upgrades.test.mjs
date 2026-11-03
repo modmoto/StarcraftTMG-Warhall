@@ -332,3 +332,17 @@ test('Marine specialist choices retain the rifle and each selected specialist', 
   assert.ok(weapons(profile).includes('ROCKET LAUNCHER'));
   assert.ok(weapons(profile).includes('AGG-12'));
 });
+
+test('each Immortal weapon groups default and conditional keywords with original rule links', () => {
+  const profile = unitProfile('Immortal', ['For The Ancients', 'Fury Unyielding']);
+  const groups = profile.filter(
+    row => row.Id.endsWith('_keyword_row') && row.Children.length === 3,
+  );
+  assert.equal(groups.length, 2);
+  for (const group of groups) {
+    assert.ok(group.Children.every(row => row.Type === 'Imported'));
+    assert.match(group.Children[0].Name, /CONCENTRATED FIRE/);
+    assert.match(group.Children[1].Name, /<link="[^"]*for_the_ancients">/);
+    assert.match(group.Children[2].Name, /<link="[^"]*fury_unyielding">/);
+  }
+});

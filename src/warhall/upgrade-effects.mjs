@@ -1,4 +1,4 @@
-import { textRow, weaponRows } from './presentation.mjs';
+import { textRow, weaponRows, weaponKeywordRow } from './presentation.mjs';
 
 export const upgradeBlue = '#2596be';
 export const conditionalGreen = '#65c879';
@@ -216,23 +216,20 @@ export function applyUpgradeEffects(
         phase,
         effect.weapon.attributes,
       );
-      const keywordOnly = clean(effect.weapon.name) === 'glaivecannon' && effect.keyword;
-      const suffix = keywordOnly ? '_keywords' : '_table';
-      const changedRows =
-        clean(effect.weapon.name) === 'glaivecannon'
-          ? rows.filter(row => row.endsWith(suffix))
-          : rows;
-      const inBody = refs => ({
-        Id: `${oldId}_slot`,
-        Ref: [
-          {
-            Id: `${oldId}_body`,
-            Ref: effect.conditionalRoa ? [{ Id: `${oldId}_stats_row`, Ref: refs }] : refs,
-          },
-        ],
-      });
-      remove.push(inBody([{ Id: `${oldId}${suffix}` }]));
-      add.push(inBody(changedRows.map(Id => ({ Id }))));
+      const tableOnly = effect.conditionalRoa || effect.conditionalSurge;
+      const groups = [
+        !effect.keyword && [`${oldId}_body`, `${oldId}_table`, rows.slice(0, 1)],
+        !tableOnly && [`${oldId}_keyword_row`, `${oldId}_keywords`, rows.slice(1)],
+      ].filter(Boolean);
+      for (const [group, original, replacements] of groups) {
+        if (records.rules.has(original))
+          remove.push({ Id: `${oldId}_slot`, Ref: [{ Id: group, Ref: [{ Id: original }] }] });
+        if (replacements.length)
+          add.push({
+            Id: `${oldId}_slot`,
+            Ref: [{ Id: group, Ref: replacements.map(Id => ({ Id })) }],
+          });
+      }
     } else if (effect.kind === 'ability') {
       const original = unit.profiles.find(rule => clean(rule.name) === clean(effect.name));
       const oldId = defaults[unit.profiles.indexOf(original)];
@@ -255,7 +252,9 @@ export function applyUpgradeEffects(
       );
       if (label) {
         const [, color, name] = label;
-        textRow(records, id, `<u><link="${recordId}"><color=${color}>${name}</color></link></u>`);
+        const link = `<u><link="${recordId}"><color=${color}>${name}</color></link></u>`;
+        if (effect.kind === 'weaponNote') weaponKeywordRow(records, id, link);
+        else textRow(records, id, link);
       } else {
         const text = effect.text.replace(
           /<color=#65c879>.*?<\/color>/g,
@@ -267,7 +266,7 @@ export function applyUpgradeEffects(
         const weaponId = defaults[unit.profiles.indexOf(effect.weapon)];
         add.push({
           Id: `${weaponId}_slot`,
-          Ref: [{ Id: id }],
+          Ref: [{ Id: `${weaponId}_keyword_row`, Ref: [{ Id: id }] }],
         });
       } else add.push({ Id: `${ids.profile}_selected_options`, Ref: [{ Id: id }] });
     }

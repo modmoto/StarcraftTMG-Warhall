@@ -18,9 +18,20 @@
     "Children": []
   },
   {
-    "Id": "pdf_Terran_equipment_auto_turret_default_1_keywords",
+    "Id": "pdf_Terran_equipment_auto_turret_default_1_keyword_row",
     "Name": "",
-    "Type": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Terran_equipment_auto_turret_default_1_keywords"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Terran_equipment_auto_turret_default_1_keywords",
+    "Name": "<color=#ffffff><u><link=\"rule_keyword_pinpoint\">PINPOINT</link></u></color>",
+    "Type": "Imported",
     "Description": "<u><link=\"rule_keyword_pinpoint\">PINPOINT</link></u>",
     "Children": []
   },
@@ -32,6 +43,9 @@
     "Children": [
       {
         "Id": "pdf_Terran_equipment_auto_turret_default_1_body"
+      },
+      {
+        "Id": "pdf_Terran_equipment_auto_turret_default_1_keyword_row"
       }
     ]
   },
@@ -39,7 +53,7 @@
     "Id": "pdf_Terran_equipment_auto_turret_default_1_table",
     "Name": "",
     "Type": "",
-    "Description": "<b>Assault Phase</b>\n<b>GAUSS CANNON</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>8</nobr><pos=14%><nobr>All</nobr><pos=32%><nobr>6</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align>\n<u><link=\"rule_keyword_pinpoint\">PINPOINT</link></u>",
+    "Description": "<b>Assault Phase</b>\n<b>GAUSS CANNON</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>8</nobr><pos=14%><nobr>All</nobr><pos=32%><nobr>6</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align>",
     "Children": []
   },
   {
@@ -61,9 +75,20 @@
     "Children": []
   },
   {
-    "Id": "pdf_Terran_equipment_goliath_default_1_keywords",
+    "Id": "pdf_Terran_equipment_goliath_default_1_keyword_row",
     "Name": "",
-    "Type": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Terran_equipment_goliath_default_1_keywords"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Terran_equipment_goliath_default_1_keywords",
+    "Name": "<color=#ffffff><u><link=\"rule_keyword_long_range\">LONG RANGE (18\")</link></u></color>",
+    "Type": "Imported",
     "Description": "<u><link=\"rule_keyword_long_range\">LONG RANGE (18\")</link></u>",
     "Children": []
   },
@@ -75,6 +100,9 @@
     "Children": [
       {
         "Id": "pdf_Terran_equipment_goliath_default_1_body"
+      },
+      {
+        "Id": "pdf_Terran_equipment_goliath_default_1_keyword_row"
       }
     ]
   },
@@ -82,7 +110,7 @@
     "Id": "pdf_Terran_equipment_goliath_default_1_table",
     "Name": "",
     "Type": "",
-    "Description": "<b>Assault Phase</b>\n<b>AUTOCANNON</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>12</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>9</nobr><pos=46%><nobr>4+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align>\n<u><link=\"rule_keyword_long_range\">LONG RANGE (18\")</link></u>",
+    "Description": "<b>Assault Phase</b>\n<b>AUTOCANNON</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>12</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>9</nobr><pos=46%><nobr>4+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align>",
     "Children": []
   },
   {
@@ -104,9 +132,20 @@
     "Children": []
   },
   {
-    "Id": "pdf_Terran_equipment_goliath_default_2_keywords",
+    "Id": "pdf_Terran_equipment_goliath_default_2_keyword_row",
     "Name": "",
-    "Type": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Terran_equipment_goliath_default_2_keywords"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Terran_equipment_goliath_default_2_keywords",
+    "Name": "<color=#ffffff><u><link=\"rule_keyword_pinpoint\">PINPOINT</link></u>, <u><link=\"rule_keyword_sidearm\">SIDEARM</link></u></color>",
+    "Type": "Imported",
     "Description": "<u><link=\"rule_keyword_pinpoint\">PINPOINT</link></u>, <u><link=\"rule_keyword_sidearm\">SIDEARM</link></u>",
     "Children": []
   },
@@ -118,6 +157,9 @@
     "Children": [
       {
         "Id": "pdf_Terran_equipment_goliath_default_2_body"
+      },
+      {
+        "Id": "pdf_Terran_equipment_goliath_default_2_keyword_row"
       }
     ]
   },
@@ -125,7 +167,7 @@
     "Id": "pdf_Terran_equipment_goliath_default_2_table",
     "Name": "",
     "Type": "",
-    "Description": "<b>UNDERBELLY MACHINE GUN</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>8</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>6</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>Light (D3)</nobr><pos=86%><nobr>1</nobr></b></size></align>\n<u><link=\"rule_keyword_pinpoint\">PINPOINT</link></u>, <u><link=\"rule_keyword_sidearm\">SIDEARM</link></u>",
+    "Description": "<b>UNDERBELLY MACHINE GUN</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>8</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>6</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>Light (D3)</nobr><pos=86%><nobr>1</nobr></b></size></align>",
     "Children": []
   },
   {
@@ -147,9 +189,20 @@
     "Children": []
   },
   {
-    "Id": "pdf_Terran_equipment_goliath_default_3_keywords",
+    "Id": "pdf_Terran_equipment_goliath_default_3_keyword_row",
     "Name": "",
-    "Type": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Terran_equipment_goliath_default_3_keywords"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Terran_equipment_goliath_default_3_keywords",
+    "Name": "<color=#ffffff><u><link=\"rule_keyword_anti_evade\">ANTI-EVADE (1)</link></u>, <u><link=\"rule_keyword_sidearm\">SIDEARM</link></u></color>",
+    "Type": "Imported",
     "Description": "<u><link=\"rule_keyword_anti_evade\">ANTI-EVADE (1)</link></u>, <u><link=\"rule_keyword_sidearm\">SIDEARM</link></u>",
     "Children": []
   },
@@ -161,6 +214,9 @@
     "Children": [
       {
         "Id": "pdf_Terran_equipment_goliath_default_3_body"
+      },
+      {
+        "Id": "pdf_Terran_equipment_goliath_default_3_keyword_row"
       }
     ]
   },
@@ -168,7 +224,7 @@
     "Id": "pdf_Terran_equipment_goliath_default_3_table",
     "Name": "",
     "Type": "",
-    "Description": "<b>HELLFIRE MISSILES</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>16</nobr><pos=14%><nobr>Air</nobr><pos=32%><nobr>6</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>Light (D3)</nobr><pos=86%><nobr>1</nobr></b></size></align>\n<u><link=\"rule_keyword_anti_evade\">ANTI-EVADE (1)</link></u>, <u><link=\"rule_keyword_sidearm\">SIDEARM</link></u>",
+    "Description": "<b>HELLFIRE MISSILES</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>16</nobr><pos=14%><nobr>Air</nobr><pos=32%><nobr>6</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>Light (D3)</nobr><pos=86%><nobr>1</nobr></b></size></align>",
     "Children": []
   },
   {
@@ -190,6 +246,13 @@
     "Children": []
   },
   {
+    "Id": "pdf_Terran_equipment_goliath_default_5_keyword_row",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": []
+  },
+  {
     "Id": "pdf_Terran_equipment_goliath_default_5_slot",
     "Name": "",
     "Type": "Profile",
@@ -197,6 +260,9 @@
     "Children": [
       {
         "Id": "pdf_Terran_equipment_goliath_default_5_body"
+      },
+      {
+        "Id": "pdf_Terran_equipment_goliath_default_5_keyword_row"
       }
     ]
   },
@@ -222,8 +288,8 @@
   },
   {
     "Id": "pdf_Terran_equipment_goliath_upgrade_1_keywords",
-    "Name": "",
-    "Type": "",
+    "Name": "<color=#ffffff><u><link=\"rule_keyword_indirect_fire\"><color=#2596be>INDIRECT FIRE</color></link></u>, <u><link=\"rule_keyword_locked_in\"><color=#2596be>LOCKED IN (6)</color></link></u>, <u><link=\"rule_keyword_long_range\"><color=#2596be>LONG RANGE (24\")</color></link></u>, <u><link=\"rule_keyword_sidearm\">SIDEARM</link></u></color>",
+    "Type": "Imported",
     "Description": "<u><link=\"rule_keyword_indirect_fire\"><color=#2596be>INDIRECT FIRE</color></link></u>, <u><link=\"rule_keyword_locked_in\"><color=#2596be>LOCKED IN (6)</color></link></u>, <u><link=\"rule_keyword_long_range\"><color=#2596be>LONG RANGE (24\")</color></link></u>, <u><link=\"rule_keyword_sidearm\">SIDEARM</link></u>",
     "Children": []
   },
@@ -231,7 +297,7 @@
     "Id": "pdf_Terran_equipment_goliath_upgrade_1_table",
     "Name": "",
     "Type": "",
-    "Description": "<b>SCATTER MISSILES</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr><color=#2596be>18</color></nobr><pos=14%><nobr><color=#2596be>Ground</color></nobr><pos=32%><nobr>6</nobr><pos=46%><nobr><color=#2596be>5+</color></nobr><pos=59%><nobr>Light (D3)</nobr><pos=86%><nobr>1</nobr></b></size></align>\n<u><link=\"rule_keyword_indirect_fire\"><color=#2596be>INDIRECT FIRE</color></link></u>, <u><link=\"rule_keyword_locked_in\"><color=#2596be>LOCKED IN (6)</color></link></u>, <u><link=\"rule_keyword_long_range\"><color=#2596be>LONG RANGE (24\")</color></link></u>, <u><link=\"rule_keyword_sidearm\">SIDEARM</link></u>",
+    "Description": "<b>SCATTER MISSILES</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr><color=#2596be>18</color></nobr><pos=14%><nobr><color=#2596be>Ground</color></nobr><pos=32%><nobr>6</nobr><pos=46%><nobr><color=#2596be>5+</color></nobr><pos=59%><nobr>Light (D3)</nobr><pos=86%><nobr>1</nobr></b></size></align>",
     "Children": []
   },
   {
@@ -249,8 +315,8 @@
   },
   {
     "Id": "pdf_Terran_equipment_goliath_upgrade_2_keywords",
-    "Name": "",
-    "Type": "",
+    "Name": "<color=#ffffff><u><link=\"rule_keyword_pierce\"><color=#2596be>PIERCE Armoured (3)</color></link></u>, <u><link=\"rule_keyword_sidearm\">SIDEARM</link></u></color>",
+    "Type": "Imported",
     "Description": "<u><link=\"rule_keyword_pierce\"><color=#2596be>PIERCE Armoured (3)</color></link></u>, <u><link=\"rule_keyword_sidearm\">SIDEARM</link></u>",
     "Children": []
   },
@@ -258,7 +324,7 @@
     "Id": "pdf_Terran_equipment_goliath_upgrade_2_table",
     "Name": "",
     "Type": "",
-    "Description": "<b>HAYWIRE MISSILES</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr><color=#2596be>12</color></nobr><pos=14%><nobr><color=#2596be>Ground</color></nobr><pos=32%><nobr><color=#2596be>3</color></nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr><color=#2596be>Armored (D3)</color></nobr><pos=86%><nobr>1</nobr></b></size></align>\n<u><link=\"rule_keyword_pierce\"><color=#2596be>PIERCE Armoured (3)</color></link></u>, <u><link=\"rule_keyword_sidearm\">SIDEARM</link></u>",
+    "Description": "<b>HAYWIRE MISSILES</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr><color=#2596be>12</color></nobr><pos=14%><nobr><color=#2596be>Ground</color></nobr><pos=32%><nobr><color=#2596be>3</color></nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr><color=#2596be>Armored (D3)</color></nobr><pos=86%><nobr>1</nobr></b></size></align>",
     "Children": []
   },
   {
@@ -280,9 +346,20 @@
     "Children": []
   },
   {
-    "Id": "pdf_Terran_equipment_jim_raynor_default_2_keywords",
+    "Id": "pdf_Terran_equipment_jim_raynor_default_2_keyword_row",
     "Name": "",
-    "Type": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Terran_equipment_jim_raynor_default_2_keywords"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Terran_equipment_jim_raynor_default_2_keywords",
+    "Name": "<color=#ffffff><u><link=\"rule_keyword_bulky\">BULKY</link></u>, <u><link=\"rule_keyword_pierce\">PIERCE Armoured (3)</link></u></color>",
+    "Type": "Imported",
     "Description": "<u><link=\"rule_keyword_bulky\">BULKY</link></u>, <u><link=\"rule_keyword_pierce\">PIERCE Armoured (3)</link></u>",
     "Children": []
   },
@@ -294,6 +371,9 @@
     "Children": [
       {
         "Id": "pdf_Terran_equipment_jim_raynor_default_2_body"
+      },
+      {
+        "Id": "pdf_Terran_equipment_jim_raynor_default_2_keyword_row"
       }
     ]
   },
@@ -301,7 +381,7 @@
     "Id": "pdf_Terran_equipment_jim_raynor_default_2_table",
     "Name": "",
     "Type": "",
-    "Description": "<b>Assault Phase</b>\n<b>COMMANDO RIFLE</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>18</nobr><pos=14%><nobr>All</nobr><pos=32%><nobr>3</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>Armored (D3)</nobr><pos=86%><nobr>1</nobr></b></size></align>\n<u><link=\"rule_keyword_bulky\">BULKY</link></u>, <u><link=\"rule_keyword_pierce\">PIERCE Armoured (3)</link></u>",
+    "Description": "<b>Assault Phase</b>\n<b>COMMANDO RIFLE</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>18</nobr><pos=14%><nobr>All</nobr><pos=32%><nobr>3</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>Armored (D3)</nobr><pos=86%><nobr>1</nobr></b></size></align>",
     "Children": []
   },
   {
@@ -323,9 +403,20 @@
     "Children": []
   },
   {
-    "Id": "pdf_Terran_equipment_jim_raynor_default_3_keywords",
+    "Id": "pdf_Terran_equipment_jim_raynor_default_3_keyword_row",
     "Name": "",
-    "Type": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Terran_equipment_jim_raynor_default_3_keywords"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Terran_equipment_jim_raynor_default_3_keywords",
+    "Name": "<color=#ffffff><u><link=\"rule_keyword_anti_evade\">ANTI-EVADE (2)</link></u>, <u><link=\"rule_keyword_sidearm\">SIDEARM</link></u>, <u><link=\"rule_keyword_pinpoint\">PINPOINT</link></u></color>",
+    "Type": "Imported",
     "Description": "<u><link=\"rule_keyword_anti_evade\">ANTI-EVADE (2)</link></u>, <u><link=\"rule_keyword_sidearm\">SIDEARM</link></u>, <u><link=\"rule_keyword_pinpoint\">PINPOINT</link></u>",
     "Children": []
   },
@@ -337,6 +428,9 @@
     "Children": [
       {
         "Id": "pdf_Terran_equipment_jim_raynor_default_3_body"
+      },
+      {
+        "Id": "pdf_Terran_equipment_jim_raynor_default_3_keyword_row"
       }
     ]
   },
@@ -344,7 +438,7 @@
     "Id": "pdf_Terran_equipment_jim_raynor_default_3_table",
     "Name": "",
     "Type": "",
-    "Description": "<b>“JUSTICE” REVOLVER</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>6</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>2</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>2</nobr></b></size></align>\n<u><link=\"rule_keyword_anti_evade\">ANTI-EVADE (2)</link></u>, <u><link=\"rule_keyword_sidearm\">SIDEARM</link></u>, <u><link=\"rule_keyword_pinpoint\">PINPOINT</link></u>",
+    "Description": "<b>“JUSTICE” REVOLVER</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>6</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>2</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>2</nobr></b></size></align>",
     "Children": []
   },
   {
@@ -366,6 +460,13 @@
     "Children": []
   },
   {
+    "Id": "pdf_Terran_equipment_jim_raynor_default_4_keyword_row",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": []
+  },
+  {
     "Id": "pdf_Terran_equipment_jim_raynor_default_4_slot",
     "Name": "",
     "Type": "Profile",
@@ -373,6 +474,9 @@
     "Children": [
       {
         "Id": "pdf_Terran_equipment_jim_raynor_default_4_body"
+      },
+      {
+        "Id": "pdf_Terran_equipment_jim_raynor_default_4_keyword_row"
       }
     ]
   },
@@ -398,8 +502,8 @@
   },
   {
     "Id": "pdf_Terran_equipment_jim_raynor_upgrade_0_keywords",
-    "Name": "",
-    "Type": "",
+    "Name": "<color=#ffffff><u><link=\"rule_keyword_burst_fire\"><color=#2596be>BURST FIRE 8\" (3)</color></link></u></color>",
+    "Type": "Imported",
     "Description": "<u><link=\"rule_keyword_burst_fire\"><color=#2596be>BURST FIRE 8\" (3)</color></link></u>",
     "Children": []
   },
@@ -407,7 +511,7 @@
     "Id": "pdf_Terran_equipment_jim_raynor_upgrade_0_table",
     "Name": "",
     "Type": "",
-    "Description": "<b>Assault Phase</b>\n<b>C-14 RIFLE</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr><color=#2596be>12</color></nobr><pos=14%><nobr>All</nobr><pos=32%><nobr><color=#2596be>6</color></nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr><color=#2596be>Light (D3+1)</color></nobr><pos=86%><nobr>1</nobr></b></size></align>\n<u><link=\"rule_keyword_burst_fire\"><color=#2596be>BURST FIRE 8\" (3)</color></link></u>",
+    "Description": "<b>Assault Phase</b>\n<b>C-14 RIFLE</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr><color=#2596be>12</color></nobr><pos=14%><nobr>All</nobr><pos=32%><nobr><color=#2596be>6</color></nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr><color=#2596be>Light (D3+1)</color></nobr><pos=86%><nobr>1</nobr></b></size></align>",
     "Children": []
   },
   {
@@ -429,9 +533,20 @@
     "Children": []
   },
   {
-    "Id": "pdf_Terran_equipment_marauders_default_1_keywords",
+    "Id": "pdf_Terran_equipment_marauders_default_1_keyword_row",
     "Name": "",
-    "Type": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Terran_equipment_marauders_default_1_keywords"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Terran_equipment_marauders_default_1_keywords",
+    "Name": "<color=#ffffff><u><link=\"rule_keyword_pierce\">PIERCE Armoured (2)</link></u></color>",
+    "Type": "Imported",
     "Description": "<u><link=\"rule_keyword_pierce\">PIERCE Armoured (2)</link></u>",
     "Children": []
   },
@@ -443,6 +558,9 @@
     "Children": [
       {
         "Id": "pdf_Terran_equipment_marauders_default_1_body"
+      },
+      {
+        "Id": "pdf_Terran_equipment_marauders_default_1_keyword_row"
       }
     ]
   },
@@ -450,7 +568,7 @@
     "Id": "pdf_Terran_equipment_marauders_default_1_table",
     "Name": "",
     "Type": "",
-    "Description": "<b>Assault Phase</b>\n<b>QUAD K12</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>12</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>3</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>Armored (D3)</nobr><pos=86%><nobr>1</nobr></b></size></align>\n<u><link=\"rule_keyword_pierce\">PIERCE Armoured (2)</link></u>",
+    "Description": "<b>Assault Phase</b>\n<b>QUAD K12</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>12</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>3</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>Armored (D3)</nobr><pos=86%><nobr>1</nobr></b></size></align>",
     "Children": []
   },
   {
@@ -472,6 +590,13 @@
     "Children": []
   },
   {
+    "Id": "pdf_Terran_equipment_marauders_default_3_keyword_row",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": []
+  },
+  {
     "Id": "pdf_Terran_equipment_marauders_default_3_slot",
     "Name": "",
     "Type": "Profile",
@@ -479,6 +604,9 @@
     "Children": [
       {
         "Id": "pdf_Terran_equipment_marauders_default_3_body"
+      },
+      {
+        "Id": "pdf_Terran_equipment_marauders_default_3_keyword_row"
       }
     ]
   },
@@ -508,6 +636,13 @@
     "Children": []
   },
   {
+    "Id": "pdf_Terran_equipment_marines_default_1_keyword_row",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": []
+  },
+  {
     "Id": "pdf_Terran_equipment_marines_default_1_slot",
     "Name": "",
     "Type": "Profile",
@@ -515,6 +650,9 @@
     "Children": [
       {
         "Id": "pdf_Terran_equipment_marines_default_1_body"
+      },
+      {
+        "Id": "pdf_Terran_equipment_marines_default_1_keyword_row"
       }
     ]
   },
@@ -544,6 +682,13 @@
     "Children": []
   },
   {
+    "Id": "pdf_Terran_equipment_marines_default_2_keyword_row",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": []
+  },
+  {
     "Id": "pdf_Terran_equipment_marines_default_2_slot",
     "Name": "",
     "Type": "Profile",
@@ -551,6 +696,9 @@
     "Children": [
       {
         "Id": "pdf_Terran_equipment_marines_default_2_body"
+      },
+      {
+        "Id": "pdf_Terran_equipment_marines_default_2_keyword_row"
       }
     ]
   },
@@ -576,8 +724,8 @@
   },
   {
     "Id": "pdf_Terran_equipment_marines_upgrade_1_keywords",
-    "Name": "",
-    "Type": "",
+    "Name": "<color=#ffffff><u><link=\"rule_keyword_long_range\">LONG RANGE (18\")</link></u>, <u><link=\"rule_keyword_specialist\">SPECIALIST</link></u></color>",
+    "Type": "Imported",
     "Description": "<u><link=\"rule_keyword_long_range\">LONG RANGE (18\")</link></u>, <u><link=\"rule_keyword_specialist\">SPECIALIST</link></u>",
     "Children": []
   },
@@ -585,7 +733,7 @@
     "Id": "pdf_Terran_equipment_marines_upgrade_1_table",
     "Name": "",
     "Type": "",
-    "Description": "<b>AGG-12</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>12</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>2</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>Armored (D3)</nobr><pos=86%><nobr>1</nobr></b></size></align>\n<u><link=\"rule_keyword_long_range\">LONG RANGE (18\")</link></u>, <u><link=\"rule_keyword_specialist\">SPECIALIST</link></u>",
+    "Description": "<b>AGG-12</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>12</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>2</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>Armored (D3)</nobr><pos=86%><nobr>1</nobr></b></size></align>",
     "Children": []
   },
   {
@@ -603,8 +751,8 @@
   },
   {
     "Id": "pdf_Terran_equipment_marines_upgrade_2_keywords",
-    "Name": "",
-    "Type": "",
+    "Name": "<color=#ffffff><u><link=\"rule_keyword_indirect_fire\">INDIRECT FIRE</link></u>, <u><link=\"rule_keyword_long_range\">LONG RANGE (18\")</link></u>, <u><link=\"rule_keyword_sidearm\">SIDEARM</link></u>, <u><link=\"rule_keyword_specialist\">SPECIALIST</link></u></color>",
+    "Type": "Imported",
     "Description": "<u><link=\"rule_keyword_indirect_fire\">INDIRECT FIRE</link></u>, <u><link=\"rule_keyword_long_range\">LONG RANGE (18\")</link></u>, <u><link=\"rule_keyword_sidearm\">SIDEARM</link></u>, <u><link=\"rule_keyword_specialist\">SPECIALIST</link></u>",
     "Children": []
   },
@@ -612,7 +760,7 @@
     "Id": "pdf_Terran_equipment_marines_upgrade_2_table",
     "Name": "",
     "Type": "",
-    "Description": "<b>ROCKET LAUNCHER</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>12</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>4</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align>\n<u><link=\"rule_keyword_indirect_fire\">INDIRECT FIRE</link></u>, <u><link=\"rule_keyword_long_range\">LONG RANGE (18\")</link></u>, <u><link=\"rule_keyword_sidearm\">SIDEARM</link></u>, <u><link=\"rule_keyword_specialist\">SPECIALIST</link></u>",
+    "Description": "<b>ROCKET LAUNCHER</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>12</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>4</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align>",
     "Children": []
   },
   {
@@ -654,6 +802,13 @@
     "Children": []
   },
   {
+    "Id": "pdf_Terran_equipment_medics_default_2_keyword_row",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": []
+  },
+  {
     "Id": "pdf_Terran_equipment_medics_default_2_slot",
     "Name": "",
     "Type": "Profile",
@@ -661,6 +816,9 @@
     "Children": [
       {
         "Id": "pdf_Terran_equipment_medics_default_2_body"
+      },
+      {
+        "Id": "pdf_Terran_equipment_medics_default_2_keyword_row"
       }
     ]
   },
@@ -690,9 +848,20 @@
     "Children": []
   },
   {
-    "Id": "pdf_Terran_equipment_nova_assault_mode_default_2_keywords",
+    "Id": "pdf_Terran_equipment_nova_assault_mode_default_2_keyword_row",
     "Name": "",
-    "Type": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Terran_equipment_nova_assault_mode_default_2_keywords"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Terran_equipment_nova_assault_mode_default_2_keywords",
+    "Name": "<color=#ffffff><u><link=\"rule_keyword_anti_evade\">ANTI-EVADE (1)</link></u>, <u><link=\"rule_keyword_burst_fire\">BURST FIRE 4\" (3)</link></u></color>",
+    "Type": "Imported",
     "Description": "<u><link=\"rule_keyword_anti_evade\">ANTI-EVADE (1)</link></u>, <u><link=\"rule_keyword_burst_fire\">BURST FIRE 4\" (3)</link></u>",
     "Children": []
   },
@@ -704,6 +873,9 @@
     "Children": [
       {
         "Id": "pdf_Terran_equipment_nova_assault_mode_default_2_body"
+      },
+      {
+        "Id": "pdf_Terran_equipment_nova_assault_mode_default_2_keyword_row"
       }
     ]
   },
@@ -711,7 +883,7 @@
     "Id": "pdf_Terran_equipment_nova_assault_mode_default_2_table",
     "Name": "",
     "Type": "",
-    "Description": "<b>Assault Phase</b>\n<b>HELLFIRE SHOTGUN</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>8</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>3</nobr><pos=46%><nobr>4+</nobr><pos=59%><nobr>Light (D3)</nobr><pos=86%><nobr>2</nobr></b></size></align>\n<u><link=\"rule_keyword_anti_evade\">ANTI-EVADE (1)</link></u>, <u><link=\"rule_keyword_burst_fire\">BURST FIRE 4\" (3)</link></u>",
+    "Description": "<b>Assault Phase</b>\n<b>HELLFIRE SHOTGUN</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>8</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>3</nobr><pos=46%><nobr>4+</nobr><pos=59%><nobr>Light (D3)</nobr><pos=86%><nobr>2</nobr></b></size></align>",
     "Children": []
   },
   {
@@ -733,6 +905,13 @@
     "Children": []
   },
   {
+    "Id": "pdf_Terran_equipment_nova_assault_mode_default_4_keyword_row",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": []
+  },
+  {
     "Id": "pdf_Terran_equipment_nova_assault_mode_default_4_slot",
     "Name": "",
     "Type": "Profile",
@@ -740,6 +919,9 @@
     "Children": [
       {
         "Id": "pdf_Terran_equipment_nova_assault_mode_default_4_body"
+      },
+      {
+        "Id": "pdf_Terran_equipment_nova_assault_mode_default_4_keyword_row"
       }
     ]
   },
@@ -769,9 +951,20 @@
     "Children": []
   },
   {
-    "Id": "pdf_Terran_equipment_nova_stealth_mode_default_2_keywords",
+    "Id": "pdf_Terran_equipment_nova_stealth_mode_default_2_keyword_row",
     "Name": "",
-    "Type": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Terran_equipment_nova_stealth_mode_default_2_keywords"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Terran_equipment_nova_stealth_mode_default_2_keywords",
+    "Name": "<color=#ffffff><u><link=\"rule_keyword_critical_hit\">CRITICAL HIT (2)</link></u>, <u><link=\"rule_keyword_long_range\">LONG RANGE (18\")</link></u></color>",
+    "Type": "Imported",
     "Description": "<u><link=\"rule_keyword_critical_hit\">CRITICAL HIT (2)</link></u>, <u><link=\"rule_keyword_long_range\">LONG RANGE (18\")</link></u>",
     "Children": []
   },
@@ -783,6 +976,9 @@
     "Children": [
       {
         "Id": "pdf_Terran_equipment_nova_stealth_mode_default_2_body"
+      },
+      {
+        "Id": "pdf_Terran_equipment_nova_stealth_mode_default_2_keyword_row"
       }
     ]
   },
@@ -790,7 +986,7 @@
     "Id": "pdf_Terran_equipment_nova_stealth_mode_default_2_table",
     "Name": "",
     "Type": "",
-    "Description": "<b>Assault Phase</b>\n<b>C-20A CANISTER RIFLE</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>12</nobr><pos=14%><nobr>All</nobr><pos=32%><nobr>4</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>2</nobr></b></size></align>\n<u><link=\"rule_keyword_critical_hit\">CRITICAL HIT (2)</link></u>, <u><link=\"rule_keyword_long_range\">LONG RANGE (18\")</link></u>",
+    "Description": "<b>Assault Phase</b>\n<b>C-20A CANISTER RIFLE</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>12</nobr><pos=14%><nobr>All</nobr><pos=32%><nobr>4</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>2</nobr></b></size></align>",
     "Children": []
   },
   {
@@ -812,6 +1008,13 @@
     "Children": []
   },
   {
+    "Id": "pdf_Terran_equipment_nova_stealth_mode_default_4_keyword_row",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": []
+  },
+  {
     "Id": "pdf_Terran_equipment_nova_stealth_mode_default_4_slot",
     "Name": "",
     "Type": "Profile",
@@ -819,6 +1022,9 @@
     "Children": [
       {
         "Id": "pdf_Terran_equipment_nova_stealth_mode_default_4_body"
+      },
+      {
+        "Id": "pdf_Terran_equipment_nova_stealth_mode_default_4_keyword_row"
       }
     ]
   },
@@ -848,6 +1054,13 @@
     "Children": []
   },
   {
+    "Id": "pdf_Terran_equipment_raven_default_2_keyword_row",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": []
+  },
+  {
     "Id": "pdf_Terran_equipment_raven_default_2_slot",
     "Name": "",
     "Type": "Profile",
@@ -855,6 +1068,9 @@
     "Children": [
       {
         "Id": "pdf_Terran_equipment_raven_default_2_body"
+      },
+      {
+        "Id": "pdf_Terran_equipment_raven_default_2_keyword_row"
       }
     ]
   },
@@ -884,6 +1100,13 @@
     "Children": []
   },
   {
+    "Id": "pdf_Terran_equipment_raynor_s_raiders_default_1_keyword_row",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": []
+  },
+  {
     "Id": "pdf_Terran_equipment_raynor_s_raiders_default_1_slot",
     "Name": "",
     "Type": "Profile",
@@ -891,6 +1114,9 @@
     "Children": [
       {
         "Id": "pdf_Terran_equipment_raynor_s_raiders_default_1_body"
+      },
+      {
+        "Id": "pdf_Terran_equipment_raynor_s_raiders_default_1_keyword_row"
       }
     ]
   },
@@ -920,6 +1146,13 @@
     "Children": []
   },
   {
+    "Id": "pdf_Terran_equipment_raynor_s_raiders_default_3_keyword_row",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": []
+  },
+  {
     "Id": "pdf_Terran_equipment_raynor_s_raiders_default_3_slot",
     "Name": "",
     "Type": "Profile",
@@ -927,6 +1160,9 @@
     "Children": [
       {
         "Id": "pdf_Terran_equipment_raynor_s_raiders_default_3_body"
+      },
+      {
+        "Id": "pdf_Terran_equipment_raynor_s_raiders_default_3_keyword_row"
       }
     ]
   },
@@ -956,9 +1192,20 @@
     "Children": []
   },
   {
-    "Id": "pdf_Terran_equipment_siege_tank_default_1_keywords",
+    "Id": "pdf_Terran_equipment_siege_tank_default_1_keyword_row",
     "Name": "",
-    "Type": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Terran_equipment_siege_tank_default_1_keywords"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Terran_equipment_siege_tank_default_1_keywords",
+    "Name": "<color=#ffffff><u><link=\"rule_keyword_pierce\">PIERCE Armoured (2)</link></u></color>",
+    "Type": "Imported",
     "Description": "<u><link=\"rule_keyword_pierce\">PIERCE Armoured (2)</link></u>",
     "Children": []
   },
@@ -970,6 +1217,9 @@
     "Children": [
       {
         "Id": "pdf_Terran_equipment_siege_tank_default_1_body"
+      },
+      {
+        "Id": "pdf_Terran_equipment_siege_tank_default_1_keyword_row"
       }
     ]
   },
@@ -977,7 +1227,7 @@
     "Id": "pdf_Terran_equipment_siege_tank_default_1_table",
     "Name": "",
     "Type": "",
-    "Description": "<b>Assault Phase</b>\n<b>TWIN CANNON</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>12</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>8</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>Armored (D6)</nobr><pos=86%><nobr>1</nobr></b></size></align>\n<u><link=\"rule_keyword_pierce\">PIERCE Armoured (2)</link></u>",
+    "Description": "<b>Assault Phase</b>\n<b>TWIN CANNON</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>12</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>8</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>Armored (D6)</nobr><pos=86%><nobr>1</nobr></b></size></align>",
     "Children": []
   },
   {
@@ -999,9 +1249,20 @@
     "Children": []
   },
   {
-    "Id": "pdf_Terran_equipment_siege_tank_default_2_keywords",
+    "Id": "pdf_Terran_equipment_siege_tank_default_2_keyword_row",
     "Name": "",
-    "Type": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Terran_equipment_siege_tank_default_2_keywords"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Terran_equipment_siege_tank_default_2_keywords",
+    "Name": "<color=#ffffff><u><link=\"rule_keyword_siege_mode\">SIEGE MODE Status</link></u></color>",
+    "Type": "Imported",
     "Description": "<u><link=\"rule_keyword_siege_mode\">SIEGE MODE Status</link></u>",
     "Children": []
   },
@@ -1013,6 +1274,9 @@
     "Children": [
       {
         "Id": "pdf_Terran_equipment_siege_tank_default_2_body"
+      },
+      {
+        "Id": "pdf_Terran_equipment_siege_tank_default_2_keyword_row"
       }
     ]
   },
@@ -1020,7 +1284,7 @@
     "Id": "pdf_Terran_equipment_siege_tank_default_2_table",
     "Name": "",
     "Type": "",
-    "Description": "<b>SHOCK CANNON</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>18</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>BT+4</nobr><pos=46%><nobr>4+</nobr><pos=59%><nobr>L&A (BT)</nobr><pos=86%><nobr>1</nobr></b></size></align>\n<u><link=\"rule_keyword_siege_mode\">SIEGE MODE Status</link></u>",
+    "Description": "<b>SHOCK CANNON</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>18</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>BT+4</nobr><pos=46%><nobr>4+</nobr><pos=59%><nobr>L&A (BT)</nobr><pos=86%><nobr>1</nobr></b></size></align>",
     "Children": []
   },
   {
@@ -1042,6 +1306,13 @@
     "Children": []
   },
   {
+    "Id": "pdf_Terran_equipment_siege_tank_default_4_keyword_row",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": []
+  },
+  {
     "Id": "pdf_Terran_equipment_siege_tank_default_4_slot",
     "Name": "",
     "Type": "Profile",
@@ -1049,6 +1320,9 @@
     "Children": [
       {
         "Id": "pdf_Terran_equipment_siege_tank_default_4_body"
+      },
+      {
+        "Id": "pdf_Terran_equipment_siege_tank_default_4_keyword_row"
       }
     ]
   },
@@ -1078,9 +1352,20 @@
     "Children": []
   },
   {
-    "Id": "pdf_Terran_equipment_spec_ops_marauder_marauder_default_2_keywords",
+    "Id": "pdf_Terran_equipment_spec_ops_marauder_marauder_default_2_keyword_row",
     "Name": "",
-    "Type": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Terran_equipment_spec_ops_marauder_marauder_default_2_keywords"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Terran_equipment_spec_ops_marauder_marauder_default_2_keywords",
+    "Name": "<color=#ffffff><u><link=\"rule_keyword_long_range\">LONG RANGE (16\")</link></u>, <u><link=\"rule_keyword_pierce\">PIERCE Armoured (2)</link></u></color>",
+    "Type": "Imported",
     "Description": "<u><link=\"rule_keyword_long_range\">LONG RANGE (16\")</link></u>, <u><link=\"rule_keyword_pierce\">PIERCE Armoured (2)</link></u>",
     "Children": []
   },
@@ -1092,6 +1377,9 @@
     "Children": [
       {
         "Id": "pdf_Terran_equipment_spec_ops_marauder_marauder_default_2_body"
+      },
+      {
+        "Id": "pdf_Terran_equipment_spec_ops_marauder_marauder_default_2_keyword_row"
       }
     ]
   },
@@ -1099,7 +1387,7 @@
     "Id": "pdf_Terran_equipment_spec_ops_marauder_marauder_default_2_table",
     "Name": "",
     "Type": "",
-    "Description": "<b>Assault Phase</b>\n<b>QUAD K12</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>12</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>3</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>Armored (D3)</nobr><pos=86%><nobr>1</nobr></b></size></align>\n<u><link=\"rule_keyword_long_range\">LONG RANGE (16\")</link></u>, <u><link=\"rule_keyword_pierce\">PIERCE Armoured (2)</link></u>",
+    "Description": "<b>Assault Phase</b>\n<b>QUAD K12</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>12</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>3</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>Armored (D3)</nobr><pos=86%><nobr>1</nobr></b></size></align>",
     "Children": []
   },
   {
@@ -1121,6 +1409,13 @@
     "Children": []
   },
   {
+    "Id": "pdf_Terran_equipment_spec_ops_marauder_marauder_default_4_keyword_row",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": []
+  },
+  {
     "Id": "pdf_Terran_equipment_spec_ops_marauder_marauder_default_4_slot",
     "Name": "",
     "Type": "Profile",
@@ -1128,6 +1423,9 @@
     "Children": [
       {
         "Id": "pdf_Terran_equipment_spec_ops_marauder_marauder_default_4_body"
+      },
+      {
+        "Id": "pdf_Terran_equipment_spec_ops_marauder_marauder_default_4_keyword_row"
       }
     ]
   },
@@ -1423,8 +1721,8 @@
   },
   {
     "Id": "pdf_Terran_rule_goliath_upgrade_any_phase_ares_class_targeting_system_effect_0_keywords",
-    "Name": "",
-    "Type": "",
+    "Name": "<color=#ffffff><u><link=\"rule_keyword_long_range\">LONG RANGE (18\")</link></u>, <u><link=\"rule_keyword_precision\"><color=#2596be>PRECISION (1)</color></link></u></color>",
+    "Type": "Imported",
     "Description": "<u><link=\"rule_keyword_long_range\">LONG RANGE (18\")</link></u>, <u><link=\"rule_keyword_precision\"><color=#2596be>PRECISION (1)</color></link></u>",
     "Children": []
   },
@@ -1432,7 +1730,7 @@
     "Id": "pdf_Terran_rule_goliath_upgrade_any_phase_ares_class_targeting_system_effect_0_table",
     "Name": "",
     "Type": "",
-    "Description": "<b>Assault Phase</b>\n<b>AUTOCANNON</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>12</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>9</nobr><pos=46%><nobr>4+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align>\n<u><link=\"rule_keyword_long_range\">LONG RANGE (18\")</link></u>, <u><link=\"rule_keyword_precision\"><color=#2596be>PRECISION (1)</color></link></u>",
+    "Description": "<b>Assault Phase</b>\n<b>AUTOCANNON</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>12</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>9</nobr><pos=46%><nobr>4+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align>",
     "Children": []
   },
   {
@@ -1444,8 +1742,8 @@
   },
   {
     "Id": "pdf_Terran_rule_goliath_upgrade_any_phase_ares_class_targeting_system_effect_1_keywords",
-    "Name": "",
-    "Type": "",
+    "Name": "<color=#ffffff><u><link=\"rule_keyword_pinpoint\">PINPOINT</link></u>, <u><link=\"rule_keyword_sidearm\">SIDEARM</link></u>, <u><link=\"rule_keyword_precision\"><color=#2596be>PRECISION (1)</color></link></u></color>",
+    "Type": "Imported",
     "Description": "<u><link=\"rule_keyword_pinpoint\">PINPOINT</link></u>, <u><link=\"rule_keyword_sidearm\">SIDEARM</link></u>, <u><link=\"rule_keyword_precision\"><color=#2596be>PRECISION (1)</color></link></u>",
     "Children": []
   },
@@ -1453,7 +1751,7 @@
     "Id": "pdf_Terran_rule_goliath_upgrade_any_phase_ares_class_targeting_system_effect_1_table",
     "Name": "",
     "Type": "",
-    "Description": "<b>UNDERBELLY MACHINE GUN</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>8</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>6</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>Light (D3)</nobr><pos=86%><nobr>1</nobr></b></size></align>\n<u><link=\"rule_keyword_pinpoint\">PINPOINT</link></u>, <u><link=\"rule_keyword_sidearm\">SIDEARM</link></u>, <u><link=\"rule_keyword_precision\"><color=#2596be>PRECISION (1)</color></link></u>",
+    "Description": "<b>UNDERBELLY MACHINE GUN</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>8</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>6</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>Light (D3)</nobr><pos=86%><nobr>1</nobr></b></size></align>",
     "Children": []
   },
   {
@@ -1532,8 +1830,8 @@
   },
   {
     "Id": "pdf_Terran_rule_marauders_upgrade_assault_phase_laser_targeting_systems_effect_0_keywords",
-    "Name": "",
-    "Type": "",
+    "Name": "<color=#ffffff><u><link=\"rule_keyword_pierce\">PIERCE Armoured (2)</link></u>, <u><link=\"rule_keyword_long_range\"><color=#2596be>LONG RANGE (16\")</color></link></u></color>",
+    "Type": "Imported",
     "Description": "<u><link=\"rule_keyword_pierce\">PIERCE Armoured (2)</link></u>, <u><link=\"rule_keyword_long_range\"><color=#2596be>LONG RANGE (16\")</color></link></u>",
     "Children": []
   },
@@ -1541,7 +1839,7 @@
     "Id": "pdf_Terran_rule_marauders_upgrade_assault_phase_laser_targeting_systems_effect_0_table",
     "Name": "",
     "Type": "",
-    "Description": "<b>Assault Phase</b>\n<b>QUAD K12</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>12</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>3</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>Armored (D3)</nobr><pos=86%><nobr>1</nobr></b></size></align>\n<u><link=\"rule_keyword_pierce\">PIERCE Armoured (2)</link></u>, <u><link=\"rule_keyword_long_range\"><color=#2596be>LONG RANGE (16\")</color></link></u>",
+    "Description": "<b>Assault Phase</b>\n<b>QUAD K12</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>12</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>3</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>Armored (D3)</nobr><pos=86%><nobr>1</nobr></b></size></align>",
     "Children": []
   },
   {
@@ -1578,8 +1876,8 @@
   },
   {
     "Id": "pdf_Terran_rule_marines_upgrade_assault_phase_slugthrower_effect_0",
-    "Name": "",
-    "Type": "",
+    "Name": "<color=#ffffff><u><link=\"pdf_Terran_rule_marines_upgrade_assault_phase_slugthrower\"><color=#65c879>ANTI-EVADE (1)</color></link></u></color>",
+    "Type": "Imported",
     "Description": "<u><link=\"pdf_Terran_rule_marines_upgrade_assault_phase_slugthrower\"><color=#65c879>ANTI-EVADE (1)</color></link></u>",
     "Children": []
   },

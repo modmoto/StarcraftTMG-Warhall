@@ -18,9 +18,20 @@
     "Children": []
   },
   {
-    "Id": "pdf_Zerg_equipment_bile_launcher_default_2_keywords",
+    "Id": "pdf_Zerg_equipment_bile_launcher_default_2_keyword_row",
     "Name": "",
-    "Type": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Zerg_equipment_bile_launcher_default_2_keywords"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Zerg_equipment_bile_launcher_default_2_keywords",
+    "Name": "<color=#ffffff><u><link=\"rule_keyword_pierce\">PIERCE Armoured (2)</link></u>, <u><link=\"rule_keyword_pinpoint\">PINPOINT</link></u></color>",
+    "Type": "Imported",
     "Description": "<u><link=\"rule_keyword_pierce\">PIERCE Armoured (2)</link></u>, <u><link=\"rule_keyword_pinpoint\">PINPOINT</link></u>",
     "Children": []
   },
@@ -32,6 +43,9 @@
     "Children": [
       {
         "Id": "pdf_Zerg_equipment_bile_launcher_default_2_body"
+      },
+      {
+        "Id": "pdf_Zerg_equipment_bile_launcher_default_2_keyword_row"
       }
     ]
   },
@@ -39,7 +53,7 @@
     "Id": "pdf_Zerg_equipment_bile_launcher_default_2_table",
     "Name": "",
     "Type": "",
-    "Description": "<b>Assault Phase</b>\n<b>BILE BOMB</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>12</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>6</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>L&A (D3)</nobr><pos=86%><nobr>1</nobr></b></size></align>\n<u><link=\"rule_keyword_pierce\">PIERCE Armoured (2)</link></u>, <u><link=\"rule_keyword_pinpoint\">PINPOINT</link></u>",
+    "Description": "<b>Assault Phase</b>\n<b>BILE BOMB</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>12</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>6</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>L&A (D3)</nobr><pos=86%><nobr>1</nobr></b></size></align>",
     "Children": []
   },
   {
@@ -61,6 +75,13 @@
     "Children": []
   },
   {
+    "Id": "pdf_Zerg_equipment_corpsers_roach_default_2_keyword_row",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": []
+  },
+  {
     "Id": "pdf_Zerg_equipment_corpsers_roach_default_2_slot",
     "Name": "",
     "Type": "Profile",
@@ -68,6 +89,9 @@
     "Children": [
       {
         "Id": "pdf_Zerg_equipment_corpsers_roach_default_2_body"
+      },
+      {
+        "Id": "pdf_Zerg_equipment_corpsers_roach_default_2_keyword_row"
       }
     ]
   },
@@ -97,6 +121,13 @@
     "Children": []
   },
   {
+    "Id": "pdf_Zerg_equipment_corpsers_roach_default_4_keyword_row",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": []
+  },
+  {
     "Id": "pdf_Zerg_equipment_corpsers_roach_default_4_slot",
     "Name": "",
     "Type": "Profile",
@@ -104,6 +135,9 @@
     "Children": [
       {
         "Id": "pdf_Zerg_equipment_corpsers_roach_default_4_body"
+      },
+      {
+        "Id": "pdf_Zerg_equipment_corpsers_roach_default_4_keyword_row"
       }
     ]
   },
@@ -133,6 +167,13 @@
     "Children": []
   },
   {
+    "Id": "pdf_Zerg_equipment_defiler_default_3_keyword_row",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": []
+  },
+  {
     "Id": "pdf_Zerg_equipment_defiler_default_3_slot",
     "Name": "",
     "Type": "Profile",
@@ -140,6 +181,9 @@
     "Children": [
       {
         "Id": "pdf_Zerg_equipment_defiler_default_3_body"
+      },
+      {
+        "Id": "pdf_Zerg_equipment_defiler_default_3_keyword_row"
       }
     ]
   },
@@ -165,8 +209,8 @@
   },
   {
     "Id": "pdf_Zerg_equipment_defiler_upgrade_2_keywords",
-    "Name": "",
-    "Type": "",
+    "Name": "<color=#ffffff><u><link=\"rule_keyword_critical_hit\"><color=#2596be>CRITICAL HIT (1)</color></link></u>, <u><link=\"rule_keyword_sidearm\"><color=#2596be>SIDEARM</color></link></u></color>",
+    "Type": "Imported",
     "Description": "<u><link=\"rule_keyword_critical_hit\"><color=#2596be>CRITICAL HIT (1)</color></link></u>, <u><link=\"rule_keyword_sidearm\"><color=#2596be>SIDEARM</color></link></u>",
     "Children": []
   },
@@ -174,7 +218,7 @@
     "Id": "pdf_Zerg_equipment_defiler_upgrade_2_table",
     "Name": "",
     "Type": "",
-    "Description": "<b>Melee Phase</b>\n<b>CANCEROUS BITE</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr><color=#2596be>2</color></nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr><color=#2596be>2</color></nobr></b></size></align>\n<u><link=\"rule_keyword_critical_hit\"><color=#2596be>CRITICAL HIT (1)</color></link></u>, <u><link=\"rule_keyword_sidearm\"><color=#2596be>SIDEARM</color></link></u>",
+    "Description": "<b>Melee Phase</b>\n<b>CANCEROUS BITE</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr><color=#2596be>2</color></nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr><color=#2596be>2</color></nobr></b></size></align>",
     "Children": []
   },
   {
@@ -196,6 +240,13 @@
     "Children": []
   },
   {
+    "Id": "pdf_Zerg_equipment_hydralisks_default_1_keyword_row",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": []
+  },
+  {
     "Id": "pdf_Zerg_equipment_hydralisks_default_1_slot",
     "Name": "",
     "Type": "Profile",
@@ -203,6 +254,9 @@
     "Children": [
       {
         "Id": "pdf_Zerg_equipment_hydralisks_default_1_body"
+      },
+      {
+        "Id": "pdf_Zerg_equipment_hydralisks_default_1_keyword_row"
       }
     ]
   },
@@ -232,6 +286,13 @@
     "Children": []
   },
   {
+    "Id": "pdf_Zerg_equipment_hydralisks_default_3_keyword_row",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": []
+  },
+  {
     "Id": "pdf_Zerg_equipment_hydralisks_default_3_slot",
     "Name": "",
     "Type": "Profile",
@@ -239,6 +300,9 @@
     "Children": [
       {
         "Id": "pdf_Zerg_equipment_hydralisks_default_3_body"
+      },
+      {
+        "Id": "pdf_Zerg_equipment_hydralisks_default_3_keyword_row"
       }
     ]
   },
@@ -268,6 +332,13 @@
     "Children": []
   },
   {
+    "Id": "pdf_Zerg_equipment_kerrigan_default_2_keyword_row",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": []
+  },
+  {
     "Id": "pdf_Zerg_equipment_kerrigan_default_2_slot",
     "Name": "",
     "Type": "Profile",
@@ -275,6 +346,9 @@
     "Children": [
       {
         "Id": "pdf_Zerg_equipment_kerrigan_default_2_body"
+      },
+      {
+        "Id": "pdf_Zerg_equipment_kerrigan_default_2_keyword_row"
       }
     ]
   },
@@ -304,9 +378,20 @@
     "Children": []
   },
   {
-    "Id": "pdf_Zerg_equipment_kerrigan_default_4_keywords",
+    "Id": "pdf_Zerg_equipment_kerrigan_default_4_keyword_row",
     "Name": "",
-    "Type": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Zerg_equipment_kerrigan_default_4_keywords"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Zerg_equipment_kerrigan_default_4_keywords",
+    "Name": "<color=#ffffff><u><link=\"rule_keyword_critical_hit\">CRITICAL HIT (2)</link></u></color>",
+    "Type": "Imported",
     "Description": "<u><link=\"rule_keyword_critical_hit\">CRITICAL HIT (2)</link></u>",
     "Children": []
   },
@@ -318,6 +403,9 @@
     "Children": [
       {
         "Id": "pdf_Zerg_equipment_kerrigan_default_4_body"
+      },
+      {
+        "Id": "pdf_Zerg_equipment_kerrigan_default_4_keyword_row"
       }
     ]
   },
@@ -325,7 +413,7 @@
     "Id": "pdf_Zerg_equipment_kerrigan_default_4_table",
     "Name": "",
     "Type": "",
-    "Description": "<b>Melee Phase</b>\n<b>BLADES</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>6</nobr><pos=46%><nobr>4+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>2</nobr></b></size></align>\n<u><link=\"rule_keyword_critical_hit\">CRITICAL HIT (2)</link></u>",
+    "Description": "<b>Melee Phase</b>\n<b>BLADES</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>6</nobr><pos=46%><nobr>4+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>2</nobr></b></size></align>",
     "Children": []
   },
   {
@@ -347,9 +435,20 @@
     "Children": []
   },
   {
-    "Id": "pdf_Zerg_equipment_kerrigan_swarm_raptors_zergling_default_2_keywords",
+    "Id": "pdf_Zerg_equipment_kerrigan_swarm_raptors_zergling_default_2_keyword_row",
     "Name": "",
-    "Type": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Zerg_equipment_kerrigan_swarm_raptors_zergling_default_2_keywords"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Zerg_equipment_kerrigan_swarm_raptors_zergling_default_2_keywords",
+    "Name": "<color=#ffffff><u><link=\"rule_keyword_instant\">INSTANT</link></u></color>",
+    "Type": "Imported",
     "Description": "<u><link=\"rule_keyword_instant\">INSTANT</link></u>",
     "Children": []
   },
@@ -361,6 +460,9 @@
     "Children": [
       {
         "Id": "pdf_Zerg_equipment_kerrigan_swarm_raptors_zergling_default_2_body"
+      },
+      {
+        "Id": "pdf_Zerg_equipment_kerrigan_swarm_raptors_zergling_default_2_keyword_row"
       }
     ]
   },
@@ -368,7 +470,7 @@
     "Id": "pdf_Zerg_equipment_kerrigan_swarm_raptors_zergling_default_2_table",
     "Name": "",
     "Type": "",
-    "Description": "<b>Melee Phase</b>\n<b>CLAWS</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>2</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>L&A (D6)</nobr><pos=86%><nobr>1</nobr></b></size></align>\n<u><link=\"rule_keyword_instant\">INSTANT</link></u>",
+    "Description": "<b>Melee Phase</b>\n<b>CLAWS</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>2</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>L&A (D6)</nobr><pos=86%><nobr>1</nobr></b></size></align>",
     "Children": []
   },
   {
@@ -390,6 +492,13 @@
     "Children": []
   },
   {
+    "Id": "pdf_Zerg_equipment_queen_default_1_keyword_row",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": []
+  },
+  {
     "Id": "pdf_Zerg_equipment_queen_default_1_slot",
     "Name": "",
     "Type": "Profile",
@@ -397,6 +506,9 @@
     "Children": [
       {
         "Id": "pdf_Zerg_equipment_queen_default_1_body"
+      },
+      {
+        "Id": "pdf_Zerg_equipment_queen_default_1_keyword_row"
       }
     ]
   },
@@ -426,6 +538,13 @@
     "Children": []
   },
   {
+    "Id": "pdf_Zerg_equipment_queen_default_2_keyword_row",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": []
+  },
+  {
     "Id": "pdf_Zerg_equipment_queen_default_2_slot",
     "Name": "",
     "Type": "Profile",
@@ -433,6 +552,9 @@
     "Children": [
       {
         "Id": "pdf_Zerg_equipment_queen_default_2_body"
+      },
+      {
+        "Id": "pdf_Zerg_equipment_queen_default_2_keyword_row"
       }
     ]
   },
@@ -462,6 +584,13 @@
     "Children": []
   },
   {
+    "Id": "pdf_Zerg_equipment_queen_default_4_keyword_row",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": []
+  },
+  {
     "Id": "pdf_Zerg_equipment_queen_default_4_slot",
     "Name": "",
     "Type": "Profile",
@@ -469,6 +598,9 @@
     "Children": [
       {
         "Id": "pdf_Zerg_equipment_queen_default_4_body"
+      },
+      {
+        "Id": "pdf_Zerg_equipment_queen_default_4_keyword_row"
       }
     ]
   },
@@ -498,6 +630,13 @@
     "Children": []
   },
   {
+    "Id": "pdf_Zerg_equipment_raptors_zergling_default_2_keyword_row",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": []
+  },
+  {
     "Id": "pdf_Zerg_equipment_raptors_zergling_default_2_slot",
     "Name": "",
     "Type": "Profile",
@@ -505,6 +644,9 @@
     "Children": [
       {
         "Id": "pdf_Zerg_equipment_raptors_zergling_default_2_body"
+      },
+      {
+        "Id": "pdf_Zerg_equipment_raptors_zergling_default_2_keyword_row"
       }
     ]
   },
@@ -554,6 +696,13 @@
     "Children": []
   },
   {
+    "Id": "pdf_Zerg_equipment_ravagers_default_2_keyword_row",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": []
+  },
+  {
     "Id": "pdf_Zerg_equipment_ravagers_default_2_slot",
     "Name": "",
     "Type": "Profile",
@@ -561,6 +710,9 @@
     "Children": [
       {
         "Id": "pdf_Zerg_equipment_ravagers_default_2_body"
+      },
+      {
+        "Id": "pdf_Zerg_equipment_ravagers_default_2_keyword_row"
       }
     ]
   },
@@ -590,6 +742,13 @@
     "Children": []
   },
   {
+    "Id": "pdf_Zerg_equipment_ravagers_default_4_keyword_row",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": []
+  },
+  {
     "Id": "pdf_Zerg_equipment_ravagers_default_4_slot",
     "Name": "",
     "Type": "Profile",
@@ -597,6 +756,9 @@
     "Children": [
       {
         "Id": "pdf_Zerg_equipment_ravagers_default_4_body"
+      },
+      {
+        "Id": "pdf_Zerg_equipment_ravagers_default_4_keyword_row"
       }
     ]
   },
@@ -626,6 +788,13 @@
     "Children": []
   },
   {
+    "Id": "pdf_Zerg_equipment_roaches_default_1_keyword_row",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": []
+  },
+  {
     "Id": "pdf_Zerg_equipment_roaches_default_1_slot",
     "Name": "",
     "Type": "Profile",
@@ -633,6 +802,9 @@
     "Children": [
       {
         "Id": "pdf_Zerg_equipment_roaches_default_1_body"
+      },
+      {
+        "Id": "pdf_Zerg_equipment_roaches_default_1_keyword_row"
       }
     ]
   },
@@ -662,6 +834,13 @@
     "Children": []
   },
   {
+    "Id": "pdf_Zerg_equipment_roaches_default_3_keyword_row",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": []
+  },
+  {
     "Id": "pdf_Zerg_equipment_roaches_default_3_slot",
     "Name": "",
     "Type": "Profile",
@@ -669,6 +848,9 @@
     "Children": [
       {
         "Id": "pdf_Zerg_equipment_roaches_default_3_body"
+      },
+      {
+        "Id": "pdf_Zerg_equipment_roaches_default_3_keyword_row"
       }
     ]
   },
@@ -698,6 +880,13 @@
     "Children": []
   },
   {
+    "Id": "pdf_Zerg_equipment_roachling_default_1_keyword_row",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": []
+  },
+  {
     "Id": "pdf_Zerg_equipment_roachling_default_1_slot",
     "Name": "",
     "Type": "Profile",
@@ -705,6 +894,9 @@
     "Children": [
       {
         "Id": "pdf_Zerg_equipment_roachling_default_1_body"
+      },
+      {
+        "Id": "pdf_Zerg_equipment_roachling_default_1_keyword_row"
       }
     ]
   },
@@ -734,6 +926,13 @@
     "Children": []
   },
   {
+    "Id": "pdf_Zerg_equipment_swarmlings_default_3_keyword_row",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": []
+  },
+  {
     "Id": "pdf_Zerg_equipment_swarmlings_default_3_slot",
     "Name": "",
     "Type": "Profile",
@@ -741,6 +940,9 @@
     "Children": [
       {
         "Id": "pdf_Zerg_equipment_swarmlings_default_3_body"
+      },
+      {
+        "Id": "pdf_Zerg_equipment_swarmlings_default_3_keyword_row"
       }
     ]
   },
@@ -770,6 +972,13 @@
     "Children": []
   },
   {
+    "Id": "pdf_Zerg_equipment_vileling_zergling_default_3_keyword_row",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": []
+  },
+  {
     "Id": "pdf_Zerg_equipment_vileling_zergling_default_3_slot",
     "Name": "",
     "Type": "Profile",
@@ -777,6 +986,9 @@
     "Children": [
       {
         "Id": "pdf_Zerg_equipment_vileling_zergling_default_3_body"
+      },
+      {
+        "Id": "pdf_Zerg_equipment_vileling_zergling_default_3_keyword_row"
       }
     ]
   },
@@ -806,6 +1018,13 @@
     "Children": []
   },
   {
+    "Id": "pdf_Zerg_equipment_viles_roach_default_1_keyword_row",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": []
+  },
+  {
     "Id": "pdf_Zerg_equipment_viles_roach_default_1_slot",
     "Name": "",
     "Type": "Profile",
@@ -813,6 +1032,9 @@
     "Children": [
       {
         "Id": "pdf_Zerg_equipment_viles_roach_default_1_body"
+      },
+      {
+        "Id": "pdf_Zerg_equipment_viles_roach_default_1_keyword_row"
       }
     ]
   },
@@ -842,6 +1064,13 @@
     "Children": []
   },
   {
+    "Id": "pdf_Zerg_equipment_viles_roach_default_3_keyword_row",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": []
+  },
+  {
     "Id": "pdf_Zerg_equipment_viles_roach_default_3_slot",
     "Name": "",
     "Type": "Profile",
@@ -849,6 +1078,9 @@
     "Children": [
       {
         "Id": "pdf_Zerg_equipment_viles_roach_default_3_body"
+      },
+      {
+        "Id": "pdf_Zerg_equipment_viles_roach_default_3_keyword_row"
       }
     ]
   },
@@ -878,6 +1110,13 @@
     "Children": []
   },
   {
+    "Id": "pdf_Zerg_equipment_zagara_default_2_keyword_row",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": []
+  },
+  {
     "Id": "pdf_Zerg_equipment_zagara_default_2_slot",
     "Name": "",
     "Type": "Profile",
@@ -885,6 +1124,9 @@
     "Children": [
       {
         "Id": "pdf_Zerg_equipment_zagara_default_2_body"
+      },
+      {
+        "Id": "pdf_Zerg_equipment_zagara_default_2_keyword_row"
       }
     ]
   },
@@ -914,6 +1156,13 @@
     "Children": []
   },
   {
+    "Id": "pdf_Zerg_equipment_zagara_default_3_keyword_row",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": []
+  },
+  {
     "Id": "pdf_Zerg_equipment_zagara_default_3_slot",
     "Name": "",
     "Type": "Profile",
@@ -921,6 +1170,9 @@
     "Children": [
       {
         "Id": "pdf_Zerg_equipment_zagara_default_3_body"
+      },
+      {
+        "Id": "pdf_Zerg_equipment_zagara_default_3_keyword_row"
       }
     ]
   },
@@ -950,6 +1202,13 @@
     "Children": []
   },
   {
+    "Id": "pdf_Zerg_equipment_zagara_default_5_keyword_row",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": []
+  },
+  {
     "Id": "pdf_Zerg_equipment_zagara_default_5_slot",
     "Name": "",
     "Type": "Profile",
@@ -957,6 +1216,9 @@
     "Children": [
       {
         "Id": "pdf_Zerg_equipment_zagara_default_5_body"
+      },
+      {
+        "Id": "pdf_Zerg_equipment_zagara_default_5_keyword_row"
       }
     ]
   },
@@ -986,6 +1248,13 @@
     "Children": []
   },
   {
+    "Id": "pdf_Zerg_equipment_zerglings_default_2_keyword_row",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": []
+  },
+  {
     "Id": "pdf_Zerg_equipment_zerglings_default_2_slot",
     "Name": "",
     "Type": "Profile",
@@ -993,6 +1262,9 @@
     "Children": [
       {
         "Id": "pdf_Zerg_equipment_zerglings_default_2_body"
+      },
+      {
+        "Id": "pdf_Zerg_equipment_zerglings_default_2_keyword_row"
       }
     ]
   },
@@ -1473,8 +1745,8 @@
   },
   {
     "Id": "pdf_Zerg_rule_hydralisks_upgrade_assault_phase_grooved_spines_effect_0_keywords",
-    "Name": "",
-    "Type": "",
+    "Name": "<color=#ffffff><u><link=\"rule_keyword_long_range\"><color=#2596be>LONG RANGE (16\")</color></link></u></color>",
+    "Type": "Imported",
     "Description": "<u><link=\"rule_keyword_long_range\"><color=#2596be>LONG RANGE (16\")</color></link></u>",
     "Children": []
   },
@@ -1482,7 +1754,7 @@
     "Id": "pdf_Zerg_rule_hydralisks_upgrade_assault_phase_grooved_spines_effect_0_table",
     "Name": "",
     "Type": "",
-    "Description": "<b>Assault Phase</b>\n<b>NEEDLE SPINES</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>12</nobr><pos=14%><nobr>All</nobr><pos=32%><nobr>3</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>L&A (D3+1)</nobr><pos=86%><nobr>2</nobr></b></size></align>\n<u><link=\"rule_keyword_long_range\"><color=#2596be>LONG RANGE (16\")</color></link></u>",
+    "Description": "<b>Assault Phase</b>\n<b>NEEDLE SPINES</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>12</nobr><pos=14%><nobr>All</nobr><pos=32%><nobr>3</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>L&A (D3+1)</nobr><pos=86%><nobr>2</nobr></b></size></align>",
     "Children": []
   },
   {
@@ -1601,8 +1873,8 @@
   },
   {
     "Id": "pdf_Zerg_rule_raptors_zergling_upgrade_combat_phase_adrenal_glands_effect_0",
-    "Name": "",
-    "Type": "",
+    "Name": "<color=#ffffff><u><link=\"pdf_Zerg_rule_raptors_zergling_upgrade_combat_phase_adrenal_glands\"><color=#2596be>PRECISION (2)</color></link></u></color>",
+    "Type": "Imported",
     "Description": "<u><link=\"pdf_Zerg_rule_raptors_zergling_upgrade_combat_phase_adrenal_glands\"><color=#2596be>PRECISION (2)</color></link></u>",
     "Children": []
   },
@@ -1745,8 +2017,8 @@
   },
   {
     "Id": "pdf_Zerg_rule_zerglings_upgrade_combat_phase_adrenal_glands_effect_0",
-    "Name": "",
-    "Type": "",
+    "Name": "<color=#ffffff><u><link=\"pdf_Zerg_rule_raptors_zergling_upgrade_combat_phase_adrenal_glands\"><color=#2596be>PRECISION (2)</color></link></u></color>",
+    "Type": "Imported",
     "Description": "<u><link=\"pdf_Zerg_rule_raptors_zergling_upgrade_combat_phase_adrenal_glands\"><color=#2596be>PRECISION (2)</color></link></u>",
     "Children": []
   }

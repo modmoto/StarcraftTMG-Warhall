@@ -100,30 +100,28 @@ export function addUpgradeOptions(unit, ids, profiles, profileIds, defaults, rec
       add.push({ Id: `${oldId}_slot`, Ref: rows.get(recordId).map(Id => ({ Id })) });
     } else if (replaced) {
       const oldId = defaults[unit.profiles.indexOf(replaced)];
-      const slot = `${oldId}_body`;
-      const alternatives = profiles.flatMap((candidate, candidateIndex) => {
-        if (
-          !/Weapon$/.test(candidate.type) ||
-          specialist(candidate) ||
-          replacedWeapon(unit, candidate) !== replaced
-        )
-          return [];
-        return rows.get(profileIds[candidateIndex]);
-      });
-      remove.push({
-        Id: `${oldId}_slot`,
-        Ref: [
-          {
-            Id: slot,
-            Ref: [...records.rules.get(slot).Children, ...alternatives.map(Id => ({ Id }))],
-          },
-        ],
-      });
-      if (isWeapon)
-        add.push({
-          Id: `${oldId}_slot`,
-          Ref: [{ Id: slot, Ref: rows.get(recordId).map(Id => ({ Id })) }],
-        });
+      const alternatives = profiles.flatMap((candidate, candidateIndex) =>
+        !specialist(candidate) && replacedWeapon(unit, candidate) === replaced
+          ? rows.get(profileIds[candidateIndex])
+          : [],
+      );
+      for (const [suffix, rowSuffix] of [
+        ['_body', '_table'],
+        ['_keyword_row', '_keywords'],
+      ]) {
+        const group = oldId + suffix;
+        const refs = [
+          ...records.rules.get(group).Children,
+          ...alternatives.filter(id => id.endsWith(rowSuffix)).map(Id => ({ Id })),
+        ];
+        if (refs.length) remove.push({ Id: `${oldId}_slot`, Ref: [{ Id: group, Ref: refs }] });
+        const replacement = rows.get(recordId).filter(id => id.endsWith(rowSuffix));
+        if (replacement.length)
+          add.push({
+            Id: `${oldId}_slot`,
+            Ref: [{ Id: group, Ref: replacement.map(Id => ({ Id })) }],
+          });
+      }
     }
     const hp = profile.attributes.Effect?.match(
       /^Increase this Unit's Hit Points characteristic by (\d+)\.$/i,
