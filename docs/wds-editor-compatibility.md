@@ -71,3 +71,13 @@ Unlike TokensEditor, TerrainEditor cannot currently be matched losslessly by the
 Additionally, the picker searches only public/shared catalogue skins matching terrain. It cannot retain the eight sc_deployment_* helper records or mission-marker skins absent from that search. Normalizing the package to its output would delete helpers required by DeploymentTerrains. The generator deliberately preserves all 27 terrain records and their heights rather than suppressing the warning by deleting functional data. Warhall needs to preserve unrepresented records, original IDs and extra fields and emit changes only after deliberate edits. This out-of-sync warning remains unresolved for terrain.
 
 Release 45 update: the user explicitly accepted removal of selection collider Height, so generators now omit it everywhere. The remaining terrain roundtrip blocker is dropped helper records and dimension rounding; the earlier height-preservation decision is superseded.
+
+## Custom overhead terrain
+
+Run `node scripts/render-terrain-overhead.mjs` to render transparent, textured PNGs from the Test terrain meshes into `Starcraft-test/assets/terrain-overhead/`. The adjacent `index.json` maps terrain IDs to filenames. The PNGs use the terrain footprint aspect ratio. Wall Sets 1 and 2 mask the overhead artwork to the mesh's lowest centimetre to exclude elevated overhangs.
+
+The inspected Warhall client copies the loaded terrain object's root renderer material to its 2D quad. A hosted model without a root renderer leaves the quad's stock material in place. The terrain record and shared skin payload do not expose a separate overhead texture. Warhall would need to load the PNG on the 2D quad using an alpha-capable material, independently of the 3D model and selection base.
+
+## Profile layout
+
+Render the selected option links immediately below the default option links, with one line break and no blank line. Keep the spacing before the first phase heading. Insert commas only between visible option names on the same line. Inline profile containers for weapon blocks and upgrade effects must not produce separators on their own lines.

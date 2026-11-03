@@ -130,7 +130,14 @@ async function textureData(filename) {
 
 export async function renderGeometry(
   meshes,
-  { size = 512, topDown = false, frame = null, margin = 32 } = {},
+  {
+    size = 512,
+    topDown = false,
+    frame = null,
+    margin = 32,
+    transparent = false,
+    maxHeight = Infinity,
+  } = {},
 ) {
   const viewRight = topDown ? [1, 0, 0] : right;
   const viewUp = topDown ? [0, 0, 1] : up;
@@ -153,7 +160,7 @@ export async function renderGeometry(
   const scale = (size - margin * 2) / Math.max(upper[0] - lower[0], upper[1] - lower[1], 0.0001);
   const center = lower.map((value, i) => (value + upper[i]) / 2);
   const pixels = Buffer.alloc(size * size * 4);
-  for (let i = 0; i < pixels.length; i += 4) {
+  for (let i = 0; !transparent && i < pixels.length; i += 4) {
     pixels[i] = 27;
     pixels[i + 1] = 35;
     pixels[i + 2] = 47;
@@ -196,7 +203,7 @@ export async function renderGeometry(
           if (u < 0 || w < 0 || t < 0) continue;
           const z = u * a[2] + w * b[2] + t * c[2],
             index = y * size + x;
-          if (z <= depth[index]) continue;
+          if (z > maxHeight || z <= depth[index]) continue;
           let color = [153, 170, 190, 255];
           if (hasTexture) {
             const tu = u * texCoords[0][0] + w * texCoords[1][0] + t * texCoords[2][0];
@@ -216,6 +223,7 @@ export async function renderGeometry(
           depth[index] = z;
           for (let channel = 0; channel < 3; channel++)
             pixels[index * 4 + channel] = Math.round(color[channel] * shade);
+          pixels[index * 4 + 3] = 255;
           drawn++;
         }
     }
