@@ -19,7 +19,7 @@ Textures are embedded at up to 2048 pixels per axis. This keeps the shard's enor
 ```sh
 npm run terrain:update -- --offline
 npm run models:catalogue
-npm run terrain:review
+node scripts/review-terrain.mjs
 npm run check:local
 ```
 

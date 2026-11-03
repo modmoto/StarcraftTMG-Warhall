@@ -58,7 +58,7 @@ To compare against a local New Recruit checkout after refreshing card PDFs:
 
 ```sh
 npm run convert
-npm run rules:compare -- /path/to/StarcraftTMG-NR
+node scripts/compare-rule-references.mjs /path/to/StarcraftTMG-NR
 ```
 
 The comparison is informational and does not edit the catalogue or apply its values. The glossary updater validates its expected headings and fails on an incomplete extraction. Review glossary changes before publishing. Automated checks cover split abilities, costs, upgrade separation, nested links, source-specific values, primary HP, table columns and phase ordering.

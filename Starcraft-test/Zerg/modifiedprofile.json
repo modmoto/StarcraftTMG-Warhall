@@ -493,14 +493,6 @@
             "Id": "pdf_Zerg_rule_ravagers_upgrade_assault_phase_potent_bile"
           }
         ]
-      },
-      {
-        "Id": "pdf_Zerg_profile_ravagers_selected_options",
-        "Ref": [
-          {
-            "Id": "pdf_Zerg_rule_ravagers_upgrade_assault_phase_potent_bile_effect_0"
-          }
-        ]
       }
     ]
   },

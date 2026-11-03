@@ -4,7 +4,7 @@ Version 18 keeps the existing red, blue and green marker IDs and deployment posi
 
 The imported GLB has no colliders. Warhall builds the terrain collider and minimum-distance shape from WDS Width/Length (3.2 cm), so the ring does not create a separate selectable item or expand that footprint. Automatic minimum-distance measurement already uses the outside edge; no new WDS measurement setting is invented. Manual ruler behavior is unchanged. Verify selection and measurement in a fresh live room after publication.
 
-The artwork comes from workshop 3662791369, deployment script d87518. Source URLs and generated geometry are maintained in `src/deployments/marker-assets.mjs`. `npm run models:catalogue` generates the three portable assets, and `npm run models:thumbnails` generates their previews.
+The artwork comes from workshop 3662791369, deployment script d87518. Source URLs and generated geometry are maintained in `src/deployments/marker-assets.mjs`. `npm run models:catalogue` generates the three portable assets, and `node scripts/generate-model-thumbnails.mjs` generates their previews.
 
 After pushing the hosted assets and version 18 data, publish only marker skins:
 

@@ -79,7 +79,7 @@ The committed `rulebook.json` and `rule-keywords.json` snapshots contain the num
 
 ```sh
 npm run rules:update-book
-npm run rules:compare -- /path/to/StarcraftTMG-NR
+node scripts/compare-rule-references.mjs /path/to/StarcraftTMG-NR
 npm run convert -- --offline
 npm run check:local
 ```
@@ -116,7 +116,7 @@ Run `npm run check:local` for a read-only offline check after conversion. It reb
 npm run deployments:update                 # Download current official rulebook and all faction waves
 npm run deployments:update -- --dry-run    # Parse/validate without changing generated output
 npm run deployments:update -- --offline    # Reuse checksum-verified downloads
-npm run deployments:check                  # Read-only offline byte-for-byte check
+node scripts/update-deployments.mjs --check                  # Read-only offline byte-for-byte check
 ```
 
 This updates the 7 standard 54x36 layouts plus the three-inch grid in `Starcraft/deployments.json`, existing Warhall red, blue and green markers in `Starcraft/terrains.json`, and their placement in `Starcraft/gameconfig.json`. Unrelated manually maintained entries are preserved. Run this after updating the unit cards; the unit converter preserves these files. It does not automatically change the release version. A fresh checkout needs `npm ci`, `npm run convert`, and `npm run deployments:update` before the offline checks.
@@ -129,20 +129,11 @@ The rules use red markers for 1/3, blue for 2/4 and green neutral for 5. Markers
 
 ### Hosted model pose selections
 
-The installed Warhall Test client reads model URLs from its separate skin catalogue, not from WDS profiles or the game manifest. For a local CDN rendering test without creating skins in the UI, close Warhall Test and run:
-
-```sh
-node scripts/install-warhall-model-cache.mjs /path/to/WarhallTest/Database --dry-run
-node scripts/install-warhall-model-cache.mjs /path/to/WarhallTest/Database --apply
-```
-
-The adapter backs up five catalogue cache files under `.cache/warhall-model-backup-TIMESTAMP/` before installing 41 complete model mappings. Restart Warhall Test afterwards. Meshes and textures are fetched from their TTS CDN URLs by Warhall itself; the mappings do not use local preview assets. This is a machine-local test adapter, not a shared catalogue deployment. A Warhall catalogue refresh can replace the mappings. To undo the local test, close Warhall Test and copy the five files from the printed backup directory back to the same `Database` directory. The shared catalogue requires a Warhall-side import; adding these links to the WDS manifest alone has no effect on skin loading in this client build.
+Warhall loads hosted models from its shared skin catalogue. See [model publication](docs/model-publication.md) for the upload workflow.
 
 `model-selections.json` records visually reviewed Steam CDN mesh/texture pairs for all 45 generated units. Prefer aiming/firing/casting poses for ranged units and charging/striking poses for melee units. Where those poses are unavailable, the entry describes the closest available stance. It is a source mapping, not an asserted Warhall model schema, and the converter does not yet attach these references to profiles.
 
 All 45 units now have selected CDN references. Complete TTS prefabs cover Adepts, Jim Raynor, Nova Assault, Vile and the emerged Omega Worm; Zeratul includes his separate psi blade. Zerglings use the actual leaping zergling, and the tank uses its deployed siege pose. `model-adjustments.json` records the measured size, rotation and centering overrides separately from the original TTS transforms. These adjustments still require visual verification in Warhall Test.
-
-`scripts/prepare-warhall-textures.py` can prepare compatible PNG textures in the local Warhall Test texture cache, including blue Terran, purple Zerg and gold Protoss accents. It requires Pillow, numpy and the downloaded preview inventory. Pass the client's `TextureCache` directory to preview, and add `--apply` to back up and write the textures while the client is closed. This fixes unsupported WebP source textures locally; shared deployment still requires compatible hosted textures and Warhall catalogue registration. A WDS manifest version bump alone does not install these model mappings.
 
 To repeat the review from a local TTS Workshop cache containing the main table and faction saves:
 
@@ -201,13 +192,13 @@ Formatting uses Prettier with two-space indentation, single quotes and a 100-col
 
 ```sh
 npm run format
-npm run format:check
+prettier --check "scripts/**/*.mjs" "src/**/*.mjs" "test/*.mjs" package.json .prettierrc.json
 npm test
 ```
 
 ## Standard terrain maps
 
-`npm run terrain:update` downloads the TTS terrain meshes and textures for inspection, computes Warhall footprints and regenerates `Starcraft/maps.json`, terrain records and CDN model mappings. `--offline` reuses the local cache; `npm run terrain:check` verifies the generated files without changing them. Model binaries stay out of Git.
+`npm run terrain:update` downloads the TTS terrain meshes and textures for inspection, computes Warhall footprints and regenerates `Starcraft/maps.json`, terrain records and CDN model mappings. `--offline` reuses the local cache; `node scripts/update-terrain.mjs --check` verifies the generated files without changing them. Model binaries stay out of Git.
 
 The six presets are official PDF maps 1-6 (rulebook PDF pages 118-123), using the corresponding saved TTS memory-bag placements: 30 pieces on maps 1-4 and 32 on maps 5-6, including the high-ground ramps. Refresh `terrain-sources.json` from the Workshop save with `node scripts/extract-tts-terrain.mjs /path/to/3662791369.json`. Source URLs, hashes, scale limitations and page references are retained in `terrain-report.json`.
 
@@ -235,7 +226,7 @@ An eighth deployment, `3-INCH GRID (54x36)`, draws full horizontal and vertical 
 
 ### PDF-grid terrain layout review (test release 21)
 
-All six maps use the explicit measurements and reviewed poses in `terrain-calibration.json`. The importer preserves separate XYZ scales and bakes complete terrain assemblies into portable textured GLBs. This corrects the oversized shard attachment, replaces guessed L-wall alignment, tightens touching wall groups, and keeps ramp/platform offsets together. `npm run terrain:review` generates top-down grid and base-outline views. See [calibration, review limits and terrain-only publication](docs/terrain-calibration.md).
+All six maps use the explicit measurements and reviewed poses in `terrain-calibration.json`. The importer preserves separate XYZ scales and bakes complete terrain assemblies into portable textured GLBs. This corrects the oversized shard attachment, replaces guessed L-wall alignment, tightens touching wall groups, and keeps ramp/platform offsets together. `node scripts/review-terrain.mjs` generates top-down grid and base-outline views. See [calibration, review limits and terrain-only publication](docs/terrain-calibration.md).
 
 ### Compact weapon tables (test release 22)
 

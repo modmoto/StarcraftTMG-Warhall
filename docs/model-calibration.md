@@ -4,7 +4,7 @@ Release 21 intentionally recalibrates terrain against the official PDF grid at t
 
 ## Original Windows cache baseline
 
-The working local adapter in `scripts/install-warhall-model-cache.mjs` used the selected model's layout size, position and rotation, with `UseLegacyScale: 1`. The shared website creates nonlegacy skins. In addition, the former `--default-scale` upload path sent `transforms: null`, losing position and rotation as well as scale. That reset broke the terrain/map rotation compensation and changed model dimensions.
+The former local adapter used the selected model's layout size, position and rotation, with `UseLegacyScale: 1`. The shared website creates nonlegacy skins. In addition, the former `--default-scale` upload path sent `transforms: null`, losing position and rotation as well as scale. That reset broke the terrain/map rotation compensation and changed model dimensions.
 
 `models:catalogue` now preserves those original layouts from `model-selections.json` and `terrain-models.json`. It does not refit units to their bases or invent new dimensions. The isolated manual Marine scale override has been removed; its original Windows layout is used again. `model-calibration-report.json` records source sizes, original scales, API scales and physical size estimates for review.
 
@@ -48,7 +48,7 @@ The HTTP adapter now encodes zero position/rotation components as `1e-7` in crea
 Repair existing shared skins without replacing meshes or changing skin IDs:
 
 ```sh
-npm run models:repair -- --apply --login --profile sc_terrain_f2dd0d048a087d53
+node scripts/repair-model-transforms.mjs --apply --login --profile sc_terrain_f2dd0d048a087d53
 ```
 
 Without `--apply`, the command previews the selected authored transforms. Omit `--profile` to repair all published model/terrain transforms. `--server test|prod` selects the target, defaulting to test. It resolves the exact game, requires administrator access and exactly one matching shared skin per profile, reads `/SelectSkinParts`, posts `/UpdateSkinLayerTransforms`, then reads back every position, rotation and scale. Nulls or mismatches fail verification. This does not upload meshes, create skins, delete skins or modify local Warhall caches.

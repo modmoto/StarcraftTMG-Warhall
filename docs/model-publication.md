@@ -98,7 +98,7 @@ The supported way to refresh a screenshot here is replacing the owned skin, rath
 
 ## Automatic thumbnail generation
 
-`npm run models:thumbnails` generates or validates all cached previews without logging in or publishing. Use `-- --profile PROFILE_ID` for one model, `-- --force` to regenerate images, or `-- --use-transforms` to include configured scales in preview geometry. The publisher generates missing previews automatically with its selected scale mode.
+`node scripts/generate-model-thumbnails.mjs` generates or validates all cached previews without logging in or publishing. Use `--profile PROFILE_ID` for one model, `--force` to regenerate images, or `--use-transforms` to include configured scales in preview geometry. The publisher generates missing previews automatically with its selected scale mode.
 
 Generated images have a `.render.json` sidecar fingerprint. Source/transform or renderer changes regenerate those images; manually supplied images without metadata are preserved. Network source files and decoded bundle geometry are cached under `.cache/thumbnail-assets`. The renderer uses real mesh geometry, UV textures, triangle depth testing and automatic framing. It produces a catalogue image, not a guarantee of matching Unity's lighting or final in-game rendering.
 

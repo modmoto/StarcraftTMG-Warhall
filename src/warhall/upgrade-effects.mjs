@@ -100,27 +100,18 @@ export function upgradeEffects(unit, profile) {
       key: 'Eva',
       value: `${Number(unit.attributes.Eva.replace('+', '')) - 1}+`,
     });
-  if (/Supply Value counts as 0/.test(effect))
-    result.push({
-      kind: 'statNote',
-      text: `Supply: ${blue('0')} for calculating the Supply Pool only`,
-    });
   if (/each eligible model generates 1 additional IMPACT die/.test(effect)) {
-    const impact = unit.profiles
-      .map(rule => rule.attributes.Effect ?? '')
-      .join(' ')
-      .match(/IMPACT \((\d+)\) (\d\+)/);
+    const original = unit.profiles.find(rule => clean(rule.name) === 'devastatingcharge');
+    const impact = original?.attributes.Effect?.match(/IMPACT \((\d+)\) (\d\+)/);
     if (impact)
       result.push({
-        kind: 'statNote',
-        text: `Devastating Charge: IMPACT ${blue(`(${Number(impact[1]) + 1})`)} ${impact[2]}`,
+        kind: 'impact',
+        original,
+        before: impact[0],
+        dice: Number(impact[1]) + 1,
+        hit: impact[2],
       });
   }
-  if (/Corrosive Bile.*DEBUFF Armour/.test(effect))
-    result.push({
-      kind: 'statNote',
-      text: `Corrosive Bile: ${blue('DEBUFF Armour (1)')} before the target resolves its Armour Roll`,
-    });
   const ability =
     effect.match(/^Increase the (Optical Flare) special ability's Range to (16")\.$/) ??
     effect.match(/^Increase the area of effect of this Unit's (Corrosive Bile) ability to (2")\.$/);
@@ -213,6 +204,19 @@ export function applyUpgradeEffects(
             Ref: [{ Id: group, Ref: replacements.map(Id => ({ Id })) }],
           });
       }
+    } else if (effect.kind === 'impact') {
+      const oldId = defaults[unit.profiles.indexOf(effect.original)];
+      const original = records.rules.get(oldId);
+      const impact = `IMPACT ${blue(`(${effect.dice})`)} ${effect.hit}`;
+      records.rules.set(id, {
+        ...structuredClone(original),
+        Id: id,
+        Name: `Devastating Charge ${impact}`,
+        Description: original.Description.replace(effect.before, impact),
+      });
+      records.owners.set(id, new Set([unit.name]));
+      remove.push({ Id: oldId });
+      add.push({ Id: `${ids.profile}_selected_options`, Ref: [{ Id: id }] });
     } else if (effect.kind === 'ability') {
       const original = unit.profiles.find(rule => clean(rule.name) === clean(effect.name));
       const oldId = defaults[unit.profiles.indexOf(original)];
@@ -275,6 +279,7 @@ export function upgradeDisplay(unit, profile) {
             if (effect.conditionalSurge) return `conditional surge; green: ${effect.weapon.name}`;
             if (effect.kind === 'weapon')
               return `permanent weapon change; blue: ${effect.weapon.name}`;
+            if (effect.kind === 'impact') return 'permanent IMPACT dice; blue: Devastating Charge';
             if (effect.kind === 'ability') return `ability definition change; blue: ${effect.name}`;
             const mode = effect.text.includes(conditionalGreen)
               ? 'conditional; green'

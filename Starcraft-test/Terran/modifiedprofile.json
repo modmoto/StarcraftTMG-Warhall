@@ -438,14 +438,6 @@
             "Id": "pdf_Terran_rule_medics_upgrade_any_phase_advanced_medic_facilities"
           }
         ]
-      },
-      {
-        "Id": "pdf_Terran_profile_medics_selected_options",
-        "Ref": [
-          {
-            "Id": "pdf_Terran_rule_medics_upgrade_any_phase_advanced_medic_facilities_effect_0"
-          }
-        ]
       }
     ]
   },

@@ -495,7 +495,7 @@
         {
           "name": "My Life For Aiur",
           "display": [
-            "permanent; blue: profile note"
+            "permanent IMPACT dice; blue: Devastating Charge"
           ]
         },
         {
@@ -1166,7 +1166,7 @@
         {
           "name": "Advanced Medic Facilities",
           "display": [
-            "permanent; blue: profile note"
+            "rule only; deployment, movement permission or resource effect"
           ]
         },
         {
@@ -2748,7 +2748,7 @@
         {
           "name": "Potent Bile",
           "display": [
-            "permanent; blue: profile note"
+            "rule only; deployment, movement permission or resource effect"
           ]
         }
       ]
@@ -3404,7 +3404,7 @@
       "extraction": "Official Part 11 glossary; PDF text and headings, whitespace normalized."
     },
     "keywordDefinitions": 76,
-    "links": 2945,
+    "links": 2941,
     "rulebookSource": {
       "url": "https://archon-studio.com/files/manuals/sc/StarCraft-TMG_EN.pdf",
       "sha256": "27639c562e6db9777dd9ba984d0c9f9b581841ec30166848e021f893cd00ea54",
