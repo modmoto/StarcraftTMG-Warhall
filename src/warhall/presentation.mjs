@@ -78,7 +78,7 @@ export function textContainer(records, id, children = []) {
 }
 
 // Imported rows share one client text group and accept explicit links in their labels.
-export function weaponKeywordRow(records, id, text) {
+export function inlineWeaponRow(records, id, text) {
   records.rules.set(id, {
     Id: id,
     Name: `<color=#ffffff>${text}</color>`,
@@ -100,13 +100,13 @@ export function weaponRows(
   const heading = `<b>${profile.name}</b>`;
   const keywords = weaponKeywords(profile.attributes.Keyword, glossary, baseline.Keyword);
   textRow(records, `${id}_heading`, heading);
-  if (keywords) weaponKeywordRow(records, `${id}_keywords`, keywords);
+  if (keywords) inlineWeaponRow(records, `${id}_keywords`, keywords);
   const sections = [
     phase && `<b>${phase}</b>`,
     heading,
     weaponTable(profile.attributes, baseline, profile.conditionalSurge, profile.conditionalRoa),
   ];
-  const table = textRow(records, `${id}_table`, sections.filter(Boolean).join('\n'));
+  const table = inlineWeaponRow(records, `${id}_table`, sections.filter(Boolean).join('\n'));
   return keywords ? [table, `${id}_keywords`] : [table];
 }
 

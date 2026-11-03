@@ -162,7 +162,7 @@ const weaponText = (name, options = []) =>
       row =>
         row.Id.endsWith('_table') || row.Id.endsWith('_keywords') || /_effect_\d+$/.test(row.Id),
     )
-    .map(row => row.Name || row.Description || '')
+    .map(row => row.Description || row.Name || '')
     .join('\n');
 
 test('Guidance changes Anti-Evade while the paid Resonating Glaves buff stays inactive', () => {

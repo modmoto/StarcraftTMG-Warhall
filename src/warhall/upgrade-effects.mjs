@@ -1,4 +1,4 @@
-import { textRow, weaponRows, weaponKeywordRow } from './presentation.mjs';
+import { textRow, weaponRows, inlineWeaponRow } from './presentation.mjs';
 
 export const upgradeBlue = '#2596be';
 export const conditionalGreen = '#65c879';
@@ -253,7 +253,7 @@ export function applyUpgradeEffects(
       if (label) {
         const [, color, name] = label;
         const link = `<u><link="${recordId}"><color=${color}>${name}</color></link></u>`;
-        if (effect.kind === 'weaponNote') weaponKeywordRow(records, id, link);
+        if (effect.kind === 'weaponNote') inlineWeaponRow(records, id, link);
         else textRow(records, id, link);
       } else {
         const text = effect.text.replace(

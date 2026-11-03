@@ -168,7 +168,8 @@ test('profiles render phase sections and left-aligned full-width weapon tables',
     .slice(1)
     .filter(child => (child.Type && child.Type !== 'Profile') || child.Description);
   const rifle = children.find(item => item.Id === 'pdf_Terran_equipment_marines_default_1_table');
-  assert.equal(rifle.Type, '');
+  assert.equal(rifle.Type, 'Imported');
+  assert.equal(rifle.Name, `<color=#ffffff>${rifle.Description}</color>`);
   assert.match(rifle.Description, /<align=left>/);
   assert.match(rifle.Description, /<pos=0%><nobr>RNG<\/nobr>/);
   assert.match(rifle.Description, /Target/);
