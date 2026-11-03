@@ -54,7 +54,9 @@ export async function calibrateCatalogue(
     const worldPoints = [];
     for (const part of entry.parts) {
       const factionPalette =
-        entry.kind === 'unit' && entry.faction in factionHues ? entry.faction : undefined;
+        entry.kind === 'unit' && !entry.preserveSourceColors && entry.faction in factionHues
+          ? entry.faction
+          : undefined;
       const { geometry, format } = await sourceGeometry({ ...part, factionPalette });
       const sourceBounds = bounds(geometry.flatMap(mesh => mesh.vertices));
       const worldTransform = { ...part.transforms, scale: part.transforms.scale * 2.54 };

@@ -689,10 +689,11 @@
       "name": "Starcraft - Medics",
       "kind": "unit",
       "faction": "Terran",
+      "preserveSourceColors": true,
       "parts": [
         {
           "modelUrl": "https://steamusercontent-a.akamaihd.net/ugc/15846916301642369325/A0778272A7FC1F9EF4C8C93F7101D758C9356067/",
-          "textureUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/e3926ccb10f4b774a8daff97e90d2fec9ee57d6ba7590bcaa62ade540dc1485f.png",
+          "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/11349553307637504139/A51D57CEF63EF92EB0AA2E324261E79176573C02/",
           "transforms": {
             "scale": 0.5406868950000001,
             "rotationX": 0,
@@ -714,8 +715,7 @@
             "positionX": 0.16042,
             "positionY": -0.1545,
             "positionZ": -1.4943
-          },
-          "factionPalette": "Terran"
+          }
         }
       ],
       "calibration": "windows-cache-v1"
@@ -725,9 +725,10 @@
       "name": "Starcraft - Nova Assault Mode",
       "kind": "unit",
       "faction": "Terran",
+      "preserveSourceColors": true,
       "parts": [
         {
-          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/3994198792635e5ceb978490ba94d89f3dd7ca19730b49f6ed4a1b3c9afdb58a.glb",
+          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/6c33e4003446a85c722460fcae43ff1f841c971446c4b9a5b4cba57f00a6d0dc.glb",
           "textureUrl": null,
           "transforms": {
             "scale": 1.623445873913266,
@@ -751,7 +752,6 @@
             "positionY": 0.047814517086190465,
             "positionZ": 0.2689195331657554
           },
-          "factionPalette": "Terran",
           "hostedAsset": true
         }
       ],
@@ -762,10 +762,11 @@
       "name": "Starcraft - Nova Stealth Mode",
       "kind": "unit",
       "faction": "Terran",
+      "preserveSourceColors": true,
       "parts": [
         {
           "modelUrl": "https://steamusercontent-a.akamaihd.net/ugc/17581228745774372404/A341024A169F435951E7916CB9E8F823EB1643F6/",
-          "textureUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/8c37f34dd506cdf45a8435f808682963b96e0e1e2a94ab7c2194ae38fe570c8d.png",
+          "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/11241123661157656523/699EE626B4A66E70EEA84B3710946F5BE04F0647/",
           "transforms": {
             "scale": 0.822833025,
             "rotationX": 0,
@@ -787,8 +788,7 @@
             "positionX": 0,
             "positionY": 0,
             "positionZ": 0
-          },
-          "factionPalette": "Terran"
+          }
         }
       ],
       "calibration": "windows-cache-v1"

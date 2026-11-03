@@ -26,6 +26,7 @@ for (const selection of [...units.models, ...terrain.models].filter(m => m.statu
     name: `Starcraft - ${selection.unitName}`,
     kind: selection.terrainId ? 'terrain' : 'unit',
     ...(!selection.terrainId ? { faction: selection.faction } : {}),
+    ...(selection.preserveSourceColors ? { preserveSourceColors: true } : {}),
     ...(flying
       ? { flightClearanceMm: selection.unitId === 'pdf_Terran_unit_point_defense_drone' ? 50 : 150 }
       : {}),
