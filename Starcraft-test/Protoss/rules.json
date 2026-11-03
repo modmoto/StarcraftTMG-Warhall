@@ -1309,14 +1309,14 @@
     "Id": "pdf_Protoss_rule_immortal_upgrade_assault_phase_for_the_ancients_effect_0",
     "Name": "",
     "Type": "",
-    "Description": "<u><link=\"pdf_Protoss_rule_immortal_upgrade_assault_phase_for_the_ancients\"><color=#65c879>[PRECISION (1) — target more than 8\" away]</color></link></u>",
+    "Description": "<u><link=\"pdf_Protoss_rule_immortal_upgrade_assault_phase_for_the_ancients\"><color=#65c879>(PRECISION (1) — target more than 8\" away)</color></link></u>",
     "Children": []
   },
   {
     "Id": "pdf_Protoss_rule_immortal_upgrade_assault_phase_for_the_ancients_effect_1",
     "Name": "",
     "Type": "",
-    "Description": "<u><link=\"pdf_Protoss_rule_immortal_upgrade_assault_phase_for_the_ancients\"><color=#65c879>[PRECISION (1) — target more than 8\" away]</color></link></u>",
+    "Description": "<u><link=\"pdf_Protoss_rule_immortal_upgrade_assault_phase_for_the_ancients\"><color=#65c879>(PRECISION (1) — target more than 8\" away)</color></link></u>",
     "Children": []
   },
   {
@@ -1329,14 +1329,14 @@
     "Id": "pdf_Protoss_rule_immortal_upgrade_assault_phase_fury_unyielding_effect_0",
     "Name": "",
     "Type": "",
-    "Description": "<u><link=\"pdf_Protoss_rule_immortal_upgrade_assault_phase_fury_unyielding\"><color=#65c879>[CRITICAL HIT (1) — both units within 3\" of the same mission marker]</color></link></u>",
+    "Description": "<u><link=\"pdf_Protoss_rule_immortal_upgrade_assault_phase_fury_unyielding\"><color=#65c879>(CRITICAL HIT (1) — both units within 3\" of the same mission marker)</color></link></u>",
     "Children": []
   },
   {
     "Id": "pdf_Protoss_rule_immortal_upgrade_assault_phase_fury_unyielding_effect_1",
     "Name": "",
     "Type": "",
-    "Description": "<u><link=\"pdf_Protoss_rule_immortal_upgrade_assault_phase_fury_unyielding\"><color=#65c879>[CRITICAL HIT (1) — both units within 3\" of the same mission marker]</color></link></u>",
+    "Description": "<u><link=\"pdf_Protoss_rule_immortal_upgrade_assault_phase_fury_unyielding\"><color=#65c879>(CRITICAL HIT (1) — both units within 3\" of the same mission marker)</color></link></u>",
     "Children": []
   },
   {
@@ -1463,7 +1463,7 @@
     "Id": "pdf_Protoss_rule_stalker_upgrade_assault_phase_fury_of_the_nerazim_effect_0",
     "Name": "",
     "Type": "",
-    "Description": "<u><link=\"pdf_Protoss_rule_stalker_upgrade_assault_phase_fury_of_the_nerazim\"><color=#65c879>[INSTANT — target already activated]</color></link></u>",
+    "Description": "<u><link=\"pdf_Protoss_rule_stalker_upgrade_assault_phase_fury_of_the_nerazim\"><color=#65c879>(INSTANT — target already activated)</color></link></u>",
     "Children": []
   },
   {
@@ -1543,7 +1543,7 @@
     "Id": "pdf_Protoss_rule_zealots_upgrade_combat_phase_we_stand_as_one_effect_0",
     "Name": "",
     "Type": "",
-    "Description": "<u><link=\"pdf_Protoss_rule_zealots_upgrade_combat_phase_we_stand_as_one\"><color=#65c879>[PRECISION (2) — target engaged with another friendly unit]</color></link></u>",
+    "Description": "<u><link=\"pdf_Protoss_rule_zealots_upgrade_combat_phase_we_stand_as_one\"><color=#65c879>(PRECISION (2) — target engaged with another friendly unit)</color></link></u>",
     "Children": []
   },
   {

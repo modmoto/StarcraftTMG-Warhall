@@ -528,27 +528,7 @@
     "UnitId": "unit_marine",
     "ProfileId": "prof_marine",
     "OptionId": "Agg-12",
-    "ReferencedItemsToRemove": [
-      {
-        "Id": "pdf_Terran_equipment_marines_default_1_slot",
-        "Ref": [
-          {
-            "Id": "pdf_Terran_equipment_marines_default_1_body",
-            "Ref": [
-              {
-                "Id": "pdf_Terran_equipment_marines_default_1_table"
-              },
-              {
-                "Id": "pdf_Terran_equipment_marines_upgrade_1_table"
-              },
-              {
-                "Id": "pdf_Terran_equipment_marines_upgrade_2_table"
-              }
-            ]
-          }
-        ]
-      }
-    ],
+    "ReferencedItemsToRemove": [],
     "ReferencedItemsToAdd": [
       {
         "Id": "prof_marine_selected_options",
@@ -562,12 +542,7 @@
         "Id": "pdf_Terran_equipment_marines_default_1_slot",
         "Ref": [
           {
-            "Id": "pdf_Terran_equipment_marines_default_1_body",
-            "Ref": [
-              {
-                "Id": "pdf_Terran_equipment_marines_upgrade_1_table"
-              }
-            ]
+            "Id": "pdf_Terran_equipment_marines_upgrade_1_table"
           }
         ]
       }
@@ -639,7 +614,21 @@
     "UnitId": "unit_marine",
     "ProfileId": "prof_marine",
     "OptionId": "Grenades - Frag",
-    "ReferencedItemsToRemove": [],
+    "ReferencedItemsToRemove": [
+      {
+        "Id": "pdf_Terran_equipment_marines_default_1_slot",
+        "Ref": [
+          {
+            "Id": "pdf_Terran_equipment_marines_default_1_body",
+            "Ref": [
+              {
+                "Id": "pdf_Terran_equipment_marines_default_1_table"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "ReferencedItemsToAdd": [
       {
         "Id": "prof_marine_selected_options",
@@ -653,7 +642,12 @@
         "Id": "pdf_Terran_equipment_marines_default_1_slot",
         "Ref": [
           {
-            "Id": "pdf_Terran_rule_marines_upgrade_assault_phase_grenades_frag_effect_0"
+            "Id": "pdf_Terran_equipment_marines_default_1_body",
+            "Ref": [
+              {
+                "Id": "pdf_Terran_rule_marines_upgrade_assault_phase_grenades_frag_effect_0_table"
+              }
+            ]
           }
         ]
       }
@@ -663,27 +657,7 @@
     "UnitId": "unit_marine",
     "ProfileId": "prof_marine",
     "OptionId": "Rocket Launcher",
-    "ReferencedItemsToRemove": [
-      {
-        "Id": "pdf_Terran_equipment_marines_default_1_slot",
-        "Ref": [
-          {
-            "Id": "pdf_Terran_equipment_marines_default_1_body",
-            "Ref": [
-              {
-                "Id": "pdf_Terran_equipment_marines_default_1_table"
-              },
-              {
-                "Id": "pdf_Terran_equipment_marines_upgrade_1_table"
-              },
-              {
-                "Id": "pdf_Terran_equipment_marines_upgrade_2_table"
-              }
-            ]
-          }
-        ]
-      }
-    ],
+    "ReferencedItemsToRemove": [],
     "ReferencedItemsToAdd": [
       {
         "Id": "prof_marine_selected_options",
@@ -697,12 +671,7 @@
         "Id": "pdf_Terran_equipment_marines_default_1_slot",
         "Ref": [
           {
-            "Id": "pdf_Terran_equipment_marines_default_1_body",
-            "Ref": [
-              {
-                "Id": "pdf_Terran_equipment_marines_upgrade_2_table"
-              }
-            ]
+            "Id": "pdf_Terran_equipment_marines_upgrade_2_table"
           }
         ]
       }

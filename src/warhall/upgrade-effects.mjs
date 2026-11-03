@@ -1,9 +1,9 @@
-import { textRow, weaponRows, weaponAttributes } from './presentation.mjs';
+import { textRow, weaponRows } from './presentation.mjs';
 
 export const upgradeBlue = '#2596be';
 export const conditionalGreen = '#65c879';
 export const blue = value => `<color=${upgradeBlue}>${value}</color>`;
-export const conditional = value => `<color=${conditionalGreen}>[${value}]</color>`;
+export const conditional = value => `<color=${conditionalGreen}>(${value})</color>`;
 const clean = value => value.toLowerCase().replace(/[^a-z0-9]/g, '');
 const weapons = unit => unit.profiles.filter(profile => /Weapon$/.test(profile.type));
 const isPassive = profile =>
@@ -66,13 +66,13 @@ export function upgradeEffects(unit, profile) {
   if (/C-14 Rifle and the target is Within 8"/.test(effect)) {
     const select = weapon => clean(weapon.name) === 'c14rifle';
     if (/ANTI-EVADE/.test(effect))
-      conditionalWeapon(select, conditional('ANTI-EVADE (1) — C-14 Rifle, target within 8"'));
+      conditionalWeapon(select, `<color=${conditionalGreen}>ANTI-EVADE (1)</color>`);
     else if (/S Dice is replaced by D6/.test(effect)) {
       for (const weapon of weapons(unit).filter(select))
         result.push({
-          kind: 'weaponNote',
+          kind: 'weapon',
           weapon,
-          text: `C-14 Rifle Surge: ${weaponAttributes(weapon.attributes).Surge} ${conditional('Light (D6) — target within 8"')}`,
+          conditionalSurge: 'D6',
         });
     }
   }
@@ -191,7 +191,7 @@ export function applyUpgradeEffects(
       const phase =
         records.rules.get(`${oldId}_table`).Description.match(/^<b>([^<]*Phase)<\/b>\n/)?.[1] ?? '';
       const rows = weaponRows(
-        { ...effect.weapon, attributes },
+        { ...effect.weapon, attributes, conditionalSurge: effect.conditionalSurge },
         id,
         records,
         glossary,
@@ -247,11 +247,12 @@ export function upgradeDisplay(unit, profile) {
     ? [
         ...new Set(
           effects.map(effect => {
+            if (effect.conditionalSurge) return `conditional surge; green: ${effect.weapon.name}`;
             if (effect.kind === 'weapon')
               return `permanent weapon change; blue: ${effect.weapon.name}`;
             if (effect.kind === 'ability') return `ability definition change; blue: ${effect.name}`;
             const mode = effect.text.includes(conditionalGreen)
-              ? 'conditional; green brackets'
+              ? 'conditional; green'
               : 'permanent; blue';
             return effect.weapon ? `${mode}: ${effect.weapon.name}` : `${mode}: profile note`;
           }),

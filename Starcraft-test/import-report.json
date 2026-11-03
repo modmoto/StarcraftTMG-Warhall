@@ -156,7 +156,7 @@
         {
           "name": "Resonating Glaves",
           "display": [
-            "conditional; green brackets: GLAIVE CANNON"
+            "conditional; green: GLAIVE CANNON"
           ]
         },
         {
@@ -407,7 +407,7 @@
         {
           "name": "Fury Of The Nerazim",
           "display": [
-            "conditional; green brackets: PARTICLE DISRUPTORS"
+            "conditional; green: PARTICLE DISRUPTORS"
           ]
         }
       ]
@@ -513,7 +513,7 @@
         {
           "name": "We Stand As One",
           "display": [
-            "conditional; green brackets: PSI BLADES"
+            "conditional; green: PSI BLADES"
           ]
         }
       ]
@@ -640,15 +640,15 @@
         {
           "name": "Fury Unyielding",
           "display": [
-            "conditional; green brackets: LEFT PHOTON DISRUPTOR",
-            "conditional; green brackets: RIGHT PHOTON DISRUPTOR"
+            "conditional; green: LEFT PHOTON DISRUPTOR",
+            "conditional; green: RIGHT PHOTON DISRUPTOR"
           ]
         },
         {
           "name": "For The Ancients",
           "display": [
-            "conditional; green brackets: LEFT PHOTON DISRUPTOR",
-            "conditional; green brackets: RIGHT PHOTON DISRUPTOR"
+            "conditional; green: LEFT PHOTON DISRUPTOR",
+            "conditional; green: RIGHT PHOTON DISRUPTOR"
           ]
         }
       ]
@@ -992,13 +992,13 @@
         {
           "name": "Slugthrower",
           "display": [
-            "conditional; green brackets: C-14 RIFLE"
+            "conditional; green: C-14 RIFLE"
           ]
         },
         {
           "name": "Grenades - Frag",
           "display": [
-            "conditional; green brackets: C-14 RIFLE"
+            "conditional surge; green: C-14 RIFLE"
           ]
         },
         {
@@ -1079,7 +1079,7 @@
         {
           "name": "Veteran Of Tarsonis",
           "display": [
-            "conditional; green brackets: profile note"
+            "conditional; green: profile note"
           ]
         },
         {
@@ -1890,13 +1890,13 @@
         {
           "name": "Ancillary Carapace",
           "display": [
-            "conditional; green brackets: profile note"
+            "conditional; green: profile note"
           ]
         },
         {
           "name": "Lurking",
           "display": [
-            "conditional; green brackets: profile note"
+            "conditional; green: profile note"
           ]
         },
         {
@@ -2069,7 +2069,7 @@
         {
           "name": "Creep Speed",
           "display": [
-            "conditional; green brackets: profile note"
+            "conditional; green: profile note"
           ]
         },
         {
@@ -3404,7 +3404,7 @@
       "extraction": "Official Part 11 glossary; PDF text and headings, whitespace normalized."
     },
     "keywordDefinitions": 76,
-    "links": 3019,
+    "links": 3018,
     "rulebookSource": {
       "url": "https://archon-studio.com/files/manuals/sc/StarCraft-TMG_EN.pdf",
       "sha256": "27639c562e6db9777dd9ba984d0c9f9b581841ec30166848e021f893cd00ea54",

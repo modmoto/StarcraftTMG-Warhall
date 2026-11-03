@@ -220,7 +220,7 @@ test('conditional Armour remains informational and composes with numeric HP in e
     assert.equal(stats.Attributes.HP, '<color=#2596be>6</color><size=0>(6)</size>');
     assert.match(
       profile.map(row => row.Description).join('\n'),
-      /Armour: 4\+ <color=#65c879>\[3\+ — within 3" of a mission marker\]<\/color>/,
+      /Armour: 4\+ <color=#65c879>\(3\+ — within 3" of a mission marker\)<\/color>/,
     );
   }
 });
@@ -232,8 +232,8 @@ test('multiple conditional ranged bonuses survive replacement weapon selections 
   ]) {
     const text = weaponText('Immortal', options);
     assert.match(text, /<b>LEFT PHASE DISRUPTOR<\/b>/);
-    assert.equal((text.match(/<color=#65c879>\[CRITICAL HIT/g) ?? []).length, 2);
-    assert.equal((text.match(/<color=#65c879>\[PRECISION/g) ?? []).length, 2);
+    assert.equal((text.match(/<color=#65c879>\(CRITICAL HIT/g) ?? []).length, 2);
+    assert.equal((text.match(/<color=#65c879>\(PRECISION/g) ?? []).length, 2);
   }
 });
 
@@ -252,10 +252,10 @@ test('Adrenal Glands stays below the selected Claws profile and survives either 
 
 test('conditional weapon effects are green and identify their weapon and condition', () => {
   const text = weaponText('Marines', ['Slugthrower', 'Grenades - Frag']);
-  assert.match(text, /<color=#65c879>\[ANTI-EVADE \(1\) — C-14 Rifle, target within 8"\]<\/color>/);
-  assert.match(text, /Light \(D3\).*<color=#65c879>\[Light \(D6\) — target within 8"\]/);
-  assert.match(weaponText('Zealots', ['We Stand As One']), /<color=#65c879>\[PRECISION \(2\)/);
-  assert.match(weaponText('Stalker', ['Fury Of The Nerazim']), /<color=#65c879>\[INSTANT/);
+  assert.match(text, /<color=#65c879>ANTI-EVADE \(1\)<\/color>/);
+  assert.match(text, /Light \(D3\) <color=#65c879>\(D6\)<\/color>/);
+  assert.match(weaponText('Zealots', ['We Stand As One']), /<color=#65c879>\(PRECISION \(2\)/);
+  assert.match(weaponText('Stalker', ['Fury Of The Nerazim']), /<color=#65c879>\(INSTANT/);
 });
 
 test('passive upgrades to named abilities update the rule definition with blue values', () => {
@@ -305,4 +305,12 @@ test('the upgrade audit covers every source profile and active options change on
       }
     }
   }
+});
+
+test('Marines retain the C-14 alongside the selected specialist launcher', () => {
+  const profile = unitProfile('Marines', ['Rocket Launcher', 'Slugthrower', 'Grenades - Frag']);
+  assert.ok(weapons(profile).includes('C-14 RIFLE'));
+  assert.ok(weapons(profile).includes('ROCKET LAUNCHER'));
+  const choice = profile.find(row => plain(row.Name) === 'Rocket Launcher');
+  assert.match(choice.Description, /Add ROCKET LAUNCHER for the specialist model/);
 });

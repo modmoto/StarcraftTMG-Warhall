@@ -10,6 +10,8 @@ const normalized = value =>
     .replace(/riffle/g, 'rifle')
     .replace(/[^a-z0-9]/g, '');
 
+const specialist = profile => /\bSPECIALIST\b/i.test(profile.attributes.Keyword ?? '');
+
 function replacedWeapon(unit, profile) {
   if (!/Weapon$/.test(profile.type)) return undefined;
   const weapons = unit.profiles.filter(candidate => /Weapon$/.test(candidate.type));
@@ -51,9 +53,13 @@ export function addUpgradeOptions(unit, ids, profiles, profileIds, defaults, rec
                 profileIds[index],
                 records,
                 glossary,
-                records.rules
-                  .get(`${defaults[unit.profiles.indexOf(replacedWeapon(unit, profile))]}_table`)
-                  ?.Description.match(/^<b>([^<]*Phase)<\/b>\n/)?.[1] ?? '',
+                specialist(profile)
+                  ? ''
+                  : (records.rules
+                      .get(
+                        `${defaults[unit.profiles.indexOf(replacedWeapon(unit, profile))]}_table`,
+                      )
+                      ?.Description.match(/^<b>([^<]*Phase)<\/b>\n/)?.[1] ?? ''),
                 replacedWeapon(unit, profile).attributes,
               ),
             ],
@@ -75,7 +81,9 @@ export function addUpgradeOptions(unit, ids, profiles, profileIds, defaults, rec
         Type: 'Rule',
         Description: [
           '<b>Upgrade ability</b>',
-          `Replace ${replaced.name} with ${profile.name}.`,
+          specialist(profile)
+            ? `Add ${profile.name} for the specialist model.`
+            : `Replace ${replaced.name} with ${profile.name}.`,
           `<b>${profile.name}</b>\n${weaponTable(profile.attributes, replaced.attributes)}`,
           weaponKeywords(profile.attributes.Keyword, glossary, replaced.attributes.Keyword),
         ]
@@ -86,11 +94,18 @@ export function addUpgradeOptions(unit, ids, profiles, profileIds, defaults, rec
     }
     const add = [{ Id: `${ids.profile}_selected_options`, Ref: [{ Id: labelId }] }];
     const remove = [];
-    if (replaced) {
+    if (replaced && specialist(profile)) {
+      const oldId = defaults[unit.profiles.indexOf(replaced)];
+      add.push({ Id: `${oldId}_slot`, Ref: rows.get(recordId).map(Id => ({ Id })) });
+    } else if (replaced) {
       const oldId = defaults[unit.profiles.indexOf(replaced)];
       const slot = `${oldId}_body`;
       const alternatives = profiles.flatMap((candidate, candidateIndex) => {
-        if (!/Weapon$/.test(candidate.type) || replacedWeapon(unit, candidate) !== replaced)
+        if (
+          !/Weapon$/.test(candidate.type) ||
+          specialist(candidate) ||
+          replacedWeapon(unit, candidate) !== replaced
+        )
           return [];
         return rows.get(profileIds[candidateIndex]);
       });
