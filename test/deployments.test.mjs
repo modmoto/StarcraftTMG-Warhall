@@ -5,10 +5,7 @@ import path from 'node:path';
 import { loadSources } from '../src/sources/pdf/downloads.mjs';
 import { defaultPdfCacheDirectory } from '../src/paths.mjs';
 import { parseDeploymentPdf, reconcileDeployments } from '../src/deployments/pdf.mjs';
-import {
-  buildDeployments,
-  deploymentTemplate,
-} from '../src/deployments/package.mjs';
+import { buildDeployments, deploymentTemplate } from '../src/deployments/package.mjs';
 import { markerTokens } from '../src/deployments/markers.mjs';
 
 const layout = {
