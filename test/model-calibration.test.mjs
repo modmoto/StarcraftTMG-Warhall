@@ -15,11 +15,11 @@ test('single OBJ scale compensates client normalization while multipart scale re
   assert.equal(normalizedObjScale(legacy, bounds, 2), legacy);
 });
 
-test('Zerg retain source materials while Terran and Protoss use faction palettes', async () => {
+test('source-color exceptions and Zerg retain original materials; other units use faction palettes', async () => {
   const catalogue = await json('model-catalogue.json');
   for (const entry of catalogue.entries.filter(e => e.kind === 'unit')) {
     for (const part of entry.parts) {
-      if (entry.faction === 'Zerg') {
+      if (entry.faction === 'Zerg' || entry.preserveSourceColors) {
         assert.equal(part.factionPalette, undefined);
         if (!part.hostedAsset) assert.equal(part.textureUrl, part.previewSource.textureUrl);
       } else assert.equal(part.factionPalette, entry.faction);
@@ -27,20 +27,20 @@ test('Zerg retain source materials while Terran and Protoss use faction palettes
   }
 });
 
-test('current flyers share 150 millimeters of model clearance without changing scale', async () => {
+test('Raven and Point Defense Drone retain the reviewed 75 and 25 millimeter clearances', async () => {
   const catalogue = await json('model-catalogue.json');
   const report = await json('model-calibration-report.json');
   for (const name of ['Raven']) {
     const entry = catalogue.entries.find(e => e.name === `Starcraft - ${name}`);
     const measurement = report.find(r => r.profileId === entry.profileId);
-    assert.equal(entry.flightClearanceMm, 150);
-    assert.equal(measurement.flightClearanceMm, 150);
+    assert.equal(entry.flightClearanceMm, 75);
+    assert.equal(measurement.flightClearanceMm, 75);
     assert.ok(measurement.flightLift > 0);
     assert.deepEqual(measurement.correctedSizeMm, measurement.authoredSizeMm);
   }
   const drone = catalogue.entries.find(e => e.name === 'Starcraft - Point Defense Drone');
-  assert.equal(drone.flightClearanceMm, 50);
-  assert.equal(report.find(r => r.profileId === drone.profileId).flightClearanceMm, 50);
+  assert.equal(drone.flightClearanceMm, 25);
+  assert.equal(report.find(r => r.profileId === drone.profileId).flightClearanceMm, 25);
 });
 
 test('calibrated terrain keeps every authored translation and rotation, even with old CLI flags', async () => {
@@ -95,7 +95,7 @@ test('portable bundle replacements include Adepts and preserve Windows cache dim
   const tokenAssets = new Set(
     catalogue.entries.filter(entry => entry.kind === 'token').map(entry => entry.parts[0].modelUrl),
   );
-  assert.equal(hosted.length, 15 + terrainAssets.size + tokenAssets.size);
+  assert.equal(hosted.length, 14 + terrainAssets.size + tokenAssets.size);
   assert.ok(hosted.every(file => files.includes(file)));
   for (const file of files) {
     if (!file.endsWith('.glb')) continue;

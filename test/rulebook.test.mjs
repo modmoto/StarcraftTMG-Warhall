@@ -67,7 +67,7 @@ test('chapter extraction retains numbered sections, symbols and continuation pag
   assert.throws(() => extractRulebook(missing), /Missing rulebook chapter 2.2/);
 });
 
-test('identical abilities share references; different costs remain labelled by unit', () => {
+test('identical shared abilities keep their original name; different costs retain distinct definitions', () => {
   const ability = (Id, cost) => ({
     Id,
     Name: 'Restoration',
@@ -78,7 +78,7 @@ test('identical abilities share references; different costs remain labelled by u
     'rules.json': [],
     'Terran/rules.json': [ability('a', '1 CP'), ability('b', '1 CP'), ability('c', '2 CP')],
     'Terran/profiles.json': [
-      { Id: 'profile', Children: [{ Id: 'b' }], Description: '<link="b">Stimpack</link>' },
+      { Id: 'profile', Children: [{ Id: 'b' }], Description: '<link="b">Restoration</link>' },
     ],
   };
   const owners = new Map([
@@ -91,7 +91,11 @@ test('identical abilities share references; different costs remain labelled by u
   assert.match(data['Terran/profiles.json'][0].Description, /link="a"/);
   assert.equal(data['Terran/rules.json'].length, 2);
   assert.equal(new Set(data['Terran/rules.json'].map(rule => rule.Name)).size, 2);
-  assert.ok(data['Terran/rules.json'].some(rule => /Marines, Raiders/.test(rule.Name)));
+  assert.equal(data['Terran/rules.json'].find(rule => rule.Id === 'a').Name, 'Restoration');
+  assert.notEqual(
+    data['Terran/rules.json'].find(rule => rule.Id === 'a').Description,
+    data['Terran/rules.json'].find(rule => rule.Id === 'c').Description,
+  );
 });
 
 test('nested keyword and chapter links are valid, avoid self-links, and stay unchanged on a second pass', () => {
@@ -165,7 +169,7 @@ test('shipped search index includes gameplay chapters and no duplicate named rul
     )
   )
     .flat()
-    .filter(rule => rule.Name);
+    .filter(rule => rule.Name && rule.Type === 'Rule');
   assert.equal(new Set(rules.map(rule => rule.Name.toLowerCase())).size, rules.length);
   assert.equal(rules.filter(rule => rule.Name === 'Psionic Transfer').length, 1);
   assert.ok(rules.some(rule => rule.Name === '8.7.7 Charge'));

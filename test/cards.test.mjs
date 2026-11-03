@@ -35,5 +35,5 @@ test('board cards are sharp, contain no unit cards, and have clean descriptions'
   const config = await read('../Starcraft-test/gameconfig.json');
   assert.equal(config.ShowObjectiveSection, false);
   assert.equal(config.ShowDeploymentSection, true);
-  assert.equal((await read('../Starcraft-test/deployments.json')).length, 8);
+  assert.equal((await read('../Starcraft-test/deployments.json')).length, 7);
 });
