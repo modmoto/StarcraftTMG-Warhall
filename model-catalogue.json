@@ -798,7 +798,7 @@
       "name": "Starcraft - Point Defense Drone",
       "kind": "unit",
       "faction": "Terran",
-      "flightClearanceMm": 50,
+      "flightClearanceMm": 25,
       "parts": [
         {
           "modelUrl": "https://steamusercontent-a.akamaihd.net/ugc/16724548689103041369/47BA9CADBA1382E27A756DCAB7B65AA64BA063ED/",
@@ -809,7 +809,7 @@
             "rotationY": 0,
             "rotationZ": 0,
             "positionX": 0,
-            "positionY": 2.9227752879224003,
+            "positionY": 0.42277528792240027,
             "positionZ": 0
           },
           "previewSource": {
@@ -822,7 +822,7 @@
             "rotationY": 0,
             "rotationZ": 0,
             "positionX": 0,
-            "positionY": 2.9227752879224003,
+            "positionY": 0.42277528792240027,
             "positionZ": 0
           },
           "factionPalette": "Terran"

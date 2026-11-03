@@ -28,7 +28,7 @@ for (const selection of [...units.models, ...terrain.models].filter(m => m.statu
     ...(!selection.terrainId ? { faction: selection.faction } : {}),
     ...(selection.preserveSourceColors ? { preserveSourceColors: true } : {}),
     ...(flying
-      ? { flightClearanceMm: selection.unitId === 'pdf_Terran_unit_point_defense_drone' ? 50 : 150 }
+      ? { flightClearanceMm: selection.unitId === 'pdf_Terran_unit_point_defense_drone' ? 25 : 150 }
       : {}),
     ...(selection.calibration ? { calibration: selection.calibration } : {}),
     parts: [selection.model, ...(selection.attachments ?? [])].map(part => ({
