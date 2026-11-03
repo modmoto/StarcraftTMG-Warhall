@@ -60,7 +60,7 @@ export function addUpgradeOptions(unit, ids, profiles, profileIds, defaults, rec
                         `${defaults[unit.profiles.indexOf(replacedWeapon(unit, profile))]}_table`,
                       )
                       ?.Description.match(/^<b>([^<]*Phase)<\/b>\n/)?.[1] ?? ''),
-                replacedWeapon(unit, profile).attributes,
+                specialist(profile) ? profile.attributes : replacedWeapon(unit, profile).attributes,
               ),
             ],
           ]
@@ -75,6 +75,7 @@ export function addUpgradeOptions(unit, ids, profiles, profileIds, defaults, rec
     let labelId = recordId;
     if (isWeapon) {
       labelId = `${recordId}_choice`;
+      const baseline = specialist(profile) ? profile.attributes : replaced.attributes;
       records.rules.set(labelId, {
         Id: labelId,
         Name: abilityName(profile.name),
@@ -84,8 +85,8 @@ export function addUpgradeOptions(unit, ids, profiles, profileIds, defaults, rec
           specialist(profile)
             ? `Add ${profile.name} for the specialist model.`
             : `Replace ${replaced.name} with ${profile.name}.`,
-          `<b>${profile.name}</b>\n${weaponTable(profile.attributes, replaced.attributes)}`,
-          weaponKeywords(profile.attributes.Keyword, glossary, replaced.attributes.Keyword),
+          `<b>${profile.name}</b>\n${weaponTable(profile.attributes, baseline)}`,
+          weaponKeywords(profile.attributes.Keyword, glossary, baseline.Keyword),
         ]
           .filter(Boolean)
           .join('\n\n'),

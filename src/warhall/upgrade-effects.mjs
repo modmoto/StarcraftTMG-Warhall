@@ -268,7 +268,10 @@ export function applyUpgradeEffects(
 }
 
 export function upgradeDisplay(unit, profile) {
-  if (/Weapon$/.test(profile.type)) return ['replacement weapon; changed fields blue'];
+  if (/Weapon$/.test(profile.type))
+    return /\bSPECIALIST\b/i.test(profile.attributes.Keyword ?? '')
+      ? ['additional specialist weapon']
+      : ['replacement weapon; changed fields blue'];
   if (/^Increase this Unit's Hit Points characteristic/.test(profile.attributes.Effect ?? ''))
     return ['permanent HP; blue'];
   const effects = upgradeEffects(unit, profile);

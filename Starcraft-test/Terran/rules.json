@@ -565,7 +565,7 @@
     "Id": "pdf_Terran_equipment_marines_upgrade_1_choice",
     "Name": "<color=#2596be>Agg-12</color>",
     "Type": "Rule",
-    "Description": "<b>Upgrade ability</b>\n\nAdd AGG-12 for the specialist model.\n\n<b>AGG-12</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>12</nobr><pos=14%><nobr><color=#2596be>Ground</color></nobr><pos=32%><nobr>2</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr><color=#2596be>Armored (D3)</color></nobr><pos=86%><nobr>1</nobr></b></size></align>\n\n<u><link=\"rule_keyword_long_range\"><color=#2596be>LONG RANGE (18\")</color></link></u>, <u><link=\"rule_keyword_specialist\"><color=#2596be>SPECIALIST</color></link></u>"
+    "Description": "<b>Upgrade ability</b>\n\nAdd AGG-12 for the specialist model.\n\n<b>AGG-12</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>12</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>2</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>Armored (D3)</nobr><pos=86%><nobr>1</nobr></b></size></align>\n\n<u><link=\"rule_keyword_long_range\">LONG RANGE (18\")</link></u>, <u><link=\"rule_keyword_specialist\">SPECIALIST</link></u>"
   },
   {
     "Id": "pdf_Terran_equipment_marines_upgrade_1_heading",
@@ -578,21 +578,21 @@
     "Id": "pdf_Terran_equipment_marines_upgrade_1_keywords",
     "Name": "",
     "Type": "",
-    "Description": "<u><link=\"rule_keyword_long_range\"><color=#2596be>LONG RANGE (18\")</color></link></u>, <u><link=\"rule_keyword_specialist\"><color=#2596be>SPECIALIST</color></link></u>",
+    "Description": "<u><link=\"rule_keyword_long_range\">LONG RANGE (18\")</link></u>, <u><link=\"rule_keyword_specialist\">SPECIALIST</link></u>",
     "Children": []
   },
   {
     "Id": "pdf_Terran_equipment_marines_upgrade_1_table",
     "Name": "",
     "Type": "",
-    "Description": "<b>AGG-12</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>12</nobr><pos=14%><nobr><color=#2596be>Ground</color></nobr><pos=32%><nobr>2</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr><color=#2596be>Armored (D3)</color></nobr><pos=86%><nobr>1</nobr></b></size></align>\n<u><link=\"rule_keyword_long_range\"><color=#2596be>LONG RANGE (18\")</color></link></u>, <u><link=\"rule_keyword_specialist\"><color=#2596be>SPECIALIST</color></link></u>",
+    "Description": "<b>AGG-12</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>12</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>2</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>Armored (D3)</nobr><pos=86%><nobr>1</nobr></b></size></align>\n<u><link=\"rule_keyword_long_range\">LONG RANGE (18\")</link></u>, <u><link=\"rule_keyword_specialist\">SPECIALIST</link></u>",
     "Children": []
   },
   {
     "Id": "pdf_Terran_equipment_marines_upgrade_2_choice",
     "Name": "<color=#2596be>Rocket Launcher</color>",
     "Type": "Rule",
-    "Description": "<b>Upgrade ability</b>\n\nAdd ROCKET LAUNCHER for the specialist model.\n\n<b>ROCKET LAUNCHER</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>12</nobr><pos=14%><nobr><color=#2596be>Ground</color></nobr><pos=32%><nobr><color=#2596be>4</color></nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr><color=#2596be>-</color></nobr><pos=86%><nobr>1</nobr></b></size></align>\n\n<u><link=\"rule_keyword_indirect_fire\"><color=#2596be>INDIRECT FIRE</color></link></u>, <u><link=\"rule_keyword_long_range\"><color=#2596be>LONG RANGE (18\")</color></link></u>, <u><link=\"rule_keyword_sidearm\"><color=#2596be>SIDEARM</color></link></u>, <u><link=\"rule_keyword_specialist\"><color=#2596be>SPECIALIST</color></link></u>"
+    "Description": "<b>Upgrade ability</b>\n\nAdd ROCKET LAUNCHER for the specialist model.\n\n<b>ROCKET LAUNCHER</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>12</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>4</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align>\n\n<u><link=\"rule_keyword_indirect_fire\">INDIRECT FIRE</link></u>, <u><link=\"rule_keyword_long_range\">LONG RANGE (18\")</link></u>, <u><link=\"rule_keyword_sidearm\">SIDEARM</link></u>, <u><link=\"rule_keyword_specialist\">SPECIALIST</link></u>"
   },
   {
     "Id": "pdf_Terran_equipment_marines_upgrade_2_heading",
@@ -605,14 +605,14 @@
     "Id": "pdf_Terran_equipment_marines_upgrade_2_keywords",
     "Name": "",
     "Type": "",
-    "Description": "<u><link=\"rule_keyword_indirect_fire\"><color=#2596be>INDIRECT FIRE</color></link></u>, <u><link=\"rule_keyword_long_range\"><color=#2596be>LONG RANGE (18\")</color></link></u>, <u><link=\"rule_keyword_sidearm\"><color=#2596be>SIDEARM</color></link></u>, <u><link=\"rule_keyword_specialist\"><color=#2596be>SPECIALIST</color></link></u>",
+    "Description": "<u><link=\"rule_keyword_indirect_fire\">INDIRECT FIRE</link></u>, <u><link=\"rule_keyword_long_range\">LONG RANGE (18\")</link></u>, <u><link=\"rule_keyword_sidearm\">SIDEARM</link></u>, <u><link=\"rule_keyword_specialist\">SPECIALIST</link></u>",
     "Children": []
   },
   {
     "Id": "pdf_Terran_equipment_marines_upgrade_2_table",
     "Name": "",
     "Type": "",
-    "Description": "<b>ROCKET LAUNCHER</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>12</nobr><pos=14%><nobr><color=#2596be>Ground</color></nobr><pos=32%><nobr><color=#2596be>4</color></nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr><color=#2596be>-</color></nobr><pos=86%><nobr>1</nobr></b></size></align>\n<u><link=\"rule_keyword_indirect_fire\"><color=#2596be>INDIRECT FIRE</color></link></u>, <u><link=\"rule_keyword_long_range\"><color=#2596be>LONG RANGE (18\")</color></link></u>, <u><link=\"rule_keyword_sidearm\"><color=#2596be>SIDEARM</color></link></u>, <u><link=\"rule_keyword_specialist\"><color=#2596be>SPECIALIST</color></link></u>",
+    "Description": "<b>ROCKET LAUNCHER</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>12</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>4</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align>\n<u><link=\"rule_keyword_indirect_fire\">INDIRECT FIRE</link></u>, <u><link=\"rule_keyword_long_range\">LONG RANGE (18\")</link></u>, <u><link=\"rule_keyword_sidearm\">SIDEARM</link></u>, <u><link=\"rule_keyword_specialist\">SPECIALIST</link></u>",
     "Children": []
   },
   {

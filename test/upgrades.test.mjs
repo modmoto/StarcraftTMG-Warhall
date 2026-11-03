@@ -318,6 +318,12 @@ test('Marines retain the C-14 alongside the selected specialist launcher', () =>
   assert.ok(weapons(profile).includes('ROCKET LAUNCHER'));
   const choice = profile.find(row => plain(row.Name) === 'Rocket Launcher');
   assert.match(choice.Description, /Add ROCKET LAUNCHER for the specialist model/);
+  for (const row of [
+    choice,
+    profile.find(row => row.Description?.startsWith('<b>ROCKET LAUNCHER</b>')),
+  ]) {
+    assert.doesNotMatch(row.Description.split('\n<b><pos=')[1], /<color=#2596be>/);
+  }
 });
 
 test('Marine specialist choices retain the rifle and each selected specialist', () => {
