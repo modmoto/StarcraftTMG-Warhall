@@ -49,7 +49,7 @@ test('catalogue covers all selected units, terrain and existing markers', async 
   );
   assert.equal(actual.entries.filter(e => e.kind === 'unit').length, 45);
   assert.equal(actual.entries.filter(e => e.kind === 'marker').length, 5);
-  assert.equal(actual.entries.filter(e => e.kind === 'deployment').length, 8);
+  assert.equal(actual.entries.filter(e => e.kind === 'deployment').length, 7);
   assert.equal(actual.entries.filter(e => e.kind === 'token').length, 17);
   assert.equal(actual.entries.filter(e => e.kind === 'terrain' && e.parts).length, 13);
   assert.equal(actual.entries.filter(e => e.kind === 'marker' && e.replacesNativeSkinId).length, 3);

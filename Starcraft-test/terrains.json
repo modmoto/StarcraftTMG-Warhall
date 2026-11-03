@@ -36,15 +36,6 @@
     "Shape": 1
   },
   {
-    "Id": "sc_deployment_3600022",
-    "Name": "Deployment lines - 6-INCH GRID (54x36)",
-    "Type": "Terrain",
-    "Description": "Decorative deployment entry lines. Automatically placed with the deployment; no filled deployment zones.",
-    "Width": 0.1,
-    "Length": 0.1,
-    "Shape": 1
-  },
-  {
     "Id": "sc_deployment_4030768",
     "Name": "Deployment lines - PROVING GROUNDS",
     "Type": "Terrain",

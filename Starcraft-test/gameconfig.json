@@ -381,18 +381,6 @@
           "IsToken": false
         }
       ]
-    },
-    {
-      "DeploymentIndex": 8,
-      "Items": [
-        {
-          "Name": "sc_deployment_3600022",
-          "X": 0,
-          "Y": 0.02,
-          "Z": 0,
-          "IsToken": false
-        }
-      ]
     }
   ],
   "ShowObjectiveSection": false,

@@ -8,7 +8,6 @@ import { parseDeploymentPdf, reconcileDeployments } from '../src/deployments/pdf
 import {
   buildDeployments,
   deploymentTemplate,
-  gridDeployment,
 } from '../src/deployments/package.mjs';
 import { markerTokens } from '../src/deployments/markers.mjs';
 
@@ -188,32 +187,6 @@ test(
   },
 );
 
-test('six-inch grid covers the 54x36 board with horizontal and vertical lines', () => {
-  const grid = gridDeployment();
-  const lines = grid.template.lines;
-  const vertical = lines.filter(line => line.rotationY === '90');
-  const horizontal = lines.filter(line => line.rotationY === '0');
-  assert.equal(vertical.length, 10);
-  assert.equal(horizontal.length, 7);
-  assert.deepEqual(
-    vertical.map(line => Number(line.posX)),
-    Array.from({ length: 10 }, (_, i) => -27 + i * 6),
-  );
-  assert.deepEqual(
-    horizontal.map(line => Number(line.posY)),
-    Array.from({ length: 7 }, (_, i) => -18 + i * 6),
-  );
-  assert.ok(vertical.every(line => line.sizeX === '36' && line.posY === '0'));
-  assert.ok(horizontal.every(line => line.sizeX === '54' && line.posX === '0'));
-  assert.equal(grid.deployment.deploymentID, 12);
-  assert.equal(grid.deployment.X, 0);
-  assert.equal(grid.deployment.Y, 0);
-  assert.equal(grid.terrains.DeploymentIndex, 8);
-  assert.equal(grid.terrains.Items.length, 1);
-  assert.equal(grid.terrains.Items[0].Name, grid.terrain.Id);
-  assert.throws(() => gridDeployment({ width: 55 }), /divisible/);
-});
-
 test('shared deployment menu uses a built-in template and places the exact original entry overlay', async () => {
   const deployments = JSON.parse(
     await readFile(new URL('../Starcraft-test/deployments.json', import.meta.url)),
@@ -227,7 +200,7 @@ test('shared deployment menu uses a built-in template and places the exact origi
   const templates = JSON.parse(
     await readFile(new URL('../deployment-templates.json', import.meta.url)),
   );
-  assert.equal(deployments.length, 8);
+  assert.equal(deployments.length, 7);
   assert.equal(config.ShowDeploymentSection, true);
   assert.equal(config.ShowObjectiveSection, false);
   for (const [i, deployment] of deployments.entries()) {

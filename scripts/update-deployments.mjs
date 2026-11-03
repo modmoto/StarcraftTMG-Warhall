@@ -10,7 +10,6 @@ import {
   buildDeployments,
   deploymentName,
   deploymentTemplate,
-  gridDeployment,
 } from '../src/deployments/package.mjs';
 import {
   markerDiameterMm,
@@ -112,11 +111,6 @@ for (const source of sources) parsed.push(...(await parseDeploymentPdf(source)))
 const layouts = reconcileDeployments(parsed).filter(l => l.width === 54 && l.height === 36);
 assert.ok(layouts.length, 'No standard 54x36 deployments found');
 const generated = buildDeployments(layouts);
-const grid = gridDeployment({ index: generated.deployments.length + 1 });
-generated.deployments.push(grid.deployment);
-generated.templates.push(grid.template);
-generated.deploymentTerrains.push(grid.terrains);
-generated.overlayTerrains.push(grid.terrain);
 let previous = { layouts: [] };
 try {
   previous = await readJson(path.join(projectRoot, 'deployment-report.json'));
@@ -181,7 +175,7 @@ json(path.join(projectRoot, 'deployment-report.json'), {
   extraction:
     'PDF vector symbols and battlefield bounds; reviewed printed measurements on the current 3-inch grid. Unknown colors, missing symbols, off-grid positions and conflicting copies fail. Review new or changed cards against their printed arrows.',
   deploymentImport:
-    'Built-in template 12 with X=0,Y=0 keeps the menu available; exact entry edges and grid are shared decorative skins placed through DeploymentTerrains. Publish kind deployment after pushing hosted assets.',
+    'Built-in template 12 with X=0,Y=0 keeps the menu available; exact entry edges are shared decorative skins placed through DeploymentTerrains. Publish kind deployment after pushing hosted assets.',
   markers: {
     nativeMarkers,
     rulesDiameterMm: markerDiameterMm,
@@ -245,5 +239,5 @@ if (options.check) {
   }
 }
 console.log(
-  `${options.check ? 'Verified' : options.dryRun ? 'Previewed' : 'Updated'} ${generated.deployments.length} deployments, ${generated.objectives.length} objective presets and ${generated.markerTerrains.length} mission marker terrains. Publish the deployment overlay skins to show the entry lines and grid.`,
+  `${options.check ? 'Verified' : options.dryRun ? 'Previewed' : 'Updated'} ${generated.deployments.length} deployments, ${generated.objectives.length} objective presets and ${generated.markerTerrains.length} mission marker terrains. Publish the deployment overlay skins to show the entry lines.`,
 );

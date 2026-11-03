@@ -3084,38 +3084,6 @@
           }
         }
       ]
-    },
-    {
-      "profileId": "sc_deployment_3600022",
-      "name": "Starcraft - Deployment - 6-INCH GRID (54x36)",
-      "kind": "deployment",
-      "calibration": "deployment-centimeters-v1",
-      "parts": [
-        {
-          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/13dfa1978d6f4f4fa731ec761a09ae06883b96fb438505a309cb837c0667d833.glb",
-          "textureUrl": null,
-          "hostedAsset": true,
-          "transforms": {
-            "scale": 0.39370078740157477,
-            "positionX": 0,
-            "positionY": 0,
-            "positionZ": 0,
-            "rotationX": 0,
-            "rotationY": 0,
-            "rotationZ": 0
-          },
-          "previewGeometryFile": "model-assets/13dfa1978d6f4f4fa731ec761a09ae06883b96fb438505a309cb837c0667d833.glb.preview.json",
-          "previewTransforms": {
-            "scale": 1,
-            "positionX": 0,
-            "positionY": 0,
-            "positionZ": 0,
-            "rotationX": 0,
-            "rotationY": 0,
-            "rotationZ": 0
-          }
-        }
-      ]
     }
   ]
 }
