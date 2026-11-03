@@ -45,6 +45,6 @@ Only Head Statue acfebe and the dark green Protoss Banner d26342 are generated. 
 
 ## Temporary compressed ramp height
 
-The High Ground ramp/platform assembly is vertically compressed to approximately 16.7 mm (one third of the previous 50 mm workaround) using its heightMm override in terrain-calibration.json. Its bottom stays grounded; its X/Z footprint, assembly joins, map placement and shared menu IDs are unchanged. This is a temporary visibility workaround while imported elevated collision remains unsupported. It does not make the mesh walkable.
+The High Ground ramp/platform assembly is vertically compressed to 2 mm (previously approximately 16.7 mm) using its heightMm override in terrain-calibration.json. The inspected Base component defaults to 0.3 Unity centimetres (3 mm). Together with the existing 0.3 mm model offset, the platform top is approximately 2.3 mm above the battlefield, below that default base height. Its bottom stays grounded; its X/Z footprint, assembly joins, map placement and shared menu IDs are unchanged. This is a temporary visibility workaround while imported elevated collision remains unsupported. It does not make the mesh walkable.
 
 To undo this temporary change, revert its dedicated commit, regenerate the terrain/catalogue and republish only sc_terrain_f2dd0d048a087d53, including its menu alias. Reverting Git alone does not change an already-published skin. No WDS version bump is required for this shared-skin-only adjustment.
