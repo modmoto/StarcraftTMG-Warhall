@@ -1553,7 +1553,7 @@
       {
         "Id": "Starcraft - Terrain - Wall Set 2 - 3895d1",
         "Quadrant": 1,
-        "Rotation": 135,
+        "Rotation": 140,
         "ShortSide": 21,
         "LongSide": 22.375,
         "Type": "Terrain"
@@ -1626,8 +1626,8 @@
         "Id": "Starcraft - Terrain - Wall Set 3 - c2f1b7",
         "Quadrant": 1,
         "Rotation": 225,
-        "ShortSide": 21.5,
-        "LongSide": 12.75,
+        "ShortSide": 21.125,
+        "LongSide": 12.5,
         "Type": "Terrain"
       },
       {
@@ -1664,7 +1664,7 @@
       {
         "Id": "Starcraft - Terrain - Wall Set 2 - 3895d1",
         "Quadrant": 1,
-        "Rotation": 15,
+        "Rotation": 0,
         "ShortSide": 34.5,
         "LongSide": 11.5,
         "Type": "Terrain"
@@ -1681,7 +1681,7 @@
         "Id": "Starcraft - Terrain - Head Statue - acfebe",
         "Quadrant": 1,
         "Rotation": 255,
-        "ShortSide": 11.25,
+        "ShortSide": 11.75,
         "LongSide": 11.625,
         "Type": "Terrain"
       },
@@ -1744,7 +1744,7 @@
       {
         "Id": "Starcraft - Terrain - Wall Set 3 - c2f1b7",
         "Quadrant": 1,
-        "Rotation": 180,
+        "Rotation": 165,
         "ShortSide": 26.875,
         "LongSide": 5.625,
         "Type": "Terrain"
@@ -1807,7 +1807,7 @@
       {
         "Id": "Starcraft - Terrain - Wall Set 3 - c2f1b7",
         "Quadrant": 1,
-        "Rotation": 240,
+        "Rotation": 255,
         "ShortSide": 35.625,
         "LongSide": 7.875,
         "Type": "Terrain"
@@ -1857,7 +1857,7 @@
         "Quadrant": 1,
         "Rotation": 150,
         "ShortSide": 38.375,
-        "LongSide": 18.875,
+        "LongSide": 19.25,
         "Type": "Terrain"
       },
       {
@@ -1887,7 +1887,7 @@
       {
         "Id": "Starcraft - Terrain - Wall Set 2 - 3895d1",
         "Quadrant": 1,
-        "Rotation": 210,
+        "Rotation": 190,
         "ShortSide": 16.75,
         "LongSide": 5.375,
         "Type": "Terrain"
@@ -1895,9 +1895,9 @@
       {
         "Id": "Starcraft - Terrain - grass - 0c8124",
         "Quadrant": 1,
-        "Rotation": 210,
-        "ShortSide": 21.875,
-        "LongSide": 6,
+        "Rotation": 195,
+        "ShortSide": 21.375,
+        "LongSide": 5.75,
         "Type": "Terrain"
       }
     ]
