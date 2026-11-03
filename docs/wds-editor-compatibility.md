@@ -89,3 +89,7 @@ Opening Terrain in Starcraft-test produced an unpublished draft with 13 of the r
 Two separate Test skins reused the existing green objective and Breach line meshes. They used the `Starcraft - Terrain - Editor Probe - ...` naming pattern and exact-name shared assignments. Both appeared in Terrain → Add and could be added to the draft. Its ZIP contained 15 terrains, with both probe names as IDs and the same 12 original records missing. The test verifies this combination of naming and assignment. It does not isolate the picker filter or verify deployment spawning with migrated references.
 
 For a migration, preserve canonical bindings for existing saves, add the editor-compatible names and update all affected DeploymentTerrains references together. Verify all expected entries and review changes to dimensions and descriptions in a fresh ZIP before merging intended edits through the generators. Both probe skins were assigned only to Starcraft-test. The editor draft was not uploaded to Git.
+
+## Test v97 migration
+
+All five markers and seven deployment overlays now use terrain catalogue names as their WDS IDs. Their canonical publication IDs and placement coordinates were retained. After publishing the new Test bindings and loading v97, the editor listed all 25 terrain entries. The ZIP retained all IDs and all other compared files. It dropped all 25 terrain descriptions and rounded 10 widths and 12 lengths, so a full editor upload remains lossy. Marker and overlay dimensions were retained. Battlefield placement still needs a client check.
