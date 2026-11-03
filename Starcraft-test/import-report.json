@@ -1896,7 +1896,7 @@
         {
           "name": "Lurking",
           "display": [
-            "rule only; deployment, movement permission or resource effect"
+            "conditional Eva; green: stat cell"
           ]
         },
         {

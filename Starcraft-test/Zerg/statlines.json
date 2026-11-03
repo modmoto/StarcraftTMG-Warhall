@@ -1,5 +1,19 @@
 [
   {
+    "Id": "pdf_Zerg_rule_hydralisks_upgrade_any_phase_lurking_effect_0",
+    "Name": "",
+    "Type": "Statline",
+    "Attributes": {
+      "Spd": "4/8",
+      "Arm": "5+",
+      "Eva": "5+ <u><link=\"pdf_Zerg_rule_hydralisks_upgrade_any_phase_lurking\"><color=#65c879>(4+)</color></link></u>",
+      "HP": "4",
+      "Size": "2",
+      "Shd": ""
+    },
+    "Children": []
+  },
+  {
     "Id": "pdf_Zerg_rule_queen_upgrade_any_phase_creep_speed_effect_0",
     "Name": "",
     "Type": "Statline",
