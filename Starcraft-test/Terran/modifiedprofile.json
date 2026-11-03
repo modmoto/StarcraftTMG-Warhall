@@ -394,14 +394,6 @@
             "Id": "pdf_Terran_rule_marauders_upgrade_any_phase_veteran_of_tarsonis"
           }
         ]
-      },
-      {
-        "Id": "pdf_Terran_profile_marauders_selected_options",
-        "Ref": [
-          {
-            "Id": "pdf_Terran_rule_marauders_upgrade_any_phase_veteran_of_tarsonis_effect_0"
-          }
-        ]
       }
     ]
   },
