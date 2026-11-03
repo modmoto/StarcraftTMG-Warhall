@@ -1809,13 +1809,6 @@
     "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Passive\n<b>Upgrade ability</b>\n\nWhile this Unit is <u><link=\"rule_keyword_within\">Within</link></u> 3\" of a Mission Marker, its Armour characteristic is increased by 1."
   },
   {
-    "Id": "pdf_Terran_rule_marauders_upgrade_any_phase_veteran_of_tarsonis_effect_0",
-    "Name": "",
-    "Type": "",
-    "Description": "Armour: 4+ <u><link=\"pdf_Terran_rule_marauders_upgrade_any_phase_veteran_of_tarsonis\"><color=#65c879>(3+ — within 3\" of a mission marker)</color></link></u>",
-    "Children": []
-  },
-  {
     "Id": "pdf_Terran_rule_marauders_upgrade_assault_phase_laser_targeting_systems",
     "Name": "<color=#2596be>Laser Targeting Systems</color>",
     "Type": "Rule",
@@ -1894,12 +1887,6 @@
     "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Reaction\n<b>Cost:</b> 1 CP\n\nUse when another <u><link=\"rule_keyword_friendly\">Friendly</link></u> Biological Unit suffers Damage <u><link=\"rule_keyword_within\">Within</link></u> 4\". Reduce the Total Damage before allocation by 1 for each model in this Unit that is <u><link=\"rule_keyword_within\">Within</link></u> 4\" of the damaged Unit."
   },
   {
-    "Id": "pdf_Terran_rule_medics_any_phase_restoration",
-    "Name": "Restoration (Medics)",
-    "Type": "Rule",
-    "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Reaction\n<b>Cost:</b> 1 CP\n\nUse when a <u><link=\"rule_keyword_friendly\">Friendly</link></u> Unit <u><link=\"rule_keyword_within\">Within</link></u> 4\" receives a <u><link=\"rule_keyword_debuff\">DEBUFF</link></u>. Remove all DEBUFFS from it."
-  },
-  {
     "Id": "pdf_Terran_rule_medics_movement_phase_medpack",
     "Name": "Medpack",
     "Type": "Rule",
@@ -1941,13 +1928,6 @@
     "Name": "<color=#2596be>Stabilizer Medpacks</color>",
     "Type": "Rule",
     "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Passive\n<b>Upgrade ability</b>\n\nWhen this Unit resolves a <u><link=\"pdf_Terran_rule_medics_any_phase_life_support\">Life Support</link></u> or <u><link=\"pdf_Terran_rule_medics_movement_phase_medpack\">Medpack</link></u> ability, treat it as having 1 additional model <u><link=\"rule_keyword_within\">Within</link></u> Range for calculating that ability's effects."
-  },
-  {
-    "Id": "pdf_Terran_rule_medics_upgrade_any_phase_stabilizer_medpacks_effect_0",
-    "Name": "",
-    "Type": "",
-    "Description": "<u><link=\"pdf_Terran_rule_medics_any_phase_life_support\">Life Support</link></u> / <u><link=\"pdf_Terran_rule_medics_movement_phase_medpack\">Medpack</link></u>: <color=#2596be>+1 model</color> for calculating effects",
-    "Children": []
   },
   {
     "Id": "pdf_Terran_rule_nova_assault_mode_any_phase_battle_preparation",

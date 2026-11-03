@@ -1677,9 +1677,9 @@
   },
   {
     "Id": "pdf_Protoss_rule_sentries_any_phase_restoration",
-    "Name": "Restoration (Sentries)",
+    "Name": "Restoration",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Reaction\n<b>Cost:</b> 1 PE\n\nUse when a <u><link=\"rule_keyword_friendly\">Friendly</link></u> Unit <u><link=\"rule_keyword_within\">Within</link></u> 4\" receives a <u><link=\"rule_keyword_debuff\">DEBUFF</link></u>. Remove all DEBUFFS from it."
+    "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Reaction\n<b>Cost:</b> 1 PE (Sentries) / 1 CP (Medics) / 1 BM (Queen)\n\nUse when a <u><link=\"rule_keyword_friendly\">Friendly</link></u> Unit <u><link=\"rule_keyword_within\">Within</link></u> 4\" receives a <u><link=\"rule_keyword_debuff\">DEBUFF</link></u>. Remove all DEBUFFS from it."
   },
   {
     "Id": "pdf_Protoss_rule_sentries_movement_phase_force_field",

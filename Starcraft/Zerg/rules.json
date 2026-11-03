@@ -1818,12 +1818,6 @@
     "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Passive\n\nOnce per Round, if there are at least 7 <u><link=\"rule_keyword_friendly\">Friendly</link></u> <u><link=\"rule_chapter_2_1\">models</link></u> <u><link=\"rule_keyword_within\">Within</link></u> 6\" of this Unit, it may resolve its <u><link=\"rule_keyword_special_ability\">Special Ability</link></u> with the BM cost reduced by 1."
   },
   {
-    "Id": "pdf_Zerg_rule_queen_any_phase_restoration",
-    "Name": "Restoration (Queen)",
-    "Type": "Rule",
-    "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Reaction\n<b>Cost:</b> 1 BM\n\nUse when a <u><link=\"rule_keyword_friendly\">Friendly</link></u> Unit <u><link=\"rule_keyword_within\">Within</link></u> 4\" receives a <u><link=\"rule_keyword_debuff\">DEBUFF</link></u>. Remove all DEBUFFS from it."
-  },
-  {
     "Id": "pdf_Zerg_rule_queen_any_phase_spawn_creep_tumor",
     "Name": "Spawn Creep Tumor",
     "Type": "Rule",
