@@ -1545,7 +1545,7 @@
       {
         "Id": "Starcraft - Terrain - Wall Set 4 - f43c5b",
         "Quadrant": 1,
-        "Rotation": 90,
+        "Rotation": 0,
         "ShortSide": 28.875,
         "LongSide": 27.25,
         "Type": "Terrain"
@@ -1633,7 +1633,7 @@
       {
         "Id": "Starcraft - Terrain - Wall Set 5 - 39b63f",
         "Quadrant": 1,
-        "Rotation": 270,
+        "Rotation": 180,
         "ShortSide": 7.75,
         "LongSide": 9.375,
         "Type": "Terrain"
@@ -1712,7 +1712,7 @@
       {
         "Id": "Starcraft - Terrain - Wall Set 5 - 39b63f",
         "Quadrant": 1,
-        "Rotation": 180,
+        "Rotation": 90,
         "ShortSide": 25.5,
         "LongSide": 14.25,
         "Type": "Terrain"
@@ -1720,7 +1720,7 @@
       {
         "Id": "Starcraft - Terrain - Wall Set 4 - f43c5b",
         "Quadrant": 1,
-        "Rotation": 180,
+        "Rotation": 90,
         "ShortSide": 25.5,
         "LongSide": 21.375,
         "Type": "Terrain"
@@ -1775,7 +1775,7 @@
       {
         "Id": "Starcraft - Terrain - Wall Set 5 - 39b63f",
         "Quadrant": 1,
-        "Rotation": 90,
+        "Rotation": 0,
         "ShortSide": 12.25,
         "LongSide": 9.75,
         "Type": "Terrain"
@@ -1831,7 +1831,7 @@
       {
         "Id": "Starcraft - Terrain - Wall Set 4 - f43c5b",
         "Quadrant": 1,
-        "Rotation": 90,
+        "Rotation": 0,
         "ShortSide": 27.75,
         "LongSide": 9.75,
         "Type": "Terrain"
