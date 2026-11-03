@@ -2040,13 +2040,6 @@
     "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Passive\n<b>Upgrade ability</b>\n\nThe Gauss Cannon of the Auto-Turret set by this Unit gains <u><link=\"rule_chapter_8_7_4\">Surge</link></u> Type: Light and S-<u><link=\"rule_chapter_3_1\">Dice</link></u>: D3+1."
   },
   {
-    "Id": "pdf_Terran_rule_raven_upgrade_assault_phase_explosive_shrapnel_shells_effect_0",
-    "Name": "",
-    "Type": "",
-    "Description": "Spawned Auto-Turret — Gauss Cannon <u><link=\"rule_chapter_8_7_4\">Surge</link></u>: <color=#2596be>Light (D3+1)</color>",
-    "Children": []
-  },
-  {
     "Id": "pdf_Terran_rule_raven_upgrade_movement_phase_internal_tech_module",
     "Name": "<color=#2596be>Internal Tech Module</color>",
     "Type": "Rule",

@@ -117,11 +117,6 @@ export function upgradeEffects(unit, profile) {
       kind: 'statNote',
       text: `Life Support / Medpack: ${blue('+1 model')} for calculating effects`,
     });
-  if (/Gauss Cannon of the Auto-Turret/.test(effect))
-    result.push({
-      kind: 'statNote',
-      text: `Spawned Auto-Turret — Gauss Cannon Surge: ${blue('Light (D3+1)')}`,
-    });
   if (/each eligible model generates 1 additional IMPACT die/.test(effect)) {
     const impact = unit.profiles
       .map(rule => rule.attributes.Effect ?? '')

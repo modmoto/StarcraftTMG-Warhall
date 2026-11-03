@@ -510,14 +510,6 @@
             "Id": "pdf_Terran_rule_raven_upgrade_assault_phase_explosive_shrapnel_shells"
           }
         ]
-      },
-      {
-        "Id": "pdf_Terran_profile_raven_selected_options",
-        "Ref": [
-          {
-            "Id": "pdf_Terran_rule_raven_upgrade_assault_phase_explosive_shrapnel_shells_effect_0"
-          }
-        ]
       }
     ]
   },
