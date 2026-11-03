@@ -1,1 +1,130 @@
-[]
+[
+  {
+    "UnitId": "pdf_Zerg_unit_corpsers_roach",
+    "OptionId": "Burrow Ambush"
+  },
+  {
+    "UnitId": "pdf_Zerg_unit_corpsers_roach",
+    "OptionId": "Glial Reconstitution"
+  },
+  {
+    "UnitId": "pdf_Zerg_unit_corpsers_roach",
+    "OptionId": "Hydriodic Bile"
+  },
+  {
+    "UnitId": "pdf_Zerg_unit_corpsers_roach",
+    "OptionId": "Tunneling Claws"
+  },
+  {
+    "UnitId": "pdf_Zerg_unit_defiler",
+    "OptionId": "Burrow Ambush"
+  },
+  {
+    "UnitId": "pdf_Zerg_unit_defiler",
+    "OptionId": "Cancerous Bite"
+  },
+  {
+    "UnitId": "pdf_Zerg_unit_defiler",
+    "OptionId": "Plague"
+  },
+  {
+    "UnitId": "pdf_Zerg_unit_hydralisks",
+    "OptionId": "Ancillary Carapace"
+  },
+  {
+    "UnitId": "pdf_Zerg_unit_hydralisks",
+    "OptionId": "Burrow Ambush"
+  },
+  {
+    "UnitId": "pdf_Zerg_unit_hydralisks",
+    "OptionId": "Grooved Spines"
+  },
+  {
+    "UnitId": "pdf_Zerg_unit_hydralisks",
+    "OptionId": "Lurking"
+  },
+  {
+    "UnitId": "pdf_Zerg_unit_queen",
+    "OptionId": "Creep Speed"
+  },
+  {
+    "UnitId": "pdf_Zerg_unit_queen",
+    "OptionId": "Domineering Presence"
+  },
+  {
+    "UnitId": "pdf_Zerg_unit_raptors_zergling",
+    "OptionId": "Adrenal Glands"
+  },
+  {
+    "UnitId": "pdf_Zerg_unit_raptors_zergling",
+    "OptionId": "Burrow Ambush"
+  },
+  {
+    "UnitId": "pdf_Zerg_unit_raptors_zergling",
+    "OptionId": "Shredding Claws"
+  },
+  {
+    "UnitId": "pdf_Zerg_unit_ravagers",
+    "OptionId": "Bloated Bile Ducts"
+  },
+  {
+    "UnitId": "pdf_Zerg_unit_ravagers",
+    "OptionId": "Burrow Ambush"
+  },
+  {
+    "UnitId": "pdf_Zerg_unit_ravagers",
+    "OptionId": "Potent Bile"
+  },
+  {
+    "UnitId": "pdf_Zerg_unit_roaches",
+    "OptionId": "Burrow Ambush"
+  },
+  {
+    "UnitId": "pdf_Zerg_unit_roaches",
+    "OptionId": "Glial Reconstitution"
+  },
+  {
+    "UnitId": "pdf_Zerg_unit_roaches",
+    "OptionId": "Hydriodic Bile"
+  },
+  {
+    "UnitId": "pdf_Zerg_unit_roaches",
+    "OptionId": "Tunneling Claws"
+  },
+  {
+    "UnitId": "pdf_Zerg_unit_swarmlings",
+    "OptionId": "Burrow Ambush"
+  },
+  {
+    "UnitId": "pdf_Zerg_unit_viles_roach",
+    "OptionId": "Burrow Ambush"
+  },
+  {
+    "UnitId": "pdf_Zerg_unit_viles_roach",
+    "OptionId": "Glial Reconstitution"
+  },
+  {
+    "UnitId": "pdf_Zerg_unit_viles_roach",
+    "OptionId": "Hydriodic Bile"
+  },
+  {
+    "UnitId": "pdf_Zerg_unit_viles_roach",
+    "OptionId": "Tunneling Claws"
+  },
+  {
+    "UnitId": "pdf_Zerg_unit_zagara",
+    "OptionId": "Broodmother"
+  },
+  {
+    "UnitId": "pdf_Zerg_unit_zerglings",
+    "OptionId": "Adrenal Glands"
+  },
+  {
+    "UnitId": "pdf_Zerg_unit_zerglings",
+    "OptionId": "Burrow Ambush"
+  },
+  {
+    "UnitId": "pdf_Zerg_unit_zerglings",
+    "OptionId": "Shredding Claws"
+  }
+]

@@ -1,5 +1,16 @@
 [
   {
+    "Id": "pdf_Protoss_equipment_adepts_default_2_body",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Protoss_equipment_adepts_default_2_table"
+      }
+    ]
+  },
+  {
     "Id": "pdf_Protoss_equipment_adepts_default_2_heading",
     "Name": "",
     "Type": "",
@@ -7,18 +18,54 @@
     "Children": []
   },
   {
-    "Id": "pdf_Protoss_equipment_adepts_default_2_keywords",
+    "Id": "pdf_Protoss_equipment_adepts_default_2_keyword_row",
     "Name": "",
-    "Type": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Protoss_equipment_adepts_default_2_keywords"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Protoss_equipment_adepts_default_2_keywords",
+    "Name": "<color=#ffffff><u><link=\"rule_keyword_anti_evade\">ANTI-EVADE (1)</link></u></color>",
+    "Type": "Imported",
     "Description": "<u><link=\"rule_keyword_anti_evade\">ANTI-EVADE (1)</link></u>",
     "Children": []
   },
   {
-    "Id": "pdf_Protoss_equipment_adepts_default_2_table",
+    "Id": "pdf_Protoss_equipment_adepts_default_2_slot",
     "Name": "",
-    "Type": "",
-    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>8</nobr><pos=14%><nobr>All</nobr><pos=32%><nobr>2</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>Light (D3+1)</nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Protoss_equipment_adepts_default_2_body"
+      },
+      {
+        "Id": "pdf_Protoss_equipment_adepts_default_2_keyword_row"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Protoss_equipment_adepts_default_2_table",
+    "Name": "<color=#ffffff><b>Assault Phase</b>\n<b>GLAIVE CANNON</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>8</nobr><pos=14%><nobr>All</nobr><pos=32%><nobr>2</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>Light (D3+1)</nobr><pos=86%><nobr>1</nobr></b></size></align></color>",
+    "Type": "Imported",
+    "Description": "<b>Assault Phase</b>\n<b>GLAIVE CANNON</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>8</nobr><pos=14%><nobr>All</nobr><pos=32%><nobr>2</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>Light (D3+1)</nobr><pos=86%><nobr>1</nobr></b></size></align>",
     "Children": []
+  },
+  {
+    "Id": "pdf_Protoss_equipment_adepts_default_3_body",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Protoss_equipment_adepts_default_3_table"
+      }
+    ]
   },
   {
     "Id": "pdf_Protoss_equipment_adepts_default_3_heading",
@@ -28,11 +75,70 @@
     "Children": []
   },
   {
+    "Id": "pdf_Protoss_equipment_adepts_default_3_keyword_row",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Protoss_equipment_adepts_default_3_slot",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Protoss_equipment_adepts_default_3_body"
+      },
+      {
+        "Id": "pdf_Protoss_equipment_adepts_default_3_keyword_row"
+      }
+    ]
+  },
+  {
     "Id": "pdf_Protoss_equipment_adepts_default_3_table",
+    "Name": "<color=#ffffff><b>Melee Phase</b>\n<b>STRIKE</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>1</nobr><pos=46%><nobr>4+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align></color>",
+    "Type": "Imported",
+    "Description": "<b>Melee Phase</b>\n<b>STRIKE</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>1</nobr><pos=46%><nobr>4+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Protoss_equipment_adepts_upgrade_1_choice",
+    "Name": "<color=#2596be>Glaive Strike</color>",
+    "Type": "Rule",
+    "Description": "<b>Upgrade ability</b>\n\nReplace STRIKE with GLAIVE STRIKE.\n\n<b>GLAIVE STRIKE</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>1</nobr><pos=46%><nobr>4+</nobr><pos=59%><nobr><color=#2596be>Light (D3)</color></nobr><pos=86%><nobr>1</nobr></b></size></align>\n\n<u><link=\"rule_keyword_pierce\"><color=#2596be>PIERCE Light (2)</color></link></u>"
+  },
+  {
+    "Id": "pdf_Protoss_equipment_adepts_upgrade_1_heading",
     "Name": "",
     "Type": "",
-    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>1</nobr><pos=46%><nobr>4+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Description": "<b>GLAIVE STRIKE</b>",
     "Children": []
+  },
+  {
+    "Id": "pdf_Protoss_equipment_adepts_upgrade_1_keywords",
+    "Name": "<color=#ffffff><u><link=\"rule_keyword_pierce\"><color=#2596be>PIERCE Light (2)</color></link></u></color>",
+    "Type": "Imported",
+    "Description": "<u><link=\"rule_keyword_pierce\"><color=#2596be>PIERCE Light (2)</color></link></u>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Protoss_equipment_adepts_upgrade_1_table",
+    "Name": "<color=#ffffff><b>Melee Phase</b>\n<b>GLAIVE STRIKE</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>1</nobr><pos=46%><nobr>4+</nobr><pos=59%><nobr><color=#2596be>Light (D3)</color></nobr><pos=86%><nobr>1</nobr></b></size></align></color>",
+    "Type": "Imported",
+    "Description": "<b>Melee Phase</b>\n<b>GLAIVE STRIKE</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>1</nobr><pos=46%><nobr>4+</nobr><pos=59%><nobr><color=#2596be>Light (D3)</color></nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Protoss_equipment_artanis_default_3_body",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Protoss_equipment_artanis_default_3_table"
+      }
+    ]
   },
   {
     "Id": "pdf_Protoss_equipment_artanis_default_3_heading",
@@ -42,11 +148,43 @@
     "Children": []
   },
   {
-    "Id": "pdf_Protoss_equipment_artanis_default_3_table",
+    "Id": "pdf_Protoss_equipment_artanis_default_3_keyword_row",
     "Name": "",
-    "Type": "",
-    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>2</nobr><pos=46%><nobr>2+</nobr><pos=59%><nobr>Armored (D3)</nobr><pos=86%><nobr>3</nobr></b></size></align>",
+    "Type": "Profile",
+    "Description": "",
     "Children": []
+  },
+  {
+    "Id": "pdf_Protoss_equipment_artanis_default_3_slot",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Protoss_equipment_artanis_default_3_body"
+      },
+      {
+        "Id": "pdf_Protoss_equipment_artanis_default_3_keyword_row"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Protoss_equipment_artanis_default_3_table",
+    "Name": "<color=#ffffff><b>Melee Phase</b>\n<b>TWILIGHT BLADES STRIKE</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>2</nobr><pos=46%><nobr>2+</nobr><pos=59%><nobr>Armored (D3)</nobr><pos=86%><nobr>3</nobr></b></size></align></color>",
+    "Type": "Imported",
+    "Description": "<b>Melee Phase</b>\n<b>TWILIGHT BLADES STRIKE</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>2</nobr><pos=46%><nobr>2+</nobr><pos=59%><nobr>Armored (D3)</nobr><pos=86%><nobr>3</nobr></b></size></align>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Protoss_equipment_artanis_default_4_body",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Protoss_equipment_artanis_default_4_table"
+      }
+    ]
   },
   {
     "Id": "pdf_Protoss_equipment_artanis_default_4_heading",
@@ -56,11 +194,43 @@
     "Children": []
   },
   {
-    "Id": "pdf_Protoss_equipment_artanis_default_4_table",
+    "Id": "pdf_Protoss_equipment_artanis_default_4_keyword_row",
     "Name": "",
-    "Type": "",
-    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>6</nobr><pos=46%><nobr>2+</nobr><pos=59%><nobr>Light (D3+1)</nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Type": "Profile",
+    "Description": "",
     "Children": []
+  },
+  {
+    "Id": "pdf_Protoss_equipment_artanis_default_4_slot",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Protoss_equipment_artanis_default_4_body"
+      },
+      {
+        "Id": "pdf_Protoss_equipment_artanis_default_4_keyword_row"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Protoss_equipment_artanis_default_4_table",
+    "Name": "<color=#ffffff><b>TWILIGHT BLADES SWEEP</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>6</nobr><pos=46%><nobr>2+</nobr><pos=59%><nobr>Light (D3+1)</nobr><pos=86%><nobr>1</nobr></b></size></align></color>",
+    "Type": "Imported",
+    "Description": "<b>TWILIGHT BLADES SWEEP</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>6</nobr><pos=46%><nobr>2+</nobr><pos=59%><nobr>Light (D3+1)</nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Protoss_equipment_high_templar_default_2_body",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Protoss_equipment_high_templar_default_2_table"
+      }
+    ]
   },
   {
     "Id": "pdf_Protoss_equipment_high_templar_default_2_heading",
@@ -70,18 +240,54 @@
     "Children": []
   },
   {
-    "Id": "pdf_Protoss_equipment_high_templar_default_2_keywords",
+    "Id": "pdf_Protoss_equipment_high_templar_default_2_keyword_row",
     "Name": "",
-    "Type": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Protoss_equipment_high_templar_default_2_keywords"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Protoss_equipment_high_templar_default_2_keywords",
+    "Name": "<color=#ffffff><u><link=\"rule_keyword_instant\">INSTANT</link></u></color>",
+    "Type": "Imported",
     "Description": "<u><link=\"rule_keyword_instant\">INSTANT</link></u>",
     "Children": []
   },
   {
-    "Id": "pdf_Protoss_equipment_high_templar_default_2_table",
+    "Id": "pdf_Protoss_equipment_high_templar_default_2_slot",
     "Name": "",
-    "Type": "",
-    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>8</nobr><pos=14%><nobr>All</nobr><pos=32%><nobr>1</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>Light (D3)</nobr><pos=86%><nobr>2</nobr></b></size></align>",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Protoss_equipment_high_templar_default_2_body"
+      },
+      {
+        "Id": "pdf_Protoss_equipment_high_templar_default_2_keyword_row"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Protoss_equipment_high_templar_default_2_table",
+    "Name": "<color=#ffffff><b>Assault Phase</b>\n<b>PSI BLAST</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>8</nobr><pos=14%><nobr>All</nobr><pos=32%><nobr>1</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>Light (D3)</nobr><pos=86%><nobr>2</nobr></b></size></align></color>",
+    "Type": "Imported",
+    "Description": "<b>Assault Phase</b>\n<b>PSI BLAST</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>8</nobr><pos=14%><nobr>All</nobr><pos=32%><nobr>1</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>Light (D3)</nobr><pos=86%><nobr>2</nobr></b></size></align>",
     "Children": []
+  },
+  {
+    "Id": "pdf_Protoss_equipment_high_templar_default_3_body",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Protoss_equipment_high_templar_default_3_table"
+      }
+    ]
   },
   {
     "Id": "pdf_Protoss_equipment_high_templar_default_3_heading",
@@ -91,11 +297,43 @@
     "Children": []
   },
   {
-    "Id": "pdf_Protoss_equipment_high_templar_default_3_table",
+    "Id": "pdf_Protoss_equipment_high_templar_default_3_keyword_row",
     "Name": "",
-    "Type": "",
-    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>1</nobr><pos=46%><nobr>4+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Type": "Profile",
+    "Description": "",
     "Children": []
+  },
+  {
+    "Id": "pdf_Protoss_equipment_high_templar_default_3_slot",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Protoss_equipment_high_templar_default_3_body"
+      },
+      {
+        "Id": "pdf_Protoss_equipment_high_templar_default_3_keyword_row"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Protoss_equipment_high_templar_default_3_table",
+    "Name": "<color=#ffffff><b>Melee Phase</b>\n<b>STRIKE</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>1</nobr><pos=46%><nobr>4+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align></color>",
+    "Type": "Imported",
+    "Description": "<b>Melee Phase</b>\n<b>STRIKE</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>1</nobr><pos=46%><nobr>4+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Protoss_equipment_immortal_default_1_body",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Protoss_equipment_immortal_default_1_table"
+      }
+    ]
   },
   {
     "Id": "pdf_Protoss_equipment_immortal_default_1_heading",
@@ -105,18 +343,54 @@
     "Children": []
   },
   {
-    "Id": "pdf_Protoss_equipment_immortal_default_1_keywords",
+    "Id": "pdf_Protoss_equipment_immortal_default_1_keyword_row",
     "Name": "",
-    "Type": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Protoss_equipment_immortal_default_1_keywords"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Protoss_equipment_immortal_default_1_keywords",
+    "Name": "<color=#ffffff><u><link=\"rule_keyword_concentrated_fire\">CONCENTRATED FIRE (1)</link></u>, <u><link=\"rule_keyword_long_range\">LONG RANGE (16)</link></u></color>",
+    "Type": "Imported",
     "Description": "<u><link=\"rule_keyword_concentrated_fire\">CONCENTRATED FIRE (1)</link></u>, <u><link=\"rule_keyword_long_range\">LONG RANGE (16)</link></u>",
     "Children": []
   },
   {
-    "Id": "pdf_Protoss_equipment_immortal_default_1_table",
+    "Id": "pdf_Protoss_equipment_immortal_default_1_slot",
     "Name": "",
-    "Type": "",
-    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>12</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>4</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>Armored (D3)</nobr><pos=86%><nobr>2</nobr></b></size></align>",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Protoss_equipment_immortal_default_1_body"
+      },
+      {
+        "Id": "pdf_Protoss_equipment_immortal_default_1_keyword_row"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Protoss_equipment_immortal_default_1_table",
+    "Name": "<color=#ffffff><b>Assault Phase</b>\n<b>LEFT PHOTON DISRUPTOR</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>12</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>4</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>Armored (D3)</nobr><pos=86%><nobr>2</nobr></b></size></align></color>",
+    "Type": "Imported",
+    "Description": "<b>Assault Phase</b>\n<b>LEFT PHOTON DISRUPTOR</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>12</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>4</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>Armored (D3)</nobr><pos=86%><nobr>2</nobr></b></size></align>",
     "Children": []
+  },
+  {
+    "Id": "pdf_Protoss_equipment_immortal_default_2_body",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Protoss_equipment_immortal_default_2_table"
+      }
+    ]
   },
   {
     "Id": "pdf_Protoss_equipment_immortal_default_2_heading",
@@ -126,18 +400,54 @@
     "Children": []
   },
   {
-    "Id": "pdf_Protoss_equipment_immortal_default_2_keywords",
+    "Id": "pdf_Protoss_equipment_immortal_default_2_keyword_row",
     "Name": "",
-    "Type": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Protoss_equipment_immortal_default_2_keywords"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Protoss_equipment_immortal_default_2_keywords",
+    "Name": "<color=#ffffff><u><link=\"rule_keyword_concentrated_fire\">CONCENTRATED FIRE (1)</link></u>, <u><link=\"rule_keyword_long_range\">LONG RANGE (16)</link></u>, <u><link=\"rule_keyword_sidearm\">SIDEARM</link></u></color>",
+    "Type": "Imported",
     "Description": "<u><link=\"rule_keyword_concentrated_fire\">CONCENTRATED FIRE (1)</link></u>, <u><link=\"rule_keyword_long_range\">LONG RANGE (16)</link></u>, <u><link=\"rule_keyword_sidearm\">SIDEARM</link></u>",
     "Children": []
   },
   {
-    "Id": "pdf_Protoss_equipment_immortal_default_2_table",
+    "Id": "pdf_Protoss_equipment_immortal_default_2_slot",
     "Name": "",
-    "Type": "",
-    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>12</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>4</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>Armored (D3)</nobr><pos=86%><nobr>2</nobr></b></size></align>",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Protoss_equipment_immortal_default_2_body"
+      },
+      {
+        "Id": "pdf_Protoss_equipment_immortal_default_2_keyword_row"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Protoss_equipment_immortal_default_2_table",
+    "Name": "<color=#ffffff><b>RIGHT PHOTON DISRUPTOR</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>12</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>4</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>Armored (D3)</nobr><pos=86%><nobr>2</nobr></b></size></align></color>",
+    "Type": "Imported",
+    "Description": "<b>RIGHT PHOTON DISRUPTOR</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>12</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>4</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>Armored (D3)</nobr><pos=86%><nobr>2</nobr></b></size></align>",
     "Children": []
+  },
+  {
+    "Id": "pdf_Protoss_equipment_immortal_default_4_body",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Protoss_equipment_immortal_default_4_table"
+      }
+    ]
   },
   {
     "Id": "pdf_Protoss_equipment_immortal_default_4_heading",
@@ -147,11 +457,97 @@
     "Children": []
   },
   {
+    "Id": "pdf_Protoss_equipment_immortal_default_4_keyword_row",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Protoss_equipment_immortal_default_4_slot",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Protoss_equipment_immortal_default_4_body"
+      },
+      {
+        "Id": "pdf_Protoss_equipment_immortal_default_4_keyword_row"
+      }
+    ]
+  },
+  {
     "Id": "pdf_Protoss_equipment_immortal_default_4_table",
+    "Name": "<color=#ffffff><b>Melee Phase</b>\n<b>STOMP</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>3</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align></color>",
+    "Type": "Imported",
+    "Description": "<b>Melee Phase</b>\n<b>STOMP</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>3</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Protoss_equipment_immortal_upgrade_1_choice",
+    "Name": "<color=#2596be>Left Phase Disruptor</color>",
+    "Type": "Rule",
+    "Description": "<b>Upgrade ability</b>\n\nReplace LEFT PHOTON DISRUPTOR with LEFT PHASE DISRUPTOR.\n\n<b>LEFT PHASE DISRUPTOR</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>12</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>4</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>Armored (D3)</nobr><pos=86%><nobr><color=#2596be>1</color></nobr></b></size></align>\n\n<u><link=\"rule_keyword_pierce\"><color=#2596be>PIERCE Armoured (3)</color></link></u>"
+  },
+  {
+    "Id": "pdf_Protoss_equipment_immortal_upgrade_1_heading",
     "Name": "",
     "Type": "",
-    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>3</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Description": "<b>LEFT PHASE DISRUPTOR</b>",
     "Children": []
+  },
+  {
+    "Id": "pdf_Protoss_equipment_immortal_upgrade_1_keywords",
+    "Name": "<color=#ffffff><u><link=\"rule_keyword_pierce\"><color=#2596be>PIERCE Armoured (3)</color></link></u></color>",
+    "Type": "Imported",
+    "Description": "<u><link=\"rule_keyword_pierce\"><color=#2596be>PIERCE Armoured (3)</color></link></u>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Protoss_equipment_immortal_upgrade_1_table",
+    "Name": "<color=#ffffff><b>Assault Phase</b>\n<b>LEFT PHASE DISRUPTOR</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>12</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>4</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>Armored (D3)</nobr><pos=86%><nobr><color=#2596be>1</color></nobr></b></size></align></color>",
+    "Type": "Imported",
+    "Description": "<b>Assault Phase</b>\n<b>LEFT PHASE DISRUPTOR</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>12</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>4</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>Armored (D3)</nobr><pos=86%><nobr><color=#2596be>1</color></nobr></b></size></align>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Protoss_equipment_immortal_upgrade_2_choice",
+    "Name": "<color=#2596be>Right Phase Disruptor</color>",
+    "Type": "Rule",
+    "Description": "<b>Upgrade ability</b>\n\nReplace RIGHT PHOTON DISRUPTOR with RIGHT PHASE DISRUPTOR.\n\n<b>RIGHT PHASE DISRUPTOR</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>12</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>4</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>Armored (D3)</nobr><pos=86%><nobr><color=#2596be>1</color></nobr></b></size></align>\n\n<u><link=\"rule_keyword_pierce\"><color=#2596be>PIERCE Armoured (3)</color></link></u>, <u><link=\"rule_keyword_sidearm\">SIDEARM</link></u>"
+  },
+  {
+    "Id": "pdf_Protoss_equipment_immortal_upgrade_2_heading",
+    "Name": "",
+    "Type": "",
+    "Description": "<b>RIGHT PHASE DISRUPTOR</b>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Protoss_equipment_immortal_upgrade_2_keywords",
+    "Name": "<color=#ffffff><u><link=\"rule_keyword_pierce\"><color=#2596be>PIERCE Armoured (3)</color></link></u>, <u><link=\"rule_keyword_sidearm\">SIDEARM</link></u></color>",
+    "Type": "Imported",
+    "Description": "<u><link=\"rule_keyword_pierce\"><color=#2596be>PIERCE Armoured (3)</color></link></u>, <u><link=\"rule_keyword_sidearm\">SIDEARM</link></u>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Protoss_equipment_immortal_upgrade_2_table",
+    "Name": "<color=#ffffff><b>RIGHT PHASE DISRUPTOR</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>12</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>4</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>Armored (D3)</nobr><pos=86%><nobr><color=#2596be>1</color></nobr></b></size></align></color>",
+    "Type": "Imported",
+    "Description": "<b>RIGHT PHASE DISRUPTOR</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>12</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>4</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>Armored (D3)</nobr><pos=86%><nobr><color=#2596be>1</color></nobr></b></size></align>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Protoss_equipment_nerazim_watchers_adept_default_2_body",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Protoss_equipment_nerazim_watchers_adept_default_2_table"
+      }
+    ]
   },
   {
     "Id": "pdf_Protoss_equipment_nerazim_watchers_adept_default_2_heading",
@@ -161,18 +557,54 @@
     "Children": []
   },
   {
-    "Id": "pdf_Protoss_equipment_nerazim_watchers_adept_default_2_keywords",
+    "Id": "pdf_Protoss_equipment_nerazim_watchers_adept_default_2_keyword_row",
     "Name": "",
-    "Type": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Protoss_equipment_nerazim_watchers_adept_default_2_keywords"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Protoss_equipment_nerazim_watchers_adept_default_2_keywords",
+    "Name": "<color=#ffffff><u><link=\"rule_keyword_anti_evade\">ANTI-EVADE (1)</link></u>, <u><link=\"rule_keyword_pinpoint\">PINPOINT</link></u></color>",
+    "Type": "Imported",
     "Description": "<u><link=\"rule_keyword_anti_evade\">ANTI-EVADE (1)</link></u>, <u><link=\"rule_keyword_pinpoint\">PINPOINT</link></u>",
     "Children": []
   },
   {
-    "Id": "pdf_Protoss_equipment_nerazim_watchers_adept_default_2_table",
+    "Id": "pdf_Protoss_equipment_nerazim_watchers_adept_default_2_slot",
     "Name": "",
-    "Type": "",
-    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>8</nobr><pos=14%><nobr>All</nobr><pos=32%><nobr>3</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>Light (D3+1)</nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Protoss_equipment_nerazim_watchers_adept_default_2_body"
+      },
+      {
+        "Id": "pdf_Protoss_equipment_nerazim_watchers_adept_default_2_keyword_row"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Protoss_equipment_nerazim_watchers_adept_default_2_table",
+    "Name": "<color=#ffffff><b>Assault Phase</b>\n<b>GLAIVE CANNON</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>8</nobr><pos=14%><nobr>All</nobr><pos=32%><nobr>3</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>Light (D3+1)</nobr><pos=86%><nobr>1</nobr></b></size></align></color>",
+    "Type": "Imported",
+    "Description": "<b>Assault Phase</b>\n<b>GLAIVE CANNON</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>8</nobr><pos=14%><nobr>All</nobr><pos=32%><nobr>3</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>Light (D3+1)</nobr><pos=86%><nobr>1</nobr></b></size></align>",
     "Children": []
+  },
+  {
+    "Id": "pdf_Protoss_equipment_nerazim_watchers_adept_default_3_body",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Protoss_equipment_nerazim_watchers_adept_default_3_table"
+      }
+    ]
   },
   {
     "Id": "pdf_Protoss_equipment_nerazim_watchers_adept_default_3_heading",
@@ -182,11 +614,43 @@
     "Children": []
   },
   {
-    "Id": "pdf_Protoss_equipment_nerazim_watchers_adept_default_3_table",
+    "Id": "pdf_Protoss_equipment_nerazim_watchers_adept_default_3_keyword_row",
     "Name": "",
-    "Type": "",
-    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>1</nobr><pos=46%><nobr>5+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Type": "Profile",
+    "Description": "",
     "Children": []
+  },
+  {
+    "Id": "pdf_Protoss_equipment_nerazim_watchers_adept_default_3_slot",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Protoss_equipment_nerazim_watchers_adept_default_3_body"
+      },
+      {
+        "Id": "pdf_Protoss_equipment_nerazim_watchers_adept_default_3_keyword_row"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Protoss_equipment_nerazim_watchers_adept_default_3_table",
+    "Name": "<color=#ffffff><b>Melee Phase</b>\n<b>STRIKE</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>1</nobr><pos=46%><nobr>5+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align></color>",
+    "Type": "Imported",
+    "Description": "<b>Melee Phase</b>\n<b>STRIKE</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>1</nobr><pos=46%><nobr>5+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Protoss_equipment_praetor_guards_default_3_body",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Protoss_equipment_praetor_guards_default_3_table"
+      }
+    ]
   },
   {
     "Id": "pdf_Protoss_equipment_praetor_guards_default_3_heading",
@@ -196,11 +660,43 @@
     "Children": []
   },
   {
-    "Id": "pdf_Protoss_equipment_praetor_guards_default_3_table",
+    "Id": "pdf_Protoss_equipment_praetor_guards_default_3_keyword_row",
     "Name": "",
-    "Type": "",
-    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>4</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>Light (D3)</nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Type": "Profile",
+    "Description": "",
     "Children": []
+  },
+  {
+    "Id": "pdf_Protoss_equipment_praetor_guards_default_3_slot",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Protoss_equipment_praetor_guards_default_3_body"
+      },
+      {
+        "Id": "pdf_Protoss_equipment_praetor_guards_default_3_keyword_row"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Protoss_equipment_praetor_guards_default_3_table",
+    "Name": "<color=#ffffff><b>Melee Phase</b>\n<b>PSI BLADES</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>4</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>Light (D3)</nobr><pos=86%><nobr>1</nobr></b></size></align></color>",
+    "Type": "Imported",
+    "Description": "<b>Melee Phase</b>\n<b>PSI BLADES</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>4</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>Light (D3)</nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Protoss_equipment_sentries_default_2_body",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Protoss_equipment_sentries_default_2_table"
+      }
+    ]
   },
   {
     "Id": "pdf_Protoss_equipment_sentries_default_2_heading",
@@ -210,18 +706,54 @@
     "Children": []
   },
   {
-    "Id": "pdf_Protoss_equipment_sentries_default_2_keywords",
+    "Id": "pdf_Protoss_equipment_sentries_default_2_keyword_row",
     "Name": "",
-    "Type": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Protoss_equipment_sentries_default_2_keywords"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Protoss_equipment_sentries_default_2_keywords",
+    "Name": "<color=#ffffff><u><link=\"rule_keyword_instant\">INSTANT</link></u></color>",
+    "Type": "Imported",
     "Description": "<u><link=\"rule_keyword_instant\">INSTANT</link></u>",
     "Children": []
   },
   {
-    "Id": "pdf_Protoss_equipment_sentries_default_2_table",
+    "Id": "pdf_Protoss_equipment_sentries_default_2_slot",
     "Name": "",
-    "Type": "",
-    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>8</nobr><pos=14%><nobr>All</nobr><pos=32%><nobr>2</nobr><pos=46%><nobr>2+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Protoss_equipment_sentries_default_2_body"
+      },
+      {
+        "Id": "pdf_Protoss_equipment_sentries_default_2_keyword_row"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Protoss_equipment_sentries_default_2_table",
+    "Name": "<color=#ffffff><b>Assault Phase</b>\n<b>DISRUPTION BEAM</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>8</nobr><pos=14%><nobr>All</nobr><pos=32%><nobr>2</nobr><pos=46%><nobr>2+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align></color>",
+    "Type": "Imported",
+    "Description": "<b>Assault Phase</b>\n<b>DISRUPTION BEAM</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>8</nobr><pos=14%><nobr>All</nobr><pos=32%><nobr>2</nobr><pos=46%><nobr>2+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align>",
     "Children": []
+  },
+  {
+    "Id": "pdf_Protoss_equipment_sentries_default_3_body",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Protoss_equipment_sentries_default_3_table"
+      }
+    ]
   },
   {
     "Id": "pdf_Protoss_equipment_sentries_default_3_heading",
@@ -231,11 +763,43 @@
     "Children": []
   },
   {
-    "Id": "pdf_Protoss_equipment_sentries_default_3_table",
+    "Id": "pdf_Protoss_equipment_sentries_default_3_keyword_row",
     "Name": "",
-    "Type": "",
-    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>2</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Type": "Profile",
+    "Description": "",
     "Children": []
+  },
+  {
+    "Id": "pdf_Protoss_equipment_sentries_default_3_slot",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Protoss_equipment_sentries_default_3_body"
+      },
+      {
+        "Id": "pdf_Protoss_equipment_sentries_default_3_keyword_row"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Protoss_equipment_sentries_default_3_table",
+    "Name": "<color=#ffffff><b>Melee Phase</b>\n<b>BEAM</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>2</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align></color>",
+    "Type": "Imported",
+    "Description": "<b>Melee Phase</b>\n<b>BEAM</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>2</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Protoss_equipment_stalker_default_2_body",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Protoss_equipment_stalker_default_2_table"
+      }
+    ]
   },
   {
     "Id": "pdf_Protoss_equipment_stalker_default_2_heading",
@@ -245,11 +809,43 @@
     "Children": []
   },
   {
-    "Id": "pdf_Protoss_equipment_stalker_default_2_table",
+    "Id": "pdf_Protoss_equipment_stalker_default_2_keyword_row",
     "Name": "",
-    "Type": "",
-    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>12</nobr><pos=14%><nobr>All</nobr><pos=32%><nobr>4</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>Armored (D3)</nobr><pos=86%><nobr>2</nobr></b></size></align>",
+    "Type": "Profile",
+    "Description": "",
     "Children": []
+  },
+  {
+    "Id": "pdf_Protoss_equipment_stalker_default_2_slot",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Protoss_equipment_stalker_default_2_body"
+      },
+      {
+        "Id": "pdf_Protoss_equipment_stalker_default_2_keyword_row"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Protoss_equipment_stalker_default_2_table",
+    "Name": "<color=#ffffff><b>Assault Phase</b>\n<b>PARTICLE DISRUPTORS</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>12</nobr><pos=14%><nobr>All</nobr><pos=32%><nobr>4</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>Armored (D3)</nobr><pos=86%><nobr>2</nobr></b></size></align></color>",
+    "Type": "Imported",
+    "Description": "<b>Assault Phase</b>\n<b>PARTICLE DISRUPTORS</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>12</nobr><pos=14%><nobr>All</nobr><pos=32%><nobr>4</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>Armored (D3)</nobr><pos=86%><nobr>2</nobr></b></size></align>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Protoss_equipment_stalker_default_3_body",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Protoss_equipment_stalker_default_3_table"
+      }
+    ]
   },
   {
     "Id": "pdf_Protoss_equipment_stalker_default_3_heading",
@@ -259,11 +855,43 @@
     "Children": []
   },
   {
-    "Id": "pdf_Protoss_equipment_stalker_default_3_table",
+    "Id": "pdf_Protoss_equipment_stalker_default_3_keyword_row",
     "Name": "",
-    "Type": "",
-    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>2</nobr><pos=46%><nobr>5+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Type": "Profile",
+    "Description": "",
     "Children": []
+  },
+  {
+    "Id": "pdf_Protoss_equipment_stalker_default_3_slot",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Protoss_equipment_stalker_default_3_body"
+      },
+      {
+        "Id": "pdf_Protoss_equipment_stalker_default_3_keyword_row"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Protoss_equipment_stalker_default_3_table",
+    "Name": "<color=#ffffff><b>Melee Phase</b>\n<b>STOMP</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>2</nobr><pos=46%><nobr>5+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align></color>",
+    "Type": "Imported",
+    "Description": "<b>Melee Phase</b>\n<b>STOMP</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>2</nobr><pos=46%><nobr>5+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Protoss_equipment_tassadar_default_2_body",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Protoss_equipment_tassadar_default_2_table"
+      }
+    ]
   },
   {
     "Id": "pdf_Protoss_equipment_tassadar_default_2_heading",
@@ -273,18 +901,54 @@
     "Children": []
   },
   {
-    "Id": "pdf_Protoss_equipment_tassadar_default_2_keywords",
+    "Id": "pdf_Protoss_equipment_tassadar_default_2_keyword_row",
     "Name": "",
-    "Type": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Protoss_equipment_tassadar_default_2_keywords"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Protoss_equipment_tassadar_default_2_keywords",
+    "Name": "<color=#ffffff><u><link=\"rule_keyword_instant\">INSTANT</link></u></color>",
+    "Type": "Imported",
     "Description": "<u><link=\"rule_keyword_instant\">INSTANT</link></u>",
     "Children": []
   },
   {
-    "Id": "pdf_Protoss_equipment_tassadar_default_2_table",
+    "Id": "pdf_Protoss_equipment_tassadar_default_2_slot",
     "Name": "",
-    "Type": "",
-    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>12</nobr><pos=14%><nobr>All</nobr><pos=32%><nobr>6</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>Armored (D3)</nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Protoss_equipment_tassadar_default_2_body"
+      },
+      {
+        "Id": "pdf_Protoss_equipment_tassadar_default_2_keyword_row"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Protoss_equipment_tassadar_default_2_table",
+    "Name": "<color=#ffffff><b>Assault Phase</b>\n<b>RESONANCE BEAM</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>12</nobr><pos=14%><nobr>All</nobr><pos=32%><nobr>6</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>Armored (D3)</nobr><pos=86%><nobr>1</nobr></b></size></align></color>",
+    "Type": "Imported",
+    "Description": "<b>Assault Phase</b>\n<b>RESONANCE BEAM</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>12</nobr><pos=14%><nobr>All</nobr><pos=32%><nobr>6</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>Armored (D3)</nobr><pos=86%><nobr>1</nobr></b></size></align>",
     "Children": []
+  },
+  {
+    "Id": "pdf_Protoss_equipment_tassadar_default_4_body",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Protoss_equipment_tassadar_default_4_table"
+      }
+    ]
   },
   {
     "Id": "pdf_Protoss_equipment_tassadar_default_4_heading",
@@ -294,11 +958,43 @@
     "Children": []
   },
   {
-    "Id": "pdf_Protoss_equipment_tassadar_default_4_table",
+    "Id": "pdf_Protoss_equipment_tassadar_default_4_keyword_row",
     "Name": "",
-    "Type": "",
-    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>6</nobr><pos=46%><nobr>4+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Type": "Profile",
+    "Description": "",
     "Children": []
+  },
+  {
+    "Id": "pdf_Protoss_equipment_tassadar_default_4_slot",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Protoss_equipment_tassadar_default_4_body"
+      },
+      {
+        "Id": "pdf_Protoss_equipment_tassadar_default_4_keyword_row"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Protoss_equipment_tassadar_default_4_table",
+    "Name": "<color=#ffffff><b>Melee Phase</b>\n<b>STRIKE</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>6</nobr><pos=46%><nobr>4+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align></color>",
+    "Type": "Imported",
+    "Description": "<b>Melee Phase</b>\n<b>STRIKE</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>6</nobr><pos=46%><nobr>4+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Protoss_equipment_twilight_templar_high_templar_default_2_body",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Protoss_equipment_twilight_templar_high_templar_default_2_table"
+      }
+    ]
   },
   {
     "Id": "pdf_Protoss_equipment_twilight_templar_high_templar_default_2_heading",
@@ -308,18 +1004,54 @@
     "Children": []
   },
   {
-    "Id": "pdf_Protoss_equipment_twilight_templar_high_templar_default_2_keywords",
+    "Id": "pdf_Protoss_equipment_twilight_templar_high_templar_default_2_keyword_row",
     "Name": "",
-    "Type": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Protoss_equipment_twilight_templar_high_templar_default_2_keywords"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Protoss_equipment_twilight_templar_high_templar_default_2_keywords",
+    "Name": "<color=#ffffff><u><link=\"rule_keyword_instant\">INSTANT</link></u></color>",
+    "Type": "Imported",
     "Description": "<u><link=\"rule_keyword_instant\">INSTANT</link></u>",
     "Children": []
   },
   {
-    "Id": "pdf_Protoss_equipment_twilight_templar_high_templar_default_2_table",
+    "Id": "pdf_Protoss_equipment_twilight_templar_high_templar_default_2_slot",
     "Name": "",
-    "Type": "",
-    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>8</nobr><pos=14%><nobr>All</nobr><pos=32%><nobr>2</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>Light (D3)</nobr><pos=86%><nobr>2</nobr></b></size></align>",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Protoss_equipment_twilight_templar_high_templar_default_2_body"
+      },
+      {
+        "Id": "pdf_Protoss_equipment_twilight_templar_high_templar_default_2_keyword_row"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Protoss_equipment_twilight_templar_high_templar_default_2_table",
+    "Name": "<color=#ffffff><b>Assault Phase</b>\n<b>PSI BLAST</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>8</nobr><pos=14%><nobr>All</nobr><pos=32%><nobr>2</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>Light (D3)</nobr><pos=86%><nobr>2</nobr></b></size></align></color>",
+    "Type": "Imported",
+    "Description": "<b>Assault Phase</b>\n<b>PSI BLAST</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>8</nobr><pos=14%><nobr>All</nobr><pos=32%><nobr>2</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>Light (D3)</nobr><pos=86%><nobr>2</nobr></b></size></align>",
     "Children": []
+  },
+  {
+    "Id": "pdf_Protoss_equipment_twilight_templar_high_templar_default_3_body",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Protoss_equipment_twilight_templar_high_templar_default_3_table"
+      }
+    ]
   },
   {
     "Id": "pdf_Protoss_equipment_twilight_templar_high_templar_default_3_heading",
@@ -329,11 +1061,43 @@
     "Children": []
   },
   {
-    "Id": "pdf_Protoss_equipment_twilight_templar_high_templar_default_3_table",
+    "Id": "pdf_Protoss_equipment_twilight_templar_high_templar_default_3_keyword_row",
     "Name": "",
-    "Type": "",
-    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>1</nobr><pos=46%><nobr>4+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Type": "Profile",
+    "Description": "",
     "Children": []
+  },
+  {
+    "Id": "pdf_Protoss_equipment_twilight_templar_high_templar_default_3_slot",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Protoss_equipment_twilight_templar_high_templar_default_3_body"
+      },
+      {
+        "Id": "pdf_Protoss_equipment_twilight_templar_high_templar_default_3_keyword_row"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Protoss_equipment_twilight_templar_high_templar_default_3_table",
+    "Name": "<color=#ffffff><b>Melee Phase</b>\n<b>STRIKE</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>1</nobr><pos=46%><nobr>4+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align></color>",
+    "Type": "Imported",
+    "Description": "<b>Melee Phase</b>\n<b>STRIKE</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>1</nobr><pos=46%><nobr>4+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Protoss_equipment_zealots_default_1_body",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Protoss_equipment_zealots_default_1_table"
+      }
+    ]
   },
   {
     "Id": "pdf_Protoss_equipment_zealots_default_1_heading",
@@ -343,11 +1107,43 @@
     "Children": []
   },
   {
-    "Id": "pdf_Protoss_equipment_zealots_default_1_table",
+    "Id": "pdf_Protoss_equipment_zealots_default_1_keyword_row",
     "Name": "",
-    "Type": "",
-    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>4</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>Light (D3)</nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Type": "Profile",
+    "Description": "",
     "Children": []
+  },
+  {
+    "Id": "pdf_Protoss_equipment_zealots_default_1_slot",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Protoss_equipment_zealots_default_1_body"
+      },
+      {
+        "Id": "pdf_Protoss_equipment_zealots_default_1_keyword_row"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Protoss_equipment_zealots_default_1_table",
+    "Name": "<color=#ffffff><b>Melee Phase</b>\n<b>PSI BLADES</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>4</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>Light (D3)</nobr><pos=86%><nobr>1</nobr></b></size></align></color>",
+    "Type": "Imported",
+    "Description": "<b>Melee Phase</b>\n<b>PSI BLADES</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>4</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>Light (D3)</nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Protoss_equipment_zeratul_default_3_body",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Protoss_equipment_zeratul_default_3_table"
+      }
+    ]
   },
   {
     "Id": "pdf_Protoss_equipment_zeratul_default_3_heading",
@@ -357,314 +1153,497 @@
     "Children": []
   },
   {
-    "Id": "pdf_Protoss_equipment_zeratul_default_3_keywords",
+    "Id": "pdf_Protoss_equipment_zeratul_default_3_keyword_row",
     "Name": "",
-    "Type": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Protoss_equipment_zeratul_default_3_keywords"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Protoss_equipment_zeratul_default_3_keywords",
+    "Name": "<color=#ffffff><u><link=\"rule_keyword_instant\">INSTANT</link></u></color>",
+    "Type": "Imported",
     "Description": "<u><link=\"rule_keyword_instant\">INSTANT</link></u>",
     "Children": []
   },
   {
+    "Id": "pdf_Protoss_equipment_zeratul_default_3_slot",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Protoss_equipment_zeratul_default_3_body"
+      },
+      {
+        "Id": "pdf_Protoss_equipment_zeratul_default_3_keyword_row"
+      }
+    ]
+  },
+  {
     "Id": "pdf_Protoss_equipment_zeratul_default_3_table",
-    "Name": "",
-    "Type": "",
-    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>4</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>L&A (D3)</nobr><pos=86%><nobr>2</nobr></b></size></align>",
+    "Name": "<color=#ffffff><b>Melee Phase</b>\n<b>MASTER WARP BLADE</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>4</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>L&A (D3)</nobr><pos=86%><nobr>2</nobr></b></size></align></color>",
+    "Type": "Imported",
+    "Description": "<b>Melee Phase</b>\n<b>MASTER WARP BLADE</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>4</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>L&A (D3)</nobr><pos=86%><nobr>2</nobr></b></size></align>",
     "Children": []
   },
   {
-    "Id": "pdf_Protoss_profile_adepts_phase_assault_phase",
+    "Id": "pdf_Protoss_profile_adepts_selected_options",
     "Name": "",
-    "Type": "",
-    "Description": "<b>Assault Phase</b>",
+    "Type": "Profile",
+    "Description": "",
     "Children": []
   },
   {
-    "Id": "pdf_Protoss_profile_adepts_phase_melee_phase",
+    "Id": "pdf_Protoss_profile_adepts_stats",
     "Name": "",
-    "Type": "",
-    "Description": "<b>Melee Phase</b>",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Protoss_stat_adepts"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Protoss_profile_artanis_selected_options",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
     "Children": []
   },
   {
-    "Id": "pdf_Protoss_profile_artanis_phase_melee_phase",
+    "Id": "pdf_Protoss_profile_artanis_stats",
     "Name": "",
-    "Type": "",
-    "Description": "<b>Melee Phase</b>",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Protoss_stat_artanis"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Protoss_profile_high_templar_selected_options",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
     "Children": []
   },
   {
-    "Id": "pdf_Protoss_profile_high_templar_phase_assault_phase",
+    "Id": "pdf_Protoss_profile_high_templar_stats",
     "Name": "",
-    "Type": "",
-    "Description": "<b>Assault Phase</b>",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Protoss_stat_high_templar"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Protoss_profile_immortal_selected_options",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
     "Children": []
   },
   {
-    "Id": "pdf_Protoss_profile_high_templar_phase_melee_phase",
+    "Id": "pdf_Protoss_profile_immortal_stats",
     "Name": "",
-    "Type": "",
-    "Description": "<b>Melee Phase</b>",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Protoss_stat_immortal"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Protoss_profile_nerazim_watchers_adept_selected_options",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
     "Children": []
   },
   {
-    "Id": "pdf_Protoss_profile_immortal_phase_assault_phase",
+    "Id": "pdf_Protoss_profile_nerazim_watchers_adept_stats",
     "Name": "",
-    "Type": "",
-    "Description": "<b>Assault Phase</b>",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Protoss_stat_nerazim_watchers_adept"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Protoss_profile_praetor_guards_selected_options",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
     "Children": []
   },
   {
-    "Id": "pdf_Protoss_profile_immortal_phase_melee_phase",
+    "Id": "pdf_Protoss_profile_praetor_guards_stats",
     "Name": "",
-    "Type": "",
-    "Description": "<b>Melee Phase</b>",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Protoss_stat_praetor_guards"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Protoss_profile_pylon_selected_options",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
     "Children": []
   },
   {
-    "Id": "pdf_Protoss_profile_nerazim_watchers_adept_phase_assault_phase",
+    "Id": "pdf_Protoss_profile_pylon_stats",
     "Name": "",
-    "Type": "",
-    "Description": "<b>Assault Phase</b>",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Protoss_stat_pylon"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Protoss_profile_sentries_selected_options",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
     "Children": []
   },
   {
-    "Id": "pdf_Protoss_profile_nerazim_watchers_adept_phase_melee_phase",
+    "Id": "pdf_Protoss_profile_sentries_stats",
     "Name": "",
-    "Type": "",
-    "Description": "<b>Melee Phase</b>",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Protoss_stat_sentries"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Protoss_profile_stalker_selected_options",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
     "Children": []
   },
   {
-    "Id": "pdf_Protoss_profile_praetor_guards_phase_melee_phase",
+    "Id": "pdf_Protoss_profile_stalker_stats",
     "Name": "",
-    "Type": "",
-    "Description": "<b>Melee Phase</b>",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Protoss_stat_stalker"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Protoss_profile_tassadar_selected_options",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
     "Children": []
   },
   {
-    "Id": "pdf_Protoss_profile_sentries_phase_assault_phase",
+    "Id": "pdf_Protoss_profile_tassadar_stats",
     "Name": "",
-    "Type": "",
-    "Description": "<b>Assault Phase</b>",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Protoss_stat_tassadar"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Protoss_profile_twilight_templar_high_templar_selected_options",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
     "Children": []
   },
   {
-    "Id": "pdf_Protoss_profile_sentries_phase_melee_phase",
+    "Id": "pdf_Protoss_profile_twilight_templar_high_templar_stats",
     "Name": "",
-    "Type": "",
-    "Description": "<b>Melee Phase</b>",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Protoss_stat_twilight_templar_high_templar"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Protoss_profile_zealots_selected_options",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
     "Children": []
   },
   {
-    "Id": "pdf_Protoss_profile_stalker_phase_assault_phase",
+    "Id": "pdf_Protoss_profile_zealots_stats",
     "Name": "",
-    "Type": "",
-    "Description": "<b>Assault Phase</b>",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Protoss_stat_zealots"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Protoss_profile_zeratul_selected_options",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
     "Children": []
   },
   {
-    "Id": "pdf_Protoss_profile_stalker_phase_melee_phase",
+    "Id": "pdf_Protoss_profile_zeratul_stats",
     "Name": "",
-    "Type": "",
-    "Description": "<b>Melee Phase</b>",
-    "Children": []
-  },
-  {
-    "Id": "pdf_Protoss_profile_tassadar_phase_assault_phase",
-    "Name": "",
-    "Type": "",
-    "Description": "<b>Assault Phase</b>",
-    "Children": []
-  },
-  {
-    "Id": "pdf_Protoss_profile_tassadar_phase_melee_phase",
-    "Name": "",
-    "Type": "",
-    "Description": "<b>Melee Phase</b>",
-    "Children": []
-  },
-  {
-    "Id": "pdf_Protoss_profile_twilight_templar_high_templar_phase_assault_phase",
-    "Name": "",
-    "Type": "",
-    "Description": "<b>Assault Phase</b>",
-    "Children": []
-  },
-  {
-    "Id": "pdf_Protoss_profile_twilight_templar_high_templar_phase_melee_phase",
-    "Name": "",
-    "Type": "",
-    "Description": "<b>Melee Phase</b>",
-    "Children": []
-  },
-  {
-    "Id": "pdf_Protoss_profile_zealots_phase_melee_phase",
-    "Name": "",
-    "Type": "",
-    "Description": "<b>Melee Phase</b>",
-    "Children": []
-  },
-  {
-    "Id": "pdf_Protoss_profile_zeratul_phase_melee_phase",
-    "Name": "",
-    "Type": "",
-    "Description": "<b>Melee Phase</b>",
-    "Children": []
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Protoss_stat_zeratul"
+      }
+    ]
   },
   {
     "Id": "pdf_Protoss_rule_adepts_any_phase_psionic_presence",
     "Name": "Psionic Presence",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Passive\n\nAll Weapons of <link=\"rule_keyword_friendly\">Friendly</link> Units targeting an <link=\"rule_keyword_enemy\">Enemy</link> Unit <link=\"rule_keyword_within\">Within</link> 4\" of this Unit's Shade token gain <link=\"rule_keyword_precision\">PRECISION</link> (1)."
+    "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Passive\n\nAll Weapons of <u><link=\"rule_keyword_friendly\">Friendly</link></u> <u><link=\"rule_chapter_2_2\">Units</link></u> targeting an <u><link=\"rule_keyword_enemy\">Enemy</link></u> Unit <u><link=\"rule_keyword_within\">Within</link></u> 4\" of this Unit's Shade token gain <u><link=\"rule_keyword_precision\">PRECISION</link></u> (1)."
   },
   {
     "Id": "pdf_Protoss_rule_adepts_movement_phase_psionic_transfer",
     "Name": "Psionic Transfer",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Active\n<b>Cost:</b> 1 PE\n\nSet a Shade token <link=\"rule_keyword_wholly_within\">Wholly Within</link> 12\" of any model in this Unit. At the End of the Round, the <link=\"rule_keyword_controlling_player\">controlling player</link> may set all models of this Unit in Coherency, treating the Shade token as the <link=\"rule_keyword_leading_model\">Leading Model</link>. The Shade token has <link=\"rule_keyword_displacement\">DISPLACEMENT</link>."
+    "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Active\n<b>Cost:</b> 1 PE\n\nSet a Shade token <u><link=\"rule_keyword_wholly_within\">Wholly Within</link></u> 12\" of any model in this Unit. At the End of the Round, the <u><link=\"rule_keyword_controlling_player\">controlling player</link></u> may set all <u><link=\"rule_chapter_2_1\">models</link></u> of this Unit in <u><link=\"rule_chapter_4_4\">Coherency</link></u>, treating the Shade token as the <u><link=\"rule_keyword_leading_model\">Leading Model</link></u>. The Shade token has <u><link=\"rule_keyword_displacement\">DISPLACEMENT</link></u>."
   },
   {
     "Id": "pdf_Protoss_rule_adepts_upgrade_assault_phase_guidance",
-    "Name": "Guidance",
+    "Name": "<color=#2596be>Guidance</color>",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Passive\n<b>Upgrade ability</b>\n\nThis Unit's Glaive Cannon Ranged weapon gains <link=\"rule_keyword_anti_evade\">ANTI-EVADE</link> (2)."
+    "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Passive\n<b>Upgrade ability</b>\n\nThis Unit's Glaive Cannon Ranged weapon gains <u><link=\"rule_keyword_anti_evade\">ANTI-EVADE</link></u> (2)."
+  },
+  {
+    "Id": "pdf_Protoss_rule_adepts_upgrade_assault_phase_guidance_effect_0_heading",
+    "Name": "",
+    "Type": "",
+    "Description": "<b>GLAIVE CANNON</b>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Protoss_rule_adepts_upgrade_assault_phase_guidance_effect_0_keywords",
+    "Name": "<color=#ffffff><u><link=\"rule_keyword_anti_evade\"><color=#2596be>ANTI-EVADE (2)</color></link></u></color>",
+    "Type": "Imported",
+    "Description": "<u><link=\"rule_keyword_anti_evade\"><color=#2596be>ANTI-EVADE (2)</color></link></u>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Protoss_rule_adepts_upgrade_assault_phase_guidance_effect_0_table",
+    "Name": "<color=#ffffff><b>Assault Phase</b>\n<b>GLAIVE CANNON</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>8</nobr><pos=14%><nobr>All</nobr><pos=32%><nobr>2</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>Light (D3+1)</nobr><pos=86%><nobr>1</nobr></b></size></align></color>",
+    "Type": "Imported",
+    "Description": "<b>Assault Phase</b>\n<b>GLAIVE CANNON</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>8</nobr><pos=14%><nobr>All</nobr><pos=32%><nobr>2</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>Light (D3+1)</nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Children": []
   },
   {
     "Id": "pdf_Protoss_rule_adepts_upgrade_assault_phase_resonating_glaves",
-    "Name": "Resonating Glaves",
+    "Name": "<color=#2596be>Resonating Glaves</color>",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Active\n<b>Cost:</b> 1 PE\n<b>Upgrade ability</b>\n\nThis Unit's Glaive Cannon gains <link=\"rule_keyword_buff\">BUFF</link> RoA (1)."
+    "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Active\n<b>Cost:</b> 1 PE\n<b>Upgrade ability</b>\n\nThis Unit's Glaive Cannon gains <u><link=\"rule_keyword_buff\">BUFF</link></u> RoA (1)."
+  },
+  {
+    "Id": "pdf_Protoss_rule_adepts_upgrade_assault_phase_resonating_glaves_effect_0_heading",
+    "Name": "",
+    "Type": "",
+    "Description": "<b>GLAIVE CANNON</b>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Protoss_rule_adepts_upgrade_assault_phase_resonating_glaves_effect_0_keywords",
+    "Name": "<color=#ffffff><u><link=\"rule_keyword_anti_evade\">ANTI-EVADE (1)</link></u></color>",
+    "Type": "Imported",
+    "Description": "<u><link=\"rule_keyword_anti_evade\">ANTI-EVADE (1)</link></u>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Protoss_rule_adepts_upgrade_assault_phase_resonating_glaves_effect_0_table",
+    "Name": "<color=#ffffff><b>Assault Phase</b>\n<b>GLAIVE CANNON</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>8</nobr><pos=14%><nobr>All</nobr><pos=32%><nobr>2 <u><link=\"pdf_Protoss_rule_adepts_upgrade_assault_phase_resonating_glaves\"><color=#65c879>(3)</color></link></u></nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>Light (D3+1)</nobr><pos=86%><nobr>1</nobr></b></size></align></color>",
+    "Type": "Imported",
+    "Description": "<b>Assault Phase</b>\n<b>GLAIVE CANNON</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>8</nobr><pos=14%><nobr>All</nobr><pos=32%><nobr>2 <u><link=\"pdf_Protoss_rule_adepts_upgrade_assault_phase_resonating_glaves\"><color=#65c879>(3)</color></link></u></nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>Light (D3+1)</nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Children": []
   },
   {
     "Id": "pdf_Protoss_rule_artanis_any_phase_commander",
     "Name": "Commander",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Passive\n\nTreat this Unit's Supply characteristic as increased by 1 for Controlling and Contesting <link=\"rule_keyword_mission_markers\">Mission Markers</link>, completing objectives, and resolving Disengage checks."
+    "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Passive\n\nTreat this Unit's Supply characteristic as increased by 1 for Controlling and Contesting <u><link=\"rule_keyword_mission_markers\">Mission Markers</link></u>, completing objectives, and resolving <u><link=\"rule_chapter_8_5_4\">Disengage</link></u> checks."
   },
   {
     "Id": "pdf_Protoss_rule_artanis_assault_phase_devastating_charge",
     "Name": "Devastating Charge IMPACT (6) 4+",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Passive\n\nImmediately after this Unit completes a successful Charge, resolve the <link=\"rule_keyword_impact\">IMPACT</link> (6) 4+ effect."
+    "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Passive\n\nImmediately after this Unit completes a successful <u><link=\"rule_chapter_8_7_7\">Charge</link></u>, resolve the <u><link=\"rule_keyword_impact\">IMPACT</link></u> (6) 4+ effect."
   },
   {
     "Id": "pdf_Protoss_rule_artanis_assault_phase_hierarch_s_stand",
     "Name": "Hierarch'S Stand",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Reaction\n<b>Cost:</b> 1 PE\n\nWhen another <link=\"rule_keyword_friendly\">Friendly</link> Unit <link=\"rule_keyword_within\">Within</link> 8\" is declared as the target of a Ranged Attack and this Unit is a valid target, redirect the attack to this Unit. This Unit is eligible to make an Evade Roll against the redirected attack. This <link=\"rule_keyword_special_ability\">Special Ability</link> remains active until the End of the current Activation."
+    "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Reaction\n<b>Cost:</b> 1 PE\n\nWhen another <u><link=\"rule_keyword_friendly\">Friendly</link></u> Unit <u><link=\"rule_keyword_within\">Within</link></u> 8\" is declared as the target of a <u><link=\"rule_chapter_8_7_3\">Ranged Attack</link></u> and this Unit is a valid target, redirect the attack to this Unit. This Unit is eligible to make an <u><link=\"rule_chapter_8_7_4\">Evade Roll</link></u> against the redirected attack. This <u><link=\"rule_keyword_special_ability\">Special Ability</link></u> remains active until the End of the current Activation."
   },
   {
     "Id": "pdf_Protoss_rule_artanis_assault_phase_lightning_dash",
     "Name": "Lightning Dash",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Reaction\n<b>Cost:</b> 1 PE\n\nAfter this Unit resolves a successful Charge action, it may declare a second Charge action against a different <link=\"rule_keyword_enemy\">Enemy</link> Unit, ignoring the restriction on Charging while <link=\"rule_keyword_engaged\">Engaged</link>. The <link=\"pdf_Protoss_rule_artanis_assault_phase_devastating_charge\">Devastating Charge</link> ability does not trigger a second time."
+    "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Reaction\n<b>Cost:</b> 1 PE\n\nAfter this Unit resolves a successful <u><link=\"rule_chapter_8_7_7\">Charge</link></u> action, it may declare a second <u><link=\"rule_chapter_8_7_7\">Charge</link></u> action against a different <u><link=\"rule_keyword_enemy\">Enemy</link></u> Unit, ignoring the restriction on Charging while <u><link=\"rule_keyword_engaged\">Engaged</link></u>. The <u><link=\"pdf_Protoss_rule_artanis_assault_phase_devastating_charge\">Devastating Charge</link></u> ability does not trigger a second time."
   },
   {
     "Id": "pdf_Protoss_rule_artanis_movement_phase_phase_prism",
     "Name": "Phase Prism",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Passive\n\nWhen Artanis is nominated to deploy from <link=\"rule_keyword_reserves\">Reserves</link>, it may resolve the <link=\"rule_keyword_place\">PLACE</link> (0) effect from another <link=\"rule_keyword_friendly\">Friendly</link> Unit. That Friendly Unit is removed from the battlefield and returned to Reserves. Artanis' Activation ends."
+    "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Passive\n\nWhen Artanis is nominated to deploy from <u><link=\"rule_keyword_reserves\">Reserves</link></u>, it may resolve the <u><link=\"rule_keyword_place\">PLACE</link></u> (0) effect from another <u><link=\"rule_keyword_friendly\">Friendly</link></u> Unit. That <u><link=\"rule_keyword_friendly\">Friendly</link></u> Unit is removed from <u><link=\"rule_chapter_7\">the battlefield</link></u> and returned to <u><link=\"rule_keyword_reserves\">Reserves</link></u>. Artanis' Activation ends."
   },
   {
     "Id": "pdf_Protoss_rule_high_templar_any_phase_our_minds_as_one",
     "Name": "Our Minds As One",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Passive\n\nWhile this Unit's <link=\"rule_keyword_current_supply_value\">Current Supply Value</link> is 2, it gains the following effects: The first <link=\"rule_keyword_special_ability\">Special Ability</link> resolved by this Unit each Round has its PE cost reduced by 1 (to a minimum of 0). Apply a +1 <link=\"rule_keyword_modifier\">Modifier</link> to the dice rolled for its <link=\"pdf_Protoss_rule_high_templar_upgrade_movement_phase_psionic_storm\">Psionic Storm</link> Special Ability."
+    "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Passive\n\nWhile this Unit's <u><link=\"rule_keyword_current_supply_value\">Current Supply Value</link></u> is 2, it gains the following effects: The first <u><link=\"rule_keyword_special_ability\">Special Ability</link></u> resolved by this Unit each Round has its PE cost reduced by 1 (to a minimum of 0). Apply a +1 <u><link=\"rule_keyword_modifier\">Modifier</link></u> to the <u><link=\"rule_chapter_3_1\">dice</link></u> rolled for its <u><link=\"pdf_Protoss_rule_high_templar_upgrade_movement_phase_psionic_storm\">Psionic Storm</link></u> <u><link=\"rule_keyword_special_ability\">Special Ability</link></u>."
   },
   {
     "Id": "pdf_Protoss_rule_high_templar_movement_phase_feedback",
     "Name": "Feedback",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Active\n<b>Cost:</b> 1 PE\n\nTarget one <link=\"rule_keyword_enemy\">Enemy</link> Mechanical or Psionic Unit <link=\"rule_keyword_within\">Within</link> 8\". Until the End of the Round, after that Unit resolves an Active or Reaction <link=\"rule_keyword_special_ability\">Special Ability</link> (excluding abilities granted by a Tactical Card or Faction Card), it suffers <link=\"rule_keyword_non_lethal_damage\">NON-LETHAL DAMAGE</link> (3)."
+    "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Active\n<b>Cost:</b> 1 PE\n\nTarget one <u><link=\"rule_keyword_enemy\">Enemy</link></u> Mechanical or Psionic Unit <u><link=\"rule_keyword_within\">Within</link></u> 8\". Until the End of the Round, after that Unit resolves an Active or Reaction <u><link=\"rule_keyword_special_ability\">Special Ability</link></u> (excluding abilities granted by a Tactical Card or Faction Card), it suffers <u><link=\"rule_keyword_non_lethal_damage\">NON-LETHAL DAMAGE</link></u> (3)."
   },
   {
     "Id": "pdf_Protoss_rule_high_templar_upgrade_movement_phase_farsight",
-    "Name": "Farsight",
+    "Name": "<color=#2596be>Farsight</color>",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Active\n<b>Cost:</b> 1 PE\n<b>Upgrade ability</b>\n\nTarget one <link=\"rule_keyword_friendly\">Friendly</link> Unit <link=\"rule_keyword_within\">Within</link> 12\". Until the End of the Round, that Unit is eligible to make an Evade Roll against any attacks targeting it."
+    "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Active\n<b>Cost:</b> 1 PE\n<b>Upgrade ability</b>\n\nTarget one <u><link=\"rule_keyword_friendly\">Friendly</link></u> Unit <u><link=\"rule_keyword_within\">Within</link></u> 12\". Until the End of the Round, that Unit is eligible to make an <u><link=\"rule_chapter_8_7_4\">Evade Roll</link></u> against any attacks targeting it."
   },
   {
     "Id": "pdf_Protoss_rule_high_templar_upgrade_movement_phase_psionic_storm",
-    "Name": "Psionic Storm",
+    "Name": "<color=#2596be>Psionic Storm</color>",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Active\n<b>Cost:</b> 2 PE\n<b>Upgrade ability</b>\n\nSet a Psionic Storm token <link=\"rule_keyword_within\">Within</link> 10\" and <link=\"rule_keyword_line_of_sight\">Line of Sight</link> of this Unit. This token is not removed if this Unit is Destroyed. At the End of each Phase, set a Psionic Storm Blast Template on the centre of this token. For each Unit that has at least one model whose base is partially covered by the template, roll 3 dice, plus 1 additional die for each model in that Unit whose base is partially covered. For each result of 5+, that Unit suffers an effect depending on the current Phase:\n• Movement Phase: <link=\"rule_keyword_non_lethal_damage\">NON-LETHAL DAMAGE</link> (1).\n• Assault Phase: 1 Dama ge. If multiple effects trigger at the End of the Assault Phase, resolve them in the order specified in Part 8.9.4."
+    "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Active\n<b>Cost:</b> 2 PE\n<b>Upgrade ability</b>\n\nSet a Psionic Storm token <u><link=\"rule_keyword_within\">Within</link></u> 10\" and <u><link=\"rule_keyword_line_of_sight\">Line of Sight</link></u> of this Unit. This token is not removed if this Unit is Destroyed. At the End of each Phase, set a Psionic Storm Blast Template on the centre of this token. For each Unit that has at least one model whose base is partially covered by the template, roll 3 <u><link=\"rule_chapter_3_1\">dice</link></u>, plus 1 additional die for each model in that Unit whose base is partially covered. For each result of 5+, that Unit suffers an effect depending on the current Phase:\n• Movement Phase: <u><link=\"rule_keyword_non_lethal_damage\">NON-LETHAL DAMAGE</link></u> (1).\n• Assault Phase: 1 Dama ge. If multiple effects trigger at the End of the Assault Phase, resolve them in the order specified in <u><link=\"rule_chapter_8_9_4\">Part 8.9.4</link></u>."
   },
   {
     "Id": "pdf_Protoss_rule_immortal_any_phase_improved_barrier",
     "Name": "Improved Barrier",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Reaction\n<b>Cost:</b> 0 PE\n\nUse when this Unit is selected as the target of an attack. If this Unit has the <link=\"rule_keyword_shielded\">Shielded</link> <link=\"rule_keyword_status\">Status</link>, the Damage characteristic of the attacking weapon is treated as a maximum of 1 for this attack."
+    "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Reaction\n<b>Cost:</b> 0 PE\n\nUse when this Unit is selected as the target of an attack. If this Unit has the <u><link=\"rule_keyword_shielded\">Shielded</link></u> <u><link=\"rule_keyword_status\">Status</link></u>, the Damage characteristic of the attacking weapon is treated as a maximum of 1 for this attack."
   },
   {
     "Id": "pdf_Protoss_rule_immortal_assault_phase_devastating_charge",
     "Name": "Devastating Charge IMPACT (4) 3+",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Passive\n\nImmediately after this Unit completes a successful Charge, resolve the <link=\"rule_keyword_impact\">IMPACT</link> (4) 3+ effect."
+    "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Passive\n\nImmediately after this Unit completes a successful <u><link=\"rule_chapter_8_7_7\">Charge</link></u>, resolve the <u><link=\"rule_keyword_impact\">IMPACT</link></u> (4) 3+ effect."
   },
   {
     "Id": "pdf_Protoss_rule_immortal_assault_phase_indomitable",
     "Name": "Indomitable",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Passive\n\nWhile <link=\"rule_keyword_engaged\">Engaged</link>, this Unit may target and be targeted by <link=\"rule_keyword_unengaged\">Unengaged</link> <link=\"rule_keyword_enemy\">Enemy</link> Units. In both cases, the defending Unit gains an Evade Roll against those attacks."
+    "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Passive\n\nWhile <u><link=\"rule_keyword_engaged\">Engaged</link></u>, this Unit may target and be targeted by <u><link=\"rule_keyword_unengaged\">Unengaged</link></u> <u><link=\"rule_keyword_enemy\">Enemy</link></u> <u><link=\"rule_chapter_2_2\">Units</link></u>. In both cases, the defending Unit gains an <u><link=\"rule_chapter_8_7_4\">Evade Roll</link></u> against those attacks."
   },
   {
     "Id": "pdf_Protoss_rule_immortal_upgrade_any_phase_shield_overcharge",
-    "Name": "Shield Overcharge",
+    "Name": "<color=#2596be>Shield Overcharge (Immortal)</color>",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Reaction\n<b>Cost:</b> 1 PE\n<b>Upgrade ability</b>\n\nUse before this Unit makes an Armour Roll. If this Unit has the <link=\"rule_keyword_shielded\">Shielded</link> <link=\"rule_keyword_status\">Status</link>, It gains <link=\"rule_keyword_tough\">TOUGH</link> (2) for this roll."
+    "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Reaction\n<b>Cost:</b> 1 PE\n<b>Upgrade ability</b>\n\nUse before this Unit makes an <u><link=\"rule_chapter_8_7_4\">Armour Roll</link></u>. If this Unit has the <u><link=\"rule_keyword_shielded\">Shielded</link></u> <u><link=\"rule_keyword_status\">Status</link></u>, It gains <u><link=\"rule_keyword_tough\">TOUGH</link></u> (2) for this roll."
   },
   {
     "Id": "pdf_Protoss_rule_immortal_upgrade_assault_phase_for_the_ancients",
-    "Name": "For The Ancients",
+    "Name": "<color=#2596be>For The Ancients</color>",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Passive\n<b>Upgrade ability</b>\n\nWhen this Unit makes a Ranged Attack, if the target Unit is more than 8\" away, the attacking weapons gain <link=\"rule_keyword_precision\">PRECISION</link> (1)."
+    "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Passive\n<b>Upgrade ability</b>\n\nWhen this Unit makes a <u><link=\"rule_chapter_8_7_3\">Ranged Attack</link></u>, if the target Unit is more than 8\" away, the attacking weapons gain <u><link=\"rule_keyword_precision\">PRECISION</link></u> (1)."
+  },
+  {
+    "Id": "pdf_Protoss_rule_immortal_upgrade_assault_phase_for_the_ancients_effect_0",
+    "Name": "<color=#ffffff><u><link=\"pdf_Protoss_rule_immortal_upgrade_assault_phase_for_the_ancients\"><color=#65c879>PRECISION (1)</color></link></u></color>",
+    "Type": "Imported",
+    "Description": "<u><link=\"pdf_Protoss_rule_immortal_upgrade_assault_phase_for_the_ancients\"><color=#65c879>PRECISION (1)</color></link></u>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Protoss_rule_immortal_upgrade_assault_phase_for_the_ancients_effect_1",
+    "Name": "<color=#ffffff><u><link=\"pdf_Protoss_rule_immortal_upgrade_assault_phase_for_the_ancients\"><color=#65c879>PRECISION (1)</color></link></u></color>",
+    "Type": "Imported",
+    "Description": "<u><link=\"pdf_Protoss_rule_immortal_upgrade_assault_phase_for_the_ancients\"><color=#65c879>PRECISION (1)</color></link></u>",
+    "Children": []
   },
   {
     "Id": "pdf_Protoss_rule_immortal_upgrade_assault_phase_fury_unyielding",
-    "Name": "Fury Unyielding",
+    "Name": "<color=#2596be>Fury Unyielding</color>",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Passive\n<b>Upgrade ability</b>\n<b>Replaces:</b> RIGHT PHOTON DISRUPTOR\n\nWhile this Unit is <link=\"rule_keyword_within\">Within</link> 3\" of a Mission Marker, its Ranged Weapons gain <link=\"rule_keyword_critical_hit\">CRITICAL HIT</link> (1) when targeting an <link=\"rule_keyword_enemy\">Enemy</link> Unit that is also Within 3\" of that same Mission Marker."
+    "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Passive\n<b>Upgrade ability</b>\n<b>Replaces:</b> RIGHT PHOTON DISRUPTOR\n\nWhile this Unit is <u><link=\"rule_keyword_within\">Within</link></u> 3\" of a Mission Marker, its Ranged Weapons gain <u><link=\"rule_keyword_critical_hit\">CRITICAL HIT</link></u> (1) when targeting an <u><link=\"rule_keyword_enemy\">Enemy</link></u> Unit that is also <u><link=\"rule_keyword_within\">Within</link></u> 3\" of that same Mission Marker."
+  },
+  {
+    "Id": "pdf_Protoss_rule_immortal_upgrade_assault_phase_fury_unyielding_effect_0",
+    "Name": "<color=#ffffff><u><link=\"pdf_Protoss_rule_immortal_upgrade_assault_phase_fury_unyielding\"><color=#65c879>CRITICAL HIT (1)</color></link></u></color>",
+    "Type": "Imported",
+    "Description": "<u><link=\"pdf_Protoss_rule_immortal_upgrade_assault_phase_fury_unyielding\"><color=#65c879>CRITICAL HIT (1)</color></link></u>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Protoss_rule_immortal_upgrade_assault_phase_fury_unyielding_effect_1",
+    "Name": "<color=#ffffff><u><link=\"pdf_Protoss_rule_immortal_upgrade_assault_phase_fury_unyielding\"><color=#65c879>CRITICAL HIT (1)</color></link></u></color>",
+    "Type": "Imported",
+    "Description": "<u><link=\"pdf_Protoss_rule_immortal_upgrade_assault_phase_fury_unyielding\"><color=#65c879>CRITICAL HIT (1)</color></link></u>",
+    "Children": []
   },
   {
     "Id": "pdf_Protoss_rule_nerazim_watchers_adept_any_phase_nerazim_farsight",
     "Name": "Nerazim Farsight",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Passive\n\nWhile <link=\"rule_keyword_enemy\">Enemy</link> Units are <link=\"rule_keyword_within\">Within</link> 6\" of this Unit's Shade token, they lose <link=\"rule_keyword_hidden\">HIDDEN</link> <link=\"rule_keyword_status\">Status</link>."
+    "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Passive\n\nWhile <u><link=\"rule_keyword_enemy\">Enemy</link></u> <u><link=\"rule_chapter_2_2\">Units</link></u> are <u><link=\"rule_keyword_within\">Within</link></u> 6\" of this Unit's Shade token, they lose <u><link=\"rule_keyword_hidden\">HIDDEN</link></u> <u><link=\"rule_keyword_status\">Status</link></u>."
   },
   {
     "Id": "pdf_Protoss_rule_nerazim_watchers_adept_any_phase_path_of_shadows",
-    "Name": "Path Of Shadows",
+    "Name": "Path Of Shadows (Nerazim Watchers (Adept))",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Active\n<b>Cost:</b> 1 PE\n\nThis Unit gains <link=\"rule_keyword_hidden\">HIDDEN</link> <link=\"rule_keyword_status\">Status</link> until it performs another action."
-  },
-  {
-    "Id": "pdf_Protoss_rule_nerazim_watchers_adept_movement_phase_psionic_transfer",
-    "Name": "Psionic Transfer",
-    "Type": "Rule",
-    "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Active\n<b>Cost:</b> 1 PE\n\nSet a Shade token <link=\"rule_keyword_wholly_within\">Wholly Within</link> 12\" of any model in this Unit. At the End of the Round, the <link=\"rule_keyword_controlling_player\">controlling player</link> may set all models of this Unit in Coherency, treating the Shade token as the <link=\"rule_keyword_leading_model\">Leading Model</link>. The Shade token has <link=\"rule_keyword_displacement\">DISPLACEMENT</link>."
+    "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Active\n<b>Cost:</b> 1 PE\n\nThis Unit gains <u><link=\"rule_keyword_hidden\">HIDDEN</link></u> <u><link=\"rule_keyword_status\">Status</link></u> until it performs another action."
   },
   {
     "Id": "pdf_Protoss_rule_praetor_guards_any_phase_shield_overcharge",
-    "Name": "Shield Overcharge",
+    "Name": "Shield Overcharge (Praetor Guards)",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Passive\n\nThis Unit gains <link=\"rule_keyword_tough\">TOUGH</link> (2) on the first Armour Roll each Round."
+    "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Passive\n\nThis Unit gains <u><link=\"rule_keyword_tough\">TOUGH</link></u> (2) on the first <u><link=\"rule_chapter_8_7_4\">Armour Roll</link></u> each Round."
   },
   {
     "Id": "pdf_Protoss_rule_praetor_guards_assault_phase_charge",
     "Name": "Charge",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Active\n<b>Cost:</b> 1 PE\n\nWhen determining Charge Distance for this Unit, roll 2D6 instead of D6 and use the higher result to add to the Unit's Speed characteristic."
+    "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Active\n<b>Cost:</b> 1 PE\n\nWhen determining <u><link=\"rule_chapter_8_7_7\">Charge</link></u> Distance for this Unit, roll 2D6 instead of D6 and use the higher result to add to the Unit's Speed characteristic."
   },
   {
     "Id": "pdf_Protoss_rule_praetor_guards_assault_phase_devastating_charge",
     "Name": "Devastating Charge IMPACT (3) 4+",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Passive\n\nImmediately after this Unit completes a successful Charge, resolve the <link=\"rule_keyword_impact\">IMPACT</link> (3) 4+ effect."
+    "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Passive\n\nImmediately after this Unit completes a successful <u><link=\"rule_chapter_8_7_7\">Charge</link></u>, resolve the <u><link=\"rule_keyword_impact\">IMPACT</link></u> (3) 4+ effect."
   },
   {
     "Id": "pdf_Protoss_rule_praetor_guards_combat_phase_precognition",
     "Name": "Precognition",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Melee Phase\n<b>Type:</b> Passive\n\nThis Unit is eligible to make an Evade roll against all attacks targeting it."
+    "Description": "<b>Phase:</b> Melee Phase\n<b>Type:</b> Passive\n\nThis Unit is eligible to make an <u><link=\"rule_chapter_8_7_4\">Evade roll</link></u> against all attacks targeting it."
   },
   {
     "Id": "pdf_Protoss_rule_praetor_guards_combat_phase_titan_killers",
@@ -674,218 +1653,215 @@
   },
   {
     "Id": "pdf_Protoss_rule_praetor_guards_movement_phase_leg_enhancements",
-    "Name": "Leg Enhancements",
+    "Name": "Leg Enhancements (Praetor Guards)",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Active\n<b>Cost:</b> 1 PE\n\nThis Unit performs a 2\" Move action. This does not count towards its action limit."
+    "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Active\n<b>Cost:</b> 1 PE\n\nThis Unit performs a 2\" <u><link=\"rule_chapter_8_5_2\">Move</link></u> action. This does not count towards its action limit."
   },
   {
     "Id": "pdf_Protoss_rule_pylon_any_phase_khalai_ingenuity",
     "Name": "Khalai Ingenuity",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Passive\n\nOnce per Round, when a <link=\"rule_keyword_friendly\">Friendly</link> Unit <link=\"rule_keyword_within\">Within</link> 4\" of this Pylon uses a <link=\"rule_keyword_special_ability\">Special Ability</link> that costs Psionic Energy, that ability's PE cost is reduced by 1."
+    "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Passive\n\nOnce per Round, when a <u><link=\"rule_keyword_friendly\">Friendly</link></u> Unit <u><link=\"rule_keyword_within\">Within</link></u> 4\" of this Pylon uses a <u><link=\"rule_keyword_special_ability\">Special Ability</link></u> that costs Psionic Energy, that ability's PE cost is reduced by 1."
   },
   {
     "Id": "pdf_Protoss_rule_pylon_any_phase_structure",
     "Name": "Structure",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Passive\n\nThis Unit cannot be Activated in any Phase and cannot perform actions. Additionally, its <link=\"rule_keyword_current_supply_value\">Current Supply Value</link> is treated as 0, and it can never Control or Contest <link=\"rule_keyword_mission_markers\">Mission Markers</link>, ignoring the standard Zero Supply Exception. This Unit cannot be a target of an ability, unless stated otherwise."
+    "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Passive\n\nThis Unit cannot be Activated in any Phase and cannot perform actions. Additionally, its <u><link=\"rule_keyword_current_supply_value\">Current Supply Value</link></u> is treated as 0, and it can never Control or Contest <u><link=\"rule_keyword_mission_markers\">Mission Markers</link></u>, ignoring the standard Zero Supply Exception. This Unit cannot be a target of an ability, unless stated otherwise."
   },
   {
     "Id": "pdf_Protoss_rule_pylon_movement_phase_warp_conduit",
     "Name": "Warp Conduit",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Passive\n\nOnce per Round, the <link=\"rule_keyword_controlling_player\">controlling player</link> may deploy a Ground Unit from <link=\"rule_keyword_reserves\">Reserves</link> using this Pylon base as the <link=\"rule_keyword_entry_edge\">Entry Edge</link>. This Unit's Activation ends."
+    "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Passive\n\nOnce per Round, the <u><link=\"rule_keyword_controlling_player\">controlling player</link></u> may deploy a Ground Unit from <u><link=\"rule_keyword_reserves\">Reserves</link></u> using this Pylon base as the <u><link=\"rule_keyword_entry_edge\">Entry Edge</link></u>. This Unit's Activation ends."
   },
   {
     "Id": "pdf_Protoss_rule_sentries_any_phase_restoration",
-    "Name": "Restoration",
+    "Name": "Restoration (Sentries)",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Reaction\n<b>Cost:</b> 1 PE\n\nUse when a <link=\"rule_keyword_friendly\">Friendly</link> Unit <link=\"rule_keyword_within\">Within</link> 4\" receives a <link=\"rule_keyword_debuff\">DEBUFF</link>. Remove all DEBUFFS from it."
+    "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Reaction\n<b>Cost:</b> 1 PE\n\nUse when a <u><link=\"rule_keyword_friendly\">Friendly</link></u> Unit <u><link=\"rule_keyword_within\">Within</link></u> 4\" receives a <u><link=\"rule_keyword_debuff\">DEBUFF</link></u>. Remove all DEBUFFS from it."
   },
   {
     "Id": "pdf_Protoss_rule_sentries_movement_phase_force_field",
     "Name": "Force Field",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Active\n<b>Cost:</b> 1 PE\n\nSet a Force Field token <link=\"rule_keyword_within\">Within</link> 8\" in an unoccupied space. Units of Size 2 or lower cannot move across Force Fields. Models of Size 3 or more can move over it, and it's then removed."
+    "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Active\n<b>Cost:</b> 1 PE\n\nSet a Force Field token <u><link=\"rule_keyword_within\">Within</link></u> 8\" in an unoccupied space. <u><link=\"rule_chapter_2_2\">Units</link></u> of Size 2 or lower cannot move across Force Fields. <u><link=\"rule_chapter_2_1\">Models</link></u> of Size 3 or more can move over it, and it's then removed."
   },
   {
     "Id": "pdf_Protoss_rule_sentries_movement_phase_guardian_shield",
     "Name": "Guardian Shield",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Active\n<b>Cost:</b> 1 PE\n\nAll Ranged Attacks targeting a <link=\"rule_keyword_friendly\">Friendly</link> Unit <link=\"rule_keyword_within\">Within</link> 4\" (<link=\"rule_keyword_line_of_sight\">Line of Sight</link> is not required) are made with 1 fewer die in the Attack Pool."
+    "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Active\n<b>Cost:</b> 1 PE\n\nAll Ranged Attacks targeting a <u><link=\"rule_keyword_friendly\">Friendly</link></u> Unit <u><link=\"rule_keyword_within\">Within</link></u> 4\" (<u><link=\"rule_keyword_line_of_sight\">Line of Sight</link></u> is not required) are made with 1 fewer die in the Attack Pool."
   },
   {
     "Id": "pdf_Protoss_rule_sentries_upgrade_assault_phase_hallucination",
-    "Name": "Hallucination",
+    "Name": "<color=#2596be>Hallucination</color>",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Reaction\n<b>Cost:</b> 0 PE\n<b>Upgrade ability</b>\n\nWhen an <link=\"rule_keyword_enemy\">Enemy</link> Unit declares a Ranged Attack against a <link=\"rule_keyword_friendly\">Friendly</link> Unit <link=\"rule_keyword_within\">Within</link> 4\", the targeted Friendly Unit is eligible to make an Evade Roll against that attack."
+    "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Reaction\n<b>Cost:</b> 0 PE\n<b>Upgrade ability</b>\n\nWhen an <u><link=\"rule_keyword_enemy\">Enemy</link></u> Unit declares a <u><link=\"rule_chapter_8_7_3\">Ranged Attack</link></u> against a <u><link=\"rule_keyword_friendly\">Friendly</link></u> Unit <u><link=\"rule_keyword_within\">Within</link></u> 4\", the targeted <u><link=\"rule_keyword_friendly\">Friendly</link></u> Unit is eligible to make an <u><link=\"rule_chapter_8_7_4\">Evade Roll</link></u> against that attack."
   },
   {
     "Id": "pdf_Protoss_rule_sentries_upgrade_movement_phase_solid_field_projectors",
-    "Name": "Solid-Field Projectors",
+    "Name": "<color=#2596be>Solid-Field Projectors</color>",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Active\n<b>Cost:</b> 1 PE\n<b>Upgrade ability</b>\n\nSet a Force Field token <link=\"rule_keyword_within\">Within</link> 8\" in an unoccupied space. Units of Size 2 or lower cannot move across Force Fields. Models of Size 3 or more can move over it, and it's then removed."
+    "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Active\n<b>Cost:</b> 1 PE\n<b>Upgrade ability</b>\n\nSet a <u><link=\"pdf_Protoss_rule_sentries_movement_phase_force_field\">Force Field</link></u> token <u><link=\"rule_keyword_within\">Within</link></u> 8\" in an unoccupied space. <u><link=\"rule_chapter_2_2\">Units</link></u> of Size 2 or lower cannot move across Force Fields. <u><link=\"rule_chapter_2_1\">Models</link></u> of Size 3 or more can move over it, and it's then removed."
   },
   {
     "Id": "pdf_Protoss_rule_stalker_any_phase_squadron",
     "Name": "Squadron",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Passive\n\nThis Unit's Horizontal Coherency is 4\"."
+    "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Passive\n\nThis Unit's Horizontal <u><link=\"rule_chapter_4_4\">Coherency</link></u> is 4\"."
   },
   {
     "Id": "pdf_Protoss_rule_stalker_movement_phase_blink",
     "Name": "Blink",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Active\n<b>Cost:</b> 1 PE\n\nResolve the <link=\"rule_keyword_place\">PLACE</link> (6) effect. Models set by this effect cannot be set up <link=\"rule_keyword_within\">Within</link> the <link=\"rule_keyword_engagement_range\">Engagement Range</link> of any <link=\"rule_keyword_enemy\">Enemy</link> Unit."
+    "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Active\n<b>Cost:</b> 1 PE\n\nResolve the <u><link=\"rule_keyword_place\">PLACE</link></u> (6) effect. <u><link=\"rule_chapter_2_1\">Models</link></u> set by this effect cannot be set up <u><link=\"rule_keyword_within\">Within</link></u> the <u><link=\"rule_keyword_engagement_range\">Engagement Range</link></u> of any <u><link=\"rule_keyword_enemy\">Enemy</link></u> Unit."
   },
   {
     "Id": "pdf_Protoss_rule_stalker_upgrade_any_phase_path_of_shadows",
-    "Name": "Path Of Shadows",
+    "Name": "<color=#2596be>Path Of Shadows (Stalker)</color>",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Active\n<b>Cost:</b> 1 PE\n<b>Upgrade ability</b>\n\nThis Unit gains <link=\"rule_keyword_hidden\">HIDDEN</link> <link=\"rule_keyword_status\">Status</link> until it performs another action."
+    "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Active\n<b>Cost:</b> 1 PE\n<b>Upgrade ability</b>\n\nThis Unit gains <u><link=\"rule_keyword_hidden\">HIDDEN</link></u> <u><link=\"rule_keyword_status\">Status</link></u> until it performs another action."
   },
   {
     "Id": "pdf_Protoss_rule_stalker_upgrade_assault_phase_fury_of_the_nerazim",
-    "Name": "Fury Of The Nerazim",
+    "Name": "<color=#2596be>Fury Of The Nerazim</color>",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Passive\n<b>Upgrade ability</b>\n\nWhen this Unit attacks an <link=\"rule_keyword_enemy\">Enemy</link> Unit that has already been Activated during this Phase, its Particle Disruptors gain <link=\"rule_keyword_instant\">INSTANT</link> for that attack."
+    "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Passive\n<b>Upgrade ability</b>\n\nWhen this Unit attacks an <u><link=\"rule_keyword_enemy\">Enemy</link></u> Unit that has already been Activated during this Phase, its Particle Disruptors gain <u><link=\"rule_keyword_instant\">INSTANT</link></u> for that attack."
   },
   {
-    "Id": "pdf_Protoss_rule_tassadar_any_phase_commander",
-    "Name": "Commander",
-    "Type": "Rule",
-    "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Passive\n\nTreat this Unit's Supply characteristic as increased by 1 for Controlling and Contesting <link=\"rule_keyword_mission_markers\">Mission Markers</link>, completing objectives, and resolving Disengage checks."
+    "Id": "pdf_Protoss_rule_stalker_upgrade_assault_phase_fury_of_the_nerazim_effect_0",
+    "Name": "<color=#ffffff><u><link=\"pdf_Protoss_rule_stalker_upgrade_assault_phase_fury_of_the_nerazim\"><color=#65c879>INSTANT</color></link></u></color>",
+    "Type": "Imported",
+    "Description": "<u><link=\"pdf_Protoss_rule_stalker_upgrade_assault_phase_fury_of_the_nerazim\"><color=#65c879>INSTANT</color></link></u>",
+    "Children": []
   },
   {
     "Id": "pdf_Protoss_rule_tassadar_assault_phase_psi_lightning",
     "Name": "Psi Lightning",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Active\n<b>Cost:</b> 0 PE\n\nEach Unit <link=\"rule_keyword_within\">Within</link> 2\" of one or more <link=\"rule_keyword_friendly\">Friendly</link> Force Wall tokens suffers 1 Damage."
+    "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Active\n<b>Cost:</b> 0 PE\n\nEach Unit <u><link=\"rule_keyword_within\">Within</link></u> 2\" of one or more <u><link=\"rule_keyword_friendly\">Friendly</link></u> <u><link=\"pdf_Protoss_rule_tassadar_movement_phase_force_wall\">Force Wall</link></u> <u><link=\"rule_chapter_7_3_1\">tokens</link></u> suffers 1 Damage."
   },
   {
     "Id": "pdf_Protoss_rule_tassadar_assault_phase_telekinetic_push",
     "Name": "Telekinetic Push",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Active\n<b>Cost:</b> 1 PE\n\nSet each <link=\"rule_keyword_friendly\">Friendly</link> Force Wall token <link=\"rule_keyword_wholly_within\">Wholly Within</link> 6\" of its current position."
+    "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Active\n<b>Cost:</b> 1 PE\n\nSet each <u><link=\"rule_keyword_friendly\">Friendly</link></u> <u><link=\"pdf_Protoss_rule_tassadar_movement_phase_force_wall\">Force Wall</link></u> token <u><link=\"rule_keyword_wholly_within\">Wholly Within</link></u> 6\" of its current position."
   },
   {
     "Id": "pdf_Protoss_rule_tassadar_movement_phase_executor_s_will",
     "Name": "Executor'S Will",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Active\n<b>Cost:</b> 1 PE\n\nTarget two <link=\"rule_keyword_enemy\">Enemy</link> Units on the battlefield (<link=\"rule_keyword_line_of_sight\">Line of Sight</link> is not required) and <link=\"rule_keyword_place\">place</link> a Faction Indicator next to each of them. During the next Assault Phase, if either of these Units ends its Activation while its Faction Indicator remains on the battlefield, you may Activate two <link=\"rule_keyword_friendly\">Friendly</link> Units consecutively. Remove both Faction Indicators after any Enemy Unit completes its Activation in the following Assault Phase."
+    "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Active\n<b>Cost:</b> 1 PE\n\nTarget two <u><link=\"rule_keyword_enemy\">Enemy</link></u> <u><link=\"rule_chapter_2_2\">Units</link></u> on <u><link=\"rule_chapter_7\">the battlefield</link></u> (<u><link=\"rule_keyword_line_of_sight\">Line of Sight</link></u> is not required) and <u><link=\"rule_keyword_place\">place</link></u> a Faction Indicator next to each of them. During the next Assault Phase, if either of these <u><link=\"rule_chapter_2_2\">Units</link></u> ends its Activation while its Faction Indicator remains on <u><link=\"rule_chapter_7\">the battlefield</link></u>, you may Activate two <u><link=\"rule_keyword_friendly\">Friendly</link></u> <u><link=\"rule_chapter_2_2\">Units</link></u> consecutively. Remove both Faction Indicators after any <u><link=\"rule_keyword_enemy\">Enemy</link></u> Unit completes its Activation in the following Assault Phase."
   },
   {
     "Id": "pdf_Protoss_rule_tassadar_movement_phase_force_wall",
     "Name": "Force Wall",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Active\n<b>Cost:</b> 1 PE\n\nSet two Force Wall tokens <link=\"rule_keyword_wholly_within\">Wholly Within</link> 8\" in an unoccupied space. Units of Size 2 or lower cannot move across the Force Wall. Models of Size 3 or more can move over it, and it's then removed."
+    "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Active\n<b>Cost:</b> 1 PE\n\nSet two Force Wall <u><link=\"rule_chapter_7_3_1\">tokens</link></u> <u><link=\"rule_keyword_wholly_within\">Wholly Within</link></u> 8\" in an unoccupied space. <u><link=\"rule_chapter_2_2\">Units</link></u> of Size 2 or lower cannot move across the Force Wall. <u><link=\"rule_chapter_2_1\">Models</link></u> of Size 3 or more can move over it, and it's then removed."
   },
   {
     "Id": "pdf_Protoss_rule_tassadar_movement_phase_khala_s_gift",
     "Name": "Khala'S Gift",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Active\n<b>Cost:</b> 0 PE\n\nTarget another <link=\"rule_keyword_friendly\">Friendly</link> Biological Unit <link=\"rule_keyword_within\">Within</link> 12\". Until the End of the Round, that Unit resolves its first <link=\"rule_keyword_special_ability\">Special Ability</link> with the cost reduced by 1 (to a minimum of 0)."
+    "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Active\n<b>Cost:</b> 0 PE\n\nTarget another <u><link=\"rule_keyword_friendly\">Friendly</link></u> Biological Unit <u><link=\"rule_keyword_within\">Within</link></u> 12\". Until the End of the Round, that Unit resolves its first <u><link=\"rule_keyword_special_ability\">Special Ability</link></u> with the cost reduced by 1 (to a minimum of 0)."
   },
   {
     "Id": "pdf_Protoss_rule_twilight_templar_high_templar_any_phase_bound_by_the_khala",
     "Name": "Bound By The Khala",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Reaction\n<b>Cost:</b> 0 PE\n\nUse when the <link=\"rule_keyword_current_supply_value\">Current Supply Value</link> of another <link=\"rule_keyword_friendly\">Friendly</link> Unit <link=\"rule_keyword_within\">Within</link> 8\" of this Unit is reduced. Return one Non-Unique Exhausted Tactical Card to the <link=\"rule_keyword_ready\">Ready</link> state."
-  },
-  {
-    "Id": "pdf_Protoss_rule_twilight_templar_high_templar_movement_phase_feedback",
-    "Name": "Feedback",
-    "Type": "Rule",
-    "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Active\n<b>Cost:</b> 1 PE\n\nTarget one <link=\"rule_keyword_enemy\">Enemy</link> Mechanical or Psionic Unit <link=\"rule_keyword_within\">Within</link> 8\". Until the End of the Round, after that Unit resolves an Active or Reaction <link=\"rule_keyword_special_ability\">Special Ability</link> (excluding abilities granted by a Tactical Card or Faction Card), it suffers <link=\"rule_keyword_non_lethal_damage\">NON-LETHAL DAMAGE</link> (3)."
+    "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Reaction\n<b>Cost:</b> 0 PE\n\nUse when the <u><link=\"rule_keyword_current_supply_value\">Current Supply Value</link></u> of another <u><link=\"rule_keyword_friendly\">Friendly</link></u> Unit <u><link=\"rule_keyword_within\">Within</link></u> 8\" of this Unit is reduced. Return one Non-Unique Exhausted Tactical Card to the <u><link=\"rule_keyword_ready\">Ready</link></u> state."
   },
   {
     "Id": "pdf_Protoss_rule_twilight_templar_high_templar_movement_phase_psionic_gale",
     "Name": "Psionic Gale",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Active\n<b>Cost:</b> 2 PE\n\nSet a Psionic Storm token <link=\"rule_keyword_within\">Within</link> 10\" and <link=\"rule_keyword_line_of_sight\">Line of Sight</link> of this Unit. This token is not removed if this Unit is Destroyed. At the End of each Phase, set a Psionic Storm Blast Template on the centre of this token. For each Unit that has at least one model whose base is partially covered by the template, roll 3 dice, plus 1 additional die for each model in that Unit whose base is partially covered. For each result of 4+, that Unit suffers an effect depending on the current Phase:\n• Movement Phase: <link=\"rule_keyword_non_lethal_damage\">NON-LETHAL DAMAGE</link> (1).\n• Assault Phase: 1 Damage. If multiple effects trigger at the End of the Assault Phase, resolve them in the order specified in Part 8.9.4."
+    "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Active\n<b>Cost:</b> 2 PE\n\nSet a <u><link=\"pdf_Protoss_rule_high_templar_upgrade_movement_phase_psionic_storm\">Psionic Storm</link></u> token <u><link=\"rule_keyword_within\">Within</link></u> 10\" and <u><link=\"rule_keyword_line_of_sight\">Line of Sight</link></u> of this Unit. This token is not removed if this Unit is Destroyed. At the End of each Phase, set a <u><link=\"pdf_Protoss_rule_high_templar_upgrade_movement_phase_psionic_storm\">Psionic Storm</link></u> Blast Template on the centre of this token. For each Unit that has at least one model whose base is partially covered by the template, roll 3 <u><link=\"rule_chapter_3_1\">dice</link></u>, plus 1 additional die for each model in that Unit whose base is partially covered. For each result of 4+, that Unit suffers an effect depending on the current Phase:\n• Movement Phase: <u><link=\"rule_keyword_non_lethal_damage\">NON-LETHAL DAMAGE</link></u> (1).\n• Assault Phase: 1 Damage. If multiple effects trigger at the End of the Assault Phase, resolve them in the order specified in <u><link=\"rule_chapter_8_9_4\">Part 8.9.4</link></u>."
   },
   {
     "Id": "pdf_Protoss_rule_twilight_templar_high_templar_movement_phase_warp_in",
     "Name": "Warp-In",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Active\n<b>Cost:</b> 1 PE\n\nResolve the <link=\"rule_keyword_place\">PLACE</link> (6) effect."
-  },
-  {
-    "Id": "pdf_Protoss_rule_zealots_assault_phase_charge",
-    "Name": "Charge",
-    "Type": "Rule",
-    "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Active\n<b>Cost:</b> 1 PE\n\nWhen determining Charge Distance for this Unit, roll 2D6 instead of D6 and use the higher result to add to the Unit's Speed characteristic."
-  },
-  {
-    "Id": "pdf_Protoss_rule_zealots_assault_phase_devastating_charge",
-    "Name": "Devastating Charge IMPACT (3) 4+",
-    "Type": "Rule",
-    "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Passive\n\nImmediately after this Unit completes a successful Charge, resolve the <link=\"rule_keyword_impact\">IMPACT</link> (3) 4+ effect."
+    "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Active\n<b>Cost:</b> 1 PE\n\nResolve the <u><link=\"rule_keyword_place\">PLACE</link></u> (6) effect."
   },
   {
     "Id": "pdf_Protoss_rule_zealots_upgrade_any_phase_my_life_for_aiur",
-    "Name": "My Life For Aiur",
+    "Name": "<color=#2596be>My Life For Aiur</color>",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Passive\n<b>Upgrade ability</b>\n\nWhen this Unit resolves <link=\"rule_keyword_impact\">IMPACT</link>, each eligible model generates 1 additional IMPACT die."
+    "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Passive\n<b>Upgrade ability</b>\n\nWhen this Unit resolves <u><link=\"rule_keyword_impact\">IMPACT</link></u>, each eligible model generates 1 additional <u><link=\"rule_keyword_impact\">IMPACT</link></u> die."
+  },
+  {
+    "Id": "pdf_Protoss_rule_zealots_upgrade_any_phase_my_life_for_aiur_effect_0",
+    "Name": "",
+    "Type": "",
+    "Description": "Devastating <u><link=\"rule_chapter_8_7_7\">Charge</link></u>: <u><link=\"rule_keyword_impact\">IMPACT</link></u> <color=#2596be>(4)</color> 4+",
+    "Children": []
   },
   {
     "Id": "pdf_Protoss_rule_zealots_upgrade_assault_phase_zealous_round",
-    "Name": "Zealous Round",
+    "Name": "<color=#2596be>Zealous Round</color>",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Reaction\n<b>Cost:</b> 0 PE\n<b>Upgrade ability</b>\n\nWhen this Unit is not Activated and receives Damage, the <link=\"rule_keyword_controlling_player\">controlling player</link> may count this Unit as Activated in this Phase (flip its Activation Marker) to reduce the Total Damage by 2."
+    "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Reaction\n<b>Cost:</b> 0 PE\n<b>Upgrade ability</b>\n\nWhen this Unit is not Activated and receives Damage, the <u><link=\"rule_keyword_controlling_player\">controlling player</link></u> may count this Unit as Activated in this Phase (flip its Activation Marker) to reduce the Total Damage by 2."
   },
   {
     "Id": "pdf_Protoss_rule_zealots_upgrade_combat_phase_we_stand_as_one",
-    "Name": "We Stand As One",
+    "Name": "<color=#2596be>We Stand As One</color>",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Melee Phase\n<b>Type:</b> Passive\n<b>Upgrade ability</b>\n\nWhen this Unit makes a Close Combat Attack, if the target is <link=\"rule_keyword_engaged\">Engaged</link> with at least 1 other <link=\"rule_keyword_friendly\">Friendly</link> Unit, this Unit's Close Combat Weapon gains <link=\"rule_keyword_precision\">PRECISION</link> (2)."
+    "Description": "<b>Phase:</b> Melee Phase\n<b>Type:</b> Passive\n<b>Upgrade ability</b>\n\nWhen this Unit makes a Close Combat Attack, if the target is <u><link=\"rule_keyword_engaged\">Engaged</link></u> with at least 1 other <u><link=\"rule_keyword_friendly\">Friendly</link></u> Unit, this Unit's Close Combat Weapon gains <u><link=\"rule_keyword_precision\">PRECISION</link></u> (2)."
+  },
+  {
+    "Id": "pdf_Protoss_rule_zealots_upgrade_combat_phase_we_stand_as_one_effect_0",
+    "Name": "<color=#ffffff><u><link=\"pdf_Protoss_rule_zealots_upgrade_combat_phase_we_stand_as_one\"><color=#65c879>PRECISION (2)</color></link></u></color>",
+    "Type": "Imported",
+    "Description": "<u><link=\"pdf_Protoss_rule_zealots_upgrade_combat_phase_we_stand_as_one\"><color=#65c879>PRECISION (2)</color></link></u>",
+    "Children": []
   },
   {
     "Id": "pdf_Protoss_rule_zealots_upgrade_movement_phase_leg_enhancements",
-    "Name": "Leg Enhancements",
+    "Name": "<color=#2596be>Leg Enhancements (Zealots)</color>",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Active\n<b>Cost:</b> 1 PE\n<b>Upgrade ability</b>\n\nThis Unit performs a 2\" Move action. This does not count towards its action limit."
+    "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Active\n<b>Cost:</b> 1 PE\n<b>Upgrade ability</b>\n\nThis Unit performs a 2\" <u><link=\"rule_chapter_8_5_2\">Move</link></u> action. This does not count towards its action limit."
   },
   {
     "Id": "pdf_Protoss_rule_zeratul_any_phase_one_with_the_shadows",
     "Name": "One With The Shadows",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Passive\n\nAfter this Unit fully resolves an Action, it gains the <link=\"rule_keyword_hidden\">HIDDEN</link> <link=\"rule_keyword_status\">Status</link>."
+    "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Passive\n\nAfter this Unit fully resolves an Action, it gains the <u><link=\"rule_keyword_hidden\">HIDDEN</link></u> <u><link=\"rule_keyword_status\">Status</link></u>."
   },
   {
     "Id": "pdf_Protoss_rule_zeratul_any_phase_prophetic_vision",
     "Name": "Prophetic Vision",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Reaction\n<b>Cost:</b> 1 PE\n\n<link=\"rule_keyword_repeatable\">REPEATABLE</link>. Use when this Unit is selected as the target of an attack. This Unit's Evade characteristic is treated as 4+ against this attack and cannot be modified."
+    "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Reaction\n<b>Cost:</b> 1 PE\n\n<u><link=\"rule_keyword_repeatable\">REPEATABLE</link></u>. Use when this Unit is selected as the target of an attack. This Unit's Evade characteristic is treated as 4+ against this attack and cannot be modified."
   },
   {
     "Id": "pdf_Protoss_rule_zeratul_assault_phase_devastating_charge",
     "Name": "Devastating Charge IMPACT (4) 4+",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Passive\n\nImmediately after this Unit completes a successful Charge, resolve the <link=\"rule_keyword_impact\">IMPACT</link> (4) 4+ effect."
+    "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Passive\n\nImmediately after this Unit completes a successful <u><link=\"rule_chapter_8_7_7\">Charge</link></u>, resolve the <u><link=\"rule_keyword_impact\">IMPACT</link></u> (4) 4+ effect."
   },
   {
     "Id": "pdf_Protoss_rule_zeratul_assault_phase_void_blink",
     "Name": "Void Blink",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Active\n<b>Cost:</b> 1 PE\n\nIf <link=\"rule_keyword_unengaged\">Unengaged</link>, resolve the <link=\"rule_keyword_place\">PLACE</link> (6) effect."
+    "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Active\n<b>Cost:</b> 1 PE\n\nIf <u><link=\"rule_keyword_unengaged\">Unengaged</link></u>, resolve the <u><link=\"rule_keyword_place\">PLACE</link></u> (6) effect."
   },
   {
     "Id": "pdf_Protoss_rule_zeratul_combat_phase_shadow_strike",
     "Name": "Shadow Strike",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Melee Phase\n<b>Type:</b> Active\n<b>Cost:</b> 1 PE\n\nAll <link=\"rule_keyword_enemy\">Enemy</link> Units <link=\"rule_keyword_engaged\">Engaged</link> with this Unit suffer <link=\"rule_keyword_hits\">HITS</link> 4 (1)."
+    "Description": "<b>Phase:</b> Melee Phase\n<b>Type:</b> Active\n<b>Cost:</b> 1 PE\n\nAll <u><link=\"rule_keyword_enemy\">Enemy</link></u> <u><link=\"rule_chapter_2_2\">Units</link></u> <u><link=\"rule_keyword_engaged\">Engaged</link></u> with this Unit suffer <u><link=\"rule_keyword_hits\">HITS</link></u> 4 (1)."
   },
   {
     "Id": "pdf_Protoss_rule_zeratul_movement_phase_sentenced_to_death",
     "Name": "Sentenced To Death",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Active\n<b>Cost:</b> 1 PE\n\nTarget <link=\"rule_keyword_enemy\">Enemy</link> Unit on the battlefield. Whenever Zeratul makes a Close Combat Attack targeting the selected Unit, its weapon gains <link=\"rule_keyword_critical_hit\">CRITICAL HIT</link> (2)."
+    "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Active\n<b>Cost:</b> 1 PE\n\nTarget <u><link=\"rule_keyword_enemy\">Enemy</link></u> Unit on <u><link=\"rule_chapter_7\">the battlefield</link></u>. Whenever Zeratul makes a Close Combat Attack targeting the selected Unit, its weapon gains <u><link=\"rule_keyword_critical_hit\">CRITICAL HIT</link></u> (2)."
   },
   {
     "Id": "pdf_Protoss_rule_zeratul_movement_phase_void_prison",
     "Name": "Void Prison",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Active\n<b>Cost:</b> 1 PE\n\nSet a Faction Indicator on the battlefield <link=\"rule_keyword_within\">Within</link> 8\" of this Unit. While <link=\"rule_keyword_enemy\">Enemy</link> Units are Within 2\" of this Faction Indicator they suffer <link=\"rule_keyword_debuff\">DEBUFF</link> Speed (2)."
+    "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Active\n<b>Cost:</b> 1 PE\n\nSet a Faction Indicator on <u><link=\"rule_chapter_7\">the battlefield</link></u> <u><link=\"rule_keyword_within\">Within</link></u> 8\" of this Unit. While <u><link=\"rule_keyword_enemy\">Enemy</link></u> <u><link=\"rule_chapter_2_2\">Units</link></u> are <u><link=\"rule_keyword_within\">Within</link></u> 2\" of this Faction Indicator they suffer <u><link=\"rule_keyword_debuff\">DEBUFF</link></u> Speed (2)."
   }
 ]

@@ -63,15 +63,6 @@
     "Shape": 1
   },
   {
-    "Id": "sc_deployment_8634166",
-    "Name": "Deployment lines - 3-INCH GRID (54x36)",
-    "Type": "Terrain",
-    "Description": "Decorative deployment entry lines. Automatically placed with the deployment; no filled deployment zones.",
-    "Width": 0.1,
-    "Length": 0.1,
-    "Shape": 1
-  },
-  {
     "Id": "Starcraft - Mission marker 1 - red",
     "Name": "Starcraft - Mission marker 1 - red",
     "Type": "Terrain",

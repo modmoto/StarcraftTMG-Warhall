@@ -1,5 +1,16 @@
 [
   {
+    "Id": "pdf_Terran_equipment_auto_turret_default_1_body",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Terran_equipment_auto_turret_default_1_table"
+      }
+    ]
+  },
+  {
     "Id": "pdf_Terran_equipment_auto_turret_default_1_heading",
     "Name": "",
     "Type": "",
@@ -7,18 +18,54 @@
     "Children": []
   },
   {
-    "Id": "pdf_Terran_equipment_auto_turret_default_1_keywords",
+    "Id": "pdf_Terran_equipment_auto_turret_default_1_keyword_row",
     "Name": "",
-    "Type": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Terran_equipment_auto_turret_default_1_keywords"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Terran_equipment_auto_turret_default_1_keywords",
+    "Name": "<color=#ffffff><u><link=\"rule_keyword_pinpoint\">PINPOINT</link></u></color>",
+    "Type": "Imported",
     "Description": "<u><link=\"rule_keyword_pinpoint\">PINPOINT</link></u>",
     "Children": []
   },
   {
-    "Id": "pdf_Terran_equipment_auto_turret_default_1_table",
+    "Id": "pdf_Terran_equipment_auto_turret_default_1_slot",
     "Name": "",
-    "Type": "",
-    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>8</nobr><pos=14%><nobr>All</nobr><pos=32%><nobr>6</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Terran_equipment_auto_turret_default_1_body"
+      },
+      {
+        "Id": "pdf_Terran_equipment_auto_turret_default_1_keyword_row"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Terran_equipment_auto_turret_default_1_table",
+    "Name": "<color=#ffffff><b>Assault Phase</b>\n<b>GAUSS CANNON</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>8</nobr><pos=14%><nobr>All</nobr><pos=32%><nobr>6</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align></color>",
+    "Type": "Imported",
+    "Description": "<b>Assault Phase</b>\n<b>GAUSS CANNON</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>8</nobr><pos=14%><nobr>All</nobr><pos=32%><nobr>6</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align>",
     "Children": []
+  },
+  {
+    "Id": "pdf_Terran_equipment_goliath_default_1_body",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Terran_equipment_goliath_default_1_table"
+      }
+    ]
   },
   {
     "Id": "pdf_Terran_equipment_goliath_default_1_heading",
@@ -28,18 +75,54 @@
     "Children": []
   },
   {
-    "Id": "pdf_Terran_equipment_goliath_default_1_keywords",
+    "Id": "pdf_Terran_equipment_goliath_default_1_keyword_row",
     "Name": "",
-    "Type": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Terran_equipment_goliath_default_1_keywords"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Terran_equipment_goliath_default_1_keywords",
+    "Name": "<color=#ffffff><u><link=\"rule_keyword_long_range\">LONG RANGE (18\")</link></u></color>",
+    "Type": "Imported",
     "Description": "<u><link=\"rule_keyword_long_range\">LONG RANGE (18\")</link></u>",
     "Children": []
   },
   {
-    "Id": "pdf_Terran_equipment_goliath_default_1_table",
+    "Id": "pdf_Terran_equipment_goliath_default_1_slot",
     "Name": "",
-    "Type": "",
-    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>12</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>9</nobr><pos=46%><nobr>4+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Terran_equipment_goliath_default_1_body"
+      },
+      {
+        "Id": "pdf_Terran_equipment_goliath_default_1_keyword_row"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Terran_equipment_goliath_default_1_table",
+    "Name": "<color=#ffffff><b>Assault Phase</b>\n<b>AUTOCANNON</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>12</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>9</nobr><pos=46%><nobr>4+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align></color>",
+    "Type": "Imported",
+    "Description": "<b>Assault Phase</b>\n<b>AUTOCANNON</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>12</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>9</nobr><pos=46%><nobr>4+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align>",
     "Children": []
+  },
+  {
+    "Id": "pdf_Terran_equipment_goliath_default_2_body",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Terran_equipment_goliath_default_2_table"
+      }
+    ]
   },
   {
     "Id": "pdf_Terran_equipment_goliath_default_2_heading",
@@ -49,18 +132,54 @@
     "Children": []
   },
   {
-    "Id": "pdf_Terran_equipment_goliath_default_2_keywords",
+    "Id": "pdf_Terran_equipment_goliath_default_2_keyword_row",
     "Name": "",
-    "Type": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Terran_equipment_goliath_default_2_keywords"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Terran_equipment_goliath_default_2_keywords",
+    "Name": "<color=#ffffff><u><link=\"rule_keyword_pinpoint\">PINPOINT</link></u>, <u><link=\"rule_keyword_sidearm\">SIDEARM</link></u></color>",
+    "Type": "Imported",
     "Description": "<u><link=\"rule_keyword_pinpoint\">PINPOINT</link></u>, <u><link=\"rule_keyword_sidearm\">SIDEARM</link></u>",
     "Children": []
   },
   {
-    "Id": "pdf_Terran_equipment_goliath_default_2_table",
+    "Id": "pdf_Terran_equipment_goliath_default_2_slot",
     "Name": "",
-    "Type": "",
-    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>8</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>6</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>Light (D3)</nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Terran_equipment_goliath_default_2_body"
+      },
+      {
+        "Id": "pdf_Terran_equipment_goliath_default_2_keyword_row"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Terran_equipment_goliath_default_2_table",
+    "Name": "<color=#ffffff><b>UNDERBELLY MACHINE GUN</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>8</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>6</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>Light (D3)</nobr><pos=86%><nobr>1</nobr></b></size></align></color>",
+    "Type": "Imported",
+    "Description": "<b>UNDERBELLY MACHINE GUN</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>8</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>6</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>Light (D3)</nobr><pos=86%><nobr>1</nobr></b></size></align>",
     "Children": []
+  },
+  {
+    "Id": "pdf_Terran_equipment_goliath_default_3_body",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Terran_equipment_goliath_default_3_table"
+      }
+    ]
   },
   {
     "Id": "pdf_Terran_equipment_goliath_default_3_heading",
@@ -70,18 +189,54 @@
     "Children": []
   },
   {
-    "Id": "pdf_Terran_equipment_goliath_default_3_keywords",
+    "Id": "pdf_Terran_equipment_goliath_default_3_keyword_row",
     "Name": "",
-    "Type": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Terran_equipment_goliath_default_3_keywords"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Terran_equipment_goliath_default_3_keywords",
+    "Name": "<color=#ffffff><u><link=\"rule_keyword_anti_evade\">ANTI-EVADE (1)</link></u>, <u><link=\"rule_keyword_sidearm\">SIDEARM</link></u></color>",
+    "Type": "Imported",
     "Description": "<u><link=\"rule_keyword_anti_evade\">ANTI-EVADE (1)</link></u>, <u><link=\"rule_keyword_sidearm\">SIDEARM</link></u>",
     "Children": []
   },
   {
-    "Id": "pdf_Terran_equipment_goliath_default_3_table",
+    "Id": "pdf_Terran_equipment_goliath_default_3_slot",
     "Name": "",
-    "Type": "",
-    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>16</nobr><pos=14%><nobr>Air</nobr><pos=32%><nobr>6</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>Light (D3)</nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Terran_equipment_goliath_default_3_body"
+      },
+      {
+        "Id": "pdf_Terran_equipment_goliath_default_3_keyword_row"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Terran_equipment_goliath_default_3_table",
+    "Name": "<color=#ffffff><b>HELLFIRE MISSILES</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>16</nobr><pos=14%><nobr>Air</nobr><pos=32%><nobr>6</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>Light (D3)</nobr><pos=86%><nobr>1</nobr></b></size></align></color>",
+    "Type": "Imported",
+    "Description": "<b>HELLFIRE MISSILES</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>16</nobr><pos=14%><nobr>Air</nobr><pos=32%><nobr>6</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>Light (D3)</nobr><pos=86%><nobr>1</nobr></b></size></align>",
     "Children": []
+  },
+  {
+    "Id": "pdf_Terran_equipment_goliath_default_5_body",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Terran_equipment_goliath_default_5_table"
+      }
+    ]
   },
   {
     "Id": "pdf_Terran_equipment_goliath_default_5_heading",
@@ -91,11 +246,97 @@
     "Children": []
   },
   {
+    "Id": "pdf_Terran_equipment_goliath_default_5_keyword_row",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Terran_equipment_goliath_default_5_slot",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Terran_equipment_goliath_default_5_body"
+      },
+      {
+        "Id": "pdf_Terran_equipment_goliath_default_5_keyword_row"
+      }
+    ]
+  },
+  {
     "Id": "pdf_Terran_equipment_goliath_default_5_table",
+    "Name": "<color=#ffffff><b>Melee Phase</b>\n<b>STOMP</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>4</nobr><pos=46%><nobr>5+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align></color>",
+    "Type": "Imported",
+    "Description": "<b>Melee Phase</b>\n<b>STOMP</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>4</nobr><pos=46%><nobr>5+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Terran_equipment_goliath_upgrade_1_choice",
+    "Name": "<color=#2596be>Scatter Missiles</color>",
+    "Type": "Rule",
+    "Description": "<b>Upgrade ability</b>\n\nReplace HELLFIRE MISSILES with SCATTER MISSILES.\n\n<b>SCATTER MISSILES</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr><color=#2596be>18</color></nobr><pos=14%><nobr><color=#2596be>Ground</color></nobr><pos=32%><nobr>6</nobr><pos=46%><nobr><color=#2596be>5+</color></nobr><pos=59%><nobr>Light (D3)</nobr><pos=86%><nobr>1</nobr></b></size></align>\n\n<u><link=\"rule_keyword_indirect_fire\"><color=#2596be>INDIRECT FIRE</color></link></u>, <u><link=\"rule_keyword_locked_in\"><color=#2596be>LOCKED IN (6)</color></link></u>, <u><link=\"rule_keyword_long_range\"><color=#2596be>LONG RANGE (24\")</color></link></u>, <u><link=\"rule_keyword_sidearm\">SIDEARM</link></u>"
+  },
+  {
+    "Id": "pdf_Terran_equipment_goliath_upgrade_1_heading",
     "Name": "",
     "Type": "",
-    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>4</nobr><pos=46%><nobr>5+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Description": "<b>SCATTER MISSILES</b>",
     "Children": []
+  },
+  {
+    "Id": "pdf_Terran_equipment_goliath_upgrade_1_keywords",
+    "Name": "<color=#ffffff><u><link=\"rule_keyword_indirect_fire\"><color=#2596be>INDIRECT FIRE</color></link></u>, <u><link=\"rule_keyword_locked_in\"><color=#2596be>LOCKED IN (6)</color></link></u>, <u><link=\"rule_keyword_long_range\"><color=#2596be>LONG RANGE (24\")</color></link></u>, <u><link=\"rule_keyword_sidearm\">SIDEARM</link></u></color>",
+    "Type": "Imported",
+    "Description": "<u><link=\"rule_keyword_indirect_fire\"><color=#2596be>INDIRECT FIRE</color></link></u>, <u><link=\"rule_keyword_locked_in\"><color=#2596be>LOCKED IN (6)</color></link></u>, <u><link=\"rule_keyword_long_range\"><color=#2596be>LONG RANGE (24\")</color></link></u>, <u><link=\"rule_keyword_sidearm\">SIDEARM</link></u>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Terran_equipment_goliath_upgrade_1_table",
+    "Name": "<color=#ffffff><b>SCATTER MISSILES</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr><color=#2596be>18</color></nobr><pos=14%><nobr><color=#2596be>Ground</color></nobr><pos=32%><nobr>6</nobr><pos=46%><nobr><color=#2596be>5+</color></nobr><pos=59%><nobr>Light (D3)</nobr><pos=86%><nobr>1</nobr></b></size></align></color>",
+    "Type": "Imported",
+    "Description": "<b>SCATTER MISSILES</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr><color=#2596be>18</color></nobr><pos=14%><nobr><color=#2596be>Ground</color></nobr><pos=32%><nobr>6</nobr><pos=46%><nobr><color=#2596be>5+</color></nobr><pos=59%><nobr>Light (D3)</nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Terran_equipment_goliath_upgrade_2_choice",
+    "Name": "<color=#2596be>Haywire Missiles</color>",
+    "Type": "Rule",
+    "Description": "<b>Upgrade ability</b>\n\nReplace HELLFIRE MISSILES with HAYWIRE MISSILES.\n\n<b>HAYWIRE MISSILES</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr><color=#2596be>12</color></nobr><pos=14%><nobr><color=#2596be>Ground</color></nobr><pos=32%><nobr><color=#2596be>3</color></nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr><color=#2596be>Armored (D3)</color></nobr><pos=86%><nobr>1</nobr></b></size></align>\n\n<u><link=\"rule_keyword_pierce\"><color=#2596be>PIERCE Armoured (3)</color></link></u>, <u><link=\"rule_keyword_sidearm\">SIDEARM</link></u>"
+  },
+  {
+    "Id": "pdf_Terran_equipment_goliath_upgrade_2_heading",
+    "Name": "",
+    "Type": "",
+    "Description": "<b>HAYWIRE MISSILES</b>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Terran_equipment_goliath_upgrade_2_keywords",
+    "Name": "<color=#ffffff><u><link=\"rule_keyword_pierce\"><color=#2596be>PIERCE Armoured (3)</color></link></u>, <u><link=\"rule_keyword_sidearm\">SIDEARM</link></u></color>",
+    "Type": "Imported",
+    "Description": "<u><link=\"rule_keyword_pierce\"><color=#2596be>PIERCE Armoured (3)</color></link></u>, <u><link=\"rule_keyword_sidearm\">SIDEARM</link></u>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Terran_equipment_goliath_upgrade_2_table",
+    "Name": "<color=#ffffff><b>HAYWIRE MISSILES</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr><color=#2596be>12</color></nobr><pos=14%><nobr><color=#2596be>Ground</color></nobr><pos=32%><nobr><color=#2596be>3</color></nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr><color=#2596be>Armored (D3)</color></nobr><pos=86%><nobr>1</nobr></b></size></align></color>",
+    "Type": "Imported",
+    "Description": "<b>HAYWIRE MISSILES</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr><color=#2596be>12</color></nobr><pos=14%><nobr><color=#2596be>Ground</color></nobr><pos=32%><nobr><color=#2596be>3</color></nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr><color=#2596be>Armored (D3)</color></nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Terran_equipment_jim_raynor_default_2_body",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Terran_equipment_jim_raynor_default_2_table"
+      }
+    ]
   },
   {
     "Id": "pdf_Terran_equipment_jim_raynor_default_2_heading",
@@ -105,18 +346,54 @@
     "Children": []
   },
   {
-    "Id": "pdf_Terran_equipment_jim_raynor_default_2_keywords",
+    "Id": "pdf_Terran_equipment_jim_raynor_default_2_keyword_row",
     "Name": "",
-    "Type": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Terran_equipment_jim_raynor_default_2_keywords"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Terran_equipment_jim_raynor_default_2_keywords",
+    "Name": "<color=#ffffff><u><link=\"rule_keyword_bulky\">BULKY</link></u>, <u><link=\"rule_keyword_pierce\">PIERCE Armoured (3)</link></u></color>",
+    "Type": "Imported",
     "Description": "<u><link=\"rule_keyword_bulky\">BULKY</link></u>, <u><link=\"rule_keyword_pierce\">PIERCE Armoured (3)</link></u>",
     "Children": []
   },
   {
-    "Id": "pdf_Terran_equipment_jim_raynor_default_2_table",
+    "Id": "pdf_Terran_equipment_jim_raynor_default_2_slot",
     "Name": "",
-    "Type": "",
-    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>18</nobr><pos=14%><nobr>All</nobr><pos=32%><nobr>3</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>Armored (D3)</nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Terran_equipment_jim_raynor_default_2_body"
+      },
+      {
+        "Id": "pdf_Terran_equipment_jim_raynor_default_2_keyword_row"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Terran_equipment_jim_raynor_default_2_table",
+    "Name": "<color=#ffffff><b>Assault Phase</b>\n<b>COMMANDO RIFLE</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>18</nobr><pos=14%><nobr>All</nobr><pos=32%><nobr>3</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>Armored (D3)</nobr><pos=86%><nobr>1</nobr></b></size></align></color>",
+    "Type": "Imported",
+    "Description": "<b>Assault Phase</b>\n<b>COMMANDO RIFLE</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>18</nobr><pos=14%><nobr>All</nobr><pos=32%><nobr>3</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>Armored (D3)</nobr><pos=86%><nobr>1</nobr></b></size></align>",
     "Children": []
+  },
+  {
+    "Id": "pdf_Terran_equipment_jim_raynor_default_3_body",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Terran_equipment_jim_raynor_default_3_table"
+      }
+    ]
   },
   {
     "Id": "pdf_Terran_equipment_jim_raynor_default_3_heading",
@@ -126,18 +403,54 @@
     "Children": []
   },
   {
-    "Id": "pdf_Terran_equipment_jim_raynor_default_3_keywords",
+    "Id": "pdf_Terran_equipment_jim_raynor_default_3_keyword_row",
     "Name": "",
-    "Type": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Terran_equipment_jim_raynor_default_3_keywords"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Terran_equipment_jim_raynor_default_3_keywords",
+    "Name": "<color=#ffffff><u><link=\"rule_keyword_anti_evade\">ANTI-EVADE (2)</link></u>, <u><link=\"rule_keyword_sidearm\">SIDEARM</link></u>, <u><link=\"rule_keyword_pinpoint\">PINPOINT</link></u></color>",
+    "Type": "Imported",
     "Description": "<u><link=\"rule_keyword_anti_evade\">ANTI-EVADE (2)</link></u>, <u><link=\"rule_keyword_sidearm\">SIDEARM</link></u>, <u><link=\"rule_keyword_pinpoint\">PINPOINT</link></u>",
     "Children": []
   },
   {
-    "Id": "pdf_Terran_equipment_jim_raynor_default_3_table",
+    "Id": "pdf_Terran_equipment_jim_raynor_default_3_slot",
     "Name": "",
-    "Type": "",
-    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>6</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>2</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>2</nobr></b></size></align>",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Terran_equipment_jim_raynor_default_3_body"
+      },
+      {
+        "Id": "pdf_Terran_equipment_jim_raynor_default_3_keyword_row"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Terran_equipment_jim_raynor_default_3_table",
+    "Name": "<color=#ffffff><b>“JUSTICE” REVOLVER</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>6</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>2</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>2</nobr></b></size></align></color>",
+    "Type": "Imported",
+    "Description": "<b>“JUSTICE” REVOLVER</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>6</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>2</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>2</nobr></b></size></align>",
     "Children": []
+  },
+  {
+    "Id": "pdf_Terran_equipment_jim_raynor_default_4_body",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Terran_equipment_jim_raynor_default_4_table"
+      }
+    ]
   },
   {
     "Id": "pdf_Terran_equipment_jim_raynor_default_4_heading",
@@ -147,11 +460,70 @@
     "Children": []
   },
   {
+    "Id": "pdf_Terran_equipment_jim_raynor_default_4_keyword_row",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Terran_equipment_jim_raynor_default_4_slot",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Terran_equipment_jim_raynor_default_4_body"
+      },
+      {
+        "Id": "pdf_Terran_equipment_jim_raynor_default_4_keyword_row"
+      }
+    ]
+  },
+  {
     "Id": "pdf_Terran_equipment_jim_raynor_default_4_table",
+    "Name": "<color=#ffffff><b>Melee Phase</b>\n<b>BAYONET</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>2</nobr><pos=46%><nobr>4+</nobr><pos=59%><nobr>Light (D3)</nobr><pos=86%><nobr>1</nobr></b></size></align></color>",
+    "Type": "Imported",
+    "Description": "<b>Melee Phase</b>\n<b>BAYONET</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>2</nobr><pos=46%><nobr>4+</nobr><pos=59%><nobr>Light (D3)</nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Terran_equipment_jim_raynor_upgrade_0_choice",
+    "Name": "<color=#2596be>C-14 Rifle</color>",
+    "Type": "Rule",
+    "Description": "<b>Upgrade ability</b>\n\nReplace COMMANDO RIFLE with C-14 RIFLE.\n\n<b>C-14 RIFLE</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr><color=#2596be>12</color></nobr><pos=14%><nobr>All</nobr><pos=32%><nobr><color=#2596be>6</color></nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr><color=#2596be>Light (D3+1)</color></nobr><pos=86%><nobr>1</nobr></b></size></align>\n\n<u><link=\"rule_keyword_burst_fire\"><color=#2596be>BURST FIRE 8\" (3)</color></link></u>"
+  },
+  {
+    "Id": "pdf_Terran_equipment_jim_raynor_upgrade_0_heading",
     "Name": "",
     "Type": "",
-    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>2</nobr><pos=46%><nobr>4+</nobr><pos=59%><nobr>Light (D3)</nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Description": "<b>C-14 RIFLE</b>",
     "Children": []
+  },
+  {
+    "Id": "pdf_Terran_equipment_jim_raynor_upgrade_0_keywords",
+    "Name": "<color=#ffffff><u><link=\"rule_keyword_burst_fire\"><color=#2596be>BURST FIRE 8\" (3)</color></link></u></color>",
+    "Type": "Imported",
+    "Description": "<u><link=\"rule_keyword_burst_fire\"><color=#2596be>BURST FIRE 8\" (3)</color></link></u>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Terran_equipment_jim_raynor_upgrade_0_table",
+    "Name": "<color=#ffffff><b>Assault Phase</b>\n<b>C-14 RIFLE</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr><color=#2596be>12</color></nobr><pos=14%><nobr>All</nobr><pos=32%><nobr><color=#2596be>6</color></nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr><color=#2596be>Light (D3+1)</color></nobr><pos=86%><nobr>1</nobr></b></size></align></color>",
+    "Type": "Imported",
+    "Description": "<b>Assault Phase</b>\n<b>C-14 RIFLE</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr><color=#2596be>12</color></nobr><pos=14%><nobr>All</nobr><pos=32%><nobr><color=#2596be>6</color></nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr><color=#2596be>Light (D3+1)</color></nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Terran_equipment_marauders_default_1_body",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Terran_equipment_marauders_default_1_table"
+      }
+    ]
   },
   {
     "Id": "pdf_Terran_equipment_marauders_default_1_heading",
@@ -161,18 +533,54 @@
     "Children": []
   },
   {
-    "Id": "pdf_Terran_equipment_marauders_default_1_keywords",
+    "Id": "pdf_Terran_equipment_marauders_default_1_keyword_row",
     "Name": "",
-    "Type": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Terran_equipment_marauders_default_1_keywords"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Terran_equipment_marauders_default_1_keywords",
+    "Name": "<color=#ffffff><u><link=\"rule_keyword_pierce\">PIERCE Armoured (2)</link></u></color>",
+    "Type": "Imported",
     "Description": "<u><link=\"rule_keyword_pierce\">PIERCE Armoured (2)</link></u>",
     "Children": []
   },
   {
-    "Id": "pdf_Terran_equipment_marauders_default_1_table",
+    "Id": "pdf_Terran_equipment_marauders_default_1_slot",
     "Name": "",
-    "Type": "",
-    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>12</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>3</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>Armored (D3)</nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Terran_equipment_marauders_default_1_body"
+      },
+      {
+        "Id": "pdf_Terran_equipment_marauders_default_1_keyword_row"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Terran_equipment_marauders_default_1_table",
+    "Name": "<color=#ffffff><b>Assault Phase</b>\n<b>QUAD K12</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>12</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>3</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>Armored (D3)</nobr><pos=86%><nobr>1</nobr></b></size></align></color>",
+    "Type": "Imported",
+    "Description": "<b>Assault Phase</b>\n<b>QUAD K12</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>12</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>3</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>Armored (D3)</nobr><pos=86%><nobr>1</nobr></b></size></align>",
     "Children": []
+  },
+  {
+    "Id": "pdf_Terran_equipment_marauders_default_3_body",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Terran_equipment_marauders_default_3_table"
+      }
+    ]
   },
   {
     "Id": "pdf_Terran_equipment_marauders_default_3_heading",
@@ -182,11 +590,43 @@
     "Children": []
   },
   {
-    "Id": "pdf_Terran_equipment_marauders_default_3_table",
+    "Id": "pdf_Terran_equipment_marauders_default_3_keyword_row",
     "Name": "",
-    "Type": "",
-    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>2</nobr><pos=46%><nobr>4+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Type": "Profile",
+    "Description": "",
     "Children": []
+  },
+  {
+    "Id": "pdf_Terran_equipment_marauders_default_3_slot",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Terran_equipment_marauders_default_3_body"
+      },
+      {
+        "Id": "pdf_Terran_equipment_marauders_default_3_keyword_row"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Terran_equipment_marauders_default_3_table",
+    "Name": "<color=#ffffff><b>Melee Phase</b>\n<b>STRIKE</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>2</nobr><pos=46%><nobr>4+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align></color>",
+    "Type": "Imported",
+    "Description": "<b>Melee Phase</b>\n<b>STRIKE</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>2</nobr><pos=46%><nobr>4+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Terran_equipment_marines_default_1_body",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Terran_equipment_marines_default_1_table"
+      }
+    ]
   },
   {
     "Id": "pdf_Terran_equipment_marines_default_1_heading",
@@ -196,11 +636,43 @@
     "Children": []
   },
   {
-    "Id": "pdf_Terran_equipment_marines_default_1_table",
+    "Id": "pdf_Terran_equipment_marines_default_1_keyword_row",
     "Name": "",
-    "Type": "",
-    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>12</nobr><pos=14%><nobr>All</nobr><pos=32%><nobr>2</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>Light (D3)</nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Type": "Profile",
+    "Description": "",
     "Children": []
+  },
+  {
+    "Id": "pdf_Terran_equipment_marines_default_1_slot",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Terran_equipment_marines_default_1_body"
+      },
+      {
+        "Id": "pdf_Terran_equipment_marines_default_1_keyword_row"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Terran_equipment_marines_default_1_table",
+    "Name": "<color=#ffffff><b>Assault Phase</b>\n<b>C-14 RIFLE</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>12</nobr><pos=14%><nobr>All</nobr><pos=32%><nobr>2</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>Light (D3)</nobr><pos=86%><nobr>1</nobr></b></size></align></color>",
+    "Type": "Imported",
+    "Description": "<b>Assault Phase</b>\n<b>C-14 RIFLE</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>12</nobr><pos=14%><nobr>All</nobr><pos=32%><nobr>2</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>Light (D3)</nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Terran_equipment_marines_default_2_body",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Terran_equipment_marines_default_2_table"
+      }
+    ]
   },
   {
     "Id": "pdf_Terran_equipment_marines_default_2_heading",
@@ -210,11 +682,117 @@
     "Children": []
   },
   {
+    "Id": "pdf_Terran_equipment_marines_default_2_keyword_row",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Terran_equipment_marines_default_2_slot",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Terran_equipment_marines_default_2_body"
+      },
+      {
+        "Id": "pdf_Terran_equipment_marines_default_2_keyword_row"
+      }
+    ]
+  },
+  {
     "Id": "pdf_Terran_equipment_marines_default_2_table",
+    "Name": "<color=#ffffff><b>Melee Phase</b>\n<b>STRIKE</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>1</nobr><pos=46%><nobr>5+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align></color>",
+    "Type": "Imported",
+    "Description": "<b>Melee Phase</b>\n<b>STRIKE</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>1</nobr><pos=46%><nobr>5+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Terran_equipment_marines_upgrade_1_choice",
+    "Name": "<color=#2596be>AGG-12</color>",
+    "Type": "Rule",
+    "Description": "<b>Upgrade ability</b>\n\nAdd AGG-12 for the specialist model.\n\n<b>AGG-12</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>12</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>2</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>Armored (D3)</nobr><pos=86%><nobr>1</nobr></b></size></align>\n\n<u><link=\"rule_keyword_long_range\">LONG RANGE (18\")</link></u>, <u><link=\"rule_keyword_specialist\">SPECIALIST</link></u>"
+  },
+  {
+    "Id": "pdf_Terran_equipment_marines_upgrade_1_heading",
     "Name": "",
     "Type": "",
-    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>1</nobr><pos=46%><nobr>5+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Description": "<b>AGG-12</b>",
     "Children": []
+  },
+  {
+    "Id": "pdf_Terran_equipment_marines_upgrade_1_keywords",
+    "Name": "<color=#ffffff><u><link=\"rule_keyword_long_range\">LONG RANGE (18\")</link></u>, <u><link=\"rule_keyword_specialist\">SPECIALIST</link></u></color>",
+    "Type": "Imported",
+    "Description": "<u><link=\"rule_keyword_long_range\">LONG RANGE (18\")</link></u>, <u><link=\"rule_keyword_specialist\">SPECIALIST</link></u>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Terran_equipment_marines_upgrade_1_table",
+    "Name": "<color=#ffffff><b>AGG-12</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>12</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>2</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>Armored (D3)</nobr><pos=86%><nobr>1</nobr></b></size></align></color>",
+    "Type": "Imported",
+    "Description": "<b>AGG-12</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>12</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>2</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>Armored (D3)</nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Terran_equipment_marines_upgrade_2_choice",
+    "Name": "<color=#2596be>Rocket Launcher</color>",
+    "Type": "Rule",
+    "Description": "<b>Upgrade ability</b>\n\nAdd ROCKET LAUNCHER for the specialist model.\n\n<b>ROCKET LAUNCHER</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>12</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>4</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align>\n\n<u><link=\"rule_keyword_indirect_fire\">INDIRECT FIRE</link></u>, <u><link=\"rule_keyword_long_range\">LONG RANGE (18\")</link></u>, <u><link=\"rule_keyword_sidearm\">SIDEARM</link></u>, <u><link=\"rule_keyword_specialist\">SPECIALIST</link></u>"
+  },
+  {
+    "Id": "pdf_Terran_equipment_marines_upgrade_2_heading",
+    "Name": "",
+    "Type": "",
+    "Description": "<b>ROCKET LAUNCHER</b>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Terran_equipment_marines_upgrade_2_keywords",
+    "Name": "<color=#ffffff><u><link=\"rule_keyword_indirect_fire\">INDIRECT FIRE</link></u>, <u><link=\"rule_keyword_long_range\">LONG RANGE (18\")</link></u>, <u><link=\"rule_keyword_sidearm\">SIDEARM</link></u>, <u><link=\"rule_keyword_specialist\">SPECIALIST</link></u></color>",
+    "Type": "Imported",
+    "Description": "<u><link=\"rule_keyword_indirect_fire\">INDIRECT FIRE</link></u>, <u><link=\"rule_keyword_long_range\">LONG RANGE (18\")</link></u>, <u><link=\"rule_keyword_sidearm\">SIDEARM</link></u>, <u><link=\"rule_keyword_specialist\">SPECIALIST</link></u>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Terran_equipment_marines_upgrade_2_table",
+    "Name": "<color=#ffffff><b>ROCKET LAUNCHER</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>12</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>4</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align></color>",
+    "Type": "Imported",
+    "Description": "<b>ROCKET LAUNCHER</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>12</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>4</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Terran_equipment_marines_upgrade_4_choice",
+    "Name": "<color=#2596be>Bayonet</color>",
+    "Type": "Rule",
+    "Description": "<b>Upgrade ability</b>\n\nReplace STRIKE with BAYONET.\n\n<b>BAYONET</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr><color=#2596be>2</color></nobr><pos=46%><nobr>5+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align>"
+  },
+  {
+    "Id": "pdf_Terran_equipment_marines_upgrade_4_heading",
+    "Name": "",
+    "Type": "",
+    "Description": "<b>BAYONET</b>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Terran_equipment_marines_upgrade_4_table",
+    "Name": "<color=#ffffff><b>Melee Phase</b>\n<b>BAYONET</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr><color=#2596be>2</color></nobr><pos=46%><nobr>5+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align></color>",
+    "Type": "Imported",
+    "Description": "<b>Melee Phase</b>\n<b>BAYONET</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr><color=#2596be>2</color></nobr><pos=46%><nobr>5+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Terran_equipment_medics_default_2_body",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Terran_equipment_medics_default_2_table"
+      }
+    ]
   },
   {
     "Id": "pdf_Terran_equipment_medics_default_2_heading",
@@ -224,11 +802,43 @@
     "Children": []
   },
   {
-    "Id": "pdf_Terran_equipment_medics_default_2_table",
+    "Id": "pdf_Terran_equipment_medics_default_2_keyword_row",
     "Name": "",
-    "Type": "",
-    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>1</nobr><pos=46%><nobr>5+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Type": "Profile",
+    "Description": "",
     "Children": []
+  },
+  {
+    "Id": "pdf_Terran_equipment_medics_default_2_slot",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Terran_equipment_medics_default_2_body"
+      },
+      {
+        "Id": "pdf_Terran_equipment_medics_default_2_keyword_row"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Terran_equipment_medics_default_2_table",
+    "Name": "<color=#ffffff><b>Melee Phase</b>\n<b>STRIKE</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>1</nobr><pos=46%><nobr>5+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align></color>",
+    "Type": "Imported",
+    "Description": "<b>Melee Phase</b>\n<b>STRIKE</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>1</nobr><pos=46%><nobr>5+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Terran_equipment_nova_assault_mode_default_2_body",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Terran_equipment_nova_assault_mode_default_2_table"
+      }
+    ]
   },
   {
     "Id": "pdf_Terran_equipment_nova_assault_mode_default_2_heading",
@@ -238,18 +848,54 @@
     "Children": []
   },
   {
-    "Id": "pdf_Terran_equipment_nova_assault_mode_default_2_keywords",
+    "Id": "pdf_Terran_equipment_nova_assault_mode_default_2_keyword_row",
     "Name": "",
-    "Type": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Terran_equipment_nova_assault_mode_default_2_keywords"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Terran_equipment_nova_assault_mode_default_2_keywords",
+    "Name": "<color=#ffffff><u><link=\"rule_keyword_anti_evade\">ANTI-EVADE (1)</link></u>, <u><link=\"rule_keyword_burst_fire\">BURST FIRE 4\" (3)</link></u></color>",
+    "Type": "Imported",
     "Description": "<u><link=\"rule_keyword_anti_evade\">ANTI-EVADE (1)</link></u>, <u><link=\"rule_keyword_burst_fire\">BURST FIRE 4\" (3)</link></u>",
     "Children": []
   },
   {
-    "Id": "pdf_Terran_equipment_nova_assault_mode_default_2_table",
+    "Id": "pdf_Terran_equipment_nova_assault_mode_default_2_slot",
     "Name": "",
-    "Type": "",
-    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>8</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>3</nobr><pos=46%><nobr>4+</nobr><pos=59%><nobr>Light (D3)</nobr><pos=86%><nobr>2</nobr></b></size></align>",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Terran_equipment_nova_assault_mode_default_2_body"
+      },
+      {
+        "Id": "pdf_Terran_equipment_nova_assault_mode_default_2_keyword_row"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Terran_equipment_nova_assault_mode_default_2_table",
+    "Name": "<color=#ffffff><b>Assault Phase</b>\n<b>HELLFIRE SHOTGUN</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>8</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>3</nobr><pos=46%><nobr>4+</nobr><pos=59%><nobr>Light (D3)</nobr><pos=86%><nobr>2</nobr></b></size></align></color>",
+    "Type": "Imported",
+    "Description": "<b>Assault Phase</b>\n<b>HELLFIRE SHOTGUN</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>8</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>3</nobr><pos=46%><nobr>4+</nobr><pos=59%><nobr>Light (D3)</nobr><pos=86%><nobr>2</nobr></b></size></align>",
     "Children": []
+  },
+  {
+    "Id": "pdf_Terran_equipment_nova_assault_mode_default_4_body",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Terran_equipment_nova_assault_mode_default_4_table"
+      }
+    ]
   },
   {
     "Id": "pdf_Terran_equipment_nova_assault_mode_default_4_heading",
@@ -259,11 +905,43 @@
     "Children": []
   },
   {
-    "Id": "pdf_Terran_equipment_nova_assault_mode_default_4_table",
+    "Id": "pdf_Terran_equipment_nova_assault_mode_default_4_keyword_row",
     "Name": "",
-    "Type": "",
-    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>8</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>L&A (D6)</nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Type": "Profile",
+    "Description": "",
     "Children": []
+  },
+  {
+    "Id": "pdf_Terran_equipment_nova_assault_mode_default_4_slot",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Terran_equipment_nova_assault_mode_default_4_body"
+      },
+      {
+        "Id": "pdf_Terran_equipment_nova_assault_mode_default_4_keyword_row"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Terran_equipment_nova_assault_mode_default_4_table",
+    "Name": "<color=#ffffff><b>Melee Phase</b>\n<b>MONOMOLECULAR BLADE</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>8</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>L&A (D6)</nobr><pos=86%><nobr>1</nobr></b></size></align></color>",
+    "Type": "Imported",
+    "Description": "<b>Melee Phase</b>\n<b>MONOMOLECULAR BLADE</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>8</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>L&A (D6)</nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Terran_equipment_nova_stealth_mode_default_2_body",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Terran_equipment_nova_stealth_mode_default_2_table"
+      }
+    ]
   },
   {
     "Id": "pdf_Terran_equipment_nova_stealth_mode_default_2_heading",
@@ -273,18 +951,54 @@
     "Children": []
   },
   {
-    "Id": "pdf_Terran_equipment_nova_stealth_mode_default_2_keywords",
+    "Id": "pdf_Terran_equipment_nova_stealth_mode_default_2_keyword_row",
     "Name": "",
-    "Type": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Terran_equipment_nova_stealth_mode_default_2_keywords"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Terran_equipment_nova_stealth_mode_default_2_keywords",
+    "Name": "<color=#ffffff><u><link=\"rule_keyword_critical_hit\">CRITICAL HIT (2)</link></u>, <u><link=\"rule_keyword_long_range\">LONG RANGE (18\")</link></u></color>",
+    "Type": "Imported",
     "Description": "<u><link=\"rule_keyword_critical_hit\">CRITICAL HIT (2)</link></u>, <u><link=\"rule_keyword_long_range\">LONG RANGE (18\")</link></u>",
     "Children": []
   },
   {
-    "Id": "pdf_Terran_equipment_nova_stealth_mode_default_2_table",
+    "Id": "pdf_Terran_equipment_nova_stealth_mode_default_2_slot",
     "Name": "",
-    "Type": "",
-    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>12</nobr><pos=14%><nobr>All</nobr><pos=32%><nobr>4</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>2</nobr></b></size></align>",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Terran_equipment_nova_stealth_mode_default_2_body"
+      },
+      {
+        "Id": "pdf_Terran_equipment_nova_stealth_mode_default_2_keyword_row"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Terran_equipment_nova_stealth_mode_default_2_table",
+    "Name": "<color=#ffffff><b>Assault Phase</b>\n<b>C-20A CANISTER RIFLE</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>12</nobr><pos=14%><nobr>All</nobr><pos=32%><nobr>4</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>2</nobr></b></size></align></color>",
+    "Type": "Imported",
+    "Description": "<b>Assault Phase</b>\n<b>C-20A CANISTER RIFLE</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>12</nobr><pos=14%><nobr>All</nobr><pos=32%><nobr>4</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>2</nobr></b></size></align>",
     "Children": []
+  },
+  {
+    "Id": "pdf_Terran_equipment_nova_stealth_mode_default_4_body",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Terran_equipment_nova_stealth_mode_default_4_table"
+      }
+    ]
   },
   {
     "Id": "pdf_Terran_equipment_nova_stealth_mode_default_4_heading",
@@ -294,11 +1008,43 @@
     "Children": []
   },
   {
-    "Id": "pdf_Terran_equipment_nova_stealth_mode_default_4_table",
+    "Id": "pdf_Terran_equipment_nova_stealth_mode_default_4_keyword_row",
     "Name": "",
-    "Type": "",
-    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>3</nobr><pos=46%><nobr>5+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Type": "Profile",
+    "Description": "",
     "Children": []
+  },
+  {
+    "Id": "pdf_Terran_equipment_nova_stealth_mode_default_4_slot",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Terran_equipment_nova_stealth_mode_default_4_body"
+      },
+      {
+        "Id": "pdf_Terran_equipment_nova_stealth_mode_default_4_keyword_row"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Terran_equipment_nova_stealth_mode_default_4_table",
+    "Name": "<color=#ffffff><b>Melee Phase</b>\n<b>COMBAT KNIFE</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>3</nobr><pos=46%><nobr>5+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align></color>",
+    "Type": "Imported",
+    "Description": "<b>Melee Phase</b>\n<b>COMBAT KNIFE</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>3</nobr><pos=46%><nobr>5+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Terran_equipment_raven_default_2_body",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Terran_equipment_raven_default_2_table"
+      }
+    ]
   },
   {
     "Id": "pdf_Terran_equipment_raven_default_2_heading",
@@ -308,11 +1054,43 @@
     "Children": []
   },
   {
-    "Id": "pdf_Terran_equipment_raven_default_2_table",
+    "Id": "pdf_Terran_equipment_raven_default_2_keyword_row",
     "Name": "",
-    "Type": "",
-    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>12</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>4</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Type": "Profile",
+    "Description": "",
     "Children": []
+  },
+  {
+    "Id": "pdf_Terran_equipment_raven_default_2_slot",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Terran_equipment_raven_default_2_body"
+      },
+      {
+        "Id": "pdf_Terran_equipment_raven_default_2_keyword_row"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Terran_equipment_raven_default_2_table",
+    "Name": "<color=#ffffff><b>Assault Phase</b>\n<b>RAILGUNS</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>12</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>4</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align></color>",
+    "Type": "Imported",
+    "Description": "<b>Assault Phase</b>\n<b>RAILGUNS</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>12</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>4</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Terran_equipment_raynor_s_raiders_default_1_body",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Terran_equipment_raynor_s_raiders_default_1_table"
+      }
+    ]
   },
   {
     "Id": "pdf_Terran_equipment_raynor_s_raiders_default_1_heading",
@@ -322,11 +1100,43 @@
     "Children": []
   },
   {
-    "Id": "pdf_Terran_equipment_raynor_s_raiders_default_1_table",
+    "Id": "pdf_Terran_equipment_raynor_s_raiders_default_1_keyword_row",
     "Name": "",
-    "Type": "",
-    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>12</nobr><pos=14%><nobr>All</nobr><pos=32%><nobr>2</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>Light (D3)</nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Type": "Profile",
+    "Description": "",
     "Children": []
+  },
+  {
+    "Id": "pdf_Terran_equipment_raynor_s_raiders_default_1_slot",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Terran_equipment_raynor_s_raiders_default_1_body"
+      },
+      {
+        "Id": "pdf_Terran_equipment_raynor_s_raiders_default_1_keyword_row"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Terran_equipment_raynor_s_raiders_default_1_table",
+    "Name": "<color=#ffffff><b>Assault Phase</b>\n<b>C-14 RIFLE</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>12</nobr><pos=14%><nobr>All</nobr><pos=32%><nobr>2</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>Light (D3)</nobr><pos=86%><nobr>1</nobr></b></size></align></color>",
+    "Type": "Imported",
+    "Description": "<b>Assault Phase</b>\n<b>C-14 RIFLE</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>12</nobr><pos=14%><nobr>All</nobr><pos=32%><nobr>2</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>Light (D3)</nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Terran_equipment_raynor_s_raiders_default_3_body",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Terran_equipment_raynor_s_raiders_default_3_table"
+      }
+    ]
   },
   {
     "Id": "pdf_Terran_equipment_raynor_s_raiders_default_3_heading",
@@ -336,11 +1146,43 @@
     "Children": []
   },
   {
-    "Id": "pdf_Terran_equipment_raynor_s_raiders_default_3_table",
+    "Id": "pdf_Terran_equipment_raynor_s_raiders_default_3_keyword_row",
     "Name": "",
-    "Type": "",
-    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>2</nobr><pos=46%><nobr>5+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Type": "Profile",
+    "Description": "",
     "Children": []
+  },
+  {
+    "Id": "pdf_Terran_equipment_raynor_s_raiders_default_3_slot",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Terran_equipment_raynor_s_raiders_default_3_body"
+      },
+      {
+        "Id": "pdf_Terran_equipment_raynor_s_raiders_default_3_keyword_row"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Terran_equipment_raynor_s_raiders_default_3_table",
+    "Name": "<color=#ffffff><b>Melee Phase</b>\n<b>BAYONET</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>2</nobr><pos=46%><nobr>5+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align></color>",
+    "Type": "Imported",
+    "Description": "<b>Melee Phase</b>\n<b>BAYONET</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>2</nobr><pos=46%><nobr>5+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Terran_equipment_siege_tank_default_1_body",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Terran_equipment_siege_tank_default_1_table"
+      }
+    ]
   },
   {
     "Id": "pdf_Terran_equipment_siege_tank_default_1_heading",
@@ -350,18 +1192,54 @@
     "Children": []
   },
   {
-    "Id": "pdf_Terran_equipment_siege_tank_default_1_keywords",
+    "Id": "pdf_Terran_equipment_siege_tank_default_1_keyword_row",
     "Name": "",
-    "Type": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Terran_equipment_siege_tank_default_1_keywords"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Terran_equipment_siege_tank_default_1_keywords",
+    "Name": "<color=#ffffff><u><link=\"rule_keyword_pierce\">PIERCE Armoured (2)</link></u></color>",
+    "Type": "Imported",
     "Description": "<u><link=\"rule_keyword_pierce\">PIERCE Armoured (2)</link></u>",
     "Children": []
   },
   {
-    "Id": "pdf_Terran_equipment_siege_tank_default_1_table",
+    "Id": "pdf_Terran_equipment_siege_tank_default_1_slot",
     "Name": "",
-    "Type": "",
-    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>12</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>8</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>Armored (D6)</nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Terran_equipment_siege_tank_default_1_body"
+      },
+      {
+        "Id": "pdf_Terran_equipment_siege_tank_default_1_keyword_row"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Terran_equipment_siege_tank_default_1_table",
+    "Name": "<color=#ffffff><b>Assault Phase</b>\n<b>TWIN CANNON</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>12</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>8</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>Armored (D6)</nobr><pos=86%><nobr>1</nobr></b></size></align></color>",
+    "Type": "Imported",
+    "Description": "<b>Assault Phase</b>\n<b>TWIN CANNON</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>12</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>8</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>Armored (D6)</nobr><pos=86%><nobr>1</nobr></b></size></align>",
     "Children": []
+  },
+  {
+    "Id": "pdf_Terran_equipment_siege_tank_default_2_body",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Terran_equipment_siege_tank_default_2_table"
+      }
+    ]
   },
   {
     "Id": "pdf_Terran_equipment_siege_tank_default_2_heading",
@@ -371,18 +1249,54 @@
     "Children": []
   },
   {
-    "Id": "pdf_Terran_equipment_siege_tank_default_2_keywords",
+    "Id": "pdf_Terran_equipment_siege_tank_default_2_keyword_row",
     "Name": "",
-    "Type": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Terran_equipment_siege_tank_default_2_keywords"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Terran_equipment_siege_tank_default_2_keywords",
+    "Name": "<color=#ffffff><u><link=\"rule_keyword_siege_mode\">SIEGE MODE Status</link></u></color>",
+    "Type": "Imported",
     "Description": "<u><link=\"rule_keyword_siege_mode\">SIEGE MODE Status</link></u>",
     "Children": []
   },
   {
-    "Id": "pdf_Terran_equipment_siege_tank_default_2_table",
+    "Id": "pdf_Terran_equipment_siege_tank_default_2_slot",
     "Name": "",
-    "Type": "",
-    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>18</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>BT+4</nobr><pos=46%><nobr>4+</nobr><pos=59%><nobr>L&A (BT)</nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Terran_equipment_siege_tank_default_2_body"
+      },
+      {
+        "Id": "pdf_Terran_equipment_siege_tank_default_2_keyword_row"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Terran_equipment_siege_tank_default_2_table",
+    "Name": "<color=#ffffff><b>SHOCK CANNON</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>18</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>BT+4</nobr><pos=46%><nobr>4+</nobr><pos=59%><nobr>L&A (BT)</nobr><pos=86%><nobr>1</nobr></b></size></align></color>",
+    "Type": "Imported",
+    "Description": "<b>SHOCK CANNON</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>18</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>BT+4</nobr><pos=46%><nobr>4+</nobr><pos=59%><nobr>L&A (BT)</nobr><pos=86%><nobr>1</nobr></b></size></align>",
     "Children": []
+  },
+  {
+    "Id": "pdf_Terran_equipment_siege_tank_default_4_body",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Terran_equipment_siege_tank_default_4_table"
+      }
+    ]
   },
   {
     "Id": "pdf_Terran_equipment_siege_tank_default_4_heading",
@@ -392,11 +1306,43 @@
     "Children": []
   },
   {
-    "Id": "pdf_Terran_equipment_siege_tank_default_4_table",
+    "Id": "pdf_Terran_equipment_siege_tank_default_4_keyword_row",
     "Name": "",
-    "Type": "",
-    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>2</nobr><pos=46%><nobr>2+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Type": "Profile",
+    "Description": "",
     "Children": []
+  },
+  {
+    "Id": "pdf_Terran_equipment_siege_tank_default_4_slot",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Terran_equipment_siege_tank_default_4_body"
+      },
+      {
+        "Id": "pdf_Terran_equipment_siege_tank_default_4_keyword_row"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Terran_equipment_siege_tank_default_4_table",
+    "Name": "<color=#ffffff><b>Melee Phase</b>\n<b>ROLLING OVER</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>2</nobr><pos=46%><nobr>2+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align></color>",
+    "Type": "Imported",
+    "Description": "<b>Melee Phase</b>\n<b>ROLLING OVER</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>2</nobr><pos=46%><nobr>2+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Terran_equipment_spec_ops_marauder_marauder_default_2_body",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Terran_equipment_spec_ops_marauder_marauder_default_2_table"
+      }
+    ]
   },
   {
     "Id": "pdf_Terran_equipment_spec_ops_marauder_marauder_default_2_heading",
@@ -406,18 +1352,54 @@
     "Children": []
   },
   {
-    "Id": "pdf_Terran_equipment_spec_ops_marauder_marauder_default_2_keywords",
+    "Id": "pdf_Terran_equipment_spec_ops_marauder_marauder_default_2_keyword_row",
     "Name": "",
-    "Type": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Terran_equipment_spec_ops_marauder_marauder_default_2_keywords"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Terran_equipment_spec_ops_marauder_marauder_default_2_keywords",
+    "Name": "<color=#ffffff><u><link=\"rule_keyword_long_range\">LONG RANGE (16\")</link></u>, <u><link=\"rule_keyword_pierce\">PIERCE Armoured (2)</link></u></color>",
+    "Type": "Imported",
     "Description": "<u><link=\"rule_keyword_long_range\">LONG RANGE (16\")</link></u>, <u><link=\"rule_keyword_pierce\">PIERCE Armoured (2)</link></u>",
     "Children": []
   },
   {
-    "Id": "pdf_Terran_equipment_spec_ops_marauder_marauder_default_2_table",
+    "Id": "pdf_Terran_equipment_spec_ops_marauder_marauder_default_2_slot",
     "Name": "",
-    "Type": "",
-    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>12</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>3</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>Armored (D3)</nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Terran_equipment_spec_ops_marauder_marauder_default_2_body"
+      },
+      {
+        "Id": "pdf_Terran_equipment_spec_ops_marauder_marauder_default_2_keyword_row"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Terran_equipment_spec_ops_marauder_marauder_default_2_table",
+    "Name": "<color=#ffffff><b>Assault Phase</b>\n<b>QUAD K12</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>12</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>3</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>Armored (D3)</nobr><pos=86%><nobr>1</nobr></b></size></align></color>",
+    "Type": "Imported",
+    "Description": "<b>Assault Phase</b>\n<b>QUAD K12</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>12</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>3</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>Armored (D3)</nobr><pos=86%><nobr>1</nobr></b></size></align>",
     "Children": []
+  },
+  {
+    "Id": "pdf_Terran_equipment_spec_ops_marauder_marauder_default_4_body",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Terran_equipment_spec_ops_marauder_marauder_default_4_table"
+      }
+    ]
   },
   {
     "Id": "pdf_Terran_equipment_spec_ops_marauder_marauder_default_4_heading",
@@ -427,150 +1409,284 @@
     "Children": []
   },
   {
+    "Id": "pdf_Terran_equipment_spec_ops_marauder_marauder_default_4_keyword_row",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Terran_equipment_spec_ops_marauder_marauder_default_4_slot",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Terran_equipment_spec_ops_marauder_marauder_default_4_body"
+      },
+      {
+        "Id": "pdf_Terran_equipment_spec_ops_marauder_marauder_default_4_keyword_row"
+      }
+    ]
+  },
+  {
     "Id": "pdf_Terran_equipment_spec_ops_marauder_marauder_default_4_table",
-    "Name": "",
-    "Type": "",
-    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>3</nobr><pos=46%><nobr>4+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Name": "<color=#ffffff><b>Melee Phase</b>\n<b>STRIKE</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>3</nobr><pos=46%><nobr>4+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align></color>",
+    "Type": "Imported",
+    "Description": "<b>Melee Phase</b>\n<b>STRIKE</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>3</nobr><pos=46%><nobr>4+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align>",
     "Children": []
   },
   {
-    "Id": "pdf_Terran_profile_auto_turret_phase_assault_phase",
+    "Id": "pdf_Terran_profile_auto_turret_selected_options",
     "Name": "",
-    "Type": "",
-    "Description": "<b>Assault Phase</b>",
+    "Type": "Profile",
+    "Description": "",
     "Children": []
   },
   {
-    "Id": "pdf_Terran_profile_goliath_phase_assault_phase",
+    "Id": "pdf_Terran_profile_auto_turret_stats",
     "Name": "",
-    "Type": "",
-    "Description": "<b>Assault Phase</b>",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Terran_stat_auto_turret"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Terran_profile_goliath_selected_options",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
     "Children": []
   },
   {
-    "Id": "pdf_Terran_profile_goliath_phase_melee_phase",
+    "Id": "pdf_Terran_profile_goliath_stats",
     "Name": "",
-    "Type": "",
-    "Description": "<b>Melee Phase</b>",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Terran_stat_goliath"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Terran_profile_holo_decoy_selected_options",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
     "Children": []
   },
   {
-    "Id": "pdf_Terran_profile_jim_raynor_phase_assault_phase",
+    "Id": "pdf_Terran_profile_holo_decoy_stats",
     "Name": "",
-    "Type": "",
-    "Description": "<b>Assault Phase</b>",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Terran_stat_holo_decoy"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Terran_profile_jim_raynor_selected_options",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
     "Children": []
   },
   {
-    "Id": "pdf_Terran_profile_jim_raynor_phase_melee_phase",
+    "Id": "pdf_Terran_profile_jim_raynor_stats",
     "Name": "",
-    "Type": "",
-    "Description": "<b>Melee Phase</b>",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Terran_stat_jim_raynor"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Terran_profile_marauders_selected_options",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
     "Children": []
   },
   {
-    "Id": "pdf_Terran_profile_marauders_phase_assault_phase",
+    "Id": "pdf_Terran_profile_marauders_stats",
     "Name": "",
-    "Type": "",
-    "Description": "<b>Assault Phase</b>",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Terran_stat_marauders"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Terran_profile_medics_selected_options",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
     "Children": []
   },
   {
-    "Id": "pdf_Terran_profile_marauders_phase_melee_phase",
+    "Id": "pdf_Terran_profile_medics_stats",
     "Name": "",
-    "Type": "",
-    "Description": "<b>Melee Phase</b>",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Terran_stat_medics"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Terran_profile_nova_assault_mode_selected_options",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
     "Children": []
   },
   {
-    "Id": "pdf_Terran_profile_medics_phase_melee_phase",
+    "Id": "pdf_Terran_profile_nova_assault_mode_stats",
     "Name": "",
-    "Type": "",
-    "Description": "<b>Melee Phase</b>",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Terran_stat_nova_assault_mode"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Terran_profile_nova_stealth_mode_selected_options",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
     "Children": []
   },
   {
-    "Id": "pdf_Terran_profile_nova_assault_mode_phase_assault_phase",
+    "Id": "pdf_Terran_profile_nova_stealth_mode_stats",
     "Name": "",
-    "Type": "",
-    "Description": "<b>Assault Phase</b>",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Terran_stat_nova_stealth_mode"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Terran_profile_point_defense_drone_selected_options",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
     "Children": []
   },
   {
-    "Id": "pdf_Terran_profile_nova_assault_mode_phase_melee_phase",
+    "Id": "pdf_Terran_profile_point_defense_drone_stats",
     "Name": "",
-    "Type": "",
-    "Description": "<b>Melee Phase</b>",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Terran_stat_point_defense_drone"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Terran_profile_raven_selected_options",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
     "Children": []
   },
   {
-    "Id": "pdf_Terran_profile_nova_stealth_mode_phase_assault_phase",
+    "Id": "pdf_Terran_profile_raven_stats",
     "Name": "",
-    "Type": "",
-    "Description": "<b>Assault Phase</b>",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Terran_stat_raven"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Terran_profile_raynor_s_raiders_selected_options",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
     "Children": []
   },
   {
-    "Id": "pdf_Terran_profile_nova_stealth_mode_phase_melee_phase",
+    "Id": "pdf_Terran_profile_raynor_s_raiders_stats",
     "Name": "",
-    "Type": "",
-    "Description": "<b>Melee Phase</b>",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Terran_stat_raynor_s_raiders"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Terran_profile_sabotage_drone_selected_options",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
     "Children": []
   },
   {
-    "Id": "pdf_Terran_profile_raven_phase_assault_phase",
+    "Id": "pdf_Terran_profile_sabotage_drone_stats",
     "Name": "",
-    "Type": "",
-    "Description": "<b>Assault Phase</b>",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Terran_stat_sabotage_drone"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Terran_profile_siege_tank_selected_options",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
     "Children": []
   },
   {
-    "Id": "pdf_Terran_profile_raynor_s_raiders_phase_assault_phase",
+    "Id": "pdf_Terran_profile_siege_tank_stats",
     "Name": "",
-    "Type": "",
-    "Description": "<b>Assault Phase</b>",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Terran_stat_siege_tank"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Terran_profile_spec_ops_marauder_marauder_selected_options",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
     "Children": []
   },
   {
-    "Id": "pdf_Terran_profile_raynor_s_raiders_phase_melee_phase",
+    "Id": "pdf_Terran_profile_spec_ops_marauder_marauder_stats",
     "Name": "",
-    "Type": "",
-    "Description": "<b>Melee Phase</b>",
-    "Children": []
-  },
-  {
-    "Id": "pdf_Terran_profile_siege_tank_phase_assault_phase",
-    "Name": "",
-    "Type": "",
-    "Description": "<b>Assault Phase</b>",
-    "Children": []
-  },
-  {
-    "Id": "pdf_Terran_profile_siege_tank_phase_melee_phase",
-    "Name": "",
-    "Type": "",
-    "Description": "<b>Melee Phase</b>",
-    "Children": []
-  },
-  {
-    "Id": "pdf_Terran_profile_spec_ops_marauder_marauder_phase_assault_phase",
-    "Name": "",
-    "Type": "",
-    "Description": "<b>Assault Phase</b>",
-    "Children": []
-  },
-  {
-    "Id": "pdf_Terran_profile_spec_ops_marauder_marauder_phase_melee_phase",
-    "Name": "",
-    "Type": "",
-    "Description": "<b>Melee Phase</b>",
-    "Children": []
-  },
-  {
-    "Id": "pdf_Terran_rule_auto_turret_any_phase_structure",
-    "Name": "Structure",
-    "Type": "Rule",
-    "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Passive\n\nThis Unit cannot be Activated in any Phase and cannot perform actions. Additionally, its <link=\"rule_keyword_current_supply_value\">Current Supply Value</link> is treated as 0, and it can never Control or Contest <link=\"rule_keyword_mission_markers\">Mission Markers</link>, ignoring the standard Zero Supply Exception. This Unit cannot be a target of an ability, unless stated otherwise."
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Terran_stat_spec_ops_marauder_marauder"
+      }
+    ]
   },
   {
     "Id": "pdf_Terran_rule_auto_turret_any_phase_timed_life",
@@ -582,169 +1698,256 @@
     "Id": "pdf_Terran_rule_auto_turret_assault_phase_overwatch",
     "Name": "Overwatch",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Reaction\n<b>Cost:</b> 0 CP\n\nUse when an <link=\"rule_keyword_enemy\">Enemy</link> Unit ends its Activation <link=\"rule_keyword_within\">Within</link> 8\" of this Unit. This Unit immediately performs a Ranged Attack against that Enemy Unit."
-  },
-  {
-    "Id": "pdf_Terran_rule_goliath_assault_phase_devastating_charge",
-    "Name": "Devastating Charge IMPACT (4) 3+",
-    "Type": "Rule",
-    "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Passive\n\nImmediately after this Unit completes a successful Charge, resolve the <link=\"rule_keyword_impact\">IMPACT</link> (4) 3+ effect."
-  },
-  {
-    "Id": "pdf_Terran_rule_goliath_assault_phase_indomitable",
-    "Name": "Indomitable",
-    "Type": "Rule",
-    "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Passive\n\nWhile <link=\"rule_keyword_engaged\">Engaged</link>, this Unit may target and be targeted by <link=\"rule_keyword_unengaged\">Unengaged</link> <link=\"rule_keyword_enemy\">Enemy</link> Units. In both cases, the defending Unit gains an Evade Roll against those attacks."
+    "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Reaction\n<b>Cost:</b> 0 CP\n\nUse when an <u><link=\"rule_keyword_enemy\">Enemy</link></u> Unit ends its Activation <u><link=\"rule_keyword_within\">Within</link></u> 8\" of this Unit. This Unit immediately performs a <u><link=\"rule_chapter_8_7_3\">Ranged Attack</link></u> against that <u><link=\"rule_keyword_enemy\">Enemy</link></u> Unit."
   },
   {
     "Id": "pdf_Terran_rule_goliath_movement_phase_target_lock",
     "Name": "Target Lock",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Active\n<b>Cost:</b> 1 CP\n\nSelect one <link=\"rule_keyword_enemy\">Enemy</link> Unit <link=\"rule_keyword_within\">Within</link> 12\". Whenever a <link=\"rule_keyword_friendly\">Friendly</link> Goliath Unit targets that enemy with an Autocannon, that weapon gains Surge Type: Light, Armoured, and S Dice: D3+1."
+    "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Active\n<b>Cost:</b> 1 CP\n\nSelect one <u><link=\"rule_keyword_enemy\">Enemy</link></u> Unit <u><link=\"rule_keyword_within\">Within</link></u> 12\". Whenever a <u><link=\"rule_keyword_friendly\">Friendly</link></u> Goliath Unit targets that <u><link=\"rule_keyword_enemy\">enemy</link></u> with an Autocannon, that weapon gains <u><link=\"rule_chapter_8_7_4\">Surge</link></u> Type: Light, Armoured, and S <u><link=\"rule_chapter_3_1\">Dice</link></u>: D3+1."
   },
   {
     "Id": "pdf_Terran_rule_goliath_upgrade_any_phase_ares_class_targeting_system",
-    "Name": "Ares-Class Targeting System",
+    "Name": "<color=#2596be>Ares-Class Targeting System</color>",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Passive\n<b>Upgrade ability</b>\n\nThis Unit's Autocannon and Underbelly Machine Gun weapons gain <link=\"rule_keyword_precision\">PRECISION</link> (1)."
+    "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Passive\n<b>Upgrade ability</b>\n\nThis Unit's Autocannon and Underbelly Machine Gun weapons gain <u><link=\"rule_keyword_precision\">PRECISION</link></u> (1)."
+  },
+  {
+    "Id": "pdf_Terran_rule_goliath_upgrade_any_phase_ares_class_targeting_system_effect_0_heading",
+    "Name": "",
+    "Type": "",
+    "Description": "<b>AUTOCANNON</b>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Terran_rule_goliath_upgrade_any_phase_ares_class_targeting_system_effect_0_keywords",
+    "Name": "<color=#ffffff><u><link=\"rule_keyword_long_range\">LONG RANGE (18\")</link></u>, <u><link=\"rule_keyword_precision\"><color=#2596be>PRECISION (1)</color></link></u></color>",
+    "Type": "Imported",
+    "Description": "<u><link=\"rule_keyword_long_range\">LONG RANGE (18\")</link></u>, <u><link=\"rule_keyword_precision\"><color=#2596be>PRECISION (1)</color></link></u>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Terran_rule_goliath_upgrade_any_phase_ares_class_targeting_system_effect_0_table",
+    "Name": "<color=#ffffff><b>Assault Phase</b>\n<b>AUTOCANNON</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>12</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>9</nobr><pos=46%><nobr>4+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align></color>",
+    "Type": "Imported",
+    "Description": "<b>Assault Phase</b>\n<b>AUTOCANNON</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>12</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>9</nobr><pos=46%><nobr>4+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Terran_rule_goliath_upgrade_any_phase_ares_class_targeting_system_effect_1_heading",
+    "Name": "",
+    "Type": "",
+    "Description": "<b>UNDERBELLY MACHINE GUN</b>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Terran_rule_goliath_upgrade_any_phase_ares_class_targeting_system_effect_1_keywords",
+    "Name": "<color=#ffffff><u><link=\"rule_keyword_pinpoint\">PINPOINT</link></u>, <u><link=\"rule_keyword_sidearm\">SIDEARM</link></u>, <u><link=\"rule_keyword_precision\"><color=#2596be>PRECISION (1)</color></link></u></color>",
+    "Type": "Imported",
+    "Description": "<u><link=\"rule_keyword_pinpoint\">PINPOINT</link></u>, <u><link=\"rule_keyword_sidearm\">SIDEARM</link></u>, <u><link=\"rule_keyword_precision\"><color=#2596be>PRECISION (1)</color></link></u>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Terran_rule_goliath_upgrade_any_phase_ares_class_targeting_system_effect_1_table",
+    "Name": "<color=#ffffff><b>UNDERBELLY MACHINE GUN</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>8</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>6</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>Light (D3)</nobr><pos=86%><nobr>1</nobr></b></size></align></color>",
+    "Type": "Imported",
+    "Description": "<b>UNDERBELLY MACHINE GUN</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>8</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>6</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>Light (D3)</nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Children": []
   },
   {
     "Id": "pdf_Terran_rule_holo_decoy_any_phase_decoy",
     "Name": "Decoy",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Passive\n\nThis Unit is never <link=\"rule_keyword_engaged\">Engaged</link>. It cannot Engage <link=\"rule_keyword_enemy\">Enemy</link> Units, cannot be Engaged by Enemy Units and cannot perform a Charge Action. This Unit cannot be the target of an ability, unless stated otherwise. It can never Control or Contest <link=\"rule_keyword_mission_markers\">Mission Markers</link>."
+    "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Passive\n\nThis Unit is never <u><link=\"rule_keyword_engaged\">Engaged</link></u>. It cannot Engage <u><link=\"rule_keyword_enemy\">Enemy</link></u> <u><link=\"rule_chapter_2_2\">Units</link></u>, cannot be <u><link=\"rule_keyword_engaged\">Engaged</link></u> by <u><link=\"rule_keyword_enemy\">Enemy</link></u> <u><link=\"rule_chapter_2_2\">Units</link></u> and cannot perform a <u><link=\"rule_chapter_8_7_7\">Charge</link></u> Action. This Unit cannot be the target of an ability, unless stated otherwise. It can never Control or Contest <u><link=\"rule_keyword_mission_markers\">Mission Markers</link></u>."
   },
   {
     "Id": "pdf_Terran_rule_holo_decoy_any_phase_lethal_hologram",
     "Name": "Lethal Hologram",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Passive\n\nAll Weapons of <link=\"rule_keyword_friendly\">Friendly</link> Units targeting an <link=\"rule_keyword_enemy\">Enemy</link> Unit <link=\"rule_keyword_within\">Within</link> 4\" of this Unit gain <link=\"rule_keyword_precision\">PRECISION</link> (1)."
+    "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Passive\n\nAll Weapons of <u><link=\"rule_keyword_friendly\">Friendly</link></u> <u><link=\"rule_chapter_2_2\">Units</link></u> targeting an <u><link=\"rule_keyword_enemy\">Enemy</link></u> Unit <u><link=\"rule_keyword_within\">Within</link></u> 4\" of this Unit gain <u><link=\"rule_keyword_precision\">PRECISION</link></u> (1)."
   },
   {
     "Id": "pdf_Terran_rule_holo_decoy_any_phase_surprise",
     "Name": "Surprise!",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Passive\n\nAt the End of the Round, you can set a <link=\"rule_keyword_friendly\">Friendly</link> Nova Stealth Mode or Nova Assault Mode in Coherency with this Unit."
-  },
-  {
-    "Id": "pdf_Terran_rule_holo_decoy_any_phase_timed_life",
-    "Name": "Timed Life",
-    "Type": "Rule",
-    "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Passive\n\nRemove this Unit at the End of the Round."
-  },
-  {
-    "Id": "pdf_Terran_rule_jim_raynor_any_phase_commander",
-    "Name": "Commander",
-    "Type": "Rule",
-    "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Passive\n\nTreat this Unit's Supply characteristic as increased by 1 for Controlling and Contesting <link=\"rule_keyword_mission_markers\">Mission Markers</link>, completing objectives, and resolving Disengage checks."
+    "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Passive\n\nAt the End of the Round, you can set a <u><link=\"rule_keyword_friendly\">Friendly</link></u> Nova Stealth Mode or Nova Assault Mode in <u><link=\"rule_chapter_4_4\">Coherency</link></u> with this Unit."
   },
   {
     "Id": "pdf_Terran_rule_jim_raynor_any_phase_freedom_fighters",
     "Name": "Freedom Fighters",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Passive\n\nThe <link=\"rule_keyword_supply_value\">Supply Value</link> of all <link=\"rule_keyword_friendly\">Friendly</link> Units <link=\"rule_keyword_within\">Within</link> 8\" of this Unit cannot be reduced below 1 for Contesting <link=\"rule_keyword_mission_markers\">Mission Markers</link> and completing objectives."
+    "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Passive\n\nThe <u><link=\"rule_keyword_supply_value\">Supply Value</link></u> of all <u><link=\"rule_keyword_friendly\">Friendly</link></u> <u><link=\"rule_chapter_2_2\">Units</link></u> <u><link=\"rule_keyword_within\">Within</link></u> 8\" of this Unit cannot be reduced below 1 for Contesting <u><link=\"rule_keyword_mission_markers\">Mission Markers</link></u> and completing objectives."
   },
   {
     "Id": "pdf_Terran_rule_jim_raynor_movement_phase_orders",
     "Name": "Orders",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Active\n<b>Cost:</b> X CP\n\n<link=\"rule_keyword_repeatable\">REPEATABLE</link>. Select another <link=\"rule_keyword_friendly\">Friendly</link> Biological Unit <link=\"rule_keyword_within\">Within</link> 8\", spend CP and apply one of the following effects:\n1 CP: That Unit's first used weapon gains the <link=\"rule_keyword_critical_hit\">CRITICAL HIT</link> (2).\n1 CP: That Unit ignores the Disengage penalty for the remainder of the Round.\n2 CP: Remove the Activation Marker from that Unit."
+    "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Active\n<b>Cost:</b> X CP\n\n<u><link=\"rule_keyword_repeatable\">REPEATABLE</link></u>. Select another <u><link=\"rule_keyword_friendly\">Friendly</link></u> Biological Unit <u><link=\"rule_keyword_within\">Within</link></u> 8\", spend CP and apply one of the following effects:\n1 CP: That Unit's first used weapon gains the <u><link=\"rule_keyword_critical_hit\">CRITICAL HIT</link></u> (2).\n1 CP: That Unit ignores the <u><link=\"rule_chapter_8_5_4\">Disengage</link></u> penalty for the remainder of the Round.\n2 CP: Remove the Activation Marker from that Unit."
   },
   {
     "Id": "pdf_Terran_rule_marauders_assault_phase_concusive_shells",
     "Name": "Concusive Shells",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Reaction\n<b>Cost:</b> 1 CP\n\nWhen an <link=\"rule_keyword_enemy\">Enemy</link> declares a Charge against a <link=\"rule_keyword_friendly\">Friendly</link> Unit <link=\"rule_keyword_within\">Within</link> 8\", that Enemy gains <link=\"rule_keyword_debuff\">DEBUFF</link> Speed (2)."
+    "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Reaction\n<b>Cost:</b> 1 CP\n\nWhen an <u><link=\"rule_keyword_enemy\">Enemy</link></u> declares a <u><link=\"rule_chapter_8_7_7\">Charge</link></u> against a <u><link=\"rule_keyword_friendly\">Friendly</link></u> Unit <u><link=\"rule_keyword_within\">Within</link></u> 8\", that <u><link=\"rule_keyword_enemy\">Enemy</link></u> gains <u><link=\"rule_keyword_debuff\">DEBUFF</link></u> Speed (2)."
   },
   {
     "Id": "pdf_Terran_rule_marauders_movement_phase_stimpack",
-    "Name": "Stimpack",
+    "Name": "Stimpack (Marauders)",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Active\n<b>Cost:</b> 1 CP\n\nThis Unit suffers <link=\"rule_keyword_non_lethal_damage\">NON-LETHAL DAMAGE</link> (2). This Unit gains <link=\"rule_keyword_buff\">BUFF</link> Speed (3). Additionally, its Quad K12 and all Close Combat Weapons gain <link=\"rule_keyword_precision\">PRECISION</link> (2)."
+    "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Active\n<b>Cost:</b> 1 CP\n\nThis Unit suffers <u><link=\"rule_keyword_non_lethal_damage\">NON-LETHAL DAMAGE</link></u> (2). This Unit gains <u><link=\"rule_keyword_buff\">BUFF</link></u> Speed (3). Additionally, its Quad K12 and all Close Combat Weapons gain <u><link=\"rule_keyword_precision\">PRECISION</link></u> (2)."
   },
   {
     "Id": "pdf_Terran_rule_marauders_upgrade_any_phase_kinetic_foam",
-    "Name": "Kinetic Foam",
+    "Name": "<color=#2596be>Kinetic Foam</color>",
     "Type": "Rule",
     "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Passive\n<b>Upgrade ability</b>\n\nIncrease this Unit's Hit Points characteristic by 1."
   },
   {
     "Id": "pdf_Terran_rule_marauders_upgrade_any_phase_veteran_of_tarsonis",
-    "Name": "Veteran Of Tarsonis",
+    "Name": "<color=#2596be>Veteran Of Tarsonis</color>",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Passive\n<b>Upgrade ability</b>\n\nWhile this Unit is <link=\"rule_keyword_within\">Within</link> 3\" of a Mission Marker, its Armour characteristic is increased by 1."
+    "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Passive\n<b>Upgrade ability</b>\n\nWhile this Unit is <u><link=\"rule_keyword_within\">Within</link></u> 3\" of a Mission Marker, its Armour characteristic is increased by 1."
+  },
+  {
+    "Id": "pdf_Terran_rule_marauders_upgrade_any_phase_veteran_of_tarsonis_effect_0",
+    "Name": "",
+    "Type": "",
+    "Description": "Armour: 4+ <u><link=\"pdf_Terran_rule_marauders_upgrade_any_phase_veteran_of_tarsonis\"><color=#65c879>(3+ — within 3\" of a mission marker)</color></link></u>",
+    "Children": []
   },
   {
     "Id": "pdf_Terran_rule_marauders_upgrade_assault_phase_laser_targeting_systems",
-    "Name": "Laser Targeting Systems",
+    "Name": "<color=#2596be>Laser Targeting Systems</color>",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Passive\n<b>Upgrade ability</b>\n\nThis Unit's Quad K12 weapon gains <link=\"rule_keyword_long_range\">LONG RANGE</link> (16\")."
+    "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Passive\n<b>Upgrade ability</b>\n\nThis Unit's Quad K12 weapon gains <u><link=\"rule_keyword_long_range\">LONG RANGE</link></u> (16\")."
+  },
+  {
+    "Id": "pdf_Terran_rule_marauders_upgrade_assault_phase_laser_targeting_systems_effect_0_heading",
+    "Name": "",
+    "Type": "",
+    "Description": "<b>QUAD K12</b>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Terran_rule_marauders_upgrade_assault_phase_laser_targeting_systems_effect_0_keywords",
+    "Name": "<color=#ffffff><u><link=\"rule_keyword_pierce\">PIERCE Armoured (2)</link></u>, <u><link=\"rule_keyword_long_range\"><color=#2596be>LONG RANGE (16\")</color></link></u></color>",
+    "Type": "Imported",
+    "Description": "<u><link=\"rule_keyword_pierce\">PIERCE Armoured (2)</link></u>, <u><link=\"rule_keyword_long_range\"><color=#2596be>LONG RANGE (16\")</color></link></u>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Terran_rule_marauders_upgrade_assault_phase_laser_targeting_systems_effect_0_table",
+    "Name": "<color=#ffffff><b>Assault Phase</b>\n<b>QUAD K12</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>12</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>3</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>Armored (D3)</nobr><pos=86%><nobr>1</nobr></b></size></align></color>",
+    "Type": "Imported",
+    "Description": "<b>Assault Phase</b>\n<b>QUAD K12</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>12</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>3</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>Armored (D3)</nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Children": []
   },
   {
     "Id": "pdf_Terran_rule_marines_movement_phase_stimpack",
     "Name": "Stimpack",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Active\n<b>Cost:</b> 1 CP\n\nThis Unit suffers <link=\"rule_keyword_non_lethal_damage\">NON-LETHAL DAMAGE</link> (2). This Unit gains <link=\"rule_keyword_buff\">BUFF</link> Speed (3). Additionally, its C-14 Rifle and all Close Combat Weapons gain <link=\"rule_keyword_precision\">PRECISION</link> (3)."
+    "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Active\n<b>Cost:</b> 1 CP\n\nThis Unit suffers <u><link=\"rule_keyword_non_lethal_damage\">NON-LETHAL DAMAGE</link></u> (2). This Unit gains <u><link=\"rule_keyword_buff\">BUFF</link></u> Speed (3). Additionally, its C-14 Rifle and all Close Combat Weapons gain <u><link=\"rule_keyword_precision\">PRECISION</link></u> (3)."
   },
   {
     "Id": "pdf_Terran_rule_marines_upgrade_assault_phase_grenades_frag",
-    "Name": "Grenades - Frag",
+    "Name": "<color=#2596be>Grenades - Frag</color>",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Passive\n<b>Upgrade ability</b>\n\nWhen this Unit makes a Ranged Attack with a C-14 Rifle and the target is <link=\"rule_keyword_within\">Within</link> 8\", that weapon's S Dice is replaced by D6."
+    "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Passive\n<b>Upgrade ability</b>\n\nWhen this Unit makes a <u><link=\"rule_chapter_8_7_3\">Ranged Attack</link></u> with a C-14 Rifle and the target is <u><link=\"rule_keyword_within\">Within</link></u> 8\", that weapon's S <u><link=\"rule_chapter_3_1\">Dice</link></u> is replaced by D6."
+  },
+  {
+    "Id": "pdf_Terran_rule_marines_upgrade_assault_phase_grenades_frag_effect_0_heading",
+    "Name": "",
+    "Type": "",
+    "Description": "<b>C-14 RIFLE</b>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Terran_rule_marines_upgrade_assault_phase_grenades_frag_effect_0_table",
+    "Name": "<color=#ffffff><b>Assault Phase</b>\n<b>C-14 RIFLE</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>12</nobr><pos=14%><nobr>All</nobr><pos=32%><nobr>2</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>Light (D3) <u><link=\"pdf_Terran_rule_marines_upgrade_assault_phase_grenades_frag\"><color=#65c879>(D6)</color></link></u></nobr><pos=86%><nobr>1</nobr></b></size></align></color>",
+    "Type": "Imported",
+    "Description": "<b>Assault Phase</b>\n<b>C-14 RIFLE</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>12</nobr><pos=14%><nobr>All</nobr><pos=32%><nobr>2</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>Light (D3) <u><link=\"pdf_Terran_rule_marines_upgrade_assault_phase_grenades_frag\"><color=#65c879>(D6)</color></link></u></nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Children": []
   },
   {
     "Id": "pdf_Terran_rule_marines_upgrade_assault_phase_slugthrower",
-    "Name": "Slugthrower",
+    "Name": "<color=#2596be>Slugthrower</color>",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Passive\n<b>Upgrade ability</b>\n\nWhen this Unit makes a Ranged Attack with a C-14 Rifle and the target is <link=\"rule_keyword_within\">Within</link> 8\", that weapon gains <link=\"rule_keyword_anti_evade\">ANTI-EVADE</link> (1)."
+    "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Passive\n<b>Upgrade ability</b>\n\nWhen this Unit makes a <u><link=\"rule_chapter_8_7_3\">Ranged Attack</link></u> with a C-14 Rifle and the target is <u><link=\"rule_keyword_within\">Within</link></u> 8\", that weapon gains <u><link=\"rule_keyword_anti_evade\">ANTI-EVADE</link></u> (1)."
+  },
+  {
+    "Id": "pdf_Terran_rule_marines_upgrade_assault_phase_slugthrower_effect_0",
+    "Name": "<color=#ffffff><u><link=\"pdf_Terran_rule_marines_upgrade_assault_phase_slugthrower\"><color=#65c879>ANTI-EVADE (1)</color></link></u></color>",
+    "Type": "Imported",
+    "Description": "<u><link=\"pdf_Terran_rule_marines_upgrade_assault_phase_slugthrower\"><color=#65c879>ANTI-EVADE (1)</color></link></u>",
+    "Children": []
   },
   {
     "Id": "pdf_Terran_rule_marines_upgrade_movement_phase_combat_shield",
-    "Name": "Combat Shield",
+    "Name": "<color=#2596be>Combat Shield</color>",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Active\n<b>Cost:</b> 1 CP\n<b>Upgrade ability</b>\n\nThis Unit is always eligible to make an Evade Roll against any Close Combat Attack targeting it and any Damage from an <link=\"rule_keyword_enemy\">Enemy</link> <link=\"rule_keyword_special_ability\">Special Ability</link>."
+    "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Active\n<b>Cost:</b> 1 CP\n<b>Upgrade ability</b>\n\nThis Unit is always eligible to make an <u><link=\"rule_chapter_8_7_4\">Evade Roll</link></u> against any Close Combat Attack targeting it and any Damage from an <u><link=\"rule_keyword_enemy\">Enemy</link></u> <u><link=\"rule_keyword_special_ability\">Special Ability</link></u>."
   },
   {
     "Id": "pdf_Terran_rule_medics_any_phase_life_support",
     "Name": "Life Support",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Reaction\n<b>Cost:</b> 1 CP\n\nUse when another <link=\"rule_keyword_friendly\">Friendly</link> Biological Unit suffers Damage <link=\"rule_keyword_within\">Within</link> 4\". Reduce the Total Damage before allocation by 1 for each model in this Unit that is Within 4\" of the damaged Unit."
+    "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Reaction\n<b>Cost:</b> 1 CP\n\nUse when another <u><link=\"rule_keyword_friendly\">Friendly</link></u> Biological Unit suffers Damage <u><link=\"rule_keyword_within\">Within</link></u> 4\". Reduce the Total Damage before allocation by 1 for each model in this Unit that is <u><link=\"rule_keyword_within\">Within</link></u> 4\" of the damaged Unit."
   },
   {
     "Id": "pdf_Terran_rule_medics_any_phase_restoration",
-    "Name": "Restoration",
+    "Name": "Restoration (Medics)",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Reaction\n<b>Cost:</b> 1 CP\n\nUse when a <link=\"rule_keyword_friendly\">Friendly</link> Unit <link=\"rule_keyword_within\">Within</link> 4\" receives a <link=\"rule_keyword_debuff\">DEBUFF</link>. Remove all DEBUFFS from it."
+    "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Reaction\n<b>Cost:</b> 1 CP\n\nUse when a <u><link=\"rule_keyword_friendly\">Friendly</link></u> Unit <u><link=\"rule_keyword_within\">Within</link></u> 4\" receives a <u><link=\"rule_keyword_debuff\">DEBUFF</link></u>. Remove all DEBUFFS from it."
   },
   {
     "Id": "pdf_Terran_rule_medics_movement_phase_medpack",
     "Name": "Medpack",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Active\n<b>Cost:</b> 1 CP\n\nSelect another <link=\"rule_keyword_friendly\">Friendly</link> Biological Unit <link=\"rule_keyword_within\">Within</link> 4\". Resolve the <link=\"rule_keyword_heal\">HEAL</link> (X) effect for the targeted Unit, where X is the number of models in this Unit that are Within 4\" of the target Unit."
+    "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Active\n<b>Cost:</b> 1 CP\n\nSelect another <u><link=\"rule_keyword_friendly\">Friendly</link></u> Biological Unit <u><link=\"rule_keyword_within\">Within</link></u> 4\". Resolve the <u><link=\"rule_keyword_heal\">HEAL</link></u> (X) effect for the targeted Unit, where X is the number of <u><link=\"rule_chapter_2_1\">models</link></u> in this Unit that are <u><link=\"rule_keyword_within\">Within</link></u> 4\" of the target Unit."
   },
   {
     "Id": "pdf_Terran_rule_medics_movement_phase_optical_flare",
     "Name": "Optical Flare",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Active\n<b>Cost:</b> 2 CP\n\nSelect one <link=\"rule_keyword_enemy\">Enemy</link> Unit <link=\"rule_keyword_within\">Within</link> 12\". Until the End of the Round, apply <link=\"rule_keyword_debuff\">DEBUFF</link> Range (4) to that Unit's Ranged Weapons. That Unit cannot benefit from <link=\"rule_keyword_long_range\">LONG RANGE</link>."
+    "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Active\n<b>Cost:</b> 2 CP\n\nSelect one <u><link=\"rule_keyword_enemy\">Enemy</link></u> Unit <u><link=\"rule_keyword_within\">Within</link></u> 12\". Until the End of the Round, apply <u><link=\"rule_keyword_debuff\">DEBUFF</link></u> Range (4) to that Unit's Ranged Weapons. That Unit cannot benefit from <u><link=\"rule_keyword_long_range\">LONG RANGE</link></u>."
   },
   {
     "Id": "pdf_Terran_rule_medics_upgrade_any_phase_a_13_flash_grenade_launcher",
-    "Name": "A-13 Flash Grenade Launcher",
+    "Name": "<color=#2596be>A-13 Flash Grenade Launcher</color>",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Passive\n<b>Upgrade ability</b>\n\nIncrease the <link=\"pdf_Terran_rule_medics_movement_phase_optical_flare\">Optical Flare</link> <link=\"rule_keyword_special_ability\">special ability</link>'s Range to 16\"."
+    "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Passive\n<b>Upgrade ability</b>\n\nIncrease the <u><link=\"pdf_Terran_rule_medics_movement_phase_optical_flare\">Optical Flare</link></u> <u><link=\"rule_keyword_special_ability\">special ability</link></u>'s Range to 16\"."
+  },
+  {
+    "Id": "pdf_Terran_rule_medics_upgrade_any_phase_a_13_flash_grenade_launcher_effect_0",
+    "Name": "<color=#2596be>Optical Flare (Range 16\")</color>",
+    "Type": "Rule",
+    "Description": "<b>Upgrade ability</b>\n\n<b>Phase:</b> Movement Phase\n<b>Type:</b> Active\n<b>Cost:</b> 2 CP\n\nSelect one <u><link=\"rule_keyword_enemy\">Enemy</link></u> Unit <u><link=\"rule_keyword_within\">Within</link></u> <color=#2596be>16\"</color>. Until the End of the Round, apply <u><link=\"rule_keyword_debuff\">DEBUFF</link></u> Range (4) to that Unit's Ranged Weapons. That Unit cannot benefit from <u><link=\"rule_keyword_long_range\">LONG RANGE</link></u>."
   },
   {
     "Id": "pdf_Terran_rule_medics_upgrade_any_phase_advanced_medic_facilities",
-    "Name": "Advanced Medic Facilities",
+    "Name": "<color=#2596be>Advanced Medic Facilities</color>",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Passive\n<b>Upgrade ability</b>\n\nThis Unit's <link=\"rule_keyword_supply_value\">Supply Value</link> counts as 0 when calculating the Supply Pool."
+    "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Passive\n<b>Upgrade ability</b>\n\nThis Unit's <u><link=\"rule_keyword_supply_value\">Supply Value</link></u> counts as 0 when calculating <u><link=\"rule_chapter_8_3_1\">the Supply Pool</link></u>."
+  },
+  {
+    "Id": "pdf_Terran_rule_medics_upgrade_any_phase_advanced_medic_facilities_effect_0",
+    "Name": "",
+    "Type": "",
+    "Description": "Supply: <color=#2596be>0</color> for calculating <u><link=\"rule_chapter_8_3_1\">the Supply Pool</link></u> only",
+    "Children": []
   },
   {
     "Id": "pdf_Terran_rule_medics_upgrade_any_phase_stabilizer_medpacks",
-    "Name": "Stabilizer Medpacks",
+    "Name": "<color=#2596be>Stabilizer Medpacks</color>",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Passive\n<b>Upgrade ability</b>\n\nWhen this Unit resolves a Life Support or <link=\"pdf_Terran_rule_medics_movement_phase_medpack\">Medpack</link> ability, treat it as having 1 additional model <link=\"rule_keyword_within\">Within</link> Range for calculating that ability's effects."
+    "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Passive\n<b>Upgrade ability</b>\n\nWhen this Unit resolves a <u><link=\"pdf_Terran_rule_medics_any_phase_life_support\">Life Support</link></u> or <u><link=\"pdf_Terran_rule_medics_movement_phase_medpack\">Medpack</link></u> ability, treat it as having 1 additional model <u><link=\"rule_keyword_within\">Within</link></u> Range for calculating that ability's effects."
+  },
+  {
+    "Id": "pdf_Terran_rule_medics_upgrade_any_phase_stabilizer_medpacks_effect_0",
+    "Name": "",
+    "Type": "",
+    "Description": "<u><link=\"pdf_Terran_rule_medics_any_phase_life_support\">Life Support</link></u> / <u><link=\"pdf_Terran_rule_medics_movement_phase_medpack\">Medpack</link></u>: <color=#2596be>+1 model</color> for calculating effects",
+    "Children": []
   },
   {
     "Id": "pdf_Terran_rule_nova_assault_mode_any_phase_battle_preparation",
@@ -756,272 +1959,216 @@
     "Id": "pdf_Terran_rule_nova_assault_mode_any_phase_ghost_visor",
     "Name": "Ghost Visor",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Passive\n\nWhile <link=\"rule_keyword_enemy\">Enemy</link> Units are <link=\"rule_keyword_within\">Within</link> 6\" of this Unit, they lose the <link=\"rule_keyword_hidden\">HIDDEN</link> <link=\"rule_keyword_status\">Status</link>."
-  },
-  {
-    "Id": "pdf_Terran_rule_nova_assault_mode_assault_phase_devastating_charge",
-    "Name": "Devastating Charge IMPACT (4) 4+",
-    "Type": "Rule",
-    "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Passive\n\nImmediately after this Unit completes a successful Charge, resolve the <link=\"rule_keyword_impact\">IMPACT</link> (4) 4+ effect."
+    "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Passive\n\nWhile <u><link=\"rule_keyword_enemy\">Enemy</link></u> <u><link=\"rule_chapter_2_2\">Units</link></u> are <u><link=\"rule_keyword_within\">Within</link></u> 6\" of this Unit, they lose the <u><link=\"rule_keyword_hidden\">HIDDEN</link></u> <u><link=\"rule_keyword_status\">Status</link></u>."
   },
   {
     "Id": "pdf_Terran_rule_nova_assault_mode_assault_phase_phase_reactor_suit",
     "Name": "Phase Reactor Suit",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Active\n<b>Cost:</b> 1 CP\n\nIf <link=\"rule_keyword_unengaged\">Unengaged</link>, resolve the <link=\"rule_keyword_place\">PLACE</link> (6) effect."
+    "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Active\n<b>Cost:</b> 1 CP\n\nIf <u><link=\"rule_keyword_unengaged\">Unengaged</link></u>, resolve the <u><link=\"rule_keyword_place\">PLACE</link></u> (6) effect."
   },
   {
     "Id": "pdf_Terran_rule_nova_assault_mode_movement_phase_holo_decoy",
     "Name": "Holo Decoy",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Active\n<b>Cost:</b> 1 CP\n\nResolve the <link=\"rule_keyword_summon\">SUMMON</link> (Holo Decoy) effect. Then, Holo Decoy may immediately perform a Move action."
+    "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Active\n<b>Cost:</b> 1 CP\n\nResolve the <u><link=\"rule_keyword_summon\">SUMMON</link></u> (Holo Decoy) effect. Then, Holo Decoy may immediately perform a <u><link=\"rule_chapter_8_5_2\">Move</link></u> action."
   },
   {
     "Id": "pdf_Terran_rule_nova_assault_mode_movement_phase_super_stimpack",
     "Name": "Super Stimpack",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Active\n<b>Cost:</b> 1 CP\n\nThis Unit gains <link=\"rule_keyword_buff\">BUFF</link> Speed (2). Additionally, all its Weapons gain <link=\"rule_keyword_precision\">PRECISION</link> (2)."
-  },
-  {
-    "Id": "pdf_Terran_rule_nova_stealth_mode_any_phase_battle_preparation",
-    "Name": "Battle Preparation",
-    "Type": "Rule",
-    "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Passive\n\nDuring Army Building, your army cannot include both the Nova Assault Mode Unit and the Nova Stealth Mode Unit."
-  },
-  {
-    "Id": "pdf_Terran_rule_nova_stealth_mode_any_phase_ghost_visor",
-    "Name": "Ghost Visor",
-    "Type": "Rule",
-    "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Passive\n\nWhile <link=\"rule_keyword_enemy\">Enemy</link> Units are <link=\"rule_keyword_within\">Within</link> 6\" of this Unit, they lose the <link=\"rule_keyword_hidden\">HIDDEN</link> <link=\"rule_keyword_status\">Status</link>."
+    "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Active\n<b>Cost:</b> 1 CP\n\nThis Unit gains <u><link=\"rule_keyword_buff\">BUFF</link></u> Speed (2). Additionally, all its Weapons gain <u><link=\"rule_keyword_precision\">PRECISION</link></u> (2)."
   },
   {
     "Id": "pdf_Terran_rule_nova_stealth_mode_any_phase_tactical_stealth_suit",
     "Name": "Tactical Stealth Suit",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Passive\n\nAfter this Unit fully resolves an Action, it gains the <link=\"rule_keyword_hidden\">HIDDEN</link> <link=\"rule_keyword_status\">Status</link>."
+    "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Passive\n\nAfter this Unit fully resolves an Action, it gains the <u><link=\"rule_keyword_hidden\">HIDDEN</link></u> <u><link=\"rule_keyword_status\">Status</link></u>."
   },
   {
     "Id": "pdf_Terran_rule_nova_stealth_mode_assault_phase_head_shot",
     "Name": "Head Shot",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Reaction\n<b>Cost:</b> 1 CP\n\nOnce Per Game. While this Unit is <link=\"rule_keyword_unengaged\">Unengaged</link> and has the <link=\"rule_keyword_stationary\">Stationary</link> <link=\"rule_keyword_status\">Status</link>, when it makes a Ranged Attack with its C-20A Canister Rifle, treat that weapon's Damage characteristic as 3, and it gains <link=\"rule_keyword_concentrated_fire\">CONCENTRATED FIRE</link> (1)."
+    "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Reaction\n<b>Cost:</b> 1 CP\n\nOnce Per Game. While this Unit is <u><link=\"rule_keyword_unengaged\">Unengaged</link></u> and has the <u><link=\"rule_keyword_stationary\">Stationary</link></u> <u><link=\"rule_keyword_status\">Status</link></u>, when it makes a <u><link=\"rule_chapter_8_7_3\">Ranged Attack</link></u> with its C-20A Canister Rifle, treat that weapon's Damage characteristic as 3, and it gains <u><link=\"rule_keyword_concentrated_fire\">CONCENTRATED FIRE</link></u> (1)."
   },
   {
     "Id": "pdf_Terran_rule_nova_stealth_mode_assault_phase_operational_efficiency",
     "Name": "Operational Efficiency",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Passive\n\nAfter this Unit fully resolves a Ranged Attack with its C-20A Canister Rifle, if the target <link=\"rule_keyword_enemy\">Enemy</link> Unit was Destroyed or its <link=\"rule_keyword_current_supply_value\">Current Supply Value</link> was reduced, the <link=\"rule_keyword_active_player\">active player</link> may return one of their Exhausted non-Unique Tactical Cards to its <link=\"rule_keyword_ready\">Ready</link> state."
-  },
-  {
-    "Id": "pdf_Terran_rule_nova_stealth_mode_movement_phase_holo_decoy",
-    "Name": "Holo Decoy",
-    "Type": "Rule",
-    "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Active\n<b>Cost:</b> 1 CP\n\nResolve the <link=\"rule_keyword_summon\">SUMMON</link> (Holo Decoy) effect. Then, Holo Decoy may immediately perform a Move action."
-  },
-  {
-    "Id": "pdf_Terran_rule_nova_stealth_mode_movement_phase_super_stimpack",
-    "Name": "Super Stimpack",
-    "Type": "Rule",
-    "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Active\n<b>Cost:</b> 1 CP\n\nThis Unit gains <link=\"rule_keyword_buff\">BUFF</link> Speed (2). Additionally, all its Weapons gain <link=\"rule_keyword_precision\">PRECISION</link> (2)."
+    "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Passive\n\nAfter this Unit fully resolves a <u><link=\"rule_chapter_8_7_3\">Ranged Attack</link></u> with its C-20A Canister Rifle, if the target <u><link=\"rule_keyword_enemy\">Enemy</link></u> Unit was Destroyed or its <u><link=\"rule_keyword_current_supply_value\">Current Supply Value</link></u> was reduced, the <u><link=\"rule_keyword_active_player\">active player</link></u> may return one of their Exhausted non-Unique <u><link=\"rule_chapter_5_3\">Tactical Cards</link></u> to its <u><link=\"rule_keyword_ready\">Ready</link></u> state."
   },
   {
     "Id": "pdf_Terran_rule_point_defense_drone_any_phase_gliding",
     "Name": "Gliding",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Passive\n\nThis model has <link=\"rule_keyword_displacement\">DISPLACEMENT</link>."
+    "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Passive\n\nThis model has <u><link=\"rule_keyword_displacement\">DISPLACEMENT</link></u>."
   },
   {
     "Id": "pdf_Terran_rule_point_defense_drone_any_phase_point_defense_laser",
     "Name": "Point Defense Laser",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Passive\n\nWhen another <link=\"rule_keyword_friendly\">Friendly</link> Unit <link=\"rule_keyword_within\">Within</link> 4\" is targeted by a Ranged Attack without the <link=\"rule_keyword_instant\">INSTANT</link> keyword, remove up to 2 dice from the Attack Pool. Then remove this Unit from the battlefield."
-  },
-  {
-    "Id": "pdf_Terran_rule_point_defense_drone_any_phase_structure",
-    "Name": "Structure",
-    "Type": "Rule",
-    "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Passive\n\nThis Unit cannot be Activated in any Phase and cannot perform actions. Additionally, its <link=\"rule_keyword_current_supply_value\">Current Supply Value</link> is treated as 0, and it can never Control or Contest <link=\"rule_keyword_mission_markers\">Mission Markers</link>, ignoring the standard Zero Supply Exception. This Unit cannot be a target of an ability, unless stated otherwise."
+    "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Passive\n\nWhen another <u><link=\"rule_keyword_friendly\">Friendly</link></u> Unit <u><link=\"rule_keyword_within\">Within</link></u> 4\" is targeted by a <u><link=\"rule_chapter_8_7_3\">Ranged Attack</link></u> without the <u><link=\"rule_keyword_instant\">INSTANT</link></u> keyword, remove up to 2 <u><link=\"rule_chapter_3_1\">dice</link></u> from the Attack Pool. Then remove this Unit from <u><link=\"rule_chapter_7\">the battlefield</link></u>."
   },
   {
     "Id": "pdf_Terran_rule_raven_any_phase_detection",
     "Name": "Detection",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Passive\n\nWhile <link=\"rule_keyword_enemy\">Enemy</link> Units are <link=\"rule_keyword_within\">Within</link> 6\" of this Unit, they lose the <link=\"rule_keyword_hidden\">HIDDEN</link> <link=\"rule_keyword_status\">Status</link>."
+    "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Passive\n\nWhile <u><link=\"rule_keyword_enemy\">Enemy</link></u> <u><link=\"rule_chapter_2_2\">Units</link></u> are <u><link=\"rule_keyword_within\">Within</link></u> 6\" of this Unit, they lose the <u><link=\"rule_keyword_hidden\">HIDDEN</link></u> <u><link=\"rule_keyword_status\">Status</link></u>."
   },
   {
     "Id": "pdf_Terran_rule_raven_movement_phase_anti_armour_missile",
     "Name": "Anti-Armour Missile",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Active\n<b>Cost:</b> 1 CP\n\nSelect one <link=\"rule_keyword_enemy\">Enemy</link> Unit <link=\"rule_keyword_within\">Within</link> 12\". Apply <link=\"rule_keyword_debuff\">DEBUFF</link> Armour (1)."
+    "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Active\n<b>Cost:</b> 1 CP\n\nSelect one <u><link=\"rule_keyword_enemy\">Enemy</link></u> Unit <u><link=\"rule_keyword_within\">Within</link></u> 12\". Apply <u><link=\"rule_keyword_debuff\">DEBUFF</link></u> Armour (1)."
   },
   {
     "Id": "pdf_Terran_rule_raven_movement_phase_deploy_auto_turret",
     "Name": "Deploy Auto-Turret",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Active\n<b>Cost:</b> 1 CP\n\nSet a <link=\"rule_keyword_friendly\">Friendly</link> Auto-Turret Unit <link=\"rule_keyword_within\">Within</link> 6\", and not Within the <link=\"rule_keyword_engagement_range\">Engagement Range</link> of any <link=\"rule_keyword_enemy\">Enemy</link> Unit."
+    "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Active\n<b>Cost:</b> 1 CP\n\nSet a <u><link=\"rule_keyword_friendly\">Friendly</link></u> Auto-Turret Unit <u><link=\"rule_keyword_within\">Within</link></u> 6\", and not <u><link=\"rule_keyword_within\">Within</link></u> the <u><link=\"rule_keyword_engagement_range\">Engagement Range</link></u> of any <u><link=\"rule_keyword_enemy\">Enemy</link></u> Unit."
   },
   {
     "Id": "pdf_Terran_rule_raven_upgrade_any_phase_corvid_reactor",
-    "Name": "Corvid Reactor",
+    "Name": "<color=#2596be>Corvid Reactor</color>",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Passive\n<b>Upgrade ability</b>\n\nThis Unit may resolve its first <link=\"rule_keyword_special_ability\">Special Ability</link> with the CP cost reduced by 1 if it targets the closest <link=\"rule_keyword_enemy\">Enemy</link> Unit."
+    "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Passive\n<b>Upgrade ability</b>\n\nThis Unit may resolve its first <u><link=\"rule_keyword_special_ability\">Special Ability</link></u> with the CP cost reduced by 1 if it targets the closest <u><link=\"rule_keyword_enemy\">Enemy</link></u> Unit."
   },
   {
     "Id": "pdf_Terran_rule_raven_upgrade_assault_phase_explosive_shrapnel_shells",
-    "Name": "Explosive Shrapnel Shells",
+    "Name": "<color=#2596be>Explosive Shrapnel Shells</color>",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Passive\n<b>Upgrade ability</b>\n\nThe Gauss Cannon of the Auto-Turret set by this Unit gains Surge Type: Light and S-Dice: D3+1."
+    "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Passive\n<b>Upgrade ability</b>\n\nThe Gauss Cannon of the Auto-Turret set by this Unit gains <u><link=\"rule_chapter_8_7_4\">Surge</link></u> Type: Light and S-<u><link=\"rule_chapter_3_1\">Dice</link></u>: D3+1."
   },
   {
     "Id": "pdf_Terran_rule_raven_upgrade_movement_phase_internal_tech_module",
-    "Name": "Internal Tech Module",
+    "Name": "<color=#2596be>Internal Tech Module</color>",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Passive\n<b>Upgrade ability</b>\n\nWhen this Unit is nominated to deploy from <link=\"rule_keyword_reserves\">Reserves</link>, it may Deploy from any table edge that is not a player's <link=\"rule_keyword_entry_edge\">Entry Edge</link>. This Unit cannot be set <link=\"rule_keyword_within\">Within</link> 8\" of any <link=\"rule_keyword_enemy\">Enemy</link> model."
+    "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Passive\n<b>Upgrade ability</b>\n\nWhen this Unit is nominated to deploy from <u><link=\"rule_keyword_reserves\">Reserves</link></u>, it may Deploy from any table edge that is not a player's <u><link=\"rule_keyword_entry_edge\">Entry Edge</link></u>. This Unit cannot be set <u><link=\"rule_keyword_within\">Within</link></u> 8\" of any <u><link=\"rule_keyword_enemy\">Enemy</link></u> model."
   },
   {
     "Id": "pdf_Terran_rule_raven_upgrade_movement_phase_seeker_missile",
-    "Name": "Seeker Missile",
+    "Name": "<color=#2596be>Seeker Missile</color>",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Active\n<b>Cost:</b> 1 CP\n<b>Upgrade ability</b>\n\nSelect one <link=\"rule_keyword_enemy\">Enemy</link> Unit <link=\"rule_keyword_within\">Within</link> 12\". At the End of the Assault Phase, if that Enemy Unit has the <link=\"rule_keyword_stationary\">Stationary</link> <link=\"rule_keyword_status\">Status</link> or it is Within 8'' of this Unit, it suffers <link=\"rule_keyword_hits\">HITS</link> 4 (2). If that Unit is <link=\"rule_keyword_engaged\">Engaged</link>, it is eligible to make an Evade Roll against these hits."
+    "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Active\n<b>Cost:</b> 1 CP\n<b>Upgrade ability</b>\n\nSelect one <u><link=\"rule_keyword_enemy\">Enemy</link></u> Unit <u><link=\"rule_keyword_within\">Within</link></u> 12\". At the End of the Assault Phase, if that <u><link=\"rule_keyword_enemy\">Enemy</link></u> Unit has the <u><link=\"rule_keyword_stationary\">Stationary</link></u> <u><link=\"rule_keyword_status\">Status</link></u> or it is <u><link=\"rule_keyword_within\">Within</link></u> 8'' of this Unit, it suffers <u><link=\"rule_keyword_hits\">HITS</link></u> 4 (2). If that Unit is <u><link=\"rule_keyword_engaged\">Engaged</link></u>, it is eligible to make an <u><link=\"rule_chapter_8_7_4\">Evade Roll</link></u> against these <u><link=\"rule_keyword_hits\">hits</link></u>."
   },
   {
     "Id": "pdf_Terran_rule_raynor_s_raiders_assault_phase_grenades_frag",
     "Name": "Grenades - Frag",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Passive\n\nWhen this Unit makes a Ranged Attack with a C-14 Rifle and the target is <link=\"rule_keyword_within\">Within</link> 8\", that weapon's S Dice is replaced by D6."
+    "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Passive\n\nWhen this Unit makes a <u><link=\"rule_chapter_8_7_3\">Ranged Attack</link></u> with a C-14 Rifle and the target is <u><link=\"rule_keyword_within\">Within</link></u> 8\", that weapon's S <u><link=\"rule_chapter_3_1\">Dice</link></u> is replaced by D6."
   },
   {
     "Id": "pdf_Terran_rule_raynor_s_raiders_assault_phase_slugthrower",
     "Name": "Slugthrower",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Passive\n\nWhen this Unit makes a Ranged Attack with a C-14 Rifle and the target is <link=\"rule_keyword_within\">Within</link> 8\", that weapon gains <link=\"rule_keyword_anti_evade\">ANTI-EVADE</link> (1)."
+    "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Passive\n\nWhen this Unit makes a <u><link=\"rule_chapter_8_7_3\">Ranged Attack</link></u> with a C-14 Rifle and the target is <u><link=\"rule_keyword_within\">Within</link></u> 8\", that weapon gains <u><link=\"rule_keyword_anti_evade\">ANTI-EVADE</link></u> (1)."
   },
   {
     "Id": "pdf_Terran_rule_raynor_s_raiders_movement_phase_raiders_roll",
     "Name": "Raiders Roll!",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Passive\n\nWhen this Unit is nominated to deploy from <link=\"rule_keyword_reserves\">Reserves</link>, it may resolve its <link=\"pdf_Terran_rule_raynor_s_raiders_movement_phase_stimpack\">Stimpack</link> ability with the CP cost reduced by 1 (to a minimum of 0)."
+    "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Passive\n\nWhen this Unit is nominated to deploy from <u><link=\"rule_keyword_reserves\">Reserves</link></u>, it may resolve its <u><link=\"pdf_Terran_rule_marines_movement_phase_stimpack\">Stimpack</link></u> ability with the CP cost reduced by 1 (to a minimum of 0)."
   },
   {
     "Id": "pdf_Terran_rule_raynor_s_raiders_movement_phase_rapid_reinforcements",
     "Name": "Rapid Reinforcements",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Passive\n\nWhen this Unit is nominated to deploy from <link=\"rule_keyword_reserves\">Reserves</link>, it may resolve the <link=\"rule_keyword_place\">PLACE</link> (10) effect from another <link=\"rule_keyword_friendly\">Friendly</link> Unit. No model may be set <link=\"rule_keyword_within\">Within</link> 8\" of any <link=\"rule_keyword_enemy\">Enemy</link> model. This Unit's Activation ends."
-  },
-  {
-    "Id": "pdf_Terran_rule_raynor_s_raiders_movement_phase_stimpack",
-    "Name": "Stimpack",
-    "Type": "Rule",
-    "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Active\n<b>Cost:</b> 1 CP\n\nThis Unit suffers <link=\"rule_keyword_non_lethal_damage\">NON-LETHAL DAMAGE</link> (2). This Unit gains <link=\"rule_keyword_buff\">BUFF</link> Speed (3). Additionally, its C-14 Rifle and all Close Combat Weapons gain <link=\"rule_keyword_precision\">PRECISION</link> (3)."
-  },
-  {
-    "Id": "pdf_Terran_rule_sabotage_drone_any_phase_structure",
-    "Name": "Structure",
-    "Type": "Rule",
-    "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Passive\n\nThis Unit cannot be Activated in any Phase and cannot perform actions. Additionally, its <link=\"rule_keyword_current_supply_value\">Current Supply Value</link> is treated as 0, and it can never Control or Contest <link=\"rule_keyword_mission_markers\">Mission Markers</link>, ignoring the standard Zero Supply Exception. This Unit cannot be a target of an ability, unless stated otherwise."
+    "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Passive\n\nWhen this Unit is nominated to deploy from <u><link=\"rule_keyword_reserves\">Reserves</link></u>, it may resolve the <u><link=\"rule_keyword_place\">PLACE</link></u> (10) effect from another <u><link=\"rule_keyword_friendly\">Friendly</link></u> Unit. No model may be set <u><link=\"rule_keyword_within\">Within</link></u> 8\" of any <u><link=\"rule_keyword_enemy\">Enemy</link></u> model. This Unit's Activation ends."
   },
   {
     "Id": "pdf_Terran_rule_sabotage_drone_assault_phase_have_a_nice_day",
     "Name": "Have A Nice Day",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Passive\n\nAt the End of the Assault Phase, target each Unit <link=\"rule_keyword_within\">Within</link> 3\" of this Unit (including Units with the <link=\"pdf_Terran_rule_sabotage_drone_any_phase_structure\">Structure</link> ability) suffers <link=\"rule_keyword_hits\">HITS</link> 5 (1). If an affected Unit has the Structure ability, that Unit suffers an additional HITS 5 (1)."
+    "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Passive\n\nAt the End of the Assault Phase, target each Unit <u><link=\"rule_keyword_within\">Within</link></u> 3\" of this Unit (including <u><link=\"rule_chapter_2_2\">Units</link></u> with the <u><link=\"pdf_Protoss_rule_pylon_any_phase_structure\">Structure</link></u> ability) suffers <u><link=\"rule_keyword_hits\">HITS</link></u> 5 (1). If an affected Unit has the <u><link=\"pdf_Protoss_rule_pylon_any_phase_structure\">Structure</link></u> ability, that Unit suffers an additional <u><link=\"rule_keyword_hits\">HITS</link></u> 5 (1)."
   },
   {
     "Id": "pdf_Terran_rule_siege_tank_any_phase_heavy_plating",
     "Name": "Heavy Plating",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Passive\n\nWhen this Unit resolves an Armour Roll, it gains <link=\"rule_keyword_tough\">TOUGH</link> (1), provided it does not currently have the <link=\"rule_keyword_siege_mode\">SIEGE MODE</link> <link=\"rule_keyword_status\">Status</link>."
+    "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Passive\n\nWhen this Unit resolves an <u><link=\"rule_chapter_8_7_4\">Armour Roll</link></u>, it gains <u><link=\"rule_keyword_tough\">TOUGH</link></u> (1), provided it does not currently have the <u><link=\"rule_keyword_siege_mode\">SIEGE MODE</link></u> <u><link=\"rule_keyword_status\">Status</link></u>."
   },
   {
     "Id": "pdf_Terran_rule_siege_tank_any_phase_large",
     "Name": "Large",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Passive\n\nWhen this Unit's <link=\"rule_keyword_leading_model\">Leading Model</link> moves, it cannot pass through physical gaps smaller than 3\" wide, regardless of its size. If the Leading Model's path of travel passes through, or any model in this Unit ends its movement on a Size 0 or Size 1 Impassible Terrain piece (excluding Tokens) during any movement action, that terrain piece is immediately removed from the game."
+    "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Passive\n\nWhen this Unit's <u><link=\"rule_keyword_leading_model\">Leading Model</link></u> moves, it cannot pass through physical gaps smaller than 3\" wide, regardless of its size. If <u><link=\"rule_chapter_4_3\">the Leading Model</link></u>'s path of travel passes through, or any model in this Unit ends its movement on a Size 0 or Size 1 Impassible Terrain piece (excluding <u><link=\"rule_chapter_7_3_1\">Tokens</link></u>) during any movement action, that terrain piece is immediately removed from the game."
   },
   {
     "Id": "pdf_Terran_rule_siege_tank_assault_phase_aftershock_rounds",
     "Name": "Aftershock Rounds",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Passive\n\nWhen this Unit has the <link=\"rule_keyword_siege_mode\">SIEGE MODE</link> <link=\"rule_keyword_status\">Status</link>, its Damage characteristic is treated as equal to the Size characteristic of the current target Unit (to a minimum of 1)."
-  },
-  {
-    "Id": "pdf_Terran_rule_siege_tank_assault_phase_devastating_charge",
-    "Name": "Devastating Charge IMPACT (4) 3+",
-    "Type": "Rule",
-    "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Passive\n\nImmediately after this Unit completes a successful Charge, resolve the <link=\"rule_keyword_impact\">IMPACT</link> (4) 3+ effect."
-  },
-  {
-    "Id": "pdf_Terran_rule_siege_tank_assault_phase_indomitable",
-    "Name": "Indomitable",
-    "Type": "Rule",
-    "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Passive\n\nWhile <link=\"rule_keyword_engaged\">Engaged</link>, this Unit may target and be targeted by <link=\"rule_keyword_unengaged\">Unengaged</link> <link=\"rule_keyword_enemy\">Enemy</link> Units. In both cases, the defending Unit gains an Evade Roll against those attacks."
+    "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Passive\n\nWhen this Unit has the <u><link=\"rule_keyword_siege_mode\">SIEGE MODE</link></u> <u><link=\"rule_keyword_status\">Status</link></u>, its Damage characteristic is treated as equal to the Size characteristic of the current target Unit (to a minimum of 1)."
   },
   {
     "Id": "pdf_Terran_rule_siege_tank_assault_phase_point_blank",
     "Name": "Point Blank",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Passive\n\nWhile this Unit has the <link=\"rule_keyword_siege_mode\">SIEGE MODE</link> <link=\"rule_keyword_status\">Status</link>, it cannot target <link=\"rule_keyword_enemy\">Enemy</link> Units it is <link=\"rule_keyword_engaged\">Engaged</link> with."
+    "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Passive\n\nWhile this Unit has the <u><link=\"rule_keyword_siege_mode\">SIEGE MODE</link></u> <u><link=\"rule_keyword_status\">Status</link></u>, it cannot target <u><link=\"rule_keyword_enemy\">Enemy</link></u> <u><link=\"rule_chapter_2_2\">Units</link></u> it is <u><link=\"rule_keyword_engaged\">Engaged</link></u> with."
   },
   {
     "Id": "pdf_Terran_rule_siege_tank_upgrade_assault_phase_shaped_blast",
-    "Name": "Shaped Blast",
+    "Name": "<color=#2596be>Shaped Blast</color>",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Reaction\n<b>Cost:</b> 0 CP\n<b>Upgrade ability</b>\n\nOnce per Game. When this Unit declares a Ranged Attack action. If this Unit has <link=\"rule_keyword_siege_mode\">SIEGE MODE</link> <link=\"rule_keyword_status\">Status</link>, its weapon gains <link=\"rule_keyword_pinpoint\">PINPOINT</link> and <link=\"rule_keyword_locked_in\">LOCKED IN</link> (4)."
+    "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Reaction\n<b>Cost:</b> 0 CP\n<b>Upgrade ability</b>\n\nOnce per Game. When this Unit declares a <u><link=\"rule_chapter_8_7_3\">Ranged Attack</link></u> action. If this Unit has <u><link=\"rule_keyword_siege_mode\">SIEGE MODE</link></u> <u><link=\"rule_keyword_status\">Status</link></u>, its weapon gains <u><link=\"rule_keyword_pinpoint\">PINPOINT</link></u> and <u><link=\"rule_keyword_locked_in\">LOCKED IN</link></u> (4)."
   },
   {
     "Id": "pdf_Terran_rule_siege_tank_upgrade_assault_phase_smart_shells",
-    "Name": "Smart Shells",
+    "Name": "<color=#2596be>Smart Shells</color>",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Reaction\n<b>Cost:</b> 0 CP\n<b>Upgrade ability</b>\n\nOnce per Game. When this Unit declares a Ranged Attack action. If this Unit has <link=\"rule_keyword_siege_mode\">SIEGE MODE</link> <link=\"rule_keyword_status\">Status</link>, its weapon gains <link=\"rule_keyword_indirect_fire\">INDIRECT FIRE</link> and <link=\"rule_keyword_long_range\">LONG RANGE</link> (24)."
+    "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Reaction\n<b>Cost:</b> 0 CP\n<b>Upgrade ability</b>\n\nOnce per Game. When this Unit declares a <u><link=\"rule_chapter_8_7_3\">Ranged Attack</link></u> action. If this Unit has <u><link=\"rule_keyword_siege_mode\">SIEGE MODE</link></u> <u><link=\"rule_keyword_status\">Status</link></u>, its weapon gains <u><link=\"rule_keyword_indirect_fire\">INDIRECT FIRE</link></u> and <u><link=\"rule_keyword_long_range\">LONG RANGE</link></u> (24)."
   },
   {
     "Id": "pdf_Terran_rule_siege_tank_upgrade_movement_phase_coordinated_strike",
-    "Name": "Coordinated Strike",
+    "Name": "<color=#2596be>Coordinated Strike</color>",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Active\n<b>Cost:</b> 0 CP\n<b>Upgrade ability</b>\n\nTarget a <link=\"rule_keyword_friendly\">Friendly</link> Non-<link=\"rule_keyword_engaged\">Engaged</link> Unit on the battlefield (<link=\"rule_keyword_line_of_sight\">Line of Sight</link> is not required). When this Unit resolves a Ranged Attack using the Shock Cannon weapon profile this Round, it may choose to ignore the weapon's standard Range characteristic. If it does, it may target an <link=\"rule_keyword_enemy\">Enemy</link> Unit that is <link=\"rule_keyword_within\">Within</link> 8\" of, and <link=\"rule_keyword_visible\">Visible</link> to, a model of the selected Friendly Unit, treating that model as the acting model."
+    "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Active\n<b>Cost:</b> 0 CP\n<b>Upgrade ability</b>\n\nTarget a <u><link=\"rule_keyword_friendly\">Friendly</link></u> Non-<u><link=\"rule_keyword_engaged\">Engaged</link></u> Unit on <u><link=\"rule_chapter_7\">the battlefield</link></u> (<u><link=\"rule_keyword_line_of_sight\">Line of Sight</link></u> is not required). When this Unit resolves a <u><link=\"rule_chapter_8_7_3\">Ranged Attack</link></u> using the Shock Cannon weapon profile this Round, it may choose to ignore the weapon's standard Range characteristic. If it does, it may target an <u><link=\"rule_keyword_enemy\">Enemy</link></u> Unit that is <u><link=\"rule_keyword_within\">Within</link></u> 8\" of, and <u><link=\"rule_keyword_visible\">Visible</link></u> to, a model of the selected <u><link=\"rule_keyword_friendly\">Friendly</link></u> Unit, treating that model as the acting model."
   },
   {
     "Id": "pdf_Terran_rule_siege_tank_upgrade_movement_phase_mode_transformation",
-    "Name": "Mode Transformation",
+    "Name": "<color=#2596be>Mode Transformation</color>",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Active\n<b>Cost:</b> 1 CP\n<b>Upgrade ability</b>\n\nThe active Unit gains or loses the <link=\"rule_keyword_siege_mode\">SIEGE MODE</link> <link=\"rule_keyword_status\">Status</link>. While this Unit has the SIEGE MODE Status, its Size characteristic is treated as if it was 3."
+    "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Active\n<b>Cost:</b> 1 CP\n<b>Upgrade ability</b>\n\nThe active Unit gains or loses the <u><link=\"rule_keyword_siege_mode\">SIEGE MODE</link></u> <u><link=\"rule_keyword_status\">Status</link></u>. While this Unit has the <u><link=\"rule_keyword_siege_mode\">SIEGE MODE</link></u> <u><link=\"rule_keyword_status\">Status</link></u>, its Size characteristic is treated as if it was 3."
   },
   {
     "Id": "pdf_Terran_rule_spec_ops_marauder_marauder_any_phase_spec_ops_armour",
     "Name": "Spec Ops Armour",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Active\n<b>Cost:</b> 1 CP\n\nThis Unit gains the <link=\"rule_keyword_hidden\">HIDDEN</link> <link=\"rule_keyword_status\">Status</link> until it performs another action."
+    "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Active\n<b>Cost:</b> 1 CP\n\nThis Unit gains the <u><link=\"rule_keyword_hidden\">HIDDEN</link></u> <u><link=\"rule_keyword_status\">Status</link></u> until it performs another action."
   },
   {
     "Id": "pdf_Terran_rule_spec_ops_marauder_marauder_assault_phase_magrail_munitions",
     "Name": "Magrail Munitions",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Passive\n\nThis Unit's first Attack in the game with its Quad K12 gains <link=\"rule_keyword_pierce\">PIERCE</link> Armoured (3)."
+    "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Passive\n\nThis Unit's first Attack in the game with its Quad K12 gains <u><link=\"rule_keyword_pierce\">PIERCE</link></u> Armoured (3)."
   },
   {
     "Id": "pdf_Terran_rule_spec_ops_marauder_marauder_assault_phase_suppression_shells",
     "Name": "Suppression Shells",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Reaction\n<b>Cost:</b> 1 CP\n\nWhen an <link=\"rule_keyword_enemy\">Enemy</link> declares a Charge against a <link=\"rule_keyword_friendly\">Friendly</link> Unit <link=\"rule_keyword_within\">Within</link> 8\", that Enemy gains <link=\"rule_keyword_debuff\">DEBUFF</link> Speed (3)."
+    "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Reaction\n<b>Cost:</b> 1 CP\n\nWhen an <u><link=\"rule_keyword_enemy\">Enemy</link></u> declares a <u><link=\"rule_chapter_8_7_7\">Charge</link></u> against a <u><link=\"rule_keyword_friendly\">Friendly</link></u> Unit <u><link=\"rule_keyword_within\">Within</link></u> 8\", that <u><link=\"rule_keyword_enemy\">Enemy</link></u> gains <u><link=\"rule_keyword_debuff\">DEBUFF</link></u> Speed (3)."
   },
   {
     "Id": "pdf_Terran_rule_spec_ops_marauder_marauder_movement_phase_commando_stimpack",
     "Name": "Commando Stimpack",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Active\n<b>Cost:</b> 1 CP\n\nThis Unit gains <link=\"rule_keyword_buff\">BUFF</link> Speed (3). Additionally, its Quad K12 and all Close Combat Weapons gain <link=\"rule_keyword_precision\">PRECISION</link> (2)."
+    "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Active\n<b>Cost:</b> 1 CP\n\nThis Unit gains <u><link=\"rule_keyword_buff\">BUFF</link></u> Speed (3). Additionally, its Quad K12 and all Close Combat Weapons gain <u><link=\"rule_keyword_precision\">PRECISION</link></u> (2)."
   },
   {
-    "Id": "prof_marine_phase_assault_phase",
+    "Id": "prof_marine_selected_options",
     "Name": "",
-    "Type": "",
-    "Description": "<b>Assault Phase</b>",
+    "Type": "Profile",
+    "Description": "",
     "Children": []
   },
   {
-    "Id": "prof_marine_phase_melee_phase",
+    "Id": "prof_marine_stats",
     "Name": "",
-    "Type": "",
-    "Description": "<b>Melee Phase</b>",
-    "Children": []
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "stat_marine"
+      }
+    ]
   }
 ]

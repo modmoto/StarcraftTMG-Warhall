@@ -1,1 +1,812 @@
-[]
+[
+  {
+    "UnitId": "pdf_Zerg_unit_corpsers_roach",
+    "ProfileId": "pdf_Zerg_profile_corpsers_roach",
+    "OptionId": "Burrow Ambush",
+    "ReferencedItemsToRemove": [],
+    "ReferencedItemsToAdd": [
+      {
+        "Id": "pdf_Zerg_profile_corpsers_roach_selected_options",
+        "Ref": [
+          {
+            "Id": "pdf_Zerg_rule_corpsers_roach_upgrade_movement_phase_burrow_ambush"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "UnitId": "pdf_Zerg_unit_corpsers_roach",
+    "ProfileId": "pdf_Zerg_profile_corpsers_roach",
+    "OptionId": "Glial Reconstitution",
+    "ReferencedItemsToRemove": [],
+    "ReferencedItemsToAdd": [
+      {
+        "Id": "pdf_Zerg_profile_corpsers_roach_selected_options",
+        "Ref": [
+          {
+            "Id": "pdf_Zerg_rule_corpsers_roach_upgrade_movement_phase_glial_reconstitution"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "UnitId": "pdf_Zerg_unit_corpsers_roach",
+    "ProfileId": "pdf_Zerg_profile_corpsers_roach",
+    "OptionId": "Hydriodic Bile",
+    "ReferencedItemsToRemove": [
+      {
+        "Id": "pdf_Zerg_equipment_corpsers_roach_default_2_slot",
+        "Ref": [
+          {
+            "Id": "pdf_Zerg_equipment_corpsers_roach_default_2_body",
+            "Ref": [
+              {
+                "Id": "pdf_Zerg_equipment_corpsers_roach_default_2_table"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "ReferencedItemsToAdd": [
+      {
+        "Id": "pdf_Zerg_profile_corpsers_roach_selected_options",
+        "Ref": [
+          {
+            "Id": "pdf_Zerg_rule_corpsers_roach_upgrade_assault_phase_hydriodic_bile"
+          }
+        ]
+      },
+      {
+        "Id": "pdf_Zerg_equipment_corpsers_roach_default_2_slot",
+        "Ref": [
+          {
+            "Id": "pdf_Zerg_equipment_corpsers_roach_default_2_body",
+            "Ref": [
+              {
+                "Id": "pdf_Zerg_rule_corpsers_roach_upgrade_assault_phase_hydriodic_bile_effect_0_table"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "UnitId": "pdf_Zerg_unit_corpsers_roach",
+    "ProfileId": "pdf_Zerg_profile_corpsers_roach",
+    "OptionId": "Tunneling Claws",
+    "ReferencedItemsToRemove": [],
+    "ReferencedItemsToAdd": [
+      {
+        "Id": "pdf_Zerg_profile_corpsers_roach_selected_options",
+        "Ref": [
+          {
+            "Id": "pdf_Zerg_rule_corpsers_roach_upgrade_any_phase_tunneling_claws"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "UnitId": "pdf_Zerg_unit_defiler",
+    "ProfileId": "pdf_Zerg_profile_defiler",
+    "OptionId": "Burrow Ambush",
+    "ReferencedItemsToRemove": [],
+    "ReferencedItemsToAdd": [
+      {
+        "Id": "pdf_Zerg_profile_defiler_selected_options",
+        "Ref": [
+          {
+            "Id": "pdf_Zerg_rule_defiler_upgrade_movement_phase_burrow_ambush"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "UnitId": "pdf_Zerg_unit_defiler",
+    "ProfileId": "pdf_Zerg_profile_defiler",
+    "OptionId": "Cancerous Bite",
+    "ReferencedItemsToRemove": [
+      {
+        "Id": "pdf_Zerg_equipment_defiler_default_3_slot",
+        "Ref": [
+          {
+            "Id": "pdf_Zerg_equipment_defiler_default_3_body",
+            "Ref": [
+              {
+                "Id": "pdf_Zerg_equipment_defiler_default_3_table"
+              },
+              {
+                "Id": "pdf_Zerg_equipment_defiler_upgrade_2_table"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Id": "pdf_Zerg_equipment_defiler_default_3_slot",
+        "Ref": [
+          {
+            "Id": "pdf_Zerg_equipment_defiler_default_3_keyword_row",
+            "Ref": [
+              {
+                "Id": "pdf_Zerg_equipment_defiler_upgrade_2_keywords"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "ReferencedItemsToAdd": [
+      {
+        "Id": "pdf_Zerg_profile_defiler_selected_options",
+        "Ref": [
+          {
+            "Id": "pdf_Zerg_equipment_defiler_upgrade_2_choice"
+          }
+        ]
+      },
+      {
+        "Id": "pdf_Zerg_equipment_defiler_default_3_slot",
+        "Ref": [
+          {
+            "Id": "pdf_Zerg_equipment_defiler_default_3_body",
+            "Ref": [
+              {
+                "Id": "pdf_Zerg_equipment_defiler_upgrade_2_table"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Id": "pdf_Zerg_equipment_defiler_default_3_slot",
+        "Ref": [
+          {
+            "Id": "pdf_Zerg_equipment_defiler_default_3_keyword_row",
+            "Ref": [
+              {
+                "Id": "pdf_Zerg_equipment_defiler_upgrade_2_keywords"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "UnitId": "pdf_Zerg_unit_defiler",
+    "ProfileId": "pdf_Zerg_profile_defiler",
+    "OptionId": "Plague",
+    "ReferencedItemsToRemove": [],
+    "ReferencedItemsToAdd": [
+      {
+        "Id": "pdf_Zerg_profile_defiler_selected_options",
+        "Ref": [
+          {
+            "Id": "pdf_Zerg_rule_defiler_upgrade_assault_phase_plague"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "UnitId": "pdf_Zerg_unit_hydralisks",
+    "ProfileId": "pdf_Zerg_profile_hydralisks",
+    "OptionId": "Ancillary Carapace",
+    "ReferencedItemsToRemove": [],
+    "ReferencedItemsToAdd": [
+      {
+        "Id": "pdf_Zerg_profile_hydralisks_selected_options",
+        "Ref": [
+          {
+            "Id": "pdf_Zerg_rule_hydralisks_upgrade_any_phase_ancillary_carapace"
+          }
+        ]
+      },
+      {
+        "Id": "pdf_Zerg_profile_hydralisks_selected_options",
+        "Ref": [
+          {
+            "Id": "pdf_Zerg_rule_hydralisks_upgrade_any_phase_ancillary_carapace_effect_0"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "UnitId": "pdf_Zerg_unit_hydralisks",
+    "ProfileId": "pdf_Zerg_profile_hydralisks",
+    "OptionId": "Burrow Ambush",
+    "ReferencedItemsToRemove": [],
+    "ReferencedItemsToAdd": [
+      {
+        "Id": "pdf_Zerg_profile_hydralisks_selected_options",
+        "Ref": [
+          {
+            "Id": "pdf_Zerg_rule_corpsers_roach_upgrade_movement_phase_burrow_ambush"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "UnitId": "pdf_Zerg_unit_hydralisks",
+    "ProfileId": "pdf_Zerg_profile_hydralisks",
+    "OptionId": "Grooved Spines",
+    "ReferencedItemsToRemove": [],
+    "ReferencedItemsToAdd": [
+      {
+        "Id": "pdf_Zerg_profile_hydralisks_selected_options",
+        "Ref": [
+          {
+            "Id": "pdf_Zerg_rule_hydralisks_upgrade_assault_phase_grooved_spines"
+          }
+        ]
+      },
+      {
+        "Id": "pdf_Zerg_equipment_hydralisks_default_1_slot",
+        "Ref": [
+          {
+            "Id": "pdf_Zerg_equipment_hydralisks_default_1_keyword_row",
+            "Ref": [
+              {
+                "Id": "pdf_Zerg_rule_hydralisks_upgrade_assault_phase_grooved_spines_effect_0_keywords"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "UnitId": "pdf_Zerg_unit_hydralisks",
+    "ProfileId": "pdf_Zerg_profile_hydralisks",
+    "OptionId": "Lurking",
+    "ReferencedItemsToRemove": [
+      {
+        "Id": "pdf_Zerg_profile_hydralisks_stats",
+        "Ref": [
+          {
+            "Id": "pdf_Zerg_stat_hydralisks"
+          }
+        ]
+      }
+    ],
+    "ReferencedItemsToAdd": [
+      {
+        "Id": "pdf_Zerg_profile_hydralisks_selected_options",
+        "Ref": [
+          {
+            "Id": "pdf_Zerg_rule_hydralisks_upgrade_any_phase_lurking"
+          }
+        ]
+      },
+      {
+        "Id": "pdf_Zerg_profile_hydralisks_stats",
+        "Ref": [
+          {
+            "Id": "pdf_Zerg_rule_hydralisks_upgrade_any_phase_lurking_effect_0"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "UnitId": "pdf_Zerg_unit_queen",
+    "ProfileId": "pdf_Zerg_profile_queen",
+    "OptionId": "Creep Speed",
+    "ReferencedItemsToRemove": [
+      {
+        "Id": "pdf_Zerg_profile_queen_stats",
+        "Ref": [
+          {
+            "Id": "pdf_Zerg_stat_queen"
+          }
+        ]
+      }
+    ],
+    "ReferencedItemsToAdd": [
+      {
+        "Id": "pdf_Zerg_profile_queen_selected_options",
+        "Ref": [
+          {
+            "Id": "pdf_Zerg_rule_queen_upgrade_any_phase_creep_speed"
+          }
+        ]
+      },
+      {
+        "Id": "pdf_Zerg_profile_queen_stats",
+        "Ref": [
+          {
+            "Id": "pdf_Zerg_rule_queen_upgrade_any_phase_creep_speed_effect_0"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "UnitId": "pdf_Zerg_unit_queen",
+    "ProfileId": "pdf_Zerg_profile_queen",
+    "OptionId": "Domineering Presence",
+    "ReferencedItemsToRemove": [],
+    "ReferencedItemsToAdd": [
+      {
+        "Id": "pdf_Zerg_profile_queen_selected_options",
+        "Ref": [
+          {
+            "Id": "pdf_Zerg_rule_queen_upgrade_movement_phase_domineering_presence"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "UnitId": "pdf_Zerg_unit_raptors_zergling",
+    "ProfileId": "pdf_Zerg_profile_raptors_zergling",
+    "OptionId": "Adrenal Glands",
+    "ReferencedItemsToRemove": [],
+    "ReferencedItemsToAdd": [
+      {
+        "Id": "pdf_Zerg_profile_raptors_zergling_selected_options",
+        "Ref": [
+          {
+            "Id": "pdf_Zerg_rule_raptors_zergling_upgrade_combat_phase_adrenal_glands"
+          }
+        ]
+      },
+      {
+        "Id": "pdf_Zerg_equipment_raptors_zergling_default_2_slot",
+        "Ref": [
+          {
+            "Id": "pdf_Zerg_equipment_raptors_zergling_default_2_keyword_row",
+            "Ref": [
+              {
+                "Id": "pdf_Zerg_rule_raptors_zergling_upgrade_combat_phase_adrenal_glands_effect_0"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "UnitId": "pdf_Zerg_unit_raptors_zergling",
+    "ProfileId": "pdf_Zerg_profile_raptors_zergling",
+    "OptionId": "Burrow Ambush",
+    "ReferencedItemsToRemove": [],
+    "ReferencedItemsToAdd": [
+      {
+        "Id": "pdf_Zerg_profile_raptors_zergling_selected_options",
+        "Ref": [
+          {
+            "Id": "pdf_Zerg_rule_corpsers_roach_upgrade_movement_phase_burrow_ambush"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "UnitId": "pdf_Zerg_unit_raptors_zergling",
+    "ProfileId": "pdf_Zerg_profile_raptors_zergling",
+    "OptionId": "Shredding Claws",
+    "ReferencedItemsToRemove": [
+      {
+        "Id": "pdf_Zerg_equipment_raptors_zergling_default_2_slot",
+        "Ref": [
+          {
+            "Id": "pdf_Zerg_equipment_raptors_zergling_default_2_body",
+            "Ref": [
+              {
+                "Id": "pdf_Zerg_equipment_raptors_zergling_default_2_table"
+              },
+              {
+                "Id": "pdf_Zerg_equipment_raptors_zergling_upgrade_1_table"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "ReferencedItemsToAdd": [
+      {
+        "Id": "pdf_Zerg_profile_raptors_zergling_selected_options",
+        "Ref": [
+          {
+            "Id": "pdf_Zerg_equipment_raptors_zergling_upgrade_1_choice"
+          }
+        ]
+      },
+      {
+        "Id": "pdf_Zerg_equipment_raptors_zergling_default_2_slot",
+        "Ref": [
+          {
+            "Id": "pdf_Zerg_equipment_raptors_zergling_default_2_body",
+            "Ref": [
+              {
+                "Id": "pdf_Zerg_equipment_raptors_zergling_upgrade_1_table"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "UnitId": "pdf_Zerg_unit_ravagers",
+    "ProfileId": "pdf_Zerg_profile_ravagers",
+    "OptionId": "Bloated Bile Ducts",
+    "ReferencedItemsToRemove": [
+      {
+        "Id": "pdf_Zerg_rule_ravagers_movement_phase_corrosive_bile"
+      }
+    ],
+    "ReferencedItemsToAdd": [
+      {
+        "Id": "pdf_Zerg_profile_ravagers_selected_options",
+        "Ref": [
+          {
+            "Id": "pdf_Zerg_rule_ravagers_upgrade_any_phase_bloated_bile_ducts"
+          }
+        ]
+      },
+      {
+        "Id": "pdf_Zerg_profile_ravagers_selected_options",
+        "Ref": [
+          {
+            "Id": "pdf_Zerg_rule_ravagers_upgrade_any_phase_bloated_bile_ducts_effect_0"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "UnitId": "pdf_Zerg_unit_ravagers",
+    "ProfileId": "pdf_Zerg_profile_ravagers",
+    "OptionId": "Burrow Ambush",
+    "ReferencedItemsToRemove": [],
+    "ReferencedItemsToAdd": [
+      {
+        "Id": "pdf_Zerg_profile_ravagers_selected_options",
+        "Ref": [
+          {
+            "Id": "pdf_Zerg_rule_corpsers_roach_upgrade_movement_phase_burrow_ambush"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "UnitId": "pdf_Zerg_unit_ravagers",
+    "ProfileId": "pdf_Zerg_profile_ravagers",
+    "OptionId": "Potent Bile",
+    "ReferencedItemsToRemove": [],
+    "ReferencedItemsToAdd": [
+      {
+        "Id": "pdf_Zerg_profile_ravagers_selected_options",
+        "Ref": [
+          {
+            "Id": "pdf_Zerg_rule_ravagers_upgrade_assault_phase_potent_bile"
+          }
+        ]
+      },
+      {
+        "Id": "pdf_Zerg_profile_ravagers_selected_options",
+        "Ref": [
+          {
+            "Id": "pdf_Zerg_rule_ravagers_upgrade_assault_phase_potent_bile_effect_0"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "UnitId": "pdf_Zerg_unit_roaches",
+    "ProfileId": "pdf_Zerg_profile_roaches",
+    "OptionId": "Burrow Ambush",
+    "ReferencedItemsToRemove": [],
+    "ReferencedItemsToAdd": [
+      {
+        "Id": "pdf_Zerg_profile_roaches_selected_options",
+        "Ref": [
+          {
+            "Id": "pdf_Zerg_rule_corpsers_roach_upgrade_movement_phase_burrow_ambush"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "UnitId": "pdf_Zerg_unit_roaches",
+    "ProfileId": "pdf_Zerg_profile_roaches",
+    "OptionId": "Glial Reconstitution",
+    "ReferencedItemsToRemove": [],
+    "ReferencedItemsToAdd": [
+      {
+        "Id": "pdf_Zerg_profile_roaches_selected_options",
+        "Ref": [
+          {
+            "Id": "pdf_Zerg_rule_corpsers_roach_upgrade_movement_phase_glial_reconstitution"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "UnitId": "pdf_Zerg_unit_roaches",
+    "ProfileId": "pdf_Zerg_profile_roaches",
+    "OptionId": "Hydriodic Bile",
+    "ReferencedItemsToRemove": [
+      {
+        "Id": "pdf_Zerg_equipment_roaches_default_1_slot",
+        "Ref": [
+          {
+            "Id": "pdf_Zerg_equipment_roaches_default_1_body",
+            "Ref": [
+              {
+                "Id": "pdf_Zerg_equipment_roaches_default_1_table"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "ReferencedItemsToAdd": [
+      {
+        "Id": "pdf_Zerg_profile_roaches_selected_options",
+        "Ref": [
+          {
+            "Id": "pdf_Zerg_rule_corpsers_roach_upgrade_assault_phase_hydriodic_bile"
+          }
+        ]
+      },
+      {
+        "Id": "pdf_Zerg_equipment_roaches_default_1_slot",
+        "Ref": [
+          {
+            "Id": "pdf_Zerg_equipment_roaches_default_1_body",
+            "Ref": [
+              {
+                "Id": "pdf_Zerg_rule_roaches_upgrade_assault_phase_hydriodic_bile_effect_0_table"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "UnitId": "pdf_Zerg_unit_roaches",
+    "ProfileId": "pdf_Zerg_profile_roaches",
+    "OptionId": "Tunneling Claws",
+    "ReferencedItemsToRemove": [],
+    "ReferencedItemsToAdd": [
+      {
+        "Id": "pdf_Zerg_profile_roaches_selected_options",
+        "Ref": [
+          {
+            "Id": "pdf_Zerg_rule_corpsers_roach_upgrade_any_phase_tunneling_claws"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "UnitId": "pdf_Zerg_unit_swarmlings",
+    "ProfileId": "pdf_Zerg_profile_swarmlings",
+    "OptionId": "Burrow Ambush",
+    "ReferencedItemsToRemove": [],
+    "ReferencedItemsToAdd": [
+      {
+        "Id": "pdf_Zerg_profile_swarmlings_selected_options",
+        "Ref": [
+          {
+            "Id": "pdf_Zerg_rule_corpsers_roach_upgrade_movement_phase_burrow_ambush"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "UnitId": "pdf_Zerg_unit_viles_roach",
+    "ProfileId": "pdf_Zerg_profile_viles_roach",
+    "OptionId": "Burrow Ambush",
+    "ReferencedItemsToRemove": [],
+    "ReferencedItemsToAdd": [
+      {
+        "Id": "pdf_Zerg_profile_viles_roach_selected_options",
+        "Ref": [
+          {
+            "Id": "pdf_Zerg_rule_corpsers_roach_upgrade_movement_phase_burrow_ambush"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "UnitId": "pdf_Zerg_unit_viles_roach",
+    "ProfileId": "pdf_Zerg_profile_viles_roach",
+    "OptionId": "Glial Reconstitution",
+    "ReferencedItemsToRemove": [],
+    "ReferencedItemsToAdd": [
+      {
+        "Id": "pdf_Zerg_profile_viles_roach_selected_options",
+        "Ref": [
+          {
+            "Id": "pdf_Zerg_rule_viles_roach_upgrade_movement_phase_glial_reconstitution"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "UnitId": "pdf_Zerg_unit_viles_roach",
+    "ProfileId": "pdf_Zerg_profile_viles_roach",
+    "OptionId": "Hydriodic Bile",
+    "ReferencedItemsToRemove": [
+      {
+        "Id": "pdf_Zerg_equipment_viles_roach_default_1_slot",
+        "Ref": [
+          {
+            "Id": "pdf_Zerg_equipment_viles_roach_default_1_body",
+            "Ref": [
+              {
+                "Id": "pdf_Zerg_equipment_viles_roach_default_1_table"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "ReferencedItemsToAdd": [
+      {
+        "Id": "pdf_Zerg_profile_viles_roach_selected_options",
+        "Ref": [
+          {
+            "Id": "pdf_Zerg_rule_corpsers_roach_upgrade_assault_phase_hydriodic_bile"
+          }
+        ]
+      },
+      {
+        "Id": "pdf_Zerg_equipment_viles_roach_default_1_slot",
+        "Ref": [
+          {
+            "Id": "pdf_Zerg_equipment_viles_roach_default_1_body",
+            "Ref": [
+              {
+                "Id": "pdf_Zerg_rule_viles_roach_upgrade_assault_phase_hydriodic_bile_effect_0_table"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "UnitId": "pdf_Zerg_unit_viles_roach",
+    "ProfileId": "pdf_Zerg_profile_viles_roach",
+    "OptionId": "Tunneling Claws",
+    "ReferencedItemsToRemove": [],
+    "ReferencedItemsToAdd": [
+      {
+        "Id": "pdf_Zerg_profile_viles_roach_selected_options",
+        "Ref": [
+          {
+            "Id": "pdf_Zerg_rule_viles_roach_upgrade_movement_phase_tunneling_claws"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "UnitId": "pdf_Zerg_unit_zagara",
+    "ProfileId": "pdf_Zerg_profile_zagara",
+    "OptionId": "Broodmother",
+    "ReferencedItemsToRemove": [],
+    "ReferencedItemsToAdd": [
+      {
+        "Id": "pdf_Zerg_profile_zagara_selected_options",
+        "Ref": [
+          {
+            "Id": "pdf_Zerg_rule_zagara_upgrade_movement_phase_broodmother"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "UnitId": "pdf_Zerg_unit_zerglings",
+    "ProfileId": "pdf_Zerg_profile_zerglings",
+    "OptionId": "Adrenal Glands",
+    "ReferencedItemsToRemove": [],
+    "ReferencedItemsToAdd": [
+      {
+        "Id": "pdf_Zerg_profile_zerglings_selected_options",
+        "Ref": [
+          {
+            "Id": "pdf_Zerg_rule_raptors_zergling_upgrade_combat_phase_adrenal_glands"
+          }
+        ]
+      },
+      {
+        "Id": "pdf_Zerg_equipment_zerglings_default_2_slot",
+        "Ref": [
+          {
+            "Id": "pdf_Zerg_equipment_zerglings_default_2_keyword_row",
+            "Ref": [
+              {
+                "Id": "pdf_Zerg_rule_zerglings_upgrade_combat_phase_adrenal_glands_effect_0"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "UnitId": "pdf_Zerg_unit_zerglings",
+    "ProfileId": "pdf_Zerg_profile_zerglings",
+    "OptionId": "Burrow Ambush",
+    "ReferencedItemsToRemove": [],
+    "ReferencedItemsToAdd": [
+      {
+        "Id": "pdf_Zerg_profile_zerglings_selected_options",
+        "Ref": [
+          {
+            "Id": "pdf_Zerg_rule_corpsers_roach_upgrade_movement_phase_burrow_ambush"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "UnitId": "pdf_Zerg_unit_zerglings",
+    "ProfileId": "pdf_Zerg_profile_zerglings",
+    "OptionId": "Shredding Claws",
+    "ReferencedItemsToRemove": [
+      {
+        "Id": "pdf_Zerg_equipment_zerglings_default_2_slot",
+        "Ref": [
+          {
+            "Id": "pdf_Zerg_equipment_zerglings_default_2_body",
+            "Ref": [
+              {
+                "Id": "pdf_Zerg_equipment_zerglings_default_2_table"
+              },
+              {
+                "Id": "pdf_Zerg_equipment_zerglings_upgrade_1_table"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "ReferencedItemsToAdd": [
+      {
+        "Id": "pdf_Zerg_profile_zerglings_selected_options",
+        "Ref": [
+          {
+            "Id": "pdf_Zerg_equipment_raptors_zergling_upgrade_1_choice"
+          }
+        ]
+      },
+      {
+        "Id": "pdf_Zerg_equipment_zerglings_default_2_slot",
+        "Ref": [
+          {
+            "Id": "pdf_Zerg_equipment_zerglings_default_2_body",
+            "Ref": [
+              {
+                "Id": "pdf_Zerg_equipment_zerglings_upgrade_1_table"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

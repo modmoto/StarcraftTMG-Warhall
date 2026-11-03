@@ -1,1 +1,98 @@
-[]
+[
+  {
+    "UnitId": "pdf_Terran_unit_goliath",
+    "OptionId": "Ares-Class Targeting System"
+  },
+  {
+    "UnitId": "pdf_Terran_unit_goliath",
+    "OptionId": "Haywire Missiles"
+  },
+  {
+    "UnitId": "pdf_Terran_unit_goliath",
+    "OptionId": "Scatter Missiles"
+  },
+  {
+    "UnitId": "pdf_Terran_unit_jim_raynor",
+    "OptionId": "C-14 Rifle"
+  },
+  {
+    "UnitId": "pdf_Terran_unit_marauders",
+    "OptionId": "Kinetic Foam"
+  },
+  {
+    "UnitId": "pdf_Terran_unit_marauders",
+    "OptionId": "Laser Targeting Systems"
+  },
+  {
+    "UnitId": "pdf_Terran_unit_marauders",
+    "OptionId": "Veteran Of Tarsonis"
+  },
+  {
+    "UnitId": "pdf_Terran_unit_medics",
+    "OptionId": "A-13 Flash Grenade Launcher"
+  },
+  {
+    "UnitId": "pdf_Terran_unit_medics",
+    "OptionId": "Advanced Medic Facilities"
+  },
+  {
+    "UnitId": "pdf_Terran_unit_medics",
+    "OptionId": "Stabilizer Medpacks"
+  },
+  {
+    "UnitId": "pdf_Terran_unit_raven",
+    "OptionId": "Corvid Reactor"
+  },
+  {
+    "UnitId": "pdf_Terran_unit_raven",
+    "OptionId": "Explosive Shrapnel Shells"
+  },
+  {
+    "UnitId": "pdf_Terran_unit_raven",
+    "OptionId": "Internal Tech Module"
+  },
+  {
+    "UnitId": "pdf_Terran_unit_raven",
+    "OptionId": "Seeker Missile"
+  },
+  {
+    "UnitId": "pdf_Terran_unit_siege_tank",
+    "OptionId": "Coordinated Strike"
+  },
+  {
+    "UnitId": "pdf_Terran_unit_siege_tank",
+    "OptionId": "Mode Transformation"
+  },
+  {
+    "UnitId": "pdf_Terran_unit_siege_tank",
+    "OptionId": "Shaped Blast"
+  },
+  {
+    "UnitId": "pdf_Terran_unit_siege_tank",
+    "OptionId": "Smart Shells"
+  },
+  {
+    "UnitId": "unit_marine",
+    "OptionId": "Agg-12"
+  },
+  {
+    "UnitId": "unit_marine",
+    "OptionId": "Bayonet"
+  },
+  {
+    "UnitId": "unit_marine",
+    "OptionId": "Combat Shield"
+  },
+  {
+    "UnitId": "unit_marine",
+    "OptionId": "Grenades - Frag"
+  },
+  {
+    "UnitId": "unit_marine",
+    "OptionId": "Rocket Launcher"
+  },
+  {
+    "UnitId": "unit_marine",
+    "OptionId": "Slugthrower"
+  }
+]

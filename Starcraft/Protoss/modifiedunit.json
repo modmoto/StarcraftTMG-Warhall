@@ -1,1 +1,74 @@
-[]
+[
+  {
+    "UnitId": "pdf_Protoss_unit_adepts",
+    "OptionId": "Glaive Strike"
+  },
+  {
+    "UnitId": "pdf_Protoss_unit_adepts",
+    "OptionId": "Guidance"
+  },
+  {
+    "UnitId": "pdf_Protoss_unit_adepts",
+    "OptionId": "Resonating Glaves"
+  },
+  {
+    "UnitId": "pdf_Protoss_unit_high_templar",
+    "OptionId": "Farsight"
+  },
+  {
+    "UnitId": "pdf_Protoss_unit_high_templar",
+    "OptionId": "Psionic Storm"
+  },
+  {
+    "UnitId": "pdf_Protoss_unit_immortal",
+    "OptionId": "For The Ancients"
+  },
+  {
+    "UnitId": "pdf_Protoss_unit_immortal",
+    "OptionId": "Fury Unyielding"
+  },
+  {
+    "UnitId": "pdf_Protoss_unit_immortal",
+    "OptionId": "Left Phase Disruptor"
+  },
+  {
+    "UnitId": "pdf_Protoss_unit_immortal",
+    "OptionId": "Right Phase Disruptor"
+  },
+  {
+    "UnitId": "pdf_Protoss_unit_immortal",
+    "OptionId": "Shield Overcharge"
+  },
+  {
+    "UnitId": "pdf_Protoss_unit_sentries",
+    "OptionId": "Hallucination"
+  },
+  {
+    "UnitId": "pdf_Protoss_unit_sentries",
+    "OptionId": "Solid-Field Projectors"
+  },
+  {
+    "UnitId": "pdf_Protoss_unit_stalker",
+    "OptionId": "Fury Of The Nerazim"
+  },
+  {
+    "UnitId": "pdf_Protoss_unit_stalker",
+    "OptionId": "Path Of Shadows"
+  },
+  {
+    "UnitId": "pdf_Protoss_unit_zealots",
+    "OptionId": "Leg Enhancements"
+  },
+  {
+    "UnitId": "pdf_Protoss_unit_zealots",
+    "OptionId": "My Life For Aiur"
+  },
+  {
+    "UnitId": "pdf_Protoss_unit_zealots",
+    "OptionId": "We Stand As One"
+  },
+  {
+    "UnitId": "pdf_Protoss_unit_zealots",
+    "OptionId": "Zealous Round"
+  }
+]

@@ -6,13 +6,13 @@
     "BaseId": "base_round_100",
     "Children": [
       {
-        "Id": "pdf_Zerg_stat_bile_launcher"
+        "Id": "pdf_Zerg_profile_bile_launcher_stats"
       },
       {
         "Id": "pdf_Zerg_rule_bile_launcher_any_phase_biological_structure"
       },
       {
-        "Id": "pdf_Zerg_rule_bile_launcher_any_phase_detection"
+        "Id": "pdf_Terran_rule_raven_any_phase_detection"
       },
       {
         "Id": "pdf_Zerg_rule_bile_launcher_any_phase_source_of_creep"
@@ -24,19 +24,13 @@
         "Id": "pdf_Zerg_rule_bile_launcher_movement_phase_bombard"
       },
       {
-        "Id": "pdf_Zerg_rule_bile_launcher_assault_phase_indomitable"
+        "Id": "pdf_Protoss_rule_immortal_assault_phase_indomitable"
       },
       {
-        "Id": "pdf_Zerg_profile_bile_launcher_phase_assault_phase"
+        "Id": "pdf_Zerg_profile_bile_launcher_selected_options"
       },
       {
-        "Id": "pdf_Zerg_equipment_bile_launcher_default_2_heading"
-      },
-      {
-        "Id": "pdf_Zerg_equipment_bile_launcher_default_2_table"
-      },
-      {
-        "Id": "pdf_Zerg_equipment_bile_launcher_default_2_keywords"
+        "Id": "pdf_Zerg_equipment_bile_launcher_default_2_slot"
       }
     ]
   },
@@ -47,7 +41,7 @@
     "BaseId": "base_round_50",
     "Children": [
       {
-        "Id": "pdf_Zerg_stat_corpsers_roach"
+        "Id": "pdf_Zerg_profile_corpsers_roach_stats"
       },
       {
         "Id": "pdf_Zerg_rule_corpsers_roach_any_phase_burrow"
@@ -59,25 +53,16 @@
         "Id": "pdf_Zerg_rule_corpsers_roach_assault_phase_regeneration"
       },
       {
-        "Id": "pdf_Zerg_rule_corpsers_roach_assault_phase_devastating_charge"
+        "Id": "pdf_Protoss_rule_praetor_guards_assault_phase_devastating_charge"
       },
       {
-        "Id": "pdf_Zerg_profile_corpsers_roach_phase_assault_phase"
+        "Id": "pdf_Zerg_profile_corpsers_roach_selected_options"
       },
       {
-        "Id": "pdf_Zerg_equipment_corpsers_roach_default_2_heading"
+        "Id": "pdf_Zerg_equipment_corpsers_roach_default_2_slot"
       },
       {
-        "Id": "pdf_Zerg_equipment_corpsers_roach_default_2_table"
-      },
-      {
-        "Id": "pdf_Zerg_profile_corpsers_roach_phase_melee_phase"
-      },
-      {
-        "Id": "pdf_Zerg_equipment_corpsers_roach_default_4_heading"
-      },
-      {
-        "Id": "pdf_Zerg_equipment_corpsers_roach_default_4_table"
+        "Id": "pdf_Zerg_equipment_corpsers_roach_default_4_slot"
       }
     ]
   },
@@ -88,7 +73,7 @@
     "BaseId": "base_round_80",
     "Children": [
       {
-        "Id": "pdf_Zerg_stat_defiler"
+        "Id": "pdf_Zerg_profile_defiler_stats"
       },
       {
         "Id": "pdf_Zerg_rule_defiler_any_phase_consume"
@@ -100,16 +85,13 @@
         "Id": "pdf_Zerg_rule_defiler_assault_phase_dark_swarm"
       },
       {
-        "Id": "pdf_Zerg_rule_defiler_assault_phase_devastating_charge"
+        "Id": "pdf_Protoss_rule_zeratul_assault_phase_devastating_charge"
       },
       {
-        "Id": "pdf_Zerg_profile_defiler_phase_melee_phase"
+        "Id": "pdf_Zerg_profile_defiler_selected_options"
       },
       {
-        "Id": "pdf_Zerg_equipment_defiler_default_3_heading"
-      },
-      {
-        "Id": "pdf_Zerg_equipment_defiler_default_3_table"
+        "Id": "pdf_Zerg_equipment_defiler_default_3_slot"
       }
     ]
   },
@@ -120,31 +102,22 @@
     "BaseId": "base_oval_40x100",
     "Children": [
       {
-        "Id": "pdf_Zerg_stat_hydralisks"
+        "Id": "pdf_Zerg_profile_hydralisks_stats"
       },
       {
-        "Id": "pdf_Zerg_rule_hydralisks_any_phase_squadron"
+        "Id": "pdf_Protoss_rule_stalker_any_phase_squadron"
       },
       {
         "Id": "pdf_Zerg_rule_hydralisks_assault_phase_lunge"
       },
       {
-        "Id": "pdf_Zerg_profile_hydralisks_phase_assault_phase"
+        "Id": "pdf_Zerg_profile_hydralisks_selected_options"
       },
       {
-        "Id": "pdf_Zerg_equipment_hydralisks_default_1_heading"
+        "Id": "pdf_Zerg_equipment_hydralisks_default_1_slot"
       },
       {
-        "Id": "pdf_Zerg_equipment_hydralisks_default_1_table"
-      },
-      {
-        "Id": "pdf_Zerg_profile_hydralisks_phase_melee_phase"
-      },
-      {
-        "Id": "pdf_Zerg_equipment_hydralisks_default_3_heading"
-      },
-      {
-        "Id": "pdf_Zerg_equipment_hydralisks_default_3_table"
+        "Id": "pdf_Zerg_equipment_hydralisks_default_3_slot"
       }
     ]
   },
@@ -155,10 +128,10 @@
     "BaseId": "base_round_40",
     "Children": [
       {
-        "Id": "pdf_Zerg_stat_kerrigan"
+        "Id": "pdf_Zerg_profile_kerrigan_stats"
       },
       {
-        "Id": "pdf_Zerg_rule_kerrigan_any_phase_commander"
+        "Id": "pdf_Protoss_rule_artanis_any_phase_commander"
       },
       {
         "Id": "pdf_Zerg_rule_kerrigan_movement_phase_crushing_grip"
@@ -170,28 +143,16 @@
         "Id": "pdf_Zerg_rule_kerrigan_assault_phase_leaping_strike"
       },
       {
-        "Id": "pdf_Zerg_rule_kerrigan_assault_phase_devastating_charge"
+        "Id": "pdf_Protoss_rule_zeratul_assault_phase_devastating_charge"
       },
       {
-        "Id": "pdf_Zerg_profile_kerrigan_phase_assault_phase"
+        "Id": "pdf_Zerg_profile_kerrigan_selected_options"
       },
       {
-        "Id": "pdf_Zerg_equipment_kerrigan_default_2_heading"
+        "Id": "pdf_Zerg_equipment_kerrigan_default_2_slot"
       },
       {
-        "Id": "pdf_Zerg_equipment_kerrigan_default_2_table"
-      },
-      {
-        "Id": "pdf_Zerg_profile_kerrigan_phase_melee_phase"
-      },
-      {
-        "Id": "pdf_Zerg_equipment_kerrigan_default_4_heading"
-      },
-      {
-        "Id": "pdf_Zerg_equipment_kerrigan_default_4_table"
-      },
-      {
-        "Id": "pdf_Zerg_equipment_kerrigan_default_4_keywords"
+        "Id": "pdf_Zerg_equipment_kerrigan_default_4_slot"
       }
     ]
   },
@@ -202,10 +163,10 @@
     "BaseId": "base_round_32",
     "Children": [
       {
-        "Id": "pdf_Zerg_stat_kerrigan_swarm_raptors_zergling"
+        "Id": "pdf_Zerg_profile_kerrigan_swarm_raptors_zergling_stats"
       },
       {
-        "Id": "pdf_Zerg_rule_kerrigan_swarm_raptors_zergling_any_phase_squadron"
+        "Id": "pdf_Protoss_rule_stalker_any_phase_squadron"
       },
       {
         "Id": "pdf_Zerg_rule_kerrigan_swarm_raptors_zergling_any_phase_raptor_strain"
@@ -220,16 +181,10 @@
         "Id": "pdf_Zerg_rule_kerrigan_swarm_raptors_zergling_assault_phase_adrenal_overload"
       },
       {
-        "Id": "pdf_Zerg_profile_kerrigan_swarm_raptors_zergling_phase_melee_phase"
+        "Id": "pdf_Zerg_profile_kerrigan_swarm_raptors_zergling_selected_options"
       },
       {
-        "Id": "pdf_Zerg_equipment_kerrigan_swarm_raptors_zergling_default_2_heading"
-      },
-      {
-        "Id": "pdf_Zerg_equipment_kerrigan_swarm_raptors_zergling_default_2_table"
-      },
-      {
-        "Id": "pdf_Zerg_equipment_kerrigan_swarm_raptors_zergling_default_2_keywords"
+        "Id": "pdf_Zerg_equipment_kerrigan_swarm_raptors_zergling_default_2_slot"
       }
     ]
   },
@@ -240,19 +195,22 @@
     "BaseId": "base_round_80",
     "Children": [
       {
-        "Id": "pdf_Zerg_stat_omega_worm"
+        "Id": "pdf_Zerg_profile_omega_worm_stats"
       },
       {
-        "Id": "pdf_Zerg_rule_omega_worm_any_phase_detection"
+        "Id": "pdf_Terran_rule_raven_any_phase_detection"
       },
       {
         "Id": "pdf_Zerg_rule_omega_worm_any_phase_source_of_creep"
       },
       {
-        "Id": "pdf_Zerg_rule_omega_worm_any_phase_structure"
+        "Id": "pdf_Protoss_rule_pylon_any_phase_structure"
       },
       {
         "Id": "pdf_Zerg_rule_omega_worm_any_phase_omega_network"
+      },
+      {
+        "Id": "pdf_Zerg_profile_omega_worm_selected_options"
       }
     ]
   },
@@ -263,7 +221,7 @@
     "BaseId": "base_round_80",
     "Children": [
       {
-        "Id": "pdf_Zerg_stat_queen"
+        "Id": "pdf_Zerg_profile_queen_stats"
       },
       {
         "Id": "pdf_Zerg_rule_queen_any_phase_spawn_creep_tumor"
@@ -278,31 +236,19 @@
         "Id": "pdf_Zerg_rule_queen_any_phase_psionic_link"
       },
       {
-        "Id": "pdf_Zerg_rule_queen_assault_phase_devastating_charge"
+        "Id": "pdf_Protoss_rule_immortal_assault_phase_devastating_charge"
       },
       {
-        "Id": "pdf_Zerg_profile_queen_phase_assault_phase"
+        "Id": "pdf_Zerg_profile_queen_selected_options"
       },
       {
-        "Id": "pdf_Zerg_equipment_queen_default_1_heading"
+        "Id": "pdf_Zerg_equipment_queen_default_1_slot"
       },
       {
-        "Id": "pdf_Zerg_equipment_queen_default_1_table"
+        "Id": "pdf_Zerg_equipment_queen_default_2_slot"
       },
       {
-        "Id": "pdf_Zerg_equipment_queen_default_2_heading"
-      },
-      {
-        "Id": "pdf_Zerg_equipment_queen_default_2_table"
-      },
-      {
-        "Id": "pdf_Zerg_profile_queen_phase_melee_phase"
-      },
-      {
-        "Id": "pdf_Zerg_equipment_queen_default_4_heading"
-      },
-      {
-        "Id": "pdf_Zerg_equipment_queen_default_4_table"
+        "Id": "pdf_Zerg_equipment_queen_default_4_slot"
       }
     ]
   },
@@ -313,16 +259,16 @@
     "BaseId": "base_round_32",
     "Children": [
       {
-        "Id": "pdf_Zerg_stat_raptors_zergling"
+        "Id": "pdf_Zerg_profile_raptors_zergling_stats"
       },
       {
-        "Id": "pdf_Zerg_rule_raptors_zergling_any_phase_squadron"
+        "Id": "pdf_Protoss_rule_stalker_any_phase_squadron"
       },
       {
-        "Id": "pdf_Zerg_rule_raptors_zergling_any_phase_raptor_strain"
+        "Id": "pdf_Zerg_rule_kerrigan_swarm_raptors_zergling_any_phase_raptor_strain"
       },
       {
-        "Id": "pdf_Zerg_rule_raptors_zergling_assault_phase_adrenal_overload"
+        "Id": "pdf_Zerg_rule_kerrigan_swarm_raptors_zergling_assault_phase_adrenal_overload"
       },
       {
         "Id": "pdf_Zerg_rule_raptors_zergling_assault_phase_devastating_charge"
@@ -331,13 +277,10 @@
         "Id": "pdf_Zerg_rule_raptors_zergling_assault_phase_metabolic_boost"
       },
       {
-        "Id": "pdf_Zerg_profile_raptors_zergling_phase_melee_phase"
+        "Id": "pdf_Zerg_profile_raptors_zergling_selected_options"
       },
       {
-        "Id": "pdf_Zerg_equipment_raptors_zergling_default_2_heading"
-      },
-      {
-        "Id": "pdf_Zerg_equipment_raptors_zergling_default_2_table"
+        "Id": "pdf_Zerg_equipment_raptors_zergling_default_2_slot"
       }
     ]
   },
@@ -348,10 +291,10 @@
     "BaseId": "base_round_80",
     "Children": [
       {
-        "Id": "pdf_Zerg_stat_ravagers"
+        "Id": "pdf_Zerg_profile_ravagers_stats"
       },
       {
-        "Id": "pdf_Zerg_rule_ravagers_any_phase_squadron"
+        "Id": "pdf_Protoss_rule_stalker_any_phase_squadron"
       },
       {
         "Id": "pdf_Zerg_rule_ravagers_movement_phase_deep_tunnel"
@@ -363,22 +306,13 @@
         "Id": "pdf_Zerg_rule_ravagers_assault_phase_devastating_charge"
       },
       {
-        "Id": "pdf_Zerg_profile_ravagers_phase_assault_phase"
+        "Id": "pdf_Zerg_profile_ravagers_selected_options"
       },
       {
-        "Id": "pdf_Zerg_equipment_ravagers_default_2_heading"
+        "Id": "pdf_Zerg_equipment_ravagers_default_2_slot"
       },
       {
-        "Id": "pdf_Zerg_equipment_ravagers_default_2_table"
-      },
-      {
-        "Id": "pdf_Zerg_profile_ravagers_phase_melee_phase"
-      },
-      {
-        "Id": "pdf_Zerg_equipment_ravagers_default_4_heading"
-      },
-      {
-        "Id": "pdf_Zerg_equipment_ravagers_default_4_table"
+        "Id": "pdf_Zerg_equipment_ravagers_default_4_slot"
       }
     ]
   },
@@ -389,34 +323,25 @@
     "BaseId": "base_round_50",
     "Children": [
       {
-        "Id": "pdf_Zerg_stat_roaches"
+        "Id": "pdf_Zerg_profile_roaches_stats"
       },
       {
-        "Id": "pdf_Zerg_rule_roaches_any_phase_burrow"
+        "Id": "pdf_Zerg_rule_corpsers_roach_any_phase_burrow"
       },
       {
-        "Id": "pdf_Zerg_rule_roaches_assault_phase_regeneration"
+        "Id": "pdf_Zerg_rule_corpsers_roach_assault_phase_regeneration"
       },
       {
-        "Id": "pdf_Zerg_rule_roaches_assault_phase_devastating_charge"
+        "Id": "pdf_Zerg_rule_ravagers_assault_phase_devastating_charge"
       },
       {
-        "Id": "pdf_Zerg_profile_roaches_phase_assault_phase"
+        "Id": "pdf_Zerg_profile_roaches_selected_options"
       },
       {
-        "Id": "pdf_Zerg_equipment_roaches_default_1_heading"
+        "Id": "pdf_Zerg_equipment_roaches_default_1_slot"
       },
       {
-        "Id": "pdf_Zerg_equipment_roaches_default_1_table"
-      },
-      {
-        "Id": "pdf_Zerg_profile_roaches_phase_melee_phase"
-      },
-      {
-        "Id": "pdf_Zerg_equipment_roaches_default_3_heading"
-      },
-      {
-        "Id": "pdf_Zerg_equipment_roaches_default_3_table"
+        "Id": "pdf_Zerg_equipment_roaches_default_3_slot"
       }
     ]
   },
@@ -427,19 +352,16 @@
     "BaseId": "base_round_32",
     "Children": [
       {
-        "Id": "pdf_Zerg_stat_roachling"
+        "Id": "pdf_Zerg_profile_roachling_stats"
       },
       {
         "Id": "pdf_Zerg_rule_roachling_any_phase_underdeveloped_claws"
       },
       {
-        "Id": "pdf_Zerg_profile_roachling_phase_melee_phase"
+        "Id": "pdf_Zerg_profile_roachling_selected_options"
       },
       {
-        "Id": "pdf_Zerg_equipment_roachling_default_1_heading"
-      },
-      {
-        "Id": "pdf_Zerg_equipment_roachling_default_1_table"
+        "Id": "pdf_Zerg_equipment_roachling_default_1_slot"
       }
     ]
   },
@@ -450,28 +372,25 @@
     "BaseId": "base_round_32",
     "Children": [
       {
-        "Id": "pdf_Zerg_stat_swarmlings"
+        "Id": "pdf_Zerg_profile_swarmlings_stats"
       },
       {
-        "Id": "pdf_Zerg_rule_swarmlings_any_phase_squadron"
+        "Id": "pdf_Protoss_rule_stalker_any_phase_squadron"
       },
       {
         "Id": "pdf_Zerg_rule_swarmlings_movement_phase_zergling_reconstitution"
       },
       {
-        "Id": "pdf_Zerg_rule_swarmlings_assault_phase_devastating_charge"
+        "Id": "pdf_Zerg_rule_raptors_zergling_assault_phase_devastating_charge"
       },
       {
-        "Id": "pdf_Zerg_rule_swarmlings_assault_phase_metabolic_boost"
+        "Id": "pdf_Zerg_rule_raptors_zergling_assault_phase_metabolic_boost"
       },
       {
-        "Id": "pdf_Zerg_profile_swarmlings_phase_melee_phase"
+        "Id": "pdf_Zerg_profile_swarmlings_selected_options"
       },
       {
-        "Id": "pdf_Zerg_equipment_swarmlings_default_3_heading"
-      },
-      {
-        "Id": "pdf_Zerg_equipment_swarmlings_default_3_table"
+        "Id": "pdf_Zerg_equipment_swarmlings_default_3_slot"
       }
     ]
   },
@@ -482,34 +401,31 @@
     "BaseId": "base_round_32",
     "Children": [
       {
-        "Id": "pdf_Zerg_stat_vileling_zergling"
+        "Id": "pdf_Zerg_profile_vileling_zergling_stats"
       },
       {
-        "Id": "pdf_Zerg_rule_vileling_zergling_any_phase_squadron"
+        "Id": "pdf_Protoss_rule_stalker_any_phase_squadron"
       },
       {
-        "Id": "pdf_Zerg_rule_vileling_zergling_movement_phase_zergling_reconstitution"
+        "Id": "pdf_Zerg_rule_swarmlings_movement_phase_zergling_reconstitution"
       },
       {
-        "Id": "pdf_Zerg_rule_vileling_zergling_movement_phase_burrow_ambush"
+        "Id": "pdf_Zerg_rule_bile_launcher_movement_phase_burrow_ambush"
       },
       {
-        "Id": "pdf_Zerg_rule_vileling_zergling_assault_phase_devastating_charge"
+        "Id": "pdf_Zerg_rule_raptors_zergling_assault_phase_devastating_charge"
       },
       {
-        "Id": "pdf_Zerg_rule_vileling_zergling_assault_phase_metabolic_boost"
+        "Id": "pdf_Zerg_rule_raptors_zergling_assault_phase_metabolic_boost"
       },
       {
         "Id": "pdf_Zerg_rule_vileling_zergling_combat_phase_debilitating_claws"
       },
       {
-        "Id": "pdf_Zerg_profile_vileling_zergling_phase_melee_phase"
+        "Id": "pdf_Zerg_profile_vileling_zergling_selected_options"
       },
       {
-        "Id": "pdf_Zerg_equipment_vileling_zergling_default_3_heading"
-      },
-      {
-        "Id": "pdf_Zerg_equipment_vileling_zergling_default_3_table"
+        "Id": "pdf_Zerg_equipment_vileling_zergling_default_3_slot"
       }
     ]
   },
@@ -520,7 +436,7 @@
     "BaseId": "base_round_50",
     "Children": [
       {
-        "Id": "pdf_Zerg_stat_viles_roach"
+        "Id": "pdf_Zerg_profile_viles_roach_stats"
       },
       {
         "Id": "pdf_Zerg_rule_viles_roach_any_phase_burrow"
@@ -532,25 +448,16 @@
         "Id": "pdf_Zerg_rule_viles_roach_assault_phase_devastating_charge"
       },
       {
-        "Id": "pdf_Zerg_rule_viles_roach_assault_phase_regeneration"
+        "Id": "pdf_Zerg_rule_corpsers_roach_assault_phase_regeneration"
       },
       {
-        "Id": "pdf_Zerg_profile_viles_roach_phase_assault_phase"
+        "Id": "pdf_Zerg_profile_viles_roach_selected_options"
       },
       {
-        "Id": "pdf_Zerg_equipment_viles_roach_default_1_heading"
+        "Id": "pdf_Zerg_equipment_viles_roach_default_1_slot"
       },
       {
-        "Id": "pdf_Zerg_equipment_viles_roach_default_1_table"
-      },
-      {
-        "Id": "pdf_Zerg_profile_viles_roach_phase_melee_phase"
-      },
-      {
-        "Id": "pdf_Zerg_equipment_viles_roach_default_3_heading"
-      },
-      {
-        "Id": "pdf_Zerg_equipment_viles_roach_default_3_table"
+        "Id": "pdf_Zerg_equipment_viles_roach_default_3_slot"
       }
     ]
   },
@@ -561,49 +468,37 @@
     "BaseId": "base_round_100",
     "Children": [
       {
-        "Id": "pdf_Zerg_stat_zagara"
+        "Id": "pdf_Zerg_profile_zagara_stats"
       },
       {
-        "Id": "pdf_Zerg_rule_zagara_any_phase_commander"
+        "Id": "pdf_Protoss_rule_artanis_any_phase_commander"
       },
       {
-        "Id": "pdf_Zerg_rule_zagara_any_phase_transfusion"
+        "Id": "pdf_Zerg_rule_queen_any_phase_transfusion"
       },
       {
-        "Id": "pdf_Zerg_rule_zagara_any_phase_psionic_link"
+        "Id": "pdf_Zerg_rule_queen_any_phase_psionic_link"
       },
       {
         "Id": "pdf_Zerg_rule_zagara_movement_phase_infested_drop"
       },
       {
-        "Id": "pdf_Zerg_rule_zagara_assault_phase_indomitable"
+        "Id": "pdf_Protoss_rule_immortal_assault_phase_indomitable"
       },
       {
         "Id": "pdf_Zerg_rule_zagara_assault_phase_devastating_charge"
       },
       {
-        "Id": "pdf_Zerg_profile_zagara_phase_assault_phase"
+        "Id": "pdf_Zerg_profile_zagara_selected_options"
       },
       {
-        "Id": "pdf_Zerg_equipment_zagara_default_2_heading"
+        "Id": "pdf_Zerg_equipment_zagara_default_2_slot"
       },
       {
-        "Id": "pdf_Zerg_equipment_zagara_default_2_table"
+        "Id": "pdf_Zerg_equipment_zagara_default_3_slot"
       },
       {
-        "Id": "pdf_Zerg_equipment_zagara_default_3_heading"
-      },
-      {
-        "Id": "pdf_Zerg_equipment_zagara_default_3_table"
-      },
-      {
-        "Id": "pdf_Zerg_profile_zagara_phase_melee_phase"
-      },
-      {
-        "Id": "pdf_Zerg_equipment_zagara_default_5_heading"
-      },
-      {
-        "Id": "pdf_Zerg_equipment_zagara_default_5_table"
+        "Id": "pdf_Zerg_equipment_zagara_default_5_slot"
       }
     ]
   },
@@ -614,25 +509,22 @@
     "BaseId": "base_round_32",
     "Children": [
       {
-        "Id": "pdf_Zerg_stat_zerglings"
+        "Id": "pdf_Zerg_profile_zerglings_stats"
       },
       {
-        "Id": "pdf_Zerg_rule_zerglings_any_phase_squadron"
+        "Id": "pdf_Protoss_rule_stalker_any_phase_squadron"
       },
       {
-        "Id": "pdf_Zerg_rule_zerglings_assault_phase_metabolic_boost"
+        "Id": "pdf_Zerg_rule_raptors_zergling_assault_phase_metabolic_boost"
       },
       {
-        "Id": "pdf_Zerg_rule_zerglings_assault_phase_devastating_charge"
+        "Id": "pdf_Zerg_rule_raptors_zergling_assault_phase_devastating_charge"
       },
       {
-        "Id": "pdf_Zerg_profile_zerglings_phase_melee_phase"
+        "Id": "pdf_Zerg_profile_zerglings_selected_options"
       },
       {
-        "Id": "pdf_Zerg_equipment_zerglings_default_2_heading"
-      },
-      {
-        "Id": "pdf_Zerg_equipment_zerglings_default_2_table"
+        "Id": "pdf_Zerg_equipment_zerglings_default_2_slot"
       }
     ]
   }
