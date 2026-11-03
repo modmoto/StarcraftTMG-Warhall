@@ -61,7 +61,7 @@
     "Type": "Statline",
     "Attributes": {
       "Spd": "4/7",
-      "Arm": "4+",
+      "Arm": "4+ <color=#65c879>(3+)</color>",
       "Eva": "6+",
       "HP": "5",
       "Size": "2",
@@ -75,7 +75,7 @@
     "Type": "Statline",
     "Attributes": {
       "Spd": "4/7",
-      "Arm": "4+",
+      "Arm": "4+ <color=#65c879>(3+)</color>",
       "Eva": "6+",
       "HP": "<color=#2596be>6</color><size=0>(6)</size>",
       "Size": "2",

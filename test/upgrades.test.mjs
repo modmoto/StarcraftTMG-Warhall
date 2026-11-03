@@ -162,10 +162,10 @@ const weaponText = (name, options = []) =>
     .map(row => row.Description ?? '')
     .join('\n');
 
-test('Guidance changes Anti-Evade while the paid Resonating Glaves buff stays inactive', () => {
+test('Guidance changes Anti-Evade and the paid Resonating Glaves value appears in green', () => {
   const text = weaponText('Adepts', ['Guidance', 'Resonating Glaves']);
   assert.match(text, /<color=#2596be>ANTI-EVADE \(2\)<\/color>/);
-  assert.match(text, /<pos=32%><nobr>2<\/nobr>/);
+  assert.match(text, /<pos=32%><nobr>1 <color=#65c879>\(2\)<\/color><\/nobr>/);
   assert.doesNotMatch(text, /<pos=32%><nobr><color=/);
   const active = unitProfile('Adepts', ['Resonating Glaves']).find(
     row => plain(row.Name) === 'Resonating Glaves',
@@ -208,12 +208,9 @@ test('conditional Armour remains informational and composes with numeric HP in e
   ]) {
     const profile = unitProfile('Marauders', order);
     const stats = profile.find(row => row.Type === 'Statline');
-    assert.equal(stats.Attributes.Arm, '4+');
+    assert.equal(stats.Attributes.Arm, '4+ <color=#65c879>(3+)</color>');
     assert.equal(stats.Attributes.HP, '<color=#2596be>6</color><size=0>(6)</size>');
-    assert.match(
-      profile.map(row => row.Description).join('\n'),
-      /Armour: 4\+ <color=#65c879>\[3\+ — within 3" of a mission marker\]<\/color>/,
-    );
+    assert.doesNotMatch(profile.map(row => row.Description).join('\n'), /Armour: 4\+/);
   }
 });
 

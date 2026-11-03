@@ -63,13 +63,6 @@ export function upgradeEffects(unit, profile) {
         });
     }
   }
-  if (/Armour characteristic is increased by 1/.test(effect)) {
-    const base = unit.attributes.Arm;
-    result.push({
-      kind: 'statNote',
-      text: `Armour: ${base} ${conditional(`${Number(base.replace('+', '')) - 1}+ — within 3" of a mission marker`)}`,
-    });
-  }
   if (/ON CREEP, increase this Unit's Speed characteristic by 2/.test(effect)) {
     const base = unit.attributes.Spd;
     result.push({
