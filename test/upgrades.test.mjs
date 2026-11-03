@@ -40,7 +40,9 @@ function unitProfile(name, choices = []) {
     .flatMap(([, values]) => values);
   const ids = choices.map(choice => {
     const option = options.find(
-      option => available.has(option.Id) && option.Name.toLowerCase() === choice.toLowerCase(),
+      option =>
+        available.has(option.Id) &&
+        [option.Name, option.Id].some(label => label.toLowerCase() === choice.toLowerCase()),
     );
     assert.ok(option, `${name}: ${choice}`);
     return option.Id;
@@ -139,7 +141,12 @@ test('Marines and Raiders share Stimpack (Marines), distinct from Marauders', ()
 
 test('option IDs are readable names so the native generic importer can match exported choices', () => {
   assert.ok(data['options.json'].length > 0);
-  assert.ok(data['options.json'].every(option => option.Id === option.Name && option.Type === 1));
+  assert.ok(data['options.json'].every(option => option.Type === 1));
+  assert.equal(
+    data['options.json'].find(option => option.Id === 'Slugthrower').Name,
+    'Flak Thrower',
+  );
+  assert.equal(data['options.json'].find(option => option.Id === 'Agg-12').Name, 'AGG-12');
   assert.ok(data['options.json'].some(option => option.Id === 'Kinetic Foam'));
 });
 

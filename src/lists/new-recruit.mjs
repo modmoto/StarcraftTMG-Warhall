@@ -123,7 +123,9 @@ export function planNewRecruitList(text, { factions, cards, deployments }) {
             .map(mapping => mapping.OptionId),
         );
         const options = (army.options ?? []).filter(
-          option => available.has(option.Id) && key(option.Name) === key(name),
+          option =>
+            available.has(option.Id) &&
+            [option.Name, option.Id].some(label => key(label) === key(name)),
         );
         if (options.length) {
           assert.equal(options.length, 1, `Ambiguous upgrade on ${unit.Name}: ${name}`);

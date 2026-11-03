@@ -19,7 +19,7 @@
   },
   {
     "Id": "Agg-12",
-    "Name": "Agg-12",
+    "Name": "AGG-12",
     "Type": 1,
     "ItemsToAdd": []
   },
@@ -301,7 +301,7 @@
   },
   {
     "Id": "Slugthrower",
-    "Name": "Slugthrower",
+    "Name": "Flak Thrower",
     "Type": 1,
     "ItemsToAdd": []
   },

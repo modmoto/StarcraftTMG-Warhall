@@ -71,6 +71,12 @@ export function addUpgradeOptions(unit, ids, profiles, profileIds, defaults, rec
     const recordId = profileIds[index];
     const optionId = abilityName(profile.name);
     const isWeapon = /Weapon$/.test(profile.type);
+    const displayName =
+      optionId === 'Slugthrower'
+        ? 'Flak Thrower'
+        : isWeapon && /^[A-Z]+-\d+$/.test(profile.name)
+          ? profile.name
+          : optionId;
     const replaced = replacedWeapon(unit, profile);
     let labelId = recordId;
     if (isWeapon) {
@@ -78,7 +84,7 @@ export function addUpgradeOptions(unit, ids, profiles, profileIds, defaults, rec
       const baseline = specialist(profile) ? profile.attributes : replaced.attributes;
       records.rules.set(labelId, {
         Id: labelId,
-        Name: abilityName(profile.name),
+        Name: displayName,
         Type: 'Rule',
         Description: [
           '<b>Upgrade ability</b>',
@@ -143,7 +149,7 @@ export function addUpgradeOptions(unit, ids, profiles, profileIds, defaults, rec
     applyUpgradeEffects(unit, profile, recordId, ids, defaults, records, glossary, add, remove);
     records.options.set(optionId, {
       Id: optionId,
-      Name: optionId,
+      Name: displayName,
       Type: 1,
       ItemsToAdd: [],
     });
