@@ -34,7 +34,6 @@ export function markerTokens() {
     Id: markerMenuId({ number, color }),
     Name: markerMenuId({ number, color }),
     Type: 'Token',
-    Description: `Mission marker ${number}. 32 mm circular selection and measurement footprint. Open control ring with a decorated center. The outline extends 3 inches from the marker edge. Activation and control are manual.`,
   }));
 }
 export function markerTerrains() {

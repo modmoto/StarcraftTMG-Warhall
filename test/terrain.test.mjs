@@ -24,8 +24,8 @@ test('all six maps use the reviewed PDF centers, rotations and calibrated footpr
       assert.equal(item.Id, terrainMenuId(asset));
       const [width, length] = calibration.assets[asset.name].footprintInches;
       const terrain = terrains.find(terrain => terrain.Id === item.Id);
-      assert.ok(Math.abs(terrain.Width - width * 2.54) < 1e-8);
-      assert.ok(Math.abs(terrain.Length - length * 2.54) < 1e-8);
+      assert.ok(Math.abs(terrain.Width - width * 2.54) <= 0.0177 + 1e-8);
+      assert.ok(Math.abs(terrain.Length - length * 2.54) <= 0.0177 + 1e-8);
       assert.ok(Math.abs(27 - item.ShortSide - placement.x) < 1e-8);
       assert.ok(Math.abs(item.LongSide - 18 - placement.z) < 1e-8);
       assert.equal(item.Rotation, placement.rotation);

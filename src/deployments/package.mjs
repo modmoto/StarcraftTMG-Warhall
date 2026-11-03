@@ -25,8 +25,6 @@ export const overlayTerrain = template => ({
   Id: overlayMenuId(template),
   Name: overlayMenuId(template),
   Type: 'Terrain',
-  Description:
-    'Decorative deployment entry lines. Automatically placed with the deployment; no filled deployment zones.',
   Width: 0.1,
   Length: 0.1,
   Shape: 1,

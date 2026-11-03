@@ -52,6 +52,9 @@ for (const [id, target] of Object.entries(aliases)) {
   );
   assert.equal(source.assets.find(asset => asset.id === id).name, canonicalAsset(target).name);
 }
+// Match the editor: round inches first, then centimeters.
+const editorDimension = cm => Math.round(Math.round((cm / 2.54) * 100) * 2.54) / 100;
+
 for (const asset of source.assets.filter(asset => !aliases[asset.id])) {
   const definition = calibration.assets[asset.name];
   assert.ok(definition, `Missing PDF size calibration: ${asset.name}`);
@@ -96,9 +99,8 @@ for (const asset of source.assets.filter(asset => !aliases[asset.id])) {
     Id: terrainMenuId(asset),
     Name: asset.name,
     Type: 'Terrain',
-    Description: `StarCraft terrain: ${asset.name}. PDF grid-calibrated footprint and layout. Resolve cover, elevation and movement using the rulebook.`,
-    Width: width,
-    Length: length,
+    Width: editorDimension(width),
+    Length: editorDimension(length),
     Shape: 0,
   });
   models.push({
