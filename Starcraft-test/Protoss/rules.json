@@ -20,13 +20,7 @@
     "Description": "",
     "Children": [
       {
-        "Id": "pdf_Protoss_equipment_adepts_default_2_heading"
-      },
-      {
         "Id": "pdf_Protoss_equipment_adepts_default_2_table"
-      },
-      {
-        "Id": "pdf_Protoss_equipment_adepts_default_2_keywords"
       }
     ]
   },
@@ -34,7 +28,7 @@
     "Id": "pdf_Protoss_equipment_adepts_default_2_table",
     "Name": "",
     "Type": "",
-    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>8</nobr><pos=14%><nobr>All</nobr><pos=32%><nobr>2</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>Light (D3+1)</nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Description": "<b>Assault Phase</b>\n<b>GLAIVE CANNON</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>8</nobr><pos=14%><nobr>All</nobr><pos=32%><nobr>2</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>Light (D3+1)</nobr><pos=86%><nobr>1</nobr></b></size></align>\n<u><link=\"rule_keyword_anti_evade\">ANTI-EVADE (1)</link></u>",
     "Children": []
   },
   {
@@ -51,9 +45,6 @@
     "Description": "",
     "Children": [
       {
-        "Id": "pdf_Protoss_equipment_adepts_default_3_heading"
-      },
-      {
         "Id": "pdf_Protoss_equipment_adepts_default_3_table"
       }
     ]
@@ -62,14 +53,14 @@
     "Id": "pdf_Protoss_equipment_adepts_default_3_table",
     "Name": "",
     "Type": "",
-    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>1</nobr><pos=46%><nobr>4+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Description": "<b>Melee Phase</b>\n<b>STRIKE</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>1</nobr><pos=46%><nobr>4+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align>",
     "Children": []
   },
   {
     "Id": "pdf_Protoss_equipment_adepts_upgrade_1_choice",
     "Name": "<color=#2596be>Glaive Strike</color>",
     "Type": "Rule",
-    "Description": "<b>Upgrade ability</b>\n\nCombat Weapon\nRng: E\nTgt: Ground\nRoA: 1\nHit: 4+\n<u><link=\"rule_chapter_8_7_4\">Surge</link></u>: Light\nS.Die: D3\nDmg: 1\nKeyword: <u><link=\"rule_keyword_pierce\">PIERCE</link></u> Light (2)\nNotes: ↑ FOR STRIKE"
+    "Description": "<b>Upgrade ability</b>\n\nReplace STRIKE with GLAIVE STRIKE.\n\n<b>GLAIVE STRIKE</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>1</nobr><pos=46%><nobr>4+</nobr><pos=59%><nobr>Light (D3)</nobr><pos=86%><nobr>1</nobr></b></size></align>\n\n<u><link=\"rule_keyword_pierce\">PIERCE Light (2)</link></u>"
   },
   {
     "Id": "pdf_Protoss_equipment_adepts_upgrade_1_heading",
@@ -89,7 +80,7 @@
     "Id": "pdf_Protoss_equipment_adepts_upgrade_1_table",
     "Name": "",
     "Type": "",
-    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>1</nobr><pos=46%><nobr>4+</nobr><pos=59%><nobr>Light (D3)</nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Description": "<b>Melee Phase</b>\n<b>GLAIVE STRIKE</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>1</nobr><pos=46%><nobr>4+</nobr><pos=59%><nobr>Light (D3)</nobr><pos=86%><nobr>1</nobr></b></size></align>\n<u><link=\"rule_keyword_pierce\">PIERCE Light (2)</link></u>",
     "Children": []
   },
   {
@@ -106,9 +97,6 @@
     "Description": "",
     "Children": [
       {
-        "Id": "pdf_Protoss_equipment_artanis_default_3_heading"
-      },
-      {
         "Id": "pdf_Protoss_equipment_artanis_default_3_table"
       }
     ]
@@ -117,7 +105,7 @@
     "Id": "pdf_Protoss_equipment_artanis_default_3_table",
     "Name": "",
     "Type": "",
-    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>2</nobr><pos=46%><nobr>2+</nobr><pos=59%><nobr>Armored (D3)</nobr><pos=86%><nobr>3</nobr></b></size></align>",
+    "Description": "<b>Melee Phase</b>\n<b>TWILIGHT BLADES STRIKE</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>2</nobr><pos=46%><nobr>2+</nobr><pos=59%><nobr>Armored (D3)</nobr><pos=86%><nobr>3</nobr></b></size></align>",
     "Children": []
   },
   {
@@ -134,9 +122,6 @@
     "Description": "",
     "Children": [
       {
-        "Id": "pdf_Protoss_equipment_artanis_default_4_heading"
-      },
-      {
         "Id": "pdf_Protoss_equipment_artanis_default_4_table"
       }
     ]
@@ -145,7 +130,7 @@
     "Id": "pdf_Protoss_equipment_artanis_default_4_table",
     "Name": "",
     "Type": "",
-    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>6</nobr><pos=46%><nobr>2+</nobr><pos=59%><nobr>Light (D3+1)</nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Description": "<b>TWILIGHT BLADES SWEEP</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>6</nobr><pos=46%><nobr>2+</nobr><pos=59%><nobr>Light (D3+1)</nobr><pos=86%><nobr>1</nobr></b></size></align>",
     "Children": []
   },
   {
@@ -169,13 +154,7 @@
     "Description": "",
     "Children": [
       {
-        "Id": "pdf_Protoss_equipment_high_templar_default_2_heading"
-      },
-      {
         "Id": "pdf_Protoss_equipment_high_templar_default_2_table"
-      },
-      {
-        "Id": "pdf_Protoss_equipment_high_templar_default_2_keywords"
       }
     ]
   },
@@ -183,7 +162,7 @@
     "Id": "pdf_Protoss_equipment_high_templar_default_2_table",
     "Name": "",
     "Type": "",
-    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>8</nobr><pos=14%><nobr>All</nobr><pos=32%><nobr>1</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>Light (D3)</nobr><pos=86%><nobr>2</nobr></b></size></align>",
+    "Description": "<b>Assault Phase</b>\n<b>PSI BLAST</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>8</nobr><pos=14%><nobr>All</nobr><pos=32%><nobr>1</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>Light (D3)</nobr><pos=86%><nobr>2</nobr></b></size></align>\n<u><link=\"rule_keyword_instant\">INSTANT</link></u>",
     "Children": []
   },
   {
@@ -200,9 +179,6 @@
     "Description": "",
     "Children": [
       {
-        "Id": "pdf_Protoss_equipment_high_templar_default_3_heading"
-      },
-      {
         "Id": "pdf_Protoss_equipment_high_templar_default_3_table"
       }
     ]
@@ -211,7 +187,7 @@
     "Id": "pdf_Protoss_equipment_high_templar_default_3_table",
     "Name": "",
     "Type": "",
-    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>1</nobr><pos=46%><nobr>4+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Description": "<b>Melee Phase</b>\n<b>STRIKE</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>1</nobr><pos=46%><nobr>4+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align>",
     "Children": []
   },
   {
@@ -235,13 +211,7 @@
     "Description": "",
     "Children": [
       {
-        "Id": "pdf_Protoss_equipment_immortal_default_1_heading"
-      },
-      {
         "Id": "pdf_Protoss_equipment_immortal_default_1_table"
-      },
-      {
-        "Id": "pdf_Protoss_equipment_immortal_default_1_keywords"
       }
     ]
   },
@@ -249,7 +219,7 @@
     "Id": "pdf_Protoss_equipment_immortal_default_1_table",
     "Name": "",
     "Type": "",
-    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>12</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>4</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>Armored (D3)</nobr><pos=86%><nobr>2</nobr></b></size></align>",
+    "Description": "<b>Assault Phase</b>\n<b>LEFT PHOTON DISRUPTOR</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>12</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>4</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>Armored (D3)</nobr><pos=86%><nobr>2</nobr></b></size></align>\n<u><link=\"rule_keyword_concentrated_fire\">CONCENTRATED FIRE (1)</link></u>, <u><link=\"rule_keyword_long_range\">LONG RANGE (16)</link></u>",
     "Children": []
   },
   {
@@ -273,13 +243,7 @@
     "Description": "",
     "Children": [
       {
-        "Id": "pdf_Protoss_equipment_immortal_default_2_heading"
-      },
-      {
         "Id": "pdf_Protoss_equipment_immortal_default_2_table"
-      },
-      {
-        "Id": "pdf_Protoss_equipment_immortal_default_2_keywords"
       }
     ]
   },
@@ -287,7 +251,7 @@
     "Id": "pdf_Protoss_equipment_immortal_default_2_table",
     "Name": "",
     "Type": "",
-    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>12</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>4</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>Armored (D3)</nobr><pos=86%><nobr>2</nobr></b></size></align>",
+    "Description": "<b>RIGHT PHOTON DISRUPTOR</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>12</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>4</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>Armored (D3)</nobr><pos=86%><nobr>2</nobr></b></size></align>\n<u><link=\"rule_keyword_concentrated_fire\">CONCENTRATED FIRE (1)</link></u>, <u><link=\"rule_keyword_long_range\">LONG RANGE (16)</link></u>, <u><link=\"rule_keyword_sidearm\">SIDEARM</link></u>",
     "Children": []
   },
   {
@@ -304,9 +268,6 @@
     "Description": "",
     "Children": [
       {
-        "Id": "pdf_Protoss_equipment_immortal_default_4_heading"
-      },
-      {
         "Id": "pdf_Protoss_equipment_immortal_default_4_table"
       }
     ]
@@ -315,14 +276,14 @@
     "Id": "pdf_Protoss_equipment_immortal_default_4_table",
     "Name": "",
     "Type": "",
-    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>3</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Description": "<b>Melee Phase</b>\n<b>STOMP</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>3</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align>",
     "Children": []
   },
   {
     "Id": "pdf_Protoss_equipment_immortal_upgrade_1_choice",
     "Name": "<color=#2596be>Left Phase Disruptor</color>",
     "Type": "Rule",
-    "Description": "<b>Upgrade ability</b>\n\nAssault Weapon\nRng: 12\nTgt: Ground\nRoA: 4\nHit: 3+\n<u><link=\"rule_chapter_8_7_4\">Surge</link></u>: Armoured\nS.Die: D3\nDmg: 1\nKeyword: <u><link=\"rule_keyword_pierce\">PIERCE</link></u> Armoured (3)"
+    "Description": "<b>Upgrade ability</b>\n\nReplace LEFT PHOTON DISRUPTOR with LEFT PHASE DISRUPTOR.\n\n<b>LEFT PHASE DISRUPTOR</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>12</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>4</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>Armored (D3)</nobr><pos=86%><nobr>1</nobr></b></size></align>\n\n<u><link=\"rule_keyword_pierce\">PIERCE Armoured (3)</link></u>"
   },
   {
     "Id": "pdf_Protoss_equipment_immortal_upgrade_1_heading",
@@ -342,14 +303,14 @@
     "Id": "pdf_Protoss_equipment_immortal_upgrade_1_table",
     "Name": "",
     "Type": "",
-    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>12</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>4</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>Armored (D3)</nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Description": "<b>Assault Phase</b>\n<b>LEFT PHASE DISRUPTOR</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>12</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>4</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>Armored (D3)</nobr><pos=86%><nobr>1</nobr></b></size></align>\n<u><link=\"rule_keyword_pierce\">PIERCE Armoured (3)</link></u>",
     "Children": []
   },
   {
     "Id": "pdf_Protoss_equipment_immortal_upgrade_2_choice",
     "Name": "<color=#2596be>Right Phase Disruptor</color>",
     "Type": "Rule",
-    "Description": "<b>Upgrade ability</b>\n\nAssault Weapon\nRng: 12\nTgt: Ground\nRoA: 4\nHit: 3+\n<u><link=\"rule_chapter_8_7_4\">Surge</link></u>: Armoured\nS.Die: D3\nDmg: 1\nKeyword: <u><link=\"rule_keyword_pierce\">PIERCE</link></u> Armoured (3), <u><link=\"rule_keyword_sidearm\">SIDEARM</link></u>"
+    "Description": "<b>Upgrade ability</b>\n\nReplace RIGHT PHOTON DISRUPTOR with RIGHT PHASE DISRUPTOR.\n\n<b>RIGHT PHASE DISRUPTOR</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>12</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>4</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>Armored (D3)</nobr><pos=86%><nobr>1</nobr></b></size></align>\n\n<u><link=\"rule_keyword_pierce\">PIERCE Armoured (3)</link></u>, <u><link=\"rule_keyword_sidearm\">SIDEARM</link></u>"
   },
   {
     "Id": "pdf_Protoss_equipment_immortal_upgrade_2_heading",
@@ -369,7 +330,7 @@
     "Id": "pdf_Protoss_equipment_immortal_upgrade_2_table",
     "Name": "",
     "Type": "",
-    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>12</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>4</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>Armored (D3)</nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Description": "<b>RIGHT PHASE DISRUPTOR</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>12</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>4</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>Armored (D3)</nobr><pos=86%><nobr>1</nobr></b></size></align>\n<u><link=\"rule_keyword_pierce\">PIERCE Armoured (3)</link></u>, <u><link=\"rule_keyword_sidearm\">SIDEARM</link></u>",
     "Children": []
   },
   {
@@ -393,13 +354,7 @@
     "Description": "",
     "Children": [
       {
-        "Id": "pdf_Protoss_equipment_nerazim_watchers_adept_default_2_heading"
-      },
-      {
         "Id": "pdf_Protoss_equipment_nerazim_watchers_adept_default_2_table"
-      },
-      {
-        "Id": "pdf_Protoss_equipment_nerazim_watchers_adept_default_2_keywords"
       }
     ]
   },
@@ -407,7 +362,7 @@
     "Id": "pdf_Protoss_equipment_nerazim_watchers_adept_default_2_table",
     "Name": "",
     "Type": "",
-    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>8</nobr><pos=14%><nobr>All</nobr><pos=32%><nobr>3</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>Light (D3+1)</nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Description": "<b>Assault Phase</b>\n<b>GLAIVE CANNON</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>8</nobr><pos=14%><nobr>All</nobr><pos=32%><nobr>3</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>Light (D3+1)</nobr><pos=86%><nobr>1</nobr></b></size></align>\n<u><link=\"rule_keyword_anti_evade\">ANTI-EVADE (1)</link></u>, <u><link=\"rule_keyword_pinpoint\">PINPOINT</link></u>",
     "Children": []
   },
   {
@@ -424,9 +379,6 @@
     "Description": "",
     "Children": [
       {
-        "Id": "pdf_Protoss_equipment_nerazim_watchers_adept_default_3_heading"
-      },
-      {
         "Id": "pdf_Protoss_equipment_nerazim_watchers_adept_default_3_table"
       }
     ]
@@ -435,7 +387,7 @@
     "Id": "pdf_Protoss_equipment_nerazim_watchers_adept_default_3_table",
     "Name": "",
     "Type": "",
-    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>1</nobr><pos=46%><nobr>5+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Description": "<b>Melee Phase</b>\n<b>STRIKE</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>1</nobr><pos=46%><nobr>5+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align>",
     "Children": []
   },
   {
@@ -452,9 +404,6 @@
     "Description": "",
     "Children": [
       {
-        "Id": "pdf_Protoss_equipment_praetor_guards_default_3_heading"
-      },
-      {
         "Id": "pdf_Protoss_equipment_praetor_guards_default_3_table"
       }
     ]
@@ -463,7 +412,7 @@
     "Id": "pdf_Protoss_equipment_praetor_guards_default_3_table",
     "Name": "",
     "Type": "",
-    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>4</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>Light (D3)</nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Description": "<b>Melee Phase</b>\n<b>PSI BLADES</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>4</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>Light (D3)</nobr><pos=86%><nobr>1</nobr></b></size></align>",
     "Children": []
   },
   {
@@ -487,13 +436,7 @@
     "Description": "",
     "Children": [
       {
-        "Id": "pdf_Protoss_equipment_sentries_default_2_heading"
-      },
-      {
         "Id": "pdf_Protoss_equipment_sentries_default_2_table"
-      },
-      {
-        "Id": "pdf_Protoss_equipment_sentries_default_2_keywords"
       }
     ]
   },
@@ -501,7 +444,7 @@
     "Id": "pdf_Protoss_equipment_sentries_default_2_table",
     "Name": "",
     "Type": "",
-    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>8</nobr><pos=14%><nobr>All</nobr><pos=32%><nobr>2</nobr><pos=46%><nobr>2+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Description": "<b>Assault Phase</b>\n<b>DISRUPTION BEAM</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>8</nobr><pos=14%><nobr>All</nobr><pos=32%><nobr>2</nobr><pos=46%><nobr>2+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align>\n<u><link=\"rule_keyword_instant\">INSTANT</link></u>",
     "Children": []
   },
   {
@@ -518,9 +461,6 @@
     "Description": "",
     "Children": [
       {
-        "Id": "pdf_Protoss_equipment_sentries_default_3_heading"
-      },
-      {
         "Id": "pdf_Protoss_equipment_sentries_default_3_table"
       }
     ]
@@ -529,7 +469,7 @@
     "Id": "pdf_Protoss_equipment_sentries_default_3_table",
     "Name": "",
     "Type": "",
-    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>2</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Description": "<b>Melee Phase</b>\n<b>BEAM</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>2</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align>",
     "Children": []
   },
   {
@@ -546,9 +486,6 @@
     "Description": "",
     "Children": [
       {
-        "Id": "pdf_Protoss_equipment_stalker_default_2_heading"
-      },
-      {
         "Id": "pdf_Protoss_equipment_stalker_default_2_table"
       }
     ]
@@ -557,7 +494,7 @@
     "Id": "pdf_Protoss_equipment_stalker_default_2_table",
     "Name": "",
     "Type": "",
-    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>12</nobr><pos=14%><nobr>All</nobr><pos=32%><nobr>4</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>Armored (D3)</nobr><pos=86%><nobr>2</nobr></b></size></align>",
+    "Description": "<b>Assault Phase</b>\n<b>PARTICLE DISRUPTORS</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>12</nobr><pos=14%><nobr>All</nobr><pos=32%><nobr>4</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>Armored (D3)</nobr><pos=86%><nobr>2</nobr></b></size></align>",
     "Children": []
   },
   {
@@ -574,9 +511,6 @@
     "Description": "",
     "Children": [
       {
-        "Id": "pdf_Protoss_equipment_stalker_default_3_heading"
-      },
-      {
         "Id": "pdf_Protoss_equipment_stalker_default_3_table"
       }
     ]
@@ -585,7 +519,7 @@
     "Id": "pdf_Protoss_equipment_stalker_default_3_table",
     "Name": "",
     "Type": "",
-    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>2</nobr><pos=46%><nobr>5+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Description": "<b>Melee Phase</b>\n<b>STOMP</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>2</nobr><pos=46%><nobr>5+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align>",
     "Children": []
   },
   {
@@ -609,13 +543,7 @@
     "Description": "",
     "Children": [
       {
-        "Id": "pdf_Protoss_equipment_tassadar_default_2_heading"
-      },
-      {
         "Id": "pdf_Protoss_equipment_tassadar_default_2_table"
-      },
-      {
-        "Id": "pdf_Protoss_equipment_tassadar_default_2_keywords"
       }
     ]
   },
@@ -623,7 +551,7 @@
     "Id": "pdf_Protoss_equipment_tassadar_default_2_table",
     "Name": "",
     "Type": "",
-    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>12</nobr><pos=14%><nobr>All</nobr><pos=32%><nobr>6</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>Armored (D3)</nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Description": "<b>Assault Phase</b>\n<b>RESONANCE BEAM</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>12</nobr><pos=14%><nobr>All</nobr><pos=32%><nobr>6</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>Armored (D3)</nobr><pos=86%><nobr>1</nobr></b></size></align>\n<u><link=\"rule_keyword_instant\">INSTANT</link></u>",
     "Children": []
   },
   {
@@ -640,9 +568,6 @@
     "Description": "",
     "Children": [
       {
-        "Id": "pdf_Protoss_equipment_tassadar_default_4_heading"
-      },
-      {
         "Id": "pdf_Protoss_equipment_tassadar_default_4_table"
       }
     ]
@@ -651,7 +576,7 @@
     "Id": "pdf_Protoss_equipment_tassadar_default_4_table",
     "Name": "",
     "Type": "",
-    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>6</nobr><pos=46%><nobr>4+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Description": "<b>Melee Phase</b>\n<b>STRIKE</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>6</nobr><pos=46%><nobr>4+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align>",
     "Children": []
   },
   {
@@ -675,13 +600,7 @@
     "Description": "",
     "Children": [
       {
-        "Id": "pdf_Protoss_equipment_twilight_templar_high_templar_default_2_heading"
-      },
-      {
         "Id": "pdf_Protoss_equipment_twilight_templar_high_templar_default_2_table"
-      },
-      {
-        "Id": "pdf_Protoss_equipment_twilight_templar_high_templar_default_2_keywords"
       }
     ]
   },
@@ -689,7 +608,7 @@
     "Id": "pdf_Protoss_equipment_twilight_templar_high_templar_default_2_table",
     "Name": "",
     "Type": "",
-    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>8</nobr><pos=14%><nobr>All</nobr><pos=32%><nobr>2</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>Light (D3)</nobr><pos=86%><nobr>2</nobr></b></size></align>",
+    "Description": "<b>Assault Phase</b>\n<b>PSI BLAST</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>8</nobr><pos=14%><nobr>All</nobr><pos=32%><nobr>2</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>Light (D3)</nobr><pos=86%><nobr>2</nobr></b></size></align>\n<u><link=\"rule_keyword_instant\">INSTANT</link></u>",
     "Children": []
   },
   {
@@ -706,9 +625,6 @@
     "Description": "",
     "Children": [
       {
-        "Id": "pdf_Protoss_equipment_twilight_templar_high_templar_default_3_heading"
-      },
-      {
         "Id": "pdf_Protoss_equipment_twilight_templar_high_templar_default_3_table"
       }
     ]
@@ -717,7 +633,7 @@
     "Id": "pdf_Protoss_equipment_twilight_templar_high_templar_default_3_table",
     "Name": "",
     "Type": "",
-    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>1</nobr><pos=46%><nobr>4+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Description": "<b>Melee Phase</b>\n<b>STRIKE</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>1</nobr><pos=46%><nobr>4+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align>",
     "Children": []
   },
   {
@@ -734,9 +650,6 @@
     "Description": "",
     "Children": [
       {
-        "Id": "pdf_Protoss_equipment_zealots_default_1_heading"
-      },
-      {
         "Id": "pdf_Protoss_equipment_zealots_default_1_table"
       }
     ]
@@ -745,7 +658,7 @@
     "Id": "pdf_Protoss_equipment_zealots_default_1_table",
     "Name": "",
     "Type": "",
-    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>4</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>Light (D3)</nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Description": "<b>Melee Phase</b>\n<b>PSI BLADES</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>4</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>Light (D3)</nobr><pos=86%><nobr>1</nobr></b></size></align>",
     "Children": []
   },
   {
@@ -769,13 +682,7 @@
     "Description": "",
     "Children": [
       {
-        "Id": "pdf_Protoss_equipment_zeratul_default_3_heading"
-      },
-      {
         "Id": "pdf_Protoss_equipment_zeratul_default_3_table"
-      },
-      {
-        "Id": "pdf_Protoss_equipment_zeratul_default_3_keywords"
       }
     ]
   },
@@ -783,21 +690,7 @@
     "Id": "pdf_Protoss_equipment_zeratul_default_3_table",
     "Name": "",
     "Type": "",
-    "Description": "<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>4</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>L&A (D3)</nobr><pos=86%><nobr>2</nobr></b></size></align>",
-    "Children": []
-  },
-  {
-    "Id": "pdf_Protoss_profile_adepts_phase_assault_phase",
-    "Name": "",
-    "Type": "",
-    "Description": "<b>Assault Phase</b>",
-    "Children": []
-  },
-  {
-    "Id": "pdf_Protoss_profile_adepts_phase_melee_phase",
-    "Name": "",
-    "Type": "",
-    "Description": "<b>Melee Phase</b>",
+    "Description": "<b>Melee Phase</b>\n<b>MASTER WARP BLADE</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>4</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>L&A (D3)</nobr><pos=86%><nobr>2</nobr></b></size></align>\n<u><link=\"rule_keyword_instant\">INSTANT</link></u>",
     "Children": []
   },
   {
@@ -819,13 +712,6 @@
     ]
   },
   {
-    "Id": "pdf_Protoss_profile_artanis_phase_melee_phase",
-    "Name": "",
-    "Type": "",
-    "Description": "<b>Melee Phase</b>",
-    "Children": []
-  },
-  {
     "Id": "pdf_Protoss_profile_artanis_selected_options",
     "Name": "",
     "Type": "Profile",
@@ -842,20 +728,6 @@
         "Id": "pdf_Protoss_stat_artanis"
       }
     ]
-  },
-  {
-    "Id": "pdf_Protoss_profile_high_templar_phase_assault_phase",
-    "Name": "",
-    "Type": "",
-    "Description": "<b>Assault Phase</b>",
-    "Children": []
-  },
-  {
-    "Id": "pdf_Protoss_profile_high_templar_phase_melee_phase",
-    "Name": "",
-    "Type": "",
-    "Description": "<b>Melee Phase</b>",
-    "Children": []
   },
   {
     "Id": "pdf_Protoss_profile_high_templar_selected_options",
@@ -876,20 +748,6 @@
     ]
   },
   {
-    "Id": "pdf_Protoss_profile_immortal_phase_assault_phase",
-    "Name": "",
-    "Type": "",
-    "Description": "<b>Assault Phase</b>",
-    "Children": []
-  },
-  {
-    "Id": "pdf_Protoss_profile_immortal_phase_melee_phase",
-    "Name": "",
-    "Type": "",
-    "Description": "<b>Melee Phase</b>",
-    "Children": []
-  },
-  {
     "Id": "pdf_Protoss_profile_immortal_selected_options",
     "Name": "",
     "Type": "Profile",
@@ -908,20 +766,6 @@
     ]
   },
   {
-    "Id": "pdf_Protoss_profile_nerazim_watchers_adept_phase_assault_phase",
-    "Name": "",
-    "Type": "",
-    "Description": "<b>Assault Phase</b>",
-    "Children": []
-  },
-  {
-    "Id": "pdf_Protoss_profile_nerazim_watchers_adept_phase_melee_phase",
-    "Name": "",
-    "Type": "",
-    "Description": "<b>Melee Phase</b>",
-    "Children": []
-  },
-  {
     "Id": "pdf_Protoss_profile_nerazim_watchers_adept_selected_options",
     "Name": "",
     "Type": "Profile",
@@ -938,13 +782,6 @@
         "Id": "pdf_Protoss_stat_nerazim_watchers_adept"
       }
     ]
-  },
-  {
-    "Id": "pdf_Protoss_profile_praetor_guards_phase_melee_phase",
-    "Name": "",
-    "Type": "",
-    "Description": "<b>Melee Phase</b>",
-    "Children": []
   },
   {
     "Id": "pdf_Protoss_profile_praetor_guards_selected_options",
@@ -983,20 +820,6 @@
     ]
   },
   {
-    "Id": "pdf_Protoss_profile_sentries_phase_assault_phase",
-    "Name": "",
-    "Type": "",
-    "Description": "<b>Assault Phase</b>",
-    "Children": []
-  },
-  {
-    "Id": "pdf_Protoss_profile_sentries_phase_melee_phase",
-    "Name": "",
-    "Type": "",
-    "Description": "<b>Melee Phase</b>",
-    "Children": []
-  },
-  {
     "Id": "pdf_Protoss_profile_sentries_selected_options",
     "Name": "",
     "Type": "Profile",
@@ -1013,20 +836,6 @@
         "Id": "pdf_Protoss_stat_sentries"
       }
     ]
-  },
-  {
-    "Id": "pdf_Protoss_profile_stalker_phase_assault_phase",
-    "Name": "",
-    "Type": "",
-    "Description": "<b>Assault Phase</b>",
-    "Children": []
-  },
-  {
-    "Id": "pdf_Protoss_profile_stalker_phase_melee_phase",
-    "Name": "",
-    "Type": "",
-    "Description": "<b>Melee Phase</b>",
-    "Children": []
   },
   {
     "Id": "pdf_Protoss_profile_stalker_selected_options",
@@ -1047,20 +856,6 @@
     ]
   },
   {
-    "Id": "pdf_Protoss_profile_tassadar_phase_assault_phase",
-    "Name": "",
-    "Type": "",
-    "Description": "<b>Assault Phase</b>",
-    "Children": []
-  },
-  {
-    "Id": "pdf_Protoss_profile_tassadar_phase_melee_phase",
-    "Name": "",
-    "Type": "",
-    "Description": "<b>Melee Phase</b>",
-    "Children": []
-  },
-  {
     "Id": "pdf_Protoss_profile_tassadar_selected_options",
     "Name": "",
     "Type": "Profile",
@@ -1077,20 +872,6 @@
         "Id": "pdf_Protoss_stat_tassadar"
       }
     ]
-  },
-  {
-    "Id": "pdf_Protoss_profile_twilight_templar_high_templar_phase_assault_phase",
-    "Name": "",
-    "Type": "",
-    "Description": "<b>Assault Phase</b>",
-    "Children": []
-  },
-  {
-    "Id": "pdf_Protoss_profile_twilight_templar_high_templar_phase_melee_phase",
-    "Name": "",
-    "Type": "",
-    "Description": "<b>Melee Phase</b>",
-    "Children": []
   },
   {
     "Id": "pdf_Protoss_profile_twilight_templar_high_templar_selected_options",
@@ -1111,13 +892,6 @@
     ]
   },
   {
-    "Id": "pdf_Protoss_profile_zealots_phase_melee_phase",
-    "Name": "",
-    "Type": "",
-    "Description": "<b>Melee Phase</b>",
-    "Children": []
-  },
-  {
     "Id": "pdf_Protoss_profile_zealots_selected_options",
     "Name": "",
     "Type": "Profile",
@@ -1134,13 +908,6 @@
         "Id": "pdf_Protoss_stat_zealots"
       }
     ]
-  },
-  {
-    "Id": "pdf_Protoss_profile_zeratul_phase_melee_phase",
-    "Name": "",
-    "Type": "",
-    "Description": "<b>Melee Phase</b>",
-    "Children": []
   },
   {
     "Id": "pdf_Protoss_profile_zeratul_selected_options",

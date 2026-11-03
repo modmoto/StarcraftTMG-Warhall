@@ -88,19 +88,10 @@
         "Id": "pdf_Zerg_equipment_defiler_default_3_slot",
         "Ref": [
           {
-            "Id": "pdf_Zerg_equipment_defiler_default_3_heading"
-          },
-          {
             "Id": "pdf_Zerg_equipment_defiler_default_3_table"
           },
           {
-            "Id": "pdf_Zerg_equipment_defiler_upgrade_2_heading"
-          },
-          {
             "Id": "pdf_Zerg_equipment_defiler_upgrade_2_table"
-          },
-          {
-            "Id": "pdf_Zerg_equipment_defiler_upgrade_2_keywords"
           }
         ]
       }
@@ -118,13 +109,7 @@
         "Id": "pdf_Zerg_equipment_defiler_default_3_slot",
         "Ref": [
           {
-            "Id": "pdf_Zerg_equipment_defiler_upgrade_2_heading"
-          },
-          {
             "Id": "pdf_Zerg_equipment_defiler_upgrade_2_table"
-          },
-          {
-            "Id": "pdf_Zerg_equipment_defiler_upgrade_2_keywords"
           }
         ]
       }
@@ -283,13 +268,7 @@
         "Id": "pdf_Zerg_equipment_raptors_zergling_default_2_slot",
         "Ref": [
           {
-            "Id": "pdf_Zerg_equipment_raptors_zergling_default_2_heading"
-          },
-          {
             "Id": "pdf_Zerg_equipment_raptors_zergling_default_2_table"
-          },
-          {
-            "Id": "pdf_Zerg_equipment_raptors_zergling_upgrade_1_heading"
           },
           {
             "Id": "pdf_Zerg_equipment_raptors_zergling_upgrade_1_table"
@@ -309,9 +288,6 @@
       {
         "Id": "pdf_Zerg_equipment_raptors_zergling_default_2_slot",
         "Ref": [
-          {
-            "Id": "pdf_Zerg_equipment_raptors_zergling_upgrade_1_heading"
-          },
           {
             "Id": "pdf_Zerg_equipment_raptors_zergling_upgrade_1_table"
           }
@@ -568,13 +544,7 @@
         "Id": "pdf_Zerg_equipment_zerglings_default_2_slot",
         "Ref": [
           {
-            "Id": "pdf_Zerg_equipment_zerglings_default_2_heading"
-          },
-          {
             "Id": "pdf_Zerg_equipment_zerglings_default_2_table"
-          },
-          {
-            "Id": "pdf_Zerg_equipment_zerglings_upgrade_1_heading"
           },
           {
             "Id": "pdf_Zerg_equipment_zerglings_upgrade_1_table"
@@ -594,9 +564,6 @@
       {
         "Id": "pdf_Zerg_equipment_zerglings_default_2_slot",
         "Ref": [
-          {
-            "Id": "pdf_Zerg_equipment_zerglings_upgrade_1_heading"
-          },
           {
             "Id": "pdf_Zerg_equipment_zerglings_upgrade_1_table"
           }

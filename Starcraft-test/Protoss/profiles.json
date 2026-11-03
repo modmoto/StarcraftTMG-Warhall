@@ -18,13 +18,7 @@
         "Id": "pdf_Protoss_profile_adepts_selected_options"
       },
       {
-        "Id": "pdf_Protoss_profile_adepts_phase_assault_phase"
-      },
-      {
         "Id": "pdf_Protoss_equipment_adepts_default_2_slot"
-      },
-      {
-        "Id": "pdf_Protoss_profile_adepts_phase_melee_phase"
       },
       {
         "Id": "pdf_Protoss_equipment_adepts_default_3_slot"
@@ -59,9 +53,6 @@
         "Id": "pdf_Protoss_profile_artanis_selected_options"
       },
       {
-        "Id": "pdf_Protoss_profile_artanis_phase_melee_phase"
-      },
-      {
         "Id": "pdf_Protoss_equipment_artanis_default_3_slot"
       },
       {
@@ -88,13 +79,7 @@
         "Id": "pdf_Protoss_profile_high_templar_selected_options"
       },
       {
-        "Id": "pdf_Protoss_profile_high_templar_phase_assault_phase"
-      },
-      {
         "Id": "pdf_Protoss_equipment_high_templar_default_2_slot"
-      },
-      {
-        "Id": "pdf_Protoss_profile_high_templar_phase_melee_phase"
       },
       {
         "Id": "pdf_Protoss_equipment_high_templar_default_3_slot"
@@ -123,16 +108,10 @@
         "Id": "pdf_Protoss_profile_immortal_selected_options"
       },
       {
-        "Id": "pdf_Protoss_profile_immortal_phase_assault_phase"
-      },
-      {
         "Id": "pdf_Protoss_equipment_immortal_default_1_slot"
       },
       {
         "Id": "pdf_Protoss_equipment_immortal_default_2_slot"
-      },
-      {
-        "Id": "pdf_Protoss_profile_immortal_phase_melee_phase"
       },
       {
         "Id": "pdf_Protoss_equipment_immortal_default_4_slot"
@@ -161,13 +140,7 @@
         "Id": "pdf_Protoss_profile_nerazim_watchers_adept_selected_options"
       },
       {
-        "Id": "pdf_Protoss_profile_nerazim_watchers_adept_phase_assault_phase"
-      },
-      {
         "Id": "pdf_Protoss_equipment_nerazim_watchers_adept_default_2_slot"
-      },
-      {
-        "Id": "pdf_Protoss_profile_nerazim_watchers_adept_phase_melee_phase"
       },
       {
         "Id": "pdf_Protoss_equipment_nerazim_watchers_adept_default_3_slot"
@@ -203,9 +176,6 @@
       },
       {
         "Id": "pdf_Protoss_profile_praetor_guards_selected_options"
-      },
-      {
-        "Id": "pdf_Protoss_profile_praetor_guards_phase_melee_phase"
       },
       {
         "Id": "pdf_Protoss_equipment_praetor_guards_default_3_slot"
@@ -257,13 +227,7 @@
         "Id": "pdf_Protoss_profile_sentries_selected_options"
       },
       {
-        "Id": "pdf_Protoss_profile_sentries_phase_assault_phase"
-      },
-      {
         "Id": "pdf_Protoss_equipment_sentries_default_2_slot"
-      },
-      {
-        "Id": "pdf_Protoss_profile_sentries_phase_melee_phase"
       },
       {
         "Id": "pdf_Protoss_equipment_sentries_default_3_slot"
@@ -289,13 +253,7 @@
         "Id": "pdf_Protoss_profile_stalker_selected_options"
       },
       {
-        "Id": "pdf_Protoss_profile_stalker_phase_assault_phase"
-      },
-      {
         "Id": "pdf_Protoss_equipment_stalker_default_2_slot"
-      },
-      {
-        "Id": "pdf_Protoss_profile_stalker_phase_melee_phase"
       },
       {
         "Id": "pdf_Protoss_equipment_stalker_default_3_slot"
@@ -333,13 +291,7 @@
         "Id": "pdf_Protoss_profile_tassadar_selected_options"
       },
       {
-        "Id": "pdf_Protoss_profile_tassadar_phase_assault_phase"
-      },
-      {
         "Id": "pdf_Protoss_equipment_tassadar_default_2_slot"
-      },
-      {
-        "Id": "pdf_Protoss_profile_tassadar_phase_melee_phase"
       },
       {
         "Id": "pdf_Protoss_equipment_tassadar_default_4_slot"
@@ -371,13 +323,7 @@
         "Id": "pdf_Protoss_profile_twilight_templar_high_templar_selected_options"
       },
       {
-        "Id": "pdf_Protoss_profile_twilight_templar_high_templar_phase_assault_phase"
-      },
-      {
         "Id": "pdf_Protoss_equipment_twilight_templar_high_templar_default_2_slot"
-      },
-      {
-        "Id": "pdf_Protoss_profile_twilight_templar_high_templar_phase_melee_phase"
       },
       {
         "Id": "pdf_Protoss_equipment_twilight_templar_high_templar_default_3_slot"
@@ -401,9 +347,6 @@
       },
       {
         "Id": "pdf_Protoss_profile_zealots_selected_options"
-      },
-      {
-        "Id": "pdf_Protoss_profile_zealots_phase_melee_phase"
       },
       {
         "Id": "pdf_Protoss_equipment_zealots_default_1_slot"
@@ -442,9 +385,6 @@
       },
       {
         "Id": "pdf_Protoss_profile_zeratul_selected_options"
-      },
-      {
-        "Id": "pdf_Protoss_profile_zeratul_phase_melee_phase"
       },
       {
         "Id": "pdf_Protoss_equipment_zeratul_default_3_slot"

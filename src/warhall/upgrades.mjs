@@ -1,6 +1,6 @@
 import assert from 'node:assert/strict';
 import { abilityName } from '../sources/pdf/abilities.mjs';
-import { weaponRows } from './presentation.mjs';
+import { weaponRows, weaponTable, weaponKeywords } from './presentation.mjs';
 
 const normalized = value =>
   value
@@ -41,7 +41,20 @@ export function addUpgradeOptions(unit, ids, profiles, profileIds, defaults, rec
   const rows = new Map(
     profiles.flatMap((profile, index) =>
       /Weapon$/.test(profile.type)
-        ? [[profileIds[index], weaponRows(profile, profileIds[index], records, glossary)]]
+        ? [
+            [
+              profileIds[index],
+              weaponRows(
+                profile,
+                profileIds[index],
+                records,
+                glossary,
+                records.rules
+                  .get(`${defaults[unit.profiles.indexOf(replacedWeapon(unit, profile))]}_table`)
+                  ?.Description.match(/^<b>([^<]*Phase)<\/b>\n/)?.[1] ?? '',
+              ),
+            ],
+          ]
         : [],
     ),
   );
@@ -49,6 +62,7 @@ export function addUpgradeOptions(unit, ids, profiles, profileIds, defaults, rec
     const recordId = profileIds[index];
     const optionId = abilityName(profile.name);
     const isWeapon = /Weapon$/.test(profile.type);
+    const replaced = replacedWeapon(unit, profile);
     let labelId = recordId;
     if (isWeapon) {
       labelId = `${recordId}_choice`;
@@ -56,13 +70,19 @@ export function addUpgradeOptions(unit, ids, profiles, profileIds, defaults, rec
         Id: labelId,
         Name: abilityName(profile.name),
         Type: 'Rule',
-        Description: `<b>Upgrade ability</b>\n\n${records.equipment.get(recordId).Description}`,
+        Description: [
+          '<b>Upgrade ability</b>',
+          `Replace ${replaced.name} with ${profile.name}.`,
+          `<b>${profile.name}</b>\n${weaponTable(profile.attributes)}`,
+          weaponKeywords(profile.attributes.Keyword, glossary),
+        ]
+          .filter(Boolean)
+          .join('\n\n'),
       });
       records.owners.set(labelId, new Set([unit.name]));
     }
     const add = [{ Id: `${ids.profile}_selected_options`, Ref: [{ Id: labelId }] }];
     const remove = [];
-    const replaced = replacedWeapon(unit, profile);
     if (replaced) {
       const oldId = defaults[unit.profiles.indexOf(replaced)];
       const slot = `${oldId}_slot`;

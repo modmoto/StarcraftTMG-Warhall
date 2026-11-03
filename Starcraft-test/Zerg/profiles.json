@@ -30,9 +30,6 @@
         "Id": "pdf_Zerg_profile_bile_launcher_selected_options"
       },
       {
-        "Id": "pdf_Zerg_profile_bile_launcher_phase_assault_phase"
-      },
-      {
         "Id": "pdf_Zerg_equipment_bile_launcher_default_2_slot"
       }
     ]
@@ -62,13 +59,7 @@
         "Id": "pdf_Zerg_profile_corpsers_roach_selected_options"
       },
       {
-        "Id": "pdf_Zerg_profile_corpsers_roach_phase_assault_phase"
-      },
-      {
         "Id": "pdf_Zerg_equipment_corpsers_roach_default_2_slot"
-      },
-      {
-        "Id": "pdf_Zerg_profile_corpsers_roach_phase_melee_phase"
       },
       {
         "Id": "pdf_Zerg_equipment_corpsers_roach_default_4_slot"
@@ -100,9 +91,6 @@
         "Id": "pdf_Zerg_profile_defiler_selected_options"
       },
       {
-        "Id": "pdf_Zerg_profile_defiler_phase_melee_phase"
-      },
-      {
         "Id": "pdf_Zerg_equipment_defiler_default_3_slot"
       }
     ]
@@ -126,13 +114,7 @@
         "Id": "pdf_Zerg_profile_hydralisks_selected_options"
       },
       {
-        "Id": "pdf_Zerg_profile_hydralisks_phase_assault_phase"
-      },
-      {
         "Id": "pdf_Zerg_equipment_hydralisks_default_1_slot"
-      },
-      {
-        "Id": "pdf_Zerg_profile_hydralisks_phase_melee_phase"
       },
       {
         "Id": "pdf_Zerg_equipment_hydralisks_default_3_slot"
@@ -167,13 +149,7 @@
         "Id": "pdf_Zerg_profile_kerrigan_selected_options"
       },
       {
-        "Id": "pdf_Zerg_profile_kerrigan_phase_assault_phase"
-      },
-      {
         "Id": "pdf_Zerg_equipment_kerrigan_default_2_slot"
-      },
-      {
-        "Id": "pdf_Zerg_profile_kerrigan_phase_melee_phase"
       },
       {
         "Id": "pdf_Zerg_equipment_kerrigan_default_4_slot"
@@ -206,9 +182,6 @@
       },
       {
         "Id": "pdf_Zerg_profile_kerrigan_swarm_raptors_zergling_selected_options"
-      },
-      {
-        "Id": "pdf_Zerg_profile_kerrigan_swarm_raptors_zergling_phase_melee_phase"
       },
       {
         "Id": "pdf_Zerg_equipment_kerrigan_swarm_raptors_zergling_default_2_slot"
@@ -269,16 +242,10 @@
         "Id": "pdf_Zerg_profile_queen_selected_options"
       },
       {
-        "Id": "pdf_Zerg_profile_queen_phase_assault_phase"
-      },
-      {
         "Id": "pdf_Zerg_equipment_queen_default_1_slot"
       },
       {
         "Id": "pdf_Zerg_equipment_queen_default_2_slot"
-      },
-      {
-        "Id": "pdf_Zerg_profile_queen_phase_melee_phase"
       },
       {
         "Id": "pdf_Zerg_equipment_queen_default_4_slot"
@@ -313,9 +280,6 @@
         "Id": "pdf_Zerg_profile_raptors_zergling_selected_options"
       },
       {
-        "Id": "pdf_Zerg_profile_raptors_zergling_phase_melee_phase"
-      },
-      {
         "Id": "pdf_Zerg_equipment_raptors_zergling_default_2_slot"
       }
     ]
@@ -345,13 +309,7 @@
         "Id": "pdf_Zerg_profile_ravagers_selected_options"
       },
       {
-        "Id": "pdf_Zerg_profile_ravagers_phase_assault_phase"
-      },
-      {
         "Id": "pdf_Zerg_equipment_ravagers_default_2_slot"
-      },
-      {
-        "Id": "pdf_Zerg_profile_ravagers_phase_melee_phase"
       },
       {
         "Id": "pdf_Zerg_equipment_ravagers_default_4_slot"
@@ -380,13 +338,7 @@
         "Id": "pdf_Zerg_profile_roaches_selected_options"
       },
       {
-        "Id": "pdf_Zerg_profile_roaches_phase_assault_phase"
-      },
-      {
         "Id": "pdf_Zerg_equipment_roaches_default_1_slot"
-      },
-      {
-        "Id": "pdf_Zerg_profile_roaches_phase_melee_phase"
       },
       {
         "Id": "pdf_Zerg_equipment_roaches_default_3_slot"
@@ -407,9 +359,6 @@
       },
       {
         "Id": "pdf_Zerg_profile_roachling_selected_options"
-      },
-      {
-        "Id": "pdf_Zerg_profile_roachling_phase_melee_phase"
       },
       {
         "Id": "pdf_Zerg_equipment_roachling_default_1_slot"
@@ -439,9 +388,6 @@
       },
       {
         "Id": "pdf_Zerg_profile_swarmlings_selected_options"
-      },
-      {
-        "Id": "pdf_Zerg_profile_swarmlings_phase_melee_phase"
       },
       {
         "Id": "pdf_Zerg_equipment_swarmlings_default_3_slot"
@@ -479,9 +425,6 @@
         "Id": "pdf_Zerg_profile_vileling_zergling_selected_options"
       },
       {
-        "Id": "pdf_Zerg_profile_vileling_zergling_phase_melee_phase"
-      },
-      {
         "Id": "pdf_Zerg_equipment_vileling_zergling_default_3_slot"
       }
     ]
@@ -511,13 +454,7 @@
         "Id": "pdf_Zerg_profile_viles_roach_selected_options"
       },
       {
-        "Id": "pdf_Zerg_profile_viles_roach_phase_assault_phase"
-      },
-      {
         "Id": "pdf_Zerg_equipment_viles_roach_default_1_slot"
-      },
-      {
-        "Id": "pdf_Zerg_profile_viles_roach_phase_melee_phase"
       },
       {
         "Id": "pdf_Zerg_equipment_viles_roach_default_3_slot"
@@ -555,16 +492,10 @@
         "Id": "pdf_Zerg_profile_zagara_selected_options"
       },
       {
-        "Id": "pdf_Zerg_profile_zagara_phase_assault_phase"
-      },
-      {
         "Id": "pdf_Zerg_equipment_zagara_default_2_slot"
       },
       {
         "Id": "pdf_Zerg_equipment_zagara_default_3_slot"
-      },
-      {
-        "Id": "pdf_Zerg_profile_zagara_phase_melee_phase"
       },
       {
         "Id": "pdf_Zerg_equipment_zagara_default_5_slot"
@@ -591,9 +522,6 @@
       },
       {
         "Id": "pdf_Zerg_profile_zerglings_selected_options"
-      },
-      {
-        "Id": "pdf_Zerg_profile_zerglings_phase_melee_phase"
       },
       {
         "Id": "pdf_Zerg_equipment_zerglings_default_2_slot"

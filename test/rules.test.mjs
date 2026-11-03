@@ -167,12 +167,6 @@ test('profiles render phase sections and left-aligned full-width weapon tables',
   )
     .slice(1)
     .filter(child => (child.Type && child.Type !== 'Profile') || child.Description);
-  assert.deepEqual(
-    children
-      .filter(item => item.Type === '' && !item.Id.endsWith('_table'))
-      .map(item => item.Description),
-    ['<b>Assault Phase</b>', '<b>C-14 RIFLE</b>', '<b>Melee Phase</b>', '<b>STRIKE</b>'],
-  );
   const rifle = children.find(item => item.Id === 'pdf_Terran_equipment_marines_default_1_table');
   assert.equal(rifle.Type, '');
   assert.match(rifle.Description, /<align=left>/);
@@ -181,11 +175,12 @@ test('profiles render phase sections and left-aligned full-width weapon tables',
   assert.match(rifle.Description, /Light \(D3\)/);
   assert.deepEqual(rifle.Children, []);
   assert.equal(children[0].Id, 'stat_marine');
-  const assault = children.findIndex(item => item.Description === '<b>Assault Phase</b>');
-  const melee = children.findIndex(item => item.Description === '<b>Melee Phase</b>');
-  const rifleIndex = children.indexOf(rifle);
-  const strikeIndex = children.findIndex(item => item.Description === '<b>STRIKE</b>');
-  assert.ok(assault < rifleIndex && rifleIndex < melee && melee < strikeIndex);
+  assert.match(rifle.Description, /^<b>Assault Phase<\/b>\n<b>C-14 RIFLE<\/b>\n<align/);
+  const strike = children.find(
+    item => item.Id.endsWith('_table') && item.Description.includes('<b>STRIKE</b>'),
+  );
+  assert.match(strike.Description, /^<b>Melee Phase<\/b>\n<b>STRIKE<\/b>\n<align/);
+  assert.ok(children.indexOf(rifle) < children.indexOf(strike));
   assert.ok(children.some(item => item.Name === 'Stimpack (Marines)' && item.Type === 'Rule'));
   assert.equal(data['gameconfig.json'].MaxCloudSeparation, 4);
   assert.equal(data['gameconfig.json'].ShowGroupHeader, false);
@@ -280,8 +275,8 @@ test('full-width weapon keywords link complete labels and rules precede every we
       )
         .slice(1)
         .filter(child => (child.Type && child.Type !== 'Profile') || child.Description);
-      const firstPhase = children.findIndex(
-        child => child.Id.includes('_phase_') && child.Name === '',
+      const firstPhase = children.findIndex(child =>
+        /^<b>(?:Assault|Melee) Phase<\/b>\n/.test(child.Description ?? ''),
       );
       assert.ok(
         children

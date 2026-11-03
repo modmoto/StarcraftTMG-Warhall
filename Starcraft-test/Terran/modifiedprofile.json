@@ -24,31 +24,13 @@
         "Id": "pdf_Terran_equipment_goliath_default_3_slot",
         "Ref": [
           {
-            "Id": "pdf_Terran_equipment_goliath_default_3_heading"
-          },
-          {
             "Id": "pdf_Terran_equipment_goliath_default_3_table"
-          },
-          {
-            "Id": "pdf_Terran_equipment_goliath_default_3_keywords"
-          },
-          {
-            "Id": "pdf_Terran_equipment_goliath_upgrade_1_heading"
           },
           {
             "Id": "pdf_Terran_equipment_goliath_upgrade_1_table"
           },
           {
-            "Id": "pdf_Terran_equipment_goliath_upgrade_1_keywords"
-          },
-          {
-            "Id": "pdf_Terran_equipment_goliath_upgrade_2_heading"
-          },
-          {
             "Id": "pdf_Terran_equipment_goliath_upgrade_2_table"
-          },
-          {
-            "Id": "pdf_Terran_equipment_goliath_upgrade_2_keywords"
           }
         ]
       }
@@ -66,13 +48,7 @@
         "Id": "pdf_Terran_equipment_goliath_default_3_slot",
         "Ref": [
           {
-            "Id": "pdf_Terran_equipment_goliath_upgrade_2_heading"
-          },
-          {
             "Id": "pdf_Terran_equipment_goliath_upgrade_2_table"
-          },
-          {
-            "Id": "pdf_Terran_equipment_goliath_upgrade_2_keywords"
           }
         ]
       }
@@ -87,31 +63,13 @@
         "Id": "pdf_Terran_equipment_goliath_default_3_slot",
         "Ref": [
           {
-            "Id": "pdf_Terran_equipment_goliath_default_3_heading"
-          },
-          {
             "Id": "pdf_Terran_equipment_goliath_default_3_table"
-          },
-          {
-            "Id": "pdf_Terran_equipment_goliath_default_3_keywords"
-          },
-          {
-            "Id": "pdf_Terran_equipment_goliath_upgrade_1_heading"
           },
           {
             "Id": "pdf_Terran_equipment_goliath_upgrade_1_table"
           },
           {
-            "Id": "pdf_Terran_equipment_goliath_upgrade_1_keywords"
-          },
-          {
-            "Id": "pdf_Terran_equipment_goliath_upgrade_2_heading"
-          },
-          {
             "Id": "pdf_Terran_equipment_goliath_upgrade_2_table"
-          },
-          {
-            "Id": "pdf_Terran_equipment_goliath_upgrade_2_keywords"
           }
         ]
       }
@@ -129,13 +87,7 @@
         "Id": "pdf_Terran_equipment_goliath_default_3_slot",
         "Ref": [
           {
-            "Id": "pdf_Terran_equipment_goliath_upgrade_1_heading"
-          },
-          {
             "Id": "pdf_Terran_equipment_goliath_upgrade_1_table"
-          },
-          {
-            "Id": "pdf_Terran_equipment_goliath_upgrade_1_keywords"
           }
         ]
       }
@@ -150,22 +102,10 @@
         "Id": "pdf_Terran_equipment_jim_raynor_default_2_slot",
         "Ref": [
           {
-            "Id": "pdf_Terran_equipment_jim_raynor_default_2_heading"
-          },
-          {
             "Id": "pdf_Terran_equipment_jim_raynor_default_2_table"
           },
           {
-            "Id": "pdf_Terran_equipment_jim_raynor_default_2_keywords"
-          },
-          {
-            "Id": "pdf_Terran_equipment_jim_raynor_upgrade_0_heading"
-          },
-          {
             "Id": "pdf_Terran_equipment_jim_raynor_upgrade_0_table"
-          },
-          {
-            "Id": "pdf_Terran_equipment_jim_raynor_upgrade_0_keywords"
           }
         ]
       }
@@ -183,13 +123,7 @@
         "Id": "pdf_Terran_equipment_jim_raynor_default_2_slot",
         "Ref": [
           {
-            "Id": "pdf_Terran_equipment_jim_raynor_upgrade_0_heading"
-          },
-          {
             "Id": "pdf_Terran_equipment_jim_raynor_upgrade_0_table"
-          },
-          {
-            "Id": "pdf_Terran_equipment_jim_raynor_upgrade_0_keywords"
           }
         ]
       }
@@ -445,28 +379,13 @@
         "Id": "pdf_Terran_equipment_marines_default_1_slot",
         "Ref": [
           {
-            "Id": "pdf_Terran_equipment_marines_default_1_heading"
-          },
-          {
             "Id": "pdf_Terran_equipment_marines_default_1_table"
-          },
-          {
-            "Id": "pdf_Terran_equipment_marines_upgrade_1_heading"
           },
           {
             "Id": "pdf_Terran_equipment_marines_upgrade_1_table"
           },
           {
-            "Id": "pdf_Terran_equipment_marines_upgrade_1_keywords"
-          },
-          {
-            "Id": "pdf_Terran_equipment_marines_upgrade_2_heading"
-          },
-          {
             "Id": "pdf_Terran_equipment_marines_upgrade_2_table"
-          },
-          {
-            "Id": "pdf_Terran_equipment_marines_upgrade_2_keywords"
           }
         ]
       }
@@ -484,13 +403,7 @@
         "Id": "pdf_Terran_equipment_marines_default_1_slot",
         "Ref": [
           {
-            "Id": "pdf_Terran_equipment_marines_upgrade_1_heading"
-          },
-          {
             "Id": "pdf_Terran_equipment_marines_upgrade_1_table"
-          },
-          {
-            "Id": "pdf_Terran_equipment_marines_upgrade_1_keywords"
           }
         ]
       }
@@ -505,13 +418,7 @@
         "Id": "pdf_Terran_equipment_marines_default_2_slot",
         "Ref": [
           {
-            "Id": "pdf_Terran_equipment_marines_default_2_heading"
-          },
-          {
             "Id": "pdf_Terran_equipment_marines_default_2_table"
-          },
-          {
-            "Id": "pdf_Terran_equipment_marines_upgrade_4_heading"
           },
           {
             "Id": "pdf_Terran_equipment_marines_upgrade_4_table"
@@ -531,9 +438,6 @@
       {
         "Id": "pdf_Terran_equipment_marines_default_2_slot",
         "Ref": [
-          {
-            "Id": "pdf_Terran_equipment_marines_upgrade_4_heading"
-          },
           {
             "Id": "pdf_Terran_equipment_marines_upgrade_4_table"
           }
@@ -582,28 +486,13 @@
         "Id": "pdf_Terran_equipment_marines_default_1_slot",
         "Ref": [
           {
-            "Id": "pdf_Terran_equipment_marines_default_1_heading"
-          },
-          {
             "Id": "pdf_Terran_equipment_marines_default_1_table"
-          },
-          {
-            "Id": "pdf_Terran_equipment_marines_upgrade_1_heading"
           },
           {
             "Id": "pdf_Terran_equipment_marines_upgrade_1_table"
           },
           {
-            "Id": "pdf_Terran_equipment_marines_upgrade_1_keywords"
-          },
-          {
-            "Id": "pdf_Terran_equipment_marines_upgrade_2_heading"
-          },
-          {
             "Id": "pdf_Terran_equipment_marines_upgrade_2_table"
-          },
-          {
-            "Id": "pdf_Terran_equipment_marines_upgrade_2_keywords"
           }
         ]
       }
@@ -621,13 +510,7 @@
         "Id": "pdf_Terran_equipment_marines_default_1_slot",
         "Ref": [
           {
-            "Id": "pdf_Terran_equipment_marines_upgrade_2_heading"
-          },
-          {
             "Id": "pdf_Terran_equipment_marines_upgrade_2_table"
-          },
-          {
-            "Id": "pdf_Terran_equipment_marines_upgrade_2_keywords"
           }
         ]
       }

@@ -48,7 +48,13 @@ function unitProfile(name, choices = []) {
   return flattenProfile(applyProfileOptions(data, unit.BasicProfileIds[0], unit.Id, ids));
 }
 const weapons = profile =>
-  profile.filter(row => row.Id.endsWith('_heading')).map(row => plain(row.Description));
+  profile
+    .filter(row => row.Id.endsWith('_table'))
+    .map(row =>
+      plain(row.Description)
+        .split('\n')
+        .find(line => !line.endsWith('Phase')),
+    );
 
 test('Kinetic Foam changes the top HP row from 5 to 6 and selected blue rules precede weapons', () => {
   const base = unitProfile('Marauders');
@@ -62,7 +68,7 @@ test('Kinetic Foam changes the top HP row from 5 to 6 and selected blue rules pr
     assert.equal(stats.length, 1);
     assert.equal(stats[0].Attributes.HP, '6');
     const defaultRule = selected.findIndex(row => plain(row.Name) === 'Stimpack (Marauders)');
-    const phase = selected.findIndex(row => row.Description === '<b>Assault Phase</b>');
+    const phase = selected.findIndex(row => row.Description?.startsWith('<b>Assault Phase</b>\n'));
     for (const name of order) {
       const index = selected.findIndex(row => plain(row.Name).toLowerCase() === name.toLowerCase());
       assert.ok(defaultRule < index && index < phase);
@@ -80,9 +86,12 @@ test('Raynor C-14 Rifle replaces Commando Rifle without changing the other weapo
   assert.equal(weapons(selected).length, 3);
   const choice = selected.find(row => plain(row.Name) === 'C-14 Rifle');
   assert.match(choice.Name, /color=#2596be/);
+  assert.match(choice.Description, /Replace COMMANDO RIFLE with C-14 RIFLE\./);
+  assert.match(choice.Description, /<pos=0%><nobr>RNG/);
+  assert.match(choice.Description, /Light \(D3\+1\)/);
   assert.ok(
     selected.indexOf(choice) <
-      selected.findIndex(row => row.Description === '<b>Assault Phase</b>'),
+      selected.findIndex(row => row.Description?.startsWith('<b>Assault Phase</b>\n')),
   );
   assert.ok(
     selected
@@ -142,7 +151,7 @@ test('profile groups render inline and weapon headers stay unlinked', () => {
   const tables = records.filter(row => row.Id?.endsWith('_table'));
   assert.ok(tables.length > 0);
   for (const row of tables) {
-    assert.doesNotMatch(row.Description, /<link=/, row.Id);
+    assert.doesNotMatch(row.Description.split('</align>')[0], /<link=/, row.Id);
     assert.match(row.Description, /<color=#2596be>/);
   }
 });

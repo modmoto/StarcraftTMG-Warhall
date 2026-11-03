@@ -65,14 +65,13 @@ export function textContainer(records, id, children = []) {
   return id;
 }
 
-export function weaponRows(profile, id, records, glossary) {
-  const rows = [
-    textRow(records, `${id}_heading`, `<b>${profile.name}</b>`),
-    textRow(records, `${id}_table`, weaponTable(profile.attributes)),
-  ];
+export function weaponRows(profile, id, records, glossary, phase = '') {
+  const heading = `<b>${profile.name}</b>`;
   const keywords = weaponKeywords(profile.attributes.Keyword, glossary);
-  if (keywords) rows.push(textRow(records, `${id}_keywords`, keywords));
-  return rows;
+  textRow(records, `${id}_heading`, heading);
+  if (keywords) textRow(records, `${id}_keywords`, keywords);
+  const sections = [phase && `<b>${phase}</b>`, heading, weaponTable(profile.attributes), keywords];
+  return [textRow(records, `${id}_table`, sections.filter(Boolean).join('\n'))];
 }
 
 export function weaponKeywords(text, glossary) {
@@ -105,18 +104,22 @@ export function profileChildren(unit, ids, references, records, glossary) {
     const phase = profilePhase(profile);
     const group = groups.get(phase);
     if (!group) throw new Error(`Unknown display phase: ${unit.name}/${phase}`);
-    group.push(textContainer(records, `${id}_slot`, weaponRows(profile, id, records, glossary)));
+    group.push(
+      textContainer(
+        records,
+        `${id}_slot`,
+        weaponRows(profile, id, records, glossary, group.length ? '' : phase),
+      ),
+    );
   }
   const children = [
     { Id: textContainer(records, `${ids.profile}_stats`, [ids.statline]) },
     ...[...new Set(rules)].map(Id => ({ Id })),
     { Id: textContainer(records, `${ids.profile}_selected_options`) },
   ];
-  for (const [phase, weapons] of groups) {
+  for (const weapons of groups.values()) {
     if (!weapons.length) continue;
-    const headerId = `${ids.profile}_phase_${phase.toLowerCase().replace(/ /g, '_')}`;
-    textRow(records, headerId, `<b>${phase}</b>`);
-    children.push({ Id: headerId }, ...[...new Set(weapons)].map(Id => ({ Id })));
+    children.push(...[...new Set(weapons)].map(Id => ({ Id })));
   }
   return children;
 }

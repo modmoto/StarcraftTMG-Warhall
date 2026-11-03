@@ -21,9 +21,6 @@
         "Id": "pdf_Terran_profile_auto_turret_selected_options"
       },
       {
-        "Id": "pdf_Terran_profile_auto_turret_phase_assault_phase"
-      },
-      {
         "Id": "pdf_Terran_equipment_auto_turret_default_1_slot"
       }
     ]
@@ -50,9 +47,6 @@
         "Id": "pdf_Terran_profile_goliath_selected_options"
       },
       {
-        "Id": "pdf_Terran_profile_goliath_phase_assault_phase"
-      },
-      {
         "Id": "pdf_Terran_equipment_goliath_default_1_slot"
       },
       {
@@ -60,9 +54,6 @@
       },
       {
         "Id": "pdf_Terran_equipment_goliath_default_3_slot"
-      },
-      {
-        "Id": "pdf_Terran_profile_goliath_phase_melee_phase"
       },
       {
         "Id": "pdf_Terran_equipment_goliath_default_5_slot"
@@ -117,16 +108,10 @@
         "Id": "pdf_Terran_profile_jim_raynor_selected_options"
       },
       {
-        "Id": "pdf_Terran_profile_jim_raynor_phase_assault_phase"
-      },
-      {
         "Id": "pdf_Terran_equipment_jim_raynor_default_2_slot"
       },
       {
         "Id": "pdf_Terran_equipment_jim_raynor_default_3_slot"
-      },
-      {
-        "Id": "pdf_Terran_profile_jim_raynor_phase_melee_phase"
       },
       {
         "Id": "pdf_Terran_equipment_jim_raynor_default_4_slot"
@@ -152,13 +137,7 @@
         "Id": "pdf_Terran_profile_marauders_selected_options"
       },
       {
-        "Id": "pdf_Terran_profile_marauders_phase_assault_phase"
-      },
-      {
         "Id": "pdf_Terran_equipment_marauders_default_1_slot"
-      },
-      {
-        "Id": "pdf_Terran_profile_marauders_phase_melee_phase"
       },
       {
         "Id": "pdf_Terran_equipment_marauders_default_3_slot"
@@ -188,9 +167,6 @@
       },
       {
         "Id": "pdf_Terran_profile_medics_selected_options"
-      },
-      {
-        "Id": "pdf_Terran_profile_medics_phase_melee_phase"
       },
       {
         "Id": "pdf_Terran_equipment_medics_default_2_slot"
@@ -228,13 +204,7 @@
         "Id": "pdf_Terran_profile_nova_assault_mode_selected_options"
       },
       {
-        "Id": "pdf_Terran_profile_nova_assault_mode_phase_assault_phase"
-      },
-      {
         "Id": "pdf_Terran_equipment_nova_assault_mode_default_2_slot"
-      },
-      {
-        "Id": "pdf_Terran_profile_nova_assault_mode_phase_melee_phase"
       },
       {
         "Id": "pdf_Terran_equipment_nova_assault_mode_default_4_slot"
@@ -275,13 +245,7 @@
         "Id": "pdf_Terran_profile_nova_stealth_mode_selected_options"
       },
       {
-        "Id": "pdf_Terran_profile_nova_stealth_mode_phase_assault_phase"
-      },
-      {
         "Id": "pdf_Terran_equipment_nova_stealth_mode_default_2_slot"
-      },
-      {
-        "Id": "pdf_Terran_profile_nova_stealth_mode_phase_melee_phase"
       },
       {
         "Id": "pdf_Terran_equipment_nova_stealth_mode_default_4_slot"
@@ -333,9 +297,6 @@
         "Id": "pdf_Terran_profile_raven_selected_options"
       },
       {
-        "Id": "pdf_Terran_profile_raven_phase_assault_phase"
-      },
-      {
         "Id": "pdf_Terran_equipment_raven_default_2_slot"
       }
     ]
@@ -368,13 +329,7 @@
         "Id": "pdf_Terran_profile_raynor_s_raiders_selected_options"
       },
       {
-        "Id": "pdf_Terran_profile_raynor_s_raiders_phase_assault_phase"
-      },
-      {
         "Id": "pdf_Terran_equipment_raynor_s_raiders_default_1_slot"
-      },
-      {
-        "Id": "pdf_Terran_profile_raynor_s_raiders_phase_melee_phase"
       },
       {
         "Id": "pdf_Terran_equipment_raynor_s_raiders_default_3_slot"
@@ -432,16 +387,10 @@
         "Id": "pdf_Terran_profile_siege_tank_selected_options"
       },
       {
-        "Id": "pdf_Terran_profile_siege_tank_phase_assault_phase"
-      },
-      {
         "Id": "pdf_Terran_equipment_siege_tank_default_1_slot"
       },
       {
         "Id": "pdf_Terran_equipment_siege_tank_default_2_slot"
-      },
-      {
-        "Id": "pdf_Terran_profile_siege_tank_phase_melee_phase"
       },
       {
         "Id": "pdf_Terran_equipment_siege_tank_default_4_slot"
@@ -473,13 +422,7 @@
         "Id": "pdf_Terran_profile_spec_ops_marauder_marauder_selected_options"
       },
       {
-        "Id": "pdf_Terran_profile_spec_ops_marauder_marauder_phase_assault_phase"
-      },
-      {
         "Id": "pdf_Terran_equipment_spec_ops_marauder_marauder_default_2_slot"
-      },
-      {
-        "Id": "pdf_Terran_profile_spec_ops_marauder_marauder_phase_melee_phase"
       },
       {
         "Id": "pdf_Terran_equipment_spec_ops_marauder_marauder_default_4_slot"
@@ -502,13 +445,7 @@
         "Id": "prof_marine_selected_options"
       },
       {
-        "Id": "prof_marine_phase_assault_phase"
-      },
-      {
         "Id": "pdf_Terran_equipment_marines_default_1_slot"
-      },
-      {
-        "Id": "prof_marine_phase_melee_phase"
       },
       {
         "Id": "pdf_Terran_equipment_marines_default_2_slot"

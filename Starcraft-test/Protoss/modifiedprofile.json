@@ -8,19 +8,10 @@
         "Id": "pdf_Protoss_equipment_adepts_default_3_slot",
         "Ref": [
           {
-            "Id": "pdf_Protoss_equipment_adepts_default_3_heading"
-          },
-          {
             "Id": "pdf_Protoss_equipment_adepts_default_3_table"
           },
           {
-            "Id": "pdf_Protoss_equipment_adepts_upgrade_1_heading"
-          },
-          {
             "Id": "pdf_Protoss_equipment_adepts_upgrade_1_table"
-          },
-          {
-            "Id": "pdf_Protoss_equipment_adepts_upgrade_1_keywords"
           }
         ]
       }
@@ -38,13 +29,7 @@
         "Id": "pdf_Protoss_equipment_adepts_default_3_slot",
         "Ref": [
           {
-            "Id": "pdf_Protoss_equipment_adepts_upgrade_1_heading"
-          },
-          {
             "Id": "pdf_Protoss_equipment_adepts_upgrade_1_table"
-          },
-          {
-            "Id": "pdf_Protoss_equipment_adepts_upgrade_1_keywords"
           }
         ]
       }
@@ -155,22 +140,10 @@
         "Id": "pdf_Protoss_equipment_immortal_default_1_slot",
         "Ref": [
           {
-            "Id": "pdf_Protoss_equipment_immortal_default_1_heading"
-          },
-          {
             "Id": "pdf_Protoss_equipment_immortal_default_1_table"
           },
           {
-            "Id": "pdf_Protoss_equipment_immortal_default_1_keywords"
-          },
-          {
-            "Id": "pdf_Protoss_equipment_immortal_upgrade_1_heading"
-          },
-          {
             "Id": "pdf_Protoss_equipment_immortal_upgrade_1_table"
-          },
-          {
-            "Id": "pdf_Protoss_equipment_immortal_upgrade_1_keywords"
           }
         ]
       }
@@ -188,13 +161,7 @@
         "Id": "pdf_Protoss_equipment_immortal_default_1_slot",
         "Ref": [
           {
-            "Id": "pdf_Protoss_equipment_immortal_upgrade_1_heading"
-          },
-          {
             "Id": "pdf_Protoss_equipment_immortal_upgrade_1_table"
-          },
-          {
-            "Id": "pdf_Protoss_equipment_immortal_upgrade_1_keywords"
           }
         ]
       }
@@ -209,22 +176,10 @@
         "Id": "pdf_Protoss_equipment_immortal_default_2_slot",
         "Ref": [
           {
-            "Id": "pdf_Protoss_equipment_immortal_default_2_heading"
-          },
-          {
             "Id": "pdf_Protoss_equipment_immortal_default_2_table"
           },
           {
-            "Id": "pdf_Protoss_equipment_immortal_default_2_keywords"
-          },
-          {
-            "Id": "pdf_Protoss_equipment_immortal_upgrade_2_heading"
-          },
-          {
             "Id": "pdf_Protoss_equipment_immortal_upgrade_2_table"
-          },
-          {
-            "Id": "pdf_Protoss_equipment_immortal_upgrade_2_keywords"
           }
         ]
       }
@@ -242,13 +197,7 @@
         "Id": "pdf_Protoss_equipment_immortal_default_2_slot",
         "Ref": [
           {
-            "Id": "pdf_Protoss_equipment_immortal_upgrade_2_heading"
-          },
-          {
             "Id": "pdf_Protoss_equipment_immortal_upgrade_2_table"
-          },
-          {
-            "Id": "pdf_Protoss_equipment_immortal_upgrade_2_keywords"
           }
         ]
       }

@@ -22,3 +22,5 @@ Printed replacement notes are authoritative. Where the PDF omits a repeated note
 After refreshing the game data, re-import the list or create fresh units to resolve the new WDS options. Previously spawned fallback rule references are not retroactively converted into option selections. Live client import/layout testing is still needed; passing adapter checks is not proof of a played-room test.
 
 Presentation groups use the native Profile type to render inline, without collapsible summaries. Weapon table headers remain plain text; rule descriptions retain keyword links.
+
+Each weapon is rendered as one text block: its phase heading (for the first weapon), name, table and linked keywords use single line breaks. Separate phases retain native block spacing. Blue weapon choices state which original weapon is replaced and repeat the selected profile and keywords in the rule popup.
