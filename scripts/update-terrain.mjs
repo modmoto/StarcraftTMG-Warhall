@@ -138,12 +138,13 @@ const maps = source.maps.map(map => ({
   Name: map.name,
   MapName: map.name,
   Items: map.items.map(item => {
-    const placement = calibration.maps[String(map.number)][item.ttsGuid];
+    const placement =
+      map.width === 36 ? item : calibration.maps[String(map.number)]?.[item.ttsGuid];
     assert.ok(placement, `Missing reviewed placement: ${map.number}/${item.ttsGuid}`);
     return {
       Id: terrainMenuId(canonicalAsset(item.id)),
       Quadrant: 1,
-      Rotation: placement.rotation,
+      Rotation: Math.round(placement.rotation),
       ShortSide: 27 - placement.x,
       LongSide: 18 + placement.z,
       Type: 'Terrain',

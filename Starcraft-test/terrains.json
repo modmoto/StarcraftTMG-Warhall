@@ -1,7 +1,23 @@
 [
   {
+    "Id": "Starcraft - Terrain - Deployment - Abandoned Camp (Skirmish)",
+    "Name": "Starcraft - Terrain - Deployment - Abandoned Camp (Skirmish)",
+    "Type": "Terrain",
+    "Width": 0.1,
+    "Length": 0.1,
+    "Shape": 1
+  },
+  {
     "Id": "Starcraft - Terrain - Deployment - ACROPOLIS",
     "Name": "Starcraft - Terrain - Deployment - ACROPOLIS",
+    "Type": "Terrain",
+    "Width": 0.1,
+    "Length": 0.1,
+    "Shape": 1
+  },
+  {
+    "Id": "Starcraft - Terrain - Deployment - Agria Valley (Skirmish)",
+    "Name": "Starcraft - Terrain - Deployment - Agria Valley (Skirmish)",
     "Type": "Terrain",
     "Width": 0.1,
     "Length": 0.1,
@@ -16,8 +32,40 @@
     "Shape": 1
   },
   {
+    "Id": "Starcraft - Terrain - Deployment - Char Plains (Skirmish)",
+    "Name": "Starcraft - Terrain - Deployment - Char Plains (Skirmish)",
+    "Type": "Terrain",
+    "Width": 0.1,
+    "Length": 0.1,
+    "Shape": 1
+  },
+  {
+    "Id": "Starcraft - Terrain - Deployment - Dirt Side (Skirmish)",
+    "Name": "Starcraft - Terrain - Deployment - Dirt Side (Skirmish)",
+    "Type": "Terrain",
+    "Width": 0.1,
+    "Length": 0.1,
+    "Shape": 1
+  },
+  {
+    "Id": "Starcraft - Terrain - Deployment - Frontier (Skirmish)",
+    "Name": "Starcraft - Terrain - Deployment - Frontier (Skirmish)",
+    "Type": "Terrain",
+    "Width": 0.1,
+    "Length": 0.1,
+    "Shape": 1
+  },
+  {
     "Id": "Starcraft - Terrain - Deployment - GAUNTLET",
     "Name": "Starcraft - Terrain - Deployment - GAUNTLET",
+    "Type": "Terrain",
+    "Width": 0.1,
+    "Length": 0.1,
+    "Shape": 1
+  },
+  {
+    "Id": "Starcraft - Terrain - Deployment - Green Valleys (Skirmish)",
+    "Name": "Starcraft - Terrain - Deployment - Green Valleys (Skirmish)",
     "Type": "Terrain",
     "Width": 0.1,
     "Length": 0.1,
@@ -34,6 +82,14 @@
   {
     "Id": "Starcraft - Terrain - Deployment - ONE BRIDGE TOO CLOSE",
     "Name": "Starcraft - Terrain - Deployment - ONE BRIDGE TOO CLOSE",
+    "Type": "Terrain",
+    "Width": 0.1,
+    "Length": 0.1,
+    "Shape": 1
+  },
+  {
+    "Id": "Starcraft - Terrain - Deployment - Power Lines (Skirmish)",
+    "Name": "Starcraft - Terrain - Deployment - Power Lines (Skirmish)",
     "Type": "Terrain",
     "Width": 0.1,
     "Length": 0.1,

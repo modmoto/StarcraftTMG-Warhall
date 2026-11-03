@@ -19,5 +19,5 @@ await writeJson(
   cards.map(card => formatCard(card, overrides)),
 );
 console.log(
-  `Formatted ${cards.length} non-unit cards with resource headers and separated abilities.`,
+  `Formatted ${cards.length} non-unit cards with resource costs and separated abilities.`,
 );

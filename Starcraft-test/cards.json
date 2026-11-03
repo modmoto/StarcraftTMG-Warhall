@@ -1,5 +1,22 @@
 [
   {
+    "Id": "sc_card_deployments_abandoned_camp_skirmish",
+    "Name": "Abandoned Camp (Skirmish)",
+    "Type": "Card",
+    "Description": "Skirmish deployment.",
+    "UIConfig": {
+      "ImageURL": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/deployment_abandoned_camp_front-df03b404af6d.png",
+      "ImageURLBack": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/deployment_abandoned_camp_front-df03b404af6d.png",
+      "Width": 88,
+      "Length": 63,
+      "IsRound": false,
+      "ShowInitials": false,
+      "Border": false,
+      "Color": "#FFFFFF",
+      "Color2": ""
+    }
+  },
+  {
     "Id": "sc_card_deployments_acropolis",
     "Name": "Acropolis",
     "Type": "Card",
@@ -7,6 +24,23 @@
     "UIConfig": {
       "ImageURL": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/deployment_acropolis_front-5d3399feff16.png",
       "ImageURLBack": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/deployment_acropolis_front-5d3399feff16.png",
+      "Width": 88,
+      "Length": 63,
+      "IsRound": false,
+      "ShowInitials": false,
+      "Border": false,
+      "Color": "#FFFFFF",
+      "Color2": ""
+    }
+  },
+  {
+    "Id": "sc_card_deployments_agria_valley_skirmish",
+    "Name": "Agria Valley (Skirmish)",
+    "Type": "Card",
+    "Description": "Skirmish deployment.",
+    "UIConfig": {
+      "ImageURL": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/deployment_agria_valley_front-d09e685e2f8f.png",
+      "ImageURLBack": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/deployment_agria_valley_front-d09e685e2f8f.png",
       "Width": 88,
       "Length": 63,
       "IsRound": false,
@@ -34,6 +68,57 @@
     }
   },
   {
+    "Id": "sc_card_deployments_char_plains_skirmish",
+    "Name": "Char Plains (Skirmish)",
+    "Type": "Card",
+    "Description": "Skirmish deployment.",
+    "UIConfig": {
+      "ImageURL": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/deployment_char_plains_front-7fce84032548.png",
+      "ImageURLBack": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/deployment_char_plains_front-7fce84032548.png",
+      "Width": 88,
+      "Length": 63,
+      "IsRound": false,
+      "ShowInitials": false,
+      "Border": false,
+      "Color": "#FFFFFF",
+      "Color2": ""
+    }
+  },
+  {
+    "Id": "sc_card_deployments_dirt_side_skirmish",
+    "Name": "Dirt Side (Skirmish)",
+    "Type": "Card",
+    "Description": "Skirmish deployment.",
+    "UIConfig": {
+      "ImageURL": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/deployment_dirt_side_front-d9a01337352d.png",
+      "ImageURLBack": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/deployment_dirt_side_front-d9a01337352d.png",
+      "Width": 88,
+      "Length": 63,
+      "IsRound": false,
+      "ShowInitials": false,
+      "Border": false,
+      "Color": "#FFFFFF",
+      "Color2": ""
+    }
+  },
+  {
+    "Id": "sc_card_deployments_frontier_skirmish",
+    "Name": "Frontier (Skirmish)",
+    "Type": "Card",
+    "Description": "Skirmish deployment.",
+    "UIConfig": {
+      "ImageURL": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/deployment_frontier_front-d486399601cd.png",
+      "ImageURLBack": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/deployment_frontier_front-d486399601cd.png",
+      "Width": 88,
+      "Length": 63,
+      "IsRound": false,
+      "ShowInitials": false,
+      "Border": false,
+      "Color": "#FFFFFF",
+      "Color2": ""
+    }
+  },
+  {
     "Id": "sc_card_deployments_gauntlet",
     "Name": "Gauntlet",
     "Type": "Card",
@@ -41,6 +126,23 @@
     "UIConfig": {
       "ImageURL": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/deployment_gauntlet_front-ab29a540aac2.png",
       "ImageURLBack": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/deployment_gauntlet_front-ab29a540aac2.png",
+      "Width": 88,
+      "Length": 63,
+      "IsRound": false,
+      "ShowInitials": false,
+      "Border": false,
+      "Color": "#FFFFFF",
+      "Color2": ""
+    }
+  },
+  {
+    "Id": "sc_card_deployments_green_valleys_skirmish",
+    "Name": "Green Valleys (Skirmish)",
+    "Type": "Card",
+    "Description": "Skirmish deployment.",
+    "UIConfig": {
+      "ImageURL": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/deployment_green_valleys_front-1a9fb246be3a.png",
+      "ImageURLBack": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/deployment_green_valleys_front-1a9fb246be3a.png",
       "Width": 88,
       "Length": 63,
       "IsRound": false,
@@ -75,6 +177,23 @@
     "UIConfig": {
       "ImageURL": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/deployment_one_bridge_too_close_front-8eebb3369f45.png",
       "ImageURLBack": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/deployment_one_bridge_too_close_front-8eebb3369f45.png",
+      "Width": 88,
+      "Length": 63,
+      "IsRound": false,
+      "ShowInitials": false,
+      "Border": false,
+      "Color": "#FFFFFF",
+      "Color2": ""
+    }
+  },
+  {
+    "Id": "sc_card_deployments_power_lines_skirmish",
+    "Name": "Power Lines (Skirmish)",
+    "Type": "Card",
+    "Description": "Skirmish deployment.",
+    "UIConfig": {
+      "ImageURL": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/deployment_power_lines_front-2ee1e4364c76.png",
+      "ImageURLBack": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/deployment_power_lines_front-2ee1e4364c76.png",
       "Width": 88,
       "Length": 63,
       "IsRound": false,
@@ -136,6 +255,23 @@
     }
   },
   {
+    "Id": "sc_card_missions_artefact_hunt_skirmish",
+    "Name": "Artefact Hunt (Skirmish)",
+    "Type": "Card",
+    "Description": "Supply: 3\nRound bonus: +1\nGame length: 5\n\nMISSION PARAMETERS:\nAll <u><link=\"rule_keyword_mission_markers\">Mission Markers</link></u> are Activated.\n\nSCORING CONDITIONS:\nScore VPs equal to <u><link=\"rule_keyword_enemy\">Enemy</link></u> Supply destroyed this Round.\n\nEND OF ROUND 5:\nGain 3 VP for each <u><link=\"rule_keyword_friendly\">Friendly</link></u> Unit that CLAIM Mission Marker and it is <u><link=\"rule_keyword_wholly_within\">Wholly Within</link></u> <u><link=\"rule_keyword_friendly\">Friendly</link></u> <u><link=\"rule_keyword_zone_of_influence\">Zone of Influence</link></u>. Gain 1 VP for each Mission Marker associated with your colour that is not currently CLAIM by an <u><link=\"rule_keyword_enemy\">Enemy</link></u> Unit.\n\nADDITIONAL CONDITIONS:\n\nSCORING PHASE:\nFrom the Start of the Second Round, if a Unit is <u><link=\"rule_keyword_within\">Within</link></u> 3\" of a Controlled Mission Marker that is Neutral or associated with the Opponent colou r, that Unit may CLAIM it.\n\nCLAIM:\n<u><link=\"rule_keyword_place\">Place</link></u> the Mission Marker on the Unit Card. A Unit carrying a Mission Marker must DROP it if: • It has its <u><link=\"rule_keyword_current_supply_value\">Current Supply Value</link></u> reduced. • Before it resolves a <u><link=\"rule_keyword_place\">PLACE</link></u> effect. • It is <u><link=\"rule_keyword_engaged\">Engaged</link></u> with Enemies having a greater combined <u><link=\"rule_keyword_current_supply_value\">Current Supply Value</link></u>. • It is Destroyed, removed from <u><link=\"rule_chapter_7\">the battlefield</link></u>, or returned to <u><link=\"rule_keyword_reserves\">Reserves</link></u>. When a Unit DROP a Mission Marker, the Opponent places the Mission Marker <u><link=\"rule_keyword_within\">Within</link></u> 2\" of the Unit or its last model removed. Unit may CLAIM only one Mission Marker at a time.",
+    "UIConfig": {
+      "ImageURL": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/scenario_artefact_hunt_skirmish_front-c9a01ea4e2b3.png",
+      "ImageURLBack": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/scenario_artefact_hunt_skirmish_front-c9a01ea4e2b3.png",
+      "Width": 63,
+      "Length": 108,
+      "IsRound": false,
+      "ShowInitials": false,
+      "Border": false,
+      "Color": "#FFFFFF",
+      "Color2": ""
+    }
+  },
+  {
     "Id": "sc_card_missions_divide_and_conquer",
     "Name": "Divide And Conquer",
     "Type": "Card",
@@ -143,6 +279,23 @@
     "UIConfig": {
       "ImageURL": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/scenario_divide_and_conquer_front-d19bd6f62c7c.png",
       "ImageURLBack": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/scenario_divide_and_conquer_front-d19bd6f62c7c.png",
+      "Width": 63,
+      "Length": 108,
+      "IsRound": false,
+      "ShowInitials": false,
+      "Border": false,
+      "Color": "#FFFFFF",
+      "Color2": ""
+    }
+  },
+  {
+    "Id": "sc_card_missions_divide_and_conquer_skirmish",
+    "Name": "Divide And Conquer (Skirmish)",
+    "Type": "Card",
+    "Description": "Supply: 4\nRound bonus: +1\nGame length: 4\n\nSplit <u><link=\"rule_chapter_7\">the Battlefield</link></u> in four quarters as shown on the Deployment Card.\n\nSCORING CONDITIONS:\nScore VPs equal to <u><link=\"rule_keyword_enemy\">Enemy</link></u> Supply destroyed this Round.\n\nFROM THE START OF THE FIRST ROUND:\nCalculate Total Current Supply in each battlefield quarter. Gain 1 VP for each quarter where your Total Current Supply is higher than the Opponent's. Only <u><link=\"rule_chapter_2_2\">Units</link></u> <u><link=\"rule_keyword_wholly_within\">Wholly Within</link></u> a quarter contribute their Supply to this check. If a Unit controls a Mission Marker, that Unit is worth 1 extra Supply for controlling quarters. Gain 2 VP for Controlling Mission Marker 5.\n\nADDITIONAL CONDITIONS:\n\nSPECIAL WINNING CONDITIONS:\nThe game ends immediately if a Player leads by 8+ VPs.",
+    "UIConfig": {
+      "ImageURL": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/scenario_divide_and_conquer_skirmish_front-e38087e2941b.png",
+      "ImageURLBack": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/scenario_divide_and_conquer_skirmish_front-e38087e2941b.png",
       "Width": 63,
       "Length": 108,
       "IsRound": false,
@@ -170,6 +323,23 @@
     }
   },
   {
+    "Id": "sc_card_missions_fire_in_the_sky_skirmish",
+    "Name": "Fire In The Sky (Skirmish)",
+    "Type": "Card",
+    "Description": "Supply: 3\nRound bonus: +2\nGame length: 5\n\nMISSION PARAMETERS:\nAll <u><link=\"rule_keyword_mission_markers\">Mission Markers</link></u> are Activated. During battlefield setup, <u><link=\"rule_keyword_place\">place</link></u> a D6 next to each Mission Marker to track its Sabotage Level. Set the starting Sabotage Level of each Mission Marker to 1.\n\nSCORING CONDITIONS:\nScore VPs equal to <u><link=\"rule_keyword_enemy\">Enemy</link></u> Supply destroyed this Round.\n\nFROM THE START OF THE SECOND ROUND:\nGain VP for each Controlled Mission Marker that is Neutral or associated with the Opponent colour. The VP gained is equal to the Sabotage Level on the marker. ‣ Sabotage Level 3 = 3 VP ‣ Sabotage Level 2 = 2 VP ‣ Sabotage Level 1 = 1\n\nVP ADDITIONAL CONDITIONS:\nIf an <u><link=\"rule_keyword_unengaged\">Unengaged</link></u> Unit is <u><link=\"rule_keyword_within\">Within</link></u> 3\"\n\nASSAULT PHASE:\nof a Controlled Mission Marker, this unit may perform Sabotage Action instead of a standard action. Sabotage Action: Decrease or Increase that Mission Marker's Sabotage Level by 1 (to a minimum of 1 or maximum of 3).\n\nSPECIAL WINNING CONDITIONS:\nThe game ends immediately if a Player leads by 8+ VPs.",
+    "UIConfig": {
+      "ImageURL": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/scenario_fire_in_the_sky_skirmish_front-3fdccff81be4.png",
+      "ImageURLBack": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/scenario_fire_in_the_sky_skirmish_front-3fdccff81be4.png",
+      "Width": 63,
+      "Length": 108,
+      "IsRound": false,
+      "ShowInitials": false,
+      "Border": false,
+      "Color": "#FFFFFF",
+      "Color2": ""
+    }
+  },
+  {
     "Id": "sc_card_missions_frontlines",
     "Name": "Frontlines",
     "Type": "Card",
@@ -177,6 +347,23 @@
     "UIConfig": {
       "ImageURL": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/scenario_frontlines_front-456032e1f146.png",
       "ImageURLBack": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/scenario_frontlines_front-456032e1f146.png",
+      "Width": 63,
+      "Length": 108,
+      "IsRound": false,
+      "ShowInitials": false,
+      "Border": false,
+      "Color": "#FFFFFF",
+      "Color2": ""
+    }
+  },
+  {
+    "Id": "sc_card_missions_frontlines_skirmish",
+    "Name": "Frontlines (Skirmish)",
+    "Type": "Card",
+    "Description": "Supply: 3\nRound bonus: +1\nGame length: 5\n\nMISSION PARAMETERS:\nAll <u><link=\"rule_keyword_mission_markers\">Mission Markers</link></u> are Activated.\n\nSCORING CONDITIONS:\nScore VPs equal to <u><link=\"rule_keyword_enemy\">Enemy</link></u> Supply destroyed this Round.\n\nFROM THE START OF THE SECOND ROUND:\nGain 1 VP for each Controlled Mission Marker. Gain an additional 2 VPs for a Marker if you gained Control of it from the Opponent this Round.\n\nADDITIONAL CONDITIONS:\n\nSPECIAL WINNING CONDITIONS:\nThe game ends immediately if a Player leads by 8+ VPs.",
+    "UIConfig": {
+      "ImageURL": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/scenario_frontlines_skirmish_front-b945b33aa633.png",
+      "ImageURLBack": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/scenario_frontlines_skirmish_front-b945b33aa633.png",
       "Width": 63,
       "Length": 108,
       "IsRound": false,
@@ -204,6 +391,23 @@
     }
   },
   {
+    "Id": "sc_card_missions_gather_the_resources_skirmish",
+    "Name": "Gather The Resources (Skirmish)",
+    "Type": "Card",
+    "Description": "Supply: 3\nRound bonus: +1\nGame length: 5\n\nMISSION PARAMETERS:\nAll <u><link=\"rule_keyword_mission_markers\">Mission Markers</link></u> are Activated.\n\nSCORING CONDITIONS:\nScore VPs equal to <u><link=\"rule_keyword_enemy\">Enemy</link></u> Supply destroyed this Round.\n\nFROM THE START OF THE SECOND ROUND:\nGain 2 VPs for each Controlled Mission Marker associated with the Opponent colour.\n\nADDITIONAL CONDITIONS:\n\nASSAULT PHASE:\nIf an <u><link=\"rule_keyword_unengaged\">Unengaged</link></u> Unit is <u><link=\"rule_keyword_within\">Within</link></u> 3\" of a Controlled Neutral Mission Marker or associated with the Opponent, this unit may perform the Gather Action instead of a standard action.\n\nGATHER ACTION:\nGain 1 VP.\n\nSPECIAL WINNING CONDITIONS:\nThe game ends immediately if a Player leads by 8+ VPs.",
+    "UIConfig": {
+      "ImageURL": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/scenario_gather_the_resources_skirmish_front-0364ece33e03.png",
+      "ImageURLBack": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/scenario_gather_the_resources_skirmish_front-0364ece33e03.png",
+      "Width": 63,
+      "Length": 108,
+      "IsRound": false,
+      "ShowInitials": false,
+      "Border": false,
+      "Color": "#FFFFFF",
+      "Color2": ""
+    }
+  },
+  {
     "Id": "sc_card_missions_hold_position",
     "Name": "Hold Position",
     "Type": "Card",
@@ -211,6 +415,23 @@
     "UIConfig": {
       "ImageURL": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/scenario_hold_position_front-0d3ae2c653b6.png",
       "ImageURLBack": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/scenario_hold_position_front-0d3ae2c653b6.png",
+      "Width": 63,
+      "Length": 108,
+      "IsRound": false,
+      "ShowInitials": false,
+      "Border": false,
+      "Color": "#FFFFFF",
+      "Color2": ""
+    }
+  },
+  {
+    "Id": "sc_card_missions_hold_position_skirmish",
+    "Name": "Hold Position (Skirmish)",
+    "Type": "Card",
+    "Description": "Supply: 3\nRound bonus: +1\nGame length: 5\n\nMISSION PARAMETERS:\nAll <u><link=\"rule_keyword_mission_markers\">Mission Markers</link></u> are Activated.\n\nSCORING CONDITIONS:\nScore VPs equal to <u><link=\"rule_keyword_enemy\">Enemy</link></u> Supply destroyed this Round.\n\nFROM THE START OF THE SECOND ROUND:\nGain 1 VP for each Controlled Mission Marker that is Neutral or associated with your colour. Gain 2 VPs for each Controlled Mission Marker associated with the Opponent colour.\n\nADDITIONAL CONDITIONS:\n\nSPECIAL WINNING CONDITIONS:\nThe game ends immediately if a Player leads by 8+ VPs.",
+    "UIConfig": {
+      "ImageURL": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/scenario_hold_position_skirmish_front-2ecdd7fe4d1c.png",
+      "ImageURLBack": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/scenario_hold_position_skirmish_front-2ecdd7fe4d1c.png",
       "Width": 63,
       "Length": 108,
       "IsRound": false,
@@ -238,10 +459,27 @@
     }
   },
   {
-    "Id": "sc_card_protoss_tactics_daelaam",
-    "Name": "Daelaam (PE: 1)",
+    "Id": "sc_card_missions_supply_drop_skirmish",
+    "Name": "Supply Drop (Skirmish)",
     "Type": "Card",
-    "Description": "<b>DAE’UHL (Any Phase, reaction)</b>\nWhen a <u><link=\"rule_keyword_friendly\">Friendly</link></u> Unit receives Damage, reduce the Total Damage by 2 (to a minimum of 1).\n\n<b>MASS RECALL (Movement Phase, active)</b>\nOnce per Game. Set a Faction Indicator anywhere on <u><link=\"rule_chapter_7\">the battlefield</link></u>. All <u><link=\"rule_keyword_friendly\">Friendly</link></u> Protoss <u><link=\"rule_chapter_2_2\">Units</link></u> <u><link=\"rule_keyword_within\">Within</link></u> 6\" of this Faction Indicator are removed from <u><link=\"rule_chapter_7\">the battlefield</link></u> and returned to <u><link=\"rule_keyword_reserves\">Reserves</link></u>.",
+    "Description": "Supply: 4\nRound bonus: +1\nGame length: 4\n\nMISSION PARAMETERS:\nAll <u><link=\"rule_keyword_mission_markers\">Mission Markers</link></u> are Deactivated.\n\nSTART OF THE ROUND (2-4):\nRandomly determine one Deactivated Mission Marker (1,2,5) and flip it to its Activated side.\n\nSCORING CONDITIONS:\nScore VPs equal to <u><link=\"rule_keyword_enemy\">Enemy</link></u> Supply destroyed this Round.\n\nFROM THE START OF THE SECOND ROUND:\nFor each activated Controlled Mission Marker, gain VPs equal to the Game Round number in which that Mission Marker was Activated and remove it.\n\nADDITIONAL CONDITIONS:\n\nSPECIAL WINNING CONDITIONS:\nThe game ends immediately if a Player leads by 8+ VPs.",
+    "UIConfig": {
+      "ImageURL": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/scenario_supply_drop_skirmish_front-f68d43c09733.png",
+      "ImageURLBack": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/scenario_supply_drop_skirmish_front-f68d43c09733.png",
+      "Width": 63,
+      "Length": 108,
+      "IsRound": false,
+      "ShowInitials": false,
+      "Border": false,
+      "Color": "#FFFFFF",
+      "Color2": ""
+    }
+  },
+  {
+    "Id": "sc_card_protoss_tactics_daelaam",
+    "Name": "Daelaam",
+    "Type": "Card",
+    "Description": "PE: 1\n\n<b>DAE’UHL (Any Phase, reaction)</b>\nWhen a <u><link=\"rule_keyword_friendly\">Friendly</link></u> Unit receives Damage, reduce the Total Damage by 2 (to a minimum of 1).\n\n<b>MASS RECALL (Movement Phase, active)</b>\nOnce per Game. Set a Faction Indicator anywhere on <u><link=\"rule_chapter_7\">the battlefield</link></u>. All <u><link=\"rule_keyword_friendly\">Friendly</link></u> Protoss <u><link=\"rule_chapter_2_2\">Units</link></u> <u><link=\"rule_keyword_within\">Within</link></u> 6\" of this Faction Indicator are removed from <u><link=\"rule_chapter_7\">the battlefield</link></u> and returned to <u><link=\"rule_keyword_reserves\">Reserves</link></u>.",
     "UIConfig": {
       "ImageURL": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/protoss_daelaam_front-21d95a2cc81f.png",
       "ImageURLBack": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/protoss_daelaam_back-2961e6ec7e3f.png",
@@ -256,9 +494,9 @@
   },
   {
     "Id": "sc_card_protoss_tactics_forge",
-    "Name": "Forge (PE: 1)",
+    "Name": "Forge",
     "Type": "Card",
-    "Description": "<b>GROUND ARMOR (Any Phase, reaction)</b>\nUse before a <u><link=\"rule_keyword_friendly\">Friendly</link></u> Ground Unit makes an <u><link=\"rule_chapter_8_7_4\">Armour Roll</link></u>. That Unit gains <u><link=\"rule_keyword_tough\">TOUGH</link></u> (1) for this roll.\n\n<b>GROUND WEAPONS (Assault Phase, active)</b>\nThe active Ground Unit’s first Ranged Weapon used gains <u><link=\"rule_keyword_critical_hit\">CRITICAL HIT</link></u> (1).",
+    "Description": "PE: 1\n\n<b>GROUND ARMOR (Any Phase, reaction)</b>\nUse before a <u><link=\"rule_keyword_friendly\">Friendly</link></u> Ground Unit makes an <u><link=\"rule_chapter_8_7_4\">Armour Roll</link></u>. That Unit gains <u><link=\"rule_keyword_tough\">TOUGH</link></u> (1) for this roll.\n\n<b>GROUND WEAPONS (Assault Phase, active)</b>\nThe active Ground Unit’s first Ranged Weapon used gains <u><link=\"rule_keyword_critical_hit\">CRITICAL HIT</link></u> (1).",
     "UIConfig": {
       "ImageURL": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/protoss_forge_front-1c41ab10e8a3.png",
       "ImageURLBack": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/protoss_forge_back-fe74dd563236.png",
@@ -273,9 +511,9 @@
   },
   {
     "Id": "sc_card_protoss_tactics_gate_chronoboosted",
-    "Name": "Gate Chronoboosted (PE: 1)",
+    "Name": "Gate Chronoboosted",
     "Type": "Card",
-    "Description": "<b>ZEALOUS <u><link=\"rule_chapter_8_7_7\">CHARGE</link></u> (Movement Phase, active)</b>\nThe active Unit gains <u><link=\"rule_keyword_buff\">BUFF</link></u> Speed (2).\n\n<b>QUICK STRIKES (Combat Phase, active)</b>\nThe active Unit’s first Close Combat Weapon used gains <u><link=\"rule_keyword_precision\">PRECISION</link></u> (2). GATE CHRONOBOOSTED",
+    "Description": "PE: 1\n\n<b>ZEALOUS <u><link=\"rule_chapter_8_7_7\">CHARGE</link></u> (Movement Phase, active)</b>\nThe active Unit gains <u><link=\"rule_keyword_buff\">BUFF</link></u> Speed (2).\n\n<b>QUICK STRIKES (Combat Phase, active)</b>\nThe active Unit’s first Close Combat Weapon used gains <u><link=\"rule_keyword_precision\">PRECISION</link></u> (2). GATE CHRONOBOOSTED",
     "UIConfig": {
       "ImageURL": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/protoss_gate_chronoboosted_front-f16df1f18b42.png",
       "ImageURLBack": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/protoss_gate_chronoboosted_back-8328e43ea457.png",
@@ -290,9 +528,9 @@
   },
   {
     "Id": "sc_card_protoss_tactics_gateway",
-    "Name": "Gateway (PE: 1)",
+    "Name": "Gateway",
     "Type": "Card",
-    "Description": "<b>QUICK STRIKES (Combat Phase, active)</b>\nThe active Unit’s first Close Combat Weapon used gains <u><link=\"rule_keyword_precision\">PRECISION</link></u> (2).",
+    "Description": "PE: 1\n\n<b>QUICK STRIKES (Combat Phase, active)</b>\nThe active Unit’s first Close Combat Weapon used gains <u><link=\"rule_keyword_precision\">PRECISION</link></u> (2).",
     "UIConfig": {
       "ImageURL": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/protoss_gateway_front-5c392baa1654.png",
       "ImageURLBack": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/protoss_gateway_back-45e7ae536152.png",
@@ -307,9 +545,9 @@
   },
   {
     "Id": "sc_card_protoss_tactics_khalai",
-    "Name": "Khalai (PE: 1)",
+    "Name": "Khalai",
     "Type": "Card",
-    "Description": "<b>PYLON WARP-IN (Movement Phase, active)</b>\nIf there is no <u><link=\"rule_keyword_friendly\">Friendly</link></u> Pylon on <u><link=\"rule_chapter_7\">the battlefield</link></u>, set a <u><link=\"rule_keyword_friendly\">Friendly</link></u> Pylon Unit anywhere on the <u><link=\"rule_keyword_ground_level\">GROUND LEVEL</link></u> of <u><link=\"rule_chapter_7\">the battlefield</link></u> more than 10\" away from any <u><link=\"rule_keyword_enemy\">Enemy</link></u> model. This Round, the Pylon is not eligible to use its <u><link=\"rule_chapter_10_1\">Special Abilities</link></u> (excluding Structure).\n\n<b>BOUND BY THE KHALA (Movement Phase, active)</b>\nAt the end of the active Unit’s Activation, select one other <u><link=\"rule_keyword_friendly\">Friendly</link></u> Unit eligible to Activate in the current Phase. Immediately Activate that Unit.",
+    "Description": "PE: 1\n\n<b>PYLON WARP-IN (Movement Phase, active)</b>\nIf there is no <u><link=\"rule_keyword_friendly\">Friendly</link></u> Pylon on <u><link=\"rule_chapter_7\">the battlefield</link></u>, set a <u><link=\"rule_keyword_friendly\">Friendly</link></u> Pylon Unit anywhere on the <u><link=\"rule_keyword_ground_level\">GROUND LEVEL</link></u> of <u><link=\"rule_chapter_7\">the battlefield</link></u> more than 10\" away from any <u><link=\"rule_keyword_enemy\">Enemy</link></u> model. This Round, the Pylon is not eligible to use its <u><link=\"rule_chapter_10_1\">Special Abilities</link></u> (excluding Structure).\n\n<b>BOUND BY THE KHALA (Movement Phase, active)</b>\nAt the end of the active Unit’s Activation, select one other <u><link=\"rule_keyword_friendly\">Friendly</link></u> Unit eligible to Activate in the current Phase. Immediately Activate that Unit.",
     "UIConfig": {
       "ImageURL": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/protoss_khalai_front-99b674bd57e4.png",
       "ImageURLBack": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/protoss_khalai_back-a2d7542a8cd2.png",
@@ -324,9 +562,9 @@
   },
   {
     "Id": "sc_card_protoss_tactics_nerazim",
-    "Name": "Nerazim (PE: 1)",
+    "Name": "Nerazim",
     "Type": "Card",
-    "Description": "<b>MIGHT OF THE NERAZIM (Any Phase, reaction)</b>\nIf a <u><link=\"rule_keyword_friendly\">Friendly</link></u> Unit loses the <u><link=\"rule_keyword_hidden\">HIDDEN</link></u> <u><link=\"rule_keyword_status\">Status</link></u>, it gains <u><link=\"rule_keyword_buff\">Buff</link></u> Speed (2) and its first Weapon used <u><link=\"rule_keyword_critical_hit\">CRITICAL HIT</link></u> (2).\n\n<b>DARKNESS DESCENDS (Movement Phase, active)</b>\nThe active Biological Unit gains the <u><link=\"rule_keyword_hidden\">HIDDEN</link></u> <u><link=\"rule_keyword_status\">Status</link></u> until the End of the Round.",
+    "Description": "PE: 1\n\n<b>MIGHT OF THE NERAZIM (Any Phase, reaction)</b>\nIf a <u><link=\"rule_keyword_friendly\">Friendly</link></u> Unit loses the <u><link=\"rule_keyword_hidden\">HIDDEN</link></u> <u><link=\"rule_keyword_status\">Status</link></u>, it gains <u><link=\"rule_keyword_buff\">Buff</link></u> Speed (2) and its first Weapon used <u><link=\"rule_keyword_critical_hit\">CRITICAL HIT</link></u> (2).\n\n<b>DARKNESS DESCENDS (Movement Phase, active)</b>\nThe active Biological Unit gains the <u><link=\"rule_keyword_hidden\">HIDDEN</link></u> <u><link=\"rule_keyword_status\">Status</link></u> until the End of the Round.",
     "UIConfig": {
       "ImageURL": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/protoss_nerazim_front-6ce63300eaeb.png",
       "ImageURLBack": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/protoss_nerazim_back-158db1529bb5.png",
@@ -341,9 +579,9 @@
   },
   {
     "Id": "sc_card_protoss_tactics_nexus",
-    "Name": "Nexus (PE: 1)",
+    "Name": "Nexus",
     "Type": "Card",
-    "Description": "<b>ANCIENT PRIDE (Any Phase, active)</b>\nThe active Unit’s first Weapon used gains <u><link=\"rule_keyword_instant\">INSTANT</link></u>.\n\n<b>STRATEGIC RECALL (Movement Phase, active)</b>\nThe active, <u><link=\"rule_keyword_unengaged\">Unengaged</link></u> Ground Unit is returned to <u><link=\"rule_keyword_reserves\">Reserves</link></u> instead of performing an action.",
+    "Description": "PE: 1\n\n<b>ANCIENT PRIDE (Any Phase, active)</b>\nThe active Unit’s first Weapon used gains <u><link=\"rule_keyword_instant\">INSTANT</link></u>.\n\n<b>STRATEGIC RECALL (Movement Phase, active)</b>\nThe active, <u><link=\"rule_keyword_unengaged\">Unengaged</link></u> Ground Unit is returned to <u><link=\"rule_keyword_reserves\">Reserves</link></u> instead of performing an action.",
     "UIConfig": {
       "ImageURL": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/protoss_nexus_front-6cd72930e851.png",
       "ImageURLBack": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/protoss_nexus_back-bdcb0304e31e.png",
@@ -358,9 +596,9 @@
   },
   {
     "Id": "sc_card_protoss_tactics_observer",
-    "Name": "Observer (PE: 1)",
+    "Name": "Observer",
     "Type": "Card",
-    "Description": "<b>SURVEILLANCE (Movement Phase, active)</b>\nSet a Faction Indicator anywhere on <u><link=\"rule_chapter_7\">the battlefield</link></u>. While <u><link=\"rule_keyword_enemy\">Enemy</link></u> <u><link=\"rule_chapter_2_2\">Units</link></u> are <u><link=\"rule_keyword_within\">Within</link></u> 6\" of this Faction Indicator, they lose <u><link=\"rule_keyword_hidden\">HIDDEN</link></u> <u><link=\"rule_keyword_status\">Status</link></u>.\n\n<b>GRAVITIC BOOSTERS (Assault Phase, reaction)</b>\nUse after a <u><link=\"rule_keyword_friendly\">Friendly</link></u> Unit rolls a D6 for <u><link=\"rule_chapter_8_7_7\">Charge</link></u> Distance. Add 1 to the <u><link=\"rule_chapter_8_7_7\">Charge</link></u> Distance for this Unit.",
+    "Description": "PE: 1\n\n<b>SURVEILLANCE (Movement Phase, active)</b>\nSet a Faction Indicator anywhere on <u><link=\"rule_chapter_7\">the battlefield</link></u>. While <u><link=\"rule_keyword_enemy\">Enemy</link></u> <u><link=\"rule_chapter_2_2\">Units</link></u> are <u><link=\"rule_keyword_within\">Within</link></u> 6\" of this Faction Indicator, they lose <u><link=\"rule_keyword_hidden\">HIDDEN</link></u> <u><link=\"rule_keyword_status\">Status</link></u>.\n\n<b>GRAVITIC BOOSTERS (Assault Phase, reaction)</b>\nUse after a <u><link=\"rule_keyword_friendly\">Friendly</link></u> Unit rolls a D6 for <u><link=\"rule_chapter_8_7_7\">Charge</link></u> Distance. Add 1 to the <u><link=\"rule_chapter_8_7_7\">Charge</link></u> Distance for this Unit.",
     "UIConfig": {
       "ImageURL": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/protoss_observer_front-b5537b9c375f.png",
       "ImageURLBack": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/protoss_observer_back-7495a0c8f80a.png",
@@ -375,9 +613,9 @@
   },
   {
     "Id": "sc_card_protoss_tactics_overcharged_nexus",
-    "Name": "Overcharged Nexus (PE: 1)",
+    "Name": "Overcharged Nexus",
     "Type": "Card",
-    "Description": "<b>PHOTON OVERCHARGE (Any Phase, reaction)</b>\nUse when an <u><link=\"rule_keyword_enemy\">Enemy</link></u> Unit enters <u><link=\"rule_chapter_7\">the battlefield</link></u> from <u><link=\"rule_keyword_reserves\">Reserves</link></u> via a location other than its own <u><link=\"rule_keyword_entry_edge\">Entry Edge</link></u>. That Unit immediately suffers <u><link=\"rule_keyword_hits\">HITS</link></u> 3 (1).\n\n<b>STRATEGIC RECALL (Movement Phase, active)</b>\nThe active, <u><link=\"rule_keyword_unengaged\">Unengaged</link></u> Ground Unit is returned to <u><link=\"rule_keyword_reserves\">Reserves</link></u> instead of performing an action. OVERCHARGED NEXUS",
+    "Description": "PE: 1\n\n<b>PHOTON OVERCHARGE (Any Phase, reaction)</b>\nUse when an <u><link=\"rule_keyword_enemy\">Enemy</link></u> Unit enters <u><link=\"rule_chapter_7\">the battlefield</link></u> from <u><link=\"rule_keyword_reserves\">Reserves</link></u> via a location other than its own <u><link=\"rule_keyword_entry_edge\">Entry Edge</link></u>. That Unit immediately suffers <u><link=\"rule_keyword_hits\">HITS</link></u> 3 (1).\n\n<b>STRATEGIC RECALL (Movement Phase, active)</b>\nThe active, <u><link=\"rule_keyword_unengaged\">Unengaged</link></u> Ground Unit is returned to <u><link=\"rule_keyword_reserves\">Reserves</link></u> instead of performing an action. OVERCHARGED NEXUS",
     "UIConfig": {
       "ImageURL": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/protoss_overcharged_nexus_front-b139717a2d42.png",
       "ImageURLBack": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/protoss_overcharged_nexus_back-4a99363ba3dc.png",
@@ -392,9 +630,9 @@
   },
   {
     "Id": "sc_card_protoss_tactics_power_field",
-    "Name": "Power Field (PE: 1)",
+    "Name": "Power Field",
     "Type": "Card",
-    "Description": "<b>GUARDIAN SHELL (Any Phase, reaction)</b>\nUse before a <u><link=\"rule_keyword_friendly\">Friendly</link></u> Ground Unit makes an <u><link=\"rule_chapter_8_7_4\">Armour Roll</link></u>. That Unit gains <u><link=\"rule_keyword_dodge\">DODGE</link></u> (2) for this roll.",
+    "Description": "PE: 1\n\n<b>GUARDIAN SHELL (Any Phase, reaction)</b>\nUse before a <u><link=\"rule_keyword_friendly\">Friendly</link></u> Ground Unit makes an <u><link=\"rule_chapter_8_7_4\">Armour Roll</link></u>. That Unit gains <u><link=\"rule_keyword_dodge\">DODGE</link></u> (2) for this roll.",
     "UIConfig": {
       "ImageURL": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/protoss_power_field_front-b2610c2cfc82.png",
       "ImageURLBack": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/protoss_power_field_back-36e72e8ef73e.png",
@@ -409,9 +647,9 @@
   },
   {
     "Id": "sc_card_protoss_tactics_robotics_facility",
-    "Name": "Robotics Facility (PE: 1)",
+    "Name": "Robotics Facility",
     "Type": "Card",
-    "Description": "<b>PLASMA SHIELDS (Any Phase, reaction)</b>\nUse before a <u><link=\"rule_keyword_friendly\">Friendly</link></u> Mechanical Ground Unit makes an <u><link=\"rule_chapter_8_7_4\">Armour Roll</link></u>. If this Unit has the <u><link=\"rule_keyword_shielded\">Shielded</link></u> <u><link=\"rule_keyword_status\">Status</link></u>, it gains <u><link=\"rule_keyword_tough\">TOUGH</link></u> (1) and <u><link=\"rule_keyword_dodge\">DODGE</link></u> (1) for this roll.",
+    "Description": "PE: 1\n\n<b>PLASMA SHIELDS (Any Phase, reaction)</b>\nUse before a <u><link=\"rule_keyword_friendly\">Friendly</link></u> Mechanical Ground Unit makes an <u><link=\"rule_chapter_8_7_4\">Armour Roll</link></u>. If this Unit has the <u><link=\"rule_keyword_shielded\">Shielded</link></u> <u><link=\"rule_keyword_status\">Status</link></u>, it gains <u><link=\"rule_keyword_tough\">TOUGH</link></u> (1) and <u><link=\"rule_keyword_dodge\">DODGE</link></u> (1) for this roll.",
     "UIConfig": {
       "ImageURL": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/protoss_robotics_facility_front-d67acd9236a7.png",
       "ImageURLBack": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/protoss_robotics_facility_back-b49d250918cd.png",
@@ -426,9 +664,9 @@
   },
   {
     "Id": "sc_card_protoss_tactics_templar_archives",
-    "Name": "Templar Archives (PE: 1)",
+    "Name": "Templar Archives",
     "Type": "Card",
-    "Description": "<b>ANCESTRAL WISDOM (Any Phase, reaction)</b>\nOnce per Round, when a <u><link=\"rule_keyword_friendly\">Friendly</link></u> Support Unit activates a <u><link=\"rule_keyword_special_ability\">Special Ability</link></u> that costs PE, resolve that ability with its PE cost reduced by 1 (to a minimum of 0). Do not Exhaust this card. TEMPLAR ARCHIVES",
+    "Description": "PE: 1\n\n<b>ANCESTRAL WISDOM (Any Phase, reaction)</b>\nOnce per Round, when a <u><link=\"rule_keyword_friendly\">Friendly</link></u> Support Unit activates a <u><link=\"rule_keyword_special_ability\">Special Ability</link></u> that costs PE, resolve that ability with its PE cost reduced by 1 (to a minimum of 0). Do not Exhaust this card. TEMPLAR ARCHIVES",
     "UIConfig": {
       "ImageURL": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/protoss_templar_archives_front-3fcd3ab8ba16.png",
       "ImageURLBack": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/protoss_templar_archives_back-e0db80153938.png",
@@ -443,9 +681,9 @@
   },
   {
     "Id": "sc_card_protoss_tactics_templar_caste",
-    "Name": "Templar Caste (PE: 1)",
+    "Name": "Templar Caste",
     "Type": "Card",
-    "Description": "<b>OUR DUTY IS UNENDING (Any Phase, active)</b>\nOnce per Game. Select up to two of your Exhausted <u><link=\"rule_chapter_5_3\">Tactical Cards</link></u>. Return them to the <u><link=\"rule_keyword_ready\">Ready</link></u> state.\n\n<b>KHASSAR DE TEMPLARI (Any Phase, active)</b>\nInstead of performing an action, select one other <u><link=\"rule_keyword_friendly\">Friendly</link></u> Biological Unit that has already been Activated this Phase. That Unit immediately performs one action available in the current Phase, then suffers <u><link=\"rule_keyword_non_lethal_damage\">NON-LETHAL DAMAGE</link></u> (3).",
+    "Description": "PE: 1\n\n<b>OUR DUTY IS UNENDING (Any Phase, active)</b>\nOnce per Game. Select up to two of your Exhausted <u><link=\"rule_chapter_5_3\">Tactical Cards</link></u>. Return them to the <u><link=\"rule_keyword_ready\">Ready</link></u> state.\n\n<b>KHASSAR DE TEMPLARI (Any Phase, active)</b>\nInstead of performing an action, select one other <u><link=\"rule_keyword_friendly\">Friendly</link></u> Biological Unit that has already been Activated this Phase. That Unit immediately performs one action available in the current Phase, then suffers <u><link=\"rule_keyword_non_lethal_damage\">NON-LETHAL DAMAGE</link></u> (3).",
     "UIConfig": {
       "ImageURL": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/protoss_templar_caste_front-fcff116136ae.png",
       "ImageURLBack": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/protoss_templar_caste_back-d88882a79b3d.png",
@@ -460,9 +698,9 @@
   },
   {
     "Id": "sc_card_protoss_tactics_twilight_council",
-    "Name": "Twilight Council (PE: 1)",
+    "Name": "Twilight Council",
     "Type": "Card",
-    "Description": "<b>VEIL OF SHADOWS (Any Phase, reaction)</b>\nUse after a <u><link=\"rule_keyword_friendly\">Friendly</link></u> Unit resolves a <u><link=\"rule_keyword_place\">PLACE</link></u> effect. That Unit immediately resolves the <u><link=\"rule_keyword_heal\">HEAL</link></u> (2) effect.\n\n<b>WEAPONS OF THE FIRSTBORN (Assault Phase, active)</b>\nThe active Ground Unit’s first Ranged Weapon used gains <u><link=\"rule_keyword_buff\">BUFF</link></u> Range (4).",
+    "Description": "PE: 1\n\n<b>VEIL OF SHADOWS (Any Phase, reaction)</b>\nUse after a <u><link=\"rule_keyword_friendly\">Friendly</link></u> Unit resolves a <u><link=\"rule_keyword_place\">PLACE</link></u> effect. That Unit immediately resolves the <u><link=\"rule_keyword_heal\">HEAL</link></u> (2) effect.\n\n<b>WEAPONS OF THE FIRSTBORN (Assault Phase, active)</b>\nThe active Ground Unit’s first Ranged Weapon used gains <u><link=\"rule_keyword_buff\">BUFF</link></u> Range (4).",
     "UIConfig": {
       "ImageURL": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/protoss_twilight_council_front-397513962ca6.png",
       "ImageURLBack": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/protoss_twilight_council_back-b45cff776a97.png",
@@ -477,9 +715,9 @@
   },
   {
     "Id": "sc_card_protoss_tactics_void_seeker",
-    "Name": "Void Seeker (PE: 1)",
+    "Name": "Void Seeker",
     "Type": "Card",
-    "Description": "<b>PERSONAL TRANSPORT (Movement Phase, active)</b>\nInstead of performing an action, the active, <u><link=\"rule_keyword_unengaged\">Unengaged</link></u> Ground Unit is returned to <u><link=\"rule_keyword_reserves\">Reserves</link></u>. Then, it performs a <u><link=\"rule_chapter_8_5_5\">Deploy</link></u> action.\n\n<b>ANAKH SU'N (Movement Phase, active)</b>\nThis Unit gains the <u><link=\"rule_keyword_hidden\">HIDDEN</link></u> <u><link=\"rule_keyword_status\">Status</link></u> until it performs another action.",
+    "Description": "PE: 1\n\n<b>PERSONAL TRANSPORT (Movement Phase, active)</b>\nInstead of performing an action, the active, <u><link=\"rule_keyword_unengaged\">Unengaged</link></u> Ground Unit is returned to <u><link=\"rule_keyword_reserves\">Reserves</link></u>. Then, it performs a <u><link=\"rule_chapter_8_5_5\">Deploy</link></u> action.\n\n<b>ANAKH SU'N (Movement Phase, active)</b>\nThis Unit gains the <u><link=\"rule_keyword_hidden\">HIDDEN</link></u> <u><link=\"rule_keyword_status\">Status</link></u> until it performs another action.",
     "UIConfig": {
       "ImageURL": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/protoss_void_seeker_front-f2c9d30cd59d.png",
       "ImageURLBack": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/protoss_void_seeker_back-6930a0f04db5.png",
@@ -494,9 +732,9 @@
   },
   {
     "Id": "sc_card_protoss_tactics_warp_gate",
-    "Name": "Warp Gate (PE: 1)",
+    "Name": "Warp Gate",
     "Type": "Card",
-    "Description": "<b>WARP IN (Movement Phase, active)</b>\nThe active GROUND Unit Deploys from any table edge that is not a player’s <u><link=\"rule_keyword_entry_edge\">Entry Edge</link></u>. This deployment must end more than 10\" away from any <u><link=\"rule_keyword_enemy\">Enemy</link></u> model. The <u><link=\"rule_keyword_controlling_player\">controlling player</link></u> cannot use this ability if another <u><link=\"rule_keyword_friendly\">Friendly</link></u> Ground Unit has already Deployed this Round.\n\n<b>QUICK STRIKES (Combat Phase, active)</b>\nThe active Unit’s first Close Combat Weapon used gains <u><link=\"rule_keyword_precision\">PRECISION</link></u> (2).",
+    "Description": "PE: 1\n\n<b>WARP IN (Movement Phase, active)</b>\nThe active GROUND Unit Deploys from any table edge that is not a player’s <u><link=\"rule_keyword_entry_edge\">Entry Edge</link></u>. This deployment must end more than 10\" away from any <u><link=\"rule_keyword_enemy\">Enemy</link></u> model. The <u><link=\"rule_keyword_controlling_player\">controlling player</link></u> cannot use this ability if another <u><link=\"rule_keyword_friendly\">Friendly</link></u> Ground Unit has already Deployed this Round.\n\n<b>QUICK STRIKES (Combat Phase, active)</b>\nThe active Unit’s first Close Combat Weapon used gains <u><link=\"rule_keyword_precision\">PRECISION</link></u> (2).",
     "UIConfig": {
       "ImageURL": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/protoss_warp_gate_front-a14cf05fd741.png",
       "ImageURLBack": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/protoss_warp_gate_back-3463cd14fd8c.png",
@@ -511,9 +749,9 @@
   },
   {
     "Id": "sc_card_protoss_tactics_warp_prism",
-    "Name": "Warp Prism (PE: 1)",
+    "Name": "Warp Prism",
     "Type": "Card",
-    "Description": "<b>PHASE (Movement Phase, active)</b>\nThe active Unit resolves the <u><link=\"rule_keyword_place\">PLACE</link></u> (3) effect.\n\n<b>WARP CONDUIT (Movement Phase, active)</b>\nSet a Faction Indicator anywhere on <u><link=\"rule_chapter_7\">the battlefield</link></u> more than 10\" away from any <u><link=\"rule_keyword_enemy\">Enemy</link></u> model. At the End of the Round, you may Deploy one Ground unit from <u><link=\"rule_keyword_reserves\">Reserves</link></u> in base-to-base Contact with this Faction Indicator.",
+    "Description": "PE: 1\n\n<b>PHASE (Movement Phase, active)</b>\nThe active Unit resolves the <u><link=\"rule_keyword_place\">PLACE</link></u> (3) effect.\n\n<b>WARP CONDUIT (Movement Phase, active)</b>\nSet a Faction Indicator anywhere on <u><link=\"rule_chapter_7\">the battlefield</link></u> more than 10\" away from any <u><link=\"rule_keyword_enemy\">Enemy</link></u> model. At the End of the Round, you may Deploy one Ground unit from <u><link=\"rule_keyword_reserves\">Reserves</link></u> in base-to-base Contact with this Faction Indicator.",
     "UIConfig": {
       "ImageURL": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/protoss_warp_prism_front-fd9435292844.png",
       "ImageURLBack": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/protoss_warp_prism_back-a81ac49d3873.png",
@@ -528,9 +766,9 @@
   },
   {
     "Id": "sc_card_terran_tactics_academy",
-    "Name": "Academy (CP: 1)",
+    "Name": "Academy",
     "Type": "Card",
-    "Description": "<b>ADVANCED TRAINING (Any Phase, reaction)</b>\nOnce per Round, when a <u><link=\"rule_keyword_friendly\">Friendly</link></u> Support Unit activates a <u><link=\"rule_keyword_special_ability\">Special Ability</link></u> that costs CP, resolve that ability with its CP cost reduced by 1 (to a minimum of 0). Do not Exhaust this card.",
+    "Description": "CP: 1\n\n<b>ADVANCED TRAINING (Any Phase, reaction)</b>\nOnce per Round, when a <u><link=\"rule_keyword_friendly\">Friendly</link></u> Support Unit activates a <u><link=\"rule_keyword_special_ability\">Special Ability</link></u> that costs CP, resolve that ability with its CP cost reduced by 1 (to a minimum of 0). Do not Exhaust this card.",
     "UIConfig": {
       "ImageURL": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/terran_academy_front-88dda22ae2f2.png",
       "ImageURLBack": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/terran_academy_back-6621798f5f19.png",
@@ -545,9 +783,9 @@
   },
   {
     "Id": "sc_card_terran_tactics_armory",
-    "Name": "Armory (CP: 1)",
+    "Name": "Armory",
     "Type": "Card",
-    "Description": "<b>VEHICLE PLATING (Any Phase, reaction)</b>\nUse before a <u><link=\"rule_keyword_friendly\">Friendly</link></u> Mechanical Unit makes an <u><link=\"rule_chapter_8_7_4\">Armour Roll</link></u>. That Unit gains <u><link=\"rule_keyword_tough\">TOUGH</link></u> (1) for this roll.\n\n<b>VEHICLE WEAPONS (Assault Phase, active)</b>\nThe active Mechanical Unit’s first Ranged Weapon used gain <u><link=\"rule_keyword_critical_hit\">CRITICAL HIT</link></u> (1).",
+    "Description": "CP: 1\n\n<b>VEHICLE PLATING (Any Phase, reaction)</b>\nUse before a <u><link=\"rule_keyword_friendly\">Friendly</link></u> Mechanical Unit makes an <u><link=\"rule_chapter_8_7_4\">Armour Roll</link></u>. That Unit gains <u><link=\"rule_keyword_tough\">TOUGH</link></u> (1) for this roll.\n\n<b>VEHICLE WEAPONS (Assault Phase, active)</b>\nThe active Mechanical Unit’s first Ranged Weapon used gain <u><link=\"rule_keyword_critical_hit\">CRITICAL HIT</link></u> (1).",
     "UIConfig": {
       "ImageURL": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/terran_armory_front-d3d1bed46efd.png",
       "ImageURLBack": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/terran_armory_back-d581f22db480.png",
@@ -562,9 +800,9 @@
   },
   {
     "Id": "sc_card_terran_tactics_barracks",
-    "Name": "Barracks (CP: 1)",
+    "Name": "Barracks",
     "Type": "Card",
-    "Description": "<b>GO! GO! GO! (Movement Phase, active)</b>\nThe active Biological Unit performs a 2\" <u><link=\"rule_chapter_8_5_2\">Move</link></u> action. This does not count towards its action limit.",
+    "Description": "CP: 1\n\n<b>GO! GO! GO! (Movement Phase, active)</b>\nThe active Biological Unit performs a 2\" <u><link=\"rule_chapter_8_5_2\">Move</link></u> action. This does not count towards its action limit.",
     "UIConfig": {
       "ImageURL": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/terran_barracks_front-03b7d1517156.png",
       "ImageURLBack": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/terran_barracks_back-ba7885ded4e9.png",
@@ -579,9 +817,9 @@
   },
   {
     "Id": "sc_card_terran_tactics_barracks_proxy",
-    "Name": "Barracks (Proxy) (CP: 2)",
+    "Name": "Barracks (Proxy)",
     "Type": "Card",
-    "Description": "<b>GO! GO! GO! (Movement Phase, active)</b>\nThe active Biological Unit performs a 2\" <u><link=\"rule_chapter_8_5_2\">Move</link></u> action. This does not count towards its action limit.\n\n<b>ARMED AND <u><link=\"rule_keyword_ready\">READY</link></u> (Movement Phase, active)</b>\nThe active Biological Unit Deploys from any table edge that is not a player's <u><link=\"rule_keyword_entry_edge\">Entry Edge</link></u>. No model may be placed <u><link=\"rule_keyword_within\">Within</link></u> 10\" of any <u><link=\"rule_keyword_enemy\">Enemy</link></u> model. This ability cannot be used if another <u><link=\"rule_keyword_friendly\">Friendly</link></u> Biological Unit has already been Deployed this Round.",
+    "Description": "CP: 2\n\n<b>GO! GO! GO! (Movement Phase, active)</b>\nThe active Biological Unit performs a 2\" <u><link=\"rule_chapter_8_5_2\">Move</link></u> action. This does not count towards its action limit.\n\n<b>ARMED AND <u><link=\"rule_keyword_ready\">READY</link></u> (Movement Phase, active)</b>\nThe active Biological Unit Deploys from any table edge that is not a player's <u><link=\"rule_keyword_entry_edge\">Entry Edge</link></u>. No model may be placed <u><link=\"rule_keyword_within\">Within</link></u> 10\" of any <u><link=\"rule_keyword_enemy\">Enemy</link></u> model. This ability cannot be used if another <u><link=\"rule_keyword_friendly\">Friendly</link></u> Biological Unit has already been Deployed this Round.",
     "UIConfig": {
       "ImageURL": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/terran_barracks_proxy_front-82c3fa42c7be.png",
       "ImageURLBack": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/terran_barracks_proxy_back-6ee51b2690e5.png",
@@ -596,9 +834,9 @@
   },
   {
     "Id": "sc_card_terran_tactics_barracks_tech_lab",
-    "Name": "Barracks (Tech Lab) (CP: 2)",
+    "Name": "Barracks (Tech Lab)",
     "Type": "Card",
-    "Description": "<b>GO! GO! GO! (Movement Phase, active)</b>\nThe active Biological Unit performs a 2\" <u><link=\"rule_chapter_8_5_2\">Move</link></u> action. This does not count towards its action limit.\n\n<b>LET'S HAVE A BLAST! (Assault Phase, active)</b>\nThe active Biological Unit’s first Ranged Weapon used gains <u><link=\"rule_keyword_anti_evade\">ANTI-EVADE</link></u> (1).",
+    "Description": "CP: 2\n\n<b>GO! GO! GO! (Movement Phase, active)</b>\nThe active Biological Unit performs a 2\" <u><link=\"rule_chapter_8_5_2\">Move</link></u> action. This does not count towards its action limit.\n\n<b>LET'S HAVE A BLAST! (Assault Phase, active)</b>\nThe active Biological Unit’s first Ranged Weapon used gains <u><link=\"rule_keyword_anti_evade\">ANTI-EVADE</link></u> (1).",
     "UIConfig": {
       "ImageURL": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/terran_barracks_tech_lab_front-d08a26d06d0e.png",
       "ImageURLBack": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/terran_barracks_tech_lab_back-28f3b2acf6c4.png",
@@ -613,9 +851,9 @@
   },
   {
     "Id": "sc_card_terran_tactics_dropship",
-    "Name": "Dropship (CP: 1)",
+    "Name": "Dropship",
     "Type": "Card",
-    "Description": "<b>STRAP IN! (Movement Phase, active)</b>\nThe active, <u><link=\"rule_keyword_unengaged\">Unengaged</link></u> Ground Unit is returned to <u><link=\"rule_keyword_reserves\">Reserves</link></u> instead of performing an action.\n\n<b><u><link=\"rule_keyword_ready\">READY</link></u> FOR DUST-OFF (Movement Phase, active)</b>\nSet a Faction Indicator anywhere on <u><link=\"rule_chapter_7\">the battlefield</link></u> more than 10\" away from any <u><link=\"rule_keyword_enemy\">Enemy</link></u> model. At the End of the Round, the <u><link=\"rule_keyword_controlling_player\">controlling player</link></u> may Deploy one Ground Unit from <u><link=\"rule_keyword_reserves\">Reserves</link></u> in base-to-base contact with this Faction Indicator.",
+    "Description": "CP: 1\n\n<b>STRAP IN! (Movement Phase, active)</b>\nThe active, <u><link=\"rule_keyword_unengaged\">Unengaged</link></u> Ground Unit is returned to <u><link=\"rule_keyword_reserves\">Reserves</link></u> instead of performing an action.\n\n<b><u><link=\"rule_keyword_ready\">READY</link></u> FOR DUST-OFF (Movement Phase, active)</b>\nSet a Faction Indicator anywhere on <u><link=\"rule_chapter_7\">the battlefield</link></u> more than 10\" away from any <u><link=\"rule_keyword_enemy\">Enemy</link></u> model. At the End of the Round, the <u><link=\"rule_keyword_controlling_player\">controlling player</link></u> may Deploy one Ground Unit from <u><link=\"rule_keyword_reserves\">Reserves</link></u> in base-to-base contact with this Faction Indicator.",
     "UIConfig": {
       "ImageURL": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/terran_dropship_front-bee5a39c3cc6.png",
       "ImageURLBack": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/terran_dropship_back-038900a11674.png",
@@ -630,9 +868,9 @@
   },
   {
     "Id": "sc_card_terran_tactics_engineering_bay",
-    "Name": "Engineering Bay (CP: 1)",
+    "Name": "Engineering Bay",
     "Type": "Card",
-    "Description": "<b>INFANTRY ARMOR (Any Phase, reaction)</b>\nUse before a <u><link=\"rule_keyword_friendly\">Friendly</link></u> Biological Unit makes an <u><link=\"rule_chapter_8_7_4\">Armour Roll</link></u>. That Unit gains <u><link=\"rule_keyword_tough\">TOUGH</link></u> (1) for this roll.\n\n<b>INFANTRY WEAPONS (Assault Phase, active)</b>\nThe active Biological Unit’s first Ranged Weapon used gains <u><link=\"rule_keyword_critical_hit\">CRITICAL HIT</link></u> (1).",
+    "Description": "CP: 1\n\n<b>INFANTRY ARMOR (Any Phase, reaction)</b>\nUse before a <u><link=\"rule_keyword_friendly\">Friendly</link></u> Biological Unit makes an <u><link=\"rule_chapter_8_7_4\">Armour Roll</link></u>. That Unit gains <u><link=\"rule_keyword_tough\">TOUGH</link></u> (1) for this roll.\n\n<b>INFANTRY WEAPONS (Assault Phase, active)</b>\nThe active Biological Unit’s first Ranged Weapon used gains <u><link=\"rule_keyword_critical_hit\">CRITICAL HIT</link></u> (1).",
     "UIConfig": {
       "ImageURL": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/terran_engineering_bay_front-c400eedf1c3f.png",
       "ImageURLBack": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/terran_engineering_bay_back-f7f31cde8522.png",
@@ -647,9 +885,9 @@
   },
   {
     "Id": "sc_card_terran_tactics_factory",
-    "Name": "Factory (CP: 1)",
+    "Name": "Factory",
     "Type": "Card",
-    "Description": "<b>FIELD REPAIR (Movement Phase, active)</b>\nThe active Mechanical Unit resolves the <u><link=\"rule_keyword_heal\">HEAL</link></u> (2) effect.",
+    "Description": "CP: 1\n\n<b>FIELD REPAIR (Movement Phase, active)</b>\nThe active Mechanical Unit resolves the <u><link=\"rule_keyword_heal\">HEAL</link></u> (2) effect.",
     "UIConfig": {
       "ImageURL": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/terran_factory_front-05af6c791d9f.png",
       "ImageURLBack": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/terran_factory_back-e9839c6bd6f1.png",
@@ -664,9 +902,9 @@
   },
   {
     "Id": "sc_card_terran_tactics_factory_tech_lab",
-    "Name": "Factory (Tech Lab) (CP: 1)",
+    "Name": "Factory (Tech Lab)",
     "Type": "Card",
-    "Description": "<b>FIELD REPAIR (Movement Phase, active)</b>\nThe active Mechanical Unit resolves the <u><link=\"rule_keyword_heal\">HEAL</link></u> (2) effect.\n\n<b>POUND 'EM FLAT! (Assault Phase, active)</b>\nIf the active Mechanical Unit has the <u><link=\"rule_keyword_stationary\">Stationary</link></u> <u><link=\"rule_keyword_status\">Status</link></u>, its first Ranged Weapon used gains <u><link=\"rule_keyword_precision\">PRECISION</link></u> (2).",
+    "Description": "CP: 1\n\n<b>FIELD REPAIR (Movement Phase, active)</b>\nThe active Mechanical Unit resolves the <u><link=\"rule_keyword_heal\">HEAL</link></u> (2) effect.\n\n<b>POUND 'EM FLAT! (Assault Phase, active)</b>\nIf the active Mechanical Unit has the <u><link=\"rule_keyword_stationary\">Stationary</link></u> <u><link=\"rule_keyword_status\">Status</link></u>, its first Ranged Weapon used gains <u><link=\"rule_keyword_precision\">PRECISION</link></u> (2).",
     "UIConfig": {
       "ImageURL": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/terran_factory_tech_lab_front-1e73706b273b.png",
       "ImageURLBack": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/terran_factory_tech_lab_back-73d2d049c2e9.png",
@@ -681,9 +919,9 @@
   },
   {
     "Id": "sc_card_terran_tactics_nova_covert_ops",
-    "Name": "Nova Covert Ops (CP: 1)",
+    "Name": "Nova Covert Ops",
     "Type": "Card",
-    "Description": "<b>GRIFFIN SUPPORT (Movement Phase, active)</b>\nSet a <u><link=\"rule_keyword_friendly\">Friendly</link></u> Sabotage Drone Unit <u><link=\"rule_keyword_within\">Within</link></u> 12\" of a <u><link=\"rule_keyword_friendly\">Friendly</link></u> Unit, more than 1\" away from any <u><link=\"rule_keyword_enemy\">Enemy</link></u> model. Remove this Unit at the End of the Round.\n\n<b>MARK FOR DEATH (Movement Phase, active)</b>\nTarget an <u><link=\"rule_keyword_enemy\">Enemy</link></u> Unit on <u><link=\"rule_chapter_7\">the battlefield</link></u>. When a <u><link=\"rule_keyword_friendly\">Friendly</link></u> Unit makes an Attack targeting that Unit, its first Melee or Ranged Weapon used gains <u><link=\"rule_keyword_critical_hit\">CRITICAL HIT</link></u> (1) and <u><link=\"rule_keyword_precision\">PRECISION</link></u> (1).",
+    "Description": "CP: 1\n\n<b>GRIFFIN SUPPORT (Movement Phase, active)</b>\nSet a <u><link=\"rule_keyword_friendly\">Friendly</link></u> Sabotage Drone Unit <u><link=\"rule_keyword_within\">Within</link></u> 12\" of a <u><link=\"rule_keyword_friendly\">Friendly</link></u> Unit, more than 1\" away from any <u><link=\"rule_keyword_enemy\">Enemy</link></u> model. Remove this Unit at the End of the Round.\n\n<b>MARK FOR DEATH (Movement Phase, active)</b>\nTarget an <u><link=\"rule_keyword_enemy\">Enemy</link></u> Unit on <u><link=\"rule_chapter_7\">the battlefield</link></u>. When a <u><link=\"rule_keyword_friendly\">Friendly</link></u> Unit makes an Attack targeting that Unit, its first Melee or Ranged Weapon used gains <u><link=\"rule_keyword_critical_hit\">CRITICAL HIT</link></u> (1) and <u><link=\"rule_keyword_precision\">PRECISION</link></u> (1).",
     "UIConfig": {
       "ImageURL": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/terran_nova_covert_ops_front-a97936021bb8.png",
       "ImageURLBack": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/terran_nova_covert_ops_back-1ee0fd7fbcc5.png",
@@ -698,9 +936,9 @@
   },
   {
     "Id": "sc_card_terran_tactics_orbital_command",
-    "Name": "Orbital Command (CP: 1)",
+    "Name": "Orbital Command",
     "Type": "Card",
-    "Description": "<b>COMSAT STATION (Movement Phase, active)</b>\nSelect one table edge that is not a player’s <u><link=\"rule_keyword_entry_edge\">Entry Edge</link></u>. Until the End of the Round, <u><link=\"rule_keyword_enemy\">Enemy</link></u> <u><link=\"rule_chapter_2_2\">Units</link></u> cannot Deploy from that edge.\n\n<b>SCANNER SWEEP (Movement Phase, active)</b>\nSet a Faction Indicator anywhere on <u><link=\"rule_chapter_7\">the battlefield</link></u>. While <u><link=\"rule_keyword_enemy\">Enemy</link></u> <u><link=\"rule_chapter_2_2\">Units</link></u> are <u><link=\"rule_keyword_within\">Within</link></u> 6\" of this Faction Indicator, they lose <u><link=\"rule_keyword_hidden\">HIDDEN</link></u> <u><link=\"rule_keyword_status\">Status</link></u>.",
+    "Description": "CP: 1\n\n<b>COMSAT STATION (Movement Phase, active)</b>\nSelect one table edge that is not a player’s <u><link=\"rule_keyword_entry_edge\">Entry Edge</link></u>. Until the End of the Round, <u><link=\"rule_keyword_enemy\">Enemy</link></u> <u><link=\"rule_chapter_2_2\">Units</link></u> cannot Deploy from that edge.\n\n<b>SCANNER SWEEP (Movement Phase, active)</b>\nSet a Faction Indicator anywhere on <u><link=\"rule_chapter_7\">the battlefield</link></u>. While <u><link=\"rule_keyword_enemy\">Enemy</link></u> <u><link=\"rule_chapter_2_2\">Units</link></u> are <u><link=\"rule_keyword_within\">Within</link></u> 6\" of this Faction Indicator, they lose <u><link=\"rule_keyword_hidden\">HIDDEN</link></u> <u><link=\"rule_keyword_status\">Status</link></u>.",
     "UIConfig": {
       "ImageURL": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/terran_orbital_command_front-5c70bb517048.png",
       "ImageURLBack": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/terran_orbital_command_back-dcf2ee186154.png",
@@ -715,9 +953,9 @@
   },
   {
     "Id": "sc_card_terran_tactics_raynor_s_raiders",
-    "Name": "Raynor's Raiders (CP: 1)",
+    "Name": "Raynor's Raiders",
     "Type": "Card",
-    "Description": "<b>RAPID INGRESS (Movement Phase, active)</b>\nSet a <u><link=\"rule_keyword_friendly\">Friendly</link></u> Point Defence Drone Unit anywhere on <u><link=\"rule_chapter_7\">the battlefield</link></u>, more than 1\" away from any <u><link=\"rule_keyword_enemy\">Enemy</link></u> model. Remove this Unit at the End of the Round.",
+    "Description": "CP: 1\n\n<b>RAPID INGRESS (Movement Phase, active)</b>\nSet a <u><link=\"rule_keyword_friendly\">Friendly</link></u> Point Defence Drone Unit anywhere on <u><link=\"rule_chapter_7\">the battlefield</link></u>, more than 1\" away from any <u><link=\"rule_keyword_enemy\">Enemy</link></u> model. Remove this Unit at the End of the Round.",
     "UIConfig": {
       "ImageURL": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/terran_raynor_s_raiders_front-c9acb9a1260d.png",
       "ImageURLBack": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/terran_raynor_s_raiders_back-d2fcdf30b5d4.png",
@@ -732,9 +970,9 @@
   },
   {
     "Id": "sc_card_terran_tactics_supply_depot",
-    "Name": "Supply Depot (CP: 1)",
+    "Name": "Supply Depot",
     "Type": "Card",
-    "Description": "<b>ADDITIONAL SUPPLY DEPOTS (Movement Phase, active)</b>\nThe active Unit’s <u><link=\"rule_keyword_supply_value\">Supply Value</link></u> is improved by 1 for Controlling and Contesting <u><link=\"rule_keyword_mission_markers\">Mission Markers</link></u> and completing objectives.",
+    "Description": "CP: 1\n\n<b>ADDITIONAL SUPPLY DEPOTS (Movement Phase, active)</b>\nThe active Unit’s <u><link=\"rule_keyword_supply_value\">Supply Value</link></u> is improved by 1 for Controlling and Contesting <u><link=\"rule_keyword_mission_markers\">Mission Markers</link></u> and completing objectives.",
     "UIConfig": {
       "ImageURL": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/terran_supply_depot_front-d8252344f644.png",
       "ImageURLBack": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/terran_supply_depot_back-d713b95fec9c.png",
@@ -749,9 +987,9 @@
   },
   {
     "Id": "sc_card_terran_tactics_terran_armed_forces",
-    "Name": "Terran Armed Forces (CP: 1)",
+    "Name": "Terran Armed Forces",
     "Type": "Card",
-    "Description": "<b>TACTICAL RETREAT (Movement Phase, active)</b>\nThe active Unit ignores the <u><link=\"rule_chapter_8_5_4\">Disengage</link></u> penalty for the remainder of the Round.\n\n<b>TERRAN TENACITY (Movement Phase, active)</b>\nOnce per Game. Immediately claim the <u><link=\"rule_keyword_first_player_marker\">First Player Marker</link></u>. No other player may claim the <u><link=\"rule_keyword_first_player_marker\">First Player Marker</link></u> for the remainder of this Phase. TERRAN ARMED FORCES",
+    "Description": "CP: 1\n\n<b>TACTICAL RETREAT (Movement Phase, active)</b>\nThe active Unit ignores the <u><link=\"rule_chapter_8_5_4\">Disengage</link></u> penalty for the remainder of the Round.\n\n<b>TERRAN TENACITY (Movement Phase, active)</b>\nOnce per Game. Immediately claim the <u><link=\"rule_keyword_first_player_marker\">First Player Marker</link></u>. No other player may claim the <u><link=\"rule_keyword_first_player_marker\">First Player Marker</link></u> for the remainder of this Phase. TERRAN ARMED FORCES",
     "UIConfig": {
       "ImageURL": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/terran_terran_armed_forces_front-d52d50c93a48.png",
       "ImageURLBack": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/terran_terran_armed_forces_back-636fe231e5de.png",
@@ -766,9 +1004,9 @@
   },
   {
     "Id": "sc_card_terran_tactics_vanadium_plating",
-    "Name": "Vanadium Plating (CP: 1)",
+    "Name": "Vanadium Plating",
     "Type": "Card",
-    "Description": "<b>CRYSTALLINE ALLOY (Any Phase, reaction)</b>\nUse before a <u><link=\"rule_keyword_friendly\">Friendly</link></u> Mechanical Unit makes an <u><link=\"rule_chapter_8_7_4\">Armour Roll</link></u>. That Unit gains <u><link=\"rule_keyword_dodge\">DODGE</link></u> (2) for this roll.",
+    "Description": "CP: 1\n\n<b>CRYSTALLINE ALLOY (Any Phase, reaction)</b>\nUse before a <u><link=\"rule_keyword_friendly\">Friendly</link></u> Mechanical Unit makes an <u><link=\"rule_chapter_8_7_4\">Armour Roll</link></u>. That Unit gains <u><link=\"rule_keyword_dodge\">DODGE</link></u> (2) for this roll.",
     "UIConfig": {
       "ImageURL": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/terran_vanadium_plating_front-9a29372af15c.png",
       "ImageURLBack": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/terran_vanadium_plating_back-24447ed33bc6.png",
@@ -817,9 +1055,9 @@
   },
   {
     "Id": "sc_card_zerg_tactics_defiler_mound",
-    "Name": "Defiler Mound (BM: 1)",
+    "Name": "Defiler Mound",
     "Type": "Card",
-    "Description": "<b>POISONOUS ESSENCE (Movement Phase, active)</b>\nSet a Faction Indicator on the active <u><link=\"rule_keyword_friendly\">Friendly</link></u> Unit. At the end of the Assault Phase, all Biological <u><link=\"rule_keyword_enemy\">Enemy</link></u> <u><link=\"rule_chapter_2_2\">Units</link></u> <u><link=\"rule_keyword_engaged\">Engaged</link></u> with the marked Unit suffer <u><link=\"rule_keyword_non_lethal_damage\">NON-LETHAL DAMAGE</link></u> (2).\n\n<b>TUNNEL NETWORK (Movement Phase, active)</b>\nThe active, <u><link=\"rule_keyword_unengaged\">Unengaged</link></u> Ground Unit is returned to <u><link=\"rule_keyword_reserves\">Reserves</link></u> instead of performing an action.",
+    "Description": "BM: 1\n\n<b>POISONOUS ESSENCE (Movement Phase, active)</b>\nSet a Faction Indicator on the active <u><link=\"rule_keyword_friendly\">Friendly</link></u> Unit. At the end of the Assault Phase, all Biological <u><link=\"rule_keyword_enemy\">Enemy</link></u> <u><link=\"rule_chapter_2_2\">Units</link></u> <u><link=\"rule_keyword_engaged\">Engaged</link></u> with the marked Unit suffer <u><link=\"rule_keyword_non_lethal_damage\">NON-LETHAL DAMAGE</link></u> (2).\n\n<b>TUNNEL NETWORK (Movement Phase, active)</b>\nThe active, <u><link=\"rule_keyword_unengaged\">Unengaged</link></u> Ground Unit is returned to <u><link=\"rule_keyword_reserves\">Reserves</link></u> instead of performing an action.",
     "UIConfig": {
       "ImageURL": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/zerg_defiler_mound_front-173d34077b1c.png",
       "ImageURLBack": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/zerg_defiler_mound_back-705c23198eb7.png",
@@ -834,9 +1072,9 @@
   },
   {
     "Id": "sc_card_zerg_tactics_evolution_chamber",
-    "Name": "Evolution Chamber (BM: 1)",
+    "Name": "Evolution Chamber",
     "Type": "Card",
-    "Description": "<b>CARAPACE (Any Phase, reaction)</b>\nUse before a <u><link=\"rule_keyword_friendly\">Friendly</link></u> Unit makes an <u><link=\"rule_chapter_8_7_4\">Armour Roll</link></u>. That Unit gains <u><link=\"rule_keyword_tough\">TOUGH</link></u> (1) for this roll.\n\n<b>EXTENDED CLAWS (Assault Phase, active)</b>\nThe active Unit gains a +1 <u><link=\"rule_keyword_modifier\">Modifier</link></u> to all <u><link=\"rule_keyword_impact\">IMPACT</link></u> Hit Rolls.",
+    "Description": "BM: 1\n\n<b>CARAPACE (Any Phase, reaction)</b>\nUse before a <u><link=\"rule_keyword_friendly\">Friendly</link></u> Unit makes an <u><link=\"rule_chapter_8_7_4\">Armour Roll</link></u>. That Unit gains <u><link=\"rule_keyword_tough\">TOUGH</link></u> (1) for this roll.\n\n<b>EXTENDED CLAWS (Assault Phase, active)</b>\nThe active Unit gains a +1 <u><link=\"rule_keyword_modifier\">Modifier</link></u> to all <u><link=\"rule_keyword_impact\">IMPACT</link></u> Hit Rolls.",
     "UIConfig": {
       "ImageURL": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/zerg_evolution_chamber_front-673917cb3c92.png",
       "ImageURLBack": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/zerg_evolution_chamber_back-13e5659b4c88.png",
@@ -851,9 +1089,9 @@
   },
   {
     "Id": "sc_card_zerg_tactics_hatchery",
-    "Name": "Hatchery (BM: 1)",
+    "Name": "Hatchery",
     "Type": "Card",
-    "Description": "<b>LIE IN WAIT (Movement Phase, active)</b>\nThe active, <u><link=\"rule_keyword_unengaged\">Unengaged</link></u> Ground Unit gains the <u><link=\"rule_keyword_burrowed\">Burrowed</link></u> <u><link=\"rule_keyword_status\">Status</link></u>.\n\n<b>CREEP SPREAD (Movement Phase, active)</b>\nSet a Creep Tumor token on <u><link=\"rule_chapter_7\">the battlefield</link></u> <u><link=\"rule_keyword_within\">Within</link></u> 6\" ( <u><link=\"rule_keyword_line_of_sight\">Line of Sight</link></u> is not required) of either a <u><link=\"rule_keyword_friendly\">Friendly</link></u> <u><link=\"rule_keyword_entry_edge\">Entry Edge</link></u> or an existing <u><link=\"rule_keyword_friendly\">Friendly</link></u> Creep Tumor token.",
+    "Description": "BM: 1\n\n<b>LIE IN WAIT (Movement Phase, active)</b>\nThe active, <u><link=\"rule_keyword_unengaged\">Unengaged</link></u> Ground Unit gains the <u><link=\"rule_keyword_burrowed\">Burrowed</link></u> <u><link=\"rule_keyword_status\">Status</link></u>.\n\n<b>CREEP SPREAD (Movement Phase, active)</b>\nSet a Creep Tumor token on <u><link=\"rule_chapter_7\">the battlefield</link></u> <u><link=\"rule_keyword_within\">Within</link></u> 6\" ( <u><link=\"rule_keyword_line_of_sight\">Line of Sight</link></u> is not required) of either a <u><link=\"rule_keyword_friendly\">Friendly</link></u> <u><link=\"rule_keyword_entry_edge\">Entry Edge</link></u> or an existing <u><link=\"rule_keyword_friendly\">Friendly</link></u> Creep Tumor token.",
     "UIConfig": {
       "ImageURL": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/zerg_hatchery_front-7b78b7e60ed8.png",
       "ImageURLBack": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/zerg_hatchery_back-e886047ba8d2.png",
@@ -868,9 +1106,9 @@
   },
   {
     "Id": "sc_card_zerg_tactics_hydralisk_den",
-    "Name": "Hydralisk Den (BM: 1)",
+    "Name": "Hydralisk Den",
     "Type": "Card",
-    "Description": "<b>MISSILE ATTACKS (Assault Phase, active)</b>\nThe active Unit’s first Ranged Weapon used gains <u><link=\"rule_keyword_precision\">PRECISION</link></u> (1).",
+    "Description": "BM: 1\n\n<b>MISSILE ATTACKS (Assault Phase, active)</b>\nThe active Unit’s first Ranged Weapon used gains <u><link=\"rule_keyword_precision\">PRECISION</link></u> (1).",
     "UIConfig": {
       "ImageURL": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/zerg_hydralisk_den_front-71ca3145ac5e.png",
       "ImageURLBack": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/zerg_hydralisk_den_back-cba70d5bb746.png",
@@ -885,9 +1123,9 @@
   },
   {
     "Id": "sc_card_zerg_tactics_kerrigan_s_swarm",
-    "Name": "Kerrigan's Swarm (BM: 1)",
+    "Name": "Kerrigan's Swarm",
     "Type": "Card",
-    "Description": "<b>WILD MUTATION (Any Phase, active)</b>\nIf the active unit is <u><link=\"rule_keyword_on_creep\">ON CREEP</link></u>, the unit gains <u><link=\"rule_keyword_buff\">BUFF</link></u> Speed (1) and its first used Weapon gains <u><link=\"rule_keyword_precision\">PRECISION</link></u> (1).\n\n<b>ZERG CREEP (Any Phase, passive)</b>\nDuring Army Building, you must select exactly one Creep Card and add it to your Army List, paying its listed cost (if any).\n\n<b>OMEGA NETWORK (Movement Phase, active)</b>\nIf there is no <u><link=\"rule_keyword_friendly\">Friendly</link></u> Omega Worm on <u><link=\"rule_chapter_7\">the battlefield</link></u>, set a <u><link=\"rule_keyword_friendly\">Friendly</link></u> Omega Worm Unit anywhere on <u><link=\"rule_keyword_ground_level\">GROUND LEVEL</link></u> of <u><link=\"rule_chapter_7\">the battlefield</link></u>, more than 10\" away from any <u><link=\"rule_keyword_enemy\">Enemy</link></u> model. This Round, the Omega Worm is not eligible to use its <u><link=\"rule_chapter_10_1\">Special Abilities</link></u> (excluding Structure).",
+    "Description": "BM: 1\n\n<b>WILD MUTATION (Any Phase, active)</b>\nIf the active unit is <u><link=\"rule_keyword_on_creep\">ON CREEP</link></u>, the unit gains <u><link=\"rule_keyword_buff\">BUFF</link></u> Speed (1) and its first used Weapon gains <u><link=\"rule_keyword_precision\">PRECISION</link></u> (1).\n\n<b>ZERG CREEP (Any Phase, passive)</b>\nDuring Army Building, you must select exactly one Creep Card and add it to your Army List, paying its listed cost (if any).\n\n<b>OMEGA NETWORK (Movement Phase, active)</b>\nIf there is no <u><link=\"rule_keyword_friendly\">Friendly</link></u> Omega Worm on <u><link=\"rule_chapter_7\">the battlefield</link></u>, set a <u><link=\"rule_keyword_friendly\">Friendly</link></u> Omega Worm Unit anywhere on <u><link=\"rule_keyword_ground_level\">GROUND LEVEL</link></u> of <u><link=\"rule_chapter_7\">the battlefield</link></u>, more than 10\" away from any <u><link=\"rule_keyword_enemy\">Enemy</link></u> model. This Round, the Omega Worm is not eligible to use its <u><link=\"rule_chapter_10_1\">Special Abilities</link></u> (excluding Structure).",
     "UIConfig": {
       "ImageURL": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/zerg_kerrigan_s_swarm_front-10f938343510.png",
       "ImageURLBack": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/zerg_kerrigan_s_swarm_back-adeaaee53529.png",
@@ -902,9 +1140,9 @@
   },
   {
     "Id": "sc_card_zerg_tactics_lair",
-    "Name": "Lair (BM: 1)",
+    "Name": "Lair",
     "Type": "Card",
-    "Description": "<b>PREDATION (Any Phase, active)</b>\nThe active Unit’s Close Combat Weapons gain <u><link=\"rule_keyword_instant\">INSTANT</link></u>.\n\n<b>CREEP SPREAD (Movement Phase, active)</b>\nSet a Creep Tumor token on <u><link=\"rule_chapter_7\">the battlefield</link></u> <u><link=\"rule_keyword_within\">Within</link></u> 6\" (<u><link=\"rule_keyword_line_of_sight\">Line of Sight</link></u> is not required) of either a <u><link=\"rule_keyword_friendly\">Friendly</link></u> <u><link=\"rule_keyword_entry_edge\">Entry Edge</link></u> or an existing <u><link=\"rule_keyword_friendly\">Friendly</link></u> Creep Tumor token.",
+    "Description": "BM: 1\n\n<b>PREDATION (Any Phase, active)</b>\nThe active Unit’s Close Combat Weapons gain <u><link=\"rule_keyword_instant\">INSTANT</link></u>.\n\n<b>CREEP SPREAD (Movement Phase, active)</b>\nSet a Creep Tumor token on <u><link=\"rule_chapter_7\">the battlefield</link></u> <u><link=\"rule_keyword_within\">Within</link></u> 6\" (<u><link=\"rule_keyword_line_of_sight\">Line of Sight</link></u> is not required) of either a <u><link=\"rule_keyword_friendly\">Friendly</link></u> <u><link=\"rule_keyword_entry_edge\">Entry Edge</link></u> or an existing <u><link=\"rule_keyword_friendly\">Friendly</link></u> Creep Tumor token.",
     "UIConfig": {
       "ImageURL": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/zerg_lair_front-193029dada20.png",
       "ImageURLBack": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/zerg_lair_back-c7dadff76faf.png",
@@ -936,9 +1174,9 @@
   },
   {
     "Id": "sc_card_zerg_tactics_overlord",
-    "Name": "Overlord (BM: 1)",
+    "Name": "Overlord",
     "Type": "Card",
-    "Description": "<b>VENTRAL SACS (Movement Phase, active)</b>\nSet a Faction Indicator anywhere on <u><link=\"rule_chapter_7\">the battlefield</link></u> more than 10\" away from any <u><link=\"rule_keyword_enemy\">Enemy</link></u> model. At the End of the Round, the <u><link=\"rule_keyword_controlling_player\">controlling player</link></u> may Deploy one Ground Unit from <u><link=\"rule_keyword_reserves\">Reserves</link></u> in base-to-base contact with this Faction Indicator.\n\n<b>EXCRETE CREEP (Assault Phase, active)</b>\nSet a Creep Tumor token on <u><link=\"rule_chapter_7\">the battlefield</link></u> <u><link=\"rule_keyword_within\">Within</link></u> 6\" ( <u><link=\"rule_keyword_line_of_sight\">Line of Sight</link></u> is not required) of either a <u><link=\"rule_keyword_friendly\">Friendly</link></u> <u><link=\"rule_keyword_entry_edge\">Entry Edge</link></u> or an existing <u><link=\"rule_keyword_friendly\">Friendly</link></u> Creep Tumor token.",
+    "Description": "BM: 1\n\n<b>VENTRAL SACS (Movement Phase, active)</b>\nSet a Faction Indicator anywhere on <u><link=\"rule_chapter_7\">the battlefield</link></u> more than 10\" away from any <u><link=\"rule_keyword_enemy\">Enemy</link></u> model. At the End of the Round, the <u><link=\"rule_keyword_controlling_player\">controlling player</link></u> may Deploy one Ground Unit from <u><link=\"rule_keyword_reserves\">Reserves</link></u> in base-to-base contact with this Faction Indicator.\n\n<b>EXCRETE CREEP (Assault Phase, active)</b>\nSet a Creep Tumor token on <u><link=\"rule_chapter_7\">the battlefield</link></u> <u><link=\"rule_keyword_within\">Within</link></u> 6\" ( <u><link=\"rule_keyword_line_of_sight\">Line of Sight</link></u> is not required) of either a <u><link=\"rule_keyword_friendly\">Friendly</link></u> <u><link=\"rule_keyword_entry_edge\">Entry Edge</link></u> or an existing <u><link=\"rule_keyword_friendly\">Friendly</link></u> Creep Tumor token.",
     "UIConfig": {
       "ImageURL": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/zerg_overlord_front-adbbbd7982d3.png",
       "ImageURLBack": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/zerg_overlord_back-cf60975c28e8.png",
@@ -953,9 +1191,9 @@
   },
   {
     "Id": "sc_card_zerg_tactics_overseer",
-    "Name": "Overseer (BM: 1)",
+    "Name": "Overseer",
     "Type": "Card",
-    "Description": "<b>OVERSIGHT MODE (Movement Phase, active)</b>\nSet a Faction Indicator anywhere on <u><link=\"rule_chapter_7\">the battlefield</link></u>. While <u><link=\"rule_keyword_enemy\">Enemy</link></u> <u><link=\"rule_chapter_2_2\">Units</link></u> are <u><link=\"rule_keyword_within\">Within</link></u> 6\" of this Faction Indicator, they lose <u><link=\"rule_keyword_hidden\">HIDDEN</link></u> <u><link=\"rule_keyword_status\">Status</link></u>.\n\n<b>PNEUMATIZED CARAPACE (Assault Phase, reaction)</b>\nUse after a <u><link=\"rule_keyword_friendly\">Friendly</link></u> Unit rolls a D6 for <u><link=\"rule_chapter_8_7_7\">Charge</link></u> Distance. Roll an additional D6 and use the higher result to calculate the total <u><link=\"rule_chapter_8_7_7\">Charge</link></u> Distance.",
+    "Description": "BM: 1\n\n<b>OVERSIGHT MODE (Movement Phase, active)</b>\nSet a Faction Indicator anywhere on <u><link=\"rule_chapter_7\">the battlefield</link></u>. While <u><link=\"rule_keyword_enemy\">Enemy</link></u> <u><link=\"rule_chapter_2_2\">Units</link></u> are <u><link=\"rule_keyword_within\">Within</link></u> 6\" of this Faction Indicator, they lose <u><link=\"rule_keyword_hidden\">HIDDEN</link></u> <u><link=\"rule_keyword_status\">Status</link></u>.\n\n<b>PNEUMATIZED CARAPACE (Assault Phase, reaction)</b>\nUse after a <u><link=\"rule_keyword_friendly\">Friendly</link></u> Unit rolls a D6 for <u><link=\"rule_chapter_8_7_7\">Charge</link></u> Distance. Roll an additional D6 and use the higher result to calculate the total <u><link=\"rule_chapter_8_7_7\">Charge</link></u> Distance.",
     "UIConfig": {
       "ImageURL": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/zerg_overseer_front-2ab372779c56.png",
       "ImageURLBack": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/zerg_overseer_back-efbec822f200.png",
@@ -987,9 +1225,9 @@
   },
   {
     "Id": "sc_card_zerg_tactics_roach_warren",
-    "Name": "Roach Warren (BM: 1)",
+    "Name": "Roach Warren",
     "Type": "Card",
-    "Description": "<b>NASTY SURPRISE (Assault Phase, active)</b>\nThe active Ground Unit loses the <u><link=\"rule_keyword_burrowed\">Burrowed</link></u> <u><link=\"rule_keyword_status\">Status</link></u>.",
+    "Description": "BM: 1\n\n<b>NASTY SURPRISE (Assault Phase, active)</b>\nThe active Ground Unit loses the <u><link=\"rule_keyword_burrowed\">Burrowed</link></u> <u><link=\"rule_keyword_status\">Status</link></u>.",
     "UIConfig": {
       "ImageURL": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/zerg_roach_warren_front-7f5294758021.png",
       "ImageURLBack": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/zerg_roach_warren_back-e554d96f6f37.png",
@@ -1004,9 +1242,9 @@
   },
   {
     "Id": "sc_card_zerg_tactics_spawning_pool",
-    "Name": "Spawning Pool (BM: 1)",
+    "Name": "Spawning Pool",
     "Type": "Card",
-    "Description": "<b>FERAL RAGE (Combat Phase, active)</b>\nThe active Unit’s first Close Combat Weapon used gains <u><link=\"rule_keyword_precision\">PRECISION</link></u> (2).",
+    "Description": "BM: 1\n\n<b>FERAL RAGE (Combat Phase, active)</b>\nThe active Unit’s first Close Combat Weapon used gains <u><link=\"rule_keyword_precision\">PRECISION</link></u> (2).",
     "UIConfig": {
       "ImageURL": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/zerg_spawning_pool_front-29884faa215d.png",
       "ImageURLBack": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/zerg_spawning_pool_back-aea95c0f7350.png",
@@ -1021,9 +1259,9 @@
   },
   {
     "Id": "sc_card_zerg_tactics_spawning_pool_six_pool",
-    "Name": "Spawning Pool (Six Pool) (BM: 2)",
+    "Name": "Spawning Pool (Six Pool)",
     "Type": "Card",
-    "Description": "<b>TIMING PUSH (Movement Phase, active)</b>\nThe active Zergling Unit Deploys from any table edge that is not a Player’s <u><link=\"rule_keyword_entry_edge\">Entry Edge</link></u>. This action must end more than 10\" away from any <u><link=\"rule_keyword_enemy\">Enemy</link></u> model.\n\n<b>FERAL RAGE (Combat Phase, active)</b>\nThe active Unit’s first Close Combat Weapon used gains <u><link=\"rule_keyword_precision\">PRECISION</link></u> (2).",
+    "Description": "BM: 2\n\n<b>TIMING PUSH (Movement Phase, active)</b>\nThe active Zergling Unit Deploys from any table edge that is not a Player’s <u><link=\"rule_keyword_entry_edge\">Entry Edge</link></u>. This action must end more than 10\" away from any <u><link=\"rule_keyword_enemy\">Enemy</link></u> model.\n\n<b>FERAL RAGE (Combat Phase, active)</b>\nThe active Unit’s first Close Combat Weapon used gains <u><link=\"rule_keyword_precision\">PRECISION</link></u> (2).",
     "UIConfig": {
       "ImageURL": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/zerg_spawning_pool_six_pool_front-400edfcc78b9.png",
       "ImageURLBack": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/zerg_spawning_pool_six_pool_back-eaa582284832.png",
@@ -1038,9 +1276,9 @@
   },
   {
     "Id": "sc_card_zerg_tactics_zagara_s_swarm",
-    "Name": "Zagara's Swarm (BM: 1)",
+    "Name": "Zagara's Swarm",
     "Type": "Card",
-    "Description": "<b>INSTINCTIVE REACTION (Any Phase, reaction)</b>\nUse when an <u><link=\"rule_keyword_enemy\">Enemy</link></u> Unit declares a Close Combat Attack against a <u><link=\"rule_keyword_friendly\">Friendly</link></u> Unit. That <u><link=\"rule_keyword_friendly\">Friendly</link></u> Unit becomes eligible to make an <u><link=\"rule_chapter_8_7_4\">Evade Roll</link></u> against that attack.\n\n<b>ZERG CREEP (Any Phase, passive)</b>\nDuring Army Building, select exactly one Creep Card and add it to their Army List, paying its listed cost (if any).\n\n<b>SCOURGE QUEEN (Combat Phase, active)</b>\nIf the active Unit contains more <u><link=\"rule_chapter_2_1\">models</link></u> than the combined number of <u><link=\"rule_chapter_2_1\">models</link></u> in all <u><link=\"rule_keyword_engaged\">Engaged</link></u> <u><link=\"rule_keyword_enemy\">Enemy</link></u> <u><link=\"rule_chapter_2_2\">Units</link></u>, its Close Combat Weapons gain <u><link=\"rule_keyword_instant\">INSTANT</link></u> and <u><link=\"rule_keyword_precision\">PRECISION</link></u> (4).",
+    "Description": "BM: 1\n\n<b>INSTINCTIVE REACTION (Any Phase, reaction)</b>\nUse when an <u><link=\"rule_keyword_enemy\">Enemy</link></u> Unit declares a Close Combat Attack against a <u><link=\"rule_keyword_friendly\">Friendly</link></u> Unit. That <u><link=\"rule_keyword_friendly\">Friendly</link></u> Unit becomes eligible to make an <u><link=\"rule_chapter_8_7_4\">Evade Roll</link></u> against that attack.\n\n<b>ZERG CREEP (Any Phase, passive)</b>\nDuring Army Building, select exactly one Creep Card and add it to their Army List, paying its listed cost (if any).\n\n<b>SCOURGE QUEEN (Combat Phase, active)</b>\nIf the active Unit contains more <u><link=\"rule_chapter_2_1\">models</link></u> than the combined number of <u><link=\"rule_chapter_2_1\">models</link></u> in all <u><link=\"rule_keyword_engaged\">Engaged</link></u> <u><link=\"rule_keyword_enemy\">Enemy</link></u> <u><link=\"rule_chapter_2_2\">Units</link></u>, its Close Combat Weapons gain <u><link=\"rule_keyword_instant\">INSTANT</link></u> and <u><link=\"rule_keyword_precision\">PRECISION</link></u> (4).",
     "UIConfig": {
       "ImageURL": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/zerg_zagara_s_swarm_front-1bd73fad4190.png",
       "ImageURLBack": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/zerg_zagara_s_swarm_back-4ea6773c5a93.png",
@@ -1055,9 +1293,9 @@
   },
   {
     "Id": "sc_card_zerg_tactics_zerg_swarm",
-    "Name": "Zerg Swarm (BM: 1)",
+    "Name": "Zerg Swarm",
     "Type": "Card",
-    "Description": "<b>BROOD INSTINCT (Any Phase, reaction)</b>\nUse before a <u><link=\"rule_keyword_friendly\">Friendly</link></u> Unit makes an <u><link=\"rule_chapter_8_7_4\">Evade Roll</link></u>. Apply a +1 <u><link=\"rule_keyword_modifier\">Modifier</link></u> to that roll.\n\n<b>ZERG CREEP (Any Phase, passive)</b>\nDuring Army Building, select exactly one Creep Card and add it to their Army List, paying its listed cost (if any).\n\n<b>RAPID BURROWING (Movement Phase, active)</b>\nSelect one <u><link=\"rule_keyword_friendly\">Friendly</link></u>, <u><link=\"rule_keyword_unengaged\">Unengaged</link></u> Ground Zerg Unit on <u><link=\"rule_chapter_7\">the battlefield</link></u>. That Unit gains the <u><link=\"rule_keyword_burrowed\">Burrowed</link></u> <u><link=\"rule_keyword_status\">Status</link></u>, even if it has already been Activated this Round.",
+    "Description": "BM: 1\n\n<b>BROOD INSTINCT (Any Phase, reaction)</b>\nUse before a <u><link=\"rule_keyword_friendly\">Friendly</link></u> Unit makes an <u><link=\"rule_chapter_8_7_4\">Evade Roll</link></u>. Apply a +1 <u><link=\"rule_keyword_modifier\">Modifier</link></u> to that roll.\n\n<b>ZERG CREEP (Any Phase, passive)</b>\nDuring Army Building, select exactly one Creep Card and add it to their Army List, paying its listed cost (if any).\n\n<b>RAPID BURROWING (Movement Phase, active)</b>\nSelect one <u><link=\"rule_keyword_friendly\">Friendly</link></u>, <u><link=\"rule_keyword_unengaged\">Unengaged</link></u> Ground Zerg Unit on <u><link=\"rule_chapter_7\">the battlefield</link></u>. That Unit gains the <u><link=\"rule_keyword_burrowed\">Burrowed</link></u> <u><link=\"rule_keyword_status\">Status</link></u>, even if it has already been Activated this Round.",
     "UIConfig": {
       "ImageURL": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/zerg_zerg_swarm_front-43a3d6ceeac7.png",
       "ImageURLBack": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/zerg_zerg_swarm_back-fd748b69c861.png",

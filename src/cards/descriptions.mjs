@@ -16,7 +16,6 @@ export function formatCard(card, overrides = {}) {
   }
   const costs = [...new Set([...text.matchAll(cost)].map(match => `${match[1]}: ${match[2]}`))];
   text = text.replace(cost, '').trim();
-  if (costs.length) result.Name += ` (${costs.join(', ')})`;
   const phases = [...text.matchAll(phase)];
   const abilities = [...text.matchAll(ability)];
   if (!abilities.length) throw new Error(`No tactic abilities: ${card.Id}`);
@@ -38,5 +37,6 @@ export function formatCard(card, overrides = {}) {
       return `<b>${match[1]} (${currentPhase}, ${activation})</b>\n${effect}`;
     })
     .join('\n\n');
+  if (costs.length) result.Description = `${costs.join(', ')}\n\n${result.Description}`;
   return result;
 }

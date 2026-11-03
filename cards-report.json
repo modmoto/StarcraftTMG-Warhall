@@ -102,6 +102,12 @@
       "url": "https://archon-studio.com/files/manuals/sc/StarCraft-Protoss-P2P-W2-Card-Sheets-A4_EN.pdf"
     },
     {
+      "id": "sc_card_missions_artefact_hunt_skirmish",
+      "file": "StarCraft-Protoss-P2P-W2-Card-Sheets-A4_EN.pdf",
+      "page": 5,
+      "url": "https://archon-studio.com/files/manuals/sc/StarCraft-Protoss-P2P-W2-Card-Sheets-A4_EN.pdf"
+    },
+    {
       "id": "sc_card_protoss_tactics_templar_caste",
       "file": "StarCraft-Protoss-P2P-W3-Card-Sheets-A4_EN.pdf",
       "page": 4,
@@ -115,6 +121,12 @@
     },
     {
       "id": "sc_card_missions_fire_in_the_sky",
+      "file": "StarCraft-Protoss-P2P-W3-Card-Sheets-A4_EN.pdf",
+      "page": 5,
+      "url": "https://archon-studio.com/files/manuals/sc/StarCraft-Protoss-P2P-W3-Card-Sheets-A4_EN.pdf"
+    },
+    {
+      "id": "sc_card_missions_fire_in_the_sky_skirmish",
       "file": "StarCraft-Protoss-P2P-W3-Card-Sheets-A4_EN.pdf",
       "page": 5,
       "url": "https://archon-studio.com/files/manuals/sc/StarCraft-Protoss-P2P-W3-Card-Sheets-A4_EN.pdf"
@@ -204,6 +216,18 @@
       "url": "https://archon-studio.com/files/manuals/sc/StarCraft-Terran-P2P-Card-Sheets-A4_EN.pdf"
     },
     {
+      "id": "sc_card_missions_supply_drop_skirmish",
+      "file": "StarCraft-Terran-P2P-Card-Sheets-A4_EN.pdf",
+      "page": 11,
+      "url": "https://archon-studio.com/files/manuals/sc/StarCraft-Terran-P2P-Card-Sheets-A4_EN.pdf"
+    },
+    {
+      "id": "sc_card_missions_hold_position_skirmish",
+      "file": "StarCraft-Terran-P2P-Card-Sheets-A4_EN.pdf",
+      "page": 11,
+      "url": "https://archon-studio.com/files/manuals/sc/StarCraft-Terran-P2P-Card-Sheets-A4_EN.pdf"
+    },
+    {
       "id": "sc_card_missions_frontlines",
       "file": "StarCraft-Terran-P2P-Card-Sheets-A4_EN.pdf",
       "page": 12,
@@ -216,7 +240,25 @@
       "url": "https://archon-studio.com/files/manuals/sc/StarCraft-Terran-P2P-Card-Sheets-A4_EN.pdf"
     },
     {
+      "id": "sc_card_missions_frontlines_skirmish",
+      "file": "StarCraft-Terran-P2P-Card-Sheets-A4_EN.pdf",
+      "page": 12,
+      "url": "https://archon-studio.com/files/manuals/sc/StarCraft-Terran-P2P-Card-Sheets-A4_EN.pdf"
+    },
+    {
+      "id": "sc_card_missions_gather_the_resources_skirmish",
+      "file": "StarCraft-Terran-P2P-Card-Sheets-A4_EN.pdf",
+      "page": 12,
+      "url": "https://archon-studio.com/files/manuals/sc/StarCraft-Terran-P2P-Card-Sheets-A4_EN.pdf"
+    },
+    {
       "id": "sc_card_missions_divide_and_conquer",
+      "file": "StarCraft-Terran-P2P-Card-Sheets-A4_EN.pdf",
+      "page": 13,
+      "url": "https://archon-studio.com/files/manuals/sc/StarCraft-Terran-P2P-Card-Sheets-A4_EN.pdf"
+    },
+    {
+      "id": "sc_card_missions_divide_and_conquer_skirmish",
       "file": "StarCraft-Terran-P2P-Card-Sheets-A4_EN.pdf",
       "page": 13,
       "url": "https://archon-studio.com/files/manuals/sc/StarCraft-Terran-P2P-Card-Sheets-A4_EN.pdf"
@@ -389,14 +431,63 @@
       "url": "https://archon-studio.com/files/manuals/sc/StarCraft-Protoss-P2P-Card-Sheets-A4_EN.pdf",
       "sha256": "4e8547b2df8d545df3d0ebb7d7821521a888dc0437d6f4dde21d82145337a212",
       "page": 13
+    },
+    {
+      "id": "sc_card_deployments_abandoned_camp_skirmish",
+      "file": "StarCraft-Protoss-P2P-Card-Sheets-A4_EN.pdf",
+      "url": "https://archon-studio.com/files/manuals/sc/StarCraft-Protoss-P2P-Card-Sheets-A4_EN.pdf",
+      "sha256": "4e8547b2df8d545df3d0ebb7d7821521a888dc0437d6f4dde21d82145337a212",
+      "page": 13
+    },
+    {
+      "id": "sc_card_deployments_agria_valley_skirmish",
+      "file": "StarCraft-Protoss-P2P-Card-Sheets-A4_EN.pdf",
+      "url": "https://archon-studio.com/files/manuals/sc/StarCraft-Protoss-P2P-Card-Sheets-A4_EN.pdf",
+      "sha256": "4e8547b2df8d545df3d0ebb7d7821521a888dc0437d6f4dde21d82145337a212",
+      "page": 13
+    },
+    {
+      "id": "sc_card_deployments_char_plains_skirmish",
+      "file": "StarCraft-Protoss-P2P-Card-Sheets-A4_EN.pdf",
+      "url": "https://archon-studio.com/files/manuals/sc/StarCraft-Protoss-P2P-Card-Sheets-A4_EN.pdf",
+      "sha256": "4e8547b2df8d545df3d0ebb7d7821521a888dc0437d6f4dde21d82145337a212",
+      "page": 14
+    },
+    {
+      "id": "sc_card_deployments_dirt_side_skirmish",
+      "file": "StarCraft-Protoss-P2P-Card-Sheets-A4_EN.pdf",
+      "url": "https://archon-studio.com/files/manuals/sc/StarCraft-Protoss-P2P-Card-Sheets-A4_EN.pdf",
+      "sha256": "4e8547b2df8d545df3d0ebb7d7821521a888dc0437d6f4dde21d82145337a212",
+      "page": 14
+    },
+    {
+      "id": "sc_card_deployments_frontier_skirmish",
+      "file": "StarCraft-Protoss-P2P-Card-Sheets-A4_EN.pdf",
+      "url": "https://archon-studio.com/files/manuals/sc/StarCraft-Protoss-P2P-Card-Sheets-A4_EN.pdf",
+      "sha256": "4e8547b2df8d545df3d0ebb7d7821521a888dc0437d6f4dde21d82145337a212",
+      "page": 14
+    },
+    {
+      "id": "sc_card_deployments_green_valleys_skirmish",
+      "file": "StarCraft-Protoss-P2P-W2-Card-Sheets-A4_EN.pdf",
+      "url": "https://archon-studio.com/files/manuals/sc/StarCraft-Protoss-P2P-W2-Card-Sheets-A4_EN.pdf",
+      "sha256": "09f6b940a7582719f1527574e22047529e3629d078e479e3baf06c552c99f7fe",
+      "page": 4
+    },
+    {
+      "id": "sc_card_deployments_power_lines_skirmish",
+      "file": "StarCraft-Protoss-P2P-W3-Card-Sheets-A4_EN.pdf",
+      "url": "https://archon-studio.com/files/manuals/sc/StarCraft-Protoss-P2P-W3-Card-Sheets-A4_EN.pdf",
+      "sha256": "c5ef1d1e2c953a8c5c376464dff46a51878d8e5ae0c3e8260684afbf1dd5f0aa",
+      "page": 4
     }
   ],
   "counts": {
-    "Deployments": 7,
-    "Missions": 7,
-    "Protoss tactics": 17,
-    "Terran tactics": 15,
-    "Zerg tactics": 17
+    "Deployments": 14,
+    "Missions": 14,
+    "Protoss Tactic Cards": 17,
+    "Terran Tactic Cards": 15,
+    "Zerg Tactic Cards": 17
   },
-  "missions": 7
+  "missions": 14
 }

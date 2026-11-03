@@ -2214,5 +2214,1429 @@
         "dummy": true
       }
     ]
+  },
+  {
+    "deploymentID": 1764768,
+    "deploymentName": "Abandoned Camp (Skirmish)",
+    "rotationAxis": 0,
+    "centerlineAxis": "0",
+    "lines": [
+      {
+        "color": "blue",
+        "anchor": "center",
+        "posX": "-10.5",
+        "posY": "18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "color": "blue",
+        "anchor": "center",
+        "posX": "-13.5",
+        "posY": "18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "color": "blue",
+        "anchor": "center",
+        "posX": "-18",
+        "posY": "13.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "color": "blue",
+        "anchor": "center",
+        "posX": "-18",
+        "posY": "16.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "color": "blue",
+        "anchor": "center",
+        "posX": "-16.5",
+        "posY": "18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "color": "blue",
+        "anchor": "center",
+        "posX": "-1.5",
+        "posY": "18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "color": "blue",
+        "anchor": "center",
+        "posX": "-4.5",
+        "posY": "18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "color": "blue",
+        "anchor": "center",
+        "posX": "-7.5",
+        "posY": "18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "color": "blue",
+        "anchor": "center",
+        "posX": "1.5",
+        "posY": "18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "color": "blue",
+        "anchor": "center",
+        "posX": "13.5",
+        "posY": "18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "color": "blue",
+        "anchor": "center",
+        "posX": "16.5",
+        "posY": "18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "color": "blue",
+        "anchor": "center",
+        "posX": "18",
+        "posY": "13.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "color": "blue",
+        "anchor": "center",
+        "posX": "18",
+        "posY": "16.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "color": "blue",
+        "anchor": "center",
+        "posX": "4.5",
+        "posY": "18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "color": "blue",
+        "anchor": "center",
+        "posX": "7.5",
+        "posY": "18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "color": "blue",
+        "anchor": "center",
+        "posX": "10.5",
+        "posY": "18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "color": "red",
+        "anchor": "center",
+        "posX": "-10.5",
+        "posY": "-18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "color": "red",
+        "anchor": "center",
+        "posX": "-13.5",
+        "posY": "-18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "color": "red",
+        "anchor": "center",
+        "posX": "-18",
+        "posY": "-13.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "color": "red",
+        "anchor": "center",
+        "posX": "-16.5",
+        "posY": "-18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "color": "red",
+        "anchor": "center",
+        "posX": "-18",
+        "posY": "-16.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "color": "red",
+        "anchor": "center",
+        "posX": "-1.5",
+        "posY": "-18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "color": "red",
+        "anchor": "center",
+        "posX": "-4.5",
+        "posY": "-18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "color": "red",
+        "anchor": "center",
+        "posX": "-7.5",
+        "posY": "-18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "color": "red",
+        "anchor": "center",
+        "posX": "1.5",
+        "posY": "-18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "color": "red",
+        "anchor": "center",
+        "posX": "13.5",
+        "posY": "-18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "color": "red",
+        "anchor": "center",
+        "posX": "16.5",
+        "posY": "-18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "color": "red",
+        "anchor": "center",
+        "posX": "18",
+        "posY": "-13.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "color": "red",
+        "anchor": "center",
+        "posX": "18",
+        "posY": "-16.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "color": "red",
+        "anchor": "center",
+        "posX": "4.5",
+        "posY": "-18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "color": "red",
+        "anchor": "center",
+        "posX": "7.5",
+        "posY": "-18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "color": "red",
+        "anchor": "center",
+        "posX": "10.5",
+        "posY": "-18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      }
+    ]
+  },
+  {
+    "deploymentID": 5036036,
+    "deploymentName": "Agria Valley (Skirmish)",
+    "rotationAxis": 0,
+    "centerlineAxis": "0",
+    "lines": [
+      {
+        "color": "blue",
+        "anchor": "center",
+        "posX": "13.5",
+        "posY": "-18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "color": "blue",
+        "anchor": "center",
+        "posX": "16.5",
+        "posY": "-18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "color": "blue",
+        "anchor": "center",
+        "posX": "18",
+        "posY": "-10.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "color": "blue",
+        "anchor": "center",
+        "posX": "18",
+        "posY": "-13.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "color": "blue",
+        "anchor": "center",
+        "posX": "18",
+        "posY": "-16.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "color": "blue",
+        "anchor": "center",
+        "posX": "18",
+        "posY": "-7.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "color": "blue",
+        "anchor": "center",
+        "posX": "7.5",
+        "posY": "-18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "color": "blue",
+        "anchor": "center",
+        "posX": "10.5",
+        "posY": "-18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "color": "red",
+        "anchor": "center",
+        "posX": "-10.5",
+        "posY": "18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "color": "red",
+        "anchor": "center",
+        "posX": "-13.5",
+        "posY": "18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "color": "red",
+        "anchor": "center",
+        "posX": "-18",
+        "posY": "13.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "color": "red",
+        "anchor": "center",
+        "posX": "-18",
+        "posY": "16.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "color": "red",
+        "anchor": "center",
+        "posX": "-16.5",
+        "posY": "18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "color": "red",
+        "anchor": "center",
+        "posX": "-18",
+        "posY": "7.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "color": "red",
+        "anchor": "center",
+        "posX": "-18",
+        "posY": "10.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "color": "red",
+        "anchor": "center",
+        "posX": "-7.5",
+        "posY": "18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      }
+    ]
+  },
+  {
+    "deploymentID": 13092295,
+    "deploymentName": "Char Plains (Skirmish)",
+    "rotationAxis": 0,
+    "centerlineAxis": "0",
+    "lines": [
+      {
+        "color": "blue",
+        "anchor": "center",
+        "posX": "1.5",
+        "posY": "18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "color": "blue",
+        "anchor": "center",
+        "posX": "13.5",
+        "posY": "18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "color": "blue",
+        "anchor": "center",
+        "posX": "16.5",
+        "posY": "18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "color": "blue",
+        "anchor": "center",
+        "posX": "18",
+        "posY": "13.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "color": "blue",
+        "anchor": "center",
+        "posX": "18",
+        "posY": "16.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "color": "blue",
+        "anchor": "center",
+        "posX": "4.5",
+        "posY": "18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "color": "blue",
+        "anchor": "center",
+        "posX": "7.5",
+        "posY": "18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "color": "blue",
+        "anchor": "center",
+        "posX": "10.5",
+        "posY": "18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "color": "red",
+        "anchor": "center",
+        "posX": "1.5",
+        "posY": "-18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "color": "red",
+        "anchor": "center",
+        "posX": "13.5",
+        "posY": "-18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "color": "red",
+        "anchor": "center",
+        "posX": "16.5",
+        "posY": "-18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "color": "red",
+        "anchor": "center",
+        "posX": "18",
+        "posY": "-13.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "color": "red",
+        "anchor": "center",
+        "posX": "18",
+        "posY": "-16.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "color": "red",
+        "anchor": "center",
+        "posX": "4.5",
+        "posY": "-18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "color": "red",
+        "anchor": "center",
+        "posX": "7.5",
+        "posY": "-18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "color": "red",
+        "anchor": "center",
+        "posX": "10.5",
+        "posY": "-18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      }
+    ]
+  },
+  {
+    "deploymentID": 12662609,
+    "deploymentName": "Dirt Side (Skirmish)",
+    "rotationAxis": 0,
+    "centerlineAxis": "0",
+    "lines": [
+      {
+        "color": "blue",
+        "anchor": "center",
+        "posX": "13.5",
+        "posY": "-18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "color": "blue",
+        "anchor": "center",
+        "posX": "16.5",
+        "posY": "-18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "color": "blue",
+        "anchor": "center",
+        "posX": "18",
+        "posY": "-10.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "color": "blue",
+        "anchor": "center",
+        "posX": "18",
+        "posY": "-13.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "color": "blue",
+        "anchor": "center",
+        "posX": "18",
+        "posY": "-16.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "color": "blue",
+        "anchor": "center",
+        "posX": "18",
+        "posY": "-7.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "color": "blue",
+        "anchor": "center",
+        "posX": "7.5",
+        "posY": "-18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "color": "blue",
+        "anchor": "center",
+        "posX": "10.5",
+        "posY": "-18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "color": "red",
+        "anchor": "center",
+        "posX": "-10.5",
+        "posY": "18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "color": "red",
+        "anchor": "center",
+        "posX": "-13.5",
+        "posY": "18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "color": "red",
+        "anchor": "center",
+        "posX": "-18",
+        "posY": "13.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "color": "red",
+        "anchor": "center",
+        "posX": "-18",
+        "posY": "16.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "color": "red",
+        "anchor": "center",
+        "posX": "-16.5",
+        "posY": "18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "color": "red",
+        "anchor": "center",
+        "posX": "-18",
+        "posY": "7.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "color": "red",
+        "anchor": "center",
+        "posX": "-18",
+        "posY": "10.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "color": "red",
+        "anchor": "center",
+        "posX": "-7.5",
+        "posY": "18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      }
+    ]
+  },
+  {
+    "deploymentID": 10928237,
+    "deploymentName": "Frontier (Skirmish)",
+    "rotationAxis": 0,
+    "centerlineAxis": "0",
+    "lines": [
+      {
+        "color": "blue",
+        "anchor": "center",
+        "posX": "-18",
+        "posY": "-1.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "color": "blue",
+        "anchor": "center",
+        "posX": "-18",
+        "posY": "-4.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "color": "blue",
+        "anchor": "center",
+        "posX": "-18",
+        "posY": "1.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "color": "blue",
+        "anchor": "center",
+        "posX": "-18",
+        "posY": "4.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "color": "blue",
+        "anchor": "center",
+        "posX": "18",
+        "posY": "-1.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "color": "blue",
+        "anchor": "center",
+        "posX": "18",
+        "posY": "-4.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "color": "blue",
+        "anchor": "center",
+        "posX": "18",
+        "posY": "1.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "color": "blue",
+        "anchor": "center",
+        "posX": "18",
+        "posY": "4.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "color": "red",
+        "anchor": "center",
+        "posX": "-1.5",
+        "posY": "-18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "color": "red",
+        "anchor": "center",
+        "posX": "-1.5",
+        "posY": "18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "color": "red",
+        "anchor": "center",
+        "posX": "-4.5",
+        "posY": "-18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "color": "red",
+        "anchor": "center",
+        "posX": "-4.5",
+        "posY": "18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "color": "red",
+        "anchor": "center",
+        "posX": "1.5",
+        "posY": "-18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "color": "red",
+        "anchor": "center",
+        "posX": "1.5",
+        "posY": "18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "color": "red",
+        "anchor": "center",
+        "posX": "4.5",
+        "posY": "-18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "color": "red",
+        "anchor": "center",
+        "posX": "4.5",
+        "posY": "18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      }
+    ]
+  },
+  {
+    "deploymentID": 3281351,
+    "deploymentName": "Green Valleys (Skirmish)",
+    "rotationAxis": 0,
+    "centerlineAxis": "0",
+    "lines": [
+      {
+        "color": "blue",
+        "anchor": "center",
+        "posX": "-18",
+        "posY": "-1.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "color": "blue",
+        "anchor": "center",
+        "posX": "-18",
+        "posY": "-4.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "color": "blue",
+        "anchor": "center",
+        "posX": "-18",
+        "posY": "1.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "color": "blue",
+        "anchor": "center",
+        "posX": "-18",
+        "posY": "4.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "color": "blue",
+        "anchor": "center",
+        "posX": "13.5",
+        "posY": "-18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "color": "blue",
+        "anchor": "center",
+        "posX": "16.5",
+        "posY": "-18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "color": "blue",
+        "anchor": "center",
+        "posX": "18",
+        "posY": "-13.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "color": "blue",
+        "anchor": "center",
+        "posX": "18",
+        "posY": "-16.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "color": "red",
+        "anchor": "center",
+        "posX": "-13.5",
+        "posY": "18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "color": "red",
+        "anchor": "center",
+        "posX": "-18",
+        "posY": "13.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "color": "red",
+        "anchor": "center",
+        "posX": "-18",
+        "posY": "16.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "color": "red",
+        "anchor": "center",
+        "posX": "-16.5",
+        "posY": "18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "color": "red",
+        "anchor": "center",
+        "posX": "18",
+        "posY": "-1.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "color": "red",
+        "anchor": "center",
+        "posX": "18",
+        "posY": "-4.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "color": "red",
+        "anchor": "center",
+        "posX": "18",
+        "posY": "1.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "color": "red",
+        "anchor": "center",
+        "posX": "18",
+        "posY": "4.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      }
+    ]
+  },
+  {
+    "deploymentID": 14471154,
+    "deploymentName": "Power Lines (Skirmish)",
+    "rotationAxis": 0,
+    "centerlineAxis": "0",
+    "lines": [
+      {
+        "color": "blue",
+        "anchor": "center",
+        "posX": "-10.5",
+        "posY": "18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "color": "blue",
+        "anchor": "center",
+        "posX": "-13.5",
+        "posY": "-18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "color": "blue",
+        "anchor": "center",
+        "posX": "-13.5",
+        "posY": "18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "color": "blue",
+        "anchor": "center",
+        "posX": "-18",
+        "posY": "-10.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "color": "blue",
+        "anchor": "center",
+        "posX": "-18",
+        "posY": "-13.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "color": "blue",
+        "anchor": "center",
+        "posX": "-16.5",
+        "posY": "-18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "color": "blue",
+        "anchor": "center",
+        "posX": "-18",
+        "posY": "-16.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "color": "blue",
+        "anchor": "center",
+        "posX": "-18",
+        "posY": "-1.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "color": "blue",
+        "anchor": "center",
+        "posX": "-18",
+        "posY": "-4.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "color": "blue",
+        "anchor": "center",
+        "posX": "-18",
+        "posY": "-7.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "color": "blue",
+        "anchor": "center",
+        "posX": "-18",
+        "posY": "1.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "color": "blue",
+        "anchor": "center",
+        "posX": "-18",
+        "posY": "13.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "color": "blue",
+        "anchor": "center",
+        "posX": "-18",
+        "posY": "16.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "color": "blue",
+        "anchor": "center",
+        "posX": "-16.5",
+        "posY": "18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "color": "blue",
+        "anchor": "center",
+        "posX": "-18",
+        "posY": "4.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "color": "blue",
+        "anchor": "center",
+        "posX": "-18",
+        "posY": "7.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "color": "blue",
+        "anchor": "center",
+        "posX": "-18",
+        "posY": "10.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "color": "blue",
+        "anchor": "center",
+        "posX": "-1.5",
+        "posY": "18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "color": "blue",
+        "anchor": "center",
+        "posX": "-4.5",
+        "posY": "18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "color": "blue",
+        "anchor": "center",
+        "posX": "-7.5",
+        "posY": "18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "color": "red",
+        "anchor": "center",
+        "posX": "1.5",
+        "posY": "18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "color": "red",
+        "anchor": "center",
+        "posX": "13.5",
+        "posY": "-18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "color": "red",
+        "anchor": "center",
+        "posX": "13.5",
+        "posY": "18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "color": "red",
+        "anchor": "center",
+        "posX": "16.5",
+        "posY": "-18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "color": "red",
+        "anchor": "center",
+        "posX": "16.5",
+        "posY": "18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "color": "red",
+        "anchor": "center",
+        "posX": "18",
+        "posY": "-10.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "color": "red",
+        "anchor": "center",
+        "posX": "18",
+        "posY": "-13.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "color": "red",
+        "anchor": "center",
+        "posX": "18",
+        "posY": "-16.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "color": "red",
+        "anchor": "center",
+        "posX": "18",
+        "posY": "-1.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "color": "red",
+        "anchor": "center",
+        "posX": "18",
+        "posY": "-4.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "color": "red",
+        "anchor": "center",
+        "posX": "18",
+        "posY": "-7.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "color": "red",
+        "anchor": "center",
+        "posX": "18",
+        "posY": "1.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "color": "red",
+        "anchor": "center",
+        "posX": "18",
+        "posY": "13.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "color": "red",
+        "anchor": "center",
+        "posX": "18",
+        "posY": "16.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "color": "red",
+        "anchor": "center",
+        "posX": "18",
+        "posY": "4.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "color": "red",
+        "anchor": "center",
+        "posX": "18",
+        "posY": "7.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "color": "red",
+        "anchor": "center",
+        "posX": "18",
+        "posY": "10.5",
+        "sizeX": "3",
+        "rotationY": "90",
+        "dummy": true
+      },
+      {
+        "color": "red",
+        "anchor": "center",
+        "posX": "4.5",
+        "posY": "18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "color": "red",
+        "anchor": "center",
+        "posX": "7.5",
+        "posY": "18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      },
+      {
+        "color": "red",
+        "anchor": "center",
+        "posX": "10.5",
+        "posY": "18",
+        "sizeX": "3",
+        "rotationY": "0",
+        "dummy": true
+      }
+    ]
   }
 ]

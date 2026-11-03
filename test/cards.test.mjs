@@ -8,7 +8,7 @@ test('board cards are sharp, contain no unit cards, and have clean descriptions'
   );
   const hierarchy = await read('../Starcraft-test/hierarchy.json');
   const report = await read('../cards-report.json');
-  assert.equal(cards.length, 63);
+  assert.equal(cards.length, 77);
   assert.equal(report.imageDpi, 600);
   assert.equal(report.unitCards, false);
   assert.ok(Object.keys(hierarchy.Cards).every(group => !group.endsWith(' units')));
@@ -35,5 +35,5 @@ test('board cards are sharp, contain no unit cards, and have clean descriptions'
   const config = await read('../Starcraft-test/gameconfig.json');
   assert.equal(config.ShowObjectiveSection, false);
   assert.equal(config.ShowDeploymentSection, true);
-  assert.equal((await read('../Starcraft-test/deployments.json')).length, 7);
+  assert.equal((await read('../Starcraft-test/deployments.json')).length, 14);
 });

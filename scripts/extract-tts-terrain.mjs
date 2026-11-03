@@ -6,21 +6,24 @@ assert.ok(filename, 'Usage: node scripts/extract-tts-terrain.mjs TTS_WORKSHOP_SA
 const bytes = await readFile(filename),
   save = JSON.parse(bytes),
   bags = [];
+const skirmish = bag => bag.Nickname.startsWith('Official 36x36');
+const mapNumber = bag => Number(bag.Nickname.match(/Map (\d)/)[1]) + (skirmish(bag) ? 6 : 0);
 function walk(o) {
   if (!o || typeof o !== 'object') return;
-  if (o.Name === 'Bag' && /^All - Official PDF Map [1-6](?:\D|$)/.test(o.Nickname ?? ''))
+  if (
+    o.Name === 'Bag' &&
+    /^(?:All - Official PDF Map [1-6]|Official 36x36 Map [1-3])(?:\D|$)/.test(o.Nickname ?? '')
+  )
     bags.push(o);
   for (const [k, v] of Object.entries(o))
     if (typeof v === 'object') Array.isArray(v) ? v.forEach(walk) : walk(v);
 }
 walk(save);
-bags.sort(
-  (a, b) => Number(a.Nickname.match(/Map (\d)/)[1]) - Number(b.Nickname.match(/Map (\d)/)[1]),
-);
+bags.sort((a, b) => mapNumber(a) - mapNumber(b));
 assert.deepEqual(
-  bags.map(bag => Number(bag.Nickname.match(/Map (\d)/)[1])),
-  [1, 2, 3, 4, 5, 6],
-  'Expected official standard maps 1-6',
+  bags.map(mapNumber),
+  [1, 2, 3, 4, 5, 6, 7, 8, 9],
+  'Expected six standard and three Skirmish maps',
 );
 let knownAssets = [];
 try {
@@ -55,7 +58,8 @@ function attachedParts(object) {
   });
 }
 for (const bag of bags) {
-  const number = Number(bag.Nickname.match(/Map (\d)/)[1]),
+  const number = mapNumber(bag),
+    width = skirmish(bag) ? 36 : 54,
     memory = JSON.parse(bag.LuaScriptState).ml,
     items = [];
   for (const o of bag.ContainedObjects) {
@@ -64,11 +68,15 @@ for (const bag of bags) {
       o.CustomMesh?.MeshURL && o.CustomMesh.DiffuseURL,
       `Missing terrain mesh: ${o.Nickname}`,
     );
+    const name = o.Nickname.replace(/^Size \d - /, '')
+      .replace(/: Size \d$/, '')
+      .replace(/^Core Box /, '')
+      .replace(/^wall /, 'Wall Set ');
+    const shared =
+      skirmish(bag) && knownAssets.find(asset => asset.name.toLowerCase() === name.toLowerCase());
     const t = o.Transform;
-    const candidate = {
-      name: o.Nickname.replace(/^Size \d - /, '')
-        .replace(/: Size \d$/, '')
-        .replace(/^wall /, 'Wall Set '),
+    const candidate = shared || {
+      name,
       meshUrl: o.CustomMesh.MeshURL,
       textureUrl: o.CustomMesh.DiffuseURL,
       ttsScale: [t.scaleX, t.scaleY, t.scaleZ],
@@ -80,27 +88,27 @@ for (const bag of bags) {
     const key = sha256(
       JSON.stringify([candidate.meshUrl, candidate.textureUrl, ...candidate.ttsScale]),
     ).slice(0, 16);
-    const asset = known ?? { id: `sc_terrain_${key}`, ...candidate };
+    const asset = shared || known || { id: `sc_terrain_${key}`, ...candidate };
     const id = asset.id;
     if (!assets.has(id)) assets.set(id, asset);
     const m = memory[o.GUID];
     assert.ok(m, `Missing saved placement: ${o.GUID}`);
     assert.ok(
-      Math.abs(m.pos.x) < 27 && Math.abs(m.pos.z) < 18,
-      `Terrain outside standard table: ${o.Nickname}`,
+      Math.abs(m.pos.x) < width / 2 && Math.abs(m.pos.z) < 18,
+      `Terrain outside table: ${o.Nickname}`,
     );
     items.push({ id, x: m.pos.x, z: m.pos.z, rotation: m.rot.y, ttsGuid: o.GUID });
   }
   assert.equal(
     items.length,
-    number >= 5 ? 32 : 30,
+    skirmish(bag) ? (number === 9 ? 16 : 15) : number >= 5 ? 32 : 30,
     `Unexpected official terrain count: map ${number}`,
   );
   maps.push({
-    name: `Official Map ${number}`,
+    name: skirmish(bag) ? `Map ${number - 6} (Skirmish)` : `Official Map ${number}`,
     number,
     pdfPage: 117 + number,
-    width: 54,
+    width,
     height: 36,
     items,
   });
@@ -112,7 +120,7 @@ await writeFile(
       source: 'https://steamcommunity.com/sharedfiles/filedetails/?id=3662791369',
       workshopSha256: sha256(bytes),
       policy:
-        'Official PDF maps 1-6, using their TTS memory-bag placements; decorative table excluded.',
+        'Official standard and Skirmish PDF maps, using their TTS memory-bag placements; decorative table excluded.',
       assets: [...assets.values()],
       maps,
     },

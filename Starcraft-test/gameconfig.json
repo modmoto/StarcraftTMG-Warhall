@@ -381,6 +381,237 @@
           "IsToken": false
         }
       ]
+    },
+    {
+      "DeploymentIndex": 8,
+      "Items": [
+        {
+          "Name": "Starcraft - Terrain - Mission marker 1 - red",
+          "X": -30.48,
+          "Y": 0.04,
+          "Z": 0,
+          "IsToken": false
+        },
+        {
+          "Name": "Starcraft - Terrain - Mission marker 2 - blue",
+          "X": 30.48,
+          "Y": 0.04,
+          "Z": 0,
+          "IsToken": false
+        },
+        {
+          "Name": "Starcraft - Terrain - Mission marker 5 - green",
+          "X": 0,
+          "Y": 0.04,
+          "Z": 0,
+          "IsToken": false
+        },
+        {
+          "Name": "Starcraft - Terrain - Deployment - Abandoned Camp (Skirmish)",
+          "X": 0,
+          "Y": 0.02,
+          "Z": 0,
+          "IsToken": false
+        }
+      ]
+    },
+    {
+      "DeploymentIndex": 9,
+      "Items": [
+        {
+          "Name": "Starcraft - Terrain - Mission marker 1 - red",
+          "X": -30.48,
+          "Y": 0.04,
+          "Z": -30.48,
+          "IsToken": false
+        },
+        {
+          "Name": "Starcraft - Terrain - Mission marker 2 - blue",
+          "X": 30.48,
+          "Y": 0.04,
+          "Z": 30.48,
+          "IsToken": false
+        },
+        {
+          "Name": "Starcraft - Terrain - Mission marker 5 - green",
+          "X": 0,
+          "Y": 0.04,
+          "Z": 0,
+          "IsToken": false
+        },
+        {
+          "Name": "Starcraft - Terrain - Deployment - Agria Valley (Skirmish)",
+          "X": 0,
+          "Y": 0.02,
+          "Z": 0,
+          "IsToken": false
+        }
+      ]
+    },
+    {
+      "DeploymentIndex": 10,
+      "Items": [
+        {
+          "Name": "Starcraft - Terrain - Mission marker 1 - red",
+          "X": -30.48,
+          "Y": 0.04,
+          "Z": -30.48,
+          "IsToken": false
+        },
+        {
+          "Name": "Starcraft - Terrain - Mission marker 2 - blue",
+          "X": -30.48,
+          "Y": 0.04,
+          "Z": 30.48,
+          "IsToken": false
+        },
+        {
+          "Name": "Starcraft - Terrain - Mission marker 5 - green",
+          "X": 15.24,
+          "Y": 0.04,
+          "Z": 0,
+          "IsToken": false
+        },
+        {
+          "Name": "Starcraft - Terrain - Deployment - Char Plains (Skirmish)",
+          "X": 0,
+          "Y": 0.02,
+          "Z": 0,
+          "IsToken": false
+        }
+      ]
+    },
+    {
+      "DeploymentIndex": 11,
+      "Items": [
+        {
+          "Name": "Starcraft - Terrain - Mission marker 1 - red",
+          "X": -30.48,
+          "Y": 0.04,
+          "Z": 0,
+          "IsToken": false
+        },
+        {
+          "Name": "Starcraft - Terrain - Mission marker 2 - blue",
+          "X": 30.48,
+          "Y": 0.04,
+          "Z": 0,
+          "IsToken": false
+        },
+        {
+          "Name": "Starcraft - Terrain - Mission marker 5 - green",
+          "X": 0,
+          "Y": 0.04,
+          "Z": 0,
+          "IsToken": false
+        },
+        {
+          "Name": "Starcraft - Terrain - Deployment - Dirt Side (Skirmish)",
+          "X": 0,
+          "Y": 0.02,
+          "Z": 0,
+          "IsToken": false
+        }
+      ]
+    },
+    {
+      "DeploymentIndex": 12,
+      "Items": [
+        {
+          "Name": "Starcraft - Terrain - Mission marker 1 - red",
+          "X": -30.48,
+          "Y": 0.04,
+          "Z": -30.48,
+          "IsToken": false
+        },
+        {
+          "Name": "Starcraft - Terrain - Mission marker 2 - blue",
+          "X": 30.48,
+          "Y": 0.04,
+          "Z": 30.48,
+          "IsToken": false
+        },
+        {
+          "Name": "Starcraft - Terrain - Mission marker 5 - green",
+          "X": 0,
+          "Y": 0.04,
+          "Z": 0,
+          "IsToken": false
+        },
+        {
+          "Name": "Starcraft - Terrain - Deployment - Frontier (Skirmish)",
+          "X": 0,
+          "Y": 0.02,
+          "Z": 0,
+          "IsToken": false
+        }
+      ]
+    },
+    {
+      "DeploymentIndex": 13,
+      "Items": [
+        {
+          "Name": "Starcraft - Terrain - Mission marker 1 - red",
+          "X": -15.24,
+          "Y": 0.04,
+          "Z": -30.48,
+          "IsToken": false
+        },
+        {
+          "Name": "Starcraft - Terrain - Mission marker 2 - blue",
+          "X": 15.24,
+          "Y": 0.04,
+          "Z": 30.48,
+          "IsToken": false
+        },
+        {
+          "Name": "Starcraft - Terrain - Mission marker 5 - green",
+          "X": 0,
+          "Y": 0.04,
+          "Z": 0,
+          "IsToken": false
+        },
+        {
+          "Name": "Starcraft - Terrain - Deployment - Green Valleys (Skirmish)",
+          "X": 0,
+          "Y": 0.02,
+          "Z": 0,
+          "IsToken": false
+        }
+      ]
+    },
+    {
+      "DeploymentIndex": 14,
+      "Items": [
+        {
+          "Name": "Starcraft - Terrain - Mission marker 1 - red",
+          "X": 15.24,
+          "Y": 0.04,
+          "Z": 7.62,
+          "IsToken": false
+        },
+        {
+          "Name": "Starcraft - Terrain - Mission marker 2 - blue",
+          "X": -15.24,
+          "Y": 0.04,
+          "Z": 7.62,
+          "IsToken": false
+        },
+        {
+          "Name": "Starcraft - Terrain - Mission marker 5 - green",
+          "X": 0,
+          "Y": 0.04,
+          "Z": -30.48,
+          "IsToken": false
+        },
+        {
+          "Name": "Starcraft - Terrain - Deployment - Power Lines (Skirmish)",
+          "X": 0,
+          "Y": 0.02,
+          "Z": 0,
+          "IsToken": false
+        }
+      ]
     }
   ],
   "ShowObjectiveSection": false,

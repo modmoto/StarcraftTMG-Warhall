@@ -3084,6 +3084,230 @@
           }
         }
       ]
+    },
+    {
+      "profileId": "sc_deployment_1764768",
+      "name": "Starcraft - Terrain - Deployment - Abandoned Camp (Skirmish)",
+      "kind": "deployment",
+      "calibration": "deployment-centimeters-v1",
+      "parts": [
+        {
+          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/6382257b91dbe0175780e7781e209233cbfee7df41e746fde0fb12d24871e448.glb",
+          "textureUrl": null,
+          "hostedAsset": true,
+          "transforms": {
+            "scale": 0.39370078740157477,
+            "positionX": 0,
+            "positionY": 0,
+            "positionZ": 0,
+            "rotationX": 0,
+            "rotationY": 0,
+            "rotationZ": 0
+          },
+          "previewGeometryFile": "model-assets/6382257b91dbe0175780e7781e209233cbfee7df41e746fde0fb12d24871e448.glb.preview.json",
+          "previewTransforms": {
+            "scale": 1,
+            "positionX": 0,
+            "positionY": 0,
+            "positionZ": 0,
+            "rotationX": 0,
+            "rotationY": 0,
+            "rotationZ": 0
+          }
+        }
+      ]
+    },
+    {
+      "profileId": "sc_deployment_5036036",
+      "name": "Starcraft - Terrain - Deployment - Agria Valley (Skirmish)",
+      "kind": "deployment",
+      "calibration": "deployment-centimeters-v1",
+      "parts": [
+        {
+          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/0d1ca1a06d6b0079e7de082f05a08e414f9755c4d7dde16f5a622f97bd556d65.glb",
+          "textureUrl": null,
+          "hostedAsset": true,
+          "transforms": {
+            "scale": 0.39370078740157477,
+            "positionX": 0,
+            "positionY": 0,
+            "positionZ": 0,
+            "rotationX": 0,
+            "rotationY": 0,
+            "rotationZ": 0
+          },
+          "previewGeometryFile": "model-assets/0d1ca1a06d6b0079e7de082f05a08e414f9755c4d7dde16f5a622f97bd556d65.glb.preview.json",
+          "previewTransforms": {
+            "scale": 1,
+            "positionX": 0,
+            "positionY": 0,
+            "positionZ": 0,
+            "rotationX": 0,
+            "rotationY": 0,
+            "rotationZ": 0
+          }
+        }
+      ]
+    },
+    {
+      "profileId": "sc_deployment_13092295",
+      "name": "Starcraft - Terrain - Deployment - Char Plains (Skirmish)",
+      "kind": "deployment",
+      "calibration": "deployment-centimeters-v1",
+      "parts": [
+        {
+          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/a0eda2f6a2746da1936e874a5600b594c38782ae331cea5268b1aec696080b67.glb",
+          "textureUrl": null,
+          "hostedAsset": true,
+          "transforms": {
+            "scale": 0.39370078740157477,
+            "positionX": 0,
+            "positionY": 0,
+            "positionZ": 0,
+            "rotationX": 0,
+            "rotationY": 0,
+            "rotationZ": 0
+          },
+          "previewGeometryFile": "model-assets/a0eda2f6a2746da1936e874a5600b594c38782ae331cea5268b1aec696080b67.glb.preview.json",
+          "previewTransforms": {
+            "scale": 1,
+            "positionX": 0,
+            "positionY": 0,
+            "positionZ": 0,
+            "rotationX": 0,
+            "rotationY": 0,
+            "rotationZ": 0
+          }
+        }
+      ]
+    },
+    {
+      "profileId": "sc_deployment_12662609",
+      "name": "Starcraft - Terrain - Deployment - Dirt Side (Skirmish)",
+      "kind": "deployment",
+      "calibration": "deployment-centimeters-v1",
+      "parts": [
+        {
+          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/0d1ca1a06d6b0079e7de082f05a08e414f9755c4d7dde16f5a622f97bd556d65.glb",
+          "textureUrl": null,
+          "hostedAsset": true,
+          "transforms": {
+            "scale": 0.39370078740157477,
+            "positionX": 0,
+            "positionY": 0,
+            "positionZ": 0,
+            "rotationX": 0,
+            "rotationY": 0,
+            "rotationZ": 0
+          },
+          "previewGeometryFile": "model-assets/0d1ca1a06d6b0079e7de082f05a08e414f9755c4d7dde16f5a622f97bd556d65.glb.preview.json",
+          "previewTransforms": {
+            "scale": 1,
+            "positionX": 0,
+            "positionY": 0,
+            "positionZ": 0,
+            "rotationX": 0,
+            "rotationY": 0,
+            "rotationZ": 0
+          }
+        }
+      ]
+    },
+    {
+      "profileId": "sc_deployment_10928237",
+      "name": "Starcraft - Terrain - Deployment - Frontier (Skirmish)",
+      "kind": "deployment",
+      "calibration": "deployment-centimeters-v1",
+      "parts": [
+        {
+          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/b52f61a670736d74526e26cdc5455102e9533cd4a1e827b8b62fee41266b9a35.glb",
+          "textureUrl": null,
+          "hostedAsset": true,
+          "transforms": {
+            "scale": 0.39370078740157477,
+            "positionX": 0,
+            "positionY": 0,
+            "positionZ": 0,
+            "rotationX": 0,
+            "rotationY": 0,
+            "rotationZ": 0
+          },
+          "previewGeometryFile": "model-assets/b52f61a670736d74526e26cdc5455102e9533cd4a1e827b8b62fee41266b9a35.glb.preview.json",
+          "previewTransforms": {
+            "scale": 1,
+            "positionX": 0,
+            "positionY": 0,
+            "positionZ": 0,
+            "rotationX": 0,
+            "rotationY": 0,
+            "rotationZ": 0
+          }
+        }
+      ]
+    },
+    {
+      "profileId": "sc_deployment_3281351",
+      "name": "Starcraft - Terrain - Deployment - Green Valleys (Skirmish)",
+      "kind": "deployment",
+      "calibration": "deployment-centimeters-v1",
+      "parts": [
+        {
+          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/b8547b201f166e5c6264f817d97e08ccf9bdbd6d8f19cfb142b41ab384bd9497.glb",
+          "textureUrl": null,
+          "hostedAsset": true,
+          "transforms": {
+            "scale": 0.39370078740157477,
+            "positionX": 0,
+            "positionY": 0,
+            "positionZ": 0,
+            "rotationX": 0,
+            "rotationY": 0,
+            "rotationZ": 0
+          },
+          "previewGeometryFile": "model-assets/b8547b201f166e5c6264f817d97e08ccf9bdbd6d8f19cfb142b41ab384bd9497.glb.preview.json",
+          "previewTransforms": {
+            "scale": 1,
+            "positionX": 0,
+            "positionY": 0,
+            "positionZ": 0,
+            "rotationX": 0,
+            "rotationY": 0,
+            "rotationZ": 0
+          }
+        }
+      ]
+    },
+    {
+      "profileId": "sc_deployment_14471154",
+      "name": "Starcraft - Terrain - Deployment - Power Lines (Skirmish)",
+      "kind": "deployment",
+      "calibration": "deployment-centimeters-v1",
+      "parts": [
+        {
+          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/f282bea1f18df608df2f3ceb13f692c3071d0332a474d267080ae7707486c4da.glb",
+          "textureUrl": null,
+          "hostedAsset": true,
+          "transforms": {
+            "scale": 0.39370078740157477,
+            "positionX": 0,
+            "positionY": 0,
+            "positionZ": 0,
+            "rotationX": 0,
+            "rotationY": 0,
+            "rotationZ": 0
+          },
+          "previewGeometryFile": "model-assets/f282bea1f18df608df2f3ceb13f692c3071d0332a474d267080ae7707486c4da.glb.preview.json",
+          "previewTransforms": {
+            "scale": 1,
+            "positionX": 0,
+            "positionY": 0,
+            "positionZ": 0,
+            "rotationX": 0,
+            "rotationY": 0,
+            "rotationZ": 0
+          }
+        }
+      ]
     }
   ]
 }

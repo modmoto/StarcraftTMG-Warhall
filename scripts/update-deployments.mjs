@@ -108,7 +108,7 @@ assert.match(rules, /A restricted area extending 6[”"] inward/, 'Influence zon
 const sources = await loadSources(options);
 const parsed = [];
 for (const source of sources) parsed.push(...(await parseDeploymentPdf(source)));
-const layouts = reconcileDeployments(parsed).filter(l => l.width === 54 && l.height === 36);
+const layouts = reconcileDeployments(parsed).sort((a, b) => b.width - a.width);
 assert.ok(layouts.length, 'No standard 54x36 deployments found');
 const generated = buildDeployments(layouts);
 let previous = { layouts: [] };
@@ -118,10 +118,11 @@ try {
   if (e.code !== 'ENOENT') throw e;
 }
 const ownedDeploymentIds = new Set(previous.layouts.map(l => l.templateId));
-const ownedDeploymentNames = new Set([
-  ...previous.layouts.map(l => l.name),
-  ...generated.deployments.map(l => l.deploymentName),
-]);
+const ownedDeploymentNames = new Set(
+  [...previous.layouts.map(l => l.name), ...generated.deployments.map(l => l.deploymentName)].map(
+    name => name.toLowerCase(),
+  ),
+);
 const outputs = new Map();
 const json = (file, data) => outputs.set(file, Buffer.from(JSON.stringify(data, null, 2) + '\n'));
 for (const [file, records, owned] of [
@@ -129,7 +130,7 @@ for (const [file, records, owned] of [
     'deployments.json',
     generated.deployments,
     r =>
-      ownedDeploymentNames.has(r.deploymentName) ||
+      ownedDeploymentNames.has(r.deploymentName.toLowerCase()) ||
       /^\d+-INCH GRID \(\d+x\d+\)$/.test(r.deploymentName) ||
       ownedDeploymentIds.has(r.deploymentID) ||
       generated.templates.some(t => t.deploymentID === r.deploymentID),

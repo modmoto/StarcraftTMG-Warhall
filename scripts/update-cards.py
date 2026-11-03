@@ -166,7 +166,7 @@ def add(group, name, front, back, width, length, source, text=''):
         assert cards[identity] == record, f'Conflicting card: {identity}'
         return
     cards[identity] = record
-    groups.setdefault(group, []).append(identity)
+    groups.setdefault(group.removesuffix(' tactics') + ' Tactic Cards' if group.endswith(' tactics') else group, []).append(identity)
     report.append({'id': identity, **source})
 
 sources = read('.cache/pdf/sources.json')['cards']
@@ -200,21 +200,24 @@ for source in sources:
         # Base missions repeat across factions, so use the Terran copy once.
         if source['wave'] == 1 and source['faction'] != 'Terran':
             continue
-        for row in range(2):
-            box = (98,98+row*340,297.5,438+row*340)
-            labels = ' '.join(t['text'] for t in ts if inside(t,box))
-            if 'SCORING CONDITIONS' not in labels or 'STANDARD ENGAGEMENT' not in labels:
-                continue
-            name = title(ts,box)
-            assert name, f'Missing mission title: {file}:{number}'
-            identity = slug(name)
-            # Missions repeat between waves/factions; retain the first official copy.
-            if identity in missions:
-                continue
-            image = face(file,number,page,box,label='scenario-'+name+'-front')
-            text = describe(ts, box, name, mission=True)
-            add('Missions',name,image,image,63,108,{'file':file,'page':number,'url':source['url']},text)
-            missions[identity] = {'Id':f'sc_scoring_{identity}', 'Name':name.title(), 'Items':[]}
+        for skirmish in (False, True):
+            for row in range(2):
+                x = 297.5 if skirmish else 98
+                box = (x,98+row*340,x+199.5,438+row*340)
+                labels = ' '.join(t['text'] for t in ts if inside(t,box))
+                if 'SCORING CONDITIONS' not in labels or (not skirmish and 'STANDARD ENGAGEMENT' not in labels):
+                    continue
+                name = title(ts,box)
+                assert name, f'Missing mission title: {file}:{number}'
+                display = name + (' (Skirmish)' if skirmish else '')
+                identity = slug(display)
+                # Missions repeat between waves/factions; retain the first official copy.
+                if identity in missions:
+                    continue
+                image = face(file,number,page,box,label='scenario-'+display+'-front')
+                text = describe(ts, box, name, mission=True)
+                add('Missions',display,image,image,63,108,{'file':file,'page':number,'url':source['url']},text)
+                missions[identity] = {'Id':f'sc_scoring_{identity}', 'Name':display.title(), 'Items':[]}
 
 for deployment in read('deployment-report.json')['layouts']:
     src = deployment['sources'][0]
@@ -224,16 +227,18 @@ for deployment in read('deployment-report.json')['layouts']:
     assert len(matches) == 1, f"Ambiguous deployment title: {deployment['name']}"
     t = matches[0]
     col = int((t['x']-48)//249.5); row = int((t['y']-82)//178.5)
-    assert col in (0,1) and row in (1,3), 'Unsupported standard deployment layout'
+    assert col in (0,1) and row in ((0,2) if deployment['width'] == 36 else (1,3)), 'Unsupported standard deployment layout'
     box = (48+col*249.5,82+row*178.5,48+(col+1)*249.5,82+(row+1)*178.5)
     image = face(file,number,page,box,label='deployment-'+deployment['name']+'-front')
-    add('Deployments',deployment['name'],image,image,88,63,src,'Standard engagement deployment.')
+    skirmish = deployment['width'] == 36
+    name = deployment['name'] + (' (Skirmish)' if skirmish else '')
+    add('Deployments',name,image,image,88,63,src,'Skirmish deployment.' if skirmish else 'Standard engagement deployment.')
 
 assert not any(g.endswith(' units') for g in groups)
-assert len(groups['Deployments']) == 7
-assert len(missions) == 7, f'Expected seven standard scoring missions, got {list(missions)}'
+assert len(groups['Deployments']) == 14
+assert len(missions) == 14, f'Expected fourteen scoring missions, got {list(missions)}'
 write('Starcraft-test/cards.json',sorted(cards.values(),key=lambda c:c['Id']))
-hierarchy = read('Starcraft-test/hierarchy.json');hierarchy['Cards']={k:sorted(v) for k,v in sorted(groups.items())};write('Starcraft-test/hierarchy.json',hierarchy)
+hierarchy = read('Starcraft-test/hierarchy.json');hierarchy['Cards']={k:sorted(v, key=lambda identity: (identity.endswith('_skirmish'), identity)) for k,v in sorted(groups.items())};write('Starcraft-test/hierarchy.json',hierarchy)
 write('Starcraft-test/objectives.json',[])
 write('cards-report.json',{'imageDpi':DPI,'maxImageEdge':MAX_EDGE,'cropMethod':'PDF bleed rectangles with exact 3mm trim inset','imageFormat':'lossless PNG','unitCards':False,'cards':report,'counts':{k:len(v) for k,v in sorted(groups.items())},'missions':len(missions)})
 print(f'Extracted {len(cards)} cards and {len(missions)} scoring missions.')

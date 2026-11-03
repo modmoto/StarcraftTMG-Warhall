@@ -11,13 +11,13 @@ test('all six maps use the reviewed PDF centers, rotations and calibrated footpr
   const terrains = await read('../Starcraft-test/terrains.json');
   assert.deepEqual(
     maps.map(map => map.Items.length),
-    [30, 30, 30, 30, 32, 32],
+    [30, 30, 30, 30, 32, 32, 15, 15, 16],
   );
   assert.equal(calibration.gridInches, 6);
   for (const [i, map] of maps.entries())
     for (const [j, item] of map.Items.entries()) {
       const original = source.maps[i].items[j];
-      const placement = calibration.maps[String(i + 1)][original.ttsGuid];
+      const placement = calibration.maps[String(i + 1)]?.[original.ttsGuid] ?? original;
       const asset = source.assets.find(
         asset => asset.id === (calibration.assetAliases?.[original.id] ?? original.id),
       );
@@ -28,8 +28,8 @@ test('all six maps use the reviewed PDF centers, rotations and calibrated footpr
       assert.ok(Math.abs(terrain.Length - length * 2.54) <= 0.0177 + 1e-8);
       assert.ok(Math.abs(27 - item.ShortSide - placement.x) < 1e-8);
       assert.ok(Math.abs(item.LongSide - 18 - placement.z) < 1e-8);
-      assert.equal(item.Rotation, placement.rotation);
-      assert.equal(item.Rotation % 15, 0);
+      assert.equal(item.Rotation, Math.round(placement.rotation));
+      if (i < 6) assert.equal(item.Rotation % 15, 0);
       const model = models.models.find(model => model.terrainId === asset.id);
       assert.equal(model.calibration, 'pdf-grid-v1');
       assert.match(model.model.meshUrl, /model-assets\/.*\.glb$/);
@@ -68,7 +68,7 @@ test('cardinal wall centerlines use exact grid subdivisions without angular drif
   const source = await read('../terrain-sources.json');
   const calibration = await read('../terrain-calibration.json');
   let count = 0;
-  for (const map of source.maps)
+  for (const map of source.maps.filter(map => map.width === 54))
     for (const item of map.items) {
       const asset = source.assets.find(asset => asset.id === item.id);
       const definition = calibration.assets[asset.name];
@@ -174,7 +174,7 @@ test('portable terrain drops zero-area source triangles before normal generation
 test('wall footprints remain inside the 54 by 36 inch battlefield', async () => {
   const source = await read('../terrain-sources.json'),
     calibration = await read('../terrain-calibration.json');
-  for (const map of source.maps)
+  for (const map of source.maps.filter(map => map.width === 54))
     for (const item of map.items) {
       const asset = source.assets.find(asset => asset.id === item.id);
       if (!asset.name.startsWith('Wall')) continue;

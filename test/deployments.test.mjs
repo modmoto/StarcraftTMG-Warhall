@@ -178,7 +178,7 @@ test(
       await readFile(new URL('../deployment-report.json', import.meta.url), 'utf8'),
     );
     assert.deepEqual(
-      published.layouts.map(l => l.markers),
+      published.layouts.filter(l => l.width === 54).map(l => l.markers),
       layouts.filter(l => l.width === 54 && l.height === 36).map(l => l.markers),
     );
   },
@@ -197,7 +197,7 @@ test('shared deployment menu uses a built-in template and places the exact origi
   const templates = JSON.parse(
     await readFile(new URL('../deployment-templates.json', import.meta.url)),
   );
-  assert.equal(deployments.length, 7);
+  assert.equal(deployments.length, 14);
   assert.equal(config.ShowDeploymentSection, true);
   assert.equal(config.ShowObjectiveSection, false);
   for (const [i, deployment] of deployments.entries()) {

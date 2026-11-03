@@ -54,6 +54,21 @@
       "name": "Official Map 6",
       "pdfPage": 123,
       "pieces": 32
+    },
+    {
+      "name": "Map 1 (Skirmish)",
+      "pdfPage": 124,
+      "pieces": 15
+    },
+    {
+      "name": "Map 2 (Skirmish)",
+      "pdfPage": 125,
+      "pieces": 15
+    },
+    {
+      "name": "Map 3 (Skirmish)",
+      "pdfPage": 126,
+      "pieces": 16
     }
   ],
   "assets": [

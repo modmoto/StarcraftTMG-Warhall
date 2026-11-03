@@ -2,7 +2,9 @@ import assert from 'node:assert/strict';
 import { sha256 } from '../io.mjs';
 import { markerTerrains, markerMenuId } from './markers.mjs';
 
-export const deploymentName = l => l.name;
+export const deploymentName = layout =>
+  layout.name.toLowerCase().replace(/\b\w/g, letter => letter.toUpperCase()) +
+  (layout.width === 36 ? ' (Skirmish)' : '');
 export const sharedDeploymentTemplateId = 12;
 export const overlayId = template => `sc_deployment_${template.deploymentID}`;
 export const sharedDeployment = name => ({
@@ -95,7 +97,7 @@ export function deploymentTemplate(layout) {
   );
   return {
     deploymentID: deploymentId(layout.name),
-    deploymentName: layout.name,
+    deploymentName: layout.width === 36 ? deploymentName(layout) : layout.name,
     rotationAxis: 0,
     centerlineAxis: '0',
     lines: boundary
@@ -116,7 +118,7 @@ export function buildDeployments(layouts) {
   const ids = layouts.map(l => deploymentId(l.name));
   assert.equal(new Set(ids).size, ids.length, 'Deployment template ID collision');
   return {
-    deployments: layouts.map(l => sharedDeployment(l.name)),
+    deployments: layouts.map(l => sharedDeployment(deploymentName(l))),
     objectives: [],
     deploymentTerrains: layouts.map((l, i) => ({
       DeploymentIndex: i + 1,

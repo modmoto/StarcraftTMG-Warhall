@@ -1,7 +1,7 @@
 {
   "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=3662791369",
   "workshopSha256": "db25e40100cb0f3df3cca58621c50e6c6db4516e253f2972c235cd9b865c44cc",
-  "policy": "Official PDF maps 1-6, using their TTS memory-bag placements; decorative table excluded.",
+  "policy": "Official standard and Skirmish PDF maps, using their TTS memory-bag placements; decorative table excluded.",
   "assets": [
     {
       "id": "sc_terrain_d903fea321acfebe",
@@ -1660,6 +1660,355 @@
           "z": -12.9976,
           "rotation": 247.8292,
           "ttsGuid": "ffa23e"
+        }
+      ]
+    },
+    {
+      "name": "Map 1 (Skirmish)",
+      "number": 7,
+      "pdfPage": 124,
+      "width": 36,
+      "height": 36,
+      "items": [
+        {
+          "id": "sc_terrain_f910561ff3ef2272",
+          "x": -12.3727,
+          "z": 6.2048,
+          "rotation": 0.0091,
+          "ttsGuid": "06958f"
+        },
+        {
+          "id": "sc_terrain_f305a277f53c823b",
+          "x": 5.3139,
+          "z": -5.3717,
+          "rotation": 209.9981,
+          "ttsGuid": "0f730a"
+        },
+        {
+          "id": "sc_terrain_5395598da3627dc3",
+          "x": 11.2008,
+          "z": -0.7854,
+          "rotation": 0.0284,
+          "ttsGuid": "14a258"
+        },
+        {
+          "id": "sc_terrain_e8d245d869f43c5b",
+          "x": 9.0401,
+          "z": 13.8362,
+          "rotation": 179.9948,
+          "ttsGuid": "25c729"
+        },
+        {
+          "id": "sc_terrain_1cffe4ed683895d1",
+          "x": -2.0866,
+          "z": 3.6485,
+          "rotation": 68.3844,
+          "ttsGuid": "37bbe7"
+        },
+        {
+          "id": "sc_terrain_d903fea321acfebe",
+          "x": 5.6935,
+          "z": -13.0285,
+          "rotation": 165.0283,
+          "ttsGuid": "46124b"
+        },
+        {
+          "id": "sc_terrain_342caed58291ae73",
+          "x": -8.0011,
+          "z": -0.7317,
+          "rotation": 90.009,
+          "ttsGuid": "646fe4"
+        },
+        {
+          "id": "sc_terrain_0e597f350f0c8124",
+          "x": -4.2534,
+          "z": 13.6136,
+          "rotation": 195.0085,
+          "ttsGuid": "9b6c1e"
+        },
+        {
+          "id": "sc_terrain_0e597f350f0c8124",
+          "x": 5.3632,
+          "z": -9.0828,
+          "rotation": 179.9904,
+          "ttsGuid": "a2bfa4"
+        },
+        {
+          "id": "sc_terrain_8a9da51123d91b9c",
+          "x": -4.7654,
+          "z": 15.5143,
+          "rotation": 150.0102,
+          "ttsGuid": "bcd7b1"
+        },
+        {
+          "id": "sc_terrain_0e597f350f0c8124",
+          "x": -5.9346,
+          "z": 10.2219,
+          "rotation": 19.1323,
+          "ttsGuid": "bedef7"
+        },
+        {
+          "id": "sc_terrain_0e597f350f0c8124",
+          "x": 5.6525,
+          "z": -6.6233,
+          "rotation": 179.9842,
+          "ttsGuid": "c3eea9"
+        },
+        {
+          "id": "sc_terrain_0e9238ef444f6364",
+          "x": 0.4265,
+          "z": -9.1017,
+          "rotation": 89.9926,
+          "ttsGuid": "c71c9c"
+        },
+        {
+          "id": "sc_terrain_2e5381d1d3c2f1b7",
+          "x": 5.1312,
+          "z": 6.6431,
+          "rotation": 186.0423,
+          "ttsGuid": "dd305f"
+        },
+        {
+          "id": "sc_terrain_4b5400ce5539b63f",
+          "x": -10.2801,
+          "z": -6.694,
+          "rotation": 359.9846,
+          "ttsGuid": "e0d010"
+        }
+      ]
+    },
+    {
+      "name": "Map 2 (Skirmish)",
+      "number": 8,
+      "pdfPage": 125,
+      "width": 36,
+      "height": 36,
+      "items": [
+        {
+          "id": "sc_terrain_0e597f350f0c8124",
+          "x": -4.7792,
+          "z": -17.319,
+          "rotation": 344.9884,
+          "ttsGuid": "054eb0"
+        },
+        {
+          "id": "sc_terrain_342caed58291ae73",
+          "x": 0.7831,
+          "z": -2.8931,
+          "rotation": 90.0046,
+          "ttsGuid": "0eff8a"
+        },
+        {
+          "id": "sc_terrain_1cffe4ed683895d1",
+          "x": 5.7891,
+          "z": -4.4772,
+          "rotation": 285.0064,
+          "ttsGuid": "205014"
+        },
+        {
+          "id": "sc_terrain_f305a277f53c823b",
+          "x": -5.1947,
+          "z": -11.3251,
+          "rotation": 269.0124,
+          "ttsGuid": "446286"
+        },
+        {
+          "id": "sc_terrain_d903fea321acfebe",
+          "x": 5.8838,
+          "z": 15.6042,
+          "rotation": 165.0157,
+          "ttsGuid": "4a9af7"
+        },
+        {
+          "id": "sc_terrain_5395598da3627dc3",
+          "x": 3.3851,
+          "z": -13.2169,
+          "rotation": 45.0087,
+          "ttsGuid": "4dea93"
+        },
+        {
+          "id": "sc_terrain_f910561ff3ef2272",
+          "x": -12.457,
+          "z": -0.7137,
+          "rotation": 179.99,
+          "ttsGuid": "861528"
+        },
+        {
+          "id": "sc_terrain_0e597f350f0c8124",
+          "x": 6.6332,
+          "z": 13.6838,
+          "rotation": 180.0157,
+          "ttsGuid": "a77d96"
+        },
+        {
+          "id": "sc_terrain_4b5400ce5539b63f",
+          "x": -7.2515,
+          "z": 6.442,
+          "rotation": 269.9838,
+          "ttsGuid": "a857f1"
+        },
+        {
+          "id": "sc_terrain_e8d245d869f43c5b",
+          "x": 6.6549,
+          "z": 7.6937,
+          "rotation": 269.9896,
+          "ttsGuid": "c2ac03"
+        },
+        {
+          "id": "sc_terrain_8a9da51123d91b9c",
+          "x": -7.5677,
+          "z": 13.2397,
+          "rotation": 134.9915,
+          "ttsGuid": "c36adc"
+        },
+        {
+          "id": "sc_terrain_0e597f350f0c8124",
+          "x": -4.3534,
+          "z": -14.6378,
+          "rotation": 344.9884,
+          "ttsGuid": "c9a9e6"
+        },
+        {
+          "id": "sc_terrain_2e5381d1d3c2f1b7",
+          "x": 12.25,
+          "z": 0.0945,
+          "rotation": 122.2232,
+          "ttsGuid": "ca1ad9"
+        },
+        {
+          "id": "sc_terrain_0e9238ef444f6364",
+          "x": 0.347,
+          "z": 3.2336,
+          "rotation": 90.0216,
+          "ttsGuid": "e2d295"
+        },
+        {
+          "id": "sc_terrain_0e597f350f0c8124",
+          "x": 6.0834,
+          "z": 11.4068,
+          "rotation": 180.0157,
+          "ttsGuid": "f8fc4d"
+        }
+      ]
+    },
+    {
+      "name": "Map 3 (Skirmish)",
+      "number": 9,
+      "pdfPage": 126,
+      "width": 36,
+      "height": 36,
+      "items": [
+        {
+          "id": "sc_terrain_4b5400ce5539b63f",
+          "x": -6.9065,
+          "z": -9.1299,
+          "rotation": 180.2276,
+          "ttsGuid": "0cef82"
+        },
+        {
+          "id": "sc_terrain_0e597f350f0c8124",
+          "x": 12.8581,
+          "z": -8.017,
+          "rotation": 89.9882,
+          "ttsGuid": "161d51"
+        },
+        {
+          "id": "sc_terrain_0e597f350f0c8124",
+          "x": 15.8067,
+          "z": -8.1512,
+          "rotation": 74.9882,
+          "ttsGuid": "23f6cd"
+        },
+        {
+          "id": "sc_terrain_f2dd0d048a087d53",
+          "x": -3.8286,
+          "z": 0.0696,
+          "rotation": 359.9916,
+          "ttsGuid": "2a6cbc"
+        },
+        {
+          "id": "sc_terrain_2e5381d1d3c2f1b7",
+          "x": 9.7931,
+          "z": -8.142,
+          "rotation": 192.3153,
+          "ttsGuid": "349fdd"
+        },
+        {
+          "id": "sc_terrain_f910561ff3ef2272",
+          "x": -16.4877,
+          "z": -3.7273,
+          "rotation": 0.0121,
+          "ttsGuid": "3976d7"
+        },
+        {
+          "id": "sc_terrain_5395598da3627dc3",
+          "x": 8.2397,
+          "z": 11.1907,
+          "rotation": 60.0084,
+          "ttsGuid": "5b520a"
+        },
+        {
+          "id": "sc_terrain_e8d245d869f43c5b",
+          "x": -8.0587,
+          "z": 12.5681,
+          "rotation": 179.9858,
+          "ttsGuid": "5ce234"
+        },
+        {
+          "id": "sc_terrain_d903fea321acfebe",
+          "x": 6.4408,
+          "z": -4.211,
+          "rotation": 45.0103,
+          "ttsGuid": "71cc3b"
+        },
+        {
+          "id": "sc_terrain_8a9da51123d91b9c",
+          "x": -14.4907,
+          "z": -12.5417,
+          "rotation": 134.9882,
+          "ttsGuid": "969873"
+        },
+        {
+          "id": "sc_terrain_0e597f350f0c8124",
+          "x": -1.6554,
+          "z": -10.5632,
+          "rotation": 142.2807,
+          "ttsGuid": "ae678c"
+        },
+        {
+          "id": "sc_terrain_0e9238ef444f6364",
+          "x": -2.0854,
+          "z": 11.5021,
+          "rotation": 9.565,
+          "ttsGuid": "b06c5a"
+        },
+        {
+          "id": "sc_terrain_f305a277f53c823b",
+          "x": -0.2805,
+          "z": -16.5328,
+          "rotation": 268.2809,
+          "ttsGuid": "bd71c8"
+        },
+        {
+          "id": "sc_terrain_342caed58291ae73",
+          "x": 10.4191,
+          "z": -13.8974,
+          "rotation": 90.0055,
+          "ttsGuid": "c3cfdb"
+        },
+        {
+          "id": "sc_terrain_1cffe4ed683895d1",
+          "x": 12.2202,
+          "z": 6.6312,
+          "rotation": 121.9136,
+          "ttsGuid": "e57c87"
+        },
+        {
+          "id": "sc_terrain_0e597f350f0c8124",
+          "x": 11.4274,
+          "z": 4.1566,
+          "rotation": 30.0078,
+          "ttsGuid": "e5d293"
         }
       ]
     }
