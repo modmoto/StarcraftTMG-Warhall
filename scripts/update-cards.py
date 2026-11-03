@@ -237,8 +237,14 @@ for deployment in read('deployment-report.json')['layouts']:
 assert not any(g.endswith(' units') for g in groups)
 assert len(groups['Deployments']) == 14
 assert len(missions) == 14, f'Expected fourteen scoring missions, got {list(missions)}'
-write('Starcraft-test/cards.json',sorted(cards.values(),key=lambda c:c['Id']))
-hierarchy = read('Starcraft-test/hierarchy.json');hierarchy['Cards']={k:sorted(v, key=lambda identity: (identity.endswith('_skirmish'), identity)) for k,v in sorted(groups.items())};write('Starcraft-test/hierarchy.json',hierarchy)
+ordered_groups = {
+    group: sorted(ids, key=lambda identity: (identity.endswith('_skirmish'), identity))
+    for group, ids in sorted(groups.items())
+}
+write('Starcraft-test/cards.json', [cards[identity] for ids in ordered_groups.values() for identity in ids])
+hierarchy = read('Starcraft-test/hierarchy.json')
+hierarchy['Cards'] = ordered_groups
+write('Starcraft-test/hierarchy.json', hierarchy)
 write('Starcraft-test/objectives.json',[])
 write('cards-report.json',{'imageDpi':DPI,'maxImageEdge':MAX_EDGE,'cropMethod':'PDF bleed rectangles with exact 3mm trim inset','imageFormat':'lossless PNG','unitCards':False,'cards':report,'counts':{k:len(v) for k,v in sorted(groups.items())},'missions':len(missions)})
 print(f'Extracted {len(cards)} cards and {len(missions)} scoring missions.')

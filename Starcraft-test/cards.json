@@ -1,22 +1,5 @@
 [
   {
-    "Id": "sc_card_deployments_abandoned_camp_skirmish",
-    "Name": "Abandoned Camp (Skirmish)",
-    "Type": "Card",
-    "Description": "Skirmish deployment.",
-    "UIConfig": {
-      "ImageURL": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/deployment_abandoned_camp_front-df03b404af6d.png",
-      "ImageURLBack": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/deployment_abandoned_camp_front-df03b404af6d.png",
-      "Width": 88,
-      "Length": 63,
-      "IsRound": false,
-      "ShowInitials": false,
-      "Border": false,
-      "Color": "#FFFFFF",
-      "Color2": ""
-    }
-  },
-  {
     "Id": "sc_card_deployments_acropolis",
     "Name": "Acropolis",
     "Type": "Card",
@@ -34,13 +17,13 @@
     }
   },
   {
-    "Id": "sc_card_deployments_agria_valley_skirmish",
-    "Name": "Agria Valley (Skirmish)",
+    "Id": "sc_card_deployments_breach",
+    "Name": "Breach",
     "Type": "Card",
-    "Description": "Skirmish deployment.",
+    "Description": "Standard engagement deployment.",
     "UIConfig": {
-      "ImageURL": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/deployment_agria_valley_front-d09e685e2f8f.png",
-      "ImageURLBack": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/deployment_agria_valley_front-d09e685e2f8f.png",
+      "ImageURL": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/deployment_breach_front-8f3443865868.png",
+      "ImageURLBack": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/deployment_breach_front-8f3443865868.png",
       "Width": 88,
       "Length": 63,
       "IsRound": false,
@@ -51,13 +34,115 @@
     }
   },
   {
-    "Id": "sc_card_deployments_breach",
-    "Name": "Breach",
+    "Id": "sc_card_deployments_gauntlet",
+    "Name": "Gauntlet",
     "Type": "Card",
     "Description": "Standard engagement deployment.",
     "UIConfig": {
-      "ImageURL": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/deployment_breach_front-8f3443865868.png",
-      "ImageURLBack": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/deployment_breach_front-8f3443865868.png",
+      "ImageURL": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/deployment_gauntlet_front-ab29a540aac2.png",
+      "ImageURLBack": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/deployment_gauntlet_front-ab29a540aac2.png",
+      "Width": 88,
+      "Length": 63,
+      "IsRound": false,
+      "ShowInitials": false,
+      "Border": false,
+      "Color": "#FFFFFF",
+      "Color2": ""
+    }
+  },
+  {
+    "Id": "sc_card_deployments_meeting_engagement",
+    "Name": "Meeting Engagement",
+    "Type": "Card",
+    "Description": "Standard engagement deployment.",
+    "UIConfig": {
+      "ImageURL": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/deployment_meeting_engagement_front-c3774cf702f3.png",
+      "ImageURLBack": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/deployment_meeting_engagement_front-c3774cf702f3.png",
+      "Width": 88,
+      "Length": 63,
+      "IsRound": false,
+      "ShowInitials": false,
+      "Border": false,
+      "Color": "#FFFFFF",
+      "Color2": ""
+    }
+  },
+  {
+    "Id": "sc_card_deployments_one_bridge_too_close",
+    "Name": "One Bridge Too Close",
+    "Type": "Card",
+    "Description": "Standard engagement deployment.",
+    "UIConfig": {
+      "ImageURL": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/deployment_one_bridge_too_close_front-8eebb3369f45.png",
+      "ImageURLBack": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/deployment_one_bridge_too_close_front-8eebb3369f45.png",
+      "Width": 88,
+      "Length": 63,
+      "IsRound": false,
+      "ShowInitials": false,
+      "Border": false,
+      "Color": "#FFFFFF",
+      "Color2": ""
+    }
+  },
+  {
+    "Id": "sc_card_deployments_proving_grounds",
+    "Name": "Proving Grounds",
+    "Type": "Card",
+    "Description": "Standard engagement deployment.",
+    "UIConfig": {
+      "ImageURL": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/deployment_proving_grounds_front-f95c36437a28.png",
+      "ImageURLBack": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/deployment_proving_grounds_front-f95c36437a28.png",
+      "Width": 88,
+      "Length": 63,
+      "IsRound": false,
+      "ShowInitials": false,
+      "Border": false,
+      "Color": "#FFFFFF",
+      "Color2": ""
+    }
+  },
+  {
+    "Id": "sc_card_deployments_typhoon",
+    "Name": "Typhoon",
+    "Type": "Card",
+    "Description": "Standard engagement deployment.",
+    "UIConfig": {
+      "ImageURL": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/deployment_typhoon_front-4d47ae86d4e2.png",
+      "ImageURLBack": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/deployment_typhoon_front-4d47ae86d4e2.png",
+      "Width": 88,
+      "Length": 63,
+      "IsRound": false,
+      "ShowInitials": false,
+      "Border": false,
+      "Color": "#FFFFFF",
+      "Color2": ""
+    }
+  },
+  {
+    "Id": "sc_card_deployments_abandoned_camp_skirmish",
+    "Name": "Abandoned Camp (Skirmish)",
+    "Type": "Card",
+    "Description": "Skirmish deployment.",
+    "UIConfig": {
+      "ImageURL": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/deployment_abandoned_camp_front-df03b404af6d.png",
+      "ImageURLBack": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/deployment_abandoned_camp_front-df03b404af6d.png",
+      "Width": 88,
+      "Length": 63,
+      "IsRound": false,
+      "ShowInitials": false,
+      "Border": false,
+      "Color": "#FFFFFF",
+      "Color2": ""
+    }
+  },
+  {
+    "Id": "sc_card_deployments_agria_valley_skirmish",
+    "Name": "Agria Valley (Skirmish)",
+    "Type": "Card",
+    "Description": "Skirmish deployment.",
+    "UIConfig": {
+      "ImageURL": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/deployment_agria_valley_front-d09e685e2f8f.png",
+      "ImageURLBack": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/deployment_agria_valley_front-d09e685e2f8f.png",
       "Width": 88,
       "Length": 63,
       "IsRound": false,
@@ -119,23 +204,6 @@
     }
   },
   {
-    "Id": "sc_card_deployments_gauntlet",
-    "Name": "Gauntlet",
-    "Type": "Card",
-    "Description": "Standard engagement deployment.",
-    "UIConfig": {
-      "ImageURL": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/deployment_gauntlet_front-ab29a540aac2.png",
-      "ImageURLBack": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/deployment_gauntlet_front-ab29a540aac2.png",
-      "Width": 88,
-      "Length": 63,
-      "IsRound": false,
-      "ShowInitials": false,
-      "Border": false,
-      "Color": "#FFFFFF",
-      "Color2": ""
-    }
-  },
-  {
     "Id": "sc_card_deployments_green_valleys_skirmish",
     "Name": "Green Valleys (Skirmish)",
     "Type": "Card",
@@ -143,40 +211,6 @@
     "UIConfig": {
       "ImageURL": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/deployment_green_valleys_front-1a9fb246be3a.png",
       "ImageURLBack": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/deployment_green_valleys_front-1a9fb246be3a.png",
-      "Width": 88,
-      "Length": 63,
-      "IsRound": false,
-      "ShowInitials": false,
-      "Border": false,
-      "Color": "#FFFFFF",
-      "Color2": ""
-    }
-  },
-  {
-    "Id": "sc_card_deployments_meeting_engagement",
-    "Name": "Meeting Engagement",
-    "Type": "Card",
-    "Description": "Standard engagement deployment.",
-    "UIConfig": {
-      "ImageURL": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/deployment_meeting_engagement_front-c3774cf702f3.png",
-      "ImageURLBack": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/deployment_meeting_engagement_front-c3774cf702f3.png",
-      "Width": 88,
-      "Length": 63,
-      "IsRound": false,
-      "ShowInitials": false,
-      "Border": false,
-      "Color": "#FFFFFF",
-      "Color2": ""
-    }
-  },
-  {
-    "Id": "sc_card_deployments_one_bridge_too_close",
-    "Name": "One Bridge Too Close",
-    "Type": "Card",
-    "Description": "Standard engagement deployment.",
-    "UIConfig": {
-      "ImageURL": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/deployment_one_bridge_too_close_front-8eebb3369f45.png",
-      "ImageURLBack": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/deployment_one_bridge_too_close_front-8eebb3369f45.png",
       "Width": 88,
       "Length": 63,
       "IsRound": false,
@@ -204,40 +238,6 @@
     }
   },
   {
-    "Id": "sc_card_deployments_proving_grounds",
-    "Name": "Proving Grounds",
-    "Type": "Card",
-    "Description": "Standard engagement deployment.",
-    "UIConfig": {
-      "ImageURL": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/deployment_proving_grounds_front-f95c36437a28.png",
-      "ImageURLBack": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/deployment_proving_grounds_front-f95c36437a28.png",
-      "Width": 88,
-      "Length": 63,
-      "IsRound": false,
-      "ShowInitials": false,
-      "Border": false,
-      "Color": "#FFFFFF",
-      "Color2": ""
-    }
-  },
-  {
-    "Id": "sc_card_deployments_typhoon",
-    "Name": "Typhoon",
-    "Type": "Card",
-    "Description": "Standard engagement deployment.",
-    "UIConfig": {
-      "ImageURL": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/deployment_typhoon_front-4d47ae86d4e2.png",
-      "ImageURLBack": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/deployment_typhoon_front-4d47ae86d4e2.png",
-      "Width": 88,
-      "Length": 63,
-      "IsRound": false,
-      "ShowInitials": false,
-      "Border": false,
-      "Color": "#FFFFFF",
-      "Color2": ""
-    }
-  },
-  {
     "Id": "sc_card_missions_artefact_hunt",
     "Name": "Artefact Hunt",
     "Type": "Card",
@@ -245,23 +245,6 @@
     "UIConfig": {
       "ImageURL": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/scenario_artefact_hunt_front-5f38bcd22897.png",
       "ImageURLBack": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/scenario_artefact_hunt_front-5f38bcd22897.png",
-      "Width": 63,
-      "Length": 108,
-      "IsRound": false,
-      "ShowInitials": false,
-      "Border": false,
-      "Color": "#FFFFFF",
-      "Color2": ""
-    }
-  },
-  {
-    "Id": "sc_card_missions_artefact_hunt_skirmish",
-    "Name": "Artefact Hunt (Skirmish)",
-    "Type": "Card",
-    "Description": "Supply: 3\nRound bonus: +1\nGame length: 5\n\nMISSION PARAMETERS:\nAll <u><link=\"rule_keyword_mission_markers\">Mission Markers</link></u> are Activated.\n\nSCORING CONDITIONS:\nScore VPs equal to <u><link=\"rule_keyword_enemy\">Enemy</link></u> Supply destroyed this Round.\n\nEND OF ROUND 5:\nGain 3 VP for each <u><link=\"rule_keyword_friendly\">Friendly</link></u> Unit that CLAIM Mission Marker and it is <u><link=\"rule_keyword_wholly_within\">Wholly Within</link></u> <u><link=\"rule_keyword_friendly\">Friendly</link></u> <u><link=\"rule_keyword_zone_of_influence\">Zone of Influence</link></u>. Gain 1 VP for each Mission Marker associated with your colour that is not currently CLAIM by an <u><link=\"rule_keyword_enemy\">Enemy</link></u> Unit.\n\nADDITIONAL CONDITIONS:\n\nSCORING PHASE:\nFrom the Start of the Second Round, if a Unit is <u><link=\"rule_keyword_within\">Within</link></u> 3\" of a Controlled Mission Marker that is Neutral or associated with the Opponent colou r, that Unit may CLAIM it.\n\nCLAIM:\n<u><link=\"rule_keyword_place\">Place</link></u> the Mission Marker on the Unit Card. A Unit carrying a Mission Marker must DROP it if: • It has its <u><link=\"rule_keyword_current_supply_value\">Current Supply Value</link></u> reduced. • Before it resolves a <u><link=\"rule_keyword_place\">PLACE</link></u> effect. • It is <u><link=\"rule_keyword_engaged\">Engaged</link></u> with Enemies having a greater combined <u><link=\"rule_keyword_current_supply_value\">Current Supply Value</link></u>. • It is Destroyed, removed from <u><link=\"rule_chapter_7\">the battlefield</link></u>, or returned to <u><link=\"rule_keyword_reserves\">Reserves</link></u>. When a Unit DROP a Mission Marker, the Opponent places the Mission Marker <u><link=\"rule_keyword_within\">Within</link></u> 2\" of the Unit or its last model removed. Unit may CLAIM only one Mission Marker at a time.",
-    "UIConfig": {
-      "ImageURL": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/scenario_artefact_hunt_skirmish_front-c9a01ea4e2b3.png",
-      "ImageURLBack": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/scenario_artefact_hunt_skirmish_front-c9a01ea4e2b3.png",
       "Width": 63,
       "Length": 108,
       "IsRound": false,
@@ -289,23 +272,6 @@
     }
   },
   {
-    "Id": "sc_card_missions_divide_and_conquer_skirmish",
-    "Name": "Divide And Conquer (Skirmish)",
-    "Type": "Card",
-    "Description": "Supply: 4\nRound bonus: +1\nGame length: 4\n\nSplit <u><link=\"rule_chapter_7\">the Battlefield</link></u> in four quarters as shown on the Deployment Card.\n\nSCORING CONDITIONS:\nScore VPs equal to <u><link=\"rule_keyword_enemy\">Enemy</link></u> Supply destroyed this Round.\n\nFROM THE START OF THE FIRST ROUND:\nCalculate Total Current Supply in each battlefield quarter. Gain 1 VP for each quarter where your Total Current Supply is higher than the Opponent's. Only <u><link=\"rule_chapter_2_2\">Units</link></u> <u><link=\"rule_keyword_wholly_within\">Wholly Within</link></u> a quarter contribute their Supply to this check. If a Unit controls a Mission Marker, that Unit is worth 1 extra Supply for controlling quarters. Gain 2 VP for Controlling Mission Marker 5.\n\nADDITIONAL CONDITIONS:\n\nSPECIAL WINNING CONDITIONS:\nThe game ends immediately if a Player leads by 8+ VPs.",
-    "UIConfig": {
-      "ImageURL": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/scenario_divide_and_conquer_skirmish_front-e38087e2941b.png",
-      "ImageURLBack": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/scenario_divide_and_conquer_skirmish_front-e38087e2941b.png",
-      "Width": 63,
-      "Length": 108,
-      "IsRound": false,
-      "ShowInitials": false,
-      "Border": false,
-      "Color": "#FFFFFF",
-      "Color2": ""
-    }
-  },
-  {
     "Id": "sc_card_missions_fire_in_the_sky",
     "Name": "Fire In The Sky",
     "Type": "Card",
@@ -313,23 +279,6 @@
     "UIConfig": {
       "ImageURL": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/scenario_fire_in_the_sky_front-f3366b7b5ddc.png",
       "ImageURLBack": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/scenario_fire_in_the_sky_front-f3366b7b5ddc.png",
-      "Width": 63,
-      "Length": 108,
-      "IsRound": false,
-      "ShowInitials": false,
-      "Border": false,
-      "Color": "#FFFFFF",
-      "Color2": ""
-    }
-  },
-  {
-    "Id": "sc_card_missions_fire_in_the_sky_skirmish",
-    "Name": "Fire In The Sky (Skirmish)",
-    "Type": "Card",
-    "Description": "Supply: 3\nRound bonus: +2\nGame length: 5\n\nMISSION PARAMETERS:\nAll <u><link=\"rule_keyword_mission_markers\">Mission Markers</link></u> are Activated. During battlefield setup, <u><link=\"rule_keyword_place\">place</link></u> a D6 next to each Mission Marker to track its Sabotage Level. Set the starting Sabotage Level of each Mission Marker to 1.\n\nSCORING CONDITIONS:\nScore VPs equal to <u><link=\"rule_keyword_enemy\">Enemy</link></u> Supply destroyed this Round.\n\nFROM THE START OF THE SECOND ROUND:\nGain VP for each Controlled Mission Marker that is Neutral or associated with the Opponent colour. The VP gained is equal to the Sabotage Level on the marker. ‣ Sabotage Level 3 = 3 VP ‣ Sabotage Level 2 = 2 VP ‣ Sabotage Level 1 = 1\n\nVP ADDITIONAL CONDITIONS:\nIf an <u><link=\"rule_keyword_unengaged\">Unengaged</link></u> Unit is <u><link=\"rule_keyword_within\">Within</link></u> 3\"\n\nASSAULT PHASE:\nof a Controlled Mission Marker, this unit may perform Sabotage Action instead of a standard action. Sabotage Action: Decrease or Increase that Mission Marker's Sabotage Level by 1 (to a minimum of 1 or maximum of 3).\n\nSPECIAL WINNING CONDITIONS:\nThe game ends immediately if a Player leads by 8+ VPs.",
-    "UIConfig": {
-      "ImageURL": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/scenario_fire_in_the_sky_skirmish_front-3fdccff81be4.png",
-      "ImageURLBack": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/scenario_fire_in_the_sky_skirmish_front-3fdccff81be4.png",
       "Width": 63,
       "Length": 108,
       "IsRound": false,
@@ -357,23 +306,6 @@
     }
   },
   {
-    "Id": "sc_card_missions_frontlines_skirmish",
-    "Name": "Frontlines (Skirmish)",
-    "Type": "Card",
-    "Description": "Supply: 3\nRound bonus: +1\nGame length: 5\n\nMISSION PARAMETERS:\nAll <u><link=\"rule_keyword_mission_markers\">Mission Markers</link></u> are Activated.\n\nSCORING CONDITIONS:\nScore VPs equal to <u><link=\"rule_keyword_enemy\">Enemy</link></u> Supply destroyed this Round.\n\nFROM THE START OF THE SECOND ROUND:\nGain 1 VP for each Controlled Mission Marker. Gain an additional 2 VPs for a Marker if you gained Control of it from the Opponent this Round.\n\nADDITIONAL CONDITIONS:\n\nSPECIAL WINNING CONDITIONS:\nThe game ends immediately if a Player leads by 8+ VPs.",
-    "UIConfig": {
-      "ImageURL": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/scenario_frontlines_skirmish_front-b945b33aa633.png",
-      "ImageURLBack": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/scenario_frontlines_skirmish_front-b945b33aa633.png",
-      "Width": 63,
-      "Length": 108,
-      "IsRound": false,
-      "ShowInitials": false,
-      "Border": false,
-      "Color": "#FFFFFF",
-      "Color2": ""
-    }
-  },
-  {
     "Id": "sc_card_missions_gather_the_resources",
     "Name": "Gather The Resources",
     "Type": "Card",
@@ -381,23 +313,6 @@
     "UIConfig": {
       "ImageURL": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/scenario_gather_the_resources_front-051a8c889e96.png",
       "ImageURLBack": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/scenario_gather_the_resources_front-051a8c889e96.png",
-      "Width": 63,
-      "Length": 108,
-      "IsRound": false,
-      "ShowInitials": false,
-      "Border": false,
-      "Color": "#FFFFFF",
-      "Color2": ""
-    }
-  },
-  {
-    "Id": "sc_card_missions_gather_the_resources_skirmish",
-    "Name": "Gather The Resources (Skirmish)",
-    "Type": "Card",
-    "Description": "Supply: 3\nRound bonus: +1\nGame length: 5\n\nMISSION PARAMETERS:\nAll <u><link=\"rule_keyword_mission_markers\">Mission Markers</link></u> are Activated.\n\nSCORING CONDITIONS:\nScore VPs equal to <u><link=\"rule_keyword_enemy\">Enemy</link></u> Supply destroyed this Round.\n\nFROM THE START OF THE SECOND ROUND:\nGain 2 VPs for each Controlled Mission Marker associated with the Opponent colour.\n\nADDITIONAL CONDITIONS:\n\nASSAULT PHASE:\nIf an <u><link=\"rule_keyword_unengaged\">Unengaged</link></u> Unit is <u><link=\"rule_keyword_within\">Within</link></u> 3\" of a Controlled Neutral Mission Marker or associated with the Opponent, this unit may perform the Gather Action instead of a standard action.\n\nGATHER ACTION:\nGain 1 VP.\n\nSPECIAL WINNING CONDITIONS:\nThe game ends immediately if a Player leads by 8+ VPs.",
-    "UIConfig": {
-      "ImageURL": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/scenario_gather_the_resources_skirmish_front-0364ece33e03.png",
-      "ImageURLBack": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/scenario_gather_the_resources_skirmish_front-0364ece33e03.png",
       "Width": 63,
       "Length": 108,
       "IsRound": false,
@@ -425,13 +340,13 @@
     }
   },
   {
-    "Id": "sc_card_missions_hold_position_skirmish",
-    "Name": "Hold Position (Skirmish)",
+    "Id": "sc_card_missions_supply_drop",
+    "Name": "Supply Drop",
     "Type": "Card",
-    "Description": "Supply: 3\nRound bonus: +1\nGame length: 5\n\nMISSION PARAMETERS:\nAll <u><link=\"rule_keyword_mission_markers\">Mission Markers</link></u> are Activated.\n\nSCORING CONDITIONS:\nScore VPs equal to <u><link=\"rule_keyword_enemy\">Enemy</link></u> Supply destroyed this Round.\n\nFROM THE START OF THE SECOND ROUND:\nGain 1 VP for each Controlled Mission Marker that is Neutral or associated with your colour. Gain 2 VPs for each Controlled Mission Marker associated with the Opponent colour.\n\nADDITIONAL CONDITIONS:\n\nSPECIAL WINNING CONDITIONS:\nThe game ends immediately if a Player leads by 8+ VPs.",
+    "Description": "Supply: 6\nRound bonus: +2\nGame length: 5\n\nMISSION PARAMETERS:\nAll <u><link=\"rule_keyword_mission_markers\">Mission Markers</link></u> are Deactivated.\n\nSTART OF THE ROUND (1-4):\nRandomly determine one Deactivated Mission Marker (1-4) and flip it to its Activated side.\n\nSTART OF THE ROUND 5:\nMission Marker 5 is automatically Activated.\n\nSCORING CONDITIONS:\nScore VPs equal to <u><link=\"rule_keyword_enemy\">Enemy</link></u> Supply destroyed this Round.\n\nFROM THE START OF THE FIRST ROUND:\nFor each activated Controlled Mission Marker, gain VPs equal to the Game Round number in which that Mission Marker was Activated and remove it.\n\nADDITIONAL CONDITIONS:\n\nSPECIAL WINNING CONDITIONS:\nThe game ends immediately if a Player leads by 12+ VPs.",
     "UIConfig": {
-      "ImageURL": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/scenario_hold_position_skirmish_front-2ecdd7fe4d1c.png",
-      "ImageURLBack": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/scenario_hold_position_skirmish_front-2ecdd7fe4d1c.png",
+      "ImageURL": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/scenario_supply_drop_front-dae6a5df7939.png",
+      "ImageURLBack": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/scenario_supply_drop_front-dae6a5df7939.png",
       "Width": 63,
       "Length": 108,
       "IsRound": false,
@@ -442,13 +357,98 @@
     }
   },
   {
-    "Id": "sc_card_missions_supply_drop",
-    "Name": "Supply Drop",
+    "Id": "sc_card_missions_artefact_hunt_skirmish",
+    "Name": "Artefact Hunt (Skirmish)",
     "Type": "Card",
-    "Description": "Supply: 6\nRound bonus: +2\nGame length: 5\n\nMISSION PARAMETERS:\nAll <u><link=\"rule_keyword_mission_markers\">Mission Markers</link></u> are Deactivated.\n\nSTART OF THE ROUND (1-4):\nRandomly determine one Deactivated Mission Marker (1-4) and flip it to its Activated side.\n\nSTART OF THE ROUND 5:\nMission Marker 5 is automatically Activated.\n\nSCORING CONDITIONS:\nScore VPs equal to <u><link=\"rule_keyword_enemy\">Enemy</link></u> Supply destroyed this Round.\n\nFROM THE START OF THE FIRST ROUND:\nFor each activated Controlled Mission Marker, gain VPs equal to the Game Round number in which that Mission Marker was Activated and remove it.\n\nADDITIONAL CONDITIONS:\n\nSPECIAL WINNING CONDITIONS:\nThe game ends immediately if a Player leads by 12+ VPs.",
+    "Description": "Supply: 3\nRound bonus: +1\nGame length: 5\n\nMISSION PARAMETERS:\nAll <u><link=\"rule_keyword_mission_markers\">Mission Markers</link></u> are Activated.\n\nSCORING CONDITIONS:\nScore VPs equal to <u><link=\"rule_keyword_enemy\">Enemy</link></u> Supply destroyed this Round.\n\nEND OF ROUND 5:\nGain 3 VP for each <u><link=\"rule_keyword_friendly\">Friendly</link></u> Unit that CLAIM Mission Marker and it is <u><link=\"rule_keyword_wholly_within\">Wholly Within</link></u> <u><link=\"rule_keyword_friendly\">Friendly</link></u> <u><link=\"rule_keyword_zone_of_influence\">Zone of Influence</link></u>. Gain 1 VP for each Mission Marker associated with your colour that is not currently CLAIM by an <u><link=\"rule_keyword_enemy\">Enemy</link></u> Unit.\n\nADDITIONAL CONDITIONS:\n\nSCORING PHASE:\nFrom the Start of the Second Round, if a Unit is <u><link=\"rule_keyword_within\">Within</link></u> 3\" of a Controlled Mission Marker that is Neutral or associated with the Opponent colou r, that Unit may CLAIM it.\n\nCLAIM:\n<u><link=\"rule_keyword_place\">Place</link></u> the Mission Marker on the Unit Card. A Unit carrying a Mission Marker must DROP it if: • It has its <u><link=\"rule_keyword_current_supply_value\">Current Supply Value</link></u> reduced. • Before it resolves a <u><link=\"rule_keyword_place\">PLACE</link></u> effect. • It is <u><link=\"rule_keyword_engaged\">Engaged</link></u> with Enemies having a greater combined <u><link=\"rule_keyword_current_supply_value\">Current Supply Value</link></u>. • It is Destroyed, removed from <u><link=\"rule_chapter_7\">the battlefield</link></u>, or returned to <u><link=\"rule_keyword_reserves\">Reserves</link></u>. When a Unit DROP a Mission Marker, the Opponent places the Mission Marker <u><link=\"rule_keyword_within\">Within</link></u> 2\" of the Unit or its last model removed. Unit may CLAIM only one Mission Marker at a time.",
     "UIConfig": {
-      "ImageURL": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/scenario_supply_drop_front-dae6a5df7939.png",
-      "ImageURLBack": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/scenario_supply_drop_front-dae6a5df7939.png",
+      "ImageURL": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/scenario_artefact_hunt_skirmish_front-c9a01ea4e2b3.png",
+      "ImageURLBack": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/scenario_artefact_hunt_skirmish_front-c9a01ea4e2b3.png",
+      "Width": 63,
+      "Length": 108,
+      "IsRound": false,
+      "ShowInitials": false,
+      "Border": false,
+      "Color": "#FFFFFF",
+      "Color2": ""
+    }
+  },
+  {
+    "Id": "sc_card_missions_divide_and_conquer_skirmish",
+    "Name": "Divide And Conquer (Skirmish)",
+    "Type": "Card",
+    "Description": "Supply: 4\nRound bonus: +1\nGame length: 4\n\nSplit <u><link=\"rule_chapter_7\">the Battlefield</link></u> in four quarters as shown on the Deployment Card.\n\nSCORING CONDITIONS:\nScore VPs equal to <u><link=\"rule_keyword_enemy\">Enemy</link></u> Supply destroyed this Round.\n\nFROM THE START OF THE FIRST ROUND:\nCalculate Total Current Supply in each battlefield quarter. Gain 1 VP for each quarter where your Total Current Supply is higher than the Opponent's. Only <u><link=\"rule_chapter_2_2\">Units</link></u> <u><link=\"rule_keyword_wholly_within\">Wholly Within</link></u> a quarter contribute their Supply to this check. If a Unit controls a Mission Marker, that Unit is worth 1 extra Supply for controlling quarters. Gain 2 VP for Controlling Mission Marker 5.\n\nADDITIONAL CONDITIONS:\n\nSPECIAL WINNING CONDITIONS:\nThe game ends immediately if a Player leads by 8+ VPs.",
+    "UIConfig": {
+      "ImageURL": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/scenario_divide_and_conquer_skirmish_front-e38087e2941b.png",
+      "ImageURLBack": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/scenario_divide_and_conquer_skirmish_front-e38087e2941b.png",
+      "Width": 63,
+      "Length": 108,
+      "IsRound": false,
+      "ShowInitials": false,
+      "Border": false,
+      "Color": "#FFFFFF",
+      "Color2": ""
+    }
+  },
+  {
+    "Id": "sc_card_missions_fire_in_the_sky_skirmish",
+    "Name": "Fire In The Sky (Skirmish)",
+    "Type": "Card",
+    "Description": "Supply: 3\nRound bonus: +2\nGame length: 5\n\nMISSION PARAMETERS:\nAll <u><link=\"rule_keyword_mission_markers\">Mission Markers</link></u> are Activated. During battlefield setup, <u><link=\"rule_keyword_place\">place</link></u> a D6 next to each Mission Marker to track its Sabotage Level. Set the starting Sabotage Level of each Mission Marker to 1.\n\nSCORING CONDITIONS:\nScore VPs equal to <u><link=\"rule_keyword_enemy\">Enemy</link></u> Supply destroyed this Round.\n\nFROM THE START OF THE SECOND ROUND:\nGain VP for each Controlled Mission Marker that is Neutral or associated with the Opponent colour. The VP gained is equal to the Sabotage Level on the marker. ‣ Sabotage Level 3 = 3 VP ‣ Sabotage Level 2 = 2 VP ‣ Sabotage Level 1 = 1\n\nVP ADDITIONAL CONDITIONS:\nIf an <u><link=\"rule_keyword_unengaged\">Unengaged</link></u> Unit is <u><link=\"rule_keyword_within\">Within</link></u> 3\"\n\nASSAULT PHASE:\nof a Controlled Mission Marker, this unit may perform Sabotage Action instead of a standard action. Sabotage Action: Decrease or Increase that Mission Marker's Sabotage Level by 1 (to a minimum of 1 or maximum of 3).\n\nSPECIAL WINNING CONDITIONS:\nThe game ends immediately if a Player leads by 8+ VPs.",
+    "UIConfig": {
+      "ImageURL": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/scenario_fire_in_the_sky_skirmish_front-3fdccff81be4.png",
+      "ImageURLBack": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/scenario_fire_in_the_sky_skirmish_front-3fdccff81be4.png",
+      "Width": 63,
+      "Length": 108,
+      "IsRound": false,
+      "ShowInitials": false,
+      "Border": false,
+      "Color": "#FFFFFF",
+      "Color2": ""
+    }
+  },
+  {
+    "Id": "sc_card_missions_frontlines_skirmish",
+    "Name": "Frontlines (Skirmish)",
+    "Type": "Card",
+    "Description": "Supply: 3\nRound bonus: +1\nGame length: 5\n\nMISSION PARAMETERS:\nAll <u><link=\"rule_keyword_mission_markers\">Mission Markers</link></u> are Activated.\n\nSCORING CONDITIONS:\nScore VPs equal to <u><link=\"rule_keyword_enemy\">Enemy</link></u> Supply destroyed this Round.\n\nFROM THE START OF THE SECOND ROUND:\nGain 1 VP for each Controlled Mission Marker. Gain an additional 2 VPs for a Marker if you gained Control of it from the Opponent this Round.\n\nADDITIONAL CONDITIONS:\n\nSPECIAL WINNING CONDITIONS:\nThe game ends immediately if a Player leads by 8+ VPs.",
+    "UIConfig": {
+      "ImageURL": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/scenario_frontlines_skirmish_front-b945b33aa633.png",
+      "ImageURLBack": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/scenario_frontlines_skirmish_front-b945b33aa633.png",
+      "Width": 63,
+      "Length": 108,
+      "IsRound": false,
+      "ShowInitials": false,
+      "Border": false,
+      "Color": "#FFFFFF",
+      "Color2": ""
+    }
+  },
+  {
+    "Id": "sc_card_missions_gather_the_resources_skirmish",
+    "Name": "Gather The Resources (Skirmish)",
+    "Type": "Card",
+    "Description": "Supply: 3\nRound bonus: +1\nGame length: 5\n\nMISSION PARAMETERS:\nAll <u><link=\"rule_keyword_mission_markers\">Mission Markers</link></u> are Activated.\n\nSCORING CONDITIONS:\nScore VPs equal to <u><link=\"rule_keyword_enemy\">Enemy</link></u> Supply destroyed this Round.\n\nFROM THE START OF THE SECOND ROUND:\nGain 2 VPs for each Controlled Mission Marker associated with the Opponent colour.\n\nADDITIONAL CONDITIONS:\n\nASSAULT PHASE:\nIf an <u><link=\"rule_keyword_unengaged\">Unengaged</link></u> Unit is <u><link=\"rule_keyword_within\">Within</link></u> 3\" of a Controlled Neutral Mission Marker or associated with the Opponent, this unit may perform the Gather Action instead of a standard action.\n\nGATHER ACTION:\nGain 1 VP.\n\nSPECIAL WINNING CONDITIONS:\nThe game ends immediately if a Player leads by 8+ VPs.",
+    "UIConfig": {
+      "ImageURL": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/scenario_gather_the_resources_skirmish_front-0364ece33e03.png",
+      "ImageURLBack": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/scenario_gather_the_resources_skirmish_front-0364ece33e03.png",
+      "Width": 63,
+      "Length": 108,
+      "IsRound": false,
+      "ShowInitials": false,
+      "Border": false,
+      "Color": "#FFFFFF",
+      "Color2": ""
+    }
+  },
+  {
+    "Id": "sc_card_missions_hold_position_skirmish",
+    "Name": "Hold Position (Skirmish)",
+    "Type": "Card",
+    "Description": "Supply: 3\nRound bonus: +1\nGame length: 5\n\nMISSION PARAMETERS:\nAll <u><link=\"rule_keyword_mission_markers\">Mission Markers</link></u> are Activated.\n\nSCORING CONDITIONS:\nScore VPs equal to <u><link=\"rule_keyword_enemy\">Enemy</link></u> Supply destroyed this Round.\n\nFROM THE START OF THE SECOND ROUND:\nGain 1 VP for each Controlled Mission Marker that is Neutral or associated with your colour. Gain 2 VPs for each Controlled Mission Marker associated with the Opponent colour.\n\nADDITIONAL CONDITIONS:\n\nSPECIAL WINNING CONDITIONS:\nThe game ends immediately if a Player leads by 8+ VPs.",
+    "UIConfig": {
+      "ImageURL": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/scenario_hold_position_skirmish_front-2ecdd7fe4d1c.png",
+      "ImageURLBack": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/scenario_hold_position_skirmish_front-2ecdd7fe4d1c.png",
       "Width": 63,
       "Length": 108,
       "IsRound": false,
