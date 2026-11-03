@@ -10,6 +10,7 @@ For a request such as “update Wave 4”, start with an inventory. Find the che
 - **Units and upgrades.** Use the PDF converter and warhall-unit-rules. Preserve stable identifiers. Prepare the separate blue and green approval lists before applying those rule display changes.
 - **Model extraction.** Use warhall-model-extraction to select, inspect and prepare portable assets. Flag unavailable models.
 - **Model upload.** Use warhall-publish-skins for calibration, thumbnails and shared assignments.
+- **Markers and tokens.** Ask during wave inventory whether new tokens are needed. Use warhall-markers-tokens for token artwork, catalogue bindings, editor order and objective marker changes.
 - **Deployments.** Use warhall-deployments for official entry layouts and marker placement. Update maps only when official map changes are in scope.
 - **Scenarios.** Use warhall-scenarios for scoring cards and mission choices.
 - **Card artwork.** Use warhall-card-artwork when non-unit faces or text change.
