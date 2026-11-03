@@ -39,7 +39,7 @@
     "Id": "pdf_Protoss_equipment_adepts_default_2_table",
     "Name": "",
     "Type": "",
-    "Description": "<b>Assault Phase</b>\n<b>GLAIVE CANNON</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>8</nobr><pos=14%><nobr>All</nobr><pos=32%><nobr>2 <color=#65c879>(3)</color></nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>Light (D3+1)</nobr><pos=86%><nobr>1</nobr></b></size></align>\n<u><link=\"rule_keyword_anti_evade\">ANTI-EVADE (1)</link></u>",
+    "Description": "<b>Assault Phase</b>\n<b>GLAIVE CANNON</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>8</nobr><pos=14%><nobr>All</nobr><pos=32%><nobr>2</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>Light (D3+1)</nobr><pos=86%><nobr>1</nobr></b></size></align>\n<u><link=\"rule_keyword_anti_evade\">ANTI-EVADE (1)</link></u>",
     "Children": []
   },
   {
@@ -1205,7 +1205,7 @@
     "Id": "pdf_Protoss_rule_adepts_upgrade_assault_phase_guidance_effect_0_table",
     "Name": "",
     "Type": "",
-    "Description": "<b>Assault Phase</b>\n<b>GLAIVE CANNON</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>8</nobr><pos=14%><nobr>All</nobr><pos=32%><nobr>2 <color=#65c879>(3)</color></nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>Light (D3+1)</nobr><pos=86%><nobr>1</nobr></b></size></align>\n<u><link=\"rule_keyword_anti_evade\"><color=#2596be>ANTI-EVADE (2)</color></link></u>",
+    "Description": "<b>Assault Phase</b>\n<b>GLAIVE CANNON</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>8</nobr><pos=14%><nobr>All</nobr><pos=32%><nobr>2</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>Light (D3+1)</nobr><pos=86%><nobr>1</nobr></b></size></align>\n<u><link=\"rule_keyword_anti_evade\"><color=#2596be>ANTI-EVADE (2)</color></link></u>",
     "Children": []
   },
   {
@@ -1213,6 +1213,13 @@
     "Name": "<color=#2596be>Resonating Glaves</color>",
     "Type": "Rule",
     "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Active\n<b>Cost:</b> 1 PE\n<b>Upgrade ability</b>\n\nThis Unit's Glaive Cannon gains <u><link=\"rule_keyword_buff\">BUFF</link></u> RoA (1)."
+  },
+  {
+    "Id": "pdf_Protoss_rule_adepts_upgrade_assault_phase_resonating_glaves_effect_0",
+    "Name": "",
+    "Type": "",
+    "Description": "<u><link=\"pdf_Protoss_rule_adepts_upgrade_assault_phase_resonating_glaves\">RoA: 2 <color=#65c879>(3)</color> when activated</link></u>",
+    "Children": []
   },
   {
     "Id": "pdf_Protoss_rule_artanis_any_phase_commander",

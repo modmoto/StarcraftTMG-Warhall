@@ -1511,6 +1511,13 @@
     "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Passive\n<b>Upgrade ability</b>\n\nWhile this Unit is <u><link=\"rule_keyword_within\">Within</link></u> 3\" of a Mission Marker, its Armour characteristic is increased by 1."
   },
   {
+    "Id": "pdf_Terran_rule_marauders_upgrade_any_phase_veteran_of_tarsonis_effect_0",
+    "Name": "",
+    "Type": "",
+    "Description": "<u><link=\"pdf_Terran_rule_marauders_upgrade_any_phase_veteran_of_tarsonis\">Armour: 4+ <color=#65c879>[3+ — within 3\" of a mission marker]</color></link></u>",
+    "Children": []
+  },
+  {
     "Id": "pdf_Terran_rule_marauders_upgrade_assault_phase_laser_targeting_systems",
     "Name": "<color=#2596be>Laser Targeting Systems</color>",
     "Type": "Rule",

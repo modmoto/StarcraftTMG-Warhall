@@ -34,7 +34,7 @@ function profilePhase(profile) {
   return displayPhase(phase ?? 'Any Phase');
 }
 
-export function weaponTable(attributes, baseline = attributes, conditionalRoa = 0) {
+export function weaponTable(attributes, baseline = attributes) {
   const values = weaponAttributes(attributes);
   if (
     !/^(?:E|\d+["”]?)$/.test(values.RNG) ||
@@ -48,8 +48,6 @@ export function weaponTable(attributes, baseline = attributes, conditionalRoa = 
   for (const key of Object.keys(values)) {
     if (values[key] !== original[key]) values[key] = `<color=#2596be>${values[key]}</color>`;
   }
-  if (conditionalRoa && /^\d+$/.test(attributes.RoA))
-    values.RoA += ` <color=#65c879>(${Number(attributes.RoA) + conditionalRoa})</color>`;
   const positions = { RNG: 0, Target: 14, RoA: 32, Hit: 46, Surge: 59, D: 86 };
   const row = entries =>
     Object.entries(positions)
@@ -86,7 +84,7 @@ export function weaponRows(
   const sections = [
     phase && `<b>${phase}</b>`,
     heading,
-    weaponTable(profile.attributes, baseline, profile.conditionalRoa),
+    weaponTable(profile.attributes, baseline),
     keywords,
   ];
   return [textRow(records, `${id}_table`, sections.filter(Boolean).join('\n'))];

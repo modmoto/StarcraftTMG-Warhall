@@ -162,11 +162,13 @@ const weaponText = (name, options = []) =>
     .map(row => row.Description ?? '')
     .join('\n');
 
-test('Guidance changes Anti-Evade and the paid Resonating Glaves value appears in green', () => {
+test('Guidance changes Anti-Evade while the paid Resonating Glaves buff stays inactive', () => {
   const text = weaponText('Adepts', ['Guidance', 'Resonating Glaves']);
   assert.match(text, /<color=#2596be>ANTI-EVADE \(2\)<\/color>/);
-  assert.match(text, /<pos=32%><nobr>2 <color=#65c879>\(3\)<\/color><\/nobr>/);
+  assert.match(text, /<pos=32%><nobr>2<\/nobr>/);
   assert.doesNotMatch(text, /<pos=32%><nobr><color=/);
+  assert.match(text, /RoA: 2 <color=#65c879>\(3\)<\/color>/);
+  assert.doesNotMatch(weaponText('Adepts', ['Guidance']), /#65c879/);
   const active = unitProfile('Adepts', ['Resonating Glaves']).find(
     row => plain(row.Name) === 'Resonating Glaves',
   );
@@ -202,15 +204,24 @@ test('permanent ranged keywords and surge upgrades appear on the affected weapon
 });
 
 test('conditional Armour remains informational and composes with numeric HP in either order', () => {
+  assert.doesNotMatch(
+    unitProfile('Marauders', ['Kinetic Foam'])
+      .map(row => row.Description)
+      .join('\n'),
+    /#65c879/,
+  );
   for (const order of [
     ['Kinetic Foam', 'Veteran of Tarsonis'],
     ['Veteran of Tarsonis', 'Kinetic Foam'],
   ]) {
     const profile = unitProfile('Marauders', order);
     const stats = profile.find(row => row.Type === 'Statline');
-    assert.equal(stats.Attributes.Arm, '4+ <color=#65c879>(3+)</color>');
+    assert.equal(stats.Attributes.Arm, '4+');
     assert.equal(stats.Attributes.HP, '<color=#2596be>6</color><size=0>(6)</size>');
-    assert.doesNotMatch(profile.map(row => row.Description).join('\n'), /Armour: 4\+/);
+    assert.match(
+      profile.map(row => row.Description).join('\n'),
+      /Armour: 4\+ <color=#65c879>\[3\+ — within 3" of a mission marker\]<\/color>/,
+    );
   }
 });
 
@@ -286,6 +297,7 @@ test('the upgrade audit covers every source profile and active options change on
         row => row.UnitId === unit.unitId && row.OptionId === option.Id,
       );
       assert.deepEqual(modifier.ReferencedItemsToRemove, []);
+      if (modifier.OptionId === 'Resonating Glaves') continue;
       assert.ok(modifier.ReferencedItemsToAdd.every(row => row.Id.endsWith('_selected_options')));
       for (const ref of modifier.ReferencedItemsToAdd.flatMap(row => row.Ref)) {
         assert.match(byId.get(ref.Id).Description, /Upgrade ability/);

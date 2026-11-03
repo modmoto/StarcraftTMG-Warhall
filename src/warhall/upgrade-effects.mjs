@@ -10,8 +10,21 @@ const isPassive = profile =>
   /passive/i.test(profile.attributes.Type ?? profile.attributes.Cost ?? '');
 
 export function upgradeEffects(unit, profile) {
-  if (!isPassive(profile)) return [];
   const effect = (profile.attributes.Effect ?? '').replace(/[’‘]/g, "'");
+  if (!isPassive(profile)) {
+    const glaive = weapons(unit).find(weapon => clean(weapon.name) === 'glaivecannon');
+    if (glaive && /Glaive Cannon gains BUFF RoA \(1\)/i.test(effect)) {
+      const base = glaive.attributes.RoA;
+      return [
+        {
+          kind: 'weaponNote',
+          weapon: glaive,
+          text: `RoA: ${base} <color=${conditionalGreen}>(${Number(base) + 1})</color> when activated`,
+        },
+      ];
+    }
+    return [];
+  }
   const result = [];
   const matchWeapons = names =>
     weapons(unit).filter(weapon => names.some(name => clean(name) === clean(weapon.name)));
@@ -62,6 +75,13 @@ export function upgradeEffects(unit, profile) {
           text: `C-14 Rifle Surge: ${weaponAttributes(weapon.attributes).Surge} ${conditional('Light (D6) — target within 8"')}`,
         });
     }
+  }
+  if (/Armour characteristic is increased by 1/.test(effect)) {
+    const base = unit.attributes.Arm;
+    result.push({
+      kind: 'statNote',
+      text: `Armour: ${base} ${conditional(`${Number(base.replace('+', '')) - 1}+ — within 3" of a mission marker`)}`,
+    });
   }
   if (/ON CREEP, increase this Unit's Speed characteristic by 2/.test(effect)) {
     const base = unit.attributes.Spd;
@@ -218,10 +238,11 @@ export function applyUpgradeEffects(
 
 export function upgradeDisplay(unit, profile) {
   if (/Weapon$/.test(profile.type)) return ['replacement weapon; changed fields blue'];
-  if (!isPassive(profile)) return ['rule only; active or reactive activation required'];
   if (/^Increase this Unit's Hit Points characteristic/.test(profile.attributes.Effect ?? ''))
     return ['permanent HP; blue'];
   const effects = upgradeEffects(unit, profile);
+  if (!isPassive(profile) && !effects.length)
+    return ['rule only; active or reactive activation required'];
   return effects.length
     ? [
         ...new Set(

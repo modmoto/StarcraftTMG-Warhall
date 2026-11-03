@@ -101,18 +101,6 @@ function addUnitRecords(unit, faction, records, bases, groups, report, baseMappi
     DefaultFront: 1,
     Formation: 0,
   });
-  // Display the available conditional value alongside the base value.
-  // Options that replace whole rows must retain the same annotation.
-  const resonating = upgradeProfiles.some(profile =>
-    /Glaive Cannon gains BUFF RoA \(1\)/i.test(profile.attributes.Effect ?? ''),
-  );
-  if (resonating) {
-    const weapon = unit.profiles.find(profile => profile.name.toUpperCase() === 'GLAIVE CANNON');
-    if (weapon) weapon.conditionalRoa = 1;
-  }
-  const conditionalArmour = upgradeProfiles.some(profile =>
-    /Armour characteristic is increased by 1/.test(profile.attributes.Effect ?? ''),
-  );
   records.profiles.push({
     Id: ids.profile,
     Name: unit.statlineName,
@@ -125,14 +113,7 @@ function addUnitRecords(unit, faction, records, bases, groups, report, baseMappi
     Name: '',
     Type: 'Statline',
     Attributes: Object.fromEntries(
-      Object.entries(unit.attributes)
-        .filter(([key]) => !/^(?:Supply|Supl)$/i.test(key))
-        .map(([key, value]) => [
-          key,
-          key === 'Arm' && conditionalArmour && /^\d+\+$/.test(value)
-            ? `${value} <color=#65c879>(${Number(value.slice(0, -1)) - 1}+)</color>`
-            : value,
-        ]),
+      Object.entries(unit.attributes).filter(([key]) => !/^(?:Supply|Supl)$/i.test(key)),
     ),
     Children: [],
   });

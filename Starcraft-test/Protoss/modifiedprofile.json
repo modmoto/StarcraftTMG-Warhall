@@ -101,6 +101,14 @@
             "Id": "pdf_Protoss_rule_adepts_upgrade_assault_phase_resonating_glaves"
           }
         ]
+      },
+      {
+        "Id": "pdf_Protoss_equipment_adepts_default_2_slot",
+        "Ref": [
+          {
+            "Id": "pdf_Protoss_rule_adepts_upgrade_assault_phase_resonating_glaves_effect_0"
+          }
+        ]
       }
     ]
   },
