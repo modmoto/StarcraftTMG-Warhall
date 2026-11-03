@@ -34,7 +34,7 @@ function profilePhase(profile) {
   return displayPhase(phase ?? 'Any Phase');
 }
 
-export function weaponTable(attributes, baseline = attributes, conditionalSurge) {
+export function weaponTable(attributes, baseline = attributes, conditionalSurge, conditionalRoa) {
   const values = weaponAttributes(attributes);
   if (
     !/^(?:E|\d+["”]?)$/.test(values.RNG) ||
@@ -51,6 +51,10 @@ export function weaponTable(attributes, baseline = attributes, conditionalSurge)
   if (conditionalSurge) {
     const { value, ruleId } = conditionalSurge;
     values.Surge += ` <link="${ruleId}"><color=#65c879>(${value})</color></link>`;
+  }
+  if (conditionalRoa) {
+    const { value, ruleId } = conditionalRoa;
+    values.RoA += ` <link="${ruleId}"><color=#65c879>(${value})</color></link>`;
   }
   const positions = { RNG: 0, Target: 14, RoA: 32, Hit: 46, Surge: 59, D: 86 };
   const row = entries =>
@@ -85,13 +89,15 @@ export function weaponRows(
   const keywords = weaponKeywords(profile.attributes.Keyword, glossary, baseline.Keyword);
   textRow(records, `${id}_heading`, heading);
   if (keywords) textRow(records, `${id}_keywords`, keywords);
+  const separateKeywords = profile.name.toUpperCase() === 'GLAIVE CANNON';
   const sections = [
     phase && `<b>${phase}</b>`,
     heading,
-    weaponTable(profile.attributes, baseline, profile.conditionalSurge),
-    keywords,
+    weaponTable(profile.attributes, baseline, profile.conditionalSurge, profile.conditionalRoa),
+    !separateKeywords && keywords,
   ];
-  return [textRow(records, `${id}_table`, sections.filter(Boolean).join('\n'))];
+  const table = textRow(records, `${id}_table`, sections.filter(Boolean).join('\n'));
+  return separateKeywords && keywords ? [table, `${id}_keywords`] : [table];
 }
 
 export function weaponKeywords(text, glossary, baseline = text) {
@@ -128,15 +134,10 @@ export function profileChildren(unit, ids, references, records, glossary) {
     const phase = profilePhase(profile);
     const group = groups.get(phase);
     if (!group) throw new Error(`Unknown display phase: ${unit.name}/${phase}`);
-    group.push(
-      textContainer(records, `${id}_slot`, [
-        textContainer(
-          records,
-          `${id}_body`,
-          weaponRows(profile, id, records, glossary, group.length ? '' : phase),
-        ),
-      ]),
-    );
+    const rows = weaponRows(profile, id, records, glossary, group.length ? '' : phase);
+    if (profile.name.toUpperCase() === 'GLAIVE CANNON')
+      rows[0] = textContainer(records, `${id}_stats_row`, [rows[0]]);
+    group.push(textContainer(records, `${id}_slot`, [textContainer(records, `${id}_body`, rows)]));
   }
   const children = [
     { Id: textContainer(records, `${ids.profile}_stats`, [ids.statline]) },

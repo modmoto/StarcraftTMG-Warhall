@@ -1447,9 +1447,9 @@
   },
   {
     "Id": "pdf_Zerg_rule_hydralisks_upgrade_any_phase_ancillary_carapace_effect_0",
-    "Name": "<color=#2596be><color=#65c879>TOUGH (1)</color></color>",
-    "Type": "Rule",
-    "Description": "<b><u><link=\"pdf_Zerg_rule_hydralisks_upgrade_any_phase_ancillary_carapace\">Ancillary Carapace</link></u></b>\n\n<b>Phase:</b> Any Phase\n<b>Type:</b> Passive\n<b>Upgrade ability</b>\n\nThis Unit gains <u><link=\"rule_keyword_tough\">TOUGH</link></u> (1) on the first <u><link=\"rule_chapter_8_7_4\">Armour Roll</link></u> of each Activation.",
+    "Name": "",
+    "Type": "",
+    "Description": "<u><link=\"pdf_Zerg_rule_hydralisks_upgrade_any_phase_ancillary_carapace\"><color=#65c879>TOUGH (1)</color></link></u>",
     "Children": []
   },
   {
@@ -1460,9 +1460,9 @@
   },
   {
     "Id": "pdf_Zerg_rule_hydralisks_upgrade_any_phase_lurking_effect_0",
-    "Name": "<color=#2596be><color=#65c879>Evade eligible</color></color>",
-    "Type": "Rule",
-    "Description": "<b><u><link=\"pdf_Zerg_rule_hydralisks_upgrade_any_phase_lurking\">Lurking</link></u></b>\n\n<b>Phase:</b> Any Phase\n<b>Type:</b> Passive\n<b>Upgrade ability</b>\n\nIf this Unit has <u><link=\"rule_keyword_stationary\">Stationary</link></u> <u><link=\"rule_keyword_status\">Status</link></u>, it is eligible to make an <u><link=\"rule_chapter_8_7_4\">Evade Roll</link></u> against the first <u><link=\"rule_chapter_8_7_3\">Ranged Attack</link></u> targeting it this Round. If this Unit is <u><link=\"rule_keyword_on_creep\">ON CREEP</link></u>, it gains +1 <u><link=\"rule_keyword_modifier\">Modifier</link></u> to this <u><link=\"rule_chapter_8_7_4\">Evade Roll</link></u>.",
+    "Name": "",
+    "Type": "",
+    "Description": "<u><link=\"pdf_Zerg_rule_hydralisks_upgrade_any_phase_lurking\"><color=#65c879>Evade eligible</color></link></u>",
     "Children": []
   },
   {
@@ -1615,9 +1615,9 @@
   },
   {
     "Id": "pdf_Zerg_rule_raptors_zergling_upgrade_combat_phase_adrenal_glands_effect_0",
-    "Name": "<color=#2596be><color=#2596be>PRECISION (2)</color></color>",
-    "Type": "Rule",
-    "Description": "<b><u><link=\"pdf_Zerg_rule_raptors_zergling_upgrade_combat_phase_adrenal_glands\">Adrenal Glands</link></u></b>\n\n<b>Phase:</b> Melee Phase\n<b>Type:</b> Passive\n<b>Upgrade ability</b>\n\nThis Unit's Claws and Shredding Claws weapons gain <u><link=\"rule_keyword_precision\">PRECISION</link></u> (2).",
+    "Name": "",
+    "Type": "",
+    "Description": "<u><link=\"pdf_Zerg_rule_raptors_zergling_upgrade_combat_phase_adrenal_glands\"><color=#2596be>PRECISION (2)</color></link></u>",
     "Children": []
   },
   {
@@ -1756,5 +1756,12 @@
     "Name": "<color=#2596be>Broodmother</color>",
     "Type": "Rule",
     "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Active\n<b>Cost:</b> 1 BM\n<b>Upgrade ability</b>\n\nApply one of the following effects to all <u><link=\"rule_keyword_friendly\">Friendly</link></u> <u><link=\"rule_chapter_2_2\">units</link></u> (<u><link=\"rule_keyword_line_of_sight\">Line of Sight</link></u> is not required). You cannot apply the effect chosen in the previous Game Round:\n• <u><link=\"rule_chapter_2_2\">Units</link></u> of Size 1 gain a +1 <u><link=\"rule_keyword_modifier\">Modifier</link></u> to all <u><link=\"rule_keyword_impact\">IMPACT</link></u> Rolls.\n• All weapons of Size 2 <u><link=\"rule_chapter_2_2\">Units</link></u> gain <u><link=\"rule_keyword_critical_hit\">CRITICAL HIT</link></u> (1).\n• <u><link=\"rule_chapter_2_2\">Units</link></u> of Size 3 or more gain <u><link=\"rule_keyword_tough\">TOUGH</link></u> (1)."
+  },
+  {
+    "Id": "pdf_Zerg_rule_zerglings_upgrade_combat_phase_adrenal_glands_effect_0",
+    "Name": "",
+    "Type": "",
+    "Description": "<u><link=\"pdf_Zerg_rule_raptors_zergling_upgrade_combat_phase_adrenal_glands\"><color=#2596be>PRECISION (2)</color></link></u>",
+    "Children": []
   }
 ]

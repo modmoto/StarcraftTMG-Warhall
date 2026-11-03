@@ -17,9 +17,9 @@ export function upgradeEffects(unit, profile) {
       const base = glaive.attributes.RoA;
       return [
         {
-          kind: 'weaponNote',
+          kind: 'weapon',
           weapon: glaive,
-          text: `RoA: ${base} <color=${conditionalGreen}>(${Number(base) + 1})</color> when activated`,
+          conditionalRoa: Number(base) + 1,
         },
       ];
     }
@@ -194,6 +194,10 @@ export function applyUpgradeEffects(
         {
           ...effect.weapon,
           attributes,
+          conditionalRoa: effect.conditionalRoa && {
+            value: effect.conditionalRoa,
+            ruleId: recordId,
+          },
           conditionalSurge: effect.conditionalSurge && {
             value: effect.conditionalSurge,
             ruleId: recordId,
@@ -205,14 +209,23 @@ export function applyUpgradeEffects(
         phase,
         effect.weapon.attributes,
       );
-      remove.push({
+      const keywordOnly = clean(effect.weapon.name) === 'glaivecannon' && effect.keyword;
+      const suffix = keywordOnly ? '_keywords' : '_table';
+      const changedRows =
+        clean(effect.weapon.name) === 'glaivecannon'
+          ? rows.filter(row => row.endsWith(suffix))
+          : rows;
+      const inBody = refs => ({
         Id: `${oldId}_slot`,
-        Ref: [{ Id: `${oldId}_body`, Ref: [{ Id: `${oldId}_table` }] }],
+        Ref: [
+          {
+            Id: `${oldId}_body`,
+            Ref: effect.conditionalRoa ? [{ Id: `${oldId}_stats_row`, Ref: refs }] : refs,
+          },
+        ],
       });
-      add.push({
-        Id: `${oldId}_slot`,
-        Ref: [{ Id: `${oldId}_body`, Ref: rows.map(Id => ({ Id })) }],
-      });
+      remove.push(inBody([{ Id: `${oldId}${suffix}` }]));
+      add.push(inBody(changedRows.map(Id => ({ Id }))));
     } else if (effect.kind === 'ability') {
       const original = unit.profiles.find(rule => clean(rule.name) === clean(effect.name));
       const oldId = defaults[unit.profiles.indexOf(original)];
@@ -233,16 +246,9 @@ export function applyUpgradeEffects(
       const label = effect.text.match(
         /^<color=(#[a-f0-9]+)>\(?(INSTANT|Evade eligible|(?:PRECISION|CRITICAL HIT|ANTI-EVADE|TOUGH) \(\d+\))/i,
       );
-      const source = records.rules.get(recordId);
       if (label) {
         const [, color, name] = label;
-        records.rules.set(id, {
-          Id: id,
-          Name: `<color=${color}>${name}</color>`,
-          Type: 'Rule',
-          Description: `<b>${source.Name}</b>\n\n${source.Description}`,
-          Children: [],
-        });
+        textRow(records, id, `<u><link="${recordId}"><color=${color}>${name}</color></link></u>`);
       } else {
         const text = effect.text.replace(
           /<color=#65c879>.*?<\/color>/g,
@@ -272,6 +278,7 @@ export function upgradeDisplay(unit, profile) {
     ? [
         ...new Set(
           effects.map(effect => {
+            if (effect.conditionalRoa) return `conditional RoA; green: ${effect.weapon.name}`;
             if (effect.conditionalSurge) return `conditional surge; green: ${effect.weapon.name}`;
             if (effect.kind === 'weapon')
               return `permanent weapon change; blue: ${effect.weapon.name}`;

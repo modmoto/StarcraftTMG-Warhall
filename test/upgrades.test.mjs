@@ -158,16 +158,18 @@ test('profile groups render inline and weapon headers stay unlinked', () => {
 
 const weaponText = (name, options = []) =>
   unitProfile(name, options)
-    .filter(row => row.Id.endsWith('_table') || /_effect_\d+$/.test(row.Id))
+    .filter(
+      row =>
+        row.Id.endsWith('_table') || row.Id.endsWith('_keywords') || /_effect_\d+$/.test(row.Id),
+    )
     .map(row => row.Name || row.Description || '')
     .join('\n');
 
 test('Guidance changes Anti-Evade while the paid Resonating Glaves buff stays inactive', () => {
   const text = weaponText('Adepts', ['Guidance', 'Resonating Glaves']);
   assert.match(text, /<color=#2596be>ANTI-EVADE \(2\)<\/color>/);
-  assert.match(text, /<pos=32%><nobr>2<\/nobr>/);
+  assert.match(text, /<pos=32%><nobr>2 <link="[^"]+"><color=#65c879>\(3\)<\/color>/);
   assert.doesNotMatch(text, /<pos=32%><nobr><color=/);
-  assert.match(text, /RoA: 2 <u><link="[^"]+"><color=#65c879>\(3\)<\/color>/);
   assert.doesNotMatch(weaponText('Adepts', ['Guidance']), /#65c879/);
   const active = unitProfile('Adepts', ['Resonating Glaves']).find(
     row => plain(row.Name) === 'Resonating Glaves',
@@ -299,8 +301,8 @@ test('the upgrade audit covers every source profile and active options change on
       const modifier = allModifiers.find(
         row => row.UnitId === unit.unitId && row.OptionId === option.Id,
       );
-      assert.deepEqual(modifier.ReferencedItemsToRemove, []);
       if (modifier.OptionId === 'Resonating Glaves') continue;
+      assert.deepEqual(modifier.ReferencedItemsToRemove, []);
       assert.ok(modifier.ReferencedItemsToAdd.every(row => row.Id.endsWith('_selected_options')));
       for (const ref of modifier.ReferencedItemsToAdd.flatMap(row => row.Ref)) {
         assert.match(byId.get(ref.Id).Description, /Upgrade ability/);

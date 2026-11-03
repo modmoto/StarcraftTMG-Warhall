@@ -6,7 +6,10 @@
     "Description": "",
     "Children": [
       {
-        "Id": "pdf_Protoss_equipment_adepts_default_2_table"
+        "Id": "pdf_Protoss_equipment_adepts_default_2_stats_row"
+      },
+      {
+        "Id": "pdf_Protoss_equipment_adepts_default_2_keywords"
       }
     ]
   },
@@ -36,10 +39,21 @@
     ]
   },
   {
+    "Id": "pdf_Protoss_equipment_adepts_default_2_stats_row",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Protoss_equipment_adepts_default_2_table"
+      }
+    ]
+  },
+  {
     "Id": "pdf_Protoss_equipment_adepts_default_2_table",
     "Name": "",
     "Type": "",
-    "Description": "<b>Assault Phase</b>\n<b>GLAIVE CANNON</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>8</nobr><pos=14%><nobr>All</nobr><pos=32%><nobr>2</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>Light (D3+1)</nobr><pos=86%><nobr>1</nobr></b></size></align>\n<u><link=\"rule_keyword_anti_evade\">ANTI-EVADE (1)</link></u>",
+    "Description": "<b>Assault Phase</b>\n<b>GLAIVE CANNON</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>8</nobr><pos=14%><nobr>All</nobr><pos=32%><nobr>2</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>Light (D3+1)</nobr><pos=86%><nobr>1</nobr></b></size></align>",
     "Children": []
   },
   {
@@ -439,7 +453,10 @@
     "Description": "",
     "Children": [
       {
-        "Id": "pdf_Protoss_equipment_nerazim_watchers_adept_default_2_table"
+        "Id": "pdf_Protoss_equipment_nerazim_watchers_adept_default_2_stats_row"
+      },
+      {
+        "Id": "pdf_Protoss_equipment_nerazim_watchers_adept_default_2_keywords"
       }
     ]
   },
@@ -469,10 +486,21 @@
     ]
   },
   {
+    "Id": "pdf_Protoss_equipment_nerazim_watchers_adept_default_2_stats_row",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Protoss_equipment_nerazim_watchers_adept_default_2_table"
+      }
+    ]
+  },
+  {
     "Id": "pdf_Protoss_equipment_nerazim_watchers_adept_default_2_table",
     "Name": "",
     "Type": "",
-    "Description": "<b>Assault Phase</b>\n<b>GLAIVE CANNON</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>8</nobr><pos=14%><nobr>All</nobr><pos=32%><nobr>3</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>Light (D3+1)</nobr><pos=86%><nobr>1</nobr></b></size></align>\n<u><link=\"rule_keyword_anti_evade\">ANTI-EVADE (1)</link></u>, <u><link=\"rule_keyword_pinpoint\">PINPOINT</link></u>",
+    "Description": "<b>Assault Phase</b>\n<b>GLAIVE CANNON</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>8</nobr><pos=14%><nobr>All</nobr><pos=32%><nobr>3</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>Light (D3+1)</nobr><pos=86%><nobr>1</nobr></b></size></align>",
     "Children": []
   },
   {
@@ -1205,7 +1233,7 @@
     "Id": "pdf_Protoss_rule_adepts_upgrade_assault_phase_guidance_effect_0_table",
     "Name": "",
     "Type": "",
-    "Description": "<b>Assault Phase</b>\n<b>GLAIVE CANNON</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>8</nobr><pos=14%><nobr>All</nobr><pos=32%><nobr>2</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>Light (D3+1)</nobr><pos=86%><nobr>1</nobr></b></size></align>\n<u><link=\"rule_keyword_anti_evade\"><color=#2596be>ANTI-EVADE (2)</color></link></u>",
+    "Description": "<b>Assault Phase</b>\n<b>GLAIVE CANNON</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>8</nobr><pos=14%><nobr>All</nobr><pos=32%><nobr>2</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>Light (D3+1)</nobr><pos=86%><nobr>1</nobr></b></size></align>",
     "Children": []
   },
   {
@@ -1215,10 +1243,24 @@
     "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Active\n<b>Cost:</b> 1 PE\n<b>Upgrade ability</b>\n\nThis Unit's Glaive Cannon gains <u><link=\"rule_keyword_buff\">BUFF</link></u> RoA (1)."
   },
   {
-    "Id": "pdf_Protoss_rule_adepts_upgrade_assault_phase_resonating_glaves_effect_0",
+    "Id": "pdf_Protoss_rule_adepts_upgrade_assault_phase_resonating_glaves_effect_0_heading",
     "Name": "",
     "Type": "",
-    "Description": "RoA: 2 <u><link=\"pdf_Protoss_rule_adepts_upgrade_assault_phase_resonating_glaves\"><color=#65c879>(3)</color></link></u> when activated",
+    "Description": "<b>GLAIVE CANNON</b>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Protoss_rule_adepts_upgrade_assault_phase_resonating_glaves_effect_0_keywords",
+    "Name": "",
+    "Type": "",
+    "Description": "<u><link=\"rule_keyword_anti_evade\">ANTI-EVADE (1)</link></u>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Protoss_rule_adepts_upgrade_assault_phase_resonating_glaves_effect_0_table",
+    "Name": "",
+    "Type": "",
+    "Description": "<b>Assault Phase</b>\n<b>GLAIVE CANNON</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>8</nobr><pos=14%><nobr>All</nobr><pos=32%><nobr>2 <link=\"pdf_Protoss_rule_adepts_upgrade_assault_phase_resonating_glaves\"><color=#65c879>(3)</color></link></nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>Light (D3+1)</nobr><pos=86%><nobr>1</nobr></b></size></align>",
     "Children": []
   },
   {
@@ -1307,9 +1349,16 @@
   },
   {
     "Id": "pdf_Protoss_rule_immortal_upgrade_assault_phase_for_the_ancients_effect_0",
-    "Name": "<color=#2596be><color=#65c879>PRECISION (1)</color></color>",
-    "Type": "Rule",
-    "Description": "<b><u><link=\"pdf_Protoss_rule_immortal_upgrade_assault_phase_for_the_ancients\">For The Ancients</link></u></b>\n\n<b>Phase:</b> Assault Phase\n<b>Type:</b> Passive\n<b>Upgrade ability</b>\n\nWhen this Unit makes a <u><link=\"rule_chapter_8_7_3\">Ranged Attack</link></u>, if the target Unit is more than 8\" away, the attacking weapons gain <u><link=\"rule_keyword_precision\">PRECISION</link></u> (1).",
+    "Name": "",
+    "Type": "",
+    "Description": "<u><link=\"pdf_Protoss_rule_immortal_upgrade_assault_phase_for_the_ancients\"><color=#65c879>PRECISION (1)</color></link></u>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Protoss_rule_immortal_upgrade_assault_phase_for_the_ancients_effect_1",
+    "Name": "",
+    "Type": "",
+    "Description": "<u><link=\"pdf_Protoss_rule_immortal_upgrade_assault_phase_for_the_ancients\"><color=#65c879>PRECISION (1)</color></link></u>",
     "Children": []
   },
   {
@@ -1320,9 +1369,16 @@
   },
   {
     "Id": "pdf_Protoss_rule_immortal_upgrade_assault_phase_fury_unyielding_effect_0",
-    "Name": "<color=#2596be><color=#65c879>CRITICAL HIT (1)</color></color>",
-    "Type": "Rule",
-    "Description": "<b><u><link=\"pdf_Protoss_rule_immortal_upgrade_assault_phase_fury_unyielding\">Fury Unyielding</link></u></b>\n\n<b>Phase:</b> Assault Phase\n<b>Type:</b> Passive\n<b>Upgrade ability</b>\n<b>Replaces:</b> RIGHT PHOTON DISRUPTOR\n\nWhile this Unit is <u><link=\"rule_keyword_within\">Within</link></u> 3\" of a Mission Marker, its Ranged Weapons gain <u><link=\"rule_keyword_critical_hit\">CRITICAL HIT</link></u> (1) when targeting an <u><link=\"rule_keyword_enemy\">Enemy</link></u> Unit that is also <u><link=\"rule_keyword_within\">Within</link></u> 3\" of that same Mission Marker.",
+    "Name": "",
+    "Type": "",
+    "Description": "<u><link=\"pdf_Protoss_rule_immortal_upgrade_assault_phase_fury_unyielding\"><color=#65c879>CRITICAL HIT (1)</color></link></u>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Protoss_rule_immortal_upgrade_assault_phase_fury_unyielding_effect_1",
+    "Name": "",
+    "Type": "",
+    "Description": "<u><link=\"pdf_Protoss_rule_immortal_upgrade_assault_phase_fury_unyielding\"><color=#65c879>CRITICAL HIT (1)</color></link></u>",
     "Children": []
   },
   {
@@ -1447,9 +1503,9 @@
   },
   {
     "Id": "pdf_Protoss_rule_stalker_upgrade_assault_phase_fury_of_the_nerazim_effect_0",
-    "Name": "<color=#2596be><color=#65c879>INSTANT</color></color>",
-    "Type": "Rule",
-    "Description": "<b><u><link=\"pdf_Protoss_rule_stalker_upgrade_assault_phase_fury_of_the_nerazim\">Fury Of The Nerazim</link></u></b>\n\n<b>Phase:</b> Assault Phase\n<b>Type:</b> Passive\n<b>Upgrade ability</b>\n\nWhen this Unit attacks an <u><link=\"rule_keyword_enemy\">Enemy</link></u> Unit that has already been Activated during this Phase, its Particle Disruptors gain <u><link=\"rule_keyword_instant\">INSTANT</link></u> for that attack.",
+    "Name": "",
+    "Type": "",
+    "Description": "<u><link=\"pdf_Protoss_rule_stalker_upgrade_assault_phase_fury_of_the_nerazim\"><color=#65c879>INSTANT</color></link></u>",
     "Children": []
   },
   {
@@ -1527,9 +1583,9 @@
   },
   {
     "Id": "pdf_Protoss_rule_zealots_upgrade_combat_phase_we_stand_as_one_effect_0",
-    "Name": "<color=#2596be><color=#65c879>PRECISION (2)</color></color>",
-    "Type": "Rule",
-    "Description": "<b><u><link=\"pdf_Protoss_rule_zealots_upgrade_combat_phase_we_stand_as_one\">We Stand As One</link></u></b>\n\n<b>Phase:</b> Melee Phase\n<b>Type:</b> Passive\n<b>Upgrade ability</b>\n\nWhen this Unit makes a Close Combat Attack, if the target is <u><link=\"rule_keyword_engaged\">Engaged</link></u> with at least 1 other <u><link=\"rule_keyword_friendly\">Friendly</link></u> Unit, this Unit's Close Combat Weapon gains <u><link=\"rule_keyword_precision\">PRECISION</link></u> (2).",
+    "Name": "",
+    "Type": "",
+    "Description": "<u><link=\"pdf_Protoss_rule_zealots_upgrade_combat_phase_we_stand_as_one\"><color=#65c879>PRECISION (2)</color></link></u>",
     "Children": []
   },
   {
