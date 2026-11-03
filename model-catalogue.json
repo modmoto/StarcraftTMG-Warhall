@@ -835,7 +835,7 @@
       "name": "Starcraft - Raven",
       "kind": "unit",
       "faction": "Terran",
-      "flightClearanceMm": 150,
+      "flightClearanceMm": 75,
       "parts": [
         {
           "modelUrl": "https://steamusercontent-a.akamaihd.net/ugc/12783889514308410174/8BEF0E485105274125CA8662DA5907FF0BE0223D/",
@@ -846,7 +846,7 @@
             "rotationY": 0,
             "rotationZ": 0,
             "positionX": 0,
-            "positionY": 13.188464245629326,
+            "positionY": 5.688464245629326,
             "positionZ": 0
           },
           "previewSource": {
@@ -859,7 +859,7 @@
             "rotationY": 0,
             "rotationZ": 0,
             "positionX": 0,
-            "positionY": 13.188464245629326,
+            "positionY": 5.688464245629326,
             "positionZ": 0
           },
           "factionPalette": "Terran"
