@@ -12,16 +12,18 @@ export const sharedDeployment = name => ({
   Y: 0,
   showCenterline: false,
 });
+export const overlayMenuId = template =>
+  `Starcraft - Terrain - Deployment - ${template.deploymentName}`;
 export const overlayPlacement = template => ({
-  Name: overlayId(template),
+  Name: overlayMenuId(template),
   X: 0,
   Y: 0.02,
   Z: 0,
   IsToken: false,
 });
 export const overlayTerrain = template => ({
-  Id: overlayId(template),
-  Name: `Deployment lines - ${template.deploymentName}`,
+  Id: overlayMenuId(template),
+  Name: overlayMenuId(template),
   Type: 'Terrain',
   Description:
     'Decorative deployment entry lines. Automatically placed with the deployment; no filled deployment zones.',

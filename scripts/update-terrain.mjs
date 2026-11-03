@@ -158,7 +158,7 @@ json(
       t =>
         !builtinTerrains.some(native => native.Id === t.Id) &&
         !t.Id.startsWith('sc_terrain_') &&
-        !t.Id.startsWith('Starcraft - Terrain - '),
+        !/^Starcraft - Terrain - (?!Mission marker |Deployment - )/.test(t.Id),
     ),
     ...terrains,
     ...builtinTerrains,

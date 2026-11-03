@@ -81,3 +81,11 @@ The inspected Warhall client copies the loaded terrain object's root renderer ma
 ## Profile layout
 
 Render the selected option links immediately below the default option links, with one line break and no blank line. Keep the spacing before the first phase heading. Insert commas only between visible option names on the same line. Inline profile containers for weapon blocks and upgrade effects must not produce separators on their own lines.
+
+## Test v96 terrain picker and ZIP comparison
+
+Opening Terrain in Starcraft-test produced an unpublished draft with 13 of the repository's 25 terrain records. The downloaded ZIP omitted all five mission markers and seven deployment overlays and changed the 13 retained terrain records. The comparison reported no other file differences.
+
+Two separate Test skins reused the existing green objective and Breach line meshes. They used the `Starcraft - Terrain - Editor Probe - ...` naming pattern and exact-name shared assignments. Both appeared in Terrain → Add and could be added to the draft. Its ZIP contained 15 terrains, with both probe names as IDs and the same 12 original records missing. The test verifies this combination of naming and assignment. It does not isolate the picker filter or verify deployment spawning with migrated references.
+
+For a migration, preserve canonical bindings for existing saves, add the editor-compatible names and update all affected DeploymentTerrains references together. Verify all expected entries and review changes to dimensions and descriptions in a fresh ZIP before merging intended edits through the generators. Both probe skins were assigned only to Starcraft-test. The editor draft was not uploaded to Git.

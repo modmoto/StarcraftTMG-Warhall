@@ -6,7 +6,7 @@ import { createHash } from 'node:crypto';
 import path from 'node:path';
 import { encodeGlb } from '../models/portable-glb.mjs';
 import { projectRoot } from '../paths.mjs';
-import { overlayId } from './package.mjs';
+import { overlayId, overlayMenuId } from './package.mjs';
 
 export function lineGeometry(template, thickness = 1, color = [235, 242, 255]) {
   const vertices = [],
@@ -130,7 +130,7 @@ export async function createDeploymentAssets(templates) {
     };
     entries.push({
       profileId: overlayId(template),
-      name: `Starcraft - Deployment - ${template.deploymentName}`,
+      name: overlayMenuId(template),
       kind: 'deployment',
       calibration: 'deployment-centimeters-v1',
       parts: [

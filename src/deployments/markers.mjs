@@ -27,7 +27,7 @@ export function markerProfileId({ number, color }) {
 }
 
 export const markerMenuId = marker =>
-  `Starcraft - Mission marker ${marker.number} - ${marker.color}`;
+  `Starcraft - Terrain - Mission marker ${marker.number} - ${marker.color}`;
 
 export function markerTokens() {
   return missionMarkers.map(({ number, color }) => ({

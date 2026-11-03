@@ -38,7 +38,7 @@ test('deployment alone places existing native markers at exact centimeter coordi
   assert.ok(output.markerTerrains.every(t => t.Type === 'Terrain'));
   assert.equal(output.deploymentTerrains[0].DeploymentIndex, 1);
   assert.deepEqual(output.deploymentTerrains[0].Items[0], {
-    Name: 'Starcraft - Mission marker 1 - red',
+    Name: 'Starcraft - Terrain - Mission marker 1 - red',
     X: -30.48,
     Y: 0.04,
     Z: 0,
@@ -205,9 +205,14 @@ test('shared deployment menu uses a built-in template and places the exact origi
     assert.equal(deployment.X, 0);
     assert.equal(deployment.Y, 0);
     const placed = config.DeploymentTerrains.find(item => item.DeploymentIndex === i + 1);
-    const overlays = placed.Items.filter(item => item.Name.startsWith('sc_deployment_'));
+    const overlays = placed.Items.filter(item =>
+      item.Name.startsWith('Starcraft - Terrain - Deployment - '),
+    );
     assert.equal(overlays.length, 1);
-    assert.equal(overlays[0].Name, `sc_deployment_${templates[i].deploymentID}`);
+    assert.equal(
+      overlays[0].Name,
+      `Starcraft - Terrain - Deployment - ${templates[i].deploymentName}`,
+    );
     assert.ok(terrains.some(item => item.Id === overlays[0].Name));
   }
 });

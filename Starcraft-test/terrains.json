@@ -1,7 +1,7 @@
 [
   {
-    "Id": "sc_deployment_14025690",
-    "Name": "Deployment lines - TYPHOON",
+    "Id": "Starcraft - Terrain - Deployment - ACROPOLIS",
+    "Name": "Starcraft - Terrain - Deployment - ACROPOLIS",
     "Type": "Terrain",
     "Description": "Decorative deployment entry lines. Automatically placed with the deployment; no filled deployment zones.",
     "Width": 0.1,
@@ -9,8 +9,8 @@
     "Shape": 1
   },
   {
-    "Id": "sc_deployment_16130426",
-    "Name": "Deployment lines - BREACH",
+    "Id": "Starcraft - Terrain - Deployment - BREACH",
+    "Name": "Starcraft - Terrain - Deployment - BREACH",
     "Type": "Terrain",
     "Description": "Decorative deployment entry lines. Automatically placed with the deployment; no filled deployment zones.",
     "Width": 0.1,
@@ -18,8 +18,8 @@
     "Shape": 1
   },
   {
-    "Id": "sc_deployment_16231390",
-    "Name": "Deployment lines - ACROPOLIS",
+    "Id": "Starcraft - Terrain - Deployment - GAUNTLET",
+    "Name": "Starcraft - Terrain - Deployment - GAUNTLET",
     "Type": "Terrain",
     "Description": "Decorative deployment entry lines. Automatically placed with the deployment; no filled deployment zones.",
     "Width": 0.1,
@@ -27,8 +27,8 @@
     "Shape": 1
   },
   {
-    "Id": "sc_deployment_16426918",
-    "Name": "Deployment lines - MEETING ENGAGEMENT",
+    "Id": "Starcraft - Terrain - Deployment - MEETING ENGAGEMENT",
+    "Name": "Starcraft - Terrain - Deployment - MEETING ENGAGEMENT",
     "Type": "Terrain",
     "Description": "Decorative deployment entry lines. Automatically placed with the deployment; no filled deployment zones.",
     "Width": 0.1,
@@ -36,8 +36,8 @@
     "Shape": 1
   },
   {
-    "Id": "sc_deployment_4030768",
-    "Name": "Deployment lines - PROVING GROUNDS",
+    "Id": "Starcraft - Terrain - Deployment - ONE BRIDGE TOO CLOSE",
+    "Name": "Starcraft - Terrain - Deployment - ONE BRIDGE TOO CLOSE",
     "Type": "Terrain",
     "Description": "Decorative deployment entry lines. Automatically placed with the deployment; no filled deployment zones.",
     "Width": 0.1,
@@ -45,8 +45,8 @@
     "Shape": 1
   },
   {
-    "Id": "sc_deployment_5379036",
-    "Name": "Deployment lines - GAUNTLET",
+    "Id": "Starcraft - Terrain - Deployment - PROVING GROUNDS",
+    "Name": "Starcraft - Terrain - Deployment - PROVING GROUNDS",
     "Type": "Terrain",
     "Description": "Decorative deployment entry lines. Automatically placed with the deployment; no filled deployment zones.",
     "Width": 0.1,
@@ -54,57 +54,12 @@
     "Shape": 1
   },
   {
-    "Id": "sc_deployment_5995631",
-    "Name": "Deployment lines - ONE BRIDGE TOO CLOSE",
+    "Id": "Starcraft - Terrain - Deployment - TYPHOON",
+    "Name": "Starcraft - Terrain - Deployment - TYPHOON",
     "Type": "Terrain",
     "Description": "Decorative deployment entry lines. Automatically placed with the deployment; no filled deployment zones.",
     "Width": 0.1,
     "Length": 0.1,
-    "Shape": 1
-  },
-  {
-    "Id": "Starcraft - Mission marker 1 - red",
-    "Name": "Starcraft - Mission marker 1 - red",
-    "Type": "Terrain",
-    "Description": "Mission marker 1. 32 mm circular selection and measurement footprint. Open control ring with a decorated center. The outline extends 3 inches from the marker edge. Activation and control are manual.",
-    "Width": 3.2,
-    "Length": 3.2,
-    "Shape": 1
-  },
-  {
-    "Id": "Starcraft - Mission marker 2 - blue",
-    "Name": "Starcraft - Mission marker 2 - blue",
-    "Type": "Terrain",
-    "Description": "Mission marker 2. 32 mm circular selection and measurement footprint. Open control ring with a decorated center. The outline extends 3 inches from the marker edge. Activation and control are manual.",
-    "Width": 3.2,
-    "Length": 3.2,
-    "Shape": 1
-  },
-  {
-    "Id": "Starcraft - Mission marker 3 - red",
-    "Name": "Starcraft - Mission marker 3 - red",
-    "Type": "Terrain",
-    "Description": "Mission marker 3. 32 mm circular selection and measurement footprint. Open control ring with a decorated center. The outline extends 3 inches from the marker edge. Activation and control are manual.",
-    "Width": 3.2,
-    "Length": 3.2,
-    "Shape": 1
-  },
-  {
-    "Id": "Starcraft - Mission marker 4 - blue",
-    "Name": "Starcraft - Mission marker 4 - blue",
-    "Type": "Terrain",
-    "Description": "Mission marker 4. 32 mm circular selection and measurement footprint. Open control ring with a decorated center. The outline extends 3 inches from the marker edge. Activation and control are manual.",
-    "Width": 3.2,
-    "Length": 3.2,
-    "Shape": 1
-  },
-  {
-    "Id": "Starcraft - Mission marker 5 - green",
-    "Name": "Starcraft - Mission marker 5 - green",
-    "Type": "Terrain",
-    "Description": "Mission marker 5. 32 mm circular selection and measurement footprint. Open control ring with a decorated center. The outline extends 3 inches from the marker edge. Activation and control are manual.",
-    "Width": 3.2,
-    "Length": 3.2,
     "Shape": 1
   },
   {
@@ -133,6 +88,51 @@
     "Width": 37.465,
     "Length": 20.32,
     "Shape": 0
+  },
+  {
+    "Id": "Starcraft - Terrain - Mission marker 1 - red",
+    "Name": "Starcraft - Terrain - Mission marker 1 - red",
+    "Type": "Terrain",
+    "Description": "Mission marker 1. 32 mm circular selection and measurement footprint. Open control ring with a decorated center. The outline extends 3 inches from the marker edge. Activation and control are manual.",
+    "Width": 3.2,
+    "Length": 3.2,
+    "Shape": 1
+  },
+  {
+    "Id": "Starcraft - Terrain - Mission marker 2 - blue",
+    "Name": "Starcraft - Terrain - Mission marker 2 - blue",
+    "Type": "Terrain",
+    "Description": "Mission marker 2. 32 mm circular selection and measurement footprint. Open control ring with a decorated center. The outline extends 3 inches from the marker edge. Activation and control are manual.",
+    "Width": 3.2,
+    "Length": 3.2,
+    "Shape": 1
+  },
+  {
+    "Id": "Starcraft - Terrain - Mission marker 3 - red",
+    "Name": "Starcraft - Terrain - Mission marker 3 - red",
+    "Type": "Terrain",
+    "Description": "Mission marker 3. 32 mm circular selection and measurement footprint. Open control ring with a decorated center. The outline extends 3 inches from the marker edge. Activation and control are manual.",
+    "Width": 3.2,
+    "Length": 3.2,
+    "Shape": 1
+  },
+  {
+    "Id": "Starcraft - Terrain - Mission marker 4 - blue",
+    "Name": "Starcraft - Terrain - Mission marker 4 - blue",
+    "Type": "Terrain",
+    "Description": "Mission marker 4. 32 mm circular selection and measurement footprint. Open control ring with a decorated center. The outline extends 3 inches from the marker edge. Activation and control are manual.",
+    "Width": 3.2,
+    "Length": 3.2,
+    "Shape": 1
+  },
+  {
+    "Id": "Starcraft - Terrain - Mission marker 5 - green",
+    "Name": "Starcraft - Terrain - Mission marker 5 - green",
+    "Type": "Terrain",
+    "Description": "Mission marker 5. 32 mm circular selection and measurement footprint. Open control ring with a decorated center. The outline extends 3 inches from the marker edge. Activation and control are manual.",
+    "Width": 3.2,
+    "Length": 3.2,
+    "Shape": 1
   },
   {
     "Id": "Starcraft - Terrain - Protoss Banner - d26342",

@@ -57,42 +57,42 @@
       "DeploymentIndex": 1,
       "Items": [
         {
-          "Name": "Starcraft - Mission marker 1 - red",
+          "Name": "Starcraft - Terrain - Mission marker 1 - red",
           "X": -38.1,
           "Y": 0.04,
           "Z": 15.24,
           "IsToken": false
         },
         {
-          "Name": "Starcraft - Mission marker 2 - blue",
+          "Name": "Starcraft - Terrain - Mission marker 2 - blue",
           "X": 38.1,
           "Y": 0.04,
           "Z": 15.24,
           "IsToken": false
         },
         {
-          "Name": "Starcraft - Mission marker 3 - red",
+          "Name": "Starcraft - Terrain - Mission marker 3 - red",
           "X": 38.1,
           "Y": 0.04,
           "Z": -15.24,
           "IsToken": false
         },
         {
-          "Name": "Starcraft - Mission marker 4 - blue",
+          "Name": "Starcraft - Terrain - Mission marker 4 - blue",
           "X": -38.1,
           "Y": 0.04,
           "Z": -15.24,
           "IsToken": false
         },
         {
-          "Name": "Starcraft - Mission marker 5 - green",
+          "Name": "Starcraft - Terrain - Mission marker 5 - green",
           "X": 0,
           "Y": 0.04,
           "Z": 0,
           "IsToken": false
         },
         {
-          "Name": "sc_deployment_16231390",
+          "Name": "Starcraft - Terrain - Deployment - ACROPOLIS",
           "X": 0,
           "Y": 0.02,
           "Z": 0,
@@ -104,42 +104,42 @@
       "DeploymentIndex": 2,
       "Items": [
         {
-          "Name": "Starcraft - Mission marker 1 - red",
+          "Name": "Starcraft - Terrain - Mission marker 1 - red",
           "X": -22.86,
           "Y": 0.04,
           "Z": 30.48,
           "IsToken": false
         },
         {
-          "Name": "Starcraft - Mission marker 2 - blue",
+          "Name": "Starcraft - Terrain - Mission marker 2 - blue",
           "X": 22.86,
           "Y": 0.04,
           "Z": 30.48,
           "IsToken": false
         },
         {
-          "Name": "Starcraft - Mission marker 3 - red",
+          "Name": "Starcraft - Terrain - Mission marker 3 - red",
           "X": 22.86,
           "Y": 0.04,
           "Z": -30.48,
           "IsToken": false
         },
         {
-          "Name": "Starcraft - Mission marker 4 - blue",
+          "Name": "Starcraft - Terrain - Mission marker 4 - blue",
           "X": -22.86,
           "Y": 0.04,
           "Z": -30.48,
           "IsToken": false
         },
         {
-          "Name": "Starcraft - Mission marker 5 - green",
+          "Name": "Starcraft - Terrain - Mission marker 5 - green",
           "X": 0,
           "Y": 0.04,
           "Z": 0,
           "IsToken": false
         },
         {
-          "Name": "sc_deployment_16130426",
+          "Name": "Starcraft - Terrain - Deployment - BREACH",
           "X": 0,
           "Y": 0.02,
           "Z": 0,
@@ -151,42 +151,42 @@
       "DeploymentIndex": 3,
       "Items": [
         {
-          "Name": "Starcraft - Mission marker 1 - red",
+          "Name": "Starcraft - Terrain - Mission marker 1 - red",
           "X": -38.1,
           "Y": 0.04,
           "Z": 15.24,
           "IsToken": false
         },
         {
-          "Name": "Starcraft - Mission marker 2 - blue",
+          "Name": "Starcraft - Terrain - Mission marker 2 - blue",
           "X": 38.1,
           "Y": 0.04,
           "Z": -15.24,
           "IsToken": false
         },
         {
-          "Name": "Starcraft - Mission marker 3 - red",
+          "Name": "Starcraft - Terrain - Mission marker 3 - red",
           "X": 22.86,
           "Y": 0.04,
           "Z": 15.24,
           "IsToken": false
         },
         {
-          "Name": "Starcraft - Mission marker 4 - blue",
+          "Name": "Starcraft - Terrain - Mission marker 4 - blue",
           "X": -22.86,
           "Y": 0.04,
           "Z": -15.24,
           "IsToken": false
         },
         {
-          "Name": "Starcraft - Mission marker 5 - green",
+          "Name": "Starcraft - Terrain - Mission marker 5 - green",
           "X": 0,
           "Y": 0.04,
           "Z": 0,
           "IsToken": false
         },
         {
-          "Name": "sc_deployment_5379036",
+          "Name": "Starcraft - Terrain - Deployment - GAUNTLET",
           "X": 0,
           "Y": 0.02,
           "Z": 0,
@@ -198,42 +198,42 @@
       "DeploymentIndex": 4,
       "Items": [
         {
-          "Name": "Starcraft - Mission marker 1 - red",
+          "Name": "Starcraft - Terrain - Mission marker 1 - red",
           "X": -38.1,
           "Y": 0.04,
           "Z": 15.24,
           "IsToken": false
         },
         {
-          "Name": "Starcraft - Mission marker 2 - blue",
+          "Name": "Starcraft - Terrain - Mission marker 2 - blue",
           "X": 38.1,
           "Y": 0.04,
           "Z": -15.24,
           "IsToken": false
         },
         {
-          "Name": "Starcraft - Mission marker 3 - red",
+          "Name": "Starcraft - Terrain - Mission marker 3 - red",
           "X": 38.1,
           "Y": 0.04,
           "Z": 15.24,
           "IsToken": false
         },
         {
-          "Name": "Starcraft - Mission marker 4 - blue",
+          "Name": "Starcraft - Terrain - Mission marker 4 - blue",
           "X": -38.1,
           "Y": 0.04,
           "Z": -15.24,
           "IsToken": false
         },
         {
-          "Name": "Starcraft - Mission marker 5 - green",
+          "Name": "Starcraft - Terrain - Mission marker 5 - green",
           "X": 0,
           "Y": 0.04,
           "Z": 0,
           "IsToken": false
         },
         {
-          "Name": "sc_deployment_16426918",
+          "Name": "Starcraft - Terrain - Deployment - MEETING ENGAGEMENT",
           "X": 0,
           "Y": 0.02,
           "Z": 0,
@@ -245,42 +245,42 @@
       "DeploymentIndex": 5,
       "Items": [
         {
-          "Name": "Starcraft - Mission marker 1 - red",
+          "Name": "Starcraft - Terrain - Mission marker 1 - red",
           "X": 22.86,
           "Y": 0.04,
           "Z": 7.62,
           "IsToken": false
         },
         {
-          "Name": "Starcraft - Mission marker 2 - blue",
+          "Name": "Starcraft - Terrain - Mission marker 2 - blue",
           "X": -22.86,
           "Y": 0.04,
           "Z": 7.62,
           "IsToken": false
         },
         {
-          "Name": "Starcraft - Mission marker 3 - red",
+          "Name": "Starcraft - Terrain - Mission marker 3 - red",
           "X": 38.1,
           "Y": 0.04,
           "Z": -30.48,
           "IsToken": false
         },
         {
-          "Name": "Starcraft - Mission marker 4 - blue",
+          "Name": "Starcraft - Terrain - Mission marker 4 - blue",
           "X": -38.1,
           "Y": 0.04,
           "Z": -30.48,
           "IsToken": false
         },
         {
-          "Name": "Starcraft - Mission marker 5 - green",
+          "Name": "Starcraft - Terrain - Mission marker 5 - green",
           "X": 0,
           "Y": 0.04,
           "Z": -30.48,
           "IsToken": false
         },
         {
-          "Name": "sc_deployment_5995631",
+          "Name": "Starcraft - Terrain - Deployment - ONE BRIDGE TOO CLOSE",
           "X": 0,
           "Y": 0.02,
           "Z": 0,
@@ -292,42 +292,42 @@
       "DeploymentIndex": 6,
       "Items": [
         {
-          "Name": "Starcraft - Mission marker 1 - red",
+          "Name": "Starcraft - Terrain - Mission marker 1 - red",
           "X": -38.1,
           "Y": 0.04,
           "Z": 15.24,
           "IsToken": false
         },
         {
-          "Name": "Starcraft - Mission marker 2 - blue",
+          "Name": "Starcraft - Terrain - Mission marker 2 - blue",
           "X": 22.86,
           "Y": 0.04,
           "Z": -15.24,
           "IsToken": false
         },
         {
-          "Name": "Starcraft - Mission marker 3 - red",
+          "Name": "Starcraft - Terrain - Mission marker 3 - red",
           "X": 38.1,
           "Y": 0.04,
           "Z": 15.24,
           "IsToken": false
         },
         {
-          "Name": "Starcraft - Mission marker 4 - blue",
+          "Name": "Starcraft - Terrain - Mission marker 4 - blue",
           "X": -22.86,
           "Y": 0.04,
           "Z": -15.24,
           "IsToken": false
         },
         {
-          "Name": "Starcraft - Mission marker 5 - green",
+          "Name": "Starcraft - Terrain - Mission marker 5 - green",
           "X": 0,
           "Y": 0.04,
           "Z": 15.24,
           "IsToken": false
         },
         {
-          "Name": "sc_deployment_4030768",
+          "Name": "Starcraft - Terrain - Deployment - PROVING GROUNDS",
           "X": 0,
           "Y": 0.02,
           "Z": 0,
@@ -339,42 +339,42 @@
       "DeploymentIndex": 7,
       "Items": [
         {
-          "Name": "Starcraft - Mission marker 1 - red",
+          "Name": "Starcraft - Terrain - Mission marker 1 - red",
           "X": -22.86,
           "Y": 0.04,
           "Z": 15.24,
           "IsToken": false
         },
         {
-          "Name": "Starcraft - Mission marker 2 - blue",
+          "Name": "Starcraft - Terrain - Mission marker 2 - blue",
           "X": -53.34,
           "Y": 0.04,
           "Z": 30.48,
           "IsToken": false
         },
         {
-          "Name": "Starcraft - Mission marker 3 - red",
+          "Name": "Starcraft - Terrain - Mission marker 3 - red",
           "X": 53.34,
           "Y": 0.04,
           "Z": -30.48,
           "IsToken": false
         },
         {
-          "Name": "Starcraft - Mission marker 4 - blue",
+          "Name": "Starcraft - Terrain - Mission marker 4 - blue",
           "X": 22.86,
           "Y": 0.04,
           "Z": -15.24,
           "IsToken": false
         },
         {
-          "Name": "Starcraft - Mission marker 5 - green",
+          "Name": "Starcraft - Terrain - Mission marker 5 - green",
           "X": 0,
           "Y": 0.04,
           "Z": 0,
           "IsToken": false
         },
         {
-          "Name": "sc_deployment_14025690",
+          "Name": "Starcraft - Terrain - Deployment - TYPHOON",
           "X": 0,
           "Y": 0.02,
           "Z": 0,

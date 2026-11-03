@@ -20,7 +20,7 @@ const { catalogue } = publicationTarget(
   values.server,
 );
 const entries = catalogue.entries.filter(entry =>
-  ['token', 'terrain', 'marker'].includes(entry.kind),
+  ['token', 'terrain', 'marker', 'deployment'].includes(entry.kind),
 );
 const cookie = values.login ? await promptLogin(catalogue.serverUrl) : process.env.WARHALL_COOKIE;
 assert.ok(cookie, 'Use --login or an explicitly supplied WARHALL_COOKIE');

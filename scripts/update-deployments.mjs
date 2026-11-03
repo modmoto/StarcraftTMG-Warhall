@@ -158,7 +158,8 @@ json(
       t =>
         !t.Id.startsWith('sc_mission_') &&
         !t.Id.startsWith('sc_deployment_') &&
-        !t.Id.startsWith('Starcraft - Mission marker '),
+        !t.Id.startsWith('Starcraft - Mission marker ') &&
+        !/^Starcraft - Terrain - (Mission marker |Deployment - )/.test(t.Id),
     ),
     ...generated.markerTerrains,
     ...generated.overlayTerrains,

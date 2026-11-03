@@ -202,7 +202,7 @@ export async function createMarkerAssets({
     };
     result.push({
       profileId: marker.profileId,
-      name: `Starcraft - Mission marker ${marker.number} - ${marker.color}`,
+      name: `Starcraft - Terrain - Mission marker ${marker.number} - ${marker.color}`,
       kind: 'marker',
       ...(marker.replacesNativeSkinId ? { replacesNativeSkinId: marker.replacesNativeSkinId } : {}),
       calibration: 'marker-centimeters-v2',

@@ -2114,7 +2114,7 @@
     },
     {
       "profileId": "sc_mission_red",
-      "name": "Starcraft - Mission marker 1 - red",
+      "name": "Starcraft - Terrain - Mission marker 1 - red",
       "kind": "marker",
       "replacesNativeSkinId": 6201,
       "calibration": "marker-centimeters-v2",
@@ -2152,7 +2152,7 @@
     },
     {
       "profileId": "sc_mission_blue",
-      "name": "Starcraft - Mission marker 2 - blue",
+      "name": "Starcraft - Terrain - Mission marker 2 - blue",
       "kind": "marker",
       "replacesNativeSkinId": 6202,
       "calibration": "marker-centimeters-v2",
@@ -2190,7 +2190,7 @@
     },
     {
       "profileId": "sc_mission_red_3",
-      "name": "Starcraft - Mission marker 3 - red",
+      "name": "Starcraft - Terrain - Mission marker 3 - red",
       "kind": "marker",
       "calibration": "marker-centimeters-v2",
       "markerNumber": 3,
@@ -2227,7 +2227,7 @@
     },
     {
       "profileId": "sc_mission_blue_4",
-      "name": "Starcraft - Mission marker 4 - blue",
+      "name": "Starcraft - Terrain - Mission marker 4 - blue",
       "kind": "marker",
       "calibration": "marker-centimeters-v2",
       "markerNumber": 4,
@@ -2264,7 +2264,7 @@
     },
     {
       "profileId": "sc_mission_green",
-      "name": "Starcraft - Mission marker 5 - green",
+      "name": "Starcraft - Terrain - Mission marker 5 - green",
       "kind": "marker",
       "replacesNativeSkinId": 6203,
       "calibration": "marker-centimeters-v2",
@@ -2863,7 +2863,7 @@
     },
     {
       "profileId": "sc_deployment_16231390",
-      "name": "Starcraft - Deployment - ACROPOLIS",
+      "name": "Starcraft - Terrain - Deployment - ACROPOLIS",
       "kind": "deployment",
       "calibration": "deployment-centimeters-v1",
       "parts": [
@@ -2895,7 +2895,7 @@
     },
     {
       "profileId": "sc_deployment_16130426",
-      "name": "Starcraft - Deployment - BREACH",
+      "name": "Starcraft - Terrain - Deployment - BREACH",
       "kind": "deployment",
       "calibration": "deployment-centimeters-v1",
       "parts": [
@@ -2927,7 +2927,7 @@
     },
     {
       "profileId": "sc_deployment_5379036",
-      "name": "Starcraft - Deployment - GAUNTLET",
+      "name": "Starcraft - Terrain - Deployment - GAUNTLET",
       "kind": "deployment",
       "calibration": "deployment-centimeters-v1",
       "parts": [
@@ -2959,7 +2959,7 @@
     },
     {
       "profileId": "sc_deployment_16426918",
-      "name": "Starcraft - Deployment - MEETING ENGAGEMENT",
+      "name": "Starcraft - Terrain - Deployment - MEETING ENGAGEMENT",
       "kind": "deployment",
       "calibration": "deployment-centimeters-v1",
       "parts": [
@@ -2991,7 +2991,7 @@
     },
     {
       "profileId": "sc_deployment_5995631",
-      "name": "Starcraft - Deployment - ONE BRIDGE TOO CLOSE",
+      "name": "Starcraft - Terrain - Deployment - ONE BRIDGE TOO CLOSE",
       "kind": "deployment",
       "calibration": "deployment-centimeters-v1",
       "parts": [
@@ -3023,7 +3023,7 @@
     },
     {
       "profileId": "sc_deployment_4030768",
-      "name": "Starcraft - Deployment - PROVING GROUNDS",
+      "name": "Starcraft - Terrain - Deployment - PROVING GROUNDS",
       "kind": "deployment",
       "calibration": "deployment-centimeters-v1",
       "parts": [
@@ -3055,7 +3055,7 @@
     },
     {
       "profileId": "sc_deployment_14025690",
-      "name": "Starcraft - Deployment - TYPHOON",
+      "name": "Starcraft - Terrain - Deployment - TYPHOON",
       "kind": "deployment",
       "calibration": "deployment-centimeters-v1",
       "parts": [

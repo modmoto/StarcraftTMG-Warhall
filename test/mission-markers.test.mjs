@@ -54,7 +54,7 @@ test('five mission marker assignments use open control ring geometry, not separa
       layout.Items.every(
         item =>
           missionMarkers.some(marker => markerMenuId(marker) === item.Name) ||
-          item.Name.startsWith('sc_deployment_'),
+          item.Name.startsWith('Starcraft - Terrain - Deployment - '),
       ),
     ),
   );
