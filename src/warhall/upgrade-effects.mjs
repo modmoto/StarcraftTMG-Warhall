@@ -105,11 +105,6 @@ export function upgradeEffects(unit, profile) {
       kind: 'statNote',
       text: `Supply: ${blue('0')} for calculating the Supply Pool only`,
     });
-  if (/1 additional model Within Range/.test(effect))
-    result.push({
-      kind: 'statNote',
-      text: `Life Support / Medpack: ${blue('+1 model')} for calculating effects`,
-    });
   if (/each eligible model generates 1 additional IMPACT die/.test(effect)) {
     const impact = unit.profiles
       .map(rule => rule.attributes.Effect ?? '')
