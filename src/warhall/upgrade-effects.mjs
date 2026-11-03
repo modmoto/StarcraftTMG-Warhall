@@ -223,20 +223,23 @@ export function applyUpgradeEffects(
       remove.push({ Id: oldId });
       add.push({ Id: `${ids.profile}_selected_options`, Ref: [{ Id: id }] });
     } else {
-      const description = `<u><link="${recordId}">${effect.text}</link></u>`;
-      textRow(records, id, description);
+      const label = effect.text.match(
+        /^<color=(#[a-f0-9]+)>\(?(INSTANT|Evade eligible|(?:PRECISION|CRITICAL HIT|ANTI-EVADE|TOUGH) \(\d+\))/i,
+      );
+      const source = records.rules.get(recordId);
+      if (label) {
+        const [, color, name] = label;
+        records.rules.set(id, {
+          Id: id,
+          Name: `<color=${color}>${name}</color>`,
+          Type: 'Rule',
+          Description: `<b>${source.Name}</b>\n\n${source.Description}`,
+          Children: [],
+        });
+      } else {
+        textRow(records, id, effect.text);
+      }
       if (effect.kind === 'weaponNote') {
-        const keyword = effect.text.match(
-          /^<color=(#[a-f0-9]+)>\(?(INSTANT|(?:PRECISION|CRITICAL HIT|ANTI-EVADE) \(\d+\))/i,
-        );
-        if (keyword) {
-          const [, color, label] = keyword;
-          Object.assign(records.rules.get(id), {
-            Name: `<color=${color}>${label}</color>`,
-            Type: 'Rule',
-            Description: records.rules.get(recordId).Description,
-          });
-        }
         const weaponId = defaults[unit.profiles.indexOf(effect.weapon)];
         add.push({
           Id: `${weaponId}_slot`,

@@ -219,7 +219,10 @@ test('conditional Armour remains informational and composes with numeric HP in e
     assert.equal(stats.Attributes.Arm, '4+');
     assert.equal(stats.Attributes.HP, '<color=#2596be>6</color><size=0>(6)</size>');
     assert.match(
-      profile.map(row => row.Description).join('\n'),
+      profile
+        .map(row => row.Description)
+        .join('\n')
+        .replace(/<\/?u>|<\/?link(?:="[^"]*")?>/g, ''),
       /Armour: 4\+ <color=#65c879>\(3\+ — within 3" of a mission marker\)<\/color>/,
     );
   }
