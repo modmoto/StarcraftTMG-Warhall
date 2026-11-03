@@ -821,8 +821,8 @@
         "partCount": 1
       }
     ],
-    "flightClearanceMm": 50,
-    "flightLift": 2.9227752879224003,
+    "flightClearanceMm": 25,
+    "flightLift": 0.42277528792240027,
     "rotations": [
       [
         0,
