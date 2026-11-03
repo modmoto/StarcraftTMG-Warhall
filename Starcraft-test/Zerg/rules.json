@@ -1615,13 +1615,13 @@
   },
   {
     "Id": "pdf_Zerg_rule_bile_launcher_movement_phase_burrow_ambush",
-    "Name": "Burrow Ambush (Bile Launcher, Vileling (Zergling))",
+    "Name": "Burrow Ambush",
     "Type": "Rule",
     "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Passive\n\nWhen this Unit is nominated to deploy from the <u><link=\"rule_keyword_reserves\">Reserves</link></u>, it may resolve the <u><link=\"rule_keyword_place\">PLACE</link></u> (18) effect from the <u><link=\"rule_keyword_controlling_player\">controlling player</link></u>'s <u><link=\"rule_keyword_entry_edge\">Entry Edge</link></u>. No model may be set <u><link=\"rule_keyword_within\">Within</link></u> 10\" of any <u><link=\"rule_keyword_enemy\">Enemy</link></u> model. This Unit's Activation ends."
   },
   {
     "Id": "pdf_Zerg_rule_corpsers_roach_any_phase_burrow",
-    "Name": "Burrow (Corpsers (Roach), Roaches)",
+    "Name": "Burrow",
     "Type": "Rule",
     "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Active\n<b>Cost:</b> 2 BM\n\nIf this Unit is <u><link=\"rule_keyword_unengaged\">Unengaged</link></u>, it gains or loses the <u><link=\"rule_keyword_burrowed\">Burrowed</link></u> <u><link=\"rule_keyword_status\">Status</link></u>."
   },
@@ -1639,7 +1639,7 @@
   },
   {
     "Id": "pdf_Zerg_rule_corpsers_roach_upgrade_any_phase_tunneling_claws",
-    "Name": "<color=#2596be>Tunneling Claws (Corpsers (Roach), Roaches)</color>",
+    "Name": "<color=#2596be>Tunneling Claws</color>",
     "Type": "Rule",
     "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Passive\n<b>Upgrade ability</b>\n\nWhile this Unit has the <u><link=\"rule_keyword_burrowed\">Burrowed</link></u> <u><link=\"rule_keyword_status\">Status</link></u>, it may perform the Move and Run actions without losing that <u><link=\"rule_keyword_status\">Status</link></u>. It may also move through other <u><link=\"rule_chapter_2_2\">Units</link></u>' <u><link=\"rule_chapter_2_3\">bases</link></u>."
   },
@@ -1665,13 +1665,13 @@
   },
   {
     "Id": "pdf_Zerg_rule_corpsers_roach_upgrade_movement_phase_burrow_ambush",
-    "Name": "<color=#2596be>Burrow Ambush (Corpsers (Roach), Hydralisks, Raptors (Zergling), Ravagers, Roaches, Swarmlings, Viles (Roach), Zerglings)</color>",
+    "Name": "<color=#2596be>Burrow Ambush</color>",
     "Type": "Rule",
     "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Passive\n<b>Upgrade ability</b>\n\nWhen this Unit is nominated to deploy from the <u><link=\"rule_keyword_reserves\">Reserves</link></u>, it may resolve the <u><link=\"rule_keyword_place\">PLACE</link></u> (18) effect from the <u><link=\"rule_keyword_controlling_player\">controlling player</link></u>'s <u><link=\"rule_keyword_entry_edge\">Entry Edge</link></u>. No model may be set <u><link=\"rule_keyword_within\">Within</link></u> 10\" of any <u><link=\"rule_keyword_enemy\">Enemy</link></u> model. This Unit's Activation ends."
   },
   {
     "Id": "pdf_Zerg_rule_corpsers_roach_upgrade_movement_phase_glial_reconstitution",
-    "Name": "<color=#2596be>Glial Reconstitution (Corpsers (Roach), Roaches)</color>",
+    "Name": "<color=#2596be>Glial Reconstitution</color>",
     "Type": "Rule",
     "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Active\n<b>Cost:</b> 1 CP\n<b>Upgrade ability</b>\n\nThis Unit gains <u><link=\"rule_keyword_buff\">BUFF</link></u> SPEED (1), or <u><link=\"rule_keyword_buff\">BUFF</link></u> SPEED (2) if the Unit is <u><link=\"rule_keyword_on_creep\">ON CREEP</link></u>."
   },
@@ -1800,12 +1800,6 @@
     "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Active\n<b>Cost:</b> 1 BM\n\nWhen determining <u><link=\"rule_chapter_8_7_7\">Charge</link></u> Distance for this Unit, add 2 to the <u><link=\"rule_chapter_8_7_7\">Charge</link></u> Distance."
   },
   {
-    "Id": "pdf_Zerg_rule_omega_worm_any_phase_detection",
-    "Name": "Detection (Omega Worm)",
-    "Type": "Rule",
-    "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Passive\n\nWhile <u><link=\"rule_keyword_enemy\">Enemy</link></u> <u><link=\"rule_chapter_2_2\">Units</link></u> are <u><link=\"rule_keyword_within\">Within</link></u> 6\" of this Unit, they lose <u><link=\"rule_keyword_hidden\">HIDDEN</link></u> <u><link=\"rule_keyword_status\">Status</link></u>."
-  },
-  {
     "Id": "pdf_Zerg_rule_omega_worm_any_phase_omega_network",
     "Name": "Omega Network",
     "Type": "Rule",
@@ -1894,7 +1888,7 @@
     "Id": "pdf_Zerg_rule_ravagers_movement_phase_deep_tunnel",
     "Name": "Deep Tunnel",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Active\n<b>Cost:</b> 1 BM\n\nSet a Ravager Burrow token <u><link=\"rule_keyword_wholly_within\">Wholly Within</link></u> 12\" of any model in this Unit. At the End of the Round, the <u><link=\"rule_keyword_controlling_player\">controlling player</link></u> may set all <u><link=\"rule_chapter_2_1\">models</link></u> of this Unit in <u><link=\"rule_chapter_4_4\">Coherency</link></u>, treating the Ravager Burrow token as the <u><link=\"rule_keyword_leading_model\">Leading Model</link></u>. The Ravager Burrow token has <u><link=\"rule_keyword_displacement\">DISPLACEMENT</link></u>."
+    "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Active\n<b>Cost:</b> 1 BM\n\nSet a Ravager <u><link=\"pdf_Zerg_rule_corpsers_roach_any_phase_burrow\">Burrow</link></u> token <u><link=\"rule_keyword_wholly_within\">Wholly Within</link></u> 12\" of any model in this Unit. At the End of the Round, the <u><link=\"rule_keyword_controlling_player\">controlling player</link></u> may set all <u><link=\"rule_chapter_2_1\">models</link></u> of this Unit in <u><link=\"rule_chapter_4_4\">Coherency</link></u>, treating the Ravager <u><link=\"pdf_Zerg_rule_corpsers_roach_any_phase_burrow\">Burrow</link></u> token as the <u><link=\"rule_keyword_leading_model\">Leading Model</link></u>. The Ravager <u><link=\"pdf_Zerg_rule_corpsers_roach_any_phase_burrow\">Burrow</link></u> token has <u><link=\"rule_keyword_displacement\">DISPLACEMENT</link></u>."
   },
   {
     "Id": "pdf_Zerg_rule_ravagers_upgrade_any_phase_bloated_bile_ducts",

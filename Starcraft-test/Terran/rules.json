@@ -1844,7 +1844,7 @@
   },
   {
     "Id": "pdf_Terran_rule_marines_movement_phase_stimpack",
-    "Name": "Stimpack (Marines)",
+    "Name": "Stimpack",
     "Type": "Rule",
     "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Active\n<b>Cost:</b> 1 CP\n\nThis Unit suffers <u><link=\"rule_keyword_non_lethal_damage\">NON-LETHAL DAMAGE</link></u> (2). This Unit gains <u><link=\"rule_keyword_buff\">BUFF</link></u> Speed (3). Additionally, its C-14 Rifle and all Close Combat Weapons gain <u><link=\"rule_keyword_precision\">PRECISION</link></u> (3)."
   },
@@ -2011,7 +2011,7 @@
   },
   {
     "Id": "pdf_Terran_rule_raven_any_phase_detection",
-    "Name": "Detection (Bile Launcher, Raven)",
+    "Name": "Detection",
     "Type": "Rule",
     "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Passive\n\nWhile <u><link=\"rule_keyword_enemy\">Enemy</link></u> <u><link=\"rule_chapter_2_2\">Units</link></u> are <u><link=\"rule_keyword_within\">Within</link></u> 6\" of this Unit, they lose the <u><link=\"rule_keyword_hidden\">HIDDEN</link></u> <u><link=\"rule_keyword_status\">Status</link></u>."
   },

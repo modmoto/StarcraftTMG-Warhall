@@ -126,8 +126,8 @@ test('Immortal replacements preserve the other arm and Fury Unyielding preserves
   assert.ok(fury.some(row => plain(row.Name) === 'Fury Unyielding'));
 });
 
-test('Marines and Raiders share Stimpack (Marines), distinct from Marauders', () => {
-  const find = name => unitProfile(name).find(row => plain(row.Name) === 'Stimpack (Marines)');
+test('Marines and Raiders share Stimpack, distinct from Marauders', () => {
+  const find = name => unitProfile(name).find(row => plain(row.Name) === 'Stimpack');
   const marine = find('Marines');
   const raider = find("Raynor's Raiders");
   assert.ok(marine && raider);

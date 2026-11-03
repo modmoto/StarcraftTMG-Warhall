@@ -1,5 +1,10 @@
 const escape = value => value.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-const key = rule => `${rule.Name.toLowerCase()}\n${rule.Description.replace(/\s+/g, ' ').trim()}`;
+function key(rule) {
+  const name = rule.Name.toLowerCase();
+  let wording = rule.Description.replace(/\s+/g, ' ').trim();
+  if (name === 'detection') wording = wording.replace('they lose the ', 'they lose ');
+  return `${name}\n${wording}`;
+}
 
 function rewrite(value, aliases) {
   if (Array.isArray(value)) return value.map(item => rewrite(item, aliases));
@@ -35,11 +40,8 @@ export function consolidateRules(data, owners) {
     for (const rule of group) {
       if (/^(?:Slugthrower|Grenades - Frag)$/i.test(rule.Name)) continue;
       const unitNames = [...(owners.get(rule.Id) ?? [])];
-      const context =
-        /^Stimpack$/i.test(rule.Name) &&
-        unitNames.some(name => /^(?:Marines|Raynor.s Raiders)$/.test(name))
-          ? 'Marines'
-          : unitNames.sort().join(', ');
+      if (unitNames.length > 1) continue;
+      const context = unitNames.join(', ');
       rule.Name += ` (${context || rule.Id})`;
     }
   }
