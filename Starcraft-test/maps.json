@@ -1521,121 +1521,121 @@
       {
         "Id": "Starcraft - Terrain - Wall Set 6 - ef2272",
         "Quadrant": 1,
-        "Rotation": 0,
-        "ShortSide": 39.3727,
-        "LongSide": 24.2048,
+        "Rotation": 270,
+        "ShortSide": 24,
+        "LongSide": 5.625,
         "Type": "Terrain"
       },
       {
         "Id": "Starcraft - Terrain - Wall Set 1 - 3c823b",
         "Quadrant": 1,
-        "Rotation": 210,
-        "ShortSide": 21.6861,
-        "LongSide": 12.6283,
+        "Rotation": 120,
+        "ShortSide": 14,
+        "LongSide": 21.5,
         "Type": "Terrain"
       },
       {
         "Id": "Starcraft - Terrain - Temple Obelisk - 627dc3",
         "Quadrant": 1,
-        "Rotation": 0,
-        "ShortSide": 15.7992,
-        "LongSide": 17.2146,
+        "Rotation": 270,
+        "ShortSide": 17.25,
+        "LongSide": 29.125,
         "Type": "Terrain"
       },
       {
         "Id": "Starcraft - Terrain - Wall Set 4 - f43c5b",
         "Quadrant": 1,
-        "Rotation": 180,
-        "ShortSide": 17.959899999999998,
-        "LongSide": 31.836199999999998,
+        "Rotation": 90,
+        "ShortSide": 28.875,
+        "LongSide": 27.25,
         "Type": "Terrain"
       },
       {
         "Id": "Starcraft - Terrain - Wall Set 2 - 3895d1",
         "Quadrant": 1,
-        "Rotation": 68,
-        "ShortSide": 29.0866,
-        "LongSide": 21.6485,
+        "Rotation": 345,
+        "ShortSide": 24,
+        "LongSide": 13.625,
         "Type": "Terrain"
       },
       {
         "Id": "Starcraft - Terrain - Head Statue - acfebe",
         "Quadrant": 1,
-        "Rotation": 165,
-        "ShortSide": 21.3065,
-        "LongSide": 4.971500000000001,
+        "Rotation": 75,
+        "ShortSide": 5,
+        "LongSide": 24,
         "Type": "Terrain"
       },
       {
         "Id": "Starcraft - Terrain - Statue Shard - 91ae73",
         "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 17.25,
+        "LongSide": 9,
+        "Type": "Terrain"
+      },
+      {
+        "Id": "Starcraft - Terrain - grass - 0c8124",
+        "Quadrant": 1,
+        "Rotation": 105,
+        "ShortSide": 31.375,
+        "LongSide": 13.125,
+        "Type": "Terrain"
+      },
+      {
+        "Id": "Starcraft - Terrain - grass - 0c8124",
+        "Quadrant": 1,
         "Rotation": 90,
-        "ShortSide": 35.0011,
-        "LongSide": 17.2683,
-        "Type": "Terrain"
-      },
-      {
-        "Id": "Starcraft - Terrain - grass - 0c8124",
-        "Quadrant": 1,
-        "Rotation": 195,
-        "ShortSide": 31.2534,
-        "LongSide": 31.613599999999998,
-        "Type": "Terrain"
-      },
-      {
-        "Id": "Starcraft - Terrain - grass - 0c8124",
-        "Quadrant": 1,
-        "Rotation": 180,
-        "ShortSide": 21.6368,
-        "LongSide": 8.9172,
+        "ShortSide": 9,
+        "LongSide": 23.625,
         "Type": "Terrain"
       },
       {
         "Id": "Starcraft - Terrain - Vespene Geyser - d91b9c",
         "Quadrant": 1,
-        "Rotation": 150,
-        "ShortSide": 31.7654,
-        "LongSide": 33.5143,
+        "Rotation": 60,
+        "ShortSide": 33.5,
+        "LongSide": 13.25,
         "Type": "Terrain"
       },
       {
         "Id": "Starcraft - Terrain - grass - 0c8124",
         "Quadrant": 1,
-        "Rotation": 19,
-        "ShortSide": 32.9346,
-        "LongSide": 28.221899999999998,
+        "Rotation": 285,
+        "ShortSide": 29,
+        "LongSide": 12.375,
         "Type": "Terrain"
       },
       {
         "Id": "Starcraft - Terrain - grass - 0c8124",
         "Quadrant": 1,
-        "Rotation": 180,
-        "ShortSide": 21.3475,
-        "LongSide": 11.3767,
+        "Rotation": 90,
+        "ShortSide": 11.125,
+        "LongSide": 23.625,
         "Type": "Terrain"
       },
       {
         "Id": "Starcraft - Terrain - Protoss Banner - d26342",
         "Quadrant": 1,
-        "Rotation": 90,
-        "ShortSide": 26.5735,
-        "LongSide": 8.8983,
+        "Rotation": 0,
+        "ShortSide": 8.875,
+        "LongSide": 18.375,
         "Type": "Terrain"
       },
       {
         "Id": "Starcraft - Terrain - Wall Set 3 - c2f1b7",
         "Quadrant": 1,
-        "Rotation": 186,
-        "ShortSide": 21.8688,
-        "LongSide": 24.6431,
+        "Rotation": 90,
+        "ShortSide": 24.125,
+        "LongSide": 23.375,
         "Type": "Terrain"
       },
       {
         "Id": "Starcraft - Terrain - Wall Set 5 - 39b63f",
         "Quadrant": 1,
-        "Rotation": 360,
-        "ShortSide": 37.2801,
-        "LongSide": 11.306000000000001,
+        "Rotation": 270,
+        "ShortSide": 7.75,
+        "LongSide": 9.375,
         "Type": "Terrain"
       }
     ]
@@ -1648,121 +1648,121 @@
       {
         "Id": "Starcraft - Terrain - grass - 0c8124",
         "Quadrant": 1,
-        "Rotation": 345,
-        "ShortSide": 31.7792,
-        "LongSide": 0.6810000000000009,
+        "Rotation": 255,
+        "ShortSide": 1.25,
+        "LongSide": 13.125,
         "Type": "Terrain"
       },
       {
         "Id": "Starcraft - Terrain - Statue Shard - 91ae73",
         "Quadrant": 1,
-        "Rotation": 90,
-        "ShortSide": 26.2169,
-        "LongSide": 15.1069,
+        "Rotation": 0,
+        "ShortSide": 15,
+        "LongSide": 17.625,
         "Type": "Terrain"
       },
       {
         "Id": "Starcraft - Terrain - Wall Set 2 - 3895d1",
         "Quadrant": 1,
-        "Rotation": 285,
-        "ShortSide": 21.2109,
-        "LongSide": 13.5228,
+        "Rotation": 195,
+        "ShortSide": 10.5,
+        "LongSide": 24.5,
         "Type": "Terrain"
       },
       {
         "Id": "Starcraft - Terrain - Wall Set 1 - 3c823b",
         "Quadrant": 1,
-        "Rotation": 269,
-        "ShortSide": 32.1947,
-        "LongSide": 6.674899999999999,
+        "Rotation": 180,
+        "ShortSide": 8.625,
+        "LongSide": 13.125,
         "Type": "Terrain"
       },
       {
         "Id": "Starcraft - Terrain - Head Statue - acfebe",
         "Quadrant": 1,
-        "Rotation": 165,
-        "ShortSide": 21.1162,
-        "LongSide": 33.6042,
+        "Rotation": 75,
+        "ShortSide": 33.75,
+        "LongSide": 24.375,
         "Type": "Terrain"
       },
       {
         "Id": "Starcraft - Terrain - Temple Obelisk - 627dc3",
         "Quadrant": 1,
-        "Rotation": 45,
-        "ShortSide": 23.6149,
-        "LongSide": 4.783099999999999,
+        "Rotation": 315,
+        "ShortSide": 4.75,
+        "LongSide": 21.375,
         "Type": "Terrain"
       },
       {
         "Id": "Starcraft - Terrain - Wall Set 6 - ef2272",
         "Quadrant": 1,
-        "Rotation": 180,
-        "ShortSide": 39.457,
-        "LongSide": 17.2863,
+        "Rotation": 90,
+        "ShortSide": 17.5,
+        "LongSide": 5.625,
         "Type": "Terrain"
       },
       {
         "Id": "Starcraft - Terrain - grass - 0c8124",
         "Quadrant": 1,
-        "Rotation": 180,
-        "ShortSide": 20.366799999999998,
-        "LongSide": 31.683799999999998,
+        "Rotation": 90,
+        "ShortSide": 31.125,
+        "LongSide": 24.5,
         "Type": "Terrain"
       },
       {
         "Id": "Starcraft - Terrain - Wall Set 5 - 39b63f",
         "Quadrant": 1,
-        "Rotation": 270,
-        "ShortSide": 34.2515,
-        "LongSide": 24.442,
+        "Rotation": 180,
+        "ShortSide": 25.5,
+        "LongSide": 14.25,
         "Type": "Terrain"
       },
       {
         "Id": "Starcraft - Terrain - Wall Set 4 - f43c5b",
         "Quadrant": 1,
-        "Rotation": 270,
-        "ShortSide": 20.345100000000002,
-        "LongSide": 25.6937,
+        "Rotation": 180,
+        "ShortSide": 25.5,
+        "LongSide": 21.375,
         "Type": "Terrain"
       },
       {
         "Id": "Starcraft - Terrain - Vespene Geyser - d91b9c",
         "Quadrant": 1,
-        "Rotation": 135,
-        "ShortSide": 34.5677,
-        "LongSide": 31.2397,
+        "Rotation": 45,
+        "ShortSide": 31.5,
+        "LongSide": 10.5,
         "Type": "Terrain"
       },
       {
         "Id": "Starcraft - Terrain - grass - 0c8124",
         "Quadrant": 1,
-        "Rotation": 345,
-        "ShortSide": 31.3534,
-        "LongSide": 3.3621999999999996,
+        "Rotation": 255,
+        "ShortSide": 3.75,
+        "LongSide": 13.375,
         "Type": "Terrain"
       },
       {
         "Id": "Starcraft - Terrain - Wall Set 3 - c2f1b7",
         "Quadrant": 1,
-        "Rotation": 122,
-        "ShortSide": 14.75,
-        "LongSide": 18.0945,
+        "Rotation": 30,
+        "ShortSide": 18.125,
+        "LongSide": 30.375,
         "Type": "Terrain"
       },
       {
         "Id": "Starcraft - Terrain - Protoss Banner - d26342",
         "Quadrant": 1,
-        "Rotation": 90,
-        "ShortSide": 26.653,
-        "LongSide": 21.2336,
+        "Rotation": 0,
+        "ShortSide": 21.125,
+        "LongSide": 18.375,
         "Type": "Terrain"
       },
       {
         "Id": "Starcraft - Terrain - grass - 0c8124",
         "Quadrant": 1,
-        "Rotation": 180,
-        "ShortSide": 20.9166,
-        "LongSide": 29.4068,
+        "Rotation": 90,
+        "ShortSide": 28.625,
+        "LongSide": 24,
         "Type": "Terrain"
       }
     ]
@@ -1775,129 +1775,129 @@
       {
         "Id": "Starcraft - Terrain - Wall Set 5 - 39b63f",
         "Quadrant": 1,
-        "Rotation": 180,
-        "ShortSide": 33.9065,
-        "LongSide": 8.8701,
-        "Type": "Terrain"
-      },
-      {
-        "Id": "Starcraft - Terrain - grass - 0c8124",
-        "Quadrant": 1,
         "Rotation": 90,
-        "ShortSide": 14.1419,
-        "LongSide": 9.983,
+        "ShortSide": 12.25,
+        "LongSide": 9.75,
         "Type": "Terrain"
       },
       {
         "Id": "Starcraft - Terrain - grass - 0c8124",
         "Quadrant": 1,
-        "Rotation": 75,
-        "ShortSide": 11.1933,
-        "LongSide": 9.8488,
+        "Rotation": 0,
+        "ShortSide": 9.875,
+        "LongSide": 31.625,
+        "Type": "Terrain"
+      },
+      {
+        "Id": "Starcraft - Terrain - grass - 0c8124",
+        "Quadrant": 1,
+        "Rotation": 345,
+        "ShortSide": 9.875,
+        "LongSide": 34.125,
         "Type": "Terrain"
       },
       {
         "Id": "Starcraft - Terrain - High Ground - 087d53",
         "Quadrant": 1,
-        "Rotation": 360,
-        "ShortSide": 30.8286,
-        "LongSide": 18.0696,
+        "Rotation": 270,
+        "ShortSide": 20,
+        "LongSide": 15.875,
         "Type": "Terrain"
       },
       {
         "Id": "Starcraft - Terrain - Wall Set 3 - c2f1b7",
         "Quadrant": 1,
-        "Rotation": 192,
-        "ShortSide": 17.206899999999997,
-        "LongSide": 9.858,
+        "Rotation": 105,
+        "ShortSide": 9.375,
+        "LongSide": 28.125,
         "Type": "Terrain"
       },
       {
         "Id": "Starcraft - Terrain - Wall Set 6 - ef2272",
         "Quadrant": 1,
-        "Rotation": 0,
-        "ShortSide": 43.487700000000004,
-        "LongSide": 14.2727,
+        "Rotation": 270,
+        "ShortSide": 14,
+        "LongSide": 1.625,
         "Type": "Terrain"
       },
       {
         "Id": "Starcraft - Terrain - Temple Obelisk - 627dc3",
         "Quadrant": 1,
-        "Rotation": 60,
-        "ShortSide": 18.7603,
-        "LongSide": 29.1907,
+        "Rotation": 330,
+        "ShortSide": 29.375,
+        "LongSide": 26.375,
         "Type": "Terrain"
       },
       {
         "Id": "Starcraft - Terrain - Wall Set 4 - f43c5b",
         "Quadrant": 1,
-        "Rotation": 180,
-        "ShortSide": 35.0587,
-        "LongSide": 30.5681,
+        "Rotation": 90,
+        "ShortSide": 27.75,
+        "LongSide": 9.75,
         "Type": "Terrain"
       },
       {
         "Id": "Starcraft - Terrain - Head Statue - acfebe",
         "Quadrant": 1,
-        "Rotation": 45,
-        "ShortSide": 20.5592,
-        "LongSide": 13.789,
+        "Rotation": 315,
+        "ShortSide": 13.875,
+        "LongSide": 24.25,
         "Type": "Terrain"
       },
       {
         "Id": "Starcraft - Terrain - Vespene Geyser - d91b9c",
         "Quadrant": 1,
-        "Rotation": 135,
-        "ShortSide": 41.490700000000004,
-        "LongSide": 5.4582999999999995,
+        "Rotation": 45,
+        "ShortSide": 5.625,
+        "LongSide": 3.25,
         "Type": "Terrain"
       },
       {
         "Id": "Starcraft - Terrain - grass - 0c8124",
         "Quadrant": 1,
-        "Rotation": 142,
-        "ShortSide": 28.6554,
-        "LongSide": 7.4368,
+        "Rotation": 45,
+        "ShortSide": 6.75,
+        "LongSide": 16.875,
         "Type": "Terrain"
       },
       {
         "Id": "Starcraft - Terrain - Protoss Banner - d26342",
         "Quadrant": 1,
-        "Rotation": 10,
-        "ShortSide": 29.0854,
-        "LongSide": 29.5021,
+        "Rotation": 285,
+        "ShortSide": 29.625,
+        "LongSide": 16,
         "Type": "Terrain"
       },
       {
         "Id": "Starcraft - Terrain - Wall Set 1 - 3c823b",
         "Quadrant": 1,
-        "Rotation": 268,
-        "ShortSide": 27.2805,
-        "LongSide": 1.4671999999999983,
+        "Rotation": 180,
+        "ShortSide": 3.5,
+        "LongSide": 18,
         "Type": "Terrain"
       },
       {
         "Id": "Starcraft - Terrain - Statue Shard - 91ae73",
         "Quadrant": 1,
-        "Rotation": 90,
-        "ShortSide": 16.5809,
-        "LongSide": 4.102600000000001,
+        "Rotation": 0,
+        "ShortSide": 4.25,
+        "LongSide": 27.5,
         "Type": "Terrain"
       },
       {
         "Id": "Starcraft - Terrain - Wall Set 2 - 3895d1",
         "Quadrant": 1,
-        "Rotation": 122,
-        "ShortSide": 14.7798,
-        "LongSide": 24.6312,
+        "Rotation": 30,
+        "ShortSide": 28.25,
+        "LongSide": 30.625,
         "Type": "Terrain"
       },
       {
         "Id": "Starcraft - Terrain - grass - 0c8124",
         "Quadrant": 1,
-        "Rotation": 30,
-        "ShortSide": 15.5726,
-        "LongSide": 22.1566,
+        "Rotation": 300,
+        "ShortSide": 23.125,
+        "LongSide": 30,
         "Type": "Terrain"
       }
     ]

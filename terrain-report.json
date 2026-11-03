@@ -20,7 +20,35 @@
       14,
       1275,
       856
-    ]
+    ],
+    "skirmish": {
+      "pages": [
+        124,
+        125,
+        126
+      ],
+      "renderLongEdgePixels": 950,
+      "boardPixelBounds": [
+        [
+          141,
+          248,
+          622,
+          729
+        ],
+        [
+          114,
+          248,
+          595,
+          729
+        ],
+        [
+          141,
+          248,
+          622,
+          729
+        ]
+      ]
+    }
   },
   "gridInches": 6,
   "calibration": "terrain-calibration.json",
