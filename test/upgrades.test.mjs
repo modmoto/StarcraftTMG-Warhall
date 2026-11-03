@@ -165,7 +165,7 @@ const weaponText = (name, options = []) =>
 test('Guidance changes Anti-Evade and the paid Resonating Glaves value appears in green', () => {
   const text = weaponText('Adepts', ['Guidance', 'Resonating Glaves']);
   assert.match(text, /<color=#2596be>ANTI-EVADE \(2\)<\/color>/);
-  assert.match(text, /<pos=32%><nobr>1 <color=#65c879>\(2\)<\/color><\/nobr>/);
+  assert.match(text, /<pos=32%><nobr>2 <color=#65c879>\(3\)<\/color><\/nobr>/);
   assert.doesNotMatch(text, /<pos=32%><nobr><color=/);
   const active = unitProfile('Adepts', ['Resonating Glaves']).find(
     row => plain(row.Name) === 'Resonating Glaves',

@@ -108,10 +108,7 @@ function addUnitRecords(unit, faction, records, bases, groups, report, baseMappi
   );
   if (resonating) {
     const weapon = unit.profiles.find(profile => profile.name.toUpperCase() === 'GLAIVE CANNON');
-    if (weapon) {
-      weapon.attributes = { ...weapon.attributes, RoA: '1' };
-      weapon.conditionalRoa = 1;
-    }
+    if (weapon) weapon.conditionalRoa = 1;
   }
   const conditionalArmour = upgradeProfiles.some(profile =>
     /Armour characteristic is increased by 1/.test(profile.attributes.Effect ?? ''),
