@@ -1,4 +1,6 @@
 import assert from 'node:assert/strict';
+import { upgradedHealth } from './stat-values.mjs';
+import { applyUpgradeEffects } from './upgrade-effects.mjs';
 import { abilityName } from '../sources/pdf/abilities.mjs';
 import { weaponRows, weaponTable, weaponKeywords } from './presentation.mjs';
 
@@ -52,6 +54,7 @@ export function addUpgradeOptions(unit, ids, profiles, profileIds, defaults, rec
                 records.rules
                   .get(`${defaults[unit.profiles.indexOf(replacedWeapon(unit, profile))]}_table`)
                   ?.Description.match(/^<b>([^<]*Phase)<\/b>\n/)?.[1] ?? '',
+                replacedWeapon(unit, profile).attributes,
               ),
             ],
           ]
@@ -73,8 +76,8 @@ export function addUpgradeOptions(unit, ids, profiles, profileIds, defaults, rec
         Description: [
           '<b>Upgrade ability</b>',
           `Replace ${replaced.name} with ${profile.name}.`,
-          `<b>${profile.name}</b>\n${weaponTable(profile.attributes)}`,
-          weaponKeywords(profile.attributes.Keyword, glossary),
+          `<b>${profile.name}</b>\n${weaponTable(profile.attributes, replaced.attributes)}`,
+          weaponKeywords(profile.attributes.Keyword, glossary, replaced.attributes.Keyword),
         ]
           .filter(Boolean)
           .join('\n\n'),
@@ -85,17 +88,26 @@ export function addUpgradeOptions(unit, ids, profiles, profileIds, defaults, rec
     const remove = [];
     if (replaced) {
       const oldId = defaults[unit.profiles.indexOf(replaced)];
-      const slot = `${oldId}_slot`;
+      const slot = `${oldId}_body`;
       const alternatives = profiles.flatMap((candidate, candidateIndex) => {
         if (!/Weapon$/.test(candidate.type) || replacedWeapon(unit, candidate) !== replaced)
           return [];
         return rows.get(profileIds[candidateIndex]);
       });
       remove.push({
-        Id: slot,
-        Ref: [...records.rules.get(slot).Children, ...alternatives.map(Id => ({ Id }))],
+        Id: `${oldId}_slot`,
+        Ref: [
+          {
+            Id: slot,
+            Ref: [...records.rules.get(slot).Children, ...alternatives.map(Id => ({ Id }))],
+          },
+        ],
       });
-      if (isWeapon) add.push({ Id: slot, Ref: rows.get(recordId).map(Id => ({ Id })) });
+      if (isWeapon)
+        add.push({
+          Id: `${oldId}_slot`,
+          Ref: [{ Id: slot, Ref: rows.get(recordId).map(Id => ({ Id })) }],
+        });
     }
     const hp = profile.attributes.Effect?.match(
       /^Increase this Unit's Hit Points characteristic by (\d+)\.$/i,
@@ -106,11 +118,15 @@ export function addUpgradeOptions(unit, ids, profiles, profileIds, defaults, rec
       records.statlines.push({
         ...structuredClone(base),
         Id: upgraded,
-        Attributes: { ...base.Attributes, HP: String(Number(base.Attributes.HP) + Number(hp[1])) },
+        Attributes: {
+          ...base.Attributes,
+          HP: upgradedHealth(Number(base.Attributes.HP) + Number(hp[1])),
+        },
       });
       remove.push({ Id: `${ids.profile}_stats`, Ref: [{ Id: ids.statline }] });
       add.push({ Id: `${ids.profile}_stats`, Ref: [{ Id: upgraded }] });
     }
+    applyUpgradeEffects(unit, profile, recordId, ids, defaults, records, glossary, add, remove);
     records.options.set(optionId, {
       Id: optionId,
       Name: optionId,

@@ -1,5 +1,23 @@
 [
   {
+    "Id": "pdf_Zerg_equipment_bile_launcher_default_2_body",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Zerg_equipment_bile_launcher_default_2_table"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Zerg_equipment_bile_launcher_default_2_effects",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": []
+  },
+  {
     "Id": "pdf_Zerg_equipment_bile_launcher_default_2_heading",
     "Name": "",
     "Type": "",
@@ -20,7 +38,10 @@
     "Description": "",
     "Children": [
       {
-        "Id": "pdf_Zerg_equipment_bile_launcher_default_2_table"
+        "Id": "pdf_Zerg_equipment_bile_launcher_default_2_body"
+      },
+      {
+        "Id": "pdf_Zerg_equipment_bile_launcher_default_2_effects"
       }
     ]
   },
@@ -29,6 +50,24 @@
     "Name": "",
     "Type": "",
     "Description": "<b>Assault Phase</b>\n<b>BILE BOMB</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>12</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>6</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>L&A (D3)</nobr><pos=86%><nobr>1</nobr></b></size></align>\n<u><link=\"rule_keyword_pierce\">PIERCE Armoured (2)</link></u>, <u><link=\"rule_keyword_pinpoint\">PINPOINT</link></u>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Zerg_equipment_corpsers_roach_default_2_body",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Zerg_equipment_corpsers_roach_default_2_table"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Zerg_equipment_corpsers_roach_default_2_effects",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
     "Children": []
   },
   {
@@ -45,7 +84,10 @@
     "Description": "",
     "Children": [
       {
-        "Id": "pdf_Zerg_equipment_corpsers_roach_default_2_table"
+        "Id": "pdf_Zerg_equipment_corpsers_roach_default_2_body"
+      },
+      {
+        "Id": "pdf_Zerg_equipment_corpsers_roach_default_2_effects"
       }
     ]
   },
@@ -54,6 +96,24 @@
     "Name": "",
     "Type": "",
     "Description": "<b>Assault Phase</b>\n<b>ACID SALIVA</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>8</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>2</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Zerg_equipment_corpsers_roach_default_4_body",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Zerg_equipment_corpsers_roach_default_4_table"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Zerg_equipment_corpsers_roach_default_4_effects",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
     "Children": []
   },
   {
@@ -70,7 +130,10 @@
     "Description": "",
     "Children": [
       {
-        "Id": "pdf_Zerg_equipment_corpsers_roach_default_4_table"
+        "Id": "pdf_Zerg_equipment_corpsers_roach_default_4_body"
+      },
+      {
+        "Id": "pdf_Zerg_equipment_corpsers_roach_default_4_effects"
       }
     ]
   },
@@ -79,6 +142,24 @@
     "Name": "",
     "Type": "",
     "Description": "<b>Melee Phase</b>\n<b>CLAWS</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>3</nobr><pos=46%><nobr>4+</nobr><pos=59%><nobr>Light (D3+1)</nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Zerg_equipment_defiler_default_3_body",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Zerg_equipment_defiler_default_3_table"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Zerg_equipment_defiler_default_3_effects",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
     "Children": []
   },
   {
@@ -95,7 +176,10 @@
     "Description": "",
     "Children": [
       {
-        "Id": "pdf_Zerg_equipment_defiler_default_3_table"
+        "Id": "pdf_Zerg_equipment_defiler_default_3_body"
+      },
+      {
+        "Id": "pdf_Zerg_equipment_defiler_default_3_effects"
       }
     ]
   },
@@ -110,7 +194,7 @@
     "Id": "pdf_Zerg_equipment_defiler_upgrade_2_choice",
     "Name": "<color=#2596be>Cancerous Bite</color>",
     "Type": "Rule",
-    "Description": "<b>Upgrade ability</b>\n\nReplace CLAWS with CANCEROUS BITE.\n\n<b>CANCEROUS BITE</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>2</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>2</nobr></b></size></align>\n\n<u><link=\"rule_keyword_critical_hit\">CRITICAL HIT (1)</link></u>, <u><link=\"rule_keyword_sidearm\">SIDEARM</link></u>"
+    "Description": "<b>Upgrade ability</b>\n\nReplace CLAWS with CANCEROUS BITE.\n\n<b>CANCEROUS BITE</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr><color=#2596be>2</color></nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr><color=#2596be>2</color></nobr></b></size></align>\n\n<u><link=\"rule_keyword_critical_hit\"><color=#2596be>CRITICAL HIT (1)</color></link></u>, <u><link=\"rule_keyword_sidearm\"><color=#2596be>SIDEARM</color></link></u>"
   },
   {
     "Id": "pdf_Zerg_equipment_defiler_upgrade_2_heading",
@@ -123,14 +207,32 @@
     "Id": "pdf_Zerg_equipment_defiler_upgrade_2_keywords",
     "Name": "",
     "Type": "",
-    "Description": "<u><link=\"rule_keyword_critical_hit\">CRITICAL HIT (1)</link></u>, <u><link=\"rule_keyword_sidearm\">SIDEARM</link></u>",
+    "Description": "<u><link=\"rule_keyword_critical_hit\"><color=#2596be>CRITICAL HIT (1)</color></link></u>, <u><link=\"rule_keyword_sidearm\"><color=#2596be>SIDEARM</color></link></u>",
     "Children": []
   },
   {
     "Id": "pdf_Zerg_equipment_defiler_upgrade_2_table",
     "Name": "",
     "Type": "",
-    "Description": "<b>Melee Phase</b>\n<b>CANCEROUS BITE</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>2</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>2</nobr></b></size></align>\n<u><link=\"rule_keyword_critical_hit\">CRITICAL HIT (1)</link></u>, <u><link=\"rule_keyword_sidearm\">SIDEARM</link></u>",
+    "Description": "<b>Melee Phase</b>\n<b>CANCEROUS BITE</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr><color=#2596be>2</color></nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr><color=#2596be>2</color></nobr></b></size></align>\n<u><link=\"rule_keyword_critical_hit\"><color=#2596be>CRITICAL HIT (1)</color></link></u>, <u><link=\"rule_keyword_sidearm\"><color=#2596be>SIDEARM</color></link></u>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Zerg_equipment_hydralisks_default_1_body",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Zerg_equipment_hydralisks_default_1_table"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Zerg_equipment_hydralisks_default_1_effects",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
     "Children": []
   },
   {
@@ -147,7 +249,10 @@
     "Description": "",
     "Children": [
       {
-        "Id": "pdf_Zerg_equipment_hydralisks_default_1_table"
+        "Id": "pdf_Zerg_equipment_hydralisks_default_1_body"
+      },
+      {
+        "Id": "pdf_Zerg_equipment_hydralisks_default_1_effects"
       }
     ]
   },
@@ -156,6 +261,24 @@
     "Name": "",
     "Type": "",
     "Description": "<b>Assault Phase</b>\n<b>NEEDLE SPINES</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>12</nobr><pos=14%><nobr>All</nobr><pos=32%><nobr>3</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>L&A (D3+1)</nobr><pos=86%><nobr>2</nobr></b></size></align>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Zerg_equipment_hydralisks_default_3_body",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Zerg_equipment_hydralisks_default_3_table"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Zerg_equipment_hydralisks_default_3_effects",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
     "Children": []
   },
   {
@@ -172,7 +295,10 @@
     "Description": "",
     "Children": [
       {
-        "Id": "pdf_Zerg_equipment_hydralisks_default_3_table"
+        "Id": "pdf_Zerg_equipment_hydralisks_default_3_body"
+      },
+      {
+        "Id": "pdf_Zerg_equipment_hydralisks_default_3_effects"
       }
     ]
   },
@@ -181,6 +307,24 @@
     "Name": "",
     "Type": "",
     "Description": "<b>Melee Phase</b>\n<b>SCYTHE</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>2</nobr><pos=46%><nobr>4+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Zerg_equipment_kerrigan_default_2_body",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Zerg_equipment_kerrigan_default_2_table"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Zerg_equipment_kerrigan_default_2_effects",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
     "Children": []
   },
   {
@@ -197,7 +341,10 @@
     "Description": "",
     "Children": [
       {
-        "Id": "pdf_Zerg_equipment_kerrigan_default_2_table"
+        "Id": "pdf_Zerg_equipment_kerrigan_default_2_body"
+      },
+      {
+        "Id": "pdf_Zerg_equipment_kerrigan_default_2_effects"
       }
     ]
   },
@@ -206,6 +353,24 @@
     "Name": "",
     "Type": "",
     "Description": "<b>Assault Phase</b>\n<b>ENERGY BLAST</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>8</nobr><pos=14%><nobr>All</nobr><pos=32%><nobr>5</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>L&A (D3)</nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Zerg_equipment_kerrigan_default_4_body",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Zerg_equipment_kerrigan_default_4_table"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Zerg_equipment_kerrigan_default_4_effects",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
     "Children": []
   },
   {
@@ -229,7 +394,10 @@
     "Description": "",
     "Children": [
       {
-        "Id": "pdf_Zerg_equipment_kerrigan_default_4_table"
+        "Id": "pdf_Zerg_equipment_kerrigan_default_4_body"
+      },
+      {
+        "Id": "pdf_Zerg_equipment_kerrigan_default_4_effects"
       }
     ]
   },
@@ -238,6 +406,24 @@
     "Name": "",
     "Type": "",
     "Description": "<b>Melee Phase</b>\n<b>BLADES</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>6</nobr><pos=46%><nobr>4+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>2</nobr></b></size></align>\n<u><link=\"rule_keyword_critical_hit\">CRITICAL HIT (2)</link></u>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Zerg_equipment_kerrigan_swarm_raptors_zergling_default_2_body",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Zerg_equipment_kerrigan_swarm_raptors_zergling_default_2_table"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Zerg_equipment_kerrigan_swarm_raptors_zergling_default_2_effects",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
     "Children": []
   },
   {
@@ -261,7 +447,10 @@
     "Description": "",
     "Children": [
       {
-        "Id": "pdf_Zerg_equipment_kerrigan_swarm_raptors_zergling_default_2_table"
+        "Id": "pdf_Zerg_equipment_kerrigan_swarm_raptors_zergling_default_2_body"
+      },
+      {
+        "Id": "pdf_Zerg_equipment_kerrigan_swarm_raptors_zergling_default_2_effects"
       }
     ]
   },
@@ -270,6 +459,24 @@
     "Name": "",
     "Type": "",
     "Description": "<b>Melee Phase</b>\n<b>CLAWS</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>2</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>L&A (D6)</nobr><pos=86%><nobr>1</nobr></b></size></align>\n<u><link=\"rule_keyword_instant\">INSTANT</link></u>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Zerg_equipment_queen_default_1_body",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Zerg_equipment_queen_default_1_table"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Zerg_equipment_queen_default_1_effects",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
     "Children": []
   },
   {
@@ -286,7 +493,10 @@
     "Description": "",
     "Children": [
       {
-        "Id": "pdf_Zerg_equipment_queen_default_1_table"
+        "Id": "pdf_Zerg_equipment_queen_default_1_body"
+      },
+      {
+        "Id": "pdf_Zerg_equipment_queen_default_1_effects"
       }
     ]
   },
@@ -295,6 +505,24 @@
     "Name": "",
     "Type": "",
     "Description": "<b>Assault Phase</b>\n<b>TALONS</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>6</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>4</nobr><pos=46%><nobr>4+</nobr><pos=59%><nobr>Light (D3)</nobr><pos=86%><nobr>2</nobr></b></size></align>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Zerg_equipment_queen_default_2_body",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Zerg_equipment_queen_default_2_table"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Zerg_equipment_queen_default_2_effects",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
     "Children": []
   },
   {
@@ -311,7 +539,10 @@
     "Description": "",
     "Children": [
       {
-        "Id": "pdf_Zerg_equipment_queen_default_2_table"
+        "Id": "pdf_Zerg_equipment_queen_default_2_body"
+      },
+      {
+        "Id": "pdf_Zerg_equipment_queen_default_2_effects"
       }
     ]
   },
@@ -320,6 +551,24 @@
     "Name": "",
     "Type": "",
     "Description": "<b>ACID SPINES</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>12</nobr><pos=14%><nobr>Air</nobr><pos=32%><nobr>4</nobr><pos=46%><nobr>4+</nobr><pos=59%><nobr>L&A (D3)</nobr><pos=86%><nobr>2</nobr></b></size></align>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Zerg_equipment_queen_default_4_body",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Zerg_equipment_queen_default_4_table"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Zerg_equipment_queen_default_4_effects",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
     "Children": []
   },
   {
@@ -336,7 +585,10 @@
     "Description": "",
     "Children": [
       {
-        "Id": "pdf_Zerg_equipment_queen_default_4_table"
+        "Id": "pdf_Zerg_equipment_queen_default_4_body"
+      },
+      {
+        "Id": "pdf_Zerg_equipment_queen_default_4_effects"
       }
     ]
   },
@@ -345,6 +597,24 @@
     "Name": "",
     "Type": "",
     "Description": "<b>Melee Phase</b>\n<b>TALONS</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>3</nobr><pos=46%><nobr>4+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Zerg_equipment_raptors_zergling_default_2_body",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Zerg_equipment_raptors_zergling_default_2_table"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Zerg_equipment_raptors_zergling_default_2_effects",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
     "Children": []
   },
   {
@@ -361,7 +631,10 @@
     "Description": "",
     "Children": [
       {
-        "Id": "pdf_Zerg_equipment_raptors_zergling_default_2_table"
+        "Id": "pdf_Zerg_equipment_raptors_zergling_default_2_body"
+      },
+      {
+        "Id": "pdf_Zerg_equipment_raptors_zergling_default_2_effects"
       }
     ]
   },
@@ -376,7 +649,7 @@
     "Id": "pdf_Zerg_equipment_raptors_zergling_upgrade_1_choice",
     "Name": "<color=#2596be>Shredding Claws</color>",
     "Type": "Rule",
-    "Description": "<b>Upgrade ability</b>\n\nReplace CLAWS with SHREDDING CLAWS.\n\n<b>SHREDDING CLAWS</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>2</nobr><pos=46%><nobr>4+</nobr><pos=59%><nobr>L&A (D3)</nobr><pos=86%><nobr>1</nobr></b></size></align>"
+    "Description": "<b>Upgrade ability</b>\n\nReplace CLAWS with SHREDDING CLAWS.\n\n<b>SHREDDING CLAWS</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>2</nobr><pos=46%><nobr>4+</nobr><pos=59%><nobr><color=#2596be>L&A (D3)</color></nobr><pos=86%><nobr>1</nobr></b></size></align>"
   },
   {
     "Id": "pdf_Zerg_equipment_raptors_zergling_upgrade_1_heading",
@@ -389,7 +662,25 @@
     "Id": "pdf_Zerg_equipment_raptors_zergling_upgrade_1_table",
     "Name": "",
     "Type": "",
-    "Description": "<b>Melee Phase</b>\n<b>SHREDDING CLAWS</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>2</nobr><pos=46%><nobr>4+</nobr><pos=59%><nobr>L&A (D3)</nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Description": "<b>Melee Phase</b>\n<b>SHREDDING CLAWS</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>2</nobr><pos=46%><nobr>4+</nobr><pos=59%><nobr><color=#2596be>L&A (D3)</color></nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Zerg_equipment_ravagers_default_2_body",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Zerg_equipment_ravagers_default_2_table"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Zerg_equipment_ravagers_default_2_effects",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
     "Children": []
   },
   {
@@ -406,7 +697,10 @@
     "Description": "",
     "Children": [
       {
-        "Id": "pdf_Zerg_equipment_ravagers_default_2_table"
+        "Id": "pdf_Zerg_equipment_ravagers_default_2_body"
+      },
+      {
+        "Id": "pdf_Zerg_equipment_ravagers_default_2_effects"
       }
     ]
   },
@@ -415,6 +709,24 @@
     "Name": "",
     "Type": "",
     "Description": "<b>Assault Phase</b>\n<b>PLASMA DISCHARGE</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>12</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>4</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>Light (D3+1)</nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Zerg_equipment_ravagers_default_4_body",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Zerg_equipment_ravagers_default_4_table"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Zerg_equipment_ravagers_default_4_effects",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
     "Children": []
   },
   {
@@ -431,7 +743,10 @@
     "Description": "",
     "Children": [
       {
-        "Id": "pdf_Zerg_equipment_ravagers_default_4_table"
+        "Id": "pdf_Zerg_equipment_ravagers_default_4_body"
+      },
+      {
+        "Id": "pdf_Zerg_equipment_ravagers_default_4_effects"
       }
     ]
   },
@@ -440,6 +755,24 @@
     "Name": "",
     "Type": "",
     "Description": "<b>Melee Phase</b>\n<b>CLAWS</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>2</nobr><pos=46%><nobr>4+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Zerg_equipment_roaches_default_1_body",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Zerg_equipment_roaches_default_1_table"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Zerg_equipment_roaches_default_1_effects",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
     "Children": []
   },
   {
@@ -456,7 +789,10 @@
     "Description": "",
     "Children": [
       {
-        "Id": "pdf_Zerg_equipment_roaches_default_1_table"
+        "Id": "pdf_Zerg_equipment_roaches_default_1_body"
+      },
+      {
+        "Id": "pdf_Zerg_equipment_roaches_default_1_effects"
       }
     ]
   },
@@ -465,6 +801,24 @@
     "Name": "",
     "Type": "",
     "Description": "<b>Assault Phase</b>\n<b>ACID SALIVA</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>8</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>3</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Zerg_equipment_roaches_default_3_body",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Zerg_equipment_roaches_default_3_table"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Zerg_equipment_roaches_default_3_effects",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
     "Children": []
   },
   {
@@ -481,7 +835,10 @@
     "Description": "",
     "Children": [
       {
-        "Id": "pdf_Zerg_equipment_roaches_default_3_table"
+        "Id": "pdf_Zerg_equipment_roaches_default_3_body"
+      },
+      {
+        "Id": "pdf_Zerg_equipment_roaches_default_3_effects"
       }
     ]
   },
@@ -490,6 +847,24 @@
     "Name": "",
     "Type": "",
     "Description": "<b>Melee Phase</b>\n<b>CLAWS</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>2</nobr><pos=46%><nobr>4+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Zerg_equipment_roachling_default_1_body",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Zerg_equipment_roachling_default_1_table"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Zerg_equipment_roachling_default_1_effects",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
     "Children": []
   },
   {
@@ -506,7 +881,10 @@
     "Description": "",
     "Children": [
       {
-        "Id": "pdf_Zerg_equipment_roachling_default_1_table"
+        "Id": "pdf_Zerg_equipment_roachling_default_1_body"
+      },
+      {
+        "Id": "pdf_Zerg_equipment_roachling_default_1_effects"
       }
     ]
   },
@@ -515,6 +893,24 @@
     "Name": "",
     "Type": "",
     "Description": "<b>Melee Phase</b>\n<b>CLAWS</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>2</nobr><pos=46%><nobr>4+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Zerg_equipment_swarmlings_default_3_body",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Zerg_equipment_swarmlings_default_3_table"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Zerg_equipment_swarmlings_default_3_effects",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
     "Children": []
   },
   {
@@ -531,7 +927,10 @@
     "Description": "",
     "Children": [
       {
-        "Id": "pdf_Zerg_equipment_swarmlings_default_3_table"
+        "Id": "pdf_Zerg_equipment_swarmlings_default_3_body"
+      },
+      {
+        "Id": "pdf_Zerg_equipment_swarmlings_default_3_effects"
       }
     ]
   },
@@ -540,6 +939,24 @@
     "Name": "",
     "Type": "",
     "Description": "<b>Melee Phase</b>\n<b>CLAWS</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>2</nobr><pos=46%><nobr>5+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Zerg_equipment_vileling_zergling_default_3_body",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Zerg_equipment_vileling_zergling_default_3_table"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Zerg_equipment_vileling_zergling_default_3_effects",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
     "Children": []
   },
   {
@@ -556,7 +973,10 @@
     "Description": "",
     "Children": [
       {
-        "Id": "pdf_Zerg_equipment_vileling_zergling_default_3_table"
+        "Id": "pdf_Zerg_equipment_vileling_zergling_default_3_body"
+      },
+      {
+        "Id": "pdf_Zerg_equipment_vileling_zergling_default_3_effects"
       }
     ]
   },
@@ -565,6 +985,24 @@
     "Name": "",
     "Type": "",
     "Description": "<b>Melee Phase</b>\n<b>CLAWS</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>2</nobr><pos=46%><nobr>5+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Zerg_equipment_viles_roach_default_1_body",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Zerg_equipment_viles_roach_default_1_table"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Zerg_equipment_viles_roach_default_1_effects",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
     "Children": []
   },
   {
@@ -581,7 +1019,10 @@
     "Description": "",
     "Children": [
       {
-        "Id": "pdf_Zerg_equipment_viles_roach_default_1_table"
+        "Id": "pdf_Zerg_equipment_viles_roach_default_1_body"
+      },
+      {
+        "Id": "pdf_Zerg_equipment_viles_roach_default_1_effects"
       }
     ]
   },
@@ -590,6 +1031,24 @@
     "Name": "",
     "Type": "",
     "Description": "<b>Assault Phase</b>\n<b>ACID SALIVA</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>8</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>4</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Zerg_equipment_viles_roach_default_3_body",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Zerg_equipment_viles_roach_default_3_table"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Zerg_equipment_viles_roach_default_3_effects",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
     "Children": []
   },
   {
@@ -606,7 +1065,10 @@
     "Description": "",
     "Children": [
       {
-        "Id": "pdf_Zerg_equipment_viles_roach_default_3_table"
+        "Id": "pdf_Zerg_equipment_viles_roach_default_3_body"
+      },
+      {
+        "Id": "pdf_Zerg_equipment_viles_roach_default_3_effects"
       }
     ]
   },
@@ -615,6 +1077,24 @@
     "Name": "",
     "Type": "",
     "Description": "<b>Melee Phase</b>\n<b>VILE CLAWS</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>2</nobr><pos=46%><nobr>4+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Zerg_equipment_zagara_default_2_body",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Zerg_equipment_zagara_default_2_table"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Zerg_equipment_zagara_default_2_effects",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
     "Children": []
   },
   {
@@ -631,7 +1111,10 @@
     "Description": "",
     "Children": [
       {
-        "Id": "pdf_Zerg_equipment_zagara_default_2_table"
+        "Id": "pdf_Zerg_equipment_zagara_default_2_body"
+      },
+      {
+        "Id": "pdf_Zerg_equipment_zagara_default_2_effects"
       }
     ]
   },
@@ -640,6 +1123,24 @@
     "Name": "",
     "Type": "",
     "Description": "<b>Assault Phase</b>\n<b>ZAGARA'S TALONS</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>8</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>4</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>L&A (D3)</nobr><pos=86%><nobr>2</nobr></b></size></align>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Zerg_equipment_zagara_default_3_body",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Zerg_equipment_zagara_default_3_table"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Zerg_equipment_zagara_default_3_effects",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
     "Children": []
   },
   {
@@ -656,7 +1157,10 @@
     "Description": "",
     "Children": [
       {
-        "Id": "pdf_Zerg_equipment_zagara_default_3_table"
+        "Id": "pdf_Zerg_equipment_zagara_default_3_body"
+      },
+      {
+        "Id": "pdf_Zerg_equipment_zagara_default_3_effects"
       }
     ]
   },
@@ -665,6 +1169,24 @@
     "Name": "",
     "Type": "",
     "Description": "<b>ZAGARA'S ACID SPINES</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>14</nobr><pos=14%><nobr>Air</nobr><pos=32%><nobr>8</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>L&A (D3)</nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Zerg_equipment_zagara_default_5_body",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Zerg_equipment_zagara_default_5_table"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Zerg_equipment_zagara_default_5_effects",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
     "Children": []
   },
   {
@@ -681,7 +1203,10 @@
     "Description": "",
     "Children": [
       {
-        "Id": "pdf_Zerg_equipment_zagara_default_5_table"
+        "Id": "pdf_Zerg_equipment_zagara_default_5_body"
+      },
+      {
+        "Id": "pdf_Zerg_equipment_zagara_default_5_effects"
       }
     ]
   },
@@ -690,6 +1215,24 @@
     "Name": "",
     "Type": "",
     "Description": "<b>Melee Phase</b>\n<b>TALONS</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>4</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Zerg_equipment_zerglings_default_2_body",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Zerg_equipment_zerglings_default_2_table"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Zerg_equipment_zerglings_default_2_effects",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
     "Children": []
   },
   {
@@ -706,7 +1249,10 @@
     "Description": "",
     "Children": [
       {
-        "Id": "pdf_Zerg_equipment_zerglings_default_2_table"
+        "Id": "pdf_Zerg_equipment_zerglings_default_2_body"
+      },
+      {
+        "Id": "pdf_Zerg_equipment_zerglings_default_2_effects"
       }
     ]
   },
@@ -728,7 +1274,7 @@
     "Id": "pdf_Zerg_equipment_zerglings_upgrade_1_table",
     "Name": "",
     "Type": "",
-    "Description": "<b>Melee Phase</b>\n<b>SHREDDING CLAWS</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>2</nobr><pos=46%><nobr>4+</nobr><pos=59%><nobr>L&A (D3)</nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Description": "<b>Melee Phase</b>\n<b>SHREDDING CLAWS</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>2</nobr><pos=46%><nobr>4+</nobr><pos=59%><nobr><color=#2596be>L&A (D3)</color></nobr><pos=86%><nobr>1</nobr></b></size></align>",
     "Children": []
   },
   {
@@ -1092,6 +1638,20 @@
     "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Passive\n<b>Upgrade ability</b>\n\nThis Unit's Acid Saliva weapon gains <u><link=\"rule_chapter_8_7_4\">Surge</link></u> Type: Light, and S <u><link=\"rule_chapter_3_1\">Dice</link></u>: D3+1."
   },
   {
+    "Id": "pdf_Zerg_rule_corpsers_roach_upgrade_assault_phase_hydriodic_bile_effect_0_heading",
+    "Name": "",
+    "Type": "",
+    "Description": "<b>ACID SALIVA</b>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Zerg_rule_corpsers_roach_upgrade_assault_phase_hydriodic_bile_effect_0_table",
+    "Name": "",
+    "Type": "",
+    "Description": "<b>Assault Phase</b>\n<b>ACID SALIVA</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>8</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>2</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr><color=#2596be>Light (D3+1)</color></nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Children": []
+  },
+  {
     "Id": "pdf_Zerg_rule_corpsers_roach_upgrade_movement_phase_burrow_ambush",
     "Name": "<color=#2596be>Burrow Ambush (Corpsers (Roach), Hydralisks, Raptors (Zergling), Ravagers, Roaches, Swarmlings, Viles (Roach), Zerglings)</color>",
     "Type": "Rule",
@@ -1146,16 +1706,51 @@
     "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Passive\n<b>Upgrade ability</b>\n\nThis Unit gains <u><link=\"rule_keyword_tough\">TOUGH</link></u> (1) on the first <u><link=\"rule_chapter_8_7_4\">Armour Roll</link></u> of each Activation."
   },
   {
+    "Id": "pdf_Zerg_rule_hydralisks_upgrade_any_phase_ancillary_carapace_effect_0",
+    "Name": "",
+    "Type": "",
+    "Description": "<u><link=\"pdf_Zerg_rule_hydralisks_upgrade_any_phase_ancillary_carapace\"><color=#65c879>[TOUGH (1) — first Armour Roll of each activation]</color></link></u>",
+    "Children": []
+  },
+  {
     "Id": "pdf_Zerg_rule_hydralisks_upgrade_any_phase_lurking",
     "Name": "<color=#2596be>Lurking</color>",
     "Type": "Rule",
     "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Passive\n<b>Upgrade ability</b>\n\nIf this Unit has <u><link=\"rule_keyword_stationary\">Stationary</link></u> <u><link=\"rule_keyword_status\">Status</link></u>, it is eligible to make an <u><link=\"rule_chapter_8_7_4\">Evade Roll</link></u> against the first <u><link=\"rule_chapter_8_7_3\">Ranged Attack</link></u> targeting it this Round. If this Unit is <u><link=\"rule_keyword_on_creep\">ON CREEP</link></u>, it gains +1 <u><link=\"rule_keyword_modifier\">Modifier</link></u> to this <u><link=\"rule_chapter_8_7_4\">Evade Roll</link></u>."
   },
   {
+    "Id": "pdf_Zerg_rule_hydralisks_upgrade_any_phase_lurking_effect_0",
+    "Name": "",
+    "Type": "",
+    "Description": "<u><link=\"pdf_Zerg_rule_hydralisks_upgrade_any_phase_lurking\"><color=#65c879>[Evade eligible — stationary, first ranged attack; +1 on creep]</color></link></u>",
+    "Children": []
+  },
+  {
     "Id": "pdf_Zerg_rule_hydralisks_upgrade_assault_phase_grooved_spines",
     "Name": "<color=#2596be>Grooved Spines</color>",
     "Type": "Rule",
     "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Passive\n<b>Upgrade ability</b>\n\nThis Unit's Needle Spines ranged weapon gains <u><link=\"rule_keyword_long_range\">LONG RANGE</link></u> (16\")."
+  },
+  {
+    "Id": "pdf_Zerg_rule_hydralisks_upgrade_assault_phase_grooved_spines_effect_0_heading",
+    "Name": "",
+    "Type": "",
+    "Description": "<b>NEEDLE SPINES</b>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Zerg_rule_hydralisks_upgrade_assault_phase_grooved_spines_effect_0_keywords",
+    "Name": "",
+    "Type": "",
+    "Description": "<u><link=\"rule_keyword_long_range\"><color=#2596be>LONG RANGE (16\")</color></link></u>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Zerg_rule_hydralisks_upgrade_assault_phase_grooved_spines_effect_0_table",
+    "Name": "",
+    "Type": "",
+    "Description": "<b>Assault Phase</b>\n<b>NEEDLE SPINES</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>12</nobr><pos=14%><nobr>All</nobr><pos=32%><nobr>3</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>L&A (D3+1)</nobr><pos=86%><nobr>2</nobr></b></size></align>\n<u><link=\"rule_keyword_long_range\"><color=#2596be>LONG RANGE (16\")</color></link></u>",
+    "Children": []
   },
   {
     "Id": "pdf_Zerg_rule_kerrigan_assault_phase_leaping_strike",
@@ -1248,6 +1843,13 @@
     "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Passive\n<b>Upgrade ability</b>\n\nWhile this Unit is <u><link=\"rule_keyword_on_creep\">ON CREEP</link></u>, increase this Unit's Speed characteristic by 2."
   },
   {
+    "Id": "pdf_Zerg_rule_queen_upgrade_any_phase_creep_speed_effect_0",
+    "Name": "",
+    "Type": "",
+    "Description": "<u><link=\"pdf_Zerg_rule_queen_upgrade_any_phase_creep_speed\">Speed: 4 <color=#65c879>[6 — on creep]</color></link></u>",
+    "Children": []
+  },
+  {
     "Id": "pdf_Zerg_rule_queen_upgrade_movement_phase_domineering_presence",
     "Name": "<color=#2596be>Domineering Presence</color>",
     "Type": "Rule",
@@ -1270,6 +1872,13 @@
     "Name": "<color=#2596be>Adrenal Glands</color>",
     "Type": "Rule",
     "Description": "<b>Phase:</b> Melee Phase\n<b>Type:</b> Passive\n<b>Upgrade ability</b>\n\nThis Unit's Claws and Shredding Claws weapons gain <u><link=\"rule_keyword_precision\">PRECISION</link></u> (2)."
+  },
+  {
+    "Id": "pdf_Zerg_rule_raptors_zergling_upgrade_combat_phase_adrenal_glands_effect_0",
+    "Name": "",
+    "Type": "",
+    "Description": "<u><link=\"pdf_Zerg_rule_raptors_zergling_upgrade_combat_phase_adrenal_glands\"><color=#2596be>PRECISION (2)</color></link></u>",
+    "Children": []
   },
   {
     "Id": "pdf_Zerg_rule_ravagers_assault_phase_devastating_charge",
@@ -1296,10 +1905,37 @@
     "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Passive\n<b>Upgrade ability</b>\n\nIncrease the area of effect of this Unit's <u><link=\"pdf_Zerg_rule_ravagers_movement_phase_corrosive_bile\">Corrosive Bile</link></u> ability to 2\"."
   },
   {
+    "Id": "pdf_Zerg_rule_ravagers_upgrade_any_phase_bloated_bile_ducts_effect_0",
+    "Name": "<color=#2596be>Corrosive Bile (Area 2\")</color>",
+    "Type": "Rule",
+    "Description": "<b>Upgrade ability</b>\n\n<b>Phase:</b> Movement Phase\n<b>Type:</b> Active\n<b>Cost:</b> 1 BM\n\nFor each model in this Unit, set one <u><link=\"pdf_Zerg_rule_ravagers_movement_phase_corrosive_bile\">Corrosive Bile</link></u> token on <u><link=\"rule_chapter_7\">the battlefield</link></u> <u><link=\"rule_keyword_within\">Within</link></u> 14\" of that model. These <u><link=\"rule_chapter_7_3_1\">tokens</link></u> are not removed if this Unit is Destroyed. At the End of the Assault Phase, each Unit suffers <u><link=\"rule_keyword_hits\">HITS</link></u> 5 (1) effect for each of this Unit's <u><link=\"pdf_Zerg_rule_ravagers_movement_phase_corrosive_bile\">Corrosive Bile</link></u> <u><link=\"rule_chapter_7_3_1\">tokens</link></u> it is <u><link=\"rule_keyword_within\">Within</link></u> <color=#2596be>2\"</color> of. Then, remove all of this Unit's <u><link=\"pdf_Zerg_rule_ravagers_movement_phase_corrosive_bile\">Corrosive Bile</link></u> <u><link=\"rule_chapter_7_3_1\">tokens</link></u> from <u><link=\"rule_chapter_7\">the battlefield</link></u>. If multiple effects trigger at the End of the Assault Phase, resolve them in the order specified in <u><link=\"rule_chapter_8_9_4\">Part 8.9.4</link></u>."
+  },
+  {
     "Id": "pdf_Zerg_rule_ravagers_upgrade_assault_phase_potent_bile",
     "Name": "<color=#2596be>Potent Bile</color>",
     "Type": "Rule",
     "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Passive\n<b>Upgrade ability</b>\n\nBefore an <u><link=\"rule_keyword_enemy\">Enemy</link></u> Unit resolves an <u><link=\"rule_chapter_8_7_4\">Armour Roll</link></u> against the <u><link=\"rule_keyword_hits\">HITS</link></u> effect generated by this Unit's <u><link=\"pdf_Zerg_rule_ravagers_movement_phase_corrosive_bile\">Corrosive Bile</link></u> ability, that Unit suffers <u><link=\"rule_keyword_debuff\">DEBUFF</link></u> Armour (1)."
+  },
+  {
+    "Id": "pdf_Zerg_rule_ravagers_upgrade_assault_phase_potent_bile_effect_0",
+    "Name": "",
+    "Type": "",
+    "Description": "<u><link=\"pdf_Zerg_rule_ravagers_upgrade_assault_phase_potent_bile\">Corrosive Bile: <color=#2596be>DEBUFF Armour (1)</color> before the target resolves its Armour Roll</link></u>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Zerg_rule_roaches_upgrade_assault_phase_hydriodic_bile_effect_0_heading",
+    "Name": "",
+    "Type": "",
+    "Description": "<b>ACID SALIVA</b>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Zerg_rule_roaches_upgrade_assault_phase_hydriodic_bile_effect_0_table",
+    "Name": "",
+    "Type": "",
+    "Description": "<b>Assault Phase</b>\n<b>ACID SALIVA</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>8</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>3</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr><color=#2596be>Light (D3+1)</color></nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Children": []
   },
   {
     "Id": "pdf_Zerg_rule_roachling_any_phase_underdeveloped_claws",
@@ -1338,6 +1974,20 @@
     "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Passive\n\nImmediately after this Unit completes a successful <u><link=\"rule_chapter_8_7_7\">Charge</link></u>, resolve the <u><link=\"rule_keyword_impact\">IMPACT</link></u> (1) 4+ effect."
   },
   {
+    "Id": "pdf_Zerg_rule_viles_roach_upgrade_assault_phase_hydriodic_bile_effect_0_heading",
+    "Name": "",
+    "Type": "",
+    "Description": "<b>ACID SALIVA</b>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Zerg_rule_viles_roach_upgrade_assault_phase_hydriodic_bile_effect_0_table",
+    "Name": "",
+    "Type": "",
+    "Description": "<b>Assault Phase</b>\n<b>ACID SALIVA</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>8</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>4</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr><color=#2596be>Light (D3+1)</color></nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Children": []
+  },
+  {
     "Id": "pdf_Zerg_rule_viles_roach_upgrade_movement_phase_glial_reconstitution",
     "Name": "<color=#2596be>Glial Reconstitution (Viles (Roach))</color>",
     "Type": "Rule",
@@ -1366,5 +2016,12 @@
     "Name": "<color=#2596be>Broodmother</color>",
     "Type": "Rule",
     "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Active\n<b>Cost:</b> 1 BM\n<b>Upgrade ability</b>\n\nApply one of the following effects to all <u><link=\"rule_keyword_friendly\">Friendly</link></u> <u><link=\"rule_chapter_2_2\">units</link></u> (<u><link=\"rule_keyword_line_of_sight\">Line of Sight</link></u> is not required). You cannot apply the effect chosen in the previous Game Round:\n• <u><link=\"rule_chapter_2_2\">Units</link></u> of Size 1 gain a +1 <u><link=\"rule_keyword_modifier\">Modifier</link></u> to all <u><link=\"rule_keyword_impact\">IMPACT</link></u> Rolls.\n• All weapons of Size 2 <u><link=\"rule_chapter_2_2\">Units</link></u> gain <u><link=\"rule_keyword_critical_hit\">CRITICAL HIT</link></u> (1).\n• <u><link=\"rule_chapter_2_2\">Units</link></u> of Size 3 or more gain <u><link=\"rule_keyword_tough\">TOUGH</link></u> (1)."
+  },
+  {
+    "Id": "pdf_Zerg_rule_zerglings_upgrade_combat_phase_adrenal_glands_effect_0",
+    "Name": "",
+    "Type": "",
+    "Description": "<u><link=\"pdf_Zerg_rule_raptors_zergling_upgrade_combat_phase_adrenal_glands\"><color=#2596be>PRECISION (2)</color></link></u>",
+    "Children": []
   }
 ]

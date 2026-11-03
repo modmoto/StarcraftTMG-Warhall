@@ -66,7 +66,7 @@ test('Kinetic Foam changes the top HP row from 5 to 6 and selected blue rules pr
     const selected = unitProfile('Marauders', order);
     const stats = selected.filter(row => row.Type === 'Statline');
     assert.equal(stats.length, 1);
-    assert.equal(stats[0].Attributes.HP, '6');
+    assert.equal(stats[0].Attributes.HP, '<color=#2596be>6</color><size=0>(6)</size>');
     const defaultRule = selected.findIndex(row => plain(row.Name) === 'Stimpack (Marauders)');
     const phase = selected.findIndex(row => row.Description?.startsWith('<b>Assault Phase</b>\n'));
     for (const name of order) {
@@ -153,5 +153,147 @@ test('profile groups render inline and weapon headers stay unlinked', () => {
   for (const row of tables) {
     assert.doesNotMatch(row.Description.split('</align>')[0], /<link=/, row.Id);
     assert.match(row.Description, /<color=#2596be>/);
+  }
+});
+
+const weaponText = (name, options = []) =>
+  unitProfile(name, options)
+    .filter(row => row.Id.endsWith('_table') || /_effect_\d+$/.test(row.Id))
+    .map(row => row.Description ?? '')
+    .join('\n');
+
+test('Guidance changes Anti-Evade while the paid Resonating Glaves buff stays inactive', () => {
+  const text = weaponText('Adepts', ['Guidance', 'Resonating Glaves']);
+  assert.match(text, /<color=#2596be>ANTI-EVADE \(2\)<\/color>/);
+  assert.match(text, /<pos=32%><nobr>2<\/nobr>/);
+  assert.doesNotMatch(text, /<pos=32%><nobr><color=/);
+  const active = unitProfile('Adepts', ['Resonating Glaves']).find(
+    row => plain(row.Name) === 'Resonating Glaves',
+  );
+  assert.match(active.Description, /Upgrade ability/);
+  assert.match(active.Description, /Active/);
+  assert.match(active.Description, /1 PE/);
+});
+
+test('replacement profiles color only changed values and new keywords', () => {
+  const text = weaponText('Adepts', ['Glaive Strike']);
+  const melee = text.split('<b>Melee Phase</b>')[1];
+  assert.match(melee, /<color=#2596be>Light \(D3\)<\/color>/);
+  assert.match(melee, /<color=#2596be>PIERCE Light \(2\)<\/color>/);
+  assert.match(melee, /<pos=32%><nobr>1<\/nobr>/);
+  assert.match(melee, /<pos=86%><nobr>1<\/nobr>/);
+  assert.doesNotMatch(melee, /<pos=86%><nobr><color=/);
+});
+
+test('permanent ranged keywords and surge upgrades appear on the affected weapon', () => {
+  assert.match(
+    weaponText('Marauders', ['Laser Targeting Systems']),
+    /<color=#2596be>LONG RANGE \(16"\)<\/color>/,
+  );
+  assert.match(
+    weaponText('Hydralisks', ['Grooved Spines']),
+    /<color=#2596be>LONG RANGE \(16"\)<\/color>/,
+  );
+  const goliath = weaponText('Goliath', ['Ares-Class Targeting System', 'Haywire Missiles']);
+  assert.equal((goliath.match(/<color=#2596be>PRECISION \(1\)<\/color>/g) ?? []).length, 2);
+  for (const name of ['Roaches', 'Corpsers (Roach)', 'Viles (Roach)']) {
+    assert.match(weaponText(name, ['Hydriodic Bile']), /<color=#2596be>Light \(D3\+1\)<\/color>/);
+  }
+});
+
+test('conditional Armour remains informational and composes with numeric HP in either order', () => {
+  for (const order of [
+    ['Kinetic Foam', 'Veteran of Tarsonis'],
+    ['Veteran of Tarsonis', 'Kinetic Foam'],
+  ]) {
+    const profile = unitProfile('Marauders', order);
+    const stats = profile.find(row => row.Type === 'Statline');
+    assert.equal(stats.Attributes.Arm, '4+');
+    assert.equal(stats.Attributes.HP, '<color=#2596be>6</color><size=0>(6)</size>');
+    assert.match(
+      profile.map(row => row.Description).join('\n'),
+      /Armour: 4\+ <color=#65c879>\[3\+ — within 3" of a mission marker\]<\/color>/,
+    );
+  }
+});
+
+test('multiple conditional ranged bonuses survive replacement weapon selections in either order', () => {
+  for (const options of [
+    ['Fury Unyielding', 'For The Ancients', 'Left Phase Disruptor'],
+    ['Left Phase Disruptor', 'For The Ancients', 'Fury Unyielding'],
+  ]) {
+    const text = weaponText('Immortal', options);
+    assert.match(text, /<b>LEFT PHASE DISRUPTOR<\/b>/);
+    assert.equal((text.match(/<color=#65c879>\[CRITICAL HIT/g) ?? []).length, 2);
+    assert.equal((text.match(/<color=#65c879>\[PRECISION/g) ?? []).length, 2);
+  }
+});
+
+test('Adrenal Glands stays below the selected Claws profile and survives either selection order', () => {
+  for (const name of ['Zerglings', 'Raptors (Zergling)']) {
+    for (const choices of [
+      ['Adrenal Glands', 'Shredding Claws'],
+      ['Shredding Claws', 'Adrenal Glands'],
+    ]) {
+      const text = weaponText(name, choices);
+      assert.equal((text.match(/<color=#2596be>PRECISION \(2\)<\/color>/g) ?? []).length, 1);
+      assert.ok(text.indexOf('<b>SHREDDING CLAWS</b>') < text.indexOf('PRECISION (2)'));
+    }
+  }
+});
+
+test('conditional weapon effects are green and identify their weapon and condition', () => {
+  const text = weaponText('Marines', ['Slugthrower', 'Grenades - Frag']);
+  assert.match(text, /<color=#65c879>\[ANTI-EVADE \(1\) — C-14 Rifle, target within 8"\]<\/color>/);
+  assert.match(text, /Light \(D3\).*<color=#65c879>\[Light \(D6\) — target within 8"\]/);
+  assert.match(weaponText('Zealots', ['We Stand As One']), /<color=#65c879>\[PRECISION \(2\)/);
+  assert.match(weaponText('Stalker', ['Fury Of The Nerazim']), /<color=#65c879>\[INSTANT/);
+});
+
+test('passive upgrades to named abilities update the rule definition with blue values', () => {
+  const medic = unitProfile('Medics', ['A-13 Flash Grenade Launcher']);
+  const flare = medic.find(row => plain(row.Name).startsWith('Optical Flare (Range'));
+  assert.ok(flare);
+  assert.match(flare.Description, /<color=#2596be>16"<\/color>/);
+  assert.match(flare.Description, /Upgrade ability/);
+  assert.equal(medic.filter(row => plain(row.Name) === 'Optical Flare').length, 0);
+  const ravager = unitProfile('Ravagers', ['Bloated Bile Ducts']);
+  const bile = ravager.find(row => plain(row.Name).startsWith('Corrosive Bile (Area'));
+  assert.match(bile.Description, /<color=#2596be>2"<\/color>/);
+});
+
+test('the upgrade audit covers every source profile and active options change only the selected-rule list', async () => {
+  const report = JSON.parse(
+    await readFile(new URL('../Starcraft-test/import-report.json', import.meta.url)),
+  );
+  const options = data['options.json'];
+  const allModifiers = Object.entries(data)
+    .filter(([file]) => file.endsWith('/modifiedprofile.json'))
+    .flatMap(([, rows]) => rows);
+  const byId = new Map(
+    Object.values(data)
+      .flat()
+      .filter(row => row.Id)
+      .map(row => [row.Id, row]),
+  );
+  for (const unit of report.units) {
+    assert.equal(unit.upgradeDisplay.length, unit.upgradeProfiles.length);
+    for (const source of unit.upgradeProfiles) {
+      if (!/active|reaction|reactive/i.test(source.attributes.Type ?? source.attributes.Cost ?? ''))
+        continue;
+      const option = options.find(
+        option => option.Name.toLowerCase() === source.name.toLowerCase(),
+      );
+      assert.ok(option, source.name);
+      const modifier = allModifiers.find(
+        row => row.UnitId === unit.unitId && row.OptionId === option.Id,
+      );
+      assert.deepEqual(modifier.ReferencedItemsToRemove, []);
+      assert.ok(modifier.ReferencedItemsToAdd.every(row => row.Id.endsWith('_selected_options')));
+      for (const ref of modifier.ReferencedItemsToAdd.flatMap(row => row.Ref)) {
+        assert.match(byId.get(ref.Id).Description, /Upgrade ability/);
+        assert.match(byId.get(ref.Id).Name, /^<color=#2596be>/);
+      }
+    }
   }
 });

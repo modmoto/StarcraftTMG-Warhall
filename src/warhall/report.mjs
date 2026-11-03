@@ -1,3 +1,5 @@
+import { upgradeDisplay } from './upgrade-effects.mjs';
+
 export function createReport(metadata, baseMapping) {
   const pdfMode = metadata.mode === 'pdf';
   const limitations = [
@@ -5,7 +7,7 @@ export function createReport(metadata, baseMapping) {
       ? 'Base footprints come from the printed cards; flight stands use the user-specified 100 mm round footprint.'
       : 'Base footprints use the hard-coded mapping; unset units fall back to the hero/default round diameter.',
     'Manual placement only; army-list import and roster legality are not implemented.',
-    'Default profiles remain unchanged until an upgrade is selected. Supported HP increases and weapon replacements use WDS option mappings; conditional effects remain manual.',
+    'Default profiles remain unchanged until an upgrade is selected. Selected passive HP, weapon and ability changes use WDS option mappings and blue differences. Conditional bonuses are green bracketed alternatives; paid and reactive abilities require activation.',
     'All units are exposed, including faction-restricted and summoned units; eligibility is manual.',
     'Shields are displayed separately from HP; shield loss/healing is manual.',
     'Source completeness against current official releases is not established.',
@@ -32,7 +34,7 @@ export function createReport(metadata, baseMapping) {
       value => !value.startsWith('Default catalogue') && !value.startsWith('Source completeness'),
     );
     report.limitations.push(
-      'Official unit cards are parsed. Selected HP increases and weapon replacements are supported; cost tables, FAQ/errata reconciliation and conditional effects are not automated.',
+      'Official unit cards are parsed. Selected passive HP, weapon and ability changes are supported. Conditional bonuses are informational; cost spending, condition detection and FAQ/errata reconciliation remain manual.',
       'Tactical, mission and deployment pages are reported separately rather than imported as miniatures.',
     );
     report.cardCoverage = metadata.coverage;
@@ -60,5 +62,11 @@ export function unitReport(unit, faction, ids, footprint) {
     optionalUpgrades: unit.optionalUpgrades.map(upgrade => upgrade.name),
     modifierCount: unit.modifierCount,
     upgradeProfiles: unit.optionalUpgrades.flatMap(upgrade => upgrade.profiles),
+    upgradeDisplay: unit.optionalUpgrades
+      .flatMap(upgrade => upgrade.profiles)
+      .map(profile => ({
+        name: profile.name,
+        display: upgradeDisplay(unit, profile),
+      })),
   };
 }

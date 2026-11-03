@@ -1,3 +1,4 @@
+import { healthNumber } from './stat-values.mjs';
 import { readFile } from 'node:fs/promises';
 import path from 'node:path';
 
@@ -38,7 +39,7 @@ export function validateData(data) {
   for (const item of ids.values()) if (item.Type === 'Profile') visitStats(item);
   const validateRefs = (references, context) => {
     for (const child of references ?? []) {
-      ref(child.Id, context);
+      visitStats(ref(child.Id, context));
       validateRefs(child.Ref, context);
     }
   };
@@ -73,8 +74,8 @@ export function validateData(data) {
       const hpKey = data['gameconfig.json']?.WoundsAttribute;
       if (
         !hpKey ||
-        !/^\d+$/.test(item.Attributes?.[hpKey] ?? '') ||
-        Number(item.Attributes[hpKey]) <= 0
+        !Number.isFinite(healthNumber(item.Attributes?.[hpKey])) ||
+        healthNumber(item.Attributes?.[hpKey]) <= 0
       )
         throw new Error(`Invalid configured HP: ${item.Id}`);
     }

@@ -160,7 +160,7 @@ node scripts/select-tts-models.mjs
 The software renderer uses two views and approximate diffuse texture colors to review geometry and poses. The downloaded assets and preview sheets stay in ignored `.cache/tts-preview/`; game data contains no local model dependencies. Selection candidate IDs are local review identifiers; the exported mapping stores the full mesh and texture URLs. Preserve the preview inventory when repeating selections, as it maintains those IDs.
 
 - Manual army placement, with no 3D models or roster import.
-- Default stats, weapons and abilities. Upgrade descriptions and weapon replacement notes are retained, but changes are applied manually. New Recruit conditional modifiers/legality are not evaluated.
+- Default stats, weapons and abilities. Selected passive HP, weapon and ability upgrades update their profiles with blue differences; conditional alternatives appear in green brackets. Active/reaction abilities still require activation. See [import options](docs/import-options.md). Roster legality and runtime conditions are not evaluated.
 - Shields are displayed separately; their loss and restoration are manual.
 - The PDF option reads unit cards, not the separate cost tables, FAQ/errata or keyword glossary. It does not reconcile conflicting documents or automate combat. PDF costs are not filled from New Recruit or invented.
 - All variants, modes and summoned units are selectable; eligibility and alternate-mode switching are manual.

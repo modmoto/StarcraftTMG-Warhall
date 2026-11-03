@@ -3,13 +3,66 @@
     "UnitId": "pdf_Terran_unit_goliath",
     "ProfileId": "pdf_Terran_profile_goliath",
     "OptionId": "Ares-Class Targeting System",
-    "ReferencedItemsToRemove": [],
+    "ReferencedItemsToRemove": [
+      {
+        "Id": "pdf_Terran_equipment_goliath_default_1_slot",
+        "Ref": [
+          {
+            "Id": "pdf_Terran_equipment_goliath_default_1_body",
+            "Ref": [
+              {
+                "Id": "pdf_Terran_equipment_goliath_default_1_table"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Id": "pdf_Terran_equipment_goliath_default_2_slot",
+        "Ref": [
+          {
+            "Id": "pdf_Terran_equipment_goliath_default_2_body",
+            "Ref": [
+              {
+                "Id": "pdf_Terran_equipment_goliath_default_2_table"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "ReferencedItemsToAdd": [
       {
         "Id": "pdf_Terran_profile_goliath_selected_options",
         "Ref": [
           {
             "Id": "pdf_Terran_rule_goliath_upgrade_any_phase_ares_class_targeting_system"
+          }
+        ]
+      },
+      {
+        "Id": "pdf_Terran_equipment_goliath_default_1_slot",
+        "Ref": [
+          {
+            "Id": "pdf_Terran_equipment_goliath_default_1_body",
+            "Ref": [
+              {
+                "Id": "pdf_Terran_rule_goliath_upgrade_any_phase_ares_class_targeting_system_effect_0_table"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Id": "pdf_Terran_equipment_goliath_default_2_slot",
+        "Ref": [
+          {
+            "Id": "pdf_Terran_equipment_goliath_default_2_body",
+            "Ref": [
+              {
+                "Id": "pdf_Terran_rule_goliath_upgrade_any_phase_ares_class_targeting_system_effect_1_table"
+              }
+            ]
           }
         ]
       }
@@ -24,13 +77,18 @@
         "Id": "pdf_Terran_equipment_goliath_default_3_slot",
         "Ref": [
           {
-            "Id": "pdf_Terran_equipment_goliath_default_3_table"
-          },
-          {
-            "Id": "pdf_Terran_equipment_goliath_upgrade_1_table"
-          },
-          {
-            "Id": "pdf_Terran_equipment_goliath_upgrade_2_table"
+            "Id": "pdf_Terran_equipment_goliath_default_3_body",
+            "Ref": [
+              {
+                "Id": "pdf_Terran_equipment_goliath_default_3_table"
+              },
+              {
+                "Id": "pdf_Terran_equipment_goliath_upgrade_1_table"
+              },
+              {
+                "Id": "pdf_Terran_equipment_goliath_upgrade_2_table"
+              }
+            ]
           }
         ]
       }
@@ -48,7 +106,12 @@
         "Id": "pdf_Terran_equipment_goliath_default_3_slot",
         "Ref": [
           {
-            "Id": "pdf_Terran_equipment_goliath_upgrade_2_table"
+            "Id": "pdf_Terran_equipment_goliath_default_3_body",
+            "Ref": [
+              {
+                "Id": "pdf_Terran_equipment_goliath_upgrade_2_table"
+              }
+            ]
           }
         ]
       }
@@ -63,13 +126,18 @@
         "Id": "pdf_Terran_equipment_goliath_default_3_slot",
         "Ref": [
           {
-            "Id": "pdf_Terran_equipment_goliath_default_3_table"
-          },
-          {
-            "Id": "pdf_Terran_equipment_goliath_upgrade_1_table"
-          },
-          {
-            "Id": "pdf_Terran_equipment_goliath_upgrade_2_table"
+            "Id": "pdf_Terran_equipment_goliath_default_3_body",
+            "Ref": [
+              {
+                "Id": "pdf_Terran_equipment_goliath_default_3_table"
+              },
+              {
+                "Id": "pdf_Terran_equipment_goliath_upgrade_1_table"
+              },
+              {
+                "Id": "pdf_Terran_equipment_goliath_upgrade_2_table"
+              }
+            ]
           }
         ]
       }
@@ -87,7 +155,12 @@
         "Id": "pdf_Terran_equipment_goliath_default_3_slot",
         "Ref": [
           {
-            "Id": "pdf_Terran_equipment_goliath_upgrade_1_table"
+            "Id": "pdf_Terran_equipment_goliath_default_3_body",
+            "Ref": [
+              {
+                "Id": "pdf_Terran_equipment_goliath_upgrade_1_table"
+              }
+            ]
           }
         ]
       }
@@ -102,10 +175,15 @@
         "Id": "pdf_Terran_equipment_jim_raynor_default_2_slot",
         "Ref": [
           {
-            "Id": "pdf_Terran_equipment_jim_raynor_default_2_table"
-          },
-          {
-            "Id": "pdf_Terran_equipment_jim_raynor_upgrade_0_table"
+            "Id": "pdf_Terran_equipment_jim_raynor_default_2_body",
+            "Ref": [
+              {
+                "Id": "pdf_Terran_equipment_jim_raynor_default_2_table"
+              },
+              {
+                "Id": "pdf_Terran_equipment_jim_raynor_upgrade_0_table"
+              }
+            ]
           }
         ]
       }
@@ -123,7 +201,12 @@
         "Id": "pdf_Terran_equipment_jim_raynor_default_2_slot",
         "Ref": [
           {
-            "Id": "pdf_Terran_equipment_jim_raynor_upgrade_0_table"
+            "Id": "pdf_Terran_equipment_jim_raynor_default_2_body",
+            "Ref": [
+              {
+                "Id": "pdf_Terran_equipment_jim_raynor_upgrade_0_table"
+              }
+            ]
           }
         ]
       }
@@ -166,13 +249,40 @@
     "UnitId": "pdf_Terran_unit_marauders",
     "ProfileId": "pdf_Terran_profile_marauders",
     "OptionId": "Laser Targeting Systems",
-    "ReferencedItemsToRemove": [],
+    "ReferencedItemsToRemove": [
+      {
+        "Id": "pdf_Terran_equipment_marauders_default_1_slot",
+        "Ref": [
+          {
+            "Id": "pdf_Terran_equipment_marauders_default_1_body",
+            "Ref": [
+              {
+                "Id": "pdf_Terran_equipment_marauders_default_1_table"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "ReferencedItemsToAdd": [
       {
         "Id": "pdf_Terran_profile_marauders_selected_options",
         "Ref": [
           {
             "Id": "pdf_Terran_rule_marauders_upgrade_assault_phase_laser_targeting_systems"
+          }
+        ]
+      },
+      {
+        "Id": "pdf_Terran_equipment_marauders_default_1_slot",
+        "Ref": [
+          {
+            "Id": "pdf_Terran_equipment_marauders_default_1_body",
+            "Ref": [
+              {
+                "Id": "pdf_Terran_rule_marauders_upgrade_assault_phase_laser_targeting_systems_effect_0_table"
+              }
+            ]
           }
         ]
       }
@@ -191,6 +301,14 @@
             "Id": "pdf_Terran_rule_marauders_upgrade_any_phase_veteran_of_tarsonis"
           }
         ]
+      },
+      {
+        "Id": "pdf_Terran_profile_marauders_selected_options",
+        "Ref": [
+          {
+            "Id": "pdf_Terran_rule_marauders_upgrade_any_phase_veteran_of_tarsonis_effect_0"
+          }
+        ]
       }
     ]
   },
@@ -198,13 +316,25 @@
     "UnitId": "pdf_Terran_unit_medics",
     "ProfileId": "pdf_Terran_profile_medics",
     "OptionId": "A-13 Flash Grenade Launcher",
-    "ReferencedItemsToRemove": [],
+    "ReferencedItemsToRemove": [
+      {
+        "Id": "pdf_Terran_rule_medics_movement_phase_optical_flare"
+      }
+    ],
     "ReferencedItemsToAdd": [
       {
         "Id": "pdf_Terran_profile_medics_selected_options",
         "Ref": [
           {
             "Id": "pdf_Terran_rule_medics_upgrade_any_phase_a_13_flash_grenade_launcher"
+          }
+        ]
+      },
+      {
+        "Id": "pdf_Terran_profile_medics_selected_options",
+        "Ref": [
+          {
+            "Id": "pdf_Terran_rule_medics_upgrade_any_phase_a_13_flash_grenade_launcher_effect_0"
           }
         ]
       }
@@ -223,6 +353,14 @@
             "Id": "pdf_Terran_rule_medics_upgrade_any_phase_advanced_medic_facilities"
           }
         ]
+      },
+      {
+        "Id": "pdf_Terran_profile_medics_selected_options",
+        "Ref": [
+          {
+            "Id": "pdf_Terran_rule_medics_upgrade_any_phase_advanced_medic_facilities_effect_0"
+          }
+        ]
       }
     ]
   },
@@ -237,6 +375,14 @@
         "Ref": [
           {
             "Id": "pdf_Terran_rule_medics_upgrade_any_phase_stabilizer_medpacks"
+          }
+        ]
+      },
+      {
+        "Id": "pdf_Terran_profile_medics_selected_options",
+        "Ref": [
+          {
+            "Id": "pdf_Terran_rule_medics_upgrade_any_phase_stabilizer_medpacks_effect_0"
           }
         ]
       }
@@ -269,6 +415,14 @@
         "Ref": [
           {
             "Id": "pdf_Terran_rule_raven_upgrade_assault_phase_explosive_shrapnel_shells"
+          }
+        ]
+      },
+      {
+        "Id": "pdf_Terran_profile_raven_selected_options",
+        "Ref": [
+          {
+            "Id": "pdf_Terran_rule_raven_upgrade_assault_phase_explosive_shrapnel_shells_effect_0"
           }
         ]
       }
@@ -379,13 +533,18 @@
         "Id": "pdf_Terran_equipment_marines_default_1_slot",
         "Ref": [
           {
-            "Id": "pdf_Terran_equipment_marines_default_1_table"
-          },
-          {
-            "Id": "pdf_Terran_equipment_marines_upgrade_1_table"
-          },
-          {
-            "Id": "pdf_Terran_equipment_marines_upgrade_2_table"
+            "Id": "pdf_Terran_equipment_marines_default_1_body",
+            "Ref": [
+              {
+                "Id": "pdf_Terran_equipment_marines_default_1_table"
+              },
+              {
+                "Id": "pdf_Terran_equipment_marines_upgrade_1_table"
+              },
+              {
+                "Id": "pdf_Terran_equipment_marines_upgrade_2_table"
+              }
+            ]
           }
         ]
       }
@@ -403,7 +562,12 @@
         "Id": "pdf_Terran_equipment_marines_default_1_slot",
         "Ref": [
           {
-            "Id": "pdf_Terran_equipment_marines_upgrade_1_table"
+            "Id": "pdf_Terran_equipment_marines_default_1_body",
+            "Ref": [
+              {
+                "Id": "pdf_Terran_equipment_marines_upgrade_1_table"
+              }
+            ]
           }
         ]
       }
@@ -418,10 +582,15 @@
         "Id": "pdf_Terran_equipment_marines_default_2_slot",
         "Ref": [
           {
-            "Id": "pdf_Terran_equipment_marines_default_2_table"
-          },
-          {
-            "Id": "pdf_Terran_equipment_marines_upgrade_4_table"
+            "Id": "pdf_Terran_equipment_marines_default_2_body",
+            "Ref": [
+              {
+                "Id": "pdf_Terran_equipment_marines_default_2_table"
+              },
+              {
+                "Id": "pdf_Terran_equipment_marines_upgrade_4_table"
+              }
+            ]
           }
         ]
       }
@@ -439,7 +608,12 @@
         "Id": "pdf_Terran_equipment_marines_default_2_slot",
         "Ref": [
           {
-            "Id": "pdf_Terran_equipment_marines_upgrade_4_table"
+            "Id": "pdf_Terran_equipment_marines_default_2_body",
+            "Ref": [
+              {
+                "Id": "pdf_Terran_equipment_marines_upgrade_4_table"
+              }
+            ]
           }
         ]
       }
@@ -474,6 +648,19 @@
             "Id": "pdf_Terran_rule_marines_upgrade_assault_phase_grenades_frag"
           }
         ]
+      },
+      {
+        "Id": "pdf_Terran_equipment_marines_default_1_slot",
+        "Ref": [
+          {
+            "Id": "pdf_Terran_equipment_marines_default_1_effects",
+            "Ref": [
+              {
+                "Id": "pdf_Terran_rule_marines_upgrade_assault_phase_grenades_frag_effect_0"
+              }
+            ]
+          }
+        ]
       }
     ]
   },
@@ -486,13 +673,18 @@
         "Id": "pdf_Terran_equipment_marines_default_1_slot",
         "Ref": [
           {
-            "Id": "pdf_Terran_equipment_marines_default_1_table"
-          },
-          {
-            "Id": "pdf_Terran_equipment_marines_upgrade_1_table"
-          },
-          {
-            "Id": "pdf_Terran_equipment_marines_upgrade_2_table"
+            "Id": "pdf_Terran_equipment_marines_default_1_body",
+            "Ref": [
+              {
+                "Id": "pdf_Terran_equipment_marines_default_1_table"
+              },
+              {
+                "Id": "pdf_Terran_equipment_marines_upgrade_1_table"
+              },
+              {
+                "Id": "pdf_Terran_equipment_marines_upgrade_2_table"
+              }
+            ]
           }
         ]
       }
@@ -510,7 +702,12 @@
         "Id": "pdf_Terran_equipment_marines_default_1_slot",
         "Ref": [
           {
-            "Id": "pdf_Terran_equipment_marines_upgrade_2_table"
+            "Id": "pdf_Terran_equipment_marines_default_1_body",
+            "Ref": [
+              {
+                "Id": "pdf_Terran_equipment_marines_upgrade_2_table"
+              }
+            ]
           }
         ]
       }
@@ -527,6 +724,19 @@
         "Ref": [
           {
             "Id": "pdf_Terran_rule_marines_upgrade_assault_phase_slugthrower"
+          }
+        ]
+      },
+      {
+        "Id": "pdf_Terran_equipment_marines_default_1_slot",
+        "Ref": [
+          {
+            "Id": "pdf_Terran_equipment_marines_default_1_effects",
+            "Ref": [
+              {
+                "Id": "pdf_Terran_rule_marines_upgrade_assault_phase_slugthrower_effect_0"
+              }
+            ]
           }
         ]
       }

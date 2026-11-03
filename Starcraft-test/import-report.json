@@ -70,11 +70,11 @@
   "limitations": [
     "Base footprints come from the printed cards; flight stands use the user-specified 100 mm round footprint.",
     "Manual placement only; army-list import and roster legality are not implemented.",
-    "Default profiles remain unchanged until an upgrade is selected. Supported HP increases and weapon replacements use WDS option mappings; conditional effects remain manual.",
+    "Default profiles remain unchanged until an upgrade is selected. Selected passive HP, weapon and ability changes use WDS option mappings and blue differences. Conditional bonuses are green bracketed alternatives; paid and reactive abilities require activation.",
     "All units are exposed, including faction-restricted and summoned units; eligibility is manual.",
     "Shields are displayed separately from HP; shield loss/healing is manual.",
     "Warhall client compatibility/loading has not been verified.",
-    "Official unit cards are parsed. Selected HP increases and weapon replacements are supported; cost tables, FAQ/errata reconciliation and conditional effects are not automated.",
+    "Official unit cards are parsed. Selected passive HP, weapon and ability changes are supported. Conditional bonuses are informational; cost spending, condition detection and FAQ/errata reconciliation remain manual.",
     "Tactical, mission and deployment pages are reported separately rather than imported as miniatures."
   ],
   "warnings": [],
@@ -151,6 +151,26 @@
           },
           "description": ""
         }
+      ],
+      "upgradeDisplay": [
+        {
+          "name": "Resonating Glaves",
+          "display": [
+            "rule only; active or reactive activation required"
+          ]
+        },
+        {
+          "name": "Guidance",
+          "display": [
+            "permanent weapon change; blue: GLAIVE CANNON"
+          ]
+        },
+        {
+          "name": "GLAIVE STRIKE",
+          "display": [
+            "replacement weapon; changed fields blue"
+          ]
+        }
       ]
     },
     {
@@ -182,7 +202,8 @@
       "modelCounts": [],
       "optionalUpgrades": [],
       "modifierCount": 0,
-      "upgradeProfiles": []
+      "upgradeProfiles": [],
+      "upgradeDisplay": []
     },
     {
       "faction": "Protoss",
@@ -213,7 +234,8 @@
       "modelCounts": [],
       "optionalUpgrades": [],
       "modifierCount": 0,
-      "upgradeProfiles": []
+      "upgradeProfiles": [],
+      "upgradeDisplay": []
     },
     {
       "faction": "Protoss",
@@ -244,7 +266,8 @@
       "modelCounts": [],
       "optionalUpgrades": [],
       "modifierCount": 0,
-      "upgradeProfiles": []
+      "upgradeProfiles": [],
+      "upgradeDisplay": []
     },
     {
       "faction": "Protoss",
@@ -302,6 +325,20 @@
           },
           "description": ""
         }
+      ],
+      "upgradeDisplay": [
+        {
+          "name": "Solid-Field Projectors",
+          "display": [
+            "rule only; active or reactive activation required"
+          ]
+        },
+        {
+          "name": "Hallucination",
+          "display": [
+            "rule only; active or reactive activation required"
+          ]
+        }
       ]
     },
     {
@@ -358,6 +395,20 @@
             "Effect": "When this Unit attacks an Enemy Unit that has already been Activated during this Phase, its Particle Disruptors gain INSTANT for that attack."
           },
           "description": ""
+        }
+      ],
+      "upgradeDisplay": [
+        {
+          "name": "Path Of Shadows",
+          "display": [
+            "rule only; active or reactive activation required"
+          ]
+        },
+        {
+          "name": "Fury Of The Nerazim",
+          "display": [
+            "conditional; green brackets: PARTICLE DISRUPTORS"
+          ]
         }
       ]
     },
@@ -438,6 +489,32 @@
             "Effect": "When this Unit makes a Close Combat Attack, if the target is Engaged with at least 1 other Friendly Unit, this Unit's Close Combat Weapon gains PRECISION (2)."
           },
           "description": ""
+        }
+      ],
+      "upgradeDisplay": [
+        {
+          "name": "My Life For Aiur",
+          "display": [
+            "permanent; blue: profile note"
+          ]
+        },
+        {
+          "name": "Leg Enhancements",
+          "display": [
+            "rule only; active or reactive activation required"
+          ]
+        },
+        {
+          "name": "Zealous Round",
+          "display": [
+            "rule only; active or reactive activation required"
+          ]
+        },
+        {
+          "name": "We Stand As One",
+          "display": [
+            "conditional; green brackets: PSI BLADES"
+          ]
         }
       ]
     },
@@ -540,6 +617,40 @@
           },
           "description": ""
         }
+      ],
+      "upgradeDisplay": [
+        {
+          "name": "Shield Overcharge",
+          "display": [
+            "rule only; active or reactive activation required"
+          ]
+        },
+        {
+          "name": "LEFT PHASE DISRUPTOR",
+          "display": [
+            "replacement weapon; changed fields blue"
+          ]
+        },
+        {
+          "name": "RIGHT PHASE DISRUPTOR",
+          "display": [
+            "replacement weapon; changed fields blue"
+          ]
+        },
+        {
+          "name": "Fury Unyielding",
+          "display": [
+            "conditional; green brackets: LEFT PHOTON DISRUPTOR",
+            "conditional; green brackets: RIGHT PHOTON DISRUPTOR"
+          ]
+        },
+        {
+          "name": "For The Ancients",
+          "display": [
+            "conditional; green brackets: LEFT PHOTON DISRUPTOR",
+            "conditional; green brackets: RIGHT PHOTON DISRUPTOR"
+          ]
+        }
       ]
     },
     {
@@ -571,7 +682,8 @@
       "modelCounts": [],
       "optionalUpgrades": [],
       "modifierCount": 0,
-      "upgradeProfiles": []
+      "upgradeProfiles": [],
+      "upgradeDisplay": []
     },
     {
       "faction": "Protoss",
@@ -602,7 +714,8 @@
       "modelCounts": [],
       "optionalUpgrades": [],
       "modifierCount": 0,
-      "upgradeProfiles": []
+      "upgradeProfiles": [],
+      "upgradeDisplay": []
     },
     {
       "faction": "Protoss",
@@ -633,7 +746,8 @@
       "modelCounts": [],
       "optionalUpgrades": [],
       "modifierCount": 0,
-      "upgradeProfiles": []
+      "upgradeProfiles": [],
+      "upgradeDisplay": []
     },
     {
       "faction": "Protoss",
@@ -664,7 +778,8 @@
       "modelCounts": [],
       "optionalUpgrades": [],
       "modifierCount": 0,
-      "upgradeProfiles": []
+      "upgradeProfiles": [],
+      "upgradeDisplay": []
     },
     {
       "faction": "Protoss",
@@ -721,6 +836,20 @@
             "Effect": "Target one Friendly Unit Within 12\". Until the End of the Round, that Unit is eligible to make an Evade Roll against any attacks targeting it."
           },
           "description": ""
+        }
+      ],
+      "upgradeDisplay": [
+        {
+          "name": "Psionic Storm",
+          "display": [
+            "rule only; active or reactive activation required"
+          ]
+        },
+        {
+          "name": "Farsight",
+          "display": [
+            "rule only; active or reactive activation required"
+          ]
         }
       ]
     },
@@ -840,6 +969,44 @@
           },
           "description": ""
         }
+      ],
+      "upgradeDisplay": [
+        {
+          "name": "Combat Shield",
+          "display": [
+            "rule only; active or reactive activation required"
+          ]
+        },
+        {
+          "name": "AGG-12",
+          "display": [
+            "replacement weapon; changed fields blue"
+          ]
+        },
+        {
+          "name": "ROCKET LAUNCHER",
+          "display": [
+            "replacement weapon; changed fields blue"
+          ]
+        },
+        {
+          "name": "Slugthrower",
+          "display": [
+            "conditional; green brackets: C-14 RIFLE"
+          ]
+        },
+        {
+          "name": "Grenades - Frag",
+          "display": [
+            "conditional; green brackets: C-14 RIFLE"
+          ]
+        },
+        {
+          "name": "BAYONET",
+          "display": [
+            "replacement weapon; changed fields blue"
+          ]
+        }
       ]
     },
     {
@@ -906,6 +1073,26 @@
             "Effect": "This Unit's Quad K12 weapon gains LONG RANGE (16\")."
           },
           "description": ""
+        }
+      ],
+      "upgradeDisplay": [
+        {
+          "name": "Veteran Of Tarsonis",
+          "display": [
+            "conditional; green brackets: profile note"
+          ]
+        },
+        {
+          "name": "Kinetic Foam",
+          "display": [
+            "permanent HP; blue"
+          ]
+        },
+        {
+          "name": "Laser Targeting Systems",
+          "display": [
+            "permanent weapon change; blue: QUAD K12"
+          ]
         }
       ]
     },
@@ -974,6 +1161,26 @@
           },
           "description": ""
         }
+      ],
+      "upgradeDisplay": [
+        {
+          "name": "Advanced Medic Facilities",
+          "display": [
+            "permanent; blue: profile note"
+          ]
+        },
+        {
+          "name": "A-13 Flash Grenade Launcher",
+          "display": [
+            "ability definition change; blue: Optical Flare"
+          ]
+        },
+        {
+          "name": "Stabilizer Medpacks",
+          "display": [
+            "permanent; blue: profile note"
+          ]
+        }
       ]
     },
     {
@@ -1025,6 +1232,14 @@
           },
           "description": ""
         }
+      ],
+      "upgradeDisplay": [
+        {
+          "name": "C-14 RIFLE",
+          "display": [
+            "replacement weapon; changed fields blue"
+          ]
+        }
       ]
     },
     {
@@ -1056,7 +1271,8 @@
       "modelCounts": [],
       "optionalUpgrades": [],
       "modifierCount": 0,
-      "upgradeProfiles": []
+      "upgradeProfiles": [],
+      "upgradeDisplay": []
     },
     {
       "faction": "Terran",
@@ -1087,7 +1303,8 @@
       "modelCounts": [],
       "optionalUpgrades": [],
       "modifierCount": 0,
-      "upgradeProfiles": []
+      "upgradeProfiles": [],
+      "upgradeDisplay": []
     },
     {
       "faction": "Terran",
@@ -1165,6 +1382,27 @@
             "Notes": "↑ FOR HELLFIRE MISSILES"
           },
           "description": ""
+        }
+      ],
+      "upgradeDisplay": [
+        {
+          "name": "Ares-Class Targeting System",
+          "display": [
+            "permanent weapon change; blue: AUTOCANNON",
+            "permanent weapon change; blue: UNDERBELLY MACHINE GUN"
+          ]
+        },
+        {
+          "name": "SCATTER MISSILES",
+          "display": [
+            "replacement weapon; changed fields blue"
+          ]
+        },
+        {
+          "name": "HAYWIRE MISSILES",
+          "display": [
+            "replacement weapon; changed fields blue"
+          ]
         }
       ]
     },
@@ -1248,6 +1486,32 @@
           },
           "description": ""
         }
+      ],
+      "upgradeDisplay": [
+        {
+          "name": "Mode Transformation",
+          "display": [
+            "rule only; active or reactive activation required"
+          ]
+        },
+        {
+          "name": "Coordinated Strike",
+          "display": [
+            "rule only; active or reactive activation required"
+          ]
+        },
+        {
+          "name": "Shaped Blast",
+          "display": [
+            "rule only; active or reactive activation required"
+          ]
+        },
+        {
+          "name": "Smart Shells",
+          "display": [
+            "rule only; active or reactive activation required"
+          ]
+        }
       ]
     },
     {
@@ -1279,7 +1543,8 @@
       "modelCounts": [],
       "optionalUpgrades": [],
       "modifierCount": 0,
-      "upgradeProfiles": []
+      "upgradeProfiles": [],
+      "upgradeDisplay": []
     },
     {
       "faction": "Terran",
@@ -1310,7 +1575,8 @@
       "modelCounts": [],
       "optionalUpgrades": [],
       "modifierCount": 0,
-      "upgradeProfiles": []
+      "upgradeProfiles": [],
+      "upgradeDisplay": []
     },
     {
       "faction": "Terran",
@@ -1341,7 +1607,8 @@
       "modelCounts": [],
       "optionalUpgrades": [],
       "modifierCount": 0,
-      "upgradeProfiles": []
+      "upgradeProfiles": [],
+      "upgradeDisplay": []
     },
     {
       "faction": "Terran",
@@ -1372,7 +1639,8 @@
       "modelCounts": [],
       "optionalUpgrades": [],
       "modifierCount": 0,
-      "upgradeProfiles": []
+      "upgradeProfiles": [],
+      "upgradeDisplay": []
     },
     {
       "faction": "Terran",
@@ -1403,7 +1671,8 @@
       "modelCounts": [],
       "optionalUpgrades": [],
       "modifierCount": 0,
-      "upgradeProfiles": []
+      "upgradeProfiles": [],
+      "upgradeDisplay": []
     },
     {
       "faction": "Terran",
@@ -1480,6 +1749,32 @@
           },
           "description": ""
         }
+      ],
+      "upgradeDisplay": [
+        {
+          "name": "Corvid Reactor",
+          "display": [
+            "rule only; deployment, movement permission or resource effect"
+          ]
+        },
+        {
+          "name": "Internal Tech Module",
+          "display": [
+            "rule only; deployment, movement permission or resource effect"
+          ]
+        },
+        {
+          "name": "Seeker Missile",
+          "display": [
+            "rule only; active or reactive activation required"
+          ]
+        },
+        {
+          "name": "Explosive Shrapnel Shells",
+          "display": [
+            "permanent; blue: profile note"
+          ]
+        }
       ]
     },
     {
@@ -1511,7 +1806,8 @@
       "modelCounts": [],
       "optionalUpgrades": [],
       "modifierCount": 0,
-      "upgradeProfiles": []
+      "upgradeProfiles": [],
+      "upgradeDisplay": []
     },
     {
       "faction": "Zerg",
@@ -1589,6 +1885,32 @@
           },
           "description": ""
         }
+      ],
+      "upgradeDisplay": [
+        {
+          "name": "Ancillary Carapace",
+          "display": [
+            "conditional; green brackets: profile note"
+          ]
+        },
+        {
+          "name": "Lurking",
+          "display": [
+            "conditional; green brackets: profile note"
+          ]
+        },
+        {
+          "name": "Burrow Ambush",
+          "display": [
+            "rule only; deployment, movement permission or resource effect"
+          ]
+        },
+        {
+          "name": "Grooved Spines",
+          "display": [
+            "permanent weapon change; blue: NEEDLE SPINES"
+          ]
+        }
       ]
     },
     {
@@ -1620,7 +1942,8 @@
       "modelCounts": [],
       "optionalUpgrades": [],
       "modifierCount": 0,
-      "upgradeProfiles": []
+      "upgradeProfiles": [],
+      "upgradeDisplay": []
     },
     {
       "faction": "Zerg",
@@ -1651,7 +1974,8 @@
       "modelCounts": [],
       "optionalUpgrades": [],
       "modifierCount": 0,
-      "upgradeProfiles": []
+      "upgradeProfiles": [],
+      "upgradeDisplay": []
     },
     {
       "faction": "Zerg",
@@ -1682,7 +2006,8 @@
       "modelCounts": [],
       "optionalUpgrades": [],
       "modifierCount": 0,
-      "upgradeProfiles": []
+      "upgradeProfiles": [],
+      "upgradeDisplay": []
     },
     {
       "faction": "Zerg",
@@ -1738,6 +2063,20 @@
             "Effect": "Select another Friendly Unit Within 6\" (Line of Sight is not required). That Unit's Supply characteristic is increased by 1 for Controlling and Contesting Mission Markers and completing objectives."
           },
           "description": ""
+        }
+      ],
+      "upgradeDisplay": [
+        {
+          "name": "Creep Speed",
+          "display": [
+            "conditional; green brackets: profile note"
+          ]
+        },
+        {
+          "name": "Domineering Presence",
+          "display": [
+            "rule only; active or reactive activation required"
+          ]
         }
       ]
     },
@@ -1818,6 +2157,32 @@
           },
           "description": ""
         }
+      ],
+      "upgradeDisplay": [
+        {
+          "name": "Tunneling Claws",
+          "display": [
+            "rule only; deployment, movement permission or resource effect"
+          ]
+        },
+        {
+          "name": "Glial Reconstitution",
+          "display": [
+            "rule only; active or reactive activation required"
+          ]
+        },
+        {
+          "name": "Burrow Ambush",
+          "display": [
+            "rule only; deployment, movement permission or resource effect"
+          ]
+        },
+        {
+          "name": "Hydriodic Bile",
+          "display": [
+            "permanent weapon change; blue: ACID SALIVA"
+          ]
+        }
       ]
     },
     {
@@ -1897,6 +2262,32 @@
           },
           "description": ""
         }
+      ],
+      "upgradeDisplay": [
+        {
+          "name": "Tunneling Claws",
+          "display": [
+            "rule only; deployment, movement permission or resource effect"
+          ]
+        },
+        {
+          "name": "Glial Reconstitution",
+          "display": [
+            "rule only; active or reactive activation required"
+          ]
+        },
+        {
+          "name": "Burrow Ambush",
+          "display": [
+            "rule only; deployment, movement permission or resource effect"
+          ]
+        },
+        {
+          "name": "Hydriodic Bile",
+          "display": [
+            "permanent weapon change; blue: ACID SALIVA"
+          ]
+        }
       ]
     },
     {
@@ -1928,7 +2319,8 @@
       "modelCounts": [],
       "optionalUpgrades": [],
       "modifierCount": 0,
-      "upgradeProfiles": []
+      "upgradeProfiles": [],
+      "upgradeDisplay": []
     },
     {
       "faction": "Zerg",
@@ -2007,6 +2399,32 @@
           },
           "description": ""
         }
+      ],
+      "upgradeDisplay": [
+        {
+          "name": "Tunneling Claws",
+          "display": [
+            "rule only; deployment, movement permission or resource effect"
+          ]
+        },
+        {
+          "name": "Glial Reconstitution",
+          "display": [
+            "rule only; active or reactive activation required"
+          ]
+        },
+        {
+          "name": "Burrow Ambush",
+          "display": [
+            "rule only; deployment, movement permission or resource effect"
+          ]
+        },
+        {
+          "name": "Hydriodic Bile",
+          "display": [
+            "permanent weapon change; blue: ACID SALIVA"
+          ]
+        }
       ]
     },
     {
@@ -2079,6 +2497,26 @@
             "Effect": "This Unit's Claws and Shredding Claws weapons gain PRECISION (2)."
           },
           "description": ""
+        }
+      ],
+      "upgradeDisplay": [
+        {
+          "name": "Burrow Ambush",
+          "display": [
+            "rule only; deployment, movement permission or resource effect"
+          ]
+        },
+        {
+          "name": "SHREDDING CLAWS",
+          "display": [
+            "replacement weapon; changed fields blue"
+          ]
+        },
+        {
+          "name": "Adrenal Glands",
+          "display": [
+            "permanent; blue: CLAWS"
+          ]
         }
       ]
     },
@@ -2153,6 +2591,26 @@
           },
           "description": ""
         }
+      ],
+      "upgradeDisplay": [
+        {
+          "name": "Burrow Ambush",
+          "display": [
+            "rule only; deployment, movement permission or resource effect"
+          ]
+        },
+        {
+          "name": "SHREDDING CLAWS",
+          "display": [
+            "replacement weapon; changed fields blue"
+          ]
+        },
+        {
+          "name": "Adrenal Glands",
+          "display": [
+            "permanent; blue: CLAWS"
+          ]
+        }
       ]
     },
     {
@@ -2197,6 +2655,14 @@
             "Effect": "When this Unit is nominated to deploy from the Reserves, it may resolve the PLACE (18) effect from the controlling player's Entry Edge. No model may be set Within 10\" of any Enemy model. This Unit's Activation ends."
           },
           "description": ""
+        }
+      ],
+      "upgradeDisplay": [
+        {
+          "name": "Burrow Ambush",
+          "display": [
+            "rule only; deployment, movement permission or resource effect"
+          ]
         }
       ]
     },
@@ -2265,6 +2731,26 @@
           },
           "description": ""
         }
+      ],
+      "upgradeDisplay": [
+        {
+          "name": "Bloated Bile Ducts",
+          "display": [
+            "ability definition change; blue: Corrosive Bile"
+          ]
+        },
+        {
+          "name": "Burrow Ambush",
+          "display": [
+            "rule only; deployment, movement permission or resource effect"
+          ]
+        },
+        {
+          "name": "Potent Bile",
+          "display": [
+            "permanent; blue: profile note"
+          ]
+        }
       ]
     },
     {
@@ -2310,6 +2796,14 @@
             "Effect": "Apply one of the following effects to all Friendly units (Line of Sight is not required). You cannot apply the effect chosen in the previous Game Round:\n• Units of Size 1 gain a +1 Modifier to all IMPACT Rolls.\n• All weapons of Size 2 Units gain CRITICAL HIT (1).\n• Units of Size 3 or more gain TOUGH (1)."
           },
           "description": ""
+        }
+      ],
+      "upgradeDisplay": [
+        {
+          "name": "Broodmother",
+          "display": [
+            "rule only; active or reactive activation required"
+          ]
         }
       ]
     },
@@ -2384,6 +2878,26 @@
           },
           "description": ""
         }
+      ],
+      "upgradeDisplay": [
+        {
+          "name": "Burrow Ambush",
+          "display": [
+            "rule only; deployment, movement permission or resource effect"
+          ]
+        },
+        {
+          "name": "Plague",
+          "display": [
+            "rule only; active or reactive activation required"
+          ]
+        },
+        {
+          "name": "CANCEROUS BITE",
+          "display": [
+            "replacement weapon; changed fields blue"
+          ]
+        }
       ]
     },
     {
@@ -2415,7 +2929,8 @@
       "modelCounts": [],
       "optionalUpgrades": [],
       "modifierCount": 0,
-      "upgradeProfiles": []
+      "upgradeProfiles": [],
+      "upgradeDisplay": []
     },
     {
       "faction": "Zerg",
@@ -2446,7 +2961,8 @@
       "modelCounts": [],
       "optionalUpgrades": [],
       "modifierCount": 0,
-      "upgradeProfiles": []
+      "upgradeProfiles": [],
+      "upgradeDisplay": []
     }
   ],
   "cardCoverage": [
@@ -2888,7 +3404,7 @@
       "extraction": "Official Part 11 glossary; PDF text and headings, whitespace normalized."
     },
     "keywordDefinitions": 76,
-    "links": 2965,
+    "links": 3018,
     "rulebookSource": {
       "url": "https://archon-studio.com/files/manuals/sc/StarCraft-TMG_EN.pdf",
       "sha256": "27639c562e6db9777dd9ba984d0c9f9b581841ec30166848e021f893cd00ea54",

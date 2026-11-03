@@ -8,10 +8,15 @@
         "Id": "pdf_Protoss_equipment_adepts_default_3_slot",
         "Ref": [
           {
-            "Id": "pdf_Protoss_equipment_adepts_default_3_table"
-          },
-          {
-            "Id": "pdf_Protoss_equipment_adepts_upgrade_1_table"
+            "Id": "pdf_Protoss_equipment_adepts_default_3_body",
+            "Ref": [
+              {
+                "Id": "pdf_Protoss_equipment_adepts_default_3_table"
+              },
+              {
+                "Id": "pdf_Protoss_equipment_adepts_upgrade_1_table"
+              }
+            ]
           }
         ]
       }
@@ -29,7 +34,12 @@
         "Id": "pdf_Protoss_equipment_adepts_default_3_slot",
         "Ref": [
           {
-            "Id": "pdf_Protoss_equipment_adepts_upgrade_1_table"
+            "Id": "pdf_Protoss_equipment_adepts_default_3_body",
+            "Ref": [
+              {
+                "Id": "pdf_Protoss_equipment_adepts_upgrade_1_table"
+              }
+            ]
           }
         ]
       }
@@ -39,13 +49,40 @@
     "UnitId": "pdf_Protoss_unit_adepts",
     "ProfileId": "pdf_Protoss_profile_adepts",
     "OptionId": "Guidance",
-    "ReferencedItemsToRemove": [],
+    "ReferencedItemsToRemove": [
+      {
+        "Id": "pdf_Protoss_equipment_adepts_default_2_slot",
+        "Ref": [
+          {
+            "Id": "pdf_Protoss_equipment_adepts_default_2_body",
+            "Ref": [
+              {
+                "Id": "pdf_Protoss_equipment_adepts_default_2_table"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "ReferencedItemsToAdd": [
       {
         "Id": "pdf_Protoss_profile_adepts_selected_options",
         "Ref": [
           {
             "Id": "pdf_Protoss_rule_adepts_upgrade_assault_phase_guidance"
+          }
+        ]
+      },
+      {
+        "Id": "pdf_Protoss_equipment_adepts_default_2_slot",
+        "Ref": [
+          {
+            "Id": "pdf_Protoss_equipment_adepts_default_2_body",
+            "Ref": [
+              {
+                "Id": "pdf_Protoss_rule_adepts_upgrade_assault_phase_guidance_effect_0_table"
+              }
+            ]
           }
         ]
       }
@@ -112,6 +149,32 @@
             "Id": "pdf_Protoss_rule_immortal_upgrade_assault_phase_for_the_ancients"
           }
         ]
+      },
+      {
+        "Id": "pdf_Protoss_equipment_immortal_default_1_slot",
+        "Ref": [
+          {
+            "Id": "pdf_Protoss_equipment_immortal_default_1_effects",
+            "Ref": [
+              {
+                "Id": "pdf_Protoss_rule_immortal_upgrade_assault_phase_for_the_ancients_effect_0"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Id": "pdf_Protoss_equipment_immortal_default_2_slot",
+        "Ref": [
+          {
+            "Id": "pdf_Protoss_equipment_immortal_default_2_effects",
+            "Ref": [
+              {
+                "Id": "pdf_Protoss_rule_immortal_upgrade_assault_phase_for_the_ancients_effect_1"
+              }
+            ]
+          }
+        ]
       }
     ]
   },
@@ -128,6 +191,32 @@
             "Id": "pdf_Protoss_rule_immortal_upgrade_assault_phase_fury_unyielding"
           }
         ]
+      },
+      {
+        "Id": "pdf_Protoss_equipment_immortal_default_1_slot",
+        "Ref": [
+          {
+            "Id": "pdf_Protoss_equipment_immortal_default_1_effects",
+            "Ref": [
+              {
+                "Id": "pdf_Protoss_rule_immortal_upgrade_assault_phase_fury_unyielding_effect_0"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Id": "pdf_Protoss_equipment_immortal_default_2_slot",
+        "Ref": [
+          {
+            "Id": "pdf_Protoss_equipment_immortal_default_2_effects",
+            "Ref": [
+              {
+                "Id": "pdf_Protoss_rule_immortal_upgrade_assault_phase_fury_unyielding_effect_1"
+              }
+            ]
+          }
+        ]
       }
     ]
   },
@@ -140,10 +229,15 @@
         "Id": "pdf_Protoss_equipment_immortal_default_1_slot",
         "Ref": [
           {
-            "Id": "pdf_Protoss_equipment_immortal_default_1_table"
-          },
-          {
-            "Id": "pdf_Protoss_equipment_immortal_upgrade_1_table"
+            "Id": "pdf_Protoss_equipment_immortal_default_1_body",
+            "Ref": [
+              {
+                "Id": "pdf_Protoss_equipment_immortal_default_1_table"
+              },
+              {
+                "Id": "pdf_Protoss_equipment_immortal_upgrade_1_table"
+              }
+            ]
           }
         ]
       }
@@ -161,7 +255,12 @@
         "Id": "pdf_Protoss_equipment_immortal_default_1_slot",
         "Ref": [
           {
-            "Id": "pdf_Protoss_equipment_immortal_upgrade_1_table"
+            "Id": "pdf_Protoss_equipment_immortal_default_1_body",
+            "Ref": [
+              {
+                "Id": "pdf_Protoss_equipment_immortal_upgrade_1_table"
+              }
+            ]
           }
         ]
       }
@@ -176,10 +275,15 @@
         "Id": "pdf_Protoss_equipment_immortal_default_2_slot",
         "Ref": [
           {
-            "Id": "pdf_Protoss_equipment_immortal_default_2_table"
-          },
-          {
-            "Id": "pdf_Protoss_equipment_immortal_upgrade_2_table"
+            "Id": "pdf_Protoss_equipment_immortal_default_2_body",
+            "Ref": [
+              {
+                "Id": "pdf_Protoss_equipment_immortal_default_2_table"
+              },
+              {
+                "Id": "pdf_Protoss_equipment_immortal_upgrade_2_table"
+              }
+            ]
           }
         ]
       }
@@ -197,7 +301,12 @@
         "Id": "pdf_Protoss_equipment_immortal_default_2_slot",
         "Ref": [
           {
-            "Id": "pdf_Protoss_equipment_immortal_upgrade_2_table"
+            "Id": "pdf_Protoss_equipment_immortal_default_2_body",
+            "Ref": [
+              {
+                "Id": "pdf_Protoss_equipment_immortal_upgrade_2_table"
+              }
+            ]
           }
         ]
       }
@@ -264,6 +373,19 @@
             "Id": "pdf_Protoss_rule_stalker_upgrade_assault_phase_fury_of_the_nerazim"
           }
         ]
+      },
+      {
+        "Id": "pdf_Protoss_equipment_stalker_default_2_slot",
+        "Ref": [
+          {
+            "Id": "pdf_Protoss_equipment_stalker_default_2_effects",
+            "Ref": [
+              {
+                "Id": "pdf_Protoss_rule_stalker_upgrade_assault_phase_fury_of_the_nerazim_effect_0"
+              }
+            ]
+          }
+        ]
       }
     ]
   },
@@ -312,6 +434,14 @@
             "Id": "pdf_Protoss_rule_zealots_upgrade_any_phase_my_life_for_aiur"
           }
         ]
+      },
+      {
+        "Id": "pdf_Protoss_profile_zealots_selected_options",
+        "Ref": [
+          {
+            "Id": "pdf_Protoss_rule_zealots_upgrade_any_phase_my_life_for_aiur_effect_0"
+          }
+        ]
       }
     ]
   },
@@ -326,6 +456,19 @@
         "Ref": [
           {
             "Id": "pdf_Protoss_rule_zealots_upgrade_combat_phase_we_stand_as_one"
+          }
+        ]
+      },
+      {
+        "Id": "pdf_Protoss_equipment_zealots_default_1_slot",
+        "Ref": [
+          {
+            "Id": "pdf_Protoss_equipment_zealots_default_1_effects",
+            "Ref": [
+              {
+                "Id": "pdf_Protoss_rule_zealots_upgrade_combat_phase_we_stand_as_one_effect_0"
+              }
+            ]
           }
         ]
       }

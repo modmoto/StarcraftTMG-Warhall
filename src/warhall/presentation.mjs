@@ -34,7 +34,7 @@ function profilePhase(profile) {
   return displayPhase(phase ?? 'Any Phase');
 }
 
-export function weaponTable(attributes) {
+export function weaponTable(attributes, baseline = attributes) {
   const values = weaponAttributes(attributes);
   if (
     !/^(?:E|\d+["”]?)$/.test(values.RNG) ||
@@ -44,6 +44,10 @@ export function weaponTable(attributes) {
     !/^\d+$/.test(values.D)
   )
     throw new Error('Invalid weapon table values');
+  const original = weaponAttributes(baseline);
+  for (const key of Object.keys(values)) {
+    if (values[key] !== original[key]) values[key] = `<color=#2596be>${values[key]}</color>`;
+  }
   const positions = { RNG: 0, Target: 14, RoA: 32, Hit: 46, Surge: 59, D: 86 };
   const row = entries =>
     Object.entries(positions)
@@ -65,16 +69,28 @@ export function textContainer(records, id, children = []) {
   return id;
 }
 
-export function weaponRows(profile, id, records, glossary, phase = '') {
+export function weaponRows(
+  profile,
+  id,
+  records,
+  glossary,
+  phase = '',
+  baseline = profile.attributes,
+) {
   const heading = `<b>${profile.name}</b>`;
-  const keywords = weaponKeywords(profile.attributes.Keyword, glossary);
+  const keywords = weaponKeywords(profile.attributes.Keyword, glossary, baseline.Keyword);
   textRow(records, `${id}_heading`, heading);
   if (keywords) textRow(records, `${id}_keywords`, keywords);
-  const sections = [phase && `<b>${phase}</b>`, heading, weaponTable(profile.attributes), keywords];
+  const sections = [
+    phase && `<b>${phase}</b>`,
+    heading,
+    weaponTable(profile.attributes, baseline),
+    keywords,
+  ];
   return [textRow(records, `${id}_table`, sections.filter(Boolean).join('\n'))];
 }
 
-export function weaponKeywords(text, glossary) {
+export function weaponKeywords(text, glossary, baseline = text) {
   if (!text || text.trim() === '-') return '';
   const aliases = glossary.entries
     .flatMap(entry => entry.aliases.map(alias => ({ alias, id: entry.record.Id })))
@@ -87,7 +103,11 @@ export function weaponKeywords(text, glossary) {
           keyword.toLowerCase() === alias.toLowerCase() ||
           keyword.toLowerCase().startsWith(`${alias.toLowerCase()} `),
       );
-      return target ? `<u><link="${target.id}">${keyword}</link></u>` : keyword;
+      const original = (baseline ?? '-').split(/,\s*/).map(value => value.trim().toLowerCase());
+      const label = original.includes(keyword.toLowerCase())
+        ? keyword
+        : `<color=#2596be>${keyword}</color>`;
+      return target ? `<u><link="${target.id}">${label}</link></u>` : label;
     })
     .join(', ');
 }
@@ -105,11 +125,14 @@ export function profileChildren(unit, ids, references, records, glossary) {
     const group = groups.get(phase);
     if (!group) throw new Error(`Unknown display phase: ${unit.name}/${phase}`);
     group.push(
-      textContainer(
-        records,
-        `${id}_slot`,
-        weaponRows(profile, id, records, glossary, group.length ? '' : phase),
-      ),
+      textContainer(records, `${id}_slot`, [
+        textContainer(
+          records,
+          `${id}_body`,
+          weaponRows(profile, id, records, glossary, group.length ? '' : phase),
+        ),
+        textContainer(records, `${id}_effects`),
+      ]),
     );
   }
   const children = [
