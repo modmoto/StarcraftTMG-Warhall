@@ -171,11 +171,14 @@ test('shipped search index includes gameplay chapters and no duplicate named rul
     .flat()
     .filter(rule => rule.Name && rule.Type === 'Rule');
   const restoration = rules.filter(rule => rule.Name === 'Restoration');
-  assert.equal(restoration.length, 3);
-  for (const cost of ['1 CP', '1 PE', '1 BM'])
-    assert.equal(restoration.filter(rule => rule.Description.includes(cost)).length, 1);
-  const others = rules.filter(rule => rule.Name !== 'Restoration');
-  assert.equal(new Set(others.map(rule => rule.Name.toLowerCase())).size, others.length);
+  assert.equal(restoration.length, 1);
+  for (const [cost, unit] of [
+    ['1 CP', 'Medics'],
+    ['1 PE', 'Sentries'],
+    ['1 BM', 'Queen'],
+  ])
+    assert.ok(restoration[0].Description.includes(`${cost} (${unit})`));
+  assert.equal(new Set(rules.map(rule => rule.Name.toLowerCase())).size, rules.length);
   assert.equal(rules.filter(rule => rule.Name === 'Psionic Transfer').length, 1);
   assert.ok(rules.some(rule => rule.Name === '8.7.7 Charge'));
   assert.ok(rules.some(rule => /8.7.4.*Surge/.test(rule.Name)));

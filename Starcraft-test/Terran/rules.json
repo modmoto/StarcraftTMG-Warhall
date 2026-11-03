@@ -1887,12 +1887,6 @@
     "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Reaction\n<b>Cost:</b> 1 CP\n\nUse when another <u><link=\"rule_keyword_friendly\">Friendly</link></u> Biological Unit suffers Damage <u><link=\"rule_keyword_within\">Within</link></u> 4\". Reduce the Total Damage before allocation by 1 for each model in this Unit that is <u><link=\"rule_keyword_within\">Within</link></u> 4\" of the damaged Unit."
   },
   {
-    "Id": "pdf_Terran_rule_medics_any_phase_restoration",
-    "Name": "Restoration",
-    "Type": "Rule",
-    "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Reaction\n<b>Cost:</b> 1 CP\n\nUse when a <u><link=\"rule_keyword_friendly\">Friendly</link></u> Unit <u><link=\"rule_keyword_within\">Within</link></u> 4\" receives a <u><link=\"rule_keyword_debuff\">DEBUFF</link></u>. Remove all DEBUFFS from it."
-  },
-  {
     "Id": "pdf_Terran_rule_medics_movement_phase_medpack",
     "Name": "Medpack",
     "Type": "Rule",

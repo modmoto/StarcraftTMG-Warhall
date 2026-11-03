@@ -34,6 +34,31 @@ export function consolidateRules(data, owners) {
       return false;
     });
   }
+  const costLine = /^<b>Cost:<\/b> (1 (?:CP|BM|PE))$/m;
+  const restoration = [...unique.values()].filter(
+    rule => rule.Name === 'Restoration' && costLine.test(rule.Description),
+  );
+  const [shared] = restoration;
+  if (
+    restoration.length === 3 &&
+    new Set(restoration.map(rule => rule.Description.match(costLine)[1])).size === 3 &&
+    restoration.every(
+      rule => rule.Description.replace(costLine, '') === shared.Description.replace(costLine, ''),
+    )
+  ) {
+    const costs = restoration.map(
+      rule =>
+        `${rule.Description.match(costLine)[1]} (${[...(owners.get(rule.Id) ?? [])].join(', ')})`,
+    );
+    shared.Description = shared.Description.replace(costLine, `<b>Cost:</b> ${costs.join(' / ')}`);
+    const removed = new Set(restoration.slice(1).map(rule => rule.Id));
+    for (const id of removed) aliases.set(id, shared.Id);
+    for (const [id, target] of aliases) if (removed.has(target)) aliases.set(id, shared.Id);
+    for (const [filename, records] of Object.entries(data))
+      if (/(?:^|\/)rules\.json$/.test(filename))
+        data[filename] = records.filter(rule => !removed.has(rule.Id));
+    for (const [key, rule] of unique) if (removed.has(rule.Id)) unique.delete(key);
+  }
   const names = Map.groupBy([...unique.values()], rule => rule.Name.toLowerCase());
   for (const group of names.values()) {
     if (group.length < 2 && !/^Stimpack$/i.test(group[0].Name)) continue;
