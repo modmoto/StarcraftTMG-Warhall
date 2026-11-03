@@ -517,7 +517,7 @@
       "role": "ranged",
       "pose": "weapon-raised",
       "status": "selected",
-      "notes": "Complete TTS prefab; measured root geometry is centered and raised above the base.",
+      "notes": "Complete TTS prefab; midpoint of the boot soles is centered on the base.",
       "model": {
         "sourceName": "Jim Raynor (ComRifle)",
         "workshopId": "3662791369",
@@ -539,9 +539,9 @@
       "layout": {
         "size": 173.4988570758631,
         "position": [
-          1.2613979775563489,
+          0.064437819539768,
           0.08549566325002025,
-          -0.24668753669676063
+          0.017559026353294
         ],
         "rotation": [
           270,

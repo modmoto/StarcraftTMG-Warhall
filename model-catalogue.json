@@ -625,9 +625,9 @@
             "rotationX": 270,
             "rotationY": 0,
             "rotationZ": 0,
-            "positionX": 1.2613979775563489,
+            "positionX": 0.064437819539768,
             "positionY": 0.08549566325002025,
-            "positionZ": -0.24668753669676063
+            "positionZ": 0.017559026353294
           },
           "previewSource": {
             "modelUrl": "https://steamusercontent-a.akamaihd.net/ugc/14492147230123626268/74937E7A78C2A995654BFF5CF752A74BD54E06FC/",
@@ -638,9 +638,9 @@
             "rotationX": 270,
             "rotationY": 0,
             "rotationZ": 0,
-            "positionX": 1.2613979775563489,
+            "positionX": 0.064437819539768,
             "positionY": 0.08549566325002025,
-            "positionZ": -0.24668753669676063
+            "positionZ": 0.017559026353294
           },
           "factionPalette": "Terran",
           "hostedAsset": true
