@@ -191,7 +191,14 @@ export function applyUpgradeEffects(
       const phase =
         records.rules.get(`${oldId}_table`).Description.match(/^<b>([^<]*Phase)<\/b>\n/)?.[1] ?? '';
       const rows = weaponRows(
-        { ...effect.weapon, attributes, conditionalSurge: effect.conditionalSurge },
+        {
+          ...effect.weapon,
+          attributes,
+          conditionalSurge: effect.conditionalSurge && {
+            value: effect.conditionalSurge,
+            ruleId: recordId,
+          },
+        },
         id,
         records,
         glossary,
@@ -237,7 +244,11 @@ export function applyUpgradeEffects(
           Children: [],
         });
       } else {
-        textRow(records, id, effect.text);
+        const text = effect.text.replace(
+          /<color=#65c879>.*?<\/color>/g,
+          value => `<link="${recordId}">${value}</link>`,
+        );
+        textRow(records, id, text);
       }
       if (effect.kind === 'weaponNote') {
         const weaponId = defaults[unit.profiles.indexOf(effect.weapon)];

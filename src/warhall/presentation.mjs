@@ -48,7 +48,10 @@ export function weaponTable(attributes, baseline = attributes, conditionalSurge)
   for (const key of Object.keys(values)) {
     if (values[key] !== original[key]) values[key] = `<color=#2596be>${values[key]}</color>`;
   }
-  if (conditionalSurge) values.Surge += ` <color=#65c879>(${conditionalSurge})</color>`;
+  if (conditionalSurge) {
+    const { value, ruleId } = conditionalSurge;
+    values.Surge += ` <link="${ruleId}"><color=#65c879>(${value})</color></link>`;
+  }
   const positions = { RNG: 0, Target: 14, RoA: 32, Hit: 46, Surge: 59, D: 86 };
   const row = entries =>
     Object.entries(positions)

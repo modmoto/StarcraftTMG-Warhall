@@ -1586,7 +1586,7 @@
     "Id": "pdf_Zerg_rule_queen_upgrade_any_phase_creep_speed_effect_0",
     "Name": "",
     "Type": "",
-    "Description": "Speed: 4 <color=#65c879>(6 — <u><link=\"rule_keyword_on_creep\">on creep</link></u>)</color>",
+    "Description": "Speed: 4 <u><link=\"pdf_Zerg_rule_queen_upgrade_any_phase_creep_speed\"><color=#65c879>(6 — on creep)</color></link></u>",
     "Children": []
   },
   {

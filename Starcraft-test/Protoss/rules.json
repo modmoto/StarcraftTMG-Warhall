@@ -1218,7 +1218,7 @@
     "Id": "pdf_Protoss_rule_adepts_upgrade_assault_phase_resonating_glaves_effect_0",
     "Name": "",
     "Type": "",
-    "Description": "RoA: 2 <color=#65c879>(3)</color> when activated",
+    "Description": "RoA: 2 <u><link=\"pdf_Protoss_rule_adepts_upgrade_assault_phase_resonating_glaves\"><color=#65c879>(3)</color></link></u> when activated",
     "Children": []
   },
   {

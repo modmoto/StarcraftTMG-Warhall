@@ -151,7 +151,7 @@ test('profile groups render inline and weapon headers stay unlinked', () => {
   const tables = records.filter(row => row.Id?.endsWith('_table'));
   assert.ok(tables.length > 0);
   for (const row of tables) {
-    assert.doesNotMatch(row.Description.split('</align>')[0], /<link=/, row.Id);
+    assert.doesNotMatch(row.Description.split('\n<b>')[0], /<link=/, row.Id);
     assert.match(row.Description, /<color=#2596be>/);
   }
 });
@@ -167,7 +167,7 @@ test('Guidance changes Anti-Evade while the paid Resonating Glaves buff stays in
   assert.match(text, /<color=#2596be>ANTI-EVADE \(2\)<\/color>/);
   assert.match(text, /<pos=32%><nobr>2<\/nobr>/);
   assert.doesNotMatch(text, /<pos=32%><nobr><color=/);
-  assert.match(text, /RoA: 2 <color=#65c879>\(3\)<\/color>/);
+  assert.match(text, /RoA: 2 <u><link="[^"]+"><color=#65c879>\(3\)<\/color>/);
   assert.doesNotMatch(weaponText('Adepts', ['Guidance']), /#65c879/);
   const active = unitProfile('Adepts', ['Resonating Glaves']).find(
     row => plain(row.Name) === 'Resonating Glaves',
@@ -256,7 +256,7 @@ test('Adrenal Glands stays below the selected Claws profile and survives either 
 test('conditional weapon effects are green and identify their weapon and condition', () => {
   const text = weaponText('Marines', ['Slugthrower', 'Grenades - Frag']);
   assert.match(text, /<color=#65c879>ANTI-EVADE \(1\)<\/color>/);
-  assert.match(text, /Light \(D3\) <color=#65c879>\(D6\)<\/color>/);
+  assert.match(text, /Light \(D3\) <link="[^"]+"><color=#65c879>\(D6\)<\/color>/);
   assert.match(weaponText('Zealots', ['We Stand As One']), /<color=#65c879>PRECISION \(2\)/);
   assert.match(weaponText('Stalker', ['Fury Of The Nerazim']), /<color=#65c879>INSTANT/);
 });
