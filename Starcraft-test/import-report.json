@@ -1896,7 +1896,7 @@
         {
           "name": "Lurking",
           "display": [
-            "conditional; green: profile note"
+            "conditional Eva; green: stat cell"
           ]
         },
         {
@@ -2069,7 +2069,7 @@
         {
           "name": "Creep Speed",
           "display": [
-            "conditional; green: profile note"
+            "conditional Spd; green: stat cell"
           ]
         },
         {
@@ -3404,7 +3404,7 @@
       "extraction": "Official Part 11 glossary; PDF text and headings, whitespace normalized."
     },
     "keywordDefinitions": 76,
-    "links": 3020,
+    "links": 3018,
     "rulebookSource": {
       "url": "https://archon-studio.com/files/manuals/sc/StarCraft-TMG_EN.pdf",
       "sha256": "27639c562e6db9777dd9ba984d0c9f9b581841ec30166848e021f893cd00ea54",

@@ -255,7 +255,16 @@
     "UnitId": "pdf_Zerg_unit_hydralisks",
     "ProfileId": "pdf_Zerg_profile_hydralisks",
     "OptionId": "Lurking",
-    "ReferencedItemsToRemove": [],
+    "ReferencedItemsToRemove": [
+      {
+        "Id": "pdf_Zerg_profile_hydralisks_stats",
+        "Ref": [
+          {
+            "Id": "pdf_Zerg_stat_hydralisks"
+          }
+        ]
+      }
+    ],
     "ReferencedItemsToAdd": [
       {
         "Id": "pdf_Zerg_profile_hydralisks_selected_options",
@@ -266,7 +275,7 @@
         ]
       },
       {
-        "Id": "pdf_Zerg_profile_hydralisks_selected_options",
+        "Id": "pdf_Zerg_profile_hydralisks_stats",
         "Ref": [
           {
             "Id": "pdf_Zerg_rule_hydralisks_upgrade_any_phase_lurking_effect_0"
@@ -279,7 +288,16 @@
     "UnitId": "pdf_Zerg_unit_queen",
     "ProfileId": "pdf_Zerg_profile_queen",
     "OptionId": "Creep Speed",
-    "ReferencedItemsToRemove": [],
+    "ReferencedItemsToRemove": [
+      {
+        "Id": "pdf_Zerg_profile_queen_stats",
+        "Ref": [
+          {
+            "Id": "pdf_Zerg_stat_queen"
+          }
+        ]
+      }
+    ],
     "ReferencedItemsToAdd": [
       {
         "Id": "pdf_Zerg_profile_queen_selected_options",
@@ -290,7 +308,7 @@
         ]
       },
       {
-        "Id": "pdf_Zerg_profile_queen_selected_options",
+        "Id": "pdf_Zerg_profile_queen_stats",
         "Ref": [
           {
             "Id": "pdf_Zerg_rule_queen_upgrade_any_phase_creep_speed_effect_0"

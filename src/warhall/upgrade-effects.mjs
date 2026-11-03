@@ -83,19 +83,14 @@ export function upgradeEffects(unit, profile) {
       text: `Armour: ${base} ${conditional(`${Number(base.replace('+', '')) - 1}+ — within 3" of a mission marker`)}`,
     });
   }
-  if (/ON CREEP, increase this Unit's Speed characteristic by 2/.test(effect)) {
-    const base = unit.attributes.Spd;
+  if (/ON CREEP, increase this Unit's Speed characteristic by 2/.test(effect))
     result.push({
-      kind: 'statNote',
-      text: `Speed: ${base} ${conditional(
-        `${base
-          .split('/')
-          .map(Number)
-          .map(value => value + 2)
-          .join('/')} — on creep`,
-      )}`,
+      kind: 'stat',
+      key: 'Spd',
+      value: unit.attributes.Spd.split('/')
+        .map(value => Number(value) + 2)
+        .join('/'),
     });
-  }
   if (/Claws and Shredding Claws weapons gain PRECISION/.test(effect)) {
     result.length = 0;
     for (const weapon of weapons(unit).filter(melee))
@@ -108,8 +103,9 @@ export function upgradeEffects(unit, profile) {
     });
   if (/Stationary Status.*Evade Roll/.test(effect))
     result.push({
-      kind: 'statNote',
-      text: conditional('Evade eligible — stationary, first ranged attack; +1 on creep'),
+      kind: 'stat',
+      key: 'Eva',
+      value: `${Number(unit.attributes.Eva.replace('+', '')) - 1}+`,
     });
   if (/Supply Value counts as 0/.test(effect))
     result.push({
@@ -168,7 +164,18 @@ export function applyUpgradeEffects(
 ) {
   for (const [index, effect] of upgradeEffects(unit, profile).entries()) {
     const id = `${recordId}_effect_${index}`;
-    if (effect.kind === 'weapon') {
+    if (effect.kind === 'stat') {
+      const base = records.statlines.find(record => record.Id === ids.statline);
+      const value = `<u><link="${recordId}">${conditional(effect.value)}</link></u>`;
+      records.statlines.push({
+        ...structuredClone(base),
+        Id: id,
+        Attributes: { ...base.Attributes, [effect.key]: `${base.Attributes[effect.key]} ${value}` },
+      });
+      const stats = `${ids.profile}_stats`;
+      remove.push({ Id: stats, Ref: [{ Id: ids.statline }] });
+      add.push({ Id: stats, Ref: [{ Id: id }] });
+    } else if (effect.kind === 'weapon') {
       const oldId = defaults[unit.profiles.indexOf(effect.weapon)];
       const attributes = { ...effect.weapon.attributes, ...effect.attributes };
       if (effect.keyword) {
@@ -281,6 +288,7 @@ export function upgradeDisplay(unit, profile) {
     ? [
         ...new Set(
           effects.map(effect => {
+            if (effect.kind === 'stat') return `conditional ${effect.key}; green: stat cell`;
             if (effect.conditionalRoa) return `conditional RoA; green: ${effect.weapon.name}`;
             if (effect.conditionalSurge) return `conditional surge; green: ${effect.weapon.name}`;
             if (effect.kind === 'weapon')

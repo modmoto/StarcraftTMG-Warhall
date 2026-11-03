@@ -50,11 +50,11 @@ export function weaponTable(attributes, baseline = attributes, conditionalSurge,
   }
   if (conditionalSurge) {
     const { value, ruleId } = conditionalSurge;
-    values.Surge += ` <link="${ruleId}"><color=#65c879>(${value})</color></link>`;
+    values.Surge += ` <u><link="${ruleId}"><color=#65c879>(${value})</color></link></u>`;
   }
   if (conditionalRoa) {
     const { value, ruleId } = conditionalRoa;
-    values.RoA += ` <link="${ruleId}"><color=#65c879>(${value})</color></link>`;
+    values.RoA += ` <u><link="${ruleId}"><color=#65c879>(${value})</color></link></u>`;
   }
   const positions = { RNG: 0, Target: 14, RoA: 32, Hit: 46, Surge: 59, D: 86 };
   const row = entries =>

@@ -1260,7 +1260,7 @@
     "Id": "pdf_Protoss_rule_adepts_upgrade_assault_phase_resonating_glaves_effect_0_table",
     "Name": "",
     "Type": "",
-    "Description": "<b>Assault Phase</b>\n<b>GLAIVE CANNON</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>8</nobr><pos=14%><nobr>All</nobr><pos=32%><nobr>2 <link=\"pdf_Protoss_rule_adepts_upgrade_assault_phase_resonating_glaves\"><color=#65c879>(3)</color></link></nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>Light (D3+1)</nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Description": "<b>Assault Phase</b>\n<b>GLAIVE CANNON</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>8</nobr><pos=14%><nobr>All</nobr><pos=32%><nobr>2 <u><link=\"pdf_Protoss_rule_adepts_upgrade_assault_phase_resonating_glaves\"><color=#65c879>(3)</color></link></u></nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>Light (D3+1)</nobr><pos=86%><nobr>1</nobr></b></size></align>",
     "Children": []
   },
   {

@@ -168,7 +168,7 @@ const weaponText = (name, options = []) =>
 test('Guidance changes Anti-Evade while the paid Resonating Glaves buff stays inactive', () => {
   const text = weaponText('Adepts', ['Guidance', 'Resonating Glaves']);
   assert.match(text, /<color=#2596be>ANTI-EVADE \(2\)<\/color>/);
-  assert.match(text, /<pos=32%><nobr>2 <link="[^"]+"><color=#65c879>\(3\)<\/color>/);
+  assert.match(text, /<pos=32%><nobr>2 <u><link="[^"]+"><color=#65c879>\(3\)<\/color>/);
   assert.doesNotMatch(text, /<pos=32%><nobr><color=/);
   assert.doesNotMatch(weaponText('Adepts', ['Guidance']), /#65c879/);
   const active = unitProfile('Adepts', ['Resonating Glaves']).find(
@@ -258,7 +258,7 @@ test('Adrenal Glands stays below the selected Claws profile and survives either 
 test('conditional weapon effects are green and identify their weapon and condition', () => {
   const text = weaponText('Marines', ['Slugthrower', 'Grenades - Frag']);
   assert.match(text, /<color=#65c879>ANTI-EVADE \(1\)<\/color>/);
-  assert.match(text, /Light \(D3\) <link="[^"]+"><color=#65c879>\(D6\)<\/color>/);
+  assert.match(text, /Light \(D3\) <u><link="[^"]+"><color=#65c879>\(D6\)<\/color>/);
   assert.match(weaponText('Zealots', ['We Stand As One']), /<color=#65c879>PRECISION \(2\)/);
   assert.match(weaponText('Stalker', ['Fury Of The Nerazim']), /<color=#65c879>INSTANT/);
 });

@@ -1459,13 +1459,6 @@
     "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Passive\n<b>Upgrade ability</b>\n\nIf this Unit has <u><link=\"rule_keyword_stationary\">Stationary</link></u> <u><link=\"rule_keyword_status\">Status</link></u>, it is eligible to make an <u><link=\"rule_chapter_8_7_4\">Evade Roll</link></u> against the first <u><link=\"rule_chapter_8_7_3\">Ranged Attack</link></u> targeting it this Round. If this Unit is <u><link=\"rule_keyword_on_creep\">ON CREEP</link></u>, it gains +1 <u><link=\"rule_keyword_modifier\">Modifier</link></u> to this <u><link=\"rule_chapter_8_7_4\">Evade Roll</link></u>."
   },
   {
-    "Id": "pdf_Zerg_rule_hydralisks_upgrade_any_phase_lurking_effect_0",
-    "Name": "",
-    "Type": "",
-    "Description": "<u><link=\"pdf_Zerg_rule_hydralisks_upgrade_any_phase_lurking\"><color=#65c879>Evade eligible</color></link></u>",
-    "Children": []
-  },
-  {
     "Id": "pdf_Zerg_rule_hydralisks_upgrade_assault_phase_grooved_spines",
     "Name": "<color=#2596be>Grooved Spines</color>",
     "Type": "Rule",
@@ -1581,13 +1574,6 @@
     "Name": "<color=#2596be>Creep Speed</color>",
     "Type": "Rule",
     "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Passive\n<b>Upgrade ability</b>\n\nWhile this Unit is <u><link=\"rule_keyword_on_creep\">ON CREEP</link></u>, increase this Unit's Speed characteristic by 2."
-  },
-  {
-    "Id": "pdf_Zerg_rule_queen_upgrade_any_phase_creep_speed_effect_0",
-    "Name": "",
-    "Type": "",
-    "Description": "Speed: 4 <u><link=\"pdf_Zerg_rule_queen_upgrade_any_phase_creep_speed\"><color=#65c879>(6 — on creep)</color></link></u>",
-    "Children": []
   },
   {
     "Id": "pdf_Zerg_rule_queen_upgrade_movement_phase_domineering_presence",
