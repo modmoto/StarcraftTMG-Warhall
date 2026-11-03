@@ -1512,5 +1512,28 @@
         "Type": "Terrain"
       }
     ]
+  },
+  {
+    "Id": "sc_flat_terrain_prototype",
+    "Name": "Flat Terrain Prototype",
+    "MapName": "Flat Terrain Prototype",
+    "Items": [
+      {
+        "Id": "Starcraft - Terrain - Wall Set 2 - 3895d1",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 22,
+        "LongSide": 18,
+        "Type": "Terrain"
+      },
+      {
+        "Id": "Starcraft - Terrain - Wall Set 2 - Flat Prototype",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 32,
+        "LongSide": 18,
+        "Type": "Terrain"
+      }
+    ]
   }
 ]
