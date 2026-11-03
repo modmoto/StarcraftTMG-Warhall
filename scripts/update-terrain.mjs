@@ -144,7 +144,7 @@ const maps = source.maps.map(map => ({
       Id: terrainMenuId(canonicalAsset(item.id)),
       Quadrant: 1,
       Rotation: placement.rotation,
-      ShortSide: map.width / 2 - placement.x,
+      ShortSide: 27 - placement.x,
       LongSide: map.height / 2 + placement.z,
       Type: 'Terrain',
     };
