@@ -226,6 +226,17 @@ export function applyUpgradeEffects(
       const description = `<u><link="${recordId}">${effect.text}</link></u>`;
       textRow(records, id, description);
       if (effect.kind === 'weaponNote') {
+        const keyword = effect.text.match(
+          /^<color=(#[a-f0-9]+)>\(?(INSTANT|(?:PRECISION|CRITICAL HIT|ANTI-EVADE) \(\d+\))/i,
+        );
+        if (keyword) {
+          const [, color, label] = keyword;
+          Object.assign(records.rules.get(id), {
+            Name: `<color=${color}>${label}</color>`,
+            Type: 'Rule',
+            Description: records.rules.get(recordId).Description,
+          });
+        }
         const weaponId = defaults[unit.profiles.indexOf(effect.weapon)];
         add.push({
           Id: `${weaponId}_slot`,

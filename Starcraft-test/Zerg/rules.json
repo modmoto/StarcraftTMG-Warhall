@@ -1615,9 +1615,9 @@
   },
   {
     "Id": "pdf_Zerg_rule_raptors_zergling_upgrade_combat_phase_adrenal_glands_effect_0",
-    "Name": "",
-    "Type": "",
-    "Description": "<u><link=\"pdf_Zerg_rule_raptors_zergling_upgrade_combat_phase_adrenal_glands\"><color=#2596be>PRECISION (2)</color></link></u>",
+    "Name": "<color=#2596be><color=#2596be>PRECISION (2)</color></color>",
+    "Type": "Rule",
+    "Description": "<b>Phase:</b> Melee Phase\n<b>Type:</b> Passive\n<b>Upgrade ability</b>\n\nThis Unit's Claws and Shredding Claws weapons gain <u><link=\"rule_keyword_precision\">PRECISION</link></u> (2).",
     "Children": []
   },
   {
@@ -1756,12 +1756,5 @@
     "Name": "<color=#2596be>Broodmother</color>",
     "Type": "Rule",
     "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Active\n<b>Cost:</b> 1 BM\n<b>Upgrade ability</b>\n\nApply one of the following effects to all <u><link=\"rule_keyword_friendly\">Friendly</link></u> <u><link=\"rule_chapter_2_2\">units</link></u> (<u><link=\"rule_keyword_line_of_sight\">Line of Sight</link></u> is not required). You cannot apply the effect chosen in the previous Game Round:\n• <u><link=\"rule_chapter_2_2\">Units</link></u> of Size 1 gain a +1 <u><link=\"rule_keyword_modifier\">Modifier</link></u> to all <u><link=\"rule_keyword_impact\">IMPACT</link></u> Rolls.\n• All weapons of Size 2 <u><link=\"rule_chapter_2_2\">Units</link></u> gain <u><link=\"rule_keyword_critical_hit\">CRITICAL HIT</link></u> (1).\n• <u><link=\"rule_chapter_2_2\">Units</link></u> of Size 3 or more gain <u><link=\"rule_keyword_tough\">TOUGH</link></u> (1)."
-  },
-  {
-    "Id": "pdf_Zerg_rule_zerglings_upgrade_combat_phase_adrenal_glands_effect_0",
-    "Name": "",
-    "Type": "",
-    "Description": "<u><link=\"pdf_Zerg_rule_raptors_zergling_upgrade_combat_phase_adrenal_glands\"><color=#2596be>PRECISION (2)</color></link></u>",
-    "Children": []
   }
 ]

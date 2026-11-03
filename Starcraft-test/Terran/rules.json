@@ -1578,9 +1578,9 @@
   },
   {
     "Id": "pdf_Terran_rule_marines_upgrade_assault_phase_slugthrower_effect_0",
-    "Name": "",
-    "Type": "",
-    "Description": "<u><link=\"pdf_Terran_rule_marines_upgrade_assault_phase_slugthrower\"><color=#65c879>ANTI-EVADE (1)</color></link></u>",
+    "Name": "<color=#2596be><color=#65c879>ANTI-EVADE (1)</color></color>",
+    "Type": "Rule",
+    "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Passive\n<b>Upgrade ability</b>\n\nWhen this Unit makes a <u><link=\"rule_chapter_8_7_3\">Ranged Attack</link></u> with a C-14 Rifle and the target is <u><link=\"rule_keyword_within\">Within</link></u> 8\", that weapon gains <u><link=\"rule_keyword_anti_evade\">ANTI-EVADE</link></u> (1).",
     "Children": []
   },
   {

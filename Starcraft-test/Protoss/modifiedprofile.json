@@ -170,7 +170,7 @@
         "Id": "pdf_Protoss_equipment_immortal_default_2_slot",
         "Ref": [
           {
-            "Id": "pdf_Protoss_rule_immortal_upgrade_assault_phase_for_the_ancients_effect_1"
+            "Id": "pdf_Protoss_rule_immortal_upgrade_assault_phase_for_the_ancients_effect_0"
           }
         ]
       }
@@ -202,7 +202,7 @@
         "Id": "pdf_Protoss_equipment_immortal_default_2_slot",
         "Ref": [
           {
-            "Id": "pdf_Protoss_rule_immortal_upgrade_assault_phase_fury_unyielding_effect_1"
+            "Id": "pdf_Protoss_rule_immortal_upgrade_assault_phase_fury_unyielding_effect_0"
           }
         ]
       }

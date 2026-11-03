@@ -159,7 +159,7 @@ test('profile groups render inline and weapon headers stay unlinked', () => {
 const weaponText = (name, options = []) =>
   unitProfile(name, options)
     .filter(row => row.Id.endsWith('_table') || /_effect_\d+$/.test(row.Id))
-    .map(row => row.Description ?? '')
+    .map(row => row.Name || row.Description || '')
     .join('\n');
 
 test('Guidance changes Anti-Evade while the paid Resonating Glaves buff stays inactive', () => {
@@ -232,8 +232,8 @@ test('multiple conditional ranged bonuses survive replacement weapon selections 
   ]) {
     const text = weaponText('Immortal', options);
     assert.match(text, /<b>LEFT PHASE DISRUPTOR<\/b>/);
-    assert.equal((text.match(/<color=#65c879>\(CRITICAL HIT/g) ?? []).length, 2);
-    assert.equal((text.match(/<color=#65c879>\(PRECISION/g) ?? []).length, 2);
+    assert.equal((text.match(/<color=#65c879>CRITICAL HIT/g) ?? []).length, 2);
+    assert.equal((text.match(/<color=#65c879>PRECISION/g) ?? []).length, 2);
   }
 });
 
@@ -254,8 +254,8 @@ test('conditional weapon effects are green and identify their weapon and conditi
   const text = weaponText('Marines', ['Slugthrower', 'Grenades - Frag']);
   assert.match(text, /<color=#65c879>ANTI-EVADE \(1\)<\/color>/);
   assert.match(text, /Light \(D3\) <color=#65c879>\(D6\)<\/color>/);
-  assert.match(weaponText('Zealots', ['We Stand As One']), /<color=#65c879>\(PRECISION \(2\)/);
-  assert.match(weaponText('Stalker', ['Fury Of The Nerazim']), /<color=#65c879>\(INSTANT/);
+  assert.match(weaponText('Zealots', ['We Stand As One']), /<color=#65c879>PRECISION \(2\)/);
+  assert.match(weaponText('Stalker', ['Fury Of The Nerazim']), /<color=#65c879>INSTANT/);
 });
 
 test('passive upgrades to named abilities update the rule definition with blue values', () => {
@@ -313,4 +313,11 @@ test('Marines retain the C-14 alongside the selected specialist launcher', () =>
   assert.ok(weapons(profile).includes('ROCKET LAUNCHER'));
   const choice = profile.find(row => plain(row.Name) === 'Rocket Launcher');
   assert.match(choice.Description, /Add ROCKET LAUNCHER for the specialist model/);
+});
+
+test('Marine specialist choices retain the rifle and each selected specialist', () => {
+  const profile = unitProfile('Marines', ['Rocket Launcher', 'Agg-12']);
+  assert.ok(weapons(profile).includes('C-14 RIFLE'));
+  assert.ok(weapons(profile).includes('ROCKET LAUNCHER'));
+  assert.ok(weapons(profile).includes('AGG-12'));
 });
