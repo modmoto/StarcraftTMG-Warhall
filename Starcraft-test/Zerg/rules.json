@@ -11,13 +11,6 @@
     ]
   },
   {
-    "Id": "pdf_Zerg_equipment_bile_launcher_default_2_effects",
-    "Name": "",
-    "Type": "Profile",
-    "Description": "",
-    "Children": []
-  },
-  {
     "Id": "pdf_Zerg_equipment_bile_launcher_default_2_heading",
     "Name": "",
     "Type": "",
@@ -39,9 +32,6 @@
     "Children": [
       {
         "Id": "pdf_Zerg_equipment_bile_launcher_default_2_body"
-      },
-      {
-        "Id": "pdf_Zerg_equipment_bile_launcher_default_2_effects"
       }
     ]
   },
@@ -64,13 +54,6 @@
     ]
   },
   {
-    "Id": "pdf_Zerg_equipment_corpsers_roach_default_2_effects",
-    "Name": "",
-    "Type": "Profile",
-    "Description": "",
-    "Children": []
-  },
-  {
     "Id": "pdf_Zerg_equipment_corpsers_roach_default_2_heading",
     "Name": "",
     "Type": "",
@@ -85,9 +68,6 @@
     "Children": [
       {
         "Id": "pdf_Zerg_equipment_corpsers_roach_default_2_body"
-      },
-      {
-        "Id": "pdf_Zerg_equipment_corpsers_roach_default_2_effects"
       }
     ]
   },
@@ -110,13 +90,6 @@
     ]
   },
   {
-    "Id": "pdf_Zerg_equipment_corpsers_roach_default_4_effects",
-    "Name": "",
-    "Type": "Profile",
-    "Description": "",
-    "Children": []
-  },
-  {
     "Id": "pdf_Zerg_equipment_corpsers_roach_default_4_heading",
     "Name": "",
     "Type": "",
@@ -131,9 +104,6 @@
     "Children": [
       {
         "Id": "pdf_Zerg_equipment_corpsers_roach_default_4_body"
-      },
-      {
-        "Id": "pdf_Zerg_equipment_corpsers_roach_default_4_effects"
       }
     ]
   },
@@ -156,13 +126,6 @@
     ]
   },
   {
-    "Id": "pdf_Zerg_equipment_defiler_default_3_effects",
-    "Name": "",
-    "Type": "Profile",
-    "Description": "",
-    "Children": []
-  },
-  {
     "Id": "pdf_Zerg_equipment_defiler_default_3_heading",
     "Name": "",
     "Type": "",
@@ -177,9 +140,6 @@
     "Children": [
       {
         "Id": "pdf_Zerg_equipment_defiler_default_3_body"
-      },
-      {
-        "Id": "pdf_Zerg_equipment_defiler_default_3_effects"
       }
     ]
   },
@@ -229,13 +189,6 @@
     ]
   },
   {
-    "Id": "pdf_Zerg_equipment_hydralisks_default_1_effects",
-    "Name": "",
-    "Type": "Profile",
-    "Description": "",
-    "Children": []
-  },
-  {
     "Id": "pdf_Zerg_equipment_hydralisks_default_1_heading",
     "Name": "",
     "Type": "",
@@ -250,9 +203,6 @@
     "Children": [
       {
         "Id": "pdf_Zerg_equipment_hydralisks_default_1_body"
-      },
-      {
-        "Id": "pdf_Zerg_equipment_hydralisks_default_1_effects"
       }
     ]
   },
@@ -275,13 +225,6 @@
     ]
   },
   {
-    "Id": "pdf_Zerg_equipment_hydralisks_default_3_effects",
-    "Name": "",
-    "Type": "Profile",
-    "Description": "",
-    "Children": []
-  },
-  {
     "Id": "pdf_Zerg_equipment_hydralisks_default_3_heading",
     "Name": "",
     "Type": "",
@@ -296,9 +239,6 @@
     "Children": [
       {
         "Id": "pdf_Zerg_equipment_hydralisks_default_3_body"
-      },
-      {
-        "Id": "pdf_Zerg_equipment_hydralisks_default_3_effects"
       }
     ]
   },
@@ -321,13 +261,6 @@
     ]
   },
   {
-    "Id": "pdf_Zerg_equipment_kerrigan_default_2_effects",
-    "Name": "",
-    "Type": "Profile",
-    "Description": "",
-    "Children": []
-  },
-  {
     "Id": "pdf_Zerg_equipment_kerrigan_default_2_heading",
     "Name": "",
     "Type": "",
@@ -342,9 +275,6 @@
     "Children": [
       {
         "Id": "pdf_Zerg_equipment_kerrigan_default_2_body"
-      },
-      {
-        "Id": "pdf_Zerg_equipment_kerrigan_default_2_effects"
       }
     ]
   },
@@ -365,13 +295,6 @@
         "Id": "pdf_Zerg_equipment_kerrigan_default_4_table"
       }
     ]
-  },
-  {
-    "Id": "pdf_Zerg_equipment_kerrigan_default_4_effects",
-    "Name": "",
-    "Type": "Profile",
-    "Description": "",
-    "Children": []
   },
   {
     "Id": "pdf_Zerg_equipment_kerrigan_default_4_heading",
@@ -395,9 +318,6 @@
     "Children": [
       {
         "Id": "pdf_Zerg_equipment_kerrigan_default_4_body"
-      },
-      {
-        "Id": "pdf_Zerg_equipment_kerrigan_default_4_effects"
       }
     ]
   },
@@ -418,13 +338,6 @@
         "Id": "pdf_Zerg_equipment_kerrigan_swarm_raptors_zergling_default_2_table"
       }
     ]
-  },
-  {
-    "Id": "pdf_Zerg_equipment_kerrigan_swarm_raptors_zergling_default_2_effects",
-    "Name": "",
-    "Type": "Profile",
-    "Description": "",
-    "Children": []
   },
   {
     "Id": "pdf_Zerg_equipment_kerrigan_swarm_raptors_zergling_default_2_heading",
@@ -448,9 +361,6 @@
     "Children": [
       {
         "Id": "pdf_Zerg_equipment_kerrigan_swarm_raptors_zergling_default_2_body"
-      },
-      {
-        "Id": "pdf_Zerg_equipment_kerrigan_swarm_raptors_zergling_default_2_effects"
       }
     ]
   },
@@ -473,13 +383,6 @@
     ]
   },
   {
-    "Id": "pdf_Zerg_equipment_queen_default_1_effects",
-    "Name": "",
-    "Type": "Profile",
-    "Description": "",
-    "Children": []
-  },
-  {
     "Id": "pdf_Zerg_equipment_queen_default_1_heading",
     "Name": "",
     "Type": "",
@@ -494,9 +397,6 @@
     "Children": [
       {
         "Id": "pdf_Zerg_equipment_queen_default_1_body"
-      },
-      {
-        "Id": "pdf_Zerg_equipment_queen_default_1_effects"
       }
     ]
   },
@@ -519,13 +419,6 @@
     ]
   },
   {
-    "Id": "pdf_Zerg_equipment_queen_default_2_effects",
-    "Name": "",
-    "Type": "Profile",
-    "Description": "",
-    "Children": []
-  },
-  {
     "Id": "pdf_Zerg_equipment_queen_default_2_heading",
     "Name": "",
     "Type": "",
@@ -540,9 +433,6 @@
     "Children": [
       {
         "Id": "pdf_Zerg_equipment_queen_default_2_body"
-      },
-      {
-        "Id": "pdf_Zerg_equipment_queen_default_2_effects"
       }
     ]
   },
@@ -565,13 +455,6 @@
     ]
   },
   {
-    "Id": "pdf_Zerg_equipment_queen_default_4_effects",
-    "Name": "",
-    "Type": "Profile",
-    "Description": "",
-    "Children": []
-  },
-  {
     "Id": "pdf_Zerg_equipment_queen_default_4_heading",
     "Name": "",
     "Type": "",
@@ -586,9 +469,6 @@
     "Children": [
       {
         "Id": "pdf_Zerg_equipment_queen_default_4_body"
-      },
-      {
-        "Id": "pdf_Zerg_equipment_queen_default_4_effects"
       }
     ]
   },
@@ -611,13 +491,6 @@
     ]
   },
   {
-    "Id": "pdf_Zerg_equipment_raptors_zergling_default_2_effects",
-    "Name": "",
-    "Type": "Profile",
-    "Description": "",
-    "Children": []
-  },
-  {
     "Id": "pdf_Zerg_equipment_raptors_zergling_default_2_heading",
     "Name": "",
     "Type": "",
@@ -632,9 +505,6 @@
     "Children": [
       {
         "Id": "pdf_Zerg_equipment_raptors_zergling_default_2_body"
-      },
-      {
-        "Id": "pdf_Zerg_equipment_raptors_zergling_default_2_effects"
       }
     ]
   },
@@ -677,13 +547,6 @@
     ]
   },
   {
-    "Id": "pdf_Zerg_equipment_ravagers_default_2_effects",
-    "Name": "",
-    "Type": "Profile",
-    "Description": "",
-    "Children": []
-  },
-  {
     "Id": "pdf_Zerg_equipment_ravagers_default_2_heading",
     "Name": "",
     "Type": "",
@@ -698,9 +561,6 @@
     "Children": [
       {
         "Id": "pdf_Zerg_equipment_ravagers_default_2_body"
-      },
-      {
-        "Id": "pdf_Zerg_equipment_ravagers_default_2_effects"
       }
     ]
   },
@@ -723,13 +583,6 @@
     ]
   },
   {
-    "Id": "pdf_Zerg_equipment_ravagers_default_4_effects",
-    "Name": "",
-    "Type": "Profile",
-    "Description": "",
-    "Children": []
-  },
-  {
     "Id": "pdf_Zerg_equipment_ravagers_default_4_heading",
     "Name": "",
     "Type": "",
@@ -744,9 +597,6 @@
     "Children": [
       {
         "Id": "pdf_Zerg_equipment_ravagers_default_4_body"
-      },
-      {
-        "Id": "pdf_Zerg_equipment_ravagers_default_4_effects"
       }
     ]
   },
@@ -769,13 +619,6 @@
     ]
   },
   {
-    "Id": "pdf_Zerg_equipment_roaches_default_1_effects",
-    "Name": "",
-    "Type": "Profile",
-    "Description": "",
-    "Children": []
-  },
-  {
     "Id": "pdf_Zerg_equipment_roaches_default_1_heading",
     "Name": "",
     "Type": "",
@@ -790,9 +633,6 @@
     "Children": [
       {
         "Id": "pdf_Zerg_equipment_roaches_default_1_body"
-      },
-      {
-        "Id": "pdf_Zerg_equipment_roaches_default_1_effects"
       }
     ]
   },
@@ -815,13 +655,6 @@
     ]
   },
   {
-    "Id": "pdf_Zerg_equipment_roaches_default_3_effects",
-    "Name": "",
-    "Type": "Profile",
-    "Description": "",
-    "Children": []
-  },
-  {
     "Id": "pdf_Zerg_equipment_roaches_default_3_heading",
     "Name": "",
     "Type": "",
@@ -836,9 +669,6 @@
     "Children": [
       {
         "Id": "pdf_Zerg_equipment_roaches_default_3_body"
-      },
-      {
-        "Id": "pdf_Zerg_equipment_roaches_default_3_effects"
       }
     ]
   },
@@ -861,13 +691,6 @@
     ]
   },
   {
-    "Id": "pdf_Zerg_equipment_roachling_default_1_effects",
-    "Name": "",
-    "Type": "Profile",
-    "Description": "",
-    "Children": []
-  },
-  {
     "Id": "pdf_Zerg_equipment_roachling_default_1_heading",
     "Name": "",
     "Type": "",
@@ -882,9 +705,6 @@
     "Children": [
       {
         "Id": "pdf_Zerg_equipment_roachling_default_1_body"
-      },
-      {
-        "Id": "pdf_Zerg_equipment_roachling_default_1_effects"
       }
     ]
   },
@@ -907,13 +727,6 @@
     ]
   },
   {
-    "Id": "pdf_Zerg_equipment_swarmlings_default_3_effects",
-    "Name": "",
-    "Type": "Profile",
-    "Description": "",
-    "Children": []
-  },
-  {
     "Id": "pdf_Zerg_equipment_swarmlings_default_3_heading",
     "Name": "",
     "Type": "",
@@ -928,9 +741,6 @@
     "Children": [
       {
         "Id": "pdf_Zerg_equipment_swarmlings_default_3_body"
-      },
-      {
-        "Id": "pdf_Zerg_equipment_swarmlings_default_3_effects"
       }
     ]
   },
@@ -953,13 +763,6 @@
     ]
   },
   {
-    "Id": "pdf_Zerg_equipment_vileling_zergling_default_3_effects",
-    "Name": "",
-    "Type": "Profile",
-    "Description": "",
-    "Children": []
-  },
-  {
     "Id": "pdf_Zerg_equipment_vileling_zergling_default_3_heading",
     "Name": "",
     "Type": "",
@@ -974,9 +777,6 @@
     "Children": [
       {
         "Id": "pdf_Zerg_equipment_vileling_zergling_default_3_body"
-      },
-      {
-        "Id": "pdf_Zerg_equipment_vileling_zergling_default_3_effects"
       }
     ]
   },
@@ -999,13 +799,6 @@
     ]
   },
   {
-    "Id": "pdf_Zerg_equipment_viles_roach_default_1_effects",
-    "Name": "",
-    "Type": "Profile",
-    "Description": "",
-    "Children": []
-  },
-  {
     "Id": "pdf_Zerg_equipment_viles_roach_default_1_heading",
     "Name": "",
     "Type": "",
@@ -1020,9 +813,6 @@
     "Children": [
       {
         "Id": "pdf_Zerg_equipment_viles_roach_default_1_body"
-      },
-      {
-        "Id": "pdf_Zerg_equipment_viles_roach_default_1_effects"
       }
     ]
   },
@@ -1045,13 +835,6 @@
     ]
   },
   {
-    "Id": "pdf_Zerg_equipment_viles_roach_default_3_effects",
-    "Name": "",
-    "Type": "Profile",
-    "Description": "",
-    "Children": []
-  },
-  {
     "Id": "pdf_Zerg_equipment_viles_roach_default_3_heading",
     "Name": "",
     "Type": "",
@@ -1066,9 +849,6 @@
     "Children": [
       {
         "Id": "pdf_Zerg_equipment_viles_roach_default_3_body"
-      },
-      {
-        "Id": "pdf_Zerg_equipment_viles_roach_default_3_effects"
       }
     ]
   },
@@ -1091,13 +871,6 @@
     ]
   },
   {
-    "Id": "pdf_Zerg_equipment_zagara_default_2_effects",
-    "Name": "",
-    "Type": "Profile",
-    "Description": "",
-    "Children": []
-  },
-  {
     "Id": "pdf_Zerg_equipment_zagara_default_2_heading",
     "Name": "",
     "Type": "",
@@ -1112,9 +885,6 @@
     "Children": [
       {
         "Id": "pdf_Zerg_equipment_zagara_default_2_body"
-      },
-      {
-        "Id": "pdf_Zerg_equipment_zagara_default_2_effects"
       }
     ]
   },
@@ -1137,13 +907,6 @@
     ]
   },
   {
-    "Id": "pdf_Zerg_equipment_zagara_default_3_effects",
-    "Name": "",
-    "Type": "Profile",
-    "Description": "",
-    "Children": []
-  },
-  {
     "Id": "pdf_Zerg_equipment_zagara_default_3_heading",
     "Name": "",
     "Type": "",
@@ -1158,9 +921,6 @@
     "Children": [
       {
         "Id": "pdf_Zerg_equipment_zagara_default_3_body"
-      },
-      {
-        "Id": "pdf_Zerg_equipment_zagara_default_3_effects"
       }
     ]
   },
@@ -1183,13 +943,6 @@
     ]
   },
   {
-    "Id": "pdf_Zerg_equipment_zagara_default_5_effects",
-    "Name": "",
-    "Type": "Profile",
-    "Description": "",
-    "Children": []
-  },
-  {
     "Id": "pdf_Zerg_equipment_zagara_default_5_heading",
     "Name": "",
     "Type": "",
@@ -1204,9 +957,6 @@
     "Children": [
       {
         "Id": "pdf_Zerg_equipment_zagara_default_5_body"
-      },
-      {
-        "Id": "pdf_Zerg_equipment_zagara_default_5_effects"
       }
     ]
   },
@@ -1229,13 +979,6 @@
     ]
   },
   {
-    "Id": "pdf_Zerg_equipment_zerglings_default_2_effects",
-    "Name": "",
-    "Type": "Profile",
-    "Description": "",
-    "Children": []
-  },
-  {
     "Id": "pdf_Zerg_equipment_zerglings_default_2_heading",
     "Name": "",
     "Type": "",
@@ -1250,9 +993,6 @@
     "Children": [
       {
         "Id": "pdf_Zerg_equipment_zerglings_default_2_body"
-      },
-      {
-        "Id": "pdf_Zerg_equipment_zerglings_default_2_effects"
       }
     ]
   },

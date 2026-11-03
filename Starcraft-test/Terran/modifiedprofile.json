@@ -653,12 +653,7 @@
         "Id": "pdf_Terran_equipment_marines_default_1_slot",
         "Ref": [
           {
-            "Id": "pdf_Terran_equipment_marines_default_1_effects",
-            "Ref": [
-              {
-                "Id": "pdf_Terran_rule_marines_upgrade_assault_phase_grenades_frag_effect_0"
-              }
-            ]
+            "Id": "pdf_Terran_rule_marines_upgrade_assault_phase_grenades_frag_effect_0"
           }
         ]
       }
@@ -731,12 +726,7 @@
         "Id": "pdf_Terran_equipment_marines_default_1_slot",
         "Ref": [
           {
-            "Id": "pdf_Terran_equipment_marines_default_1_effects",
-            "Ref": [
-              {
-                "Id": "pdf_Terran_rule_marines_upgrade_assault_phase_slugthrower_effect_0"
-              }
-            ]
+            "Id": "pdf_Terran_rule_marines_upgrade_assault_phase_slugthrower_effect_0"
           }
         ]
       }

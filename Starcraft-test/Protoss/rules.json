@@ -11,13 +11,6 @@
     ]
   },
   {
-    "Id": "pdf_Protoss_equipment_adepts_default_2_effects",
-    "Name": "",
-    "Type": "Profile",
-    "Description": "",
-    "Children": []
-  },
-  {
     "Id": "pdf_Protoss_equipment_adepts_default_2_heading",
     "Name": "",
     "Type": "",
@@ -39,9 +32,6 @@
     "Children": [
       {
         "Id": "pdf_Protoss_equipment_adepts_default_2_body"
-      },
-      {
-        "Id": "pdf_Protoss_equipment_adepts_default_2_effects"
       }
     ]
   },
@@ -64,13 +54,6 @@
     ]
   },
   {
-    "Id": "pdf_Protoss_equipment_adepts_default_3_effects",
-    "Name": "",
-    "Type": "Profile",
-    "Description": "",
-    "Children": []
-  },
-  {
     "Id": "pdf_Protoss_equipment_adepts_default_3_heading",
     "Name": "",
     "Type": "",
@@ -85,9 +68,6 @@
     "Children": [
       {
         "Id": "pdf_Protoss_equipment_adepts_default_3_body"
-      },
-      {
-        "Id": "pdf_Protoss_equipment_adepts_default_3_effects"
       }
     ]
   },
@@ -137,13 +117,6 @@
     ]
   },
   {
-    "Id": "pdf_Protoss_equipment_artanis_default_3_effects",
-    "Name": "",
-    "Type": "Profile",
-    "Description": "",
-    "Children": []
-  },
-  {
     "Id": "pdf_Protoss_equipment_artanis_default_3_heading",
     "Name": "",
     "Type": "",
@@ -158,9 +131,6 @@
     "Children": [
       {
         "Id": "pdf_Protoss_equipment_artanis_default_3_body"
-      },
-      {
-        "Id": "pdf_Protoss_equipment_artanis_default_3_effects"
       }
     ]
   },
@@ -183,13 +153,6 @@
     ]
   },
   {
-    "Id": "pdf_Protoss_equipment_artanis_default_4_effects",
-    "Name": "",
-    "Type": "Profile",
-    "Description": "",
-    "Children": []
-  },
-  {
     "Id": "pdf_Protoss_equipment_artanis_default_4_heading",
     "Name": "",
     "Type": "",
@@ -204,9 +167,6 @@
     "Children": [
       {
         "Id": "pdf_Protoss_equipment_artanis_default_4_body"
-      },
-      {
-        "Id": "pdf_Protoss_equipment_artanis_default_4_effects"
       }
     ]
   },
@@ -227,13 +187,6 @@
         "Id": "pdf_Protoss_equipment_high_templar_default_2_table"
       }
     ]
-  },
-  {
-    "Id": "pdf_Protoss_equipment_high_templar_default_2_effects",
-    "Name": "",
-    "Type": "Profile",
-    "Description": "",
-    "Children": []
   },
   {
     "Id": "pdf_Protoss_equipment_high_templar_default_2_heading",
@@ -257,9 +210,6 @@
     "Children": [
       {
         "Id": "pdf_Protoss_equipment_high_templar_default_2_body"
-      },
-      {
-        "Id": "pdf_Protoss_equipment_high_templar_default_2_effects"
       }
     ]
   },
@@ -282,13 +232,6 @@
     ]
   },
   {
-    "Id": "pdf_Protoss_equipment_high_templar_default_3_effects",
-    "Name": "",
-    "Type": "Profile",
-    "Description": "",
-    "Children": []
-  },
-  {
     "Id": "pdf_Protoss_equipment_high_templar_default_3_heading",
     "Name": "",
     "Type": "",
@@ -303,9 +246,6 @@
     "Children": [
       {
         "Id": "pdf_Protoss_equipment_high_templar_default_3_body"
-      },
-      {
-        "Id": "pdf_Protoss_equipment_high_templar_default_3_effects"
       }
     ]
   },
@@ -326,13 +266,6 @@
         "Id": "pdf_Protoss_equipment_immortal_default_1_table"
       }
     ]
-  },
-  {
-    "Id": "pdf_Protoss_equipment_immortal_default_1_effects",
-    "Name": "",
-    "Type": "Profile",
-    "Description": "",
-    "Children": []
   },
   {
     "Id": "pdf_Protoss_equipment_immortal_default_1_heading",
@@ -356,9 +289,6 @@
     "Children": [
       {
         "Id": "pdf_Protoss_equipment_immortal_default_1_body"
-      },
-      {
-        "Id": "pdf_Protoss_equipment_immortal_default_1_effects"
       }
     ]
   },
@@ -379,13 +309,6 @@
         "Id": "pdf_Protoss_equipment_immortal_default_2_table"
       }
     ]
-  },
-  {
-    "Id": "pdf_Protoss_equipment_immortal_default_2_effects",
-    "Name": "",
-    "Type": "Profile",
-    "Description": "",
-    "Children": []
   },
   {
     "Id": "pdf_Protoss_equipment_immortal_default_2_heading",
@@ -409,9 +332,6 @@
     "Children": [
       {
         "Id": "pdf_Protoss_equipment_immortal_default_2_body"
-      },
-      {
-        "Id": "pdf_Protoss_equipment_immortal_default_2_effects"
       }
     ]
   },
@@ -434,13 +354,6 @@
     ]
   },
   {
-    "Id": "pdf_Protoss_equipment_immortal_default_4_effects",
-    "Name": "",
-    "Type": "Profile",
-    "Description": "",
-    "Children": []
-  },
-  {
     "Id": "pdf_Protoss_equipment_immortal_default_4_heading",
     "Name": "",
     "Type": "",
@@ -455,9 +368,6 @@
     "Children": [
       {
         "Id": "pdf_Protoss_equipment_immortal_default_4_body"
-      },
-      {
-        "Id": "pdf_Protoss_equipment_immortal_default_4_effects"
       }
     ]
   },
@@ -534,13 +444,6 @@
     ]
   },
   {
-    "Id": "pdf_Protoss_equipment_nerazim_watchers_adept_default_2_effects",
-    "Name": "",
-    "Type": "Profile",
-    "Description": "",
-    "Children": []
-  },
-  {
     "Id": "pdf_Protoss_equipment_nerazim_watchers_adept_default_2_heading",
     "Name": "",
     "Type": "",
@@ -562,9 +465,6 @@
     "Children": [
       {
         "Id": "pdf_Protoss_equipment_nerazim_watchers_adept_default_2_body"
-      },
-      {
-        "Id": "pdf_Protoss_equipment_nerazim_watchers_adept_default_2_effects"
       }
     ]
   },
@@ -587,13 +487,6 @@
     ]
   },
   {
-    "Id": "pdf_Protoss_equipment_nerazim_watchers_adept_default_3_effects",
-    "Name": "",
-    "Type": "Profile",
-    "Description": "",
-    "Children": []
-  },
-  {
     "Id": "pdf_Protoss_equipment_nerazim_watchers_adept_default_3_heading",
     "Name": "",
     "Type": "",
@@ -608,9 +501,6 @@
     "Children": [
       {
         "Id": "pdf_Protoss_equipment_nerazim_watchers_adept_default_3_body"
-      },
-      {
-        "Id": "pdf_Protoss_equipment_nerazim_watchers_adept_default_3_effects"
       }
     ]
   },
@@ -633,13 +523,6 @@
     ]
   },
   {
-    "Id": "pdf_Protoss_equipment_praetor_guards_default_3_effects",
-    "Name": "",
-    "Type": "Profile",
-    "Description": "",
-    "Children": []
-  },
-  {
     "Id": "pdf_Protoss_equipment_praetor_guards_default_3_heading",
     "Name": "",
     "Type": "",
@@ -654,9 +537,6 @@
     "Children": [
       {
         "Id": "pdf_Protoss_equipment_praetor_guards_default_3_body"
-      },
-      {
-        "Id": "pdf_Protoss_equipment_praetor_guards_default_3_effects"
       }
     ]
   },
@@ -677,13 +557,6 @@
         "Id": "pdf_Protoss_equipment_sentries_default_2_table"
       }
     ]
-  },
-  {
-    "Id": "pdf_Protoss_equipment_sentries_default_2_effects",
-    "Name": "",
-    "Type": "Profile",
-    "Description": "",
-    "Children": []
   },
   {
     "Id": "pdf_Protoss_equipment_sentries_default_2_heading",
@@ -707,9 +580,6 @@
     "Children": [
       {
         "Id": "pdf_Protoss_equipment_sentries_default_2_body"
-      },
-      {
-        "Id": "pdf_Protoss_equipment_sentries_default_2_effects"
       }
     ]
   },
@@ -732,13 +602,6 @@
     ]
   },
   {
-    "Id": "pdf_Protoss_equipment_sentries_default_3_effects",
-    "Name": "",
-    "Type": "Profile",
-    "Description": "",
-    "Children": []
-  },
-  {
     "Id": "pdf_Protoss_equipment_sentries_default_3_heading",
     "Name": "",
     "Type": "",
@@ -753,9 +616,6 @@
     "Children": [
       {
         "Id": "pdf_Protoss_equipment_sentries_default_3_body"
-      },
-      {
-        "Id": "pdf_Protoss_equipment_sentries_default_3_effects"
       }
     ]
   },
@@ -778,13 +638,6 @@
     ]
   },
   {
-    "Id": "pdf_Protoss_equipment_stalker_default_2_effects",
-    "Name": "",
-    "Type": "Profile",
-    "Description": "",
-    "Children": []
-  },
-  {
     "Id": "pdf_Protoss_equipment_stalker_default_2_heading",
     "Name": "",
     "Type": "",
@@ -799,9 +652,6 @@
     "Children": [
       {
         "Id": "pdf_Protoss_equipment_stalker_default_2_body"
-      },
-      {
-        "Id": "pdf_Protoss_equipment_stalker_default_2_effects"
       }
     ]
   },
@@ -824,13 +674,6 @@
     ]
   },
   {
-    "Id": "pdf_Protoss_equipment_stalker_default_3_effects",
-    "Name": "",
-    "Type": "Profile",
-    "Description": "",
-    "Children": []
-  },
-  {
     "Id": "pdf_Protoss_equipment_stalker_default_3_heading",
     "Name": "",
     "Type": "",
@@ -845,9 +688,6 @@
     "Children": [
       {
         "Id": "pdf_Protoss_equipment_stalker_default_3_body"
-      },
-      {
-        "Id": "pdf_Protoss_equipment_stalker_default_3_effects"
       }
     ]
   },
@@ -868,13 +708,6 @@
         "Id": "pdf_Protoss_equipment_tassadar_default_2_table"
       }
     ]
-  },
-  {
-    "Id": "pdf_Protoss_equipment_tassadar_default_2_effects",
-    "Name": "",
-    "Type": "Profile",
-    "Description": "",
-    "Children": []
   },
   {
     "Id": "pdf_Protoss_equipment_tassadar_default_2_heading",
@@ -898,9 +731,6 @@
     "Children": [
       {
         "Id": "pdf_Protoss_equipment_tassadar_default_2_body"
-      },
-      {
-        "Id": "pdf_Protoss_equipment_tassadar_default_2_effects"
       }
     ]
   },
@@ -923,13 +753,6 @@
     ]
   },
   {
-    "Id": "pdf_Protoss_equipment_tassadar_default_4_effects",
-    "Name": "",
-    "Type": "Profile",
-    "Description": "",
-    "Children": []
-  },
-  {
     "Id": "pdf_Protoss_equipment_tassadar_default_4_heading",
     "Name": "",
     "Type": "",
@@ -944,9 +767,6 @@
     "Children": [
       {
         "Id": "pdf_Protoss_equipment_tassadar_default_4_body"
-      },
-      {
-        "Id": "pdf_Protoss_equipment_tassadar_default_4_effects"
       }
     ]
   },
@@ -967,13 +787,6 @@
         "Id": "pdf_Protoss_equipment_twilight_templar_high_templar_default_2_table"
       }
     ]
-  },
-  {
-    "Id": "pdf_Protoss_equipment_twilight_templar_high_templar_default_2_effects",
-    "Name": "",
-    "Type": "Profile",
-    "Description": "",
-    "Children": []
   },
   {
     "Id": "pdf_Protoss_equipment_twilight_templar_high_templar_default_2_heading",
@@ -997,9 +810,6 @@
     "Children": [
       {
         "Id": "pdf_Protoss_equipment_twilight_templar_high_templar_default_2_body"
-      },
-      {
-        "Id": "pdf_Protoss_equipment_twilight_templar_high_templar_default_2_effects"
       }
     ]
   },
@@ -1022,13 +832,6 @@
     ]
   },
   {
-    "Id": "pdf_Protoss_equipment_twilight_templar_high_templar_default_3_effects",
-    "Name": "",
-    "Type": "Profile",
-    "Description": "",
-    "Children": []
-  },
-  {
     "Id": "pdf_Protoss_equipment_twilight_templar_high_templar_default_3_heading",
     "Name": "",
     "Type": "",
@@ -1043,9 +846,6 @@
     "Children": [
       {
         "Id": "pdf_Protoss_equipment_twilight_templar_high_templar_default_3_body"
-      },
-      {
-        "Id": "pdf_Protoss_equipment_twilight_templar_high_templar_default_3_effects"
       }
     ]
   },
@@ -1068,13 +868,6 @@
     ]
   },
   {
-    "Id": "pdf_Protoss_equipment_zealots_default_1_effects",
-    "Name": "",
-    "Type": "Profile",
-    "Description": "",
-    "Children": []
-  },
-  {
     "Id": "pdf_Protoss_equipment_zealots_default_1_heading",
     "Name": "",
     "Type": "",
@@ -1089,9 +882,6 @@
     "Children": [
       {
         "Id": "pdf_Protoss_equipment_zealots_default_1_body"
-      },
-      {
-        "Id": "pdf_Protoss_equipment_zealots_default_1_effects"
       }
     ]
   },
@@ -1112,13 +902,6 @@
         "Id": "pdf_Protoss_equipment_zeratul_default_3_table"
       }
     ]
-  },
-  {
-    "Id": "pdf_Protoss_equipment_zeratul_default_3_effects",
-    "Name": "",
-    "Type": "Profile",
-    "Description": "",
-    "Children": []
   },
   {
     "Id": "pdf_Protoss_equipment_zeratul_default_3_heading",
@@ -1142,9 +925,6 @@
     "Children": [
       {
         "Id": "pdf_Protoss_equipment_zeratul_default_3_body"
-      },
-      {
-        "Id": "pdf_Protoss_equipment_zeratul_default_3_effects"
       }
     ]
   },

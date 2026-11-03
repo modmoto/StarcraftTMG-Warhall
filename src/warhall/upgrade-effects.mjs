@@ -216,7 +216,7 @@ export function applyUpgradeEffects(
         const weaponId = defaults[unit.profiles.indexOf(effect.weapon)];
         add.push({
           Id: `${weaponId}_slot`,
-          Ref: [{ Id: `${weaponId}_effects`, Ref: [{ Id: id }] }],
+          Ref: [{ Id: id }],
         });
       } else add.push({ Id: `${ids.profile}_selected_options`, Ref: [{ Id: id }] });
     }

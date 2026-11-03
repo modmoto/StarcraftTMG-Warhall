@@ -131,7 +131,6 @@ export function profileChildren(unit, ids, references, records, glossary) {
           `${id}_body`,
           weaponRows(profile, id, records, glossary, group.length ? '' : phase),
         ),
-        textContainer(records, `${id}_effects`),
       ]),
     );
   }
