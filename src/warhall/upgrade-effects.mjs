@@ -94,12 +94,6 @@ export function upgradeEffects(unit, profile) {
       kind: 'statNote',
       text: conditional('TOUGH (1) — first Armour Roll of each activation'),
     });
-  if (/Stationary Status.*Evade Roll/.test(effect))
-    result.push({
-      kind: 'stat',
-      key: 'Eva',
-      value: `${Number(unit.attributes.Eva.replace('+', '')) - 1}+`,
-    });
   if (/Supply Value counts as 0/.test(effect))
     result.push({
       kind: 'statNote',
