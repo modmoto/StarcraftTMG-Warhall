@@ -223,5 +223,14 @@
     "Width": 7.9375,
     "Length": 3.1750000000000003,
     "Shape": 0
+  },
+  {
+    "Id": "Starcraft - Terrain - Wall Set 2 - Flat Prototype 6000.0",
+    "Name": "Wall Set 2 Flat Prototype",
+    "Type": "Terrain",
+    "Description": "StarCraft terrain: Wall Set 2. PDF grid-calibrated footprint and layout. Resolve cover, elevation and movement using the rulebook.",
+    "Width": 22.5425,
+    "Length": 6.6675,
+    "Shape": 0
   }
 ]
