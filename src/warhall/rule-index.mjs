@@ -38,7 +38,7 @@ export function consolidateRules(data, owners) {
   for (const group of names.values()) {
     if (group.length < 2 && !/^Stimpack$/i.test(group[0].Name)) continue;
     for (const rule of group) {
-      if (/^(?:Slugthrower|Grenades - Frag)$/i.test(rule.Name)) continue;
+      if (/^(?:Slugthrower|Grenades - Frag|Restoration)$/i.test(rule.Name)) continue;
       const unitNames = [...(owners.get(rule.Id) ?? [])];
       if (unitNames.length > 1) continue;
       const context = unitNames.join(', ');
@@ -80,10 +80,12 @@ export function linkRuleIndex(data, glossary, book) {
     .filter(([file]) => /(?:^|\/)rules\.json$/.test(file))
     .flatMap(([, rules]) => rules)
     .filter(rule => rule.Name && rule.Type === 'Rule');
+  const rulesByName = Map.groupBy(namedRules, rule => rule.Name.toLowerCase());
   for (const rule of namedRules)
     if (
       !/^\d/.test(rule.Name) &&
       !rule.Id.endsWith('_choice') &&
+      rulesByName.get(rule.Name.toLowerCase()).length === 1 &&
       !targets.has(rule.Name.toLowerCase())
     )
       add(rule.Name, rule.Id);

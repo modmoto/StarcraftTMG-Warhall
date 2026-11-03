@@ -1819,7 +1819,7 @@
   },
   {
     "Id": "pdf_Zerg_rule_queen_any_phase_restoration",
-    "Name": "Restoration (Queen)",
+    "Name": "Restoration",
     "Type": "Rule",
     "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Reaction\n<b>Cost:</b> 1 BM\n\nUse when a <u><link=\"rule_keyword_friendly\">Friendly</link></u> Unit <u><link=\"rule_keyword_within\">Within</link></u> 4\" receives a <u><link=\"rule_keyword_debuff\">DEBUFF</link></u>. Remove all DEBUFFS from it."
   },

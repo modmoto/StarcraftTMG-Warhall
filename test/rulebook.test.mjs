@@ -90,7 +90,7 @@ test('identical shared abilities keep their original name; different costs retai
   assert.deepEqual(data['Terran/profiles.json'][0].Children, [{ Id: 'a' }]);
   assert.match(data['Terran/profiles.json'][0].Description, /link="a"/);
   assert.equal(data['Terran/rules.json'].length, 2);
-  assert.equal(new Set(data['Terran/rules.json'].map(rule => rule.Name)).size, 2);
+  assert.equal(new Set(data['Terran/rules.json'].map(rule => rule.Name)).size, 1);
   assert.equal(data['Terran/rules.json'].find(rule => rule.Id === 'a').Name, 'Restoration');
   assert.notEqual(
     data['Terran/rules.json'].find(rule => rule.Id === 'a').Description,
@@ -170,7 +170,12 @@ test('shipped search index includes gameplay chapters and no duplicate named rul
   )
     .flat()
     .filter(rule => rule.Name && rule.Type === 'Rule');
-  assert.equal(new Set(rules.map(rule => rule.Name.toLowerCase())).size, rules.length);
+  const restoration = rules.filter(rule => rule.Name === 'Restoration');
+  assert.equal(restoration.length, 3);
+  for (const cost of ['1 CP', '1 PE', '1 BM'])
+    assert.equal(restoration.filter(rule => rule.Description.includes(cost)).length, 1);
+  const others = rules.filter(rule => rule.Name !== 'Restoration');
+  assert.equal(new Set(others.map(rule => rule.Name.toLowerCase())).size, others.length);
   assert.equal(rules.filter(rule => rule.Name === 'Psionic Transfer').length, 1);
   assert.ok(rules.some(rule => rule.Name === '8.7.7 Charge'));
   assert.ok(rules.some(rule => /8.7.4.*Surge/.test(rule.Name)));
