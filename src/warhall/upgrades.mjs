@@ -71,12 +71,7 @@ export function addUpgradeOptions(unit, ids, profiles, profileIds, defaults, rec
     const recordId = profileIds[index];
     const optionId = abilityName(profile.name);
     const isWeapon = /Weapon$/.test(profile.type);
-    const displayName =
-      optionId === 'Slugthrower'
-        ? 'Flak Thrower'
-        : isWeapon && /^[A-Z]+-\d+$/.test(profile.name)
-          ? profile.name
-          : optionId;
+    const displayName = isWeapon && /^[A-Z]+-\d+$/.test(profile.name) ? profile.name : optionId;
     const replaced = replacedWeapon(unit, profile);
     let labelId = recordId;
     if (isWeapon) {

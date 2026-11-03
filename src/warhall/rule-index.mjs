@@ -33,13 +33,7 @@ export function consolidateRules(data, owners) {
   for (const group of names.values()) {
     if (group.length < 2 && !/^Stimpack$/i.test(group[0].Name)) continue;
     for (const rule of group) {
-      const sharedName = { slugthrower: 'Flak Thrower', 'grenades - frag': 'Grenades' }[
-        rule.Name.toLowerCase()
-      ];
-      if (sharedName) {
-        rule.Name = sharedName;
-        continue;
-      }
+      if (/^(?:Slugthrower|Grenades - Frag)$/i.test(rule.Name)) continue;
       const unitNames = [...(owners.get(rule.Id) ?? [])];
       const context =
         /^Stimpack$/i.test(rule.Name) &&

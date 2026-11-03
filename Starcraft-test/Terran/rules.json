@@ -1850,7 +1850,7 @@
   },
   {
     "Id": "pdf_Terran_rule_marines_upgrade_assault_phase_grenades_frag",
-    "Name": "<color=#2596be>Grenades</color>",
+    "Name": "<color=#2596be>Grenades - Frag</color>",
     "Type": "Rule",
     "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Passive\n<b>Upgrade ability</b>\n\nWhen this Unit makes a <u><link=\"rule_chapter_8_7_3\">Ranged Attack</link></u> with a C-14 Rifle and the target is <u><link=\"rule_keyword_within\">Within</link></u> 8\", that weapon's S <u><link=\"rule_chapter_3_1\">Dice</link></u> is replaced by D6."
   },
@@ -1870,7 +1870,7 @@
   },
   {
     "Id": "pdf_Terran_rule_marines_upgrade_assault_phase_slugthrower",
-    "Name": "<color=#2596be>Flak Thrower</color>",
+    "Name": "<color=#2596be>Slugthrower</color>",
     "Type": "Rule",
     "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Passive\n<b>Upgrade ability</b>\n\nWhen this Unit makes a <u><link=\"rule_chapter_8_7_3\">Ranged Attack</link></u> with a C-14 Rifle and the target is <u><link=\"rule_keyword_within\">Within</link></u> 8\", that weapon gains <u><link=\"rule_keyword_anti_evade\">ANTI-EVADE</link></u> (1)."
   },
@@ -2060,13 +2060,13 @@
   },
   {
     "Id": "pdf_Terran_rule_raynor_s_raiders_assault_phase_grenades_frag",
-    "Name": "Grenades",
+    "Name": "Grenades - Frag",
     "Type": "Rule",
     "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Passive\n\nWhen this Unit makes a <u><link=\"rule_chapter_8_7_3\">Ranged Attack</link></u> with a C-14 Rifle and the target is <u><link=\"rule_keyword_within\">Within</link></u> 8\", that weapon's S <u><link=\"rule_chapter_3_1\">Dice</link></u> is replaced by D6."
   },
   {
     "Id": "pdf_Terran_rule_raynor_s_raiders_assault_phase_slugthrower",
-    "Name": "Flak Thrower",
+    "Name": "Slugthrower",
     "Type": "Rule",
     "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Passive\n\nWhen this Unit makes a <u><link=\"rule_chapter_8_7_3\">Ranged Attack</link></u> with a C-14 Rifle and the target is <u><link=\"rule_keyword_within\">Within</link></u> 8\", that weapon gains <u><link=\"rule_keyword_anti_evade\">ANTI-EVADE</link></u> (1)."
   },

@@ -144,7 +144,7 @@ test('option IDs are readable names so the native generic importer can match exp
   assert.ok(data['options.json'].every(option => option.Type === 1));
   assert.equal(
     data['options.json'].find(option => option.Id === 'Slugthrower').Name,
-    'Flak Thrower',
+    'Slugthrower',
   );
   assert.equal(data['options.json'].find(option => option.Id === 'Agg-12').Name, 'AGG-12');
   assert.ok(data['options.json'].some(option => option.Id === 'Kinetic Foam'));
