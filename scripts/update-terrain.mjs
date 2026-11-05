@@ -110,7 +110,7 @@ for (const asset of source.assets.filter(asset => !aliases[asset.id])) {
     calibration: 'pdf-grid-v1',
     sourcePartCount: parts.length,
     model: {
-      meshUrl: `${modelAssetBaseUrl}/${file}`,
+      meshUrl: `${modelAssetBaseUrl}/${definition.colliderBundle ?? file}`,
       textureUrl: null,
       hostedAsset: true,
       previewGeometryFile,

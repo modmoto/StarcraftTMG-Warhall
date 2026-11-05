@@ -37,7 +37,7 @@ npm run models:publish -- --kind terrain --apply --login --replace --accept-publ
 
 Default target is Warhall Test. Unit skins, marker skins and deployment-line skins are separate batches. The publisher includes updated screenshots and removes old owned terrain skins only after the new assignment succeeds. Refresh the shared catalogue, update Starcraft and reload a fresh map. Confirm the L-wall/base alignment, wall joins, relative shard/head size and ramps on Mac and Windows. Local rendering and glTF validation do not establish live client success.
 
-Imported ramps still need the client-side elevated-ground support described in `warhall-client-terrain-support.md` for units to stand on their mesh surfaces. Correct geometry does not add that client feature.
+Imported GLBs do not carry elevated-ground collision. The confirmed Unity AssetBundle approach is documented in `terrain-collider-build.md`.
 
 ## Release 39: shared statue and banner variants
 
@@ -52,3 +52,7 @@ To undo this temporary change, revert its dedicated commit, regenerate the terra
 ## Skirmish layouts
 
 The Skirmish presets use PDF pages 124–126. Their 950-pixel page renders and board pixel bounds define a separate 36×36-inch frame with a six-inch grid. The Workshop bags identify the terrain pieces and their relative orientations. Their frame rotates 90 degrees into the printed page orientation. Positions are measured from the PDF board center and rounded to the same one-eighth-inch increments as standard layouts. Warhall loads these presets relative to the default 54×36-inch table. Load the preset first, then resize the table to 36×36 inches around the centered terrain.
+
+## Restored ramp height and collision (Test v111)
+
+High Ground now retains its authored TTS height (99.89 mm), replacing the temporary 2 mm compression. The reviewed footprint and all map placements remain unchanged. `colliderBundle` selects the textured Unity bundle; generated GLB/preview geometry remains the calibration source. See terrain-collider-build.md for rebuild and verification.

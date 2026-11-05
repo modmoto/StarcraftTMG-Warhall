@@ -32,7 +32,7 @@ test('all nine maps use the reviewed PDF centers, rotations and calibrated footp
       if (i < 6) assert.equal(item.Rotation % 15, 0);
       const model = models.models.find(model => model.terrainId === asset.id);
       assert.equal(model.calibration, 'pdf-grid-v1');
-      assert.match(model.model.meshUrl, /model-assets\/.*\.glb$/);
+      assert.match(model.model.meshUrl, /model-assets\/.*\.(glb|unity3d)$/);
       assert.equal(model.attachments.length, 0);
     }
   const highGround = models.models.find(model =>
