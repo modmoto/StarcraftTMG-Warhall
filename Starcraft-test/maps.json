@@ -1025,7 +1025,7 @@
         "Type": "Terrain"
       },
       {
-        "Id": "Starcraft - Terrain - Temple Obelisk - 627dc3",
+        "Id": "Starcraft - Terrain - Temple Obelisk - Raised",
         "Quadrant": 1,
         "Rotation": 330,
         "ShortSide": 25.5,
@@ -1129,7 +1129,7 @@
         "Type": "Terrain"
       },
       {
-        "Id": "Starcraft - Terrain - Temple Obelisk - 627dc3",
+        "Id": "Starcraft - Terrain - Temple Obelisk - Raised",
         "Quadrant": 1,
         "Rotation": 240,
         "ShortSide": 28.5,

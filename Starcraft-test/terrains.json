@@ -200,6 +200,14 @@
     "Shape": 0
   },
   {
+    "Id": "Starcraft - Terrain - Temple Obelisk - Raised",
+    "Name": "Temple Obelisk (Raised)",
+    "Type": "Terrain",
+    "Width": 4.14,
+    "Length": 4.14,
+    "Shape": 0
+  },
+  {
     "Id": "Starcraft - Terrain - Vespene Geyser - d91b9c",
     "Name": "Vespene Geyser",
     "Type": "Terrain",

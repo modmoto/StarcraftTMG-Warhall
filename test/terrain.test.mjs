@@ -21,7 +21,12 @@ test('all nine maps use the reviewed PDF centers, rotations and calibrated footp
       const asset = source.assets.find(
         asset => asset.id === (calibration.assetAliases?.[original.id] ?? original.id),
       );
-      assert.equal(item.Id, terrainMenuId(asset));
+      assert.equal(
+        item.Id,
+        i === 4 && asset.name === 'Temple Obelisk'
+          ? 'Starcraft - Terrain - Temple Obelisk - Raised'
+          : terrainMenuId(asset),
+      );
       const [width, length] = calibration.assets[asset.name].footprintInches;
       const terrain = terrains.find(terrain => terrain.Id === item.Id);
       assert.ok(Math.abs(terrain.Width - width * 2.54) <= 0.0177 + 1e-8);

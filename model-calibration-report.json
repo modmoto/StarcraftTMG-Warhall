@@ -1870,6 +1870,43 @@
     ]
   },
   {
+    "profileId": "sc_terrain_temple_obelisk_raised",
+    "name": "Starcraft - Terrain - Temple Obelisk - Raised",
+    "kind": "terrain",
+    "authoredSizeMm": [
+      41.27499999999999,
+      96.97125708510718,
+      41.27499999999999
+    ],
+    "correctedSizeMm": [
+      41.27499999999999,
+      96.97125708510718,
+      41.27499999999999
+    ],
+    "scaleAdjustment": 1,
+    "portableParts": 0,
+    "sourceParts": [
+      {
+        "format": "glb",
+        "sourceSize": [
+          4.1275,
+          9.69712570851072,
+          4.1275
+        ],
+        "cacheScale": 0.39370078740157477,
+        "apiScale": 0.39370078740157477,
+        "partCount": 1
+      }
+    ],
+    "rotations": [
+      [
+        0,
+        0,
+        0
+      ]
+    ]
+  },
+  {
     "profileId": "sc_terrain_e8d245d869f43c5b",
     "name": "Starcraft - Terrain - Wall Set 4 - f43c5b",
     "kind": "terrain",
@@ -2097,12 +2134,12 @@
     "kind": "terrain",
     "authoredSizeMm": [
       374.65,
-      99.88552648976037,
+      50,
       203.19999999999996
     ],
     "correctedSizeMm": [
       374.65,
-      99.88552648976037,
+      50,
       203.19999999999996
     ],
     "scaleAdjustment": 1,
@@ -2112,7 +2149,7 @@
         "format": "glb",
         "sourceSize": [
           37.465,
-          9.988552648976038,
+          5.000000000000001,
           20.32
         ],
         "cacheScale": 0.39370078740157477,

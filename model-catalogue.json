@@ -1825,6 +1825,42 @@
       ]
     },
     {
+      "profileId": "sc_terrain_temple_obelisk_raised",
+      "name": "Starcraft - Terrain - Temple Obelisk - Raised",
+      "kind": "terrain",
+      "calibration": "pdf-grid-v1",
+      "parts": [
+        {
+          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/669a0b6f4c42195f748cb4d15030a0e9da919090c908cf6e6a089896a8388884.glb",
+          "textureUrl": null,
+          "transforms": {
+            "scale": 0.39370078740157477,
+            "rotationX": 0,
+            "rotationY": 0,
+            "rotationZ": 0,
+            "positionX": 0,
+            "positionY": 0.03,
+            "positionZ": 0
+          },
+          "previewSource": {
+            "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/669a0b6f4c42195f748cb4d15030a0e9da919090c908cf6e6a089896a8388884.glb",
+            "textureUrl": null
+          },
+          "previewTransforms": {
+            "scale": 0.9999999999999999,
+            "rotationX": 0,
+            "rotationY": 0,
+            "rotationZ": 0,
+            "positionX": 0,
+            "positionY": 0.03,
+            "positionZ": 0
+          },
+          "hostedAsset": true,
+          "previewGeometryFile": "model-assets/669a0b6f4c42195f748cb4d15030a0e9da919090c908cf6e6a089896a8388884.glb.preview.json"
+        }
+      ]
+    },
+    {
       "profileId": "sc_terrain_e8d245d869f43c5b",
       "name": "Starcraft - Terrain - Wall Set 4 - f43c5b",
       "kind": "terrain",
@@ -2047,7 +2083,7 @@
       "calibration": "pdf-grid-v1",
       "parts": [
         {
-          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/4b0aafc0d481b4f5ca0ba54ef2d0c6e13eb785c2c4f654c006ec0cf3f0f058a3.unity3d",
+          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/fdc144787c5319702a48c7515c0c404e9f02d0637e2146ab8d823f6f77b80cfc.unity3d",
           "textureUrl": null,
           "transforms": {
             "scale": 0.39370078740157477,
@@ -2059,7 +2095,7 @@
             "positionZ": 0
           },
           "previewSource": {
-            "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/fa749903b83b1a520a4a2cfffcdbb3fca2f4ee018c0f886387c5faecb603886a.glb",
+            "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/4b0aafc0d481b4f5ca0ba54ef2d0c6e13eb785c2c4f654c006ec0cf3f0f058a3.unity3d",
             "textureUrl": null
           },
           "previewTransforms": {
@@ -2072,7 +2108,7 @@
             "positionZ": 0
           },
           "hostedAsset": true,
-          "previewGeometryFile": "model-assets/fa749903b83b1a520a4a2cfffcdbb3fca2f4ee018c0f886387c5faecb603886a.glb.preview.json"
+          "previewGeometryFile": "model-assets/9efe33527663636ad8f42a96756698476fece49556bd2b996c0c9576e6793717.glb.preview.json"
         }
       ]
     },

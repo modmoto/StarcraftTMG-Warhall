@@ -54,6 +54,9 @@ for (const [id, target] of Object.entries(aliases)) {
 }
 // Match the editor: round inches first, then centimeters.
 const editorDimension = cm => Math.round(Math.round((cm / 2.54) * 100) * 2.54) / 100;
+const raisedObeliskId = 'sc_terrain_temple_obelisk_raised';
+const raisedObeliskName = 'Starcraft - Terrain - Temple Obelisk - Raised';
+const platformHeightCm = calibration.assets['High Ground'].heightMm / 10;
 
 for (const asset of source.assets.filter(asset => !aliases[asset.id])) {
   const definition = calibration.assets[asset.name];
@@ -132,6 +135,34 @@ for (const asset of source.assets.filter(asset => !aliases[asset.id])) {
         ? 'Height retains the authored TTS scale.'
         : `Temporary vertical compression to ${definition.heightMm} mm while imported ramp collision is unavailable.`),
   });
+  if (asset.name === 'Temple Obelisk') {
+    const raised = meshes.map(mesh => ({
+      ...mesh,
+      vertices: mesh.vertices.map(([x, y, z]) => [x, y + platformHeightCm, z]),
+    }));
+    const raisedBytes = await encodeGlb(raised);
+    const raisedFile = `${sha256(raisedBytes)}.glb`;
+    const raisedPreview = `model-assets/${raisedFile}.preview.json`;
+    files.set(path.join(projectRoot, 'model-assets', raisedFile), raisedBytes);
+    files.set(
+      path.join(projectRoot, raisedPreview),
+      Buffer.from(
+        JSON.stringify(raised.map((mesh, index) => ({ ...mesh, texture: preview[index].texture }))),
+      ),
+    );
+    const original = models.at(-1);
+    models.push({
+      ...original,
+      terrainId: raisedObeliskId,
+      unitName: 'Terrain - Temple Obelisk - Raised',
+      model: {
+        ...original.model,
+        meshUrl: `${modelAssetBaseUrl}/${raisedFile}`,
+        previewGeometryFile: raisedPreview,
+      },
+    });
+    terrains.push({ ...terrains.at(-1), Id: raisedObeliskName, Name: 'Temple Obelisk (Raised)' });
+  }
 }
 const maps = source.maps.map(map => ({
   Id: `sc_map_${map.number}`,
@@ -141,7 +172,10 @@ const maps = source.maps.map(map => ({
     const placement = calibration.maps[String(map.number)]?.[item.ttsGuid];
     assert.ok(placement, `Missing reviewed placement: ${map.number}/${item.ttsGuid}`);
     return {
-      Id: terrainMenuId(canonicalAsset(item.id)),
+      Id:
+        map.number === 5 && canonicalAsset(item.id).name === 'Temple Obelisk'
+          ? raisedObeliskName
+          : terrainMenuId(canonicalAsset(item.id)),
       Quadrant: 1,
       Rotation: placement.rotation,
       ShortSide: 27 - placement.x,
@@ -191,7 +225,13 @@ for (const [file, bytes] of files) {
   if (check) assert.ok((await readFile(file)).equals(bytes), `Stale terrain data: ${file}`);
   else {
     await mkdir(path.dirname(file), { recursive: true });
-    await writeFile(file, bytes);
+    let previous;
+    try {
+      previous = await readFile(file);
+    } catch (error) {
+      if (error.code !== 'ENOENT') throw error;
+    }
+    if (!previous?.equals(bytes)) await writeFile(file, bytes);
   }
 }
 console.log(

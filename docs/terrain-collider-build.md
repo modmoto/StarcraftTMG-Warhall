@@ -19,3 +19,7 @@ Keep visible MeshRenderer/MeshFilter objects separate from renderer-free MeshCol
 7. Restart the client, reload Map 5 and check slope, plateau and ground off the edge with terrain locked. API success and local physics do not establish this gameplay result.
 
 The current bundle targets Windows. macOS AssetBundle compatibility is **not verified**; do not claim parity or replace production without testing the corresponding platform strategy. GLB preview/fallback geometry itself remains portable, but GLB cannot carry these Unity colliders.
+
+## Test v112: reviewed lower platform
+
+The user requested half height after confirming the real ramp works. High Ground now uses heightMm=50 (5 cm), retaining its footprint. Rebuild the bundle after height changes; changing only preview geometry does not change the collider. A separate raised Temple Obelisk has 5 cm baked into its geometry and is used only in Map 5; normal obelisks remain ground-level. Both variants regenerate through terrain:update.
