@@ -536,7 +536,11 @@
     "UnitId": "pdf_Protoss_unit_zealots",
     "ProfileId": "pdf_Protoss_profile_zealots",
     "OptionId": "My Life For Aiur",
-    "ReferencedItemsToRemove": [],
+    "ReferencedItemsToRemove": [
+      {
+        "Id": "pdf_Protoss_rule_praetor_guards_assault_phase_devastating_charge"
+      }
+    ],
     "ReferencedItemsToAdd": [
       {
         "Id": "pdf_Protoss_profile_zealots_selected_options",

@@ -1,49 +1,98 @@
 [
   {
     "deploymentID": 12,
-    "deploymentName": "ACROPOLIS",
+    "deploymentName": "Acropolis",
     "X": 0,
     "Y": 0,
     "showCenterline": false
   },
   {
     "deploymentID": 12,
-    "deploymentName": "BREACH",
+    "deploymentName": "Breach",
     "X": 0,
     "Y": 0,
     "showCenterline": false
   },
   {
     "deploymentID": 12,
-    "deploymentName": "GAUNTLET",
+    "deploymentName": "Gauntlet",
     "X": 0,
     "Y": 0,
     "showCenterline": false
   },
   {
     "deploymentID": 12,
-    "deploymentName": "MEETING ENGAGEMENT",
+    "deploymentName": "Meeting Engagement",
     "X": 0,
     "Y": 0,
     "showCenterline": false
   },
   {
     "deploymentID": 12,
-    "deploymentName": "ONE BRIDGE TOO CLOSE",
+    "deploymentName": "One Bridge Too Close",
     "X": 0,
     "Y": 0,
     "showCenterline": false
   },
   {
     "deploymentID": 12,
-    "deploymentName": "PROVING GROUNDS",
+    "deploymentName": "Proving Grounds",
     "X": 0,
     "Y": 0,
     "showCenterline": false
   },
   {
     "deploymentID": 12,
-    "deploymentName": "TYPHOON",
+    "deploymentName": "Typhoon",
+    "X": 0,
+    "Y": 0,
+    "showCenterline": false
+  },
+  {
+    "deploymentID": 12,
+    "deploymentName": "Abandoned Camp (Skirmish)",
+    "X": 0,
+    "Y": 0,
+    "showCenterline": false
+  },
+  {
+    "deploymentID": 12,
+    "deploymentName": "Agria Valley (Skirmish)",
+    "X": 0,
+    "Y": 0,
+    "showCenterline": false
+  },
+  {
+    "deploymentID": 12,
+    "deploymentName": "Char Plains (Skirmish)",
+    "X": 0,
+    "Y": 0,
+    "showCenterline": false
+  },
+  {
+    "deploymentID": 12,
+    "deploymentName": "Dirt Side (Skirmish)",
+    "X": 0,
+    "Y": 0,
+    "showCenterline": false
+  },
+  {
+    "deploymentID": 12,
+    "deploymentName": "Frontier (Skirmish)",
+    "X": 0,
+    "Y": 0,
+    "showCenterline": false
+  },
+  {
+    "deploymentID": 12,
+    "deploymentName": "Green Valleys (Skirmish)",
+    "X": 0,
+    "Y": 0,
+    "showCenterline": false
+  },
+  {
+    "deploymentID": 12,
+    "deploymentName": "Power Lines (Skirmish)",
     "X": 0,
     "Y": 0,
     "showCenterline": false

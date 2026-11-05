@@ -90,7 +90,14 @@
       "sc_card_deployments_meeting_engagement",
       "sc_card_deployments_one_bridge_too_close",
       "sc_card_deployments_proving_grounds",
-      "sc_card_deployments_typhoon"
+      "sc_card_deployments_typhoon",
+      "sc_card_deployments_abandoned_camp_skirmish",
+      "sc_card_deployments_agria_valley_skirmish",
+      "sc_card_deployments_char_plains_skirmish",
+      "sc_card_deployments_dirt_side_skirmish",
+      "sc_card_deployments_frontier_skirmish",
+      "sc_card_deployments_green_valleys_skirmish",
+      "sc_card_deployments_power_lines_skirmish"
     ],
     "Missions": [
       "sc_card_missions_artefact_hunt",
@@ -99,9 +106,16 @@
       "sc_card_missions_frontlines",
       "sc_card_missions_gather_the_resources",
       "sc_card_missions_hold_position",
-      "sc_card_missions_supply_drop"
+      "sc_card_missions_supply_drop",
+      "sc_card_missions_artefact_hunt_skirmish",
+      "sc_card_missions_divide_and_conquer_skirmish",
+      "sc_card_missions_fire_in_the_sky_skirmish",
+      "sc_card_missions_frontlines_skirmish",
+      "sc_card_missions_gather_the_resources_skirmish",
+      "sc_card_missions_hold_position_skirmish",
+      "sc_card_missions_supply_drop_skirmish"
     ],
-    "Protoss tactics": [
+    "Protoss Tactic Cards": [
       "sc_card_protoss_tactics_daelaam",
       "sc_card_protoss_tactics_forge",
       "sc_card_protoss_tactics_gate_chronoboosted",
@@ -120,7 +134,7 @@
       "sc_card_protoss_tactics_warp_gate",
       "sc_card_protoss_tactics_warp_prism"
     ],
-    "Terran tactics": [
+    "Terran Tactic Cards": [
       "sc_card_terran_tactics_academy",
       "sc_card_terran_tactics_armory",
       "sc_card_terran_tactics_barracks",
@@ -137,7 +151,7 @@
       "sc_card_terran_tactics_terran_armed_forces",
       "sc_card_terran_tactics_vanadium_plating"
     ],
-    "Zerg tactics": [
+    "Zerg Tactic Cards": [
       "sc_card_zerg_tactics_accelerating_creep",
       "sc_card_zerg_tactics_cocoon",
       "sc_card_zerg_tactics_defiler_mound",

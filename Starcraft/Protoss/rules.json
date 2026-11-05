@@ -1792,10 +1792,9 @@
   },
   {
     "Id": "pdf_Protoss_rule_zealots_upgrade_any_phase_my_life_for_aiur_effect_0",
-    "Name": "",
-    "Type": "",
-    "Description": "Devastating <u><link=\"rule_chapter_8_7_7\">Charge</link></u>: <u><link=\"rule_keyword_impact\">IMPACT</link></u> <color=#2596be>(4)</color> 4+",
-    "Children": []
+    "Name": "Devastating Charge IMPACT <color=#2596be>(4)</color> 4+",
+    "Type": "Rule",
+    "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Passive\n\nImmediately after this Unit completes a successful <u><link=\"rule_chapter_8_7_7\">Charge</link></u>, resolve the <u><link=\"rule_keyword_impact\">IMPACT</link></u> <color=#2596be>(4)</color> 4+ effect."
   },
   {
     "Id": "pdf_Protoss_rule_zealots_upgrade_assault_phase_zealous_round",
