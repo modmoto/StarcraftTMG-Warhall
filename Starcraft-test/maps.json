@@ -1901,20 +1901,5 @@
         "Type": "Terrain"
       }
     ]
-  },
-  {
-    "Id": "sc_ramp_collision_probe_map",
-    "Name": "Ramp Collision Probe",
-    "MapName": "Ramp Collision Probe",
-    "Items": [
-      {
-        "Id": "Starcraft - Terrain - Ramp Collision Probe",
-        "Type": "Terrain",
-        "Quadrant": 1,
-        "Rotation": 0,
-        "ShortSide": 27,
-        "LongSide": 18
-      }
-    ]
   }
 ]

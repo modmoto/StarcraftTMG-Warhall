@@ -254,13 +254,5 @@
     "Width": 7.95,
     "Length": 3.18,
     "Shape": 0
-  },
-  {
-    "Id": "Starcraft - Terrain - Ramp Collision Probe",
-    "Name": "Ramp Collision Probe",
-    "Type": "Terrain",
-    "Width": 10,
-    "Length": 6,
-    "Shape": 0
   }
 ]

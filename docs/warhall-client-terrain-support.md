@@ -38,3 +38,13 @@ Acceptance: hide bases for imported Starcraft terrain while keeping Marine bases
 `PanelBattlefield.TerrainInDeployments` creates all configured terrain through `TerrainController.CreateTerrain`; that method explicitly calls `SetTerrainLock(false)`. Unlike `NinthAgeSetupController.LoadPresetMap`, deployment loading never relocks afterward.
 
 Relock after deployment terrain has finished spawning, or expose a deployment configuration flag to do so. Markers are already ordinary terrain in this mod and obey the existing lock switch.
+
+## Ramp collider experiment, November 5, 2026
+
+A fresh Unity 6000.0.81f1 project with an empty package manifest produced bundles that the same editor could not load. The exported objects also lacked the collider components. Enabling com.unity.modules.assetbundle, com.unity.modules.physics and com.unity.modules.imageconversion fixed local bundle loading and retained the collider.
+
+The reproducible editor build method is examples/ramp-collider/BuildRampProbe.cs. Use examples/ramp-collider/manifest.json as the Unity project's Packages/manifest.json, put the C# file under Assets/Editor, create an Output directory, and run BuildRampProbe.Run with Unity 6000.0.81f1. It builds a Windows-only prototype with a visible ramp on one child and a MeshCollider on a separate renderer-free child at layer 15. No custom runtime scripts are required.
+
+The local verification instantiates the built bundle, reassigns the root and visible renderer layers as the inspected Warhall loader does, and raycasts against layer 15. Verified slope heights are 0.5 cm at z=-2, 1.5 cm at z=0, and a 2 cm platform at z=2. Collider dimensions are baked into the mesh and can be authored independently of the visual geometry.
+
+This proves local Unity loading and physics only. Warhall Test placement, collider preservation, locking, movement and Mac compatibility remain unverified. The Test server was reset and currently lists Starcraft at game ID 14, with no Starcraft-test registration or modmoto administrator access. The shared publisher stopped at its admin preflight before creating a skin. The temporary experiment map and terrain entry were removed from the Test package while access is pending. The bundle remains in model-assets/ramp-collider-probe-windows.unity3d for the next upload attempt. Keep production publication separate from this experiment.
