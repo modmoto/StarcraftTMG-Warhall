@@ -217,8 +217,8 @@
       ],
       "alignmentYaw": 0,
       "measurement": "PDF map 6 ramp/platform assembly spans approximately 14.75 by 8 inches. Keep the assembly intact; authored XYZ scale determines its height.",
-      "heightMm": 50,
-      "colliderBundle": "fdc144787c5319702a48c7515c0c404e9f02d0637e2146ab8d823f6f77b80cfc.unity3d"
+      "heightMm": 65,
+      "colliderBundle": "8c0d64abac2fbcf4b4f994d2cbe596203935ac9b0fda511491fa1bf9a0a6ddc1.unity3d"
     }
   },
   "maps": {

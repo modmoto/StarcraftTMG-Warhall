@@ -23,3 +23,7 @@ The current bundle targets Windows. macOS AssetBundle compatibility is **not ver
 ## Test v112: reviewed lower platform
 
 The user requested half height after confirming the real ramp works. High Ground now uses heightMm=50 (5 cm), retaining its footprint. Rebuild the bundle after height changes; changing only preview geometry does not change the collider. A separate raised Temple Obelisk has 5 cm baked into its geometry and is used only in Map 5; normal obelisks remain ground-level. Both variants regenerate through terrain:update.
+
+## Test v113
+
+User raised the reviewed 50 mm ramp by 30 percent: current platform height is 65 mm. The raised Map 5 obelisk is baked at the same 6.5 cm offset. The Unity bundle and collider were rebuilt; local raycasts confirm max height 6.5 cm.

@@ -431,10 +431,10 @@
       ],
       "calibratedSizeInches": [
         14.750000000000002,
-        1.9685039370078743,
+        2.5590551181102366,
         8
       ],
-      "policy": "Preserve separate parent/attachment XYZ scales, bake attachments into one portable GLB, then fit the reviewed PDF footprint. Temporary vertical compression to 50 mm while imported ramp collision is unavailable."
+      "policy": "Preserve separate parent/attachment XYZ scales, bake attachments into one portable GLB, then fit the reviewed PDF footprint. Temporary vertical compression to 65 mm while imported ramp collision is unavailable."
     },
     {
       "id": "sc_terrain_442da683d2d26342",
