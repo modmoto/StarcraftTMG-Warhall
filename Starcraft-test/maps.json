@@ -993,7 +993,7 @@
     "MapName": "Official Map 5",
     "Items": [
       {
-        "Id": "Starcraft - Terrain - High Ground - 087d53",
+        "Id": "Starcraft - Terrain - Ramp Collision Probe",
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 19.625,
@@ -1033,7 +1033,7 @@
         "Type": "Terrain"
       },
       {
-        "Id": "Starcraft - Terrain - High Ground - 087d53",
+        "Id": "Starcraft - Terrain - Ramp Collision Probe",
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 34.375,
