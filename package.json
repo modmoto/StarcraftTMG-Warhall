@@ -21,7 +21,8 @@
     "lists:parse": "node scripts/parse-nr-list.mjs",
     "data:publish": "node scripts/publish-data.mjs",
     "rules:update-book": "node scripts/update-rulebook.mjs",
-    "cards:update": "node scripts/update-cards.mjs"
+    "cards:update": "node scripts/update-cards.mjs",
+    "test:setup": "node scripts/setup-test-environment.mjs"
   },
   "engines": {
     "node": ">=22.13.0"
