@@ -26,11 +26,11 @@ test('native tokens replace round cards and publish every distinct face', async 
     assert.equal('Description' in token, false);
     const skin = catalogue.find(entry => entry.name === token.Id);
     assert.ok(skin);
-    assert.equal(skin.tokenDiameterMm, tokenDiameterMm);
     assert.ok(Math.abs(skin.parts[0].transforms.scale * 2.54 - 1) < 1e-12);
     const definition = tokenDefinitions.find(
       definition => tokenMenuId(definition.name) === token.Id,
     );
+    assert.equal(skin.tokenDiameterMm, definition.diameterMm ?? tokenDiameterMm);
     const url = new URL(artwork[definition.id]);
     assert.equal(url.protocol, 'https:');
     const file = url.pathname.split('/').at(-1);

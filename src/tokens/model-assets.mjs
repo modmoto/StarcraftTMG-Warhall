@@ -6,9 +6,10 @@ import sharp from 'sharp';
 import { projectRoot } from '../paths.mjs';
 import { encodeGlb } from '../models/portable-glb.mjs';
 import { tokenDefinitions, tokenDiameterMm } from './package.mjs';
+import { solidTexture, zergTokenGeometry } from './zerg-geometry.mjs';
 
-export function tokenGeometry(texture, segments = 96) {
-  const radius = tokenDiameterMm / 20;
+export function tokenGeometry(texture, segments = 96, diameterMm = tokenDiameterMm) {
+  const radius = diameterMm / 20;
   const top = { vertices: [[0, 0.16, 0]], uv: [[0.5, 0.5]], faces: [], texture, unlit: true };
   const edge = {
     vertices: [],
@@ -34,12 +35,12 @@ export function tokenGeometry(texture, segments = 96) {
   return [top, edge];
 }
 
-export async function createTokenAssets() {
+export async function createTokenAssets(definitions = tokenDefinitions) {
   const index = JSON.parse(await readFile(path.join(projectRoot, 'token-artwork.json')));
   const directory = path.join(projectRoot, 'model-assets');
   await mkdir(directory, { recursive: true });
   const entries = [];
-  for (const token of tokenDefinitions) {
+  for (const token of definitions) {
     const image = path.join(
       projectRoot,
       'Starcraft-test/assets/tokens',
@@ -49,7 +50,13 @@ export async function createTokenAssets() {
       .ensureAlpha()
       .raw()
       .toBuffer({ resolveWithObject: true });
-    const meshes = tokenGeometry({ width: info.width, height: info.height, data });
+    const diameterMm = token.diameterMm ?? tokenDiameterMm;
+    const meshes = token.diameterMm
+      ? [
+          ...tokenGeometry(solidTexture([39, 23, 35]), 96, diameterMm),
+          ...(await zergTokenGeometry(token.id, diameterMm)),
+        ]
+      : tokenGeometry({ width: info.width, height: info.height, data });
     const bytes = await encodeGlb(meshes);
     const filename = `${createHash('sha256').update(bytes).digest('hex')}.glb`;
     const previewGeometryFile = `model-assets/${filename}.preview.json`;
@@ -83,7 +90,7 @@ export async function createTokenAssets() {
       name: `Starcraft - Token - ${token.name}`,
       kind: 'token',
       calibration: 'token-centimeters-v1',
-      tokenDiameterMm,
+      tokenDiameterMm: diameterMm,
       parts: [
         {
           modelUrl: `${modelAssetBaseUrl}/${filename}`,

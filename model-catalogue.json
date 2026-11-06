@@ -2904,10 +2904,10 @@
       "name": "Starcraft - Token - Bile Bomb",
       "kind": "token",
       "calibration": "token-centimeters-v1",
-      "tokenDiameterMm": 25,
+      "tokenDiameterMm": 32,
       "parts": [
         {
-          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/1c208094b982fa85b052415b7a9cc7fb2244c931fdcad0d579cd961bdd87a33b.glb",
+          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/ab8d00f67594dab8fd49f43192e53f1ca7ee783ddc690f207a9540b5b9d6fc6e.glb",
           "textureUrl": null,
           "hostedAsset": true,
           "transforms": {
@@ -2919,7 +2919,7 @@
             "rotationY": 0,
             "rotationZ": 0
           },
-          "previewGeometryFile": "model-assets/1c208094b982fa85b052415b7a9cc7fb2244c931fdcad0d579cd961bdd87a33b.glb.preview.json",
+          "previewGeometryFile": "model-assets/ab8d00f67594dab8fd49f43192e53f1ca7ee783ddc690f207a9540b5b9d6fc6e.glb.preview.json",
           "previewTransforms": {
             "scale": 1,
             "positionX": 0,
@@ -2937,10 +2937,10 @@
       "name": "Starcraft - Token - Creep Tumor",
       "kind": "token",
       "calibration": "token-centimeters-v1",
-      "tokenDiameterMm": 25,
+      "tokenDiameterMm": 28,
       "parts": [
         {
-          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/2659b06c74bd480d62062e66622cb3010f1cf3c3a823596f48d7111edc1015be.glb",
+          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/cc437922626820a0e8ac2e3f771686a1bc21de3dca234ee7b7b688c3bd5f38de.glb",
           "textureUrl": null,
           "hostedAsset": true,
           "transforms": {
@@ -2952,7 +2952,7 @@
             "rotationY": 0,
             "rotationZ": 0
           },
-          "previewGeometryFile": "model-assets/2659b06c74bd480d62062e66622cb3010f1cf3c3a823596f48d7111edc1015be.glb.preview.json",
+          "previewGeometryFile": "model-assets/cc437922626820a0e8ac2e3f771686a1bc21de3dca234ee7b7b688c3bd5f38de.glb.preview.json",
           "previewTransforms": {
             "scale": 1,
             "positionX": 0,

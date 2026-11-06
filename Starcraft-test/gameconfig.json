@@ -10,10 +10,10 @@
   "Formations": [
     {
       "Index": 0,
-      "Type": "Cloud"
+      "Type": "NoFormation"
     }
   ],
-  "DefaultFormation": "Cloud",
+  "DefaultFormation": "NoFormation",
   "FormationChangingRules": [],
   "MaxCloudSeparation": 4,
   "DefaultSoldierSelectionMode": true,
