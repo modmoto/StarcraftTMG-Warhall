@@ -1170,25 +1170,38 @@
       "role": "ranged",
       "pose": "attack-ready",
       "status": "selected",
-      "notes": "Upright launcher stance; only complete mesh pose found.",
+      "notes": "Dark red Workshop pose with original embedded texture. Centered and scaled to the previous horizontal footprint.",
       "model": {
-        "candidateId": 131,
         "sourceName": "Ravager",
         "workshopId": "3662791369",
-        "guid": "e633be",
-        "meshUrl": "https://steamusercontent-a.akamaihd.net/ugc/9614886589065029835/AB9E7D30875A06F026668737CBC62AD9730074B7/",
-        "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/9455779838813893739/55648CC8AB22A0A4E7ED8FCE10169C8D716E1F6B/",
+        "guid": "78348b",
+        "meshUrl": "https://steamusercontent-a.akamaihd.net/ugc/16111666545993768282/D4827975510F4A6339395CC4BBD13E424734CC11/",
+        "textureUrl": null,
         "ttsTransform": {
-          "posX": 0.06556842,
-          "posY": 0.138933957,
-          "posZ": 0.06088087,
-          "rotX": 0.000466498925,
-          "rotY": 15.0018587,
-          "rotZ": -0.000362402643,
-          "scaleX": 1.15384591,
-          "scaleY": 1.15384579,
-          "scaleZ": 1.153846
+          "posX": 0.0105470829,
+          "posY": 0.129446715,
+          "posZ": 0.0150822168,
+          "rotX": -0.000711693,
+          "rotY": 15.0200424,
+          "rotZ": -0.000416891271,
+          "scaleX": 0.81730783,
+          "scaleY": 0.81730783,
+          "scaleZ": 0.81730783
         }
+      },
+      "preserveSourceColors": true,
+      "layout": {
+        "size": 1.1538454778163618,
+        "position": [
+          -0.12791159609140226,
+          0.15965223840469603,
+          0.19703345923338547
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
       }
     },
     {

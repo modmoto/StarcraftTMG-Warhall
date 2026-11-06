@@ -1370,33 +1370,35 @@
       "faction": "Zerg",
       "parts": [
         {
-          "modelUrl": "https://steamusercontent-a.akamaihd.net/ugc/9614886589065029835/AB9E7D30875A06F026668737CBC62AD9730074B7/",
-          "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/9455779838813893739/55648CC8AB22A0A4E7ED8FCE10169C8D716E1F6B/",
+          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/640e327c5896e73344a8aeb68b0c5e21106cb591b3596136b3fc2318d460542a.glb",
+          "textureUrl": null,
           "transforms": {
-            "scale": 0.9873005540557427,
+            "scale": 1.1538454778163618,
+            "positionX": -0.12791159609140226,
+            "positionY": 0.15965223840469603,
+            "positionZ": 0.19703345923338547,
             "rotationX": 0,
             "rotationY": 0,
-            "rotationZ": 0,
-            "positionX": 0,
-            "positionY": 0,
-            "positionZ": 0
+            "rotationZ": 0
           },
           "previewSource": {
-            "modelUrl": "https://steamusercontent-a.akamaihd.net/ugc/9614886589065029835/AB9E7D30875A06F026668737CBC62AD9730074B7/",
-            "textureUrl": "https://steamusercontent-a.akamaihd.net/ugc/9455779838813893739/55648CC8AB22A0A4E7ED8FCE10169C8D716E1F6B/"
+            "modelUrl": "https://steamusercontent-a.akamaihd.net/ugc/16111666545993768282/D4827975510F4A6339395CC4BBD13E424734CC11/",
+            "textureUrl": null
           },
           "previewTransforms": {
-            "scale": 2.9307683066,
+            "scale": 2.930767513653559,
+            "positionX": -0.12791159609140226,
+            "positionY": 0.15965223840469603,
+            "positionZ": 0.19703345923338547,
             "rotationX": 0,
             "rotationY": 0,
-            "rotationZ": 0,
-            "positionX": 0,
-            "positionY": 0,
-            "positionZ": 0
-          }
+            "rotationZ": 0
+          },
+          "hostedAsset": true
         }
       ],
-      "calibration": "windows-cache-v1"
+      "calibration": "windows-cache-v1",
+      "preserveSourceColors": true
     },
     {
       "profileId": "pdf_Zerg_profile_roaches",
