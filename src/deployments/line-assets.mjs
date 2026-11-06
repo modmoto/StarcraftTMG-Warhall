@@ -102,6 +102,26 @@ export async function createDeploymentAssets(templates) {
         color === 'grid' ? [235, 242, 255] : accents[color],
       ),
     );
+    if (template.deploymentName.endsWith(' (Skirmish)')) {
+      // Match the sampled Warhall board edge. Put the top of the green strips
+      // at the bottom of the coloured strips so the entry colours cover them.
+      const border = lineGeometry(
+        {
+          ...template,
+          lines: [-18, 18].map(posX => ({
+            posX: posX + Math.sign(posX) * (0.5 / 2.54),
+            posY: 0,
+            rotationY: 90,
+            sizeX: 36,
+          })),
+        },
+        1,
+        [114, 123, 30],
+      );
+      border.vertices = border.vertices.map(([x, y, z]) => [x, y - 0.05, z]);
+      border.unlit = true;
+      meshes.push(border);
+    }
     const bytes = await encodeGlb(meshes);
     const file = `${createHash('sha256').update(bytes).digest('hex')}.glb`;
     await writeFile(path.join(directory, file), bytes);

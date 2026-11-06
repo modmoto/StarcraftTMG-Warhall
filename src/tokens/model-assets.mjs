@@ -53,9 +53,7 @@ export async function createTokenAssets(definitions = tokenDefinitions) {
     const diameterMm = token.diameterMm ?? tokenDiameterMm;
     const meshes = token.diameterMm
       ? [
-          ...(token.id === 'creep_tumor'
-            ? tokenGeometry(solidTexture([39, 23, 35]), 96, diameterMm)
-            : []),
+          ...tokenGeometry(solidTexture([39, 23, 35]), 96, diameterMm),
           ...(await zergTokenGeometry(token.id, diameterMm)),
         ]
       : tokenGeometry({ width: info.width, height: info.height, data });
