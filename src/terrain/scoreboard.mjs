@@ -5,11 +5,11 @@ import { modelAssetBaseUrl } from '../urls.mjs';
 
 export const scoreboardName = 'Starcraft - Terrain - Scoreboard - score1';
 export const scoreboardProfile = 'sc_terrain_scoreboard_score1';
-// Each cell has 100 artwork units between the inside edges of its strokes.
+// Fit the long side to 80% of the battlefield edge alongside it.
 const artworkWidth = 1208;
 const artworkLength = 300;
-const width = artworkWidth * 0.105;
-const length = artworkLength * 0.105;
+const width = 36 * 2.54 * 0.8;
+const length = (width * artworkLength) / artworkWidth;
 export const scoreboardTerrain = {
   Id: scoreboardName,
   Name: 'Scoreboard',
