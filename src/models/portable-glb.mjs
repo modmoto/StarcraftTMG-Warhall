@@ -70,7 +70,7 @@ export async function encodeGlb(geometry) {
     }
     let material = {
       doubleSided: true,
-      pbrMetallicRoughness: { metallicFactor: 0, roughnessFactor: 1 },
+      pbrMetallicRoughness: { metallicFactor: 0, roughnessFactor: geometryMesh.roughness ?? 1 },
     };
     if (geometryMesh.unlit) material.extensions = { KHR_materials_unlit: {} };
     if (geometryMesh.texture) {
