@@ -16,7 +16,7 @@ test('all nine maps use the reviewed PDF centers, rotations and calibrated footp
   );
   assert.equal(calibration.gridInches, 6);
   for (const [i, map] of maps.entries()) {
-    assert.deepEqual(map.Items.at(-1), scoreboardPlacement(source.maps[i].height));
+    assert.deepEqual(map.Items.at(-1), scoreboardPlacement(source.maps[i]));
   }
   for (const [i, map] of maps.entries())
     for (const [j, item] of map.Items.slice(0, -1).entries()) {

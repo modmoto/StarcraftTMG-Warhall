@@ -187,9 +187,9 @@
     "Id": "Starcraft - Terrain - Scoreboard - score1",
     "Name": "Scoreboard",
     "Type": "Terrain",
-    "Width": 73.152,
-    "Length": 18.166887417218543,
-    "Shape": 0
+    "Width": 0.1,
+    "Length": 0.1,
+    "Shape": 1
   },
   {
     "Id": "Starcraft - Terrain - Statue Shard - 91ae73",

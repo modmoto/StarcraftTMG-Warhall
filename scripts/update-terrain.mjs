@@ -193,7 +193,7 @@ const maps = source.maps.map(map => ({
         Type: 'Terrain',
       };
     }),
-    scoreboardPlacement(map.height),
+    scoreboardPlacement(map),
   ],
 }));
 const target = defaultDataDirectory;

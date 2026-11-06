@@ -14,17 +14,17 @@ export const scoreboardTerrain = {
   Id: scoreboardName,
   Name: 'Scoreboard',
   Type: 'Terrain',
-  Width: width,
-  Length: length,
-  Shape: 0,
+  Width: 0.1,
+  Length: 0.1,
+  Shape: 1,
 };
 
-export const scoreboardPlacement = boardHeight => ({
+export const scoreboardPlacement = ({ width: boardWidth, height: boardHeight }) => ({
   Id: scoreboardName,
   Type: 'Terrain',
   Quadrant: 1,
   Rotation: 90,
-  ShortSide: -(length / 2 + 2) / 2.54,
+  ShortSide: (54 - boardWidth) / 2 - (length / 2 + 2) / 2.54,
   LongSide: boardHeight / 2,
 });
 
