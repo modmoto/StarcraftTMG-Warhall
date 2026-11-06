@@ -95,7 +95,7 @@ test('portable bundle replacements include Adepts and preserve Windows cache dim
   const tokenAssets = new Set(
     catalogue.entries.filter(entry => entry.kind === 'token').map(entry => entry.parts[0].modelUrl),
   );
-  assert.equal(hosted.length, 20 + terrainAssets.size + tokenAssets.size);
+  assert.equal(hosted.length, 21 + terrainAssets.size + tokenAssets.size);
   assert.ok(hosted.every(file => files.includes(file)));
   for (const file of files) {
     if (!file.endsWith('.glb')) continue;

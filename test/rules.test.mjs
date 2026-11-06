@@ -183,7 +183,8 @@ test('profiles render phase sections and left-aligned full-width weapon tables',
   assert.match(strike.Description, /^<b>Melee Phase<\/b>\n<b>STRIKE<\/b>\n<align/);
   assert.ok(children.indexOf(rifle) < children.indexOf(strike));
   assert.ok(children.some(item => item.Name === 'Stimpack (Marines)' && item.Type === 'Rule'));
-  assert.equal(data['gameconfig.json'].MaxCloudSeparation, 4);
+  assert.equal(data['gameconfig.json'].NoFormations, true);
+  assert.equal(data['gameconfig.json'].MaxCloudSeparation, 0);
   assert.equal(data['gameconfig.json'].ShowGroupHeader, false);
   assert.equal(data['gameconfig.json'].ShowStatlineHeader, false);
   assert.equal(children[0].Name, '');

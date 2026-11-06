@@ -243,6 +243,14 @@
         "ShortSide": 4.25,
         "LongSide": 11.5,
         "Type": "Terrain"
+      },
+      {
+        "Id": "Starcraft - Terrain - Scoreboard - score1",
+        "Type": "Terrain",
+        "Quadrant": 1,
+        "Rotation": 90,
+        "ShortSide": -4.363560515200501,
+        "LongSide": 18
       }
     ]
   },
@@ -490,6 +498,14 @@
         "ShortSide": 10.5,
         "LongSide": 35.25,
         "Type": "Terrain"
+      },
+      {
+        "Id": "Starcraft - Terrain - Scoreboard - score1",
+        "Type": "Terrain",
+        "Quadrant": 1,
+        "Rotation": 90,
+        "ShortSide": -4.363560515200501,
+        "LongSide": 18
       }
     ]
   },
@@ -737,6 +753,14 @@
         "ShortSide": 7.5,
         "LongSide": 29,
         "Type": "Terrain"
+      },
+      {
+        "Id": "Starcraft - Terrain - Scoreboard - score1",
+        "Type": "Terrain",
+        "Quadrant": 1,
+        "Rotation": 90,
+        "ShortSide": -4.363560515200501,
+        "LongSide": 18
       }
     ]
   },
@@ -984,6 +1008,14 @@
         "ShortSide": 28.75,
         "LongSide": 20,
         "Type": "Terrain"
+      },
+      {
+        "Id": "Starcraft - Terrain - Scoreboard - score1",
+        "Type": "Terrain",
+        "Quadrant": 1,
+        "Rotation": 90,
+        "ShortSide": -4.363560515200501,
+        "LongSide": 18
       }
     ]
   },
@@ -1247,6 +1279,14 @@
         "ShortSide": 47.125,
         "LongSide": 12.375,
         "Type": "Terrain"
+      },
+      {
+        "Id": "Starcraft - Terrain - Scoreboard - score1",
+        "Type": "Terrain",
+        "Quadrant": 1,
+        "Rotation": 90,
+        "ShortSide": -4.363560515200501,
+        "LongSide": 18
       }
     ]
   },
@@ -1510,6 +1550,14 @@
         "ShortSide": 44.4375,
         "LongSide": 4,
         "Type": "Terrain"
+      },
+      {
+        "Id": "Starcraft - Terrain - Scoreboard - score1",
+        "Type": "Terrain",
+        "Quadrant": 1,
+        "Rotation": 90,
+        "ShortSide": -4.363560515200501,
+        "LongSide": 18
       }
     ]
   },
@@ -1637,6 +1685,14 @@
         "ShortSide": 37.25,
         "LongSide": 26.625,
         "Type": "Terrain"
+      },
+      {
+        "Id": "Starcraft - Terrain - Scoreboard - score1",
+        "Type": "Terrain",
+        "Quadrant": 1,
+        "Rotation": 90,
+        "ShortSide": 4.636439484799499,
+        "LongSide": 18
       }
     ]
   },
@@ -1764,6 +1820,14 @@
         "ShortSide": 16.5,
         "LongSide": 12,
         "Type": "Terrain"
+      },
+      {
+        "Id": "Starcraft - Terrain - Scoreboard - score1",
+        "Type": "Terrain",
+        "Quadrant": 1,
+        "Rotation": 90,
+        "ShortSide": 4.636439484799499,
+        "LongSide": 18
       }
     ]
   },
@@ -1899,6 +1963,14 @@
         "ShortSide": 21.375,
         "LongSide": 5.75,
         "Type": "Terrain"
+      },
+      {
+        "Id": "Starcraft - Terrain - Scoreboard - score1",
+        "Type": "Terrain",
+        "Quadrant": 1,
+        "Rotation": 90,
+        "ShortSide": 4.636439484799499,
+        "LongSide": 18
       }
     ]
   }

@@ -15,7 +15,7 @@
   ],
   "DefaultFormation": "Cloud",
   "FormationChangingRules": [],
-  "MaxCloudSeparation": 4,
+  "MaxCloudSeparation": 0,
   "DefaultSoldierSelectionMode": false,
   "DefaultCardConfig": {
     "Width": 50,
@@ -620,5 +620,6 @@
   "ShowDeploymentSection": true,
   "HiddenButtons": [
     "Reform"
-  ]
+  ],
+  "NoFormations": true
 }
