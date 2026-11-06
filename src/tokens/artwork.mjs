@@ -23,6 +23,10 @@ function shieldRaster() {
 }
 
 const symbols = {
+  bile_bomb:
+    '<path d="M256 93C226 150 174 201 174 269a82 82 0 0 0 164 0c0-68-52-119-82-176Z"/><path d="M216 257q-10 49 36 64" fill="none" stroke="#487527" stroke-width="13" stroke-linecap="round"/>',
+  creep_tumor:
+    '<path d="M256 116c42 0 65 31 71 62l47 23-21 38 25 54-39 20-13 57-43-15-27 33-27-33-43 15-13-57-39-20 25-54-21-38 47-23c6-31 29-62 71-62Z"/><circle cx="256" cy="250" r="52" fill="#77368d"/><circle cx="256" cy="250" r="24"/>',
   shield: shieldRaster(),
   arrow,
   crosshair:

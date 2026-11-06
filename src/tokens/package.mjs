@@ -48,6 +48,21 @@ export const tokenDefinitions = [
     description: `Reminder for ${name}. Apply the unit's printed rules manually.`,
   })),
   {
+    id: 'bile_bomb',
+    name: 'Bile Bomb',
+    symbol: 'bile_bomb',
+    color: '#487527',
+    description:
+      'Bile Launcher Bombard marker. Replace it with a Creep Tumor in base contact when removing it after the attack.',
+  },
+  {
+    id: 'creep_tumor',
+    name: 'Creep Tumor',
+    symbol: 'creep_tumor',
+    color: '#77368d',
+    description: 'Source of Creep. Ground Zerg units within 6 inches are On Creep.',
+  },
+  {
     id: 'shield',
     name: 'Shield',
     symbol: 'shield',

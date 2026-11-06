@@ -16,7 +16,7 @@
   "DefaultFormation": "Cloud",
   "FormationChangingRules": [],
   "MaxCloudSeparation": 4,
-  "DefaultSoldierSelectionMode": false,
+  "DefaultSoldierSelectionMode": true,
   "DefaultCardConfig": {
     "Width": 50,
     "Length": 50,
