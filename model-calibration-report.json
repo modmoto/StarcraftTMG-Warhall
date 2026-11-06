@@ -2207,14 +2207,14 @@
     "name": "Starcraft - Terrain - Scoreboard - score1",
     "kind": "terrain",
     "authoredSizeMm": [
-      364,
+      1238.9999999999998,
       0,
-      455
+      314.99999999999994
     ],
     "correctedSizeMm": [
-      364,
+      1238.9999999999998,
       0,
-      455
+      314.99999999999994
     ],
     "scaleAdjustment": 1,
     "portableParts": 0,
@@ -2222,9 +2222,9 @@
       {
         "format": "glb",
         "sourceSize": [
-          36.400000000000006,
+          123.89999999999999,
           0,
-          45.50000000000001
+          31.5
         ],
         "cacheScale": 0.39370078740157477,
         "apiScale": 0.39370078740157477,

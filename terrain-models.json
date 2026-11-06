@@ -386,10 +386,10 @@
       "status": "selected",
       "calibration": "pdf-grid-v1",
       "model": {
-        "meshUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/fcacb24f0a164e511ecea756c1783883ade293e311a54c6a25740d3117efd52a.glb",
+        "meshUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/7273b0328240ad062272b0cb178778b0417bb5ba7b3ef3ba020beb7e2444ba7c.glb",
         "textureUrl": null,
         "hostedAsset": true,
-        "previewGeometryFile": "model-assets/fcacb24f0a164e511ecea756c1783883ade293e311a54c6a25740d3117efd52a.glb.preview.json"
+        "previewGeometryFile": "model-assets/7273b0328240ad062272b0cb178778b0417bb5ba7b3ef3ba020beb7e2444ba7c.glb.preview.json"
       },
       "layout": {
         "size": 0.39370078740157477,
