@@ -10,13 +10,13 @@
   "Formations": [
     {
       "Index": 0,
-      "Type": "NoFormation"
+      "Type": "Cloud"
     }
   ],
-  "DefaultFormation": "NoFormation",
+  "DefaultFormation": "Cloud",
   "FormationChangingRules": [],
   "MaxCloudSeparation": 4,
-  "DefaultSoldierSelectionMode": true,
+  "DefaultSoldierSelectionMode": false,
   "DefaultCardConfig": {
     "Width": 50,
     "Length": 50,

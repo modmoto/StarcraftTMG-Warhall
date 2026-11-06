@@ -158,9 +158,9 @@ async function initialData(template) {
 
   data['gameconfig.json'].WoundsAttribute = 'HP';
   data['gameconfig.json'].DefaultCardConfig.Color2 = '';
-  data['gameconfig.json'].Formations = [{ Index: 0, Type: 'NoFormation' }];
-  data['gameconfig.json'].DefaultFormation = 'NoFormation';
-  data['gameconfig.json'].DefaultSoldierSelectionMode = true;
+  data['gameconfig.json'].Formations = [{ Index: 0, Type: 'Cloud' }];
+  data['gameconfig.json'].DefaultFormation = 'Cloud';
+  data['gameconfig.json'].DefaultSoldierSelectionMode = false;
   data['gameconfig.json'].MaxCloudSeparation = 4;
   data['gameconfig.json'].ShownButtons = (data['gameconfig.json'].ShownButtons ?? []).filter(
     name => name !== 'Reform' && name !== 'ButtonReform',
