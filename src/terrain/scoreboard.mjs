@@ -6,7 +6,7 @@ import { modelAssetBaseUrl } from '../urls.mjs';
 export const scoreboardName = 'Starcraft - Terrain - Scoreboard - score1';
 export const scoreboardProfile = 'sc_terrain_scoreboard_score1';
 // Each cell has 100 artwork units between the inside edges of its strokes.
-const artworkWidth = 1180;
+const artworkWidth = 1208;
 const artworkLength = 300;
 const width = artworkWidth * 0.105;
 const length = artworkLength * 0.105;
@@ -56,10 +56,10 @@ export async function buildScoreboard() {
   for (let row = 0; row < 2; row++) {
     const y = 67 + row * 110;
     grid.push(
-      `<g transform="translate(40 ${y + 55})" fill="#dce8f1" color="#dce8f1">${row ? objective : heart}</g>`,
+      `<g transform="translate(54 ${y + 55})" fill="#dce8f1" color="#dce8f1">${row ? objective : heart}</g>`,
     );
     for (let col = 0; col < 10; col++) {
-      const x = 72 + col * 110;
+      const x = 100 + col * 110;
       const ink = col < 5 ? '#65baff' : '#ff7774';
       const panel = col < 5 ? '#1d3d5c' : '#512e37';
       grid.push(
@@ -68,7 +68,7 @@ export async function buildScoreboard() {
       if (row === 0) grid.push(number(col % 5, x + 55, ink));
     }
   }
-  const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="2360" height="600" viewBox="0 0 ${artworkWidth} ${artworkLength}"><rect width="100%" height="100%" fill="#161e2a"/><path d="M5 36V20L20 5H1160L1175 20V280L1160 295H20L5 280V48M66 68V286M622 67V287" fill="none" stroke="#8d9cae" stroke-width="4"/>${grid.join('')}</svg>`;
+  const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="${artworkWidth * 2}" height="600" viewBox="0 0 ${artworkWidth} ${artworkLength}"><rect width="100%" height="100%" fill="#161e2a"/><path d="M5 20L20 5H1188L1203 20V280L1188 295H20L5 280ZM650 67V287" fill="none" stroke="#8d9cae" stroke-width="4"/>${grid.join('')}</svg>`;
   const png = await sharp(Buffer.from(svg)).png().toBuffer();
   const { data, info } = await sharp(png).ensureAlpha().raw().toBuffer({ resolveWithObject: true });
   const mesh = {

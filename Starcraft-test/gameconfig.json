@@ -11,19 +11,11 @@
     {
       "Index": 0,
       "Type": "Cloud"
-    },
-    {
-      "Index": 1,
-      "Type": "CloudExtended"
-    },
-    {
-      "Index": 2,
-      "Type": "CloudCompressed"
     }
   ],
   "DefaultFormation": "Cloud",
   "FormationChangingRules": [],
-  "MaxCloudSeparation": 4,
+  "MaxCloudSeparation": 0,
   "DefaultSoldierSelectionMode": false,
   "DefaultCardConfig": {
     "Width": 50,
@@ -628,5 +620,6 @@
   "ShowDeploymentSection": true,
   "HiddenButtons": [
     "Reform"
-  ]
+  ],
+  "NoFormations": true
 }
