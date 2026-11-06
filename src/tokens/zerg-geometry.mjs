@@ -41,43 +41,59 @@ function flame(rings, rgb) {
 export async function zergTokenGeometry(id, diameterMm) {
   if (id === 'bile_bomb' || id === 'corrosive_bile') {
     const green = id === 'bile_bomb';
+    const rim = green ? [52, 145, 20] : [222, 69, 14];
+    const core = green ? [155, 236, 44] : [255, 164, 34];
+    const highlights = green ? [221, 255, 101] : [255, 219, 92];
+    const jets = [0.63, 0.88, 0.47, 1.18, 0.72, 1.02, 0.56, 0.84];
+    const rotate = (mesh, angle) => ({
+      ...mesh,
+      vertices: mesh.vertices.map(([x, y, z]) => [
+        x * Math.cos(angle) - z * Math.sin(angle),
+        y,
+        x * Math.sin(angle) + z * Math.cos(angle),
+      ]),
+    });
     return [
       flame(
         [
-          [0, 0.16, 0.03],
-          [0, 0.26, 1.04],
-          [-0.16, 0.64, 0.72],
-          [-0.55, 1.19, 0.49],
-          [-0.98, 2.05, 0.04],
+          [0, 0.16, 1.24],
+          [0, 0.24, 1.2],
+          [0, 0.34, 0.69],
+          [0, 0.43, 0.04],
         ],
-        green ? [43, 128, 18] : [203, 69, 12],
+        rim,
       ),
       flame(
         [
-          [0.2, 0.19, 0.03],
-          [0.24, 0.38, 0.72],
-          [0.11, 0.76, 0.54],
-          [-0.46, 1.52, 0.09],
+          [0, 0.34, 0.51],
+          [0, 0.45, 0.44],
+          [0, 0.65, 0.04],
         ],
-        green ? [108, 208, 28] : [255, 150, 22],
+        core,
       ),
-      flame(
-        [
-          [0.45, 0.2, 0.03],
-          [0.48, 0.41, 0.42],
-          [0.2, 0.8, 0.24],
-          [-0.12, 1.12, 0.02],
-        ],
-        green ? [217, 255, 91] : [255, 227, 93],
-      ),
-      flame(
-        [
-          [0.75, 0.16, 0.02],
-          [0.92, 0.26, 0.22],
-          [1.32, 0.59, 0.03],
-        ],
-        green ? [87, 180, 21] : [251, 106, 20],
-      ),
+      ...jets.flatMap((height, index) => {
+        const angle = (index * Math.PI) / 4 + (index % 2) * 0.11;
+        const jet = flame(
+          [
+            [0.54, 0.23, 0.32],
+            [0.82, 0.38, 0.25],
+            [1.05, height * 0.78, 0.12],
+            [1.32, height, 0.015],
+          ],
+          index % 3 ? core : rim,
+        );
+        if (index % 2) return [rotate(jet, angle)];
+        const droplet = flame(
+          [
+            [1.38, height + 0.07, 0.02],
+            [1.42, height + 0.15, 0.085],
+            [1.47, height + 0.24, 0.035],
+            [1.49, height + 0.29, 0.008],
+          ],
+          highlights,
+        );
+        return [rotate(jet, angle), rotate(droplet, angle)];
+      }),
     ];
   }
   const { geometry } = await sourceGeometry(creepTumor);
