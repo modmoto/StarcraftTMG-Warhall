@@ -2151,6 +2151,42 @@
       ]
     },
     {
+      "profileId": "sc_terrain_scoreboard_score1",
+      "name": "Starcraft - Terrain - Scoreboard - score1",
+      "kind": "terrain",
+      "calibration": "pdf-grid-v1",
+      "parts": [
+        {
+          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/fcacb24f0a164e511ecea756c1783883ade293e311a54c6a25740d3117efd52a.glb",
+          "textureUrl": null,
+          "transforms": {
+            "scale": 0.39370078740157477,
+            "rotationX": 0,
+            "rotationY": 0,
+            "rotationZ": 0,
+            "positionX": 0,
+            "positionY": 0,
+            "positionZ": 0
+          },
+          "previewSource": {
+            "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/fcacb24f0a164e511ecea756c1783883ade293e311a54c6a25740d3117efd52a.glb",
+            "textureUrl": null
+          },
+          "previewTransforms": {
+            "scale": 0.9999999999999999,
+            "rotationX": 0,
+            "rotationY": 0,
+            "rotationZ": 0,
+            "positionX": 0,
+            "positionY": 0,
+            "positionZ": 0
+          },
+          "hostedAsset": true,
+          "previewGeometryFile": "model-assets/fcacb24f0a164e511ecea756c1783883ade293e311a54c6a25740d3117efd52a.glb.preview.json"
+        }
+      ]
+    },
+    {
       "profileId": "sc_mission_red",
       "name": "Starcraft - Terrain - Mission marker 1 - red",
       "kind": "marker",

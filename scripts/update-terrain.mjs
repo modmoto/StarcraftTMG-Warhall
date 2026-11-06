@@ -9,6 +9,11 @@ import { sha256, readJson } from '../src/io.mjs';
 import { projectRoot, defaultDataDirectory } from '../src/paths.mjs';
 import { assembleTerrain } from '../src/terrain/geometry.mjs';
 import { encodeGlb } from '../src/models/portable-glb.mjs';
+import {
+  buildScoreboard,
+  scoreboardPlacement,
+  scoreboardTerrain,
+} from '../src/terrain/scoreboard.mjs';
 
 const flags = process.argv.slice(2);
 assert.ok(
@@ -164,25 +169,32 @@ for (const asset of source.assets.filter(asset => !aliases[asset.id])) {
     terrains.push({ ...terrains.at(-1), Id: raisedObeliskName, Name: 'Temple Obelisk (Raised)' });
   }
 }
+const scoreboard = await buildScoreboard();
+for (const [file, bytes] of scoreboard.files) files.set(path.join(projectRoot, file), bytes);
+models.push(scoreboard.model);
+terrains.push(scoreboardTerrain);
 const maps = source.maps.map(map => ({
   Id: `sc_map_${map.number}`,
   Name: map.name,
   MapName: map.name,
-  Items: map.items.map(item => {
-    const placement = calibration.maps[String(map.number)]?.[item.ttsGuid];
-    assert.ok(placement, `Missing reviewed placement: ${map.number}/${item.ttsGuid}`);
-    return {
-      Id:
-        map.number === 5 && canonicalAsset(item.id).name === 'Temple Obelisk'
-          ? raisedObeliskName
-          : terrainMenuId(canonicalAsset(item.id)),
-      Quadrant: 1,
-      Rotation: placement.rotation,
-      ShortSide: 27 - placement.x,
-      LongSide: map.height / 2 + placement.z,
-      Type: 'Terrain',
-    };
-  }),
+  Items: [
+    ...map.items.map(item => {
+      const placement = calibration.maps[String(map.number)]?.[item.ttsGuid];
+      assert.ok(placement, `Missing reviewed placement: ${map.number}/${item.ttsGuid}`);
+      return {
+        Id:
+          map.number === 5 && canonicalAsset(item.id).name === 'Temple Obelisk'
+            ? raisedObeliskName
+            : terrainMenuId(canonicalAsset(item.id)),
+        Quadrant: 1,
+        Rotation: placement.rotation,
+        ShortSide: 27 - placement.x,
+        LongSide: map.height / 2 + placement.z,
+        Type: 'Terrain',
+      };
+    }),
+    scoreboardPlacement(map.height),
+  ],
 }));
 const target = defaultDataDirectory;
 const existing = await readJson(path.join(target, 'terrains.json'));

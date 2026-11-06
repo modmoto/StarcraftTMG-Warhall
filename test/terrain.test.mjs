@@ -2,6 +2,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import { readFile } from 'node:fs/promises';
 import { terrainMenuId } from '../src/models/menu-ids.mjs';
+import { scoreboardPlacement } from '../src/terrain/scoreboard.mjs';
 const read = async file => JSON.parse(await readFile(new URL(file, import.meta.url), 'utf8'));
 test('all nine maps use the reviewed PDF centers, rotations and calibrated footprints', async () => {
   const source = await read('../terrain-sources.json');
@@ -11,11 +12,14 @@ test('all nine maps use the reviewed PDF centers, rotations and calibrated footp
   const terrains = await read('../Starcraft-test/terrains.json');
   assert.deepEqual(
     maps.map(map => map.Items.length),
-    [30, 30, 30, 30, 32, 32, 15, 15, 16],
+    [31, 31, 31, 31, 33, 33, 16, 16, 17],
   );
   assert.equal(calibration.gridInches, 6);
+  for (const [i, map] of maps.entries()) {
+    assert.deepEqual(map.Items.at(-1), scoreboardPlacement(source.maps[i].height));
+  }
   for (const [i, map] of maps.entries())
-    for (const [j, item] of map.Items.entries()) {
+    for (const [j, item] of map.Items.slice(0, -1).entries()) {
       const original = source.maps[i].items[j];
       const placement = calibration.maps[String(i + 1)][original.ttsGuid];
       const asset = source.assets.find(

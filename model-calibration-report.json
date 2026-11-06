@@ -2201,5 +2201,42 @@
         0
       ]
     ]
+  },
+  {
+    "profileId": "sc_terrain_scoreboard_score1",
+    "name": "Starcraft - Terrain - Scoreboard - score1",
+    "kind": "terrain",
+    "authoredSizeMm": [
+      364,
+      0,
+      455
+    ],
+    "correctedSizeMm": [
+      364,
+      0,
+      455
+    ],
+    "scaleAdjustment": 1,
+    "portableParts": 0,
+    "sourceParts": [
+      {
+        "format": "glb",
+        "sourceSize": [
+          36.400000000000006,
+          0,
+          45.50000000000001
+        ],
+        "cacheScale": 0.39370078740157477,
+        "apiScale": 0.39370078740157477,
+        "partCount": 1
+      }
+    ],
+    "rotations": [
+      [
+        0,
+        0,
+        0
+      ]
+    ]
   }
 ]
