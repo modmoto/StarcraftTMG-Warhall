@@ -65,6 +65,14 @@ export const tokenDefinitions = [
     description: 'Source of Creep. Ground Zerg units within 6 inches are On Creep.',
   },
   {
+    id: 'corrosive_bile',
+    name: 'Corrosive Bile',
+    symbol: 'bile_bomb',
+    diameterMm: 32,
+    color: '#d95c13',
+    description: 'Ravager Corrosive Bile marker. Resolve its effect at the end of the Assault Phase.',
+  },
+  {
     id: 'shield',
     name: 'Shield',
     symbol: 'shield',

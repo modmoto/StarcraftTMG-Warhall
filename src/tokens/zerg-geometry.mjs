@@ -39,7 +39,8 @@ function flame(rings, rgb) {
 }
 
 export async function zergTokenGeometry(id, diameterMm) {
-  if (id === 'bile_bomb') {
+  if (id === 'bile_bomb' || id === 'corrosive_bile') {
+    const green = id === 'bile_bomb';
     return [
       flame(
         [
@@ -49,7 +50,7 @@ export async function zergTokenGeometry(id, diameterMm) {
           [-0.55, 1.19, 0.49],
           [-0.98, 2.05, 0.04],
         ],
-        [203, 69, 12],
+        green ? [43, 128, 18] : [203, 69, 12],
       ),
       flame(
         [
@@ -58,7 +59,7 @@ export async function zergTokenGeometry(id, diameterMm) {
           [0.11, 0.76, 0.54],
           [-0.46, 1.52, 0.09],
         ],
-        [255, 150, 22],
+        green ? [108, 208, 28] : [255, 150, 22],
       ),
       flame(
         [
@@ -67,7 +68,7 @@ export async function zergTokenGeometry(id, diameterMm) {
           [0.2, 0.8, 0.24],
           [-0.12, 1.12, 0.02],
         ],
-        [255, 227, 93],
+        green ? [217, 255, 91] : [255, 227, 93],
       ),
       flame(
         [
@@ -75,7 +76,7 @@ export async function zergTokenGeometry(id, diameterMm) {
           [0.92, 0.26, 0.22],
           [1.32, 0.59, 0.03],
         ],
-        [251, 106, 20],
+        green ? [87, 180, 21] : [251, 106, 20],
       ),
     ];
   }

@@ -2867,6 +2867,39 @@
       ]
     },
     {
+      "profileId": "sc_token_corrosive_bile",
+      "name": "Starcraft - Token - Corrosive Bile",
+      "kind": "token",
+      "calibration": "token-centimeters-v1",
+      "tokenDiameterMm": 32,
+      "parts": [
+        {
+          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/ab8d00f67594dab8fd49f43192e53f1ca7ee783ddc690f207a9540b5b9d6fc6e.glb",
+          "textureUrl": null,
+          "hostedAsset": true,
+          "transforms": {
+            "scale": 0.39370078740157477,
+            "positionX": 0,
+            "positionY": 0,
+            "positionZ": 0,
+            "rotationX": 0,
+            "rotationY": 0,
+            "rotationZ": 0
+          },
+          "previewGeometryFile": "model-assets/ab8d00f67594dab8fd49f43192e53f1ca7ee783ddc690f207a9540b5b9d6fc6e.glb.preview.json",
+          "previewTransforms": {
+            "scale": 1,
+            "positionX": 0,
+            "positionY": 0,
+            "positionZ": 0,
+            "rotationX": 0,
+            "rotationY": 0,
+            "rotationZ": 0
+          }
+        }
+      ]
+    },
+    {
       "profileId": "sc_token_shield",
       "name": "Starcraft - Token - Shield",
       "kind": "token",
@@ -2907,7 +2940,7 @@
       "tokenDiameterMm": 32,
       "parts": [
         {
-          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/ab8d00f67594dab8fd49f43192e53f1ca7ee783ddc690f207a9540b5b9d6fc6e.glb",
+          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/f19ed7c84e5d920a69f65acc3e8141dcfc79b4b26ba2c209384a5b86fcffc48e.glb",
           "textureUrl": null,
           "hostedAsset": true,
           "transforms": {
@@ -2919,7 +2952,7 @@
             "rotationY": 0,
             "rotationZ": 0
           },
-          "previewGeometryFile": "model-assets/ab8d00f67594dab8fd49f43192e53f1ca7ee783ddc690f207a9540b5b9d6fc6e.glb.preview.json",
+          "previewGeometryFile": "model-assets/f19ed7c84e5d920a69f65acc3e8141dcfc79b4b26ba2c209384a5b86fcffc48e.glb.preview.json",
           "previewTransforms": {
             "scale": 1,
             "positionX": 0,

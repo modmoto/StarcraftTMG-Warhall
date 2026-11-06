@@ -48,5 +48,5 @@ test('menu migration preserves all map and scenario helper references without du
   for (const deployment of config.DeploymentTerrains ?? [])
     for (const item of deployment.Items ?? [])
       assert.ok(item.IsToken ? tokenNames.has(item.Name) : ids.has(item.Name), item.Name);
-  assert.equal(tokens.length, 26);
+  assert.equal(tokens.length, 27);
 });
