@@ -11,6 +11,14 @@
     {
       "Index": 0,
       "Type": "Cloud"
+    },
+    {
+      "Index": 1,
+      "Type": "CloudExtended"
+    },
+    {
+      "Index": 2,
+      "Type": "CloudCompressed"
     }
   ],
   "DefaultFormation": "Cloud",

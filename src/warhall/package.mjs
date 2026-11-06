@@ -158,7 +158,11 @@ async function initialData(template) {
 
   data['gameconfig.json'].WoundsAttribute = 'HP';
   data['gameconfig.json'].DefaultCardConfig.Color2 = '';
-  data['gameconfig.json'].Formations = [{ Index: 0, Type: 'Cloud' }];
+  data['gameconfig.json'].Formations = [
+    { Index: 0, Type: 'Cloud' },
+    { Index: 1, Type: 'CloudExtended' },
+    { Index: 2, Type: 'CloudCompressed' },
+  ];
   data['gameconfig.json'].DefaultFormation = 'Cloud';
   data['gameconfig.json'].DefaultSoldierSelectionMode = false;
   data['gameconfig.json'].MaxCloudSeparation = 4;
