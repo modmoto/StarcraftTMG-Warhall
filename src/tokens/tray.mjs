@@ -1,5 +1,4 @@
 import { tokenDefinitions } from './package.mjs';
-import { tokenMenuId } from '../models/menu-ids.mjs';
 
 export function tokenTrayPlacements({ width, height }) {
   const rows = tokenDefinitions.map(token => ({
@@ -9,7 +8,7 @@ export function tokenTrayPlacements({ width, height }) {
   const spacing = 1.25;
   return rows.flatMap(({ token, count }, row) =>
     Array.from({ length: count }, (_, column) => ({
-      Id: tokenMenuId(token.name),
+      Id: token.name,
       Type: 'Token',
       Quadrant: 1,
       Rotation: 0,
