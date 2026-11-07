@@ -2,13 +2,9 @@
 
 Prioritized client/editor requests for the Starcraft mod. Supporting code and investigation notes are linked below.
 
-1. [ ] **Leading-model movement.** Select a model and press **L** to mark it as the leader. Dragging that leader moves it and automatically places the whole unit in one drag: fill the exact forward circular arc first, alternating left/right, then fill inward gaps. Both players see the coherency circle (red when invalid), dotted previous unit positions, the old leader's movement arrow and numbered follower slots. After placement, non-leading models can be dragged individually without changing the leader, creating another circle or moving the rest of the unit. **Ctrl+Z** restores the whole pre-move unit as one undo transaction; later individual adjustments remain separate undo actions.
+1. [ ] **Leading-model movement.** Integrate the locally tested prototype. **L** selects or toggles the leader. Right-press, drag and release selects the clicked model as leader and places its followers forward. Other models remain individually movable. The persistent radius is 3 inches, or 4 inches for Squadron. Triangle reset restores all model positions, rotations and the original leader.
 
-   **Alternative, after the above workflow:** normal click-and-drag on any model automatically makes **that clicked model** the leader and moves/places the whole unit. After placement, Shift-click-and-drag or Ctrl-click-and-drag fine-adjusts individual **non-leading** models without changing the leader or triggering another whole-unit move. No L keypress is required in this alternative.
-
-   ![Leading-model movement: numbered formation and dotted previous positions](docs/images/leading-model-placement.png)
-
-   [Standalone C# planner](examples/leading-model/LeadingModelPlacement.cs) · [Unity integration and acceptance checks](examples/leading-model/README.md). Example: 18 models including the leader, 32 mm bases, 4-inch coherency. This is a proposed feature; the planner does not wire up game input, networking or undo.
+   [Integration guide](examples/leading-model/README.md) · [C# prototype](examples/leading-model/LeadingMovement.cs). The guide lists the exact client hook locations and remaining production checks, including multiplayer, saved-game persistence and collision validation.
 
 2. [ ] **Platform collision.** Allow units to stand on imported ramps/platforms using mesh colliders on `ElevatedGround`, as they can on native Hill snow. Imported model collider generation is disabled; terrain selection height does not provide a walkable surface. Preserve elevated-ground collision when terrain is locked. [Client findings](docs/warhall-client-terrain-support.md).
 
