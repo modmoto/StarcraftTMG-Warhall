@@ -1,19 +1,39 @@
 import { tokenDefinitions } from './package.mjs';
 
 export function tokenTrayPlacements({ width, height }) {
-  const rows = tokenDefinitions.map(token => ({
-    token,
-    count: token.id.startsWith('activation_') ? 5 : 1,
-  }));
   const spacing = 1.25;
-  return rows.flatMap(({ token, count }, row) =>
-    Array.from({ length: count }, (_, column) => ({
-      Id: token.name,
-      Type: 'Token',
-      Quadrant: 1,
-      Rotation: 0,
-      ShortSide: 27 + width / 2 + 2 + column * spacing,
-      LongSide: height / 2 + ((rows.length - 1) / 2 - row) * spacing,
-    })),
-  );
+  return ['blue', 'red'].flatMap(color => {
+    const activation = tokenDefinitions.filter(token =>
+      token.id.startsWith(`activation_${color}_`),
+    );
+    const buffs = tokenDefinitions.filter(token => ['buff', 'debuff'].includes(token.id));
+    const factions = tokenDefinitions.filter(token => token.id.startsWith('faction_'));
+    const others = tokenDefinitions.filter(
+      token =>
+        !token.id.startsWith('activation_') &&
+        !token.id.startsWith('faction_') &&
+        !['buff', 'debuff'].includes(token.id),
+    );
+    const groups = [
+      { tokens: activation.flatMap(token => Array(5).fill(token)), columns: 5, row: 0 },
+      { tokens: buffs, columns: 2, row: 3 },
+      { tokens: factions, columns: 3, row: 5 },
+      { tokens: others.flatMap(token => [token, token]), columns: 2, row: 8 },
+    ];
+    const direction = color === 'blue' ? 1 : -1;
+    return groups.flatMap(group =>
+      group.tokens.map((token, index) => {
+        const x = -width / 2 + 2 + (index % group.columns) * spacing;
+        const z = -height / 2 - 21 + (group.row + Math.floor(index / group.columns)) * spacing;
+        return {
+          Id: token.name,
+          Type: 'Token',
+          Quadrant: 1,
+          Rotation: color === 'blue' ? 0 : 180,
+          ShortSide: 27 - direction * x,
+          LongSide: 18 + direction * z,
+        };
+      }),
+    );
+  });
 }
