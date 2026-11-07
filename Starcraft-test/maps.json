@@ -251,6 +251,294 @@
         "Rotation": 90,
         "ShortSide": -4.363560515200501,
         "LongSide": 18
+      },
+      {
+        "Id": "Starcraft - Token - Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 56,
+        "LongSide": 29.875
+      },
+      {
+        "Id": "Starcraft - Token - Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 57.25,
+        "LongSide": 29.875
+      },
+      {
+        "Id": "Starcraft - Token - Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 58.5,
+        "LongSide": 29.875
+      },
+      {
+        "Id": "Starcraft - Token - Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 59.75,
+        "LongSide": 29.875
+      },
+      {
+        "Id": "Starcraft - Token - Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 61,
+        "LongSide": 29.875
+      },
+      {
+        "Id": "Starcraft - Token - Activation - blue - assault",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 56,
+        "LongSide": 28.625
+      },
+      {
+        "Id": "Starcraft - Token - Activation - blue - assault",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 57.25,
+        "LongSide": 28.625
+      },
+      {
+        "Id": "Starcraft - Token - Activation - blue - assault",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 58.5,
+        "LongSide": 28.625
+      },
+      {
+        "Id": "Starcraft - Token - Activation - blue - assault",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 59.75,
+        "LongSide": 28.625
+      },
+      {
+        "Id": "Starcraft - Token - Activation - blue - assault",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 61,
+        "LongSide": 28.625
+      },
+      {
+        "Id": "Starcraft - Token - Activation - red - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 56,
+        "LongSide": 27.375
+      },
+      {
+        "Id": "Starcraft - Token - Activation - red - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 57.25,
+        "LongSide": 27.375
+      },
+      {
+        "Id": "Starcraft - Token - Activation - red - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 58.5,
+        "LongSide": 27.375
+      },
+      {
+        "Id": "Starcraft - Token - Activation - red - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 59.75,
+        "LongSide": 27.375
+      },
+      {
+        "Id": "Starcraft - Token - Activation - red - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 61,
+        "LongSide": 27.375
+      },
+      {
+        "Id": "Starcraft - Token - Activation - red - assault",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 56,
+        "LongSide": 26.125
+      },
+      {
+        "Id": "Starcraft - Token - Activation - red - assault",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 57.25,
+        "LongSide": 26.125
+      },
+      {
+        "Id": "Starcraft - Token - Activation - red - assault",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 58.5,
+        "LongSide": 26.125
+      },
+      {
+        "Id": "Starcraft - Token - Activation - red - assault",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 59.75,
+        "LongSide": 26.125
+      },
+      {
+        "Id": "Starcraft - Token - Activation - red - assault",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 61,
+        "LongSide": 26.125
+      },
+      {
+        "Id": "Starcraft - Token - Terran - blue",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 56,
+        "LongSide": 24.875
+      },
+      {
+        "Id": "Starcraft - Token - Terran - white",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 56,
+        "LongSide": 23.625
+      },
+      {
+        "Id": "Starcraft - Token - Protoss - yellow",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 56,
+        "LongSide": 22.375
+      },
+      {
+        "Id": "Starcraft - Token - Protoss - white",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 56,
+        "LongSide": 21.125
+      },
+      {
+        "Id": "Starcraft - Token - Zerg - purple",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 56,
+        "LongSide": 19.875
+      },
+      {
+        "Id": "Starcraft - Token - Zerg - white",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 56,
+        "LongSide": 18.625
+      },
+      {
+        "Id": "Starcraft - Token - Buff",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 56,
+        "LongSide": 17.375
+      },
+      {
+        "Id": "Starcraft - Token - Debuff",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 56,
+        "LongSide": 16.125
+      },
+      {
+        "Id": "Starcraft - Token - Stim",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 56,
+        "LongSide": 14.875
+      },
+      {
+        "Id": "Starcraft - Token - Burrowed",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 56,
+        "LongSide": 13.625
+      },
+      {
+        "Id": "Starcraft - Token - Hidden",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 56,
+        "LongSide": 12.375
+      },
+      {
+        "Id": "Starcraft - Token - Siege Status",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 56,
+        "LongSide": 11.125
+      },
+      {
+        "Id": "Starcraft - Token - Bile Bomb",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 56,
+        "LongSide": 9.875
+      },
+      {
+        "Id": "Starcraft - Token - Creep Tumor",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 56,
+        "LongSide": 8.625
+      },
+      {
+        "Id": "Starcraft - Token - Corrosive Bile",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 56,
+        "LongSide": 7.375
+      },
+      {
+        "Id": "Starcraft - Token - Shield",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 56,
+        "LongSide": 6.125
       }
     ]
   },
@@ -506,6 +794,294 @@
         "Rotation": 90,
         "ShortSide": -4.363560515200501,
         "LongSide": 18
+      },
+      {
+        "Id": "Starcraft - Token - Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 56,
+        "LongSide": 29.875
+      },
+      {
+        "Id": "Starcraft - Token - Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 57.25,
+        "LongSide": 29.875
+      },
+      {
+        "Id": "Starcraft - Token - Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 58.5,
+        "LongSide": 29.875
+      },
+      {
+        "Id": "Starcraft - Token - Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 59.75,
+        "LongSide": 29.875
+      },
+      {
+        "Id": "Starcraft - Token - Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 61,
+        "LongSide": 29.875
+      },
+      {
+        "Id": "Starcraft - Token - Activation - blue - assault",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 56,
+        "LongSide": 28.625
+      },
+      {
+        "Id": "Starcraft - Token - Activation - blue - assault",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 57.25,
+        "LongSide": 28.625
+      },
+      {
+        "Id": "Starcraft - Token - Activation - blue - assault",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 58.5,
+        "LongSide": 28.625
+      },
+      {
+        "Id": "Starcraft - Token - Activation - blue - assault",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 59.75,
+        "LongSide": 28.625
+      },
+      {
+        "Id": "Starcraft - Token - Activation - blue - assault",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 61,
+        "LongSide": 28.625
+      },
+      {
+        "Id": "Starcraft - Token - Activation - red - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 56,
+        "LongSide": 27.375
+      },
+      {
+        "Id": "Starcraft - Token - Activation - red - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 57.25,
+        "LongSide": 27.375
+      },
+      {
+        "Id": "Starcraft - Token - Activation - red - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 58.5,
+        "LongSide": 27.375
+      },
+      {
+        "Id": "Starcraft - Token - Activation - red - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 59.75,
+        "LongSide": 27.375
+      },
+      {
+        "Id": "Starcraft - Token - Activation - red - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 61,
+        "LongSide": 27.375
+      },
+      {
+        "Id": "Starcraft - Token - Activation - red - assault",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 56,
+        "LongSide": 26.125
+      },
+      {
+        "Id": "Starcraft - Token - Activation - red - assault",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 57.25,
+        "LongSide": 26.125
+      },
+      {
+        "Id": "Starcraft - Token - Activation - red - assault",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 58.5,
+        "LongSide": 26.125
+      },
+      {
+        "Id": "Starcraft - Token - Activation - red - assault",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 59.75,
+        "LongSide": 26.125
+      },
+      {
+        "Id": "Starcraft - Token - Activation - red - assault",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 61,
+        "LongSide": 26.125
+      },
+      {
+        "Id": "Starcraft - Token - Terran - blue",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 56,
+        "LongSide": 24.875
+      },
+      {
+        "Id": "Starcraft - Token - Terran - white",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 56,
+        "LongSide": 23.625
+      },
+      {
+        "Id": "Starcraft - Token - Protoss - yellow",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 56,
+        "LongSide": 22.375
+      },
+      {
+        "Id": "Starcraft - Token - Protoss - white",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 56,
+        "LongSide": 21.125
+      },
+      {
+        "Id": "Starcraft - Token - Zerg - purple",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 56,
+        "LongSide": 19.875
+      },
+      {
+        "Id": "Starcraft - Token - Zerg - white",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 56,
+        "LongSide": 18.625
+      },
+      {
+        "Id": "Starcraft - Token - Buff",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 56,
+        "LongSide": 17.375
+      },
+      {
+        "Id": "Starcraft - Token - Debuff",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 56,
+        "LongSide": 16.125
+      },
+      {
+        "Id": "Starcraft - Token - Stim",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 56,
+        "LongSide": 14.875
+      },
+      {
+        "Id": "Starcraft - Token - Burrowed",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 56,
+        "LongSide": 13.625
+      },
+      {
+        "Id": "Starcraft - Token - Hidden",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 56,
+        "LongSide": 12.375
+      },
+      {
+        "Id": "Starcraft - Token - Siege Status",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 56,
+        "LongSide": 11.125
+      },
+      {
+        "Id": "Starcraft - Token - Bile Bomb",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 56,
+        "LongSide": 9.875
+      },
+      {
+        "Id": "Starcraft - Token - Creep Tumor",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 56,
+        "LongSide": 8.625
+      },
+      {
+        "Id": "Starcraft - Token - Corrosive Bile",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 56,
+        "LongSide": 7.375
+      },
+      {
+        "Id": "Starcraft - Token - Shield",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 56,
+        "LongSide": 6.125
       }
     ]
   },
@@ -761,6 +1337,294 @@
         "Rotation": 90,
         "ShortSide": -4.363560515200501,
         "LongSide": 18
+      },
+      {
+        "Id": "Starcraft - Token - Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 56,
+        "LongSide": 29.875
+      },
+      {
+        "Id": "Starcraft - Token - Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 57.25,
+        "LongSide": 29.875
+      },
+      {
+        "Id": "Starcraft - Token - Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 58.5,
+        "LongSide": 29.875
+      },
+      {
+        "Id": "Starcraft - Token - Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 59.75,
+        "LongSide": 29.875
+      },
+      {
+        "Id": "Starcraft - Token - Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 61,
+        "LongSide": 29.875
+      },
+      {
+        "Id": "Starcraft - Token - Activation - blue - assault",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 56,
+        "LongSide": 28.625
+      },
+      {
+        "Id": "Starcraft - Token - Activation - blue - assault",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 57.25,
+        "LongSide": 28.625
+      },
+      {
+        "Id": "Starcraft - Token - Activation - blue - assault",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 58.5,
+        "LongSide": 28.625
+      },
+      {
+        "Id": "Starcraft - Token - Activation - blue - assault",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 59.75,
+        "LongSide": 28.625
+      },
+      {
+        "Id": "Starcraft - Token - Activation - blue - assault",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 61,
+        "LongSide": 28.625
+      },
+      {
+        "Id": "Starcraft - Token - Activation - red - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 56,
+        "LongSide": 27.375
+      },
+      {
+        "Id": "Starcraft - Token - Activation - red - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 57.25,
+        "LongSide": 27.375
+      },
+      {
+        "Id": "Starcraft - Token - Activation - red - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 58.5,
+        "LongSide": 27.375
+      },
+      {
+        "Id": "Starcraft - Token - Activation - red - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 59.75,
+        "LongSide": 27.375
+      },
+      {
+        "Id": "Starcraft - Token - Activation - red - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 61,
+        "LongSide": 27.375
+      },
+      {
+        "Id": "Starcraft - Token - Activation - red - assault",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 56,
+        "LongSide": 26.125
+      },
+      {
+        "Id": "Starcraft - Token - Activation - red - assault",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 57.25,
+        "LongSide": 26.125
+      },
+      {
+        "Id": "Starcraft - Token - Activation - red - assault",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 58.5,
+        "LongSide": 26.125
+      },
+      {
+        "Id": "Starcraft - Token - Activation - red - assault",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 59.75,
+        "LongSide": 26.125
+      },
+      {
+        "Id": "Starcraft - Token - Activation - red - assault",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 61,
+        "LongSide": 26.125
+      },
+      {
+        "Id": "Starcraft - Token - Terran - blue",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 56,
+        "LongSide": 24.875
+      },
+      {
+        "Id": "Starcraft - Token - Terran - white",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 56,
+        "LongSide": 23.625
+      },
+      {
+        "Id": "Starcraft - Token - Protoss - yellow",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 56,
+        "LongSide": 22.375
+      },
+      {
+        "Id": "Starcraft - Token - Protoss - white",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 56,
+        "LongSide": 21.125
+      },
+      {
+        "Id": "Starcraft - Token - Zerg - purple",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 56,
+        "LongSide": 19.875
+      },
+      {
+        "Id": "Starcraft - Token - Zerg - white",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 56,
+        "LongSide": 18.625
+      },
+      {
+        "Id": "Starcraft - Token - Buff",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 56,
+        "LongSide": 17.375
+      },
+      {
+        "Id": "Starcraft - Token - Debuff",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 56,
+        "LongSide": 16.125
+      },
+      {
+        "Id": "Starcraft - Token - Stim",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 56,
+        "LongSide": 14.875
+      },
+      {
+        "Id": "Starcraft - Token - Burrowed",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 56,
+        "LongSide": 13.625
+      },
+      {
+        "Id": "Starcraft - Token - Hidden",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 56,
+        "LongSide": 12.375
+      },
+      {
+        "Id": "Starcraft - Token - Siege Status",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 56,
+        "LongSide": 11.125
+      },
+      {
+        "Id": "Starcraft - Token - Bile Bomb",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 56,
+        "LongSide": 9.875
+      },
+      {
+        "Id": "Starcraft - Token - Creep Tumor",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 56,
+        "LongSide": 8.625
+      },
+      {
+        "Id": "Starcraft - Token - Corrosive Bile",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 56,
+        "LongSide": 7.375
+      },
+      {
+        "Id": "Starcraft - Token - Shield",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 56,
+        "LongSide": 6.125
       }
     ]
   },
@@ -1016,6 +1880,294 @@
         "Rotation": 90,
         "ShortSide": -4.363560515200501,
         "LongSide": 18
+      },
+      {
+        "Id": "Starcraft - Token - Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 56,
+        "LongSide": 29.875
+      },
+      {
+        "Id": "Starcraft - Token - Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 57.25,
+        "LongSide": 29.875
+      },
+      {
+        "Id": "Starcraft - Token - Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 58.5,
+        "LongSide": 29.875
+      },
+      {
+        "Id": "Starcraft - Token - Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 59.75,
+        "LongSide": 29.875
+      },
+      {
+        "Id": "Starcraft - Token - Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 61,
+        "LongSide": 29.875
+      },
+      {
+        "Id": "Starcraft - Token - Activation - blue - assault",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 56,
+        "LongSide": 28.625
+      },
+      {
+        "Id": "Starcraft - Token - Activation - blue - assault",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 57.25,
+        "LongSide": 28.625
+      },
+      {
+        "Id": "Starcraft - Token - Activation - blue - assault",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 58.5,
+        "LongSide": 28.625
+      },
+      {
+        "Id": "Starcraft - Token - Activation - blue - assault",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 59.75,
+        "LongSide": 28.625
+      },
+      {
+        "Id": "Starcraft - Token - Activation - blue - assault",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 61,
+        "LongSide": 28.625
+      },
+      {
+        "Id": "Starcraft - Token - Activation - red - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 56,
+        "LongSide": 27.375
+      },
+      {
+        "Id": "Starcraft - Token - Activation - red - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 57.25,
+        "LongSide": 27.375
+      },
+      {
+        "Id": "Starcraft - Token - Activation - red - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 58.5,
+        "LongSide": 27.375
+      },
+      {
+        "Id": "Starcraft - Token - Activation - red - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 59.75,
+        "LongSide": 27.375
+      },
+      {
+        "Id": "Starcraft - Token - Activation - red - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 61,
+        "LongSide": 27.375
+      },
+      {
+        "Id": "Starcraft - Token - Activation - red - assault",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 56,
+        "LongSide": 26.125
+      },
+      {
+        "Id": "Starcraft - Token - Activation - red - assault",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 57.25,
+        "LongSide": 26.125
+      },
+      {
+        "Id": "Starcraft - Token - Activation - red - assault",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 58.5,
+        "LongSide": 26.125
+      },
+      {
+        "Id": "Starcraft - Token - Activation - red - assault",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 59.75,
+        "LongSide": 26.125
+      },
+      {
+        "Id": "Starcraft - Token - Activation - red - assault",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 61,
+        "LongSide": 26.125
+      },
+      {
+        "Id": "Starcraft - Token - Terran - blue",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 56,
+        "LongSide": 24.875
+      },
+      {
+        "Id": "Starcraft - Token - Terran - white",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 56,
+        "LongSide": 23.625
+      },
+      {
+        "Id": "Starcraft - Token - Protoss - yellow",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 56,
+        "LongSide": 22.375
+      },
+      {
+        "Id": "Starcraft - Token - Protoss - white",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 56,
+        "LongSide": 21.125
+      },
+      {
+        "Id": "Starcraft - Token - Zerg - purple",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 56,
+        "LongSide": 19.875
+      },
+      {
+        "Id": "Starcraft - Token - Zerg - white",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 56,
+        "LongSide": 18.625
+      },
+      {
+        "Id": "Starcraft - Token - Buff",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 56,
+        "LongSide": 17.375
+      },
+      {
+        "Id": "Starcraft - Token - Debuff",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 56,
+        "LongSide": 16.125
+      },
+      {
+        "Id": "Starcraft - Token - Stim",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 56,
+        "LongSide": 14.875
+      },
+      {
+        "Id": "Starcraft - Token - Burrowed",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 56,
+        "LongSide": 13.625
+      },
+      {
+        "Id": "Starcraft - Token - Hidden",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 56,
+        "LongSide": 12.375
+      },
+      {
+        "Id": "Starcraft - Token - Siege Status",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 56,
+        "LongSide": 11.125
+      },
+      {
+        "Id": "Starcraft - Token - Bile Bomb",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 56,
+        "LongSide": 9.875
+      },
+      {
+        "Id": "Starcraft - Token - Creep Tumor",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 56,
+        "LongSide": 8.625
+      },
+      {
+        "Id": "Starcraft - Token - Corrosive Bile",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 56,
+        "LongSide": 7.375
+      },
+      {
+        "Id": "Starcraft - Token - Shield",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 56,
+        "LongSide": 6.125
       }
     ]
   },
@@ -1287,6 +2439,294 @@
         "Rotation": 90,
         "ShortSide": -4.363560515200501,
         "LongSide": 18
+      },
+      {
+        "Id": "Starcraft - Token - Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 56,
+        "LongSide": 29.875
+      },
+      {
+        "Id": "Starcraft - Token - Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 57.25,
+        "LongSide": 29.875
+      },
+      {
+        "Id": "Starcraft - Token - Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 58.5,
+        "LongSide": 29.875
+      },
+      {
+        "Id": "Starcraft - Token - Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 59.75,
+        "LongSide": 29.875
+      },
+      {
+        "Id": "Starcraft - Token - Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 61,
+        "LongSide": 29.875
+      },
+      {
+        "Id": "Starcraft - Token - Activation - blue - assault",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 56,
+        "LongSide": 28.625
+      },
+      {
+        "Id": "Starcraft - Token - Activation - blue - assault",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 57.25,
+        "LongSide": 28.625
+      },
+      {
+        "Id": "Starcraft - Token - Activation - blue - assault",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 58.5,
+        "LongSide": 28.625
+      },
+      {
+        "Id": "Starcraft - Token - Activation - blue - assault",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 59.75,
+        "LongSide": 28.625
+      },
+      {
+        "Id": "Starcraft - Token - Activation - blue - assault",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 61,
+        "LongSide": 28.625
+      },
+      {
+        "Id": "Starcraft - Token - Activation - red - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 56,
+        "LongSide": 27.375
+      },
+      {
+        "Id": "Starcraft - Token - Activation - red - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 57.25,
+        "LongSide": 27.375
+      },
+      {
+        "Id": "Starcraft - Token - Activation - red - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 58.5,
+        "LongSide": 27.375
+      },
+      {
+        "Id": "Starcraft - Token - Activation - red - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 59.75,
+        "LongSide": 27.375
+      },
+      {
+        "Id": "Starcraft - Token - Activation - red - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 61,
+        "LongSide": 27.375
+      },
+      {
+        "Id": "Starcraft - Token - Activation - red - assault",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 56,
+        "LongSide": 26.125
+      },
+      {
+        "Id": "Starcraft - Token - Activation - red - assault",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 57.25,
+        "LongSide": 26.125
+      },
+      {
+        "Id": "Starcraft - Token - Activation - red - assault",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 58.5,
+        "LongSide": 26.125
+      },
+      {
+        "Id": "Starcraft - Token - Activation - red - assault",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 59.75,
+        "LongSide": 26.125
+      },
+      {
+        "Id": "Starcraft - Token - Activation - red - assault",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 61,
+        "LongSide": 26.125
+      },
+      {
+        "Id": "Starcraft - Token - Terran - blue",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 56,
+        "LongSide": 24.875
+      },
+      {
+        "Id": "Starcraft - Token - Terran - white",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 56,
+        "LongSide": 23.625
+      },
+      {
+        "Id": "Starcraft - Token - Protoss - yellow",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 56,
+        "LongSide": 22.375
+      },
+      {
+        "Id": "Starcraft - Token - Protoss - white",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 56,
+        "LongSide": 21.125
+      },
+      {
+        "Id": "Starcraft - Token - Zerg - purple",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 56,
+        "LongSide": 19.875
+      },
+      {
+        "Id": "Starcraft - Token - Zerg - white",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 56,
+        "LongSide": 18.625
+      },
+      {
+        "Id": "Starcraft - Token - Buff",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 56,
+        "LongSide": 17.375
+      },
+      {
+        "Id": "Starcraft - Token - Debuff",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 56,
+        "LongSide": 16.125
+      },
+      {
+        "Id": "Starcraft - Token - Stim",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 56,
+        "LongSide": 14.875
+      },
+      {
+        "Id": "Starcraft - Token - Burrowed",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 56,
+        "LongSide": 13.625
+      },
+      {
+        "Id": "Starcraft - Token - Hidden",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 56,
+        "LongSide": 12.375
+      },
+      {
+        "Id": "Starcraft - Token - Siege Status",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 56,
+        "LongSide": 11.125
+      },
+      {
+        "Id": "Starcraft - Token - Bile Bomb",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 56,
+        "LongSide": 9.875
+      },
+      {
+        "Id": "Starcraft - Token - Creep Tumor",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 56,
+        "LongSide": 8.625
+      },
+      {
+        "Id": "Starcraft - Token - Corrosive Bile",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 56,
+        "LongSide": 7.375
+      },
+      {
+        "Id": "Starcraft - Token - Shield",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 56,
+        "LongSide": 6.125
       }
     ]
   },
@@ -1558,6 +2998,294 @@
         "Rotation": 90,
         "ShortSide": -4.363560515200501,
         "LongSide": 18
+      },
+      {
+        "Id": "Starcraft - Token - Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 56,
+        "LongSide": 29.875
+      },
+      {
+        "Id": "Starcraft - Token - Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 57.25,
+        "LongSide": 29.875
+      },
+      {
+        "Id": "Starcraft - Token - Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 58.5,
+        "LongSide": 29.875
+      },
+      {
+        "Id": "Starcraft - Token - Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 59.75,
+        "LongSide": 29.875
+      },
+      {
+        "Id": "Starcraft - Token - Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 61,
+        "LongSide": 29.875
+      },
+      {
+        "Id": "Starcraft - Token - Activation - blue - assault",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 56,
+        "LongSide": 28.625
+      },
+      {
+        "Id": "Starcraft - Token - Activation - blue - assault",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 57.25,
+        "LongSide": 28.625
+      },
+      {
+        "Id": "Starcraft - Token - Activation - blue - assault",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 58.5,
+        "LongSide": 28.625
+      },
+      {
+        "Id": "Starcraft - Token - Activation - blue - assault",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 59.75,
+        "LongSide": 28.625
+      },
+      {
+        "Id": "Starcraft - Token - Activation - blue - assault",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 61,
+        "LongSide": 28.625
+      },
+      {
+        "Id": "Starcraft - Token - Activation - red - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 56,
+        "LongSide": 27.375
+      },
+      {
+        "Id": "Starcraft - Token - Activation - red - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 57.25,
+        "LongSide": 27.375
+      },
+      {
+        "Id": "Starcraft - Token - Activation - red - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 58.5,
+        "LongSide": 27.375
+      },
+      {
+        "Id": "Starcraft - Token - Activation - red - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 59.75,
+        "LongSide": 27.375
+      },
+      {
+        "Id": "Starcraft - Token - Activation - red - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 61,
+        "LongSide": 27.375
+      },
+      {
+        "Id": "Starcraft - Token - Activation - red - assault",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 56,
+        "LongSide": 26.125
+      },
+      {
+        "Id": "Starcraft - Token - Activation - red - assault",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 57.25,
+        "LongSide": 26.125
+      },
+      {
+        "Id": "Starcraft - Token - Activation - red - assault",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 58.5,
+        "LongSide": 26.125
+      },
+      {
+        "Id": "Starcraft - Token - Activation - red - assault",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 59.75,
+        "LongSide": 26.125
+      },
+      {
+        "Id": "Starcraft - Token - Activation - red - assault",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 61,
+        "LongSide": 26.125
+      },
+      {
+        "Id": "Starcraft - Token - Terran - blue",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 56,
+        "LongSide": 24.875
+      },
+      {
+        "Id": "Starcraft - Token - Terran - white",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 56,
+        "LongSide": 23.625
+      },
+      {
+        "Id": "Starcraft - Token - Protoss - yellow",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 56,
+        "LongSide": 22.375
+      },
+      {
+        "Id": "Starcraft - Token - Protoss - white",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 56,
+        "LongSide": 21.125
+      },
+      {
+        "Id": "Starcraft - Token - Zerg - purple",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 56,
+        "LongSide": 19.875
+      },
+      {
+        "Id": "Starcraft - Token - Zerg - white",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 56,
+        "LongSide": 18.625
+      },
+      {
+        "Id": "Starcraft - Token - Buff",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 56,
+        "LongSide": 17.375
+      },
+      {
+        "Id": "Starcraft - Token - Debuff",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 56,
+        "LongSide": 16.125
+      },
+      {
+        "Id": "Starcraft - Token - Stim",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 56,
+        "LongSide": 14.875
+      },
+      {
+        "Id": "Starcraft - Token - Burrowed",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 56,
+        "LongSide": 13.625
+      },
+      {
+        "Id": "Starcraft - Token - Hidden",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 56,
+        "LongSide": 12.375
+      },
+      {
+        "Id": "Starcraft - Token - Siege Status",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 56,
+        "LongSide": 11.125
+      },
+      {
+        "Id": "Starcraft - Token - Bile Bomb",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 56,
+        "LongSide": 9.875
+      },
+      {
+        "Id": "Starcraft - Token - Creep Tumor",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 56,
+        "LongSide": 8.625
+      },
+      {
+        "Id": "Starcraft - Token - Corrosive Bile",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 56,
+        "LongSide": 7.375
+      },
+      {
+        "Id": "Starcraft - Token - Shield",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 56,
+        "LongSide": 6.125
       }
     ]
   },
@@ -1693,6 +3421,294 @@
         "Rotation": 90,
         "ShortSide": 4.636439484799499,
         "LongSide": 18
+      },
+      {
+        "Id": "Starcraft - Token - Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 47,
+        "LongSide": 29.875
+      },
+      {
+        "Id": "Starcraft - Token - Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 48.25,
+        "LongSide": 29.875
+      },
+      {
+        "Id": "Starcraft - Token - Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 49.5,
+        "LongSide": 29.875
+      },
+      {
+        "Id": "Starcraft - Token - Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 50.75,
+        "LongSide": 29.875
+      },
+      {
+        "Id": "Starcraft - Token - Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 52,
+        "LongSide": 29.875
+      },
+      {
+        "Id": "Starcraft - Token - Activation - blue - assault",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 47,
+        "LongSide": 28.625
+      },
+      {
+        "Id": "Starcraft - Token - Activation - blue - assault",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 48.25,
+        "LongSide": 28.625
+      },
+      {
+        "Id": "Starcraft - Token - Activation - blue - assault",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 49.5,
+        "LongSide": 28.625
+      },
+      {
+        "Id": "Starcraft - Token - Activation - blue - assault",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 50.75,
+        "LongSide": 28.625
+      },
+      {
+        "Id": "Starcraft - Token - Activation - blue - assault",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 52,
+        "LongSide": 28.625
+      },
+      {
+        "Id": "Starcraft - Token - Activation - red - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 47,
+        "LongSide": 27.375
+      },
+      {
+        "Id": "Starcraft - Token - Activation - red - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 48.25,
+        "LongSide": 27.375
+      },
+      {
+        "Id": "Starcraft - Token - Activation - red - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 49.5,
+        "LongSide": 27.375
+      },
+      {
+        "Id": "Starcraft - Token - Activation - red - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 50.75,
+        "LongSide": 27.375
+      },
+      {
+        "Id": "Starcraft - Token - Activation - red - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 52,
+        "LongSide": 27.375
+      },
+      {
+        "Id": "Starcraft - Token - Activation - red - assault",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 47,
+        "LongSide": 26.125
+      },
+      {
+        "Id": "Starcraft - Token - Activation - red - assault",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 48.25,
+        "LongSide": 26.125
+      },
+      {
+        "Id": "Starcraft - Token - Activation - red - assault",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 49.5,
+        "LongSide": 26.125
+      },
+      {
+        "Id": "Starcraft - Token - Activation - red - assault",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 50.75,
+        "LongSide": 26.125
+      },
+      {
+        "Id": "Starcraft - Token - Activation - red - assault",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 52,
+        "LongSide": 26.125
+      },
+      {
+        "Id": "Starcraft - Token - Terran - blue",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 47,
+        "LongSide": 24.875
+      },
+      {
+        "Id": "Starcraft - Token - Terran - white",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 47,
+        "LongSide": 23.625
+      },
+      {
+        "Id": "Starcraft - Token - Protoss - yellow",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 47,
+        "LongSide": 22.375
+      },
+      {
+        "Id": "Starcraft - Token - Protoss - white",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 47,
+        "LongSide": 21.125
+      },
+      {
+        "Id": "Starcraft - Token - Zerg - purple",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 47,
+        "LongSide": 19.875
+      },
+      {
+        "Id": "Starcraft - Token - Zerg - white",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 47,
+        "LongSide": 18.625
+      },
+      {
+        "Id": "Starcraft - Token - Buff",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 47,
+        "LongSide": 17.375
+      },
+      {
+        "Id": "Starcraft - Token - Debuff",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 47,
+        "LongSide": 16.125
+      },
+      {
+        "Id": "Starcraft - Token - Stim",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 47,
+        "LongSide": 14.875
+      },
+      {
+        "Id": "Starcraft - Token - Burrowed",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 47,
+        "LongSide": 13.625
+      },
+      {
+        "Id": "Starcraft - Token - Hidden",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 47,
+        "LongSide": 12.375
+      },
+      {
+        "Id": "Starcraft - Token - Siege Status",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 47,
+        "LongSide": 11.125
+      },
+      {
+        "Id": "Starcraft - Token - Bile Bomb",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 47,
+        "LongSide": 9.875
+      },
+      {
+        "Id": "Starcraft - Token - Creep Tumor",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 47,
+        "LongSide": 8.625
+      },
+      {
+        "Id": "Starcraft - Token - Corrosive Bile",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 47,
+        "LongSide": 7.375
+      },
+      {
+        "Id": "Starcraft - Token - Shield",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 47,
+        "LongSide": 6.125
       }
     ]
   },
@@ -1828,6 +3844,294 @@
         "Rotation": 90,
         "ShortSide": 4.636439484799499,
         "LongSide": 18
+      },
+      {
+        "Id": "Starcraft - Token - Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 47,
+        "LongSide": 29.875
+      },
+      {
+        "Id": "Starcraft - Token - Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 48.25,
+        "LongSide": 29.875
+      },
+      {
+        "Id": "Starcraft - Token - Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 49.5,
+        "LongSide": 29.875
+      },
+      {
+        "Id": "Starcraft - Token - Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 50.75,
+        "LongSide": 29.875
+      },
+      {
+        "Id": "Starcraft - Token - Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 52,
+        "LongSide": 29.875
+      },
+      {
+        "Id": "Starcraft - Token - Activation - blue - assault",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 47,
+        "LongSide": 28.625
+      },
+      {
+        "Id": "Starcraft - Token - Activation - blue - assault",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 48.25,
+        "LongSide": 28.625
+      },
+      {
+        "Id": "Starcraft - Token - Activation - blue - assault",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 49.5,
+        "LongSide": 28.625
+      },
+      {
+        "Id": "Starcraft - Token - Activation - blue - assault",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 50.75,
+        "LongSide": 28.625
+      },
+      {
+        "Id": "Starcraft - Token - Activation - blue - assault",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 52,
+        "LongSide": 28.625
+      },
+      {
+        "Id": "Starcraft - Token - Activation - red - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 47,
+        "LongSide": 27.375
+      },
+      {
+        "Id": "Starcraft - Token - Activation - red - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 48.25,
+        "LongSide": 27.375
+      },
+      {
+        "Id": "Starcraft - Token - Activation - red - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 49.5,
+        "LongSide": 27.375
+      },
+      {
+        "Id": "Starcraft - Token - Activation - red - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 50.75,
+        "LongSide": 27.375
+      },
+      {
+        "Id": "Starcraft - Token - Activation - red - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 52,
+        "LongSide": 27.375
+      },
+      {
+        "Id": "Starcraft - Token - Activation - red - assault",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 47,
+        "LongSide": 26.125
+      },
+      {
+        "Id": "Starcraft - Token - Activation - red - assault",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 48.25,
+        "LongSide": 26.125
+      },
+      {
+        "Id": "Starcraft - Token - Activation - red - assault",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 49.5,
+        "LongSide": 26.125
+      },
+      {
+        "Id": "Starcraft - Token - Activation - red - assault",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 50.75,
+        "LongSide": 26.125
+      },
+      {
+        "Id": "Starcraft - Token - Activation - red - assault",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 52,
+        "LongSide": 26.125
+      },
+      {
+        "Id": "Starcraft - Token - Terran - blue",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 47,
+        "LongSide": 24.875
+      },
+      {
+        "Id": "Starcraft - Token - Terran - white",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 47,
+        "LongSide": 23.625
+      },
+      {
+        "Id": "Starcraft - Token - Protoss - yellow",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 47,
+        "LongSide": 22.375
+      },
+      {
+        "Id": "Starcraft - Token - Protoss - white",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 47,
+        "LongSide": 21.125
+      },
+      {
+        "Id": "Starcraft - Token - Zerg - purple",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 47,
+        "LongSide": 19.875
+      },
+      {
+        "Id": "Starcraft - Token - Zerg - white",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 47,
+        "LongSide": 18.625
+      },
+      {
+        "Id": "Starcraft - Token - Buff",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 47,
+        "LongSide": 17.375
+      },
+      {
+        "Id": "Starcraft - Token - Debuff",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 47,
+        "LongSide": 16.125
+      },
+      {
+        "Id": "Starcraft - Token - Stim",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 47,
+        "LongSide": 14.875
+      },
+      {
+        "Id": "Starcraft - Token - Burrowed",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 47,
+        "LongSide": 13.625
+      },
+      {
+        "Id": "Starcraft - Token - Hidden",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 47,
+        "LongSide": 12.375
+      },
+      {
+        "Id": "Starcraft - Token - Siege Status",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 47,
+        "LongSide": 11.125
+      },
+      {
+        "Id": "Starcraft - Token - Bile Bomb",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 47,
+        "LongSide": 9.875
+      },
+      {
+        "Id": "Starcraft - Token - Creep Tumor",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 47,
+        "LongSide": 8.625
+      },
+      {
+        "Id": "Starcraft - Token - Corrosive Bile",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 47,
+        "LongSide": 7.375
+      },
+      {
+        "Id": "Starcraft - Token - Shield",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 47,
+        "LongSide": 6.125
       }
     ]
   },
@@ -1971,6 +4275,294 @@
         "Rotation": 90,
         "ShortSide": 4.636439484799499,
         "LongSide": 18
+      },
+      {
+        "Id": "Starcraft - Token - Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 47,
+        "LongSide": 29.875
+      },
+      {
+        "Id": "Starcraft - Token - Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 48.25,
+        "LongSide": 29.875
+      },
+      {
+        "Id": "Starcraft - Token - Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 49.5,
+        "LongSide": 29.875
+      },
+      {
+        "Id": "Starcraft - Token - Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 50.75,
+        "LongSide": 29.875
+      },
+      {
+        "Id": "Starcraft - Token - Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 52,
+        "LongSide": 29.875
+      },
+      {
+        "Id": "Starcraft - Token - Activation - blue - assault",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 47,
+        "LongSide": 28.625
+      },
+      {
+        "Id": "Starcraft - Token - Activation - blue - assault",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 48.25,
+        "LongSide": 28.625
+      },
+      {
+        "Id": "Starcraft - Token - Activation - blue - assault",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 49.5,
+        "LongSide": 28.625
+      },
+      {
+        "Id": "Starcraft - Token - Activation - blue - assault",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 50.75,
+        "LongSide": 28.625
+      },
+      {
+        "Id": "Starcraft - Token - Activation - blue - assault",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 52,
+        "LongSide": 28.625
+      },
+      {
+        "Id": "Starcraft - Token - Activation - red - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 47,
+        "LongSide": 27.375
+      },
+      {
+        "Id": "Starcraft - Token - Activation - red - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 48.25,
+        "LongSide": 27.375
+      },
+      {
+        "Id": "Starcraft - Token - Activation - red - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 49.5,
+        "LongSide": 27.375
+      },
+      {
+        "Id": "Starcraft - Token - Activation - red - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 50.75,
+        "LongSide": 27.375
+      },
+      {
+        "Id": "Starcraft - Token - Activation - red - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 52,
+        "LongSide": 27.375
+      },
+      {
+        "Id": "Starcraft - Token - Activation - red - assault",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 47,
+        "LongSide": 26.125
+      },
+      {
+        "Id": "Starcraft - Token - Activation - red - assault",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 48.25,
+        "LongSide": 26.125
+      },
+      {
+        "Id": "Starcraft - Token - Activation - red - assault",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 49.5,
+        "LongSide": 26.125
+      },
+      {
+        "Id": "Starcraft - Token - Activation - red - assault",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 50.75,
+        "LongSide": 26.125
+      },
+      {
+        "Id": "Starcraft - Token - Activation - red - assault",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 52,
+        "LongSide": 26.125
+      },
+      {
+        "Id": "Starcraft - Token - Terran - blue",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 47,
+        "LongSide": 24.875
+      },
+      {
+        "Id": "Starcraft - Token - Terran - white",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 47,
+        "LongSide": 23.625
+      },
+      {
+        "Id": "Starcraft - Token - Protoss - yellow",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 47,
+        "LongSide": 22.375
+      },
+      {
+        "Id": "Starcraft - Token - Protoss - white",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 47,
+        "LongSide": 21.125
+      },
+      {
+        "Id": "Starcraft - Token - Zerg - purple",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 47,
+        "LongSide": 19.875
+      },
+      {
+        "Id": "Starcraft - Token - Zerg - white",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 47,
+        "LongSide": 18.625
+      },
+      {
+        "Id": "Starcraft - Token - Buff",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 47,
+        "LongSide": 17.375
+      },
+      {
+        "Id": "Starcraft - Token - Debuff",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 47,
+        "LongSide": 16.125
+      },
+      {
+        "Id": "Starcraft - Token - Stim",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 47,
+        "LongSide": 14.875
+      },
+      {
+        "Id": "Starcraft - Token - Burrowed",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 47,
+        "LongSide": 13.625
+      },
+      {
+        "Id": "Starcraft - Token - Hidden",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 47,
+        "LongSide": 12.375
+      },
+      {
+        "Id": "Starcraft - Token - Siege Status",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 47,
+        "LongSide": 11.125
+      },
+      {
+        "Id": "Starcraft - Token - Bile Bomb",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 47,
+        "LongSide": 9.875
+      },
+      {
+        "Id": "Starcraft - Token - Creep Tumor",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 47,
+        "LongSide": 8.625
+      },
+      {
+        "Id": "Starcraft - Token - Corrosive Bile",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 47,
+        "LongSide": 7.375
+      },
+      {
+        "Id": "Starcraft - Token - Shield",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 47,
+        "LongSide": 6.125
       }
     ]
   }

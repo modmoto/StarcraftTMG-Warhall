@@ -40,8 +40,10 @@ test('menu migration preserves all map and scenario helper references without du
   assert.equal(ids.size, 34);
   assert.equal(terrains.filter(t => t.Id.startsWith('Starcraft - Terrain - ')).length, 34);
   assert.equal(terrains.filter(t => /Starcraft - Terrain - Deployment - /.test(t.Id)).length, 14);
+  const tokenIds = new Set((await json('tokens')).map(token => token.Id));
   for (const map of await json('maps'))
-    for (const item of map.Items) assert.ok(ids.has(item.Id), `${map.Id}/${item.Id}`);
+    for (const item of map.Items)
+      assert.ok((item.Type === 'Token' ? tokenIds : ids).has(item.Id), `${map.Id}/${item.Id}`);
   const tokens = await json('tokens');
   const tokenNames = new Set(tokens.map(t => t.Name));
   const config = await json('gameconfig');

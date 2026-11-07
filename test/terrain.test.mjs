@@ -11,15 +11,20 @@ test('all nine maps use the reviewed PDF centers, rotations and calibrated footp
   const models = await read('../terrain-models.json');
   const terrains = await read('../Starcraft-test/terrains.json');
   assert.deepEqual(
-    maps.map(map => map.Items.length),
+    maps.map(map => map.Items.filter(item => item.Type !== 'Token').length),
     [31, 31, 31, 31, 33, 33, 16, 16, 17],
   );
   assert.equal(calibration.gridInches, 6);
   for (const [i, map] of maps.entries()) {
-    assert.deepEqual(map.Items.at(-1), scoreboardPlacement(source.maps[i]));
+    assert.deepEqual(
+      map.Items.filter(item => item.Type !== 'Token').at(-1),
+      scoreboardPlacement(source.maps[i]),
+    );
   }
   for (const [i, map] of maps.entries())
-    for (const [j, item] of map.Items.slice(0, -1).entries()) {
+    for (const [j, item] of map.Items.filter(item => item.Type !== 'Token')
+      .slice(0, -1)
+      .entries()) {
       const original = source.maps[i].items[j];
       const placement = calibration.maps[String(i + 1)][original.ttsGuid];
       const asset = source.assets.find(

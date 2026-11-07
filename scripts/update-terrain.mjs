@@ -1,3 +1,4 @@
+import { tokenTrayPlacements } from '../src/tokens/tray.mjs';
 import { modelAssetBaseUrl } from '../src/urls.mjs';
 import assert from 'node:assert/strict';
 import { builtinTerrains } from '../src/terrain/native.mjs';
@@ -194,6 +195,7 @@ const maps = source.maps.map(map => ({
       };
     }),
     scoreboardPlacement(map),
+    ...tokenTrayPlacements(map),
   ],
 }));
 const target = defaultDataDirectory;

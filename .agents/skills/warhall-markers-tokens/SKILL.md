@@ -21,3 +21,7 @@ Use the definitions and SVG artwork under src/tokens and token-artwork. Existing
 Use src/deployments/marker-assets.mjs and docs/mission-markers.md. Keep the five current objectives as Terrain with exact skin-name IDs and canonical sc_mission_* publication bindings. Deployments reference those names in DeploymentTerrains with IsToken=false. Preserve placement and color assignments. The current unnumbered design uses a decorated 32 mm centre and an open control outline.
 
 Build with models:catalogue, inspect the previews, push the assets, and publish changed skins with kind marker. Synchronize menu bindings and verify a fresh deployment in Test. Check the terrain picker and ZIP roundtrip separately from battlefield placement. See docs/wds-editor-compatibility.md for omitted helper records and rounded dimensions. Merge intended edits into the source generators after reviewing the ZIP diff.
+
+## Map loading token tray
+
+The map generator places the custom gameplay token inventory opposite the scoreboard through src/tokens/tray.mjs. Each definition gets its own row with 1.25-inch spacing. Activation definitions get five copies each, including both colors and both phases. Other definitions get one copy. Preserve exact shared token names and Type Token so the client creates tokens. This tray loads with the map, alongside the scoreboard. Loading only a deployment retains the existing tray.
