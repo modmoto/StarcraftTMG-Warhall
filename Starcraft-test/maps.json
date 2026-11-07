@@ -257,544 +257,416 @@
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 52,
-        "LongSide": -21
+        "ShortSide": 56,
+        "LongSide": 2
       },
       {
         "Id": "Activation - blue - movement",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 50.75,
-        "LongSide": -21
+        "ShortSide": 57.25,
+        "LongSide": 2
       },
       {
         "Id": "Activation - blue - movement",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 49.5,
-        "LongSide": -21
+        "ShortSide": 58.5,
+        "LongSide": 2
       },
       {
         "Id": "Activation - blue - movement",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 48.25,
-        "LongSide": -21
+        "ShortSide": 59.75,
+        "LongSide": 2
       },
       {
         "Id": "Activation - blue - movement",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 47,
-        "LongSide": -21
+        "ShortSide": 61,
+        "LongSide": 2
       },
       {
         "Id": "Activation - blue - assault",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 52,
-        "LongSide": -19.75
+        "ShortSide": 56,
+        "LongSide": 3.25
       },
       {
         "Id": "Activation - blue - assault",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 50.75,
-        "LongSide": -19.75
+        "ShortSide": 57.25,
+        "LongSide": 3.25
       },
       {
         "Id": "Activation - blue - assault",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 49.5,
-        "LongSide": -19.75
+        "ShortSide": 58.5,
+        "LongSide": 3.25
       },
       {
         "Id": "Activation - blue - assault",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 48.25,
-        "LongSide": -19.75
+        "ShortSide": 59.75,
+        "LongSide": 3.25
       },
       {
         "Id": "Activation - blue - assault",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 47,
-        "LongSide": -19.75
-      },
-      {
-        "Id": "Buff",
-        "Type": "Token",
-        "Quadrant": 1,
-        "Rotation": 0,
-        "ShortSide": 52,
-        "LongSide": -17.25
+        "ShortSide": 61,
+        "LongSide": 3.25
       },
       {
         "Id": "Debuff",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 50.75,
-        "LongSide": -17.25
+        "ShortSide": 56,
+        "LongSide": 5.75
+      },
+      {
+        "Id": "Buff",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 56,
+        "LongSide": 7
       },
       {
         "Id": "Terran - blue",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 52,
-        "LongSide": -14.75
+        "ShortSide": 58.5,
+        "LongSide": 5.75
       },
       {
         "Id": "Terran - white",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 50.75,
-        "LongSide": -14.75
+        "ShortSide": 59.75,
+        "LongSide": 5.75
       },
       {
         "Id": "Protoss - yellow",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 49.5,
-        "LongSide": -14.75
+        "ShortSide": 61,
+        "LongSide": 5.75
       },
       {
         "Id": "Protoss - white",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 52,
-        "LongSide": -13.5
+        "ShortSide": 58.5,
+        "LongSide": 7
       },
       {
         "Id": "Zerg - purple",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 50.75,
-        "LongSide": -13.5
+        "ShortSide": 59.75,
+        "LongSide": 7
       },
       {
         "Id": "Zerg - white",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 49.5,
-        "LongSide": -13.5
+        "ShortSide": 61,
+        "LongSide": 7
       },
       {
         "Id": "Stim",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 52,
-        "LongSide": -11
-      },
-      {
-        "Id": "Stim",
-        "Type": "Token",
-        "Quadrant": 1,
-        "Rotation": 0,
-        "ShortSide": 50.75,
-        "LongSide": -11
+        "ShortSide": 56,
+        "LongSide": 9.5
       },
       {
         "Id": "Burrowed",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 52,
-        "LongSide": -9.75
-      },
-      {
-        "Id": "Burrowed",
-        "Type": "Token",
-        "Quadrant": 1,
-        "Rotation": 0,
-        "ShortSide": 50.75,
-        "LongSide": -9.75
+        "ShortSide": 57.25,
+        "LongSide": 9.5
       },
       {
         "Id": "Hidden",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 52,
-        "LongSide": -8.5
-      },
-      {
-        "Id": "Hidden",
-        "Type": "Token",
-        "Quadrant": 1,
-        "Rotation": 0,
-        "ShortSide": 50.75,
-        "LongSide": -8.5
+        "ShortSide": 58.5,
+        "LongSide": 9.5
       },
       {
         "Id": "Siege Status",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 52,
-        "LongSide": -7.25
-      },
-      {
-        "Id": "Siege Status",
-        "Type": "Token",
-        "Quadrant": 1,
-        "Rotation": 0,
-        "ShortSide": 50.75,
-        "LongSide": -7.25
+        "ShortSide": 59.75,
+        "LongSide": 9.5
       },
       {
         "Id": "Bile Bomb",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 52,
-        "LongSide": -6
-      },
-      {
-        "Id": "Bile Bomb",
-        "Type": "Token",
-        "Quadrant": 1,
-        "Rotation": 0,
-        "ShortSide": 50.75,
-        "LongSide": -6
+        "ShortSide": 56,
+        "LongSide": 10.75
       },
       {
         "Id": "Creep Tumor",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 52,
-        "LongSide": -4.75
-      },
-      {
-        "Id": "Creep Tumor",
-        "Type": "Token",
-        "Quadrant": 1,
-        "Rotation": 0,
-        "ShortSide": 50.75,
-        "LongSide": -4.75
+        "ShortSide": 57.25,
+        "LongSide": 10.75
       },
       {
         "Id": "Corrosive Bile",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 52,
-        "LongSide": -3.5
-      },
-      {
-        "Id": "Corrosive Bile",
-        "Type": "Token",
-        "Quadrant": 1,
-        "Rotation": 0,
-        "ShortSide": 50.75,
-        "LongSide": -3.5
+        "ShortSide": 58.5,
+        "LongSide": 10.75
       },
       {
         "Id": "Shield",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 52,
-        "LongSide": -2.25
-      },
-      {
-        "Id": "Shield",
-        "Type": "Token",
-        "Quadrant": 1,
-        "Rotation": 0,
-        "ShortSide": 50.75,
-        "LongSide": -2.25
+        "ShortSide": 59.75,
+        "LongSide": 10.75
       },
       {
         "Id": "Activation - red - movement",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 2,
-        "LongSide": 57
+        "ShortSide": 56,
+        "LongSide": 34
       },
       {
         "Id": "Activation - red - movement",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 3.25,
-        "LongSide": 57
+        "ShortSide": 57.25,
+        "LongSide": 34
       },
       {
         "Id": "Activation - red - movement",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 4.5,
-        "LongSide": 57
+        "ShortSide": 58.5,
+        "LongSide": 34
       },
       {
         "Id": "Activation - red - movement",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 5.75,
-        "LongSide": 57
+        "ShortSide": 59.75,
+        "LongSide": 34
       },
       {
         "Id": "Activation - red - movement",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 7,
-        "LongSide": 57
+        "ShortSide": 61,
+        "LongSide": 34
       },
       {
         "Id": "Activation - red - assault",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 2,
-        "LongSide": 55.75
+        "ShortSide": 56,
+        "LongSide": 32.75
       },
       {
         "Id": "Activation - red - assault",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 3.25,
-        "LongSide": 55.75
+        "ShortSide": 57.25,
+        "LongSide": 32.75
       },
       {
         "Id": "Activation - red - assault",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 4.5,
-        "LongSide": 55.75
+        "ShortSide": 58.5,
+        "LongSide": 32.75
       },
       {
         "Id": "Activation - red - assault",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 5.75,
-        "LongSide": 55.75
+        "ShortSide": 59.75,
+        "LongSide": 32.75
       },
       {
         "Id": "Activation - red - assault",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 7,
-        "LongSide": 55.75
-      },
-      {
-        "Id": "Buff",
-        "Type": "Token",
-        "Quadrant": 1,
-        "Rotation": 180,
-        "ShortSide": 2,
-        "LongSide": 53.25
+        "ShortSide": 61,
+        "LongSide": 32.75
       },
       {
         "Id": "Debuff",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 3.25,
-        "LongSide": 53.25
+        "ShortSide": 56,
+        "LongSide": 30.25
+      },
+      {
+        "Id": "Buff",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 56,
+        "LongSide": 29
       },
       {
         "Id": "Terran - blue",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 2,
-        "LongSide": 50.75
+        "ShortSide": 58.5,
+        "LongSide": 30.25
       },
       {
         "Id": "Terran - white",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 3.25,
-        "LongSide": 50.75
+        "ShortSide": 59.75,
+        "LongSide": 30.25
       },
       {
         "Id": "Protoss - yellow",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 4.5,
-        "LongSide": 50.75
+        "ShortSide": 61,
+        "LongSide": 30.25
       },
       {
         "Id": "Protoss - white",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 2,
-        "LongSide": 49.5
+        "ShortSide": 58.5,
+        "LongSide": 29
       },
       {
         "Id": "Zerg - purple",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 3.25,
-        "LongSide": 49.5
+        "ShortSide": 59.75,
+        "LongSide": 29
       },
       {
         "Id": "Zerg - white",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 4.5,
-        "LongSide": 49.5
+        "ShortSide": 61,
+        "LongSide": 29
       },
       {
         "Id": "Stim",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 2,
-        "LongSide": 47
-      },
-      {
-        "Id": "Stim",
-        "Type": "Token",
-        "Quadrant": 1,
-        "Rotation": 180,
-        "ShortSide": 3.25,
-        "LongSide": 47
+        "ShortSide": 56,
+        "LongSide": 26.5
       },
       {
         "Id": "Burrowed",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 2,
-        "LongSide": 45.75
-      },
-      {
-        "Id": "Burrowed",
-        "Type": "Token",
-        "Quadrant": 1,
-        "Rotation": 180,
-        "ShortSide": 3.25,
-        "LongSide": 45.75
+        "ShortSide": 57.25,
+        "LongSide": 26.5
       },
       {
         "Id": "Hidden",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 2,
-        "LongSide": 44.5
-      },
-      {
-        "Id": "Hidden",
-        "Type": "Token",
-        "Quadrant": 1,
-        "Rotation": 180,
-        "ShortSide": 3.25,
-        "LongSide": 44.5
+        "ShortSide": 58.5,
+        "LongSide": 26.5
       },
       {
         "Id": "Siege Status",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 2,
-        "LongSide": 43.25
-      },
-      {
-        "Id": "Siege Status",
-        "Type": "Token",
-        "Quadrant": 1,
-        "Rotation": 180,
-        "ShortSide": 3.25,
-        "LongSide": 43.25
+        "ShortSide": 59.75,
+        "LongSide": 26.5
       },
       {
         "Id": "Bile Bomb",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 2,
-        "LongSide": 42
-      },
-      {
-        "Id": "Bile Bomb",
-        "Type": "Token",
-        "Quadrant": 1,
-        "Rotation": 180,
-        "ShortSide": 3.25,
-        "LongSide": 42
+        "ShortSide": 56,
+        "LongSide": 25.25
       },
       {
         "Id": "Creep Tumor",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 2,
-        "LongSide": 40.75
-      },
-      {
-        "Id": "Creep Tumor",
-        "Type": "Token",
-        "Quadrant": 1,
-        "Rotation": 180,
-        "ShortSide": 3.25,
-        "LongSide": 40.75
+        "ShortSide": 57.25,
+        "LongSide": 25.25
       },
       {
         "Id": "Corrosive Bile",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 2,
-        "LongSide": 39.5
-      },
-      {
-        "Id": "Corrosive Bile",
-        "Type": "Token",
-        "Quadrant": 1,
-        "Rotation": 180,
-        "ShortSide": 3.25,
-        "LongSide": 39.5
+        "ShortSide": 58.5,
+        "LongSide": 25.25
       },
       {
         "Id": "Shield",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 2,
-        "LongSide": 38.25
-      },
-      {
-        "Id": "Shield",
-        "Type": "Token",
-        "Quadrant": 1,
-        "Rotation": 180,
-        "ShortSide": 3.25,
-        "LongSide": 38.25
+        "ShortSide": 59.75,
+        "LongSide": 25.25
       }
     ]
   },
@@ -1056,544 +928,416 @@
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 52,
-        "LongSide": -21
+        "ShortSide": 56,
+        "LongSide": 2
       },
       {
         "Id": "Activation - blue - movement",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 50.75,
-        "LongSide": -21
+        "ShortSide": 57.25,
+        "LongSide": 2
       },
       {
         "Id": "Activation - blue - movement",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 49.5,
-        "LongSide": -21
+        "ShortSide": 58.5,
+        "LongSide": 2
       },
       {
         "Id": "Activation - blue - movement",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 48.25,
-        "LongSide": -21
+        "ShortSide": 59.75,
+        "LongSide": 2
       },
       {
         "Id": "Activation - blue - movement",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 47,
-        "LongSide": -21
+        "ShortSide": 61,
+        "LongSide": 2
       },
       {
         "Id": "Activation - blue - assault",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 52,
-        "LongSide": -19.75
+        "ShortSide": 56,
+        "LongSide": 3.25
       },
       {
         "Id": "Activation - blue - assault",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 50.75,
-        "LongSide": -19.75
+        "ShortSide": 57.25,
+        "LongSide": 3.25
       },
       {
         "Id": "Activation - blue - assault",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 49.5,
-        "LongSide": -19.75
+        "ShortSide": 58.5,
+        "LongSide": 3.25
       },
       {
         "Id": "Activation - blue - assault",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 48.25,
-        "LongSide": -19.75
+        "ShortSide": 59.75,
+        "LongSide": 3.25
       },
       {
         "Id": "Activation - blue - assault",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 47,
-        "LongSide": -19.75
-      },
-      {
-        "Id": "Buff",
-        "Type": "Token",
-        "Quadrant": 1,
-        "Rotation": 0,
-        "ShortSide": 52,
-        "LongSide": -17.25
+        "ShortSide": 61,
+        "LongSide": 3.25
       },
       {
         "Id": "Debuff",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 50.75,
-        "LongSide": -17.25
+        "ShortSide": 56,
+        "LongSide": 5.75
+      },
+      {
+        "Id": "Buff",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 56,
+        "LongSide": 7
       },
       {
         "Id": "Terran - blue",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 52,
-        "LongSide": -14.75
+        "ShortSide": 58.5,
+        "LongSide": 5.75
       },
       {
         "Id": "Terran - white",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 50.75,
-        "LongSide": -14.75
+        "ShortSide": 59.75,
+        "LongSide": 5.75
       },
       {
         "Id": "Protoss - yellow",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 49.5,
-        "LongSide": -14.75
+        "ShortSide": 61,
+        "LongSide": 5.75
       },
       {
         "Id": "Protoss - white",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 52,
-        "LongSide": -13.5
+        "ShortSide": 58.5,
+        "LongSide": 7
       },
       {
         "Id": "Zerg - purple",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 50.75,
-        "LongSide": -13.5
+        "ShortSide": 59.75,
+        "LongSide": 7
       },
       {
         "Id": "Zerg - white",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 49.5,
-        "LongSide": -13.5
+        "ShortSide": 61,
+        "LongSide": 7
       },
       {
         "Id": "Stim",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 52,
-        "LongSide": -11
-      },
-      {
-        "Id": "Stim",
-        "Type": "Token",
-        "Quadrant": 1,
-        "Rotation": 0,
-        "ShortSide": 50.75,
-        "LongSide": -11
+        "ShortSide": 56,
+        "LongSide": 9.5
       },
       {
         "Id": "Burrowed",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 52,
-        "LongSide": -9.75
-      },
-      {
-        "Id": "Burrowed",
-        "Type": "Token",
-        "Quadrant": 1,
-        "Rotation": 0,
-        "ShortSide": 50.75,
-        "LongSide": -9.75
+        "ShortSide": 57.25,
+        "LongSide": 9.5
       },
       {
         "Id": "Hidden",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 52,
-        "LongSide": -8.5
-      },
-      {
-        "Id": "Hidden",
-        "Type": "Token",
-        "Quadrant": 1,
-        "Rotation": 0,
-        "ShortSide": 50.75,
-        "LongSide": -8.5
+        "ShortSide": 58.5,
+        "LongSide": 9.5
       },
       {
         "Id": "Siege Status",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 52,
-        "LongSide": -7.25
-      },
-      {
-        "Id": "Siege Status",
-        "Type": "Token",
-        "Quadrant": 1,
-        "Rotation": 0,
-        "ShortSide": 50.75,
-        "LongSide": -7.25
+        "ShortSide": 59.75,
+        "LongSide": 9.5
       },
       {
         "Id": "Bile Bomb",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 52,
-        "LongSide": -6
-      },
-      {
-        "Id": "Bile Bomb",
-        "Type": "Token",
-        "Quadrant": 1,
-        "Rotation": 0,
-        "ShortSide": 50.75,
-        "LongSide": -6
+        "ShortSide": 56,
+        "LongSide": 10.75
       },
       {
         "Id": "Creep Tumor",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 52,
-        "LongSide": -4.75
-      },
-      {
-        "Id": "Creep Tumor",
-        "Type": "Token",
-        "Quadrant": 1,
-        "Rotation": 0,
-        "ShortSide": 50.75,
-        "LongSide": -4.75
+        "ShortSide": 57.25,
+        "LongSide": 10.75
       },
       {
         "Id": "Corrosive Bile",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 52,
-        "LongSide": -3.5
-      },
-      {
-        "Id": "Corrosive Bile",
-        "Type": "Token",
-        "Quadrant": 1,
-        "Rotation": 0,
-        "ShortSide": 50.75,
-        "LongSide": -3.5
+        "ShortSide": 58.5,
+        "LongSide": 10.75
       },
       {
         "Id": "Shield",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 52,
-        "LongSide": -2.25
-      },
-      {
-        "Id": "Shield",
-        "Type": "Token",
-        "Quadrant": 1,
-        "Rotation": 0,
-        "ShortSide": 50.75,
-        "LongSide": -2.25
+        "ShortSide": 59.75,
+        "LongSide": 10.75
       },
       {
         "Id": "Activation - red - movement",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 2,
-        "LongSide": 57
+        "ShortSide": 56,
+        "LongSide": 34
       },
       {
         "Id": "Activation - red - movement",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 3.25,
-        "LongSide": 57
+        "ShortSide": 57.25,
+        "LongSide": 34
       },
       {
         "Id": "Activation - red - movement",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 4.5,
-        "LongSide": 57
+        "ShortSide": 58.5,
+        "LongSide": 34
       },
       {
         "Id": "Activation - red - movement",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 5.75,
-        "LongSide": 57
+        "ShortSide": 59.75,
+        "LongSide": 34
       },
       {
         "Id": "Activation - red - movement",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 7,
-        "LongSide": 57
+        "ShortSide": 61,
+        "LongSide": 34
       },
       {
         "Id": "Activation - red - assault",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 2,
-        "LongSide": 55.75
+        "ShortSide": 56,
+        "LongSide": 32.75
       },
       {
         "Id": "Activation - red - assault",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 3.25,
-        "LongSide": 55.75
+        "ShortSide": 57.25,
+        "LongSide": 32.75
       },
       {
         "Id": "Activation - red - assault",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 4.5,
-        "LongSide": 55.75
+        "ShortSide": 58.5,
+        "LongSide": 32.75
       },
       {
         "Id": "Activation - red - assault",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 5.75,
-        "LongSide": 55.75
+        "ShortSide": 59.75,
+        "LongSide": 32.75
       },
       {
         "Id": "Activation - red - assault",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 7,
-        "LongSide": 55.75
-      },
-      {
-        "Id": "Buff",
-        "Type": "Token",
-        "Quadrant": 1,
-        "Rotation": 180,
-        "ShortSide": 2,
-        "LongSide": 53.25
+        "ShortSide": 61,
+        "LongSide": 32.75
       },
       {
         "Id": "Debuff",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 3.25,
-        "LongSide": 53.25
+        "ShortSide": 56,
+        "LongSide": 30.25
+      },
+      {
+        "Id": "Buff",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 56,
+        "LongSide": 29
       },
       {
         "Id": "Terran - blue",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 2,
-        "LongSide": 50.75
+        "ShortSide": 58.5,
+        "LongSide": 30.25
       },
       {
         "Id": "Terran - white",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 3.25,
-        "LongSide": 50.75
+        "ShortSide": 59.75,
+        "LongSide": 30.25
       },
       {
         "Id": "Protoss - yellow",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 4.5,
-        "LongSide": 50.75
+        "ShortSide": 61,
+        "LongSide": 30.25
       },
       {
         "Id": "Protoss - white",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 2,
-        "LongSide": 49.5
+        "ShortSide": 58.5,
+        "LongSide": 29
       },
       {
         "Id": "Zerg - purple",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 3.25,
-        "LongSide": 49.5
+        "ShortSide": 59.75,
+        "LongSide": 29
       },
       {
         "Id": "Zerg - white",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 4.5,
-        "LongSide": 49.5
+        "ShortSide": 61,
+        "LongSide": 29
       },
       {
         "Id": "Stim",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 2,
-        "LongSide": 47
-      },
-      {
-        "Id": "Stim",
-        "Type": "Token",
-        "Quadrant": 1,
-        "Rotation": 180,
-        "ShortSide": 3.25,
-        "LongSide": 47
+        "ShortSide": 56,
+        "LongSide": 26.5
       },
       {
         "Id": "Burrowed",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 2,
-        "LongSide": 45.75
-      },
-      {
-        "Id": "Burrowed",
-        "Type": "Token",
-        "Quadrant": 1,
-        "Rotation": 180,
-        "ShortSide": 3.25,
-        "LongSide": 45.75
+        "ShortSide": 57.25,
+        "LongSide": 26.5
       },
       {
         "Id": "Hidden",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 2,
-        "LongSide": 44.5
-      },
-      {
-        "Id": "Hidden",
-        "Type": "Token",
-        "Quadrant": 1,
-        "Rotation": 180,
-        "ShortSide": 3.25,
-        "LongSide": 44.5
+        "ShortSide": 58.5,
+        "LongSide": 26.5
       },
       {
         "Id": "Siege Status",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 2,
-        "LongSide": 43.25
-      },
-      {
-        "Id": "Siege Status",
-        "Type": "Token",
-        "Quadrant": 1,
-        "Rotation": 180,
-        "ShortSide": 3.25,
-        "LongSide": 43.25
+        "ShortSide": 59.75,
+        "LongSide": 26.5
       },
       {
         "Id": "Bile Bomb",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 2,
-        "LongSide": 42
-      },
-      {
-        "Id": "Bile Bomb",
-        "Type": "Token",
-        "Quadrant": 1,
-        "Rotation": 180,
-        "ShortSide": 3.25,
-        "LongSide": 42
+        "ShortSide": 56,
+        "LongSide": 25.25
       },
       {
         "Id": "Creep Tumor",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 2,
-        "LongSide": 40.75
-      },
-      {
-        "Id": "Creep Tumor",
-        "Type": "Token",
-        "Quadrant": 1,
-        "Rotation": 180,
-        "ShortSide": 3.25,
-        "LongSide": 40.75
+        "ShortSide": 57.25,
+        "LongSide": 25.25
       },
       {
         "Id": "Corrosive Bile",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 2,
-        "LongSide": 39.5
-      },
-      {
-        "Id": "Corrosive Bile",
-        "Type": "Token",
-        "Quadrant": 1,
-        "Rotation": 180,
-        "ShortSide": 3.25,
-        "LongSide": 39.5
+        "ShortSide": 58.5,
+        "LongSide": 25.25
       },
       {
         "Id": "Shield",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 2,
-        "LongSide": 38.25
-      },
-      {
-        "Id": "Shield",
-        "Type": "Token",
-        "Quadrant": 1,
-        "Rotation": 180,
-        "ShortSide": 3.25,
-        "LongSide": 38.25
+        "ShortSide": 59.75,
+        "LongSide": 25.25
       }
     ]
   },
@@ -1855,544 +1599,416 @@
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 52,
-        "LongSide": -21
+        "ShortSide": 56,
+        "LongSide": 2
       },
       {
         "Id": "Activation - blue - movement",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 50.75,
-        "LongSide": -21
+        "ShortSide": 57.25,
+        "LongSide": 2
       },
       {
         "Id": "Activation - blue - movement",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 49.5,
-        "LongSide": -21
+        "ShortSide": 58.5,
+        "LongSide": 2
       },
       {
         "Id": "Activation - blue - movement",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 48.25,
-        "LongSide": -21
+        "ShortSide": 59.75,
+        "LongSide": 2
       },
       {
         "Id": "Activation - blue - movement",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 47,
-        "LongSide": -21
+        "ShortSide": 61,
+        "LongSide": 2
       },
       {
         "Id": "Activation - blue - assault",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 52,
-        "LongSide": -19.75
+        "ShortSide": 56,
+        "LongSide": 3.25
       },
       {
         "Id": "Activation - blue - assault",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 50.75,
-        "LongSide": -19.75
+        "ShortSide": 57.25,
+        "LongSide": 3.25
       },
       {
         "Id": "Activation - blue - assault",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 49.5,
-        "LongSide": -19.75
+        "ShortSide": 58.5,
+        "LongSide": 3.25
       },
       {
         "Id": "Activation - blue - assault",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 48.25,
-        "LongSide": -19.75
+        "ShortSide": 59.75,
+        "LongSide": 3.25
       },
       {
         "Id": "Activation - blue - assault",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 47,
-        "LongSide": -19.75
-      },
-      {
-        "Id": "Buff",
-        "Type": "Token",
-        "Quadrant": 1,
-        "Rotation": 0,
-        "ShortSide": 52,
-        "LongSide": -17.25
+        "ShortSide": 61,
+        "LongSide": 3.25
       },
       {
         "Id": "Debuff",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 50.75,
-        "LongSide": -17.25
+        "ShortSide": 56,
+        "LongSide": 5.75
+      },
+      {
+        "Id": "Buff",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 56,
+        "LongSide": 7
       },
       {
         "Id": "Terran - blue",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 52,
-        "LongSide": -14.75
+        "ShortSide": 58.5,
+        "LongSide": 5.75
       },
       {
         "Id": "Terran - white",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 50.75,
-        "LongSide": -14.75
+        "ShortSide": 59.75,
+        "LongSide": 5.75
       },
       {
         "Id": "Protoss - yellow",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 49.5,
-        "LongSide": -14.75
+        "ShortSide": 61,
+        "LongSide": 5.75
       },
       {
         "Id": "Protoss - white",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 52,
-        "LongSide": -13.5
+        "ShortSide": 58.5,
+        "LongSide": 7
       },
       {
         "Id": "Zerg - purple",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 50.75,
-        "LongSide": -13.5
+        "ShortSide": 59.75,
+        "LongSide": 7
       },
       {
         "Id": "Zerg - white",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 49.5,
-        "LongSide": -13.5
+        "ShortSide": 61,
+        "LongSide": 7
       },
       {
         "Id": "Stim",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 52,
-        "LongSide": -11
-      },
-      {
-        "Id": "Stim",
-        "Type": "Token",
-        "Quadrant": 1,
-        "Rotation": 0,
-        "ShortSide": 50.75,
-        "LongSide": -11
+        "ShortSide": 56,
+        "LongSide": 9.5
       },
       {
         "Id": "Burrowed",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 52,
-        "LongSide": -9.75
-      },
-      {
-        "Id": "Burrowed",
-        "Type": "Token",
-        "Quadrant": 1,
-        "Rotation": 0,
-        "ShortSide": 50.75,
-        "LongSide": -9.75
+        "ShortSide": 57.25,
+        "LongSide": 9.5
       },
       {
         "Id": "Hidden",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 52,
-        "LongSide": -8.5
-      },
-      {
-        "Id": "Hidden",
-        "Type": "Token",
-        "Quadrant": 1,
-        "Rotation": 0,
-        "ShortSide": 50.75,
-        "LongSide": -8.5
+        "ShortSide": 58.5,
+        "LongSide": 9.5
       },
       {
         "Id": "Siege Status",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 52,
-        "LongSide": -7.25
-      },
-      {
-        "Id": "Siege Status",
-        "Type": "Token",
-        "Quadrant": 1,
-        "Rotation": 0,
-        "ShortSide": 50.75,
-        "LongSide": -7.25
+        "ShortSide": 59.75,
+        "LongSide": 9.5
       },
       {
         "Id": "Bile Bomb",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 52,
-        "LongSide": -6
-      },
-      {
-        "Id": "Bile Bomb",
-        "Type": "Token",
-        "Quadrant": 1,
-        "Rotation": 0,
-        "ShortSide": 50.75,
-        "LongSide": -6
+        "ShortSide": 56,
+        "LongSide": 10.75
       },
       {
         "Id": "Creep Tumor",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 52,
-        "LongSide": -4.75
-      },
-      {
-        "Id": "Creep Tumor",
-        "Type": "Token",
-        "Quadrant": 1,
-        "Rotation": 0,
-        "ShortSide": 50.75,
-        "LongSide": -4.75
+        "ShortSide": 57.25,
+        "LongSide": 10.75
       },
       {
         "Id": "Corrosive Bile",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 52,
-        "LongSide": -3.5
-      },
-      {
-        "Id": "Corrosive Bile",
-        "Type": "Token",
-        "Quadrant": 1,
-        "Rotation": 0,
-        "ShortSide": 50.75,
-        "LongSide": -3.5
+        "ShortSide": 58.5,
+        "LongSide": 10.75
       },
       {
         "Id": "Shield",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 52,
-        "LongSide": -2.25
-      },
-      {
-        "Id": "Shield",
-        "Type": "Token",
-        "Quadrant": 1,
-        "Rotation": 0,
-        "ShortSide": 50.75,
-        "LongSide": -2.25
+        "ShortSide": 59.75,
+        "LongSide": 10.75
       },
       {
         "Id": "Activation - red - movement",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 2,
-        "LongSide": 57
+        "ShortSide": 56,
+        "LongSide": 34
       },
       {
         "Id": "Activation - red - movement",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 3.25,
-        "LongSide": 57
+        "ShortSide": 57.25,
+        "LongSide": 34
       },
       {
         "Id": "Activation - red - movement",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 4.5,
-        "LongSide": 57
+        "ShortSide": 58.5,
+        "LongSide": 34
       },
       {
         "Id": "Activation - red - movement",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 5.75,
-        "LongSide": 57
+        "ShortSide": 59.75,
+        "LongSide": 34
       },
       {
         "Id": "Activation - red - movement",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 7,
-        "LongSide": 57
+        "ShortSide": 61,
+        "LongSide": 34
       },
       {
         "Id": "Activation - red - assault",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 2,
-        "LongSide": 55.75
+        "ShortSide": 56,
+        "LongSide": 32.75
       },
       {
         "Id": "Activation - red - assault",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 3.25,
-        "LongSide": 55.75
+        "ShortSide": 57.25,
+        "LongSide": 32.75
       },
       {
         "Id": "Activation - red - assault",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 4.5,
-        "LongSide": 55.75
+        "ShortSide": 58.5,
+        "LongSide": 32.75
       },
       {
         "Id": "Activation - red - assault",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 5.75,
-        "LongSide": 55.75
+        "ShortSide": 59.75,
+        "LongSide": 32.75
       },
       {
         "Id": "Activation - red - assault",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 7,
-        "LongSide": 55.75
-      },
-      {
-        "Id": "Buff",
-        "Type": "Token",
-        "Quadrant": 1,
-        "Rotation": 180,
-        "ShortSide": 2,
-        "LongSide": 53.25
+        "ShortSide": 61,
+        "LongSide": 32.75
       },
       {
         "Id": "Debuff",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 3.25,
-        "LongSide": 53.25
+        "ShortSide": 56,
+        "LongSide": 30.25
+      },
+      {
+        "Id": "Buff",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 56,
+        "LongSide": 29
       },
       {
         "Id": "Terran - blue",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 2,
-        "LongSide": 50.75
+        "ShortSide": 58.5,
+        "LongSide": 30.25
       },
       {
         "Id": "Terran - white",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 3.25,
-        "LongSide": 50.75
+        "ShortSide": 59.75,
+        "LongSide": 30.25
       },
       {
         "Id": "Protoss - yellow",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 4.5,
-        "LongSide": 50.75
+        "ShortSide": 61,
+        "LongSide": 30.25
       },
       {
         "Id": "Protoss - white",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 2,
-        "LongSide": 49.5
+        "ShortSide": 58.5,
+        "LongSide": 29
       },
       {
         "Id": "Zerg - purple",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 3.25,
-        "LongSide": 49.5
+        "ShortSide": 59.75,
+        "LongSide": 29
       },
       {
         "Id": "Zerg - white",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 4.5,
-        "LongSide": 49.5
+        "ShortSide": 61,
+        "LongSide": 29
       },
       {
         "Id": "Stim",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 2,
-        "LongSide": 47
-      },
-      {
-        "Id": "Stim",
-        "Type": "Token",
-        "Quadrant": 1,
-        "Rotation": 180,
-        "ShortSide": 3.25,
-        "LongSide": 47
+        "ShortSide": 56,
+        "LongSide": 26.5
       },
       {
         "Id": "Burrowed",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 2,
-        "LongSide": 45.75
-      },
-      {
-        "Id": "Burrowed",
-        "Type": "Token",
-        "Quadrant": 1,
-        "Rotation": 180,
-        "ShortSide": 3.25,
-        "LongSide": 45.75
+        "ShortSide": 57.25,
+        "LongSide": 26.5
       },
       {
         "Id": "Hidden",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 2,
-        "LongSide": 44.5
-      },
-      {
-        "Id": "Hidden",
-        "Type": "Token",
-        "Quadrant": 1,
-        "Rotation": 180,
-        "ShortSide": 3.25,
-        "LongSide": 44.5
+        "ShortSide": 58.5,
+        "LongSide": 26.5
       },
       {
         "Id": "Siege Status",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 2,
-        "LongSide": 43.25
-      },
-      {
-        "Id": "Siege Status",
-        "Type": "Token",
-        "Quadrant": 1,
-        "Rotation": 180,
-        "ShortSide": 3.25,
-        "LongSide": 43.25
+        "ShortSide": 59.75,
+        "LongSide": 26.5
       },
       {
         "Id": "Bile Bomb",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 2,
-        "LongSide": 42
-      },
-      {
-        "Id": "Bile Bomb",
-        "Type": "Token",
-        "Quadrant": 1,
-        "Rotation": 180,
-        "ShortSide": 3.25,
-        "LongSide": 42
+        "ShortSide": 56,
+        "LongSide": 25.25
       },
       {
         "Id": "Creep Tumor",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 2,
-        "LongSide": 40.75
-      },
-      {
-        "Id": "Creep Tumor",
-        "Type": "Token",
-        "Quadrant": 1,
-        "Rotation": 180,
-        "ShortSide": 3.25,
-        "LongSide": 40.75
+        "ShortSide": 57.25,
+        "LongSide": 25.25
       },
       {
         "Id": "Corrosive Bile",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 2,
-        "LongSide": 39.5
-      },
-      {
-        "Id": "Corrosive Bile",
-        "Type": "Token",
-        "Quadrant": 1,
-        "Rotation": 180,
-        "ShortSide": 3.25,
-        "LongSide": 39.5
+        "ShortSide": 58.5,
+        "LongSide": 25.25
       },
       {
         "Id": "Shield",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 2,
-        "LongSide": 38.25
-      },
-      {
-        "Id": "Shield",
-        "Type": "Token",
-        "Quadrant": 1,
-        "Rotation": 180,
-        "ShortSide": 3.25,
-        "LongSide": 38.25
+        "ShortSide": 59.75,
+        "LongSide": 25.25
       }
     ]
   },
@@ -2654,544 +2270,416 @@
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 52,
-        "LongSide": -21
+        "ShortSide": 56,
+        "LongSide": 2
       },
       {
         "Id": "Activation - blue - movement",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 50.75,
-        "LongSide": -21
+        "ShortSide": 57.25,
+        "LongSide": 2
       },
       {
         "Id": "Activation - blue - movement",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 49.5,
-        "LongSide": -21
+        "ShortSide": 58.5,
+        "LongSide": 2
       },
       {
         "Id": "Activation - blue - movement",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 48.25,
-        "LongSide": -21
+        "ShortSide": 59.75,
+        "LongSide": 2
       },
       {
         "Id": "Activation - blue - movement",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 47,
-        "LongSide": -21
+        "ShortSide": 61,
+        "LongSide": 2
       },
       {
         "Id": "Activation - blue - assault",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 52,
-        "LongSide": -19.75
+        "ShortSide": 56,
+        "LongSide": 3.25
       },
       {
         "Id": "Activation - blue - assault",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 50.75,
-        "LongSide": -19.75
+        "ShortSide": 57.25,
+        "LongSide": 3.25
       },
       {
         "Id": "Activation - blue - assault",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 49.5,
-        "LongSide": -19.75
+        "ShortSide": 58.5,
+        "LongSide": 3.25
       },
       {
         "Id": "Activation - blue - assault",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 48.25,
-        "LongSide": -19.75
+        "ShortSide": 59.75,
+        "LongSide": 3.25
       },
       {
         "Id": "Activation - blue - assault",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 47,
-        "LongSide": -19.75
-      },
-      {
-        "Id": "Buff",
-        "Type": "Token",
-        "Quadrant": 1,
-        "Rotation": 0,
-        "ShortSide": 52,
-        "LongSide": -17.25
+        "ShortSide": 61,
+        "LongSide": 3.25
       },
       {
         "Id": "Debuff",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 50.75,
-        "LongSide": -17.25
+        "ShortSide": 56,
+        "LongSide": 5.75
+      },
+      {
+        "Id": "Buff",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 56,
+        "LongSide": 7
       },
       {
         "Id": "Terran - blue",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 52,
-        "LongSide": -14.75
+        "ShortSide": 58.5,
+        "LongSide": 5.75
       },
       {
         "Id": "Terran - white",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 50.75,
-        "LongSide": -14.75
+        "ShortSide": 59.75,
+        "LongSide": 5.75
       },
       {
         "Id": "Protoss - yellow",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 49.5,
-        "LongSide": -14.75
+        "ShortSide": 61,
+        "LongSide": 5.75
       },
       {
         "Id": "Protoss - white",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 52,
-        "LongSide": -13.5
+        "ShortSide": 58.5,
+        "LongSide": 7
       },
       {
         "Id": "Zerg - purple",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 50.75,
-        "LongSide": -13.5
+        "ShortSide": 59.75,
+        "LongSide": 7
       },
       {
         "Id": "Zerg - white",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 49.5,
-        "LongSide": -13.5
+        "ShortSide": 61,
+        "LongSide": 7
       },
       {
         "Id": "Stim",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 52,
-        "LongSide": -11
-      },
-      {
-        "Id": "Stim",
-        "Type": "Token",
-        "Quadrant": 1,
-        "Rotation": 0,
-        "ShortSide": 50.75,
-        "LongSide": -11
+        "ShortSide": 56,
+        "LongSide": 9.5
       },
       {
         "Id": "Burrowed",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 52,
-        "LongSide": -9.75
-      },
-      {
-        "Id": "Burrowed",
-        "Type": "Token",
-        "Quadrant": 1,
-        "Rotation": 0,
-        "ShortSide": 50.75,
-        "LongSide": -9.75
+        "ShortSide": 57.25,
+        "LongSide": 9.5
       },
       {
         "Id": "Hidden",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 52,
-        "LongSide": -8.5
-      },
-      {
-        "Id": "Hidden",
-        "Type": "Token",
-        "Quadrant": 1,
-        "Rotation": 0,
-        "ShortSide": 50.75,
-        "LongSide": -8.5
+        "ShortSide": 58.5,
+        "LongSide": 9.5
       },
       {
         "Id": "Siege Status",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 52,
-        "LongSide": -7.25
-      },
-      {
-        "Id": "Siege Status",
-        "Type": "Token",
-        "Quadrant": 1,
-        "Rotation": 0,
-        "ShortSide": 50.75,
-        "LongSide": -7.25
+        "ShortSide": 59.75,
+        "LongSide": 9.5
       },
       {
         "Id": "Bile Bomb",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 52,
-        "LongSide": -6
-      },
-      {
-        "Id": "Bile Bomb",
-        "Type": "Token",
-        "Quadrant": 1,
-        "Rotation": 0,
-        "ShortSide": 50.75,
-        "LongSide": -6
+        "ShortSide": 56,
+        "LongSide": 10.75
       },
       {
         "Id": "Creep Tumor",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 52,
-        "LongSide": -4.75
-      },
-      {
-        "Id": "Creep Tumor",
-        "Type": "Token",
-        "Quadrant": 1,
-        "Rotation": 0,
-        "ShortSide": 50.75,
-        "LongSide": -4.75
+        "ShortSide": 57.25,
+        "LongSide": 10.75
       },
       {
         "Id": "Corrosive Bile",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 52,
-        "LongSide": -3.5
-      },
-      {
-        "Id": "Corrosive Bile",
-        "Type": "Token",
-        "Quadrant": 1,
-        "Rotation": 0,
-        "ShortSide": 50.75,
-        "LongSide": -3.5
+        "ShortSide": 58.5,
+        "LongSide": 10.75
       },
       {
         "Id": "Shield",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 52,
-        "LongSide": -2.25
-      },
-      {
-        "Id": "Shield",
-        "Type": "Token",
-        "Quadrant": 1,
-        "Rotation": 0,
-        "ShortSide": 50.75,
-        "LongSide": -2.25
+        "ShortSide": 59.75,
+        "LongSide": 10.75
       },
       {
         "Id": "Activation - red - movement",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 2,
-        "LongSide": 57
+        "ShortSide": 56,
+        "LongSide": 34
       },
       {
         "Id": "Activation - red - movement",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 3.25,
-        "LongSide": 57
+        "ShortSide": 57.25,
+        "LongSide": 34
       },
       {
         "Id": "Activation - red - movement",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 4.5,
-        "LongSide": 57
+        "ShortSide": 58.5,
+        "LongSide": 34
       },
       {
         "Id": "Activation - red - movement",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 5.75,
-        "LongSide": 57
+        "ShortSide": 59.75,
+        "LongSide": 34
       },
       {
         "Id": "Activation - red - movement",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 7,
-        "LongSide": 57
+        "ShortSide": 61,
+        "LongSide": 34
       },
       {
         "Id": "Activation - red - assault",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 2,
-        "LongSide": 55.75
+        "ShortSide": 56,
+        "LongSide": 32.75
       },
       {
         "Id": "Activation - red - assault",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 3.25,
-        "LongSide": 55.75
+        "ShortSide": 57.25,
+        "LongSide": 32.75
       },
       {
         "Id": "Activation - red - assault",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 4.5,
-        "LongSide": 55.75
+        "ShortSide": 58.5,
+        "LongSide": 32.75
       },
       {
         "Id": "Activation - red - assault",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 5.75,
-        "LongSide": 55.75
+        "ShortSide": 59.75,
+        "LongSide": 32.75
       },
       {
         "Id": "Activation - red - assault",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 7,
-        "LongSide": 55.75
-      },
-      {
-        "Id": "Buff",
-        "Type": "Token",
-        "Quadrant": 1,
-        "Rotation": 180,
-        "ShortSide": 2,
-        "LongSide": 53.25
+        "ShortSide": 61,
+        "LongSide": 32.75
       },
       {
         "Id": "Debuff",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 3.25,
-        "LongSide": 53.25
+        "ShortSide": 56,
+        "LongSide": 30.25
+      },
+      {
+        "Id": "Buff",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 56,
+        "LongSide": 29
       },
       {
         "Id": "Terran - blue",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 2,
-        "LongSide": 50.75
+        "ShortSide": 58.5,
+        "LongSide": 30.25
       },
       {
         "Id": "Terran - white",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 3.25,
-        "LongSide": 50.75
+        "ShortSide": 59.75,
+        "LongSide": 30.25
       },
       {
         "Id": "Protoss - yellow",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 4.5,
-        "LongSide": 50.75
+        "ShortSide": 61,
+        "LongSide": 30.25
       },
       {
         "Id": "Protoss - white",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 2,
-        "LongSide": 49.5
+        "ShortSide": 58.5,
+        "LongSide": 29
       },
       {
         "Id": "Zerg - purple",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 3.25,
-        "LongSide": 49.5
+        "ShortSide": 59.75,
+        "LongSide": 29
       },
       {
         "Id": "Zerg - white",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 4.5,
-        "LongSide": 49.5
+        "ShortSide": 61,
+        "LongSide": 29
       },
       {
         "Id": "Stim",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 2,
-        "LongSide": 47
-      },
-      {
-        "Id": "Stim",
-        "Type": "Token",
-        "Quadrant": 1,
-        "Rotation": 180,
-        "ShortSide": 3.25,
-        "LongSide": 47
+        "ShortSide": 56,
+        "LongSide": 26.5
       },
       {
         "Id": "Burrowed",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 2,
-        "LongSide": 45.75
-      },
-      {
-        "Id": "Burrowed",
-        "Type": "Token",
-        "Quadrant": 1,
-        "Rotation": 180,
-        "ShortSide": 3.25,
-        "LongSide": 45.75
+        "ShortSide": 57.25,
+        "LongSide": 26.5
       },
       {
         "Id": "Hidden",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 2,
-        "LongSide": 44.5
-      },
-      {
-        "Id": "Hidden",
-        "Type": "Token",
-        "Quadrant": 1,
-        "Rotation": 180,
-        "ShortSide": 3.25,
-        "LongSide": 44.5
+        "ShortSide": 58.5,
+        "LongSide": 26.5
       },
       {
         "Id": "Siege Status",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 2,
-        "LongSide": 43.25
-      },
-      {
-        "Id": "Siege Status",
-        "Type": "Token",
-        "Quadrant": 1,
-        "Rotation": 180,
-        "ShortSide": 3.25,
-        "LongSide": 43.25
+        "ShortSide": 59.75,
+        "LongSide": 26.5
       },
       {
         "Id": "Bile Bomb",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 2,
-        "LongSide": 42
-      },
-      {
-        "Id": "Bile Bomb",
-        "Type": "Token",
-        "Quadrant": 1,
-        "Rotation": 180,
-        "ShortSide": 3.25,
-        "LongSide": 42
+        "ShortSide": 56,
+        "LongSide": 25.25
       },
       {
         "Id": "Creep Tumor",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 2,
-        "LongSide": 40.75
-      },
-      {
-        "Id": "Creep Tumor",
-        "Type": "Token",
-        "Quadrant": 1,
-        "Rotation": 180,
-        "ShortSide": 3.25,
-        "LongSide": 40.75
+        "ShortSide": 57.25,
+        "LongSide": 25.25
       },
       {
         "Id": "Corrosive Bile",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 2,
-        "LongSide": 39.5
-      },
-      {
-        "Id": "Corrosive Bile",
-        "Type": "Token",
-        "Quadrant": 1,
-        "Rotation": 180,
-        "ShortSide": 3.25,
-        "LongSide": 39.5
+        "ShortSide": 58.5,
+        "LongSide": 25.25
       },
       {
         "Id": "Shield",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 2,
-        "LongSide": 38.25
-      },
-      {
-        "Id": "Shield",
-        "Type": "Token",
-        "Quadrant": 1,
-        "Rotation": 180,
-        "ShortSide": 3.25,
-        "LongSide": 38.25
+        "ShortSide": 59.75,
+        "LongSide": 25.25
       }
     ]
   },
@@ -3469,544 +2957,416 @@
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 52,
-        "LongSide": -21
+        "ShortSide": 56,
+        "LongSide": 2
       },
       {
         "Id": "Activation - blue - movement",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 50.75,
-        "LongSide": -21
+        "ShortSide": 57.25,
+        "LongSide": 2
       },
       {
         "Id": "Activation - blue - movement",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 49.5,
-        "LongSide": -21
+        "ShortSide": 58.5,
+        "LongSide": 2
       },
       {
         "Id": "Activation - blue - movement",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 48.25,
-        "LongSide": -21
+        "ShortSide": 59.75,
+        "LongSide": 2
       },
       {
         "Id": "Activation - blue - movement",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 47,
-        "LongSide": -21
+        "ShortSide": 61,
+        "LongSide": 2
       },
       {
         "Id": "Activation - blue - assault",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 52,
-        "LongSide": -19.75
+        "ShortSide": 56,
+        "LongSide": 3.25
       },
       {
         "Id": "Activation - blue - assault",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 50.75,
-        "LongSide": -19.75
+        "ShortSide": 57.25,
+        "LongSide": 3.25
       },
       {
         "Id": "Activation - blue - assault",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 49.5,
-        "LongSide": -19.75
+        "ShortSide": 58.5,
+        "LongSide": 3.25
       },
       {
         "Id": "Activation - blue - assault",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 48.25,
-        "LongSide": -19.75
+        "ShortSide": 59.75,
+        "LongSide": 3.25
       },
       {
         "Id": "Activation - blue - assault",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 47,
-        "LongSide": -19.75
-      },
-      {
-        "Id": "Buff",
-        "Type": "Token",
-        "Quadrant": 1,
-        "Rotation": 0,
-        "ShortSide": 52,
-        "LongSide": -17.25
+        "ShortSide": 61,
+        "LongSide": 3.25
       },
       {
         "Id": "Debuff",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 50.75,
-        "LongSide": -17.25
+        "ShortSide": 56,
+        "LongSide": 5.75
+      },
+      {
+        "Id": "Buff",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 56,
+        "LongSide": 7
       },
       {
         "Id": "Terran - blue",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 52,
-        "LongSide": -14.75
+        "ShortSide": 58.5,
+        "LongSide": 5.75
       },
       {
         "Id": "Terran - white",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 50.75,
-        "LongSide": -14.75
+        "ShortSide": 59.75,
+        "LongSide": 5.75
       },
       {
         "Id": "Protoss - yellow",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 49.5,
-        "LongSide": -14.75
+        "ShortSide": 61,
+        "LongSide": 5.75
       },
       {
         "Id": "Protoss - white",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 52,
-        "LongSide": -13.5
+        "ShortSide": 58.5,
+        "LongSide": 7
       },
       {
         "Id": "Zerg - purple",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 50.75,
-        "LongSide": -13.5
+        "ShortSide": 59.75,
+        "LongSide": 7
       },
       {
         "Id": "Zerg - white",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 49.5,
-        "LongSide": -13.5
+        "ShortSide": 61,
+        "LongSide": 7
       },
       {
         "Id": "Stim",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 52,
-        "LongSide": -11
-      },
-      {
-        "Id": "Stim",
-        "Type": "Token",
-        "Quadrant": 1,
-        "Rotation": 0,
-        "ShortSide": 50.75,
-        "LongSide": -11
+        "ShortSide": 56,
+        "LongSide": 9.5
       },
       {
         "Id": "Burrowed",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 52,
-        "LongSide": -9.75
-      },
-      {
-        "Id": "Burrowed",
-        "Type": "Token",
-        "Quadrant": 1,
-        "Rotation": 0,
-        "ShortSide": 50.75,
-        "LongSide": -9.75
+        "ShortSide": 57.25,
+        "LongSide": 9.5
       },
       {
         "Id": "Hidden",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 52,
-        "LongSide": -8.5
-      },
-      {
-        "Id": "Hidden",
-        "Type": "Token",
-        "Quadrant": 1,
-        "Rotation": 0,
-        "ShortSide": 50.75,
-        "LongSide": -8.5
+        "ShortSide": 58.5,
+        "LongSide": 9.5
       },
       {
         "Id": "Siege Status",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 52,
-        "LongSide": -7.25
-      },
-      {
-        "Id": "Siege Status",
-        "Type": "Token",
-        "Quadrant": 1,
-        "Rotation": 0,
-        "ShortSide": 50.75,
-        "LongSide": -7.25
+        "ShortSide": 59.75,
+        "LongSide": 9.5
       },
       {
         "Id": "Bile Bomb",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 52,
-        "LongSide": -6
-      },
-      {
-        "Id": "Bile Bomb",
-        "Type": "Token",
-        "Quadrant": 1,
-        "Rotation": 0,
-        "ShortSide": 50.75,
-        "LongSide": -6
+        "ShortSide": 56,
+        "LongSide": 10.75
       },
       {
         "Id": "Creep Tumor",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 52,
-        "LongSide": -4.75
-      },
-      {
-        "Id": "Creep Tumor",
-        "Type": "Token",
-        "Quadrant": 1,
-        "Rotation": 0,
-        "ShortSide": 50.75,
-        "LongSide": -4.75
+        "ShortSide": 57.25,
+        "LongSide": 10.75
       },
       {
         "Id": "Corrosive Bile",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 52,
-        "LongSide": -3.5
-      },
-      {
-        "Id": "Corrosive Bile",
-        "Type": "Token",
-        "Quadrant": 1,
-        "Rotation": 0,
-        "ShortSide": 50.75,
-        "LongSide": -3.5
+        "ShortSide": 58.5,
+        "LongSide": 10.75
       },
       {
         "Id": "Shield",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 52,
-        "LongSide": -2.25
-      },
-      {
-        "Id": "Shield",
-        "Type": "Token",
-        "Quadrant": 1,
-        "Rotation": 0,
-        "ShortSide": 50.75,
-        "LongSide": -2.25
+        "ShortSide": 59.75,
+        "LongSide": 10.75
       },
       {
         "Id": "Activation - red - movement",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 2,
-        "LongSide": 57
+        "ShortSide": 56,
+        "LongSide": 34
       },
       {
         "Id": "Activation - red - movement",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 3.25,
-        "LongSide": 57
+        "ShortSide": 57.25,
+        "LongSide": 34
       },
       {
         "Id": "Activation - red - movement",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 4.5,
-        "LongSide": 57
+        "ShortSide": 58.5,
+        "LongSide": 34
       },
       {
         "Id": "Activation - red - movement",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 5.75,
-        "LongSide": 57
+        "ShortSide": 59.75,
+        "LongSide": 34
       },
       {
         "Id": "Activation - red - movement",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 7,
-        "LongSide": 57
+        "ShortSide": 61,
+        "LongSide": 34
       },
       {
         "Id": "Activation - red - assault",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 2,
-        "LongSide": 55.75
+        "ShortSide": 56,
+        "LongSide": 32.75
       },
       {
         "Id": "Activation - red - assault",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 3.25,
-        "LongSide": 55.75
+        "ShortSide": 57.25,
+        "LongSide": 32.75
       },
       {
         "Id": "Activation - red - assault",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 4.5,
-        "LongSide": 55.75
+        "ShortSide": 58.5,
+        "LongSide": 32.75
       },
       {
         "Id": "Activation - red - assault",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 5.75,
-        "LongSide": 55.75
+        "ShortSide": 59.75,
+        "LongSide": 32.75
       },
       {
         "Id": "Activation - red - assault",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 7,
-        "LongSide": 55.75
-      },
-      {
-        "Id": "Buff",
-        "Type": "Token",
-        "Quadrant": 1,
-        "Rotation": 180,
-        "ShortSide": 2,
-        "LongSide": 53.25
+        "ShortSide": 61,
+        "LongSide": 32.75
       },
       {
         "Id": "Debuff",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 3.25,
-        "LongSide": 53.25
+        "ShortSide": 56,
+        "LongSide": 30.25
+      },
+      {
+        "Id": "Buff",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 56,
+        "LongSide": 29
       },
       {
         "Id": "Terran - blue",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 2,
-        "LongSide": 50.75
+        "ShortSide": 58.5,
+        "LongSide": 30.25
       },
       {
         "Id": "Terran - white",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 3.25,
-        "LongSide": 50.75
+        "ShortSide": 59.75,
+        "LongSide": 30.25
       },
       {
         "Id": "Protoss - yellow",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 4.5,
-        "LongSide": 50.75
+        "ShortSide": 61,
+        "LongSide": 30.25
       },
       {
         "Id": "Protoss - white",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 2,
-        "LongSide": 49.5
+        "ShortSide": 58.5,
+        "LongSide": 29
       },
       {
         "Id": "Zerg - purple",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 3.25,
-        "LongSide": 49.5
+        "ShortSide": 59.75,
+        "LongSide": 29
       },
       {
         "Id": "Zerg - white",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 4.5,
-        "LongSide": 49.5
+        "ShortSide": 61,
+        "LongSide": 29
       },
       {
         "Id": "Stim",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 2,
-        "LongSide": 47
-      },
-      {
-        "Id": "Stim",
-        "Type": "Token",
-        "Quadrant": 1,
-        "Rotation": 180,
-        "ShortSide": 3.25,
-        "LongSide": 47
+        "ShortSide": 56,
+        "LongSide": 26.5
       },
       {
         "Id": "Burrowed",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 2,
-        "LongSide": 45.75
-      },
-      {
-        "Id": "Burrowed",
-        "Type": "Token",
-        "Quadrant": 1,
-        "Rotation": 180,
-        "ShortSide": 3.25,
-        "LongSide": 45.75
+        "ShortSide": 57.25,
+        "LongSide": 26.5
       },
       {
         "Id": "Hidden",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 2,
-        "LongSide": 44.5
-      },
-      {
-        "Id": "Hidden",
-        "Type": "Token",
-        "Quadrant": 1,
-        "Rotation": 180,
-        "ShortSide": 3.25,
-        "LongSide": 44.5
+        "ShortSide": 58.5,
+        "LongSide": 26.5
       },
       {
         "Id": "Siege Status",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 2,
-        "LongSide": 43.25
-      },
-      {
-        "Id": "Siege Status",
-        "Type": "Token",
-        "Quadrant": 1,
-        "Rotation": 180,
-        "ShortSide": 3.25,
-        "LongSide": 43.25
+        "ShortSide": 59.75,
+        "LongSide": 26.5
       },
       {
         "Id": "Bile Bomb",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 2,
-        "LongSide": 42
-      },
-      {
-        "Id": "Bile Bomb",
-        "Type": "Token",
-        "Quadrant": 1,
-        "Rotation": 180,
-        "ShortSide": 3.25,
-        "LongSide": 42
+        "ShortSide": 56,
+        "LongSide": 25.25
       },
       {
         "Id": "Creep Tumor",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 2,
-        "LongSide": 40.75
-      },
-      {
-        "Id": "Creep Tumor",
-        "Type": "Token",
-        "Quadrant": 1,
-        "Rotation": 180,
-        "ShortSide": 3.25,
-        "LongSide": 40.75
+        "ShortSide": 57.25,
+        "LongSide": 25.25
       },
       {
         "Id": "Corrosive Bile",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 2,
-        "LongSide": 39.5
-      },
-      {
-        "Id": "Corrosive Bile",
-        "Type": "Token",
-        "Quadrant": 1,
-        "Rotation": 180,
-        "ShortSide": 3.25,
-        "LongSide": 39.5
+        "ShortSide": 58.5,
+        "LongSide": 25.25
       },
       {
         "Id": "Shield",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 2,
-        "LongSide": 38.25
-      },
-      {
-        "Id": "Shield",
-        "Type": "Token",
-        "Quadrant": 1,
-        "Rotation": 180,
-        "ShortSide": 3.25,
-        "LongSide": 38.25
+        "ShortSide": 59.75,
+        "LongSide": 25.25
       }
     ]
   },
@@ -4284,544 +3644,416 @@
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 52,
-        "LongSide": -21
+        "ShortSide": 56,
+        "LongSide": 2
       },
       {
         "Id": "Activation - blue - movement",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 50.75,
-        "LongSide": -21
+        "ShortSide": 57.25,
+        "LongSide": 2
       },
       {
         "Id": "Activation - blue - movement",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 49.5,
-        "LongSide": -21
+        "ShortSide": 58.5,
+        "LongSide": 2
       },
       {
         "Id": "Activation - blue - movement",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 48.25,
-        "LongSide": -21
+        "ShortSide": 59.75,
+        "LongSide": 2
       },
       {
         "Id": "Activation - blue - movement",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 47,
-        "LongSide": -21
+        "ShortSide": 61,
+        "LongSide": 2
       },
       {
         "Id": "Activation - blue - assault",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 52,
-        "LongSide": -19.75
+        "ShortSide": 56,
+        "LongSide": 3.25
       },
       {
         "Id": "Activation - blue - assault",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 50.75,
-        "LongSide": -19.75
+        "ShortSide": 57.25,
+        "LongSide": 3.25
       },
       {
         "Id": "Activation - blue - assault",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 49.5,
-        "LongSide": -19.75
+        "ShortSide": 58.5,
+        "LongSide": 3.25
       },
       {
         "Id": "Activation - blue - assault",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 48.25,
-        "LongSide": -19.75
+        "ShortSide": 59.75,
+        "LongSide": 3.25
       },
       {
         "Id": "Activation - blue - assault",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 47,
-        "LongSide": -19.75
-      },
-      {
-        "Id": "Buff",
-        "Type": "Token",
-        "Quadrant": 1,
-        "Rotation": 0,
-        "ShortSide": 52,
-        "LongSide": -17.25
+        "ShortSide": 61,
+        "LongSide": 3.25
       },
       {
         "Id": "Debuff",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 50.75,
-        "LongSide": -17.25
+        "ShortSide": 56,
+        "LongSide": 5.75
+      },
+      {
+        "Id": "Buff",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 56,
+        "LongSide": 7
       },
       {
         "Id": "Terran - blue",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 52,
-        "LongSide": -14.75
+        "ShortSide": 58.5,
+        "LongSide": 5.75
       },
       {
         "Id": "Terran - white",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 50.75,
-        "LongSide": -14.75
+        "ShortSide": 59.75,
+        "LongSide": 5.75
       },
       {
         "Id": "Protoss - yellow",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 49.5,
-        "LongSide": -14.75
+        "ShortSide": 61,
+        "LongSide": 5.75
       },
       {
         "Id": "Protoss - white",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 52,
-        "LongSide": -13.5
+        "ShortSide": 58.5,
+        "LongSide": 7
       },
       {
         "Id": "Zerg - purple",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 50.75,
-        "LongSide": -13.5
+        "ShortSide": 59.75,
+        "LongSide": 7
       },
       {
         "Id": "Zerg - white",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 49.5,
-        "LongSide": -13.5
+        "ShortSide": 61,
+        "LongSide": 7
       },
       {
         "Id": "Stim",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 52,
-        "LongSide": -11
-      },
-      {
-        "Id": "Stim",
-        "Type": "Token",
-        "Quadrant": 1,
-        "Rotation": 0,
-        "ShortSide": 50.75,
-        "LongSide": -11
+        "ShortSide": 56,
+        "LongSide": 9.5
       },
       {
         "Id": "Burrowed",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 52,
-        "LongSide": -9.75
-      },
-      {
-        "Id": "Burrowed",
-        "Type": "Token",
-        "Quadrant": 1,
-        "Rotation": 0,
-        "ShortSide": 50.75,
-        "LongSide": -9.75
+        "ShortSide": 57.25,
+        "LongSide": 9.5
       },
       {
         "Id": "Hidden",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 52,
-        "LongSide": -8.5
-      },
-      {
-        "Id": "Hidden",
-        "Type": "Token",
-        "Quadrant": 1,
-        "Rotation": 0,
-        "ShortSide": 50.75,
-        "LongSide": -8.5
+        "ShortSide": 58.5,
+        "LongSide": 9.5
       },
       {
         "Id": "Siege Status",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 52,
-        "LongSide": -7.25
-      },
-      {
-        "Id": "Siege Status",
-        "Type": "Token",
-        "Quadrant": 1,
-        "Rotation": 0,
-        "ShortSide": 50.75,
-        "LongSide": -7.25
+        "ShortSide": 59.75,
+        "LongSide": 9.5
       },
       {
         "Id": "Bile Bomb",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 52,
-        "LongSide": -6
-      },
-      {
-        "Id": "Bile Bomb",
-        "Type": "Token",
-        "Quadrant": 1,
-        "Rotation": 0,
-        "ShortSide": 50.75,
-        "LongSide": -6
+        "ShortSide": 56,
+        "LongSide": 10.75
       },
       {
         "Id": "Creep Tumor",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 52,
-        "LongSide": -4.75
-      },
-      {
-        "Id": "Creep Tumor",
-        "Type": "Token",
-        "Quadrant": 1,
-        "Rotation": 0,
-        "ShortSide": 50.75,
-        "LongSide": -4.75
+        "ShortSide": 57.25,
+        "LongSide": 10.75
       },
       {
         "Id": "Corrosive Bile",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 52,
-        "LongSide": -3.5
-      },
-      {
-        "Id": "Corrosive Bile",
-        "Type": "Token",
-        "Quadrant": 1,
-        "Rotation": 0,
-        "ShortSide": 50.75,
-        "LongSide": -3.5
+        "ShortSide": 58.5,
+        "LongSide": 10.75
       },
       {
         "Id": "Shield",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 52,
-        "LongSide": -2.25
-      },
-      {
-        "Id": "Shield",
-        "Type": "Token",
-        "Quadrant": 1,
-        "Rotation": 0,
-        "ShortSide": 50.75,
-        "LongSide": -2.25
+        "ShortSide": 59.75,
+        "LongSide": 10.75
       },
       {
         "Id": "Activation - red - movement",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 2,
-        "LongSide": 57
+        "ShortSide": 56,
+        "LongSide": 34
       },
       {
         "Id": "Activation - red - movement",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 3.25,
-        "LongSide": 57
+        "ShortSide": 57.25,
+        "LongSide": 34
       },
       {
         "Id": "Activation - red - movement",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 4.5,
-        "LongSide": 57
+        "ShortSide": 58.5,
+        "LongSide": 34
       },
       {
         "Id": "Activation - red - movement",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 5.75,
-        "LongSide": 57
+        "ShortSide": 59.75,
+        "LongSide": 34
       },
       {
         "Id": "Activation - red - movement",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 7,
-        "LongSide": 57
+        "ShortSide": 61,
+        "LongSide": 34
       },
       {
         "Id": "Activation - red - assault",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 2,
-        "LongSide": 55.75
+        "ShortSide": 56,
+        "LongSide": 32.75
       },
       {
         "Id": "Activation - red - assault",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 3.25,
-        "LongSide": 55.75
+        "ShortSide": 57.25,
+        "LongSide": 32.75
       },
       {
         "Id": "Activation - red - assault",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 4.5,
-        "LongSide": 55.75
+        "ShortSide": 58.5,
+        "LongSide": 32.75
       },
       {
         "Id": "Activation - red - assault",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 5.75,
-        "LongSide": 55.75
+        "ShortSide": 59.75,
+        "LongSide": 32.75
       },
       {
         "Id": "Activation - red - assault",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 7,
-        "LongSide": 55.75
-      },
-      {
-        "Id": "Buff",
-        "Type": "Token",
-        "Quadrant": 1,
-        "Rotation": 180,
-        "ShortSide": 2,
-        "LongSide": 53.25
+        "ShortSide": 61,
+        "LongSide": 32.75
       },
       {
         "Id": "Debuff",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 3.25,
-        "LongSide": 53.25
+        "ShortSide": 56,
+        "LongSide": 30.25
+      },
+      {
+        "Id": "Buff",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 56,
+        "LongSide": 29
       },
       {
         "Id": "Terran - blue",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 2,
-        "LongSide": 50.75
+        "ShortSide": 58.5,
+        "LongSide": 30.25
       },
       {
         "Id": "Terran - white",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 3.25,
-        "LongSide": 50.75
+        "ShortSide": 59.75,
+        "LongSide": 30.25
       },
       {
         "Id": "Protoss - yellow",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 4.5,
-        "LongSide": 50.75
+        "ShortSide": 61,
+        "LongSide": 30.25
       },
       {
         "Id": "Protoss - white",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 2,
-        "LongSide": 49.5
+        "ShortSide": 58.5,
+        "LongSide": 29
       },
       {
         "Id": "Zerg - purple",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 3.25,
-        "LongSide": 49.5
+        "ShortSide": 59.75,
+        "LongSide": 29
       },
       {
         "Id": "Zerg - white",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 4.5,
-        "LongSide": 49.5
+        "ShortSide": 61,
+        "LongSide": 29
       },
       {
         "Id": "Stim",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 2,
-        "LongSide": 47
-      },
-      {
-        "Id": "Stim",
-        "Type": "Token",
-        "Quadrant": 1,
-        "Rotation": 180,
-        "ShortSide": 3.25,
-        "LongSide": 47
+        "ShortSide": 56,
+        "LongSide": 26.5
       },
       {
         "Id": "Burrowed",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 2,
-        "LongSide": 45.75
-      },
-      {
-        "Id": "Burrowed",
-        "Type": "Token",
-        "Quadrant": 1,
-        "Rotation": 180,
-        "ShortSide": 3.25,
-        "LongSide": 45.75
+        "ShortSide": 57.25,
+        "LongSide": 26.5
       },
       {
         "Id": "Hidden",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 2,
-        "LongSide": 44.5
-      },
-      {
-        "Id": "Hidden",
-        "Type": "Token",
-        "Quadrant": 1,
-        "Rotation": 180,
-        "ShortSide": 3.25,
-        "LongSide": 44.5
+        "ShortSide": 58.5,
+        "LongSide": 26.5
       },
       {
         "Id": "Siege Status",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 2,
-        "LongSide": 43.25
-      },
-      {
-        "Id": "Siege Status",
-        "Type": "Token",
-        "Quadrant": 1,
-        "Rotation": 180,
-        "ShortSide": 3.25,
-        "LongSide": 43.25
+        "ShortSide": 59.75,
+        "LongSide": 26.5
       },
       {
         "Id": "Bile Bomb",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 2,
-        "LongSide": 42
-      },
-      {
-        "Id": "Bile Bomb",
-        "Type": "Token",
-        "Quadrant": 1,
-        "Rotation": 180,
-        "ShortSide": 3.25,
-        "LongSide": 42
+        "ShortSide": 56,
+        "LongSide": 25.25
       },
       {
         "Id": "Creep Tumor",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 2,
-        "LongSide": 40.75
-      },
-      {
-        "Id": "Creep Tumor",
-        "Type": "Token",
-        "Quadrant": 1,
-        "Rotation": 180,
-        "ShortSide": 3.25,
-        "LongSide": 40.75
+        "ShortSide": 57.25,
+        "LongSide": 25.25
       },
       {
         "Id": "Corrosive Bile",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 2,
-        "LongSide": 39.5
-      },
-      {
-        "Id": "Corrosive Bile",
-        "Type": "Token",
-        "Quadrant": 1,
-        "Rotation": 180,
-        "ShortSide": 3.25,
-        "LongSide": 39.5
+        "ShortSide": 58.5,
+        "LongSide": 25.25
       },
       {
         "Id": "Shield",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 2,
-        "LongSide": 38.25
-      },
-      {
-        "Id": "Shield",
-        "Type": "Token",
-        "Quadrant": 1,
-        "Rotation": 180,
-        "ShortSide": 3.25,
-        "LongSide": 38.25
+        "ShortSide": 59.75,
+        "LongSide": 25.25
       }
     ]
   },
@@ -4963,544 +4195,416 @@
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 43,
-        "LongSide": -21
+        "ShortSide": 47,
+        "LongSide": 2
       },
       {
         "Id": "Activation - blue - movement",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 41.75,
-        "LongSide": -21
+        "ShortSide": 48.25,
+        "LongSide": 2
       },
       {
         "Id": "Activation - blue - movement",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 40.5,
-        "LongSide": -21
+        "ShortSide": 49.5,
+        "LongSide": 2
       },
       {
         "Id": "Activation - blue - movement",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 39.25,
-        "LongSide": -21
+        "ShortSide": 50.75,
+        "LongSide": 2
       },
       {
         "Id": "Activation - blue - movement",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 38,
-        "LongSide": -21
+        "ShortSide": 52,
+        "LongSide": 2
       },
       {
         "Id": "Activation - blue - assault",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 43,
-        "LongSide": -19.75
+        "ShortSide": 47,
+        "LongSide": 3.25
       },
       {
         "Id": "Activation - blue - assault",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 41.75,
-        "LongSide": -19.75
+        "ShortSide": 48.25,
+        "LongSide": 3.25
       },
       {
         "Id": "Activation - blue - assault",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 40.5,
-        "LongSide": -19.75
+        "ShortSide": 49.5,
+        "LongSide": 3.25
       },
       {
         "Id": "Activation - blue - assault",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 39.25,
-        "LongSide": -19.75
+        "ShortSide": 50.75,
+        "LongSide": 3.25
       },
       {
         "Id": "Activation - blue - assault",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 38,
-        "LongSide": -19.75
-      },
-      {
-        "Id": "Buff",
-        "Type": "Token",
-        "Quadrant": 1,
-        "Rotation": 0,
-        "ShortSide": 43,
-        "LongSide": -17.25
+        "ShortSide": 52,
+        "LongSide": 3.25
       },
       {
         "Id": "Debuff",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 41.75,
-        "LongSide": -17.25
+        "ShortSide": 47,
+        "LongSide": 5.75
+      },
+      {
+        "Id": "Buff",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 47,
+        "LongSide": 7
       },
       {
         "Id": "Terran - blue",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 43,
-        "LongSide": -14.75
+        "ShortSide": 49.5,
+        "LongSide": 5.75
       },
       {
         "Id": "Terran - white",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 41.75,
-        "LongSide": -14.75
+        "ShortSide": 50.75,
+        "LongSide": 5.75
       },
       {
         "Id": "Protoss - yellow",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 40.5,
-        "LongSide": -14.75
+        "ShortSide": 52,
+        "LongSide": 5.75
       },
       {
         "Id": "Protoss - white",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 43,
-        "LongSide": -13.5
+        "ShortSide": 49.5,
+        "LongSide": 7
       },
       {
         "Id": "Zerg - purple",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 41.75,
-        "LongSide": -13.5
+        "ShortSide": 50.75,
+        "LongSide": 7
       },
       {
         "Id": "Zerg - white",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 40.5,
-        "LongSide": -13.5
+        "ShortSide": 52,
+        "LongSide": 7
       },
       {
         "Id": "Stim",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 43,
-        "LongSide": -11
-      },
-      {
-        "Id": "Stim",
-        "Type": "Token",
-        "Quadrant": 1,
-        "Rotation": 0,
-        "ShortSide": 41.75,
-        "LongSide": -11
+        "ShortSide": 47,
+        "LongSide": 9.5
       },
       {
         "Id": "Burrowed",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 43,
-        "LongSide": -9.75
-      },
-      {
-        "Id": "Burrowed",
-        "Type": "Token",
-        "Quadrant": 1,
-        "Rotation": 0,
-        "ShortSide": 41.75,
-        "LongSide": -9.75
+        "ShortSide": 48.25,
+        "LongSide": 9.5
       },
       {
         "Id": "Hidden",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 43,
-        "LongSide": -8.5
-      },
-      {
-        "Id": "Hidden",
-        "Type": "Token",
-        "Quadrant": 1,
-        "Rotation": 0,
-        "ShortSide": 41.75,
-        "LongSide": -8.5
+        "ShortSide": 49.5,
+        "LongSide": 9.5
       },
       {
         "Id": "Siege Status",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 43,
-        "LongSide": -7.25
-      },
-      {
-        "Id": "Siege Status",
-        "Type": "Token",
-        "Quadrant": 1,
-        "Rotation": 0,
-        "ShortSide": 41.75,
-        "LongSide": -7.25
+        "ShortSide": 50.75,
+        "LongSide": 9.5
       },
       {
         "Id": "Bile Bomb",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 43,
-        "LongSide": -6
-      },
-      {
-        "Id": "Bile Bomb",
-        "Type": "Token",
-        "Quadrant": 1,
-        "Rotation": 0,
-        "ShortSide": 41.75,
-        "LongSide": -6
+        "ShortSide": 47,
+        "LongSide": 10.75
       },
       {
         "Id": "Creep Tumor",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 43,
-        "LongSide": -4.75
-      },
-      {
-        "Id": "Creep Tumor",
-        "Type": "Token",
-        "Quadrant": 1,
-        "Rotation": 0,
-        "ShortSide": 41.75,
-        "LongSide": -4.75
+        "ShortSide": 48.25,
+        "LongSide": 10.75
       },
       {
         "Id": "Corrosive Bile",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 43,
-        "LongSide": -3.5
-      },
-      {
-        "Id": "Corrosive Bile",
-        "Type": "Token",
-        "Quadrant": 1,
-        "Rotation": 0,
-        "ShortSide": 41.75,
-        "LongSide": -3.5
+        "ShortSide": 49.5,
+        "LongSide": 10.75
       },
       {
         "Id": "Shield",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 43,
-        "LongSide": -2.25
-      },
-      {
-        "Id": "Shield",
-        "Type": "Token",
-        "Quadrant": 1,
-        "Rotation": 0,
-        "ShortSide": 41.75,
-        "LongSide": -2.25
+        "ShortSide": 50.75,
+        "LongSide": 10.75
       },
       {
         "Id": "Activation - red - movement",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 11,
-        "LongSide": 57
+        "ShortSide": 47,
+        "LongSide": 34
       },
       {
         "Id": "Activation - red - movement",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 12.25,
-        "LongSide": 57
+        "ShortSide": 48.25,
+        "LongSide": 34
       },
       {
         "Id": "Activation - red - movement",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 13.5,
-        "LongSide": 57
+        "ShortSide": 49.5,
+        "LongSide": 34
       },
       {
         "Id": "Activation - red - movement",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 14.75,
-        "LongSide": 57
+        "ShortSide": 50.75,
+        "LongSide": 34
       },
       {
         "Id": "Activation - red - movement",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 16,
-        "LongSide": 57
+        "ShortSide": 52,
+        "LongSide": 34
       },
       {
         "Id": "Activation - red - assault",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 11,
-        "LongSide": 55.75
+        "ShortSide": 47,
+        "LongSide": 32.75
       },
       {
         "Id": "Activation - red - assault",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 12.25,
-        "LongSide": 55.75
+        "ShortSide": 48.25,
+        "LongSide": 32.75
       },
       {
         "Id": "Activation - red - assault",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 13.5,
-        "LongSide": 55.75
+        "ShortSide": 49.5,
+        "LongSide": 32.75
       },
       {
         "Id": "Activation - red - assault",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 14.75,
-        "LongSide": 55.75
+        "ShortSide": 50.75,
+        "LongSide": 32.75
       },
       {
         "Id": "Activation - red - assault",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 16,
-        "LongSide": 55.75
-      },
-      {
-        "Id": "Buff",
-        "Type": "Token",
-        "Quadrant": 1,
-        "Rotation": 180,
-        "ShortSide": 11,
-        "LongSide": 53.25
+        "ShortSide": 52,
+        "LongSide": 32.75
       },
       {
         "Id": "Debuff",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 12.25,
-        "LongSide": 53.25
+        "ShortSide": 47,
+        "LongSide": 30.25
+      },
+      {
+        "Id": "Buff",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 47,
+        "LongSide": 29
       },
       {
         "Id": "Terran - blue",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 11,
-        "LongSide": 50.75
+        "ShortSide": 49.5,
+        "LongSide": 30.25
       },
       {
         "Id": "Terran - white",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 12.25,
-        "LongSide": 50.75
+        "ShortSide": 50.75,
+        "LongSide": 30.25
       },
       {
         "Id": "Protoss - yellow",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 13.5,
-        "LongSide": 50.75
+        "ShortSide": 52,
+        "LongSide": 30.25
       },
       {
         "Id": "Protoss - white",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 11,
-        "LongSide": 49.5
+        "ShortSide": 49.5,
+        "LongSide": 29
       },
       {
         "Id": "Zerg - purple",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 12.25,
-        "LongSide": 49.5
+        "ShortSide": 50.75,
+        "LongSide": 29
       },
       {
         "Id": "Zerg - white",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 13.5,
-        "LongSide": 49.5
+        "ShortSide": 52,
+        "LongSide": 29
       },
       {
         "Id": "Stim",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 11,
-        "LongSide": 47
-      },
-      {
-        "Id": "Stim",
-        "Type": "Token",
-        "Quadrant": 1,
-        "Rotation": 180,
-        "ShortSide": 12.25,
-        "LongSide": 47
+        "ShortSide": 47,
+        "LongSide": 26.5
       },
       {
         "Id": "Burrowed",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 11,
-        "LongSide": 45.75
-      },
-      {
-        "Id": "Burrowed",
-        "Type": "Token",
-        "Quadrant": 1,
-        "Rotation": 180,
-        "ShortSide": 12.25,
-        "LongSide": 45.75
+        "ShortSide": 48.25,
+        "LongSide": 26.5
       },
       {
         "Id": "Hidden",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 11,
-        "LongSide": 44.5
-      },
-      {
-        "Id": "Hidden",
-        "Type": "Token",
-        "Quadrant": 1,
-        "Rotation": 180,
-        "ShortSide": 12.25,
-        "LongSide": 44.5
+        "ShortSide": 49.5,
+        "LongSide": 26.5
       },
       {
         "Id": "Siege Status",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 11,
-        "LongSide": 43.25
-      },
-      {
-        "Id": "Siege Status",
-        "Type": "Token",
-        "Quadrant": 1,
-        "Rotation": 180,
-        "ShortSide": 12.25,
-        "LongSide": 43.25
+        "ShortSide": 50.75,
+        "LongSide": 26.5
       },
       {
         "Id": "Bile Bomb",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 11,
-        "LongSide": 42
-      },
-      {
-        "Id": "Bile Bomb",
-        "Type": "Token",
-        "Quadrant": 1,
-        "Rotation": 180,
-        "ShortSide": 12.25,
-        "LongSide": 42
+        "ShortSide": 47,
+        "LongSide": 25.25
       },
       {
         "Id": "Creep Tumor",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 11,
-        "LongSide": 40.75
-      },
-      {
-        "Id": "Creep Tumor",
-        "Type": "Token",
-        "Quadrant": 1,
-        "Rotation": 180,
-        "ShortSide": 12.25,
-        "LongSide": 40.75
+        "ShortSide": 48.25,
+        "LongSide": 25.25
       },
       {
         "Id": "Corrosive Bile",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 11,
-        "LongSide": 39.5
-      },
-      {
-        "Id": "Corrosive Bile",
-        "Type": "Token",
-        "Quadrant": 1,
-        "Rotation": 180,
-        "ShortSide": 12.25,
-        "LongSide": 39.5
+        "ShortSide": 49.5,
+        "LongSide": 25.25
       },
       {
         "Id": "Shield",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 11,
-        "LongSide": 38.25
-      },
-      {
-        "Id": "Shield",
-        "Type": "Token",
-        "Quadrant": 1,
-        "Rotation": 180,
-        "ShortSide": 12.25,
-        "LongSide": 38.25
+        "ShortSide": 50.75,
+        "LongSide": 25.25
       }
     ]
   },
@@ -5642,544 +4746,416 @@
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 43,
-        "LongSide": -21
+        "ShortSide": 47,
+        "LongSide": 2
       },
       {
         "Id": "Activation - blue - movement",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 41.75,
-        "LongSide": -21
+        "ShortSide": 48.25,
+        "LongSide": 2
       },
       {
         "Id": "Activation - blue - movement",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 40.5,
-        "LongSide": -21
+        "ShortSide": 49.5,
+        "LongSide": 2
       },
       {
         "Id": "Activation - blue - movement",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 39.25,
-        "LongSide": -21
+        "ShortSide": 50.75,
+        "LongSide": 2
       },
       {
         "Id": "Activation - blue - movement",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 38,
-        "LongSide": -21
+        "ShortSide": 52,
+        "LongSide": 2
       },
       {
         "Id": "Activation - blue - assault",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 43,
-        "LongSide": -19.75
+        "ShortSide": 47,
+        "LongSide": 3.25
       },
       {
         "Id": "Activation - blue - assault",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 41.75,
-        "LongSide": -19.75
+        "ShortSide": 48.25,
+        "LongSide": 3.25
       },
       {
         "Id": "Activation - blue - assault",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 40.5,
-        "LongSide": -19.75
+        "ShortSide": 49.5,
+        "LongSide": 3.25
       },
       {
         "Id": "Activation - blue - assault",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 39.25,
-        "LongSide": -19.75
+        "ShortSide": 50.75,
+        "LongSide": 3.25
       },
       {
         "Id": "Activation - blue - assault",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 38,
-        "LongSide": -19.75
-      },
-      {
-        "Id": "Buff",
-        "Type": "Token",
-        "Quadrant": 1,
-        "Rotation": 0,
-        "ShortSide": 43,
-        "LongSide": -17.25
+        "ShortSide": 52,
+        "LongSide": 3.25
       },
       {
         "Id": "Debuff",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 41.75,
-        "LongSide": -17.25
+        "ShortSide": 47,
+        "LongSide": 5.75
+      },
+      {
+        "Id": "Buff",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 47,
+        "LongSide": 7
       },
       {
         "Id": "Terran - blue",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 43,
-        "LongSide": -14.75
+        "ShortSide": 49.5,
+        "LongSide": 5.75
       },
       {
         "Id": "Terran - white",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 41.75,
-        "LongSide": -14.75
+        "ShortSide": 50.75,
+        "LongSide": 5.75
       },
       {
         "Id": "Protoss - yellow",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 40.5,
-        "LongSide": -14.75
+        "ShortSide": 52,
+        "LongSide": 5.75
       },
       {
         "Id": "Protoss - white",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 43,
-        "LongSide": -13.5
+        "ShortSide": 49.5,
+        "LongSide": 7
       },
       {
         "Id": "Zerg - purple",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 41.75,
-        "LongSide": -13.5
+        "ShortSide": 50.75,
+        "LongSide": 7
       },
       {
         "Id": "Zerg - white",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 40.5,
-        "LongSide": -13.5
+        "ShortSide": 52,
+        "LongSide": 7
       },
       {
         "Id": "Stim",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 43,
-        "LongSide": -11
-      },
-      {
-        "Id": "Stim",
-        "Type": "Token",
-        "Quadrant": 1,
-        "Rotation": 0,
-        "ShortSide": 41.75,
-        "LongSide": -11
+        "ShortSide": 47,
+        "LongSide": 9.5
       },
       {
         "Id": "Burrowed",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 43,
-        "LongSide": -9.75
-      },
-      {
-        "Id": "Burrowed",
-        "Type": "Token",
-        "Quadrant": 1,
-        "Rotation": 0,
-        "ShortSide": 41.75,
-        "LongSide": -9.75
+        "ShortSide": 48.25,
+        "LongSide": 9.5
       },
       {
         "Id": "Hidden",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 43,
-        "LongSide": -8.5
-      },
-      {
-        "Id": "Hidden",
-        "Type": "Token",
-        "Quadrant": 1,
-        "Rotation": 0,
-        "ShortSide": 41.75,
-        "LongSide": -8.5
+        "ShortSide": 49.5,
+        "LongSide": 9.5
       },
       {
         "Id": "Siege Status",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 43,
-        "LongSide": -7.25
-      },
-      {
-        "Id": "Siege Status",
-        "Type": "Token",
-        "Quadrant": 1,
-        "Rotation": 0,
-        "ShortSide": 41.75,
-        "LongSide": -7.25
+        "ShortSide": 50.75,
+        "LongSide": 9.5
       },
       {
         "Id": "Bile Bomb",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 43,
-        "LongSide": -6
-      },
-      {
-        "Id": "Bile Bomb",
-        "Type": "Token",
-        "Quadrant": 1,
-        "Rotation": 0,
-        "ShortSide": 41.75,
-        "LongSide": -6
+        "ShortSide": 47,
+        "LongSide": 10.75
       },
       {
         "Id": "Creep Tumor",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 43,
-        "LongSide": -4.75
-      },
-      {
-        "Id": "Creep Tumor",
-        "Type": "Token",
-        "Quadrant": 1,
-        "Rotation": 0,
-        "ShortSide": 41.75,
-        "LongSide": -4.75
+        "ShortSide": 48.25,
+        "LongSide": 10.75
       },
       {
         "Id": "Corrosive Bile",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 43,
-        "LongSide": -3.5
-      },
-      {
-        "Id": "Corrosive Bile",
-        "Type": "Token",
-        "Quadrant": 1,
-        "Rotation": 0,
-        "ShortSide": 41.75,
-        "LongSide": -3.5
+        "ShortSide": 49.5,
+        "LongSide": 10.75
       },
       {
         "Id": "Shield",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 43,
-        "LongSide": -2.25
-      },
-      {
-        "Id": "Shield",
-        "Type": "Token",
-        "Quadrant": 1,
-        "Rotation": 0,
-        "ShortSide": 41.75,
-        "LongSide": -2.25
+        "ShortSide": 50.75,
+        "LongSide": 10.75
       },
       {
         "Id": "Activation - red - movement",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 11,
-        "LongSide": 57
+        "ShortSide": 47,
+        "LongSide": 34
       },
       {
         "Id": "Activation - red - movement",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 12.25,
-        "LongSide": 57
+        "ShortSide": 48.25,
+        "LongSide": 34
       },
       {
         "Id": "Activation - red - movement",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 13.5,
-        "LongSide": 57
+        "ShortSide": 49.5,
+        "LongSide": 34
       },
       {
         "Id": "Activation - red - movement",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 14.75,
-        "LongSide": 57
+        "ShortSide": 50.75,
+        "LongSide": 34
       },
       {
         "Id": "Activation - red - movement",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 16,
-        "LongSide": 57
+        "ShortSide": 52,
+        "LongSide": 34
       },
       {
         "Id": "Activation - red - assault",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 11,
-        "LongSide": 55.75
+        "ShortSide": 47,
+        "LongSide": 32.75
       },
       {
         "Id": "Activation - red - assault",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 12.25,
-        "LongSide": 55.75
+        "ShortSide": 48.25,
+        "LongSide": 32.75
       },
       {
         "Id": "Activation - red - assault",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 13.5,
-        "LongSide": 55.75
+        "ShortSide": 49.5,
+        "LongSide": 32.75
       },
       {
         "Id": "Activation - red - assault",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 14.75,
-        "LongSide": 55.75
+        "ShortSide": 50.75,
+        "LongSide": 32.75
       },
       {
         "Id": "Activation - red - assault",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 16,
-        "LongSide": 55.75
-      },
-      {
-        "Id": "Buff",
-        "Type": "Token",
-        "Quadrant": 1,
-        "Rotation": 180,
-        "ShortSide": 11,
-        "LongSide": 53.25
+        "ShortSide": 52,
+        "LongSide": 32.75
       },
       {
         "Id": "Debuff",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 12.25,
-        "LongSide": 53.25
+        "ShortSide": 47,
+        "LongSide": 30.25
+      },
+      {
+        "Id": "Buff",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 47,
+        "LongSide": 29
       },
       {
         "Id": "Terran - blue",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 11,
-        "LongSide": 50.75
+        "ShortSide": 49.5,
+        "LongSide": 30.25
       },
       {
         "Id": "Terran - white",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 12.25,
-        "LongSide": 50.75
+        "ShortSide": 50.75,
+        "LongSide": 30.25
       },
       {
         "Id": "Protoss - yellow",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 13.5,
-        "LongSide": 50.75
+        "ShortSide": 52,
+        "LongSide": 30.25
       },
       {
         "Id": "Protoss - white",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 11,
-        "LongSide": 49.5
+        "ShortSide": 49.5,
+        "LongSide": 29
       },
       {
         "Id": "Zerg - purple",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 12.25,
-        "LongSide": 49.5
+        "ShortSide": 50.75,
+        "LongSide": 29
       },
       {
         "Id": "Zerg - white",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 13.5,
-        "LongSide": 49.5
+        "ShortSide": 52,
+        "LongSide": 29
       },
       {
         "Id": "Stim",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 11,
-        "LongSide": 47
-      },
-      {
-        "Id": "Stim",
-        "Type": "Token",
-        "Quadrant": 1,
-        "Rotation": 180,
-        "ShortSide": 12.25,
-        "LongSide": 47
+        "ShortSide": 47,
+        "LongSide": 26.5
       },
       {
         "Id": "Burrowed",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 11,
-        "LongSide": 45.75
-      },
-      {
-        "Id": "Burrowed",
-        "Type": "Token",
-        "Quadrant": 1,
-        "Rotation": 180,
-        "ShortSide": 12.25,
-        "LongSide": 45.75
+        "ShortSide": 48.25,
+        "LongSide": 26.5
       },
       {
         "Id": "Hidden",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 11,
-        "LongSide": 44.5
-      },
-      {
-        "Id": "Hidden",
-        "Type": "Token",
-        "Quadrant": 1,
-        "Rotation": 180,
-        "ShortSide": 12.25,
-        "LongSide": 44.5
+        "ShortSide": 49.5,
+        "LongSide": 26.5
       },
       {
         "Id": "Siege Status",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 11,
-        "LongSide": 43.25
-      },
-      {
-        "Id": "Siege Status",
-        "Type": "Token",
-        "Quadrant": 1,
-        "Rotation": 180,
-        "ShortSide": 12.25,
-        "LongSide": 43.25
+        "ShortSide": 50.75,
+        "LongSide": 26.5
       },
       {
         "Id": "Bile Bomb",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 11,
-        "LongSide": 42
-      },
-      {
-        "Id": "Bile Bomb",
-        "Type": "Token",
-        "Quadrant": 1,
-        "Rotation": 180,
-        "ShortSide": 12.25,
-        "LongSide": 42
+        "ShortSide": 47,
+        "LongSide": 25.25
       },
       {
         "Id": "Creep Tumor",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 11,
-        "LongSide": 40.75
-      },
-      {
-        "Id": "Creep Tumor",
-        "Type": "Token",
-        "Quadrant": 1,
-        "Rotation": 180,
-        "ShortSide": 12.25,
-        "LongSide": 40.75
+        "ShortSide": 48.25,
+        "LongSide": 25.25
       },
       {
         "Id": "Corrosive Bile",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 11,
-        "LongSide": 39.5
-      },
-      {
-        "Id": "Corrosive Bile",
-        "Type": "Token",
-        "Quadrant": 1,
-        "Rotation": 180,
-        "ShortSide": 12.25,
-        "LongSide": 39.5
+        "ShortSide": 49.5,
+        "LongSide": 25.25
       },
       {
         "Id": "Shield",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 11,
-        "LongSide": 38.25
-      },
-      {
-        "Id": "Shield",
-        "Type": "Token",
-        "Quadrant": 1,
-        "Rotation": 180,
-        "ShortSide": 12.25,
-        "LongSide": 38.25
+        "ShortSide": 50.75,
+        "LongSide": 25.25
       }
     ]
   },
@@ -6329,544 +5305,416 @@
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 43,
-        "LongSide": -21
+        "ShortSide": 47,
+        "LongSide": 2
       },
       {
         "Id": "Activation - blue - movement",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 41.75,
-        "LongSide": -21
+        "ShortSide": 48.25,
+        "LongSide": 2
       },
       {
         "Id": "Activation - blue - movement",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 40.5,
-        "LongSide": -21
+        "ShortSide": 49.5,
+        "LongSide": 2
       },
       {
         "Id": "Activation - blue - movement",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 39.25,
-        "LongSide": -21
+        "ShortSide": 50.75,
+        "LongSide": 2
       },
       {
         "Id": "Activation - blue - movement",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 38,
-        "LongSide": -21
+        "ShortSide": 52,
+        "LongSide": 2
       },
       {
         "Id": "Activation - blue - assault",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 43,
-        "LongSide": -19.75
+        "ShortSide": 47,
+        "LongSide": 3.25
       },
       {
         "Id": "Activation - blue - assault",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 41.75,
-        "LongSide": -19.75
+        "ShortSide": 48.25,
+        "LongSide": 3.25
       },
       {
         "Id": "Activation - blue - assault",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 40.5,
-        "LongSide": -19.75
+        "ShortSide": 49.5,
+        "LongSide": 3.25
       },
       {
         "Id": "Activation - blue - assault",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 39.25,
-        "LongSide": -19.75
+        "ShortSide": 50.75,
+        "LongSide": 3.25
       },
       {
         "Id": "Activation - blue - assault",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 38,
-        "LongSide": -19.75
-      },
-      {
-        "Id": "Buff",
-        "Type": "Token",
-        "Quadrant": 1,
-        "Rotation": 0,
-        "ShortSide": 43,
-        "LongSide": -17.25
+        "ShortSide": 52,
+        "LongSide": 3.25
       },
       {
         "Id": "Debuff",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 41.75,
-        "LongSide": -17.25
+        "ShortSide": 47,
+        "LongSide": 5.75
+      },
+      {
+        "Id": "Buff",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 47,
+        "LongSide": 7
       },
       {
         "Id": "Terran - blue",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 43,
-        "LongSide": -14.75
+        "ShortSide": 49.5,
+        "LongSide": 5.75
       },
       {
         "Id": "Terran - white",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 41.75,
-        "LongSide": -14.75
+        "ShortSide": 50.75,
+        "LongSide": 5.75
       },
       {
         "Id": "Protoss - yellow",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 40.5,
-        "LongSide": -14.75
+        "ShortSide": 52,
+        "LongSide": 5.75
       },
       {
         "Id": "Protoss - white",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 43,
-        "LongSide": -13.5
+        "ShortSide": 49.5,
+        "LongSide": 7
       },
       {
         "Id": "Zerg - purple",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 41.75,
-        "LongSide": -13.5
+        "ShortSide": 50.75,
+        "LongSide": 7
       },
       {
         "Id": "Zerg - white",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 40.5,
-        "LongSide": -13.5
+        "ShortSide": 52,
+        "LongSide": 7
       },
       {
         "Id": "Stim",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 43,
-        "LongSide": -11
-      },
-      {
-        "Id": "Stim",
-        "Type": "Token",
-        "Quadrant": 1,
-        "Rotation": 0,
-        "ShortSide": 41.75,
-        "LongSide": -11
+        "ShortSide": 47,
+        "LongSide": 9.5
       },
       {
         "Id": "Burrowed",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 43,
-        "LongSide": -9.75
-      },
-      {
-        "Id": "Burrowed",
-        "Type": "Token",
-        "Quadrant": 1,
-        "Rotation": 0,
-        "ShortSide": 41.75,
-        "LongSide": -9.75
+        "ShortSide": 48.25,
+        "LongSide": 9.5
       },
       {
         "Id": "Hidden",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 43,
-        "LongSide": -8.5
-      },
-      {
-        "Id": "Hidden",
-        "Type": "Token",
-        "Quadrant": 1,
-        "Rotation": 0,
-        "ShortSide": 41.75,
-        "LongSide": -8.5
+        "ShortSide": 49.5,
+        "LongSide": 9.5
       },
       {
         "Id": "Siege Status",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 43,
-        "LongSide": -7.25
-      },
-      {
-        "Id": "Siege Status",
-        "Type": "Token",
-        "Quadrant": 1,
-        "Rotation": 0,
-        "ShortSide": 41.75,
-        "LongSide": -7.25
+        "ShortSide": 50.75,
+        "LongSide": 9.5
       },
       {
         "Id": "Bile Bomb",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 43,
-        "LongSide": -6
-      },
-      {
-        "Id": "Bile Bomb",
-        "Type": "Token",
-        "Quadrant": 1,
-        "Rotation": 0,
-        "ShortSide": 41.75,
-        "LongSide": -6
+        "ShortSide": 47,
+        "LongSide": 10.75
       },
       {
         "Id": "Creep Tumor",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 43,
-        "LongSide": -4.75
-      },
-      {
-        "Id": "Creep Tumor",
-        "Type": "Token",
-        "Quadrant": 1,
-        "Rotation": 0,
-        "ShortSide": 41.75,
-        "LongSide": -4.75
+        "ShortSide": 48.25,
+        "LongSide": 10.75
       },
       {
         "Id": "Corrosive Bile",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 43,
-        "LongSide": -3.5
-      },
-      {
-        "Id": "Corrosive Bile",
-        "Type": "Token",
-        "Quadrant": 1,
-        "Rotation": 0,
-        "ShortSide": 41.75,
-        "LongSide": -3.5
+        "ShortSide": 49.5,
+        "LongSide": 10.75
       },
       {
         "Id": "Shield",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
-        "ShortSide": 43,
-        "LongSide": -2.25
-      },
-      {
-        "Id": "Shield",
-        "Type": "Token",
-        "Quadrant": 1,
-        "Rotation": 0,
-        "ShortSide": 41.75,
-        "LongSide": -2.25
+        "ShortSide": 50.75,
+        "LongSide": 10.75
       },
       {
         "Id": "Activation - red - movement",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 11,
-        "LongSide": 57
+        "ShortSide": 47,
+        "LongSide": 34
       },
       {
         "Id": "Activation - red - movement",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 12.25,
-        "LongSide": 57
+        "ShortSide": 48.25,
+        "LongSide": 34
       },
       {
         "Id": "Activation - red - movement",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 13.5,
-        "LongSide": 57
+        "ShortSide": 49.5,
+        "LongSide": 34
       },
       {
         "Id": "Activation - red - movement",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 14.75,
-        "LongSide": 57
+        "ShortSide": 50.75,
+        "LongSide": 34
       },
       {
         "Id": "Activation - red - movement",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 16,
-        "LongSide": 57
+        "ShortSide": 52,
+        "LongSide": 34
       },
       {
         "Id": "Activation - red - assault",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 11,
-        "LongSide": 55.75
+        "ShortSide": 47,
+        "LongSide": 32.75
       },
       {
         "Id": "Activation - red - assault",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 12.25,
-        "LongSide": 55.75
+        "ShortSide": 48.25,
+        "LongSide": 32.75
       },
       {
         "Id": "Activation - red - assault",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 13.5,
-        "LongSide": 55.75
+        "ShortSide": 49.5,
+        "LongSide": 32.75
       },
       {
         "Id": "Activation - red - assault",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 14.75,
-        "LongSide": 55.75
+        "ShortSide": 50.75,
+        "LongSide": 32.75
       },
       {
         "Id": "Activation - red - assault",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 16,
-        "LongSide": 55.75
-      },
-      {
-        "Id": "Buff",
-        "Type": "Token",
-        "Quadrant": 1,
-        "Rotation": 180,
-        "ShortSide": 11,
-        "LongSide": 53.25
+        "ShortSide": 52,
+        "LongSide": 32.75
       },
       {
         "Id": "Debuff",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 12.25,
-        "LongSide": 53.25
+        "ShortSide": 47,
+        "LongSide": 30.25
+      },
+      {
+        "Id": "Buff",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 47,
+        "LongSide": 29
       },
       {
         "Id": "Terran - blue",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 11,
-        "LongSide": 50.75
+        "ShortSide": 49.5,
+        "LongSide": 30.25
       },
       {
         "Id": "Terran - white",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 12.25,
-        "LongSide": 50.75
+        "ShortSide": 50.75,
+        "LongSide": 30.25
       },
       {
         "Id": "Protoss - yellow",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 13.5,
-        "LongSide": 50.75
+        "ShortSide": 52,
+        "LongSide": 30.25
       },
       {
         "Id": "Protoss - white",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 11,
-        "LongSide": 49.5
+        "ShortSide": 49.5,
+        "LongSide": 29
       },
       {
         "Id": "Zerg - purple",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 12.25,
-        "LongSide": 49.5
+        "ShortSide": 50.75,
+        "LongSide": 29
       },
       {
         "Id": "Zerg - white",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 13.5,
-        "LongSide": 49.5
+        "ShortSide": 52,
+        "LongSide": 29
       },
       {
         "Id": "Stim",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 11,
-        "LongSide": 47
-      },
-      {
-        "Id": "Stim",
-        "Type": "Token",
-        "Quadrant": 1,
-        "Rotation": 180,
-        "ShortSide": 12.25,
-        "LongSide": 47
+        "ShortSide": 47,
+        "LongSide": 26.5
       },
       {
         "Id": "Burrowed",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 11,
-        "LongSide": 45.75
-      },
-      {
-        "Id": "Burrowed",
-        "Type": "Token",
-        "Quadrant": 1,
-        "Rotation": 180,
-        "ShortSide": 12.25,
-        "LongSide": 45.75
+        "ShortSide": 48.25,
+        "LongSide": 26.5
       },
       {
         "Id": "Hidden",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 11,
-        "LongSide": 44.5
-      },
-      {
-        "Id": "Hidden",
-        "Type": "Token",
-        "Quadrant": 1,
-        "Rotation": 180,
-        "ShortSide": 12.25,
-        "LongSide": 44.5
+        "ShortSide": 49.5,
+        "LongSide": 26.5
       },
       {
         "Id": "Siege Status",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 11,
-        "LongSide": 43.25
-      },
-      {
-        "Id": "Siege Status",
-        "Type": "Token",
-        "Quadrant": 1,
-        "Rotation": 180,
-        "ShortSide": 12.25,
-        "LongSide": 43.25
+        "ShortSide": 50.75,
+        "LongSide": 26.5
       },
       {
         "Id": "Bile Bomb",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 11,
-        "LongSide": 42
-      },
-      {
-        "Id": "Bile Bomb",
-        "Type": "Token",
-        "Quadrant": 1,
-        "Rotation": 180,
-        "ShortSide": 12.25,
-        "LongSide": 42
+        "ShortSide": 47,
+        "LongSide": 25.25
       },
       {
         "Id": "Creep Tumor",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 11,
-        "LongSide": 40.75
-      },
-      {
-        "Id": "Creep Tumor",
-        "Type": "Token",
-        "Quadrant": 1,
-        "Rotation": 180,
-        "ShortSide": 12.25,
-        "LongSide": 40.75
+        "ShortSide": 48.25,
+        "LongSide": 25.25
       },
       {
         "Id": "Corrosive Bile",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 11,
-        "LongSide": 39.5
-      },
-      {
-        "Id": "Corrosive Bile",
-        "Type": "Token",
-        "Quadrant": 1,
-        "Rotation": 180,
-        "ShortSide": 12.25,
-        "LongSide": 39.5
+        "ShortSide": 49.5,
+        "LongSide": 25.25
       },
       {
         "Id": "Shield",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 11,
-        "LongSide": 38.25
-      },
-      {
-        "Id": "Shield",
-        "Type": "Token",
-        "Quadrant": 1,
-        "Rotation": 180,
-        "ShortSide": 12.25,
-        "LongSide": 38.25
+        "ShortSide": 50.75,
+        "LongSide": 25.25
       }
     ]
   }

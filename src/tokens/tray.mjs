@@ -16,21 +16,21 @@ export function tokenTrayPlacements({ width, height }) {
     );
     const groups = [
       { tokens: activation.flatMap(token => Array(5).fill(token)), columns: 5, row: 0 },
-      { tokens: buffs, columns: 2, row: 3 },
-      { tokens: factions, columns: 3, row: 5 },
-      { tokens: others.flatMap(token => [token, token]), columns: 2, row: 8 },
+      { tokens: [...buffs].reverse(), columns: 1, row: 3, column: 0 },
+      { tokens: factions, columns: 3, row: 3, column: 2 },
+      { tokens: others, columns: 4, row: 6, column: 0 },
     ];
     const direction = color === 'blue' ? 1 : -1;
     return groups.flatMap(group =>
       group.tokens.map((token, index) => {
-        const x = -width / 2 + 2 + (index % group.columns) * spacing;
-        const z = -height / 2 - 21 + (group.row + Math.floor(index / group.columns)) * spacing;
+        const x = width / 2 + 2 + ((group.column ?? 0) + (index % group.columns)) * spacing;
+        const z = -height / 2 + 2 + (group.row + Math.floor(index / group.columns)) * spacing;
         return {
           Id: token.name,
           Type: 'Token',
           Quadrant: 1,
           Rotation: color === 'blue' ? 0 : 180,
-          ShortSide: 27 - direction * x,
+          ShortSide: 27 + x,
           LongSide: 18 + direction * z,
         };
       }),
