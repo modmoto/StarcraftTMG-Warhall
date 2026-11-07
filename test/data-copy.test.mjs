@@ -1,5 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
+import { execFileSync } from 'node:child_process';
 import { cp, mkdtemp, readFile, rm, writeFile, access } from 'node:fs/promises';
 import os from 'node:os';
 import path from 'node:path';
@@ -19,11 +20,15 @@ test('live copy replaces stale files, copies assets and preserves the tested sou
   const sourceVersion = await readFile(path.join(source, 'version.json'), 'utf8');
   await writeFile(path.join(target, 'obsolete.json'), '{}');
   await writeFile(path.join(source, 'example.png'), Buffer.from([1, 2, 3]));
+  execFileSync('git', ['init', '-q'], { cwd: root });
+  execFileSync('git', ['add', 'Starcraft-test'], { cwd: root });
+  await writeFile(path.join(source, 'local-preview.png'), Buffer.from([4, 5, 6]));
   const version = await copyTestToLive(root);
   assert.equal(version, JSON.parse(sourceVersion).version + 1);
   assert.equal(await readFile(path.join(source, 'version.json'), 'utf8'), sourceVersion);
   assert.deepEqual(await readFile(path.join(target, 'example.png')), Buffer.from([1, 2, 3]));
   await assert.rejects(access(path.join(target, 'obsolete.json')));
+  await assert.rejects(access(path.join(target, 'local-preview.png')));
   const published = JSON.parse(await readFile(path.join(target, 'version.json'), 'utf8'));
   assert.equal(published.url, `${raw}main/Starcraft/manifest.json`);
   assert.equal(published.version, version);
