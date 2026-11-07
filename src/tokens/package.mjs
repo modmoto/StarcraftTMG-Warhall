@@ -2,7 +2,7 @@ import tokenMenuOrder from '../../token-menu-order.json' with { type: 'json' };
 import { tokenMenuId } from '../models/menu-ids.mjs';
 
 export const tokenDiameterMm = 25;
-export const factionColors = { Terran: '#2467d1', Protoss: '#e7be24', Zerg: '#9a44bd' };
+export const factionColors = { Terran: '#2467d1', Protoss: '#b68a20', Zerg: '#9a44bd' };
 
 export const tokenDefinitions = [
   ...['blue', 'red'].flatMap(color =>

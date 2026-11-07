@@ -7,7 +7,13 @@ export function tokenTrayPlacements({ width, height }) {
       ['activation_blue_arrow', 'activation_red_crosshair'].includes(token.id),
     );
     const buffs = tokenDefinitions.filter(token => ['buff', 'debuff'].includes(token.id));
-    const factions = tokenDefinitions.filter(token => token.id.startsWith('faction_'));
+    const factions = [false, true].flatMap(inverted =>
+      ['terran', 'protoss', 'zerg'].map(faction =>
+        tokenDefinitions.find(
+          token => token.id.startsWith(`faction_${faction}_`) && token.inverted === inverted,
+        ),
+      ),
+    );
     const others = tokenDefinitions.filter(
       token =>
         !token.id.startsWith('activation_') &&

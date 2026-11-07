@@ -62,7 +62,11 @@ export async function tokenImage(root, token) {
   const symbol = token.symbol;
   const accent = token.color;
   const background = token.inverted ? '#f7f6ee' : accent;
-  const ink = symbol === 'shield' ? '#83d4ff' : token.inverted ? accent : '#ffffff';
+  const ink = ['shield', 'hidden'].includes(symbol)
+    ? '#000000'
+    : token.inverted
+      ? accent
+      : '#ffffff';
   const logo = !symbols[symbol]
     ? await logoVector(root, symbol, ink, 'x="120" y="105" width="272" height="272"')
     : `<g color="${ink}" fill="${ink}">${symbols[symbol]}</g>`;
