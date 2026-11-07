@@ -5,7 +5,7 @@ This is the source-level integration of the locally tested Unity prototype. Copy
 ## Behavior
 
 - A simple left-click highlights/selects the entire Cloud unit. The broken-heart button therefore adds wounds to the unit and uses the existing profile threshold to remove models. No changes to the damage calculation are required.
-- Left-dragging a model switches the highlight/selection to that model only after the native drag threshold is crossed. Only that model moves; no double-click is needed. After dragging, a simple click selects the whole unit again for wound allocation.
+- Left-dragging a model switches the highlight/selection to that model only after the native drag threshold is crossed. Only that model moves; no double-click is needed. On release, the whole unit is automatically highlighted/selected again for wound allocation, without an extra click. This also applies after right-button leader movement; the leader and its radius remain unchanged.
 - Click a model and press **L** to select it as leader. Press **L** on the same model to disable leader mode.
 - Alternatively, right-press an owned model, hold and drag, then release. This selects the leader, moves it, and distributes its followers in one gesture. Right-click on empty ground retains camera rotation.
 - Only moving the leader redistributes the unit. Every model can still be dragged individually. The leader's circle persists until changed or disabled.
@@ -29,7 +29,7 @@ Add the following calls inside the existing methods, preserving their native bod
 | `CornerMarker.OnPhotonInstantiate(PhotonMessageInfo info)` | At the end, after `_myUnit` is resolved, `LeadingMovement.CaptureMarker(this);` |
 | `CornerMarker.OnMouseDown()` | First line `if (LeadingMovement.RestoreMarker(this)) return;` |
 
-`AfterInput` must run after the native input handling resets `CameraScrollInputAllowed`. It disables camera rotation only during the prototype's right-button drag. For source integration, a `try/finally` can cover all update exits.
+`AfterInput` must run after the native input handling resets `CameraScrollInputAllowed`. It disables camera rotation during the prototype's right-button drag and restores squad selection after native drag completion. For source integration, a `try/finally` can cover all update exits.
 
 ```csharp
 private void Update()
@@ -61,7 +61,8 @@ The integration order is essential:
 1. On mouse-down, call `Click(gameItem)` with the original Soldier, then map `gameItem` through `SelectionTarget` before assigning the native `_mouseDown`. This keeps the exact model for L while letting native selection target the Unit.
 2. In `Soldier.OnMouseDrag`, let `RequestDrag(this)` intercept supported model drags before the parent-unit forwarding branch.
 3. At the very start of `InputManager.StartDrag`, call `PrepareSingleDrag(this)` **before** copying `_mouseDrag` into `_dragItem`. It deselects the Unit, selects the remembered Soldier and rebuilds the drag list.
-4. Keep native wound handling unchanged. Right-button leader movement uses its own individual selection path; ordinary squad clicks must not clear the leader or its radius.
+4. At every `Soldier.EndDrag` exit, `Finish` queues the parent Unit for selection, including when a follower was moved or no redistribution occurred. `AfterInput` consumes that request after native input processing has finished. Do not change selection inside the native drag-item iteration: finish movement, recentering, synchronization and Undo recording first. Restore the leader radius after selecting the Unit.
+5. Keep native wound handling unchanged. Right-button leader movement uses its own individual selection path; ordinary squad clicks must not clear the leader or its radius.
 
 Use **Cloud/group formation with SoldierMagnet disabled**. The helper checks this before enabling a leader.
 
@@ -73,4 +74,6 @@ The triangle snapshot is captured when the marker is created. If no leader exist
 
 ## Checks before shipping
 
-Verify a plain click highlights the squad and broken-heart wounds remove models at the profile threshold; then verify dragging a follower moves only that follower. Verify L on/off, right-drag versus ground-camera drag, individual follower adjustment, 3/4-inch rules, reset after a leader change, and undo/redo in a two-client room. Escape/focus loss cancels right-drag. The local user tested the movement prototype, but full multiplayer, saved-game persistence and collision validation remain open. Integrate the shortcut through Warhall's input bindings, gate the feature by game system, and store state per game instead of the prototype's static state before general release.
+Verify a plain click highlights the squad and broken-heart wounds remove models at the profile threshold; then verify dragging a follower moves only that follower and release immediately reselects the squad. Check wounds immediately after both left-drag and right-drag, without another click. Verify L on/off, right-drag versus ground-camera drag, individual follower adjustment, 3/4-inch rules, reset after a leader change, and undo/redo in a two-client room. Escape/focus loss cancels right-drag. The local user tested the movement prototype, but full multiplayer, saved-game persistence and collision validation remain open. Integrate the shortcut through Warhall's input bindings, gate the feature by game system, and store state per game instead of the prototype's static state before general release.
+
+The automatic squad reselection on release is included in this developer example only; it has not been built into or interactively tested in the local prototype app.

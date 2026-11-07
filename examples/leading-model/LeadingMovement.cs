@@ -12,6 +12,7 @@ public static class LeadingMovement
     private static Soldier hovered;
     private static Soldier rightDrag;
     private static Soldier pendingDrag;
+    private static Unit selectionAfterDrag;
     private static Vector3 rightStart;
     private static Quaternion rightRotation;
     private static Vector3 rightOffset;
@@ -26,6 +27,16 @@ public static class LeadingMovement
     {
         if (rightDrag != null) input.CameraScrollInputAllowed = false;
         if (Input.GetMouseButtonUp(0)) pendingDrag = null;
+        if (selectionAfterDrag == null || rightDrag != null) return;
+        var unit = selectionAfterDrag;
+        selectionAfterDrag = null;
+        input.ForceSingleSeletion(unit);
+        if (leader != null && leader.GetParentUnit() == unit)
+        {
+            unit.ShowShapeDrawer(false);
+            leader.SetShapeDrawer(LeaderRangeInches(leader));
+            leader.ShowShapeDrawer(true);
+        }
     }
 
     public static GameItem SelectionTarget(GameItem item)
@@ -240,6 +251,7 @@ public static class LeadingMovement
 
     public static void Finish(Soldier model)
     {
+        if (Eligible(model)) selectionAfterDrag = model.GetParentUnit();
         if (model != leader || !dragging) return;
         dragging = false;
         var unit = model.GetParentUnit();
