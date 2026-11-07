@@ -3,9 +3,13 @@ import { tokenDefinitions } from './package.mjs';
 export function tokenTrayPlacements({ width, height }) {
   const spacing = 1.25;
   return ['blue', 'red'].flatMap(color => {
-    const activation = tokenDefinitions.filter(token =>
-      ['activation_blue_arrow', 'activation_red_crosshair'].includes(token.id),
-    );
+    const activation = [
+      ['activation_blue_arrow', 'activation_red_arrow'],
+      ['activation_red_crosshair', 'activation_blue_crosshair'],
+    ].flatMap(([primary, alternate]) => [
+      ...Array(5).fill(tokenDefinitions.find(token => token.id === primary)),
+      tokenDefinitions.find(token => token.id === alternate),
+    ]);
     const buffs = tokenDefinitions.filter(token => ['buff', 'debuff'].includes(token.id));
     const factions = [false, true].flatMap(inverted =>
       ['terran', 'protoss', 'zerg'].map(faction =>
@@ -21,7 +25,7 @@ export function tokenTrayPlacements({ width, height }) {
         !['buff', 'debuff'].includes(token.id),
     );
     const groups = [
-      { tokens: activation.flatMap(token => Array(5).fill(token)), columns: 5, row: 0 },
+      { tokens: activation, columns: 6, row: 0 },
       { tokens: [...buffs].reverse(), columns: 1, row: 3, column: 0 },
       { tokens: factions, columns: 3, row: 3, column: 2 },
       { tokens: others, columns: 4, row: 6, column: 0 },
