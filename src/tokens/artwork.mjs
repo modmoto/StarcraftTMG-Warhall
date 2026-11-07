@@ -62,7 +62,7 @@ export async function tokenImage(root, token) {
   const symbol = token.symbol;
   const accent = token.color;
   const background = token.inverted ? '#f7f6ee' : accent;
-  const ink = ['shield', 'hidden'].includes(symbol)
+  const ink = ['shield', 'hidden', 'stim'].includes(symbol)
     ? '#000000'
     : token.inverted
       ? accent

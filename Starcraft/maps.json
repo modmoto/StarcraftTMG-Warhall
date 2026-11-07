@@ -251,6 +251,422 @@
         "Rotation": 90,
         "ShortSide": -4.363560515200501,
         "LongSide": 18
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 56,
+        "LongSide": 2
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 57.25,
+        "LongSide": 2
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 58.5,
+        "LongSide": 2
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 59.75,
+        "LongSide": 2
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 61,
+        "LongSide": 2
+      },
+      {
+        "Id": "Activation - red - assault",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 56,
+        "LongSide": 3.25
+      },
+      {
+        "Id": "Activation - red - assault",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 57.25,
+        "LongSide": 3.25
+      },
+      {
+        "Id": "Activation - red - assault",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 58.5,
+        "LongSide": 3.25
+      },
+      {
+        "Id": "Activation - red - assault",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 59.75,
+        "LongSide": 3.25
+      },
+      {
+        "Id": "Activation - red - assault",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 61,
+        "LongSide": 3.25
+      },
+      {
+        "Id": "Debuff",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 56,
+        "LongSide": 5.75
+      },
+      {
+        "Id": "Buff",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 56,
+        "LongSide": 7
+      },
+      {
+        "Id": "Terran - blue",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 58.5,
+        "LongSide": 5.75
+      },
+      {
+        "Id": "Protoss - yellow",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 60,
+        "LongSide": 5.75
+      },
+      {
+        "Id": "Zerg - purple",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 61.5,
+        "LongSide": 5.75
+      },
+      {
+        "Id": "Terran - white",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 58.5,
+        "LongSide": 7.25
+      },
+      {
+        "Id": "Protoss - white",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 60,
+        "LongSide": 7.25
+      },
+      {
+        "Id": "Zerg - white",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 61.5,
+        "LongSide": 7.25
+      },
+      {
+        "Id": "Stim",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 56,
+        "LongSide": 9.5
+      },
+      {
+        "Id": "Burrowed",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 57.25,
+        "LongSide": 9.5
+      },
+      {
+        "Id": "Hidden",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 58.5,
+        "LongSide": 9.5
+      },
+      {
+        "Id": "Siege Status",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 59.75,
+        "LongSide": 9.5
+      },
+      {
+        "Id": "Bile Bomb",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 56,
+        "LongSide": 10.75
+      },
+      {
+        "Id": "Creep Tumor",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 57.25,
+        "LongSide": 10.75
+      },
+      {
+        "Id": "Corrosive Bile",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 58.5,
+        "LongSide": 10.75
+      },
+      {
+        "Id": "Shield",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 59.75,
+        "LongSide": 10.75
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 56,
+        "LongSide": 34
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 57.25,
+        "LongSide": 34
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 58.5,
+        "LongSide": 34
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 59.75,
+        "LongSide": 34
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 61,
+        "LongSide": 34
+      },
+      {
+        "Id": "Activation - red - assault",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 56,
+        "LongSide": 32.75
+      },
+      {
+        "Id": "Activation - red - assault",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 57.25,
+        "LongSide": 32.75
+      },
+      {
+        "Id": "Activation - red - assault",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 58.5,
+        "LongSide": 32.75
+      },
+      {
+        "Id": "Activation - red - assault",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 59.75,
+        "LongSide": 32.75
+      },
+      {
+        "Id": "Activation - red - assault",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 61,
+        "LongSide": 32.75
+      },
+      {
+        "Id": "Debuff",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 56,
+        "LongSide": 30.25
+      },
+      {
+        "Id": "Buff",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 56,
+        "LongSide": 29
+      },
+      {
+        "Id": "Terran - blue",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 58.5,
+        "LongSide": 30.25
+      },
+      {
+        "Id": "Protoss - yellow",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 60,
+        "LongSide": 30.25
+      },
+      {
+        "Id": "Zerg - purple",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 61.5,
+        "LongSide": 30.25
+      },
+      {
+        "Id": "Terran - white",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 58.5,
+        "LongSide": 28.75
+      },
+      {
+        "Id": "Protoss - white",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 60,
+        "LongSide": 28.75
+      },
+      {
+        "Id": "Zerg - white",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 61.5,
+        "LongSide": 28.75
+      },
+      {
+        "Id": "Stim",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 56,
+        "LongSide": 26.5
+      },
+      {
+        "Id": "Burrowed",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 57.25,
+        "LongSide": 26.5
+      },
+      {
+        "Id": "Hidden",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 58.5,
+        "LongSide": 26.5
+      },
+      {
+        "Id": "Siege Status",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 59.75,
+        "LongSide": 26.5
+      },
+      {
+        "Id": "Bile Bomb",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 56,
+        "LongSide": 25.25
+      },
+      {
+        "Id": "Creep Tumor",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 57.25,
+        "LongSide": 25.25
+      },
+      {
+        "Id": "Corrosive Bile",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 58.5,
+        "LongSide": 25.25
+      },
+      {
+        "Id": "Shield",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 59.75,
+        "LongSide": 25.25
       }
     ]
   },
@@ -506,6 +922,422 @@
         "Rotation": 90,
         "ShortSide": -4.363560515200501,
         "LongSide": 18
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 56,
+        "LongSide": 2
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 57.25,
+        "LongSide": 2
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 58.5,
+        "LongSide": 2
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 59.75,
+        "LongSide": 2
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 61,
+        "LongSide": 2
+      },
+      {
+        "Id": "Activation - red - assault",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 56,
+        "LongSide": 3.25
+      },
+      {
+        "Id": "Activation - red - assault",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 57.25,
+        "LongSide": 3.25
+      },
+      {
+        "Id": "Activation - red - assault",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 58.5,
+        "LongSide": 3.25
+      },
+      {
+        "Id": "Activation - red - assault",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 59.75,
+        "LongSide": 3.25
+      },
+      {
+        "Id": "Activation - red - assault",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 61,
+        "LongSide": 3.25
+      },
+      {
+        "Id": "Debuff",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 56,
+        "LongSide": 5.75
+      },
+      {
+        "Id": "Buff",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 56,
+        "LongSide": 7
+      },
+      {
+        "Id": "Terran - blue",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 58.5,
+        "LongSide": 5.75
+      },
+      {
+        "Id": "Protoss - yellow",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 60,
+        "LongSide": 5.75
+      },
+      {
+        "Id": "Zerg - purple",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 61.5,
+        "LongSide": 5.75
+      },
+      {
+        "Id": "Terran - white",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 58.5,
+        "LongSide": 7.25
+      },
+      {
+        "Id": "Protoss - white",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 60,
+        "LongSide": 7.25
+      },
+      {
+        "Id": "Zerg - white",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 61.5,
+        "LongSide": 7.25
+      },
+      {
+        "Id": "Stim",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 56,
+        "LongSide": 9.5
+      },
+      {
+        "Id": "Burrowed",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 57.25,
+        "LongSide": 9.5
+      },
+      {
+        "Id": "Hidden",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 58.5,
+        "LongSide": 9.5
+      },
+      {
+        "Id": "Siege Status",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 59.75,
+        "LongSide": 9.5
+      },
+      {
+        "Id": "Bile Bomb",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 56,
+        "LongSide": 10.75
+      },
+      {
+        "Id": "Creep Tumor",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 57.25,
+        "LongSide": 10.75
+      },
+      {
+        "Id": "Corrosive Bile",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 58.5,
+        "LongSide": 10.75
+      },
+      {
+        "Id": "Shield",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 59.75,
+        "LongSide": 10.75
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 56,
+        "LongSide": 34
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 57.25,
+        "LongSide": 34
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 58.5,
+        "LongSide": 34
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 59.75,
+        "LongSide": 34
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 61,
+        "LongSide": 34
+      },
+      {
+        "Id": "Activation - red - assault",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 56,
+        "LongSide": 32.75
+      },
+      {
+        "Id": "Activation - red - assault",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 57.25,
+        "LongSide": 32.75
+      },
+      {
+        "Id": "Activation - red - assault",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 58.5,
+        "LongSide": 32.75
+      },
+      {
+        "Id": "Activation - red - assault",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 59.75,
+        "LongSide": 32.75
+      },
+      {
+        "Id": "Activation - red - assault",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 61,
+        "LongSide": 32.75
+      },
+      {
+        "Id": "Debuff",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 56,
+        "LongSide": 30.25
+      },
+      {
+        "Id": "Buff",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 56,
+        "LongSide": 29
+      },
+      {
+        "Id": "Terran - blue",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 58.5,
+        "LongSide": 30.25
+      },
+      {
+        "Id": "Protoss - yellow",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 60,
+        "LongSide": 30.25
+      },
+      {
+        "Id": "Zerg - purple",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 61.5,
+        "LongSide": 30.25
+      },
+      {
+        "Id": "Terran - white",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 58.5,
+        "LongSide": 28.75
+      },
+      {
+        "Id": "Protoss - white",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 60,
+        "LongSide": 28.75
+      },
+      {
+        "Id": "Zerg - white",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 61.5,
+        "LongSide": 28.75
+      },
+      {
+        "Id": "Stim",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 56,
+        "LongSide": 26.5
+      },
+      {
+        "Id": "Burrowed",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 57.25,
+        "LongSide": 26.5
+      },
+      {
+        "Id": "Hidden",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 58.5,
+        "LongSide": 26.5
+      },
+      {
+        "Id": "Siege Status",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 59.75,
+        "LongSide": 26.5
+      },
+      {
+        "Id": "Bile Bomb",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 56,
+        "LongSide": 25.25
+      },
+      {
+        "Id": "Creep Tumor",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 57.25,
+        "LongSide": 25.25
+      },
+      {
+        "Id": "Corrosive Bile",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 58.5,
+        "LongSide": 25.25
+      },
+      {
+        "Id": "Shield",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 59.75,
+        "LongSide": 25.25
       }
     ]
   },
@@ -761,6 +1593,422 @@
         "Rotation": 90,
         "ShortSide": -4.363560515200501,
         "LongSide": 18
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 56,
+        "LongSide": 2
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 57.25,
+        "LongSide": 2
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 58.5,
+        "LongSide": 2
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 59.75,
+        "LongSide": 2
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 61,
+        "LongSide": 2
+      },
+      {
+        "Id": "Activation - red - assault",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 56,
+        "LongSide": 3.25
+      },
+      {
+        "Id": "Activation - red - assault",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 57.25,
+        "LongSide": 3.25
+      },
+      {
+        "Id": "Activation - red - assault",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 58.5,
+        "LongSide": 3.25
+      },
+      {
+        "Id": "Activation - red - assault",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 59.75,
+        "LongSide": 3.25
+      },
+      {
+        "Id": "Activation - red - assault",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 61,
+        "LongSide": 3.25
+      },
+      {
+        "Id": "Debuff",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 56,
+        "LongSide": 5.75
+      },
+      {
+        "Id": "Buff",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 56,
+        "LongSide": 7
+      },
+      {
+        "Id": "Terran - blue",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 58.5,
+        "LongSide": 5.75
+      },
+      {
+        "Id": "Protoss - yellow",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 60,
+        "LongSide": 5.75
+      },
+      {
+        "Id": "Zerg - purple",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 61.5,
+        "LongSide": 5.75
+      },
+      {
+        "Id": "Terran - white",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 58.5,
+        "LongSide": 7.25
+      },
+      {
+        "Id": "Protoss - white",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 60,
+        "LongSide": 7.25
+      },
+      {
+        "Id": "Zerg - white",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 61.5,
+        "LongSide": 7.25
+      },
+      {
+        "Id": "Stim",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 56,
+        "LongSide": 9.5
+      },
+      {
+        "Id": "Burrowed",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 57.25,
+        "LongSide": 9.5
+      },
+      {
+        "Id": "Hidden",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 58.5,
+        "LongSide": 9.5
+      },
+      {
+        "Id": "Siege Status",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 59.75,
+        "LongSide": 9.5
+      },
+      {
+        "Id": "Bile Bomb",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 56,
+        "LongSide": 10.75
+      },
+      {
+        "Id": "Creep Tumor",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 57.25,
+        "LongSide": 10.75
+      },
+      {
+        "Id": "Corrosive Bile",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 58.5,
+        "LongSide": 10.75
+      },
+      {
+        "Id": "Shield",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 59.75,
+        "LongSide": 10.75
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 56,
+        "LongSide": 34
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 57.25,
+        "LongSide": 34
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 58.5,
+        "LongSide": 34
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 59.75,
+        "LongSide": 34
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 61,
+        "LongSide": 34
+      },
+      {
+        "Id": "Activation - red - assault",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 56,
+        "LongSide": 32.75
+      },
+      {
+        "Id": "Activation - red - assault",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 57.25,
+        "LongSide": 32.75
+      },
+      {
+        "Id": "Activation - red - assault",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 58.5,
+        "LongSide": 32.75
+      },
+      {
+        "Id": "Activation - red - assault",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 59.75,
+        "LongSide": 32.75
+      },
+      {
+        "Id": "Activation - red - assault",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 61,
+        "LongSide": 32.75
+      },
+      {
+        "Id": "Debuff",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 56,
+        "LongSide": 30.25
+      },
+      {
+        "Id": "Buff",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 56,
+        "LongSide": 29
+      },
+      {
+        "Id": "Terran - blue",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 58.5,
+        "LongSide": 30.25
+      },
+      {
+        "Id": "Protoss - yellow",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 60,
+        "LongSide": 30.25
+      },
+      {
+        "Id": "Zerg - purple",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 61.5,
+        "LongSide": 30.25
+      },
+      {
+        "Id": "Terran - white",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 58.5,
+        "LongSide": 28.75
+      },
+      {
+        "Id": "Protoss - white",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 60,
+        "LongSide": 28.75
+      },
+      {
+        "Id": "Zerg - white",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 61.5,
+        "LongSide": 28.75
+      },
+      {
+        "Id": "Stim",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 56,
+        "LongSide": 26.5
+      },
+      {
+        "Id": "Burrowed",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 57.25,
+        "LongSide": 26.5
+      },
+      {
+        "Id": "Hidden",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 58.5,
+        "LongSide": 26.5
+      },
+      {
+        "Id": "Siege Status",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 59.75,
+        "LongSide": 26.5
+      },
+      {
+        "Id": "Bile Bomb",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 56,
+        "LongSide": 25.25
+      },
+      {
+        "Id": "Creep Tumor",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 57.25,
+        "LongSide": 25.25
+      },
+      {
+        "Id": "Corrosive Bile",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 58.5,
+        "LongSide": 25.25
+      },
+      {
+        "Id": "Shield",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 59.75,
+        "LongSide": 25.25
       }
     ]
   },
@@ -1016,6 +2264,422 @@
         "Rotation": 90,
         "ShortSide": -4.363560515200501,
         "LongSide": 18
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 56,
+        "LongSide": 2
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 57.25,
+        "LongSide": 2
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 58.5,
+        "LongSide": 2
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 59.75,
+        "LongSide": 2
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 61,
+        "LongSide": 2
+      },
+      {
+        "Id": "Activation - red - assault",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 56,
+        "LongSide": 3.25
+      },
+      {
+        "Id": "Activation - red - assault",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 57.25,
+        "LongSide": 3.25
+      },
+      {
+        "Id": "Activation - red - assault",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 58.5,
+        "LongSide": 3.25
+      },
+      {
+        "Id": "Activation - red - assault",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 59.75,
+        "LongSide": 3.25
+      },
+      {
+        "Id": "Activation - red - assault",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 61,
+        "LongSide": 3.25
+      },
+      {
+        "Id": "Debuff",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 56,
+        "LongSide": 5.75
+      },
+      {
+        "Id": "Buff",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 56,
+        "LongSide": 7
+      },
+      {
+        "Id": "Terran - blue",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 58.5,
+        "LongSide": 5.75
+      },
+      {
+        "Id": "Protoss - yellow",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 60,
+        "LongSide": 5.75
+      },
+      {
+        "Id": "Zerg - purple",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 61.5,
+        "LongSide": 5.75
+      },
+      {
+        "Id": "Terran - white",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 58.5,
+        "LongSide": 7.25
+      },
+      {
+        "Id": "Protoss - white",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 60,
+        "LongSide": 7.25
+      },
+      {
+        "Id": "Zerg - white",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 61.5,
+        "LongSide": 7.25
+      },
+      {
+        "Id": "Stim",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 56,
+        "LongSide": 9.5
+      },
+      {
+        "Id": "Burrowed",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 57.25,
+        "LongSide": 9.5
+      },
+      {
+        "Id": "Hidden",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 58.5,
+        "LongSide": 9.5
+      },
+      {
+        "Id": "Siege Status",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 59.75,
+        "LongSide": 9.5
+      },
+      {
+        "Id": "Bile Bomb",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 56,
+        "LongSide": 10.75
+      },
+      {
+        "Id": "Creep Tumor",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 57.25,
+        "LongSide": 10.75
+      },
+      {
+        "Id": "Corrosive Bile",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 58.5,
+        "LongSide": 10.75
+      },
+      {
+        "Id": "Shield",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 59.75,
+        "LongSide": 10.75
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 56,
+        "LongSide": 34
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 57.25,
+        "LongSide": 34
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 58.5,
+        "LongSide": 34
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 59.75,
+        "LongSide": 34
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 61,
+        "LongSide": 34
+      },
+      {
+        "Id": "Activation - red - assault",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 56,
+        "LongSide": 32.75
+      },
+      {
+        "Id": "Activation - red - assault",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 57.25,
+        "LongSide": 32.75
+      },
+      {
+        "Id": "Activation - red - assault",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 58.5,
+        "LongSide": 32.75
+      },
+      {
+        "Id": "Activation - red - assault",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 59.75,
+        "LongSide": 32.75
+      },
+      {
+        "Id": "Activation - red - assault",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 61,
+        "LongSide": 32.75
+      },
+      {
+        "Id": "Debuff",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 56,
+        "LongSide": 30.25
+      },
+      {
+        "Id": "Buff",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 56,
+        "LongSide": 29
+      },
+      {
+        "Id": "Terran - blue",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 58.5,
+        "LongSide": 30.25
+      },
+      {
+        "Id": "Protoss - yellow",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 60,
+        "LongSide": 30.25
+      },
+      {
+        "Id": "Zerg - purple",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 61.5,
+        "LongSide": 30.25
+      },
+      {
+        "Id": "Terran - white",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 58.5,
+        "LongSide": 28.75
+      },
+      {
+        "Id": "Protoss - white",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 60,
+        "LongSide": 28.75
+      },
+      {
+        "Id": "Zerg - white",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 61.5,
+        "LongSide": 28.75
+      },
+      {
+        "Id": "Stim",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 56,
+        "LongSide": 26.5
+      },
+      {
+        "Id": "Burrowed",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 57.25,
+        "LongSide": 26.5
+      },
+      {
+        "Id": "Hidden",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 58.5,
+        "LongSide": 26.5
+      },
+      {
+        "Id": "Siege Status",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 59.75,
+        "LongSide": 26.5
+      },
+      {
+        "Id": "Bile Bomb",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 56,
+        "LongSide": 25.25
+      },
+      {
+        "Id": "Creep Tumor",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 57.25,
+        "LongSide": 25.25
+      },
+      {
+        "Id": "Corrosive Bile",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 58.5,
+        "LongSide": 25.25
+      },
+      {
+        "Id": "Shield",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 59.75,
+        "LongSide": 25.25
       }
     ]
   },
@@ -1287,6 +2951,422 @@
         "Rotation": 90,
         "ShortSide": -4.363560515200501,
         "LongSide": 18
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 56,
+        "LongSide": 2
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 57.25,
+        "LongSide": 2
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 58.5,
+        "LongSide": 2
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 59.75,
+        "LongSide": 2
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 61,
+        "LongSide": 2
+      },
+      {
+        "Id": "Activation - red - assault",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 56,
+        "LongSide": 3.25
+      },
+      {
+        "Id": "Activation - red - assault",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 57.25,
+        "LongSide": 3.25
+      },
+      {
+        "Id": "Activation - red - assault",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 58.5,
+        "LongSide": 3.25
+      },
+      {
+        "Id": "Activation - red - assault",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 59.75,
+        "LongSide": 3.25
+      },
+      {
+        "Id": "Activation - red - assault",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 61,
+        "LongSide": 3.25
+      },
+      {
+        "Id": "Debuff",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 56,
+        "LongSide": 5.75
+      },
+      {
+        "Id": "Buff",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 56,
+        "LongSide": 7
+      },
+      {
+        "Id": "Terran - blue",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 58.5,
+        "LongSide": 5.75
+      },
+      {
+        "Id": "Protoss - yellow",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 60,
+        "LongSide": 5.75
+      },
+      {
+        "Id": "Zerg - purple",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 61.5,
+        "LongSide": 5.75
+      },
+      {
+        "Id": "Terran - white",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 58.5,
+        "LongSide": 7.25
+      },
+      {
+        "Id": "Protoss - white",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 60,
+        "LongSide": 7.25
+      },
+      {
+        "Id": "Zerg - white",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 61.5,
+        "LongSide": 7.25
+      },
+      {
+        "Id": "Stim",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 56,
+        "LongSide": 9.5
+      },
+      {
+        "Id": "Burrowed",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 57.25,
+        "LongSide": 9.5
+      },
+      {
+        "Id": "Hidden",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 58.5,
+        "LongSide": 9.5
+      },
+      {
+        "Id": "Siege Status",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 59.75,
+        "LongSide": 9.5
+      },
+      {
+        "Id": "Bile Bomb",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 56,
+        "LongSide": 10.75
+      },
+      {
+        "Id": "Creep Tumor",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 57.25,
+        "LongSide": 10.75
+      },
+      {
+        "Id": "Corrosive Bile",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 58.5,
+        "LongSide": 10.75
+      },
+      {
+        "Id": "Shield",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 59.75,
+        "LongSide": 10.75
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 56,
+        "LongSide": 34
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 57.25,
+        "LongSide": 34
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 58.5,
+        "LongSide": 34
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 59.75,
+        "LongSide": 34
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 61,
+        "LongSide": 34
+      },
+      {
+        "Id": "Activation - red - assault",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 56,
+        "LongSide": 32.75
+      },
+      {
+        "Id": "Activation - red - assault",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 57.25,
+        "LongSide": 32.75
+      },
+      {
+        "Id": "Activation - red - assault",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 58.5,
+        "LongSide": 32.75
+      },
+      {
+        "Id": "Activation - red - assault",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 59.75,
+        "LongSide": 32.75
+      },
+      {
+        "Id": "Activation - red - assault",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 61,
+        "LongSide": 32.75
+      },
+      {
+        "Id": "Debuff",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 56,
+        "LongSide": 30.25
+      },
+      {
+        "Id": "Buff",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 56,
+        "LongSide": 29
+      },
+      {
+        "Id": "Terran - blue",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 58.5,
+        "LongSide": 30.25
+      },
+      {
+        "Id": "Protoss - yellow",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 60,
+        "LongSide": 30.25
+      },
+      {
+        "Id": "Zerg - purple",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 61.5,
+        "LongSide": 30.25
+      },
+      {
+        "Id": "Terran - white",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 58.5,
+        "LongSide": 28.75
+      },
+      {
+        "Id": "Protoss - white",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 60,
+        "LongSide": 28.75
+      },
+      {
+        "Id": "Zerg - white",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 61.5,
+        "LongSide": 28.75
+      },
+      {
+        "Id": "Stim",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 56,
+        "LongSide": 26.5
+      },
+      {
+        "Id": "Burrowed",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 57.25,
+        "LongSide": 26.5
+      },
+      {
+        "Id": "Hidden",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 58.5,
+        "LongSide": 26.5
+      },
+      {
+        "Id": "Siege Status",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 59.75,
+        "LongSide": 26.5
+      },
+      {
+        "Id": "Bile Bomb",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 56,
+        "LongSide": 25.25
+      },
+      {
+        "Id": "Creep Tumor",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 57.25,
+        "LongSide": 25.25
+      },
+      {
+        "Id": "Corrosive Bile",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 58.5,
+        "LongSide": 25.25
+      },
+      {
+        "Id": "Shield",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 59.75,
+        "LongSide": 25.25
       }
     ]
   },
@@ -1558,6 +3638,422 @@
         "Rotation": 90,
         "ShortSide": -4.363560515200501,
         "LongSide": 18
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 56,
+        "LongSide": 2
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 57.25,
+        "LongSide": 2
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 58.5,
+        "LongSide": 2
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 59.75,
+        "LongSide": 2
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 61,
+        "LongSide": 2
+      },
+      {
+        "Id": "Activation - red - assault",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 56,
+        "LongSide": 3.25
+      },
+      {
+        "Id": "Activation - red - assault",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 57.25,
+        "LongSide": 3.25
+      },
+      {
+        "Id": "Activation - red - assault",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 58.5,
+        "LongSide": 3.25
+      },
+      {
+        "Id": "Activation - red - assault",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 59.75,
+        "LongSide": 3.25
+      },
+      {
+        "Id": "Activation - red - assault",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 61,
+        "LongSide": 3.25
+      },
+      {
+        "Id": "Debuff",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 56,
+        "LongSide": 5.75
+      },
+      {
+        "Id": "Buff",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 56,
+        "LongSide": 7
+      },
+      {
+        "Id": "Terran - blue",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 58.5,
+        "LongSide": 5.75
+      },
+      {
+        "Id": "Protoss - yellow",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 60,
+        "LongSide": 5.75
+      },
+      {
+        "Id": "Zerg - purple",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 61.5,
+        "LongSide": 5.75
+      },
+      {
+        "Id": "Terran - white",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 58.5,
+        "LongSide": 7.25
+      },
+      {
+        "Id": "Protoss - white",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 60,
+        "LongSide": 7.25
+      },
+      {
+        "Id": "Zerg - white",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 61.5,
+        "LongSide": 7.25
+      },
+      {
+        "Id": "Stim",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 56,
+        "LongSide": 9.5
+      },
+      {
+        "Id": "Burrowed",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 57.25,
+        "LongSide": 9.5
+      },
+      {
+        "Id": "Hidden",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 58.5,
+        "LongSide": 9.5
+      },
+      {
+        "Id": "Siege Status",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 59.75,
+        "LongSide": 9.5
+      },
+      {
+        "Id": "Bile Bomb",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 56,
+        "LongSide": 10.75
+      },
+      {
+        "Id": "Creep Tumor",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 57.25,
+        "LongSide": 10.75
+      },
+      {
+        "Id": "Corrosive Bile",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 58.5,
+        "LongSide": 10.75
+      },
+      {
+        "Id": "Shield",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 59.75,
+        "LongSide": 10.75
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 56,
+        "LongSide": 34
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 57.25,
+        "LongSide": 34
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 58.5,
+        "LongSide": 34
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 59.75,
+        "LongSide": 34
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 61,
+        "LongSide": 34
+      },
+      {
+        "Id": "Activation - red - assault",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 56,
+        "LongSide": 32.75
+      },
+      {
+        "Id": "Activation - red - assault",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 57.25,
+        "LongSide": 32.75
+      },
+      {
+        "Id": "Activation - red - assault",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 58.5,
+        "LongSide": 32.75
+      },
+      {
+        "Id": "Activation - red - assault",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 59.75,
+        "LongSide": 32.75
+      },
+      {
+        "Id": "Activation - red - assault",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 61,
+        "LongSide": 32.75
+      },
+      {
+        "Id": "Debuff",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 56,
+        "LongSide": 30.25
+      },
+      {
+        "Id": "Buff",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 56,
+        "LongSide": 29
+      },
+      {
+        "Id": "Terran - blue",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 58.5,
+        "LongSide": 30.25
+      },
+      {
+        "Id": "Protoss - yellow",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 60,
+        "LongSide": 30.25
+      },
+      {
+        "Id": "Zerg - purple",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 61.5,
+        "LongSide": 30.25
+      },
+      {
+        "Id": "Terran - white",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 58.5,
+        "LongSide": 28.75
+      },
+      {
+        "Id": "Protoss - white",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 60,
+        "LongSide": 28.75
+      },
+      {
+        "Id": "Zerg - white",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 61.5,
+        "LongSide": 28.75
+      },
+      {
+        "Id": "Stim",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 56,
+        "LongSide": 26.5
+      },
+      {
+        "Id": "Burrowed",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 57.25,
+        "LongSide": 26.5
+      },
+      {
+        "Id": "Hidden",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 58.5,
+        "LongSide": 26.5
+      },
+      {
+        "Id": "Siege Status",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 59.75,
+        "LongSide": 26.5
+      },
+      {
+        "Id": "Bile Bomb",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 56,
+        "LongSide": 25.25
+      },
+      {
+        "Id": "Creep Tumor",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 57.25,
+        "LongSide": 25.25
+      },
+      {
+        "Id": "Corrosive Bile",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 58.5,
+        "LongSide": 25.25
+      },
+      {
+        "Id": "Shield",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 59.75,
+        "LongSide": 25.25
       }
     ]
   },
@@ -1693,6 +4189,422 @@
         "Rotation": 90,
         "ShortSide": 4.636439484799499,
         "LongSide": 18
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 47,
+        "LongSide": 2
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 48.25,
+        "LongSide": 2
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 49.5,
+        "LongSide": 2
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 50.75,
+        "LongSide": 2
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 52,
+        "LongSide": 2
+      },
+      {
+        "Id": "Activation - red - assault",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 47,
+        "LongSide": 3.25
+      },
+      {
+        "Id": "Activation - red - assault",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 48.25,
+        "LongSide": 3.25
+      },
+      {
+        "Id": "Activation - red - assault",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 49.5,
+        "LongSide": 3.25
+      },
+      {
+        "Id": "Activation - red - assault",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 50.75,
+        "LongSide": 3.25
+      },
+      {
+        "Id": "Activation - red - assault",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 52,
+        "LongSide": 3.25
+      },
+      {
+        "Id": "Debuff",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 47,
+        "LongSide": 5.75
+      },
+      {
+        "Id": "Buff",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 47,
+        "LongSide": 7
+      },
+      {
+        "Id": "Terran - blue",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 49.5,
+        "LongSide": 5.75
+      },
+      {
+        "Id": "Protoss - yellow",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 51,
+        "LongSide": 5.75
+      },
+      {
+        "Id": "Zerg - purple",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 52.5,
+        "LongSide": 5.75
+      },
+      {
+        "Id": "Terran - white",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 49.5,
+        "LongSide": 7.25
+      },
+      {
+        "Id": "Protoss - white",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 51,
+        "LongSide": 7.25
+      },
+      {
+        "Id": "Zerg - white",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 52.5,
+        "LongSide": 7.25
+      },
+      {
+        "Id": "Stim",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 47,
+        "LongSide": 9.5
+      },
+      {
+        "Id": "Burrowed",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 48.25,
+        "LongSide": 9.5
+      },
+      {
+        "Id": "Hidden",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 49.5,
+        "LongSide": 9.5
+      },
+      {
+        "Id": "Siege Status",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 50.75,
+        "LongSide": 9.5
+      },
+      {
+        "Id": "Bile Bomb",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 47,
+        "LongSide": 10.75
+      },
+      {
+        "Id": "Creep Tumor",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 48.25,
+        "LongSide": 10.75
+      },
+      {
+        "Id": "Corrosive Bile",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 49.5,
+        "LongSide": 10.75
+      },
+      {
+        "Id": "Shield",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 50.75,
+        "LongSide": 10.75
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 47,
+        "LongSide": 34
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 48.25,
+        "LongSide": 34
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 49.5,
+        "LongSide": 34
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 50.75,
+        "LongSide": 34
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 52,
+        "LongSide": 34
+      },
+      {
+        "Id": "Activation - red - assault",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 47,
+        "LongSide": 32.75
+      },
+      {
+        "Id": "Activation - red - assault",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 48.25,
+        "LongSide": 32.75
+      },
+      {
+        "Id": "Activation - red - assault",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 49.5,
+        "LongSide": 32.75
+      },
+      {
+        "Id": "Activation - red - assault",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 50.75,
+        "LongSide": 32.75
+      },
+      {
+        "Id": "Activation - red - assault",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 52,
+        "LongSide": 32.75
+      },
+      {
+        "Id": "Debuff",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 47,
+        "LongSide": 30.25
+      },
+      {
+        "Id": "Buff",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 47,
+        "LongSide": 29
+      },
+      {
+        "Id": "Terran - blue",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 49.5,
+        "LongSide": 30.25
+      },
+      {
+        "Id": "Protoss - yellow",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 51,
+        "LongSide": 30.25
+      },
+      {
+        "Id": "Zerg - purple",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 52.5,
+        "LongSide": 30.25
+      },
+      {
+        "Id": "Terran - white",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 49.5,
+        "LongSide": 28.75
+      },
+      {
+        "Id": "Protoss - white",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 51,
+        "LongSide": 28.75
+      },
+      {
+        "Id": "Zerg - white",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 52.5,
+        "LongSide": 28.75
+      },
+      {
+        "Id": "Stim",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 47,
+        "LongSide": 26.5
+      },
+      {
+        "Id": "Burrowed",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 48.25,
+        "LongSide": 26.5
+      },
+      {
+        "Id": "Hidden",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 49.5,
+        "LongSide": 26.5
+      },
+      {
+        "Id": "Siege Status",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 50.75,
+        "LongSide": 26.5
+      },
+      {
+        "Id": "Bile Bomb",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 47,
+        "LongSide": 25.25
+      },
+      {
+        "Id": "Creep Tumor",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 48.25,
+        "LongSide": 25.25
+      },
+      {
+        "Id": "Corrosive Bile",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 49.5,
+        "LongSide": 25.25
+      },
+      {
+        "Id": "Shield",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 50.75,
+        "LongSide": 25.25
       }
     ]
   },
@@ -1828,6 +4740,422 @@
         "Rotation": 90,
         "ShortSide": 4.636439484799499,
         "LongSide": 18
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 47,
+        "LongSide": 2
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 48.25,
+        "LongSide": 2
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 49.5,
+        "LongSide": 2
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 50.75,
+        "LongSide": 2
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 52,
+        "LongSide": 2
+      },
+      {
+        "Id": "Activation - red - assault",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 47,
+        "LongSide": 3.25
+      },
+      {
+        "Id": "Activation - red - assault",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 48.25,
+        "LongSide": 3.25
+      },
+      {
+        "Id": "Activation - red - assault",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 49.5,
+        "LongSide": 3.25
+      },
+      {
+        "Id": "Activation - red - assault",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 50.75,
+        "LongSide": 3.25
+      },
+      {
+        "Id": "Activation - red - assault",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 52,
+        "LongSide": 3.25
+      },
+      {
+        "Id": "Debuff",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 47,
+        "LongSide": 5.75
+      },
+      {
+        "Id": "Buff",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 47,
+        "LongSide": 7
+      },
+      {
+        "Id": "Terran - blue",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 49.5,
+        "LongSide": 5.75
+      },
+      {
+        "Id": "Protoss - yellow",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 51,
+        "LongSide": 5.75
+      },
+      {
+        "Id": "Zerg - purple",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 52.5,
+        "LongSide": 5.75
+      },
+      {
+        "Id": "Terran - white",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 49.5,
+        "LongSide": 7.25
+      },
+      {
+        "Id": "Protoss - white",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 51,
+        "LongSide": 7.25
+      },
+      {
+        "Id": "Zerg - white",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 52.5,
+        "LongSide": 7.25
+      },
+      {
+        "Id": "Stim",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 47,
+        "LongSide": 9.5
+      },
+      {
+        "Id": "Burrowed",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 48.25,
+        "LongSide": 9.5
+      },
+      {
+        "Id": "Hidden",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 49.5,
+        "LongSide": 9.5
+      },
+      {
+        "Id": "Siege Status",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 50.75,
+        "LongSide": 9.5
+      },
+      {
+        "Id": "Bile Bomb",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 47,
+        "LongSide": 10.75
+      },
+      {
+        "Id": "Creep Tumor",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 48.25,
+        "LongSide": 10.75
+      },
+      {
+        "Id": "Corrosive Bile",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 49.5,
+        "LongSide": 10.75
+      },
+      {
+        "Id": "Shield",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 50.75,
+        "LongSide": 10.75
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 47,
+        "LongSide": 34
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 48.25,
+        "LongSide": 34
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 49.5,
+        "LongSide": 34
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 50.75,
+        "LongSide": 34
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 52,
+        "LongSide": 34
+      },
+      {
+        "Id": "Activation - red - assault",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 47,
+        "LongSide": 32.75
+      },
+      {
+        "Id": "Activation - red - assault",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 48.25,
+        "LongSide": 32.75
+      },
+      {
+        "Id": "Activation - red - assault",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 49.5,
+        "LongSide": 32.75
+      },
+      {
+        "Id": "Activation - red - assault",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 50.75,
+        "LongSide": 32.75
+      },
+      {
+        "Id": "Activation - red - assault",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 52,
+        "LongSide": 32.75
+      },
+      {
+        "Id": "Debuff",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 47,
+        "LongSide": 30.25
+      },
+      {
+        "Id": "Buff",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 47,
+        "LongSide": 29
+      },
+      {
+        "Id": "Terran - blue",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 49.5,
+        "LongSide": 30.25
+      },
+      {
+        "Id": "Protoss - yellow",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 51,
+        "LongSide": 30.25
+      },
+      {
+        "Id": "Zerg - purple",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 52.5,
+        "LongSide": 30.25
+      },
+      {
+        "Id": "Terran - white",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 49.5,
+        "LongSide": 28.75
+      },
+      {
+        "Id": "Protoss - white",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 51,
+        "LongSide": 28.75
+      },
+      {
+        "Id": "Zerg - white",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 52.5,
+        "LongSide": 28.75
+      },
+      {
+        "Id": "Stim",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 47,
+        "LongSide": 26.5
+      },
+      {
+        "Id": "Burrowed",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 48.25,
+        "LongSide": 26.5
+      },
+      {
+        "Id": "Hidden",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 49.5,
+        "LongSide": 26.5
+      },
+      {
+        "Id": "Siege Status",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 50.75,
+        "LongSide": 26.5
+      },
+      {
+        "Id": "Bile Bomb",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 47,
+        "LongSide": 25.25
+      },
+      {
+        "Id": "Creep Tumor",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 48.25,
+        "LongSide": 25.25
+      },
+      {
+        "Id": "Corrosive Bile",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 49.5,
+        "LongSide": 25.25
+      },
+      {
+        "Id": "Shield",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 50.75,
+        "LongSide": 25.25
       }
     ]
   },
@@ -1971,6 +5299,422 @@
         "Rotation": 90,
         "ShortSide": 4.636439484799499,
         "LongSide": 18
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 47,
+        "LongSide": 2
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 48.25,
+        "LongSide": 2
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 49.5,
+        "LongSide": 2
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 50.75,
+        "LongSide": 2
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 52,
+        "LongSide": 2
+      },
+      {
+        "Id": "Activation - red - assault",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 47,
+        "LongSide": 3.25
+      },
+      {
+        "Id": "Activation - red - assault",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 48.25,
+        "LongSide": 3.25
+      },
+      {
+        "Id": "Activation - red - assault",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 49.5,
+        "LongSide": 3.25
+      },
+      {
+        "Id": "Activation - red - assault",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 50.75,
+        "LongSide": 3.25
+      },
+      {
+        "Id": "Activation - red - assault",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 52,
+        "LongSide": 3.25
+      },
+      {
+        "Id": "Debuff",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 47,
+        "LongSide": 5.75
+      },
+      {
+        "Id": "Buff",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 47,
+        "LongSide": 7
+      },
+      {
+        "Id": "Terran - blue",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 49.5,
+        "LongSide": 5.75
+      },
+      {
+        "Id": "Protoss - yellow",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 51,
+        "LongSide": 5.75
+      },
+      {
+        "Id": "Zerg - purple",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 52.5,
+        "LongSide": 5.75
+      },
+      {
+        "Id": "Terran - white",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 49.5,
+        "LongSide": 7.25
+      },
+      {
+        "Id": "Protoss - white",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 51,
+        "LongSide": 7.25
+      },
+      {
+        "Id": "Zerg - white",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 52.5,
+        "LongSide": 7.25
+      },
+      {
+        "Id": "Stim",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 47,
+        "LongSide": 9.5
+      },
+      {
+        "Id": "Burrowed",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 48.25,
+        "LongSide": 9.5
+      },
+      {
+        "Id": "Hidden",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 49.5,
+        "LongSide": 9.5
+      },
+      {
+        "Id": "Siege Status",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 50.75,
+        "LongSide": 9.5
+      },
+      {
+        "Id": "Bile Bomb",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 47,
+        "LongSide": 10.75
+      },
+      {
+        "Id": "Creep Tumor",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 48.25,
+        "LongSide": 10.75
+      },
+      {
+        "Id": "Corrosive Bile",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 49.5,
+        "LongSide": 10.75
+      },
+      {
+        "Id": "Shield",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 50.75,
+        "LongSide": 10.75
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 47,
+        "LongSide": 34
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 48.25,
+        "LongSide": 34
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 49.5,
+        "LongSide": 34
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 50.75,
+        "LongSide": 34
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 52,
+        "LongSide": 34
+      },
+      {
+        "Id": "Activation - red - assault",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 47,
+        "LongSide": 32.75
+      },
+      {
+        "Id": "Activation - red - assault",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 48.25,
+        "LongSide": 32.75
+      },
+      {
+        "Id": "Activation - red - assault",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 49.5,
+        "LongSide": 32.75
+      },
+      {
+        "Id": "Activation - red - assault",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 50.75,
+        "LongSide": 32.75
+      },
+      {
+        "Id": "Activation - red - assault",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 52,
+        "LongSide": 32.75
+      },
+      {
+        "Id": "Debuff",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 47,
+        "LongSide": 30.25
+      },
+      {
+        "Id": "Buff",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 47,
+        "LongSide": 29
+      },
+      {
+        "Id": "Terran - blue",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 49.5,
+        "LongSide": 30.25
+      },
+      {
+        "Id": "Protoss - yellow",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 51,
+        "LongSide": 30.25
+      },
+      {
+        "Id": "Zerg - purple",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 52.5,
+        "LongSide": 30.25
+      },
+      {
+        "Id": "Terran - white",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 49.5,
+        "LongSide": 28.75
+      },
+      {
+        "Id": "Protoss - white",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 51,
+        "LongSide": 28.75
+      },
+      {
+        "Id": "Zerg - white",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 52.5,
+        "LongSide": 28.75
+      },
+      {
+        "Id": "Stim",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 47,
+        "LongSide": 26.5
+      },
+      {
+        "Id": "Burrowed",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 48.25,
+        "LongSide": 26.5
+      },
+      {
+        "Id": "Hidden",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 49.5,
+        "LongSide": 26.5
+      },
+      {
+        "Id": "Siege Status",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 50.75,
+        "LongSide": 26.5
+      },
+      {
+        "Id": "Bile Bomb",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 47,
+        "LongSide": 25.25
+      },
+      {
+        "Id": "Creep Tumor",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 48.25,
+        "LongSide": 25.25
+      },
+      {
+        "Id": "Corrosive Bile",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 49.5,
+        "LongSide": 25.25
+      },
+      {
+        "Id": "Shield",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 50.75,
+        "LongSide": 25.25
       }
     ]
   }
