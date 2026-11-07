@@ -234,6 +234,13 @@ for deployment in read('deployment-report.json')['layouts']:
     name = deployment['name'] + (' (Skirmish)' if skirmish else '')
     add('Deployments',name,image,image,88,63,src,'Skirmish deployment.' if skirmish else 'Standard engagement deployment.')
 
+for identity, card in cards.items():
+    if not identity.startswith('sc_card_missions_'):
+        continue
+    counterpart = identity.removesuffix('_skirmish') if identity.endswith('_skirmish') else identity + '_skirmish'
+    assert counterpart in cards, f'Missing mission reverse: {identity}'
+    card['UIConfig']['ImageURLBack'] = cards[counterpart]['UIConfig']['ImageURL']
+
 assert not any(g.endswith(' units') for g in groups)
 assert len(groups['Deployments']) == 14
 assert len(missions) == 14, f'Expected fourteen scoring missions, got {list(missions)}'

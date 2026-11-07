@@ -10,6 +10,35 @@ export function formatCard(card, overrides = {}) {
     text = text.slice(card.Name.length).trim();
   result.Name = name;
   result.UIConfig.Color2 = '';
+  if (card.Id.startsWith('sc_card_missions_')) {
+    text = text
+      .replace(/colou\s+r\b/g, 'colour')
+      .replace(/Card\. 18"[\s\S]*?RED SCORING CONDITIONS:/, 'Card.\n\nSCORING CONDITIONS:')
+      .replace(/1\n\nVP ADDITIONAL CONDITIONS:/, '1 VP\n\nADDITIONAL CONDITIONS:')
+      .replace(
+        /(If an[^\n]*?3")\s*\n\nASSAULT PHASE:\s*of a Controlled Mission Marker/,
+        'ASSAULT PHASE:\n$1 of a Controlled Mission Marker',
+      )
+      .replace(
+        /^[A-Z][A-Z 0-9()–-]+:$/gm,
+        heading =>
+          '<b>' +
+          heading
+            .slice(0, -1)
+            .toLowerCase()
+            .replace(/^./, letter => letter.toUpperCase()) +
+          '</b>',
+      )
+      .replace(
+        /Supply: ([^\n]+)\nRound bonus: ([^\n]+)\nGame length: ([^\n]+)/,
+        '<b>Supply</b> $1  •  <b>Round bonus</b> $2  •  <b>Rounds</b> $3',
+      )
+      .replace(/\s*[•‣]\s*/g, '\n• ')
+      .replace(/(removed\.) (When a Unit DROP)/g, '$1\n\n$2')
+      .replace(/(?<=\.) (Gain |Only Units |Only <)/g, '\n$1');
+    result.Description = text;
+    return result;
+  }
   if (!card.Id.includes('_tactics_')) {
     result.Description = text;
     return result;
