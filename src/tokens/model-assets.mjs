@@ -51,12 +51,12 @@ export async function createTokenAssets(definitions = tokenDefinitions) {
       .raw()
       .toBuffer({ resolveWithObject: true });
     const diameterMm = token.diameterMm ?? tokenDiameterMm;
-    const meshes = token.diameterMm
+    const meshes = ['bile_bomb', 'creep_tumor', 'corrosive_bile'].includes(token.id)
       ? [
           ...tokenGeometry(solidTexture([39, 23, 35]), 96, diameterMm),
           ...(await zergTokenGeometry(token.id, diameterMm)),
         ]
-      : tokenGeometry({ width: info.width, height: info.height, data });
+      : tokenGeometry({ width: info.width, height: info.height, data }, 96, diameterMm);
     const bytes = await encodeGlb(meshes);
     const filename = `${createHash('sha256').update(bytes).digest('hex')}.glb`;
     const previewGeometryFile = `model-assets/${filename}.preview.json`;

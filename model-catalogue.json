@@ -2511,10 +2511,10 @@
       "name": "Starcraft - Token - Terran - blue",
       "kind": "token",
       "calibration": "token-centimeters-v1",
-      "tokenDiameterMm": 25,
+      "tokenDiameterMm": 32,
       "parts": [
         {
-          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/3cec2d3ad5fc7afc5a55c64e71feb8d6b2455ffc54919e8e5eba8c1fc3f78b1c.glb",
+          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/9d52eccd28fb55428a225f0976ff8def074f6c665b04a048d63e52046254a85e.glb",
           "textureUrl": null,
           "hostedAsset": true,
           "transforms": {
@@ -2526,7 +2526,7 @@
             "rotationY": 0,
             "rotationZ": 0
           },
-          "previewGeometryFile": "model-assets/3cec2d3ad5fc7afc5a55c64e71feb8d6b2455ffc54919e8e5eba8c1fc3f78b1c.glb.preview.json",
+          "previewGeometryFile": "model-assets/9d52eccd28fb55428a225f0976ff8def074f6c665b04a048d63e52046254a85e.glb.preview.json",
           "previewTransforms": {
             "scale": 1,
             "positionX": 0,
@@ -2544,10 +2544,10 @@
       "name": "Starcraft - Token - Terran - white",
       "kind": "token",
       "calibration": "token-centimeters-v1",
-      "tokenDiameterMm": 25,
+      "tokenDiameterMm": 32,
       "parts": [
         {
-          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/4f2a76368f33aa8028f8a67020ace8f979b0cd4175b1009728a3b4fafdc24617.glb",
+          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/0459d86ea7515ae84f08aae5b417281bcfac4463fec5351a6b87932ade600b4b.glb",
           "textureUrl": null,
           "hostedAsset": true,
           "transforms": {
@@ -2559,7 +2559,7 @@
             "rotationY": 0,
             "rotationZ": 0
           },
-          "previewGeometryFile": "model-assets/4f2a76368f33aa8028f8a67020ace8f979b0cd4175b1009728a3b4fafdc24617.glb.preview.json",
+          "previewGeometryFile": "model-assets/0459d86ea7515ae84f08aae5b417281bcfac4463fec5351a6b87932ade600b4b.glb.preview.json",
           "previewTransforms": {
             "scale": 1,
             "positionX": 0,
@@ -2577,10 +2577,10 @@
       "name": "Starcraft - Token - Protoss - yellow",
       "kind": "token",
       "calibration": "token-centimeters-v1",
-      "tokenDiameterMm": 25,
+      "tokenDiameterMm": 32,
       "parts": [
         {
-          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/8fa10e37fb385ee54c6966b943fffc82bad1c997386add4e6d85787c585eaf6f.glb",
+          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/7eeb8df01137dc2900a2a0000db25813311e14e0a5f9bd36d657884188e42151.glb",
           "textureUrl": null,
           "hostedAsset": true,
           "transforms": {
@@ -2592,7 +2592,7 @@
             "rotationY": 0,
             "rotationZ": 0
           },
-          "previewGeometryFile": "model-assets/8fa10e37fb385ee54c6966b943fffc82bad1c997386add4e6d85787c585eaf6f.glb.preview.json",
+          "previewGeometryFile": "model-assets/7eeb8df01137dc2900a2a0000db25813311e14e0a5f9bd36d657884188e42151.glb.preview.json",
           "previewTransforms": {
             "scale": 1,
             "positionX": 0,
@@ -2610,10 +2610,10 @@
       "name": "Starcraft - Token - Protoss - white",
       "kind": "token",
       "calibration": "token-centimeters-v1",
-      "tokenDiameterMm": 25,
+      "tokenDiameterMm": 32,
       "parts": [
         {
-          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/ab6a2af6ce3975f23e91ed7d78f4c5f04f61154f2e9648ac03a8672825bb68ee.glb",
+          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/6e3d6f068ac608b645500f91c8fcb076b4b39de273028691a2b775a5298bedd9.glb",
           "textureUrl": null,
           "hostedAsset": true,
           "transforms": {
@@ -2625,7 +2625,7 @@
             "rotationY": 0,
             "rotationZ": 0
           },
-          "previewGeometryFile": "model-assets/ab6a2af6ce3975f23e91ed7d78f4c5f04f61154f2e9648ac03a8672825bb68ee.glb.preview.json",
+          "previewGeometryFile": "model-assets/6e3d6f068ac608b645500f91c8fcb076b4b39de273028691a2b775a5298bedd9.glb.preview.json",
           "previewTransforms": {
             "scale": 1,
             "positionX": 0,
@@ -2643,10 +2643,10 @@
       "name": "Starcraft - Token - Zerg - purple",
       "kind": "token",
       "calibration": "token-centimeters-v1",
-      "tokenDiameterMm": 25,
+      "tokenDiameterMm": 32,
       "parts": [
         {
-          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/8feed9e912b3c77763747772a613a93ffc690399c4b2a432d00aefcb8d536f43.glb",
+          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/1bdce3e4a2f3e36600d634262d9ace9f90b41c36f5f778539f3f24722167d059.glb",
           "textureUrl": null,
           "hostedAsset": true,
           "transforms": {
@@ -2658,7 +2658,7 @@
             "rotationY": 0,
             "rotationZ": 0
           },
-          "previewGeometryFile": "model-assets/8feed9e912b3c77763747772a613a93ffc690399c4b2a432d00aefcb8d536f43.glb.preview.json",
+          "previewGeometryFile": "model-assets/1bdce3e4a2f3e36600d634262d9ace9f90b41c36f5f778539f3f24722167d059.glb.preview.json",
           "previewTransforms": {
             "scale": 1,
             "positionX": 0,
@@ -2676,10 +2676,10 @@
       "name": "Starcraft - Token - Zerg - white",
       "kind": "token",
       "calibration": "token-centimeters-v1",
-      "tokenDiameterMm": 25,
+      "tokenDiameterMm": 32,
       "parts": [
         {
-          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/27fca963944331386a69b1e7f44782aacef591e2c44305ee2cea0cffafacc298.glb",
+          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/21498142ab639805cb81dbd4b600fcf0ed12696ba2ddf758a6480fa539dba880.glb",
           "textureUrl": null,
           "hostedAsset": true,
           "transforms": {
@@ -2691,7 +2691,7 @@
             "rotationY": 0,
             "rotationZ": 0
           },
-          "previewGeometryFile": "model-assets/27fca963944331386a69b1e7f44782aacef591e2c44305ee2cea0cffafacc298.glb.preview.json",
+          "previewGeometryFile": "model-assets/21498142ab639805cb81dbd4b600fcf0ed12696ba2ddf758a6480fa539dba880.glb.preview.json",
           "previewTransforms": {
             "scale": 1,
             "positionX": 0,

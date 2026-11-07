@@ -19,6 +19,7 @@ export const tokenDefinitions = [
       id: `faction_${faction.toLowerCase()}_${inverted ? 'white' : 'color'}`,
       name: `${faction} - ${inverted ? 'white' : faction === 'Terran' ? 'blue' : faction === 'Protoss' ? 'yellow' : 'purple'}`,
       symbol: faction.toLowerCase(),
+      diameterMm: 32,
       color,
       inverted,
       description:

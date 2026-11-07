@@ -29,8 +29,11 @@ export function tokenTrayPlacements({ width, height }) {
     const direction = color === 'blue' ? 1 : -1;
     return groups.flatMap(group =>
       group.tokens.map((token, index) => {
-        const x = width / 2 + 2 + ((group.column ?? 0) + (index % group.columns)) * spacing;
-        const z = -height / 2 + 2 + (group.row + Math.floor(index / group.columns)) * spacing;
+        const groupSpacing = group.tokens === factions ? 1.5 : spacing;
+        const x =
+          width / 2 + 2 + (group.column ?? 0) * spacing + (index % group.columns) * groupSpacing;
+        const z =
+          -height / 2 + 2 + group.row * spacing + Math.floor(index / group.columns) * groupSpacing;
         return {
           Id: token.name,
           Type: 'Token',
