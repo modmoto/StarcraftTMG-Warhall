@@ -293,7 +293,7 @@
         "LongSide": 2
       },
       {
-        "Id": "Activation - blue - assault",
+        "Id": "Activation - red - assault",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
@@ -301,7 +301,7 @@
         "LongSide": 3.25
       },
       {
-        "Id": "Activation - blue - assault",
+        "Id": "Activation - red - assault",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
@@ -309,7 +309,7 @@
         "LongSide": 3.25
       },
       {
-        "Id": "Activation - blue - assault",
+        "Id": "Activation - red - assault",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
@@ -317,7 +317,7 @@
         "LongSide": 3.25
       },
       {
-        "Id": "Activation - blue - assault",
+        "Id": "Activation - red - assault",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
@@ -325,7 +325,7 @@
         "LongSide": 3.25
       },
       {
-        "Id": "Activation - blue - assault",
+        "Id": "Activation - red - assault",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
@@ -461,7 +461,7 @@
         "LongSide": 10.75
       },
       {
-        "Id": "Activation - red - movement",
+        "Id": "Activation - blue - movement",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
@@ -469,7 +469,7 @@
         "LongSide": 34
       },
       {
-        "Id": "Activation - red - movement",
+        "Id": "Activation - blue - movement",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
@@ -477,7 +477,7 @@
         "LongSide": 34
       },
       {
-        "Id": "Activation - red - movement",
+        "Id": "Activation - blue - movement",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
@@ -485,7 +485,7 @@
         "LongSide": 34
       },
       {
-        "Id": "Activation - red - movement",
+        "Id": "Activation - blue - movement",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
@@ -493,7 +493,7 @@
         "LongSide": 34
       },
       {
-        "Id": "Activation - red - movement",
+        "Id": "Activation - blue - movement",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
@@ -964,7 +964,7 @@
         "LongSide": 2
       },
       {
-        "Id": "Activation - blue - assault",
+        "Id": "Activation - red - assault",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
@@ -972,7 +972,7 @@
         "LongSide": 3.25
       },
       {
-        "Id": "Activation - blue - assault",
+        "Id": "Activation - red - assault",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
@@ -980,7 +980,7 @@
         "LongSide": 3.25
       },
       {
-        "Id": "Activation - blue - assault",
+        "Id": "Activation - red - assault",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
@@ -988,7 +988,7 @@
         "LongSide": 3.25
       },
       {
-        "Id": "Activation - blue - assault",
+        "Id": "Activation - red - assault",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
@@ -996,7 +996,7 @@
         "LongSide": 3.25
       },
       {
-        "Id": "Activation - blue - assault",
+        "Id": "Activation - red - assault",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
@@ -1132,7 +1132,7 @@
         "LongSide": 10.75
       },
       {
-        "Id": "Activation - red - movement",
+        "Id": "Activation - blue - movement",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
@@ -1140,7 +1140,7 @@
         "LongSide": 34
       },
       {
-        "Id": "Activation - red - movement",
+        "Id": "Activation - blue - movement",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
@@ -1148,7 +1148,7 @@
         "LongSide": 34
       },
       {
-        "Id": "Activation - red - movement",
+        "Id": "Activation - blue - movement",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
@@ -1156,7 +1156,7 @@
         "LongSide": 34
       },
       {
-        "Id": "Activation - red - movement",
+        "Id": "Activation - blue - movement",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
@@ -1164,7 +1164,7 @@
         "LongSide": 34
       },
       {
-        "Id": "Activation - red - movement",
+        "Id": "Activation - blue - movement",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
@@ -1635,7 +1635,7 @@
         "LongSide": 2
       },
       {
-        "Id": "Activation - blue - assault",
+        "Id": "Activation - red - assault",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
@@ -1643,7 +1643,7 @@
         "LongSide": 3.25
       },
       {
-        "Id": "Activation - blue - assault",
+        "Id": "Activation - red - assault",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
@@ -1651,7 +1651,7 @@
         "LongSide": 3.25
       },
       {
-        "Id": "Activation - blue - assault",
+        "Id": "Activation - red - assault",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
@@ -1659,7 +1659,7 @@
         "LongSide": 3.25
       },
       {
-        "Id": "Activation - blue - assault",
+        "Id": "Activation - red - assault",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
@@ -1667,7 +1667,7 @@
         "LongSide": 3.25
       },
       {
-        "Id": "Activation - blue - assault",
+        "Id": "Activation - red - assault",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
@@ -1803,7 +1803,7 @@
         "LongSide": 10.75
       },
       {
-        "Id": "Activation - red - movement",
+        "Id": "Activation - blue - movement",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
@@ -1811,7 +1811,7 @@
         "LongSide": 34
       },
       {
-        "Id": "Activation - red - movement",
+        "Id": "Activation - blue - movement",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
@@ -1819,7 +1819,7 @@
         "LongSide": 34
       },
       {
-        "Id": "Activation - red - movement",
+        "Id": "Activation - blue - movement",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
@@ -1827,7 +1827,7 @@
         "LongSide": 34
       },
       {
-        "Id": "Activation - red - movement",
+        "Id": "Activation - blue - movement",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
@@ -1835,7 +1835,7 @@
         "LongSide": 34
       },
       {
-        "Id": "Activation - red - movement",
+        "Id": "Activation - blue - movement",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
@@ -2306,7 +2306,7 @@
         "LongSide": 2
       },
       {
-        "Id": "Activation - blue - assault",
+        "Id": "Activation - red - assault",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
@@ -2314,7 +2314,7 @@
         "LongSide": 3.25
       },
       {
-        "Id": "Activation - blue - assault",
+        "Id": "Activation - red - assault",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
@@ -2322,7 +2322,7 @@
         "LongSide": 3.25
       },
       {
-        "Id": "Activation - blue - assault",
+        "Id": "Activation - red - assault",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
@@ -2330,7 +2330,7 @@
         "LongSide": 3.25
       },
       {
-        "Id": "Activation - blue - assault",
+        "Id": "Activation - red - assault",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
@@ -2338,7 +2338,7 @@
         "LongSide": 3.25
       },
       {
-        "Id": "Activation - blue - assault",
+        "Id": "Activation - red - assault",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
@@ -2474,7 +2474,7 @@
         "LongSide": 10.75
       },
       {
-        "Id": "Activation - red - movement",
+        "Id": "Activation - blue - movement",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
@@ -2482,7 +2482,7 @@
         "LongSide": 34
       },
       {
-        "Id": "Activation - red - movement",
+        "Id": "Activation - blue - movement",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
@@ -2490,7 +2490,7 @@
         "LongSide": 34
       },
       {
-        "Id": "Activation - red - movement",
+        "Id": "Activation - blue - movement",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
@@ -2498,7 +2498,7 @@
         "LongSide": 34
       },
       {
-        "Id": "Activation - red - movement",
+        "Id": "Activation - blue - movement",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
@@ -2506,7 +2506,7 @@
         "LongSide": 34
       },
       {
-        "Id": "Activation - red - movement",
+        "Id": "Activation - blue - movement",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
@@ -2993,7 +2993,7 @@
         "LongSide": 2
       },
       {
-        "Id": "Activation - blue - assault",
+        "Id": "Activation - red - assault",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
@@ -3001,7 +3001,7 @@
         "LongSide": 3.25
       },
       {
-        "Id": "Activation - blue - assault",
+        "Id": "Activation - red - assault",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
@@ -3009,7 +3009,7 @@
         "LongSide": 3.25
       },
       {
-        "Id": "Activation - blue - assault",
+        "Id": "Activation - red - assault",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
@@ -3017,7 +3017,7 @@
         "LongSide": 3.25
       },
       {
-        "Id": "Activation - blue - assault",
+        "Id": "Activation - red - assault",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
@@ -3025,7 +3025,7 @@
         "LongSide": 3.25
       },
       {
-        "Id": "Activation - blue - assault",
+        "Id": "Activation - red - assault",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
@@ -3161,7 +3161,7 @@
         "LongSide": 10.75
       },
       {
-        "Id": "Activation - red - movement",
+        "Id": "Activation - blue - movement",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
@@ -3169,7 +3169,7 @@
         "LongSide": 34
       },
       {
-        "Id": "Activation - red - movement",
+        "Id": "Activation - blue - movement",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
@@ -3177,7 +3177,7 @@
         "LongSide": 34
       },
       {
-        "Id": "Activation - red - movement",
+        "Id": "Activation - blue - movement",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
@@ -3185,7 +3185,7 @@
         "LongSide": 34
       },
       {
-        "Id": "Activation - red - movement",
+        "Id": "Activation - blue - movement",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
@@ -3193,7 +3193,7 @@
         "LongSide": 34
       },
       {
-        "Id": "Activation - red - movement",
+        "Id": "Activation - blue - movement",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
@@ -3680,7 +3680,7 @@
         "LongSide": 2
       },
       {
-        "Id": "Activation - blue - assault",
+        "Id": "Activation - red - assault",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
@@ -3688,7 +3688,7 @@
         "LongSide": 3.25
       },
       {
-        "Id": "Activation - blue - assault",
+        "Id": "Activation - red - assault",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
@@ -3696,7 +3696,7 @@
         "LongSide": 3.25
       },
       {
-        "Id": "Activation - blue - assault",
+        "Id": "Activation - red - assault",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
@@ -3704,7 +3704,7 @@
         "LongSide": 3.25
       },
       {
-        "Id": "Activation - blue - assault",
+        "Id": "Activation - red - assault",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
@@ -3712,7 +3712,7 @@
         "LongSide": 3.25
       },
       {
-        "Id": "Activation - blue - assault",
+        "Id": "Activation - red - assault",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
@@ -3848,7 +3848,7 @@
         "LongSide": 10.75
       },
       {
-        "Id": "Activation - red - movement",
+        "Id": "Activation - blue - movement",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
@@ -3856,7 +3856,7 @@
         "LongSide": 34
       },
       {
-        "Id": "Activation - red - movement",
+        "Id": "Activation - blue - movement",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
@@ -3864,7 +3864,7 @@
         "LongSide": 34
       },
       {
-        "Id": "Activation - red - movement",
+        "Id": "Activation - blue - movement",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
@@ -3872,7 +3872,7 @@
         "LongSide": 34
       },
       {
-        "Id": "Activation - red - movement",
+        "Id": "Activation - blue - movement",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
@@ -3880,7 +3880,7 @@
         "LongSide": 34
       },
       {
-        "Id": "Activation - red - movement",
+        "Id": "Activation - blue - movement",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
@@ -4231,7 +4231,7 @@
         "LongSide": 2
       },
       {
-        "Id": "Activation - blue - assault",
+        "Id": "Activation - red - assault",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
@@ -4239,7 +4239,7 @@
         "LongSide": 3.25
       },
       {
-        "Id": "Activation - blue - assault",
+        "Id": "Activation - red - assault",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
@@ -4247,7 +4247,7 @@
         "LongSide": 3.25
       },
       {
-        "Id": "Activation - blue - assault",
+        "Id": "Activation - red - assault",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
@@ -4255,7 +4255,7 @@
         "LongSide": 3.25
       },
       {
-        "Id": "Activation - blue - assault",
+        "Id": "Activation - red - assault",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
@@ -4263,7 +4263,7 @@
         "LongSide": 3.25
       },
       {
-        "Id": "Activation - blue - assault",
+        "Id": "Activation - red - assault",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
@@ -4399,7 +4399,7 @@
         "LongSide": 10.75
       },
       {
-        "Id": "Activation - red - movement",
+        "Id": "Activation - blue - movement",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
@@ -4407,7 +4407,7 @@
         "LongSide": 34
       },
       {
-        "Id": "Activation - red - movement",
+        "Id": "Activation - blue - movement",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
@@ -4415,7 +4415,7 @@
         "LongSide": 34
       },
       {
-        "Id": "Activation - red - movement",
+        "Id": "Activation - blue - movement",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
@@ -4423,7 +4423,7 @@
         "LongSide": 34
       },
       {
-        "Id": "Activation - red - movement",
+        "Id": "Activation - blue - movement",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
@@ -4431,7 +4431,7 @@
         "LongSide": 34
       },
       {
-        "Id": "Activation - red - movement",
+        "Id": "Activation - blue - movement",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
@@ -4782,7 +4782,7 @@
         "LongSide": 2
       },
       {
-        "Id": "Activation - blue - assault",
+        "Id": "Activation - red - assault",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
@@ -4790,7 +4790,7 @@
         "LongSide": 3.25
       },
       {
-        "Id": "Activation - blue - assault",
+        "Id": "Activation - red - assault",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
@@ -4798,7 +4798,7 @@
         "LongSide": 3.25
       },
       {
-        "Id": "Activation - blue - assault",
+        "Id": "Activation - red - assault",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
@@ -4806,7 +4806,7 @@
         "LongSide": 3.25
       },
       {
-        "Id": "Activation - blue - assault",
+        "Id": "Activation - red - assault",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
@@ -4814,7 +4814,7 @@
         "LongSide": 3.25
       },
       {
-        "Id": "Activation - blue - assault",
+        "Id": "Activation - red - assault",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
@@ -4950,7 +4950,7 @@
         "LongSide": 10.75
       },
       {
-        "Id": "Activation - red - movement",
+        "Id": "Activation - blue - movement",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
@@ -4958,7 +4958,7 @@
         "LongSide": 34
       },
       {
-        "Id": "Activation - red - movement",
+        "Id": "Activation - blue - movement",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
@@ -4966,7 +4966,7 @@
         "LongSide": 34
       },
       {
-        "Id": "Activation - red - movement",
+        "Id": "Activation - blue - movement",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
@@ -4974,7 +4974,7 @@
         "LongSide": 34
       },
       {
-        "Id": "Activation - red - movement",
+        "Id": "Activation - blue - movement",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
@@ -4982,7 +4982,7 @@
         "LongSide": 34
       },
       {
-        "Id": "Activation - red - movement",
+        "Id": "Activation - blue - movement",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
@@ -5341,7 +5341,7 @@
         "LongSide": 2
       },
       {
-        "Id": "Activation - blue - assault",
+        "Id": "Activation - red - assault",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
@@ -5349,7 +5349,7 @@
         "LongSide": 3.25
       },
       {
-        "Id": "Activation - blue - assault",
+        "Id": "Activation - red - assault",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
@@ -5357,7 +5357,7 @@
         "LongSide": 3.25
       },
       {
-        "Id": "Activation - blue - assault",
+        "Id": "Activation - red - assault",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
@@ -5365,7 +5365,7 @@
         "LongSide": 3.25
       },
       {
-        "Id": "Activation - blue - assault",
+        "Id": "Activation - red - assault",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
@@ -5373,7 +5373,7 @@
         "LongSide": 3.25
       },
       {
-        "Id": "Activation - blue - assault",
+        "Id": "Activation - red - assault",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 0,
@@ -5509,7 +5509,7 @@
         "LongSide": 10.75
       },
       {
-        "Id": "Activation - red - movement",
+        "Id": "Activation - blue - movement",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
@@ -5517,7 +5517,7 @@
         "LongSide": 34
       },
       {
-        "Id": "Activation - red - movement",
+        "Id": "Activation - blue - movement",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
@@ -5525,7 +5525,7 @@
         "LongSide": 34
       },
       {
-        "Id": "Activation - red - movement",
+        "Id": "Activation - blue - movement",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
@@ -5533,7 +5533,7 @@
         "LongSide": 34
       },
       {
-        "Id": "Activation - red - movement",
+        "Id": "Activation - blue - movement",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
@@ -5541,7 +5541,7 @@
         "LongSide": 34
       },
       {
-        "Id": "Activation - red - movement",
+        "Id": "Activation - blue - movement",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,

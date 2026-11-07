@@ -4,7 +4,7 @@ export function tokenTrayPlacements({ width, height }) {
   const spacing = 1.25;
   return ['blue', 'red'].flatMap(color => {
     const activation = tokenDefinitions.filter(token =>
-      token.id.startsWith(`activation_${color}_`),
+      ['activation_blue_arrow', 'activation_red_crosshair'].includes(token.id),
     );
     const buffs = tokenDefinitions.filter(token => ['buff', 'debuff'].includes(token.id));
     const factions = tokenDefinitions.filter(token => token.id.startsWith('faction_'));

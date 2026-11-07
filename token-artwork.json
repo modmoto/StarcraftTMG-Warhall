@@ -10,16 +10,16 @@
     "faction_protoss_white": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/tokens/49c57ec2f62e9307cf6bd9997cf446d354e2aae5f84e0527a6c658b00deab064.png",
     "faction_zerg_color": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/tokens/67091a5be4b0d0ea74c9039aaebd4b9592a9937bb541a6c7d7848dcd8be4f789.png",
     "faction_zerg_white": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/tokens/b4f5e891446ab58bd865481047bb9d0631a6c61b2d980c83b43dd4bb6b055e27.png",
-    "buff": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/tokens/c9be89bfc9b25915bccc7e1a0a1371816f67d34c9d81c4f7836529beddef8625.png",
-    "debuff": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/tokens/27406cf72bea0e151ec10af98f9dd1b9946bf96029197882a1098bd5b1fe5d94.png",
-    "stim": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/tokens/845fa3184cf11dfbc543ca0fcad412c9db192ddf54381c348a3cc12160dc2dc8.png",
-    "burrowed": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/tokens/25c58c9c06a73d757cddd536eaa1d70f63a8fed87c33231323bf6e07d2a4a4b8.png",
-    "hidden": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/tokens/e1db45f71a44bc72b69eae099695ea923bb86e72af568304d1594fba7eea252b.png",
-    "siege": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/tokens/13bda63f7125f93bc4d3e72a98cae82fb8b04e4ab0a3794a51cd27a8d1e4ecbc.png",
+    "buff": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/tokens/30de295eb292bbf1732a9e5846f8b7f0b49cca9113ddc56c7011dc5f9e47a4a5.png",
+    "debuff": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/tokens/07a98d2780a862b88d5989c74bd16bcf8c9435785566a68a17c15b70d16bcc4f.png",
+    "stim": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/tokens/aa5de961ca662ca772978ac2a57c1f0ef86f013194ee4fa33bf52c016b0bace9.png",
+    "burrowed": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/tokens/fa5f911f8fc8b052f4e8ec59fd00aca9d8b3d626985e3ad69d9f6b341da93148.png",
+    "hidden": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/tokens/1f90fde43cc67bcb9c91b7baede268a837699d6bcbd17d25f08fb720b9d54b9d.png",
+    "siege": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/tokens/facc52e63b05114bbfdbc1cfa1cbc9416953f345ad4973d80683418683d72245.png",
     "bile_bomb": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/tokens/d84b357b38345aeadc0c7bae4724d2069e9ea8a09774aec3b6e39e4be788523c.png",
     "creep_tumor": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/tokens/639c1d75284ea0d3c75ad7e0acaa9f68ff0a61efc247f94124e5c8e34175ae25.png",
     "corrosive_bile": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/tokens/0fb80aabf2e680fb9a3ea179ebbc252c836674b8769e4781dfdd9863d4f296dd.png",
-    "shield": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/tokens/6f2ffaa4397aa6bfcdefc99fb58350daf90f178d33b95c25087fc3069f1f70dd.png"
+    "shield": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/tokens/a3564be8018624880b85bbb10fea6937aa1e85c4b14a98921bf0981bc412667d.png"
   },
   "icons": {
     "terran": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/tokens/8c92e285c566d5b945a8fafcc82cc73c56e61768e8532dac7d01f2a7c2f2caa2.png",

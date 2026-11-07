@@ -26,8 +26,8 @@ export const tokenDefinitions = [
     })),
   ),
   ...[
-    ['buff', 'Buff', '#2467d1'],
-    ['debuff', 'Debuff', '#d33d48'],
+    ['buff', 'Buff', '#55cbb0'],
+    ['debuff', 'Debuff', '#db4ba8'],
   ].map(([id, name, color]) => ({
     id,
     name,
@@ -36,10 +36,10 @@ export const tokenDefinitions = [
     description: `${name} reminder. Track the effect and its value using the token notes.`,
   })),
   ...[
-    ['stim', 'Stim', '#2467d1'],
-    ['burrowed', 'Burrowed', '#9a44bd'],
-    ['hidden', 'Hidden', '#299c77'],
-    ['siege', 'Siege Status', '#df9f35'],
+    ['stim', 'Stim', '#36b84a'],
+    ['burrowed', 'Burrowed', '#9a693e'],
+    ['hidden', 'Hidden', '#edcf38'],
+    ['siege', 'Siege Status', '#929ba3'],
   ].map(([id, name, color]) => ({
     id,
     name,
@@ -70,13 +70,14 @@ export const tokenDefinitions = [
     symbol: 'bile_bomb',
     diameterMm: 32,
     color: '#d95c13',
-    description: 'Ravager Corrosive Bile marker. Resolve its effect at the end of the Assault Phase.',
+    description:
+      'Ravager Corrosive Bile marker. Resolve its effect at the end of the Assault Phase.',
   },
   {
     id: 'shield',
     name: 'Shield',
     symbol: 'shield',
-    color: '#194fa8',
+    color: '#35cedc',
     description: 'Protoss shield counter. Track the remaining shields using the token notes.',
   },
 ];
