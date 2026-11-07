@@ -4,6 +4,8 @@ This is the source-level integration of the locally tested Unity prototype. Copy
 
 ## Behavior
 
+- A simple left-click highlights/selects the entire Cloud unit. The broken-heart button therefore adds wounds to the unit and uses the existing profile threshold to remove models. No changes to the damage calculation are required.
+- Left-dragging a model switches the highlight/selection to that model only after the native drag threshold is crossed. Only that model moves; no double-click is needed. After dragging, a simple click selects the whole unit again for wound allocation.
 - Click a model and press **L** to select it as leader. Press **L** on the same model to disable leader mode.
 - Alternatively, right-press an owned model, hold and drag, then release. This selects the leader, moves it, and distributes its followers in one gesture. Right-click on empty ground retains camera rotation.
 - Only moving the leader redistributes the unit. Every model can still be dragged individually. The leader's circle persists until changed or disabled.
@@ -16,10 +18,12 @@ Add the following calls inside the existing methods, preserving their native bod
 
 | Class and method | Insertion |
 | --- | --- |
-| `InputManager.MouseDown(GameItem gameItem)` | First line `LeadingMovement.Click(gameItem);` |
+| `InputManager.MouseDown(GameItem gameItem)` | First lines `LeadingMovement.Click(gameItem); gameItem = LeadingMovement.SelectionTarget(gameItem);` |
 | `InputManager.MouseEnter(GameItem gameItem)` | First line `LeadingMovement.Hover(gameItem);` |
 | `InputManager.MouseExit(GameItem gameItem)` | First line `LeadingMovement.Leave(gameItem);` |
 | `InputManager.Update()` | First line `LeadingMovement.Update();` and `LeadingMovement.AfterInput(this);` before **every return**, including GUI early exits |
+| `InputManager.StartDrag()` | First line `LeadingMovement.PrepareSingleDrag(this);` |
+| `Soldier.OnMouseDrag()` | First line `if (LeadingMovement.RequestDrag(this)) return;` |
 | `Soldier.StartDrag(Vector3 position)` | First line `LeadingMovement.Begin(this);` |
 | `Soldier.EndDrag()` | `LeadingMovement.Finish(this);` after the native body, on every normal exit |
 | `CornerMarker.OnPhotonInstantiate(PhotonMessageInfo info)` | At the end, after `_myUnit` is resolved, `LeadingMovement.CaptureMarker(this);` |
@@ -42,13 +46,22 @@ private void Update()
 }
 ```
 
-## Single-model selection
+## Click versus drag selection
 
 The prototype overrides four reads of `_isSoldierSelectionCurrentMode`. Equivalent source edits are as follows. Scope them to the enabled movement feature in the production client.
 
 - In `Soldier.OnMouseDown()` and `Soldier.OnMouseEnter()`, delegate to the parent only for `_parentUnit.IsSingleModel()`. Multi-model units use the existing base implementation immediately.
 - In `Soldier.OnDoubleClick()`, retain `base.OnDoubleClick()` and remove the subsequent parent-unit selection triggered by `!_inputManager._isSoldierSelectionCurrentMode`.
 - In `InputManager.DoubleClick()`, replace the current-mode toggle with `_isSoldierSelectionCurrentMode = true;`. Keep the remaining ownership, hover and selection handling.
+
+Keep the original clicked Soldier before mapping the selection target to its Unit. The native click path then selects the squad, preserving broken-heart wound allocation. `RequestDrag` remembers the actual model; `PrepareSingleDrag` switches selection at native drag start, before the drag-item list is copied. Do not force individual selection on mouse-down.
+
+The integration order is essential:
+
+1. On mouse-down, call `Click(gameItem)` with the original Soldier, then map `gameItem` through `SelectionTarget` before assigning the native `_mouseDown`. This keeps the exact model for L while letting native selection target the Unit.
+2. In `Soldier.OnMouseDrag`, let `RequestDrag(this)` intercept supported model drags before the parent-unit forwarding branch.
+3. At the very start of `InputManager.StartDrag`, call `PrepareSingleDrag(this)` **before** copying `_mouseDrag` into `_dragItem`. It deselects the Unit, selects the remembered Soldier and rebuilds the drag list.
+4. Keep native wound handling unchanged. Right-button leader movement uses its own individual selection path; ordinary squad clicks must not clear the leader or its radius.
 
 Use **Cloud/group formation with SoldierMagnet disabled**. The helper checks this before enabling a leader.
 
@@ -60,4 +73,4 @@ The triangle snapshot is captured when the marker is created. If no leader exist
 
 ## Checks before shipping
 
-Verify L on/off, right-drag versus ground-camera drag, individual follower adjustment, 3/4-inch rules, reset after a leader change, and undo/redo in a two-client room. Escape/focus loss cancels right-drag. The local user tested the movement prototype, but full multiplayer, saved-game persistence and collision validation remain open. Integrate the shortcut through Warhall's input bindings, gate the feature by game system, and store state per game instead of the prototype's static state before general release.
+Verify a plain click highlights the squad and broken-heart wounds remove models at the profile threshold; then verify dragging a follower moves only that follower. Verify L on/off, right-drag versus ground-camera drag, individual follower adjustment, 3/4-inch rules, reset after a leader change, and undo/redo in a two-client room. Escape/focus loss cancels right-drag. The local user tested the movement prototype, but full multiplayer, saved-game persistence and collision validation remain open. Integrate the shortcut through Warhall's input bindings, gate the feature by game system, and store state per game instead of the prototype's static state before general release.

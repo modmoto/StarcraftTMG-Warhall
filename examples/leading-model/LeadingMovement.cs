@@ -11,6 +11,7 @@ public static class LeadingMovement
     private static Soldier leader;
     private static Soldier hovered;
     private static Soldier rightDrag;
+    private static Soldier pendingDrag;
     private static Vector3 rightStart;
     private static Quaternion rightRotation;
     private static Vector3 rightOffset;
@@ -24,6 +25,32 @@ public static class LeadingMovement
     public static void AfterInput(InputManager input)
     {
         if (rightDrag != null) input.CameraScrollInputAllowed = false;
+        if (Input.GetMouseButtonUp(0)) pendingDrag = null;
+    }
+
+    public static GameItem SelectionTarget(GameItem item)
+    {
+        if (item is Soldier model && model.GetParentUnit() != null &&
+            model.GetParentUnit().Formation is Cloud)
+            return model.GetParentUnit();
+        return item;
+    }
+
+    public static bool RequestDrag(Soldier model)
+    {
+        if (!Eligible(model)) return false;
+        pendingDrag = model;
+        UnityEngine.Object.FindFirstObjectByType<InputManager>().MouseDrag(model);
+        return true;
+    }
+
+    public static void PrepareSingleDrag(InputManager input)
+    {
+        if (!Eligible(pendingDrag)) return;
+        var model = pendingDrag;
+        pendingDrag = null;
+        input.ForceSingleSeletion(model);
+        input.MouseDrag(model);
     }
 
     private static bool Eligible(Soldier model) => model != null && model.IsMine() &&
@@ -145,6 +172,7 @@ public static class LeadingMovement
     public static void Click(GameItem item)
     {
         clicked = item as Soldier;
+        pendingDrag = null;
     }
 
     public static void Update()
