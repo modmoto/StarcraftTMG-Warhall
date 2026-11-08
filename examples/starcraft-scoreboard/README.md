@@ -2,7 +2,7 @@
 
 An interactive scoreboard built entirely from Unity UI at runtime. It uses a world-space Canvas, RectTransforms, Images and Text with Unity's built-in LegacyRuntime.ttf font. No scoreboard image, model, texture, skin registration or downloaded asset is required.
 
-Copy [StarcraftScoreboard.cs](StarcraftScoreboard.cs) into the game assembly. Dependencies: existing Warhall TerrainItem and InputManager classes; UnityEngine.CoreModule, UIModule, UI, TextRenderingModule, PhysicsModule and InputLegacyModule. This is source-level integration; the local prototype used Mono.Cecil to inject the same calls.
+Copy [StarcraftScoreboard.cs](StarcraftScoreboard.cs) into the game assembly. Dependencies: existing Warhall TerrainItem and InputManager classes; UnityEngine.CoreModule, UIModule, UI, TextRenderingModule, PhysicsModule, InputLegacyModule, PhotonUnityNetworking, PhotonRealtime and Photon3Unity3D. This is source-level integration; the local prototype used Mono.Cecil to inject the same calls.
 
 ## Demonstration
 
@@ -11,6 +11,7 @@ Copy [StarcraftScoreboard.cs](StarcraftScoreboard.cs) into the game assembly. De
 ## Behavior
 
 - Only the StarCraft terrain ID `Starcraft - Terrain - Scoreboard - score1` activates the board. Other terrain IDs keep their native behavior.
+- The original terrain scoreboard stays on the left, using its normal skin/model path. Unpatched players retain that original board; patched players also see the interactive board on the right. The two scoreboards do not share counters.
 - The board sits outside the right map edge, between the two token trays, facing the battlefield. It measures 40 × 28.4 cm. Round 1 is at the bottom; round 5 at the top.
 - Each side has Supply and Mission points for every round. Left-click increases a value; right-click decreases it, with a minimum of zero.
 - The large totals automatically sum both point columns across all five rounds.
@@ -24,12 +25,11 @@ Preserve native method bodies and apply these hooks only when this feature is en
 
 | Location | Insertion |
 | --- | --- |
-| `TerrainItem.RPCConfigureTerrain(string wdsId, string owner, int forceScenarioIndex)` | First line: `if (StarcraftScoreboard.Configure(this, wdsId, owner)) return;` |
 | `InputManager.Update()` | Before native input processing and before the leading-movement hook: `if (StarcraftScoreboard.Tick()) return;` |
 
-The terrain hook must run **before skin lookup**. Otherwise a missing catalogue assignment loads an unrelated fallback model or throws before the board can be created. Configure stores the terrain identity/owner and skips native skin loading for this ID.
+Keep native terrain configuration and skin loading unchanged. Tick discovers the existing scoreboard terrain by its WDS ID and attaches a new Canvas without hiding its original renderers or colliders. It follows the final anchor position after map placement.
 
-Tick discovers the scoreboard terrain, creates its Canvas, hides its original renderers/colliders, and follows its final position after map placement. It raycasts the active camera onto the UI plane, converts the hit to local pixel coordinates, and dispatches clicks to numeric cells or the color-swap button. Consumed clicks return before native model dragging or camera rotation. No GraphicRaycaster or EventSystem button listener is needed in this prototype.
+Tick raycasts the active camera onto the UI plane, converts the hit to local pixel coordinates, and dispatches clicks to numeric cells or the color-swap button. Consumed clicks return before native model dragging or camera rotation. No GraphicRaycaster or EventSystem button listener is needed in this prototype.
 
 World orientation matters: with Warhall's map coordinates, the right tray is on **negative world X**. The Canvas uses Euler rotation (90, -90, 0). The current placement infers the battlefield edge from the old left scoreboard's anchor; production should use the actual battlefield bounds instead.
 
@@ -37,10 +37,22 @@ World orientation matters: with Warhall's map coordinates, the right tray is on 
 
 Token placement belongs to deployment data or a separate import. The scoreboard does not create, reposition, hide or deduplicate tokens. It only handles its own UI and counters. Surrounding tokens still use their normal model/texture assets; the separate local fallback for missing server skins is not part of this example.
 
-## State and remaining integration work
+## Photon synchronization
 
-The example holds counters and colors locally in memory. Values are not synchronized over Photon, serialized into saved games, or included in Undo/Redo. Recreating the scoreboard starts a new set of counters.
+All helpers are nested in **StarcraftScoreboard.cs**; no second source file, custom RPC registration or new backend is needed.
 
-Before production integration, store state per board, add validated shared updates and save/load support, replace the polling/input hook with the game's normal UI lifecycle, and derive placement from map bounds.
+Each scoreboard uses its existing terrain PhotonView.ViewID as a stable room-local identity. State is stored in the room property `sc.scoreboard.v1.<viewId>`: a revision plus 24 values (20 round fields, two current-supply values, global supply and the color-swap flag). The Master Client initializes missing state once. Both players, including the Master Client, need this patch to use the shared board.
 
-Verify: five-round totals; left/right clicks and zero clamp; shared denominator; color swap preserving all numeric values; map load after placement; 54×36 and 36×36 boards; deployment token positions and counts remain unchanged; no activation in other game systems; cleanup when leaving the room. Compilation and local DLL injection were checked. The color-swap interaction still needs an in-game visual test.
+Clicks enqueue deltas, not absolute values. The client serializes one command at a time with Photon SetCustomProperties and an expected previous state (compare-and-swap). The server accepts only an unchanged revision. Concurrent edits retry against the latest state after 750 ms. Each client has a separate acknowledgement property keyed by a random session identifier, updated atomically with state; retries are therefore not counted twice. The UI displays accepted room state rather than optimistic network values.
+
+Tick polls Photon's synchronized room-property cache. Late joiners read the current board state from that same cache. Standalone/offline mode changes local state directly. Spectators can view the board but the UI blocks their edits. Current Supply, Global Supply, round points and color swaps all follow this same path.
+
+The state decoder validates field count, format and ranges. Values are clamped to 0–1,000,000; totals are derived locally. The implementation follows [Photon's Custom Properties / CAS model](https://doc.photonengine.com/pun/current/gameplay/synchronization-and-state).
+
+## Persistence and verification
+
+Photon room state survives client joins while the room exists. It is **not** written into Warhall saved games and is not part of Undo/Redo. Recreating the terrain gives it a new PhotonView identity and a fresh score; room properties for old views are not automatically pruned. Production integration should connect state to Warhall save/load, clean up old room keys and replace the placement heuristic with actual map bounds.
+
+Pure state and simulated-transport tests cover validation, zero clamps, serialization, concurrent increments, conflicting CAS retries without double counting, late join and synchronized color swaps. Native compilation and local DLL injection were checked. A real two-client game, reconnects, Master Client handover and Windows gameplay still need verification.
+
+Verify five-round totals, left/right clicks, shared denominator, color swap preserving values, the original left board remaining visible, 54×36 and 36×36 maps, unchanged deployment tokens, and no activation in other game systems. The original board still requires its normal catalogue skin on unpatched clients; the local prototype's skin fallback is not part of this standalone UI file.

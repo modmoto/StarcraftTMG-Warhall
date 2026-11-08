@@ -13,6 +13,7 @@ public static class LeadingMovement
     private static Soldier rightDrag;
     private static Soldier pendingDrag;
     private static Unit selectionAfterDrag;
+    private static bool multiDrag;
     private static Vector3 rightStart;
     private static Quaternion rightRotation;
     private static Vector3 rightOffset;
@@ -26,7 +27,11 @@ public static class LeadingMovement
     public static void AfterInput(InputManager input)
     {
         if (rightDrag != null) input.CameraScrollInputAllowed = false;
-        if (Input.GetMouseButtonUp(0)) pendingDrag = null;
+        if (Input.GetMouseButtonUp(0))
+        {
+            pendingDrag = null;
+            multiDrag = false;
+        }
         if (selectionAfterDrag == null || rightDrag != null) return;
         var unit = selectionAfterDrag;
         selectionAfterDrag = null;
@@ -39,8 +44,21 @@ public static class LeadingMovement
         }
     }
 
+    private static bool HasSelectedGroup(Soldier model, InputManager input)
+    {
+        var selected = input.GetCurrentSelection();
+        return selected.Count > 1 &&
+            (selected.Contains(model) || selected.Contains(model.GetParentUnit()));
+    }
+
     public static GameItem SelectionTarget(GameItem item)
     {
+        if (item is Soldier selectedModel)
+        {
+            var input = UnityEngine.Object.FindFirstObjectByType<InputManager>();
+            if (HasSelectedGroup(selectedModel, input) &&
+                input.GetCurrentSelection().Contains(selectedModel)) return selectedModel;
+        }
         if (item is Soldier model && model.GetParentUnit() != null &&
             model.GetParentUnit().Formation is Cloud)
             return model.GetParentUnit();
@@ -60,6 +78,13 @@ public static class LeadingMovement
         if (!Eligible(pendingDrag)) return;
         var model = pendingDrag;
         pendingDrag = null;
+        multiDrag = HasSelectedGroup(model, input);
+        if (multiDrag)
+        {
+            selectionAfterDrag = null;
+            input.MouseDrag(model);
+            return;
+        }
         input.ForceSingleSeletion(model);
         input.MouseDrag(model);
     }
@@ -215,6 +240,7 @@ public static class LeadingMovement
             !(EventSystem.current != null && EventSystem.current.IsPointerOverGameObject()))
         {
             clicked = hovered;
+            multiDrag = false;
             SetLeader(hovered);
             var input = UnityEngine.Object.FindFirstObjectByType<InputManager>();
             input.ForceSingleSeletion(leader);
@@ -236,6 +262,7 @@ public static class LeadingMovement
 
     public static void Begin(Soldier model)
     {
+        if (multiDrag) return;
         if (model != leader) return;
         foreach (var snapshot in snapshots.Values)
         {
@@ -251,6 +278,7 @@ public static class LeadingMovement
 
     public static void Finish(Soldier model)
     {
+        if (multiDrag) return;
         if (Eligible(model)) selectionAfterDrag = model.GetParentUnit();
         if (model != leader || !dragging) return;
         dragging = false;

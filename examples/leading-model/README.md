@@ -11,7 +11,8 @@ Use this recording as the visual reference for the intended interaction. The aut
 ## Behavior
 
 - A simple left-click highlights/selects the entire Cloud unit. The broken-heart button therefore adds wounds to the unit and uses the existing profile threshold to remove models. No changes to the damage calculation are required.
-- Left-dragging a model switches the highlight/selection to that model only after the native drag threshold is crossed. Only that model moves; no double-click is needed. On release, the whole unit is automatically highlighted/selected again for wound allocation, without an extra click. This also applies after right-button leader movement; the leader and its radius remain unchanged.
+- Dragging a previously box-selected group preserves that selection and moves all selected models together. This also applies to multiple selected units. The leader teleport algorithm is suppressed during a group drag, even when the leader is selected.
+- Left-dragging a model switches the highlight/selection to that model only after the native drag threshold is crossed. Only that model moves; no double-click is needed. On release after an individual drag, the whole unit is automatically highlighted/selected again for wound allocation, without an extra click. This also applies after right-button leader movement; the leader and its radius remain unchanged.
 - Click a model and press **L** to select it as leader. Press **L** on the same model to disable leader mode.
 - Alternatively, right-press an owned model, hold and drag, then release. This selects the leader, moves it, and distributes its followers in one gesture. Right-click on empty ground retains camera rotation.
 - Only moving the leader redistributes the unit. Every model can still be dragged individually. The leader's circle persists until changed or disabled.
@@ -60,14 +61,14 @@ The prototype overrides four reads of `_isSoldierSelectionCurrentMode`. Equivale
 - In `Soldier.OnDoubleClick()`, retain `base.OnDoubleClick()` and remove the subsequent parent-unit selection triggered by `!_inputManager._isSoldierSelectionCurrentMode`.
 - In `InputManager.DoubleClick()`, replace the current-mode toggle with `_isSoldierSelectionCurrentMode = true;`. Keep the remaining ownership, hover and selection handling.
 
-Keep the original clicked Soldier before mapping the selection target to its Unit. The native click path then selects the squad, preserving broken-heart wound allocation. `RequestDrag` remembers the actual model; `PrepareSingleDrag` switches selection at native drag start, before the drag-item list is copied. Do not force individual selection on mouse-down.
+Keep the original clicked Soldier before mapping the selection target to its Unit. The native click path then selects the squad, preserving broken-heart wound allocation. `RequestDrag` remembers the actual model; `PrepareSingleDrag` switches selection at native drag start, before the drag-item list is copied. Do not force individual selection on mouse-down. `SelectionTarget` returns an already selected Soldier unchanged when it belongs to a multi-selection; mapping it to the Unit here would collapse the selection before drag start.
 
 The integration order is essential:
 
 1. On mouse-down, call `Click(gameItem)` with the original Soldier, then map `gameItem` through `SelectionTarget` before assigning the native `_mouseDown`. This keeps the exact model for L while letting native selection target the Unit.
 2. In `Soldier.OnMouseDrag`, let `RequestDrag(this)` intercept supported model drags before the parent-unit forwarding branch.
-3. At the very start of `InputManager.StartDrag`, call `PrepareSingleDrag(this)` **before** copying `_mouseDrag` into `_dragItem`. It deselects the Unit, selects the remembered Soldier and rebuilds the drag list.
-4. At every `Soldier.EndDrag` exit, `Finish` queues the parent Unit for selection, including when a follower was moved or no redistribution occurred. `AfterInput` consumes that request after native input processing has finished. Do not change selection inside the native drag-item iteration: finish movement, recentering, synchronization and Undo recording first. Restore the leader radius after selecting the Unit.
+3. At the very start of `InputManager.StartDrag`, call `PrepareSingleDrag(this)` **before** copying `_mouseDrag` into `_dragItem`. If the touched model or its parent belongs to a selection of multiple items, it keeps that selection and the native drag list. Otherwise it deselects the Unit, selects the remembered Soldier and rebuilds the drag list.
+4. After an individual drag, at every `Soldier.EndDrag` exit, `Finish` queues the parent Unit for selection, including when a follower was moved or no redistribution occurred. `AfterInput` consumes that request after native input processing has finished. Do not change selection inside the native drag-item iteration: finish movement, recentering, synchronization and Undo recording first. Restore the leader radius after selecting the Unit.
 5. Keep native wound handling unchanged. Right-button leader movement uses its own individual selection path; ordinary squad clicks must not clear the leader or its radius.
 
 Use **Cloud/group formation with SoldierMagnet disabled**. The helper checks this before enabling a leader.
@@ -82,4 +83,4 @@ The triangle snapshot is captured when the marker is created. If no leader exist
 
 Verify a plain click highlights the squad and broken-heart wounds remove models at the profile threshold; then verify dragging a follower moves only that follower and release immediately reselects the squad. Check wounds immediately after both left-drag and right-drag, without another click. Verify L on/off, right-drag versus ground-camera drag, individual follower adjustment, 3/4-inch rules, reset after a leader change, and undo/redo in a two-client room. Escape/focus loss cancels right-drag. The local user tested the movement prototype, but full multiplayer, saved-game persistence and collision validation remain open. Integrate the shortcut through Warhall's input bindings, gate the feature by game system, and store state per game instead of the prototype's static state before general release.
 
-The automatic squad reselection on release is included in this developer example only; it has not been built into or interactively tested in the local prototype app.
+The local app now includes automatic squad reselection after individual drags and preserves multi-selection after group drags. Selection-path tests passed; an in-game group drag and two-client test remain required.

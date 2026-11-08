@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType><TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings><Nullable>enable</Nullable>
+    <AssemblyName>WarhallCommunityPatch</AssemblyName>
+    <PublishSingleFile>true</PublishSingleFile><SelfContained>true</SelfContained>
+    <IncludeNativeLibrariesForSelfExtract>true</IncludeNativeLibrariesForSelfExtract>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Remove="runtime/**/*.cs;checks/**/*.cs" />
+    <PackageReference Include="Mono.Cecil" Version="0.11.6" />
+    <EmbeddedResource Include="payload/MovementPrototype.dll" LogicalName="Helper.dll" />
+    <EmbeddedResource Include="supported.json" LogicalName="supported.json" />
+  </ItemGroup>
+</Project>
