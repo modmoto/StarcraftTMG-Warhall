@@ -6,8 +6,6 @@ This is the source-level integration of the locally tested Unity prototype. Copy
 
 ![Leading-model movement demonstration](leading-model-demo.gif)
 
-[Download the original video](leading-model-demo.mov).
-
 Use this recording as the visual reference for the intended interaction. The automatic squad reselection after releasing a model is a later addition documented below and included in the example code.
 
 ## Behavior
