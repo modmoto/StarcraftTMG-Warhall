@@ -2,6 +2,12 @@
 
 This is the source-level integration of the locally tested Unity prototype. Copy [LeadingMovement.cs](LeadingMovement.cs) into the game assembly. It uses the existing `GameItem`, `Soldier`, `Unit`, `Cloud`, `CornerMarker`, `UndoRedo`, Photon synchronization and radius drawing APIs. The developer integration uses source edits and requires no DLL patcher.
 
+## Video demonstration
+
+[Watch the movement prototype in action](leading-model-demo.mov).
+
+Use this recording as the visual reference for the intended interaction. The automatic squad reselection after releasing a model is a later addition documented below and included in the example code.
+
 ## Behavior
 
 - A simple left-click highlights/selects the entire Cloud unit. The broken-heart button therefore adds wounds to the unit and uses the existing profile threshold to remove models. No changes to the damage calculation are required.
