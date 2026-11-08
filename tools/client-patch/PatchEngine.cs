@@ -11,6 +11,7 @@ public static class PatchEngine
 
         var resolver = new DefaultAssemblyResolver();
         resolver.AddSearchDirectory(Path.GetDirectoryName(Path.GetFullPath(args[0]))!);
+        resolver.AddSearchDirectory(Path.GetDirectoryName(Path.GetFullPath(args[1]))!);
         using var assembly = AssemblyDefinition.ReadAssembly(args[0], new ReaderParameters { AssemblyResolver = resolver });
         int changed = 0;
         foreach (var type in assembly.MainModule.Types)

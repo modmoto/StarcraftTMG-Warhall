@@ -56,3 +56,5 @@ Photon room state survives client joins while the room exists. It is **not** wri
 Pure state and simulated-transport tests cover validation, zero clamps, serialization, concurrent increments, conflicting CAS retries without double counting, late join and synchronized color swaps. Native compilation and local DLL injection were checked. A real two-client game, reconnects, Master Client handover and Windows gameplay still need verification.
 
 Verify five-round totals, left/right clicks, shared denominator, color swap preserving values, the original left board remaining visible, 54×36 and 36×36 maps, unchanged deployment tokens, and no activation in other game systems. The original board still requires its normal catalogue skin on unpatched clients; the patch does not replace missing skins.
+
+The production installer patches the existing app directly, without prompts. It leaves the native executable, launcher and asset loading unchanged, keeps a hash-checked original DLL backup, and writes WarhallCommunityPatch.log beside the patcher. See [the installer guide](../../tools/client-patch/README.md).
