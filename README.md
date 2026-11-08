@@ -10,6 +10,10 @@ Normal play loads the published HTTPS game data and Warhall shared skins. Local 
 
 Before uploading from the WDS editor, download its ZIP and run `python scripts/compare-wds-export.py EXPORT.zip`. The editor can omit tokens and replace terrain records even when its UI looks empty. See [the verified comparison and client-menu findings](docs/wds-editor-compatibility.md).
 
+## Community client patch
+
+[Download the production patch](https://github.com/modmoto/StarcraftTMG-Warhall/releases/latest) for Windows or macOS. It includes leading-model movement, shared StarCraft shields and the interactive scoreboard. Installation and limits are in [the patch guide](tools/client-patch/README.md). Developer integrations: [movement](examples/leading-model/README.md), [shields](examples/unit-shields/README.md), [scoreboard](examples/starcraft-scoreboard/README.md).
+
 ## Generate from official PDFs (default)
 
 From this repository:

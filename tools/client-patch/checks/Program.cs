@@ -38,3 +38,18 @@ Check(input.Selected.Count==1 && input.Selected[0]==m1 && input.Forced==1 && !Mo
 var u2=new MovementCheck.Unit();input.Selected=new(){u,u2};
 MovementCheck.LeadingMovement.Pending(m1);MovementCheck.LeadingMovement.PrepareSingleDrag(input);
 Check(input.Selected.Count==2 && MovementCheck.LeadingMovement.multiDrag,"selected unit group also retained");
+
+var pool = (shields: 2, damage: 0);
+for (int hit = 1; hit <= 5; hit++) {
+    pool = ShieldPool.Step(2, pool.shields, pool.damage, false);
+    Check(pool.damage == Math.Max(0, hit - 2), "shared Adept shields before hull hit " + hit);
+}
+Check(pool.damage == 3, "first 3HP casualty after five total damage");
+for (int heal = 0; heal < 5; heal++) pool = ShieldPool.Step(2, pool.shields, pool.damage, true);
+Check(pool == (2, 0), "healing reverses hull damage before restoring shared shields");
+Check(ShieldPool.Step(2, 2, 0, true) == (2, 0), "healing cannot exceed shield maximum");
+Check(ShieldPool.Step(0, 0, 0, false) == (0, 1), "no shields means immediate hull damage");
+
+Check(!MovementCheck.LeadingMovement.ShouldRedraw(new MovementCheck.Token()), "drag redraw keeps hidden token radius hidden");
+Check(MovementCheck.LeadingMovement.ShouldRedraw(new MovementCheck.Token {Visible=true}), "explicit token radius still redraws");
+Check(MovementCheck.LeadingMovement.ShouldRedraw(m1), "soldier leader radius redraw unchanged");

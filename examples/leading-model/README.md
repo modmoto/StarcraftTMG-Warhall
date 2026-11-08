@@ -86,3 +86,7 @@ Verify a plain click highlights the squad and broken-heart wounds remove models 
 The local app now includes automatic squad reselection after individual drags and preserves multi-selection after group drags. Selection-path tests passed; an in-game group drag and two-client test remain required.
 
 The production installer patches the existing app directly, without prompts. The normal Warhall app/launcher remains the entry point. A hash-checked original DLL backup supports restore, and WarhallCommunityPatch.log is written beside the patcher. See [the installer guide](../../tools/client-patch/README.md).
+
+## Token radius regression (patch 1.0.3)
+
+At the start of `GameItem.RedrawShapeDrawer(Material materialOverride = null)`, add `if (!LeadingMovement.ShouldRedraw(this)) return;`. Hidden token radii must stay hidden during movement/redraw. Explicitly visible token radii continue to redraw; soldier leader circles and group selection are unchanged. This guard is included in patch 1.0.3; the token-drag reproduction still needs a client playtest.

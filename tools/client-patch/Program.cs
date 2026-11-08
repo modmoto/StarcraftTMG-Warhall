@@ -10,7 +10,7 @@ try
     var synchronizedLog = TextWriter.Synchronized(log);
     Console.SetOut(new TeeWriter(Console.Out, synchronizedLog));
     Console.SetError(new TeeWriter(Console.Error, synchronizedLog));
-    Console.WriteLine($"\n=== {DateTimeOffset.Now:O} | Production patch 1.0.2 | {Environment.OSVersion} ===");
+    Console.WriteLine($"\n=== {DateTimeOffset.Now:O} | Production patch 1.0.3 | {Environment.OSVersion} ===");
     if (args.Length == 2 && args[0] == "--fingerprint")
     {
         Console.WriteLine(Compatibility.Fingerprint(args[1]));

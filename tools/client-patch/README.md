@@ -1,6 +1,6 @@
-# Warhall Production Patch 1.0.2
+# Warhall Production Patch 1.0.3
 
-Leading-model movement and a Photon-synchronized StarCraft scoreboard for the installed production game.
+Leading-model movement, shared StarCraft shields and a Photon-synchronized StarCraft scoreboard for the installed production game.
 
 ## Install
 
@@ -49,6 +49,8 @@ Warhall's updater may replace the modified files during an official update. Use 
 - Drag a model to move it individually; release reselects the squad.
 - Box-select multiple models, then drag a selected model to move the selected group together. The selection stays intact and the leader teleport is suppressed for group drags.
 - **L** toggles the clicked leader. **Right-drag** sets and moves a leader in one gesture. Followers move forward inside its 3-inch range, or 4 inches with Squadron.
+- StarCraft shields are shared by the squad and read from its profile. Damage consumes shields before wounds; healing repairs wounds before restoring shields. The blue shield counter disappears at zero.
+- Moving tokens no longer makes hidden radius circles visible. Intentionally enabled radii remain available.
 - The triangle restores model positions, rotations and the original leader.
 - The additional scoreboard on the right tracks Supply and Mission points across five rounds. Left/right clicks increase/decrease values. Global Supply starts at 6; the arrow button swaps player colors.
 - Both clients, including the room's Master Client, need the patch for the shared scoreboard. The original left board remains available to unpatched players; its counters are independent.
@@ -59,7 +61,9 @@ The patch does not create, reposition or deduplicate tokens and does not replace
 
 Direct installation, repeated application, hash-preserving restore and refusal of Test were checked on a complete production-app fixture. A file comparison confirmed that only the original Assembly-CSharp.dll changed, with the helper and backup metadata added. The installed native executable and launcher files are unchanged.
 
-Selection-path and simulated Photon tests cover group selection, counter validation, concurrency conflicts, retry deduplication, late join and color swaps. Real two-client play, reconnects, Master Client handover and Windows gameplay remain unverified. Scoreboard room state is not stored in Warhall saved games and has no Undo/Redo. Placement ignores terrain/other-unit collision.
+Selection-path and simulated Photon tests cover group selection, counter validation, concurrency conflicts, retry deduplication, late join and color swaps. Real two-client play, reconnects, Master Client handover and Windows gameplay remain unverified. All players applying damage to shielded units need this patch. Shield room state is not stored in saved games; newly opened rooms start with full shields. Real multiplayer shield synchronization and casualty Undo/Redo remain unverified. See [developer integration](../../examples/unit-shields/README.md).
+
+Scoreboard room state is not stored in Warhall saved games and has no Undo/Redo. Placement ignores terrain/other-unit collision.
 
 ## Maintainer build
 
@@ -74,6 +78,6 @@ dotnet publish tools/client-patch/ClientPatch.csproj -c Release -r osx-arm64 --s
 dotnet publish tools/client-patch/ClientPatch.csproj -c Release -r osx-x64 --self-contained true -p:RuntimeFrameworkVersion=8.0.33 -o .cache/client-patch/osx-x64
 ```
 
-The helper is built directly from the maintained movement and scoreboard examples. All Photon helpers stay in StarcraftScoreboard.cs. Refresh the embedded payload when feature code changes and update each example README with its implementation. DOTNET_EXECUTABLE selects the dotnet executable for the checks.
+The helper is built directly from the maintained movement, shield and scoreboard examples. All Photon helpers stay in StarcraftScoreboard.cs. Refresh the embedded payload when feature code changes and update each example README with its implementation. DOTNET_EXECUTABLE selects the dotnet executable for the checks.
 
 The supported.json fingerprints are reviewed input. --fingerprint /path/to/Assembly-CSharp.dll prints the native-build fingerprint without patching it. Do not automatically accept unknown builds. Downloads contain the patcher, its runtime and our helper, not original Warhall assemblies.

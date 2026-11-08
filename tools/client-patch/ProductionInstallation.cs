@@ -7,7 +7,7 @@ using Mono.Cecil;
 
 public static class ProductionInstallation
 {
-    private const string Version = "1.0.2";
+    private const string Version = "1.0.3";
 
     public static string Resolve(string? requested)
     {

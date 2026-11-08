@@ -50,6 +50,13 @@ public static class PatchEngine
             if (argument) processor.InsertBefore(first, processor.Create(instance ? OpCodes.Ldarg_0 : OpCodes.Ldarg_1));
             processor.InsertBefore(first, processor.Create(OpCodes.Call, Hook(hook)));
         }
+        var redraw = gameItem.Methods.Single(method => method.Name == "RedrawShapeDrawer");
+        var redrawIl = redraw.Body.GetILProcessor();
+        var nativeRedraw = redraw.Body.Instructions[0];
+        redrawIl.InsertBefore(nativeRedraw, redrawIl.Create(OpCodes.Ldarg_0));
+        redrawIl.InsertBefore(nativeRedraw, redrawIl.Create(OpCodes.Call, Hook("ShouldRedraw")));
+        redrawIl.InsertBefore(nativeRedraw, redrawIl.Create(OpCodes.Brtrue, nativeRedraw));
+        redrawIl.InsertBefore(nativeRedraw, redrawIl.Create(OpCodes.Ret));
         AtEntry(mouseDown, "Click", true);
         var mouseDownIl = mouseDown.Body.GetILProcessor();
         var originalMouseDown = mouseDown.Body.Instructions.First(instruction => instruction.OpCode == OpCodes.Ldarg_0);
@@ -78,6 +85,19 @@ public static class PatchEngine
         }
 
         AtEntry(input.Methods.Single(method => method.Name == "Update"), "Update", false);
+        var shields = runtime.MainModule.Types.Single(type => type.Name == "StarcraftShields");
+        foreach (var pair in new[] { ("RemoveHealthPoint", "Damage"), ("AddHealthPoint", "Heal") })
+        {
+            var method = input.Methods.Single(method => method.Name == pair.Item1 && method.Parameters.Count == 0);
+            var il = method.Body.GetILProcessor();
+            var first = method.Body.Instructions[0];
+            il.InsertBefore(first, il.Create(OpCodes.Ldarg_0));
+            il.InsertBefore(first, il.Create(OpCodes.Call, module.ImportReference(shields.Methods.Single(hook => hook.Name == pair.Item2))));
+            il.InsertBefore(first, il.Create(OpCodes.Brfalse, first));
+            il.InsertBefore(first, il.Create(OpCodes.Ret));
+        }
+        var shieldFirst = update.Body.Instructions[0];
+        updateIl.InsertBefore(shieldFirst, updateIl.Create(OpCodes.Call, module.ImportReference(shields.Methods.Single(hook => hook.Name == "Tick"))));
         var scoreType = runtime.MainModule.Types.Single(type => type.Name == "StarcraftScoreboard");
         var scoreHook = module.ImportReference(scoreType.Methods.Single(method => method.Name == "Tick"));
         var scoreFirst = update.Body.Instructions[0];

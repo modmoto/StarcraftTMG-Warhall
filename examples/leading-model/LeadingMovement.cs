@@ -19,6 +19,8 @@ public static class LeadingMovement
     private static Vector3 rightOffset;
     private static UndoRedo rightUndo;
 
+    public static bool ShouldRedraw(GameItem item) => !(item is Token) || item.IsShapeDrawerVisible();
+
     public static void Hover(GameItem item) => hovered = item as Soldier;
     public static void Leave(GameItem item)
     {
