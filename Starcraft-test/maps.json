@@ -258,7 +258,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 56,
-        "LongSide": 2
+        "LongSide": 0.4921259842519703
       },
       {
         "Id": "Activation - blue - movement",
@@ -266,7 +266,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 57.25,
-        "LongSide": 2
+        "LongSide": 0.4921259842519703
       },
       {
         "Id": "Activation - blue - movement",
@@ -274,7 +274,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 58.5,
-        "LongSide": 2
+        "LongSide": 0.4921259842519703
       },
       {
         "Id": "Activation - blue - movement",
@@ -282,7 +282,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 59.75,
-        "LongSide": 2
+        "LongSide": 0.4921259842519703
       },
       {
         "Id": "Activation - blue - movement",
@@ -290,7 +290,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 61,
-        "LongSide": 2
+        "LongSide": 0.4921259842519703
       },
       {
         "Id": "Activation - red - movement",
@@ -298,7 +298,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 62.25,
-        "LongSide": 2
+        "LongSide": 0.4921259842519703
       },
       {
         "Id": "Activation - red - assault",
@@ -306,7 +306,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 56,
-        "LongSide": 3.25
+        "LongSide": 1.7421259842519703
       },
       {
         "Id": "Activation - red - assault",
@@ -314,7 +314,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 57.25,
-        "LongSide": 3.25
+        "LongSide": 1.7421259842519703
       },
       {
         "Id": "Activation - red - assault",
@@ -322,7 +322,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 58.5,
-        "LongSide": 3.25
+        "LongSide": 1.7421259842519703
       },
       {
         "Id": "Activation - red - assault",
@@ -330,7 +330,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 59.75,
-        "LongSide": 3.25
+        "LongSide": 1.7421259842519703
       },
       {
         "Id": "Activation - red - assault",
@@ -338,7 +338,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 61,
-        "LongSide": 3.25
+        "LongSide": 1.7421259842519703
       },
       {
         "Id": "Activation - blue - assault",
@@ -346,7 +346,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 62.25,
-        "LongSide": 3.25
+        "LongSide": 1.7421259842519703
       },
       {
         "Id": "Debuff",
@@ -354,7 +354,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 56,
-        "LongSide": 5.75
+        "LongSide": 4.24212598425197
       },
       {
         "Id": "Buff",
@@ -362,7 +362,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 56,
-        "LongSide": 7
+        "LongSide": 5.49212598425197
       },
       {
         "Id": "Terran - blue",
@@ -370,7 +370,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 58.5,
-        "LongSide": 5.75
+        "LongSide": 4.24212598425197
       },
       {
         "Id": "Protoss - yellow",
@@ -378,7 +378,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 60,
-        "LongSide": 5.75
+        "LongSide": 4.24212598425197
       },
       {
         "Id": "Zerg - purple",
@@ -386,7 +386,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 61.5,
-        "LongSide": 5.75
+        "LongSide": 4.24212598425197
       },
       {
         "Id": "Terran - white",
@@ -394,7 +394,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 58.5,
-        "LongSide": 7.25
+        "LongSide": 5.74212598425197
       },
       {
         "Id": "Protoss - white",
@@ -402,7 +402,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 60,
-        "LongSide": 7.25
+        "LongSide": 5.74212598425197
       },
       {
         "Id": "Zerg - white",
@@ -410,7 +410,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 61.5,
-        "LongSide": 7.25
+        "LongSide": 5.74212598425197
       },
       {
         "Id": "Stim",
@@ -418,7 +418,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 56,
-        "LongSide": 9.5
+        "LongSide": 7.99212598425197
       },
       {
         "Id": "Burrowed",
@@ -426,7 +426,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 57.25,
-        "LongSide": 9.5
+        "LongSide": 7.99212598425197
       },
       {
         "Id": "Hidden",
@@ -434,7 +434,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 58.5,
-        "LongSide": 9.5
+        "LongSide": 7.99212598425197
       },
       {
         "Id": "Siege Status",
@@ -442,7 +442,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 59.75,
-        "LongSide": 9.5
+        "LongSide": 7.99212598425197
       },
       {
         "Id": "Bile Bomb",
@@ -450,7 +450,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 56,
-        "LongSide": 10.75
+        "LongSide": 9.24212598425197
       },
       {
         "Id": "Creep Tumor",
@@ -458,7 +458,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 57.25,
-        "LongSide": 10.75
+        "LongSide": 9.24212598425197
       },
       {
         "Id": "Corrosive Bile",
@@ -466,7 +466,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 58.5,
-        "LongSide": 10.75
+        "LongSide": 9.24212598425197
       },
       {
         "Id": "Shield",
@@ -474,7 +474,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 59.75,
-        "LongSide": 10.75
+        "LongSide": 9.24212598425197
       },
       {
         "Id": "Activation - blue - movement",
@@ -482,7 +482,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 56,
-        "LongSide": 34
+        "LongSide": 35.50787401574803
       },
       {
         "Id": "Activation - blue - movement",
@@ -490,7 +490,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 57.25,
-        "LongSide": 34
+        "LongSide": 35.50787401574803
       },
       {
         "Id": "Activation - blue - movement",
@@ -498,7 +498,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 58.5,
-        "LongSide": 34
+        "LongSide": 35.50787401574803
       },
       {
         "Id": "Activation - blue - movement",
@@ -506,7 +506,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 59.75,
-        "LongSide": 34
+        "LongSide": 35.50787401574803
       },
       {
         "Id": "Activation - blue - movement",
@@ -514,7 +514,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 61,
-        "LongSide": 34
+        "LongSide": 35.50787401574803
       },
       {
         "Id": "Activation - red - movement",
@@ -522,7 +522,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 62.25,
-        "LongSide": 34
+        "LongSide": 35.50787401574803
       },
       {
         "Id": "Activation - red - assault",
@@ -530,7 +530,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 56,
-        "LongSide": 32.75
+        "LongSide": 34.25787401574803
       },
       {
         "Id": "Activation - red - assault",
@@ -538,7 +538,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 57.25,
-        "LongSide": 32.75
+        "LongSide": 34.25787401574803
       },
       {
         "Id": "Activation - red - assault",
@@ -546,7 +546,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 58.5,
-        "LongSide": 32.75
+        "LongSide": 34.25787401574803
       },
       {
         "Id": "Activation - red - assault",
@@ -554,7 +554,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 59.75,
-        "LongSide": 32.75
+        "LongSide": 34.25787401574803
       },
       {
         "Id": "Activation - red - assault",
@@ -562,7 +562,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 61,
-        "LongSide": 32.75
+        "LongSide": 34.25787401574803
       },
       {
         "Id": "Activation - blue - assault",
@@ -570,7 +570,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 62.25,
-        "LongSide": 32.75
+        "LongSide": 34.25787401574803
       },
       {
         "Id": "Debuff",
@@ -578,7 +578,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 56,
-        "LongSide": 30.25
+        "LongSide": 31.75787401574803
       },
       {
         "Id": "Buff",
@@ -586,7 +586,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 56,
-        "LongSide": 29
+        "LongSide": 30.50787401574803
       },
       {
         "Id": "Terran - blue",
@@ -594,7 +594,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 58.5,
-        "LongSide": 30.25
+        "LongSide": 31.75787401574803
       },
       {
         "Id": "Protoss - yellow",
@@ -602,7 +602,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 60,
-        "LongSide": 30.25
+        "LongSide": 31.75787401574803
       },
       {
         "Id": "Zerg - purple",
@@ -610,7 +610,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 61.5,
-        "LongSide": 30.25
+        "LongSide": 31.75787401574803
       },
       {
         "Id": "Terran - white",
@@ -618,7 +618,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 58.5,
-        "LongSide": 28.75
+        "LongSide": 30.25787401574803
       },
       {
         "Id": "Protoss - white",
@@ -626,7 +626,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 60,
-        "LongSide": 28.75
+        "LongSide": 30.25787401574803
       },
       {
         "Id": "Zerg - white",
@@ -634,7 +634,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 61.5,
-        "LongSide": 28.75
+        "LongSide": 30.25787401574803
       },
       {
         "Id": "Stim",
@@ -642,7 +642,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 56,
-        "LongSide": 26.5
+        "LongSide": 28.00787401574803
       },
       {
         "Id": "Burrowed",
@@ -650,7 +650,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 57.25,
-        "LongSide": 26.5
+        "LongSide": 28.00787401574803
       },
       {
         "Id": "Hidden",
@@ -658,7 +658,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 58.5,
-        "LongSide": 26.5
+        "LongSide": 28.00787401574803
       },
       {
         "Id": "Siege Status",
@@ -666,7 +666,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 59.75,
-        "LongSide": 26.5
+        "LongSide": 28.00787401574803
       },
       {
         "Id": "Bile Bomb",
@@ -674,7 +674,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 56,
-        "LongSide": 25.25
+        "LongSide": 26.75787401574803
       },
       {
         "Id": "Creep Tumor",
@@ -682,7 +682,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 57.25,
-        "LongSide": 25.25
+        "LongSide": 26.75787401574803
       },
       {
         "Id": "Corrosive Bile",
@@ -690,7 +690,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 58.5,
-        "LongSide": 25.25
+        "LongSide": 26.75787401574803
       },
       {
         "Id": "Shield",
@@ -698,7 +698,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 59.75,
-        "LongSide": 25.25
+        "LongSide": 26.75787401574803
       }
     ]
   },
@@ -961,7 +961,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 56,
-        "LongSide": 2
+        "LongSide": 0.4921259842519703
       },
       {
         "Id": "Activation - blue - movement",
@@ -969,7 +969,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 57.25,
-        "LongSide": 2
+        "LongSide": 0.4921259842519703
       },
       {
         "Id": "Activation - blue - movement",
@@ -977,7 +977,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 58.5,
-        "LongSide": 2
+        "LongSide": 0.4921259842519703
       },
       {
         "Id": "Activation - blue - movement",
@@ -985,7 +985,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 59.75,
-        "LongSide": 2
+        "LongSide": 0.4921259842519703
       },
       {
         "Id": "Activation - blue - movement",
@@ -993,7 +993,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 61,
-        "LongSide": 2
+        "LongSide": 0.4921259842519703
       },
       {
         "Id": "Activation - red - movement",
@@ -1001,7 +1001,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 62.25,
-        "LongSide": 2
+        "LongSide": 0.4921259842519703
       },
       {
         "Id": "Activation - red - assault",
@@ -1009,7 +1009,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 56,
-        "LongSide": 3.25
+        "LongSide": 1.7421259842519703
       },
       {
         "Id": "Activation - red - assault",
@@ -1017,7 +1017,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 57.25,
-        "LongSide": 3.25
+        "LongSide": 1.7421259842519703
       },
       {
         "Id": "Activation - red - assault",
@@ -1025,7 +1025,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 58.5,
-        "LongSide": 3.25
+        "LongSide": 1.7421259842519703
       },
       {
         "Id": "Activation - red - assault",
@@ -1033,7 +1033,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 59.75,
-        "LongSide": 3.25
+        "LongSide": 1.7421259842519703
       },
       {
         "Id": "Activation - red - assault",
@@ -1041,7 +1041,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 61,
-        "LongSide": 3.25
+        "LongSide": 1.7421259842519703
       },
       {
         "Id": "Activation - blue - assault",
@@ -1049,7 +1049,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 62.25,
-        "LongSide": 3.25
+        "LongSide": 1.7421259842519703
       },
       {
         "Id": "Debuff",
@@ -1057,7 +1057,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 56,
-        "LongSide": 5.75
+        "LongSide": 4.24212598425197
       },
       {
         "Id": "Buff",
@@ -1065,7 +1065,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 56,
-        "LongSide": 7
+        "LongSide": 5.49212598425197
       },
       {
         "Id": "Terran - blue",
@@ -1073,7 +1073,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 58.5,
-        "LongSide": 5.75
+        "LongSide": 4.24212598425197
       },
       {
         "Id": "Protoss - yellow",
@@ -1081,7 +1081,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 60,
-        "LongSide": 5.75
+        "LongSide": 4.24212598425197
       },
       {
         "Id": "Zerg - purple",
@@ -1089,7 +1089,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 61.5,
-        "LongSide": 5.75
+        "LongSide": 4.24212598425197
       },
       {
         "Id": "Terran - white",
@@ -1097,7 +1097,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 58.5,
-        "LongSide": 7.25
+        "LongSide": 5.74212598425197
       },
       {
         "Id": "Protoss - white",
@@ -1105,7 +1105,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 60,
-        "LongSide": 7.25
+        "LongSide": 5.74212598425197
       },
       {
         "Id": "Zerg - white",
@@ -1113,7 +1113,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 61.5,
-        "LongSide": 7.25
+        "LongSide": 5.74212598425197
       },
       {
         "Id": "Stim",
@@ -1121,7 +1121,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 56,
-        "LongSide": 9.5
+        "LongSide": 7.99212598425197
       },
       {
         "Id": "Burrowed",
@@ -1129,7 +1129,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 57.25,
-        "LongSide": 9.5
+        "LongSide": 7.99212598425197
       },
       {
         "Id": "Hidden",
@@ -1137,7 +1137,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 58.5,
-        "LongSide": 9.5
+        "LongSide": 7.99212598425197
       },
       {
         "Id": "Siege Status",
@@ -1145,7 +1145,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 59.75,
-        "LongSide": 9.5
+        "LongSide": 7.99212598425197
       },
       {
         "Id": "Bile Bomb",
@@ -1153,7 +1153,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 56,
-        "LongSide": 10.75
+        "LongSide": 9.24212598425197
       },
       {
         "Id": "Creep Tumor",
@@ -1161,7 +1161,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 57.25,
-        "LongSide": 10.75
+        "LongSide": 9.24212598425197
       },
       {
         "Id": "Corrosive Bile",
@@ -1169,7 +1169,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 58.5,
-        "LongSide": 10.75
+        "LongSide": 9.24212598425197
       },
       {
         "Id": "Shield",
@@ -1177,7 +1177,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 59.75,
-        "LongSide": 10.75
+        "LongSide": 9.24212598425197
       },
       {
         "Id": "Activation - blue - movement",
@@ -1185,7 +1185,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 56,
-        "LongSide": 34
+        "LongSide": 35.50787401574803
       },
       {
         "Id": "Activation - blue - movement",
@@ -1193,7 +1193,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 57.25,
-        "LongSide": 34
+        "LongSide": 35.50787401574803
       },
       {
         "Id": "Activation - blue - movement",
@@ -1201,7 +1201,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 58.5,
-        "LongSide": 34
+        "LongSide": 35.50787401574803
       },
       {
         "Id": "Activation - blue - movement",
@@ -1209,7 +1209,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 59.75,
-        "LongSide": 34
+        "LongSide": 35.50787401574803
       },
       {
         "Id": "Activation - blue - movement",
@@ -1217,7 +1217,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 61,
-        "LongSide": 34
+        "LongSide": 35.50787401574803
       },
       {
         "Id": "Activation - red - movement",
@@ -1225,7 +1225,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 62.25,
-        "LongSide": 34
+        "LongSide": 35.50787401574803
       },
       {
         "Id": "Activation - red - assault",
@@ -1233,7 +1233,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 56,
-        "LongSide": 32.75
+        "LongSide": 34.25787401574803
       },
       {
         "Id": "Activation - red - assault",
@@ -1241,7 +1241,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 57.25,
-        "LongSide": 32.75
+        "LongSide": 34.25787401574803
       },
       {
         "Id": "Activation - red - assault",
@@ -1249,7 +1249,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 58.5,
-        "LongSide": 32.75
+        "LongSide": 34.25787401574803
       },
       {
         "Id": "Activation - red - assault",
@@ -1257,7 +1257,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 59.75,
-        "LongSide": 32.75
+        "LongSide": 34.25787401574803
       },
       {
         "Id": "Activation - red - assault",
@@ -1265,7 +1265,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 61,
-        "LongSide": 32.75
+        "LongSide": 34.25787401574803
       },
       {
         "Id": "Activation - blue - assault",
@@ -1273,7 +1273,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 62.25,
-        "LongSide": 32.75
+        "LongSide": 34.25787401574803
       },
       {
         "Id": "Debuff",
@@ -1281,7 +1281,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 56,
-        "LongSide": 30.25
+        "LongSide": 31.75787401574803
       },
       {
         "Id": "Buff",
@@ -1289,7 +1289,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 56,
-        "LongSide": 29
+        "LongSide": 30.50787401574803
       },
       {
         "Id": "Terran - blue",
@@ -1297,7 +1297,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 58.5,
-        "LongSide": 30.25
+        "LongSide": 31.75787401574803
       },
       {
         "Id": "Protoss - yellow",
@@ -1305,7 +1305,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 60,
-        "LongSide": 30.25
+        "LongSide": 31.75787401574803
       },
       {
         "Id": "Zerg - purple",
@@ -1313,7 +1313,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 61.5,
-        "LongSide": 30.25
+        "LongSide": 31.75787401574803
       },
       {
         "Id": "Terran - white",
@@ -1321,7 +1321,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 58.5,
-        "LongSide": 28.75
+        "LongSide": 30.25787401574803
       },
       {
         "Id": "Protoss - white",
@@ -1329,7 +1329,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 60,
-        "LongSide": 28.75
+        "LongSide": 30.25787401574803
       },
       {
         "Id": "Zerg - white",
@@ -1337,7 +1337,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 61.5,
-        "LongSide": 28.75
+        "LongSide": 30.25787401574803
       },
       {
         "Id": "Stim",
@@ -1345,7 +1345,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 56,
-        "LongSide": 26.5
+        "LongSide": 28.00787401574803
       },
       {
         "Id": "Burrowed",
@@ -1353,7 +1353,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 57.25,
-        "LongSide": 26.5
+        "LongSide": 28.00787401574803
       },
       {
         "Id": "Hidden",
@@ -1361,7 +1361,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 58.5,
-        "LongSide": 26.5
+        "LongSide": 28.00787401574803
       },
       {
         "Id": "Siege Status",
@@ -1369,7 +1369,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 59.75,
-        "LongSide": 26.5
+        "LongSide": 28.00787401574803
       },
       {
         "Id": "Bile Bomb",
@@ -1377,7 +1377,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 56,
-        "LongSide": 25.25
+        "LongSide": 26.75787401574803
       },
       {
         "Id": "Creep Tumor",
@@ -1385,7 +1385,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 57.25,
-        "LongSide": 25.25
+        "LongSide": 26.75787401574803
       },
       {
         "Id": "Corrosive Bile",
@@ -1393,7 +1393,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 58.5,
-        "LongSide": 25.25
+        "LongSide": 26.75787401574803
       },
       {
         "Id": "Shield",
@@ -1401,7 +1401,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 59.75,
-        "LongSide": 25.25
+        "LongSide": 26.75787401574803
       }
     ]
   },
@@ -1664,7 +1664,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 56,
-        "LongSide": 2
+        "LongSide": 0.4921259842519703
       },
       {
         "Id": "Activation - blue - movement",
@@ -1672,7 +1672,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 57.25,
-        "LongSide": 2
+        "LongSide": 0.4921259842519703
       },
       {
         "Id": "Activation - blue - movement",
@@ -1680,7 +1680,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 58.5,
-        "LongSide": 2
+        "LongSide": 0.4921259842519703
       },
       {
         "Id": "Activation - blue - movement",
@@ -1688,7 +1688,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 59.75,
-        "LongSide": 2
+        "LongSide": 0.4921259842519703
       },
       {
         "Id": "Activation - blue - movement",
@@ -1696,7 +1696,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 61,
-        "LongSide": 2
+        "LongSide": 0.4921259842519703
       },
       {
         "Id": "Activation - red - movement",
@@ -1704,7 +1704,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 62.25,
-        "LongSide": 2
+        "LongSide": 0.4921259842519703
       },
       {
         "Id": "Activation - red - assault",
@@ -1712,7 +1712,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 56,
-        "LongSide": 3.25
+        "LongSide": 1.7421259842519703
       },
       {
         "Id": "Activation - red - assault",
@@ -1720,7 +1720,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 57.25,
-        "LongSide": 3.25
+        "LongSide": 1.7421259842519703
       },
       {
         "Id": "Activation - red - assault",
@@ -1728,7 +1728,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 58.5,
-        "LongSide": 3.25
+        "LongSide": 1.7421259842519703
       },
       {
         "Id": "Activation - red - assault",
@@ -1736,7 +1736,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 59.75,
-        "LongSide": 3.25
+        "LongSide": 1.7421259842519703
       },
       {
         "Id": "Activation - red - assault",
@@ -1744,7 +1744,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 61,
-        "LongSide": 3.25
+        "LongSide": 1.7421259842519703
       },
       {
         "Id": "Activation - blue - assault",
@@ -1752,7 +1752,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 62.25,
-        "LongSide": 3.25
+        "LongSide": 1.7421259842519703
       },
       {
         "Id": "Debuff",
@@ -1760,7 +1760,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 56,
-        "LongSide": 5.75
+        "LongSide": 4.24212598425197
       },
       {
         "Id": "Buff",
@@ -1768,7 +1768,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 56,
-        "LongSide": 7
+        "LongSide": 5.49212598425197
       },
       {
         "Id": "Terran - blue",
@@ -1776,7 +1776,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 58.5,
-        "LongSide": 5.75
+        "LongSide": 4.24212598425197
       },
       {
         "Id": "Protoss - yellow",
@@ -1784,7 +1784,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 60,
-        "LongSide": 5.75
+        "LongSide": 4.24212598425197
       },
       {
         "Id": "Zerg - purple",
@@ -1792,7 +1792,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 61.5,
-        "LongSide": 5.75
+        "LongSide": 4.24212598425197
       },
       {
         "Id": "Terran - white",
@@ -1800,7 +1800,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 58.5,
-        "LongSide": 7.25
+        "LongSide": 5.74212598425197
       },
       {
         "Id": "Protoss - white",
@@ -1808,7 +1808,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 60,
-        "LongSide": 7.25
+        "LongSide": 5.74212598425197
       },
       {
         "Id": "Zerg - white",
@@ -1816,7 +1816,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 61.5,
-        "LongSide": 7.25
+        "LongSide": 5.74212598425197
       },
       {
         "Id": "Stim",
@@ -1824,7 +1824,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 56,
-        "LongSide": 9.5
+        "LongSide": 7.99212598425197
       },
       {
         "Id": "Burrowed",
@@ -1832,7 +1832,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 57.25,
-        "LongSide": 9.5
+        "LongSide": 7.99212598425197
       },
       {
         "Id": "Hidden",
@@ -1840,7 +1840,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 58.5,
-        "LongSide": 9.5
+        "LongSide": 7.99212598425197
       },
       {
         "Id": "Siege Status",
@@ -1848,7 +1848,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 59.75,
-        "LongSide": 9.5
+        "LongSide": 7.99212598425197
       },
       {
         "Id": "Bile Bomb",
@@ -1856,7 +1856,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 56,
-        "LongSide": 10.75
+        "LongSide": 9.24212598425197
       },
       {
         "Id": "Creep Tumor",
@@ -1864,7 +1864,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 57.25,
-        "LongSide": 10.75
+        "LongSide": 9.24212598425197
       },
       {
         "Id": "Corrosive Bile",
@@ -1872,7 +1872,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 58.5,
-        "LongSide": 10.75
+        "LongSide": 9.24212598425197
       },
       {
         "Id": "Shield",
@@ -1880,7 +1880,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 59.75,
-        "LongSide": 10.75
+        "LongSide": 9.24212598425197
       },
       {
         "Id": "Activation - blue - movement",
@@ -1888,7 +1888,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 56,
-        "LongSide": 34
+        "LongSide": 35.50787401574803
       },
       {
         "Id": "Activation - blue - movement",
@@ -1896,7 +1896,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 57.25,
-        "LongSide": 34
+        "LongSide": 35.50787401574803
       },
       {
         "Id": "Activation - blue - movement",
@@ -1904,7 +1904,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 58.5,
-        "LongSide": 34
+        "LongSide": 35.50787401574803
       },
       {
         "Id": "Activation - blue - movement",
@@ -1912,7 +1912,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 59.75,
-        "LongSide": 34
+        "LongSide": 35.50787401574803
       },
       {
         "Id": "Activation - blue - movement",
@@ -1920,7 +1920,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 61,
-        "LongSide": 34
+        "LongSide": 35.50787401574803
       },
       {
         "Id": "Activation - red - movement",
@@ -1928,7 +1928,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 62.25,
-        "LongSide": 34
+        "LongSide": 35.50787401574803
       },
       {
         "Id": "Activation - red - assault",
@@ -1936,7 +1936,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 56,
-        "LongSide": 32.75
+        "LongSide": 34.25787401574803
       },
       {
         "Id": "Activation - red - assault",
@@ -1944,7 +1944,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 57.25,
-        "LongSide": 32.75
+        "LongSide": 34.25787401574803
       },
       {
         "Id": "Activation - red - assault",
@@ -1952,7 +1952,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 58.5,
-        "LongSide": 32.75
+        "LongSide": 34.25787401574803
       },
       {
         "Id": "Activation - red - assault",
@@ -1960,7 +1960,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 59.75,
-        "LongSide": 32.75
+        "LongSide": 34.25787401574803
       },
       {
         "Id": "Activation - red - assault",
@@ -1968,7 +1968,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 61,
-        "LongSide": 32.75
+        "LongSide": 34.25787401574803
       },
       {
         "Id": "Activation - blue - assault",
@@ -1976,7 +1976,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 62.25,
-        "LongSide": 32.75
+        "LongSide": 34.25787401574803
       },
       {
         "Id": "Debuff",
@@ -1984,7 +1984,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 56,
-        "LongSide": 30.25
+        "LongSide": 31.75787401574803
       },
       {
         "Id": "Buff",
@@ -1992,7 +1992,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 56,
-        "LongSide": 29
+        "LongSide": 30.50787401574803
       },
       {
         "Id": "Terran - blue",
@@ -2000,7 +2000,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 58.5,
-        "LongSide": 30.25
+        "LongSide": 31.75787401574803
       },
       {
         "Id": "Protoss - yellow",
@@ -2008,7 +2008,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 60,
-        "LongSide": 30.25
+        "LongSide": 31.75787401574803
       },
       {
         "Id": "Zerg - purple",
@@ -2016,7 +2016,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 61.5,
-        "LongSide": 30.25
+        "LongSide": 31.75787401574803
       },
       {
         "Id": "Terran - white",
@@ -2024,7 +2024,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 58.5,
-        "LongSide": 28.75
+        "LongSide": 30.25787401574803
       },
       {
         "Id": "Protoss - white",
@@ -2032,7 +2032,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 60,
-        "LongSide": 28.75
+        "LongSide": 30.25787401574803
       },
       {
         "Id": "Zerg - white",
@@ -2040,7 +2040,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 61.5,
-        "LongSide": 28.75
+        "LongSide": 30.25787401574803
       },
       {
         "Id": "Stim",
@@ -2048,7 +2048,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 56,
-        "LongSide": 26.5
+        "LongSide": 28.00787401574803
       },
       {
         "Id": "Burrowed",
@@ -2056,7 +2056,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 57.25,
-        "LongSide": 26.5
+        "LongSide": 28.00787401574803
       },
       {
         "Id": "Hidden",
@@ -2064,7 +2064,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 58.5,
-        "LongSide": 26.5
+        "LongSide": 28.00787401574803
       },
       {
         "Id": "Siege Status",
@@ -2072,7 +2072,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 59.75,
-        "LongSide": 26.5
+        "LongSide": 28.00787401574803
       },
       {
         "Id": "Bile Bomb",
@@ -2080,7 +2080,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 56,
-        "LongSide": 25.25
+        "LongSide": 26.75787401574803
       },
       {
         "Id": "Creep Tumor",
@@ -2088,7 +2088,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 57.25,
-        "LongSide": 25.25
+        "LongSide": 26.75787401574803
       },
       {
         "Id": "Corrosive Bile",
@@ -2096,7 +2096,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 58.5,
-        "LongSide": 25.25
+        "LongSide": 26.75787401574803
       },
       {
         "Id": "Shield",
@@ -2104,7 +2104,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 59.75,
-        "LongSide": 25.25
+        "LongSide": 26.75787401574803
       }
     ]
   },
@@ -2367,7 +2367,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 56,
-        "LongSide": 2
+        "LongSide": 0.4921259842519703
       },
       {
         "Id": "Activation - blue - movement",
@@ -2375,7 +2375,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 57.25,
-        "LongSide": 2
+        "LongSide": 0.4921259842519703
       },
       {
         "Id": "Activation - blue - movement",
@@ -2383,7 +2383,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 58.5,
-        "LongSide": 2
+        "LongSide": 0.4921259842519703
       },
       {
         "Id": "Activation - blue - movement",
@@ -2391,7 +2391,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 59.75,
-        "LongSide": 2
+        "LongSide": 0.4921259842519703
       },
       {
         "Id": "Activation - blue - movement",
@@ -2399,7 +2399,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 61,
-        "LongSide": 2
+        "LongSide": 0.4921259842519703
       },
       {
         "Id": "Activation - red - movement",
@@ -2407,7 +2407,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 62.25,
-        "LongSide": 2
+        "LongSide": 0.4921259842519703
       },
       {
         "Id": "Activation - red - assault",
@@ -2415,7 +2415,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 56,
-        "LongSide": 3.25
+        "LongSide": 1.7421259842519703
       },
       {
         "Id": "Activation - red - assault",
@@ -2423,7 +2423,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 57.25,
-        "LongSide": 3.25
+        "LongSide": 1.7421259842519703
       },
       {
         "Id": "Activation - red - assault",
@@ -2431,7 +2431,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 58.5,
-        "LongSide": 3.25
+        "LongSide": 1.7421259842519703
       },
       {
         "Id": "Activation - red - assault",
@@ -2439,7 +2439,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 59.75,
-        "LongSide": 3.25
+        "LongSide": 1.7421259842519703
       },
       {
         "Id": "Activation - red - assault",
@@ -2447,7 +2447,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 61,
-        "LongSide": 3.25
+        "LongSide": 1.7421259842519703
       },
       {
         "Id": "Activation - blue - assault",
@@ -2455,7 +2455,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 62.25,
-        "LongSide": 3.25
+        "LongSide": 1.7421259842519703
       },
       {
         "Id": "Debuff",
@@ -2463,7 +2463,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 56,
-        "LongSide": 5.75
+        "LongSide": 4.24212598425197
       },
       {
         "Id": "Buff",
@@ -2471,7 +2471,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 56,
-        "LongSide": 7
+        "LongSide": 5.49212598425197
       },
       {
         "Id": "Terran - blue",
@@ -2479,7 +2479,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 58.5,
-        "LongSide": 5.75
+        "LongSide": 4.24212598425197
       },
       {
         "Id": "Protoss - yellow",
@@ -2487,7 +2487,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 60,
-        "LongSide": 5.75
+        "LongSide": 4.24212598425197
       },
       {
         "Id": "Zerg - purple",
@@ -2495,7 +2495,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 61.5,
-        "LongSide": 5.75
+        "LongSide": 4.24212598425197
       },
       {
         "Id": "Terran - white",
@@ -2503,7 +2503,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 58.5,
-        "LongSide": 7.25
+        "LongSide": 5.74212598425197
       },
       {
         "Id": "Protoss - white",
@@ -2511,7 +2511,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 60,
-        "LongSide": 7.25
+        "LongSide": 5.74212598425197
       },
       {
         "Id": "Zerg - white",
@@ -2519,7 +2519,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 61.5,
-        "LongSide": 7.25
+        "LongSide": 5.74212598425197
       },
       {
         "Id": "Stim",
@@ -2527,7 +2527,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 56,
-        "LongSide": 9.5
+        "LongSide": 7.99212598425197
       },
       {
         "Id": "Burrowed",
@@ -2535,7 +2535,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 57.25,
-        "LongSide": 9.5
+        "LongSide": 7.99212598425197
       },
       {
         "Id": "Hidden",
@@ -2543,7 +2543,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 58.5,
-        "LongSide": 9.5
+        "LongSide": 7.99212598425197
       },
       {
         "Id": "Siege Status",
@@ -2551,7 +2551,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 59.75,
-        "LongSide": 9.5
+        "LongSide": 7.99212598425197
       },
       {
         "Id": "Bile Bomb",
@@ -2559,7 +2559,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 56,
-        "LongSide": 10.75
+        "LongSide": 9.24212598425197
       },
       {
         "Id": "Creep Tumor",
@@ -2567,7 +2567,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 57.25,
-        "LongSide": 10.75
+        "LongSide": 9.24212598425197
       },
       {
         "Id": "Corrosive Bile",
@@ -2575,7 +2575,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 58.5,
-        "LongSide": 10.75
+        "LongSide": 9.24212598425197
       },
       {
         "Id": "Shield",
@@ -2583,7 +2583,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 59.75,
-        "LongSide": 10.75
+        "LongSide": 9.24212598425197
       },
       {
         "Id": "Activation - blue - movement",
@@ -2591,7 +2591,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 56,
-        "LongSide": 34
+        "LongSide": 35.50787401574803
       },
       {
         "Id": "Activation - blue - movement",
@@ -2599,7 +2599,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 57.25,
-        "LongSide": 34
+        "LongSide": 35.50787401574803
       },
       {
         "Id": "Activation - blue - movement",
@@ -2607,7 +2607,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 58.5,
-        "LongSide": 34
+        "LongSide": 35.50787401574803
       },
       {
         "Id": "Activation - blue - movement",
@@ -2615,7 +2615,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 59.75,
-        "LongSide": 34
+        "LongSide": 35.50787401574803
       },
       {
         "Id": "Activation - blue - movement",
@@ -2623,7 +2623,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 61,
-        "LongSide": 34
+        "LongSide": 35.50787401574803
       },
       {
         "Id": "Activation - red - movement",
@@ -2631,7 +2631,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 62.25,
-        "LongSide": 34
+        "LongSide": 35.50787401574803
       },
       {
         "Id": "Activation - red - assault",
@@ -2639,7 +2639,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 56,
-        "LongSide": 32.75
+        "LongSide": 34.25787401574803
       },
       {
         "Id": "Activation - red - assault",
@@ -2647,7 +2647,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 57.25,
-        "LongSide": 32.75
+        "LongSide": 34.25787401574803
       },
       {
         "Id": "Activation - red - assault",
@@ -2655,7 +2655,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 58.5,
-        "LongSide": 32.75
+        "LongSide": 34.25787401574803
       },
       {
         "Id": "Activation - red - assault",
@@ -2663,7 +2663,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 59.75,
-        "LongSide": 32.75
+        "LongSide": 34.25787401574803
       },
       {
         "Id": "Activation - red - assault",
@@ -2671,7 +2671,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 61,
-        "LongSide": 32.75
+        "LongSide": 34.25787401574803
       },
       {
         "Id": "Activation - blue - assault",
@@ -2679,7 +2679,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 62.25,
-        "LongSide": 32.75
+        "LongSide": 34.25787401574803
       },
       {
         "Id": "Debuff",
@@ -2687,7 +2687,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 56,
-        "LongSide": 30.25
+        "LongSide": 31.75787401574803
       },
       {
         "Id": "Buff",
@@ -2695,7 +2695,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 56,
-        "LongSide": 29
+        "LongSide": 30.50787401574803
       },
       {
         "Id": "Terran - blue",
@@ -2703,7 +2703,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 58.5,
-        "LongSide": 30.25
+        "LongSide": 31.75787401574803
       },
       {
         "Id": "Protoss - yellow",
@@ -2711,7 +2711,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 60,
-        "LongSide": 30.25
+        "LongSide": 31.75787401574803
       },
       {
         "Id": "Zerg - purple",
@@ -2719,7 +2719,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 61.5,
-        "LongSide": 30.25
+        "LongSide": 31.75787401574803
       },
       {
         "Id": "Terran - white",
@@ -2727,7 +2727,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 58.5,
-        "LongSide": 28.75
+        "LongSide": 30.25787401574803
       },
       {
         "Id": "Protoss - white",
@@ -2735,7 +2735,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 60,
-        "LongSide": 28.75
+        "LongSide": 30.25787401574803
       },
       {
         "Id": "Zerg - white",
@@ -2743,7 +2743,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 61.5,
-        "LongSide": 28.75
+        "LongSide": 30.25787401574803
       },
       {
         "Id": "Stim",
@@ -2751,7 +2751,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 56,
-        "LongSide": 26.5
+        "LongSide": 28.00787401574803
       },
       {
         "Id": "Burrowed",
@@ -2759,7 +2759,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 57.25,
-        "LongSide": 26.5
+        "LongSide": 28.00787401574803
       },
       {
         "Id": "Hidden",
@@ -2767,7 +2767,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 58.5,
-        "LongSide": 26.5
+        "LongSide": 28.00787401574803
       },
       {
         "Id": "Siege Status",
@@ -2775,7 +2775,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 59.75,
-        "LongSide": 26.5
+        "LongSide": 28.00787401574803
       },
       {
         "Id": "Bile Bomb",
@@ -2783,7 +2783,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 56,
-        "LongSide": 25.25
+        "LongSide": 26.75787401574803
       },
       {
         "Id": "Creep Tumor",
@@ -2791,7 +2791,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 57.25,
-        "LongSide": 25.25
+        "LongSide": 26.75787401574803
       },
       {
         "Id": "Corrosive Bile",
@@ -2799,7 +2799,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 58.5,
-        "LongSide": 25.25
+        "LongSide": 26.75787401574803
       },
       {
         "Id": "Shield",
@@ -2807,7 +2807,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 59.75,
-        "LongSide": 25.25
+        "LongSide": 26.75787401574803
       }
     ]
   },
@@ -3086,7 +3086,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 56,
-        "LongSide": 2
+        "LongSide": 0.4921259842519703
       },
       {
         "Id": "Activation - blue - movement",
@@ -3094,7 +3094,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 57.25,
-        "LongSide": 2
+        "LongSide": 0.4921259842519703
       },
       {
         "Id": "Activation - blue - movement",
@@ -3102,7 +3102,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 58.5,
-        "LongSide": 2
+        "LongSide": 0.4921259842519703
       },
       {
         "Id": "Activation - blue - movement",
@@ -3110,7 +3110,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 59.75,
-        "LongSide": 2
+        "LongSide": 0.4921259842519703
       },
       {
         "Id": "Activation - blue - movement",
@@ -3118,7 +3118,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 61,
-        "LongSide": 2
+        "LongSide": 0.4921259842519703
       },
       {
         "Id": "Activation - red - movement",
@@ -3126,7 +3126,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 62.25,
-        "LongSide": 2
+        "LongSide": 0.4921259842519703
       },
       {
         "Id": "Activation - red - assault",
@@ -3134,7 +3134,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 56,
-        "LongSide": 3.25
+        "LongSide": 1.7421259842519703
       },
       {
         "Id": "Activation - red - assault",
@@ -3142,7 +3142,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 57.25,
-        "LongSide": 3.25
+        "LongSide": 1.7421259842519703
       },
       {
         "Id": "Activation - red - assault",
@@ -3150,7 +3150,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 58.5,
-        "LongSide": 3.25
+        "LongSide": 1.7421259842519703
       },
       {
         "Id": "Activation - red - assault",
@@ -3158,7 +3158,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 59.75,
-        "LongSide": 3.25
+        "LongSide": 1.7421259842519703
       },
       {
         "Id": "Activation - red - assault",
@@ -3166,7 +3166,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 61,
-        "LongSide": 3.25
+        "LongSide": 1.7421259842519703
       },
       {
         "Id": "Activation - blue - assault",
@@ -3174,7 +3174,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 62.25,
-        "LongSide": 3.25
+        "LongSide": 1.7421259842519703
       },
       {
         "Id": "Debuff",
@@ -3182,7 +3182,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 56,
-        "LongSide": 5.75
+        "LongSide": 4.24212598425197
       },
       {
         "Id": "Buff",
@@ -3190,7 +3190,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 56,
-        "LongSide": 7
+        "LongSide": 5.49212598425197
       },
       {
         "Id": "Terran - blue",
@@ -3198,7 +3198,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 58.5,
-        "LongSide": 5.75
+        "LongSide": 4.24212598425197
       },
       {
         "Id": "Protoss - yellow",
@@ -3206,7 +3206,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 60,
-        "LongSide": 5.75
+        "LongSide": 4.24212598425197
       },
       {
         "Id": "Zerg - purple",
@@ -3214,7 +3214,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 61.5,
-        "LongSide": 5.75
+        "LongSide": 4.24212598425197
       },
       {
         "Id": "Terran - white",
@@ -3222,7 +3222,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 58.5,
-        "LongSide": 7.25
+        "LongSide": 5.74212598425197
       },
       {
         "Id": "Protoss - white",
@@ -3230,7 +3230,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 60,
-        "LongSide": 7.25
+        "LongSide": 5.74212598425197
       },
       {
         "Id": "Zerg - white",
@@ -3238,7 +3238,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 61.5,
-        "LongSide": 7.25
+        "LongSide": 5.74212598425197
       },
       {
         "Id": "Stim",
@@ -3246,7 +3246,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 56,
-        "LongSide": 9.5
+        "LongSide": 7.99212598425197
       },
       {
         "Id": "Burrowed",
@@ -3254,7 +3254,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 57.25,
-        "LongSide": 9.5
+        "LongSide": 7.99212598425197
       },
       {
         "Id": "Hidden",
@@ -3262,7 +3262,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 58.5,
-        "LongSide": 9.5
+        "LongSide": 7.99212598425197
       },
       {
         "Id": "Siege Status",
@@ -3270,7 +3270,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 59.75,
-        "LongSide": 9.5
+        "LongSide": 7.99212598425197
       },
       {
         "Id": "Bile Bomb",
@@ -3278,7 +3278,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 56,
-        "LongSide": 10.75
+        "LongSide": 9.24212598425197
       },
       {
         "Id": "Creep Tumor",
@@ -3286,7 +3286,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 57.25,
-        "LongSide": 10.75
+        "LongSide": 9.24212598425197
       },
       {
         "Id": "Corrosive Bile",
@@ -3294,7 +3294,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 58.5,
-        "LongSide": 10.75
+        "LongSide": 9.24212598425197
       },
       {
         "Id": "Shield",
@@ -3302,7 +3302,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 59.75,
-        "LongSide": 10.75
+        "LongSide": 9.24212598425197
       },
       {
         "Id": "Activation - blue - movement",
@@ -3310,7 +3310,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 56,
-        "LongSide": 34
+        "LongSide": 35.50787401574803
       },
       {
         "Id": "Activation - blue - movement",
@@ -3318,7 +3318,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 57.25,
-        "LongSide": 34
+        "LongSide": 35.50787401574803
       },
       {
         "Id": "Activation - blue - movement",
@@ -3326,7 +3326,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 58.5,
-        "LongSide": 34
+        "LongSide": 35.50787401574803
       },
       {
         "Id": "Activation - blue - movement",
@@ -3334,7 +3334,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 59.75,
-        "LongSide": 34
+        "LongSide": 35.50787401574803
       },
       {
         "Id": "Activation - blue - movement",
@@ -3342,7 +3342,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 61,
-        "LongSide": 34
+        "LongSide": 35.50787401574803
       },
       {
         "Id": "Activation - red - movement",
@@ -3350,7 +3350,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 62.25,
-        "LongSide": 34
+        "LongSide": 35.50787401574803
       },
       {
         "Id": "Activation - red - assault",
@@ -3358,7 +3358,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 56,
-        "LongSide": 32.75
+        "LongSide": 34.25787401574803
       },
       {
         "Id": "Activation - red - assault",
@@ -3366,7 +3366,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 57.25,
-        "LongSide": 32.75
+        "LongSide": 34.25787401574803
       },
       {
         "Id": "Activation - red - assault",
@@ -3374,7 +3374,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 58.5,
-        "LongSide": 32.75
+        "LongSide": 34.25787401574803
       },
       {
         "Id": "Activation - red - assault",
@@ -3382,7 +3382,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 59.75,
-        "LongSide": 32.75
+        "LongSide": 34.25787401574803
       },
       {
         "Id": "Activation - red - assault",
@@ -3390,7 +3390,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 61,
-        "LongSide": 32.75
+        "LongSide": 34.25787401574803
       },
       {
         "Id": "Activation - blue - assault",
@@ -3398,7 +3398,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 62.25,
-        "LongSide": 32.75
+        "LongSide": 34.25787401574803
       },
       {
         "Id": "Debuff",
@@ -3406,7 +3406,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 56,
-        "LongSide": 30.25
+        "LongSide": 31.75787401574803
       },
       {
         "Id": "Buff",
@@ -3414,7 +3414,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 56,
-        "LongSide": 29
+        "LongSide": 30.50787401574803
       },
       {
         "Id": "Terran - blue",
@@ -3422,7 +3422,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 58.5,
-        "LongSide": 30.25
+        "LongSide": 31.75787401574803
       },
       {
         "Id": "Protoss - yellow",
@@ -3430,7 +3430,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 60,
-        "LongSide": 30.25
+        "LongSide": 31.75787401574803
       },
       {
         "Id": "Zerg - purple",
@@ -3438,7 +3438,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 61.5,
-        "LongSide": 30.25
+        "LongSide": 31.75787401574803
       },
       {
         "Id": "Terran - white",
@@ -3446,7 +3446,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 58.5,
-        "LongSide": 28.75
+        "LongSide": 30.25787401574803
       },
       {
         "Id": "Protoss - white",
@@ -3454,7 +3454,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 60,
-        "LongSide": 28.75
+        "LongSide": 30.25787401574803
       },
       {
         "Id": "Zerg - white",
@@ -3462,7 +3462,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 61.5,
-        "LongSide": 28.75
+        "LongSide": 30.25787401574803
       },
       {
         "Id": "Stim",
@@ -3470,7 +3470,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 56,
-        "LongSide": 26.5
+        "LongSide": 28.00787401574803
       },
       {
         "Id": "Burrowed",
@@ -3478,7 +3478,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 57.25,
-        "LongSide": 26.5
+        "LongSide": 28.00787401574803
       },
       {
         "Id": "Hidden",
@@ -3486,7 +3486,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 58.5,
-        "LongSide": 26.5
+        "LongSide": 28.00787401574803
       },
       {
         "Id": "Siege Status",
@@ -3494,7 +3494,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 59.75,
-        "LongSide": 26.5
+        "LongSide": 28.00787401574803
       },
       {
         "Id": "Bile Bomb",
@@ -3502,7 +3502,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 56,
-        "LongSide": 25.25
+        "LongSide": 26.75787401574803
       },
       {
         "Id": "Creep Tumor",
@@ -3510,7 +3510,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 57.25,
-        "LongSide": 25.25
+        "LongSide": 26.75787401574803
       },
       {
         "Id": "Corrosive Bile",
@@ -3518,7 +3518,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 58.5,
-        "LongSide": 25.25
+        "LongSide": 26.75787401574803
       },
       {
         "Id": "Shield",
@@ -3526,7 +3526,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 59.75,
-        "LongSide": 25.25
+        "LongSide": 26.75787401574803
       }
     ]
   },
@@ -3805,7 +3805,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 56,
-        "LongSide": 2
+        "LongSide": 0.4921259842519703
       },
       {
         "Id": "Activation - blue - movement",
@@ -3813,7 +3813,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 57.25,
-        "LongSide": 2
+        "LongSide": 0.4921259842519703
       },
       {
         "Id": "Activation - blue - movement",
@@ -3821,7 +3821,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 58.5,
-        "LongSide": 2
+        "LongSide": 0.4921259842519703
       },
       {
         "Id": "Activation - blue - movement",
@@ -3829,7 +3829,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 59.75,
-        "LongSide": 2
+        "LongSide": 0.4921259842519703
       },
       {
         "Id": "Activation - blue - movement",
@@ -3837,7 +3837,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 61,
-        "LongSide": 2
+        "LongSide": 0.4921259842519703
       },
       {
         "Id": "Activation - red - movement",
@@ -3845,7 +3845,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 62.25,
-        "LongSide": 2
+        "LongSide": 0.4921259842519703
       },
       {
         "Id": "Activation - red - assault",
@@ -3853,7 +3853,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 56,
-        "LongSide": 3.25
+        "LongSide": 1.7421259842519703
       },
       {
         "Id": "Activation - red - assault",
@@ -3861,7 +3861,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 57.25,
-        "LongSide": 3.25
+        "LongSide": 1.7421259842519703
       },
       {
         "Id": "Activation - red - assault",
@@ -3869,7 +3869,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 58.5,
-        "LongSide": 3.25
+        "LongSide": 1.7421259842519703
       },
       {
         "Id": "Activation - red - assault",
@@ -3877,7 +3877,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 59.75,
-        "LongSide": 3.25
+        "LongSide": 1.7421259842519703
       },
       {
         "Id": "Activation - red - assault",
@@ -3885,7 +3885,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 61,
-        "LongSide": 3.25
+        "LongSide": 1.7421259842519703
       },
       {
         "Id": "Activation - blue - assault",
@@ -3893,7 +3893,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 62.25,
-        "LongSide": 3.25
+        "LongSide": 1.7421259842519703
       },
       {
         "Id": "Debuff",
@@ -3901,7 +3901,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 56,
-        "LongSide": 5.75
+        "LongSide": 4.24212598425197
       },
       {
         "Id": "Buff",
@@ -3909,7 +3909,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 56,
-        "LongSide": 7
+        "LongSide": 5.49212598425197
       },
       {
         "Id": "Terran - blue",
@@ -3917,7 +3917,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 58.5,
-        "LongSide": 5.75
+        "LongSide": 4.24212598425197
       },
       {
         "Id": "Protoss - yellow",
@@ -3925,7 +3925,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 60,
-        "LongSide": 5.75
+        "LongSide": 4.24212598425197
       },
       {
         "Id": "Zerg - purple",
@@ -3933,7 +3933,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 61.5,
-        "LongSide": 5.75
+        "LongSide": 4.24212598425197
       },
       {
         "Id": "Terran - white",
@@ -3941,7 +3941,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 58.5,
-        "LongSide": 7.25
+        "LongSide": 5.74212598425197
       },
       {
         "Id": "Protoss - white",
@@ -3949,7 +3949,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 60,
-        "LongSide": 7.25
+        "LongSide": 5.74212598425197
       },
       {
         "Id": "Zerg - white",
@@ -3957,7 +3957,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 61.5,
-        "LongSide": 7.25
+        "LongSide": 5.74212598425197
       },
       {
         "Id": "Stim",
@@ -3965,7 +3965,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 56,
-        "LongSide": 9.5
+        "LongSide": 7.99212598425197
       },
       {
         "Id": "Burrowed",
@@ -3973,7 +3973,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 57.25,
-        "LongSide": 9.5
+        "LongSide": 7.99212598425197
       },
       {
         "Id": "Hidden",
@@ -3981,7 +3981,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 58.5,
-        "LongSide": 9.5
+        "LongSide": 7.99212598425197
       },
       {
         "Id": "Siege Status",
@@ -3989,7 +3989,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 59.75,
-        "LongSide": 9.5
+        "LongSide": 7.99212598425197
       },
       {
         "Id": "Bile Bomb",
@@ -3997,7 +3997,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 56,
-        "LongSide": 10.75
+        "LongSide": 9.24212598425197
       },
       {
         "Id": "Creep Tumor",
@@ -4005,7 +4005,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 57.25,
-        "LongSide": 10.75
+        "LongSide": 9.24212598425197
       },
       {
         "Id": "Corrosive Bile",
@@ -4013,7 +4013,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 58.5,
-        "LongSide": 10.75
+        "LongSide": 9.24212598425197
       },
       {
         "Id": "Shield",
@@ -4021,7 +4021,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 59.75,
-        "LongSide": 10.75
+        "LongSide": 9.24212598425197
       },
       {
         "Id": "Activation - blue - movement",
@@ -4029,7 +4029,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 56,
-        "LongSide": 34
+        "LongSide": 35.50787401574803
       },
       {
         "Id": "Activation - blue - movement",
@@ -4037,7 +4037,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 57.25,
-        "LongSide": 34
+        "LongSide": 35.50787401574803
       },
       {
         "Id": "Activation - blue - movement",
@@ -4045,7 +4045,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 58.5,
-        "LongSide": 34
+        "LongSide": 35.50787401574803
       },
       {
         "Id": "Activation - blue - movement",
@@ -4053,7 +4053,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 59.75,
-        "LongSide": 34
+        "LongSide": 35.50787401574803
       },
       {
         "Id": "Activation - blue - movement",
@@ -4061,7 +4061,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 61,
-        "LongSide": 34
+        "LongSide": 35.50787401574803
       },
       {
         "Id": "Activation - red - movement",
@@ -4069,7 +4069,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 62.25,
-        "LongSide": 34
+        "LongSide": 35.50787401574803
       },
       {
         "Id": "Activation - red - assault",
@@ -4077,7 +4077,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 56,
-        "LongSide": 32.75
+        "LongSide": 34.25787401574803
       },
       {
         "Id": "Activation - red - assault",
@@ -4085,7 +4085,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 57.25,
-        "LongSide": 32.75
+        "LongSide": 34.25787401574803
       },
       {
         "Id": "Activation - red - assault",
@@ -4093,7 +4093,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 58.5,
-        "LongSide": 32.75
+        "LongSide": 34.25787401574803
       },
       {
         "Id": "Activation - red - assault",
@@ -4101,7 +4101,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 59.75,
-        "LongSide": 32.75
+        "LongSide": 34.25787401574803
       },
       {
         "Id": "Activation - red - assault",
@@ -4109,7 +4109,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 61,
-        "LongSide": 32.75
+        "LongSide": 34.25787401574803
       },
       {
         "Id": "Activation - blue - assault",
@@ -4117,7 +4117,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 62.25,
-        "LongSide": 32.75
+        "LongSide": 34.25787401574803
       },
       {
         "Id": "Debuff",
@@ -4125,7 +4125,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 56,
-        "LongSide": 30.25
+        "LongSide": 31.75787401574803
       },
       {
         "Id": "Buff",
@@ -4133,7 +4133,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 56,
-        "LongSide": 29
+        "LongSide": 30.50787401574803
       },
       {
         "Id": "Terran - blue",
@@ -4141,7 +4141,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 58.5,
-        "LongSide": 30.25
+        "LongSide": 31.75787401574803
       },
       {
         "Id": "Protoss - yellow",
@@ -4149,7 +4149,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 60,
-        "LongSide": 30.25
+        "LongSide": 31.75787401574803
       },
       {
         "Id": "Zerg - purple",
@@ -4157,7 +4157,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 61.5,
-        "LongSide": 30.25
+        "LongSide": 31.75787401574803
       },
       {
         "Id": "Terran - white",
@@ -4165,7 +4165,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 58.5,
-        "LongSide": 28.75
+        "LongSide": 30.25787401574803
       },
       {
         "Id": "Protoss - white",
@@ -4173,7 +4173,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 60,
-        "LongSide": 28.75
+        "LongSide": 30.25787401574803
       },
       {
         "Id": "Zerg - white",
@@ -4181,7 +4181,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 61.5,
-        "LongSide": 28.75
+        "LongSide": 30.25787401574803
       },
       {
         "Id": "Stim",
@@ -4189,7 +4189,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 56,
-        "LongSide": 26.5
+        "LongSide": 28.00787401574803
       },
       {
         "Id": "Burrowed",
@@ -4197,7 +4197,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 57.25,
-        "LongSide": 26.5
+        "LongSide": 28.00787401574803
       },
       {
         "Id": "Hidden",
@@ -4205,7 +4205,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 58.5,
-        "LongSide": 26.5
+        "LongSide": 28.00787401574803
       },
       {
         "Id": "Siege Status",
@@ -4213,7 +4213,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 59.75,
-        "LongSide": 26.5
+        "LongSide": 28.00787401574803
       },
       {
         "Id": "Bile Bomb",
@@ -4221,7 +4221,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 56,
-        "LongSide": 25.25
+        "LongSide": 26.75787401574803
       },
       {
         "Id": "Creep Tumor",
@@ -4229,7 +4229,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 57.25,
-        "LongSide": 25.25
+        "LongSide": 26.75787401574803
       },
       {
         "Id": "Corrosive Bile",
@@ -4237,7 +4237,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 58.5,
-        "LongSide": 25.25
+        "LongSide": 26.75787401574803
       },
       {
         "Id": "Shield",
@@ -4245,7 +4245,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 59.75,
-        "LongSide": 25.25
+        "LongSide": 26.75787401574803
       }
     ]
   },
@@ -4388,7 +4388,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 47,
-        "LongSide": 2
+        "LongSide": 0.4921259842519703
       },
       {
         "Id": "Activation - blue - movement",
@@ -4396,7 +4396,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 48.25,
-        "LongSide": 2
+        "LongSide": 0.4921259842519703
       },
       {
         "Id": "Activation - blue - movement",
@@ -4404,7 +4404,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 49.5,
-        "LongSide": 2
+        "LongSide": 0.4921259842519703
       },
       {
         "Id": "Activation - blue - movement",
@@ -4412,7 +4412,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 50.75,
-        "LongSide": 2
+        "LongSide": 0.4921259842519703
       },
       {
         "Id": "Activation - blue - movement",
@@ -4420,7 +4420,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 52,
-        "LongSide": 2
+        "LongSide": 0.4921259842519703
       },
       {
         "Id": "Activation - red - movement",
@@ -4428,7 +4428,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 53.25,
-        "LongSide": 2
+        "LongSide": 0.4921259842519703
       },
       {
         "Id": "Activation - red - assault",
@@ -4436,7 +4436,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 47,
-        "LongSide": 3.25
+        "LongSide": 1.7421259842519703
       },
       {
         "Id": "Activation - red - assault",
@@ -4444,7 +4444,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 48.25,
-        "LongSide": 3.25
+        "LongSide": 1.7421259842519703
       },
       {
         "Id": "Activation - red - assault",
@@ -4452,7 +4452,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 49.5,
-        "LongSide": 3.25
+        "LongSide": 1.7421259842519703
       },
       {
         "Id": "Activation - red - assault",
@@ -4460,7 +4460,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 50.75,
-        "LongSide": 3.25
+        "LongSide": 1.7421259842519703
       },
       {
         "Id": "Activation - red - assault",
@@ -4468,7 +4468,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 52,
-        "LongSide": 3.25
+        "LongSide": 1.7421259842519703
       },
       {
         "Id": "Activation - blue - assault",
@@ -4476,7 +4476,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 53.25,
-        "LongSide": 3.25
+        "LongSide": 1.7421259842519703
       },
       {
         "Id": "Debuff",
@@ -4484,7 +4484,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 47,
-        "LongSide": 5.75
+        "LongSide": 4.24212598425197
       },
       {
         "Id": "Buff",
@@ -4492,7 +4492,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 47,
-        "LongSide": 7
+        "LongSide": 5.49212598425197
       },
       {
         "Id": "Terran - blue",
@@ -4500,7 +4500,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 49.5,
-        "LongSide": 5.75
+        "LongSide": 4.24212598425197
       },
       {
         "Id": "Protoss - yellow",
@@ -4508,7 +4508,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 51,
-        "LongSide": 5.75
+        "LongSide": 4.24212598425197
       },
       {
         "Id": "Zerg - purple",
@@ -4516,7 +4516,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 52.5,
-        "LongSide": 5.75
+        "LongSide": 4.24212598425197
       },
       {
         "Id": "Terran - white",
@@ -4524,7 +4524,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 49.5,
-        "LongSide": 7.25
+        "LongSide": 5.74212598425197
       },
       {
         "Id": "Protoss - white",
@@ -4532,7 +4532,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 51,
-        "LongSide": 7.25
+        "LongSide": 5.74212598425197
       },
       {
         "Id": "Zerg - white",
@@ -4540,7 +4540,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 52.5,
-        "LongSide": 7.25
+        "LongSide": 5.74212598425197
       },
       {
         "Id": "Stim",
@@ -4548,7 +4548,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 47,
-        "LongSide": 9.5
+        "LongSide": 7.99212598425197
       },
       {
         "Id": "Burrowed",
@@ -4556,7 +4556,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 48.25,
-        "LongSide": 9.5
+        "LongSide": 7.99212598425197
       },
       {
         "Id": "Hidden",
@@ -4564,7 +4564,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 49.5,
-        "LongSide": 9.5
+        "LongSide": 7.99212598425197
       },
       {
         "Id": "Siege Status",
@@ -4572,7 +4572,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 50.75,
-        "LongSide": 9.5
+        "LongSide": 7.99212598425197
       },
       {
         "Id": "Bile Bomb",
@@ -4580,7 +4580,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 47,
-        "LongSide": 10.75
+        "LongSide": 9.24212598425197
       },
       {
         "Id": "Creep Tumor",
@@ -4588,7 +4588,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 48.25,
-        "LongSide": 10.75
+        "LongSide": 9.24212598425197
       },
       {
         "Id": "Corrosive Bile",
@@ -4596,7 +4596,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 49.5,
-        "LongSide": 10.75
+        "LongSide": 9.24212598425197
       },
       {
         "Id": "Shield",
@@ -4604,7 +4604,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 50.75,
-        "LongSide": 10.75
+        "LongSide": 9.24212598425197
       },
       {
         "Id": "Activation - blue - movement",
@@ -4612,7 +4612,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 47,
-        "LongSide": 34
+        "LongSide": 35.50787401574803
       },
       {
         "Id": "Activation - blue - movement",
@@ -4620,7 +4620,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 48.25,
-        "LongSide": 34
+        "LongSide": 35.50787401574803
       },
       {
         "Id": "Activation - blue - movement",
@@ -4628,7 +4628,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 49.5,
-        "LongSide": 34
+        "LongSide": 35.50787401574803
       },
       {
         "Id": "Activation - blue - movement",
@@ -4636,7 +4636,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 50.75,
-        "LongSide": 34
+        "LongSide": 35.50787401574803
       },
       {
         "Id": "Activation - blue - movement",
@@ -4644,7 +4644,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 52,
-        "LongSide": 34
+        "LongSide": 35.50787401574803
       },
       {
         "Id": "Activation - red - movement",
@@ -4652,7 +4652,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 53.25,
-        "LongSide": 34
+        "LongSide": 35.50787401574803
       },
       {
         "Id": "Activation - red - assault",
@@ -4660,7 +4660,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 47,
-        "LongSide": 32.75
+        "LongSide": 34.25787401574803
       },
       {
         "Id": "Activation - red - assault",
@@ -4668,7 +4668,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 48.25,
-        "LongSide": 32.75
+        "LongSide": 34.25787401574803
       },
       {
         "Id": "Activation - red - assault",
@@ -4676,7 +4676,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 49.5,
-        "LongSide": 32.75
+        "LongSide": 34.25787401574803
       },
       {
         "Id": "Activation - red - assault",
@@ -4684,7 +4684,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 50.75,
-        "LongSide": 32.75
+        "LongSide": 34.25787401574803
       },
       {
         "Id": "Activation - red - assault",
@@ -4692,7 +4692,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 52,
-        "LongSide": 32.75
+        "LongSide": 34.25787401574803
       },
       {
         "Id": "Activation - blue - assault",
@@ -4700,7 +4700,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 53.25,
-        "LongSide": 32.75
+        "LongSide": 34.25787401574803
       },
       {
         "Id": "Debuff",
@@ -4708,7 +4708,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 47,
-        "LongSide": 30.25
+        "LongSide": 31.75787401574803
       },
       {
         "Id": "Buff",
@@ -4716,7 +4716,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 47,
-        "LongSide": 29
+        "LongSide": 30.50787401574803
       },
       {
         "Id": "Terran - blue",
@@ -4724,7 +4724,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 49.5,
-        "LongSide": 30.25
+        "LongSide": 31.75787401574803
       },
       {
         "Id": "Protoss - yellow",
@@ -4732,7 +4732,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 51,
-        "LongSide": 30.25
+        "LongSide": 31.75787401574803
       },
       {
         "Id": "Zerg - purple",
@@ -4740,7 +4740,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 52.5,
-        "LongSide": 30.25
+        "LongSide": 31.75787401574803
       },
       {
         "Id": "Terran - white",
@@ -4748,7 +4748,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 49.5,
-        "LongSide": 28.75
+        "LongSide": 30.25787401574803
       },
       {
         "Id": "Protoss - white",
@@ -4756,7 +4756,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 51,
-        "LongSide": 28.75
+        "LongSide": 30.25787401574803
       },
       {
         "Id": "Zerg - white",
@@ -4764,7 +4764,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 52.5,
-        "LongSide": 28.75
+        "LongSide": 30.25787401574803
       },
       {
         "Id": "Stim",
@@ -4772,7 +4772,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 47,
-        "LongSide": 26.5
+        "LongSide": 28.00787401574803
       },
       {
         "Id": "Burrowed",
@@ -4780,7 +4780,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 48.25,
-        "LongSide": 26.5
+        "LongSide": 28.00787401574803
       },
       {
         "Id": "Hidden",
@@ -4788,7 +4788,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 49.5,
-        "LongSide": 26.5
+        "LongSide": 28.00787401574803
       },
       {
         "Id": "Siege Status",
@@ -4796,7 +4796,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 50.75,
-        "LongSide": 26.5
+        "LongSide": 28.00787401574803
       },
       {
         "Id": "Bile Bomb",
@@ -4804,7 +4804,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 47,
-        "LongSide": 25.25
+        "LongSide": 26.75787401574803
       },
       {
         "Id": "Creep Tumor",
@@ -4812,7 +4812,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 48.25,
-        "LongSide": 25.25
+        "LongSide": 26.75787401574803
       },
       {
         "Id": "Corrosive Bile",
@@ -4820,7 +4820,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 49.5,
-        "LongSide": 25.25
+        "LongSide": 26.75787401574803
       },
       {
         "Id": "Shield",
@@ -4828,7 +4828,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 50.75,
-        "LongSide": 25.25
+        "LongSide": 26.75787401574803
       }
     ]
   },
@@ -4971,7 +4971,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 47,
-        "LongSide": 2
+        "LongSide": 0.4921259842519703
       },
       {
         "Id": "Activation - blue - movement",
@@ -4979,7 +4979,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 48.25,
-        "LongSide": 2
+        "LongSide": 0.4921259842519703
       },
       {
         "Id": "Activation - blue - movement",
@@ -4987,7 +4987,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 49.5,
-        "LongSide": 2
+        "LongSide": 0.4921259842519703
       },
       {
         "Id": "Activation - blue - movement",
@@ -4995,7 +4995,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 50.75,
-        "LongSide": 2
+        "LongSide": 0.4921259842519703
       },
       {
         "Id": "Activation - blue - movement",
@@ -5003,7 +5003,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 52,
-        "LongSide": 2
+        "LongSide": 0.4921259842519703
       },
       {
         "Id": "Activation - red - movement",
@@ -5011,7 +5011,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 53.25,
-        "LongSide": 2
+        "LongSide": 0.4921259842519703
       },
       {
         "Id": "Activation - red - assault",
@@ -5019,7 +5019,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 47,
-        "LongSide": 3.25
+        "LongSide": 1.7421259842519703
       },
       {
         "Id": "Activation - red - assault",
@@ -5027,7 +5027,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 48.25,
-        "LongSide": 3.25
+        "LongSide": 1.7421259842519703
       },
       {
         "Id": "Activation - red - assault",
@@ -5035,7 +5035,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 49.5,
-        "LongSide": 3.25
+        "LongSide": 1.7421259842519703
       },
       {
         "Id": "Activation - red - assault",
@@ -5043,7 +5043,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 50.75,
-        "LongSide": 3.25
+        "LongSide": 1.7421259842519703
       },
       {
         "Id": "Activation - red - assault",
@@ -5051,7 +5051,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 52,
-        "LongSide": 3.25
+        "LongSide": 1.7421259842519703
       },
       {
         "Id": "Activation - blue - assault",
@@ -5059,7 +5059,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 53.25,
-        "LongSide": 3.25
+        "LongSide": 1.7421259842519703
       },
       {
         "Id": "Debuff",
@@ -5067,7 +5067,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 47,
-        "LongSide": 5.75
+        "LongSide": 4.24212598425197
       },
       {
         "Id": "Buff",
@@ -5075,7 +5075,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 47,
-        "LongSide": 7
+        "LongSide": 5.49212598425197
       },
       {
         "Id": "Terran - blue",
@@ -5083,7 +5083,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 49.5,
-        "LongSide": 5.75
+        "LongSide": 4.24212598425197
       },
       {
         "Id": "Protoss - yellow",
@@ -5091,7 +5091,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 51,
-        "LongSide": 5.75
+        "LongSide": 4.24212598425197
       },
       {
         "Id": "Zerg - purple",
@@ -5099,7 +5099,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 52.5,
-        "LongSide": 5.75
+        "LongSide": 4.24212598425197
       },
       {
         "Id": "Terran - white",
@@ -5107,7 +5107,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 49.5,
-        "LongSide": 7.25
+        "LongSide": 5.74212598425197
       },
       {
         "Id": "Protoss - white",
@@ -5115,7 +5115,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 51,
-        "LongSide": 7.25
+        "LongSide": 5.74212598425197
       },
       {
         "Id": "Zerg - white",
@@ -5123,7 +5123,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 52.5,
-        "LongSide": 7.25
+        "LongSide": 5.74212598425197
       },
       {
         "Id": "Stim",
@@ -5131,7 +5131,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 47,
-        "LongSide": 9.5
+        "LongSide": 7.99212598425197
       },
       {
         "Id": "Burrowed",
@@ -5139,7 +5139,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 48.25,
-        "LongSide": 9.5
+        "LongSide": 7.99212598425197
       },
       {
         "Id": "Hidden",
@@ -5147,7 +5147,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 49.5,
-        "LongSide": 9.5
+        "LongSide": 7.99212598425197
       },
       {
         "Id": "Siege Status",
@@ -5155,7 +5155,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 50.75,
-        "LongSide": 9.5
+        "LongSide": 7.99212598425197
       },
       {
         "Id": "Bile Bomb",
@@ -5163,7 +5163,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 47,
-        "LongSide": 10.75
+        "LongSide": 9.24212598425197
       },
       {
         "Id": "Creep Tumor",
@@ -5171,7 +5171,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 48.25,
-        "LongSide": 10.75
+        "LongSide": 9.24212598425197
       },
       {
         "Id": "Corrosive Bile",
@@ -5179,7 +5179,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 49.5,
-        "LongSide": 10.75
+        "LongSide": 9.24212598425197
       },
       {
         "Id": "Shield",
@@ -5187,7 +5187,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 50.75,
-        "LongSide": 10.75
+        "LongSide": 9.24212598425197
       },
       {
         "Id": "Activation - blue - movement",
@@ -5195,7 +5195,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 47,
-        "LongSide": 34
+        "LongSide": 35.50787401574803
       },
       {
         "Id": "Activation - blue - movement",
@@ -5203,7 +5203,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 48.25,
-        "LongSide": 34
+        "LongSide": 35.50787401574803
       },
       {
         "Id": "Activation - blue - movement",
@@ -5211,7 +5211,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 49.5,
-        "LongSide": 34
+        "LongSide": 35.50787401574803
       },
       {
         "Id": "Activation - blue - movement",
@@ -5219,7 +5219,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 50.75,
-        "LongSide": 34
+        "LongSide": 35.50787401574803
       },
       {
         "Id": "Activation - blue - movement",
@@ -5227,7 +5227,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 52,
-        "LongSide": 34
+        "LongSide": 35.50787401574803
       },
       {
         "Id": "Activation - red - movement",
@@ -5235,7 +5235,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 53.25,
-        "LongSide": 34
+        "LongSide": 35.50787401574803
       },
       {
         "Id": "Activation - red - assault",
@@ -5243,7 +5243,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 47,
-        "LongSide": 32.75
+        "LongSide": 34.25787401574803
       },
       {
         "Id": "Activation - red - assault",
@@ -5251,7 +5251,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 48.25,
-        "LongSide": 32.75
+        "LongSide": 34.25787401574803
       },
       {
         "Id": "Activation - red - assault",
@@ -5259,7 +5259,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 49.5,
-        "LongSide": 32.75
+        "LongSide": 34.25787401574803
       },
       {
         "Id": "Activation - red - assault",
@@ -5267,7 +5267,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 50.75,
-        "LongSide": 32.75
+        "LongSide": 34.25787401574803
       },
       {
         "Id": "Activation - red - assault",
@@ -5275,7 +5275,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 52,
-        "LongSide": 32.75
+        "LongSide": 34.25787401574803
       },
       {
         "Id": "Activation - blue - assault",
@@ -5283,7 +5283,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 53.25,
-        "LongSide": 32.75
+        "LongSide": 34.25787401574803
       },
       {
         "Id": "Debuff",
@@ -5291,7 +5291,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 47,
-        "LongSide": 30.25
+        "LongSide": 31.75787401574803
       },
       {
         "Id": "Buff",
@@ -5299,7 +5299,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 47,
-        "LongSide": 29
+        "LongSide": 30.50787401574803
       },
       {
         "Id": "Terran - blue",
@@ -5307,7 +5307,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 49.5,
-        "LongSide": 30.25
+        "LongSide": 31.75787401574803
       },
       {
         "Id": "Protoss - yellow",
@@ -5315,7 +5315,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 51,
-        "LongSide": 30.25
+        "LongSide": 31.75787401574803
       },
       {
         "Id": "Zerg - purple",
@@ -5323,7 +5323,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 52.5,
-        "LongSide": 30.25
+        "LongSide": 31.75787401574803
       },
       {
         "Id": "Terran - white",
@@ -5331,7 +5331,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 49.5,
-        "LongSide": 28.75
+        "LongSide": 30.25787401574803
       },
       {
         "Id": "Protoss - white",
@@ -5339,7 +5339,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 51,
-        "LongSide": 28.75
+        "LongSide": 30.25787401574803
       },
       {
         "Id": "Zerg - white",
@@ -5347,7 +5347,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 52.5,
-        "LongSide": 28.75
+        "LongSide": 30.25787401574803
       },
       {
         "Id": "Stim",
@@ -5355,7 +5355,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 47,
-        "LongSide": 26.5
+        "LongSide": 28.00787401574803
       },
       {
         "Id": "Burrowed",
@@ -5363,7 +5363,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 48.25,
-        "LongSide": 26.5
+        "LongSide": 28.00787401574803
       },
       {
         "Id": "Hidden",
@@ -5371,7 +5371,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 49.5,
-        "LongSide": 26.5
+        "LongSide": 28.00787401574803
       },
       {
         "Id": "Siege Status",
@@ -5379,7 +5379,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 50.75,
-        "LongSide": 26.5
+        "LongSide": 28.00787401574803
       },
       {
         "Id": "Bile Bomb",
@@ -5387,7 +5387,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 47,
-        "LongSide": 25.25
+        "LongSide": 26.75787401574803
       },
       {
         "Id": "Creep Tumor",
@@ -5395,7 +5395,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 48.25,
-        "LongSide": 25.25
+        "LongSide": 26.75787401574803
       },
       {
         "Id": "Corrosive Bile",
@@ -5403,7 +5403,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 49.5,
-        "LongSide": 25.25
+        "LongSide": 26.75787401574803
       },
       {
         "Id": "Shield",
@@ -5411,7 +5411,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 50.75,
-        "LongSide": 25.25
+        "LongSide": 26.75787401574803
       }
     ]
   },
@@ -5562,7 +5562,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 47,
-        "LongSide": 2
+        "LongSide": 0.4921259842519703
       },
       {
         "Id": "Activation - blue - movement",
@@ -5570,7 +5570,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 48.25,
-        "LongSide": 2
+        "LongSide": 0.4921259842519703
       },
       {
         "Id": "Activation - blue - movement",
@@ -5578,7 +5578,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 49.5,
-        "LongSide": 2
+        "LongSide": 0.4921259842519703
       },
       {
         "Id": "Activation - blue - movement",
@@ -5586,7 +5586,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 50.75,
-        "LongSide": 2
+        "LongSide": 0.4921259842519703
       },
       {
         "Id": "Activation - blue - movement",
@@ -5594,7 +5594,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 52,
-        "LongSide": 2
+        "LongSide": 0.4921259842519703
       },
       {
         "Id": "Activation - red - movement",
@@ -5602,7 +5602,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 53.25,
-        "LongSide": 2
+        "LongSide": 0.4921259842519703
       },
       {
         "Id": "Activation - red - assault",
@@ -5610,7 +5610,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 47,
-        "LongSide": 3.25
+        "LongSide": 1.7421259842519703
       },
       {
         "Id": "Activation - red - assault",
@@ -5618,7 +5618,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 48.25,
-        "LongSide": 3.25
+        "LongSide": 1.7421259842519703
       },
       {
         "Id": "Activation - red - assault",
@@ -5626,7 +5626,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 49.5,
-        "LongSide": 3.25
+        "LongSide": 1.7421259842519703
       },
       {
         "Id": "Activation - red - assault",
@@ -5634,7 +5634,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 50.75,
-        "LongSide": 3.25
+        "LongSide": 1.7421259842519703
       },
       {
         "Id": "Activation - red - assault",
@@ -5642,7 +5642,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 52,
-        "LongSide": 3.25
+        "LongSide": 1.7421259842519703
       },
       {
         "Id": "Activation - blue - assault",
@@ -5650,7 +5650,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 53.25,
-        "LongSide": 3.25
+        "LongSide": 1.7421259842519703
       },
       {
         "Id": "Debuff",
@@ -5658,7 +5658,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 47,
-        "LongSide": 5.75
+        "LongSide": 4.24212598425197
       },
       {
         "Id": "Buff",
@@ -5666,7 +5666,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 47,
-        "LongSide": 7
+        "LongSide": 5.49212598425197
       },
       {
         "Id": "Terran - blue",
@@ -5674,7 +5674,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 49.5,
-        "LongSide": 5.75
+        "LongSide": 4.24212598425197
       },
       {
         "Id": "Protoss - yellow",
@@ -5682,7 +5682,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 51,
-        "LongSide": 5.75
+        "LongSide": 4.24212598425197
       },
       {
         "Id": "Zerg - purple",
@@ -5690,7 +5690,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 52.5,
-        "LongSide": 5.75
+        "LongSide": 4.24212598425197
       },
       {
         "Id": "Terran - white",
@@ -5698,7 +5698,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 49.5,
-        "LongSide": 7.25
+        "LongSide": 5.74212598425197
       },
       {
         "Id": "Protoss - white",
@@ -5706,7 +5706,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 51,
-        "LongSide": 7.25
+        "LongSide": 5.74212598425197
       },
       {
         "Id": "Zerg - white",
@@ -5714,7 +5714,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 52.5,
-        "LongSide": 7.25
+        "LongSide": 5.74212598425197
       },
       {
         "Id": "Stim",
@@ -5722,7 +5722,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 47,
-        "LongSide": 9.5
+        "LongSide": 7.99212598425197
       },
       {
         "Id": "Burrowed",
@@ -5730,7 +5730,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 48.25,
-        "LongSide": 9.5
+        "LongSide": 7.99212598425197
       },
       {
         "Id": "Hidden",
@@ -5738,7 +5738,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 49.5,
-        "LongSide": 9.5
+        "LongSide": 7.99212598425197
       },
       {
         "Id": "Siege Status",
@@ -5746,7 +5746,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 50.75,
-        "LongSide": 9.5
+        "LongSide": 7.99212598425197
       },
       {
         "Id": "Bile Bomb",
@@ -5754,7 +5754,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 47,
-        "LongSide": 10.75
+        "LongSide": 9.24212598425197
       },
       {
         "Id": "Creep Tumor",
@@ -5762,7 +5762,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 48.25,
-        "LongSide": 10.75
+        "LongSide": 9.24212598425197
       },
       {
         "Id": "Corrosive Bile",
@@ -5770,7 +5770,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 49.5,
-        "LongSide": 10.75
+        "LongSide": 9.24212598425197
       },
       {
         "Id": "Shield",
@@ -5778,7 +5778,7 @@
         "Quadrant": 1,
         "Rotation": 0,
         "ShortSide": 50.75,
-        "LongSide": 10.75
+        "LongSide": 9.24212598425197
       },
       {
         "Id": "Activation - blue - movement",
@@ -5786,7 +5786,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 47,
-        "LongSide": 34
+        "LongSide": 35.50787401574803
       },
       {
         "Id": "Activation - blue - movement",
@@ -5794,7 +5794,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 48.25,
-        "LongSide": 34
+        "LongSide": 35.50787401574803
       },
       {
         "Id": "Activation - blue - movement",
@@ -5802,7 +5802,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 49.5,
-        "LongSide": 34
+        "LongSide": 35.50787401574803
       },
       {
         "Id": "Activation - blue - movement",
@@ -5810,7 +5810,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 50.75,
-        "LongSide": 34
+        "LongSide": 35.50787401574803
       },
       {
         "Id": "Activation - blue - movement",
@@ -5818,7 +5818,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 52,
-        "LongSide": 34
+        "LongSide": 35.50787401574803
       },
       {
         "Id": "Activation - red - movement",
@@ -5826,7 +5826,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 53.25,
-        "LongSide": 34
+        "LongSide": 35.50787401574803
       },
       {
         "Id": "Activation - red - assault",
@@ -5834,7 +5834,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 47,
-        "LongSide": 32.75
+        "LongSide": 34.25787401574803
       },
       {
         "Id": "Activation - red - assault",
@@ -5842,7 +5842,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 48.25,
-        "LongSide": 32.75
+        "LongSide": 34.25787401574803
       },
       {
         "Id": "Activation - red - assault",
@@ -5850,7 +5850,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 49.5,
-        "LongSide": 32.75
+        "LongSide": 34.25787401574803
       },
       {
         "Id": "Activation - red - assault",
@@ -5858,7 +5858,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 50.75,
-        "LongSide": 32.75
+        "LongSide": 34.25787401574803
       },
       {
         "Id": "Activation - red - assault",
@@ -5866,7 +5866,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 52,
-        "LongSide": 32.75
+        "LongSide": 34.25787401574803
       },
       {
         "Id": "Activation - blue - assault",
@@ -5874,7 +5874,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 53.25,
-        "LongSide": 32.75
+        "LongSide": 34.25787401574803
       },
       {
         "Id": "Debuff",
@@ -5882,7 +5882,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 47,
-        "LongSide": 30.25
+        "LongSide": 31.75787401574803
       },
       {
         "Id": "Buff",
@@ -5890,7 +5890,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 47,
-        "LongSide": 29
+        "LongSide": 30.50787401574803
       },
       {
         "Id": "Terran - blue",
@@ -5898,7 +5898,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 49.5,
-        "LongSide": 30.25
+        "LongSide": 31.75787401574803
       },
       {
         "Id": "Protoss - yellow",
@@ -5906,7 +5906,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 51,
-        "LongSide": 30.25
+        "LongSide": 31.75787401574803
       },
       {
         "Id": "Zerg - purple",
@@ -5914,7 +5914,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 52.5,
-        "LongSide": 30.25
+        "LongSide": 31.75787401574803
       },
       {
         "Id": "Terran - white",
@@ -5922,7 +5922,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 49.5,
-        "LongSide": 28.75
+        "LongSide": 30.25787401574803
       },
       {
         "Id": "Protoss - white",
@@ -5930,7 +5930,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 51,
-        "LongSide": 28.75
+        "LongSide": 30.25787401574803
       },
       {
         "Id": "Zerg - white",
@@ -5938,7 +5938,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 52.5,
-        "LongSide": 28.75
+        "LongSide": 30.25787401574803
       },
       {
         "Id": "Stim",
@@ -5946,7 +5946,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 47,
-        "LongSide": 26.5
+        "LongSide": 28.00787401574803
       },
       {
         "Id": "Burrowed",
@@ -5954,7 +5954,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 48.25,
-        "LongSide": 26.5
+        "LongSide": 28.00787401574803
       },
       {
         "Id": "Hidden",
@@ -5962,7 +5962,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 49.5,
-        "LongSide": 26.5
+        "LongSide": 28.00787401574803
       },
       {
         "Id": "Siege Status",
@@ -5970,7 +5970,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 50.75,
-        "LongSide": 26.5
+        "LongSide": 28.00787401574803
       },
       {
         "Id": "Bile Bomb",
@@ -5978,7 +5978,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 47,
-        "LongSide": 25.25
+        "LongSide": 26.75787401574803
       },
       {
         "Id": "Creep Tumor",
@@ -5986,7 +5986,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 48.25,
-        "LongSide": 25.25
+        "LongSide": 26.75787401574803
       },
       {
         "Id": "Corrosive Bile",
@@ -5994,7 +5994,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 49.5,
-        "LongSide": 25.25
+        "LongSide": 26.75787401574803
       },
       {
         "Id": "Shield",
@@ -6002,7 +6002,7 @@
         "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 50.75,
-        "LongSide": 25.25
+        "LongSide": 26.75787401574803
       }
     ]
   }

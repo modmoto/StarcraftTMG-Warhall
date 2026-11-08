@@ -128,3 +128,19 @@ test('generator reproduces the editor token records and catalogue order exactly'
   assert.equal(new Set(order).size, tokens.length);
   for (const token of tokens) assert.deepEqual(Object.keys(token), ['Id', 'Name', 'Type']);
 });
+
+test('token trays meet both battlefield ends without changing token counts', async () => {
+  const { tokenTrayPlacements } = await import('../src/tokens/tray.mjs');
+  for (const [width, height] of [
+    [54, 36],
+    [36, 36],
+    [54, 48],
+  ]) {
+    const placements = tokenTrayPlacements({ width, height });
+    assert.equal(placements.length, 56);
+    const ends = placements.map(item => item.LongSide - 18);
+    const radius = 12.5 / 25.4;
+    assert.ok(Math.abs(Math.min(...ends) - radius + height / 2) < 1e-9);
+    assert.ok(Math.abs(Math.max(...ends) + radius - height / 2) < 1e-9);
+  }
+});
