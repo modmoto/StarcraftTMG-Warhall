@@ -35,7 +35,7 @@ World orientation matters: with Warhall's map coordinates, the right tray is on 
 
 ## Tokens and deployment
 
-Token placement belongs to deployment data or a separate import. The scoreboard does not create, reposition, hide or deduplicate tokens. It only handles its own UI and counters. Surrounding tokens still use their normal model/texture assets; the separate local fallback for missing server skins is not part of this example.
+Token placement belongs to deployment data or a separate import. The scoreboard does not create, reposition, hide or deduplicate tokens. It only handles its own UI and counters. Tokens and the original scoreboard use Warhall’s normal catalogue skins and model/texture assets; the patch does not override their loading.
 
 ## Photon synchronization
 
@@ -55,4 +55,4 @@ Photon room state survives client joins while the room exists. It is **not** wri
 
 Pure state and simulated-transport tests cover validation, zero clamps, serialization, concurrent increments, conflicting CAS retries without double counting, late join and synchronized color swaps. Native compilation and local DLL injection were checked. A real two-client game, reconnects, Master Client handover and Windows gameplay still need verification.
 
-Verify five-round totals, left/right clicks, shared denominator, color swap preserving values, the original left board remaining visible, 54×36 and 36×36 maps, unchanged deployment tokens, and no activation in other game systems. The original board still requires its normal catalogue skin on unpatched clients; the local prototype's skin fallback is not part of this standalone UI file.
+Verify five-round totals, left/right clicks, shared denominator, color swap preserving values, the original left board remaining visible, 54×36 and 36×36 maps, unchanged deployment tokens, and no activation in other game systems. The original board still requires its normal catalogue skin on unpatched clients; the patch does not replace missing skins.

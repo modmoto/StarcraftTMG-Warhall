@@ -53,6 +53,6 @@ for (const name of ['Program.cs', 'Stubs.cs'])
   await writeFile(path.join(destination, name), await readFile(path.join(here, name)));
 await writeFile(path.join(destination, 'Checks.csproj'), `<Project Sdk="Microsoft.NET.Sdk"><PropertyGroup><OutputType>Exe</OutputType><TargetFramework>net8.0</TargetFramework><ImplicitUsings>enable</ImplicitUsings><LangVersion>latest</LangVersion><NuGetAudit>false</NuGetAudit></PropertyGroup></Project>`);
 const result = spawnSync(process.env.DOTNET_EXECUTABLE ?? 'dotnet',
-  ['run', '--project', path.join(destination, 'Checks.csproj'), '--source', destination],
+  ['run', '--project', path.join(destination, 'Checks.csproj')],
   { stdio: 'inherit' });
 process.exit(result.status ?? 1);

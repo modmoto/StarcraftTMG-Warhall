@@ -110,17 +110,6 @@ public static class PatchEngine
         markerIl.InsertBefore(nativeClick, markerIl.Create(OpCodes.Call, Hook("RestoreMarker")));
         markerIl.InsertBefore(nativeClick, markerIl.Create(OpCodes.Brfalse, nativeClick));
         markerIl.InsertBefore(nativeClick, markerIl.Create(OpCodes.Ret));
-        var assetType = runtime.MainModule.Types.Single(type => type.Name == "StarcraftLocalAssets");
-        var resolveAsset = module.ImportReference(assetType.Methods.Single(method => method.Name == "Resolve"));
-        foreach (var target in new[] { ("Token", "RPCConfigureToken"), ("TerrainItem", "RPCConfigureTerrain") })
-        {
-            var method = module.Types.Single(type => type.Name == target.Item1).Methods.Single(method => method.Name == target.Item2);
-            var il = method.Body.GetILProcessor();
-            var load = method.Body.Instructions.Single(instruction =>
-                instruction.Operand is MethodReference called && called.Name == "LoadModel");
-            il.InsertBefore(load, il.Create(OpCodes.Ldarg_1));
-            il.InsertBefore(load, il.Create(OpCodes.Call, resolveAsset));
-        }
         Console.WriteLine("Corner marker hooks: capture full model transforms and restore on click.");
         Console.WriteLine("Leading movement hooks: click, L key, start drag, finish drag.");
         if (changed != 4)

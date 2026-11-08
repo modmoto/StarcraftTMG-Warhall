@@ -6,7 +6,6 @@
   <ItemGroup>
     <Compile Include="../../../examples/leading-model/LeadingMovement.cs" />
     <Compile Include="../../../examples/starcraft-scoreboard/StarcraftScoreboard.cs" />
-    <Compile Include="StarcraftLocalAssets.cs" />
     <Reference Include="Assembly-CSharp"><HintPath>$(GameManagedDir)/Assembly-CSharp.dll</HintPath><Private>false</Private></Reference>
     <Reference Include="UnityEngine.CoreModule"><HintPath>$(GameManagedDir)/UnityEngine.CoreModule.dll</HintPath><Private>false</Private></Reference>
     <Reference Include="UnityEngine.InputLegacyModule"><HintPath>$(GameManagedDir)/UnityEngine.InputLegacyModule.dll</HintPath><Private>false</Private></Reference>

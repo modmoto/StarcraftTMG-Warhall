@@ -101,7 +101,7 @@ try
         Console.WriteLine(Compatibility.Fingerprint(args[1]));
         return;
     }
-    Console.WriteLine("Warhall Community Patch 1.0.0 — movement + StarCraft scoreboard");
+    Console.WriteLine("Warhall Community Patch 1.0.1 — movement + StarCraft scoreboard");
     Console.WriteLine("Creates a separate patched copy. Your original game is not modified.");
     Console.WriteLine("Close Warhall before continuing. No Unity or .NET installation is required.");
     string? source = null, output = null;
@@ -166,7 +166,7 @@ try
         Directory.Move(stage, output);
         File.WriteAllText(marker, JsonSerializer.Serialize(new Dictionary<string,string>
         {
-            ["source"] = source, ["fingerprint"] = fingerprint, ["version"] = restore ? "original" : "1.0.0"
+            ["source"] = source, ["fingerprint"] = fingerprint, ["version"] = restore ? "original" : "1.0.1"
         }, new JsonSerializerOptions { WriteIndented = true }));
     }
     catch { if (Directory.Exists(stage)) Directory.Delete(stage, true); throw; }

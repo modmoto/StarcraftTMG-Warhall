@@ -1,4 +1,4 @@
-# Warhall Community Patch 1.0.0
+# Warhall Community Patch 1.0.1
 
 Adds leading-model movement, individual and selected-group dragging, and a shared StarCraft scoreboard. The scoreboard keeps its normal asset-free UI and uses the existing Photon room connection. The original terrain scoreboard stays on the left for clients without the patch.
 
@@ -25,7 +25,7 @@ The downloads are not Windows-code-signed or Apple-notarized; operating-system c
 - The new StarCraft scoreboard is on the right. Left/right clicks increase/decrease values. Global Supply starts at 6. The arrow button swaps player colors.
 - Both clients, including the room's Master Client, need the patch for shared scoreboard state. Unpatched clients keep seeing the old left board; its counters are independent.
 
-The installer includes the existing StarCraft token/marker asset fallback for missing skin assignments. It loads existing catalogue URLs and transforms; it does not arrange, create or deduplicate tokens. Those belong to deployment/import data.
+The patch does not intercept token or terrain asset loading, substitute skins, or arrange/create/deduplicate tokens. Warhall uses its normal catalogue assignments and assets; token placement belongs to deployment/import data.
 
 ## Reset or update
 
@@ -65,4 +65,4 @@ dotnet publish tools/client-patch/ClientPatch.csproj -c Release -r osx-x64 --sel
 
 The patcher modifies the user's own Assembly-CSharp.dll copy with Mono.Cecil. Downloads contain the patcher, its runtime and our helper DLL, not Warhall game assemblies. On Mac, the copied Gate resources are moved under Contents/Resources and their existing path literals adjusted so the copied app can be ad-hoc signed as a proper bundle.
 
-Whenever movement or scoreboard changes, update the corresponding example source and README together, rebuild the helper and installer packages, and rerun the checks. All Photon helpers stay in the single StarcraftScoreboard.cs source file. The generated StarcraftLocalAssets.cs entries come from model-catalogue.json and should retain those reviewed URLs/transforms.
+Whenever movement or scoreboard changes, update the corresponding example source and README together, rebuild the helper and installer packages, and rerun the checks. All Photon helpers stay in the single StarcraftScoreboard.cs source file.
