@@ -40,12 +40,6 @@ public static class StarcraftScoreboard
                 boards.Add(terrain, new Board(terrain, bounds));
                 Debug.Log("[StarcraftScoreboard] Interactive board created at " + terrain.transform.position);
             }
-            foreach (var pair in boards)
-            {
-                if (pair.Key == null || !pair.Key.gameObject.activeInHierarchy) continue;
-                var edge = Mathf.Abs(pair.Key.transform.position.x) - 11.1f;
-                StarcraftTray.Arrange(edge, pair.Key.transform.position.z);
-            }
         }
         foreach (var pair in boards)
         {
