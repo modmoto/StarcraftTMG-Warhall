@@ -10,7 +10,7 @@ export function tokenTrayPlacements({ height }) {
     ]
       .flat()
       .map(id => tokenDefinitions.find(token => token.id === id));
-    const buffs = tokenDefinitions.filter(token => ['buff', 'debuff'].includes(token.id));
+    const tokensById = new Map(tokenDefinitions.map(token => [token.id, token]));
     const factions = [false, true].flatMap(inverted =>
       ['terran', 'protoss', 'zerg'].map(faction =>
         tokenDefinitions.find(
@@ -18,28 +18,36 @@ export function tokenTrayPlacements({ height }) {
         ),
       ),
     );
-    const others = tokenDefinitions.filter(
-      token =>
-        !token.id.startsWith('activation_') &&
-        !token.id.startsWith('faction_') &&
-        !['buff', 'debuff'].includes(token.id),
-    );
+    const factionRow = spacing + 1.75;
+    const effectRow = factionRow + 1.5 + 1.75;
     const groups = [
-      { tokens: activation, columns: 2, row: 0 },
-      { tokens: [...buffs].reverse(), columns: 1, row: 3, column: 0 },
-      { tokens: factions, columns: 3, row: 3, column: 2 },
-      { tokens: others, columns: 4, row: 5, column: 0 },
+      { tokens: activation, columns: 2, x: 0, z: 0, pitch: spacing },
+      { tokens: factions, columns: 3, x: 0, z: factionRow, pitch: 1.5 },
+      { ids: ['debuff', 'buff'], columns: 1, x: 0, z: effectRow, pitch: 1.5 },
+      {
+        ids: ['stim', 'hidden', 'siege', 'burrowed', 'creep_tumor', 'shield'],
+        columns: 3,
+        x: 1.75,
+        z: effectRow,
+        pitch: 1.5,
+      },
+      {
+        ids: ['bile_bomb', 'corrosive_bile'],
+        columns: 1,
+        x: 6.5,
+        z: effectRow - 0.25,
+        pitch: 2,
+      },
     ];
     const direction = color === 'blue' ? 1 : -1;
     return groups.flatMap(group =>
-      group.tokens.flatMap((token, index) => {
-        const groupSpacing = group.tokens === factions ? 1.5 : spacing;
-        const x = 27 + 2 + (group.column ?? 0) * spacing + (index % group.columns) * groupSpacing;
+      (group.tokens ?? group.ids.map(id => tokensById.get(id))).flatMap((token, index) => {
+        const x = 27 + 2 + group.x + (index % group.columns) * group.pitch;
         const z =
           -height / 2 +
           activationRadius +
-          group.row * spacing +
-          Math.floor(index / group.columns) * groupSpacing;
+          group.z +
+          Math.floor(index / group.columns) * group.pitch;
         const placement = {
           Id: token.name,
           Type: 'Token',
