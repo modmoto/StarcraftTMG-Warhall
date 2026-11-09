@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "serverUrl": "https://apptest.warhall.eu",
+  "gameName": "Starcraft",
+  "gameNames": {
+    "test": "Starcraft-test",
+    "prod": "Starcraft"
+  },
+  "entries": [
+    {
+      "profileId": "sc_token_shield",
+      "name": "Starcraft - Token - Shield",
+      "kind": "token",
+      "calibration": "token-centimeters-v1",
+      "tokenDiameterMm": 25,
+      "parts": [
+        {
+          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/refs/heads/codex/shield-token-collider/model-assets/3fe57fad1c957207876d384f88e265f9bb668ff155f9c466285f9284dc9b0fc0.unity3d",
+          "textureUrl": null,
+          "hostedAsset": true,
+          "transforms": {
+            "scale": 0.39370078740157477,
+            "positionX": 0,
+            "positionY": 0,
+            "positionZ": 0,
+            "rotationX": 0,
+            "rotationY": 0,
+            "rotationZ": 0
+          },
+          "previewGeometryFile": "model-assets/f226e357daae940163c903cb1b2b96b55e7fd20026174932afc870eedc096e24.glb.preview.json",
+          "previewTransforms": {
+            "scale": 1,
+            "positionX": 0,
+            "positionY": 0,
+            "positionZ": 0,
+            "rotationX": 0,
+            "rotationY": 0,
+            "rotationZ": 0
+          }
+        }
+      ]
+    }
+  ]
+}
