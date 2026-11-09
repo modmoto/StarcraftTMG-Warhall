@@ -17,21 +17,22 @@ public static class Compatibility
         if (assembly.MainModule.AssemblyReferences.Any(a => a.Name == "MovementPrototype"))
             throw new InvalidOperationException("This installation is already patched. Select the original Warhall installation.");
         var text = new StringBuilder();
+        void Append(string line) => text.Append(line).Append('\n');
         foreach (var type in assembly.MainModule.Types.Where(t => Types.Contains(t.Name))
                      .OrderBy(t => t.FullName, StringComparer.Ordinal))
         {
-            text.AppendLine(type.FullName);
+            Append(type.FullName);
             foreach (var field in type.Fields.OrderBy(f => f.FullName, StringComparer.Ordinal))
-                text.AppendLine(field.FullName);
+                Append(field.FullName);
             foreach (var method in type.Methods.OrderBy(m => m.FullName, StringComparer.Ordinal))
             {
-                text.AppendLine(method.FullName);
+                Append(method.FullName);
                 if (!method.HasBody) continue;
-                foreach (var local in method.Body.Variables) text.AppendLine(local.VariableType.FullName);
+                foreach (var local in method.Body.Variables) Append(local.VariableType.FullName);
                 foreach (var instruction in method.Body.Instructions)
-                    text.AppendLine(instruction.ToString());
+                    Append(instruction.ToString());
                 foreach (var handler in method.Body.ExceptionHandlers)
-                    text.AppendLine($"{handler.HandlerType}:{handler.TryStart}:{handler.TryEnd}:{handler.HandlerStart}:{handler.HandlerEnd}:{handler.CatchType}");
+                    Append($"{handler.HandlerType}:{handler.TryStart}:{handler.TryEnd}:{handler.HandlerStart}:{handler.HandlerEnd}:{handler.CatchType}");
             }
         }
         return Convert.ToHexString(SHA256.HashData(Encoding.UTF8.GetBytes(text.ToString()))).ToLowerInvariant();
