@@ -11,6 +11,26 @@ public static class BuildTokenColliders
     public static void Run()
     {
         InternalEditorUtility.AddTag("Token");
+        // The native Warhall token renderer serializes Token as 20000 + 20.
+        const int warhallTokenTagIndex = 20;
+        var tagManager = new SerializedObject(AssetDatabase.LoadAllAssetsAtPath("ProjectSettings/TagManager.asset")[0]);
+        var tags = tagManager.FindProperty("tags");
+        int tokenIndex = 0;
+        while (tags.GetArrayElementAtIndex(tokenIndex).stringValue != "Token")
+            tokenIndex++;
+        while (tags.arraySize <= warhallTokenTagIndex)
+        {
+            int index = tags.arraySize;
+            tags.InsertArrayElementAtIndex(index);
+            tags.GetArrayElementAtIndex(index).stringValue = "WarhallTagSlot" + index;
+        }
+        if (tokenIndex != warhallTokenTagIndex)
+        {
+            tags.MoveArrayElement(tokenIndex, warhallTokenTagIndex);
+            tagManager.ApplyModifiedPropertiesWithoutUndo();
+            AssetDatabase.SaveAssets();
+            throw new Exception("Warhall Token tag configured. Restart Unity and run the builder again.");
+        }
         var builds = new List<AssetBundleBuild>();
         foreach (var directory in Directory.GetDirectories("Assets/TokenColliderInput"))
         {
@@ -60,7 +80,7 @@ public static class BuildTokenColliders
         const string output = "Output/TokenColliders";
         Directory.CreateDirectory(output);
         if (BuildPipeline.BuildAssetBundles(output, builds.ToArray(),
-            BuildAssetBundleOptions.StrictMode | BuildAssetBundleOptions.ChunkBasedCompression |
+            BuildAssetBundleOptions.ForceRebuildAssetBundle | BuildAssetBundleOptions.StrictMode | BuildAssetBundleOptions.ChunkBasedCompression |
             BuildAssetBundleOptions.AssetBundleStripUnityVersion, BuildTarget.StandaloneWindows64) == null)
             throw new Exception("Token bundle build failed.");
         foreach (var build in builds)
