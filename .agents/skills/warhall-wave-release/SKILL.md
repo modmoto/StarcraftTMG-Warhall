@@ -15,6 +15,8 @@ Run npm run check:local and review relevant images. Commit and push main without
 
 ## Publish the tested copy
 
+When the user says “make a release” or “mach ein Release”, treat that as authorization to publish the requested release end to end: commit and push the release to main, upload all required missing or changed assets to the matching Warhall server, then verify the hosted manifest and shared bindings. Git push alone is not a completed release.
+
 The user's “release”, “publish live” or equivalent instruction authorizes copying and production upload. Confirm the working copy is the tested content, then:
 
 1. Run npm run check:local.
