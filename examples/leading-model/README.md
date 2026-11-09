@@ -90,3 +90,7 @@ The production installer patches the existing app directly, without prompts. The
 ## Token radius regression (patch 1.0.3)
 
 At the start of `GameItem.RedrawShapeDrawer(Material materialOverride = null)`, add `if (!LeadingMovement.ShouldRedraw(this)) return;`. Hidden token radii must stay hidden during movement/redraw. Explicitly visible token radii continue to redraw; soldier leader circles and group selection are unchanged. This guard is included in patch 1.0.3; the token-drag reproduction still needs a client playtest.
+
+## Single-model right drag
+
+Resolve hovering over a one-model Unit to its sole active Soldier. Right-drag uses the existing movement, cancellation and Undo path for that model and suppresses camera rotation for the gesture. It does not set a leader or draw a new leader ring.

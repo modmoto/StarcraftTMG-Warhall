@@ -136,11 +136,20 @@ public static class StarcraftShields
         foreach (var state in states.Values)
         {
             Read(state);
-            bool visible = state.Remaining > 0 && state.Unit.gameObject.activeInHierarchy && state.Unit.GetAllActiveSoldiers().Count > 0;
+            var activeModels = state.Unit.GetAllActiveSoldiers();
+            bool visible = state.Remaining > 0 && state.Unit.gameObject.activeInHierarchy && activeModels.Count > 0;
             state.Root.SetActive(visible);
             if (!visible) continue;
             var billboard = state.Unit._billboard;
-            state.Root.transform.position = billboard != null ? billboard.transform.position : state.Unit.transform.position + Vector3.up * 6;
+            // The unit transform is recentered after a drag. Use the live model positions
+            // so the shared shield display follows the squad throughout the gesture.
+            var center = Vector3.zero;
+            foreach (var model in activeModels) center += model.transform.position;
+            center /= activeModels.Count;
+            var offset = billboard != null
+                ? billboard.transform.position - state.Unit.transform.position
+                : Vector3.up * 6;
+            state.Root.transform.position = center + offset;
             if (camera != null) state.Root.transform.rotation = camera.transform.rotation;
             state.Number.text = state.Remaining.ToString();
             MatchWoundDisplay(state, billboard);

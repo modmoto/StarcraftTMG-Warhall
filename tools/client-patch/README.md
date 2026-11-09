@@ -1,4 +1,4 @@
-# Warhall Production Patch 1.0.3
+# Warhall Production Patch 1.0.4
 
 Leading-model movement, shared StarCraft shields and a Photon-synchronized StarCraft scoreboard for the installed production game.
 
@@ -48,6 +48,8 @@ Warhall's updater may replace the modified files during an official update. Use 
 - Click a model to select the squad for the native wound counter.
 - Drag a model to move it individually; release reselects the squad.
 - Box-select multiple models, then drag a selected model to move the selected group together. The selection stays intact and the leader teleport is suppressed for group drags.
+- Right-drag an owned single-model unit to move it without rotating the camera or creating a leader ring.
+- The shared shield counter follows live model positions during drags.
 - **L** toggles the clicked leader. **Right-drag** sets and moves a leader in one gesture. Followers move forward inside its 3-inch range, or 4 inches with Squadron.
 - StarCraft shields are shared by the squad and read from its profile. Damage consumes shields before wounds; healing repairs wounds before restoring shields. The blue shield counter disappears at zero.
 - Moving tokens no longer makes hidden radius circles visible. Intentionally enabled radii remain available.

@@ -1,6 +1,6 @@
 # Shared StarCraft shields
 
-Copy `StarcraftShields.cs` into the client assembly. All helpers, including the shield pool, Undo action and Photon room state, live in this one file. Included in Warhall Production Patch 1.0.3.
+Copy `StarcraftShields.cs` into the client assembly. All helpers, including the shield pool, Undo action and Photon room state, live in this one file. Included in Warhall Production Patch 1.0.4.
 
 ## Integration
 
@@ -18,3 +18,5 @@ Shield/hull bookkeeping and native actions share the Undo group. Photon room pro
 ## Verification
 
 Compiled against the reviewed production Warhall assemblies; the shield appearance was accepted in the local Test app. Executable state checks cover a 2-shield/3-HP Adept casualty after five damage, healing back to full, maximum clamping and zero-shield damage. Existing scoreboard transport and movement selection simulations still pass. Real multiplayer, native casualty Undo/Redo and billboard appearance still require playtesting; the arithmetic checks do not verify those client behaviors.
+
+The shared shield display follows the centroid of active model transforms each frame, with the native wound billboard offset. This keeps it attached during movement before Warhall recenters the unit at drag completion.

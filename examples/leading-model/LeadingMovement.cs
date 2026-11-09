@@ -21,10 +21,25 @@ public static class LeadingMovement
 
     public static bool ShouldRedraw(GameItem item) => !(item is Token) || item.IsShapeDrawerVisible();
 
-    public static void Hover(GameItem item) => hovered = item as Soldier;
+    private static GameItem hoveredItem;
+
+    public static void Hover(GameItem item)
+    {
+        hoveredItem = item;
+        hovered = item as Soldier;
+        if (hovered == null && item is Unit unit)
+        {
+            var models = unit.GetAllActiveSoldiers();
+            if (models.Count == 1) hovered = models[0];
+        }
+    }
     public static void Leave(GameItem item)
     {
-        if (hovered == item) hovered = null;
+        if (hoveredItem == item)
+        {
+            hoveredItem = null;
+            hovered = null;
+        }
     }
     public static void AfterInput(InputManager input)
     {
@@ -238,22 +253,25 @@ public static class LeadingMovement
         var focused = EventSystem.current?.currentSelectedGameObject;
         if (focused != null && (focused.GetComponent<InputField>() != null ||
             focused.GetComponent("TMP_InputField") != null)) return;
-        if (Input.GetMouseButtonDown(1) && Eligible(hovered) && controller != null &&
+        var target = hovered;
+        bool singleModel = target != null && target.IsMine() &&
+            target.GetParentUnit()?.GetAllActiveSoldiers().Count == 1;
+        if (Input.GetMouseButtonDown(1) && (singleModel || Eligible(target)) && controller != null &&
             !(EventSystem.current != null && EventSystem.current.IsPointerOverGameObject()))
         {
-            clicked = hovered;
+            clicked = target;
             multiDrag = false;
-            SetLeader(hovered);
+            if (!singleModel) SetLeader(target);
             var input = UnityEngine.Object.FindFirstObjectByType<InputManager>();
-            input.ForceSingleSeletion(leader);
-            rightDrag = leader;
-            rightStart = leader.transform.position;
-            rightRotation = leader.transform.rotation;
+            input.ForceSingleSeletion(target);
+            rightDrag = target;
+            rightStart = target.transform.position;
+            rightRotation = target.transform.rotation;
             var ground = controller.GetComponent<GameController>().GetGroundRaycast(true);
             rightOffset = rightStart - ground;
             rightUndo = controller.GetComponent<UndoRedo>();
             rightUndo.StartGroup();
-            leader.StartDrag(ground);
+            target.StartDrag(ground);
             return;
         }
         if (!Input.GetKeyDown(KeyCode.L)) return;

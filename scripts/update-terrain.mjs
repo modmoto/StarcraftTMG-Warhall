@@ -87,7 +87,7 @@ for (const asset of source.assets.filter(asset => !aliases[asset.id])) {
   const bytes = await encodeGlb(meshes);
   const file = `${sha256(bytes)}.glb`,
     previewGeometryFile = `model-assets/${file}.preview.json`;
-  files.set(path.join(projectRoot, 'model-assets', file), bytes);
+  if (!definition.colliderBundle) files.set(path.join(projectRoot, 'model-assets', file), bytes);
   const preview = await Promise.all(
     meshes.map(async mesh => ({
       ...mesh,
