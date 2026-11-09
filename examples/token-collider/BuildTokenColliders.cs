@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using UnityEditor;
+using UnityEditorInternal;
 using UnityEngine;
 using UnityEngine.Rendering;
 
@@ -9,6 +10,7 @@ public static class BuildTokenColliders
 {
     public static void Run()
     {
+        InternalEditorUtility.AddTag("Token");
         var builds = new List<AssetBundleBuild>();
         foreach (var directory in Directory.GetDirectories("Assets/TokenColliderInput"))
         {
@@ -44,6 +46,7 @@ public static class BuildTokenColliders
                     AssetDatabase.CreateAsset(mesh, prefix + ".asset");
                     AssetDatabase.CreateAsset(material, prefix + ".mat");
                     var visual = new GameObject("Visual " + part);
+                    visual.tag = "Token";
                     visual.transform.SetParent(root.transform, false);
                     visual.AddComponent<MeshFilter>().sharedMesh = mesh;
                     visual.AddComponent<MeshRenderer>().sharedMaterial = material;
@@ -67,6 +70,9 @@ public static class BuildTokenColliders
             var instance = UnityEngine.Object.Instantiate(bundle.LoadAsset<GameObject>(build.assetNames[0]));
             var collider = instance.GetComponent<BoxCollider>();
             if (!collider) throw new Exception("Missing root collider: " + build.assetBundleName);
+            foreach (var renderer in instance.GetComponentsInChildren<Renderer>())
+                if (!renderer.CompareTag("Token"))
+                    throw new Exception("Missing selection tag: " + build.assetBundleName);
             Physics.SyncTransforms();
             foreach (var direction in new[] { Vector3.zero, Vector3.right, Vector3.forward, Vector3.left, Vector3.back })
             {

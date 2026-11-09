@@ -3,9 +3,7 @@ import path from 'node:path';
 
 const project = path.resolve('.cache/ramp-collider-test');
 const catalogue = JSON.parse(fs.readFileSync('model-catalogue.json'));
-const entries = catalogue.entries.filter(
-  entry => entry.kind === 'token' && entry.profileId !== 'sc_token_shield',
-);
+const entries = catalogue.entries.filter(entry => entry.kind === 'token');
 for (const entry of entries) {
   const directory = path.join(project, 'Assets/TokenColliderInput', entry.profileId);
   fs.mkdirSync(directory, { recursive: true });
