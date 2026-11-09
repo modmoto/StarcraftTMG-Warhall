@@ -1,8 +1,8 @@
-import { tokenDefinitions, tokenDiameterMm } from './package.mjs';
+import { activationDiameterMm, tokenDefinitions } from './package.mjs';
 
 export function tokenTrayPlacements({ width, height }) {
-  const spacing = 1.25;
-  const activationRadius = tokenDiameterMm / 25.4 / 2;
+  const spacing = 1.375;
+  const activationRadius = activationDiameterMm / 25.4 / 2;
   return ['blue', 'red'].flatMap(color => {
     const activation = [
       ['activation_blue_arrow', 'activation_red_arrow'],

@@ -139,7 +139,7 @@ test('token trays meet both battlefield ends without changing token counts', asy
     const placements = tokenTrayPlacements({ width, height });
     assert.equal(placements.length, 56);
     const ends = placements.map(item => item.LongSide - 18);
-    const radius = 12.5 / 25.4;
+    const radius = 16 / 25.4;
     assert.ok(Math.abs(Math.min(...ends) - radius + height / 2) < 1e-9);
     assert.ok(Math.abs(Math.max(...ends) + radius - height / 2) < 1e-9);
   }

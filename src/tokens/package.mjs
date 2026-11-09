@@ -2,6 +2,7 @@ import tokenMenuOrder from '../../token-menu-order.json' with { type: 'json' };
 import { tokenMenuId } from '../models/menu-ids.mjs';
 
 export const tokenDiameterMm = 25;
+export const activationDiameterMm = 32;
 export const factionColors = { Terran: '#2467d1', Protoss: '#b68a20', Zerg: '#9a44bd' };
 
 export const tokenDefinitions = [
@@ -10,6 +11,7 @@ export const tokenDefinitions = [
       id: `activation_${color}_${symbol}`,
       name: `Activation - ${color} - ${symbol === 'arrow' ? 'movement' : 'assault'}`,
       symbol,
+      diameterMm: activationDiameterMm,
       color: color === 'blue' ? '#2467d1' : '#d33d48',
       description: `Activation reminder: ${symbol === 'arrow' ? 'movement' : 'assault'}.`,
     })),
