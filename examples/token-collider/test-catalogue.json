@@ -39,6 +39,633 @@
           }
         }
       ]
+    },
+    {
+      "profileId": "sc_token_activation_blue_arrow",
+      "name": "Starcraft - Token - Activation - blue - movement",
+      "kind": "token",
+      "calibration": "token-centimeters-v1",
+      "tokenDiameterMm": 32,
+      "parts": [
+        {
+          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/refs/heads/codex/custom-token-colliders/model-assets/436abab6fa61e4c362fdf2b3a96c926a434bcd4e9264ed126d50dfd7acf87c8a.unity3d",
+          "textureUrl": null,
+          "hostedAsset": true,
+          "transforms": {
+            "scale": 0.39370078740157477,
+            "positionX": 0,
+            "positionY": 0,
+            "positionZ": 0,
+            "rotationX": 0,
+            "rotationY": 0,
+            "rotationZ": 0
+          },
+          "previewGeometryFile": "model-assets/b3b449aa6a0c830e976b7f15396eb3e7aa7d11c91b696b8302c1c1ec414ecfa2.glb.preview.json",
+          "previewTransforms": {
+            "scale": 1,
+            "positionX": 0,
+            "positionY": 0,
+            "positionZ": 0,
+            "rotationX": 0,
+            "rotationY": 0,
+            "rotationZ": 0
+          }
+        }
+      ]
+    },
+    {
+      "profileId": "sc_token_activation_blue_crosshair",
+      "name": "Starcraft - Token - Activation - blue - assault",
+      "kind": "token",
+      "calibration": "token-centimeters-v1",
+      "tokenDiameterMm": 32,
+      "parts": [
+        {
+          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/refs/heads/codex/custom-token-colliders/model-assets/2e6c1316ae18676563e31f230ca0791a51ca0fdc51cf76f7bdfa50db0f9d8199.unity3d",
+          "textureUrl": null,
+          "hostedAsset": true,
+          "transforms": {
+            "scale": 0.39370078740157477,
+            "positionX": 0,
+            "positionY": 0,
+            "positionZ": 0,
+            "rotationX": 0,
+            "rotationY": 0,
+            "rotationZ": 0
+          },
+          "previewGeometryFile": "model-assets/ed831bd2c9e175e8f1a5649aeef784e4bfababbf192503868bfc93f22bf5642c.glb.preview.json",
+          "previewTransforms": {
+            "scale": 1,
+            "positionX": 0,
+            "positionY": 0,
+            "positionZ": 0,
+            "rotationX": 0,
+            "rotationY": 0,
+            "rotationZ": 0
+          }
+        }
+      ]
+    },
+    {
+      "profileId": "sc_token_activation_red_arrow",
+      "name": "Starcraft - Token - Activation - red - movement",
+      "kind": "token",
+      "calibration": "token-centimeters-v1",
+      "tokenDiameterMm": 32,
+      "parts": [
+        {
+          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/refs/heads/codex/custom-token-colliders/model-assets/e5d545cd1628f16704505bdbbdb5046374c98a7ae9503bc84b00b1c3ac196da6.unity3d",
+          "textureUrl": null,
+          "hostedAsset": true,
+          "transforms": {
+            "scale": 0.39370078740157477,
+            "positionX": 0,
+            "positionY": 0,
+            "positionZ": 0,
+            "rotationX": 0,
+            "rotationY": 0,
+            "rotationZ": 0
+          },
+          "previewGeometryFile": "model-assets/de862fd1df3987026a599cb41a7b016f01e851214f83b06e4d7d5a18b1886c13.glb.preview.json",
+          "previewTransforms": {
+            "scale": 1,
+            "positionX": 0,
+            "positionY": 0,
+            "positionZ": 0,
+            "rotationX": 0,
+            "rotationY": 0,
+            "rotationZ": 0
+          }
+        }
+      ]
+    },
+    {
+      "profileId": "sc_token_activation_red_crosshair",
+      "name": "Starcraft - Token - Activation - red - assault",
+      "kind": "token",
+      "calibration": "token-centimeters-v1",
+      "tokenDiameterMm": 32,
+      "parts": [
+        {
+          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/refs/heads/codex/custom-token-colliders/model-assets/305ba31b4bbf49cf5f62d8fe7750eb5515997f0d9622ed888c9fb42ad1f26c7e.unity3d",
+          "textureUrl": null,
+          "hostedAsset": true,
+          "transforms": {
+            "scale": 0.39370078740157477,
+            "positionX": 0,
+            "positionY": 0,
+            "positionZ": 0,
+            "rotationX": 0,
+            "rotationY": 0,
+            "rotationZ": 0
+          },
+          "previewGeometryFile": "model-assets/3991d62841bdc4c61b31e6c1ade6767c5cb71db7774be64e2bcd514f999714d0.glb.preview.json",
+          "previewTransforms": {
+            "scale": 1,
+            "positionX": 0,
+            "positionY": 0,
+            "positionZ": 0,
+            "rotationX": 0,
+            "rotationY": 0,
+            "rotationZ": 0
+          }
+        }
+      ]
+    },
+    {
+      "profileId": "sc_token_faction_terran_color",
+      "name": "Starcraft - Token - Terran - blue",
+      "kind": "token",
+      "calibration": "token-centimeters-v1",
+      "tokenDiameterMm": 32,
+      "parts": [
+        {
+          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/refs/heads/codex/custom-token-colliders/model-assets/788d45729b215c7b73aa1d9d96afd8d67495e479ef266f4828e218b1a4689e2e.unity3d",
+          "textureUrl": null,
+          "hostedAsset": true,
+          "transforms": {
+            "scale": 0.39370078740157477,
+            "positionX": 0,
+            "positionY": 0,
+            "positionZ": 0,
+            "rotationX": 0,
+            "rotationY": 0,
+            "rotationZ": 0
+          },
+          "previewGeometryFile": "model-assets/9d52eccd28fb55428a225f0976ff8def074f6c665b04a048d63e52046254a85e.glb.preview.json",
+          "previewTransforms": {
+            "scale": 1,
+            "positionX": 0,
+            "positionY": 0,
+            "positionZ": 0,
+            "rotationX": 0,
+            "rotationY": 0,
+            "rotationZ": 0
+          }
+        }
+      ]
+    },
+    {
+      "profileId": "sc_token_faction_terran_white",
+      "name": "Starcraft - Token - Terran - white",
+      "kind": "token",
+      "calibration": "token-centimeters-v1",
+      "tokenDiameterMm": 32,
+      "parts": [
+        {
+          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/refs/heads/codex/custom-token-colliders/model-assets/fc9eaf6dc9737b5458bd1a7f620e88d2e43e74d697c9280b7c674d691e2e824d.unity3d",
+          "textureUrl": null,
+          "hostedAsset": true,
+          "transforms": {
+            "scale": 0.39370078740157477,
+            "positionX": 0,
+            "positionY": 0,
+            "positionZ": 0,
+            "rotationX": 0,
+            "rotationY": 0,
+            "rotationZ": 0
+          },
+          "previewGeometryFile": "model-assets/0459d86ea7515ae84f08aae5b417281bcfac4463fec5351a6b87932ade600b4b.glb.preview.json",
+          "previewTransforms": {
+            "scale": 1,
+            "positionX": 0,
+            "positionY": 0,
+            "positionZ": 0,
+            "rotationX": 0,
+            "rotationY": 0,
+            "rotationZ": 0
+          }
+        }
+      ]
+    },
+    {
+      "profileId": "sc_token_faction_protoss_color",
+      "name": "Starcraft - Token - Protoss - yellow",
+      "kind": "token",
+      "calibration": "token-centimeters-v1",
+      "tokenDiameterMm": 32,
+      "parts": [
+        {
+          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/refs/heads/codex/custom-token-colliders/model-assets/be4f96526f2dd4452a30c60ed965e37fae8a9edb86f726816aec130babdc1e58.unity3d",
+          "textureUrl": null,
+          "hostedAsset": true,
+          "transforms": {
+            "scale": 0.39370078740157477,
+            "positionX": 0,
+            "positionY": 0,
+            "positionZ": 0,
+            "rotationX": 0,
+            "rotationY": 0,
+            "rotationZ": 0
+          },
+          "previewGeometryFile": "model-assets/7eeb8df01137dc2900a2a0000db25813311e14e0a5f9bd36d657884188e42151.glb.preview.json",
+          "previewTransforms": {
+            "scale": 1,
+            "positionX": 0,
+            "positionY": 0,
+            "positionZ": 0,
+            "rotationX": 0,
+            "rotationY": 0,
+            "rotationZ": 0
+          }
+        }
+      ]
+    },
+    {
+      "profileId": "sc_token_faction_protoss_white",
+      "name": "Starcraft - Token - Protoss - white",
+      "kind": "token",
+      "calibration": "token-centimeters-v1",
+      "tokenDiameterMm": 32,
+      "parts": [
+        {
+          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/refs/heads/codex/custom-token-colliders/model-assets/47bff08686c7e9e1e311fe4cf575053ca7abaecb080fd97e2aaa407a6c933a6a.unity3d",
+          "textureUrl": null,
+          "hostedAsset": true,
+          "transforms": {
+            "scale": 0.39370078740157477,
+            "positionX": 0,
+            "positionY": 0,
+            "positionZ": 0,
+            "rotationX": 0,
+            "rotationY": 0,
+            "rotationZ": 0
+          },
+          "previewGeometryFile": "model-assets/6e3d6f068ac608b645500f91c8fcb076b4b39de273028691a2b775a5298bedd9.glb.preview.json",
+          "previewTransforms": {
+            "scale": 1,
+            "positionX": 0,
+            "positionY": 0,
+            "positionZ": 0,
+            "rotationX": 0,
+            "rotationY": 0,
+            "rotationZ": 0
+          }
+        }
+      ]
+    },
+    {
+      "profileId": "sc_token_faction_zerg_color",
+      "name": "Starcraft - Token - Zerg - purple",
+      "kind": "token",
+      "calibration": "token-centimeters-v1",
+      "tokenDiameterMm": 32,
+      "parts": [
+        {
+          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/refs/heads/codex/custom-token-colliders/model-assets/e68d681b9dcbf9c178a508ce71a789e0ae984215f2f18c60d99b7c81caf7b443.unity3d",
+          "textureUrl": null,
+          "hostedAsset": true,
+          "transforms": {
+            "scale": 0.39370078740157477,
+            "positionX": 0,
+            "positionY": 0,
+            "positionZ": 0,
+            "rotationX": 0,
+            "rotationY": 0,
+            "rotationZ": 0
+          },
+          "previewGeometryFile": "model-assets/1bdce3e4a2f3e36600d634262d9ace9f90b41c36f5f778539f3f24722167d059.glb.preview.json",
+          "previewTransforms": {
+            "scale": 1,
+            "positionX": 0,
+            "positionY": 0,
+            "positionZ": 0,
+            "rotationX": 0,
+            "rotationY": 0,
+            "rotationZ": 0
+          }
+        }
+      ]
+    },
+    {
+      "profileId": "sc_token_faction_zerg_white",
+      "name": "Starcraft - Token - Zerg - white",
+      "kind": "token",
+      "calibration": "token-centimeters-v1",
+      "tokenDiameterMm": 32,
+      "parts": [
+        {
+          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/refs/heads/codex/custom-token-colliders/model-assets/5ca6e18bae98432c2f075ffc2b275485b9e61c43fa09f0a80997a9e2b1c5109f.unity3d",
+          "textureUrl": null,
+          "hostedAsset": true,
+          "transforms": {
+            "scale": 0.39370078740157477,
+            "positionX": 0,
+            "positionY": 0,
+            "positionZ": 0,
+            "rotationX": 0,
+            "rotationY": 0,
+            "rotationZ": 0
+          },
+          "previewGeometryFile": "model-assets/21498142ab639805cb81dbd4b600fcf0ed12696ba2ddf758a6480fa539dba880.glb.preview.json",
+          "previewTransforms": {
+            "scale": 1,
+            "positionX": 0,
+            "positionY": 0,
+            "positionZ": 0,
+            "rotationX": 0,
+            "rotationY": 0,
+            "rotationZ": 0
+          }
+        }
+      ]
+    },
+    {
+      "profileId": "sc_token_buff",
+      "name": "Starcraft - Token - Buff",
+      "kind": "token",
+      "calibration": "token-centimeters-v1",
+      "tokenDiameterMm": 25,
+      "parts": [
+        {
+          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/refs/heads/codex/custom-token-colliders/model-assets/65b3bdcd0b459baf036250d6b4efc2e2df44d24ee0ee578f13c302fb9bb9dc85.unity3d",
+          "textureUrl": null,
+          "hostedAsset": true,
+          "transforms": {
+            "scale": 0.39370078740157477,
+            "positionX": 0,
+            "positionY": 0,
+            "positionZ": 0,
+            "rotationX": 0,
+            "rotationY": 0,
+            "rotationZ": 0
+          },
+          "previewGeometryFile": "model-assets/2b8c2e9cd3346cbdf0fc5bf63f2854d8757c3c79046c5e6a2d602a61e8ad3bed.glb.preview.json",
+          "previewTransforms": {
+            "scale": 1,
+            "positionX": 0,
+            "positionY": 0,
+            "positionZ": 0,
+            "rotationX": 0,
+            "rotationY": 0,
+            "rotationZ": 0
+          }
+        }
+      ]
+    },
+    {
+      "profileId": "sc_token_debuff",
+      "name": "Starcraft - Token - Debuff",
+      "kind": "token",
+      "calibration": "token-centimeters-v1",
+      "tokenDiameterMm": 25,
+      "parts": [
+        {
+          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/refs/heads/codex/custom-token-colliders/model-assets/40c49a31b6e374194edc6679d761dec47d1bc2385151895989d7823b0acc5275.unity3d",
+          "textureUrl": null,
+          "hostedAsset": true,
+          "transforms": {
+            "scale": 0.39370078740157477,
+            "positionX": 0,
+            "positionY": 0,
+            "positionZ": 0,
+            "rotationX": 0,
+            "rotationY": 0,
+            "rotationZ": 0
+          },
+          "previewGeometryFile": "model-assets/cf803922d24efa5786ef1c1453481e6ac418b48de044d806c0555e8285c766d6.glb.preview.json",
+          "previewTransforms": {
+            "scale": 1,
+            "positionX": 0,
+            "positionY": 0,
+            "positionZ": 0,
+            "rotationX": 0,
+            "rotationY": 0,
+            "rotationZ": 0
+          }
+        }
+      ]
+    },
+    {
+      "profileId": "sc_token_stim",
+      "name": "Starcraft - Token - Stim",
+      "kind": "token",
+      "calibration": "token-centimeters-v1",
+      "tokenDiameterMm": 25,
+      "parts": [
+        {
+          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/refs/heads/codex/custom-token-colliders/model-assets/44d5d9bc3497d70389045208842a8644862351f4aa00218781caa27effa6c9eb.unity3d",
+          "textureUrl": null,
+          "hostedAsset": true,
+          "transforms": {
+            "scale": 0.39370078740157477,
+            "positionX": 0,
+            "positionY": 0,
+            "positionZ": 0,
+            "rotationX": 0,
+            "rotationY": 0,
+            "rotationZ": 0
+          },
+          "previewGeometryFile": "model-assets/0033ca97bdb0f71b2495a1872fa729c0d2190d0f71817e3e67d75c543c709997.glb.preview.json",
+          "previewTransforms": {
+            "scale": 1,
+            "positionX": 0,
+            "positionY": 0,
+            "positionZ": 0,
+            "rotationX": 0,
+            "rotationY": 0,
+            "rotationZ": 0
+          }
+        }
+      ]
+    },
+    {
+      "profileId": "sc_token_burrowed",
+      "name": "Starcraft - Token - Burrowed",
+      "kind": "token",
+      "calibration": "token-centimeters-v1",
+      "tokenDiameterMm": 25,
+      "parts": [
+        {
+          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/refs/heads/codex/custom-token-colliders/model-assets/97f361a402123f48c9835a1e162b9d517708d6e54518438ccd230f6d390b382b.unity3d",
+          "textureUrl": null,
+          "hostedAsset": true,
+          "transforms": {
+            "scale": 0.39370078740157477,
+            "positionX": 0,
+            "positionY": 0,
+            "positionZ": 0,
+            "rotationX": 0,
+            "rotationY": 0,
+            "rotationZ": 0
+          },
+          "previewGeometryFile": "model-assets/94de7139d06376b368278bf685397836f492c065da1fbbb04ea3c4831c60a626.glb.preview.json",
+          "previewTransforms": {
+            "scale": 1,
+            "positionX": 0,
+            "positionY": 0,
+            "positionZ": 0,
+            "rotationX": 0,
+            "rotationY": 0,
+            "rotationZ": 0
+          }
+        }
+      ]
+    },
+    {
+      "profileId": "sc_token_hidden",
+      "name": "Starcraft - Token - Hidden",
+      "kind": "token",
+      "calibration": "token-centimeters-v1",
+      "tokenDiameterMm": 25,
+      "parts": [
+        {
+          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/refs/heads/codex/custom-token-colliders/model-assets/2a6141a7b31c823ff10188d51e13e2aae447b9654b70057481c7326ea723be4a.unity3d",
+          "textureUrl": null,
+          "hostedAsset": true,
+          "transforms": {
+            "scale": 0.39370078740157477,
+            "positionX": 0,
+            "positionY": 0,
+            "positionZ": 0,
+            "rotationX": 0,
+            "rotationY": 0,
+            "rotationZ": 0
+          },
+          "previewGeometryFile": "model-assets/64ba57547313a46e0c55b0f09b5078c9d2b298de0426352993d3e891e3634897.glb.preview.json",
+          "previewTransforms": {
+            "scale": 1,
+            "positionX": 0,
+            "positionY": 0,
+            "positionZ": 0,
+            "rotationX": 0,
+            "rotationY": 0,
+            "rotationZ": 0
+          }
+        }
+      ]
+    },
+    {
+      "profileId": "sc_token_siege",
+      "name": "Starcraft - Token - Siege Status",
+      "kind": "token",
+      "calibration": "token-centimeters-v1",
+      "tokenDiameterMm": 25,
+      "parts": [
+        {
+          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/refs/heads/codex/custom-token-colliders/model-assets/bfb11fbdf814e468389ec050ab86a02518ee230e3721e84f0c9a527a3a880d7a.unity3d",
+          "textureUrl": null,
+          "hostedAsset": true,
+          "transforms": {
+            "scale": 0.39370078740157477,
+            "positionX": 0,
+            "positionY": 0,
+            "positionZ": 0,
+            "rotationX": 0,
+            "rotationY": 0,
+            "rotationZ": 0
+          },
+          "previewGeometryFile": "model-assets/33f61277ea8b2e78e463148496c5cfab8a55bb9b58e0276ad426211b41993e92.glb.preview.json",
+          "previewTransforms": {
+            "scale": 1,
+            "positionX": 0,
+            "positionY": 0,
+            "positionZ": 0,
+            "rotationX": 0,
+            "rotationY": 0,
+            "rotationZ": 0
+          }
+        }
+      ]
+    },
+    {
+      "profileId": "sc_token_bile_bomb",
+      "name": "Starcraft - Token - Bile Bomb",
+      "kind": "token",
+      "calibration": "token-centimeters-v1",
+      "tokenDiameterMm": 32,
+      "parts": [
+        {
+          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/refs/heads/codex/custom-token-colliders/model-assets/28a31b065fb1c9a2566239af7991c43a15ed17129dfc82128020197576f4196d.unity3d",
+          "textureUrl": null,
+          "hostedAsset": true,
+          "transforms": {
+            "scale": 0.39370078740157477,
+            "positionX": 0,
+            "positionY": 0,
+            "positionZ": 0,
+            "rotationX": 0,
+            "rotationY": 0,
+            "rotationZ": 0
+          },
+          "previewGeometryFile": "model-assets/8b1363153e75d1f9d4deb955057945c099ff08b8876d024199464379ca0bd068.glb.preview.json",
+          "previewTransforms": {
+            "scale": 1,
+            "positionX": 0,
+            "positionY": 0,
+            "positionZ": 0,
+            "rotationX": 0,
+            "rotationY": 0,
+            "rotationZ": 0
+          }
+        }
+      ]
+    },
+    {
+      "profileId": "sc_token_creep_tumor",
+      "name": "Starcraft - Token - Creep Tumor",
+      "kind": "token",
+      "calibration": "token-centimeters-v1",
+      "tokenDiameterMm": 28,
+      "parts": [
+        {
+          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/refs/heads/codex/custom-token-colliders/model-assets/38e8f97bfcaf179b4576154bf32bd384f4aec78fa922ad2141ffa6fdc4a15492.unity3d",
+          "textureUrl": null,
+          "hostedAsset": true,
+          "transforms": {
+            "scale": 0.39370078740157477,
+            "positionX": 0,
+            "positionY": 0,
+            "positionZ": 0,
+            "rotationX": 0,
+            "rotationY": 0,
+            "rotationZ": 0
+          },
+          "previewGeometryFile": "model-assets/cc437922626820a0e8ac2e3f771686a1bc21de3dca234ee7b7b688c3bd5f38de.glb.preview.json",
+          "previewTransforms": {
+            "scale": 1,
+            "positionX": 0,
+            "positionY": 0,
+            "positionZ": 0,
+            "rotationX": 0,
+            "rotationY": 0,
+            "rotationZ": 0
+          }
+        }
+      ]
+    },
+    {
+      "profileId": "sc_token_corrosive_bile",
+      "name": "Starcraft - Token - Corrosive Bile",
+      "kind": "token",
+      "calibration": "token-centimeters-v1",
+      "tokenDiameterMm": 32,
+      "parts": [
+        {
+          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/refs/heads/codex/custom-token-colliders/model-assets/5a32b680ccc8a5ac521d873615585fec6c1af1ce903cdfd85b8b05d73bb547f7.unity3d",
+          "textureUrl": null,
+          "hostedAsset": true,
+          "transforms": {
+            "scale": 0.39370078740157477,
+            "positionX": 0,
+            "positionY": 0,
+            "positionZ": 0,
+            "rotationX": 0,
+            "rotationY": 0,
+            "rotationZ": 0
+          },
+          "previewGeometryFile": "model-assets/b7ebdefa67987a8bd9634c7b9e48ea0c629575cdc441db2779c5f0b2d555025e.glb.preview.json",
+          "previewTransforms": {
+            "scale": 1,
+            "positionX": 0,
+            "positionY": 0,
+            "positionZ": 0,
+            "rotationX": 0,
+            "rotationY": 0,
+            "rotationZ": 0
+          }
+        }
+      ]
     }
   ]
 }
