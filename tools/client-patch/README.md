@@ -83,3 +83,9 @@ dotnet publish tools/client-patch/ClientPatch.csproj -c Release -r osx-x64 --sel
 The helper is built directly from the maintained movement, shield and scoreboard examples. All Photon helpers stay in StarcraftScoreboard.cs. Refresh the embedded payload when feature code changes and update each example README with its implementation. DOTNET_EXECUTABLE selects the dotnet executable for the checks.
 
 The supported.json fingerprints are reviewed input. --fingerprint /path/to/Assembly-CSharp.dll prints the native-build fingerprint without patching it. Do not automatically accept unknown builds. Downloads contain the patcher, its runtime and our helper, not original Warhall assemblies.
+The StarCraft list parser implements Warhall's existing `WdsUnitParser` contract. The patch registers
+`Starcraft = 7` in `ListParsingAlgorithmMode` and adds a branch to `WdsUnitParser.CreateParser`.
+Select it with `"ListParsingAlgorithm": 7`. It reads the New Recruit Units section and resolves
+whole unit names, so a Tactical entry such as Defiler Mound cannot become a Defiler in that section.
+The parser passes recognized cards as exact-name options on the first parsed unit. Warhall's
+existing army import handles these options and spawns the physical cards.

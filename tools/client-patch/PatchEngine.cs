@@ -3,6 +3,70 @@ using Mono.Cecil.Cil;
 
 public static class PatchEngine
 {
+    private static void RegisterStarcraftParser(ModuleDefinition module, ModuleDefinition runtime)
+    {
+        var config = module.Types.Single(type => type.Name == "WDSGameConfig");
+        var modes = config.NestedTypes.Single(type => type.Name == "ListParsingAlgorithmMode");
+        const int starcraftMode = 7;
+        if (modes.Fields.Any(field => field.HasConstant && (int)field.Constant == starcraftMode))
+            throw new InvalidOperationException("Warhall already uses list parsing mode 7.");
+        modes.Fields.Add(new FieldDefinition("Starcraft",
+            FieldAttributes.Public | FieldAttributes.Static | FieldAttributes.Literal | FieldAttributes.HasDefault,
+            modes) { Constant = starcraftMode });
+
+        var factory = module.Types.Single(type => type.Name == "WdsUnitParser")
+            .Methods.Single(method => method.Name == "CreateParser" && method.Parameters.Count == 2);
+        var current = module.Types.Single(type => type.Name == "WDSGameConfigAccess")
+            .Methods.Single(method => method.Name == "get_Current");
+        var mode = config.Methods.Single(method => method.Name == "get_ListParsingAlgorithm");
+        var constructor = runtime.Types.Single(type => type.Name == "WdsUnitParserStarcraft")
+            .Methods.Single(method => method.IsConstructor && !method.IsStatic);
+        var il = factory.Body.GetILProcessor();
+        var original = factory.Body.Instructions[0];
+        il.InsertBefore(original, il.Create(OpCodes.Call, current));
+        il.InsertBefore(original, il.Create(OpCodes.Callvirt, mode));
+        il.InsertBefore(original, il.Create(OpCodes.Ldc_I4, starcraftMode));
+        il.InsertBefore(original, il.Create(OpCodes.Bne_Un, original));
+        il.InsertBefore(original, il.Create(OpCodes.Ldarg_1));
+        il.InsertBefore(original, il.Create(OpCodes.Newobj, module.ImportReference(constructor)));
+        il.InsertBefore(original, il.Create(OpCodes.Ret));
+
+        var positionHook = module.ImportReference(constructor.DeclaringType.Methods
+            .Single(method => method.Name == "PlaceImportedCard"));
+        var army = module.Types.Single(type => type.Name == "WDSArmy");
+        var cardPositionCalls = army.Methods.Where(method => method.HasBody)
+            .SelectMany(method => method.Body.Instructions
+                .Where(instruction => instruction.Operand is MethodReference called &&
+                    called.DeclaringType.Name == "GameController" && called.Name == "CreateCard")
+                .Select(instruction => (Method: method, Instruction: instruction)))
+            .ToArray();
+        if (cardPositionCalls.Length != 1)
+            throw new InvalidOperationException("Expected exactly one native imported card positioning call.");
+        var (_, cardPositionCall) = cardPositionCalls[0];
+        cardPositionCall.OpCode = OpCodes.Call;
+        cardPositionCall.Operand = positionHook;
+
+        var deployBody = army.NestedTypes.Single(type => type.Name.StartsWith("<Deploy>", StringComparison.Ordinal))
+            .Methods.Single(method => method.Name == "MoveNext").Body;
+        var summonCall = deployBody.Instructions.Single(instruction =>
+            instruction.Operand is MethodReference called && called.Name == "SummonUnit");
+        var deployIl = deployBody.GetILProcessor();
+        var duplicate = deployIl.Create(OpCodes.Dup);
+        deployIl.InsertAfter(summonCall, duplicate);
+        deployIl.InsertAfter(duplicate, deployIl.Create(OpCodes.Call,
+            module.ImportReference(constructor.DeclaringType.Methods.Single(method => method.Name == "TrackImportedUnit"))));
+
+        var controller = module.Types.Single(type => type.Name == "GameController");
+        var deployment = controller.NestedTypes.Single(type => type.Name.StartsWith("<NewArmyDeployed>", StringComparison.Ordinal))
+            .Methods.Single(method => method.Name == "MoveNext");
+        var deployCall = deployment.Body.Instructions.Single(instruction =>
+            instruction.Operand is MethodReference called && called.DeclaringType.FullName == "Gamelogic.Army" &&
+            called.Name == "Deploy");
+        deployCall.OpCode = OpCodes.Call;
+        deployCall.Operand = module.ImportReference(constructor.DeclaringType.Methods
+            .Single(method => method.Name == "DeployWithAdditionalLoads"));
+    }
+
     public static void Apply(string inputPath, string outputPath, string helperPath)
     {
         var args = new[] { inputPath, outputPath, helperPath };
@@ -41,6 +105,7 @@ public static class PatchEngine
         var input = module.Types.Single(type => type.Name == "InputManager");
         var mouseDown = input.Methods.Single(method => method.Name == "MouseDown");
         using var runtime = AssemblyDefinition.ReadAssembly(args[2]);
+        RegisterStarcraftParser(module, runtime.MainModule);
         var hooks = runtime.MainModule.Types.Single(type => type.Name == "LeadingMovement");
         MethodReference Hook(string name) => module.ImportReference(hooks.Methods.Single(method => method.Name == name));
         void AtEntry(MethodDefinition method, string hook, bool argument, bool instance = false)

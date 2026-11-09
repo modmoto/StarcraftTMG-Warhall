@@ -11,6 +11,7 @@ For a request such as “update Wave 4”, start with an inventory. Find the che
 - **Model extraction.** Use warhall-model-extraction to select, inspect and prepare portable assets. Flag unavailable models.
 - **Model upload.** Use warhall-publish-skins for calibration, thumbnails and shared assignments.
 - **Markers and tokens.** Ask during wave inventory whether new tokens are needed. Use warhall-markers-tokens for token artwork, catalogue bindings, editor order and objective marker changes.
+- **Importer reserve models.** For every wave, use warhall-importer-reserve-models to audit new and revised unit rules, upgrades and cards for required reserve models, then update the explicit importer mappings.
 - **Deployments.** Use warhall-deployments for official entry layouts and marker placement. Update maps only when official map changes are in scope.
 - **Scenarios.** Use warhall-scenarios for scoring cards and mission choices.
 - **Card artwork.** Use warhall-card-artwork when non-unit faces or text change.

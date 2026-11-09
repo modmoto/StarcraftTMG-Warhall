@@ -4,6 +4,7 @@
     <ImplicitUsings>enable</ImplicitUsings><EnableDefaultCompileItems>false</EnableDefaultCompileItems>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="WdsUnitParserStarcraft.cs" />
     <Compile Include="../../../examples/leading-model/LeadingMovement.cs" />
     <Compile Include="../../../examples/unit-shields/StarcraftShields.cs" />
     <Compile Include="../../../examples/starcraft-scoreboard/StarcraftScoreboard.cs" />

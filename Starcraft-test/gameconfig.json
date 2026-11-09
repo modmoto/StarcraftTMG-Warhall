@@ -29,7 +29,7 @@
     "Color2": ""
   },
   "ResultCalculatorAlgorithm": 0,
-  "ListParsingAlgorithm": 0,
+  "ListParsingAlgorithm": 7,
   "PointCounting": "Disabled",
   "PointCountingStatusNames": [],
   "DefaultZenithLight": false,
