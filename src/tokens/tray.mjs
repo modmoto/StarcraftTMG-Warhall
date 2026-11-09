@@ -1,6 +1,6 @@
 import { activationDiameterMm, tokenDefinitions } from './package.mjs';
 
-export function tokenTrayPlacements({ width, height }) {
+export function tokenTrayPlacements({ height }) {
   const spacing = 1.375;
   const activationRadius = activationDiameterMm / 25.4 / 2;
   return ['blue', 'red'].flatMap(color => {
@@ -36,7 +36,7 @@ export function tokenTrayPlacements({ width, height }) {
       group.tokens.map((token, index) => {
         const groupSpacing = group.tokens === factions ? 1.5 : spacing;
         const x =
-          width / 2 + 2 + (group.column ?? 0) * spacing + (index % group.columns) * groupSpacing;
+          27 + 2 + (group.column ?? 0) * spacing + (index % group.columns) * groupSpacing;
         const z =
           -height / 2 +
           activationRadius +

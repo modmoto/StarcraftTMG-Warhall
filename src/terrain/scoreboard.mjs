@@ -19,12 +19,12 @@ export const scoreboardTerrain = {
   Shape: 1,
 };
 
-export const scoreboardPlacement = ({ width: boardWidth, height: boardHeight }) => ({
+export const scoreboardPlacement = ({ height: boardHeight }) => ({
   Id: scoreboardName,
   Type: 'Terrain',
   Quadrant: 1,
   Rotation: 90,
-  ShortSide: (54 - boardWidth) / 2 - (length / 2 + 2) / 2.54,
+  ShortSide: -(length / 2 + 2) / 2.54,
   LongSide: boardHeight / 2,
 });
 
