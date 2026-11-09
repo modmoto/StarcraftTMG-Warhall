@@ -48,7 +48,8 @@ export function tokenTrayPlacements({ height }) {
           ShortSide: 27 + x,
           LongSide: 18 + direction * z,
         };
-        return Array.from({ length: 10 }, () => ({ ...placement }));
+        const count = group.tokens === activation ? 10 : 5;
+        return Array.from({ length: count }, () => ({ ...placement }));
       }),
     );
   });

@@ -137,10 +137,11 @@ test('token trays meet both battlefield ends without changing token counts', asy
     [54, 48],
   ]) {
     const placements = tokenTrayPlacements({ width, height });
-    assert.equal(placements.length, 400);
+    assert.equal(placements.length, 240);
     const stacks = Map.groupBy(placements, item => JSON.stringify(item));
     assert.equal(stacks.size, 40);
-    assert.ok([...stacks.values()].every(stack => stack.length === 10));
+    for (const stack of stacks.values())
+      assert.equal(stack.length, stack[0].Id.startsWith('Activation - ') ? 10 : 5);
     const ends = placements.map(item => item.LongSide - 18);
     const radius = 16 / 25.4;
     assert.ok(Math.abs(Math.min(...ends) - radius + height / 2) < 1e-9);
