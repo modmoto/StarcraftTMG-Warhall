@@ -7,10 +7,9 @@ export function tokenTrayPlacements({ height }) {
     const activation = [
       ['activation_blue_arrow', 'activation_red_arrow'],
       ['activation_red_crosshair', 'activation_blue_crosshair'],
-    ].flatMap(([primary, alternate]) => [
-      ...Array(5).fill(tokenDefinitions.find(token => token.id === primary)),
-      tokenDefinitions.find(token => token.id === alternate),
-    ]);
+    ]
+      .flat()
+      .map(id => tokenDefinitions.find(token => token.id === id));
     const buffs = tokenDefinitions.filter(token => ['buff', 'debuff'].includes(token.id));
     const factions = [false, true].flatMap(inverted =>
       ['terran', 'protoss', 'zerg'].map(faction =>
@@ -26,23 +25,22 @@ export function tokenTrayPlacements({ height }) {
         !['buff', 'debuff'].includes(token.id),
     );
     const groups = [
-      { tokens: activation, columns: 6, row: 0 },
+      { tokens: activation, columns: 2, row: 0 },
       { tokens: [...buffs].reverse(), columns: 1, row: 3, column: 0 },
       { tokens: factions, columns: 3, row: 3, column: 2 },
       { tokens: others, columns: 4, row: 5, column: 0 },
     ];
     const direction = color === 'blue' ? 1 : -1;
     return groups.flatMap(group =>
-      group.tokens.map((token, index) => {
+      group.tokens.flatMap((token, index) => {
         const groupSpacing = group.tokens === factions ? 1.5 : spacing;
-        const x =
-          27 + 2 + (group.column ?? 0) * spacing + (index % group.columns) * groupSpacing;
+        const x = 27 + 2 + (group.column ?? 0) * spacing + (index % group.columns) * groupSpacing;
         const z =
           -height / 2 +
           activationRadius +
           group.row * spacing +
           Math.floor(index / group.columns) * groupSpacing;
-        return {
+        const placement = {
           Id: token.name,
           Type: 'Token',
           Quadrant: 1,
@@ -50,6 +48,7 @@ export function tokenTrayPlacements({ height }) {
           ShortSide: 27 + x,
           LongSide: 18 + direction * z,
         };
+        return Array.from({ length: 10 }, () => ({ ...placement }));
       }),
     );
   });
