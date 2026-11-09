@@ -142,5 +142,6 @@ test('token trays meet both battlefield ends without changing token counts', asy
     const radius = 16 / 25.4;
     assert.ok(Math.abs(Math.min(...ends) - radius + height / 2) < 1e-9);
     assert.ok(Math.abs(Math.max(...ends) + radius - height / 2) < 1e-9);
+    assert.ok(ends.every(z => Math.abs(z) * 2.54 - 1.6 > 20));
   }
 });

@@ -29,7 +29,7 @@ export function tokenTrayPlacements({ height }) {
       { tokens: activation, columns: 6, row: 0 },
       { tokens: [...buffs].reverse(), columns: 1, row: 3, column: 0 },
       { tokens: factions, columns: 3, row: 3, column: 2 },
-      { tokens: others, columns: 4, row: 6, column: 0 },
+      { tokens: others, columns: 4, row: 5, column: 0 },
     ];
     const direction = color === 'blue' ? 1 : -1;
     return groups.flatMap(group =>
