@@ -80,7 +80,7 @@ public sealed class WdsUnitParserStarcraft : WdsUnitParser
             foreach (var unit in regularUnits)
             {
                 float width = footprints[unit].x;
-                unit.SetPosition(new Vector3((cursor + width / 2f) * direction, unit.transform.position.y, rowZ));
+                unit.Move(new Vector3((cursor + width / 2f) * direction, unit.transform.position.y, rowZ));
                 cursor += width + unitGap;
             }
         }
@@ -94,7 +94,7 @@ public sealed class WdsUnitParserStarcraft : WdsUnitParser
                 if (roster[index].Id != id || layout.Units[index] == null || !assignedReserves.Add(index))
                     continue;
                 if (anchor.HasValue)
-                    layout.Units[index].SetPosition(anchor.Value);
+                    layout.Units[index].Move(anchor.Value);
                 return;
             }
             reserves.Add((id, count, anchor));
@@ -179,6 +179,7 @@ public sealed class WdsUnitParserStarcraft : WdsUnitParser
         float depth = rows.Sum(row => row.Max(soldier => soldier.Length)) + (rows.Length - 1) * baseGap;
         float front = -depth / 2f;
         var origin = unit.transform.position;
+        var positions = new List<(Soldier model, Vector3 position, Quaternion rotation)>();
         foreach (var row in rows)
         {
             float rowDepth = row.Max(soldier => soldier.Length);
@@ -188,11 +189,12 @@ public sealed class WdsUnitParserStarcraft : WdsUnitParser
                 var position = origin + unit.transform.right * (left + soldier.Width / 2f)
                     - unit.transform.forward * (front + rowDepth / 2f);
                 position.y = soldier.transform.position.y;
-                soldier.SetPosition(position);
+                positions.Add((soldier, position, soldier.transform.rotation));
                 left += soldier.Width + baseGap;
             }
             front += rowDepth + baseGap;
         }
+        LeadingMovement.ApplyCloudTransforms(unit, positions);
         return new Vector2(rows.Max(Width), depth);
     }
 

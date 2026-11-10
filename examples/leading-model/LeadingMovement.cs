@@ -139,6 +139,8 @@ public static class LeadingMovement
             var unit = model.GetParentUnit();
             if (unit != null && unit.Formation is Cloud)
             {
+                if (!unit.IsSingleModel())
+                    unit.SyncSoldierLocalTransform(model, true, true);
                 unit.RecalculateCenterFromSoldiers();
                 unit.SyncRecalculateCenter();
             }
@@ -202,15 +204,15 @@ public static class LeadingMovement
             undo.UndoAdd(new ActionRotate(unit, unit.transform.rotation, snapshot.Rotation));
             unit.Move(snapshot.Position);
             unit.transform.rotation = snapshot.Rotation;
+            var restored = new List<(Soldier model, Vector3 position, Quaternion rotation)>();
             foreach (var saved in snapshot.Models)
             {
                 if (saved.model == null || saved.model.GetParentUnit() != unit) continue;
                 undo.UndoAdd(new ActionMove(saved.model, saved.model.transform.position, saved.position));
                 undo.UndoAdd(new ActionRotate(saved.model, saved.model.transform.rotation, saved.rotation));
-                saved.model.Move(saved.position);
-                saved.model.transform.rotation = saved.rotation;
-                unit.SyncSoldierLocalTransform(saved.model, true, true);
+                restored.Add(saved);
             }
+            ApplyCloudTransforms(unit, restored);
             if (snapshot.Leader != null && snapshot.Leader.GetParentUnit() == unit)
                 SetLeader(snapshot.Leader);
             else if (leader != null && leader.GetParentUnit() == unit)
@@ -352,15 +354,44 @@ public static class LeadingMovement
             planned.Add((follower, follower.transform.position, best));
         }
         var undo = GameObject.FindGameObjectWithTag("GameController").GetComponent<UndoRedo>();
+        ApplyCloudTransforms(unit, planned.Select(move => (move.model, move.to, move.model.transform.rotation)).ToList());
         foreach (var move in planned)
-        {
-            move.model.Move(move.to);
-            unit.SyncSoldierLocalTransform(move.model, true, true);
             undo.UndoAdd(new ActionMove(move.model, move.from, move.to));
-        }
         leader.SetShapeDrawer(LeaderRangeInches(leader));
         leader.ShowShapeDrawer(true);
         Debug.Log($"[LeadingMovement] Repositioned {planned.Count} followers within 3 inches.");
+    }
+
+    public static void ApplyCloudTransforms(Unit unit, List<(Soldier model, Vector3 position, Quaternion rotation)> moves)
+    {
+        if (moves.Count == 0)
+            return;
+
+        // Cloud RPCs address soldiers by their current formation coordinates.
+        // Vacate the old coordinates before assigning destinations that may reuse them.
+        if (unit.Formation is Cloud && !unit.IsSingleModel())
+        {
+            float stagingX = unit.GetAllActiveSoldiers()
+                .Select(model => unit.Formation.GetCurrentCoordinates(model).X)
+                .Concat(moves.Select(move => unit.transform.InverseTransformPoint(move.position).x))
+                .Max() + 10f;
+            foreach (var move in moves)
+            {
+                var local = unit.transform.InverseTransformPoint(move.model.transform.position);
+                local.x = stagingX;
+                stagingX += 1f;
+                move.model.SetPosition(unit.transform.TransformPoint(local));
+                unit.SyncSoldierLocalTransform(move.model, true, true);
+            }
+        }
+
+        foreach (var move in moves)
+        {
+            move.model.SetPosition(move.position);
+            move.model.transform.rotation = move.rotation;
+            if (unit.Formation is Cloud && !unit.IsSingleModel())
+                unit.SyncSoldierLocalTransform(move.model, true, true);
+        }
     }
 
     private static float Radius(Soldier model) => Math.Max(model.Width, model.Length) / 2f;
