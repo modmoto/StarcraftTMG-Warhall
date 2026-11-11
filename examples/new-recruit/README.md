@@ -11,3 +11,11 @@ The deployment wrapper preserves the standard army import and stages the resulti
 For regression checks, import the Terran list in [the test fixture](../../test/fixtures/lists/terran-anti-toss-ravager.txt). Also check both Nova modes, a Zerg list with Dirt Side and Frontier, a Corpser Roach reserve group, and a list containing Raynor's Raiders. Check the arrangement from both player sides. Follow the [reserve model skill](../../.agents/skills/warhall-importer-reserve-models/SKILL.md) when rules change.
 
 See the [patch build instructions](../../tools/client-patch/README.md) and the [list format notes](../../docs/new-recruit-import.md).
+
+## Source integration and remote placement
+
+Use [`WdsUnitParserStarcraft.cs`](../../tools/client-patch/runtime/WdsUnitParserStarcraft.cs) as the maintained importer source and [`LeadingMovement.cs`](../leading-model/LeadingMovement.cs) for its shared `ApplyCloudTransforms` helper. The importer source currently lives under the patch runtime, but can be integrated directly into the Warhall project without building the patcher.
+
+The formation synchronization fix from commit `1e304a0` is present in both files. Compact model rows are submitted through `ApplyCloudTransforms`, including its temporary-coordinate phase, so the opponent receives the same sorted formation. Whole-unit and reserve-unit placement uses `Unit.Move` to synchronize the squad position as well. Local-only `SetPosition` calls are insufficient. See [the Cloud RPC explanation](../leading-model/README.md#photon-synchronization-of-squad-formations).
+
+Verify the importing player's sorted rows against the opponent's view and then a late-joining client. The implementation is committed, but a successful real two-client regression test has not yet been recorded here.

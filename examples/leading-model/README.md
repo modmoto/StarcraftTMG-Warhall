@@ -77,7 +77,7 @@ Use **Cloud/group formation with SoldierMagnet disabled**. The helper checks thi
 
 `Finish` plans all follower positions before moving anything. On a 1.5 mm grid, it places larger bases first, prioritizes forward projection along the leader's movement, then separation. Entire bases fit inside the leader's range with a 0.2 mm minimum gap. Round leaders measure range from their base edge. Oval/rectangular bases use the larger axis as a circular approximation. If packing fails, followers stay put and the manual leader move remains. Terrain, other units and battlefield boundaries are currently ignored.
 
-The triangle snapshot is captured when the marker is created. If no leader exists then, the first subsequent leader movement records it. Later leader changes do not replace that snapshot. Reset restores model transforms using `SyncSoldierLocalTransform` and records move/rotate actions in an Undo group. It does not resurrect removed models. Snapshots are local session state, not saved-game data.
+The triangle snapshot is captured when the marker is created. If no leader exists then, the first subsequent leader movement records it. Later leader changes do not replace that snapshot. Reset restores model transforms through `ApplyCloudTransforms`, which uses `SyncSoldierLocalTransform` and records move/rotate actions in an Undo group. It does not resurrect removed models. Snapshots are local session state, not saved-game data.
 
 ## Checks before shipping
 
@@ -94,3 +94,11 @@ At the start of `GameItem.RedrawShapeDrawer(Material materialOverride = null)`, 
 ## Single-model right drag
 
 Resolve hovering over a one-model Unit to its sole active Soldier. Right-drag uses the existing movement, cancellation and Undo path for that model and suppresses camera rotation for the gesture. It does not set a leader or draw a new leader ring.
+
+## Photon synchronization of squad formations
+
+`LeadingMovement.cs` includes the synchronization fix from commit `1e304a0`. Reuse `ApplyCloudTransforms(Unit, List<(Soldier model, Vector3 position, Quaternion rotation)>)` for follower redistribution, resetting the squad and arranging imported models. The import integration is in [`WdsUnitParserStarcraft.cs`](../../tools/client-patch/runtime/WdsUnitParserStarcraft.cs), documented in [the importer example](../new-recruit/README.md).
+
+Cloud RPCs identify models by their current formation coordinates. Sending final positions one at a time can overwrite coordinates still occupied by another model, producing different formations on the two clients. The helper first moves the affected models to distinct temporary coordinates and synchronizes them, then assigns and synchronizes their final positions and rotations. Preserve both phases and their order; replacing this with local `SetPosition` calls loses the remote arrangement.
+
+Right-drag also synchronizes the dragged model before recalculating and synchronizing the squad center. Imported whole units use `Unit.Move`, rather than only changing their local position. These changes are in the source example; released patch 1.0.5 predates them. A two-client test must still verify import, leader movement and reset from both player perspectives, including a late join. No new patch build is required for source integration into Warhall.
