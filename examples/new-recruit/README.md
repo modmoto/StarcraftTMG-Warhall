@@ -6,7 +6,9 @@ The parser accepts New Recruit text lists with a Units section. It resolves full
 
 Import from the Archon app is still pending. Its list export uses a different format and needs a dedicated adapter before it can use the same deployment and placement logic.
 
-The deployment wrapper preserves the standard army import and stages the resulting squads in one centered row with a 32 mm gap. Models form compact rows with the last row centered. Draft cards occupy a separate block to the left of the centered tactical and faction cards. The reserve mappings place additional models below their source unit or at the bottom edge of their source card.
+The deployment wrapper preserves the standard army import and stages the resulting squads in one centered row with a 32 mm gap. Models form compact rows with the last row centered. Draft cards occupy a separate block to the left of the centered tactical and faction cards.
+
+Additional models and tokens are defined through native WDS ExtraItems in src/warhall/extra-items.mjs. Unit records carry ExtraItems directly. Cards use global AddExtra options (Type 7) matching the card name, with the card and its reserve model in ExtraItems. The normal WDSArmy import calls ProcessExtraItems. The parser does not maintain a second reserve spawn table. Native placement uses Warhall's extra-item staging area. The native schema supports Id and Type, without a count or a roster-presence condition.
 
 For regression checks, import the Terran list in [the test fixture](../../test/fixtures/lists/terran-anti-toss-ravager.txt). Also check both Nova modes, a Zerg list with Dirt Side and Frontier, a Corpser Roach reserve group, and a list containing Raynor's Raiders. Check the arrangement from both player sides. Follow the [reserve model skill](../../.agents/skills/warhall-importer-reserve-models/SKILL.md) when rules change.
 

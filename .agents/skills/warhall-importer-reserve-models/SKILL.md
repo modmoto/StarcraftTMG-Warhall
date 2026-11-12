@@ -1,15 +1,15 @@
 ---
 name: warhall-importer-reserve-models
-description: Audit StarCraft unit rules, upgrades and cards for reserve models, and maintain their explicit mappings in the Warhall list importer patch.
+description: Audit StarCraft unit rules, upgrades and cards for reserve models, and maintain their native WDS ExtraItems definitions.
 ---
 
 # StarCraft importer reserve models
 
 Review the official unit sheets, selected upgrade rules, faction cards, tactical cards and relevant mission cards on every wave. Compare them with the generated faction rules and cards.json. Search for SUMMON, SPAWN, SET, replacements, status markers, Faction Indicators and templates, then read each full rule. A reference to an existing unit or a move from Reserves does not create a new model. Check printed template sizes and summon quantities against the official source.
 
-Keep a small explicit mapping in the StarCraft importer patch. Use stable unit, rule, option and card IDs and resolve assets through normal Warhall creation APIs. Run it after resolving the imported army and cards. Scale reserve model counts by the parsed roster. Keep spawned models off the battlefield in the import staging area, outside the roster and its points and supply. Count models already supplied by the roster before adding reserve stock. Use selected upgrades and cards as triggers. Verify with real New Recruit list fixtures and a local Warhall Test import.
+Maintain the mapping in src/warhall/extra-items.mjs. Units use ExtraItems directly. Cards use native AddExtra options (Type 7) with the exact card name and ExtraItems containing both the Card and the reserve Unit. Warhall ProcessExtraItems consumes these during normal list import. Use stable unit, rule, option and card IDs and resolve assets through normal Warhall creation APIs. The parser handles text and layout. Reserve creation belongs to native WDS data. Scale reserve model counts by the parsed roster. Keep spawned models off the battlefield in the import staging area, outside the roster and its points and supply. Count models already supplied by the roster before adding reserve stock. Use selected upgrades and cards as triggers. Verify with real New Recruit list fixtures and a local Warhall Test import.
 
-Automatic reserve loads contain models only. The map tray already supplies faction indicators and other markers.
+Faction indicators and existing generic markers remain in the map tray. The user explicitly requested a Corrosive Bile token as a native Ravager ExtraItem. The native unit extra is per unit, not per model. WDSExtraItem has only Id and Type. Repeated unit references create separate units, and there is no conditional deduplication against roster selections.
 
 ## Audit baseline
 

@@ -7,6 +7,7 @@ import { profileChildren } from './presentation.mjs';
 import { describeProfile, describeUnit } from './descriptions.mjs';
 import { createReport, unitReport } from './report.mjs';
 import { loadKeywordRules, linkKeywordRules, linkFactionRules } from './rule-links.mjs';
+import { addImportExtraItems } from './extra-items.mjs';
 import { loadRulebookRules } from './rulebook.mjs';
 import { consolidateRules, linkRuleIndex } from './rule-index.mjs';
 import { addUpgradeOptions } from './upgrades.mjs';
@@ -286,6 +287,7 @@ export async function buildWarhallPackage(source, template = defaultDataDirector
     }
   }
 
+  addImportExtraItems(data);
   const previousManifest = await readJson(path.join(template, 'manifest.json'));
   data['manifest.json'] = { version: previousManifest.version, files: Object.keys(data).sort() };
   data['version.json'].version = previousManifest.version;
