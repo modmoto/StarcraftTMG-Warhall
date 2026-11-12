@@ -21,7 +21,21 @@
     ],
     "Children": [],
     "DefaultFront": 1,
-    "Formation": 0
+    "Formation": 0,
+    "ExtraItems": [
+      {
+        "Id": "pdf_Zerg_unit_roachling",
+        "Type": "Unit"
+      },
+      {
+        "Id": "pdf_Zerg_unit_roachling",
+        "Type": "Unit"
+      },
+      {
+        "Id": "pdf_Zerg_unit_roachling",
+        "Type": "Unit"
+      }
+    ]
   },
   {
     "Id": "pdf_Zerg_unit_defiler",
@@ -117,7 +131,13 @@
     ],
     "Children": [],
     "DefaultFront": 1,
-    "Formation": 0
+    "Formation": 0,
+    "ExtraItems": [
+      {
+        "Id": "Starcraft - Token - Corrosive Bile",
+        "Type": "Token"
+      }
+    ]
   },
   {
     "Id": "pdf_Zerg_unit_roaches",

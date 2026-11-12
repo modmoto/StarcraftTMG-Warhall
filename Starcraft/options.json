@@ -346,5 +346,80 @@
     "Name": "Zealous Round",
     "Type": 1,
     "ItemsToAdd": []
+  },
+  {
+    "Id": "sc_import_extra_sc_card_terran_tactics_raynor_s_raiders",
+    "Name": "Raynor's Raiders",
+    "Type": 7,
+    "ExtraItems": [
+      {
+        "Id": "sc_card_terran_tactics_raynor_s_raiders",
+        "Type": "Card"
+      },
+      {
+        "Id": "pdf_Terran_unit_point_defense_drone",
+        "Type": "Unit"
+      }
+    ]
+  },
+  {
+    "Id": "sc_import_extra_sc_card_terran_tactics_nova_covert_ops",
+    "Name": "Nova Covert Ops",
+    "Type": 7,
+    "ExtraItems": [
+      {
+        "Id": "sc_card_terran_tactics_nova_covert_ops",
+        "Type": "Card"
+      },
+      {
+        "Id": "pdf_Terran_unit_sabotage_drone",
+        "Type": "Unit"
+      }
+    ]
+  },
+  {
+    "Id": "sc_import_extra_sc_card_protoss_tactics_khalai",
+    "Name": "Khalai",
+    "Type": 7,
+    "ExtraItems": [
+      {
+        "Id": "sc_card_protoss_tactics_khalai",
+        "Type": "Card"
+      },
+      {
+        "Id": "pdf_Protoss_unit_pylon",
+        "Type": "Unit"
+      }
+    ]
+  },
+  {
+    "Id": "sc_import_extra_sc_card_zerg_tactics_kerrigan_s_swarm",
+    "Name": "Kerrigan's Swarm",
+    "Type": 7,
+    "ExtraItems": [
+      {
+        "Id": "sc_card_zerg_tactics_kerrigan_s_swarm",
+        "Type": "Card"
+      },
+      {
+        "Id": "pdf_Zerg_unit_omega_worm",
+        "Type": "Unit"
+      }
+    ]
+  },
+  {
+    "Id": "sc_import_extra_sc_card_zerg_tactics_cocoon",
+    "Name": "Cocoon",
+    "Type": 7,
+    "ExtraItems": [
+      {
+        "Id": "sc_card_zerg_tactics_cocoon",
+        "Type": "Card"
+      },
+      {
+        "Id": "pdf_Zerg_unit_ravagers",
+        "Type": "Unit"
+      }
+    ]
   }
 ]

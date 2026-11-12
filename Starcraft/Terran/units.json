@@ -81,7 +81,13 @@
     ],
     "Children": [],
     "DefaultFront": 1,
-    "Formation": 0
+    "Formation": 0,
+    "ExtraItems": [
+      {
+        "Id": "pdf_Terran_unit_holo_decoy",
+        "Type": "Unit"
+      }
+    ]
   },
   {
     "Id": "pdf_Terran_unit_nova_stealth_mode",
@@ -117,7 +123,13 @@
     ],
     "Children": [],
     "DefaultFront": 1,
-    "Formation": 0
+    "Formation": 0,
+    "ExtraItems": [
+      {
+        "Id": "pdf_Terran_unit_auto_turret",
+        "Type": "Unit"
+      }
+    ]
   },
   {
     "Id": "pdf_Terran_unit_raynor_s_raiders",

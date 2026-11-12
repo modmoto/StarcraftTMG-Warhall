@@ -2,6 +2,7 @@
   "BattlegroundWidth": 54,
   "BattlegroundHeight": 36,
   "WoundsAttribute": "HP",
+  "InteractiveScoreboardType": "Starcraft",
   "AvailableDice": [
     "D6",
     "D3"
