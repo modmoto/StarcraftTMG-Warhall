@@ -15,12 +15,14 @@ Faction indicators and existing generic markers remain in the map tray. The user
 
 | Trigger | Additional load |
 | --- | --- |
-| Corpser Roaches, Roachling Infestation | One reserve group of three Roachlings per source unit, subject to the current summon profile |
+| Corpser Roaches, Roachling Infestation | Three separate one-model Roachling reserve units per source unit |
 | Raven, Deploy Auto-Turret | Reserve Auto-Turret |
 | Nova Assault Mode, Holo Decoy | Reserve Holo Decoy |
 | Raynor's Raiders, Rapid Ingress | Reserve Point Defense Drone |
 | Nova Covert Ops, Griffin Support | Reserve Sabotage Drone |
-| Khalai, Pylon Warp-In | Reserve Pylon when one is not already available |
-| Kerrigan's Swarm, Omega Network | Reserve Omega Worm when one is not already available |
+| Khalai, Pylon Warp-In | Reserve Pylon; native roster deduplication is unavailable |
+| Kerrigan's Swarm, Omega Network | Reserve Omega Worm; native roster deduplication is unavailable |
 
 Cocoon's Spawn Larva uses RESPAWN (2) on the active unit. Use that unit's casualties or spare models. Cocoon's separate Ravager Morph can require one reserve Ravager for a roster with an eligible Roach unit. Recheck this baseline against the current wave before adding mappings.
+
+Read docs/native-extra-items.md for the supported mappings, native quantity behavior and unresolved conditions. Cocoon must remain an ordinary card until its roster condition can be expressed accurately.

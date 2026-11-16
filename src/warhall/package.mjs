@@ -287,6 +287,18 @@ export async function buildWarhallPackage(source, template = defaultDataDirector
     }
   }
 
+  for (const faction of source.factions) {
+    const previous = await readJson(path.join(template, faction.name, 'units.json')).catch(
+      error => {
+        if (error.code === 'ENOENT') return [];
+        throw error;
+      },
+    );
+    for (const unit of data[`${faction.name}/units.json`] ?? []) {
+      const extras = previous.find(item => item.Id === unit.Id)?.ExtraItems;
+      if (extras?.length) unit.ExtraItems = extras;
+    }
+  }
   addImportExtraItems(data);
   const previousManifest = await readJson(path.join(template, 'manifest.json'));
   data['manifest.json'] = { version: previousManifest.version, files: Object.keys(data).sort() };

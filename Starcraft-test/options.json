@@ -406,20 +406,5 @@
         "Type": "Unit"
       }
     ]
-  },
-  {
-    "Id": "sc_import_extra_sc_card_zerg_tactics_cocoon",
-    "Name": "Cocoon",
-    "Type": 7,
-    "ExtraItems": [
-      {
-        "Id": "sc_card_zerg_tactics_cocoon",
-        "Type": "Card"
-      },
-      {
-        "Id": "pdf_Zerg_unit_ravagers",
-        "Type": "Unit"
-      }
-    ]
   }
 ]
