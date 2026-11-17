@@ -15,7 +15,7 @@ CACHE = ROOT / '.cache/pdf'
 DPI = 600
 MAX_EDGE = 2048
 RENDERS = ROOT / f'.cache/cards/{DPI}dpi'
-ASSETS = ROOT / 'Starcraft-test/assets/cards'
+ASSETS = ROOT / 'Starcraft/assets/cards'
 for directory in [RENDERS, ASSETS]:
     directory.mkdir(parents=True, exist_ok=True)
 
@@ -150,7 +150,7 @@ def face(file, number, page, box, rotate=0, label='card'):
     digest = hashlib.sha256(crop.tobytes()).hexdigest()[:12]
     name = f'{slug(label)}-{digest}.png'
     crop.save(ASSETS/name, optimize=True)
-    return f'https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/assets/cards/{name}'
+    return f'https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft/assets/cards/{name}'
 
 cards = {}
 groups = {}
@@ -171,7 +171,7 @@ def add(group, name, front, back, width, length, source, text=''):
 
 sources = read('.cache/pdf/sources.json')['cards']
 documents = {s['file']: PdfReader(CACHE/s['file']) for s in sources}
-units = read('Starcraft-test/import-report.json')['units']
+units = read('Starcraft/import-report.json')['units']
 unit_pages = {(u['card']['file'], u['card']['page']) for u in units}
 
 for source in sources:
@@ -248,11 +248,11 @@ ordered_groups = {
     group: sorted(ids, key=lambda identity: (identity.endswith('_skirmish'), identity))
     for group, ids in sorted(groups.items())
 }
-write('Starcraft-test/cards.json', [cards[identity] for ids in ordered_groups.values() for identity in ids])
-hierarchy = read('Starcraft-test/hierarchy.json')
+write('Starcraft/cards.json', [cards[identity] for ids in ordered_groups.values() for identity in ids])
+hierarchy = read('Starcraft/hierarchy.json')
 hierarchy['Cards'] = ordered_groups
-write('Starcraft-test/hierarchy.json', hierarchy)
-write('Starcraft-test/objectives.json',[])
+write('Starcraft/hierarchy.json', hierarchy)
+write('Starcraft/objectives.json',[])
 write('cards-report.json',{'imageDpi':DPI,'maxImageEdge':MAX_EDGE,'cropMethod':'PDF bleed rectangles with exact 3mm trim inset','imageFormat':'lossless PNG','unitCards':False,'cards':report,'counts':{k:len(v) for k,v in sorted(groups.items())},'missions':len(missions)})
 print(f'Extracted {len(cards)} cards and {len(missions)} scoring missions.')
 

@@ -5,12 +5,12 @@ import { projectRoot } from '../src/paths.mjs';
 import { renderGeometry, sourceGeometry } from '../src/models/render-thumbnail.mjs';
 
 const output = path.resolve(
-  process.argv[2] ?? path.join(projectRoot, 'Starcraft-test/assets/terrain-overhead'),
+  process.argv[2] ?? path.join(projectRoot, 'Starcraft/assets/terrain-overhead'),
 );
 const read = async file => JSON.parse(await readFile(path.join(projectRoot, file), 'utf8'));
 const [catalogue, terrains] = await Promise.all([
   read('model-catalogue.json'),
-  read('Starcraft-test/terrains.json'),
+  read('Starcraft/terrains.json'),
 ]);
 await mkdir(output, { recursive: true });
 const images = {};

@@ -19,9 +19,9 @@ if (values['restore-skins']) {
   assert.ok(values['accept-publication-terms'], 'Accept publication terms before restoring skins');
 }
 const server = 'https://apptest.warhall.eu';
-const gameName = 'Starcraft-test';
+const gameName = 'Starcraft';
 const dataPath =
-  'https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/refs/heads/main/Starcraft-test/manifest.json';
+  'https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/refs/heads/main/Starcraft/manifest.json';
 const receiptFile = path.join(projectRoot, '.cache', 'test-environment.json');
 const cookie = values.login ? await promptLogin(server) : process.env.WARHALL_COOKIE;
 assert.ok(cookie, 'Use --login or explicitly supply WARHALL_COOKIE');
@@ -55,7 +55,7 @@ async function findGame() {
 let game = await findGame();
 if (!game) {
   const local = JSON.parse(
-    await readFile(path.join(projectRoot, 'Starcraft-test', 'manifest.json'), 'utf8'),
+    await readFile(path.join(projectRoot, 'Starcraft', 'manifest.json'), 'utf8'),
   );
   const response = await fetch(dataPath, { redirect: 'error', signal: AbortSignal.timeout(30000) });
   assert.ok(response.ok, 'Test manifest is not published');

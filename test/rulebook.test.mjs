@@ -164,7 +164,7 @@ test('shipped search index includes gameplay chapters and no duplicate named rul
   const rules = (
     await Promise.all(
       ['rules.json', 'Protoss/rules.json', 'Terran/rules.json', 'Zerg/rules.json'].map(file =>
-        json(`Starcraft-test/${file}`),
+        json(`Starcraft/${file}`),
       ),
     )
   )

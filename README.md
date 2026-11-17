@@ -250,4 +250,4 @@ Mission markers now use five shared skins: red 1/3, blue 2/4 and green 5. The ra
 
 Single-sided activation, faction and status tokens are available in the **Tokens** menu. See [the token setup and regeneration notes](docs/tokens.md). Faction dropdown logos are supplied through `icons.json`.
 
-Development stays on `main` in `Starcraft-test/`. The live `Starcraft/` folder changes only when publishing a tested copy. There are no GitHub Actions or GitHub releases. See [the publication workflow](docs/releases.md).
+Development stays on `main`; production uses the `release` branch. Both branches contain the single `Starcraft/` dataset. A release promotes tested main commits and publishes the matching shared skins. There are no GitHub Actions or GitHub release artifacts. See [the publication workflow](docs/releases.md).

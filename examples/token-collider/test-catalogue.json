@@ -3,7 +3,7 @@
   "serverUrl": "https://apptest.warhall.eu",
   "gameName": "Starcraft",
   "gameNames": {
-    "test": "Starcraft-test",
+    "test": "Starcraft",
     "prod": "Starcraft"
   },
   "entries": [

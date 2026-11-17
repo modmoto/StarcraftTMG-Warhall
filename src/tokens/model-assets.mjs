@@ -43,7 +43,7 @@ export async function createTokenAssets(definitions = tokenDefinitions) {
   for (const token of definitions) {
     const image = path.join(
       projectRoot,
-      'Starcraft-test/assets/tokens',
+      'Starcraft/assets/tokens',
       index.artwork[token.id].split('/').at(-1),
     );
     const { data, info } = await sharp(image)

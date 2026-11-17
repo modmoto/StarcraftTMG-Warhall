@@ -18,7 +18,7 @@ npm run --silent models:publish > .cache/model-publication-preview.json
 
 ## Publish
 
-Sign in to https://apptest.warhall.eu and confirm that your account is an administrator for the target game (`Starcraft-test` on Test, `Starcraft` in production): Model Creator's category selector should offer **Assign as default skin**. Review the public-skin rights, platform hosting licence and takedown confirmations there. The command requires your explicit acceptance of those same terms; it does not establish that third-party assets are licensed for redistribution.
+Sign in to https://apptest.warhall.eu and confirm that your account is an administrator for the target game (`Starcraft` on both Test and production): Model Creator's category selector should offer **Assign as default skin**. Review the public-skin rights, platform hosting licence and takedown confirmations there. The command requires your explicit acceptance of those same terms; it does not establish that third-party assets are licensed for redistribution.
 
 The test frontend has no documented API-token flow. This adapter uses its existing authenticated endpoints. Supply your own session Cookie header through the `WARHALL_COOKIE` environment variable, using your shell's secret input or session environment. Never put it in JSON, command arguments, Git, or chat. It is sent only to the configured server; redirects are rejected. Unset the variable after publishing.
 
@@ -116,4 +116,4 @@ Use `--kind token` to publish the 16 single-sided native Tokens menu entries and
 
 ## New Test registration (data version 56)
 
-Warhall game creation replaced the existing test package with starter files. The complete gameplay data was restored, including faction manifests, the numbered rules and 54×36 board. The registered Test game is now `Starcraft-test`; `model-catalogue.json` records separate test/production names. The publisher uses `.cache/model-publication-starcraft-test.json` to keep the new game's progress separate from the old Starcraft registration. Existing skins were assigned to the new game without uploading copies; synchronize menu aliases with `models:menus`. Avoid committing the game-creation wizard's starter package over the maintained data.
+The active Test and production games are both named `Starcraft`, resolved separately on their servers. Main publishes the Test dataset; release publishes production. Use the server-scoped publisher checkpoints and reconcile live assignments rather than copying game-local IDs. The retired second Test registration must not receive routine updates.

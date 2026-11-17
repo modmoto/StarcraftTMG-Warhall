@@ -186,13 +186,13 @@ test(
 
 test('shared deployment menu uses a built-in template and places the exact original entry overlay', async () => {
   const deployments = JSON.parse(
-    await readFile(new URL('../Starcraft-test/deployments.json', import.meta.url)),
+    await readFile(new URL('../Starcraft/deployments.json', import.meta.url)),
   );
   const config = JSON.parse(
-    await readFile(new URL('../Starcraft-test/gameconfig.json', import.meta.url)),
+    await readFile(new URL('../Starcraft/gameconfig.json', import.meta.url)),
   );
   const terrains = JSON.parse(
-    await readFile(new URL('../Starcraft-test/terrains.json', import.meta.url)),
+    await readFile(new URL('../Starcraft/terrains.json', import.meta.url)),
   );
   const templates = JSON.parse(
     await readFile(new URL('../deployment-templates.json', import.meta.url)),

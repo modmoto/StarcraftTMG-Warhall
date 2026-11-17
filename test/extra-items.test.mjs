@@ -4,7 +4,7 @@ import { readFile } from 'node:fs/promises';
 import { addImportExtraItems } from '../src/warhall/extra-items.mjs';
 
 const read = async name =>
-  JSON.parse(await readFile(new URL(`../Starcraft-test/${name}.json`, import.meta.url)));
+  JSON.parse(await readFile(new URL(`../Starcraft/${name}.json`, import.meta.url)));
 const data = {};
 for (const name of ['cards', 'options', 'tokens', 'bases', 'manifest'])
   data[`${name}.json`] = await read(name);

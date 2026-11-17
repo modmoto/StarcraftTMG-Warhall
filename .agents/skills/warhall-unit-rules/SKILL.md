@@ -23,7 +23,7 @@ Record each explicit decision in this skill under Approved precedents with date,
 
 ## Audit and verification
 
-Read the source and display mapping in Starcraft-test/import-report.json. Trace src/warhall/upgrade-effects.mjs, upgrades.mjs, presentation.mjs, and rule-index.mjs to the generated profile, modifier, statline, and rule records. Treat the import report as an audit index and verify the actual records. Check baseline, each selected option, and interacting options in both orders with src/lists/apply-options.mjs and the rule and upgrade tests. Check that no green value leaks into an unselected profile, and that every link targets its original rule. Verify labels and clicks in Warhall Test when accessible. Report precisely what was checked in-game. Use the Starcraft-test package and the existing Test publication workflow after approval.
+Read the source and display mapping in Starcraft/import-report.json. Trace src/warhall/upgrade-effects.mjs, upgrades.mjs, presentation.mjs, and rule-index.mjs to the generated profile, modifier, statline, and rule records. Treat the import report as an audit index and verify the actual records. Check baseline, each selected option, and interacting options in both orders with src/lists/apply-options.mjs and the rule and upgrade tests. Check that no green value leaks into an unselected profile, and that every link targets its original rule. Verify labels and clicks in Warhall Test when accessible. Report precisely what was checked in-game. Use the Starcraft package and the existing Test publication workflow after approval.
 
 ## Approved precedents
 

@@ -1,30 +1,24 @@
 ---
 name: warhall-wave-release
-description: Update Starcraft test data or publish a tested Starcraft-test folder to Starcraft and upload the required shared Warhall skins. No branch staging, GitHub Actions or GitHub releases.
+description: Validate Starcraft on main, publish Test assets, and promote tested main commits to the release branch for production with required shared skins.
 ---
 
-# Starcraft folder publication
+# Starcraft branch publication
 
-Work in StarcraftTMG-Warhall on main. Starcraft-test/ is the working copy; Starcraft/ is the live copy. Both use GitHub main URLs. The registered Test game is Starcraft-test; production is Starcraft. Do not use the old test branch, create GitHub releases/tags or reintroduce Actions. See docs/releases.md.
+Work directly on main. Both main (Test) and release (production) use the single Starcraft/ dataset. Generators default there. Do not restore a separate Test folder or copy between dataset folders. Read docs/releases.md for exact URLs and native version metadata behavior. Do not create client patches, GitHub release artifacts, Actions or tags.
 
 ## Prepare and test
 
-For “do wave N” or ordinary edits, update Starcraft-test only. Use the existing official PDF importer and New Recruit comparison; preserve reviewed poses, base sizes, transforms and temporary workarounds. All generators now default to Starcraft-test. Root model inputs/catalogue and immutable hash-named model-assets remain shared. Do not invent unavailable official content.
+Preserve reviewed models, transforms, footprints, native ExtraItems and approved rule presentation. Run npm run check:local; review relevant visuals and increment manifest/version together for data changes. Commit and push authorized changes directly to main. Publish requested missing or changed shared skins to Warhall Test using warhall-publish-skins and saved login, then synchronize menu aliases. Both servers use the exact game name Starcraft; resolve IDs separately. Do not target the retired second Test registration. Keep server-scoped checkpoints and reuse working skins.
 
-Run npm run check:local and review relevant images. Commit and push main without staging unrelated local files. Publish changed skins to Warhall Test using the existing publisher and saved login, then synchronize menu aliases. Use warhall-publish-skins for API details and resumable checkpoints. Stop for playtesting; a test upload does not authorize live publication.
+## Release
 
-## Publish the tested copy
+A user request to release authorizes the complete operation: push main and required assets, promote tested main to release, publish missing/changed production skins and verify their default/menu assignments. Git push alone is not the complete release. Do not request an extra approval for these already authorized steps.
 
-When the user says “make a release” or “mach ein Release”, treat that as authorization to publish the requested release end to end: commit and push the release to main, upload all required missing or changed assets to the matching Warhall server, then verify the hosted manifest and shared bindings. Git push alone is not a completed release.
+1. Run npm run check:local and finish any required validation. Commit and push all release files to main.
+2. Run npm run release:promote -- --apply. It creates or fast-forwards release to main's exact commit, with no folder copy, URL-rewrite commit or forced history rewrite. Independent release-only commits require reconciliation before promotion. Do not rebase main onto release.
+3. Publish matching production skins with npm run models:publish -- --server prod --apply --login --accept-publication-terms, then npm run models:menus -- --server prod --apply --login. Upload only missing/changed assets; retain resume checkpoints and verify outcomes. Existing publication-terms acceptance persists.
+4. Verify hosted manifest/version and the actual server data paths: Test main/Starcraft/manifest.json, production release/Starcraft/manifest.json. Native successful downloads save their source URL into local version metadata; no relative-version-URL assumption is needed. Shared content-addressed media stays on main and historical hashes remain available.
+5. Report the data version, branch commit, asset results and remaining client checks.
 
-The user's “release”, “publish live” or equivalent instruction authorizes copying and production upload. Confirm the working copy is the tested content, then:
-
-1. Run npm run check:local.
-2. Run npm run data:publish. It copies the whole Starcraft-test folder, including assets, to Starcraft, removes obsolete live files, changes owned data URLs to main/Starcraft, and advances both live version files. The test folder stays unchanged.
-3. Review the diff, commit and push main before remote skins reference newly generated files.
-4. Run npm run models:publish -- --server prod --apply --login --accept-publication-terms, then npm run models:menus -- --server prod --apply --login. The publisher reconciles existing owned defaults and uploads only missing/changed skins with thumbnails. Retain server-scoped checkpoints; do not clear them, force replacement of every model, or duplicate an uncertain request.
-5. Validate Starcraft with node scripts/validate.mjs Starcraft and verify the API outcomes. Report the data version and any outstanding gameplay limitation. No GitHub release or tag is part of publication.
-
-Production login/admin access is separate from test. Use private credential storage; never print credentials or request them in chat. Existing publication terms acceptance persists; supporting an API flag alone is not proof of acceptance. Production preflight should happen before pushing the live copy when credentials/admin access are uncertain.
-
-Warhall Test should read main/Starcraft-test/manifest.json, production main/Starcraft/manifest.json. These are one-time project settings. The legacy UpdateGameDataPath endpoint has returned True without saving a path; read back the actual path before claiming a configuration change. Do not edit local caches or silently move either server to a different game.
+Production authentication is separate. Never print credentials or replace local client caches to simulate publication. The old UpdateGameDataPath endpoint has returned success without saving settings: read back GetGameVersions and report any administrator action still required. Do not claim that branch creation changed the server setting.

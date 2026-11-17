@@ -74,7 +74,7 @@ Release 45 update: the user explicitly accepted removal of selection collider He
 
 ## Custom overhead terrain
 
-Run `node scripts/render-terrain-overhead.mjs` to render transparent, textured PNGs from the Test terrain meshes into `Starcraft-test/assets/terrain-overhead/`. The adjacent `index.json` maps terrain IDs to filenames. The PNGs use the terrain footprint aspect ratio. Wall Sets 1 and 2 mask the overhead artwork to the mesh's lowest centimetre to exclude elevated overhangs.
+Run `node scripts/render-terrain-overhead.mjs` to render transparent, textured PNGs from the Test terrain meshes into `Starcraft/assets/terrain-overhead/`. The adjacent `index.json` maps terrain IDs to filenames. The PNGs use the terrain footprint aspect ratio. Wall Sets 1 and 2 mask the overhead artwork to the mesh's lowest centimetre to exclude elevated overhangs.
 
 The inspected Warhall client copies the loaded terrain object's root renderer material to its 2D quad. A hosted model without a root renderer leaves the quad's stock material in place. The terrain record and shared skin payload do not expose a separate overhead texture. Warhall would need to load the PNG on the 2D quad using an alpha-capable material, independently of the 3D model and selection base.
 

@@ -89,12 +89,12 @@ test('new Test registration uses its own game name and checkpoint without changi
   const source = {
     serverUrl: 'https://apptest.warhall.eu',
     gameName: 'Starcraft',
-    gameNames: { test: 'Starcraft-test', prod: 'Starcraft' },
+    gameNames: { test: 'AlternateFixture', prod: 'Starcraft' },
     entries: [],
   };
   const target = publicationTarget(source);
-  assert.equal(target.catalogue.gameName, 'Starcraft-test');
-  assert.equal(target.stateFile, '.cache/model-publication-starcraft-test.json');
+  assert.equal(target.catalogue.gameName, 'AlternateFixture');
+  assert.equal(target.stateFile, '.cache/model-publication-alternatefixture.json');
   const prod = publicationTarget(source, 'prod');
   assert.equal(prod.catalogue.gameName, 'Starcraft');
   assert.equal(prod.stateFile, '.cache/model-publication-prod.json');

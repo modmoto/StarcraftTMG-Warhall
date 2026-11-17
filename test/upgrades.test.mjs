@@ -5,7 +5,7 @@ import { applyProfileOptions, flattenProfile } from '../src/lists/apply-options.
 
 const data = {};
 data['options.json'] = JSON.parse(
-  await readFile(new URL('../Starcraft-test/options.json', import.meta.url)),
+  await readFile(new URL('../Starcraft/options.json', import.meta.url)),
 );
 for (const faction of ['Protoss', 'Terran', 'Zerg']) {
   for (const file of [
@@ -19,7 +19,7 @@ for (const faction of ['Protoss', 'Terran', 'Zerg']) {
     'modifiedunit',
   ]) {
     data[`${faction}/${file}.json`] = JSON.parse(
-      await readFile(new URL(`../Starcraft-test/${faction}/${file}.json`, import.meta.url)),
+      await readFile(new URL(`../Starcraft/${faction}/${file}.json`, import.meta.url)),
     );
   }
 }
@@ -141,7 +141,12 @@ test('Marines and Raiders share Stimpack, distinct from Marauders', () => {
 
 test('option IDs are readable names so the native generic importer can match exported choices', () => {
   assert.ok(data['options.json'].length > 0);
-  assert.ok(data['options.json'].every(option => option.Type === 1));
+  assert.ok(data['options.json'].every(option => [1, 7].includes(option.Type)));
+  assert.ok(
+    data['options.json']
+      .filter(option => option.Type === 7)
+      .every(option => option.ExtraItems?.some(item => item.Type === 'Card')),
+  );
   assert.equal(
     data['options.json'].find(option => option.Id === 'Slugthrower').Name,
     'Slugthrower',
@@ -259,7 +264,7 @@ test('passive upgrades to named abilities update the rule definition with blue v
 
 test('the upgrade audit covers every source profile and active options change only the selected-rule list', async () => {
   const report = JSON.parse(
-    await readFile(new URL('../Starcraft-test/import-report.json', import.meta.url)),
+    await readFile(new URL('../Starcraft/import-report.json', import.meta.url)),
   );
   const options = data['options.json'];
   const allModifiers = Object.entries(data)

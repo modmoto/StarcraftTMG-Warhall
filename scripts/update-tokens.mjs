@@ -13,7 +13,7 @@ assert.ok(
   'Unknown token artwork flag',
 );
 const check = flags.includes('--check');
-const directory = path.join(projectRoot, 'Starcraft-test/assets/tokens');
+const directory = path.join(projectRoot, 'Starcraft/assets/tokens');
 const base = `${dataAssetBaseUrl}/assets/tokens`;
 const files = new Map();
 const artwork = {},

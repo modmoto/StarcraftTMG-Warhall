@@ -1,11 +1,11 @@
 ---
 name: warhall-test-setup
-description: Recreate the Starcraft-test game after a Warhall Test server reset, verify its manifest and administrator access, and restore shared skins and menus through the official API.
+description: Recreate the Starcraft game after a Warhall Test server reset, verify its manifest and administrator access, and restore shared skins and menus through the official API.
 ---
 
 # Restore Warhall Test
 
-Use this skill when the Test server has been reset or Starcraft-test is missing. Use the existing Starcraft-test folder on GitHub main. The Test game name is exactly Starcraft-test. Resolve its game ID from the server every time. The November 5 reset left a separate Starcraft game with no modmoto administrator rights; creating Starcraft-test restored administrator access for its creator.
+Use this skill when the Test server has been reset or the exact-case `Starcraft` game is missing. Restore `main/Starcraft/manifest.json`; resolve the game ID and administrator rights every time. Do not recreate or target the retired second Test registration. Production reads `release/Starcraft/manifest.json` and is outside this restoration workflow.
 
 ## Commands
 
@@ -25,7 +25,7 @@ Existing explicit acceptance of Warhall publication terms persists. When accepta
 
 The script pins https://apptest.warhall.eu, checks the published manifest against the local Test manifest before creation, gets the next available game ID, and calls the official wizard endpoint /AddNewGame/. It creates a game using the existing manifest URL without uploading wizard starter files to GitHub. Do not run the wizard's GitHub upload step: it can overwrite the maintained package.
 
-After creation it verifies the exact game, /IsAdmin/<id>, and the active LTS manifest path in /GetGameVersions. That endpoint uses a 1L4HR4W prefix followed by base64 JSON. Require the path to equal https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/refs/heads/main/Starcraft-test/manifest.json. The legacy UpdateGameDataPath endpoint has returned success without saving the change; stop and inspect any mismatch.
+After creation it verifies the exact game, /IsAdmin/<id>, and the active LTS manifest path in /GetGameVersions. That endpoint uses a 1L4HR4W prefix followed by base64 JSON. Require the path to equal https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/refs/heads/main/Starcraft/manifest.json. The legacy UpdateGameDataPath endpoint has returned success without saving the change; stop and inspect any mismatch.
 
 ## Resume and checkpoints
 
@@ -39,4 +39,4 @@ For partial skin publication, rerun the same command and checkpoint. Follow publ
 
 ## Verification
 
-Verify the manifest URL and admin rights through the API, validate Starcraft-test, and verify all shared defaults and menu aliases. Restart Warhall Test, choose Starcraft-test, and check a unit and a battlefield map. Distinguish API verification from visible client verification. A normal restored catalogue does not include experimental collider or flat-terrain prototypes; publish those separately if requested.
+Verify the manifest URL and admin rights through the API, validate Starcraft, and verify all shared defaults and menu aliases. Restart Warhall Test, choose Starcraft, and check a unit and a battlefield map. Distinguish API verification from visible client verification. A normal restored catalogue does not include experimental collider or flat-terrain prototypes; publish those separately if requested.

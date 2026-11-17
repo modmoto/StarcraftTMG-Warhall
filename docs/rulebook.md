@@ -10,4 +10,4 @@ Descriptions link named keywords and core rules, bare chapter numbers, section-s
 
 Previously every unit and upgrade generated its own named ability record. Identical name/text entries now share a canonical ID, with profile children and nested references remapped. Different costs or effects remain separate and their names identify the applicable units. Marines and Raynor’s Raiders share Stimpack (Marines); Marauders use Stimpack (Marauders). This avoids merging genuinely different versions just because their names match. Empty-name profile layout records are deliberately retained.
 
-Changes build into `Starcraft-test/`; publishing to `Starcraft/` remains a separate user-requested step.
+Changes build into `Starcraft/`; promotion from `main` to `release` remains a separate user-requested step.

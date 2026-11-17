@@ -1,35 +1,30 @@
-# Test and live data
+# Test and production branches
 
-Use main for all work. There are no GitHub Actions, GitHub releases or branch promotions.
+Use `main` for development and Warhall Test; `release` is the tested production snapshot. Both branches contain one dataset, `Starcraft/`. Generators and local checks always use that folder. The former folder-copy publisher has been removed.
 
-- `Starcraft-test/` is the working copy. Importers, card/terrain/token generators and local checks use this folder.
-- `Starcraft/` is the live snapshot. Normal builds leave it unchanged.
-- Root model inputs, `model-catalogue.json` and hash-named `model-assets/` are shared. Existing assets remain available when new ones are added.
+The intended game name is exactly `Starcraft` on each server, resolved independently. Do not select the retired second Test registration or reuse server-local skin IDs between servers.
 
-The Warhall Test game is named `Starcraft-test`; the production game is `Starcraft`. Their manifest settings should be:
+## One-time Warhall configuration
 
-- Test: https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft-test/manifest.json
-- Production: https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft/manifest.json
+Ask the Warhall administrators to set and verify these active manifest paths:
 
-The old UpdateGameDataPath API returned success without changing the stored URL. Verify the actual project setting; creating a folder does not change the server setting automatically.
+- Test: https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/refs/heads/main/Starcraft/manifest.json
+- Production: https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/refs/heads/release/Starcraft/manifest.json
 
-## Work and playtest
+Creating branches does not change server settings. Read back `/GetGameVersions`; the old UpdateGameDataPath endpoint returned success without persisting a change. Existing local installations may initially check their previous URL; choosing the game with the corrected server registration must establish the new download path. Do not silently rewrite application caches.
 
-Run the normal import/build commands, `npm run check:local`, then commit/push main. Publish changed models to Test with the existing model publisher and synchronize menu aliases. This does not update the live folder.
+## Development and release
 
-## Publish live
+1. Work, commit and push directly to `main`. Advance `Starcraft/manifest.json` and `Starcraft/version.json` together when game data changes. Shared-skin-only changes do not need a WDS version bump.
+2. Run `npm run check:local`. Publish requested changed skins to Test and check the client. Preserve saved publication checkpoints, working skins and menu aliases.
+3. On an authorized release, commit and push all required files to main, then run `npm run release:promote -- --apply`. This creates or fast-forwards remote `release` to the exact main commit, without dataset copying, a second generated snapshot, extra URL commits or force pushing. Both branches must have the same history; if release contains independent commits, reconcile them first rather than silently rewriting it.
+4. Publish required missing or changed shared skins with `npm run models:publish -- --server prod --apply --login --accept-publication-terms`, then verify/synchronize aliases with `npm run models:menus -- --server prod --apply --login`. Reuse working skins; branch promotion alone does not update shared skin assignments.
+5. Verify the hosted release manifest/version, server registration and shared bindings. A successful API upload does not prove native rendering or gameplay.
 
-Tell the assistant to publish the tested copy. The warhall-wave-release skill runs:
+The user's description of rebasing release onto main means bringing the production pointer up to tested main. With no release-only commits this is a fast-forward; no rebase or force push is necessary. No GitHub Actions, tags or GitHub release downloads are part of this workflow.
 
-```sh
-npm run check:local
-npm run data:publish
-node scripts/validate.mjs Starcraft
-# Review, commit and push main before uploads.
-npm run models:publish -- --server prod --apply --login --accept-publication-terms
-npm run models:menus -- --server prod --apply --login
-```
+## Absolute URLs and native version metadata
 
-The copy includes every data file and asset, removes obsolete live files, changes owned card/icon/manifest URLs to the live folder, and increments the live data version above both copies. It validates before replacing the live snapshot. Starcraft-test is left unchanged.
+GitHub Raw URLs require a branch or commit. The inspected native `WDSDownload` implementation downloads manifest files relative to the selected server's manifest URL and, after a successful install/update, writes its own local `version.json` with that download URL. It does not keep the URL embedded in the downloaded repository copy. Therefore the same repository version metadata can be promoted unchanged: the production registration supplies `release`, Test supplies `main`. Relative version URLs are not assumed supported. This was checked by reading the existing loader inspection, without modifying or building client code; verify the active URLs in a fresh client after the administrators switch them.
 
-The publisher uploads missing or changed skins and thumbnails and reuses verified existing defaults. Keep publication checkpoints. Use the separately enrolled production login and administrator access; see [authentication](local-authentication.md) and [model publication](model-publication.md). No Dropbox upload is involved.
+Hash-named card art, faction icons and model assets remain shared HTTPS resources on main. Keep historical immutable files available when publishing new hashes. Gameplay JSON is isolated by the branch-specific manifest, while already-released media remains available under its original hash. Do not overwrite a hash-named asset. A future requirement for entirely independent media hosting would require a separate URL strategy; it is not needed to replace the old folder split.

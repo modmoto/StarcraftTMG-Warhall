@@ -7,9 +7,9 @@ const read = async file => JSON.parse(await readFile(new URL(file, import.meta.u
 test('all nine maps use the reviewed PDF centers, rotations and calibrated footprints', async () => {
   const source = await read('../terrain-sources.json');
   const calibration = await read('../terrain-calibration.json');
-  const maps = await read('../Starcraft-test/maps.json');
+  const maps = await read('../Starcraft/maps.json');
   const models = await read('../terrain-models.json');
-  const terrains = await read('../Starcraft-test/terrains.json');
+  const terrains = await read('../Starcraft/terrains.json');
   assert.deepEqual(
     maps.map(map => map.Items.filter(item => item.Type !== 'Token').length),
     [31, 31, 31, 31, 33, 33, 16, 16, 17],
@@ -57,7 +57,7 @@ test('all nine maps use the reviewed PDF centers, rotations and calibrated footp
 
 test('map six has both east-west ramp assemblies and the reviewed TTS positions', async () => {
   const source = await read('../terrain-sources.json');
-  const maps = await read('../Starcraft-test/maps.json');
+  const maps = await read('../Starcraft/maps.json');
   const map = source.maps.find(map => map.number === 6);
   assert.equal(map.pdfPage, 123);
   const ramp = source.assets.find(asset => asset.name === 'High Ground');
@@ -114,7 +114,7 @@ test('separate XYZ scales are composed through attachments before geometry is ce
     }),
     [-8, 42, 96],
   );
-  const terrains = await read('../Starcraft-test/terrains.json');
+  const terrains = await read('../Starcraft/terrains.json');
   const source = await read('../terrain-sources.json');
   const byName = name =>
     terrains.filter(t => source.assets.some(a => terrainMenuId(a) === t.Id && a.name === name));
@@ -208,8 +208,8 @@ test('wall footprints remain inside the 54 by 36 inch battlefield', async () => 
 
 test('temporary built-in hill is absent from terrain and maps', async () => {
   const { builtinTerrains } = await import('../src/terrain/native.mjs');
-  const terrains = await read('../Starcraft-test/terrains.json');
-  const maps = await read('../Starcraft-test/maps.json');
+  const terrains = await read('../Starcraft/terrains.json');
+  const maps = await read('../Starcraft/maps.json');
   assert.equal(builtinTerrains.length, 0);
   assert.deepEqual(
     terrains.filter(t => t.Id === 'Hill snow'),

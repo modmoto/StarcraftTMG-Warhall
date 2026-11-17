@@ -3,10 +3,10 @@ import assert from 'node:assert/strict';
 import { readFile } from 'node:fs/promises';
 const read = async file => JSON.parse(await readFile(new URL(file, import.meta.url), 'utf8'));
 test('board cards are sharp, contain no unit cards, and have clean descriptions', async () => {
-  const cards = (await read('../Starcraft-test/cards.json')).filter(
+  const cards = (await read('../Starcraft/cards.json')).filter(
     card => !card.Id.startsWith('sc_token_'),
   );
-  const hierarchy = await read('../Starcraft-test/hierarchy.json');
+  const hierarchy = await read('../Starcraft/hierarchy.json');
   const report = await read('../cards-report.json');
   assert.equal(cards.length, 77);
   assert.equal(report.imageDpi, 600);
@@ -19,9 +19,7 @@ test('board cards are sharp, contain no unit cards, and have clean descriptions'
     for (const key of ['ImageURL', 'ImageURLBack']) {
       const name = new URL(card.UIConfig[key]).pathname.split('/').at(-1);
       assert.match(name, /^[a-z0-9_-]+-[a-f0-9]{12}\.png$/);
-      const image = await readFile(
-        new URL(`../Starcraft-test/assets/cards/${name}`, import.meta.url),
-      );
+      const image = await readFile(new URL(`../Starcraft/assets/cards/${name}`, import.meta.url));
       assert.equal(image.subarray(1, 4).toString(), 'PNG');
       assert.equal(image[25], 6, 'Card image must retain RGBA transparency');
       assert.ok(
@@ -30,10 +28,10 @@ test('board cards are sharp, contain no unit cards, and have clean descriptions'
       );
     }
   }
-  const objectives = await read('../Starcraft-test/objectives.json');
+  const objectives = await read('../Starcraft/objectives.json');
   assert.deepEqual(objectives, []);
-  const config = await read('../Starcraft-test/gameconfig.json');
+  const config = await read('../Starcraft/gameconfig.json');
   assert.equal(config.ShowObjectiveSection, false);
   assert.equal(config.ShowDeploymentSection, true);
-  assert.equal((await read('../Starcraft-test/deployments.json')).length, 14);
+  assert.equal((await read('../Starcraft/deployments.json')).length, 14);
 });
