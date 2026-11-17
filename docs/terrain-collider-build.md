@@ -59,3 +59,11 @@ Unity 6000.0.81f1 built and reloaded the actual Windows bundle successfully:
 ## Release 153: native scoreboard
 
 The custom flat scoring-board terrain and its automatic map placement were removed because Warhall now supplies its native scoreboard. Keep `InteractiveScoreboardType: Starcraft` enabled. The custom terrain is absent from the active catalogue, terrain menu and all nine map presets; do not reintroduce its generator. Historical hash-named media remains available for old saves.
+
+## Data 154: nonzero native selection boxes
+
+Some imported walls could be rectangle-selected but not clicked or dragged. In the inspected `TerrainItem.RPCConfigureTerrain`, the native selection box uses `WDSTerrain.Height` directly. The field defaults to zero when absent; ordinary imported GLB meshes do not supply their own physics collider. WDS data previously omitted Height everywhere.
+
+The terrain generator now sets Height=0.1 cm (1 mm) on the 14 physical terrain records, including the raised obelisk. Width, Length, placement and visible geometry remain unchanged. This restores a thin positive selection volume rather than a wall-sized selection box. Mission-marker helpers and deployment overlays still omit Height. Keep terrain unlocked when testing direct clicks and dragging. The native movement implementation must continue to ignore generated selection boxes as obstacles and use visible geometry; ElevatedGround slope/platform colliders are unchanged.
+
+Local checks validate the generated selection dimensions and retained map geometry. Direct click/drag, terrain locking and the new movement obstacle filtering still require a fresh Warhall client test. This is a supported WDS change; no client patch, model rebuild or skin reupload is required.

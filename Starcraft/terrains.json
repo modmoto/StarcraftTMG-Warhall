@@ -117,6 +117,7 @@
     "Type": "Terrain",
     "Width": 7.16,
     "Length": 3.73,
+    "Height": 0.1,
     "Shape": 0
   },
   {
@@ -125,6 +126,7 @@
     "Type": "Terrain",
     "Width": 7.32,
     "Length": 10.8,
+    "Height": 0.1,
     "Shape": 0
   },
   {
@@ -133,6 +135,7 @@
     "Type": "Terrain",
     "Width": 37.47,
     "Length": 20.32,
+    "Height": 0.1,
     "Shape": 0
   },
   {
@@ -181,6 +184,7 @@
     "Type": "Terrain",
     "Width": 5.08,
     "Length": 3.18,
+    "Height": 0.1,
     "Shape": 0
   },
   {
@@ -189,6 +193,7 @@
     "Type": "Terrain",
     "Width": 5.41,
     "Length": 7.95,
+    "Height": 0.1,
     "Shape": 0
   },
   {
@@ -197,6 +202,7 @@
     "Type": "Terrain",
     "Width": 4.14,
     "Length": 4.14,
+    "Height": 0.1,
     "Shape": 0
   },
   {
@@ -205,6 +211,7 @@
     "Type": "Terrain",
     "Width": 4.14,
     "Length": 4.14,
+    "Height": 0.1,
     "Shape": 0
   },
   {
@@ -213,6 +220,7 @@
     "Type": "Terrain",
     "Width": 6.99,
     "Length": 7.95,
+    "Height": 0.1,
     "Shape": 0
   },
   {
@@ -221,6 +229,7 @@
     "Type": "Terrain",
     "Width": 17.78,
     "Length": 3.51,
+    "Height": 0.1,
     "Shape": 0
   },
   {
@@ -229,6 +238,7 @@
     "Type": "Terrain",
     "Width": 22.56,
     "Length": 6.68,
+    "Height": 0.1,
     "Shape": 0
   },
   {
@@ -237,6 +247,7 @@
     "Type": "Terrain",
     "Width": 12.7,
     "Length": 5.41,
+    "Height": 0.1,
     "Shape": 0
   },
   {
@@ -245,6 +256,7 @@
     "Type": "Terrain",
     "Width": 19.38,
     "Length": 9.83,
+    "Height": 0.1,
     "Shape": 0
   },
   {
@@ -253,6 +265,7 @@
     "Type": "Terrain",
     "Width": 19.38,
     "Length": 9.83,
+    "Height": 0.1,
     "Shape": 0
   },
   {
@@ -261,6 +274,7 @@
     "Type": "Terrain",
     "Width": 7.95,
     "Length": 3.18,
+    "Height": 0.1,
     "Shape": 0
   }
 ]

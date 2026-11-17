@@ -206,7 +206,14 @@ test('temporary built-in hill is absent from terrain and maps', async () => {
     terrains.filter(t => t.Id === 'Hill snow'),
     builtinTerrains,
   );
-  assert.ok(terrains.every(terrain => !('Height' in terrain)));
+  const physical = terrains.filter(terrain => !/Mission marker |Deployment - /.test(terrain.Id));
+  assert.equal(physical.length, 14);
+  assert.ok(physical.every(terrain => terrain.Height === 0.1));
+  assert.ok(
+    terrains
+      .filter(terrain => /Mission marker |Deployment - /.test(terrain.Id))
+      .every(terrain => !('Height' in terrain)),
+  );
   assert.ok(maps.every(map => map.Items.every(item => item.Id !== 'Hill snow')));
 });
 

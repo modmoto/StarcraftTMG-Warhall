@@ -105,6 +105,8 @@ for (const asset of source.assets.filter(asset => !aliases[asset.id])) {
     Type: 'Terrain',
     Width: editorDimension(width),
     Length: editorDimension(length),
+    // Native selection boxes need positive thickness; this is not obstacle geometry.
+    Height: 0.1,
     Shape: 0,
   });
   models.push({

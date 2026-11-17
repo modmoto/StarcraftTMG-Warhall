@@ -175,3 +175,7 @@ Live preview checks found all 16 token thumbnails reachable and decodable as 512
 ## Release 45: narrow coloured deployment models; no terrain Height
 
 The user explicitly removed selection collider heights. Omit Height from every terrain generator, including markers, overlays and the native reference; visible model heights are independent. This supersedes height-preservation requirements. Deployment borders now use closed 1.5 mm wide/0.5 mm tall solid mesh strips in the existing shared object, with red/blue materials imported from mission-marker accents. Preserve PDF entry-edge positions and stable sc_deployment_* assignments. Keep the optional grid pale. Push generated GLBs, then publish only kind deployment with saved login and normal fingerprint replacement. This does not turn imported ramps into supported elevated terrain or fix the editor dropping unmatched helpers.
+
+## Data 154: physical terrain selection exception
+
+The previous blanket Height omission is superseded for the 14 physical map terrain records: keep Height=0.1 cm (1 mm) in the terrain generator. The native selection BoxCollider otherwise has zero thickness, preventing direct click/drag on imported GLBs. Keep Height absent on mission-marker and deployment helper terrain. This is selection metadata, not movement obstacle geometry or ElevatedGround height. See docs/terrain-collider-build.md. No skin reupload or client patch is needed for this data correction.
