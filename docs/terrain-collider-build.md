@@ -55,3 +55,7 @@ Unity 6000.0.81f1 built and reloaded the actual Windows bundle successfully:
 - Export regression checks verify the actual scoreboard GLB node name and identity transforms; existing map footprint/alignment tests pass.
 
 **Required in the new Warhall client:** move across the scoreboard and selection rectangles; stop against a wall's actual stone body; approach the ramp from its low end; attempt a move into its raised side; move and stop on the plateau. Check locked terrain and both players. These tests establish obstacle filtering, no side jumping and stable elevated movement; local raycasts alone do not. macOS bundle compatibility is still unverified.
+
+## Release 153: native scoreboard
+
+The custom flat scoring-board terrain and its automatic map placement were removed because Warhall now supplies its native scoreboard. Keep `InteractiveScoreboardType: Starcraft` enabled. The custom terrain is absent from the active catalogue, terrain menu and all nine map presets; do not reintroduce its generator. Historical hash-named media remains available for old saves.

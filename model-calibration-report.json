@@ -1394,12 +1394,12 @@
     "kind": "unit",
     "authoredSizeMm": [
       62.371389588657124,
-      63.319640790613214,
+      63.31964079061319,
       66.8731575280423
     ],
     "correctedSizeMm": [
       62.371389588657124,
-      63.319640790613214,
+      63.31964079061319,
       66.8731575280423
     ],
     "scaleAdjustment": 1,
@@ -1409,7 +1409,7 @@
         "format": "unity",
         "sourceSize": [
           2.128158896878981,
-          2.160513943723825,
+          2.1605139437238248,
           2.281762617351956
         ],
         "cacheScale": 1.1538454778163618,
@@ -2188,43 +2188,6 @@
           5.08,
           9.595508567940254,
           3.175
-        ],
-        "cacheScale": 0.39370078740157477,
-        "apiScale": 0.39370078740157477,
-        "partCount": 1
-      }
-    ],
-    "rotations": [
-      [
-        0,
-        0,
-        0
-      ]
-    ]
-  },
-  {
-    "profileId": "sc_terrain_scoreboard_score1",
-    "name": "Starcraft - Terrain - Scoreboard - score1",
-    "kind": "terrain",
-    "authoredSizeMm": [
-      731.5199999999999,
-      0,
-      181.66887417218538
-    ],
-    "correctedSizeMm": [
-      731.5199999999999,
-      0,
-      181.66887417218538
-    ],
-    "scaleAdjustment": 1,
-    "portableParts": 0,
-    "sourceParts": [
-      {
-        "format": "glb",
-        "sourceSize": [
-          73.152,
-          0,
-          18.166887417218543
         ],
         "cacheScale": 0.39370078740157477,
         "apiScale": 0.39370078740157477,

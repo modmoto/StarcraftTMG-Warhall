@@ -2,7 +2,6 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import { readFile } from 'node:fs/promises';
 import { terrainMenuId } from '../src/models/menu-ids.mjs';
-import { scoreboardPlacement } from '../src/terrain/scoreboard.mjs';
 const read = async file => JSON.parse(await readFile(new URL(file, import.meta.url), 'utf8'));
 test('all nine maps use the reviewed PDF centers, rotations and calibrated footprints', async () => {
   const source = await read('../terrain-sources.json');
@@ -12,19 +11,11 @@ test('all nine maps use the reviewed PDF centers, rotations and calibrated footp
   const terrains = await read('../Starcraft/terrains.json');
   assert.deepEqual(
     maps.map(map => map.Items.filter(item => item.Type !== 'Token').length),
-    [31, 31, 31, 31, 33, 33, 16, 16, 17],
+    [30, 30, 30, 30, 32, 32, 15, 15, 16],
   );
   assert.equal(calibration.gridInches, 6);
-  for (const [i, map] of maps.entries()) {
-    assert.deepEqual(
-      map.Items.filter(item => item.Type !== 'Token').at(-1),
-      scoreboardPlacement(source.maps[i]),
-    );
-  }
   for (const [i, map] of maps.entries())
-    for (const [j, item] of map.Items.filter(item => item.Type !== 'Token')
-      .slice(0, -1)
-      .entries()) {
+    for (const [j, item] of map.Items.filter(item => item.Type !== 'Token').entries()) {
       const original = source.maps[i].items[j];
       const placement = calibration.maps[String(i + 1)][original.ttsGuid];
       const asset = source.assets.find(
@@ -219,16 +210,13 @@ test('temporary built-in hill is absent from terrain and maps', async () => {
   assert.ok(maps.every(map => map.Items.every(item => item.Id !== 'Hill snow')));
 });
 
-// Read the built artifact, not just the generator: the native movement scanner
-// must be able to ignore the scoring plane without ignoring actual terrain.
-test('scoreboard exports a named VisBase mesh with baked identity transforms', async () => {
+test('native scoreboard replaces the custom terrain on all maps', async () => {
+  const maps = await read('../Starcraft/maps.json');
+  const terrains = await read('../Starcraft/terrains.json');
   const models = await read('../terrain-models.json');
-  const board = models.models.find(model => model.unitName === 'Terrain - Scoreboard - score1');
-  const file = new URL('../model-assets/' + board.model.meshUrl.split('/').at(-1), import.meta.url);
-  const bytes = await readFile(file);
-  const gltf = JSON.parse(bytes.subarray(20, 20 + bytes.readUInt32LE(12)).toString('utf8'));
-  assert.equal(gltf.nodes.length, 1);
-  assert.equal(gltf.nodes[0].name, 'VisBase Scoreboard');
-  assert.equal(gltf.nodes[0].mesh, 0);
-  assert.ok(!gltf.nodes[0].matrix && !gltf.nodes[0].scale && !gltf.nodes[0].rotation);
+  const config = await read('../Starcraft/gameconfig.json');
+  assert.equal(config.InteractiveScoreboardType, 'Starcraft');
+  assert.ok(maps.every(map => map.Items.every(item => !/scoreboard|score1/i.test(item.Id))));
+  assert.ok(terrains.every(item => !/scoreboard|score1/i.test(item.Id)));
+  assert.ok(models.models.every(item => !/scoreboard|score1/i.test(item.unitName)));
 });

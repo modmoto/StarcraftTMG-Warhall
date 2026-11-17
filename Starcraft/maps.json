@@ -245,14 +245,6 @@
         "Type": "Terrain"
       },
       {
-        "Id": "Starcraft - Terrain - Scoreboard - score1",
-        "Type": "Terrain",
-        "Quadrant": 1,
-        "Rotation": 90,
-        "ShortSide": -4.363560515200501,
-        "LongSide": 18
-      },
-      {
         "Id": "Activation - blue - movement",
         "Type": "Token",
         "Quadrant": 1,
@@ -2418,14 +2410,6 @@
         "ShortSide": 10.5,
         "LongSide": 35.25,
         "Type": "Terrain"
-      },
-      {
-        "Id": "Starcraft - Terrain - Scoreboard - score1",
-        "Type": "Terrain",
-        "Quadrant": 1,
-        "Rotation": 90,
-        "ShortSide": -4.363560515200501,
-        "LongSide": 18
       },
       {
         "Id": "Activation - blue - movement",
@@ -4595,14 +4579,6 @@
         "Type": "Terrain"
       },
       {
-        "Id": "Starcraft - Terrain - Scoreboard - score1",
-        "Type": "Terrain",
-        "Quadrant": 1,
-        "Rotation": 90,
-        "ShortSide": -4.363560515200501,
-        "LongSide": 18
-      },
-      {
         "Id": "Activation - blue - movement",
         "Type": "Token",
         "Quadrant": 1,
@@ -6768,14 +6744,6 @@
         "ShortSide": 28.75,
         "LongSide": 20,
         "Type": "Terrain"
-      },
-      {
-        "Id": "Starcraft - Terrain - Scoreboard - score1",
-        "Type": "Terrain",
-        "Quadrant": 1,
-        "Rotation": 90,
-        "ShortSide": -4.363560515200501,
-        "LongSide": 18
       },
       {
         "Id": "Activation - blue - movement",
@@ -8961,14 +8929,6 @@
         "Type": "Terrain"
       },
       {
-        "Id": "Starcraft - Terrain - Scoreboard - score1",
-        "Type": "Terrain",
-        "Quadrant": 1,
-        "Rotation": 90,
-        "ShortSide": -4.363560515200501,
-        "LongSide": 18
-      },
-      {
         "Id": "Activation - blue - movement",
         "Type": "Token",
         "Quadrant": 1,
@@ -11152,14 +11112,6 @@
         "Type": "Terrain"
       },
       {
-        "Id": "Starcraft - Terrain - Scoreboard - score1",
-        "Type": "Terrain",
-        "Quadrant": 1,
-        "Rotation": 90,
-        "ShortSide": -4.363560515200501,
-        "LongSide": 18
-      },
-      {
         "Id": "Activation - blue - movement",
         "Type": "Token",
         "Quadrant": 1,
@@ -13207,14 +13159,6 @@
         "Type": "Terrain"
       },
       {
-        "Id": "Starcraft - Terrain - Scoreboard - score1",
-        "Type": "Terrain",
-        "Quadrant": 1,
-        "Rotation": 90,
-        "ShortSide": -4.363560515200501,
-        "LongSide": 18
-      },
-      {
         "Id": "Activation - blue - movement",
         "Type": "Token",
         "Quadrant": 1,
@@ -15260,14 +15204,6 @@
         "ShortSide": 16.5,
         "LongSide": 12,
         "Type": "Terrain"
-      },
-      {
-        "Id": "Starcraft - Terrain - Scoreboard - score1",
-        "Type": "Terrain",
-        "Quadrant": 1,
-        "Rotation": 90,
-        "ShortSide": -4.363560515200501,
-        "LongSide": 18
       },
       {
         "Id": "Activation - blue - movement",
@@ -17323,14 +17259,6 @@
         "ShortSide": 21.375,
         "LongSide": 5.75,
         "Type": "Terrain"
-      },
-      {
-        "Id": "Starcraft - Terrain - Scoreboard - score1",
-        "Type": "Terrain",
-        "Quadrant": 1,
-        "Rotation": 90,
-        "ShortSide": -4.363560515200501,
-        "LongSide": 18
       },
       {
         "Id": "Activation - blue - movement",

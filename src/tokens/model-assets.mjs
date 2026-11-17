@@ -37,6 +37,9 @@ export function tokenGeometry(texture, segments = 96, diameterMm = tokenDiameter
 
 export async function createTokenAssets(definitions = tokenDefinitions) {
   const index = JSON.parse(await readFile(path.join(projectRoot, 'token-artwork.json')));
+  const overrides = JSON.parse(
+    await readFile(path.join(projectRoot, 'token-model-overrides.json')),
+  );
   const directory = path.join(projectRoot, 'model-assets');
   await mkdir(directory, { recursive: true });
   const entries = [];
@@ -93,7 +96,9 @@ export async function createTokenAssets(definitions = tokenDefinitions) {
       tokenDiameterMm: diameterMm,
       parts: [
         {
-          modelUrl: `${modelAssetBaseUrl}/${filename}`,
+          // Preserve reviewed Unity colliders and renderer tags across catalogue rebuilds.
+          modelUrl:
+            overrides[`sc_token_${token.id}`]?.modelUrl ?? `${modelAssetBaseUrl}/${filename}`,
           textureUrl: null,
           hostedAsset: true,
           transforms,

@@ -10,11 +10,6 @@ import { sha256, readJson } from '../src/io.mjs';
 import { projectRoot, defaultDataDirectory } from '../src/paths.mjs';
 import { assembleTerrain } from '../src/terrain/geometry.mjs';
 import { encodeGlb } from '../src/models/portable-glb.mjs';
-import {
-  buildScoreboard,
-  scoreboardPlacement,
-  scoreboardTerrain,
-} from '../src/terrain/scoreboard.mjs';
 
 const flags = process.argv.slice(2);
 assert.ok(
@@ -170,10 +165,6 @@ for (const asset of source.assets.filter(asset => !aliases[asset.id])) {
     terrains.push({ ...terrains.at(-1), Id: raisedObeliskName, Name: 'Temple Obelisk (Raised)' });
   }
 }
-const scoreboard = await buildScoreboard();
-for (const [file, bytes] of scoreboard.files) files.set(path.join(projectRoot, file), bytes);
-models.push(scoreboard.model);
-terrains.push(scoreboardTerrain);
 const maps = source.maps.map(map => ({
   Id: `sc_map_${map.number}`,
   Name: map.name,
@@ -194,7 +185,6 @@ const maps = source.maps.map(map => ({
         Type: 'Terrain',
       };
     }),
-    scoreboardPlacement(map),
     ...tokenTrayPlacements(map),
   ],
 }));

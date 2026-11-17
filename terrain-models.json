@@ -379,32 +379,6 @@
         ]
       },
       "attachments": []
-    },
-    {
-      "terrainId": "sc_terrain_scoreboard_score1",
-      "unitName": "Terrain - Scoreboard - score1",
-      "status": "selected",
-      "calibration": "pdf-grid-v1",
-      "model": {
-        "meshUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/f0c301de7bcbfbb74941dfb1dafc60364b2721d2e68507099555ecfb3b37a907.glb",
-        "textureUrl": null,
-        "hostedAsset": true,
-        "previewGeometryFile": "model-assets/f0c301de7bcbfbb74941dfb1dafc60364b2721d2e68507099555ecfb3b37a907.glb.preview.json"
-      },
-      "layout": {
-        "size": 0.39370078740157477,
-        "position": [
-          0,
-          0,
-          0
-        ],
-        "rotation": [
-          0,
-          0,
-          0
-        ]
-      },
-      "attachments": []
     }
   ]
 }
