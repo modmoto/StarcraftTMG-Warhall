@@ -98,7 +98,10 @@ export async function encodeGlb(geometry) {
         },
       ],
     });
-    nodes.push({ mesh: meshes.length - 1 });
+    nodes.push({
+      mesh: meshes.length - 1,
+      ...(geometryMesh.name ? { name: geometryMesh.name } : {}),
+    });
   }
   const binary = Buffer.concat(chunks);
   const gltf = {

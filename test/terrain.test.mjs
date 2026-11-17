@@ -218,3 +218,17 @@ test('temporary built-in hill is absent from terrain and maps', async () => {
   assert.ok(terrains.every(terrain => !('Height' in terrain)));
   assert.ok(maps.every(map => map.Items.every(item => item.Id !== 'Hill snow')));
 });
+
+// Read the built artifact, not just the generator: the native movement scanner
+// must be able to ignore the scoring plane without ignoring actual terrain.
+test('scoreboard exports a named VisBase mesh with baked identity transforms', async () => {
+  const models = await read('../terrain-models.json');
+  const board = models.models.find(model => model.unitName === 'Terrain - Scoreboard - score1');
+  const file = new URL('../model-assets/' + board.model.meshUrl.split('/').at(-1), import.meta.url);
+  const bytes = await readFile(file);
+  const gltf = JSON.parse(bytes.subarray(20, 20 + bytes.readUInt32LE(12)).toString('utf8'));
+  assert.equal(gltf.nodes.length, 1);
+  assert.equal(gltf.nodes[0].name, 'VisBase Scoreboard');
+  assert.equal(gltf.nodes[0].mesh, 0);
+  assert.ok(!gltf.nodes[0].matrix && !gltf.nodes[0].scale && !gltf.nodes[0].rotation);
+});

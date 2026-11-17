@@ -72,6 +72,7 @@ export async function buildScoreboard() {
   const png = await sharp(Buffer.from(svg)).png().toBuffer();
   const { data, info } = await sharp(png).ensureAlpha().raw().toBuffer({ resolveWithObject: true });
   const mesh = {
+    name: 'VisBase Scoreboard',
     vertices: [
       [-width / 2, 0.06, -length / 2],
       [-width / 2, 0.06, length / 2],
