@@ -10,7 +10,7 @@ export const blastTemplateDiameterMm = 130;
 export const blastTemplateOrange = [255, 132, 24];
 export function blastTemplateGeometry() {
   const radius = blastTemplateDiameterMm / 20,
-    inner = radius - 0.1,
+    inner = radius - 0.2,
     segments = 128;
   const mesh = {
     vertices: [],

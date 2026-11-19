@@ -86,7 +86,7 @@ public static class BuildBlastTemplate
         // An opaque shader cannot expose an interior face: none exists.
         ring.sharedMaterial.shader=Shader.Find("Standard");
         foreach(var v in baked.vertices)
-            if(new Vector2(v.x,v.z).magnitude<6.399f)throw new Exception("Unexpected interior geometry");
+            if(new Vector2(v.x,v.z).magnitude<6.299f)throw new Exception("Unexpected interior geometry");
         if(instance.GetComponentsInChildren<Renderer>().Length!=1)throw new Exception("Unexpected fill or cylinder renderer");
         UnityEngine.Object.DestroyImmediate(baked);
         Debug.Log("BLAST_RING_ONLY_OK circularColliderFallback=true visibleFill=false");

@@ -220,12 +220,15 @@ test('Blast Template exports only a flat orange ring without fill or cylinder', 
     await import('../src/tokens/blast-template.mjs');
   const ring = blastTemplateGeometry();
   assert.deepEqual([...ring.texture.data], [...blastTemplateOrange, 255]);
+  const radii = ring.vertices.map(v => Math.hypot(v[0], v[2]));
+  assert.ok(Math.abs(Math.max(...radii) - 6.5) < 1e-9);
+  assert.ok(Math.abs(Math.min(...radii) - 6.3) < 1e-9);
   assert.ok(ring.vertices.every(v => Math.abs(v[1] - 0.08) < 1e-9));
-  assert.ok(ring.vertices.every(v => Math.hypot(v[0], v[2]) >= 6.4 - 1e-9));
+  assert.ok(ring.vertices.every(v => Math.hypot(v[0], v[2]) >= 6.3 - 1e-9));
   const entry = (await read('model-catalogue.json')).entries.find(
     e => e.profileId === 'Token5Inch',
   );
   const preview = await read(entry.parts[0].previewGeometryFile);
   assert.equal(preview.length, 1);
-  assert.ok(preview[0].vertices.every(v => Math.hypot(v[0], v[2]) >= 6.4 - 1e-9));
+  assert.ok(preview[0].vertices.every(v => Math.hypot(v[0], v[2]) >= 6.3 - 1e-9));
 });
