@@ -51,6 +51,8 @@ const defaults = id => defaultMenuSkins(usages, game.IdGame, id);
 const plan = menuBindingPlan(entries, usages, game.IdGame);
 // Built-in reference: resolve on this server rather than copying a test skin ID.
 for (const nativeName of [...builtinTokenNames, ...builtinTerrains.map(terrain => terrain.Id)]) {
+  // A custom, dimensioned template can intentionally replace a native reference.
+  if (entries.some(entry => entry.profileId === nativeName)) continue;
   const nativeResult = await request(
     `/GetCatalogueSkins?viewMode=public&search=${encodeURIComponent(nativeName)}&perPage=200&page=1&sortOrder=newest`,
   );

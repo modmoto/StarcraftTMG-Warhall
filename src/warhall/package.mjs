@@ -159,10 +159,10 @@ async function initialData(template) {
 
   data['gameconfig.json'].WoundsAttribute = 'HP';
   data['gameconfig.json'].DefaultCardConfig.Color2 = '';
-  // The editor exports No Formations with Cloud as its compatibility entry.
+  // Preserve the maintained native formation choice; use Cloud only for an empty template.
   data['gameconfig.json'].NoFormations = true;
-  data['gameconfig.json'].Formations = [{ Index: 0, Type: 'Cloud' }];
-  data['gameconfig.json'].DefaultFormation = 'Cloud';
+  data['gameconfig.json'].Formations ??= [{ Index: 0, Type: 'Cloud' }];
+  data['gameconfig.json'].DefaultFormation ??= 'Cloud';
   data['gameconfig.json'].DefaultSoldierSelectionMode = false;
   data['gameconfig.json'].MaxCloudSeparation = 0;
   data['gameconfig.json'].ShownButtons = (data['gameconfig.json'].ShownButtons ?? []).filter(

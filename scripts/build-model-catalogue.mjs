@@ -1,3 +1,4 @@
+import { createBlastTemplateAsset } from '../src/tokens/blast-template.mjs';
 import { readFile, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 import { projectRoot } from '../src/paths.mjs';
@@ -72,6 +73,7 @@ const { catalogue, report } = await calibrateCatalogue(raw);
 const markerAssets = await createMarkerAssets();
 catalogue.entries.push(...markerAssets);
 catalogue.entries.push(...(await createTokenAssets()));
+catalogue.entries.push(await createBlastTemplateAsset());
 catalogue.entries.push(...(await createDeploymentAssets(await read('deployment-templates.json'))));
 validateCatalogue(catalogue);
 await writeFile(

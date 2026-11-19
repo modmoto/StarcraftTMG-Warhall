@@ -4,30 +4,11 @@ import path from 'node:path';
 
 const arrow = '<path d="M256 102 378 242H310V374H202V242H134Z"/>';
 
-function shieldRaster() {
-  const radius = 80;
-  const height = Math.sqrt(3) * radius;
-  const cells = [];
-  for (let column = -2; column <= 2; column++) {
-    for (let row = -2; row <= 2; row++) {
-      const x = 256 + column * radius * 1.5;
-      const y = 256 + height * (row + column / 2);
-      const points = Array.from({ length: 6 }, (_, corner) => {
-        const angle = (corner * Math.PI) / 3;
-        return `${x + radius * Math.cos(angle)},${y + radius * Math.sin(angle)}`;
-      }).join(' ');
-      cells.push(`<polygon points="${points}"/>`);
-    }
-  }
-  return `<defs><clipPath id="shield-grid"><circle cx="256" cy="256" r="210"/></clipPath></defs><g clip-path="url(#shield-grid)" fill="none" stroke="currentColor" stroke-width="9" stroke-linejoin="round">${cells.join('')}</g>`;
-}
-
 const symbols = {
   bile_bomb:
     '<path d="M256 93C226 150 174 201 174 269a82 82 0 0 0 164 0c0-68-52-119-82-176Z"/><path d="M216 257q-10 49 36 64" fill="none" stroke="#487527" stroke-width="13" stroke-linecap="round"/>',
   creep_tumor:
     '<path d="M256 116c42 0 65 31 71 62l47 23-21 38 25 54-39 20-13 57-43-15-27 33-27-33-43 15-13-57-39-20 25-54-21-38 47-23c6-31 29-62 71-62Z"/><circle cx="256" cy="250" r="52" fill="#77368d"/><circle cx="256" cy="250" r="24"/>',
-  shield: shieldRaster(),
   arrow,
   crosshair:
     '<g fill="none" stroke="currentColor" stroke-width="22"><path d="M168 176V142H222M290 142H344V196M344 290V344H290M222 344H168V290M256 102V204M256 282V384M114 244H216M296 244H398"/><path d="M236 224H276V264H236Z" fill="currentColor" stroke="none"/></g>',
@@ -62,11 +43,7 @@ export async function tokenImage(root, token) {
   const symbol = token.symbol;
   const accent = token.color;
   const background = token.inverted ? '#f7f6ee' : accent;
-  const ink = ['shield', 'hidden', 'stim'].includes(symbol)
-    ? '#000000'
-    : token.inverted
-      ? accent
-      : '#ffffff';
+  const ink = ['hidden', 'stim'].includes(symbol) ? '#000000' : token.inverted ? accent : '#ffffff';
   const logo = !symbols[symbol]
     ? await logoVector(root, symbol, ink, 'x="120" y="105" width="272" height="272"')
     : `<g color="${ink}" fill="${ink}">${symbols[symbol]}</g>`;

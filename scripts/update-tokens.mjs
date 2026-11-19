@@ -25,6 +25,10 @@ function asset(bytes) {
 }
 for (const token of tokenDefinitions) {
   artwork[token.id] = asset(await tokenImage(projectRoot, token));
+  if (token.backSymbol)
+    artwork[`${token.id}_back`] = asset(
+      await tokenImage(projectRoot, { ...token, symbol: token.backSymbol }),
+    );
 }
 for (const [name, color] of Object.entries(factionColors)) {
   icons[name.toLowerCase()] = asset(await factionLogo(projectRoot, name.toLowerCase(), color));
@@ -40,5 +44,5 @@ for (const [filename, bytes] of files) {
   else await writeFile(filename, bytes);
 }
 console.log(
-  `${check ? 'Verified' : 'Generated'} ${tokenDefinitions.length} single-sided round tokens and three faction icons.`,
+  `${check ? 'Verified' : 'Generated'} ${tokenDefinitions.length} custom token fronts/backs and three faction icons.`,
 );

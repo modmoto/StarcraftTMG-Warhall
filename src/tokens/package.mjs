@@ -6,16 +6,15 @@ export const activationDiameterMm = 32;
 export const factionColors = { Terran: '#2467d1', Protoss: '#b68a20', Zerg: '#9a44bd' };
 
 export const tokenDefinitions = [
-  ...['blue', 'red'].flatMap(color =>
-    ['arrow', 'crosshair'].map(symbol => ({
-      id: `activation_${color}_${symbol}`,
-      name: `Activation - ${color} - ${symbol === 'arrow' ? 'movement' : 'assault'}`,
-      symbol,
-      diameterMm: activationDiameterMm,
-      color: color === 'blue' ? '#2467d1' : '#d33d48',
-      description: `Activation reminder: ${symbol === 'arrow' ? 'movement' : 'assault'}.`,
-    })),
-  ),
+  ...['blue', 'red'].map(color => ({
+    id: `activation_${color}_arrow`,
+    name: `Activation - ${color} - movement`,
+    symbol: 'arrow',
+    backSymbol: 'crosshair',
+    diameterMm: activationDiameterMm,
+    color: color === 'blue' ? '#2467d1' : '#d33d48',
+    description: 'Two-sided activation marker: Movement front, Assault back.',
+  })),
   ...Object.entries(factionColors).flatMap(([faction, color]) =>
     [false, true].map(inverted => ({
       id: `faction_${faction.toLowerCase()}_${inverted ? 'white' : 'color'}`,
@@ -76,13 +75,6 @@ export const tokenDefinitions = [
     description:
       'Ravager Corrosive Bile marker. Resolve its effect at the end of the Assault Phase.',
   },
-  {
-    id: 'shield',
-    name: 'Shield',
-    symbol: 'shield',
-    color: '#35cedc',
-    description: 'Protoss shield counter. Track the remaining shields using the token notes.',
-  },
 ];
 
 export const builtinTokenNames = [
@@ -106,6 +98,7 @@ export function nativeTokens() {
       Id: name,
       Name: name === 'Token5Inch' ? 'Blast Template' : name,
       Type: 'Token',
+      ...(name === 'Token5Inch' ? { IsTemplate: true } : {}),
     })),
   ];
   const ranks = new Map(tokenMenuOrder.map((id, index) => [id, index]));

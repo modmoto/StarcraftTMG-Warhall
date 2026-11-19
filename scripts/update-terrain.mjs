@@ -108,6 +108,7 @@ for (const asset of source.assets.filter(asset => !aliases[asset.id])) {
     // Native selection boxes need positive thickness; this is not obstacle geometry.
     Height: 0.1,
     Shape: 0,
+    IsBaseTransparent: true,
   });
   models.push({
     terrainId: asset.id,

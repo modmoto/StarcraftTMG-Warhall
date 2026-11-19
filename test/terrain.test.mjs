@@ -222,7 +222,7 @@ test('native scoreboard replaces the custom terrain on all maps', async () => {
   const terrains = await read('../Starcraft/terrains.json');
   const models = await read('../terrain-models.json');
   const config = await read('../Starcraft/gameconfig.json');
-  assert.equal(config.InteractiveScoreboardType, 'Starcraft');
+  assert.equal(config.Scoreboard.Enabled, true);
   assert.ok(maps.every(map => map.Items.every(item => !/scoreboard|score1/i.test(item.Id))));
   assert.ok(terrains.every(item => !/scoreboard|score1/i.test(item.Id)));
   assert.ok(models.models.every(item => !/scoreboard|score1/i.test(item.unitName)));

@@ -8,7 +8,11 @@ using UnityEngine.Rendering;
 
 public static class BuildTokenColliders
 {
-    public static void Run()
+    public static void Run() { Build(false); }
+
+    public static void RunActivationTokens() { Build(true); }
+
+    private static void Build(bool activationOnly)
     {
         InternalEditorUtility.AddTag("Token");
         // The native Warhall token renderer serializes Token as 20000 + 20.
@@ -32,16 +36,19 @@ public static class BuildTokenColliders
             throw new Exception("Warhall Token tag configured. Restart Unity and run the builder again.");
         }
         var builds = new List<AssetBundleBuild>();
+        var activeIds = new HashSet<string>(File.ReadAllLines("Assets/TokenColliderInput/active-ids.txt"));
         foreach (var directory in Directory.GetDirectories("Assets/TokenColliderInput"))
         {
             var id = Path.GetFileName(directory);
+            if (!activeIds.Contains(id) || id == "Token5Inch") continue; // Dedicated template builder.
+            if (activationOnly && id != "sc_token_activation_blue_arrow" && id != "sc_token_activation_red_arrow") continue;
             var root = new GameObject(id);
             using (var input = new BinaryReader(File.OpenRead(directory + "/geometry.bytes")))
             {
                 var diameter = input.ReadSingle();
                 var collider = root.AddComponent<BoxCollider>();
                 collider.size = new Vector3(diameter, 0.16f, diameter);
-                collider.center = Vector3.up * 0.08f;
+                collider.center = id.StartsWith("sc_token_activation_") ? Vector3.zero : Vector3.up * 0.08f;
                 var parts = input.ReadInt32();
                 for (var part = 0; part < parts; part++)
                 {
@@ -99,6 +106,20 @@ public static class BuildTokenColliders
                 var origin = Vector3.up * 2 + direction * (collider.size.x * 0.46f);
                 if (!Physics.Raycast(origin, Vector3.down, out var hit, 4f) || hit.collider != collider)
                     throw new Exception("Token edge raycast missed: " + build.assetBundleName);
+            }
+            if(activationOnly)
+            {
+                if(Mathf.Abs(collider.size.x-3.2f)>0.0001f || collider.center!=Vector3.zero)
+                    throw new Exception("Activation token must be centred and 32mm");
+                instance.transform.rotation=Quaternion.Euler(0,0,180);Physics.SyncTransforms();
+                if(!Physics.Raycast(new Vector3(0,2,0),Vector3.down,out var flipped,4) || flipped.collider!=collider || Mathf.Abs(flipped.point.y-0.08f)>0.0001f)
+                    throw new Exception("Flipped activation token changed table height");
+                var renderers=instance.GetComponentsInChildren<MeshRenderer>();
+                if(renderers.Length!=3)throw new Exception("Expected front, rim and back meshes");
+                var back=renderers[2].GetComponent<MeshFilter>().sharedMesh;
+                if(instance.transform.TransformDirection(back.normals[0]).y<0.99f)
+                    throw new Exception("Back face points away after native Z flip");
+                Debug.Log("ACTIVATION_FLIP_OK "+build.assetBundleName+" diameterMm=32 heightStable=true backFacesUp=true");
             }
             UnityEngine.Object.DestroyImmediate(instance);
             bundle.Unload(true);

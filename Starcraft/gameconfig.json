@@ -3,17 +3,44 @@
     "Quadrants": true,
     "QuadrantsName": "Quadrants",
     "Borders": [
-      { "Name": "6\" border", "Values": [6] }
+      {
+        "Name": "6\" border",
+        "Values": [
+          6
+        ]
+      }
     ],
     "MiddleCircles": [
-      { "Name": "3\" / 6\" circles", "Values": [3, 6] },
-      { "Name": "9\" circle", "Values": [9] }
+      {
+        "Name": "3\" / 6\" circles",
+        "Values": [
+          3,
+          6
+        ]
+      },
+      {
+        "Name": "9\" circle",
+        "Values": [
+          9
+        ]
+      }
     ],
     "Sides": [
-      { "Name": "3\" / 5\" sides", "Values": [3, 5] }
+      {
+        "Name": "3\" / 5\" sides",
+        "Values": [
+          3,
+          5
+        ]
+      }
     ],
     "Grid": [
-      { "Name": "1\" grid", "Values": [1] }
+      {
+        "Name": "1\" grid",
+        "Values": [
+          1
+        ]
+      }
     ]
   },
   "BattlegroundWidth": 54,
@@ -22,21 +49,42 @@
   "Scoreboard": {
     "Enabled": true,
     "Rows": [
-      { "Label": "R1" },
-      { "Label": "R2" },
-      { "Label": "R3" },
-      { "Label": "R4" },
-      { "Label": "R5" }
+      {
+        "Label": "R1"
+      },
+      {
+        "Label": "R2"
+      },
+      {
+        "Label": "R3"
+      },
+      {
+        "Label": "R4"
+      },
+      {
+        "Label": "R5"
+      }
     ],
     "Columns": [
-      { "Label": "Supply" },
-      { "Label": "Mission" }
+      {
+        "Label": "Supply"
+      },
+      {
+        "Label": "Mission"
+      }
     ],
     "PlayerTrackers": [
-      { "Label": "Current supply", "ShowOverShared": "GlobalSupply" }
+      {
+        "Label": "Current supply",
+        "ShowOverShared": "GlobalSupply"
+      }
     ],
     "SharedTrackers": [
-      { "Id": "GlobalSupply", "Label": "Global supply", "Default": 6 }
+      {
+        "Id": "GlobalSupply",
+        "Label": "Global supply",
+        "Default": 6
+      }
     ],
     "PlayerColors": "BlueRed",
     "ColorSwapButton": true
@@ -44,7 +92,9 @@
   "ShieldsAttribute": "Shd",
   "DefaultMagnet": false,
   "WoundCount": "Down",
-  "GameStateViewSections": [8],
+  "GameStateViewSections": [
+    8
+  ],
   "AvailableDice": [
     "D6",
     "D3"

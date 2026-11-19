@@ -4,6 +4,11 @@ import path from 'node:path';
 const project = path.resolve('.cache/ramp-collider-test');
 const catalogue = JSON.parse(fs.readFileSync('model-catalogue.json'));
 const entries = catalogue.entries.filter(entry => entry.kind === 'token');
+fs.mkdirSync(path.join(project, 'Assets/TokenColliderInput'), { recursive: true });
+fs.writeFileSync(
+  path.join(project, 'Assets/TokenColliderInput/active-ids.txt'),
+  entries.map(entry => entry.profileId).join('\n'),
+);
 for (const entry of entries) {
   const directory = path.join(project, 'Assets/TokenColliderInput', entry.profileId);
   fs.mkdirSync(directory, { recursive: true });

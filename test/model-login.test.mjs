@@ -100,3 +100,26 @@ test('new Test registration uses its own game name and checkpoint without changi
   assert.equal(prod.stateFile, '.cache/model-publication-prod.json');
   assert.equal(source.gameName, 'Starcraft');
 });
+
+test('Warhall login accepts the public Vite Firebase configuration', async () => {
+  const fetcher = async input => {
+    const url = String(input);
+    if (url.endsWith('/'))
+      return new Response('<script type="module" src="/assets/index.js"></script>');
+    if (url.endsWith('/assets/index.js'))
+      return new Response('const env={VITE_FIREBASE_API_KEY:"AIzaPublicViteConfig"}');
+    if (url.includes('identitytoolkit.googleapis.com'))
+      return Response.json({ idToken: 'test-token' });
+    if (url.endsWith('/sessionLogin'))
+      return new Response('{}', { headers: { 'Set-Cookie': 'session=test; HttpOnly; Secure' } });
+    throw new Error('Unexpected URL');
+  };
+  assert.equal(
+    await loginWarhall('https://apptest.warhall.eu', {
+      fetcher,
+      email: 'test@example.com',
+      password: 'test-password',
+    }),
+    'session=test',
+  );
+});

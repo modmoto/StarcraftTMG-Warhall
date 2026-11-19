@@ -1,15 +1,9 @@
 {
   "sc_token_activation_blue_arrow": {
-    "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/ceffb0d403b0b105dae34fdeac644ad6fc91cf968a23b16eac7fd32ef108489d.unity3d"
-  },
-  "sc_token_activation_blue_crosshair": {
-    "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/11c550c71a62168608c9b3c81d706c171119ef94362436410503c01e5beb3e5f.unity3d"
+    "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/193cd9ae3fe234996185981b2a878f38b01d853f64aa2af978a7f3ac19efd602.unity3d"
   },
   "sc_token_activation_red_arrow": {
-    "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/ef2c40c78377c95b6ef5735acfe86d326b75cb4ff8fac0d8cd78e01d4a70b03d.unity3d"
-  },
-  "sc_token_activation_red_crosshair": {
-    "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/d35c3505cf940be6f40bf228c09562bd832e9f1f50757ce156040bdafb4c6b77.unity3d"
+    "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/1450094e43e34808aa3ae2e2530b48b0ea6e7f3c9a819112f339f88a9cfdc302.unity3d"
   },
   "sc_token_faction_terran_color": {
     "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/b2c81af027ce931dccff55c6a38a0d048251ec4d5435fe50d59a07cae60028a9.unity3d"
@@ -55,8 +49,5 @@
   },
   "sc_token_corrosive_bile": {
     "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/ff78a31f59def46b2da2276b7b10a43cf61ab7c79780cb29cf8b6531d65aac8b.unity3d"
-  },
-  "sc_token_shield": {
-    "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/d71e5fc46492a84617130e11de2574b27fec305630f8c0463dfdd1b18d59fba9.unity3d"
   }
 }

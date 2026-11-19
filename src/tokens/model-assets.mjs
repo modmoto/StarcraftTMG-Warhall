@@ -60,6 +60,25 @@ export async function createTokenAssets(definitions = tokenDefinitions) {
           ...(await zergTokenGeometry(token.id, diameterMm)),
         ]
       : tokenGeometry({ width: info.width, height: info.height, data }, 96, diameterMm);
+    if (token.backSymbol) {
+      // The native flip rotates 180 degrees around local Z. Centre the token on
+      // that pivot so neither face sinks below the table after flipping.
+      meshes[0].vertices = meshes[0].vertices.map(([x, y, z]) => [x, y - 0.08, z]);
+      meshes[1].vertices = meshes[1].vertices.map(([x, y, z]) => [x, y === 0.02 ? -0.08 : 0.08, z]);
+      const backImage = path.join(
+        projectRoot,
+        'Starcraft/assets/tokens',
+        index.artwork[`${token.id}_back`].split('/').at(-1),
+      );
+      const back = await sharp(backImage).ensureAlpha().raw().toBuffer({ resolveWithObject: true });
+      const face = tokenGeometry(
+        { width: back.info.width, height: back.info.height, data: back.data },
+        96,
+        diameterMm,
+      )[0];
+      face.vertices = face.vertices.map(([x, , z]) => [-x, -0.08, z]);
+      meshes.push(face);
+    }
     const bytes = await encodeGlb(meshes);
     const filename = `${createHash('sha256').update(bytes).digest('hex')}.glb`;
     const previewGeometryFile = `model-assets/${filename}.preview.json`;

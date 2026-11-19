@@ -26,7 +26,7 @@ export async function loginWarhall(serverUrl, { fetcher = fetch, email, password
   const configResponse = await send(moduleUrl);
   if (!configResponse.ok) throw new Error('Could not load Warhall frontend configuration');
   const config = await configResponse.text();
-  const apiKey = config.match(/apiKey\s*:\s*["'](AIza[^"']+)["']/)?.[1];
+  const apiKey = config.match(/(?:apiKey|VITE_FIREBASE_API_KEY)\s*:\s*["'](AIza[^"']+)["']/)?.[1];
   if (!apiKey) throw new Error('Warhall Firebase configuration not found');
   if (!email.includes('@')) {
     const lookup = await send(new URL(`/GetEmail/${encodeURIComponent(email)}`, server));
