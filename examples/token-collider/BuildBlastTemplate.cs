@@ -29,11 +29,19 @@ public static class BuildBlastTemplate
                 mesh.RecalculateNormals();mesh.RecalculateBounds();
                 string stem=dir+"/blast-part"+part;
                 AssetDatabase.DeleteAsset(stem+".asset");AssetDatabase.CreateAsset(mesh,stem+".asset");
-                var material=new Material(Shader.Find(part==1 ? "Unlit/Transparent" : "Unlit/Texture"));
-                material.mainTexture=AssetDatabase.LoadAssetAtPath<Texture2D>(dir+"/"+part+".png");
+                var material=new Material(Shader.Find(part>0 ? "Unlit/Transparent" : "Unlit/Texture"));
+                var texturePath=dir+"/"+part+".png";
+                var importer=(TextureImporter)AssetImporter.GetAtPath(texturePath);
+                importer.alphaSource=TextureImporterAlphaSource.FromInput;
+                importer.alphaIsTransparency=true;
+                importer.textureCompression=TextureImporterCompression.Uncompressed;
+                importer.mipmapEnabled=false;
+                importer.wrapMode=TextureWrapMode.Clamp;
+                importer.SaveAndReimport();
+                material.mainTexture=AssetDatabase.LoadAssetAtPath<Texture2D>(texturePath);
                 if(!material.mainTexture)throw new Exception("Missing texture");
                 AssetDatabase.DeleteAsset(stem+".mat");AssetDatabase.CreateAsset(material,stem+".mat");
-                var visual=new GameObject("Visual ring");visual.tag="Token";visual.transform.SetParent(root.transform,false);
+                var visual=new GameObject(part==0 ? "Visual orange rim" : part==1 ? "Template contact surface" : "Visual fading cylinder");visual.tag="Token";visual.transform.SetParent(root.transform,false);
                 visual.AddComponent<MeshFilter>().sharedMesh=mesh;visual.AddComponent<MeshRenderer>().sharedMaterial=material;
             }
             // A filled circular selection surface, independent of the open visual ring.
@@ -57,6 +65,11 @@ public static class BuildBlastTemplate
         foreach(var r in instance.GetComponentsInChildren<Renderer>())if(!r.CompareTag("Token"))throw new Exception("Missing Token tag");
         foreach(var x in new[]{0f,6.4f})if(!Physics.Raycast(new Vector3(x,5,0),Vector3.down,10))throw new Exception("Circle click missed");
         if(Physics.Raycast(new Vector3(6.4f,5,6.4f),Vector3.down,10))throw new Exception("Square corner must not count as circle");
+        var wall=instance.transform.Find("Visual fading cylinder").GetComponent<MeshFilter>().sharedMesh;
+        if(!wall.isReadable || Mathf.Abs(wall.bounds.size.y-4)>0.0001f)throw new Exception("Expected 40mm fading cylinder");
+        var wallMaterial=instance.transform.Find("Visual fading cylinder").GetComponent<MeshRenderer>().sharedMaterial;
+        if(wallMaterial.shader.name!="Unlit/Transparent")throw new Exception("Cylinder must alpha blend");
+        Debug.Log("BLAST_CYLINDER_OK heightMm="+wall.bounds.size.y*10+" alphaBlend=true");
         Debug.Log("BLAST_TEMPLATE_130MM_OK diameterCm="+bounds.size.x+" centerAndEdgeClicks=true outsideCorner=false");
         UnityEngine.Object.DestroyImmediate(instance);bundle.Unload(true);
     }

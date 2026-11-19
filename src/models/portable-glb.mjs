@@ -81,8 +81,8 @@ export async function encodeGlb(geometry) {
       images.push({ bufferView: addBuffer(png), mimeType: 'image/png' });
       textures.push({ source: images.length - 1 });
       material.pbrMetallicRoughness.baseColorTexture = { index: textures.length - 1 };
-      material.alphaMode = 'MASK';
-      material.alphaCutoff = 0.25;
+      material.alphaMode = geometryMesh.alphaMode ?? 'MASK';
+      if (material.alphaMode === 'MASK') material.alphaCutoff = 0.25;
     }
     materials.push(material);
     meshes.push({
