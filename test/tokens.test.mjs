@@ -73,40 +73,20 @@ test('all faction names match icon lookup and icons ship in the manifest', async
   }
 });
 
-test('all seven native tokens retain their prefab identities without duplicate uploads', async () => {
+test('native Warhall references are removed while the custom Blast Template remains', async () => {
   const { nativeTokens, builtinTokenNames } = await import('../src/tokens/package.mjs');
-  assert.deepEqual(builtinTokenNames, [
-    'TokenWarhallBlue',
-    'TokenWarhallOrange',
-    'TokenWarhallBlack',
-    'TokenWarhallWhite',
-    'TokenWarhallPurple',
-    'Token3Inch',
-    'Token5Inch',
-  ]);
+  assert.deepEqual(builtinTokenNames, []);
   const generated = nativeTokens();
-  const shipped = await read('Starcraft/tokens.json');
-  const catalogue = await read('model-catalogue.json');
-  for (const name of builtinTokenNames) {
-    const reference = {
-      Id: name,
-      Name: name === 'Token5Inch' ? 'Blast Template' : name,
-      Type: 'Token',
-      ...(name === 'Token5Inch' ? { IsTemplate: true } : {}),
-    };
-    assert.deepEqual(
-      generated.filter(token => token.Id === name),
-      [reference],
-    );
-    assert.deepEqual(
-      shipped.filter(token => token.Id === name),
-      [reference],
-    );
-    assert.equal(
-      catalogue.entries.some(entry => entry.profileId === name),
-      name === 'Token5Inch',
-    );
-  }
+  assert.deepEqual(generated, await read('Starcraft/tokens.json'));
+  assert.ok(
+    generated.every(token => !token.Id.startsWith('TokenWarhall') && token.Id !== 'Token3Inch'),
+  );
+  assert.deepEqual(generated[0], {
+    Id: 'Token5Inch',
+    Name: 'Blast Template',
+    Type: 'Token',
+    IsTemplate: true,
+  });
 });
 
 test('generator reproduces the editor token records and catalogue order exactly', async () => {
@@ -206,4 +186,31 @@ test('Shield token is absent from definitions, menu, maps and active skins', asy
     assert.equal(tokens.filter(token => token.Id === 'Activation - blue - movement').length, 15);
     assert.equal(tokens.filter(token => token.Id === 'Activation - red - movement').length, 15);
   }
+});
+
+test('token menu groups templates, activation, factions, buffs and sorted effects', async () => {
+  const tokens = await read('Starcraft/tokens.json');
+  assert.deepEqual(
+    tokens.map(token => token.Name),
+    [
+      'Blast Template',
+      'Activation - blue - movement',
+      'Activation - red - movement',
+      'Terran - blue',
+      'Terran - white',
+      'Protoss - yellow',
+      'Protoss - white',
+      'Zerg - purple',
+      'Zerg - white',
+      'Buff',
+      'Debuff',
+      'Bile Bomb',
+      'Corrosive Bile',
+      'Burrowed',
+      'Creep Tumor',
+      'Hidden',
+      'Siege Status',
+      'Stim',
+    ],
+  );
 });

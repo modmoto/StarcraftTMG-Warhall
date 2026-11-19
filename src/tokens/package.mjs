@@ -77,15 +77,7 @@ export const tokenDefinitions = [
   },
 ];
 
-export const builtinTokenNames = [
-  'TokenWarhallBlue',
-  'TokenWarhallOrange',
-  'TokenWarhallBlack',
-  'TokenWarhallWhite',
-  'TokenWarhallPurple',
-  'Token3Inch',
-  'Token5Inch',
-];
+export const builtinTokenNames = [];
 
 export function nativeTokens() {
   const tokens = [
@@ -94,12 +86,12 @@ export function nativeTokens() {
       Name: token.name,
       Type: 'Token',
     })),
-    ...builtinTokenNames.map(name => ({
-      Id: name,
-      Name: name === 'Token5Inch' ? 'Blast Template' : name,
+    {
+      Id: 'Token5Inch',
+      Name: 'Blast Template',
       Type: 'Token',
-      ...(name === 'Token5Inch' ? { IsTemplate: true } : {}),
-    })),
+      IsTemplate: true,
+    },
   ];
   const ranks = new Map(tokenMenuOrder.map((id, index) => [id, index]));
   return tokens.sort(

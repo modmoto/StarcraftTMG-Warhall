@@ -147,6 +147,8 @@ async function initialData(template) {
     ...data['tokens.json'].filter(
       token =>
         !builtinTokenNames.includes(token.Id) &&
+        !token.Id.startsWith('TokenWarhall') &&
+        !['Token3Inch', 'Token5Inch'].includes(token.Id) &&
         !token.Id.startsWith('sc_token_') &&
         !token.Id.startsWith('Starcraft - Token - '),
     ),
