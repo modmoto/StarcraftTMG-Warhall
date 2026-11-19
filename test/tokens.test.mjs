@@ -215,29 +215,17 @@ test('token menu groups templates, activation, factions, buffs and sorted effect
   );
 });
 
-test('blast cylinder is orange, tapers over 40mm and fades completely at its top', async () => {
-  const { blastTemplateCylinderGeometry, blastTemplateOrange } =
+test('Blast Template exports only a flat orange ring without fill or cylinder', async () => {
+  const { blastTemplateGeometry, blastTemplateOrange } =
     await import('../src/tokens/blast-template.mjs');
-  const mesh = blastTemplateCylinderGeometry();
-  const ys = mesh.vertices.map(v => v[1]);
-  assert.ok(Math.abs(Math.max(...ys) - Math.min(...ys) - 4) < 1e-9);
-  assert.equal(mesh.alphaMode, 'BLEND');
-  assert.deepEqual([...mesh.texture.data.subarray(0, 3)], blastTemplateOrange);
-  assert.equal(mesh.texture.data[3], 0);
-  assert.ok(mesh.texture.data.at(-1) > 0);
-  for (let y = 1; y < mesh.texture.height; y++)
-    assert.ok(mesh.texture.data[y * 4 + 3] >= mesh.texture.data[(y - 1) * 4 + 3]);
-  const radius = v => Math.hypot(v[0], v[2]);
-  const top = mesh.vertices.filter(v => Math.abs(v[1] - 4.08) < 1e-9);
-  assert.ok(top.every(v => Math.abs(radius(v) - 6.5) < 1e-9));
-  const bottom = mesh.vertices.filter(v => Math.abs(v[1] - 0.08) < 1e-9);
-  assert.ok(bottom.some(v => Math.abs(radius(v) - 6.42) < 1e-9));
+  const ring = blastTemplateGeometry();
+  assert.deepEqual([...ring.texture.data], [...blastTemplateOrange, 255]);
+  assert.ok(ring.vertices.every(v => Math.abs(v[1] - 0.08) < 1e-9));
+  assert.ok(ring.vertices.every(v => Math.hypot(v[0], v[2]) >= 6.4 - 1e-9));
   const entry = (await read('model-catalogue.json')).entries.find(
     e => e.profileId === 'Token5Inch',
   );
-  const previews = await read(entry.parts[0].previewGeometryFile);
-  assert.equal(previews.length, 3);
-  const sharp = (await import('sharp')).default;
-  const invisible = await sharp(Buffer.from(previews[1].texture.png, 'base64')).raw().toBuffer();
-  assert.equal(invisible[3], 0);
+  const preview = await read(entry.parts[0].previewGeometryFile);
+  assert.equal(preview.length, 1);
+  assert.ok(preview[0].vertices.every(v => Math.hypot(v[0], v[2]) >= 6.4 - 1e-9));
 });

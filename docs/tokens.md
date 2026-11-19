@@ -72,3 +72,11 @@ The user tested the fading cylinder in Warhall Test and it rendered fully opaque
 A real alpha-blended cylinder and a 30%-opacity orange floor need the native loader to preserve transparent materials or choose an alpha-capable shader for them. Changing texture alpha, GLB BLEND, the bundle shader or renderQueue alone does not avoid the unconditional opaque-shader replacement. Do not repeatedly republish alpha-only variants as a fix and do not modify the client. A perforated geometry approximation is a visually different option requiring user agreement.
 
 Suggested upstream report: "Unity-bundle token transparency is discarded by AssetDownloadController.ApplyStandardDoubleSidedShader: every Renderer material is switched to Custom/StandardDoubleSided_Lite_Opaque. Please preserve alpha-blended materials, or map transparent materials to a compatible transparent double-sided shader. Our 130mm blast template needs a 40mm fading cylindrical rim and an orange floor at 30% opacity."
+
+## Flat orange ring after transparency rejection
+
+The user chose a plain orange circle with no fill or cylinder. The template now renders only a flat 130 mm annulus. Remove the old translucent/hidden contact renderers: an alpha-zero fill becomes opaque in the client, and Renderer.forceRenderingOff did not survive bundle serialization in the local test.
+
+The visible annulus uses a native single-bone SkinnedMeshRenderer with a static identity bind pose. The November 19 TemplateArea implementation only collects MeshFilter shapes; with none present it uses its existing collider-based path. A separate root circular MeshCollider supplies the full interior footprint and centre/edge selection. No invisible drawing surface, custom runtime script or client patch is included. The Unity-bundle loading path preserves this renderer type (the importer-side skinned-to-static conversion applies to imported model files, not this bundle path).
+
+After bundle reload the builder asserts no MeshFilters, exactly one ring renderer, flat 130 mm baked bounds and no visible vertices inside the annulus. Replacing its shader with opaque Standard cannot reveal any fill. Collider raycasts hit the centre and rim and miss square corners. Native contact highlighting still needs an in-client check; the decision to use a flat circle does not establish that gameplay result.

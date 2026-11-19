@@ -42,7 +42,16 @@ public static class BuildBlastTemplate
                 if(!material.mainTexture)throw new Exception("Missing texture");
                 AssetDatabase.DeleteAsset(stem+".mat");AssetDatabase.CreateAsset(material,stem+".mat");
                 var visual=new GameObject(part==0 ? "Visual orange rim" : part==1 ? "Template contact surface" : "Visual fading cylinder");visual.tag="Token";visual.transform.SetParent(root.transform,false);
-                visual.AddComponent<MeshFilter>().sharedMesh=mesh;visual.AddComponent<MeshRenderer>().sharedMaterial=material;
+                // Render the ring through a native one-bone SkinnedMeshRenderer.
+                // TemplateArea then uses its supported circular-collider fallback
+                // instead of mistaking the visible annulus for the entire template.
+                var weights=new BoneWeight[count];
+                for(int i=0;i<count;i++){weights[i].boneIndex0=0;weights[i].weight0=1;}
+                mesh.boneWeights=weights;mesh.bindposes=new[]{Matrix4x4.identity};
+                var renderer=visual.AddComponent<SkinnedMeshRenderer>();
+                renderer.sharedMesh=mesh;renderer.sharedMaterial=material;
+                renderer.bones=new[]{root.transform};renderer.rootBone=root.transform;
+                renderer.localBounds=mesh.bounds;renderer.updateWhenOffscreen=true;
             }
             // A filled circular selection surface, independent of the open visual ring.
             const int segments=128;var circle=new Vector3[segments+1];circle[0]=new Vector3(0,0.08f,0);
@@ -51,6 +60,7 @@ public static class BuildBlastTemplate
             var collision=new Mesh {vertices=circle,triangles=triangles.ToArray()};collision.RecalculateNormals();collision.RecalculateBounds();
             AssetDatabase.DeleteAsset(dir+"/blast-selection.asset");AssetDatabase.CreateAsset(collision,dir+"/blast-selection.asset");
             var collider=root.AddComponent<MeshCollider>();collider.sharedMesh=collision;collider.isTrigger=false;collider.convex=false;
+
         }
         AssetDatabase.SaveAssets();PrefabUtility.SaveAsPrefabAsset(root,prefab);UnityEngine.Object.DestroyImmediate(root);
         Directory.CreateDirectory("Output/BlastTemplate");
@@ -65,11 +75,21 @@ public static class BuildBlastTemplate
         foreach(var r in instance.GetComponentsInChildren<Renderer>())if(!r.CompareTag("Token"))throw new Exception("Missing Token tag");
         foreach(var x in new[]{0f,6.4f})if(!Physics.Raycast(new Vector3(x,5,0),Vector3.down,10))throw new Exception("Circle click missed");
         if(Physics.Raycast(new Vector3(6.4f,5,6.4f),Vector3.down,10))throw new Exception("Square corner must not count as circle");
-        var wall=instance.transform.Find("Visual fading cylinder").GetComponent<MeshFilter>().sharedMesh;
-        if(!wall.isReadable || Mathf.Abs(wall.bounds.size.y-4)>0.0001f)throw new Exception("Expected 40mm fading cylinder");
-        var wallMaterial=instance.transform.Find("Visual fading cylinder").GetComponent<MeshRenderer>().sharedMaterial;
-        if(wallMaterial.shader.name!="Unlit/Transparent")throw new Exception("Cylinder must alpha blend");
-        Debug.Log("BLAST_CYLINDER_OK heightMm="+wall.bounds.size.y*10+" alphaBlend=true");
+        if(instance.GetComponentsInChildren<MeshFilter>().Length!=0)
+            throw new Exception("TemplateArea must use the circular collider fallback");
+        var ring=instance.GetComponentInChildren<SkinnedMeshRenderer>();
+        if(!ring || ring.sharedMesh==null || !ring.sharedMesh.isReadable)
+            throw new Exception("Missing native ring renderer");
+        var baked=new Mesh();ring.BakeMesh(baked);
+        if(Mathf.Abs(baked.bounds.size.x-13)>0.0001f || Mathf.Abs(baked.bounds.size.z-13)>0.0001f || baked.bounds.size.y>0.0001f)
+            throw new Exception("Ring skinning changed flat 130mm footprint");
+        // An opaque shader cannot expose an interior face: none exists.
+        ring.sharedMaterial.shader=Shader.Find("Standard");
+        foreach(var v in baked.vertices)
+            if(new Vector2(v.x,v.z).magnitude<6.399f)throw new Exception("Unexpected interior geometry");
+        if(instance.GetComponentsInChildren<Renderer>().Length!=1)throw new Exception("Unexpected fill or cylinder renderer");
+        UnityEngine.Object.DestroyImmediate(baked);
+        Debug.Log("BLAST_RING_ONLY_OK circularColliderFallback=true visibleFill=false");
         Debug.Log("BLAST_TEMPLATE_130MM_OK diameterCm="+bounds.size.x+" centerAndEdgeClicks=true outsideCorner=false");
         UnityEngine.Object.DestroyImmediate(instance);bundle.Unload(true);
     }

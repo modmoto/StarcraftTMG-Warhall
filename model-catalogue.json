@@ -2907,10 +2907,10 @@
       "tokenDiameterMm": 130,
       "parts": [
         {
-          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/4b2b1a2cb67884809042f170cf2fe797684efc37caf36c6fc8bb322154adf16d.unity3d",
+          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/86c73e5071441a6e3d77ff736182b527dada13dbfe23e41971e23befdd082179.unity3d",
           "textureUrl": null,
           "hostedAsset": true,
-          "previewGeometryFile": "model-assets/d566ca82e7199802394c8e471012643910a3e0a866718b60283c9e962a298c92.glb.preview.json",
+          "previewGeometryFile": "model-assets/a09d2f7b04cc584d30aaa6543bbda483d542c53b9712406c09d3869c14faab08.glb.preview.json",
           "transforms": {
             "scale": 0.39370078740157477,
             "positionX": 0,
