@@ -368,12 +368,236 @@
         "Id": "Activation - red - movement",
         "Type": "Token",
         "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 57.653543307086615,
+        "LongSide": 0.6299212598425186
+      },
+      {
+        "Id": "Activation - red - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 57.653543307086615,
+        "LongSide": 0.6299212598425186
+      },
+      {
+        "Id": "Activation - red - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 57.653543307086615,
+        "LongSide": 0.6299212598425186
+      },
+      {
+        "Id": "Activation - red - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 57.653543307086615,
+        "LongSide": 0.6299212598425186
+      },
+      {
+        "Id": "Activation - red - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 57.653543307086615,
+        "LongSide": 0.6299212598425186
+      },
+      {
+        "Id": "Activation - red - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 57.653543307086615,
+        "LongSide": 0.6299212598425186
+      },
+      {
+        "Id": "Activation - red - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 57.653543307086615,
+        "LongSide": 0.6299212598425186
+      },
+      {
+        "Id": "Activation - red - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 57.653543307086615,
+        "LongSide": 0.6299212598425186
+      },
+      {
+        "Id": "Activation - red - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 57.653543307086615,
+        "LongSide": 0.6299212598425186
+      },
+      {
+        "Id": "Activation - red - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 57.653543307086615,
+        "LongSide": 0.6299212598425186
+      },
+      {
+        "Id": "Activation - red - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 57.653543307086615,
+        "LongSide": 0.6299212598425186
+      },
+      {
+        "Id": "Activation - red - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 57.653543307086615,
+        "LongSide": 0.6299212598425186
+      },
+      {
+        "Id": "Activation - red - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 57.653543307086615,
+        "LongSide": 0.6299212598425186
+      },
+      {
+        "Id": "Activation - red - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 57.653543307086615,
+        "LongSide": 0.6299212598425186
+      },
+      {
+        "Id": "Activation - red - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 57.653543307086615,
+        "LongSide": 0.6299212598425186
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 56,
         "LongSide": 35.37007874015748
       },
       {
-        "Id": "Activation - red - movement",
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 56,
+        "LongSide": 35.37007874015748
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 56,
+        "LongSide": 35.37007874015748
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 56,
+        "LongSide": 35.37007874015748
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 56,
+        "LongSide": 35.37007874015748
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 56,
+        "LongSide": 35.37007874015748
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 56,
+        "LongSide": 35.37007874015748
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 56,
+        "LongSide": 35.37007874015748
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 56,
+        "LongSide": 35.37007874015748
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 56,
+        "LongSide": 35.37007874015748
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 56,
+        "LongSide": 35.37007874015748
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 56,
+        "LongSide": 35.37007874015748
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 56,
+        "LongSide": 35.37007874015748
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 56,
+        "LongSide": 35.37007874015748
+      },
+      {
+        "Id": "Activation - blue - movement",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
@@ -385,7 +609,7 @@
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 56,
+        "ShortSide": 57.653543307086615,
         "LongSide": 35.37007874015748
       },
       {
@@ -393,7 +617,7 @@
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 56,
+        "ShortSide": 57.653543307086615,
         "LongSide": 35.37007874015748
       },
       {
@@ -401,7 +625,7 @@
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 56,
+        "ShortSide": 57.653543307086615,
         "LongSide": 35.37007874015748
       },
       {
@@ -409,7 +633,7 @@
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 56,
+        "ShortSide": 57.653543307086615,
         "LongSide": 35.37007874015748
       },
       {
@@ -417,7 +641,7 @@
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 56,
+        "ShortSide": 57.653543307086615,
         "LongSide": 35.37007874015748
       },
       {
@@ -425,7 +649,7 @@
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 56,
+        "ShortSide": 57.653543307086615,
         "LongSide": 35.37007874015748
       },
       {
@@ -433,7 +657,7 @@
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 56,
+        "ShortSide": 57.653543307086615,
         "LongSide": 35.37007874015748
       },
       {
@@ -441,7 +665,7 @@
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 56,
+        "ShortSide": 57.653543307086615,
         "LongSide": 35.37007874015748
       },
       {
@@ -449,7 +673,7 @@
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 56,
+        "ShortSide": 57.653543307086615,
         "LongSide": 35.37007874015748
       },
       {
@@ -457,7 +681,7 @@
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 56,
+        "ShortSide": 57.653543307086615,
         "LongSide": 35.37007874015748
       },
       {
@@ -465,7 +689,7 @@
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 56,
+        "ShortSide": 57.653543307086615,
         "LongSide": 35.37007874015748
       },
       {
@@ -473,7 +697,7 @@
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 56,
+        "ShortSide": 57.653543307086615,
         "LongSide": 35.37007874015748
       },
       {
@@ -481,7 +705,23 @@
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 56,
+        "ShortSide": 57.653543307086615,
+        "LongSide": 35.37007874015748
+      },
+      {
+        "Id": "Activation - red - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 57.653543307086615,
+        "LongSide": 35.37007874015748
+      },
+      {
+        "Id": "Activation - red - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 57.653543307086615,
         "LongSide": 35.37007874015748
       }
     ]
@@ -855,12 +1095,236 @@
         "Id": "Activation - red - movement",
         "Type": "Token",
         "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 57.653543307086615,
+        "LongSide": 0.6299212598425186
+      },
+      {
+        "Id": "Activation - red - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 57.653543307086615,
+        "LongSide": 0.6299212598425186
+      },
+      {
+        "Id": "Activation - red - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 57.653543307086615,
+        "LongSide": 0.6299212598425186
+      },
+      {
+        "Id": "Activation - red - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 57.653543307086615,
+        "LongSide": 0.6299212598425186
+      },
+      {
+        "Id": "Activation - red - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 57.653543307086615,
+        "LongSide": 0.6299212598425186
+      },
+      {
+        "Id": "Activation - red - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 57.653543307086615,
+        "LongSide": 0.6299212598425186
+      },
+      {
+        "Id": "Activation - red - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 57.653543307086615,
+        "LongSide": 0.6299212598425186
+      },
+      {
+        "Id": "Activation - red - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 57.653543307086615,
+        "LongSide": 0.6299212598425186
+      },
+      {
+        "Id": "Activation - red - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 57.653543307086615,
+        "LongSide": 0.6299212598425186
+      },
+      {
+        "Id": "Activation - red - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 57.653543307086615,
+        "LongSide": 0.6299212598425186
+      },
+      {
+        "Id": "Activation - red - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 57.653543307086615,
+        "LongSide": 0.6299212598425186
+      },
+      {
+        "Id": "Activation - red - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 57.653543307086615,
+        "LongSide": 0.6299212598425186
+      },
+      {
+        "Id": "Activation - red - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 57.653543307086615,
+        "LongSide": 0.6299212598425186
+      },
+      {
+        "Id": "Activation - red - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 57.653543307086615,
+        "LongSide": 0.6299212598425186
+      },
+      {
+        "Id": "Activation - red - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 57.653543307086615,
+        "LongSide": 0.6299212598425186
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 56,
         "LongSide": 35.37007874015748
       },
       {
-        "Id": "Activation - red - movement",
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 56,
+        "LongSide": 35.37007874015748
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 56,
+        "LongSide": 35.37007874015748
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 56,
+        "LongSide": 35.37007874015748
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 56,
+        "LongSide": 35.37007874015748
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 56,
+        "LongSide": 35.37007874015748
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 56,
+        "LongSide": 35.37007874015748
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 56,
+        "LongSide": 35.37007874015748
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 56,
+        "LongSide": 35.37007874015748
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 56,
+        "LongSide": 35.37007874015748
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 56,
+        "LongSide": 35.37007874015748
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 56,
+        "LongSide": 35.37007874015748
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 56,
+        "LongSide": 35.37007874015748
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 56,
+        "LongSide": 35.37007874015748
+      },
+      {
+        "Id": "Activation - blue - movement",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
@@ -872,7 +1336,7 @@
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 56,
+        "ShortSide": 57.653543307086615,
         "LongSide": 35.37007874015748
       },
       {
@@ -880,7 +1344,7 @@
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 56,
+        "ShortSide": 57.653543307086615,
         "LongSide": 35.37007874015748
       },
       {
@@ -888,7 +1352,7 @@
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 56,
+        "ShortSide": 57.653543307086615,
         "LongSide": 35.37007874015748
       },
       {
@@ -896,7 +1360,7 @@
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 56,
+        "ShortSide": 57.653543307086615,
         "LongSide": 35.37007874015748
       },
       {
@@ -904,7 +1368,7 @@
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 56,
+        "ShortSide": 57.653543307086615,
         "LongSide": 35.37007874015748
       },
       {
@@ -912,7 +1376,7 @@
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 56,
+        "ShortSide": 57.653543307086615,
         "LongSide": 35.37007874015748
       },
       {
@@ -920,7 +1384,7 @@
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 56,
+        "ShortSide": 57.653543307086615,
         "LongSide": 35.37007874015748
       },
       {
@@ -928,7 +1392,7 @@
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 56,
+        "ShortSide": 57.653543307086615,
         "LongSide": 35.37007874015748
       },
       {
@@ -936,7 +1400,7 @@
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 56,
+        "ShortSide": 57.653543307086615,
         "LongSide": 35.37007874015748
       },
       {
@@ -944,7 +1408,7 @@
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 56,
+        "ShortSide": 57.653543307086615,
         "LongSide": 35.37007874015748
       },
       {
@@ -952,7 +1416,7 @@
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 56,
+        "ShortSide": 57.653543307086615,
         "LongSide": 35.37007874015748
       },
       {
@@ -960,7 +1424,7 @@
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 56,
+        "ShortSide": 57.653543307086615,
         "LongSide": 35.37007874015748
       },
       {
@@ -968,7 +1432,23 @@
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 56,
+        "ShortSide": 57.653543307086615,
+        "LongSide": 35.37007874015748
+      },
+      {
+        "Id": "Activation - red - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 57.653543307086615,
+        "LongSide": 35.37007874015748
+      },
+      {
+        "Id": "Activation - red - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 57.653543307086615,
         "LongSide": 35.37007874015748
       }
     ]
@@ -1342,12 +1822,236 @@
         "Id": "Activation - red - movement",
         "Type": "Token",
         "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 57.653543307086615,
+        "LongSide": 0.6299212598425186
+      },
+      {
+        "Id": "Activation - red - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 57.653543307086615,
+        "LongSide": 0.6299212598425186
+      },
+      {
+        "Id": "Activation - red - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 57.653543307086615,
+        "LongSide": 0.6299212598425186
+      },
+      {
+        "Id": "Activation - red - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 57.653543307086615,
+        "LongSide": 0.6299212598425186
+      },
+      {
+        "Id": "Activation - red - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 57.653543307086615,
+        "LongSide": 0.6299212598425186
+      },
+      {
+        "Id": "Activation - red - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 57.653543307086615,
+        "LongSide": 0.6299212598425186
+      },
+      {
+        "Id": "Activation - red - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 57.653543307086615,
+        "LongSide": 0.6299212598425186
+      },
+      {
+        "Id": "Activation - red - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 57.653543307086615,
+        "LongSide": 0.6299212598425186
+      },
+      {
+        "Id": "Activation - red - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 57.653543307086615,
+        "LongSide": 0.6299212598425186
+      },
+      {
+        "Id": "Activation - red - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 57.653543307086615,
+        "LongSide": 0.6299212598425186
+      },
+      {
+        "Id": "Activation - red - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 57.653543307086615,
+        "LongSide": 0.6299212598425186
+      },
+      {
+        "Id": "Activation - red - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 57.653543307086615,
+        "LongSide": 0.6299212598425186
+      },
+      {
+        "Id": "Activation - red - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 57.653543307086615,
+        "LongSide": 0.6299212598425186
+      },
+      {
+        "Id": "Activation - red - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 57.653543307086615,
+        "LongSide": 0.6299212598425186
+      },
+      {
+        "Id": "Activation - red - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 57.653543307086615,
+        "LongSide": 0.6299212598425186
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 56,
         "LongSide": 35.37007874015748
       },
       {
-        "Id": "Activation - red - movement",
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 56,
+        "LongSide": 35.37007874015748
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 56,
+        "LongSide": 35.37007874015748
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 56,
+        "LongSide": 35.37007874015748
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 56,
+        "LongSide": 35.37007874015748
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 56,
+        "LongSide": 35.37007874015748
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 56,
+        "LongSide": 35.37007874015748
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 56,
+        "LongSide": 35.37007874015748
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 56,
+        "LongSide": 35.37007874015748
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 56,
+        "LongSide": 35.37007874015748
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 56,
+        "LongSide": 35.37007874015748
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 56,
+        "LongSide": 35.37007874015748
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 56,
+        "LongSide": 35.37007874015748
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 56,
+        "LongSide": 35.37007874015748
+      },
+      {
+        "Id": "Activation - blue - movement",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
@@ -1359,7 +2063,7 @@
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 56,
+        "ShortSide": 57.653543307086615,
         "LongSide": 35.37007874015748
       },
       {
@@ -1367,7 +2071,7 @@
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 56,
+        "ShortSide": 57.653543307086615,
         "LongSide": 35.37007874015748
       },
       {
@@ -1375,7 +2079,7 @@
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 56,
+        "ShortSide": 57.653543307086615,
         "LongSide": 35.37007874015748
       },
       {
@@ -1383,7 +2087,7 @@
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 56,
+        "ShortSide": 57.653543307086615,
         "LongSide": 35.37007874015748
       },
       {
@@ -1391,7 +2095,7 @@
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 56,
+        "ShortSide": 57.653543307086615,
         "LongSide": 35.37007874015748
       },
       {
@@ -1399,7 +2103,7 @@
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 56,
+        "ShortSide": 57.653543307086615,
         "LongSide": 35.37007874015748
       },
       {
@@ -1407,7 +2111,7 @@
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 56,
+        "ShortSide": 57.653543307086615,
         "LongSide": 35.37007874015748
       },
       {
@@ -1415,7 +2119,7 @@
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 56,
+        "ShortSide": 57.653543307086615,
         "LongSide": 35.37007874015748
       },
       {
@@ -1423,7 +2127,7 @@
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 56,
+        "ShortSide": 57.653543307086615,
         "LongSide": 35.37007874015748
       },
       {
@@ -1431,7 +2135,7 @@
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 56,
+        "ShortSide": 57.653543307086615,
         "LongSide": 35.37007874015748
       },
       {
@@ -1439,7 +2143,7 @@
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 56,
+        "ShortSide": 57.653543307086615,
         "LongSide": 35.37007874015748
       },
       {
@@ -1447,7 +2151,7 @@
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 56,
+        "ShortSide": 57.653543307086615,
         "LongSide": 35.37007874015748
       },
       {
@@ -1455,7 +2159,23 @@
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 56,
+        "ShortSide": 57.653543307086615,
+        "LongSide": 35.37007874015748
+      },
+      {
+        "Id": "Activation - red - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 57.653543307086615,
+        "LongSide": 35.37007874015748
+      },
+      {
+        "Id": "Activation - red - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 57.653543307086615,
         "LongSide": 35.37007874015748
       }
     ]
@@ -1829,12 +2549,236 @@
         "Id": "Activation - red - movement",
         "Type": "Token",
         "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 57.653543307086615,
+        "LongSide": 0.6299212598425186
+      },
+      {
+        "Id": "Activation - red - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 57.653543307086615,
+        "LongSide": 0.6299212598425186
+      },
+      {
+        "Id": "Activation - red - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 57.653543307086615,
+        "LongSide": 0.6299212598425186
+      },
+      {
+        "Id": "Activation - red - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 57.653543307086615,
+        "LongSide": 0.6299212598425186
+      },
+      {
+        "Id": "Activation - red - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 57.653543307086615,
+        "LongSide": 0.6299212598425186
+      },
+      {
+        "Id": "Activation - red - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 57.653543307086615,
+        "LongSide": 0.6299212598425186
+      },
+      {
+        "Id": "Activation - red - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 57.653543307086615,
+        "LongSide": 0.6299212598425186
+      },
+      {
+        "Id": "Activation - red - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 57.653543307086615,
+        "LongSide": 0.6299212598425186
+      },
+      {
+        "Id": "Activation - red - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 57.653543307086615,
+        "LongSide": 0.6299212598425186
+      },
+      {
+        "Id": "Activation - red - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 57.653543307086615,
+        "LongSide": 0.6299212598425186
+      },
+      {
+        "Id": "Activation - red - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 57.653543307086615,
+        "LongSide": 0.6299212598425186
+      },
+      {
+        "Id": "Activation - red - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 57.653543307086615,
+        "LongSide": 0.6299212598425186
+      },
+      {
+        "Id": "Activation - red - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 57.653543307086615,
+        "LongSide": 0.6299212598425186
+      },
+      {
+        "Id": "Activation - red - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 57.653543307086615,
+        "LongSide": 0.6299212598425186
+      },
+      {
+        "Id": "Activation - red - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 57.653543307086615,
+        "LongSide": 0.6299212598425186
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 56,
         "LongSide": 35.37007874015748
       },
       {
-        "Id": "Activation - red - movement",
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 56,
+        "LongSide": 35.37007874015748
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 56,
+        "LongSide": 35.37007874015748
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 56,
+        "LongSide": 35.37007874015748
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 56,
+        "LongSide": 35.37007874015748
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 56,
+        "LongSide": 35.37007874015748
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 56,
+        "LongSide": 35.37007874015748
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 56,
+        "LongSide": 35.37007874015748
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 56,
+        "LongSide": 35.37007874015748
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 56,
+        "LongSide": 35.37007874015748
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 56,
+        "LongSide": 35.37007874015748
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 56,
+        "LongSide": 35.37007874015748
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 56,
+        "LongSide": 35.37007874015748
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 56,
+        "LongSide": 35.37007874015748
+      },
+      {
+        "Id": "Activation - blue - movement",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
@@ -1846,7 +2790,7 @@
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 56,
+        "ShortSide": 57.653543307086615,
         "LongSide": 35.37007874015748
       },
       {
@@ -1854,7 +2798,7 @@
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 56,
+        "ShortSide": 57.653543307086615,
         "LongSide": 35.37007874015748
       },
       {
@@ -1862,7 +2806,7 @@
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 56,
+        "ShortSide": 57.653543307086615,
         "LongSide": 35.37007874015748
       },
       {
@@ -1870,7 +2814,7 @@
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 56,
+        "ShortSide": 57.653543307086615,
         "LongSide": 35.37007874015748
       },
       {
@@ -1878,7 +2822,7 @@
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 56,
+        "ShortSide": 57.653543307086615,
         "LongSide": 35.37007874015748
       },
       {
@@ -1886,7 +2830,7 @@
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 56,
+        "ShortSide": 57.653543307086615,
         "LongSide": 35.37007874015748
       },
       {
@@ -1894,7 +2838,7 @@
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 56,
+        "ShortSide": 57.653543307086615,
         "LongSide": 35.37007874015748
       },
       {
@@ -1902,7 +2846,7 @@
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 56,
+        "ShortSide": 57.653543307086615,
         "LongSide": 35.37007874015748
       },
       {
@@ -1910,7 +2854,7 @@
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 56,
+        "ShortSide": 57.653543307086615,
         "LongSide": 35.37007874015748
       },
       {
@@ -1918,7 +2862,7 @@
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 56,
+        "ShortSide": 57.653543307086615,
         "LongSide": 35.37007874015748
       },
       {
@@ -1926,7 +2870,7 @@
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 56,
+        "ShortSide": 57.653543307086615,
         "LongSide": 35.37007874015748
       },
       {
@@ -1934,7 +2878,7 @@
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 56,
+        "ShortSide": 57.653543307086615,
         "LongSide": 35.37007874015748
       },
       {
@@ -1942,7 +2886,23 @@
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 56,
+        "ShortSide": 57.653543307086615,
+        "LongSide": 35.37007874015748
+      },
+      {
+        "Id": "Activation - red - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 57.653543307086615,
+        "LongSide": 35.37007874015748
+      },
+      {
+        "Id": "Activation - red - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 57.653543307086615,
         "LongSide": 35.37007874015748
       }
     ]
@@ -2332,12 +3292,236 @@
         "Id": "Activation - red - movement",
         "Type": "Token",
         "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 57.653543307086615,
+        "LongSide": 0.6299212598425186
+      },
+      {
+        "Id": "Activation - red - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 57.653543307086615,
+        "LongSide": 0.6299212598425186
+      },
+      {
+        "Id": "Activation - red - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 57.653543307086615,
+        "LongSide": 0.6299212598425186
+      },
+      {
+        "Id": "Activation - red - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 57.653543307086615,
+        "LongSide": 0.6299212598425186
+      },
+      {
+        "Id": "Activation - red - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 57.653543307086615,
+        "LongSide": 0.6299212598425186
+      },
+      {
+        "Id": "Activation - red - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 57.653543307086615,
+        "LongSide": 0.6299212598425186
+      },
+      {
+        "Id": "Activation - red - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 57.653543307086615,
+        "LongSide": 0.6299212598425186
+      },
+      {
+        "Id": "Activation - red - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 57.653543307086615,
+        "LongSide": 0.6299212598425186
+      },
+      {
+        "Id": "Activation - red - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 57.653543307086615,
+        "LongSide": 0.6299212598425186
+      },
+      {
+        "Id": "Activation - red - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 57.653543307086615,
+        "LongSide": 0.6299212598425186
+      },
+      {
+        "Id": "Activation - red - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 57.653543307086615,
+        "LongSide": 0.6299212598425186
+      },
+      {
+        "Id": "Activation - red - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 57.653543307086615,
+        "LongSide": 0.6299212598425186
+      },
+      {
+        "Id": "Activation - red - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 57.653543307086615,
+        "LongSide": 0.6299212598425186
+      },
+      {
+        "Id": "Activation - red - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 57.653543307086615,
+        "LongSide": 0.6299212598425186
+      },
+      {
+        "Id": "Activation - red - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 57.653543307086615,
+        "LongSide": 0.6299212598425186
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 56,
         "LongSide": 35.37007874015748
       },
       {
-        "Id": "Activation - red - movement",
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 56,
+        "LongSide": 35.37007874015748
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 56,
+        "LongSide": 35.37007874015748
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 56,
+        "LongSide": 35.37007874015748
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 56,
+        "LongSide": 35.37007874015748
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 56,
+        "LongSide": 35.37007874015748
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 56,
+        "LongSide": 35.37007874015748
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 56,
+        "LongSide": 35.37007874015748
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 56,
+        "LongSide": 35.37007874015748
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 56,
+        "LongSide": 35.37007874015748
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 56,
+        "LongSide": 35.37007874015748
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 56,
+        "LongSide": 35.37007874015748
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 56,
+        "LongSide": 35.37007874015748
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 56,
+        "LongSide": 35.37007874015748
+      },
+      {
+        "Id": "Activation - blue - movement",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
@@ -2349,7 +3533,7 @@
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 56,
+        "ShortSide": 57.653543307086615,
         "LongSide": 35.37007874015748
       },
       {
@@ -2357,7 +3541,7 @@
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 56,
+        "ShortSide": 57.653543307086615,
         "LongSide": 35.37007874015748
       },
       {
@@ -2365,7 +3549,7 @@
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 56,
+        "ShortSide": 57.653543307086615,
         "LongSide": 35.37007874015748
       },
       {
@@ -2373,7 +3557,7 @@
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 56,
+        "ShortSide": 57.653543307086615,
         "LongSide": 35.37007874015748
       },
       {
@@ -2381,7 +3565,7 @@
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 56,
+        "ShortSide": 57.653543307086615,
         "LongSide": 35.37007874015748
       },
       {
@@ -2389,7 +3573,7 @@
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 56,
+        "ShortSide": 57.653543307086615,
         "LongSide": 35.37007874015748
       },
       {
@@ -2397,7 +3581,7 @@
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 56,
+        "ShortSide": 57.653543307086615,
         "LongSide": 35.37007874015748
       },
       {
@@ -2405,7 +3589,7 @@
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 56,
+        "ShortSide": 57.653543307086615,
         "LongSide": 35.37007874015748
       },
       {
@@ -2413,7 +3597,7 @@
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 56,
+        "ShortSide": 57.653543307086615,
         "LongSide": 35.37007874015748
       },
       {
@@ -2421,7 +3605,7 @@
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 56,
+        "ShortSide": 57.653543307086615,
         "LongSide": 35.37007874015748
       },
       {
@@ -2429,7 +3613,7 @@
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 56,
+        "ShortSide": 57.653543307086615,
         "LongSide": 35.37007874015748
       },
       {
@@ -2437,7 +3621,7 @@
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 56,
+        "ShortSide": 57.653543307086615,
         "LongSide": 35.37007874015748
       },
       {
@@ -2445,7 +3629,23 @@
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 56,
+        "ShortSide": 57.653543307086615,
+        "LongSide": 35.37007874015748
+      },
+      {
+        "Id": "Activation - red - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 57.653543307086615,
+        "LongSide": 35.37007874015748
+      },
+      {
+        "Id": "Activation - red - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 57.653543307086615,
         "LongSide": 35.37007874015748
       }
     ]
@@ -2835,12 +4035,236 @@
         "Id": "Activation - red - movement",
         "Type": "Token",
         "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 57.653543307086615,
+        "LongSide": 0.6299212598425186
+      },
+      {
+        "Id": "Activation - red - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 57.653543307086615,
+        "LongSide": 0.6299212598425186
+      },
+      {
+        "Id": "Activation - red - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 57.653543307086615,
+        "LongSide": 0.6299212598425186
+      },
+      {
+        "Id": "Activation - red - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 57.653543307086615,
+        "LongSide": 0.6299212598425186
+      },
+      {
+        "Id": "Activation - red - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 57.653543307086615,
+        "LongSide": 0.6299212598425186
+      },
+      {
+        "Id": "Activation - red - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 57.653543307086615,
+        "LongSide": 0.6299212598425186
+      },
+      {
+        "Id": "Activation - red - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 57.653543307086615,
+        "LongSide": 0.6299212598425186
+      },
+      {
+        "Id": "Activation - red - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 57.653543307086615,
+        "LongSide": 0.6299212598425186
+      },
+      {
+        "Id": "Activation - red - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 57.653543307086615,
+        "LongSide": 0.6299212598425186
+      },
+      {
+        "Id": "Activation - red - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 57.653543307086615,
+        "LongSide": 0.6299212598425186
+      },
+      {
+        "Id": "Activation - red - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 57.653543307086615,
+        "LongSide": 0.6299212598425186
+      },
+      {
+        "Id": "Activation - red - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 57.653543307086615,
+        "LongSide": 0.6299212598425186
+      },
+      {
+        "Id": "Activation - red - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 57.653543307086615,
+        "LongSide": 0.6299212598425186
+      },
+      {
+        "Id": "Activation - red - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 57.653543307086615,
+        "LongSide": 0.6299212598425186
+      },
+      {
+        "Id": "Activation - red - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 57.653543307086615,
+        "LongSide": 0.6299212598425186
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 56,
         "LongSide": 35.37007874015748
       },
       {
-        "Id": "Activation - red - movement",
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 56,
+        "LongSide": 35.37007874015748
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 56,
+        "LongSide": 35.37007874015748
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 56,
+        "LongSide": 35.37007874015748
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 56,
+        "LongSide": 35.37007874015748
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 56,
+        "LongSide": 35.37007874015748
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 56,
+        "LongSide": 35.37007874015748
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 56,
+        "LongSide": 35.37007874015748
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 56,
+        "LongSide": 35.37007874015748
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 56,
+        "LongSide": 35.37007874015748
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 56,
+        "LongSide": 35.37007874015748
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 56,
+        "LongSide": 35.37007874015748
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 56,
+        "LongSide": 35.37007874015748
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 56,
+        "LongSide": 35.37007874015748
+      },
+      {
+        "Id": "Activation - blue - movement",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
@@ -2852,7 +4276,7 @@
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 56,
+        "ShortSide": 57.653543307086615,
         "LongSide": 35.37007874015748
       },
       {
@@ -2860,7 +4284,7 @@
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 56,
+        "ShortSide": 57.653543307086615,
         "LongSide": 35.37007874015748
       },
       {
@@ -2868,7 +4292,7 @@
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 56,
+        "ShortSide": 57.653543307086615,
         "LongSide": 35.37007874015748
       },
       {
@@ -2876,7 +4300,7 @@
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 56,
+        "ShortSide": 57.653543307086615,
         "LongSide": 35.37007874015748
       },
       {
@@ -2884,7 +4308,7 @@
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 56,
+        "ShortSide": 57.653543307086615,
         "LongSide": 35.37007874015748
       },
       {
@@ -2892,7 +4316,7 @@
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 56,
+        "ShortSide": 57.653543307086615,
         "LongSide": 35.37007874015748
       },
       {
@@ -2900,7 +4324,7 @@
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 56,
+        "ShortSide": 57.653543307086615,
         "LongSide": 35.37007874015748
       },
       {
@@ -2908,7 +4332,7 @@
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 56,
+        "ShortSide": 57.653543307086615,
         "LongSide": 35.37007874015748
       },
       {
@@ -2916,7 +4340,7 @@
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 56,
+        "ShortSide": 57.653543307086615,
         "LongSide": 35.37007874015748
       },
       {
@@ -2924,7 +4348,7 @@
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 56,
+        "ShortSide": 57.653543307086615,
         "LongSide": 35.37007874015748
       },
       {
@@ -2932,7 +4356,7 @@
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 56,
+        "ShortSide": 57.653543307086615,
         "LongSide": 35.37007874015748
       },
       {
@@ -2940,7 +4364,7 @@
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 56,
+        "ShortSide": 57.653543307086615,
         "LongSide": 35.37007874015748
       },
       {
@@ -2948,7 +4372,23 @@
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 56,
+        "ShortSide": 57.653543307086615,
+        "LongSide": 35.37007874015748
+      },
+      {
+        "Id": "Activation - red - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 57.653543307086615,
+        "LongSide": 35.37007874015748
+      },
+      {
+        "Id": "Activation - red - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 57.653543307086615,
         "LongSide": 35.37007874015748
       }
     ]
@@ -3202,12 +4642,236 @@
         "Id": "Activation - red - movement",
         "Type": "Token",
         "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 57.653543307086615,
+        "LongSide": 0.6299212598425186
+      },
+      {
+        "Id": "Activation - red - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 57.653543307086615,
+        "LongSide": 0.6299212598425186
+      },
+      {
+        "Id": "Activation - red - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 57.653543307086615,
+        "LongSide": 0.6299212598425186
+      },
+      {
+        "Id": "Activation - red - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 57.653543307086615,
+        "LongSide": 0.6299212598425186
+      },
+      {
+        "Id": "Activation - red - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 57.653543307086615,
+        "LongSide": 0.6299212598425186
+      },
+      {
+        "Id": "Activation - red - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 57.653543307086615,
+        "LongSide": 0.6299212598425186
+      },
+      {
+        "Id": "Activation - red - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 57.653543307086615,
+        "LongSide": 0.6299212598425186
+      },
+      {
+        "Id": "Activation - red - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 57.653543307086615,
+        "LongSide": 0.6299212598425186
+      },
+      {
+        "Id": "Activation - red - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 57.653543307086615,
+        "LongSide": 0.6299212598425186
+      },
+      {
+        "Id": "Activation - red - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 57.653543307086615,
+        "LongSide": 0.6299212598425186
+      },
+      {
+        "Id": "Activation - red - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 57.653543307086615,
+        "LongSide": 0.6299212598425186
+      },
+      {
+        "Id": "Activation - red - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 57.653543307086615,
+        "LongSide": 0.6299212598425186
+      },
+      {
+        "Id": "Activation - red - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 57.653543307086615,
+        "LongSide": 0.6299212598425186
+      },
+      {
+        "Id": "Activation - red - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 57.653543307086615,
+        "LongSide": 0.6299212598425186
+      },
+      {
+        "Id": "Activation - red - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 57.653543307086615,
+        "LongSide": 0.6299212598425186
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 56,
         "LongSide": 35.37007874015748
       },
       {
-        "Id": "Activation - red - movement",
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 56,
+        "LongSide": 35.37007874015748
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 56,
+        "LongSide": 35.37007874015748
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 56,
+        "LongSide": 35.37007874015748
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 56,
+        "LongSide": 35.37007874015748
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 56,
+        "LongSide": 35.37007874015748
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 56,
+        "LongSide": 35.37007874015748
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 56,
+        "LongSide": 35.37007874015748
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 56,
+        "LongSide": 35.37007874015748
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 56,
+        "LongSide": 35.37007874015748
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 56,
+        "LongSide": 35.37007874015748
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 56,
+        "LongSide": 35.37007874015748
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 56,
+        "LongSide": 35.37007874015748
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 56,
+        "LongSide": 35.37007874015748
+      },
+      {
+        "Id": "Activation - blue - movement",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
@@ -3219,7 +4883,7 @@
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 56,
+        "ShortSide": 57.653543307086615,
         "LongSide": 35.37007874015748
       },
       {
@@ -3227,7 +4891,7 @@
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 56,
+        "ShortSide": 57.653543307086615,
         "LongSide": 35.37007874015748
       },
       {
@@ -3235,7 +4899,7 @@
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 56,
+        "ShortSide": 57.653543307086615,
         "LongSide": 35.37007874015748
       },
       {
@@ -3243,7 +4907,7 @@
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 56,
+        "ShortSide": 57.653543307086615,
         "LongSide": 35.37007874015748
       },
       {
@@ -3251,7 +4915,7 @@
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 56,
+        "ShortSide": 57.653543307086615,
         "LongSide": 35.37007874015748
       },
       {
@@ -3259,7 +4923,7 @@
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 56,
+        "ShortSide": 57.653543307086615,
         "LongSide": 35.37007874015748
       },
       {
@@ -3267,7 +4931,7 @@
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 56,
+        "ShortSide": 57.653543307086615,
         "LongSide": 35.37007874015748
       },
       {
@@ -3275,7 +4939,7 @@
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 56,
+        "ShortSide": 57.653543307086615,
         "LongSide": 35.37007874015748
       },
       {
@@ -3283,7 +4947,7 @@
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 56,
+        "ShortSide": 57.653543307086615,
         "LongSide": 35.37007874015748
       },
       {
@@ -3291,7 +4955,7 @@
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 56,
+        "ShortSide": 57.653543307086615,
         "LongSide": 35.37007874015748
       },
       {
@@ -3299,7 +4963,7 @@
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 56,
+        "ShortSide": 57.653543307086615,
         "LongSide": 35.37007874015748
       },
       {
@@ -3307,7 +4971,7 @@
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 56,
+        "ShortSide": 57.653543307086615,
         "LongSide": 35.37007874015748
       },
       {
@@ -3315,7 +4979,23 @@
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 56,
+        "ShortSide": 57.653543307086615,
+        "LongSide": 35.37007874015748
+      },
+      {
+        "Id": "Activation - red - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 57.653543307086615,
+        "LongSide": 35.37007874015748
+      },
+      {
+        "Id": "Activation - red - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 57.653543307086615,
         "LongSide": 35.37007874015748
       }
     ]
@@ -3569,12 +5249,236 @@
         "Id": "Activation - red - movement",
         "Type": "Token",
         "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 57.653543307086615,
+        "LongSide": 0.6299212598425186
+      },
+      {
+        "Id": "Activation - red - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 57.653543307086615,
+        "LongSide": 0.6299212598425186
+      },
+      {
+        "Id": "Activation - red - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 57.653543307086615,
+        "LongSide": 0.6299212598425186
+      },
+      {
+        "Id": "Activation - red - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 57.653543307086615,
+        "LongSide": 0.6299212598425186
+      },
+      {
+        "Id": "Activation - red - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 57.653543307086615,
+        "LongSide": 0.6299212598425186
+      },
+      {
+        "Id": "Activation - red - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 57.653543307086615,
+        "LongSide": 0.6299212598425186
+      },
+      {
+        "Id": "Activation - red - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 57.653543307086615,
+        "LongSide": 0.6299212598425186
+      },
+      {
+        "Id": "Activation - red - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 57.653543307086615,
+        "LongSide": 0.6299212598425186
+      },
+      {
+        "Id": "Activation - red - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 57.653543307086615,
+        "LongSide": 0.6299212598425186
+      },
+      {
+        "Id": "Activation - red - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 57.653543307086615,
+        "LongSide": 0.6299212598425186
+      },
+      {
+        "Id": "Activation - red - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 57.653543307086615,
+        "LongSide": 0.6299212598425186
+      },
+      {
+        "Id": "Activation - red - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 57.653543307086615,
+        "LongSide": 0.6299212598425186
+      },
+      {
+        "Id": "Activation - red - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 57.653543307086615,
+        "LongSide": 0.6299212598425186
+      },
+      {
+        "Id": "Activation - red - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 57.653543307086615,
+        "LongSide": 0.6299212598425186
+      },
+      {
+        "Id": "Activation - red - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 57.653543307086615,
+        "LongSide": 0.6299212598425186
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 56,
         "LongSide": 35.37007874015748
       },
       {
-        "Id": "Activation - red - movement",
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 56,
+        "LongSide": 35.37007874015748
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 56,
+        "LongSide": 35.37007874015748
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 56,
+        "LongSide": 35.37007874015748
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 56,
+        "LongSide": 35.37007874015748
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 56,
+        "LongSide": 35.37007874015748
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 56,
+        "LongSide": 35.37007874015748
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 56,
+        "LongSide": 35.37007874015748
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 56,
+        "LongSide": 35.37007874015748
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 56,
+        "LongSide": 35.37007874015748
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 56,
+        "LongSide": 35.37007874015748
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 56,
+        "LongSide": 35.37007874015748
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 56,
+        "LongSide": 35.37007874015748
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 56,
+        "LongSide": 35.37007874015748
+      },
+      {
+        "Id": "Activation - blue - movement",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
@@ -3586,7 +5490,7 @@
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 56,
+        "ShortSide": 57.653543307086615,
         "LongSide": 35.37007874015748
       },
       {
@@ -3594,7 +5498,7 @@
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 56,
+        "ShortSide": 57.653543307086615,
         "LongSide": 35.37007874015748
       },
       {
@@ -3602,7 +5506,7 @@
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 56,
+        "ShortSide": 57.653543307086615,
         "LongSide": 35.37007874015748
       },
       {
@@ -3610,7 +5514,7 @@
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 56,
+        "ShortSide": 57.653543307086615,
         "LongSide": 35.37007874015748
       },
       {
@@ -3618,7 +5522,7 @@
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 56,
+        "ShortSide": 57.653543307086615,
         "LongSide": 35.37007874015748
       },
       {
@@ -3626,7 +5530,7 @@
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 56,
+        "ShortSide": 57.653543307086615,
         "LongSide": 35.37007874015748
       },
       {
@@ -3634,7 +5538,7 @@
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 56,
+        "ShortSide": 57.653543307086615,
         "LongSide": 35.37007874015748
       },
       {
@@ -3642,7 +5546,7 @@
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 56,
+        "ShortSide": 57.653543307086615,
         "LongSide": 35.37007874015748
       },
       {
@@ -3650,7 +5554,7 @@
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 56,
+        "ShortSide": 57.653543307086615,
         "LongSide": 35.37007874015748
       },
       {
@@ -3658,7 +5562,7 @@
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 56,
+        "ShortSide": 57.653543307086615,
         "LongSide": 35.37007874015748
       },
       {
@@ -3666,7 +5570,7 @@
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 56,
+        "ShortSide": 57.653543307086615,
         "LongSide": 35.37007874015748
       },
       {
@@ -3674,7 +5578,7 @@
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 56,
+        "ShortSide": 57.653543307086615,
         "LongSide": 35.37007874015748
       },
       {
@@ -3682,7 +5586,23 @@
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 56,
+        "ShortSide": 57.653543307086615,
+        "LongSide": 35.37007874015748
+      },
+      {
+        "Id": "Activation - red - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 57.653543307086615,
+        "LongSide": 35.37007874015748
+      },
+      {
+        "Id": "Activation - red - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 57.653543307086615,
         "LongSide": 35.37007874015748
       }
     ]
@@ -3944,12 +5864,236 @@
         "Id": "Activation - red - movement",
         "Type": "Token",
         "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 57.653543307086615,
+        "LongSide": 0.6299212598425186
+      },
+      {
+        "Id": "Activation - red - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 57.653543307086615,
+        "LongSide": 0.6299212598425186
+      },
+      {
+        "Id": "Activation - red - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 57.653543307086615,
+        "LongSide": 0.6299212598425186
+      },
+      {
+        "Id": "Activation - red - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 57.653543307086615,
+        "LongSide": 0.6299212598425186
+      },
+      {
+        "Id": "Activation - red - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 57.653543307086615,
+        "LongSide": 0.6299212598425186
+      },
+      {
+        "Id": "Activation - red - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 57.653543307086615,
+        "LongSide": 0.6299212598425186
+      },
+      {
+        "Id": "Activation - red - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 57.653543307086615,
+        "LongSide": 0.6299212598425186
+      },
+      {
+        "Id": "Activation - red - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 57.653543307086615,
+        "LongSide": 0.6299212598425186
+      },
+      {
+        "Id": "Activation - red - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 57.653543307086615,
+        "LongSide": 0.6299212598425186
+      },
+      {
+        "Id": "Activation - red - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 57.653543307086615,
+        "LongSide": 0.6299212598425186
+      },
+      {
+        "Id": "Activation - red - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 57.653543307086615,
+        "LongSide": 0.6299212598425186
+      },
+      {
+        "Id": "Activation - red - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 57.653543307086615,
+        "LongSide": 0.6299212598425186
+      },
+      {
+        "Id": "Activation - red - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 57.653543307086615,
+        "LongSide": 0.6299212598425186
+      },
+      {
+        "Id": "Activation - red - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 57.653543307086615,
+        "LongSide": 0.6299212598425186
+      },
+      {
+        "Id": "Activation - red - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 0,
+        "ShortSide": 57.653543307086615,
+        "LongSide": 0.6299212598425186
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
         "Rotation": 180,
         "ShortSide": 56,
         "LongSide": 35.37007874015748
       },
       {
-        "Id": "Activation - red - movement",
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 56,
+        "LongSide": 35.37007874015748
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 56,
+        "LongSide": 35.37007874015748
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 56,
+        "LongSide": 35.37007874015748
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 56,
+        "LongSide": 35.37007874015748
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 56,
+        "LongSide": 35.37007874015748
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 56,
+        "LongSide": 35.37007874015748
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 56,
+        "LongSide": 35.37007874015748
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 56,
+        "LongSide": 35.37007874015748
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 56,
+        "LongSide": 35.37007874015748
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 56,
+        "LongSide": 35.37007874015748
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 56,
+        "LongSide": 35.37007874015748
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 56,
+        "LongSide": 35.37007874015748
+      },
+      {
+        "Id": "Activation - blue - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 56,
+        "LongSide": 35.37007874015748
+      },
+      {
+        "Id": "Activation - blue - movement",
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
@@ -3961,7 +6105,7 @@
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 56,
+        "ShortSide": 57.653543307086615,
         "LongSide": 35.37007874015748
       },
       {
@@ -3969,7 +6113,7 @@
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 56,
+        "ShortSide": 57.653543307086615,
         "LongSide": 35.37007874015748
       },
       {
@@ -3977,7 +6121,7 @@
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 56,
+        "ShortSide": 57.653543307086615,
         "LongSide": 35.37007874015748
       },
       {
@@ -3985,7 +6129,7 @@
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 56,
+        "ShortSide": 57.653543307086615,
         "LongSide": 35.37007874015748
       },
       {
@@ -3993,7 +6137,7 @@
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 56,
+        "ShortSide": 57.653543307086615,
         "LongSide": 35.37007874015748
       },
       {
@@ -4001,7 +6145,7 @@
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 56,
+        "ShortSide": 57.653543307086615,
         "LongSide": 35.37007874015748
       },
       {
@@ -4009,7 +6153,7 @@
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 56,
+        "ShortSide": 57.653543307086615,
         "LongSide": 35.37007874015748
       },
       {
@@ -4017,7 +6161,7 @@
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 56,
+        "ShortSide": 57.653543307086615,
         "LongSide": 35.37007874015748
       },
       {
@@ -4025,7 +6169,7 @@
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 56,
+        "ShortSide": 57.653543307086615,
         "LongSide": 35.37007874015748
       },
       {
@@ -4033,7 +6177,7 @@
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 56,
+        "ShortSide": 57.653543307086615,
         "LongSide": 35.37007874015748
       },
       {
@@ -4041,7 +6185,7 @@
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 56,
+        "ShortSide": 57.653543307086615,
         "LongSide": 35.37007874015748
       },
       {
@@ -4049,7 +6193,7 @@
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 56,
+        "ShortSide": 57.653543307086615,
         "LongSide": 35.37007874015748
       },
       {
@@ -4057,7 +6201,23 @@
         "Type": "Token",
         "Quadrant": 1,
         "Rotation": 180,
-        "ShortSide": 56,
+        "ShortSide": 57.653543307086615,
+        "LongSide": 35.37007874015748
+      },
+      {
+        "Id": "Activation - red - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 57.653543307086615,
+        "LongSide": 35.37007874015748
+      },
+      {
+        "Id": "Activation - red - movement",
+        "Type": "Token",
+        "Quadrant": 1,
+        "Rotation": 180,
+        "ShortSide": 57.653543307086615,
         "LongSide": 35.37007874015748
       }
     ]

@@ -12,7 +12,7 @@ Shield, separate Assault records, native Warhall colour tokens and the old 3-inc
 
 ## Map stacks
 
-Every map contains only 15 blue and 15 red activation markers outside the standard board edge. src/tokens/tray.mjs owns their positions and counts. Other available tokens are placed manually or supplied by the existing native ExtraItems definitions; do not add automatic marker trays back.
+Every map contains two activation stacks per player side: 15 blue and 15 red markers, 60 markers total, outside the standard board edge. src/tokens/tray.mjs owns their positions and counts. Other available tokens are placed manually or supplied by the existing native ExtraItems definitions; do not add automatic marker trays back.
 
 ## Activation markers
 

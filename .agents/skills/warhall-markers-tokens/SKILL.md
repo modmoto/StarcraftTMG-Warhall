@@ -24,7 +24,7 @@ Build with models:catalogue, inspect the previews, push the assets, and publish 
 
 ## Map loading activation stacks
 
-Every map loads exactly two token stacks outside the standard board edge: 15 blue Movement/Assault markers and 15 red. src/tokens/tray.mjs owns the placements. No other token is automatically spawned. Separate Assault definitions are removed; Movement is the front and Assault the reverse of each 32 mm activation marker. The Shield token is removed from definitions, artwork, menu ordering and the active catalogue; native unit shield stats remain.
+Every map loads four token stacks outside the standard board edge: each player side has 15 blue Movement/Assault markers and 15 red (60 markers total). src/tokens/tray.mjs owns the placements. No other token is automatically spawned. Separate Assault definitions are removed; Movement is the front and Assault the reverse of each 32 mm activation marker. The Shield token is removed from definitions, artwork, menu ordering and the active catalogue; native unit shield stats remain.
 
 ## Native templates and flipping
 

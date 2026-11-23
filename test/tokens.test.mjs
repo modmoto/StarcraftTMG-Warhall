@@ -106,7 +106,7 @@ test('generator reproduces the editor token records and catalogue order exactly'
     );
 });
 
-test('maps place only two activation stacks of 15 outside the battlefield', async () => {
+test('maps place both activation colours in stacks of 15 at each player end', async () => {
   const { tokenTrayPlacements } = await import('../src/tokens/tray.mjs');
   for (const [width, height] of [
     [54, 36],
@@ -114,10 +114,16 @@ test('maps place only two activation stacks of 15 outside the battlefield', asyn
     [54, 48],
   ]) {
     const placements = tokenTrayPlacements({ width, height });
-    assert.equal(placements.length, 30);
+    assert.equal(placements.length, 60);
     const stacks = Map.groupBy(placements, item => JSON.stringify(item));
-    assert.equal(stacks.size, 2);
+    assert.equal(stacks.size, 4);
     for (const stack of stacks.values()) assert.equal(stack.length, 15);
+    for (const end of Map.groupBy(placements, item => item.LongSide).values()) {
+      assert.equal(end.length, 30);
+      assert.equal(new Set(end.map(item => item.Id)).size, 2);
+      const columns = [...new Set(end.map(item => item.ShortSide))];
+      assert.ok(Math.abs(columns[1] - columns[0]) * 25.4 > 32);
+    }
     assert.ok(
       placements.every(item => item.Id.startsWith('Activation - ') && item.Id.endsWith('movement')),
     );
@@ -182,9 +188,9 @@ test('Shield token is absent from definitions, menu, maps and active skins', asy
   );
   for (const map of await read('Starcraft/maps.json')) {
     const tokens = map.Items.filter(item => item.Type === 'Token');
-    assert.equal(tokens.length, 30);
-    assert.equal(tokens.filter(token => token.Id === 'Activation - blue - movement').length, 15);
-    assert.equal(tokens.filter(token => token.Id === 'Activation - red - movement').length, 15);
+    assert.equal(tokens.length, 60);
+    assert.equal(tokens.filter(token => token.Id === 'Activation - blue - movement').length, 30);
+    assert.equal(tokens.filter(token => token.Id === 'Activation - red - movement').length, 30);
   }
 });
 
