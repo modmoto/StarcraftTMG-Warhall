@@ -1,119 +1,40 @@
-# Shared model catalogue
+# Shared model publication
 
-`model-catalogue.json` defines the HTTPS mesh and texture URLs, scale, position, rotation and target profile ID for 45 units and 17 terrain assemblies. Three mission markers reuse existing Warhall skins. Attachments have independent transforms. This is a publisher input, not a file the Warhall WDS manifest consumes.
+`model-catalogue.json` is the publisher input. The WDS manifest does not register shared skins. Maintain source selections and overrides, then rebuild the catalogue with `npm run models:catalogue`. Preserve reviewed transforms and the token bundle overrides; preview GLBs must not replace tested Unity bundles.
 
-The initial catalogue is generated from the visually reviewed `model-selections.json` and `terrain-models.json`:
+## Targets and authentication
 
-```sh
-npm run models:catalogue
-```
+Test is https://apptest.warhall.eu; production is https://www.warhall.eu. Both registered games are exactly `Starcraft`. Resolve game IDs from GetGamesWeb and verify administrator access. Native/server-local skin IDs and publication checkpoints are not interchangeable between servers.
 
-Edit `model-catalogue.json` to change a remote URL or transform. Regenerating replaces those edits; update the source selections instead if the change should survive regeneration. GitHub raw HTTPS URLs and the current TTS CDN URLs are supported. No local asset paths are allowed.
+Use the saved OS credential with `--login`; see [local authentication](local-authentication.md). Do not print passwords, cookies or identity tokens. Existing acceptance of publication terms persists. If an interactive login challenge appears, complete it through the ordinary login flow.
 
-Preview the requests without logging in or changing the server (create `.cache` first if it does not exist):
+## Publish and verify
 
-```sh
-npm run --silent models:publish > .cache/model-publication-preview.json
-```
-
-## Publish
-
-Sign in to https://apptest.warhall.eu and confirm that your account is an administrator for the target game (`Starcraft` on both Test and production): Model Creator's category selector should offer **Assign as default skin**. Review the public-skin rights, platform hosting licence and takedown confirmations there. The command requires your explicit acceptance of those same terms; it does not establish that third-party assets are licensed for redistribution.
-
-The test frontend has no documented API-token flow. This adapter uses its existing authenticated endpoints. Supply your own session Cookie header through the `WARHALL_COOKIE` environment variable, using your shell's secret input or session environment. Never put it in JSON, command arguments, Git, or chat. It is sent only to the configured server; redirects are rejected. Unset the variable after publishing.
+Push all referenced immutable assets to main before registration. Preview or apply the selected catalogue:
 
 ```sh
-npm run models:publish -- --apply --accept-publication-terms
+npm run models:publish -- --server test
+npm run models:publish -- --server test --apply --login --accept-publication-terms
+npm run models:menus -- --server test --apply --login
 ```
 
-The script resolves the game ID by name, checks admin access, creates public skins from URLs and adds shared default assignments. New assignments use add mode; authorized replacements override the selected profile after creating its new skin. Server-generated skin IDs and progress are saved to ignored `.cache/model-publication.json`; retain that file between runs and across publisher machines. Unchanged completed entries are reused, manually deleted uploads are recreated, and failed assignments reuse their created skin.
+Use `--kind unit|terrain|marker|deployment|token` or `--catalogue PATH` to limit work. Use `--state PATH` for an existing checkpoint scoped to the actual target game. Never clear checkpoints or use `--replace` merely to retry an uncertain request. A changed definition or thumbnail already triggers reconciliation. If a create outcome is uncertain, inspect the catalogue before retrying.
 
-If a create request times out or its outcome is uncertain, the script stops retries for that entry. Check the web catalogue before reconciling its saved state: set `skinId` to the created ID and remove `creating`, or remove the entry only after confirming no skin was created. A changed model definition or screenshot triggers replacement of an owned skin, with the old skin retained until the new assignment succeeds. Do not delete the whole state file to retry: that can create duplicates. Avoid simultaneous publisher runs.
+The maintained adapter uses the website's observed endpoints:
 
-`--catalogue PATH` and `--state PATH` select alternate files. The state is scoped to the server and game; production needs its own verified catalogue and state.
+- Create-and-link skin (single or multipart), with a real generated or reviewed thumbnail.
+- AssignCatalogueSkin for canonical defaults and exact-name menu aliases.
+- GetMySkinUsages and SelectSkinParts for readback.
+- UpdateSkinLayerTransforms for verified transform repairs.
 
-## Current limits
+For replacements, assign the new skin and its menu alias before deleting an obsolete owned skin. Retain skins referenced by another game. Do not delete native or other users' skins. Raw metadata fingerprints are not proof of equal geometry: compare model resources and transforms when reconciling manually.
 
-The API adapter follows the test site's current frontend and has automated mock tests, but has not been published through an authenticated account. Shared defaults and multipart transforms still need a live client check. Some selected URLs contain Unity asset bundles; those must be converted to a portable format before Mac compatibility can be promised. Texture colours patched only in a Windows cache are also not reproduced by registration alone.
+Retired current-game bindings can be removed through RemoveSkinUsage using itemInstanceId, skinId and costumeDefault, followed by readback. DeleteMySkin is only for an owned obsolete skin after its remaining assignments have been checked.
 
-This publisher registers models and terrain appearances. It does not publish custom deployment templates, change gameplay JSON, upload binary assets, or replace the remaining portability work. After publishing, refresh the shared catalogue in Warhall Test and check units and terrain on both platforms.
+After publication, verify defaults, aliases, model resources and thumbnail URLs. Actual rendering, native interactions and multiplayer behavior require a client check. A WDS version bump is needed for changed game data, not a shared-skin-only correction.
 
-## Marine calibration
+## Local data to retain
 
-The shared Marine skin is 12999 (layer 33205). Its initial nonlegacy normalized scale was 1.1811023622, corresponding to approximately 80 mm maximum dimension. The catalogue editor was used to halve it on October 31, 2026; the model now fits within the 32 mm reference base in the web preview. In-game verification is pending. `model-publication-overrides.json` records its existing skin ID and approximately 0.5905511811 scale so regeneration retains this calibration and publication does not create another Marine skin. The publisher reuses existing skin IDs; it does not edit their transforms. Subsequent shared scale changes must be saved in the catalogue editor as well as recorded in the override. Existing local-test legacy scales are not interchangeable with new normalized web-import scales.
+Keep the ignored Test and production publication receipts, current game scope and successful progress. Test's default checkpoint is `.cache/model-publication.json`; production uses `.cache/model-publication-prod.json`. Do not reuse a checkpoint from a retired game. Thumbnails and render fingerprints are in `.cache/model-thumbnails/`; manual thumbnails without render metadata are intentionally preserved.
 
-## Next waves and default-scale import
-
-The reusable `$warhall-publish-skins` skill is installed in `~/.codex/skills/warhall-publish-skins`, with a repository copy under `.agents/skills/warhall-publish-skins`. It describes selection, creation, shared assignment and resume handling.
-
-To skip scale/transform calibration for new models and authenticate interactively:
-
-```sh
-npm run models:publish -- --apply --login --default-scale --accept-publication-terms
-```
-
-The local terminal asks for username/email and a hidden password. It uses the same Firebase password sign-in and `/sessionLogin` exchange as the website. No credentials or session cookies are saved. The public Firebase configuration is read from the test site's frontend. Interactive MFA/CAPTCHA or login policy restrictions require using the website or an explicitly supplied session; the command does not bypass them. Browser login alone does not authenticate this CLI.
-
-`--default-scale` sends `model_size: 1` and no transforms for new skins. It also omits multipart offsets/rotations; geometric arrangement and final size are deferred. Existing skins, including Marine 12999, retain their saved appearance. Use the same mode when resuming so fingerprints match.
-
-## Test and production targets
-
-`--server test` (the default) targets `https://apptest.warhall.eu`. `--server prod` targets `https://www.warhall.eu`. The literal HTTPS URLs are accepted as well. Preview production without writes:
-
-```sh
-npm run models:publish -- --server prod --default-scale
-```
-
-Add `--apply --login --accept-publication-terms` only when publication to that target is intended. Production uses `.cache/model-publication-prod.json`; test retains `.cache/model-publication.json`. Existing skin IDs are local to a server: the test Marine ID is not reused in production, and three native markers without verified production IDs are excluded. The publisher queries `/GetMySkinUsages` and skips a verified existing game/profile/default assignment, including the previously published Marine.
-
-The first batch omitted thumbnails. New skin creation now requires a prepared snapshot and sends it as `thumbnail_data_url`; see below. Updating thumbnails on the 27 already-created skins still needs a supported update operation; none has yet been identified in the inspected frontend.
-
-## Thumbnail images
-
-Missing previews render automatically from the selected textured geometry as 512 × 512 PNG images under `.cache/model-thumbnails/<profileId>.png`. JPEG and WebP are also accepted. The upload command sends these bytes as `thumbnail_data_url` for both single-part and multipart skins. OBJ previews render in Node. Unity asset bundles use the included Python decoder for prefab transforms, skinning and materials. The renderer also resolves secondary TTS material bundles from `tts-model-sources.json` when required.
-
-Use `--thumbnails-dir PATH` for another folder, or add `thumbnailFile` to an entry in `model-catalogue.json`:
-
-```json
-{ "profileId": "prof_marine", "thumbnailFile": "previews/prof_marine.png" }
-```
-
-This example shows the additional field, not a complete catalogue entry. A corresponding `thumbnailFile` override in `model-publication-overrides.json` survives catalogue regeneration. PNG, JPEG and WebP signatures are recognized; images must be nonempty and at most 5 MiB. Missing images are generated before login. Rendering failures are listed in dry-run output. Apply checks them for every selected model/terrain assembly before asking for credentials or making changes. There is no fallback to publishing a null thumbnail.
-
-Native marker skins need no snapshot. Uploaded model/terrain assemblies need snapshot files even when previously published, so image changes and deleted server data can be reconciled. Thumbnail paths do not invalidate saved model fingerprints. This avoids duplicate creation, but does not backfill previews for earlier uploads. Visual verification and a supported existing-thumbnail update operation remain separate.
-
-## Fresh replacement
-
-The command generates missing snapshots automatically. To force fresh skin uploads, use:
-
-```sh
-npm run models:publish -- --apply --login --default-scale --replace --accept-publication-terms
-```
-
-The importer reads the owned server catalogue to reconcile checkpoint IDs. It recreates manually deleted uploads instead of trusting an old assigned flag. In ordinary mode, changed model definitions or screenshot bytes also trigger replacement; `--replace` forces it even for unchanged inputs.
-
-Each replacement creates the new skin with its snapshot, assigns it with override mode, then deletes the old owned skin through `/DeleteMySkin`. Native marker references are reused. Other users' skins are never deleted; an old skin referenced by another game/profile is retained and reported. A failed assignment leaves the old skin intact; failed deletion resumes cleanup without recreating the replacement. An incomplete replacement batch is resumed on retry; invoking `--replace` after completion intentionally starts a new full replacement. Keep the progress file.
-
-The supported way to refresh a screenshot here is replacing the owned skin, rather than an unverified thumbnail-update endpoint. This changes the skin ID and can affect saved games referencing the old ID. The replacement behaviour is tested with a simulated API; live replacement has not yet been verified.
-
-## Automatic thumbnail generation
-
-`node scripts/generate-model-thumbnails.mjs` generates or validates all cached previews without logging in or publishing. Use `--profile PROFILE_ID` for one model, `--force` to regenerate images, or `--use-transforms` to include configured scales in preview geometry. The publisher generates missing previews automatically with its selected scale mode.
-
-Generated images have a `.render.json` sidecar fingerprint. Source/transform or renderer changes regenerate those images; manually supplied images without metadata are preserved. Network source files and decoded bundle geometry are cached under `.cache/thumbnail-assets`. The renderer uses real mesh geometry, UV textures, triangle depth testing and automatic framing. It produces a catalogue image, not a guarantee of matching Unity's lighting or final in-game rendering.
-
-Node and the cross-platform sharp dependency handle OBJ geometry, texture decoding and rasterization. Unity bundles additionally require Python 3.10+ available as `python3` on macOS or `python` on Windows. Set `WARHALL_PYTHON` to select another interpreter. On first use, the script installs pinned UnityPy and NumPy into the ignored asset cache. This helper only decodes downloaded model assets; it does not read Warhall credentials or application caches.
-
-## Restore the working Windows model layouts
-
-The current catalogue now compensates for the shared client's OBJ normalization and retains the original Windows cache sizes, translations and rotations. Do not reset these transforms with default import values. The previous default-scale mode dropped wall rotations and caused incorrect sizes. Prepared catalogue entries retain their transforms even if an older command includes that flag. See [the scale conversion and portable-model notes](model-calibration.md).
-
-Five Unity-bundle sources, including the Adept, now use embedded-texture GLBs in `model-assets/`. Push those files and the regenerated catalogue first, then run `npm run models:publish -- --apply --login --replace --accept-publication-terms`. Availability is checked before login. This is a shared skin correction, not a WDS data-version change. The earlier isolated Marine half-size adjustment is superseded by restoring its authored Windows cache layout.
-
-## Native token skins (release 33)
-
-Use `--kind token` to publish the 16 single-sided native Tokens menu entries and their generated thumbnails. Their round GLBs are built by models:catalogue from the existing vector token artwork. Publish after pushing assets; retain the normal shared default/checkpoint workflow. See [tokens.md](tokens.md).
-
-## New Test registration (data version 56)
-
-The active Test and production games are both named `Starcraft`, resolved separately on their servers. Main publishes the Test dataset; release publishes production. Use the server-scoped publisher checkpoints and reconcile live assignments rather than copying game-local IDs. The retired second Test registration must not receive routine updates.
+Model/image URLs are HTTPS. Model assets remain hash-named under main so existing live and release references remain valid. See [releases](releases.md) before promoting production.

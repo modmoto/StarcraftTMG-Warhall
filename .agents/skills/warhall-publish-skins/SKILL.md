@@ -14,7 +14,7 @@ Read `docs/model-publication.md`, `model-catalogue.json`, and the publisher's cu
 - Add visually selected model and texture URLs to `model-selections.json` (units) or `terrain-models.json` (terrain), using the actual WDS profile/terrain IDs. Run `npm run models:catalogue` and inspect its changes. Keep existing entries and `model-publication-overrides.json` so known skin IDs are reused.
 - Default target is `https://apptest.warhall.eu` (`--server test`). Production is `https://www.warhall.eu` (`--server prod`). The literal URLs are accepted too. Publish only to the target the user requested; supporting production does not authorize publishing there. Target game is exactly `Starcraft` on both servers, configured by model-catalogue.json gameNames. The retired second Test registration is separate and must not receive routine updates. Test reads main/Starcraft; production reads release/Starcraft. See docs/releases.md. There is also a distinct lowercase `starcraft` game. Resolve the game ID through `/GetGamesWeb/`, never infer it from the name or a local cache.
 - Unit baseline: retain the working Windows-cache layouts. Release 21 explicitly recalibrates terrain against the PDF grid; use `docs/terrain-calibration.md` for terrain. Run `models:catalogue` to prepare equivalent shared-API transforms; read `docs/model-calibration.md`. Do not fit meshes to bases or reset rotations/positions. Prepared `windows-cache-v1` catalogue entries ignore the old `--default-scale` reset. Normal commands now omit that flag.
-- Missing previews render automatically as described under Catalogue previews; inspect them and preview `npm run --silent models:publish --`. The initial catalogue contains 45 units, 17 terrain assemblies and three custom marker skins; counts change with future waves. Marine skin 12999 is already published.
+- Missing previews render automatically as described under Catalogue previews; inspect them and preview `npm run --silent models:publish --`. Read current entry counts and assignments from the catalogue and live server rather than historical release notes.
 
 ## Authenticate and publish
 
@@ -38,7 +38,7 @@ These are observed frontend endpoints, not a stable documented public API. Verif
 
 ## Resume and verify
 
-Retain ignored `.cache/model-publication-starcraft-test.json` for the new Test game (the old Starcraft game uses `.cache/model-publication.json`) and `.cache/model-publication-prod.json` for production between runs and publisher machines. Server-local existing skin IDs are not reused across targets; native marker references without verified target IDs are excluded. It records server/game scope, definition fingerprints, skin IDs and assignment completion, with no credentials. Do not run concurrent publishers. When a creation outcome is uncertain, reconcile it in the catalogue before retrying: the script stops rather than risk creating a duplicate. Changed model fingerprints or screenshot hashes trigger replacement of an owned upload. Do not clear the whole state to force retries.
+Retain ignored `.cache/model-publication.json` for Test and `.cache/model-publication-prod.json` for production between runs and publisher machines. Verify the stored server/game scope against the resolved Starcraft game before reuse; never use a retired-game checkpoint. Server-local existing skin IDs are not reused across targets; native marker references without verified target IDs are excluded. It records server/game scope, definition fingerprints, skin IDs and assignment completion, with no credentials. Do not run concurrent publishers. When a creation outcome is uncertain, reconcile it in the catalogue before retrying: the script stops rather than risk creating a duplicate. Changed model fingerprints or screenshot hashes trigger replacement of an owned upload. Do not clear the whole state to force retries.
 
 The publisher checks `/GetMySkinUsages` before assigning a known skin ID; exact game/profile/default matches are recorded as completed instead of posted again. Existing skin IDs are reconciled against the live owned catalogue and shared assignments; a deleted model is recreated rather than skipped because of its checkpoint. Inspect conflicts instead of silently replacing another skin. Keep successful progress when another entry fails. Report registered, assigned, skipped and failed entries from actual responses/state; prepared payloads and passing mock tests are not proof of publication.
 
@@ -84,98 +84,12 @@ Read `docs/model-calibration.md` when multipart geometry or wall angles differ d
 
 Use `node scripts/repair-model-transforms.mjs --apply --login --profile PROFILE_ID` for an existing shared skin. Omit `--profile` only when repairing the whole selected catalogue is requested. Default server is test, with the same `--server` choices as publishing. This targets `/UpdateSkinLayerTransforms` and verifies `/SelectSkinParts` readback instead of reuploading or deleting models. No new content-licensing acceptance is needed for an already-authorized transform correction. Ask the user to authenticate only if a usable explicit API session is unavailable; never extract browser cookies. A successful readback must have all numeric components and the intended values. Refresh the client catalogue and reload spawned terrain to verify the visual repair.
 
-## Mission marker skins
+## Current token, terrain and menu contracts
 
-The three `kind: marker` entries combine a 32 mm central disc with the TTS objective chevron artwork in one collider-free GLB. The control range extends three inches from the disc edge (184.4 mm overall diameter). WDS Width/Length remain 3.2 cm; do not enlarge them to the decorative ring. The client minimum-distance calculation uses the base edge. Manual ruler modes and live selection still require a client check.
+Read docs/tokens.md, docs/terrain-collider-build.md, docs/shared-deployments.md and docs/mission-markers.md before rebuilding their assets. Source generators and current catalogue definitions are authoritative; do not restore superseded historical meshes or layouts. Tokens use native Token records and shared skins, not round Card objects. Activation tokens are two-sided. The Blast Template is a native template with an open orange ring. Never assign its skin to unrelated native Warhall tokens.
 
-Push generated `model-assets/` files and version 18 WDS data before publishing. To publish only these three skins, including their generated screenshots:
+Preserve canonical profile IDs and exact shared skin-name menu aliases. After publication run models:menus in dry-run then apply mode for the requested server. Replacements must assign the new skin to both canonical profiles and menu aliases before deleting the old owned skin. Verify usages and default assignments through live readback. Keep native skins and other users' skins untouched; remove stale usages only within the authorized game/profile scope.
 
-```sh
-npm run models:publish -- --kind marker --apply --login --replace --accept-publication-terms
-```
+Physical terrain has Height=0.1 cm for direct selection; helper terrains omit Height. This metadata is separate from authored elevated-ground colliders. Preserve the current ramp collider build rather than reintroducing the reverted surface split. See the terrain build guide for actual geometry, Unity export and client verification.
 
-`--kind unit|terrain|marker|deployment` limits the batch. Test marker entries explicitly replace the profile assignments for native IDs 6201–6203; those shared native assets must never be deleted. Production does not reuse test-local native IDs. Preserve the existing profile IDs and deployment placements. Release 19 uses built-in template 12 plus shared deployment overlays; see `docs/shared-deployments.md`.
-
-## Deployment entry lines and grid
-
-Release 19 restores the original border-only entry lines through shared GLB skins, using built-in deployment template 12 with X=0,Y=0 for all eight menu entries. Duplicate native template IDs are intentional; indices select the matching `DeploymentTerrains` record. Do not revert to unavailable custom DeploymentDB IDs or fill the influence zones. `deployment-templates.json` retains the authored line coordinates and stable overlay identifiers; `models:catalogue` generates `kind: deployment` assets with centimeter calibration.
-
-After pushing assets, run `npm run models:publish -- --kind deployment --apply --login --accept-publication-terms`. This uploads eight overlays and generated thumbnails without touching unit skins. Existing marker publication remains separate. Verify a 54×36 fresh room, all deployment names, border lines, switching/flipping, marker positions and the grid. These overlays are spawned decorative terrain rather than native deployment-line objects; do not promise native line-toggle behavior or a completed live test from mock tests alone.
-
-## PDF-grid terrain (release 21)
-
-The user explicitly requested new terrain sizing and precise grid placement, superseding the earlier Windows-size preservation rule for terrain only. Preserve the unit baseline. `terrain-calibration.json` owns reviewed footprint measurements and map poses; `terrain:update` composes nonuniform parent/child XYZ transforms and bakes complete terrain into single GLBs. Do not return to largest-axis uniform scaling, split the ramp/platform assembly, or reintroduce guessed ±25° wall compensation. Read `docs/terrain-calibration.md`; PDF dimensions are raster estimates and heights remain source-authored.
-
-Run `terrain:update`, `models:catalogue`, `terrain:review` and local checks, inspect all six grid/base-outline views, then push the hosted assets and version 21 data. Publish only terrain with `npm run models:publish -- --kind terrain --apply --login --replace --accept-publication-terms`. This includes fresh thumbnails. Do not republish unchanged units, mission markers or deployment overlays. Confirm fresh live maps after catalogue refresh; a correct offline render is not proof of client behavior. Terrain GLBs use centimeter geometry and API scale 1/2.54.
-
-## Mission markers still display swords
-
-Check `.cache/model-publication.json` for `sc_mission_*` entries. IDs 6201–6203 mean the native sword references were assigned, not that the new ring geometry was uploaded. `kind: marker` is separate from terrain; use the marker-only publication command. Release 25 removes hard-coded sword SkinId values from WDS marker records so profile-based shared assignments can resolve the new visuals. Retain `replacesNativeSkinId` only in the publication catalogue to permit overriding the old assignment without deleting shared native assets. Never claim a successful marker replacement from prepared previews or the old `assigned: true` native checkpoints. Verify returned custom skin IDs and fresh client-spawned markers after catalogue refresh.
-
-## Agent push and upload authentication
-
-The user authorized locally saved credentials so the assistant can push and upload without collecting secrets in chat. One-time enrollment is `npm run models:credentials` in the user's own terminal; GitHub approval is `npm run auth:github`. Confirm only non-secret status and publish results. Never execute password-printing Keychain commands or `gh auth token` as tool calls. Stored Warhall passwords are read only inside the uploader's private subprocess and login path; no credential stdout is logged. Keychain access denial aborts. No Touch ID-per-upload guarantee is implemented. Test/prod entries remain isolated. After enrollment, authorized publishing can use `--login` noninteractively and Git can use its configured helper.
-
-## Numbered open mission rings (release 26)
-
-The current marker wave has five `kind: marker` entries, with red 1/3, blue 2/4 and green 5. Preserve stable canonical profile IDs for 1/2/5 and suffixed IDs for 3/4. `markerProfileId` links official deployment numbers to their distinct shared skins. Do not collapse these back to three color-only models. The ring and rails use actual open geometry with flat unlit materials and solid-color pixels, rather than a tinted alpha plane. The numeral is geometry; no center disc is generated. Keep the center at 32 mm and the outer diameter at 184.4 mm. Native Warhall selection-base rendering remains independent.
-
-Build and visually inspect all five assets, validate GLBs and references, push version 26 plus hosted files, then run the existing marker-only publisher with saved `--login`. Normal fingerprint reconciliation replaces the three owned old ring skins and creates profiles 3/4; protected native IDs 6201–6203 are never deleted. Report actual API results and request a fresh client deployment check rather than claiming live rendering from the offline preview.
-
-
-## Unnumbered marker revision (release 27)
-
-The user removed the numeral artwork. Keep all five stable profile assignments, but use the same open geometry for markers of the same color. Do not add numbers back. Rebuild, push the hosted files, then publish only `--kind marker` with normal fingerprint replacement and fresh generated thumbnails. Keep the 32 mm footprint and 184.4 mm outer diameter.
-
-
-## Decorated scenario centres and round tokens (release 29)
-
-The user requested a decorated centre again: keep the outer control ring open, but give the 32 mm inner marker a coloured rim, dark inset and white targeting reticle. Do not restore numerals. All centre geometry stays inside 30 mm. Push the new assets before replacing only the five marker skins and their thumbnails.
-
-Activation, faction and status tokens use WDS round Card objects under Cards → Tokens so the built-in front/back Flip works. Their images and faction dropdown logos are generated by tokens:update and are served through HTTPS URLs; they do not require shared skin registration. See docs/tokens.md. Do not publish these token images as unit or marker skins.
-
-
-## Native single-sided tokens (release 33)
-
-The user explicitly moved tokens out of Cards and disabled flipping. The current package has 16 native Token records and no Tokens card group. Separate arrow/crosshair and buff/debuff records each have one 25 mm GLB skin. This supersedes the release 29 round-card workflow above.
-
-Run tokens:update, convert and models:catalogue. Push the generated assets, then publish only `--kind token --apply --login --accept-publication-terms`. The publisher generates thumbnails, registers shared defaults and resumes with the usual checkpoint rules. Do not republish unchanged unit, terrain, deployment or scenario marker skins. See docs/tokens.md. Faction dropdown icons still load directly through HTTPS, independently of shared token skins.
-
-## Editor-compatible menu IDs (release 37; supersedes stable WDS menu IDs above)
-
-The real editor-to-Git experiment confirmed that TokensEditor and TerrainsEditor identify menu entries by the shared skin's exact name and register that name as a profile ID on upload. Opening either panel with unrecognized canonical IDs silently rebuilds its data and removes those entries. Merely publishing the mesh against `sc_token_*`/`sc_terrain_*` does not make the web editor recognize the record.
-
-The generators now emit skin-name IDs for the 16 tokens and 17 map terrain models. `terrain:update` migrates all six map references together. Canonical source IDs remain in model-catalogue.json/terrain-models.json for resumable publication and old saved games. The 13 mission-marker/deployment-overlay terrain records keep their canonical IDs and must be retained. Do not delete them because they are absent from the web terrain picker.
-
-After publishing or repairing token/terrain shared defaults, run:
-
-```sh
-npm run models:menus -- --login
-npm run models:menus -- --apply --login
-```
-
-This synchronizes the 33 skin-name aliases to existing canonical default skins, requires exact-case Starcraft administration, stops on conflicting aliases and reads back both aliases and canonical associations. It creates no meshes. The main publisher updates the menu alias before deleting an old owned token/terrain skin during replacements. Preserve this ordering; otherwise an old menu assignment can pin the obsolete skin or show stale models.
-
-For a future asset the Node path cannot represent, create a reference token/terrain through the web editor and download its ZIP. Compare it using `python scripts/compare-wds-export.py EXPORT.zip`, merge only the intended changes into the source generators, migrate every affected map/deployment reference and keep all other records and fields. Never upload an unchecked whole editor draft: its terrain serializer omits helper records, Height/Description and rounds dimensions; its token serializer omits descriptions. Preserve all 30 terrains and 16 tokens (or the deliberately updated future counts). The editor also increments manifest.version without version.json; keep both aligned.
-
-Verify the published release in the editor: Tokens must list 16 and Terrain must list 17 visible map models. Opening these panels still makes a normalized local draft, so export/compare it and discard that draft with the user's existing authorization before finishing. Never claim that web-menu verification establishes native-client rendering; hosted-asset thumbnail/prefab client defects remain separate. Record findings and screenshots. Do not modify local game caches to mask a failed shared deployment.
-
-## Objective tokens (release 38)
-
-Mission markers are now five native Token records, not Terrain. There are 21 tokens and 25 terrains (17 map models plus eight deployment overlays). Their Id and Name equal the shared skin name; DeploymentTerrains uses IsToken=true and that exact Name, because the client calls CreateToken by name. Preserve canonical sc_mission_* publication IDs and synchronize the five marker aliases through models:menus; publisher replacements update marker aliases before deleting obsolete skins. Existing geometry and 32 mm footprint are unchanged.
-
-Do not promise deployment-independent terrain locking from WDS fields. LoadPresetMap explicitly locks terrain, but loading deployment overlays calls CreateTerrain and globally unlocks it. The schema has no lock/sticky field. Loading map after deployment leaves terrain locked; the reverse order requires a Warhall client fix to preserve/restore the lock around deployment helpers. Tokens are separate from terrain locking; no per-token sticky property exists in the inspected schema. See docs/mission-markers.md.
-
-## Current terrain and markers (release 40; supersedes release 38)
-
-The user returned mission markers to Terrain: preserve the five skin-name IDs and set deployment IsToken=false. The current package has 16 tokens and 26 terrains (13 map models, five markers, eight overlays). Terrain variants are deduplicated through terrain-calibration.json assetAliases: only head acfebe and dark green banner d26342 remain. Preserve all map placements while resolving aliases. No skin deletion is needed for menu cleanup.
-
-Live preview checks found all 16 token thumbnails reachable and decodable as 512x512 PNGs; .jpg filenames are not proof of invalid bytes. No supported catalogue thumbnail-path override was found. Do not claim these checks fix native previews or repeatedly replace working skins. See docs/token-menu-client-issue.md for the unresolved relative-path client issue.
-
-## Release 45: narrow coloured deployment models; no terrain Height
-
-The user explicitly removed selection collider heights. Omit Height from every terrain generator, including markers, overlays and the native reference; visible model heights are independent. This supersedes height-preservation requirements. Deployment borders now use closed 1.5 mm wide/0.5 mm tall solid mesh strips in the existing shared object, with red/blue materials imported from mission-marker accents. Preserve PDF entry-edge positions and stable sc_deployment_* assignments. Keep the optional grid pale. Push generated GLBs, then publish only kind deployment with saved login and normal fingerprint replacement. This does not turn imported ramps into supported elevated terrain or fix the editor dropping unmatched helpers.
-
-## Data 154: physical terrain selection exception
-
-The previous blanket Height omission is superseded for the 14 physical map terrain records: keep Height=0.1 cm (1 mm) in the terrain generator. The native selection BoxCollider otherwise has zero thickness, preventing direct click/drag on imported GLBs. Keep Height absent on mission-marker and deployment helper terrain. This is selection metadata, not movement obstacle geometry or ElevatedGround height. See docs/terrain-collider-build.md. No skin reupload or client patch is needed for this data correction.
+Keep saved authentication through the supported login path; never print passwords, cookie values, credential-helper output or GitHub tokens. Retain successful scoped publication checkpoints. Only delete hosted assets after checking main, release, source builders and live skin usages on both servers. Prepared previews and API responses do not establish live client rendering.
