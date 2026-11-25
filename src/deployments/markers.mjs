@@ -34,14 +34,6 @@ export function markerTokens() {
     Id: markerMenuId({ number, color }),
     Name: markerMenuId({ number, color }),
     Type: 'Token',
-  }));
-}
-export function markerTerrains() {
-  return markerTokens().map(marker => ({
-    ...marker,
-    Type: 'Terrain',
-    Width: markerDiameterMm / 10,
-    Length: markerDiameterMm / 10,
-    Shape: 1,
+    RadiusBaseDiameterMm: markerDiameterMm,
   }));
 }

@@ -158,35 +158,35 @@
           "X": -38.1,
           "Y": 0.04,
           "Z": 15.24,
-          "IsToken": false
+          "IsToken": true
         },
         {
           "Name": "Starcraft - Terrain - Mission marker 2 - blue",
           "X": 38.1,
           "Y": 0.04,
           "Z": 15.24,
-          "IsToken": false
+          "IsToken": true
         },
         {
           "Name": "Starcraft - Terrain - Mission marker 3 - red",
           "X": 38.1,
           "Y": 0.04,
           "Z": -15.24,
-          "IsToken": false
+          "IsToken": true
         },
         {
           "Name": "Starcraft - Terrain - Mission marker 4 - blue",
           "X": -38.1,
           "Y": 0.04,
           "Z": -15.24,
-          "IsToken": false
+          "IsToken": true
         },
         {
           "Name": "Starcraft - Terrain - Mission marker 5 - green",
           "X": 0,
           "Y": 0.04,
           "Z": 0,
-          "IsToken": false
+          "IsToken": true
         },
         {
           "Name": "Starcraft - Terrain - Deployment - ACROPOLIS",
@@ -205,35 +205,35 @@
           "X": -22.86,
           "Y": 0.04,
           "Z": 30.48,
-          "IsToken": false
+          "IsToken": true
         },
         {
           "Name": "Starcraft - Terrain - Mission marker 2 - blue",
           "X": 22.86,
           "Y": 0.04,
           "Z": 30.48,
-          "IsToken": false
+          "IsToken": true
         },
         {
           "Name": "Starcraft - Terrain - Mission marker 3 - red",
           "X": 22.86,
           "Y": 0.04,
           "Z": -30.48,
-          "IsToken": false
+          "IsToken": true
         },
         {
           "Name": "Starcraft - Terrain - Mission marker 4 - blue",
           "X": -22.86,
           "Y": 0.04,
           "Z": -30.48,
-          "IsToken": false
+          "IsToken": true
         },
         {
           "Name": "Starcraft - Terrain - Mission marker 5 - green",
           "X": 0,
           "Y": 0.04,
           "Z": 0,
-          "IsToken": false
+          "IsToken": true
         },
         {
           "Name": "Starcraft - Terrain - Deployment - BREACH",
@@ -252,35 +252,35 @@
           "X": -38.1,
           "Y": 0.04,
           "Z": 15.24,
-          "IsToken": false
+          "IsToken": true
         },
         {
           "Name": "Starcraft - Terrain - Mission marker 2 - blue",
           "X": 38.1,
           "Y": 0.04,
           "Z": -15.24,
-          "IsToken": false
+          "IsToken": true
         },
         {
           "Name": "Starcraft - Terrain - Mission marker 3 - red",
           "X": 22.86,
           "Y": 0.04,
           "Z": 15.24,
-          "IsToken": false
+          "IsToken": true
         },
         {
           "Name": "Starcraft - Terrain - Mission marker 4 - blue",
           "X": -22.86,
           "Y": 0.04,
           "Z": -15.24,
-          "IsToken": false
+          "IsToken": true
         },
         {
           "Name": "Starcraft - Terrain - Mission marker 5 - green",
           "X": 0,
           "Y": 0.04,
           "Z": 0,
-          "IsToken": false
+          "IsToken": true
         },
         {
           "Name": "Starcraft - Terrain - Deployment - GAUNTLET",
@@ -299,35 +299,35 @@
           "X": -38.1,
           "Y": 0.04,
           "Z": 15.24,
-          "IsToken": false
+          "IsToken": true
         },
         {
           "Name": "Starcraft - Terrain - Mission marker 2 - blue",
           "X": 38.1,
           "Y": 0.04,
           "Z": -15.24,
-          "IsToken": false
+          "IsToken": true
         },
         {
           "Name": "Starcraft - Terrain - Mission marker 3 - red",
           "X": 38.1,
           "Y": 0.04,
           "Z": 15.24,
-          "IsToken": false
+          "IsToken": true
         },
         {
           "Name": "Starcraft - Terrain - Mission marker 4 - blue",
           "X": -38.1,
           "Y": 0.04,
           "Z": -15.24,
-          "IsToken": false
+          "IsToken": true
         },
         {
           "Name": "Starcraft - Terrain - Mission marker 5 - green",
           "X": 0,
           "Y": 0.04,
           "Z": 0,
-          "IsToken": false
+          "IsToken": true
         },
         {
           "Name": "Starcraft - Terrain - Deployment - MEETING ENGAGEMENT",
@@ -346,35 +346,35 @@
           "X": 22.86,
           "Y": 0.04,
           "Z": 7.62,
-          "IsToken": false
+          "IsToken": true
         },
         {
           "Name": "Starcraft - Terrain - Mission marker 2 - blue",
           "X": -22.86,
           "Y": 0.04,
           "Z": 7.62,
-          "IsToken": false
+          "IsToken": true
         },
         {
           "Name": "Starcraft - Terrain - Mission marker 3 - red",
           "X": 38.1,
           "Y": 0.04,
           "Z": -30.48,
-          "IsToken": false
+          "IsToken": true
         },
         {
           "Name": "Starcraft - Terrain - Mission marker 4 - blue",
           "X": -38.1,
           "Y": 0.04,
           "Z": -30.48,
-          "IsToken": false
+          "IsToken": true
         },
         {
           "Name": "Starcraft - Terrain - Mission marker 5 - green",
           "X": 0,
           "Y": 0.04,
           "Z": -30.48,
-          "IsToken": false
+          "IsToken": true
         },
         {
           "Name": "Starcraft - Terrain - Deployment - ONE BRIDGE TOO CLOSE",
@@ -393,35 +393,35 @@
           "X": -38.1,
           "Y": 0.04,
           "Z": 15.24,
-          "IsToken": false
+          "IsToken": true
         },
         {
           "Name": "Starcraft - Terrain - Mission marker 2 - blue",
           "X": 22.86,
           "Y": 0.04,
           "Z": -15.24,
-          "IsToken": false
+          "IsToken": true
         },
         {
           "Name": "Starcraft - Terrain - Mission marker 3 - red",
           "X": 38.1,
           "Y": 0.04,
           "Z": 15.24,
-          "IsToken": false
+          "IsToken": true
         },
         {
           "Name": "Starcraft - Terrain - Mission marker 4 - blue",
           "X": -22.86,
           "Y": 0.04,
           "Z": -15.24,
-          "IsToken": false
+          "IsToken": true
         },
         {
           "Name": "Starcraft - Terrain - Mission marker 5 - green",
           "X": 0,
           "Y": 0.04,
           "Z": 15.24,
-          "IsToken": false
+          "IsToken": true
         },
         {
           "Name": "Starcraft - Terrain - Deployment - PROVING GROUNDS",
@@ -440,35 +440,35 @@
           "X": -22.86,
           "Y": 0.04,
           "Z": 15.24,
-          "IsToken": false
+          "IsToken": true
         },
         {
           "Name": "Starcraft - Terrain - Mission marker 2 - blue",
           "X": -53.34,
           "Y": 0.04,
           "Z": 30.48,
-          "IsToken": false
+          "IsToken": true
         },
         {
           "Name": "Starcraft - Terrain - Mission marker 3 - red",
           "X": 53.34,
           "Y": 0.04,
           "Z": -30.48,
-          "IsToken": false
+          "IsToken": true
         },
         {
           "Name": "Starcraft - Terrain - Mission marker 4 - blue",
           "X": 22.86,
           "Y": 0.04,
           "Z": -15.24,
-          "IsToken": false
+          "IsToken": true
         },
         {
           "Name": "Starcraft - Terrain - Mission marker 5 - green",
           "X": 0,
           "Y": 0.04,
           "Z": 0,
-          "IsToken": false
+          "IsToken": true
         },
         {
           "Name": "Starcraft - Terrain - Deployment - TYPHOON",
@@ -487,21 +487,21 @@
           "X": -30.48,
           "Y": 0.04,
           "Z": 0,
-          "IsToken": false
+          "IsToken": true
         },
         {
           "Name": "Starcraft - Terrain - Mission marker 2 - blue",
           "X": 30.48,
           "Y": 0.04,
           "Z": 0,
-          "IsToken": false
+          "IsToken": true
         },
         {
           "Name": "Starcraft - Terrain - Mission marker 5 - green",
           "X": 0,
           "Y": 0.04,
           "Z": 0,
-          "IsToken": false
+          "IsToken": true
         },
         {
           "Name": "Starcraft - Terrain - Deployment - Abandoned Camp (Skirmish)",
@@ -520,21 +520,21 @@
           "X": -30.48,
           "Y": 0.04,
           "Z": -30.48,
-          "IsToken": false
+          "IsToken": true
         },
         {
           "Name": "Starcraft - Terrain - Mission marker 2 - blue",
           "X": 30.48,
           "Y": 0.04,
           "Z": 30.48,
-          "IsToken": false
+          "IsToken": true
         },
         {
           "Name": "Starcraft - Terrain - Mission marker 5 - green",
           "X": 0,
           "Y": 0.04,
           "Z": 0,
-          "IsToken": false
+          "IsToken": true
         },
         {
           "Name": "Starcraft - Terrain - Deployment - Agria Valley (Skirmish)",
@@ -553,21 +553,21 @@
           "X": -30.48,
           "Y": 0.04,
           "Z": -30.48,
-          "IsToken": false
+          "IsToken": true
         },
         {
           "Name": "Starcraft - Terrain - Mission marker 2 - blue",
           "X": -30.48,
           "Y": 0.04,
           "Z": 30.48,
-          "IsToken": false
+          "IsToken": true
         },
         {
           "Name": "Starcraft - Terrain - Mission marker 5 - green",
           "X": 15.24,
           "Y": 0.04,
           "Z": 0,
-          "IsToken": false
+          "IsToken": true
         },
         {
           "Name": "Starcraft - Terrain - Deployment - Char Plains (Skirmish)",
@@ -586,21 +586,21 @@
           "X": -30.48,
           "Y": 0.04,
           "Z": 0,
-          "IsToken": false
+          "IsToken": true
         },
         {
           "Name": "Starcraft - Terrain - Mission marker 2 - blue",
           "X": 30.48,
           "Y": 0.04,
           "Z": 0,
-          "IsToken": false
+          "IsToken": true
         },
         {
           "Name": "Starcraft - Terrain - Mission marker 5 - green",
           "X": 0,
           "Y": 0.04,
           "Z": 0,
-          "IsToken": false
+          "IsToken": true
         },
         {
           "Name": "Starcraft - Terrain - Deployment - Dirt Side (Skirmish)",
@@ -619,21 +619,21 @@
           "X": -30.48,
           "Y": 0.04,
           "Z": -30.48,
-          "IsToken": false
+          "IsToken": true
         },
         {
           "Name": "Starcraft - Terrain - Mission marker 2 - blue",
           "X": 30.48,
           "Y": 0.04,
           "Z": 30.48,
-          "IsToken": false
+          "IsToken": true
         },
         {
           "Name": "Starcraft - Terrain - Mission marker 5 - green",
           "X": 0,
           "Y": 0.04,
           "Z": 0,
-          "IsToken": false
+          "IsToken": true
         },
         {
           "Name": "Starcraft - Terrain - Deployment - Frontier (Skirmish)",
@@ -652,21 +652,21 @@
           "X": -15.24,
           "Y": 0.04,
           "Z": -30.48,
-          "IsToken": false
+          "IsToken": true
         },
         {
           "Name": "Starcraft - Terrain - Mission marker 2 - blue",
           "X": 15.24,
           "Y": 0.04,
           "Z": 30.48,
-          "IsToken": false
+          "IsToken": true
         },
         {
           "Name": "Starcraft - Terrain - Mission marker 5 - green",
           "X": 0,
           "Y": 0.04,
           "Z": 0,
-          "IsToken": false
+          "IsToken": true
         },
         {
           "Name": "Starcraft - Terrain - Deployment - Green Valleys (Skirmish)",
@@ -685,21 +685,21 @@
           "X": 15.24,
           "Y": 0.04,
           "Z": 7.62,
-          "IsToken": false
+          "IsToken": true
         },
         {
           "Name": "Starcraft - Terrain - Mission marker 2 - blue",
           "X": -15.24,
           "Y": 0.04,
           "Z": 7.62,
-          "IsToken": false
+          "IsToken": true
         },
         {
           "Name": "Starcraft - Terrain - Mission marker 5 - green",
           "X": 0,
           "Y": 0.04,
           "Z": -30.48,
-          "IsToken": false
+          "IsToken": true
         },
         {
           "Name": "Starcraft - Terrain - Deployment - Power Lines (Skirmish)",

@@ -150,7 +150,8 @@ async function initialData(template) {
         !token.Id.startsWith('TokenWarhall') &&
         !['Token3Inch', 'Token5Inch'].includes(token.Id) &&
         !token.Id.startsWith('sc_token_') &&
-        !token.Id.startsWith('Starcraft - Token - '),
+        !token.Id.startsWith('Starcraft - Token - ') &&
+        !token.Id.startsWith('Starcraft - Terrain - Mission marker '),
     ),
     ...nativeTokens(),
   ];

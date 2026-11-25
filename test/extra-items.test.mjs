@@ -69,3 +69,13 @@ test('repeated card and unit imports retain native quantities without duplicate 
       .ExtraItems?.length,
   );
 });
+
+test('Bile Launcher loads Bile Bomb while Ravagers load Corrosive Bile', () => {
+  for (const [id, token] of [
+    ['pdf_Zerg_unit_bile_launcher', 'Bile Bomb'],
+    ['pdf_Zerg_unit_ravagers', 'Corrosive Bile'],
+  ]) {
+    const source = data['Zerg/units.json'].find(unit => unit.Id === id);
+    assert.deepEqual(source.ExtraItems, [{ Id: `Starcraft - Token - ${token}`, Type: 'Token' }]);
+  }
+});

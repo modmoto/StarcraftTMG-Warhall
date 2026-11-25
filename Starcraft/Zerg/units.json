@@ -9,7 +9,13 @@
     ],
     "Children": [],
     "DefaultFront": 1,
-    "Formation": 0
+    "Formation": 0,
+    "ExtraItems": [
+      {
+        "Id": "Starcraft - Token - Bile Bomb",
+        "Type": "Token"
+      }
+    ]
   },
   {
     "Id": "pdf_Zerg_unit_corpsers_roach",

@@ -9,7 +9,7 @@ Ask during wave inventory whether new tokens are needed. Check official material
 
 ## Gameplay tokens
 
-Use the definitions and SVG artwork under src/tokens and token-artwork. Existing custom tokens are single-sided round 25 mm GLBs. Use separate entries for separate states. Keep the canonical sc_token_* publication IDs. The emitted Token records contain Id, Name and Type, with Id and Name exactly matching the shared skin name.
+Use the definitions and SVG artwork under src/tokens and token-artwork. Use the current reviewed token bundles; sizes and supported flip faces are maintained in the token definitions and overrides. Keep the canonical sc_token_* publication IDs. The emitted Token records contain Id, Name and Type, with Id and Name exactly matching the shared skin name. Faction tokens, Bile Bomb, Corrosive Bile and objectives use RadiusBaseDiameterMm=32 for native edge measurement without visual resizing. Omit it for other tokens.
 
 1. Run npm run tokens:update, npm run convert -- --offline and npm run models:catalogue. Inspect artwork, dimensions and thumbnails, then run npm run check:local.
 2. Push hosted assets and Test data before uploading changed token skins. Use warhall-publish-skins with kind token, then synchronize the exact-name menu assignments with models:menus.
@@ -18,7 +18,7 @@ Use the definitions and SVG artwork under src/tokens and token-artwork. Existing
 
 ## Objective markers
 
-Use src/deployments/marker-assets.mjs and docs/mission-markers.md. Keep the five current objectives as Terrain with exact skin-name IDs and canonical sc_mission_* publication bindings. Deployments reference those names in DeploymentTerrains with IsToken=false. Preserve placement and color assignments. The current unnumbered design uses a decorated 32 mm centre and an open control outline.
+Use src/deployments/marker-assets.mjs and docs/mission-markers.md. Keep the five current objectives as Token records with the existing exact skin-name IDs and canonical sc_mission_* publication bindings. The historical Terrain word in these stable IDs does not determine item type. Remove objective definitions from terrains.json. Deployments reference their exact names in DeploymentTerrains with IsToken=true. Set RadiusBaseDiameterMm=32 (diameter, not radius). Reuse unchanged published skins. Automatic movement locking is unsupported by the current deployment schema; do not invent fields or disable measurement colliders. Preserve placement and color assignments. The current unnumbered design uses a decorated 32 mm centre and an open control outline.
 
 Build with models:catalogue, inspect the previews, push the assets, and publish changed skins with kind marker. Synchronize menu bindings and verify a fresh deployment in Test. Check the terrain picker and ZIP roundtrip separately from battlefield placement. See docs/wds-editor-compatibility.md for omitted helper records and rounded dimensions. Merge intended edits into the source generators after reviewing the ZIP diff.
 
@@ -39,4 +39,4 @@ Keep the sized BoxCollider on the prefab root so the remote token loader does no
 
 Preserve token-model-overrides.json when regenerating catalogues: its reviewed Unity bundles retain the working collider and renderer tags. Generated GLBs are preview/source geometry and must not replace those bundles during routine publication.
 
-The final Test token menu has 18 entries and no built-in Warhall colour tokens or old 3-inch template. Keep the custom 130mm Blast Template (stable Id Token5Inch) first, then blue/red activation, faction pairs, Buff/Debuff, and remaining effects alphabetically with Corrosive Bile immediately after Bile Bomb. token-menu-order.json owns this order. Remove inactive current-game associations with the observed RemoveSkinUsage API (itemInstanceId, skinId, costumeDefault), verify readback, and retain shared assets used by other games. Do not restore the former native defaults during menu synchronization.
+The final Test token menu has 23 entries and no built-in Warhall colour tokens or old 3-inch template. Keep the custom 130mm Blast Template (stable Id Token5Inch) first, then blue/red activation, faction pairs, Buff/Debuff, and remaining effects alphabetically with Corrosive Bile immediately after Bile Bomb. The five objective token entries follow the existing gameplay token entries. token-menu-order.json owns this order. Remove inactive current-game associations with the observed RemoveSkinUsage API (itemInstanceId, skinId, costumeDefault), verify readback, and retain shared assets used by other games. Do not restore the former native defaults during menu synchronization.

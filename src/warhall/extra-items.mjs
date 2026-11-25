@@ -28,6 +28,10 @@ export function addImportExtraItems(data) {
           unit.ExtraItems,
           ids.map(Id => ({ Id, Type: 'Unit' })),
         );
+      if (unit.Id === 'pdf_Zerg_unit_bile_launcher')
+        unit.ExtraItems = mergeExtras(unit.ExtraItems, [
+          { Id: 'Starcraft - Token - Bile Bomb', Type: 'Token' },
+        ]);
       if (unit.Id === 'pdf_Zerg_unit_ravagers')
         unit.ExtraItems = mergeExtras(unit.ExtraItems, [
           { Id: 'Starcraft - Token - Corrosive Bile', Type: 'Token' },

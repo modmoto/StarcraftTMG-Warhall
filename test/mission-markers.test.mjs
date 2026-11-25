@@ -2,7 +2,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import { readFile } from 'node:fs/promises';
 import {
-  markerTerrains,
+  markerTokens,
   markerDiameterMm,
   missionMarkers,
   markerProfileId,
@@ -15,10 +15,9 @@ import {
 } from '../src/deployments/marker-assets.mjs';
 
 test('markers measure 32 mm while the visual ring extends three inches from their edge', () => {
-  for (const marker of markerTerrains()) {
-    assert.equal(marker.Width, 3.2);
-    assert.equal(marker.Length, 3.2);
-    assert.equal(marker.Shape, 1);
+  for (const marker of markerTokens()) {
+    assert.equal(marker.Type, 'Token');
+    assert.equal(marker.RadiusBaseDiameterMm, 32);
     assert.ok(
       !('SkinId' in marker),
       'Shared marker skins must resolve by profile instead of a pinned sword ID',
@@ -109,7 +108,7 @@ test('each deployment references the correct numbered marker while keeping the 3
         items.some(
           item =>
             item.Name === markerMenuId(marker) &&
-            item.IsToken === false &&
+            item.IsToken === true &&
             item.X === marker.x * 2.54 &&
             item.Z === marker.y * 2.54,
         ),

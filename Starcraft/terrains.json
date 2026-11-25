@@ -142,46 +142,6 @@
     "IsBaseTransparent": true
   },
   {
-    "Id": "Starcraft - Terrain - Mission marker 1 - red",
-    "Name": "Starcraft - Terrain - Mission marker 1 - red",
-    "Type": "Terrain",
-    "Width": 3.2,
-    "Length": 3.2,
-    "Shape": 1
-  },
-  {
-    "Id": "Starcraft - Terrain - Mission marker 2 - blue",
-    "Name": "Starcraft - Terrain - Mission marker 2 - blue",
-    "Type": "Terrain",
-    "Width": 3.2,
-    "Length": 3.2,
-    "Shape": 1
-  },
-  {
-    "Id": "Starcraft - Terrain - Mission marker 3 - red",
-    "Name": "Starcraft - Terrain - Mission marker 3 - red",
-    "Type": "Terrain",
-    "Width": 3.2,
-    "Length": 3.2,
-    "Shape": 1
-  },
-  {
-    "Id": "Starcraft - Terrain - Mission marker 4 - blue",
-    "Name": "Starcraft - Terrain - Mission marker 4 - blue",
-    "Type": "Terrain",
-    "Width": 3.2,
-    "Length": 3.2,
-    "Shape": 1
-  },
-  {
-    "Id": "Starcraft - Terrain - Mission marker 5 - green",
-    "Name": "Starcraft - Terrain - Mission marker 5 - green",
-    "Type": "Terrain",
-    "Width": 3.2,
-    "Length": 3.2,
-    "Shape": 1
-  },
-  {
     "Id": "Starcraft - Terrain - Protoss Banner - d26342",
     "Name": "Protoss Banner",
     "Type": "Terrain",

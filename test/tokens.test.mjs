@@ -102,7 +102,11 @@ test('generator reproduces the editor token records and catalogue order exactly'
   for (const token of tokens)
     assert.deepEqual(
       Object.keys(token),
-      token.Id === 'Token5Inch' ? ['Id', 'Name', 'Type', 'IsTemplate'] : ['Id', 'Name', 'Type'],
+      token.Id === 'Token5Inch'
+        ? ['Id', 'Name', 'Type', 'IsTemplate']
+        : token.RadiusBaseDiameterMm
+          ? ['Id', 'Name', 'Type', 'RadiusBaseDiameterMm']
+          : ['Id', 'Name', 'Type'],
     );
 });
 
@@ -217,6 +221,10 @@ test('token menu groups templates, activation, factions, buffs and sorted effect
       'Hidden',
       'Siege Status',
       'Stim',
+      ...[1, 2, 3, 4, 5].map(
+        number =>
+          `Starcraft - Terrain - Mission marker ${number} - ${number === 5 ? 'green' : number % 2 ? 'red' : 'blue'}`,
+      ),
     ],
   );
 });
@@ -237,4 +245,15 @@ test('Blast Template exports only a flat orange ring without fill or cylinder', 
   const preview = await read(entry.parts[0].previewGeometryFile);
   assert.equal(preview.length, 1);
   assert.ok(preview[0].vertices.every(v => Math.hypot(v[0], v[2]) >= 6.3 - 1e-9));
+});
+
+test('only faction, bile and objective tokens gain native 32mm edge measurement', async () => {
+  const { nativeTokens } = await import('../src/tokens/package.mjs');
+  const based = nativeTokens().filter(token => token.RadiusBaseDiameterMm !== undefined);
+  assert.equal(based.length, 13);
+  assert.ok(based.every(token => token.RadiusBaseDiameterMm === 32));
+  for (const name of ['Bile Bomb', 'Corrosive Bile'])
+    assert.ok(based.some(token => token.Name === name));
+  const terrains = await read('Starcraft/terrains.json');
+  assert.ok(terrains.every(terrain => !terrain.Id.includes('Mission marker ')));
 });

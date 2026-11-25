@@ -1,3 +1,4 @@
+import { markerTokens } from '../deployments/markers.mjs';
 import tokenMenuOrder from '../../token-menu-order.json' with { type: 'json' };
 import { tokenMenuId } from '../models/menu-ids.mjs';
 
@@ -81,10 +82,14 @@ export const builtinTokenNames = [];
 
 export function nativeTokens() {
   const tokens = [
+    ...markerTokens(),
     ...tokenDefinitions.map(token => ({
       Id: tokenMenuId(token.name),
       Name: token.name,
       Type: 'Token',
+      ...(token.id.startsWith('faction_') || ['bile_bomb', 'corrosive_bile'].includes(token.id)
+        ? { RadiusBaseDiameterMm: 32 }
+        : {}),
     })),
     {
       Id: 'Token5Inch',
