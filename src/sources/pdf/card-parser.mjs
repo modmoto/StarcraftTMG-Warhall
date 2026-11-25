@@ -180,6 +180,19 @@ function readFaceProfiles(face, context) {
   return profiles;
 }
 
+// Base-only DB fallback: do not parse or import stats, weapons or rule text.
+export function parseCardBase(items, { file, faction, url }, page) {
+  const context = `${file} page ${page}`;
+  const faces = identifyFaces(items, context);
+  if (!faces) return null;
+  return {
+    name: displayName(readName(faces.front, context)),
+    faction,
+    base: readBase(faces.back),
+    source: { file, faction, url, page },
+  };
+}
+
 export function parseCardPage(items, { file, faction, url }, page) {
   const context = `${file} page ${page}`;
   const faces = identifyFaces(items, context);

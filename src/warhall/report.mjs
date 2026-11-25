@@ -2,10 +2,13 @@ import { upgradeDisplay } from './upgrade-effects.mjs';
 
 export function createReport(metadata, baseMapping) {
   const pdfMode = metadata.mode === 'pdf';
+  const databaseMode = metadata.mode === 'command-center';
   const limitations = [
-    pdfMode
-      ? 'Base footprints come from the printed cards; flight stands use the user-specified 100 mm round footprint.'
-      : 'Base footprints use the hard-coded mapping; unset units fall back to the hero/default round diameter.',
+    databaseMode
+      ? 'Units, weapons, abilities and tactical cards come from the Command Center DB. Base sizes use reviewed mappings from official card PDFs; no general rules are imported.'
+      : pdfMode
+        ? 'Base footprints come from the printed cards; flight stands use the user-specified 100 mm round footprint.'
+        : 'Base footprints use the hard-coded mapping; unset units fall back to the hero/default round diameter.',
     'Manual placement only; army-list import and roster legality are not implemented.',
     'Default profiles remain unchanged until an upgrade is selected. Selected passive HP, weapon and ability changes use WDS option mappings and blue differences. Conditional bonuses are green bracketed alternatives; paid and reactive abilities require activation.',
     'All units are exposed, including faction-restricted and summoned units; eligibility is manual.',
@@ -18,12 +21,17 @@ export function createReport(metadata, baseMapping) {
     sourceMode: metadata.mode,
     source: metadata.source,
     sources: metadata.sources,
-    ...(pdfMode
+    ...(databaseMode
       ? {
           baseSizePolicy:
-            'Printed PDF footprint; FLIGHT STAND is 100 mm round by user choice. No base-size map is read.',
+            'Reviewed official PDF footprints in command-center-mapping.json; missing sizes block application.',
         }
-      : { baseSizeMapping: baseMapping }),
+      : pdfMode
+        ? {
+            baseSizePolicy:
+              'Printed PDF footprint; FLIGHT STAND is 100 mm round by user choice. No base-size map is read.',
+          }
+        : { baseSizeMapping: baseMapping }),
     limitations,
     warnings: [...(metadata.warnings ?? [])],
     units: [],
@@ -53,6 +61,7 @@ export function unitReport(unit, faction, ids, footprint) {
     profileId: ids.profile,
     statId: ids.statline,
     ...(unit.provenance ? { card: unit.provenance } : {}),
+    ...(unit.roster ? { roster: unit.roster } : {}),
     baseDiameterMm: footprint.shape === 'round' ? footprint.widthMm : null,
     baseShape: footprint.shape,
     baseWidthMm: footprint.widthMm,

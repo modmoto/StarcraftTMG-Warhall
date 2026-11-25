@@ -14,6 +14,7 @@ import { addUpgradeOptions } from './upgrades.mjs';
 import { validateData } from './validate.mjs';
 import { nativeTokens, factionIcons, builtinTokenNames } from '../tokens/package.mjs';
 import { projectRoot } from '../paths.mjs';
+import { mergeCommandCenterCards } from './command-center-cards.mjs';
 
 const staticFiles = [
   'tokens.json',
@@ -201,6 +202,10 @@ function factionFiles(records) {
 
 export async function buildWarhallPackage(source, template = defaultDataDirectory) {
   const data = await initialData(template);
+  const preservedRules =
+    source.metadata.mode === 'command-center'
+      ? await readJson(path.join(template, 'rules.json'))
+      : null;
   const baseMapping = await loadBaseMapping(source.metadata.mode);
   const report = createReport(source.metadata, baseMapping);
   const glossary = await loadKeywordRules();
@@ -226,6 +231,8 @@ export async function buildWarhallPackage(source, template = defaultDataDirector
     if (error.code !== 'ENOENT') throw error;
   }
   if (hierarchy.Cards) delete hierarchy.Cards.Tokens;
+  if (source.metadata.mode === 'command-center')
+    mergeCommandCenterCards(data, hierarchy, source.metadata.cards);
   const bases = new Map();
 
   for (const faction of source.factions) {
@@ -273,7 +280,12 @@ export async function buildWarhallPackage(source, template = defaultDataDirector
   data['options.json'] = [...options.values()].sort((a, b) => a.Id.localeCompare(b.Id, 'en'));
   report.ruleCleanup.rulebookSource = book.source;
   report.ruleCleanup.chapters = book.entries.length;
-  report.ruleCleanup.duplicatesRemoved = consolidateRules(data, owners);
+  const preservedTargets = new Set(
+    (preservedRules ?? []).flatMap(rule =>
+      [...(rule.Description ?? '').matchAll(/<link="([^"]+)">/g)].map(match => match[1]),
+    ),
+  );
+  report.ruleCleanup.duplicatesRemoved = consolidateRules(data, owners, preservedTargets);
   linkRuleIndex(data, glossary, book);
   report.ruleCleanup.links = Object.values(data)
     .filter(Array.isArray)
@@ -309,6 +321,7 @@ export async function buildWarhallPackage(source, template = defaultDataDirector
   data['version.json'].url = manifestUrl;
   report.counts = { factions: source.factions.length, units: report.units.length };
 
+  if (preservedRules) data['rules.json'] = preservedRules;
   validateData(data);
   return { data, report };
 }

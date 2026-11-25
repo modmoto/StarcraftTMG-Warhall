@@ -1,5 +1,10 @@
 import { loadNewRecruit } from './sources/new-recruit.mjs';
 import { buildWarhallPackage } from './warhall/package.mjs';
+import { loadCommandCenter } from './sources/command-center.mjs';
+
+export async function buildFromCommandCenter(options = {}) {
+  return buildWarhallPackage(await loadCommandCenter(options), options.template);
+}
 
 export async function buildFromNewRecruit(directory, template) {
   const source = await loadNewRecruit(directory);

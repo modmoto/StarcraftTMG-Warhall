@@ -9,6 +9,8 @@ Work directly on main. Both main (Test) and release (production) use the single 
 
 ## Prepare and test
 
+For wave data updates, use npm run wave:update and the saved Command Center DB snapshot, as requested on 2026-11-25. Do not run the PDF unit converter or import rules_sections. The general rulebook/glossary stays unchanged; only missing base footprints may use official PDFs through wave:bases. See docs/command-center-updates.md. Resolve inventory blockers and separate blue/green approval lists before applying the candidate. An inventory report is not a published wave. check:local reproduces the applied source mode, including read-only legacy baseline validation before the first DB migration.
+
 Preserve reviewed models, transforms, footprints, native ExtraItems and approved rule presentation. Run npm run check:local; review relevant visuals and increment manifest/version together for data changes. Commit and push authorized changes directly to main. Publish requested missing or changed shared skins to Warhall Test using warhall-publish-skins and saved login, then synchronize menu aliases. Both servers use the exact game name Starcraft; resolve IDs separately. Do not target the retired second Test registration. Keep server-scoped checkpoints and reuse working skins.
 
 ## Release

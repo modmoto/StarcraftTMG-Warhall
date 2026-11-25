@@ -21,11 +21,14 @@ const parse = key => {
   return parseCardPage(f.items, f, f.page);
 };
 
-test('PDF is default; New Recruit and local PDFs are explicit alternatives', () => {
-  assert.equal(parseArgs([]).source, 'pdf');
+test('DB is default; legacy converters are explicit comparison sources', () => {
+  assert.equal(parseArgs([]).source, 'command-center');
   assert.equal(parseArgs(['--source', 'new-recruit']).source, 'new-recruit');
   assert.equal(parseArgs(['--source', 'pdf', '--offline']).offline, true);
-  assert.throws(() => parseArgs(['--source', 'other']), /must be pdf or new-recruit/);
+  assert.throws(
+    () => parseArgs(['--source', 'other']),
+    /must be command-center, pdf or new-recruit/,
+  );
   assert.throws(() => parseArgs(['--source', 'new-recruit', '--pdf-dir', '/tmp']), /PDF options/);
 });
 

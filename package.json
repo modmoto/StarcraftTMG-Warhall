@@ -22,7 +22,9 @@
     "rules:update-book": "node scripts/update-rulebook.mjs",
     "cards:update": "node scripts/update-cards.mjs",
     "test:setup": "node scripts/setup-test-environment.mjs",
-    "release:promote": "node scripts/promote-release.mjs"
+    "release:promote": "node scripts/promote-release.mjs",
+    "wave:update": "node scripts/update-wave.mjs",
+    "wave:bases": "node scripts/update-db-bases.mjs"
   },
   "engines": {
     "node": ">=22.13.0"

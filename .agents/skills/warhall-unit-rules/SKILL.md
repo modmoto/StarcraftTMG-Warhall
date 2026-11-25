@@ -5,7 +5,7 @@ description: Import StarCraft unit and upgrade rules from official PDFs into War
 
 # Warhall unit rules
 
-Use the current official English unit card and upgrade face for names, stats, affected weapons, timing, cost, and exact conditions. Use New Recruit to cross-check option names and aliases. Preserve existing import IDs and refer to the PDF on disagreements. Keep complete source text in the clickable rule. Consolidate same-name rules with equivalent wording while preserving distinct effects, values, or timing.
+As explicitly requested on 2026-11-25, use the official Command Center DB army_units/tactical_cards for names, stats, affected weapons, timing, cost and conditions. Use npm run wave:update and docs/command-center-updates.md. Never import rules_sections or change the general rulebook/glossary during a wave update. PDFs may supply only missing base footprints through wave:bases. Use New Recruit only to cross-check names/aliases. Preserve existing import IDs and flag source disagreements. Keep complete DB source text in the clickable unit rule. Consolidate same-name rules with equivalent wording while preserving distinct effects, values or timing. The separate blue/green approvals below still apply.
 
 ## Approval before edits
 

@@ -55,7 +55,7 @@ function printedFootprint(unit) {
 }
 
 export async function loadBaseMapping(mode) {
-  if (mode === 'pdf') return null;
+  if (mode === 'pdf' || mode === 'command-center') return null;
 
   const mapping = await readJson(path.join(projectRoot, 'base-sizes.json'));
   positiveDimension(mapping.defaultDiameterMm);

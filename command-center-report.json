@@ -1,0 +1,2386 @@
+{
+  "source": "https://firestore.googleapis.com/v1/projects/starcrafttmgbeta/databases/starcrafttmgbeta/documents",
+  "fingerprint": "1aef1f80be49f60f04a51f724303aff0587b1803c4f19d467d39215f94bfdae6",
+  "counts": {
+    "units": 59,
+    "cards": 59
+  },
+  "newUnits": [
+    {
+      "key": "Protoss/alarak",
+      "name": "Alarak"
+    },
+    {
+      "key": "Terran/firebat",
+      "name": "Firebat"
+    },
+    {
+      "key": "Zerg/infested_goliath",
+      "name": "Infested Goliath"
+    },
+    {
+      "key": "Zerg/infested_marine",
+      "name": "Infested Marine"
+    },
+    {
+      "key": "Zerg/infested_missile_turret",
+      "name": "Infested Missile Turret"
+    },
+    {
+      "key": "Zerg/infested_siege_tank",
+      "name": "Infested Siege Tank"
+    },
+    {
+      "key": "Zerg/infested_trooper",
+      "name": "Infested Trooper"
+    },
+    {
+      "key": "Protoss/phasing_scarab",
+      "name": "Phasing Scarab"
+    },
+    {
+      "key": "Protoss/reaver",
+      "name": "Reaver"
+    },
+    {
+      "key": "Protoss/scarab",
+      "name": "Scarab"
+    },
+    {
+      "key": "Protoss/slayer__stalker_",
+      "name": "Slayer (Stalker)"
+    },
+    {
+      "key": "Protoss/solarite_scarab",
+      "name": "Solarite Scarab"
+    },
+    {
+      "key": "Zerg/stukov",
+      "name": "Stukov"
+    },
+    {
+      "key": "Protoss/tal_darim_pylon",
+      "name": "Tal'darim Pylon"
+    }
+  ],
+  "existingUnits": [
+    {
+      "key": "Protoss/adept",
+      "name": "Adepts"
+    },
+    {
+      "key": "Protoss/artanis",
+      "name": "Artanis"
+    },
+    {
+      "key": "Terran/auto_turret",
+      "name": "Auto-Turret"
+    },
+    {
+      "key": "Zerg/bile_launcher",
+      "name": "Bile Launcher"
+    },
+    {
+      "key": "Zerg/corpser__roach_",
+      "name": "Corpsers (Roach)"
+    },
+    {
+      "key": "Zerg/defiler",
+      "name": "Defiler"
+    },
+    {
+      "key": "Terran/goliath",
+      "name": "Goliath"
+    },
+    {
+      "key": "Protoss/high_templar",
+      "name": "High Templar"
+    },
+    {
+      "key": "Terran/holo_decoy",
+      "name": "Holo Decoy"
+    },
+    {
+      "key": "Zerg/hydralisk",
+      "name": "Hydralisks"
+    },
+    {
+      "key": "Protoss/immortal",
+      "name": "Immortal"
+    },
+    {
+      "key": "Terran/jim_raynor",
+      "name": "Jim Raynor"
+    },
+    {
+      "key": "Zerg/kerrigan",
+      "name": "Kerrigan"
+    },
+    {
+      "key": "Zerg/kerrigan_swarm_raptor__zergling_",
+      "name": "Kerrigan Swarm Raptors (Zergling)"
+    },
+    {
+      "key": "Terran/marauder",
+      "name": "Marauders"
+    },
+    {
+      "key": "Terran/marine",
+      "name": "Marines"
+    },
+    {
+      "key": "Terran/medic",
+      "name": "Medics"
+    },
+    {
+      "key": "Protoss/nerazim_watchers__adept_",
+      "name": "Nerazim Watchers (Adept)"
+    },
+    {
+      "key": "Terran/nova_assault_mode",
+      "name": "Nova Assault Mode"
+    },
+    {
+      "key": "Terran/nova_stealth_mode",
+      "name": "Nova Stealth Mode"
+    },
+    {
+      "key": "Zerg/omega_worm",
+      "name": "Omega Worm"
+    },
+    {
+      "key": "Terran/point_defense_drone",
+      "name": "Point Defense Drone"
+    },
+    {
+      "key": "Protoss/praetor_guard__zealot_",
+      "name": "Praetor Guards"
+    },
+    {
+      "key": "Protoss/pylon",
+      "name": "Pylon"
+    },
+    {
+      "key": "Zerg/queen",
+      "name": "Queen"
+    },
+    {
+      "key": "Zerg/raptor__zergling_",
+      "name": "Raptors (Zergling)"
+    },
+    {
+      "key": "Zerg/ravager",
+      "name": "Ravagers"
+    },
+    {
+      "key": "Terran/raven",
+      "name": "Raven"
+    },
+    {
+      "key": "Terran/raynor_s_raider__marine_",
+      "name": "Raynor's Raiders"
+    },
+    {
+      "key": "Zerg/roach",
+      "name": "Roaches"
+    },
+    {
+      "key": "Zerg/roachling",
+      "name": "Roachling"
+    },
+    {
+      "key": "Terran/sabotage_drone",
+      "name": "Sabotage Drone"
+    },
+    {
+      "key": "Protoss/sentry",
+      "name": "Sentries"
+    },
+    {
+      "key": "Terran/siege_tank",
+      "name": "Siege Tank"
+    },
+    {
+      "key": "Terran/spec_ops_marauder__marauder_",
+      "name": "Spec Ops Marauder (Marauder)"
+    },
+    {
+      "key": "Protoss/stalker",
+      "name": "Stalker"
+    },
+    {
+      "key": "Zerg/swarmling__zergling_",
+      "name": "Swarmlings"
+    },
+    {
+      "key": "Protoss/tassadar",
+      "name": "Tassadar"
+    },
+    {
+      "key": "Protoss/twilight_templar__high_templar_",
+      "name": "Twilight Templar (High Templar)"
+    },
+    {
+      "key": "Zerg/vile__roach_",
+      "name": "Viles (Roach)"
+    },
+    {
+      "key": "Zerg/vileling__zergling_",
+      "name": "Vileling (Zergling)"
+    },
+    {
+      "key": "Zerg/zagara",
+      "name": "Zagara"
+    },
+    {
+      "key": "Protoss/zealot",
+      "name": "Zealots"
+    },
+    {
+      "key": "Protoss/zeratul",
+      "name": "Zeratul"
+    },
+    {
+      "key": "Zerg/zergling",
+      "name": "Zerglings"
+    }
+  ],
+  "missingBases": [
+    {
+      "key": "Protoss/alarak",
+      "name": "Alarak"
+    },
+    {
+      "key": "Terran/firebat",
+      "name": "Firebat"
+    },
+    {
+      "key": "Zerg/infested_goliath",
+      "name": "Infested Goliath"
+    },
+    {
+      "key": "Zerg/infested_marine",
+      "name": "Infested Marine"
+    },
+    {
+      "key": "Zerg/infested_missile_turret",
+      "name": "Infested Missile Turret"
+    },
+    {
+      "key": "Zerg/infested_siege_tank",
+      "name": "Infested Siege Tank"
+    },
+    {
+      "key": "Zerg/infested_trooper",
+      "name": "Infested Trooper"
+    },
+    {
+      "key": "Protoss/phasing_scarab",
+      "name": "Phasing Scarab"
+    },
+    {
+      "key": "Protoss/reaver",
+      "name": "Reaver"
+    },
+    {
+      "key": "Protoss/scarab",
+      "name": "Scarab"
+    },
+    {
+      "key": "Protoss/slayer__stalker_",
+      "name": "Slayer (Stalker)"
+    },
+    {
+      "key": "Protoss/solarite_scarab",
+      "name": "Solarite Scarab"
+    },
+    {
+      "key": "Zerg/stukov",
+      "name": "Stukov"
+    },
+    {
+      "key": "Protoss/tal_darim_pylon",
+      "name": "Tal'darim Pylon"
+    }
+  ],
+  "missingModels": [
+    {
+      "key": "Protoss/alarak",
+      "name": "Alarak",
+      "profileId": "pdf_Protoss_profile_alarak"
+    },
+    {
+      "key": "Terran/firebat",
+      "name": "Firebat",
+      "profileId": "pdf_Terran_profile_firebat"
+    },
+    {
+      "key": "Zerg/infested_goliath",
+      "name": "Infested Goliath",
+      "profileId": "pdf_Zerg_profile_infested_goliath"
+    },
+    {
+      "key": "Zerg/infested_marine",
+      "name": "Infested Marine",
+      "profileId": "pdf_Zerg_profile_infested_marine"
+    },
+    {
+      "key": "Zerg/infested_missile_turret",
+      "name": "Infested Missile Turret",
+      "profileId": "pdf_Zerg_profile_infested_missile_turret"
+    },
+    {
+      "key": "Zerg/infested_siege_tank",
+      "name": "Infested Siege Tank",
+      "profileId": "pdf_Zerg_profile_infested_siege_tank"
+    },
+    {
+      "key": "Zerg/infested_trooper",
+      "name": "Infested Trooper",
+      "profileId": "pdf_Zerg_profile_infested_trooper"
+    },
+    {
+      "key": "Protoss/phasing_scarab",
+      "name": "Phasing Scarab",
+      "profileId": "pdf_Protoss_profile_phasing_scarab"
+    },
+    {
+      "key": "Protoss/reaver",
+      "name": "Reaver",
+      "profileId": "pdf_Protoss_profile_reaver"
+    },
+    {
+      "key": "Protoss/scarab",
+      "name": "Scarab",
+      "profileId": "pdf_Protoss_profile_scarab"
+    },
+    {
+      "key": "Protoss/slayer__stalker_",
+      "name": "Slayer (Stalker)",
+      "profileId": "pdf_Protoss_profile_slayer_stalker"
+    },
+    {
+      "key": "Protoss/solarite_scarab",
+      "name": "Solarite Scarab",
+      "profileId": "pdf_Protoss_profile_solarite_scarab"
+    },
+    {
+      "key": "Zerg/stukov",
+      "name": "Stukov",
+      "profileId": "pdf_Zerg_profile_stukov"
+    },
+    {
+      "key": "Protoss/tal_darim_pylon",
+      "name": "Tal'darim Pylon",
+      "profileId": "pdf_Protoss_profile_tal_darim_pylon"
+    }
+  ],
+  "blue": [
+    {
+      "unit": "Adepts",
+      "faction": "Protoss",
+      "option": "GLAIVE STRIKE",
+      "sourceWording": {
+        "Rng": "E",
+        "Tgt": "Ground",
+        "RoA": "1",
+        "Hit": "4+",
+        "Dmg": "1",
+        "Surge": "Light",
+        "S.Die": "D3",
+        "Keyword": "PIERCE Light (2)",
+        "Notes": "FOR Strike"
+      },
+      "affected": "Combat Weapon",
+      "current": {
+        "Rng": "E",
+        "Tgt": "Ground",
+        "RoA": "1",
+        "Hit": "4+",
+        "Surge": "Light",
+        "S.Die": "D3",
+        "Dmg": "1",
+        "Keyword": "PIERCE Light (2)",
+        "Notes": "↑ FOR STRIKE"
+      },
+      "proposed": {
+        "Rng": "E",
+        "Tgt": "Ground",
+        "RoA": "1",
+        "Hit": "4+",
+        "Dmg": "1",
+        "Surge": "Light",
+        "S.Die": "D3",
+        "Keyword": "PIERCE Light (2)",
+        "Notes": "FOR Strike"
+      },
+      "display": [
+        "replacement weapon; changed fields blue"
+      ],
+      "click": "pdf_Protoss_equipment_adepts_upgrade_1_choice"
+    },
+    {
+      "unit": "Defiler",
+      "faction": "Zerg",
+      "option": "CANCEROUS BITE",
+      "sourceWording": {
+        "Rng": "E",
+        "Tgt": "Ground",
+        "RoA": "2",
+        "Hit": "3+",
+        "Dmg": "2",
+        "Surge": "-",
+        "S.Die": "-",
+        "Keyword": "CRITICAL HIT (1), SIDEARM"
+      },
+      "affected": "Combat Weapon",
+      "current": {
+        "Rng": "E",
+        "Tgt": "Ground",
+        "RoA": "2",
+        "Hit": "3+",
+        "Surge": "-",
+        "S.Die": "-",
+        "Dmg": "2",
+        "Keyword": "CRITICAL HIT (1), SIDEARM"
+      },
+      "proposed": {
+        "Rng": "E",
+        "Tgt": "Ground",
+        "RoA": "2",
+        "Hit": "3+",
+        "Dmg": "2",
+        "Surge": "-",
+        "S.Die": "-",
+        "Keyword": "CRITICAL HIT (1), SIDEARM"
+      },
+      "display": [
+        "replacement weapon; changed fields blue"
+      ],
+      "click": "pdf_Zerg_equipment_defiler_upgrade_2_choice"
+    },
+    {
+      "unit": "Goliath",
+      "faction": "Terran",
+      "option": "Ares-Class Targeting System",
+      "sourceWording": "This Unit’s Autocannon and Underbelly Machine Gun weapons gain PRECISION (1).",
+      "affected": "Ability",
+      "current": {
+        "Phase": "Any Phase",
+        "Type": "Passive",
+        "Effect": "This Unit's Autocannon and Underbelly Machine Gun weapons gain PRECISION (1)."
+      },
+      "proposed": {
+        "Phase": "Any Phase",
+        "Type": "Passive",
+        "Effect": "This Unit’s Autocannon and Underbelly Machine Gun weapons gain PRECISION (1)."
+      },
+      "display": [
+        "permanent weapon change; blue: AUTOCANNON",
+        "permanent weapon change; blue: UNDERBELLY MACHINE GUN"
+      ],
+      "click": "pdf_Terran_rule_goliath_upgrade_any_phase_ares_class_targeting_system"
+    },
+    {
+      "unit": "Goliath",
+      "faction": "Terran",
+      "option": "SCATTER MISSILES",
+      "sourceWording": {
+        "Rng": "18",
+        "Tgt": "Ground",
+        "RoA": "6",
+        "Hit": "5+",
+        "Dmg": "1",
+        "Surge": "Light",
+        "S.Die": "D3",
+        "Keyword": "INDIRECT FIRE, LOCKED IN (6), LONG RANGE (24\"), SIDEARM",
+        "Notes": "FOR Hellfire Missiles"
+      },
+      "affected": "Assault Weapon",
+      "current": {
+        "Rng": "18",
+        "Tgt": "Ground",
+        "RoA": "6",
+        "Hit": "5+",
+        "Surge": "Light",
+        "S.Die": "D3",
+        "Dmg": "1",
+        "Keyword": "INDIRECT FIRE, LOCKED IN (6), LONG RANGE (24\"), SIDEARM",
+        "Notes": "↑ FOR HELLFIRE MISSILES"
+      },
+      "proposed": {
+        "Rng": "18",
+        "Tgt": "Ground",
+        "RoA": "6",
+        "Hit": "5+",
+        "Dmg": "1",
+        "Surge": "Light",
+        "S.Die": "D3",
+        "Keyword": "INDIRECT FIRE, LOCKED IN (6), LONG RANGE (24\"), SIDEARM",
+        "Notes": "FOR Hellfire Missiles"
+      },
+      "display": [
+        "replacement weapon; changed fields blue"
+      ],
+      "click": "pdf_Terran_equipment_goliath_upgrade_1_choice"
+    },
+    {
+      "unit": "Goliath",
+      "faction": "Terran",
+      "option": "HAYWIRE MISSILES",
+      "sourceWording": {
+        "Rng": "12",
+        "Tgt": "Ground",
+        "RoA": "3",
+        "Hit": "3+",
+        "Dmg": "1",
+        "Surge": "Armoured",
+        "S.Die": "D3",
+        "Keyword": "PIERCE Armoured (3), SIDEARM",
+        "Notes": "FOR Hellfire Missiles"
+      },
+      "affected": "Assault Weapon",
+      "current": {
+        "Rng": "12",
+        "Tgt": "Ground",
+        "RoA": "3",
+        "Hit": "3+",
+        "Surge": "Armoured",
+        "S.Die": "D3",
+        "Dmg": "1",
+        "Keyword": "PIERCE Armoured (3), SIDEARM",
+        "Notes": "↑ FOR HELLFIRE MISSILES"
+      },
+      "proposed": {
+        "Rng": "12",
+        "Tgt": "Ground",
+        "RoA": "3",
+        "Hit": "3+",
+        "Dmg": "1",
+        "Surge": "Armoured",
+        "S.Die": "D3",
+        "Keyword": "PIERCE Armoured (3), SIDEARM",
+        "Notes": "FOR Hellfire Missiles"
+      },
+      "display": [
+        "replacement weapon; changed fields blue"
+      ],
+      "click": "pdf_Terran_equipment_goliath_upgrade_2_choice"
+    },
+    {
+      "unit": "Immortal",
+      "faction": "Protoss",
+      "option": "LEFT PHASE DISRUPTOR",
+      "sourceWording": {
+        "Rng": "12",
+        "Tgt": "Ground",
+        "RoA": "4",
+        "Hit": "3+",
+        "Dmg": "1",
+        "Surge": "Armoured",
+        "S.Die": "D3",
+        "Keyword": "PIERCE Armoured (3)",
+        "Notes": "FOR Left Photon Disruptor"
+      },
+      "affected": "Assault Weapon",
+      "current": {
+        "Rng": "12",
+        "Tgt": "Ground",
+        "RoA": "4",
+        "Hit": "3+",
+        "Surge": "Armoured",
+        "S.Die": "D3",
+        "Dmg": "1",
+        "Keyword": "PIERCE Armoured (3)"
+      },
+      "proposed": {
+        "Rng": "12",
+        "Tgt": "Ground",
+        "RoA": "4",
+        "Hit": "3+",
+        "Dmg": "1",
+        "Surge": "Armoured",
+        "S.Die": "D3",
+        "Keyword": "PIERCE Armoured (3)",
+        "Notes": "FOR Left Photon Disruptor"
+      },
+      "display": [
+        "replacement weapon; changed fields blue"
+      ],
+      "click": "pdf_Protoss_equipment_immortal_upgrade_1_choice"
+    },
+    {
+      "unit": "Immortal",
+      "faction": "Protoss",
+      "option": "RIGHT PHASE DISRUPTOR",
+      "sourceWording": {
+        "Rng": "12",
+        "Tgt": "Ground",
+        "RoA": "4",
+        "Hit": "3+",
+        "Dmg": "1",
+        "Surge": "Armoured",
+        "S.Die": "D3",
+        "Keyword": "PIERCE Armoured (3), SIDEARM",
+        "Notes": "FOR Right Photon Disruptor"
+      },
+      "affected": "Assault Weapon",
+      "current": {
+        "Rng": "12",
+        "Tgt": "Ground",
+        "RoA": "4",
+        "Hit": "3+",
+        "Surge": "Armoured",
+        "S.Die": "D3",
+        "Dmg": "1",
+        "Keyword": "PIERCE Armoured (3), SIDEARM"
+      },
+      "proposed": {
+        "Rng": "12",
+        "Tgt": "Ground",
+        "RoA": "4",
+        "Hit": "3+",
+        "Dmg": "1",
+        "Surge": "Armoured",
+        "S.Die": "D3",
+        "Keyword": "PIERCE Armoured (3), SIDEARM",
+        "Notes": "FOR Right Photon Disruptor"
+      },
+      "display": [
+        "replacement weapon; changed fields blue"
+      ],
+      "click": "pdf_Protoss_equipment_immortal_upgrade_2_choice"
+    },
+    {
+      "unit": "Infested Goliath",
+      "faction": "Zerg",
+      "option": "Ares-Class Targeting System",
+      "sourceWording": "This Unit’s Autocannon and Underbelly Machine Gun weapons gain PRECISION (1).",
+      "affected": "Ability",
+      "current": null,
+      "proposed": {
+        "Phase": "Any Phase",
+        "Type": "Passive",
+        "Effect": "This Unit’s Autocannon and Underbelly Machine Gun weapons gain PRECISION (1)."
+      },
+      "display": [
+        "permanent weapon change; blue: Autocannon",
+        "permanent weapon change; blue: Underbelly Machine Gun"
+      ],
+      "click": "pdf_Zerg_rule_infested_goliath_upgrade_any_phase_ares_class_targeting_system"
+    },
+    {
+      "unit": "Infested Goliath",
+      "faction": "Zerg",
+      "option": "Scatter Missiles",
+      "sourceWording": {
+        "Rng": "18",
+        "Tgt": "Ground",
+        "RoA": "6",
+        "Hit": "5+",
+        "Dmg": "1",
+        "Surge": "Light",
+        "S.Die": "D3",
+        "Keyword": "INDIRECT FIRE, LOCKED IN (6), LONG RANGE (24\"), SIDEARM",
+        "Notes": "FOR Hellfire Missiles"
+      },
+      "affected": "Assault Weapon",
+      "current": null,
+      "proposed": {
+        "Rng": "18",
+        "Tgt": "Ground",
+        "RoA": "6",
+        "Hit": "5+",
+        "Dmg": "1",
+        "Surge": "Light",
+        "S.Die": "D3",
+        "Keyword": "INDIRECT FIRE, LOCKED IN (6), LONG RANGE (24\"), SIDEARM",
+        "Notes": "FOR Hellfire Missiles"
+      },
+      "display": [
+        "replacement weapon; changed fields blue"
+      ],
+      "click": "pdf_Zerg_equipment_infested_goliath_upgrade_weapon_assault_phase_scatter_missiles_choice"
+    },
+    {
+      "unit": "Infested Goliath",
+      "faction": "Zerg",
+      "option": "Haywire Missiles",
+      "sourceWording": {
+        "Rng": "12",
+        "Tgt": "Ground",
+        "RoA": "3",
+        "Hit": "3+",
+        "Dmg": "1",
+        "Surge": "Armoured",
+        "S.Die": "D3",
+        "Keyword": "PIERCE Armoured (3), SIDEARM",
+        "Notes": "FOR Hellfire Missiles"
+      },
+      "affected": "Assault Weapon",
+      "current": null,
+      "proposed": {
+        "Rng": "12",
+        "Tgt": "Ground",
+        "RoA": "3",
+        "Hit": "3+",
+        "Dmg": "1",
+        "Surge": "Armoured",
+        "S.Die": "D3",
+        "Keyword": "PIERCE Armoured (3), SIDEARM",
+        "Notes": "FOR Hellfire Missiles"
+      },
+      "display": [
+        "replacement weapon; changed fields blue"
+      ],
+      "click": "pdf_Zerg_equipment_infested_goliath_upgrade_weapon_assault_phase_haywire_missiles_choice"
+    },
+    {
+      "unit": "Infested Marine",
+      "faction": "Zerg",
+      "option": "Infested Missile Launcher - Acid Blast",
+      "sourceWording": {
+        "Rng": "6",
+        "Tgt": "All",
+        "RoA": "3",
+        "Hit": "3+",
+        "Dmg": "1",
+        "Surge": "-",
+        "S.Die": "-",
+        "Keyword": "CRITICAL HIT (1), LONG RANGE (12\"), PIERCE Armoured (2), SPECIALIST",
+        "Notes": "FOR Infested C-14 Rifle"
+      },
+      "affected": "Assault Weapon",
+      "current": null,
+      "proposed": {
+        "Rng": "6",
+        "Tgt": "All",
+        "RoA": "3",
+        "Hit": "3+",
+        "Dmg": "1",
+        "Surge": "-",
+        "S.Die": "-",
+        "Keyword": "CRITICAL HIT (1), LONG RANGE (12\"), PIERCE Armoured (2), SPECIALIST",
+        "Notes": "FOR Infested C-14 Rifle"
+      },
+      "display": [
+        "additional specialist weapon"
+      ],
+      "click": "pdf_Zerg_equipment_infested_marine_upgrade_weapon_assault_phase_infested_missile_launcher_acid_blast_choice"
+    },
+    {
+      "unit": "Infested Marine",
+      "faction": "Zerg",
+      "option": "Infested Missile Launcher - Scourgeshot",
+      "sourceWording": {
+        "Rng": "12",
+        "Tgt": "All",
+        "RoA": "3",
+        "Hit": "3+",
+        "Dmg": "1",
+        "Surge": "-",
+        "S.Die": "-",
+        "Keyword": "BURST FIRE 6\" (2), SPECIALIST",
+        "Notes": "FOR Infested C-14 Rifle"
+      },
+      "affected": "Assault Weapon",
+      "current": null,
+      "proposed": {
+        "Rng": "12",
+        "Tgt": "All",
+        "RoA": "3",
+        "Hit": "3+",
+        "Dmg": "1",
+        "Surge": "-",
+        "S.Die": "-",
+        "Keyword": "BURST FIRE 6\" (2), SPECIALIST",
+        "Notes": "FOR Infested C-14 Rifle"
+      },
+      "display": [
+        "additional specialist weapon"
+      ],
+      "click": "pdf_Zerg_equipment_infested_marine_upgrade_weapon_assault_phase_infested_missile_launcher_scourgeshot_choice"
+    },
+    {
+      "unit": "Infested Marine",
+      "faction": "Zerg",
+      "option": "Wild Mutation",
+      "sourceWording": {
+        "Rng": "E",
+        "Tgt": "Ground",
+        "RoA": "2",
+        "Hit": "3+",
+        "Dmg": "1",
+        "Surge": "Armoured",
+        "S.Die": "D3+1",
+        "Keyword": "-",
+        "Notes": "FOR Infested C-14 Rifle"
+      },
+      "affected": "Combat Weapon",
+      "current": null,
+      "proposed": {
+        "Rng": "E",
+        "Tgt": "Ground",
+        "RoA": "2",
+        "Hit": "3+",
+        "Dmg": "1",
+        "Surge": "Armoured",
+        "S.Die": "D3+1",
+        "Keyword": "-",
+        "Notes": "FOR Infested C-14 Rifle"
+      },
+      "display": [
+        "replacement weapon; changed fields blue"
+      ],
+      "click": "pdf_Zerg_equipment_infested_marine_upgrade_weapon_combat_phase_wild_mutation_choice"
+    },
+    {
+      "unit": "Jim Raynor",
+      "faction": "Terran",
+      "option": "C-14 RIFLE",
+      "sourceWording": {
+        "Rng": "12",
+        "Tgt": "All",
+        "RoA": "6",
+        "Hit": "3+",
+        "Dmg": "1",
+        "Surge": "Light",
+        "S.Die": "D3+1",
+        "Keyword": "BURST FIRE 8\" (3)",
+        "Notes": "FOR Commando Rifle"
+      },
+      "affected": "Assault Weapon",
+      "current": {
+        "Rng": "12",
+        "Tgt": "All",
+        "RoA": "6",
+        "Hit": "3+",
+        "Surge": "Light",
+        "S.Die": "D3+1",
+        "Dmg": "1",
+        "Keyword": "BURST FIRE 8\" (3)",
+        "Notes": "↑ FOR COMMANDO RIFLE"
+      },
+      "proposed": {
+        "Rng": "12",
+        "Tgt": "All",
+        "RoA": "6",
+        "Hit": "3+",
+        "Dmg": "1",
+        "Surge": "Light",
+        "S.Die": "D3+1",
+        "Keyword": "BURST FIRE 8\" (3)",
+        "Notes": "FOR Commando Rifle"
+      },
+      "display": [
+        "replacement weapon; changed fields blue"
+      ],
+      "click": "pdf_Terran_equipment_jim_raynor_upgrade_0_choice"
+    },
+    {
+      "unit": "Marauders",
+      "faction": "Terran",
+      "option": "Laser Targeting Systems",
+      "sourceWording": "This Unit’s Quad K12 weapon gains LONG RANGE (16\").",
+      "affected": "Ability",
+      "current": {
+        "Phase": "Assault Phase",
+        "Type": "Passive",
+        "Effect": "This Unit's Quad K12 weapon gains LONG RANGE (16\")."
+      },
+      "proposed": {
+        "Phase": "Assault Phase",
+        "Type": "Passive",
+        "Effect": "This Unit’s Quad K12 weapon gains LONG RANGE (16\")."
+      },
+      "display": [
+        "permanent weapon change; blue: QUAD K12"
+      ],
+      "click": "pdf_Terran_rule_marauders_upgrade_assault_phase_laser_targeting_systems"
+    },
+    {
+      "unit": "Marines",
+      "faction": "Terran",
+      "option": "AGG-12",
+      "sourceWording": {
+        "Rng": "12",
+        "Tgt": "Ground",
+        "RoA": "2",
+        "Hit": "3+",
+        "Dmg": "1",
+        "Surge": "Armoured",
+        "S.Die": "D3",
+        "Keyword": "LONG RANGE (18\"), SPECIALIST",
+        "Notes": "FOR C-14 Rifle"
+      },
+      "affected": "Assault Weapon",
+      "current": {
+        "Rng": "12",
+        "Tgt": "Ground",
+        "RoA": "2",
+        "Hit": "3+",
+        "Surge": "Armoured",
+        "S.Die": "D3",
+        "Dmg": "1",
+        "Keyword": "LONG RANGE (18\"), SPECIALIST",
+        "Notes": "↑ FOR C-14 RIFFLE"
+      },
+      "proposed": {
+        "Rng": "12",
+        "Tgt": "Ground",
+        "RoA": "2",
+        "Hit": "3+",
+        "Dmg": "1",
+        "Surge": "Armoured",
+        "S.Die": "D3",
+        "Keyword": "LONG RANGE (18\"), SPECIALIST",
+        "Notes": "FOR C-14 Rifle"
+      },
+      "display": [
+        "additional specialist weapon"
+      ],
+      "click": "pdf_Terran_equipment_marines_upgrade_1_choice"
+    },
+    {
+      "unit": "Marines",
+      "faction": "Terran",
+      "option": "ROCKET LAUNCHER",
+      "sourceWording": {
+        "Rng": "12",
+        "Tgt": "Ground",
+        "RoA": "4",
+        "Hit": "3+",
+        "Dmg": "1",
+        "Surge": "-",
+        "S.Die": "-",
+        "Keyword": "INDIRECT FIRE, LONG RANGE (18\"), SIDEARM, SPECIALIST"
+      },
+      "affected": "Assault Weapon",
+      "current": {
+        "Rng": "12",
+        "Tgt": "Ground",
+        "RoA": "4",
+        "Hit": "3+",
+        "Surge": "-",
+        "S.Die": "-",
+        "Dmg": "1",
+        "Keyword": "INDIRECT FIRE, LONG RANGE (18\"), SIDEARM, SPECIALIST"
+      },
+      "proposed": {
+        "Rng": "12",
+        "Tgt": "Ground",
+        "RoA": "4",
+        "Hit": "3+",
+        "Dmg": "1",
+        "Surge": "-",
+        "S.Die": "-",
+        "Keyword": "INDIRECT FIRE, LONG RANGE (18\"), SIDEARM, SPECIALIST"
+      },
+      "display": [
+        "additional specialist weapon"
+      ],
+      "click": "pdf_Terran_equipment_marines_upgrade_2_choice"
+    },
+    {
+      "unit": "Marines",
+      "faction": "Terran",
+      "option": "BAYONET",
+      "sourceWording": {
+        "Rng": "E",
+        "Tgt": "Ground",
+        "RoA": "2",
+        "Hit": "5+",
+        "Dmg": "1",
+        "Surge": "-",
+        "S.Die": "-",
+        "Keyword": "-",
+        "Notes": "FOR Strike"
+      },
+      "affected": "Combat Weapon",
+      "current": {
+        "Rng": "E",
+        "Tgt": "Ground",
+        "RoA": "2",
+        "Hit": "5+",
+        "Surge": "-",
+        "S.Die": "-",
+        "Dmg": "1",
+        "Keyword": "-",
+        "Notes": "↑ FOR STRIKE"
+      },
+      "proposed": {
+        "Rng": "E",
+        "Tgt": "Ground",
+        "RoA": "2",
+        "Hit": "5+",
+        "Dmg": "1",
+        "Surge": "-",
+        "S.Die": "-",
+        "Keyword": "-",
+        "Notes": "FOR Strike"
+      },
+      "display": [
+        "replacement weapon; changed fields blue"
+      ],
+      "click": "pdf_Terran_equipment_marines_upgrade_4_choice"
+    },
+    {
+      "unit": "Raptors (Zergling)",
+      "faction": "Zerg",
+      "option": "SHREDDING CLAWS",
+      "sourceWording": {
+        "Rng": "E",
+        "Tgt": "Ground",
+        "RoA": "2",
+        "Hit": "4+",
+        "Dmg": "1",
+        "Surge": "Light, Armoured",
+        "S.Die": "D3",
+        "Keyword": "-",
+        "Notes": "FOR Claws"
+      },
+      "affected": "Combat Weapon",
+      "current": {
+        "Rng": "E",
+        "Tgt": "Ground",
+        "RoA": "2",
+        "Hit": "4+",
+        "Surge": "Light, Armoured",
+        "S.Die": "D3",
+        "Dmg": "1",
+        "Keyword": "-",
+        "Notes": "↑ FOR CLAWS"
+      },
+      "proposed": {
+        "Rng": "E",
+        "Tgt": "Ground",
+        "RoA": "2",
+        "Hit": "4+",
+        "Dmg": "1",
+        "Surge": "Light, Armoured",
+        "S.Die": "D3",
+        "Keyword": "-",
+        "Notes": "FOR Claws"
+      },
+      "display": [
+        "replacement weapon; changed fields blue"
+      ],
+      "click": "pdf_Zerg_equipment_raptors_zergling_upgrade_1_choice"
+    },
+    {
+      "unit": "Raptors (Zergling)",
+      "faction": "Zerg",
+      "option": "Adrenal Glands",
+      "sourceWording": "This Unit’s Claws and Shredding Claws weapons gain PRECISION (2).",
+      "affected": "Ability",
+      "current": {
+        "Phase": "Combat Phase",
+        "Type": "Passive",
+        "Effect": "This Unit's Claws and Shredding Claws weapons gain PRECISION (2)."
+      },
+      "proposed": {
+        "Phase": "Combat Phase",
+        "Type": "Passive",
+        "Effect": "This Unit’s Claws and Shredding Claws weapons gain PRECISION (2)."
+      },
+      "display": [
+        "permanent; blue: CLAWS"
+      ],
+      "click": "pdf_Zerg_rule_raptors_zergling_upgrade_combat_phase_adrenal_glands"
+    },
+    {
+      "unit": "Zerglings",
+      "faction": "Zerg",
+      "option": "SHREDDING CLAWS",
+      "sourceWording": {
+        "Rng": "E",
+        "Tgt": "Ground",
+        "RoA": "2",
+        "Hit": "4+",
+        "Dmg": "1",
+        "Surge": "Light, Armoured",
+        "S.Die": "D3",
+        "Keyword": "-",
+        "Notes": "FOR Claws"
+      },
+      "affected": "Combat Weapon",
+      "current": {
+        "Rng": "E",
+        "Tgt": "Ground",
+        "RoA": "2",
+        "Hit": "4+",
+        "Surge": "Light, Armoured",
+        "S.Die": "D3",
+        "Dmg": "1",
+        "Keyword": "-",
+        "Notes": "↑ FOR CLAWS"
+      },
+      "proposed": {
+        "Rng": "E",
+        "Tgt": "Ground",
+        "RoA": "2",
+        "Hit": "4+",
+        "Dmg": "1",
+        "Surge": "Light, Armoured",
+        "S.Die": "D3",
+        "Keyword": "-",
+        "Notes": "FOR Claws"
+      },
+      "display": [
+        "replacement weapon; changed fields blue"
+      ],
+      "click": "pdf_Zerg_equipment_zerglings_upgrade_1_choice"
+    },
+    {
+      "unit": "Zerglings",
+      "faction": "Zerg",
+      "option": "Adrenal Glands",
+      "sourceWording": "This Unit’s Claws and Shredding Claws weapons gain PRECISION (2).",
+      "affected": "Ability",
+      "current": {
+        "Phase": "Combat Phase",
+        "Type": "Passive",
+        "Effect": "This Unit's Claws and Shredding Claws weapons gain PRECISION (2)."
+      },
+      "proposed": {
+        "Phase": "Combat Phase",
+        "Type": "Passive",
+        "Effect": "This Unit’s Claws and Shredding Claws weapons gain PRECISION (2)."
+      },
+      "display": [
+        "permanent; blue: CLAWS"
+      ],
+      "click": "pdf_Zerg_rule_zerglings_upgrade_combat_phase_adrenal_glands"
+    }
+  ],
+  "green": [
+    {
+      "unit": "Adepts",
+      "faction": "Protoss",
+      "option": "Resonating Glaives",
+      "sourceWording": "This Unit's Glaive Cannon gains BUFF RoA (1).",
+      "affected": "Ability",
+      "current": null,
+      "proposed": {
+        "Phase": "Assault Phase",
+        "Type": "Active",
+        "Cost": "1 PE",
+        "Effect": "This Unit's Glaive Cannon gains BUFF RoA (1)."
+      },
+      "display": [
+        "conditional RoA; green: GLAIVE CANNON"
+      ],
+      "click": "pdf_Protoss_rule_adepts_upgrade_assault_phase_resonating_glaives"
+    },
+    {
+      "unit": "Immortal",
+      "faction": "Protoss",
+      "option": "Fury Unyielding",
+      "sourceWording": "While this Unit is Within 3\" of a Mission Marker, its Ranged Weapons gain CRITICAL HIT (1) when targeting an Enemy Unit that is also Within 3\" of that same Mission Marker.",
+      "affected": "Ability",
+      "current": {
+        "Phase": "Assault Phase",
+        "Type": "Passive",
+        "Upgrade": "FOR RIGHT PHOTON DISRUPTOR",
+        "Effect": "While this Unit is Within 3\" of a Mission Marker, its Ranged Weapons gain CRITICAL HIT (1) when targeting an Enemy Unit that is also Within 3\" of that same Mission Marker."
+      },
+      "proposed": {
+        "Phase": "Assault Phase",
+        "Type": "Passive",
+        "Effect": "While this Unit is Within 3\" of a Mission Marker, its Ranged Weapons gain CRITICAL HIT (1) when targeting an Enemy Unit that is also Within 3\" of that same Mission Marker."
+      },
+      "display": [
+        "conditional; green: LEFT PHOTON DISRUPTOR",
+        "conditional; green: RIGHT PHOTON DISRUPTOR"
+      ],
+      "click": "pdf_Protoss_rule_immortal_upgrade_assault_phase_fury_unyielding"
+    },
+    {
+      "unit": "Marines",
+      "faction": "Terran",
+      "option": "Grenades - Frag",
+      "sourceWording": "When this Unit makes a Ranged Attack with a C-14 Rifle and the target is Within 8\", that weapon’s S Dice is replaced by D6.",
+      "affected": "Ability",
+      "current": {
+        "Phase": "Assault Phase",
+        "Type": "Passive",
+        "Effect": "When this Unit makes a Ranged Attack with a C-14 Rifle and the target is Within 8\", that weapon's S Dice is replaced by D6."
+      },
+      "proposed": {
+        "Phase": "Assault Phase",
+        "Type": "Passive",
+        "Effect": "When this Unit makes a Ranged Attack with a C-14 Rifle and the target is Within 8\", that weapon’s S Dice is replaced by D6."
+      },
+      "display": [
+        "conditional surge; green: C-14 RIFLE"
+      ],
+      "click": "pdf_Terran_rule_marines_upgrade_assault_phase_grenades_frag"
+    }
+  ],
+  "ruleOnly": [
+    {
+      "unit": "Corpsers (Roach)",
+      "faction": "Zerg",
+      "option": "Tunneling Claws",
+      "sourceWording": "While this Unit has the Burrowed Status, it may perform the Move and Run actions without losing that Status. It may also move through other Units’ bases.",
+      "affected": "Ability",
+      "current": {
+        "Phase": "Any Phase",
+        "Type": "Passive",
+        "Effect": "While this Unit has the Burrowed Status, it may perform the Move and Run actions without losing that Status. It may also move through other Units' bases."
+      },
+      "proposed": {
+        "Phase": "Any Phase",
+        "Type": "Passive",
+        "Effect": "While this Unit has the Burrowed Status, it may perform the Move and Run actions without losing that Status. It may also move through other Units’ bases."
+      },
+      "display": [
+        "rule only; deployment, movement permission or resource effect"
+      ],
+      "click": "pdf_Zerg_rule_corpsers_roach_upgrade_any_phase_tunneling_claws"
+    },
+    {
+      "unit": "Corpsers (Roach)",
+      "faction": "Zerg",
+      "option": "Glial Reconstitution",
+      "sourceWording": "This Unit gains BUFF SPEED (1), or BUFF SPEED (2) if the Unit is ON CREEP.",
+      "affected": "Ability",
+      "current": {
+        "Phase": "Movement Phase",
+        "Type": "Active",
+        "Cost": "1 CP",
+        "Effect": "This Unit gains BUFF SPEED (1), or BUFF SPEED (2) if the Unit is ON CREEP."
+      },
+      "proposed": {
+        "Phase": "Movement Phase",
+        "Type": "Active",
+        "Cost": "1 BM",
+        "Effect": "This Unit gains BUFF SPEED (1), or BUFF SPEED (2) if the Unit is ON CREEP."
+      },
+      "display": [
+        "rule only; active or reactive activation required"
+      ],
+      "click": "pdf_Zerg_rule_corpsers_roach_upgrade_movement_phase_glial_reconstitution"
+    },
+    {
+      "unit": "Firebat",
+      "faction": "Terran",
+      "option": "Incinerator Gauntlets",
+      "sourceWording": "Set a Fire Wall token Within 4\" in an unoccupied space. If a Unit’s Leading Model’s path of travel passes through this token, or if any model in a Unit ends either a Move, Deploy, Run, Charge, Disengage, or Close Ranks action, or is Set Within 1\" of this token, remove the Fire Wall token from the battlefield before executing that move. If you do, that Unit suffers HITS 5 (1). If that Unit performed a Charge action, it cannot resolve the IMPACT effect.",
+      "affected": "Ability",
+      "current": null,
+      "proposed": {
+        "Phase": "Movement Phase",
+        "Type": "Active",
+        "Cost": "1 CP",
+        "Effect": "Set a Fire Wall token Within 4\" in an unoccupied space. If a Unit’s Leading Model’s path of travel passes through this token, or if any model in a Unit ends either a Move, Deploy, Run, Charge, Disengage, or Close Ranks action, or is Set Within 1\" of this token, remove the Fire Wall token from the battlefield before executing that move. If you do, that Unit suffers HITS 5 (1). If that Unit performed a Charge action, it cannot resolve the IMPACT effect."
+      },
+      "display": [
+        "rule only; active or reactive activation required"
+      ],
+      "click": "pdf_Terran_rule_firebat_upgrade_movement_phase_incinerator_gauntlets"
+    },
+    {
+      "unit": "Firebat",
+      "faction": "Terran",
+      "option": "Need A Light?",
+      "sourceWording": "When this Unit makes a Close Combat Attack with its Flame Strike, you may choose 1 model in this Unit to attack using a Flamer Template (FT) instead of rolling its regular Rate of Attack (RoA).",
+      "affected": "Ability",
+      "current": null,
+      "proposed": {
+        "Phase": "Combat Phase",
+        "Type": "Passive",
+        "Effect": "When this Unit makes a Close Combat Attack with its Flame Strike, you may choose 1 model in this Unit to attack using a Flamer Template (FT) instead of rolling its regular Rate of Attack (RoA)."
+      },
+      "display": [
+        "rule only; deployment, movement permission or resource effect"
+      ],
+      "click": "pdf_Terran_rule_firebat_upgrade_combat_phase_need_a_light"
+    },
+    {
+      "unit": "High Templar",
+      "faction": "Protoss",
+      "option": "Psionic Storm",
+      "sourceWording": "Set a Psionic Storm token Within 10\" and Line of Sight of this Unit. This token is not removed if this Unit is Destroyed. At the End of each Phase, set a Psionic Storm Blast Template on the centre of this token. For each Unit that has at least one model whose base is partially covered by the template, roll 3 dice, plus 1 additional die for each model in that Unit whose base is partially covered. For each result of 5+, that Unit suffers an effect depending on the current Phase:\nMovement Phase: NON-LETHAL DAMAGE (1).\nAssault Phase: 1 Damage. \nIf multiple effects trigger at the End of the Assault Phase, resolve them in the order specified in Part 8.9.4.",
+      "affected": "Ability",
+      "current": {
+        "Phase": "Movement Phase",
+        "Type": "Active",
+        "Cost": "2 PE",
+        "Effect": "Set a Psionic Storm token Within 10\" and Line of Sight of this Unit. This token is not removed if this Unit is Destroyed. At the End of each Phase, set a Psionic Storm Blast Template on the centre of this token. For each Unit that has at least one model whose base is partially covered by the template, roll 3 dice, plus 1 additional die for each model in that Unit whose base is partially covered. For each result of 5+, that Unit suffers an effect depending on the current Phase:\n• Movement Phase: NON-LETHAL DAMAGE (1).\n• Assault Phase: 1 Dama ge. If multiple effects trigger at the End of the Assault Phase, resolve them in the order specified in Part 8.9.4."
+      },
+      "proposed": {
+        "Phase": "Movement Phase",
+        "Type": "Active",
+        "Cost": "2 PE",
+        "Effect": "Set a Psionic Storm token Within 10\" and Line of Sight of this Unit. This token is not removed if this Unit is Destroyed. At the End of each Phase, set a Psionic Storm Blast Template on the centre of this token. For each Unit that has at least one model whose base is partially covered by the template, roll 3 dice, plus 1 additional die for each model in that Unit whose base is partially covered. For each result of 5+, that Unit suffers an effect depending on the current Phase:\nMovement Phase: NON-LETHAL DAMAGE (1).\nAssault Phase: 1 Damage. \nIf multiple effects trigger at the End of the Assault Phase, resolve them in the order specified in Part 8.9.4."
+      },
+      "display": [
+        "rule only; active or reactive activation required"
+      ],
+      "click": "pdf_Protoss_rule_high_templar_upgrade_movement_phase_psionic_storm"
+    },
+    {
+      "unit": "Infested Marine",
+      "faction": "Zerg",
+      "option": "Burrow Ambush",
+      "sourceWording": "When this Unit is nominated to deploy from the Reserves, it may resolve the PLACE (18) effect from the controlling player's Entry Edge. No model may be set Within 10\" of any Enemy model. This Unit's Activation ends.",
+      "affected": "Ability",
+      "current": null,
+      "proposed": {
+        "Phase": "Movement Phase",
+        "Type": "Passive",
+        "Effect": "When this Unit is nominated to deploy from the Reserves, it may resolve the PLACE (18) effect from the controlling player's Entry Edge. No model may be set Within 10\" of any Enemy model. This Unit's Activation ends."
+      },
+      "display": [
+        "rule only; deployment, movement permission or resource effect"
+      ],
+      "click": "pdf_Zerg_rule_infested_marine_upgrade_movement_phase_burrow_ambush"
+    },
+    {
+      "unit": "Infested Marine",
+      "faction": "Zerg",
+      "option": "Plagued Munitions",
+      "sourceWording": "Immediately after an attack with the Infested C-14 Rifle, if the attacked Unit suffered Damage, it also suffers NON-LETHAL Damage (1).",
+      "affected": "Ability",
+      "current": null,
+      "proposed": {
+        "Phase": "Assault Phase",
+        "Type": "Passive",
+        "Effect": "Immediately after an attack with the Infested C-14 Rifle, if the attacked Unit suffered Damage, it also suffers NON-LETHAL Damage (1)."
+      },
+      "display": [
+        "rule only; deployment, movement permission or resource effect"
+      ],
+      "click": "pdf_Zerg_rule_infested_marine_upgrade_assault_phase_plagued_munitions"
+    },
+    {
+      "unit": "Infested Siege Tank",
+      "faction": "Zerg",
+      "option": "Mode Transformation",
+      "sourceWording": "The active Unit gains or loses the SIEGE MODE Status.\nWhile this Unit has the SIEGE MODE Status, its Size characteristic is treated as if it was 3.",
+      "affected": "Ability",
+      "current": null,
+      "proposed": {
+        "Phase": "Movement Phase",
+        "Type": "Active",
+        "Cost": "1 CP",
+        "Effect": "The active Unit gains or loses the SIEGE MODE Status.\nWhile this Unit has the SIEGE MODE Status, its Size characteristic is treated as if it was 3."
+      },
+      "display": [
+        "rule only; active or reactive activation required"
+      ],
+      "click": "pdf_Zerg_rule_infested_siege_tank_upgrade_movement_phase_mode_transformation"
+    },
+    {
+      "unit": "Infested Siege Tank",
+      "faction": "Zerg",
+      "option": "Coordinated Strike",
+      "sourceWording": "Target a Friendly Non-Engaged Unit on the battlefield (Line of Sight is not required). When this Unit resolves a Ranged Attack using the Shock Cannon weapon profile this Round, it may choose to ignore the weapon's standard Range characteristic. If it does, it may target an Enemy Unit that is Within 8\" of, and Visible to, a model of the selected Friendly Unit, treating that model as the acting model.",
+      "affected": "Ability",
+      "current": null,
+      "proposed": {
+        "Phase": "Movement Phase",
+        "Type": "Active",
+        "Cost": "0 CP",
+        "Effect": "Target a Friendly Non-Engaged Unit on the battlefield (Line of Sight is not required). When this Unit resolves a Ranged Attack using the Shock Cannon weapon profile this Round, it may choose to ignore the weapon's standard Range characteristic. If it does, it may target an Enemy Unit that is Within 8\" of, and Visible to, a model of the selected Friendly Unit, treating that model as the acting model."
+      },
+      "display": [
+        "rule only; active or reactive activation required"
+      ],
+      "click": "pdf_Zerg_rule_infested_siege_tank_upgrade_movement_phase_coordinated_strike"
+    },
+    {
+      "unit": "Infested Siege Tank",
+      "faction": "Zerg",
+      "option": "Shaped Blast",
+      "sourceWording": "Once per Game. When this Unit declares a Ranged Attack action. If this Unit has SIEGE MODE Status, its weapon gains PINPOINT and LOCKED IN (4).",
+      "affected": "Ability",
+      "current": null,
+      "proposed": {
+        "Phase": "Assault Phase",
+        "Type": "Reaction",
+        "Cost": "0 CP",
+        "Effect": "Once per Game. When this Unit declares a Ranged Attack action. If this Unit has SIEGE MODE Status, its weapon gains PINPOINT and LOCKED IN (4)."
+      },
+      "display": [
+        "rule only; active or reactive activation required"
+      ],
+      "click": "pdf_Zerg_rule_infested_siege_tank_upgrade_assault_phase_shaped_blast"
+    },
+    {
+      "unit": "Infested Siege Tank",
+      "faction": "Zerg",
+      "option": "Smart Shells",
+      "sourceWording": "Once per Game. When this Unit declares a Ranged Attack action. If this Unit has SIEGE MODE Status, its weapon gains INDIRECT FIRE and LONG RANGE (24).",
+      "affected": "Ability",
+      "current": null,
+      "proposed": {
+        "Phase": "Assault Phase",
+        "Type": "Reaction",
+        "Cost": "0 CP",
+        "Effect": "Once per Game. When this Unit declares a Ranged Attack action. If this Unit has SIEGE MODE Status, its weapon gains INDIRECT FIRE and LONG RANGE (24)."
+      },
+      "display": [
+        "rule only; active or reactive activation required"
+      ],
+      "click": "pdf_Zerg_rule_infested_siege_tank_upgrade_assault_phase_smart_shells"
+    },
+    {
+      "unit": "Medics",
+      "faction": "Terran",
+      "option": "Advanced Medic Facilities",
+      "sourceWording": "This Unit’s Supply Value counts as 0 when calculating the Supply Pool.",
+      "affected": "Ability",
+      "current": {
+        "Phase": "Any Phase",
+        "Type": "Passive",
+        "Effect": "This Unit's Supply Value counts as 0 when calculating the Supply Pool."
+      },
+      "proposed": {
+        "Phase": "Any Phase",
+        "Type": "Passive",
+        "Effect": "This Unit’s Supply Value counts as 0 when calculating the Supply Pool."
+      },
+      "display": [
+        "rule only; deployment, movement permission or resource effect"
+      ],
+      "click": "pdf_Terran_rule_medics_upgrade_any_phase_advanced_medic_facilities"
+    },
+    {
+      "unit": "Queen",
+      "faction": "Zerg",
+      "option": "Domineering Presence",
+      "sourceWording": "Select another Friendly Unit Within 6\" (Line of Sight is not required). That Unit’s Supply characteristic is increased by 1 for Controlling and Contesting Mission Markers and completing objectives.",
+      "affected": "Ability",
+      "current": {
+        "Phase": "Movement Phase",
+        "Type": "Active",
+        "Cost": "1 BM",
+        "Effect": "Select another Friendly Unit Within 6\" (Line of Sight is not required). That Unit's Supply characteristic is increased by 1 for Controlling and Contesting Mission Markers and completing objectives."
+      },
+      "proposed": {
+        "Phase": "Movement Phase",
+        "Type": "Active",
+        "Cost": "1 BM",
+        "Effect": "Select another Friendly Unit Within 6\" (Line of Sight is not required). That Unit’s Supply characteristic is increased by 1 for Controlling and Contesting Mission Markers and completing objectives."
+      },
+      "display": [
+        "rule only; active or reactive activation required"
+      ],
+      "click": "pdf_Zerg_rule_queen_upgrade_movement_phase_domineering_presence"
+    },
+    {
+      "unit": "Reaver",
+      "faction": "Protoss",
+      "option": "Solarite Scarab",
+      "sourceWording": "Once per Game. Resolve the SUMMON (Solarite Scarab) effect. Then, the Solarite Scarab may immediately perform a Move action.",
+      "affected": "Ability",
+      "current": null,
+      "proposed": {
+        "Phase": "Movement Phase",
+        "Type": "Active",
+        "Cost": "0 PE",
+        "Effect": "Once per Game. Resolve the SUMMON (Solarite Scarab) effect. Then, the Solarite Scarab may immediately perform a Move action."
+      },
+      "display": [
+        "rule only; active or reactive activation required"
+      ],
+      "click": "pdf_Protoss_rule_reaver_upgrade_movement_phase_solarite_scarab"
+    },
+    {
+      "unit": "Reaver",
+      "faction": "Protoss",
+      "option": "Phasing Scarab",
+      "sourceWording": "Once per Game. Resolve the SUMMON (Phasing Scarab) effect. Then, the Phasing Scarab may immediately perform a Move action.",
+      "affected": "Ability",
+      "current": null,
+      "proposed": {
+        "Phase": "Movement Phase",
+        "Type": "Active",
+        "Cost": "0 PE",
+        "Effect": "Once per Game. Resolve the SUMMON (Phasing Scarab) effect. Then, the Phasing Scarab may immediately perform a Move action."
+      },
+      "display": [
+        "rule only; active or reactive activation required"
+      ],
+      "click": "pdf_Protoss_rule_reaver_upgrade_movement_phase_phasing_scarab"
+    },
+    {
+      "unit": "Reaver",
+      "faction": "Protoss",
+      "option": "Shuttle",
+      "sourceWording": "Once per Game.This ability can be used while this Unit is in Reserves. Set a Faction Indicator anywhere on the battlefield more than 10\" away from any Enemy model. At the End of the Round, the controlling player may Deploy this Unit in base-to-base contact with this Faction Indicator. This Unit's Activation ends.",
+      "affected": "Ability",
+      "current": null,
+      "proposed": {
+        "Phase": "Movement Phase",
+        "Type": "Active",
+        "Cost": "0 PE",
+        "Effect": "Once per Game.This ability can be used while this Unit is in Reserves. Set a Faction Indicator anywhere on the battlefield more than 10\" away from any Enemy model. At the End of the Round, the controlling player may Deploy this Unit in base-to-base contact with this Faction Indicator. This Unit's Activation ends."
+      },
+      "display": [
+        "rule only; active or reactive activation required"
+      ],
+      "click": "pdf_Protoss_rule_reaver_upgrade_movement_phase_shuttle"
+    },
+    {
+      "unit": "Roaches",
+      "faction": "Zerg",
+      "option": "Tunneling Claws",
+      "sourceWording": "While this Unit has the Burrowed Status, it may perform the Move and Run actions without losing that Status. It may also move through other Units’ bases.",
+      "affected": "Ability",
+      "current": {
+        "Phase": "Any Phase",
+        "Type": "Passive",
+        "Effect": "While this Unit has the Burrowed Status, it may perform the Move and Run actions without losing that Status. It may also move through other Units' bases."
+      },
+      "proposed": {
+        "Phase": "Any Phase",
+        "Type": "Passive",
+        "Effect": "While this Unit has the Burrowed Status, it may perform the Move and Run actions without losing that Status. It may also move through other Units’ bases."
+      },
+      "display": [
+        "rule only; deployment, movement permission or resource effect"
+      ],
+      "click": "pdf_Zerg_rule_roaches_upgrade_any_phase_tunneling_claws"
+    },
+    {
+      "unit": "Roaches",
+      "faction": "Zerg",
+      "option": "Glial Reconstitution",
+      "sourceWording": "This Unit gains BUFF SPEED (1), or BUFF SPEED (2) if the Unit is ON CREEP.",
+      "affected": "Ability",
+      "current": {
+        "Phase": "Movement Phase",
+        "Type": "Active",
+        "Cost": "1 CP",
+        "Effect": "This Unit gains BUFF SPEED (1), or BUFF SPEED (2) if the Unit is ON CREEP."
+      },
+      "proposed": {
+        "Phase": "Movement Phase",
+        "Type": "Active",
+        "Cost": "1 BM",
+        "Effect": "This Unit gains BUFF SPEED (1), or BUFF SPEED (2) if the Unit is ON CREEP."
+      },
+      "display": [
+        "rule only; active or reactive activation required"
+      ],
+      "click": "pdf_Zerg_rule_roaches_upgrade_movement_phase_glial_reconstitution"
+    },
+    {
+      "unit": "Siege Tank",
+      "faction": "Terran",
+      "option": "Mode Transformation",
+      "sourceWording": "The active Unit gains or loses the SIEGE MODE Status.\nWhile this Unit has the SIEGE MODE Status, its Size characteristic is treated as if it was 3.",
+      "affected": "Ability",
+      "current": {
+        "Phase": "Movement Phase",
+        "Type": "Active",
+        "Cost": "1 CP",
+        "Effect": "The active Unit gains or loses the SIEGE MODE Status. While this Unit has the SIEGE MODE Status, its Size characteristic is treated as if it was 3."
+      },
+      "proposed": {
+        "Phase": "Movement Phase",
+        "Type": "Active",
+        "Cost": "1 CP",
+        "Effect": "The active Unit gains or loses the SIEGE MODE Status.\nWhile this Unit has the SIEGE MODE Status, its Size characteristic is treated as if it was 3."
+      },
+      "display": [
+        "rule only; active or reactive activation required"
+      ],
+      "click": "pdf_Terran_rule_siege_tank_upgrade_movement_phase_mode_transformation"
+    },
+    {
+      "unit": "Viles (Roach)",
+      "faction": "Zerg",
+      "option": "Tunneling Claws",
+      "sourceWording": "While this Unit has the Burrowed Status, it may perform the Move and Run actions without losing that Status. It may also move through other Units’ bases.",
+      "affected": "Ability",
+      "current": {
+        "Phase": "Movement Phase",
+        "Type": "Passive",
+        "Effect": "While this Unit has the Burrowed Status, it may perform the Move and Run actions without losing that Status. It may also move through other Units' bases."
+      },
+      "proposed": {
+        "Phase": "Any Phase",
+        "Type": "Passive",
+        "Effect": "While this Unit has the Burrowed Status, it may perform the Move and Run actions without losing that Status. It may also move through other Units’ bases."
+      },
+      "display": [
+        "rule only; deployment, movement permission or resource effect"
+      ],
+      "click": "pdf_Zerg_rule_viles_roach_upgrade_movement_phase_tunneling_claws"
+    },
+    {
+      "unit": "Zagara",
+      "faction": "Zerg",
+      "option": "Broodmother",
+      "sourceWording": "Apply one of the following effects to all Friendly units (Line of Sight is not required). You cannot apply the effect chosen in the previous Game Round:\n\nUnits of Size 1 gain a +1 Modifier to all IMPACT Rolls.\n\nAll weapons of Size 2 Units gain CRITICAL HIT (1).\n\nUnits of Size 3 or more gain TOUGH (1).",
+      "affected": "Ability",
+      "current": {
+        "Phase": "Movement Phase",
+        "Type": "Active",
+        "Cost": "1 BM",
+        "Effect": "Apply one of the following effects to all Friendly units (Line of Sight is not required). You cannot apply the effect chosen in the previous Game Round:\n• Units of Size 1 gain a +1 Modifier to all IMPACT Rolls.\n• All weapons of Size 2 Units gain CRITICAL HIT (1).\n• Units of Size 3 or more gain TOUGH (1)."
+      },
+      "proposed": {
+        "Phase": "Movement Phase",
+        "Type": "Active",
+        "Cost": "1 BM",
+        "Effect": "Apply one of the following effects to all Friendly units (Line of Sight is not required). You cannot apply the effect chosen in the previous Game Round:\n\nUnits of Size 1 gain a +1 Modifier to all IMPACT Rolls.\n\nAll weapons of Size 2 Units gain CRITICAL HIT (1).\n\nUnits of Size 3 or more gain TOUGH (1)."
+      },
+      "display": [
+        "rule only; active or reactive activation required"
+      ],
+      "click": "pdf_Zerg_rule_zagara_upgrade_movement_phase_broodmother"
+    }
+  ],
+  "reserveReview": [
+    {
+      "unit": "Adepts",
+      "option": "Psionic Presence",
+      "wording": "All Weapons of Friendly Units targeting an Enemy Unit Within 4\" of this Unit’s Shade token gain PRECISION (1)."
+    },
+    {
+      "unit": "Adepts",
+      "option": "Psionic Transfer",
+      "wording": "Set a Shade token Wholly Within 12\" of any model in this Unit. At the End of the Round, the controlling player may set all models of this Unit In Coherency, treating the Shade token as the Leading Model. The Shade token has DISPLACEMENT."
+    },
+    {
+      "unit": "Bile Launcher",
+      "option": "Burrow Ambush",
+      "wording": "When this Unit is nominated to deploy from the Reserves, it may resolve the PLACE (18) effect from the controlling player's Entry Edge. No model may be set Within 10\" of any Enemy model. This Unit's Activation ends."
+    },
+    {
+      "unit": "Bile Launcher",
+      "option": "Bombard",
+      "wording": "Set a Bile Bomb token on the battlefield Within 24\" of this Unit. When this Unit resolves a Ranged Attack using the Bile Bomb weapon profile this Round, it may choose to ignore the weapon's standard Range characteristic. If it does, it may target an Enemy Unit that is Within 3\" of that token (Line of Sight is not required), ignoring the HIDDEN Status. After the attack is fully resolved, remove the Bile Bomb token from the battlefield. When the Bile Bomb token is about to be removed, set a Creep Tumor token in base-to-base contact with it. The Bile Bomb token has DISPLACEMENT."
+    },
+    {
+      "unit": "Corpsers (Roach)",
+      "option": "Roachling Infestation",
+      "wording": "Once per Game. Resolve the SUMMON (Roachling) effect."
+    },
+    {
+      "unit": "Corpsers (Roach)",
+      "option": "Burrow Ambush",
+      "wording": "When this Unit is nominated to deploy from the Reserves, it may resolve the PLACE (18) effect from the controlling player's Entry Edge. No model may be set Within 10\" of any Enemy model. This Unit's Activation ends."
+    },
+    {
+      "unit": "Defiler",
+      "option": "Gestate Dark Swarm",
+      "wording": "Set a Dark Swarm token in an unoccupied space Within 4\" and Line of Sight of this Unit. The Dark Swarm token has DISPLACEMENT."
+    },
+    {
+      "unit": "Defiler",
+      "option": "Dark Swarm",
+      "wording": "REPEATABLE. Use when a Friendly Unit Within 4\" of a Friendly Dark Swarm token is selected as the target of an attack. If this Unit is Within 4'' of the same token, the Targeted Friendly Unit is eligible to make an Evade Roll against that attack. If the targeted Unit is a Size 1, it gains a +1 Modifier to this Evade Roll."
+    },
+    {
+      "unit": "Defiler",
+      "option": "Plague",
+      "wording": "You may spend 1 to 3 BM to activate this ability. Set a Plague Blast Template Wholly Within 10\" and Line of Sight of this Unit. For each Unit that has at least one model whose base is partially covered by the template, roll 2 dice, plus 1 additional die for each model in that Unit whose base is partially covered. That Unit loses its HIDDEN Status, and, depending on the BM spent, it suffers NON-LETHAL DAMAGE (1) for:\n1 BM: each result of 5+.\n2 BM: each result of 4+.\n3 BM: each result of 3+."
+    },
+    {
+      "unit": "Firebat",
+      "option": "Incinerator Gauntlets",
+      "wording": "Set a Fire Wall token Within 4\" in an unoccupied space. If a Unit’s Leading Model’s path of travel passes through this token, or if any model in a Unit ends either a Move, Deploy, Run, Charge, Disengage, or Close Ranks action, or is Set Within 1\" of this token, remove the Fire Wall token from the battlefield before executing that move. If you do, that Unit suffers HITS 5 (1). If that Unit performed a Charge action, it cannot resolve the IMPACT effect."
+    },
+    {
+      "unit": "Firebat",
+      "option": "Fire it Up",
+      "wording": "When this Unit makes a Ranged Attack with its Perdition Flamethrower, you may choose 1 model in this Unit to attack using a Flamer Template (FT) instead of rolling its regular Rate of Attack (RoA). If this Unit's Current Supply Value is 2, you may choose up to 2 models to attack using Flamer Templates instead."
+    },
+    {
+      "unit": "Firebat",
+      "option": "Need A Light?",
+      "wording": "When this Unit makes a Close Combat Attack with its Flame Strike, you may choose 1 model in this Unit to attack using a Flamer Template (FT) instead of rolling its regular Rate of Attack (RoA)."
+    },
+    {
+      "unit": "High Templar",
+      "option": "Psionic Storm",
+      "wording": "Set a Psionic Storm token Within 10\" and Line of Sight of this Unit. This token is not removed if this Unit is Destroyed. At the End of each Phase, set a Psionic Storm Blast Template on the centre of this token. For each Unit that has at least one model whose base is partially covered by the template, roll 3 dice, plus 1 additional die for each model in that Unit whose base is partially covered. For each result of 5+, that Unit suffers an effect depending on the current Phase:\nMovement Phase: NON-LETHAL DAMAGE (1).\nAssault Phase: 1 Damage. \nIf multiple effects trigger at the End of the Assault Phase, resolve them in the order specified in Part 8.9.4."
+    },
+    {
+      "unit": "Holo Decoy",
+      "option": "Surprise!",
+      "wording": "At the End of the Round, you can set a Friendly Nova Stealth Mode or Nova Assault Mode in Coherency with this Unit."
+    },
+    {
+      "unit": "Hydralisks",
+      "option": "Burrow Ambush",
+      "wording": "When this Unit is nominated to deploy from the Reserves, it may resolve the PLACE (18) effect from the controlling player's Entry Edge. No model may be set Within 10\" of any Enemy model. This Unit's Activation ends."
+    },
+    {
+      "unit": "Infested Marine",
+      "option": "Burrow Ambush",
+      "wording": "When this Unit is nominated to deploy from the Reserves, it may resolve the PLACE (18) effect from the controlling player's Entry Edge. No model may be set Within 10\" of any Enemy model. This Unit's Activation ends."
+    },
+    {
+      "unit": "Infested Trooper",
+      "option": "Burrow Ambush",
+      "wording": "When this Unit is nominated to deploy from the Reserves, it may resolve the PLACE (18) effect from the controlling player's Entry Edge. No model may be set Within 10\" of any Enemy model. This Unit's Activation ends."
+    },
+    {
+      "unit": "Kerrigan",
+      "option": "Crushing Grip",
+      "wording": "Select one Enemy Unit Within 12\". That Unit counts as Activated in this Phase (set an Activation Marker next to it)."
+    },
+    {
+      "unit": "Nerazim Watchers (Adept)",
+      "option": "Nerazim Farsight",
+      "wording": "While Enemy Units are Within 6\" of this Unit's Shade token, they lose HIDDEN Status."
+    },
+    {
+      "unit": "Nerazim Watchers (Adept)",
+      "option": "Psionic Transfer",
+      "wording": "Set a Shade token Wholly Within 12\" of any model in this Unit. At the End of the Round, the controlling player may set all models of this Unit in Coherency, treating the Shade token as the Leading Model. The Shade token has DISPLACEMENT."
+    },
+    {
+      "unit": "Nova Assault Mode",
+      "option": "Holo Decoy",
+      "wording": "Resolve the SUMMON (Holo Decoy) effect. Then, Holo Decoy may immediately perform a Move action."
+    },
+    {
+      "unit": "Nova Stealth Mode",
+      "option": "Holo Decoy",
+      "wording": "Resolve the SUMMON (Holo Decoy) effect. Then, Holo Decoy may immediately perform a Move action."
+    },
+    {
+      "unit": "Queen",
+      "option": "Spawn Creep Tumor",
+      "wording": "Set a Creep Tumor token in base-to-base contact with this Unit."
+    },
+    {
+      "unit": "Raptors (Zergling)",
+      "option": "Burrow Ambush",
+      "wording": "When this Unit is nominated to deploy from the Reserves, it may resolve the PLACE (18) effect from the controlling player's Entry Edge. No model may be set Within 10\" of any Enemy model. This Unit's Activation ends."
+    },
+    {
+      "unit": "Ravagers",
+      "option": "Corrosive Bile",
+      "wording": "For each model in this Unit, set one Corrosive Bile token on the battlefield Within 14\" of that model. These tokens are not removed if this Unit is Destroyed. At the End of the Assault Phase, each Unit suffers HITS 5 (1) effect for each of this Unit's Corrosive Bile tokens it is Within 1\" of. Then, remove all of this Unit's Corrosive Bile tokens from the battlefield. If multiple effects trigger at the End of the Assault Phase, resolve them in the order specified in Part 8.9.4."
+    },
+    {
+      "unit": "Ravagers",
+      "option": "Deep Tunnel",
+      "wording": "Set a Ravager Burrow token Wholly Within 12\" of any model in this Unit. At the End of the Round, the controlling player may set all models of this Unit in Coherency, treating the Ravager Burrow token as the Leading Model. The Ravager Burrow token has DISPLACEMENT."
+    },
+    {
+      "unit": "Ravagers",
+      "option": "Burrow Ambush",
+      "wording": "When this Unit is nominated to deploy from the Reserves, it may resolve the PLACE (18) effect from the controlling player's Entry Edge. No model may be set Within 10\" of any Enemy model. This Unit's Activation ends."
+    },
+    {
+      "unit": "Raven",
+      "option": "Internal Tech Module",
+      "wording": "When this Unit is nominated to deploy from Reserves, it may Deploy from any table edge that is not a player's Entry Edge. This Unit cannot be set Within 8\" of any Enemy model."
+    },
+    {
+      "unit": "Raven",
+      "option": "Deploy Auto-Turret",
+      "wording": "Set a Friendly Auto-Turret Unit Within 6\", and not Within the Engagement Range of any Enemy Unit."
+    },
+    {
+      "unit": "Raven",
+      "option": "Explosive Shrapnel Shells",
+      "wording": "The Gauss Cannon of the Auto-Turret set by this Unit gains Surge Type: Light and S-Dice: D3+1."
+    },
+    {
+      "unit": "Raynor's Raiders",
+      "option": "Rapid Reinforcements",
+      "wording": "When this Unit is nominated to deploy from Reserves, it may resolve the PLACE (10) effect from another Friendly Unit. No model may be set Within 8\" of any Enemy model. This Unit's Activation ends."
+    },
+    {
+      "unit": "Reaver",
+      "option": "Limited Artificial Intelligence",
+      "wording": "If this Unit is a parent to any SUMMONED Unit, it cannot SUMMON another one."
+    },
+    {
+      "unit": "Reaver",
+      "option": "Scarab",
+      "wording": "Once per Game. Resolve the SUMMON (Scarab) effect. Then, the Scarab may immediately perform a Move action."
+    },
+    {
+      "unit": "Reaver",
+      "option": "Solarite Scarab",
+      "wording": "Once per Game. Resolve the SUMMON (Solarite Scarab) effect. Then, the Solarite Scarab may immediately perform a Move action."
+    },
+    {
+      "unit": "Reaver",
+      "option": "Phasing Scarab",
+      "wording": "Once per Game. Resolve the SUMMON (Phasing Scarab) effect. Then, the Phasing Scarab may immediately perform a Move action."
+    },
+    {
+      "unit": "Reaver",
+      "option": "Shuttle",
+      "wording": "Once per Game.This ability can be used while this Unit is in Reserves. Set a Faction Indicator anywhere on the battlefield more than 10\" away from any Enemy model. At the End of the Round, the controlling player may Deploy this Unit in base-to-base contact with this Faction Indicator. This Unit's Activation ends."
+    },
+    {
+      "unit": "Roaches",
+      "option": "Burrow Ambush",
+      "wording": "When this Unit is nominated to deploy from the Reserves, it may resolve the PLACE (18) effect from the controlling player's Entry Edge. No model may be set Within 10\" of any Enemy model. This Unit's Activation ends."
+    },
+    {
+      "unit": "Sentries",
+      "option": "Force Field",
+      "wording": "Set a Force Field token Within 8\" in an unoccupied space. Units of Size 2 or lower cannot move across Force Fields. Models of Size 3 or more can move over it, and it's then removed."
+    },
+    {
+      "unit": "Sentries",
+      "option": "Solid-Field Projectors",
+      "wording": "Set a Force Field token Within 8\" in an unoccupied space. Units of Size 2 or lower cannot move across Force Fields. Models of Size 3 or more can move over it, and it's then removed."
+    },
+    {
+      "unit": "Slayer (Stalker)",
+      "option": "Blink",
+      "wording": "Resolve the PLACE (6) effect. Models set by this effect cannot be set up Within the Engagement Range of any Enemy Unit."
+    },
+    {
+      "unit": "Stalker",
+      "option": "Blink",
+      "wording": "Resolve the PLACE (6) effect. Models set by this effect cannot be set up Within the Engagement Range of any Enemy Unit."
+    },
+    {
+      "unit": "Stukov",
+      "option": "Admiral of the Infested",
+      "wording": "Target an Enemy Unit Within 8\" that has the INFESTATION Status. That Unit counts as Activated in this Phase (set an Activation Marker next to it) and remove the INFESTATION Status from that Unit. You may target any Non-Unique Infested Friendly Unit that is Within 8\" of the previously targeted Enemy Unit. Remove the Activation Marker from that targeted Friendly Unit."
+    },
+    {
+      "unit": "Swarmlings",
+      "option": "Burrow Ambush",
+      "wording": "When this Unit is nominated to deploy from the Reserves, it may resolve the PLACE (18) effect from the controlling player's Entry Edge. No model may be set Within 10\" of any Enemy model. This Unit's Activation ends."
+    },
+    {
+      "unit": "Tassadar",
+      "option": "Force Wall",
+      "wording": "Set two Force Wall tokens Wholly Within 8\" in an unoccupied space. Units of Size 2 or lower cannot move across the Force Wall. Models of Size 3 or more can move over it, and it's then removed."
+    },
+    {
+      "unit": "Tassadar",
+      "option": "Executor's Will",
+      "wording": "Target two Enemy Units on the battlefield (Line of Sight is not required) and place a Faction Indicator next to each of them.\nDuring the next Assault Phase, if either of these Units ends its Activation while its Faction Indicator remains on the battlefield, you may Activate two Friendly Units consecutively.\nRemove both Faction Indicators after any Enemy Unit completes its Activation in the following Assault Phase."
+    },
+    {
+      "unit": "Tassadar",
+      "option": "Telekinetic Push",
+      "wording": "Set each Friendly Force Wall token Wholly Within 6\" of its current position."
+    },
+    {
+      "unit": "Twilight Templar (High Templar)",
+      "option": "Psionic Gale",
+      "wording": "Set a Psionic Storm token Within 10\" and Line of Sight of this Unit. This token is not removed if this Unit is Destroyed. At the End of each Phase, set a Psionic Storm Blast Template on the centre of this token. For each Unit that has at least one model whose base is partially covered by the template, roll 3 dice, plus 1 additional die for each model in that Unit whose base is partially covered. For each result of 4+, that Unit suffers an effect depending on the current Phase:\nMovement Phase: NON-LETHAL DAMAGE (1).\nAssault Phase: 1 Damage. \nIf multiple effects trigger at the End of the Assault Phase, resolve them in the order specified in Part 8.9.4."
+    },
+    {
+      "unit": "Viles (Roach)",
+      "option": "Burrow Ambush",
+      "wording": "When this Unit is nominated to deploy from the Reserves, it may resolve the PLACE (18) effect from the controlling player's Entry Edge. No model may be set Within 10\" of any Enemy model. This Unit's Activation ends."
+    },
+    {
+      "unit": "Vileling (Zergling)",
+      "option": "Burrow Ambush",
+      "wording": "When this Unit is nominated to deploy from the Reserves, it may resolve the PLACE (18) effect from the controlling player's Entry Edge. No model may be set Within 10\" of any Enemy model. This Unit's Activation ends."
+    },
+    {
+      "unit": "Zeratul",
+      "option": "Void Prison",
+      "wording": "Set a Faction Indicator on the battlefield Within 8\" of this Unit. While Enemy Units are Within 2\" of this Faction Indicator they suffer DEBUFF Speed (2)."
+    },
+    {
+      "unit": "Zerglings",
+      "option": "Burrow Ambush",
+      "wording": "When this Unit is nominated to deploy from the Reserves, it may resolve the PLACE (18) effect from the controlling player's Entry Edge. No model may be set Within 10\" of any Enemy model. This Unit's Activation ends."
+    },
+    {
+      "card": "Accelerating Creep",
+      "option": "Creep Removal",
+      "wording": "Creep Removal <Passive> <Any Phase>: If an Enemy Unit ends a Move, Deploy, Run, Charge or Disengage action Within 1\" of a Friendly Creep Tumor token, remove that token from the battlefield."
+    },
+    {
+      "card": "Barracks (Proxy)",
+      "option": "Armed and Ready",
+      "wording": "Armed and Ready <Active> <Movement Phase>: The active Biological Unit Deploys from any table edge that is not a player's Entry Edge. No model may be set up Within 10\" of any Enemy model. This ability cannot be used if another Friendly Biological Unit has already been Deployed this Round."
+    },
+    {
+      "card": "Cocoon",
+      "option": "Spawn Larva",
+      "wording": "Spawn Larva <Active> <Movement Phase>: The active Friendly non-Unique Biological Unit with a Size Characteristic of 1 resolves the RESPAWN (2) effect."
+    },
+    {
+      "card": "Daelaam",
+      "option": "Mass Recall",
+      "wording": "Mass Recall <Active> <Movement Phase>: Once per Game. Set a Faction Indicator anywhere on the battlefield. All Friendly Protoss Units Within 6\" of this Faction Indicator are removed from the battlefield and returned to Reserves."
+    },
+    {
+      "card": "Defiler Mound",
+      "option": "Poisonous Essence",
+      "wording": "Poisonous Essence <Active> <Movement Phase>: Set a Faction Indicator on the active Friendly Unit. At the end of the Assault Phase, all Biological Enemy Units Engaged with the marked Unit suffer NON-LETHAL DAMAGE (2)."
+    },
+    {
+      "card": "Dropship",
+      "option": "Ready For Dust-off",
+      "wording": "Ready For Dust-off <Active> <Movement Phase>: Set a Faction Indicator anywhere on the battlefield more than 10\" away from any Enemy model. At the End of the Round, the controlling player may Deploy one Ground Unit from Reserves in base-to-base contact with this Faction Indicator."
+    },
+    {
+      "card": "Hatchery",
+      "option": "Creep Spread",
+      "wording": "Creep Spread <Active> <Movement Phase>: Set a Creep Tumor token on the battlefield Within 6\" (Line of Sight is not required) of either a Friendly Entry Edge or an existing Friendly Creep Tumor token."
+    },
+    {
+      "card": "Healing Pathogen",
+      "option": "Stukov's Creep",
+      "wording": "Stukov's Creep <Passive> <Any Phase>: If an Enemy Unit ends a Move, Deploy, Run, Charge or Disengage action Within 1\" of a Friendly Creep Tumor token, remove that token from the battlefield. Creep Tumor tokens have STAY IN PLAY and DISPLACEMENT."
+    },
+    {
+      "card": "Hive",
+      "option": "Creep Spread",
+      "wording": "Creep Spread <Active> <Movement Phase>: Set a Creep Tumor token on the battlefield Within 6\" (Line of Sight is not required) of either a Friendly Entry Edge or an existing Friendly Creep Tumor token."
+    },
+    {
+      "card": "Hungering Infestation",
+      "option": "Stukov's Creep",
+      "wording": "Stukov's Creep <Passive> <Any Phase>: If an Enemy Unit ends a Move, Deploy, Run, Charge or Disengage action Within 1\" of a Friendly Creep Tumor token, remove that token from the battlefield. Creep Tumor tokens have STAY IN PLAY and DISPLACEMENT."
+    },
+    {
+      "card": "Infested Command Center",
+      "option": "Scanner Sweep",
+      "wording": "Scanner Sweep <Active> <Movement Phase>: Set a Faction Indicator anywhere on the battlefield. While Enemy Units are Within 6\" of this Faction Indicator, they lose the HIDDEN Status."
+    },
+    {
+      "card": "Kerrigan's Swarm",
+      "option": "Omega Network",
+      "wording": "Omega Network <Active> <Movement Phase>: If there is no Friendly Omega Worm on the battlefield, set a Friendly Omega Worm Unit anywhere on GROUND LEVEL of the battlefield, more than 10\" away from any Enemy model. This Round, the Omega Worm is not eligible to use its Special Abilities (excluding Structure)."
+    },
+    {
+      "card": "Khalai",
+      "option": "Pylon Warp-In",
+      "wording": "Pylon Warp-In <Active> <Movement Phase>: If there is no Friendly Pylon on the battlefield, set a Friendly Pylon Unit anywhere on the GROUND LEVEL of the battlefield more than 10\" away from any Enemy model. This Round, the Pylon is not eligible to use its Special Abilities (excluding Structure)."
+    },
+    {
+      "card": "Lair",
+      "option": "Creep Spread",
+      "wording": "Creep Spread <Active> <Movement Phase>: Set a Creep Tumor token on the battlefield Within 6\" (Line of Sight is not required) of either a Friendly Entry Edge or an existing Friendly Creep Tumor token."
+    },
+    {
+      "card": "Malignant Creep",
+      "option": "Creep Removal",
+      "wording": "Creep Removal <Passive> <Any Phase>: If an Enemy Unit ends a Move, Deploy, Run, Charge or Disengage action Within 1\" of a Friendly Creep Tumor token, remove that token from the battlefield."
+    },
+    {
+      "card": "Nova Covert Ops",
+      "option": "Griffin Support",
+      "wording": "Griffin Support <Active> <Movement Phase>: Set a Friendly Sabotage Drone Unit Within 12\" of a Friendly Unit, more than 1\" away from any Enemy model. Remove this Unit at the End of the Round."
+    },
+    {
+      "card": "Observer",
+      "option": "Surveillance",
+      "wording": "Surveillance <Active> <Movement Phase>: Set a Faction Indicator anywhere on the battlefield. While Enemy Units are Within 6\" of this Faction Indicator, they lose HIDDEN Status."
+    },
+    {
+      "card": "Orbital Command",
+      "option": "Scanner Sweep",
+      "wording": "Scanner Sweep <Active> <Movement Phase>: Set a Faction Indicator anywhere on the battlefield. While Enemy Units are Within 6\" of this Faction Indicator, they lose HIDDEN Status."
+    },
+    {
+      "card": "Overlord",
+      "option": "Excrete Creep",
+      "wording": "Excrete Creep <Active> <Assault Phase>: Set a Creep Tumor token on the battlefield Within 6\" (Line of Sight is not required) of either a Friendly Entry Edge or an existing Friendly Creep Tumor token."
+    },
+    {
+      "card": "Overlord",
+      "option": "Ventral Sacs",
+      "wording": "Ventral Sacs <Active> <Movement Phase>: Set a Faction Indicator anywhere on the battlefield more than 10\" away from any Enemy model. At the End of the Round, the controlling player may Deploy one Ground Unit from Reserves in base-to-base contact with this Faction Indicator."
+    },
+    {
+      "card": "Overseer",
+      "option": "Oversight Mode",
+      "wording": "Oversight Mode <Active> <Movement Phase>: Set a Faction Indicator anywhere on the battlefield. While Enemy Units are Within 6\" of this Faction Indicator, they lose HIDDEN Status."
+    },
+    {
+      "card": "Raynor's Raiders",
+      "option": "Rapid Ingress",
+      "wording": "Rapid Ingress <Active> <Movement Phase>: Set a Friendly Point Defence Drone Unit anywhere on the battlefield, more than 1\" away from any Enemy model. Remove this Unit at the End of the Round."
+    },
+    {
+      "card": "Raynor's Raiders",
+      "option": "Ready for Pickup?",
+      "wording": "Ready for Pickup? <Active> <Movement Phase>: Once per Game. The active Unit resolves the PLACE (12) effect. Models set by this effect cannot be set up Within the Engagement Range of any Enemy Unit. This resolves instead of performing a standard action."
+    },
+    {
+      "card": "Reactive Creep",
+      "option": "Creep Removal",
+      "wording": "Creep Removal <Passive> <Any Phase>: If an Enemy Unit ends a Move, Deploy, Run, Charge or Disengage action Within 1\" of a Friendly Creep Tumor token, remove that token from the battlefield."
+    },
+    {
+      "card": "Stukov's Forces",
+      "option": "Hostile Incubation",
+      "wording": "Hostile Incubation <Active> <Movement Phase>: If there is no Friendly Infested Missile Turret on the battlefield, set a Friendly Infested Missile Turret Unit anywhere on the GROUND LEVEL of the battlefield more than 10\" away from any Enemy model. This Round, the Missile Turret is not eligible to use its Special Abilities (excluding Structure)."
+    },
+    {
+      "card": "Tal'darim",
+      "option": "Proxy Pylon",
+      "wording": "Proxy Pylon <Active> <Movement Phase>: If there is no Friendly Tal'darim Pylon on the battlefield, set a Friendly Tal'darim Pylon Unit anywhere on the GROUND LEVEL of the battlefield more than 10\" away from any Enemy model. This Round, the Tal'darim Pylon is not eligible to use its Special Abilities (excluding Structure)."
+    },
+    {
+      "card": "Warp Prism",
+      "option": "Warp Conduit",
+      "wording": "Warp Conduit <Active> <Movement Phase>: Set a Faction Indicator anywhere on the battlefield more than 10\" away from any Enemy model. At the End of the Round, the controlling player may Deploy one Ground Unit from Reserves in base-to-base contact with this Faction Indicator."
+    },
+    {
+      "card": "Weighted Pustule",
+      "option": "Fetid Touch",
+      "wording": "Fetid Touch <Passive> <Any Phase>: While an Enemy Unit has the INFESTATION Status, it cannot resolve the PLACE and set effects and cannot be returned to Reserves."
+    },
+    {
+      "card": "Weighted Pustule",
+      "option": "Stukov's Creep",
+      "wording": "Stukov's Creep <Passive> <Any Phase>: If an Enemy Unit ends a Move, Deploy, Run, Charge or Disengage action Within 1\" of a Friendly Creep Tumor token, remove that token from the battlefield. Creep Tumor tokens have STAY IN PLAY and DISPLACEMENT."
+    }
+  ],
+  "tokenReview": [
+    {
+      "unit": "Adepts",
+      "option": "Psionic Presence",
+      "wording": "All Weapons of Friendly Units targeting an Enemy Unit Within 4\" of this Unit’s Shade token gain PRECISION (1)."
+    },
+    {
+      "unit": "Adepts",
+      "option": "Psionic Transfer",
+      "wording": "Set a Shade token Wholly Within 12\" of any model in this Unit. At the End of the Round, the controlling player may set all models of this Unit In Coherency, treating the Shade token as the Leading Model. The Shade token has DISPLACEMENT."
+    },
+    {
+      "unit": "Bile Launcher",
+      "option": "Biological Structure",
+      "wording": "This Unit cannot gain the BURROWED Status, cannot be returned to Reserves, and is immune to the IMPACT keyword."
+    },
+    {
+      "unit": "Bile Launcher",
+      "option": "Detection",
+      "wording": "While Enemy Units are Within 6\" of this Unit, they lose the HIDDEN Status."
+    },
+    {
+      "unit": "Bile Launcher",
+      "option": "Bombard",
+      "wording": "Set a Bile Bomb token on the battlefield Within 24\" of this Unit. When this Unit resolves a Ranged Attack using the Bile Bomb weapon profile this Round, it may choose to ignore the weapon's standard Range characteristic. If it does, it may target an Enemy Unit that is Within 3\" of that token (Line of Sight is not required), ignoring the HIDDEN Status. After the attack is fully resolved, remove the Bile Bomb token from the battlefield. When the Bile Bomb token is about to be removed, set a Creep Tumor token in base-to-base contact with it. The Bile Bomb token has DISPLACEMENT."
+    },
+    {
+      "unit": "Corpsers (Roach)",
+      "option": "Burrow",
+      "wording": "If this Unit is Unengaged, it gains or loses the Burrowed Status."
+    },
+    {
+      "unit": "Corpsers (Roach)",
+      "option": "Tunneling Claws",
+      "wording": "While this Unit has the Burrowed Status, it may perform the Move and Run actions without losing that Status. It may also move through other Units’ bases."
+    },
+    {
+      "unit": "Corpsers (Roach)",
+      "option": "Regeneration",
+      "wording": "When this Unit becomes Activated, if it has the Burrowed Status, resolve the HEAL (2) effect."
+    },
+    {
+      "unit": "Defiler",
+      "option": "Gestate Dark Swarm",
+      "wording": "Set a Dark Swarm token in an unoccupied space Within 4\" and Line of Sight of this Unit. The Dark Swarm token has DISPLACEMENT."
+    },
+    {
+      "unit": "Defiler",
+      "option": "Dark Swarm",
+      "wording": "REPEATABLE. Use when a Friendly Unit Within 4\" of a Friendly Dark Swarm token is selected as the target of an attack. If this Unit is Within 4'' of the same token, the Targeted Friendly Unit is eligible to make an Evade Roll against that attack. If the targeted Unit is a Size 1, it gains a +1 Modifier to this Evade Roll."
+    },
+    {
+      "unit": "Defiler",
+      "option": "Plague",
+      "wording": "You may spend 1 to 3 BM to activate this ability. Set a Plague Blast Template Wholly Within 10\" and Line of Sight of this Unit. For each Unit that has at least one model whose base is partially covered by the template, roll 2 dice, plus 1 additional die for each model in that Unit whose base is partially covered. That Unit loses its HIDDEN Status, and, depending on the BM spent, it suffers NON-LETHAL DAMAGE (1) for:\n1 BM: each result of 5+.\n2 BM: each result of 4+.\n3 BM: each result of 3+."
+    },
+    {
+      "unit": "Firebat",
+      "option": "Incinerator Gauntlets",
+      "wording": "Set a Fire Wall token Within 4\" in an unoccupied space. If a Unit’s Leading Model’s path of travel passes through this token, or if any model in a Unit ends either a Move, Deploy, Run, Charge, Disengage, or Close Ranks action, or is Set Within 1\" of this token, remove the Fire Wall token from the battlefield before executing that move. If you do, that Unit suffers HITS 5 (1). If that Unit performed a Charge action, it cannot resolve the IMPACT effect."
+    },
+    {
+      "unit": "Firebat",
+      "option": "Fire it Up",
+      "wording": "When this Unit makes a Ranged Attack with its Perdition Flamethrower, you may choose 1 model in this Unit to attack using a Flamer Template (FT) instead of rolling its regular Rate of Attack (RoA). If this Unit's Current Supply Value is 2, you may choose up to 2 models to attack using Flamer Templates instead."
+    },
+    {
+      "unit": "Firebat",
+      "option": "Need A Light?",
+      "wording": "When this Unit makes a Close Combat Attack with its Flame Strike, you may choose 1 model in this Unit to attack using a Flamer Template (FT) instead of rolling its regular Rate of Attack (RoA)."
+    },
+    {
+      "unit": "High Templar",
+      "option": "Psionic Storm",
+      "wording": "Set a Psionic Storm token Within 10\" and Line of Sight of this Unit. This token is not removed if this Unit is Destroyed. At the End of each Phase, set a Psionic Storm Blast Template on the centre of this token. For each Unit that has at least one model whose base is partially covered by the template, roll 3 dice, plus 1 additional die for each model in that Unit whose base is partially covered. For each result of 5+, that Unit suffers an effect depending on the current Phase:\nMovement Phase: NON-LETHAL DAMAGE (1).\nAssault Phase: 1 Damage. \nIf multiple effects trigger at the End of the Assault Phase, resolve them in the order specified in Part 8.9.4."
+    },
+    {
+      "unit": "Hydralisks",
+      "option": "Lurking",
+      "wording": "If this Unit has Stationary Status, it is eligible to make an Evade Roll against the first Ranged Attack targeting it this Round. If this Unit is ON CREEP, it gains +1 Modifier to this Evade Roll."
+    },
+    {
+      "unit": "Immortal",
+      "option": "Shield Overcharge",
+      "wording": "Use before this Unit makes an Armour Roll. If this Unit has the Shielded Status, It gains TOUGH (2) for this roll."
+    },
+    {
+      "unit": "Immortal",
+      "option": "Improved Barrier",
+      "wording": "Use when this Unit is selected as the target of an attack. If this Unit has the Shielded Status, the Damage characteristic of the attacking weapon is treated as a maximum of 1 for this attack."
+    },
+    {
+      "unit": "Infested Marine",
+      "option": "Live for the Swarm!",
+      "wording": "When this Unit attacks an Enemy Unit with the INFESTATION Status or a Unit Within 6\" of any Source of Creep or Creep Tumor, its Infested C-14 Rifle and all Close Combat Attacks gain PRECISION (2)."
+    },
+    {
+      "unit": "Infested Missile Turret",
+      "option": "Detection",
+      "wording": "While Enemy Units are Within 8\" of this Unit, they lose the HIDDEN Status."
+    },
+    {
+      "unit": "Infested Missile Turret",
+      "option": "Infestation",
+      "wording": "When the Supply of an Enemy Unit with the INFESTATION Status is reduced to 0, or when that Unit is Destroyed, you can apply the INFESTATION Status to another Enemy Unit Within 8\" of that Unit. For the purposes of resolving Special Abilities, this effect is treated as a DEBUFF."
+    },
+    {
+      "unit": "Infested Siege Tank",
+      "option": "Heavy Plating",
+      "wording": "When this Unit resolves an Armour Roll, it gains TOUGH (1), provided it does not currently have the SIEGE MODE Status."
+    },
+    {
+      "unit": "Infested Siege Tank",
+      "option": "Mode Transformation",
+      "wording": "The active Unit gains or loses the SIEGE MODE Status.\nWhile this Unit has the SIEGE MODE Status, its Size characteristic is treated as if it was 3."
+    },
+    {
+      "unit": "Infested Siege Tank",
+      "option": "Shock Cannon",
+      "wording": "RANGE: 18 | TARGET: Ground | RoA: BT+4 | HIT: 4+ | DMG: 1\nSURGE: Light, Armoured (BT)\n\nSIEGE MODE Status"
+    },
+    {
+      "unit": "Infested Siege Tank",
+      "option": "Point Blank",
+      "wording": "While this Unit has the SIEGE MODE Status, it cannot target Enemy Units it is Engaged with."
+    },
+    {
+      "unit": "Infested Siege Tank",
+      "option": "Aftershock Rounds",
+      "wording": "When this Unit has the SIEGE MODE Status, its Damage characteristic is treated as equal to the Size characteristic of the current target Unit (to a minimum of 1)."
+    },
+    {
+      "unit": "Infested Siege Tank",
+      "option": "Shaped Blast",
+      "wording": "Once per Game. When this Unit declares a Ranged Attack action. If this Unit has SIEGE MODE Status, its weapon gains PINPOINT and LOCKED IN (4)."
+    },
+    {
+      "unit": "Infested Siege Tank",
+      "option": "Smart Shells",
+      "wording": "Once per Game. When this Unit declares a Ranged Attack action. If this Unit has SIEGE MODE Status, its weapon gains INDIRECT FIRE and LONG RANGE (24)."
+    },
+    {
+      "unit": "Infested Trooper",
+      "option": "Live for the Swarm!",
+      "wording": "When this Unit attacks an Enemy Unit with the INFESTATION Status or a Unit Within 6\" of any Source of Creep or Creep Tumor, its Infested C-14 Rifle and all Close Combat Attacks gain PRECISION (2)."
+    },
+    {
+      "unit": "Infested Trooper",
+      "option": "Spread Infestation",
+      "wording": "Target an Enemy Unit Within 8\". The targeted Unit gains the INFESTATION Status. For the purposes of resolving Special Abilities, this effect is treated as a DEBUFF."
+    },
+    {
+      "unit": "Nerazim Watchers (Adept)",
+      "option": "Path of Shadows",
+      "wording": "This Unit gains HIDDEN Status until it performs another action."
+    },
+    {
+      "unit": "Nerazim Watchers (Adept)",
+      "option": "Nerazim Farsight",
+      "wording": "While Enemy Units are Within 6\" of this Unit's Shade token, they lose HIDDEN Status."
+    },
+    {
+      "unit": "Nerazim Watchers (Adept)",
+      "option": "Psionic Transfer",
+      "wording": "Set a Shade token Wholly Within 12\" of any model in this Unit. At the End of the Round, the controlling player may set all models of this Unit in Coherency, treating the Shade token as the Leading Model. The Shade token has DISPLACEMENT."
+    },
+    {
+      "unit": "Nova Assault Mode",
+      "option": "Ghost Visor",
+      "wording": "While Enemy Units are Within 6\" of this Unit, they lose the HIDDEN Status."
+    },
+    {
+      "unit": "Nova Stealth Mode",
+      "option": "Tactical Stealth Suit",
+      "wording": "After this Unit fully resolves an Action, it gains the HIDDEN Status."
+    },
+    {
+      "unit": "Nova Stealth Mode",
+      "option": "Ghost Visor",
+      "wording": "While Enemy Units are Within 6\" of this Unit, they lose the HIDDEN Status."
+    },
+    {
+      "unit": "Nova Stealth Mode",
+      "option": "Head Shot",
+      "wording": "Once Per Game. While this Unit is Unengaged and has the Stationary Status, when it makes a Ranged Attack with its C-20A Canister Rifle, treat that weapon's Damage characteristic as 3, and it gains CONCENTRATED FIRE (1)."
+    },
+    {
+      "unit": "Omega Worm",
+      "option": "Detection",
+      "wording": "While Enemy Units are Within 6\" of this Unit, they lose HIDDEN Status."
+    },
+    {
+      "unit": "Queen",
+      "option": "Spawn Creep Tumor",
+      "wording": "Set a Creep Tumor token in base-to-base contact with this Unit."
+    },
+    {
+      "unit": "Ravagers",
+      "option": "Corrosive Bile",
+      "wording": "For each model in this Unit, set one Corrosive Bile token on the battlefield Within 14\" of that model. These tokens are not removed if this Unit is Destroyed. At the End of the Assault Phase, each Unit suffers HITS 5 (1) effect for each of this Unit's Corrosive Bile tokens it is Within 1\" of. Then, remove all of this Unit's Corrosive Bile tokens from the battlefield. If multiple effects trigger at the End of the Assault Phase, resolve them in the order specified in Part 8.9.4."
+    },
+    {
+      "unit": "Ravagers",
+      "option": "Deep Tunnel",
+      "wording": "Set a Ravager Burrow token Wholly Within 12\" of any model in this Unit. At the End of the Round, the controlling player may set all models of this Unit in Coherency, treating the Ravager Burrow token as the Leading Model. The Ravager Burrow token has DISPLACEMENT."
+    },
+    {
+      "unit": "Raven",
+      "option": "Detection",
+      "wording": "While Enemy Units are Within 6\" of this Unit, they lose the HIDDEN Status."
+    },
+    {
+      "unit": "Raven",
+      "option": "Seeker Missile",
+      "wording": "Select one Enemy Unit Within 12\". At the End of the Assault Phase, if that Enemy Unit has the Stationary Status or it is Within 8'' of this Unit, it suffers HITS 4 (2). If that Unit is Engaged, it is eligible to make an Evade Roll against these hits."
+    },
+    {
+      "unit": "Roaches",
+      "option": "Burrow",
+      "wording": "If this Unit is Unengaged, it gains or loses the Burrowed Status."
+    },
+    {
+      "unit": "Roaches",
+      "option": "Tunneling Claws",
+      "wording": "While this Unit has the Burrowed Status, it may perform the Move and Run actions without losing that Status. It may also move through other Units’ bases."
+    },
+    {
+      "unit": "Roaches",
+      "option": "Regeneration",
+      "wording": "When this Unit becomes Activated, if it has the Burrowed Status, resolve the HEAL (2) effect."
+    },
+    {
+      "unit": "Roachling",
+      "option": "Underdeveloped Claws",
+      "wording": "This Unit cannot gain Burrowed Status."
+    },
+    {
+      "unit": "Sentries",
+      "option": "Force Field",
+      "wording": "Set a Force Field token Within 8\" in an unoccupied space. Units of Size 2 or lower cannot move across Force Fields. Models of Size 3 or more can move over it, and it's then removed."
+    },
+    {
+      "unit": "Sentries",
+      "option": "Solid-Field Projectors",
+      "wording": "Set a Force Field token Within 8\" in an unoccupied space. Units of Size 2 or lower cannot move across Force Fields. Models of Size 3 or more can move over it, and it's then removed."
+    },
+    {
+      "unit": "Siege Tank",
+      "option": "Heavy Plating",
+      "wording": "When this Unit resolves an Armour Roll, it gains TOUGH (1), provided it does not currently have the SIEGE MODE Status."
+    },
+    {
+      "unit": "Siege Tank",
+      "option": "Mode Transformation",
+      "wording": "The active Unit gains or loses the SIEGE MODE Status.\nWhile this Unit has the SIEGE MODE Status, its Size characteristic is treated as if it was 3."
+    },
+    {
+      "unit": "Siege Tank",
+      "option": "Shock Cannon",
+      "wording": "RANGE: 18 | TARGET: Ground | RoA: BT+4 | HIT: 4+ | DMG: 1\nSURGE: Light, Armoured (BT)\n\nSIEGE MODE Status"
+    },
+    {
+      "unit": "Siege Tank",
+      "option": "Point Blank",
+      "wording": "While this Unit has the SIEGE MODE Status, it cannot target Enemy Units it is Engaged with."
+    },
+    {
+      "unit": "Siege Tank",
+      "option": "Aftershock Rounds",
+      "wording": "When this Unit has the SIEGE MODE Status, its Damage characteristic is treated as equal to the Size characteristic of the current target Unit (to a minimum of 1)."
+    },
+    {
+      "unit": "Siege Tank",
+      "option": "Shaped Blast",
+      "wording": "Once per Game. When this Unit declares a Ranged Attack action. If this Unit has SIEGE MODE Status, its weapon gains PINPOINT and LOCKED IN (4)."
+    },
+    {
+      "unit": "Siege Tank",
+      "option": "Smart Shells",
+      "wording": "Once per Game. When this Unit declares a Ranged Attack action. If this Unit has SIEGE MODE Status, its weapon gains INDIRECT FIRE and LONG RANGE (24)."
+    },
+    {
+      "unit": "Spec Ops Marauder (Marauder)",
+      "option": "Spec Ops Armour",
+      "wording": "This Unit gains the HIDDEN Status until it performs another action."
+    },
+    {
+      "unit": "Stalker",
+      "option": "Path of Shadows",
+      "wording": "This Unit gains HIDDEN Status until it performs another action."
+    },
+    {
+      "unit": "Stukov",
+      "option": "Plague Warden",
+      "wording": "Treat the Supply characteristic of any Enemy Unit that has the INFESTATION Status and is Within 6\" as reduced by 1 (to a minimum of 0) for Controlling and Contesting Mission Markers, and completing objectives."
+    },
+    {
+      "unit": "Stukov",
+      "option": "Spread Infestation",
+      "wording": "Target an Enemy Unit Within 8\". The targeted Unit gains the INFESTATION Status. For the purposes of resolving Special Abilities, this effect is treated as a DEBUFF."
+    },
+    {
+      "unit": "Stukov",
+      "option": "Admiral of the Infested",
+      "wording": "Target an Enemy Unit Within 8\" that has the INFESTATION Status. That Unit counts as Activated in this Phase (set an Activation Marker next to it) and remove the INFESTATION Status from that Unit. You may target any Non-Unique Infested Friendly Unit that is Within 8\" of the previously targeted Enemy Unit. Remove the Activation Marker from that targeted Friendly Unit."
+    },
+    {
+      "unit": "Stukov",
+      "option": "Bio-Kill Switch",
+      "wording": "Each Enemy Unit with the INFESTATION Status on the Battlefield suffers Damage (2). Immediately after this Special Ability is resolved, Remove the INFESTATION Status from Units that suffered Damage."
+    },
+    {
+      "unit": "Tassadar",
+      "option": "Telekinetic Push",
+      "wording": "Set each Friendly Force Wall token Wholly Within 6\" of its current position."
+    },
+    {
+      "unit": "Twilight Templar (High Templar)",
+      "option": "Psionic Gale",
+      "wording": "Set a Psionic Storm token Within 10\" and Line of Sight of this Unit. This token is not removed if this Unit is Destroyed. At the End of each Phase, set a Psionic Storm Blast Template on the centre of this token. For each Unit that has at least one model whose base is partially covered by the template, roll 3 dice, plus 1 additional die for each model in that Unit whose base is partially covered. For each result of 4+, that Unit suffers an effect depending on the current Phase:\nMovement Phase: NON-LETHAL DAMAGE (1).\nAssault Phase: 1 Damage. \nIf multiple effects trigger at the End of the Assault Phase, resolve them in the order specified in Part 8.9.4."
+    },
+    {
+      "unit": "Viles (Roach)",
+      "option": "Burrow",
+      "wording": "If this Unit is Unengaged, it gains or loses the Burrowed Status."
+    },
+    {
+      "unit": "Viles (Roach)",
+      "option": "Tunneling Claws",
+      "wording": "While this Unit has the Burrowed Status, it may perform the Move and Run actions without losing that Status. It may also move through other Units’ bases."
+    },
+    {
+      "unit": "Viles (Roach)",
+      "option": "Regeneration",
+      "wording": "When this Unit becomes Activated, if it has the Burrowed Status, resolve the HEAL (2) effect."
+    },
+    {
+      "unit": "Zeratul",
+      "option": "One With the Shadows",
+      "wording": "After this Unit fully resolves an Action, it gains the HIDDEN Status."
+    }
+  ],
+  "conflicts": [],
+  "generalRules": "Preserved; rules_sections is never downloaded.",
+  "missingFromDatabase": []
+}

@@ -1,0 +1,1581 @@
+{
+  "Protoss/adept": {
+    "name": "Adepts",
+    "sourceId": "pdf_adepts",
+    "base": {
+      "shape": "round",
+      "widthMm": 40,
+      "lengthMm": 40
+    },
+    "profiles": {
+      "Ability:resonatingglaves": {
+        "sourceId": "pdf_adepts_upgrade_assault_phase_resonating_glaves",
+        "name": "Resonating Glaves",
+        "optional": true
+      },
+      "Ability:guidance": {
+        "sourceId": "pdf_adepts_upgrade_assault_phase_guidance",
+        "name": "Guidance",
+        "optional": true
+      },
+      "Combat Weapon:glaivestrike": {
+        "sourceId": "pdf_adepts_upgrade_1",
+        "name": "GLAIVE STRIKE",
+        "optional": true
+      },
+      "Assault Weapon:glaivecannon": {
+        "sourceId": "pdf_adepts_default_2",
+        "name": "GLAIVE CANNON",
+        "optional": false
+      },
+      "Combat Weapon:strike": {
+        "sourceId": "pdf_adepts_default_3",
+        "name": "STRIKE",
+        "optional": false
+      }
+    },
+    "baseSource": {
+      "file": "StarCraft-Protoss-P2P-Card-Sheets-A4_EN.pdf",
+      "url": "https://archon-studio.com/files/manuals/sc/StarCraft-Protoss-P2P-Card-Sheets-A4_EN.pdf",
+      "page": 1,
+      "sha256": "4e8547b2df8d545df3d0ebb7d7821521a888dc0437d6f4dde21d82145337a212"
+    }
+  },
+  "Protoss/alarak": {
+    "name": "Alarak",
+    "sourceId": "pdf_alarak",
+    "base": null,
+    "profiles": {}
+  },
+  "Protoss/artanis": {
+    "name": "Artanis",
+    "sourceId": "pdf_artanis",
+    "base": {
+      "shape": "round",
+      "widthMm": 40,
+      "lengthMm": 40
+    },
+    "profiles": {
+      "Combat Weapon:twilightbladesstrike": {
+        "sourceId": "pdf_artanis_default_3",
+        "name": "TWILIGHT BLADES STRIKE",
+        "optional": false
+      },
+      "Combat Weapon:twilightbladessweep": {
+        "sourceId": "pdf_artanis_default_4",
+        "name": "TWILIGHT BLADES SWEEP",
+        "optional": false
+      }
+    },
+    "baseSource": {
+      "file": "StarCraft-Protoss-P2P-Card-Sheets-A4_EN.pdf",
+      "url": "https://archon-studio.com/files/manuals/sc/StarCraft-Protoss-P2P-Card-Sheets-A4_EN.pdf",
+      "page": 2,
+      "sha256": "4e8547b2df8d545df3d0ebb7d7821521a888dc0437d6f4dde21d82145337a212"
+    }
+  },
+  "Terran/auto_turret": {
+    "name": "Auto-Turret",
+    "sourceId": "pdf_auto_turret",
+    "base": {
+      "shape": "round",
+      "widthMm": 40,
+      "lengthMm": 40
+    },
+    "profiles": {
+      "Assault Weapon:gausscannon": {
+        "sourceId": "pdf_auto_turret_default_1",
+        "name": "GAUSS CANNON",
+        "optional": false
+      }
+    },
+    "baseSource": {
+      "file": "StarCraft-Terran-P2P-W3-Card-Sheets-A4_EN.pdf",
+      "url": "https://archon-studio.com/files/manuals/sc/StarCraft-Terran-P2P-W3-Card-Sheets-A4_EN.pdf",
+      "page": 7,
+      "sha256": "9632f91cdf1b152aca4d7b27aaf54655fe48e10138c73338393b8a62ce1cd154"
+    }
+  },
+  "Zerg/bile_launcher": {
+    "name": "Bile Launcher",
+    "sourceId": "pdf_bile_launcher",
+    "base": {
+      "shape": "round",
+      "widthMm": 100,
+      "lengthMm": 100
+    },
+    "profiles": {
+      "Assault Weapon:bilebomb": {
+        "sourceId": "pdf_bile_launcher_default_2",
+        "name": "BILE BOMB",
+        "optional": false
+      }
+    },
+    "baseSource": {
+      "file": "StarCraft-Zerg-P2P-W3-Card-Sheets-A4_EN.pdf",
+      "url": "https://archon-studio.com/files/manuals/sc/StarCraft-Zerg-P2P-W3-Card-Sheets-A4_EN.pdf",
+      "page": 4,
+      "sha256": "ebc05eeea6456538b57e3b417bb1defc87159bd560fed81e0342e6119e85d6eb"
+    }
+  },
+  "Zerg/corpser__roach_": {
+    "name": "Corpsers (Roach)",
+    "sourceId": "pdf_corpsers_roach",
+    "base": {
+      "shape": "round",
+      "widthMm": 50,
+      "lengthMm": 50
+    },
+    "profiles": {
+      "Ability:tunnelingclaws": {
+        "sourceId": "pdf_corpsers_roach_upgrade_any_phase_tunneling_claws",
+        "name": "Tunneling Claws",
+        "optional": true
+      },
+      "Ability:glialreconstitution": {
+        "sourceId": "pdf_corpsers_roach_upgrade_movement_phase_glial_reconstitution",
+        "name": "Glial Reconstitution",
+        "optional": true
+      },
+      "Ability:burrowambush": {
+        "sourceId": "pdf_corpsers_roach_upgrade_movement_phase_burrow_ambush",
+        "name": "Burrow Ambush",
+        "optional": true
+      },
+      "Ability:hydriodicbile": {
+        "sourceId": "pdf_corpsers_roach_upgrade_assault_phase_hydriodic_bile",
+        "name": "Hydriodic Bile",
+        "optional": true
+      },
+      "Assault Weapon:acidsaliva": {
+        "sourceId": "pdf_corpsers_roach_default_2",
+        "name": "ACID SALIVA",
+        "optional": false
+      },
+      "Combat Weapon:claws": {
+        "sourceId": "pdf_corpsers_roach_default_4",
+        "name": "CLAWS",
+        "optional": false
+      }
+    },
+    "baseSource": {
+      "file": "StarCraft-Zerg-P2P-Card-Sheets-A4_EN.pdf",
+      "url": "https://archon-studio.com/files/manuals/sc/StarCraft-Zerg-P2P-Card-Sheets-A4_EN.pdf",
+      "page": 7,
+      "sha256": "6810f46ee422ac5d8f3cc169c3eda3ccb9551f01ab71a1f7e4ac8c266817b364"
+    }
+  },
+  "Zerg/defiler": {
+    "name": "Defiler",
+    "sourceId": "pdf_defiler",
+    "base": {
+      "shape": "round",
+      "widthMm": 80,
+      "lengthMm": 80
+    },
+    "profiles": {
+      "Ability:burrowambush": {
+        "sourceId": "pdf_defiler_upgrade_movement_phase_burrow_ambush",
+        "name": "Burrow Ambush",
+        "optional": true
+      },
+      "Ability:plague": {
+        "sourceId": "pdf_defiler_upgrade_assault_phase_plague",
+        "name": "Plague",
+        "optional": true
+      },
+      "Combat Weapon:cancerousbite": {
+        "sourceId": "pdf_defiler_upgrade_2",
+        "name": "CANCEROUS BITE",
+        "optional": true
+      },
+      "Combat Weapon:claws": {
+        "sourceId": "pdf_defiler_default_3",
+        "name": "CLAWS",
+        "optional": false
+      }
+    },
+    "baseSource": {
+      "file": "StarCraft-Zerg-P2P-W3-Card-Sheets-A4_EN.pdf",
+      "url": "https://archon-studio.com/files/manuals/sc/StarCraft-Zerg-P2P-W3-Card-Sheets-A4_EN.pdf",
+      "page": 2,
+      "sha256": "ebc05eeea6456538b57e3b417bb1defc87159bd560fed81e0342e6119e85d6eb"
+    }
+  },
+  "Terran/firebat": {
+    "name": "Firebat",
+    "sourceId": "pdf_firebat",
+    "base": null,
+    "profiles": {}
+  },
+  "Terran/goliath": {
+    "name": "Goliath",
+    "sourceId": "pdf_goliath",
+    "base": {
+      "shape": "round",
+      "widthMm": 80,
+      "lengthMm": 80
+    },
+    "profiles": {
+      "Ability:aresclasstargetingsystem": {
+        "sourceId": "pdf_goliath_upgrade_any_phase_ares_class_targeting_system",
+        "name": "Ares-Class Targeting System",
+        "optional": true
+      },
+      "Assault Weapon:scattermissiles": {
+        "sourceId": "pdf_goliath_upgrade_1",
+        "name": "SCATTER MISSILES",
+        "optional": true
+      },
+      "Assault Weapon:haywiremissiles": {
+        "sourceId": "pdf_goliath_upgrade_2",
+        "name": "HAYWIRE MISSILES",
+        "optional": true
+      },
+      "Assault Weapon:autocannon": {
+        "sourceId": "pdf_goliath_default_1",
+        "name": "AUTOCANNON",
+        "optional": false
+      },
+      "Assault Weapon:underbellymachinegun": {
+        "sourceId": "pdf_goliath_default_2",
+        "name": "UNDERBELLY MACHINE GUN",
+        "optional": false
+      },
+      "Assault Weapon:hellfiremissiles": {
+        "sourceId": "pdf_goliath_default_3",
+        "name": "HELLFIRE MISSILES",
+        "optional": false
+      },
+      "Combat Weapon:stomp": {
+        "sourceId": "pdf_goliath_default_5",
+        "name": "STOMP",
+        "optional": false
+      }
+    },
+    "baseSource": {
+      "file": "StarCraft-Terran-P2P-Card-Sheets-A4_EN.pdf",
+      "url": "https://archon-studio.com/files/manuals/sc/StarCraft-Terran-P2P-Card-Sheets-A4_EN.pdf",
+      "page": 7,
+      "sha256": "afa3f229db61444d0673dea35e31772530a4c39dadaa0e281ba1bae0d271109c"
+    }
+  },
+  "Protoss/high_templar": {
+    "name": "High Templar",
+    "sourceId": "pdf_high_templar",
+    "base": {
+      "shape": "round",
+      "widthMm": 40,
+      "lengthMm": 40
+    },
+    "profiles": {
+      "Ability:psionicstorm": {
+        "sourceId": "pdf_high_templar_upgrade_movement_phase_psionic_storm",
+        "name": "Psionic Storm",
+        "optional": true
+      },
+      "Ability:farsight": {
+        "sourceId": "pdf_high_templar_upgrade_movement_phase_farsight",
+        "name": "Farsight",
+        "optional": true
+      },
+      "Assault Weapon:psiblast": {
+        "sourceId": "pdf_high_templar_default_2",
+        "name": "PSI BLAST",
+        "optional": false
+      },
+      "Combat Weapon:strike": {
+        "sourceId": "pdf_high_templar_default_3",
+        "name": "STRIKE",
+        "optional": false
+      }
+    },
+    "baseSource": {
+      "file": "StarCraft-Protoss-P2P-W3-Card-Sheets-A4_EN.pdf",
+      "url": "https://archon-studio.com/files/manuals/sc/StarCraft-Protoss-P2P-W3-Card-Sheets-A4_EN.pdf",
+      "page": 3,
+      "sha256": "c5ef1d1e2c953a8c5c376464dff46a51878d8e5ae0c3e8260684afbf1dd5f0aa"
+    }
+  },
+  "Terran/holo_decoy": {
+    "name": "Holo Decoy",
+    "sourceId": "pdf_holo_decoy",
+    "base": {
+      "shape": "round",
+      "widthMm": 32,
+      "lengthMm": 32
+    },
+    "profiles": {},
+    "baseSource": {
+      "file": "StarCraft-Terran-P2P-W3-Card-Sheets-A4_EN.pdf",
+      "url": "https://archon-studio.com/files/manuals/sc/StarCraft-Terran-P2P-W3-Card-Sheets-A4_EN.pdf",
+      "page": 3,
+      "sha256": "9632f91cdf1b152aca4d7b27aaf54655fe48e10138c73338393b8a62ce1cd154"
+    }
+  },
+  "Zerg/hydralisk": {
+    "name": "Hydralisks",
+    "sourceId": "pdf_hydralisks",
+    "base": {
+      "shape": "oval",
+      "widthMm": 40,
+      "lengthMm": 100
+    },
+    "profiles": {
+      "Ability:ancillarycarapace": {
+        "sourceId": "pdf_hydralisks_upgrade_any_phase_ancillary_carapace",
+        "name": "Ancillary Carapace",
+        "optional": true
+      },
+      "Ability:lurking": {
+        "sourceId": "pdf_hydralisks_upgrade_any_phase_lurking",
+        "name": "Lurking",
+        "optional": true
+      },
+      "Ability:burrowambush": {
+        "sourceId": "pdf_hydralisks_upgrade_movement_phase_burrow_ambush",
+        "name": "Burrow Ambush",
+        "optional": true
+      },
+      "Ability:groovedspines": {
+        "sourceId": "pdf_hydralisks_upgrade_assault_phase_grooved_spines",
+        "name": "Grooved Spines",
+        "optional": true
+      },
+      "Assault Weapon:needlespines": {
+        "sourceId": "pdf_hydralisks_default_1",
+        "name": "NEEDLE SPINES",
+        "optional": false
+      },
+      "Combat Weapon:scythe": {
+        "sourceId": "pdf_hydralisks_default_3",
+        "name": "SCYTHE",
+        "optional": false
+      }
+    },
+    "baseSource": {
+      "file": "StarCraft-Zerg-P2P-Card-Sheets-A4_EN.pdf",
+      "url": "https://archon-studio.com/files/manuals/sc/StarCraft-Zerg-P2P-Card-Sheets-A4_EN.pdf",
+      "page": 1,
+      "sha256": "6810f46ee422ac5d8f3cc169c3eda3ccb9551f01ab71a1f7e4ac8c266817b364"
+    }
+  },
+  "Protoss/immortal": {
+    "name": "Immortal",
+    "sourceId": "pdf_immortal",
+    "base": {
+      "shape": "round",
+      "widthMm": 100,
+      "lengthMm": 100
+    },
+    "profiles": {
+      "Ability:shieldovercharge": {
+        "sourceId": "pdf_immortal_upgrade_any_phase_shield_overcharge",
+        "name": "Shield Overcharge",
+        "optional": true
+      },
+      "Assault Weapon:leftphasedisruptor": {
+        "sourceId": "pdf_immortal_upgrade_1",
+        "name": "LEFT PHASE DISRUPTOR",
+        "optional": true
+      },
+      "Assault Weapon:rightphasedisruptor": {
+        "sourceId": "pdf_immortal_upgrade_2",
+        "name": "RIGHT PHASE DISRUPTOR",
+        "optional": true
+      },
+      "Ability:furyunyielding": {
+        "sourceId": "pdf_immortal_upgrade_assault_phase_fury_unyielding",
+        "name": "Fury Unyielding",
+        "optional": true
+      },
+      "Ability:fortheancients": {
+        "sourceId": "pdf_immortal_upgrade_assault_phase_for_the_ancients",
+        "name": "For The Ancients",
+        "optional": true
+      },
+      "Assault Weapon:leftphotondisruptor": {
+        "sourceId": "pdf_immortal_default_1",
+        "name": "LEFT PHOTON DISRUPTOR",
+        "optional": false
+      },
+      "Assault Weapon:rightphotondisruptor": {
+        "sourceId": "pdf_immortal_default_2",
+        "name": "RIGHT PHOTON DISRUPTOR",
+        "optional": false
+      },
+      "Combat Weapon:stomp": {
+        "sourceId": "pdf_immortal_default_4",
+        "name": "STOMP",
+        "optional": false
+      }
+    },
+    "baseSource": {
+      "file": "StarCraft-Protoss-P2P-W2-Card-Sheets-A4_EN.pdf",
+      "url": "https://archon-studio.com/files/manuals/sc/StarCraft-Protoss-P2P-W2-Card-Sheets-A4_EN.pdf",
+      "page": 1,
+      "sha256": "09f6b940a7582719f1527574e22047529e3629d078e479e3baf06c552c99f7fe"
+    }
+  },
+  "Zerg/infested_goliath": {
+    "name": "Infested Goliath",
+    "sourceId": "pdf_infested_goliath",
+    "base": null,
+    "profiles": {}
+  },
+  "Zerg/infested_marine": {
+    "name": "Infested Marine",
+    "sourceId": "pdf_infested_marine",
+    "base": null,
+    "profiles": {}
+  },
+  "Zerg/infested_missile_turret": {
+    "name": "Infested Missile Turret",
+    "sourceId": "pdf_infested_missile_turret",
+    "base": null,
+    "profiles": {}
+  },
+  "Zerg/infested_siege_tank": {
+    "name": "Infested Siege Tank",
+    "sourceId": "pdf_infested_siege_tank",
+    "base": null,
+    "profiles": {}
+  },
+  "Zerg/infested_trooper": {
+    "name": "Infested Trooper",
+    "sourceId": "pdf_infested_trooper",
+    "base": null,
+    "profiles": {}
+  },
+  "Terran/jim_raynor": {
+    "name": "Jim Raynor",
+    "sourceId": "pdf_jim_raynor",
+    "base": {
+      "shape": "round",
+      "widthMm": 40,
+      "lengthMm": 40
+    },
+    "profiles": {
+      "Assault Weapon:c14rifle": {
+        "sourceId": "pdf_jim_raynor_upgrade_0",
+        "name": "C-14 RIFLE",
+        "optional": true
+      },
+      "Assault Weapon:commandorifle": {
+        "sourceId": "pdf_jim_raynor_default_2",
+        "name": "COMMANDO RIFLE",
+        "optional": false
+      },
+      "Assault Weapon:justicerevolver": {
+        "sourceId": "pdf_jim_raynor_default_3",
+        "name": "\u201cJUSTICE\u201d REVOLVER",
+        "optional": false
+      },
+      "Combat Weapon:bayonet": {
+        "sourceId": "pdf_jim_raynor_default_4",
+        "name": "BAYONET",
+        "optional": false
+      }
+    },
+    "baseSource": {
+      "file": "StarCraft-Terran-P2P-Card-Sheets-A4_EN.pdf",
+      "url": "https://archon-studio.com/files/manuals/sc/StarCraft-Terran-P2P-Card-Sheets-A4_EN.pdf",
+      "page": 4,
+      "sha256": "afa3f229db61444d0673dea35e31772530a4c39dadaa0e281ba1bae0d271109c"
+    }
+  },
+  "Zerg/kerrigan": {
+    "name": "Kerrigan",
+    "sourceId": "pdf_kerrigan",
+    "base": {
+      "shape": "round",
+      "widthMm": 40,
+      "lengthMm": 40
+    },
+    "profiles": {
+      "Assault Weapon:energyblast": {
+        "sourceId": "pdf_kerrigan_default_2",
+        "name": "ENERGY BLAST",
+        "optional": false
+      },
+      "Combat Weapon:blades": {
+        "sourceId": "pdf_kerrigan_default_4",
+        "name": "BLADES",
+        "optional": false
+      }
+    },
+    "baseSource": {
+      "file": "StarCraft-Zerg-P2P-Card-Sheets-A4_EN.pdf",
+      "url": "https://archon-studio.com/files/manuals/sc/StarCraft-Zerg-P2P-Card-Sheets-A4_EN.pdf",
+      "page": 2,
+      "sha256": "6810f46ee422ac5d8f3cc169c3eda3ccb9551f01ab71a1f7e4ac8c266817b364"
+    }
+  },
+  "Zerg/kerrigan_swarm_raptor__zergling_": {
+    "name": "Kerrigan Swarm Raptors (Zergling)",
+    "sourceId": "pdf_kerrigan_swarm_raptors_zergling",
+    "base": {
+      "shape": "round",
+      "widthMm": 32,
+      "lengthMm": 32
+    },
+    "profiles": {
+      "Combat Weapon:claws": {
+        "sourceId": "pdf_kerrigan_swarm_raptors_zergling_default_2",
+        "name": "CLAWS",
+        "optional": false
+      }
+    },
+    "baseSource": {
+      "file": "StarCraft-Zerg-P2P-Card-Sheets-A4_EN.pdf",
+      "url": "https://archon-studio.com/files/manuals/sc/StarCraft-Zerg-P2P-Card-Sheets-A4_EN.pdf",
+      "page": 4,
+      "sha256": "6810f46ee422ac5d8f3cc169c3eda3ccb9551f01ab71a1f7e4ac8c266817b364"
+    }
+  },
+  "Terran/marauder": {
+    "name": "Marauders",
+    "sourceId": "pdf_marauders",
+    "base": {
+      "shape": "round",
+      "widthMm": 50,
+      "lengthMm": 50
+    },
+    "profiles": {
+      "Ability:veteranoftarsonis": {
+        "sourceId": "pdf_marauders_upgrade_any_phase_veteran_of_tarsonis",
+        "name": "Veteran Of Tarsonis",
+        "optional": true
+      },
+      "Ability:kineticfoam": {
+        "sourceId": "pdf_marauders_upgrade_any_phase_kinetic_foam",
+        "name": "Kinetic Foam",
+        "optional": true
+      },
+      "Ability:lasertargetingsystems": {
+        "sourceId": "pdf_marauders_upgrade_assault_phase_laser_targeting_systems",
+        "name": "Laser Targeting Systems",
+        "optional": true
+      },
+      "Assault Weapon:quadk12": {
+        "sourceId": "pdf_marauders_default_1",
+        "name": "QUAD K12",
+        "optional": false
+      },
+      "Combat Weapon:strike": {
+        "sourceId": "pdf_marauders_default_3",
+        "name": "STRIKE",
+        "optional": false
+      }
+    },
+    "baseSource": {
+      "file": "StarCraft-Terran-P2P-Card-Sheets-A4_EN.pdf",
+      "url": "https://archon-studio.com/files/manuals/sc/StarCraft-Terran-P2P-Card-Sheets-A4_EN.pdf",
+      "page": 2,
+      "sha256": "afa3f229db61444d0673dea35e31772530a4c39dadaa0e281ba1bae0d271109c"
+    }
+  },
+  "Terran/marine": {
+    "name": "Marines",
+    "sourceId": "pdf_marines",
+    "base": {
+      "shape": "round",
+      "widthMm": 32,
+      "lengthMm": 32
+    },
+    "profiles": {
+      "Ability:combatshield": {
+        "sourceId": "pdf_marines_upgrade_movement_phase_combat_shield",
+        "name": "Combat Shield",
+        "optional": true
+      },
+      "Assault Weapon:agg12": {
+        "sourceId": "pdf_marines_upgrade_1",
+        "name": "AGG-12",
+        "optional": true
+      },
+      "Assault Weapon:rocketlauncher": {
+        "sourceId": "pdf_marines_upgrade_2",
+        "name": "ROCKET LAUNCHER",
+        "optional": true
+      },
+      "Ability:slugthrower": {
+        "sourceId": "pdf_marines_upgrade_assault_phase_slugthrower",
+        "name": "Slugthrower",
+        "optional": true
+      },
+      "Ability:grenadesfrag": {
+        "sourceId": "pdf_marines_upgrade_assault_phase_grenades_frag",
+        "name": "Grenades - Frag",
+        "optional": true
+      },
+      "Combat Weapon:bayonet": {
+        "sourceId": "pdf_marines_upgrade_4",
+        "name": "BAYONET",
+        "optional": true
+      },
+      "Assault Weapon:c14rifle": {
+        "sourceId": "pdf_marines_default_1",
+        "name": "C-14 RIFLE",
+        "optional": false
+      },
+      "Combat Weapon:strike": {
+        "sourceId": "pdf_marines_default_2",
+        "name": "STRIKE",
+        "optional": false
+      }
+    },
+    "baseSource": {
+      "file": "StarCraft-Terran-P2P-Card-Sheets-A4_EN.pdf",
+      "url": "https://archon-studio.com/files/manuals/sc/StarCraft-Terran-P2P-Card-Sheets-A4_EN.pdf",
+      "page": 1,
+      "sha256": "afa3f229db61444d0673dea35e31772530a4c39dadaa0e281ba1bae0d271109c"
+    }
+  },
+  "Terran/medic": {
+    "name": "Medics",
+    "sourceId": "pdf_medics",
+    "base": {
+      "shape": "round",
+      "widthMm": 32,
+      "lengthMm": 32
+    },
+    "profiles": {
+      "Ability:advancedmedicfacilities": {
+        "sourceId": "pdf_medics_upgrade_any_phase_advanced_medic_facilities",
+        "name": "Advanced Medic Facilities",
+        "optional": true
+      },
+      "Ability:a13flashgrenadelauncher": {
+        "sourceId": "pdf_medics_upgrade_any_phase_a_13_flash_grenade_launcher",
+        "name": "A-13 Flash Grenade Launcher",
+        "optional": true
+      },
+      "Ability:stabilizermedpacks": {
+        "sourceId": "pdf_medics_upgrade_any_phase_stabilizer_medpacks",
+        "name": "Stabilizer Medpacks",
+        "optional": true
+      },
+      "Combat Weapon:strike": {
+        "sourceId": "pdf_medics_default_2",
+        "name": "STRIKE",
+        "optional": false
+      }
+    },
+    "baseSource": {
+      "file": "StarCraft-Terran-P2P-Card-Sheets-A4_EN.pdf",
+      "url": "https://archon-studio.com/files/manuals/sc/StarCraft-Terran-P2P-Card-Sheets-A4_EN.pdf",
+      "page": 3,
+      "sha256": "afa3f229db61444d0673dea35e31772530a4c39dadaa0e281ba1bae0d271109c"
+    }
+  },
+  "Protoss/nerazim_watchers__adept_": {
+    "name": "Nerazim Watchers (Adept)",
+    "sourceId": "pdf_nerazim_watchers_adept",
+    "base": {
+      "shape": "round",
+      "widthMm": 40,
+      "lengthMm": 40
+    },
+    "profiles": {
+      "Assault Weapon:glaivecannon": {
+        "sourceId": "pdf_nerazim_watchers_adept_default_2",
+        "name": "GLAIVE CANNON",
+        "optional": false
+      },
+      "Combat Weapon:strike": {
+        "sourceId": "pdf_nerazim_watchers_adept_default_3",
+        "name": "STRIKE",
+        "optional": false
+      }
+    },
+    "baseSource": {
+      "file": "StarCraft-Protoss-P2P-W2-Card-Sheets-A4_EN.pdf",
+      "url": "https://archon-studio.com/files/manuals/sc/StarCraft-Protoss-P2P-W2-Card-Sheets-A4_EN.pdf",
+      "page": 3,
+      "sha256": "09f6b940a7582719f1527574e22047529e3629d078e479e3baf06c552c99f7fe"
+    }
+  },
+  "Terran/nova_assault_mode": {
+    "name": "Nova Assault Mode",
+    "sourceId": "pdf_nova_assault_mode",
+    "base": {
+      "shape": "round",
+      "widthMm": 40,
+      "lengthMm": 40
+    },
+    "profiles": {
+      "Assault Weapon:hellfireshotgun": {
+        "sourceId": "pdf_nova_assault_mode_default_2",
+        "name": "HELLFIRE SHOTGUN",
+        "optional": false
+      },
+      "Combat Weapon:monomolecularblade": {
+        "sourceId": "pdf_nova_assault_mode_default_4",
+        "name": "MONOMOLECULAR BLADE",
+        "optional": false
+      }
+    },
+    "baseSource": {
+      "file": "StarCraft-Terran-P2P-W3-Card-Sheets-A4_EN.pdf",
+      "url": "https://archon-studio.com/files/manuals/sc/StarCraft-Terran-P2P-W3-Card-Sheets-A4_EN.pdf",
+      "page": 2,
+      "sha256": "9632f91cdf1b152aca4d7b27aaf54655fe48e10138c73338393b8a62ce1cd154"
+    }
+  },
+  "Terran/nova_stealth_mode": {
+    "name": "Nova Stealth Mode",
+    "sourceId": "pdf_nova_stealth_mode",
+    "base": {
+      "shape": "round",
+      "widthMm": 40,
+      "lengthMm": 40
+    },
+    "profiles": {
+      "Assault Weapon:c20acanisterrifle": {
+        "sourceId": "pdf_nova_stealth_mode_default_2",
+        "name": "C-20A CANISTER RIFLE",
+        "optional": false
+      },
+      "Combat Weapon:combatknife": {
+        "sourceId": "pdf_nova_stealth_mode_default_4",
+        "name": "COMBAT KNIFE",
+        "optional": false
+      }
+    },
+    "baseSource": {
+      "file": "StarCraft-Terran-P2P-W3-Card-Sheets-A4_EN.pdf",
+      "url": "https://archon-studio.com/files/manuals/sc/StarCraft-Terran-P2P-W3-Card-Sheets-A4_EN.pdf",
+      "page": 1,
+      "sha256": "9632f91cdf1b152aca4d7b27aaf54655fe48e10138c73338393b8a62ce1cd154"
+    }
+  },
+  "Zerg/omega_worm": {
+    "name": "Omega Worm",
+    "sourceId": "pdf_omega_worm",
+    "base": {
+      "shape": "round",
+      "widthMm": 80,
+      "lengthMm": 80
+    },
+    "profiles": {},
+    "baseSource": {
+      "file": "StarCraft-Zerg-P2P-Card-Sheets-A4_EN.pdf",
+      "url": "https://archon-studio.com/files/manuals/sc/StarCraft-Zerg-P2P-Card-Sheets-A4_EN.pdf",
+      "page": 3,
+      "sha256": "6810f46ee422ac5d8f3cc169c3eda3ccb9551f01ab71a1f7e4ac8c266817b364"
+    }
+  },
+  "Protoss/phasing_scarab": {
+    "name": "Phasing Scarab",
+    "sourceId": "pdf_phasing_scarab",
+    "base": null,
+    "profiles": {}
+  },
+  "Terran/point_defense_drone": {
+    "name": "Point Defense Drone",
+    "sourceId": "pdf_point_defense_drone",
+    "base": {
+      "shape": "round",
+      "widthMm": 32,
+      "lengthMm": 32
+    },
+    "profiles": {},
+    "baseSource": {
+      "file": "StarCraft-Terran-P2P-Card-Sheets-A4_EN.pdf",
+      "url": "https://archon-studio.com/files/manuals/sc/StarCraft-Terran-P2P-Card-Sheets-A4_EN.pdf",
+      "page": 5,
+      "sha256": "afa3f229db61444d0673dea35e31772530a4c39dadaa0e281ba1bae0d271109c"
+    }
+  },
+  "Protoss/praetor_guard__zealot_": {
+    "name": "Praetor Guards",
+    "sourceId": "pdf_praetor_guards",
+    "base": {
+      "shape": "round",
+      "widthMm": 40,
+      "lengthMm": 40
+    },
+    "profiles": {
+      "Combat Weapon:psiblades": {
+        "sourceId": "pdf_praetor_guards_default_3",
+        "name": "PSI BLADES",
+        "optional": false
+      }
+    },
+    "baseSource": {
+      "file": "StarCraft-Protoss-P2P-Card-Sheets-A4_EN.pdf",
+      "url": "https://archon-studio.com/files/manuals/sc/StarCraft-Protoss-P2P-Card-Sheets-A4_EN.pdf",
+      "page": 3,
+      "sha256": "4e8547b2df8d545df3d0ebb7d7821521a888dc0437d6f4dde21d82145337a212"
+    }
+  },
+  "Protoss/pylon": {
+    "name": "Pylon",
+    "sourceId": "pdf_pylon",
+    "base": {
+      "shape": "round",
+      "widthMm": 80,
+      "lengthMm": 80
+    },
+    "profiles": {},
+    "baseSource": {
+      "file": "StarCraft-Protoss-P2P-Card-Sheets-A4_EN.pdf",
+      "url": "https://archon-studio.com/files/manuals/sc/StarCraft-Protoss-P2P-Card-Sheets-A4_EN.pdf",
+      "page": 4,
+      "sha256": "4e8547b2df8d545df3d0ebb7d7821521a888dc0437d6f4dde21d82145337a212"
+    }
+  },
+  "Zerg/queen": {
+    "name": "Queen",
+    "sourceId": "pdf_queen",
+    "base": {
+      "shape": "round",
+      "widthMm": 80,
+      "lengthMm": 80
+    },
+    "profiles": {
+      "Ability:creepspeed": {
+        "sourceId": "pdf_queen_upgrade_any_phase_creep_speed",
+        "name": "Creep Speed",
+        "optional": true
+      },
+      "Ability:domineeringpresence": {
+        "sourceId": "pdf_queen_upgrade_movement_phase_domineering_presence",
+        "name": "Domineering Presence",
+        "optional": true
+      },
+      "Assault Weapon:talons": {
+        "sourceId": "pdf_queen_default_1",
+        "name": "TALONS",
+        "optional": false
+      },
+      "Assault Weapon:acidspines": {
+        "sourceId": "pdf_queen_default_2",
+        "name": "ACID SPINES",
+        "optional": false
+      },
+      "Combat Weapon:talons": {
+        "sourceId": "pdf_queen_default_4",
+        "name": "TALONS",
+        "optional": false
+      }
+    },
+    "baseSource": {
+      "file": "StarCraft-Zerg-P2P-Card-Sheets-A4_EN.pdf",
+      "url": "https://archon-studio.com/files/manuals/sc/StarCraft-Zerg-P2P-Card-Sheets-A4_EN.pdf",
+      "page": 5,
+      "sha256": "6810f46ee422ac5d8f3cc169c3eda3ccb9551f01ab71a1f7e4ac8c266817b364"
+    }
+  },
+  "Zerg/raptor__zergling_": {
+    "name": "Raptors (Zergling)",
+    "sourceId": "pdf_raptors_zergling",
+    "base": {
+      "shape": "round",
+      "widthMm": 32,
+      "lengthMm": 32
+    },
+    "profiles": {
+      "Ability:burrowambush": {
+        "sourceId": "pdf_raptors_zergling_upgrade_movement_phase_burrow_ambush",
+        "name": "Burrow Ambush",
+        "optional": true
+      },
+      "Combat Weapon:shreddingclaws": {
+        "sourceId": "pdf_raptors_zergling_upgrade_1",
+        "name": "SHREDDING CLAWS",
+        "optional": true
+      },
+      "Ability:adrenalglands": {
+        "sourceId": "pdf_raptors_zergling_upgrade_combat_phase_adrenal_glands",
+        "name": "Adrenal Glands",
+        "optional": true
+      },
+      "Combat Weapon:claws": {
+        "sourceId": "pdf_raptors_zergling_default_2",
+        "name": "CLAWS",
+        "optional": false
+      }
+    },
+    "baseSource": {
+      "file": "StarCraft-Zerg-P2P-Card-Sheets-A4_EN.pdf",
+      "url": "https://archon-studio.com/files/manuals/sc/StarCraft-Zerg-P2P-Card-Sheets-A4_EN.pdf",
+      "page": 11,
+      "sha256": "6810f46ee422ac5d8f3cc169c3eda3ccb9551f01ab71a1f7e4ac8c266817b364"
+    }
+  },
+  "Zerg/ravager": {
+    "name": "Ravagers",
+    "sourceId": "pdf_ravagers",
+    "base": {
+      "shape": "round",
+      "widthMm": 80,
+      "lengthMm": 80
+    },
+    "profiles": {
+      "Ability:bloatedbileducts": {
+        "sourceId": "pdf_ravagers_upgrade_any_phase_bloated_bile_ducts",
+        "name": "Bloated Bile Ducts",
+        "optional": true
+      },
+      "Ability:burrowambush": {
+        "sourceId": "pdf_ravagers_upgrade_movement_phase_burrow_ambush",
+        "name": "Burrow Ambush",
+        "optional": true
+      },
+      "Ability:potentbile": {
+        "sourceId": "pdf_ravagers_upgrade_assault_phase_potent_bile",
+        "name": "Potent Bile",
+        "optional": true
+      },
+      "Assault Weapon:plasmadischarge": {
+        "sourceId": "pdf_ravagers_default_2",
+        "name": "PLASMA DISCHARGE",
+        "optional": false
+      },
+      "Combat Weapon:claws": {
+        "sourceId": "pdf_ravagers_default_4",
+        "name": "CLAWS",
+        "optional": false
+      }
+    },
+    "baseSource": {
+      "file": "StarCraft-Zerg-P2P-W2-Card-Sheets-A4_EN.pdf",
+      "url": "https://archon-studio.com/files/manuals/sc/StarCraft-Zerg-P2P-W2-Card-Sheets-A4_EN.pdf",
+      "page": 1,
+      "sha256": "b62e9bba04cb54df2a77c36378fc8113f10acf528ae2f8b1ad884a81c0f75045"
+    }
+  },
+  "Terran/raven": {
+    "name": "Raven",
+    "sourceId": "pdf_raven",
+    "base": {
+      "shape": "round",
+      "widthMm": 100,
+      "lengthMm": 100
+    },
+    "profiles": {
+      "Ability:corvidreactor": {
+        "sourceId": "pdf_raven_upgrade_any_phase_corvid_reactor",
+        "name": "Corvid Reactor",
+        "optional": true
+      },
+      "Ability:internaltechmodule": {
+        "sourceId": "pdf_raven_upgrade_movement_phase_internal_tech_module",
+        "name": "Internal Tech Module",
+        "optional": true
+      },
+      "Ability:seekermissile": {
+        "sourceId": "pdf_raven_upgrade_movement_phase_seeker_missile",
+        "name": "Seeker Missile",
+        "optional": true
+      },
+      "Ability:explosiveshrapnelshells": {
+        "sourceId": "pdf_raven_upgrade_assault_phase_explosive_shrapnel_shells",
+        "name": "Explosive Shrapnel Shells",
+        "optional": true
+      },
+      "Assault Weapon:railguns": {
+        "sourceId": "pdf_raven_default_2",
+        "name": "RAILGUNS",
+        "optional": false
+      }
+    },
+    "baseSource": {
+      "file": "StarCraft-Terran-P2P-W3-Card-Sheets-A4_EN.pdf",
+      "url": "https://archon-studio.com/files/manuals/sc/StarCraft-Terran-P2P-W3-Card-Sheets-A4_EN.pdf",
+      "page": 6,
+      "sha256": "9632f91cdf1b152aca4d7b27aaf54655fe48e10138c73338393b8a62ce1cd154"
+    }
+  },
+  "Terran/raynor_s_raider__marine_": {
+    "name": "Raynor's Raiders",
+    "sourceId": "pdf_raynor_s_raiders",
+    "base": {
+      "shape": "round",
+      "widthMm": 32,
+      "lengthMm": 32
+    },
+    "profiles": {
+      "Assault Weapon:c14rifle": {
+        "sourceId": "pdf_raynor_s_raiders_default_1",
+        "name": "C-14 RIFLE",
+        "optional": false
+      },
+      "Combat Weapon:bayonet": {
+        "sourceId": "pdf_raynor_s_raiders_default_3",
+        "name": "BAYONET",
+        "optional": false
+      }
+    },
+    "baseSource": {
+      "file": "StarCraft-Terran-P2P-Card-Sheets-A4_EN.pdf",
+      "url": "https://archon-studio.com/files/manuals/sc/StarCraft-Terran-P2P-Card-Sheets-A4_EN.pdf",
+      "page": 6,
+      "sha256": "afa3f229db61444d0673dea35e31772530a4c39dadaa0e281ba1bae0d271109c"
+    }
+  },
+  "Protoss/reaver": {
+    "name": "Reaver",
+    "sourceId": "pdf_reaver",
+    "base": null,
+    "profiles": {}
+  },
+  "Zerg/roach": {
+    "name": "Roaches",
+    "sourceId": "pdf_roaches",
+    "base": {
+      "shape": "round",
+      "widthMm": 50,
+      "lengthMm": 50
+    },
+    "profiles": {
+      "Ability:tunnelingclaws": {
+        "sourceId": "pdf_roaches_upgrade_any_phase_tunneling_claws",
+        "name": "Tunneling Claws",
+        "optional": true
+      },
+      "Ability:glialreconstitution": {
+        "sourceId": "pdf_roaches_upgrade_movement_phase_glial_reconstitution",
+        "name": "Glial Reconstitution",
+        "optional": true
+      },
+      "Ability:burrowambush": {
+        "sourceId": "pdf_roaches_upgrade_movement_phase_burrow_ambush",
+        "name": "Burrow Ambush",
+        "optional": true
+      },
+      "Ability:hydriodicbile": {
+        "sourceId": "pdf_roaches_upgrade_assault_phase_hydriodic_bile",
+        "name": "Hydriodic Bile",
+        "optional": true
+      },
+      "Assault Weapon:acidsaliva": {
+        "sourceId": "pdf_roaches_default_1",
+        "name": "ACID SALIVA",
+        "optional": false
+      },
+      "Combat Weapon:claws": {
+        "sourceId": "pdf_roaches_default_3",
+        "name": "CLAWS",
+        "optional": false
+      }
+    },
+    "baseSource": {
+      "file": "StarCraft-Zerg-P2P-Card-Sheets-A4_EN.pdf",
+      "url": "https://archon-studio.com/files/manuals/sc/StarCraft-Zerg-P2P-Card-Sheets-A4_EN.pdf",
+      "page": 6,
+      "sha256": "6810f46ee422ac5d8f3cc169c3eda3ccb9551f01ab71a1f7e4ac8c266817b364"
+    }
+  },
+  "Zerg/roachling": {
+    "name": "Roachling",
+    "sourceId": "pdf_roachling",
+    "base": {
+      "shape": "round",
+      "widthMm": 32,
+      "lengthMm": 32
+    },
+    "profiles": {
+      "Combat Weapon:claws": {
+        "sourceId": "pdf_roachling_default_1",
+        "name": "CLAWS",
+        "optional": false
+      }
+    },
+    "baseSource": {
+      "file": "StarCraft-Zerg-P2P-Card-Sheets-A4_EN.pdf",
+      "url": "https://archon-studio.com/files/manuals/sc/StarCraft-Zerg-P2P-Card-Sheets-A4_EN.pdf",
+      "page": 8,
+      "sha256": "6810f46ee422ac5d8f3cc169c3eda3ccb9551f01ab71a1f7e4ac8c266817b364"
+    }
+  },
+  "Terran/sabotage_drone": {
+    "name": "Sabotage Drone",
+    "sourceId": "pdf_sabotage_drone",
+    "base": {
+      "shape": "round",
+      "widthMm": 40,
+      "lengthMm": 40
+    },
+    "profiles": {},
+    "baseSource": {
+      "file": "StarCraft-Terran-P2P-W3-Card-Sheets-A4_EN.pdf",
+      "url": "https://archon-studio.com/files/manuals/sc/StarCraft-Terran-P2P-W3-Card-Sheets-A4_EN.pdf",
+      "page": 4,
+      "sha256": "9632f91cdf1b152aca4d7b27aaf54655fe48e10138c73338393b8a62ce1cd154"
+    }
+  },
+  "Protoss/scarab": {
+    "name": "Scarab",
+    "sourceId": "pdf_scarab",
+    "base": null,
+    "profiles": {}
+  },
+  "Protoss/sentry": {
+    "name": "Sentries",
+    "sourceId": "pdf_sentries",
+    "base": {
+      "shape": "round",
+      "widthMm": 50,
+      "lengthMm": 50
+    },
+    "profiles": {
+      "Ability:solidfieldprojectors": {
+        "sourceId": "pdf_sentries_upgrade_movement_phase_solid_field_projectors",
+        "name": "Solid-Field Projectors",
+        "optional": true
+      },
+      "Ability:hallucination": {
+        "sourceId": "pdf_sentries_upgrade_assault_phase_hallucination",
+        "name": "Hallucination",
+        "optional": true
+      },
+      "Assault Weapon:disruptionbeam": {
+        "sourceId": "pdf_sentries_default_2",
+        "name": "DISRUPTION BEAM",
+        "optional": false
+      },
+      "Combat Weapon:beam": {
+        "sourceId": "pdf_sentries_default_3",
+        "name": "BEAM",
+        "optional": false
+      }
+    },
+    "baseSource": {
+      "file": "StarCraft-Protoss-P2P-Card-Sheets-A4_EN.pdf",
+      "url": "https://archon-studio.com/files/manuals/sc/StarCraft-Protoss-P2P-Card-Sheets-A4_EN.pdf",
+      "page": 5,
+      "sha256": "4e8547b2df8d545df3d0ebb7d7821521a888dc0437d6f4dde21d82145337a212"
+    }
+  },
+  "Terran/siege_tank": {
+    "name": "Siege Tank",
+    "sourceId": "pdf_siege_tank",
+    "base": {
+      "shape": "round",
+      "widthMm": 150,
+      "lengthMm": 150
+    },
+    "profiles": {
+      "Ability:modetransformation": {
+        "sourceId": "pdf_siege_tank_upgrade_movement_phase_mode_transformation",
+        "name": "Mode Transformation",
+        "optional": true
+      },
+      "Ability:coordinatedstrike": {
+        "sourceId": "pdf_siege_tank_upgrade_movement_phase_coordinated_strike",
+        "name": "Coordinated Strike",
+        "optional": true
+      },
+      "Ability:shapedblast": {
+        "sourceId": "pdf_siege_tank_upgrade_assault_phase_shaped_blast",
+        "name": "Shaped Blast",
+        "optional": true
+      },
+      "Ability:smartshells": {
+        "sourceId": "pdf_siege_tank_upgrade_assault_phase_smart_shells",
+        "name": "Smart Shells",
+        "optional": true
+      },
+      "Assault Weapon:twincannon": {
+        "sourceId": "pdf_siege_tank_default_1",
+        "name": "TWIN CANNON",
+        "optional": false
+      },
+      "Assault Weapon:shockcannon": {
+        "sourceId": "pdf_siege_tank_default_2",
+        "name": "SHOCK CANNON",
+        "optional": false
+      },
+      "Combat Weapon:rollingover": {
+        "sourceId": "pdf_siege_tank_default_4",
+        "name": "ROLLING OVER",
+        "optional": false
+      }
+    },
+    "baseSource": {
+      "file": "StarCraft-Terran-P2P-W2-Card-Sheets-A4_EN.pdf",
+      "url": "https://archon-studio.com/files/manuals/sc/StarCraft-Terran-P2P-W2-Card-Sheets-A4_EN.pdf",
+      "page": 1,
+      "sha256": "63126ddbe922457f21a903ce186a6257aa5f20a932ba35f484f759b2ac62608e"
+    }
+  },
+  "Protoss/slayer__stalker_": {
+    "name": "Slayer (Stalker)",
+    "sourceId": "pdf_slayer_stalker",
+    "base": null,
+    "profiles": {}
+  },
+  "Protoss/solarite_scarab": {
+    "name": "Solarite Scarab",
+    "sourceId": "pdf_solarite_scarab",
+    "base": null,
+    "profiles": {}
+  },
+  "Terran/spec_ops_marauder__marauder_": {
+    "name": "Spec Ops Marauder (Marauder)",
+    "sourceId": "pdf_spec_ops_marauder_marauder",
+    "base": {
+      "shape": "round",
+      "widthMm": 50,
+      "lengthMm": 50
+    },
+    "profiles": {
+      "Assault Weapon:quadk12": {
+        "sourceId": "pdf_spec_ops_marauder_marauder_default_2",
+        "name": "QUAD K12",
+        "optional": false
+      },
+      "Combat Weapon:strike": {
+        "sourceId": "pdf_spec_ops_marauder_marauder_default_4",
+        "name": "STRIKE",
+        "optional": false
+      }
+    },
+    "baseSource": {
+      "file": "StarCraft-Terran-P2P-W3-Card-Sheets-A4_EN.pdf",
+      "url": "https://archon-studio.com/files/manuals/sc/StarCraft-Terran-P2P-W3-Card-Sheets-A4_EN.pdf",
+      "page": 5,
+      "sha256": "9632f91cdf1b152aca4d7b27aaf54655fe48e10138c73338393b8a62ce1cd154"
+    }
+  },
+  "Protoss/stalker": {
+    "name": "Stalker",
+    "sourceId": "pdf_stalker",
+    "base": {
+      "shape": "round",
+      "widthMm": 80,
+      "lengthMm": 80
+    },
+    "profiles": {
+      "Ability:pathofshadows": {
+        "sourceId": "pdf_stalker_upgrade_any_phase_path_of_shadows",
+        "name": "Path Of Shadows",
+        "optional": true
+      },
+      "Ability:furyofthenerazim": {
+        "sourceId": "pdf_stalker_upgrade_assault_phase_fury_of_the_nerazim",
+        "name": "Fury Of The Nerazim",
+        "optional": true
+      },
+      "Assault Weapon:particledisruptors": {
+        "sourceId": "pdf_stalker_default_2",
+        "name": "PARTICLE DISRUPTORS",
+        "optional": false
+      },
+      "Combat Weapon:stomp": {
+        "sourceId": "pdf_stalker_default_3",
+        "name": "STOMP",
+        "optional": false
+      }
+    },
+    "baseSource": {
+      "file": "StarCraft-Protoss-P2P-Card-Sheets-A4_EN.pdf",
+      "url": "https://archon-studio.com/files/manuals/sc/StarCraft-Protoss-P2P-Card-Sheets-A4_EN.pdf",
+      "page": 6,
+      "sha256": "4e8547b2df8d545df3d0ebb7d7821521a888dc0437d6f4dde21d82145337a212"
+    }
+  },
+  "Zerg/stukov": {
+    "name": "Stukov",
+    "sourceId": "pdf_stukov",
+    "base": null,
+    "profiles": {}
+  },
+  "Zerg/swarmling__zergling_": {
+    "name": "Swarmlings",
+    "sourceId": "pdf_swarmlings",
+    "base": {
+      "shape": "round",
+      "widthMm": 32,
+      "lengthMm": 32
+    },
+    "profiles": {
+      "Ability:burrowambush": {
+        "sourceId": "pdf_swarmlings_upgrade_movement_phase_burrow_ambush",
+        "name": "Burrow Ambush",
+        "optional": true
+      },
+      "Combat Weapon:claws": {
+        "sourceId": "pdf_swarmlings_default_3",
+        "name": "CLAWS",
+        "optional": false
+      }
+    },
+    "baseSource": {
+      "file": "StarCraft-Zerg-P2P-Card-Sheets-A4_EN.pdf",
+      "url": "https://archon-studio.com/files/manuals/sc/StarCraft-Zerg-P2P-Card-Sheets-A4_EN.pdf",
+      "page": 12,
+      "sha256": "6810f46ee422ac5d8f3cc169c3eda3ccb9551f01ab71a1f7e4ac8c266817b364"
+    }
+  },
+  "Protoss/tal_darim_pylon": {
+    "name": "Tal'darim Pylon",
+    "sourceId": "pdf_tal_darim_pylon",
+    "base": null,
+    "profiles": {}
+  },
+  "Protoss/tassadar": {
+    "name": "Tassadar",
+    "sourceId": "pdf_tassadar",
+    "base": {
+      "shape": "round",
+      "widthMm": 40,
+      "lengthMm": 40
+    },
+    "profiles": {
+      "Assault Weapon:resonancebeam": {
+        "sourceId": "pdf_tassadar_default_2",
+        "name": "RESONANCE BEAM",
+        "optional": false
+      },
+      "Combat Weapon:strike": {
+        "sourceId": "pdf_tassadar_default_4",
+        "name": "STRIKE",
+        "optional": false
+      }
+    },
+    "baseSource": {
+      "file": "StarCraft-Protoss-P2P-W3-Card-Sheets-A4_EN.pdf",
+      "url": "https://archon-studio.com/files/manuals/sc/StarCraft-Protoss-P2P-W3-Card-Sheets-A4_EN.pdf",
+      "page": 1,
+      "sha256": "c5ef1d1e2c953a8c5c376464dff46a51878d8e5ae0c3e8260684afbf1dd5f0aa"
+    }
+  },
+  "Protoss/twilight_templar__high_templar_": {
+    "name": "Twilight Templar (High Templar)",
+    "sourceId": "pdf_twilight_templar_high_templar",
+    "base": {
+      "shape": "round",
+      "widthMm": 40,
+      "lengthMm": 40
+    },
+    "profiles": {
+      "Assault Weapon:psiblast": {
+        "sourceId": "pdf_twilight_templar_high_templar_default_2",
+        "name": "PSI BLAST",
+        "optional": false
+      },
+      "Combat Weapon:strike": {
+        "sourceId": "pdf_twilight_templar_high_templar_default_3",
+        "name": "STRIKE",
+        "optional": false
+      }
+    },
+    "baseSource": {
+      "file": "StarCraft-Protoss-P2P-W3-Card-Sheets-A4_EN.pdf",
+      "url": "https://archon-studio.com/files/manuals/sc/StarCraft-Protoss-P2P-W3-Card-Sheets-A4_EN.pdf",
+      "page": 2,
+      "sha256": "c5ef1d1e2c953a8c5c376464dff46a51878d8e5ae0c3e8260684afbf1dd5f0aa"
+    }
+  },
+  "Zerg/vile__roach_": {
+    "name": "Viles (Roach)",
+    "sourceId": "pdf_viles_roach",
+    "base": {
+      "shape": "round",
+      "widthMm": 50,
+      "lengthMm": 50
+    },
+    "profiles": {
+      "Ability:tunnelingclaws": {
+        "sourceId": "pdf_viles_roach_upgrade_movement_phase_tunneling_claws",
+        "name": "Tunneling Claws",
+        "optional": true
+      },
+      "Ability:glialreconstitution": {
+        "sourceId": "pdf_viles_roach_upgrade_movement_phase_glial_reconstitution",
+        "name": "Glial Reconstitution",
+        "optional": true
+      },
+      "Ability:burrowambush": {
+        "sourceId": "pdf_viles_roach_upgrade_movement_phase_burrow_ambush",
+        "name": "Burrow Ambush",
+        "optional": true
+      },
+      "Ability:hydriodicbile": {
+        "sourceId": "pdf_viles_roach_upgrade_assault_phase_hydriodic_bile",
+        "name": "Hydriodic Bile",
+        "optional": true
+      },
+      "Assault Weapon:acidsaliva": {
+        "sourceId": "pdf_viles_roach_default_1",
+        "name": "ACID SALIVA",
+        "optional": false
+      },
+      "Combat Weapon:vileclaws": {
+        "sourceId": "pdf_viles_roach_default_3",
+        "name": "VILE CLAWS",
+        "optional": false
+      }
+    },
+    "baseSource": {
+      "file": "StarCraft-Zerg-P2P-Card-Sheets-A4_EN.pdf",
+      "url": "https://archon-studio.com/files/manuals/sc/StarCraft-Zerg-P2P-Card-Sheets-A4_EN.pdf",
+      "page": 9,
+      "sha256": "6810f46ee422ac5d8f3cc169c3eda3ccb9551f01ab71a1f7e4ac8c266817b364"
+    }
+  },
+  "Zerg/vileling__zergling_": {
+    "name": "Vileling (Zergling)",
+    "sourceId": "pdf_vileling_zergling",
+    "base": {
+      "shape": "round",
+      "widthMm": 32,
+      "lengthMm": 32
+    },
+    "profiles": {
+      "Combat Weapon:claws": {
+        "sourceId": "pdf_vileling_zergling_default_3",
+        "name": "CLAWS",
+        "optional": false
+      }
+    },
+    "baseSource": {
+      "file": "StarCraft-Zerg-P2P-W3-Card-Sheets-A4_EN.pdf",
+      "url": "https://archon-studio.com/files/manuals/sc/StarCraft-Zerg-P2P-W3-Card-Sheets-A4_EN.pdf",
+      "page": 3,
+      "sha256": "ebc05eeea6456538b57e3b417bb1defc87159bd560fed81e0342e6119e85d6eb"
+    }
+  },
+  "Zerg/zagara": {
+    "name": "Zagara",
+    "sourceId": "pdf_zagara",
+    "base": {
+      "shape": "round",
+      "widthMm": 100,
+      "lengthMm": 100
+    },
+    "profiles": {
+      "Ability:broodmother": {
+        "sourceId": "pdf_zagara_upgrade_movement_phase_broodmother",
+        "name": "Broodmother",
+        "optional": true
+      },
+      "Assault Weapon:zagarastalons": {
+        "sourceId": "pdf_zagara_default_2",
+        "name": "ZAGARA'S TALONS",
+        "optional": false
+      },
+      "Assault Weapon:zagarasacidspines": {
+        "sourceId": "pdf_zagara_default_3",
+        "name": "ZAGARA'S ACID SPINES",
+        "optional": false
+      },
+      "Combat Weapon:talons": {
+        "sourceId": "pdf_zagara_default_5",
+        "name": "TALONS",
+        "optional": false
+      }
+    },
+    "baseSource": {
+      "file": "StarCraft-Zerg-P2P-W3-Card-Sheets-A4_EN.pdf",
+      "url": "https://archon-studio.com/files/manuals/sc/StarCraft-Zerg-P2P-W3-Card-Sheets-A4_EN.pdf",
+      "page": 1,
+      "sha256": "ebc05eeea6456538b57e3b417bb1defc87159bd560fed81e0342e6119e85d6eb"
+    }
+  },
+  "Protoss/zealot": {
+    "name": "Zealots",
+    "sourceId": "pdf_zealots",
+    "base": {
+      "shape": "round",
+      "widthMm": 40,
+      "lengthMm": 40
+    },
+    "profiles": {
+      "Ability:mylifeforaiur": {
+        "sourceId": "pdf_zealots_upgrade_any_phase_my_life_for_aiur",
+        "name": "My Life For Aiur",
+        "optional": true
+      },
+      "Ability:legenhancements": {
+        "sourceId": "pdf_zealots_upgrade_movement_phase_leg_enhancements",
+        "name": "Leg Enhancements",
+        "optional": true
+      },
+      "Ability:zealousround": {
+        "sourceId": "pdf_zealots_upgrade_assault_phase_zealous_round",
+        "name": "Zealous Round",
+        "optional": true
+      },
+      "Ability:westandasone": {
+        "sourceId": "pdf_zealots_upgrade_combat_phase_we_stand_as_one",
+        "name": "We Stand As One",
+        "optional": true
+      },
+      "Combat Weapon:psiblades": {
+        "sourceId": "pdf_zealots_default_1",
+        "name": "PSI BLADES",
+        "optional": false
+      }
+    },
+    "baseSource": {
+      "file": "StarCraft-Protoss-P2P-Card-Sheets-A4_EN.pdf",
+      "url": "https://archon-studio.com/files/manuals/sc/StarCraft-Protoss-P2P-Card-Sheets-A4_EN.pdf",
+      "page": 7,
+      "sha256": "4e8547b2df8d545df3d0ebb7d7821521a888dc0437d6f4dde21d82145337a212"
+    }
+  },
+  "Protoss/zeratul": {
+    "name": "Zeratul",
+    "sourceId": "pdf_zeratul",
+    "base": {
+      "shape": "round",
+      "widthMm": 40,
+      "lengthMm": 40
+    },
+    "profiles": {
+      "Combat Weapon:masterwarpblade": {
+        "sourceId": "pdf_zeratul_default_3",
+        "name": "MASTER WARP BLADE",
+        "optional": false
+      }
+    },
+    "baseSource": {
+      "file": "StarCraft-Protoss-P2P-W2-Card-Sheets-A4_EN.pdf",
+      "url": "https://archon-studio.com/files/manuals/sc/StarCraft-Protoss-P2P-W2-Card-Sheets-A4_EN.pdf",
+      "page": 2,
+      "sha256": "09f6b940a7582719f1527574e22047529e3629d078e479e3baf06c552c99f7fe"
+    }
+  },
+  "Zerg/zergling": {
+    "name": "Zerglings",
+    "sourceId": "pdf_zerglings",
+    "base": {
+      "shape": "round",
+      "widthMm": 32,
+      "lengthMm": 32
+    },
+    "profiles": {
+      "Ability:burrowambush": {
+        "sourceId": "pdf_zerglings_upgrade_movement_phase_burrow_ambush",
+        "name": "Burrow Ambush",
+        "optional": true
+      },
+      "Combat Weapon:shreddingclaws": {
+        "sourceId": "pdf_zerglings_upgrade_1",
+        "name": "SHREDDING CLAWS",
+        "optional": true
+      },
+      "Ability:adrenalglands": {
+        "sourceId": "pdf_zerglings_upgrade_combat_phase_adrenal_glands",
+        "name": "Adrenal Glands",
+        "optional": true
+      },
+      "Combat Weapon:claws": {
+        "sourceId": "pdf_zerglings_default_2",
+        "name": "CLAWS",
+        "optional": false
+      }
+    },
+    "baseSource": {
+      "file": "StarCraft-Zerg-P2P-Card-Sheets-A4_EN.pdf",
+      "url": "https://archon-studio.com/files/manuals/sc/StarCraft-Zerg-P2P-Card-Sheets-A4_EN.pdf",
+      "page": 10,
+      "sha256": "6810f46ee422ac5d8f3cc169c3eda3ccb9551f01ab71a1f7e4ac8c266817b364"
+    }
+  }
+}

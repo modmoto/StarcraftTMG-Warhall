@@ -17,15 +17,25 @@ function rewrite(value, aliases) {
   );
 }
 
-export function consolidateRules(data, owners) {
+export function consolidateRules(data, owners, preferredIds = new Set()) {
   const unique = new Map();
   const aliases = new Map();
+  const canonical = new Map();
+  for (const [filename, records] of Object.entries(data)) {
+    if (!/(?:^|\/)rules\.json$/.test(filename)) continue;
+    for (const rule of records) {
+      if (!rule.Name || rule.Type !== 'Rule') continue;
+      const previous = canonical.get(key(rule));
+      if (!previous || (!preferredIds.has(previous.Id) && preferredIds.has(rule.Id)))
+        canonical.set(key(rule), rule);
+    }
+  }
   for (const [filename, records] of Object.entries(data)) {
     if (!/(?:^|\/)rules\.json$/.test(filename)) continue;
     data[filename] = records.filter(rule => {
       if (!rule.Name || rule.Type !== 'Rule') return true;
-      const previous = unique.get(key(rule));
-      if (!previous) {
+      const previous = canonical.get(key(rule));
+      if (previous === rule) {
         unique.set(key(rule), rule);
         return true;
       }

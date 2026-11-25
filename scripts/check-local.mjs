@@ -4,12 +4,18 @@ import { readFile } from 'node:fs/promises';
 import { spawnSync } from 'node:child_process';
 import path from 'node:path';
 import { defaultDataDirectory, projectRoot } from '../src/paths.mjs';
-import { buildFromPdf } from '../src/convert.mjs';
+import { buildFromPdf, buildFromCommandCenter } from '../src/convert.mjs';
 import { validatePackage } from '../src/warhall/validate.mjs';
 
-// Read-only check: uses the existing official PDF cache and never rewrites output.
+// Reproduce the applied source. An un-applied DB candidate must not replace the baseline.
 const result = await validatePackage(defaultDataDirectory);
-const { data, report } = await buildFromPdf({ offline: true });
+const applied = JSON.parse(
+  await readFile(path.join(defaultDataDirectory, 'import-report.json'), 'utf8'),
+);
+const { data, report } =
+  applied.sourceMode === 'command-center'
+    ? await buildFromCommandCenter()
+    : await buildFromPdf({ offline: true });
 assert.equal(
   data['version.json'].version,
   data['manifest.json'].version,

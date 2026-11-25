@@ -1,6 +1,6 @@
 # StarCraft TMG data and assets for Warhall
 
-This repository maintains the StarCraft WDS dataset, PDF/rule importers, model catalogue and Unity asset builders. Warhall client implementation is maintained separately.
+This repository maintains the StarCraft WDS dataset, Command Center DB importer, model catalogue and Unity asset builders. Warhall client implementation is maintained separately.
 
 ## Repository layout
 
@@ -17,12 +17,14 @@ This repository maintains the StarCraft WDS dataset, PDF/rule importers, model c
 Use Node.js 22.13 or later. Install dependencies with `npm ci`, then run:
 
 ```sh
-npm run convert
+npm run wave:update
 npm run validate
 npm run check:local
 ```
 
-The converter uses the official English printable unit PDFs by default. `npm run convert -- --offline` reuses the downloaded source cache. A first checkout needs an online conversion before offline checks. To use a local New Recruit checkout instead, see `npm run convert -- --help` and [list import data](docs/new-recruit-import.md).
+Wave updates use the public Command Center DB for units, stats, weapons, abilities, upgrades and tactical cards. The general rulebook and keyword glossary stay unchanged. Only missing base footprints may come from official card PDFs, through `npm run wave:bases -- --pdf-dir PATH --apply`. Existing sizes and all established IDs are preserved.
+
+`wave:update` downloads and audits a candidate without changing `Starcraft/`. `--offline` reuses `sources/command-center.json`; `--source-input FILE` reads a saved DB snapshot. Apply a validated candidate with `--apply` after resolving missing bases and reviewing the separate blue/green lists. See [DB wave updates](docs/command-center-updates.md). Legacy PDF/New Recruit converters can write only to an explicit separate comparison output, never the maintained dataset.
 
 Update artwork or terrain through their generators, not by hand-editing generated JSON:
 

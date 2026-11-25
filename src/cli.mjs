@@ -1,5 +1,5 @@
 import path from 'node:path';
-import { buildFromNewRecruit, buildFromPdf } from './convert.mjs';
+import { buildFromNewRecruit, buildFromPdf, buildFromCommandCenter } from './convert.mjs';
 import {
   defaultDataDirectory,
   defaultNewRecruitDirectory,
@@ -18,7 +18,7 @@ const booleanFlags = { '--dry-run': 'dryRun', '--offline': 'offline', '--help': 
 
 export function parseArgs(args) {
   const options = {
-    source: 'pdf',
+    source: 'command-center',
     nrDir: defaultNewRecruitDirectory,
     output: defaultDataDirectory,
     dryRun: false,
@@ -42,10 +42,13 @@ export function parseArgs(args) {
     options[key] = key === 'source' ? value : path.resolve(value);
   }
 
-  if (!['pdf', 'new-recruit'].includes(options.source)) {
-    throw new Error('--source must be pdf or new-recruit');
+  if (!['command-center', 'pdf', 'new-recruit'].includes(options.source)) {
+    throw new Error('--source must be command-center, pdf or new-recruit');
   }
-  if (options.source === 'new-recruit' && (options.pdfDir || options.cacheDir || options.offline)) {
+  if (
+    options.source !== 'pdf' &&
+    (options.pdfDir || options.cacheDir || (options.source === 'new-recruit' && options.offline))
+  ) {
     throw new Error('PDF options cannot be used with --source new-recruit');
   }
 
@@ -67,10 +70,10 @@ function assertSeparateDirectories(options) {
 
 function printHelp() {
   console.log(
-    'Usage: npm run convert -- [--source pdf|new-recruit] [--nr-dir PATH] [--pdf-dir PATH] [--offline] [--cache-dir PATH] [--output PATH] [--dry-run]',
+    'Usage: npm run convert -- [--source command-center|pdf|new-recruit] [--nr-dir PATH] [--pdf-dir PATH] [--offline] [--cache-dir PATH] [--output PATH] [--dry-run]',
   );
   console.log(
-    'Default: official PDFs, discovered/downloaded from Archon. --pdf-dir reads local official card sheets; --offline uses the last downloaded set.',
+    'Default: saved Command Center DB snapshot. Use npm run wave:update for online inventory and approved application. PDF/New Recruit conversion is retained for isolated comparisons only.',
   );
 }
 
@@ -96,10 +99,22 @@ export async function runConversion(args) {
   }
 
   assertSeparateDirectories(options);
+  if (
+    !options.dryRun &&
+    (options.output === defaultDataDirectory ||
+      options.output.startsWith(defaultDataDirectory + path.sep) ||
+      defaultDataDirectory.startsWith(options.output + path.sep))
+  ) {
+    throw new Error(
+      'Use npm run wave:update -- --apply for DB updates. Legacy converters may only write to a separate --output directory.',
+    );
+  }
   const { data, report } =
-    options.source === 'new-recruit'
-      ? await buildFromNewRecruit(options.nrDir)
-      : await buildFromPdf(options);
+    options.source === 'command-center'
+      ? await buildFromCommandCenter()
+      : options.source === 'new-recruit'
+        ? await buildFromNewRecruit(options.nrDir)
+        : await buildFromPdf(options);
 
   if (!options.dryRun) await writePackage(options.output, data, report);
   printResult(options, report);

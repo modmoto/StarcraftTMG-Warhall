@@ -15,6 +15,8 @@ Creating branches does not change server settings. Read back `/GetGameVersions`;
 
 ## Development and release
 
+Wave updates now use `npm run wave:update` and a saved Command Center DB snapshot. The general rulebook/glossary remain local; PDFs supply only missing base footprints. Review `command-center-report.json` and the applied `Starcraft/import-report.json`; a candidate under `.cache/wave-update` has not been published. See [DB wave updates](command-center-updates.md). Do not regenerate release unit data with the legacy PDF converter.
+
 1. Work, commit and push directly to `main`. Advance `Starcraft/manifest.json` and `Starcraft/version.json` together when game data changes. Shared-skin-only changes do not need a WDS version bump.
 2. Run `npm run check:local`. Publish requested changed skins to Test and check the client. Preserve saved publication checkpoints, working skins and menu aliases.
 3. On an authorized release, commit and push all required files to main, then run `npm run release:promote -- --apply`. This creates or fast-forwards remote `release` to the exact main commit, without dataset copying, a second generated snapshot, extra URL commits or force pushing. Both branches must have the same history; if release contains independent commits, reconcile them first rather than silently rewriting it.
