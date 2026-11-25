@@ -61,7 +61,12 @@ test('five mission marker assignments use open control ring geometry, not separa
 
 test('control rings stay open outside their decorated 32mm center', () => {
   const meshes = createMarkerGeometry({ color: 'blue', number: 2 });
-  assert.equal(meshes.length, 4);
+  assert.equal(meshes.length, 8);
+  for (let i = 0; i < meshes.length; i += 2)
+    assert.deepEqual(
+      meshes[i + 1].vertices,
+      meshes[i].vertices.map(([x, y, z]) => [-x, -y, z]),
+    );
   const outline = meshes.find(mesh => mesh.role === 'outline');
   assert.ok(
     outline.vertices.every(([x, , z]) => Math.hypot(x, z) > 4 && Math.hypot(x, z) <= 9.22 + 1e-9),

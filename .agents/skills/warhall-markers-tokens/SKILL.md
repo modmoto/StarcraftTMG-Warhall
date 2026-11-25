@@ -9,7 +9,7 @@ Ask during wave inventory whether new tokens are needed. Check official material
 
 ## Gameplay tokens
 
-Use the definitions and SVG artwork under src/tokens and token-artwork. Use the current reviewed token bundles; sizes and supported flip faces are maintained in the token definitions and overrides. Keep the canonical sc_token_* publication IDs. The emitted Token records contain Id, Name and Type, with Id and Name exactly matching the shared skin name. Faction tokens, Bile Bomb, Corrosive Bile and objectives use RadiusBaseDiameterMm=32 for native edge measurement without visual resizing. Omit it for other tokens.
+Use the definitions and SVG artwork under src/tokens and token-artwork. Use the current reviewed token bundles; sizes and supported flip faces are maintained in the token definitions and overrides. Keep the canonical sc_token_* publication IDs. The emitted Token records contain Id, Name and Type, with Id and Name exactly matching the shared skin name. All ordinary gameplay tokens and objectives use RadiusBaseDiameterMm=32 for native base-edge measurement; preserve explicitly sized templates.
 
 1. Run npm run tokens:update, npm run convert -- --offline and npm run models:catalogue. Inspect artwork, dimensions and thumbnails, then run npm run check:local.
 2. Push hosted assets and Test data before uploading changed token skins. Use warhall-publish-skins with kind token, then synchronize the exact-name menu assignments with models:menus.
@@ -40,3 +40,9 @@ Keep the sized BoxCollider on the prefab root so the remote token loader does no
 Preserve token-model-overrides.json when regenerating catalogues: its reviewed Unity bundles retain the working collider and renderer tags. Generated GLBs are preview/source geometry and must not replace those bundles during routine publication.
 
 The final Test token menu has 23 entries and no built-in Warhall colour tokens or old 3-inch template. Keep the custom 130mm Blast Template (stable Id Token5Inch) first, then blue/red activation, faction pairs, Buff/Debuff, and remaining effects alphabetically with Corrosive Bile immediately after Bile Bomb. The five objective token entries follow the existing gameplay token entries. token-menu-order.json owns this order. Remove inactive current-game associations with the observed RemoveSkinUsage API (itemInstanceId, skinId, costumeDefault), verify readback, and retain shared assets used by other games. Do not restore the former native defaults during menu synchronization.
+
+## Default gameplay-token contract and cleanup
+
+All ordinary gameplay tokens use a 32 mm physical base and RadiusBaseDiameterMm=32. Build both native flip faces around a centred pivot/collider; activation markers retain Movement/Assault, other flat tokens repeat their symbol, and 3D effect tokens preserve upright visuals on either side. Keep objectives at 32 mm diameter and preserve their reviewed skins. Explicitly sized templates are an exception: the Blast Template remains a flat 130 mm ring, not a 32 mm gameplay token.
+
+On every asset update, remove superseded files that are no longer needed. Before deleting, check main and release data/catalogues, generator/source inputs, retained manual previews, and live skin resources/default assignments on both servers. Replace canonical and menu assignments before removing an owned obsolete skin. Retain files still used by production or release and revisit them after promotion. Remove newly generated unused intermediate assets before committing. Never delete active source caches or another user's assets. Commit and push authorized work directly to main.

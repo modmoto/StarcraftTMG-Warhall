@@ -78,6 +78,12 @@ export async function createTokenAssets(definitions = tokenDefinitions) {
       )[0];
       face.vertices = face.vertices.map(([x, , z]) => [-x, -0.08, z]);
       meshes.push(face);
+      // Preserve 3D effects on both sides under the native local-Z half turn.
+      const effects = meshes.slice(2, -1);
+      for (const mesh of effects) {
+        mesh.vertices = mesh.vertices.map(([x, y, z]) => [x, y - 0.08, z]);
+        meshes.push({ ...mesh, vertices: mesh.vertices.map(([x, y, z]) => [-x, -y, z]) });
+      }
     }
     const bytes = await encodeGlb(meshes);
     const filename = `${createHash('sha256').update(bytes).digest('hex')}.glb`;

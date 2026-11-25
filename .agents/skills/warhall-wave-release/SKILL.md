@@ -22,3 +22,7 @@ A user request to release authorizes the complete operation: push main and requi
 5. Report the data version, branch commit, asset results and remaining client checks.
 
 Production authentication is separate. Never print credentials or replace local client caches to simulate publication. The old UpdateGameDataPath endpoint has returned success without saving settings: read back GetGameVersions and report any administrator action still required. Do not claim that branch creation changed the server setting.
+
+## Asset-update cleanup
+
+The user requests cleanup as part of every asset update. Remove obsolete assets only after checking both branch snapshots, source/build inputs and live Test/production skin references. Preserve release/production dependencies until they are replaced. Include required new files and safe deletions in the main commit; do not leave unused generated intermediate assets behind.

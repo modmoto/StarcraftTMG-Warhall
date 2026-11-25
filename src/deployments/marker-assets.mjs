@@ -160,7 +160,7 @@ export function createMarkerGeometry({ color }) {
     merge([disc(1.5, 0.2)], accents[color], 'center'),
     merge([disc(1.1, 0.22)], [16, 27, 39], 'center-inset'),
     merge(details, [245, 249, 255], 'center-detail'),
-  ];
+  ].flatMap(mesh => [mesh, { ...mesh, vertices: mesh.vertices.map(([x, y, z]) => [-x, -y, z]) }]);
 }
 export async function createMarkerAssets({
   directory = path.join(projectRoot, 'model-assets'),

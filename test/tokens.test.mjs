@@ -247,13 +247,29 @@ test('Blast Template exports only a flat orange ring without fill or cylinder', 
   assert.ok(preview[0].vertices.every(v => Math.hypot(v[0], v[2]) >= 6.3 - 1e-9));
 });
 
-test('only faction, bile and objective tokens gain native 32mm edge measurement', async () => {
+test('all ordinary and objective tokens use native 32mm edge measurement', async () => {
   const { nativeTokens } = await import('../src/tokens/package.mjs');
   const based = nativeTokens().filter(token => token.RadiusBaseDiameterMm !== undefined);
-  assert.equal(based.length, 13);
+  assert.equal(based.length, 22);
   assert.ok(based.every(token => token.RadiusBaseDiameterMm === 32));
   for (const name of ['Bile Bomb', 'Corrosive Bile'])
     assert.ok(based.some(token => token.Name === name));
   const terrains = await read('Starcraft/terrains.json');
   assert.ok(terrains.every(terrain => !terrain.Id.includes('Mission marker ')));
+});
+
+test('all gameplay tokens have 32mm geometry and two native flip faces', async () => {
+  const catalogue = await read('model-catalogue.json');
+  for (const token of tokenDefinitions) {
+    assert.equal(token.diameterMm, 32);
+    assert.ok(token.backSymbol);
+    const entry = catalogue.entries.find(entry => entry.profileId === `sc_token_${token.id}`);
+    const meshes = await read(entry.parts[0].previewGeometryFile);
+    assert.equal(entry.tokenDiameterMm, 32);
+    assert.ok(meshes[0].vertices.every(v => Math.abs(v[1] - 0.08) < 1e-9));
+    const underside = meshes.find(mesh => mesh.vertices.every(v => Math.abs(v[1] + 0.08) < 1e-9));
+    assert.ok(underside, token.id);
+    const ys = meshes.flatMap(mesh => mesh.vertices.map(v => v[1]));
+    assert.ok(Math.abs(Math.max(...ys) + Math.min(...ys)) < 1e-8, token.id);
+  }
 });

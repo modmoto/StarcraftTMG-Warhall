@@ -2,7 +2,7 @@ import { markerTokens } from '../deployments/markers.mjs';
 import tokenMenuOrder from '../../token-menu-order.json' with { type: 'json' };
 import { tokenMenuId } from '../models/menu-ids.mjs';
 
-export const tokenDiameterMm = 25;
+export const tokenDiameterMm = 32;
 export const activationDiameterMm = 32;
 export const factionColors = { Terran: '#2467d1', Protoss: '#b68a20', Zerg: '#9a44bd' };
 
@@ -63,7 +63,7 @@ export const tokenDefinitions = [
     id: 'creep_tumor',
     name: 'Creep Tumor',
     symbol: 'creep_tumor',
-    diameterMm: 28,
+    diameterMm: 32,
     color: '#77368d',
     description: 'Source of Creep. Ground Zerg units within 6 inches are On Creep.',
   },
@@ -76,7 +76,11 @@ export const tokenDefinitions = [
     description:
       'Ravager Corrosive Bile marker. Resolve its effect at the end of the Assault Phase.',
   },
-];
+].map(token => ({
+  ...token,
+  diameterMm: tokenDiameterMm,
+  backSymbol: token.backSymbol ?? token.symbol,
+}));
 
 export const builtinTokenNames = [];
 
@@ -87,9 +91,7 @@ export function nativeTokens() {
       Id: tokenMenuId(token.name),
       Name: token.name,
       Type: 'Token',
-      ...(token.id.startsWith('faction_') || ['bile_bomb', 'corrosive_bile'].includes(token.id)
-        ? { RadiusBaseDiameterMm: 32 }
-        : {}),
+      RadiusBaseDiameterMm: tokenDiameterMm,
     })),
     {
       Id: 'Token5Inch',

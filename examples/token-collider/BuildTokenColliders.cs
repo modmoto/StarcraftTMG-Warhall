@@ -48,7 +48,7 @@ public static class BuildTokenColliders
                 var diameter = input.ReadSingle();
                 var collider = root.AddComponent<BoxCollider>();
                 collider.size = new Vector3(diameter, 0.16f, diameter);
-                collider.center = id.StartsWith("sc_token_activation_") ? Vector3.zero : Vector3.up * 0.08f;
+                collider.center = Vector3.zero;
                 var parts = input.ReadInt32();
                 for (var part = 0; part < parts; part++)
                 {
@@ -107,6 +107,16 @@ public static class BuildTokenColliders
                 if (!Physics.Raycast(origin, Vector3.down, out var hit, 4f) || hit.collider != collider)
                     throw new Exception("Token edge raycast missed: " + build.assetBundleName);
             }
+            if (Mathf.Abs(collider.size.x - 3.2f) > 0.0001f || collider.center != Vector3.zero)
+                throw new Exception("Gameplay token must be centred and 32mm: " + build.assetBundleName);
+            instance.transform.rotation = Quaternion.Euler(0, 0, 180);
+            Physics.SyncTransforms();
+            if (!collider.Raycast(new Ray(new Vector3(0, 2, 0), Vector3.down), out var reverseHit, 4) ||
+                Mathf.Abs(reverseHit.point.y - 0.08f) > 0.0001f)
+                throw new Exception("Token flip changed collider height: " + build.assetBundleName);
+            instance.transform.rotation = Quaternion.identity;
+            Physics.SyncTransforms();
+            Debug.Log("TOKEN_FLIP_OK " + build.assetBundleName + " diameterMm=32 heightStable=true");
             if(activationOnly)
             {
                 if(Mathf.Abs(collider.size.x-3.2f)>0.0001f || collider.center!=Vector3.zero)

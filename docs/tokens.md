@@ -16,7 +16,7 @@ Every map contains two activation stacks per player side: 15 blue and 15 red mar
 
 ## Activation markers
 
-The two 32 mm activation tokens have Movement on the upper face and Assault underneath. Native Flip rotates the model 180 degrees about local Z. Faces and collider are centred on that pivot, with outward normals and distinct textures; no custom flip logic is bundled.
+All ordinary gameplay tokens have 32 mm bases and two native flip faces. Activation tokens have Movement on the upper face and Assault underneath; other flat tokens repeat the front symbol. The three 3D effect tokens have mirrored effect geometry on the reverse. Objectives also have mirrored reverse geometry, preserving their existing front design and decorative outer ring. Native Flip rotates the model 180 degrees about local Z. Faces and collider are centred on that pivot, with outward normals and distinct textures; no custom flip logic is bundled.
 
 Generate artwork and source geometry, prepare the Unity input, then run BuildTokenColliders.RunActivationTokens from examples/token-collider/BuildTokenColliders.cs. The builder validates both orientations and stable table height. Keep the active-ID manifest so old cache directories cannot restore deleted tokens. Record reviewed bundle URLs in token-model-overrides.json.
 
@@ -38,4 +38,4 @@ Retired current-game associations are removed with RemoveSkinUsage (itemInstance
 
 ## Native measurement footprint
 
-Faction tokens, Bile Bomb, Corrosive Bile and the five objective tokens set RadiusBaseDiameterMm=32. This native field controls circular base-edge measurement and radius rings, without resizing their existing skins. All other token measurement behavior is preserved. Objectives deploy through DeploymentTerrains with IsToken=true and are no longer terrain. See mission-markers.md.
+All ordinary gameplay tokens and the five objective tokens set RadiusBaseDiameterMm=32. This native field controls circular base-edge measurement and radius rings, without resizing their existing skins. The explicitly sized 130 mm Blast Template is excluded. Objectives deploy through DeploymentTerrains with IsToken=true and are no longer terrain. See mission-markers.md.
