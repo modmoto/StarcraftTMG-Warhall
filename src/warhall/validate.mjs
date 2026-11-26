@@ -55,6 +55,14 @@ export function validateData(data) {
   }
   for (const item of ids.values()) {
     validateRefs(item.ItemsToAdd, item.Id);
+    if (item.ItemsToAdd?.some(child => child.Id === 'rule_keyword_specialist')) {
+      const label = item.Name ?? '';
+      if (
+        item.Type !== 4 ||
+        !/^<color=#2596be><u><link="[^"]+">[^<]+<\/link><\/u><\/color>$/.test(label)
+      )
+        throw new Error(`Specialist options require a blue clickable description link: ${item.Id}`);
+    }
     for (const id of item.BasicProfileIds ?? []) ref(id, item.Id, 'Profile');
     for (const child of item.Children ?? []) ref(child.Id, item.Id);
     for (const match of `${item.Name ?? ''}\n${item.Description ?? ''}`.matchAll(
