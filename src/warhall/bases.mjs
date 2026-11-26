@@ -44,7 +44,10 @@ function printedFootprint(unit) {
     if (printed.widthMm !== printed.lengthMm) {
       throw new Error(`Unequal axes on printed round base: ${unit.name}`);
     }
-    return { ...roundFootprint(printed.widthMm), source: 'printed PDF footprint' };
+    return {
+      ...roundFootprint(printed.widthMm),
+      source: unit.provenance?.baseSource?.kind ?? 'printed PDF footprint',
+    };
   }
 
   if (printed?.shape === 'oval') {

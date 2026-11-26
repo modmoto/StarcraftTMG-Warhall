@@ -1,6 +1,7 @@
 import { createBlastTemplateAsset } from '../src/tokens/blast-template.mjs';
 import { readFile, writeFile } from 'node:fs/promises';
 import path from 'node:path';
+import { parseArgs } from 'node:util';
 import { projectRoot } from '../src/paths.mjs';
 import { transforms, validateCatalogue } from '../src/models/catalogue.mjs';
 import { createDeploymentAssets } from '../src/deployments/line-assets.mjs';
@@ -9,6 +10,22 @@ import { createMarkerAssets } from '../src/deployments/marker-assets.mjs';
 import { calibrateCatalogue } from '../src/models/calibration.mjs';
 
 const read = async file => JSON.parse(await readFile(path.join(projectRoot, file), 'utf8'));
+const { values } = parseArgs({
+  options: {
+    'data-dir': { type: 'string', default: 'Starcraft' },
+    'preserve-existing': { type: 'boolean', default: false },
+  },
+});
+const dataDirectory = path.resolve(projectRoot, values['data-dir']);
+const previousCatalogue = values['preserve-existing'] ? await read('model-catalogue.json') : null;
+const preservedPreviews = new Map();
+for (const entry of previousCatalogue?.entries ?? [])
+  for (const part of entry.parts ?? [])
+    if (part.previewGeometryFile && !preservedPreviews.has(part.previewGeometryFile))
+      preservedPreviews.set(
+        part.previewGeometryFile,
+        await readFile(path.join(projectRoot, part.previewGeometryFile)),
+      );
 const units = await read('model-selections.json');
 const terrain = await read('terrain-models.json');
 const entries = [];
@@ -16,7 +33,9 @@ for (const selection of [...units.models, ...terrain.models].filter(m => m.statu
   let profileId = selection.terrainId ?? selection.tokenId;
   let flying = false;
   if (!profileId) {
-    const faction = await read(`Starcraft/${selection.faction}/units.json`);
+    const faction = JSON.parse(
+      await readFile(path.join(dataDirectory, selection.faction, 'units.json'), 'utf8'),
+    );
     const unit = faction.find(unit => unit.Id === selection.unitId);
     if (unit?.BasicProfileIds.length !== 1) throw new Error(`Unknown unit: ${selection.unitName}`);
     [profileId] = unit.BasicProfileIds;
@@ -75,6 +94,12 @@ catalogue.entries.push(...markerAssets);
 catalogue.entries.push(...(await createTokenAssets()));
 catalogue.entries.push(await createBlastTemplateAsset());
 catalogue.entries.push(...(await createDeploymentAssets(await read('deployment-templates.json'))));
+if (previousCatalogue) {
+  const previous = new Map(previousCatalogue.entries.map(entry => [entry.profileId, entry]));
+  catalogue.entries = catalogue.entries.map(entry => previous.get(entry.profileId) ?? entry);
+  for (const [file, bytes] of preservedPreviews)
+    await writeFile(path.join(projectRoot, file), bytes);
+}
 validateCatalogue(catalogue);
 await writeFile(
   path.join(projectRoot, 'model-calibration-report.json'),

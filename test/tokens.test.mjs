@@ -15,7 +15,7 @@ test('native tokens replace round cards and publish every distinct face', async 
     entry => entry.kind === 'token' && entry.profileId !== 'Token5Inch',
   );
   const artwork = (await read('token-artwork.json')).artwork;
-  assert.equal(tokens.length, 17);
+  assert.equal(tokens.length, 19);
   assert.equal(new Set(tokens.map(token => token.Id)).size, tokens.length);
   assert.equal(catalogue.length, tokens.length);
   assert.ok(!cards.some(card => card.Id.startsWith('sc_token_')));
@@ -218,7 +218,9 @@ test('token menu groups templates, activation, factions, buffs and sorted effect
       'Corrosive Bile',
       'Burrowed',
       'Creep Tumor',
+      'Fire Wall',
       'Hidden',
+      'Infestation',
       'Siege Status',
       'Stim',
       ...[1, 2, 3, 4, 5].map(
@@ -250,7 +252,7 @@ test('Blast Template exports only a flat orange ring without fill or cylinder', 
 test('all ordinary and objective tokens use native 32mm edge measurement', async () => {
   const { nativeTokens } = await import('../src/tokens/package.mjs');
   const based = nativeTokens().filter(token => token.RadiusBaseDiameterMm !== undefined);
-  assert.equal(based.length, 22);
+  assert.equal(based.length, 24);
   assert.ok(based.every(token => token.RadiusBaseDiameterMm === 32));
   for (const name of ['Bile Bomb', 'Corrosive Bile'])
     assert.ok(based.some(token => token.Name === name));

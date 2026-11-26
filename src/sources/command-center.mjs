@@ -8,21 +8,23 @@ import { projectRoot } from '../paths.mjs';
 export const commandCenterUrl =
   'https://firestore.googleapis.com/v1/projects/starcrafttmgbeta/databases/starcrafttmgbeta/documents';
 export const commandCenterSnapshot = path.join(projectRoot, 'sources/command-center.json');
+export function canonicalSource(value) {
+  return Array.isArray(value)
+    ? value.map(canonicalSource)
+    : value && typeof value === 'object'
+      ? Object.fromEntries(
+          Object.keys(value)
+            .sort()
+            .map(key => [key, canonicalSource(value[key])]),
+        )
+      : value;
+}
 export function sourceFingerprint(source) {
-  const canonical = value =>
-    Array.isArray(value)
-      ? value.map(canonical)
-      : value && typeof value === 'object'
-        ? Object.fromEntries(
-            Object.keys(value)
-              .sort()
-              .map(key => [key, canonical(value[key])]),
-          )
-        : value;
-  return sha256(JSON.stringify(canonical(source)));
+  return sha256(JSON.stringify(canonicalSource(source)));
 }
 export const databaseText = value =>
   String(value)
+    .replace(/\\(['"])/g, '$1')
     .replace(/\\u([0-9a-f]{4})/gi, (_, hex) => String.fromCharCode(parseInt(hex, 16)))
     .replace(/<br\s*\/?>/gi, '\n')
     .replace(/<\/(?:p|div|li)>/gi, '\n')
@@ -35,6 +37,7 @@ const normalize = value =>
   value
     .toLowerCase()
     .replace(/riffle/g, 'rifle')
+    .replace(/glaives/g, 'glaves')
     .replace(/[^a-z0-9]/g, '');
 const slug = value =>
   value
@@ -92,7 +95,7 @@ export async function downloadCommandCenter(fetcher = fetch) {
     source[collection] = records.sort((a, b) => a.sourceId.localeCompare(b.sourceId, 'en'));
   }
   validateSnapshot(source);
-  return source;
+  return canonicalSource(source);
 }
 
 export function validateSnapshot(source) {
@@ -270,6 +273,7 @@ export function normalizeCommandUnit(unit, mapping) {
       sourceId: unit.sourceId,
       url: `${commandCenterUrl}/army_units/${unit.sourceId}`,
       officialBase: identity.base,
+      baseSource: identity.baseSource,
     },
     roster: {
       small: unit.small,
@@ -288,7 +292,7 @@ export function normalizeCommandUnit(unit, mapping) {
 }
 
 export async function loadCommandCenter({ snapshot = commandCenterSnapshot, mapping } = {}) {
-  const raw = await readJson(snapshot);
+  const raw = canonicalSource(await readJson(snapshot));
   validateSnapshot(raw);
   mapping ??= await readJson(path.join(projectRoot, 'command-center-mapping.json'));
   return {

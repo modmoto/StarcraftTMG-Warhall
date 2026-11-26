@@ -17,7 +17,8 @@
       "Sabotage Drone": 40,
       "Spec Ops Marauder (Marauder)": 50,
       "Auto-Turret": 40,
-      "Raven": 100
+      "Raven": 100,
+      "Firebat": 40
     },
     "Protoss": {
       "Adepts": 40,
@@ -32,7 +33,14 @@
       "Zeratul": 40,
       "Tassadar": 40,
       "Twilight Templar (High Templar)": 40,
-      "High Templar": 40
+      "High Templar": 40,
+      "Alarak": 40,
+      "Phasing Scarab": 50,
+      "Reaver": 150,
+      "Scarab": 50,
+      "Slayer (Stalker)": 80,
+      "Solarite Scarab": 50,
+      "Tal'darim Pylon": 80
     },
     "Zerg": {
       "Corpsers (Roach)": 50,
@@ -55,7 +63,13 @@
       "Zagara": 100,
       "Defiler": 80,
       "Vileling (Zergling)": 32,
-      "Bile Launcher": 100
+      "Bile Launcher": 100,
+      "Infested Goliath": 80,
+      "Infested Marine": 40,
+      "Infested Missile Turret": 80,
+      "Infested Siege Tank": 150,
+      "Infested Trooper": 40,
+      "Stukov": 40
     }
   },
   "flightStandDiameterMm": 100

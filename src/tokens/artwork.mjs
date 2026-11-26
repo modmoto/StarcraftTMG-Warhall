@@ -5,6 +5,10 @@ import path from 'node:path';
 const arrow = '<path d="M256 102 378 242H310V374H202V242H134Z"/>';
 
 const symbols = {
+  fire_wall:
+    '<path d="M154 370h204v-25c0-55-55-74-39-139-37 18-48 41-44 65-27-45 2-106-37-161 2 76-78 91-59 165-26-16-31-44-29-61-58 61-57 116 4 156Z"/>',
+  infestation:
+    '<circle cx="256" cy="256" r="48"/><g fill="none" stroke="currentColor" stroke-width="22" stroke-linecap="round"><path d="M256 195c-20-55-75-71-100-28M305 245c57-23 80-65 49-102M229 297c-8 57-48 83-91 64M286 293c48 39 84 20 96-16M207 241c-61-9-87 25-83 60"/></g>',
   bile_bomb:
     '<path d="M256 93C226 150 174 201 174 269a82 82 0 0 0 164 0c0-68-52-119-82-176Z"/><path d="M216 257q-10 49 36 64" fill="none" stroke="#487527" stroke-width="13" stroke-linecap="round"/>',
   creep_tumor:
@@ -41,6 +45,8 @@ export async function factionLogo(root, name, color) {
 
 export async function tokenImage(root, token) {
   const symbol = token.symbol;
+  // Preserve the reviewed labelled faces across OS font substitutions.
+  if (labels[symbol]) return readFile(path.join(root, 'token-artwork/labels', `${symbol}.png`));
   const accent = token.color;
   const background = token.inverted ? '#f7f6ee' : accent;
   const ink = ['hidden', 'stim'].includes(symbol) ? '#000000' : token.inverted ? accent : '#ffffff';

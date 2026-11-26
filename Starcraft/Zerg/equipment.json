@@ -3,174 +3,288 @@
     "Id": "pdf_Zerg_equipment_bile_launcher_default_2",
     "Name": "BILE BOMB",
     "Type": "Equipment",
-    "Description": "Assault Weapon\nRng: 12\nTgt: Ground\nRoA: 6\nHit: 3+\n<u><link=\"rule_chapter_8_7_4\">Surge</link></u>: Light, Armoured\nS.Die: D3\nDmg: 1\nKeyword: <u><link=\"rule_keyword_pierce\">PIERCE</link></u> Armoured (2), <u><link=\"rule_keyword_pinpoint\">PINPOINT</link></u>"
+    "Description": "Assault Weapon\nRng: 12\nTgt: Ground\nRoA: 6\nHit: 3+\nDmg: 1\n<u><link=\"rule_chapter_8_7_4\">Surge</link></u>: Light, Armoured\nS.Die: D3\nKeyword: <u><link=\"rule_keyword_pierce\">PIERCE</link></u> Armoured (2), <u><link=\"rule_keyword_pinpoint\">PINPOINT</link></u>"
   },
   {
     "Id": "pdf_Zerg_equipment_corpsers_roach_default_2",
     "Name": "ACID SALIVA",
     "Type": "Equipment",
-    "Description": "Assault Weapon\nRng: 8\nTgt: Ground\nRoA: 2\nHit: 3+\n<u><link=\"rule_chapter_8_7_4\">Surge</link></u>: -\nS.Die: -\nDmg: 1\nKeyword: -"
+    "Description": "Assault Weapon\nRng: 8\nTgt: Ground\nRoA: 2\nHit: 3+\nDmg: 1\n<u><link=\"rule_chapter_8_7_4\">Surge</link></u>: -\nS.Die: -\nKeyword: -"
   },
   {
     "Id": "pdf_Zerg_equipment_corpsers_roach_default_4",
     "Name": "CLAWS",
     "Type": "Equipment",
-    "Description": "Combat Weapon\nRng: E\nTgt: Ground\nRoA: 3\nHit: 4+\n<u><link=\"rule_chapter_8_7_4\">Surge</link></u>: Light\nS.Die: D3+1\nDmg: 1\nKeyword: -"
+    "Description": "Combat Weapon\nRng: E\nTgt: Ground\nRoA: 3\nHit: 4+\nDmg: 1\n<u><link=\"rule_chapter_8_7_4\">Surge</link></u>: Light\nS.Die: D3+1\nKeyword: -"
   },
   {
     "Id": "pdf_Zerg_equipment_defiler_default_3",
     "Name": "CLAWS",
     "Type": "Equipment",
-    "Description": "Combat Weapon\nRng: E\nTgt: Ground\nRoA: 4\nHit: 3+\n<u><link=\"rule_chapter_8_7_4\">Surge</link></u>: -\nS.Die: -\nDmg: 1\nKeyword: -"
+    "Description": "Combat Weapon\nRng: E\nTgt: Ground\nRoA: 4\nHit: 3+\nDmg: 1\n<u><link=\"rule_chapter_8_7_4\">Surge</link></u>: -\nS.Die: -\nKeyword: -"
   },
   {
     "Id": "pdf_Zerg_equipment_defiler_upgrade_2",
     "Name": "CANCEROUS BITE",
     "Type": "Equipment",
-    "Description": "Combat Weapon\nRng: E\nTgt: Ground\nRoA: 2\nHit: 3+\n<u><link=\"rule_chapter_8_7_4\">Surge</link></u>: -\nS.Die: -\nDmg: 2\nKeyword: <u><link=\"rule_keyword_critical_hit\">CRITICAL HIT</link></u> (1), <u><link=\"rule_keyword_sidearm\">SIDEARM</link></u>"
+    "Description": "Combat Weapon\nRng: E\nTgt: Ground\nRoA: 2\nHit: 3+\nDmg: 2\n<u><link=\"rule_chapter_8_7_4\">Surge</link></u>: -\nS.Die: -\nKeyword: <u><link=\"rule_keyword_critical_hit\">CRITICAL HIT</link></u> (1), <u><link=\"rule_keyword_sidearm\">SIDEARM</link></u>"
   },
   {
     "Id": "pdf_Zerg_equipment_hydralisks_default_1",
     "Name": "NEEDLE SPINES",
     "Type": "Equipment",
-    "Description": "Assault Weapon\nRng: 12\nTgt: All\nRoA: 3\nHit: 3+\n<u><link=\"rule_chapter_8_7_4\">Surge</link></u>: Light, Armoured\nS.Die: D3+1\nDmg: 2\nKeyword: -"
+    "Description": "Assault Weapon\nRng: 12\nTgt: All\nRoA: 3\nHit: 3+\nDmg: 2\n<u><link=\"rule_chapter_8_7_4\">Surge</link></u>: Light, Armoured\nS.Die: D3+1\nKeyword: -"
   },
   {
     "Id": "pdf_Zerg_equipment_hydralisks_default_3",
     "Name": "SCYTHE",
     "Type": "Equipment",
-    "Description": "Combat Weapon\nRng: E\nTgt: Ground\nRoA: 2\nHit: 4+\n<u><link=\"rule_chapter_8_7_4\">Surge</link></u>: -\nS.Die: -\nDmg: 1\nKeyword: -"
+    "Description": "Combat Weapon\nRng: E\nTgt: Ground\nRoA: 2\nHit: 4+\nDmg: 1\n<u><link=\"rule_chapter_8_7_4\">Surge</link></u>: -\nS.Die: -\nKeyword: -"
+  },
+  {
+    "Id": "pdf_Zerg_equipment_infested_goliath_upgrade_weapon_assault_phase_haywire_missiles",
+    "Name": "Haywire Missiles",
+    "Type": "Equipment",
+    "Description": "Assault Weapon\nRng: 12\nTgt: Ground\nRoA: 3\nHit: 3+\nDmg: 1\n<u><link=\"rule_chapter_8_7_4\">Surge</link></u>: Armoured\nS.Die: D3\nKeyword: <u><link=\"rule_keyword_pierce\">PIERCE</link></u> Armoured (3), <u><link=\"rule_keyword_sidearm\">SIDEARM</link></u>\nNotes: FOR Hellfire Missiles"
+  },
+  {
+    "Id": "pdf_Zerg_equipment_infested_goliath_upgrade_weapon_assault_phase_scatter_missiles",
+    "Name": "Scatter Missiles",
+    "Type": "Equipment",
+    "Description": "Assault Weapon\nRng: 18\nTgt: Ground\nRoA: 6\nHit: 5+\nDmg: 1\n<u><link=\"rule_chapter_8_7_4\">Surge</link></u>: Light\nS.Die: D3\nKeyword: <u><link=\"rule_keyword_indirect_fire\">INDIRECT FIRE</link></u>, <u><link=\"rule_keyword_locked_in\">LOCKED IN</link></u> (6), <u><link=\"rule_keyword_long_range\">LONG RANGE</link></u> (24\"), <u><link=\"rule_keyword_sidearm\">SIDEARM</link></u>\nNotes: FOR Hellfire Missiles"
+  },
+  {
+    "Id": "pdf_Zerg_equipment_infested_goliath_weapon_assault_phase_autocannon",
+    "Name": "Autocannon",
+    "Type": "Equipment",
+    "Description": "Assault Weapon\nRng: 12\nTgt: Ground\nRoA: 9\nHit: 4+\nDmg: 1\n<u><link=\"rule_chapter_8_7_4\">Surge</link></u>: -\nS.Die: -\nKeyword: <u><link=\"rule_keyword_long_range\">LONG RANGE</link></u> (18\")"
+  },
+  {
+    "Id": "pdf_Zerg_equipment_infested_goliath_weapon_assault_phase_hellfire_missiles",
+    "Name": "Hellfire Missiles",
+    "Type": "Equipment",
+    "Description": "Assault Weapon\nRng: 16\nTgt: Air\nRoA: 6\nHit: 3+\nDmg: 1\n<u><link=\"rule_chapter_8_7_4\">Surge</link></u>: Light\nS.Die: D3\nKeyword: <u><link=\"rule_keyword_anti_evade\">ANTI-EVADE</link></u> (1), <u><link=\"rule_keyword_sidearm\">SIDEARM</link></u>"
+  },
+  {
+    "Id": "pdf_Zerg_equipment_infested_goliath_weapon_assault_phase_underbelly_machine_gun",
+    "Name": "Underbelly Machine Gun",
+    "Type": "Equipment",
+    "Description": "Assault Weapon\nRng: 8\nTgt: Ground\nRoA: 6\nHit: 3+\nDmg: 1\n<u><link=\"rule_chapter_8_7_4\">Surge</link></u>: Light\nS.Die: D3\nKeyword: <u><link=\"rule_keyword_pinpoint\">PINPOINT</link></u>, <u><link=\"rule_keyword_sidearm\">SIDEARM</link></u>"
+  },
+  {
+    "Id": "pdf_Zerg_equipment_infested_goliath_weapon_combat_phase_stomp",
+    "Name": "Stomp",
+    "Type": "Equipment",
+    "Description": "Combat Weapon\nRng: E\nTgt: Ground\nRoA: 4\nHit: 5+\nDmg: 1\n<u><link=\"rule_chapter_8_7_4\">Surge</link></u>: -\nS.Die: -\nKeyword: -"
+  },
+  {
+    "Id": "pdf_Zerg_equipment_infested_marine_upgrade_weapon_assault_phase_infested_missile_launcher_acid_blast",
+    "Name": "Infested Missile Launcher - Acid Blast",
+    "Type": "Equipment",
+    "Description": "Assault Weapon\nRng: 6\nTgt: All\nRoA: 3\nHit: 3+\nDmg: 1\n<u><link=\"rule_chapter_8_7_4\">Surge</link></u>: -\nS.Die: -\nKeyword: <u><link=\"rule_keyword_critical_hit\">CRITICAL HIT</link></u> (1), <u><link=\"rule_keyword_long_range\">LONG RANGE</link></u> (12\"), <u><link=\"rule_keyword_pierce\">PIERCE</link></u> Armoured (2), <u><link=\"rule_keyword_specialist\">SPECIALIST</link></u>\nNotes: FOR Infested C-14 Rifle"
+  },
+  {
+    "Id": "pdf_Zerg_equipment_infested_marine_upgrade_weapon_assault_phase_infested_missile_launcher_scourgeshot",
+    "Name": "Infested Missile Launcher - Scourgeshot",
+    "Type": "Equipment",
+    "Description": "Assault Weapon\nRng: 12\nTgt: All\nRoA: 3\nHit: 3+\nDmg: 1\n<u><link=\"rule_chapter_8_7_4\">Surge</link></u>: -\nS.Die: -\nKeyword: <u><link=\"rule_keyword_burst_fire\">BURST FIRE</link></u> 6\" (2), <u><link=\"rule_keyword_specialist\">SPECIALIST</link></u>\nNotes: FOR Infested C-14 Rifle"
+  },
+  {
+    "Id": "pdf_Zerg_equipment_infested_marine_upgrade_weapon_combat_phase_wild_mutation",
+    "Name": "Wild Mutation",
+    "Type": "Equipment",
+    "Description": "Combat Weapon\nRng: E\nTgt: Ground\nRoA: 2\nHit: 3+\nDmg: 1\n<u><link=\"rule_chapter_8_7_4\">Surge</link></u>: Armoured\nS.Die: D3+1\nKeyword: -\nNotes: FOR Infested C-14 Rifle"
+  },
+  {
+    "Id": "pdf_Zerg_equipment_infested_marine_weapon_assault_phase_infested_c_14_rifle",
+    "Name": "Infested C-14 Rifle",
+    "Type": "Equipment",
+    "Description": "Assault Weapon\nRng: 12\nTgt: All\nRoA: 2\nHit: 4+\nDmg: 1\n<u><link=\"rule_chapter_8_7_4\">Surge</link></u>: Light\nS.Die: D3\nKeyword: <u><link=\"rule_keyword_burst_fire\">BURST FIRE</link></u> 6\" (2)"
+  },
+  {
+    "Id": "pdf_Zerg_equipment_infested_marine_weapon_combat_phase_strike",
+    "Name": "Strike",
+    "Type": "Equipment",
+    "Description": "Combat Weapon\nRng: E\nTgt: Ground\nRoA: 1\nHit: 4+\nDmg: 1\n<u><link=\"rule_chapter_8_7_4\">Surge</link></u>: -\nS.Die: -\nKeyword: -"
+  },
+  {
+    "Id": "pdf_Zerg_equipment_infested_missile_turret_weapon_assault_phase_firefly_missiles",
+    "Name": "Firefly Missiles",
+    "Type": "Equipment",
+    "Description": "Assault Weapon\nRng: 14\nTgt: Air\nRoA: 8\nHit: 4+\nDmg: 1\n<u><link=\"rule_chapter_8_7_4\">Surge</link></u>: Light. Armoured\nS.Die: D3\nKeyword: <u><link=\"rule_keyword_anti_evade\">ANTI-EVADE</link></u> (1)"
+  },
+  {
+    "Id": "pdf_Zerg_equipment_infested_siege_tank_weapon_assault_phase_shock_cannon",
+    "Name": "Shock Cannon",
+    "Type": "Equipment",
+    "Description": "Assault Weapon\nRng: 18\nTgt: Ground\nRoA: BT+4\nHit: 4+\nDmg: 1\n<u><link=\"rule_chapter_8_7_4\">Surge</link></u>: Light, Armoured\nS.Die: BT\nKeyword: <u><link=\"rule_keyword_siege_mode\">SIEGE MODE</link></u> <u><link=\"rule_keyword_status\">Status</link></u>"
+  },
+  {
+    "Id": "pdf_Zerg_equipment_infested_siege_tank_weapon_assault_phase_twin_cannon",
+    "Name": "Twin Cannon",
+    "Type": "Equipment",
+    "Description": "Assault Weapon\nRng: 12\nTgt: Ground\nRoA: 8\nHit: 3+\nDmg: 1\n<u><link=\"rule_chapter_8_7_4\">Surge</link></u>: Armoured\nS.Die: D6\nKeyword: <u><link=\"rule_keyword_pierce\">PIERCE</link></u> Armoured (2)"
+  },
+  {
+    "Id": "pdf_Zerg_equipment_infested_siege_tank_weapon_combat_phase_rolling_over",
+    "Name": "Rolling Over",
+    "Type": "Equipment",
+    "Description": "Combat Weapon\nRng: E\nTgt: Ground\nRoA: 2\nHit: 2+\nDmg: 1\n<u><link=\"rule_chapter_8_7_4\">Surge</link></u>: -\nS.Die: -\nKeyword: -"
+  },
+  {
+    "Id": "pdf_Zerg_equipment_infested_trooper_weapon_assault_phase_infested_c_14_rifle",
+    "Name": "Infested C-14 Rifle",
+    "Type": "Equipment",
+    "Description": "Assault Weapon\nRng: 12\nTgt: All\nRoA: 3\nHit: 3+\nDmg: 1\n<u><link=\"rule_chapter_8_7_4\">Surge</link></u>: Light\nS.Die: D3\nKeyword: <u><link=\"rule_keyword_burst_fire\">BURST FIRE</link></u> 6\" (2)"
+  },
+  {
+    "Id": "pdf_Zerg_equipment_infested_trooper_weapon_combat_phase_bayonet",
+    "Name": "Bayonet",
+    "Type": "Equipment",
+    "Description": "Combat Weapon\nRng: E\nTgt: Ground\nRoA: 2\nHit: 5+\nDmg: 1\n<u><link=\"rule_chapter_8_7_4\">Surge</link></u>: -\nS.Die: -\nKeyword: -"
   },
   {
     "Id": "pdf_Zerg_equipment_kerrigan_default_2",
     "Name": "ENERGY BLAST",
     "Type": "Equipment",
-    "Description": "Assault Weapon\nRng: 8\nTgt: All\nRoA: 5\nHit: 3+\n<u><link=\"rule_chapter_8_7_4\">Surge</link></u>: Light, Armoured\nS.Die: D3\nDmg: 1\nKeyword: -"
+    "Description": "Assault Weapon\nRng: 8\nTgt: All\nRoA: 5\nHit: 3+\nDmg: 1\n<u><link=\"rule_chapter_8_7_4\">Surge</link></u>: Light, Armoured\nS.Die: D3\nKeyword: -"
   },
   {
     "Id": "pdf_Zerg_equipment_kerrigan_default_4",
     "Name": "BLADES",
     "Type": "Equipment",
-    "Description": "Combat Weapon\nRng: E\nTgt: Ground\nRoA: 6\nHit: 4+\n<u><link=\"rule_chapter_8_7_4\">Surge</link></u>: -\nS.Die: -\nDmg: 2\nKeyword: <u><link=\"rule_keyword_critical_hit\">CRITICAL HIT</link></u> (2)"
+    "Description": "Combat Weapon\nRng: E\nTgt: Ground\nRoA: 6\nHit: 4+\nDmg: 2\n<u><link=\"rule_chapter_8_7_4\">Surge</link></u>: -\nS.Die: -\nKeyword: <u><link=\"rule_keyword_critical_hit\">CRITICAL HIT</link></u> (2)"
   },
   {
     "Id": "pdf_Zerg_equipment_kerrigan_swarm_raptors_zergling_default_2",
     "Name": "CLAWS",
     "Type": "Equipment",
-    "Description": "Combat Weapon\nRng: E\nTgt: Ground\nRoA: 2\nHit: 3+\n<u><link=\"rule_chapter_8_7_4\">Surge</link></u>: Light, Armoured\nS.Die: D6\nDmg: 1\nKeyword: <u><link=\"rule_keyword_instant\">INSTANT</link></u>"
+    "Description": "Combat Weapon\nRng: E\nTgt: Ground\nRoA: 2\nHit: 3+\nDmg: 1\n<u><link=\"rule_chapter_8_7_4\">Surge</link></u>: Light, Armoured\nS.Die: D6\nKeyword: <u><link=\"rule_keyword_instant\">INSTANT</link></u>"
   },
   {
     "Id": "pdf_Zerg_equipment_queen_default_1",
     "Name": "TALONS",
     "Type": "Equipment",
-    "Description": "Assault Weapon\nRng: 6\nTgt: Ground\nRoA: 4\nHit: 4+\n<u><link=\"rule_chapter_8_7_4\">Surge</link></u>: Light\nS.Die: D3\nDmg: 2\nKeyword: -"
+    "Description": "Assault Weapon\nRng: 6\nTgt: Ground\nRoA: 4\nHit: 4+\nDmg: 2\n<u><link=\"rule_chapter_8_7_4\">Surge</link></u>: Light\nS.Die: D3\nKeyword: -"
   },
   {
     "Id": "pdf_Zerg_equipment_queen_default_2",
     "Name": "ACID SPINES",
     "Type": "Equipment",
-    "Description": "Assault Weapon\nRng: 12\nTgt: <u><link=\"rule_keyword_flying\">Flying</link></u>\nRoA: 4\nHit: 4+\n<u><link=\"rule_chapter_8_7_4\">Surge</link></u>: Light, Armoured\nS.Die: D3\nDmg: 2\nKeyword: -"
+    "Description": "Assault Weapon\nRng: 12\nTgt: Air\nRoA: 4\nHit: 4+\nDmg: 2\n<u><link=\"rule_chapter_8_7_4\">Surge</link></u>: Light, Armoured\nS.Die: D3\nKeyword: -"
   },
   {
     "Id": "pdf_Zerg_equipment_queen_default_4",
     "Name": "TALONS",
     "Type": "Equipment",
-    "Description": "Combat Weapon\nRng: E\nTgt: Ground\nRoA: 3\nHit: 4+\n<u><link=\"rule_chapter_8_7_4\">Surge</link></u>: -\nS.Die: -\nDmg: 1\nKeyword: -"
+    "Description": "Combat Weapon\nRng: E\nTgt: Ground\nRoA: 3\nHit: 4+\nDmg: 1\n<u><link=\"rule_chapter_8_7_4\">Surge</link></u>: -\nS.Die: -\nKeyword: -"
   },
   {
     "Id": "pdf_Zerg_equipment_raptors_zergling_default_2",
     "Name": "CLAWS",
     "Type": "Equipment",
-    "Description": "Combat Weapon\nRng: E\nTgt: Ground\nRoA: 2\nHit: 4+\n<u><link=\"rule_chapter_8_7_4\">Surge</link></u>: Light\nS.Die: D3\nDmg: 1\nKeyword: -"
+    "Description": "Combat Weapon\nRng: E\nTgt: Ground\nRoA: 2\nHit: 4+\nDmg: 1\n<u><link=\"rule_chapter_8_7_4\">Surge</link></u>: Light\nS.Die: D3\nKeyword: -"
   },
   {
     "Id": "pdf_Zerg_equipment_raptors_zergling_upgrade_1",
     "Name": "SHREDDING CLAWS",
     "Type": "Equipment",
-    "Description": "Combat Weapon\nRng: E\nTgt: Ground\nRoA: 2\nHit: 4+\n<u><link=\"rule_chapter_8_7_4\">Surge</link></u>: Light, Armoured\nS.Die: D3\nDmg: 1\nKeyword: -\nNotes: ↑ FOR CLAWS"
+    "Description": "Combat Weapon\nRng: E\nTgt: Ground\nRoA: 2\nHit: 4+\nDmg: 1\n<u><link=\"rule_chapter_8_7_4\">Surge</link></u>: Light, Armoured\nS.Die: D3\nKeyword: -\nNotes: FOR Claws"
   },
   {
     "Id": "pdf_Zerg_equipment_ravagers_default_2",
     "Name": "PLASMA DISCHARGE",
     "Type": "Equipment",
-    "Description": "Assault Weapon\nRng: 12\nTgt: Ground\nRoA: 4\nHit: 3+\n<u><link=\"rule_chapter_8_7_4\">Surge</link></u>: Light\nS.Die: D3+1\nDmg: 1\nKeyword: -"
+    "Description": "Assault Weapon\nRng: 12\nTgt: Ground\nRoA: 4\nHit: 3+\nDmg: 1\n<u><link=\"rule_chapter_8_7_4\">Surge</link></u>: Light\nS.Die: D3+1\nKeyword: -"
   },
   {
     "Id": "pdf_Zerg_equipment_ravagers_default_4",
     "Name": "CLAWS",
     "Type": "Equipment",
-    "Description": "Combat Weapon\nRng: E\nTgt: Ground\nRoA: 2\nHit: 4+\n<u><link=\"rule_chapter_8_7_4\">Surge</link></u>: -\nS.Die: -\nDmg: 1\nKeyword: -"
+    "Description": "Combat Weapon\nRng: E\nTgt: Ground\nRoA: 2\nHit: 4+\nDmg: 1\n<u><link=\"rule_chapter_8_7_4\">Surge</link></u>: -\nS.Die: -\nKeyword: -"
   },
   {
     "Id": "pdf_Zerg_equipment_roaches_default_1",
     "Name": "ACID SALIVA",
     "Type": "Equipment",
-    "Description": "Assault Weapon\nRng: 8\nTgt: Ground\nRoA: 3\nHit: 3+\n<u><link=\"rule_chapter_8_7_4\">Surge</link></u>: -\nS.Die: -\nDmg: 1\nKeyword: -"
+    "Description": "Assault Weapon\nRng: 8\nTgt: Ground\nRoA: 3\nHit: 3+\nDmg: 1\n<u><link=\"rule_chapter_8_7_4\">Surge</link></u>: -\nS.Die: -\nKeyword: -"
   },
   {
     "Id": "pdf_Zerg_equipment_roaches_default_3",
     "Name": "CLAWS",
     "Type": "Equipment",
-    "Description": "Combat Weapon\nRng: E\nTgt: Ground\nRoA: 2\nHit: 4+\n<u><link=\"rule_chapter_8_7_4\">Surge</link></u>: -\nS.Die: -\nDmg: 1\nKeyword: -"
+    "Description": "Combat Weapon\nRng: E\nTgt: Ground\nRoA: 2\nHit: 4+\nDmg: 1\n<u><link=\"rule_chapter_8_7_4\">Surge</link></u>: -\nS.Die: -\nKeyword: -"
   },
   {
     "Id": "pdf_Zerg_equipment_roachling_default_1",
     "Name": "CLAWS",
     "Type": "Equipment",
-    "Description": "Combat Weapon\nRng: E\nTgt: Ground\nRoA: 2\nHit: 4+\n<u><link=\"rule_chapter_8_7_4\">Surge</link></u>: -\nS.Die: -\nDmg: 1\nKeyword: -"
+    "Description": "Combat Weapon\nRng: E\nTgt: Ground\nRoA: 2\nHit: 4+\nDmg: 1\n<u><link=\"rule_chapter_8_7_4\">Surge</link></u>: -\nS.Die: -\nKeyword: -"
+  },
+  {
+    "Id": "pdf_Zerg_equipment_stukov_weapon_assault_phase_corrosive_blast",
+    "Name": "Corrosive Blast",
+    "Type": "Equipment",
+    "Description": "Assault Weapon\nRng: 8\nTgt: Ground\nRoA: 3\nHit: 3+\nDmg: 1\n<u><link=\"rule_chapter_8_7_4\">Surge</link></u>: Light, Armoured\nS.Die: D3\nKeyword: -"
+  },
+  {
+    "Id": "pdf_Zerg_equipment_stukov_weapon_combat_phase_infested_arm",
+    "Name": "Infested Arm",
+    "Type": "Equipment",
+    "Description": "Combat Weapon\nRng: E\nTgt: Ground\nRoA: 3\nHit: 3+\nDmg: 2\n<u><link=\"rule_chapter_8_7_4\">Surge</link></u>: Armoured\nS.Die: D3\nKeyword: -"
   },
   {
     "Id": "pdf_Zerg_equipment_swarmlings_default_3",
     "Name": "CLAWS",
     "Type": "Equipment",
-    "Description": "Combat Weapon\nRng: E\nTgt: Ground\nRoA: 2\nHit: 5+\n<u><link=\"rule_chapter_8_7_4\">Surge</link></u>: -\nS.Die: -\nDmg: 1\nKeyword: -"
+    "Description": "Combat Weapon\nRng: E\nTgt: Ground\nRoA: 2\nHit: 5+\nDmg: 1\n<u><link=\"rule_chapter_8_7_4\">Surge</link></u>: -\nS.Die: -\nKeyword: -"
   },
   {
     "Id": "pdf_Zerg_equipment_vileling_zergling_default_3",
     "Name": "CLAWS",
     "Type": "Equipment",
-    "Description": "Combat Weapon\nRng: E\nTgt: Ground\nRoA: 2\nHit: 5+\n<u><link=\"rule_chapter_8_7_4\">Surge</link></u>: -\nS.Die: -\nDmg: 1\nKeyword: -"
+    "Description": "Combat Weapon\nRng: E\nTgt: Ground\nRoA: 2\nHit: 5+\nDmg: 1\n<u><link=\"rule_chapter_8_7_4\">Surge</link></u>: -\nS.Die: -\nKeyword: -"
   },
   {
     "Id": "pdf_Zerg_equipment_viles_roach_default_1",
     "Name": "ACID SALIVA",
     "Type": "Equipment",
-    "Description": "Assault Weapon\nRng: 8\nTgt: Ground\nRoA: 4\nHit: 3+\n<u><link=\"rule_chapter_8_7_4\">Surge</link></u>: -\nS.Die: -\nDmg: 1\nKeyword: -"
+    "Description": "Assault Weapon\nRng: 8\nTgt: Ground\nRoA: 4\nHit: 3+\nDmg: 1\n<u><link=\"rule_chapter_8_7_4\">Surge</link></u>: -\nS.Die: -\nKeyword: -"
   },
   {
     "Id": "pdf_Zerg_equipment_viles_roach_default_3",
     "Name": "VILE CLAWS",
     "Type": "Equipment",
-    "Description": "Combat Weapon\nRng: E\nTgt: Ground\nRoA: 2\nHit: 4+\n<u><link=\"rule_chapter_8_7_4\">Surge</link></u>: -\nS.Die: -\nDmg: 1\nKeyword: -"
+    "Description": "Combat Weapon\nRng: E\nTgt: Ground\nRoA: 2\nHit: 4+\nDmg: 1\n<u><link=\"rule_chapter_8_7_4\">Surge</link></u>: -\nS.Die: -\nKeyword: -"
   },
   {
     "Id": "pdf_Zerg_equipment_zagara_default_2",
     "Name": "ZAGARA'S TALONS",
     "Type": "Equipment",
-    "Description": "Assault Weapon\nRng: 8\nTgt: Ground\nRoA: 4\nHit: 3+\n<u><link=\"rule_chapter_8_7_4\">Surge</link></u>: Light, Armoured\nS.Die: D3\nDmg: 2\nKeyword: -"
+    "Description": "Assault Weapon\nRng: 8\nTgt: Ground\nRoA: 4\nHit: 3+\nDmg: 2\n<u><link=\"rule_chapter_8_7_4\">Surge</link></u>: Light, Armoured\nS.Die: D3\nKeyword: -"
   },
   {
     "Id": "pdf_Zerg_equipment_zagara_default_3",
     "Name": "ZAGARA'S ACID SPINES",
     "Type": "Equipment",
-    "Description": "Assault Weapon\nRng: 14\nTgt: <u><link=\"rule_keyword_flying\">Flying</link></u>\nRoA: 8\nHit: 3+\n<u><link=\"rule_chapter_8_7_4\">Surge</link></u>: Light, Armoured\nS.Die: D3\nDmg: 1\nKeyword: -"
+    "Description": "Assault Weapon\nRng: 14\nTgt: Air\nRoA: 8\nHit: 3+\nDmg: 1\n<u><link=\"rule_chapter_8_7_4\">Surge</link></u>: Light, Armoured\nS.Die: D3\nKeyword: -"
   },
   {
     "Id": "pdf_Zerg_equipment_zagara_default_5",
     "Name": "TALONS",
     "Type": "Equipment",
-    "Description": "Combat Weapon\nRng: E\nTgt: Ground\nRoA: 4\nHit: 3+\n<u><link=\"rule_chapter_8_7_4\">Surge</link></u>: -\nS.Die: -\nDmg: 1\nKeyword: -"
+    "Description": "Combat Weapon\nRng: E\nTgt: Ground\nRoA: 4\nHit: 3+\nDmg: 1\n<u><link=\"rule_chapter_8_7_4\">Surge</link></u>: -\nS.Die: -\nKeyword: -"
   },
   {
     "Id": "pdf_Zerg_equipment_zerglings_default_2",
     "Name": "CLAWS",
     "Type": "Equipment",
-    "Description": "Combat Weapon\nRng: E\nTgt: Ground\nRoA: 2\nHit: 4+\n<u><link=\"rule_chapter_8_7_4\">Surge</link></u>: Light\nS.Die: D3\nDmg: 1\nKeyword: -"
+    "Description": "Combat Weapon\nRng: E\nTgt: Ground\nRoA: 2\nHit: 4+\nDmg: 1\n<u><link=\"rule_chapter_8_7_4\">Surge</link></u>: Light\nS.Die: D3\nKeyword: -"
   },
   {
     "Id": "pdf_Zerg_equipment_zerglings_upgrade_1",
     "Name": "SHREDDING CLAWS",
     "Type": "Equipment",
-    "Description": "Combat Weapon\nRng: E\nTgt: Ground\nRoA: 2\nHit: 4+\n<u><link=\"rule_chapter_8_7_4\">Surge</link></u>: Light, Armoured\nS.Die: D3\nDmg: 1\nKeyword: -\nNotes: ↑ FOR CLAWS"
+    "Description": "Combat Weapon\nRng: E\nTgt: Ground\nRoA: 2\nHit: 4+\nDmg: 1\n<u><link=\"rule_chapter_8_7_4\">Surge</link></u>: Light, Armoured\nS.Die: D3\nKeyword: -\nNotes: FOR Claws"
   }
 ]

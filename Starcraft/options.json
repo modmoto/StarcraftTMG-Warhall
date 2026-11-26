@@ -180,6 +180,24 @@
     "ItemsToAdd": []
   },
   {
+    "Id": "Incinerator Gauntlets",
+    "Name": "Incinerator Gauntlets",
+    "Type": 1,
+    "ItemsToAdd": []
+  },
+  {
+    "Id": "Infested Missile Launcher - Acid Blast",
+    "Name": "Infested Missile Launcher - Acid Blast",
+    "Type": 1,
+    "ItemsToAdd": []
+  },
+  {
+    "Id": "Infested Missile Launcher - Scourgeshot",
+    "Name": "Infested Missile Launcher - Scourgeshot",
+    "Type": 1,
+    "ItemsToAdd": []
+  },
+  {
     "Id": "Internal Tech Module",
     "Name": "Internal Tech Module",
     "Type": 1,
@@ -228,14 +246,32 @@
     "ItemsToAdd": []
   },
   {
+    "Id": "Need A Light?",
+    "Name": "Need A Light?",
+    "Type": 1,
+    "ItemsToAdd": []
+  },
+  {
     "Id": "Path Of Shadows",
     "Name": "Path Of Shadows",
     "Type": 1,
     "ItemsToAdd": []
   },
   {
+    "Id": "Phasing Scarab",
+    "Name": "Phasing Scarab",
+    "Type": 1,
+    "ItemsToAdd": []
+  },
+  {
     "Id": "Plague",
     "Name": "Plague",
+    "Type": 1,
+    "ItemsToAdd": []
+  },
+  {
+    "Id": "Plagued Munitions",
+    "Name": "Plagued Munitions",
     "Type": 1,
     "ItemsToAdd": []
   },
@@ -300,6 +336,12 @@
     "ItemsToAdd": []
   },
   {
+    "Id": "Shuttle",
+    "Name": "Shuttle",
+    "Type": 1,
+    "ItemsToAdd": []
+  },
+  {
     "Id": "Slugthrower",
     "Name": "Slugthrower",
     "Type": 1,
@@ -308,6 +350,12 @@
   {
     "Id": "Smart Shells",
     "Name": "Smart Shells",
+    "Type": 1,
+    "ItemsToAdd": []
+  },
+  {
+    "Id": "Solarite Scarab",
+    "Name": "Solarite Scarab",
     "Type": 1,
     "ItemsToAdd": []
   },
@@ -338,6 +386,12 @@
   {
     "Id": "We Stand As One",
     "Name": "We Stand As One",
+    "Type": 1,
+    "ItemsToAdd": []
+  },
+  {
+    "Id": "Wild Mutation",
+    "Name": "Wild Mutation",
     "Type": 1,
     "ItemsToAdd": []
   },
@@ -403,6 +457,36 @@
       },
       {
         "Id": "pdf_Zerg_unit_omega_worm",
+        "Type": "Unit"
+      }
+    ]
+  },
+  {
+    "Id": "sc_import_extra_sc_card_protoss_tactics_tal_darim",
+    "Name": "Tal'darim",
+    "Type": 7,
+    "ExtraItems": [
+      {
+        "Id": "sc_card_protoss_tactics_tal_darim",
+        "Type": "Card"
+      },
+      {
+        "Id": "pdf_Protoss_unit_tal_darim_pylon",
+        "Type": "Unit"
+      }
+    ]
+  },
+  {
+    "Id": "sc_import_extra_sc_card_zerg_tactics_stukov_s_forces",
+    "Name": "Stukov's Forces",
+    "Type": 7,
+    "ExtraItems": [
+      {
+        "Id": "sc_card_zerg_tactics_stukov_s_forces",
+        "Type": "Card"
+      },
+      {
+        "Id": "pdf_Zerg_unit_infested_missile_turret",
         "Type": "Unit"
       }
     ]

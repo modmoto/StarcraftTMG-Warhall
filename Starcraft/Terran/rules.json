@@ -57,6 +57,109 @@
     "Children": []
   },
   {
+    "Id": "pdf_Terran_equipment_firebat_weapon_assault_phase_perdition_flamethrower_body",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Terran_equipment_firebat_weapon_assault_phase_perdition_flamethrower_table"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Terran_equipment_firebat_weapon_assault_phase_perdition_flamethrower_heading",
+    "Name": "",
+    "Type": "",
+    "Description": "<b>Perdition Flamethrower</b>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Terran_equipment_firebat_weapon_assault_phase_perdition_flamethrower_keyword_row",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Terran_equipment_firebat_weapon_assault_phase_perdition_flamethrower_keywords"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Terran_equipment_firebat_weapon_assault_phase_perdition_flamethrower_keywords",
+    "Name": "<color=#ffffff><u><link=\"rule_keyword_anti_evade\">ANTI-EVADE (1)</link></u>, <u><link=\"rule_keyword_instant\">INSTANT</link></u></color>",
+    "Type": "Imported",
+    "Description": "<u><link=\"rule_keyword_anti_evade\">ANTI-EVADE (1)</link></u>, <u><link=\"rule_keyword_instant\">INSTANT</link></u>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Terran_equipment_firebat_weapon_assault_phase_perdition_flamethrower_slot",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Terran_equipment_firebat_weapon_assault_phase_perdition_flamethrower_body"
+      },
+      {
+        "Id": "pdf_Terran_equipment_firebat_weapon_assault_phase_perdition_flamethrower_keyword_row"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Terran_equipment_firebat_weapon_assault_phase_perdition_flamethrower_table",
+    "Name": "<color=#ffffff><b>Assault Phase</b>\n<b>Perdition Flamethrower</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>8</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>2</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>Light (D3)</nobr><pos=86%><nobr>1</nobr></b></size></align></color>",
+    "Type": "Imported",
+    "Description": "<b>Assault Phase</b>\n<b>Perdition Flamethrower</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>8</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>2</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>Light (D3)</nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Terran_equipment_firebat_weapon_combat_phase_flame_strike_body",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Terran_equipment_firebat_weapon_combat_phase_flame_strike_table"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Terran_equipment_firebat_weapon_combat_phase_flame_strike_heading",
+    "Name": "",
+    "Type": "",
+    "Description": "<b>Flame Strike</b>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Terran_equipment_firebat_weapon_combat_phase_flame_strike_keyword_row",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Terran_equipment_firebat_weapon_combat_phase_flame_strike_slot",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Terran_equipment_firebat_weapon_combat_phase_flame_strike_body"
+      },
+      {
+        "Id": "pdf_Terran_equipment_firebat_weapon_combat_phase_flame_strike_keyword_row"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Terran_equipment_firebat_weapon_combat_phase_flame_strike_table",
+    "Name": "<color=#ffffff><b>Melee Phase</b>\n<b>Flame Strike</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>2</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>Light (D3)</nobr><pos=86%><nobr>1</nobr></b></size></align></color>",
+    "Type": "Imported",
+    "Description": "<b>Melee Phase</b>\n<b>Flame Strike</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>2</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>Light (D3)</nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Children": []
+  },
+  {
     "Id": "pdf_Terran_equipment_goliath_default_1_body",
     "Name": "",
     "Type": "Profile",
@@ -275,7 +378,7 @@
   },
   {
     "Id": "pdf_Terran_equipment_goliath_upgrade_1_choice",
-    "Name": "<color=#2596be>Scatter Missiles</color>",
+    "Name": "<color=#2596be>Scatter Missiles (Goliath)</color>",
     "Type": "Rule",
     "Description": "<b>Upgrade ability</b>\n\nReplace HELLFIRE MISSILES with SCATTER MISSILES.\n\n<b>SCATTER MISSILES</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr><color=#2596be>18</color></nobr><pos=14%><nobr><color=#2596be>Ground</color></nobr><pos=32%><nobr>6</nobr><pos=46%><nobr><color=#2596be>5+</color></nobr><pos=59%><nobr>Light (D3)</nobr><pos=86%><nobr>1</nobr></b></size></align>\n\n<u><link=\"rule_keyword_indirect_fire\"><color=#2596be>INDIRECT FIRE</color></link></u>, <u><link=\"rule_keyword_locked_in\"><color=#2596be>LOCKED IN (6)</color></link></u>, <u><link=\"rule_keyword_long_range\"><color=#2596be>LONG RANGE (24\")</color></link></u>, <u><link=\"rule_keyword_sidearm\">SIDEARM</link></u>"
   },
@@ -302,7 +405,7 @@
   },
   {
     "Id": "pdf_Terran_equipment_goliath_upgrade_2_choice",
-    "Name": "<color=#2596be>Haywire Missiles</color>",
+    "Name": "<color=#2596be>Haywire Missiles (Goliath)</color>",
     "Type": "Rule",
     "Description": "<b>Upgrade ability</b>\n\nReplace HELLFIRE MISSILES with HAYWIRE MISSILES.\n\n<b>HAYWIRE MISSILES</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr><color=#2596be>12</color></nobr><pos=14%><nobr><color=#2596be>Ground</color></nobr><pos=32%><nobr><color=#2596be>3</color></nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr><color=#2596be>Armored (D3)</color></nobr><pos=86%><nobr>1</nobr></b></size></align>\n\n<u><link=\"rule_keyword_pierce\"><color=#2596be>PIERCE Armoured (3)</color></link></u>, <u><link=\"rule_keyword_sidearm\">SIDEARM</link></u>"
   },
@@ -1455,6 +1558,24 @@
     ]
   },
   {
+    "Id": "pdf_Terran_profile_firebat_selected_options",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Terran_profile_firebat_stats",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Terran_stat_firebat"
+      }
+    ]
+  },
+  {
     "Id": "pdf_Terran_profile_goliath_selected_options",
     "Name": "",
     "Type": "Profile",
@@ -1689,16 +1810,34 @@
     ]
   },
   {
-    "Id": "pdf_Terran_rule_auto_turret_any_phase_timed_life",
-    "Name": "Timed Life",
-    "Type": "Rule",
-    "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Passive\n\nRemove this Unit at the End of the Round."
-  },
-  {
     "Id": "pdf_Terran_rule_auto_turret_assault_phase_overwatch",
-    "Name": "Overwatch",
+    "Name": "Overwatch (Auto-Turret)",
     "Type": "Rule",
     "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Reaction\n<b>Cost:</b> 0 CP\n\nUse when an <u><link=\"rule_keyword_enemy\">Enemy</link></u> Unit ends its Activation <u><link=\"rule_keyword_within\">Within</link></u> 8\" of this Unit. This Unit immediately performs a <u><link=\"rule_chapter_8_7_3\">Ranged Attack</link></u> against that <u><link=\"rule_keyword_enemy\">Enemy</link></u> Unit."
+  },
+  {
+    "Id": "pdf_Terran_rule_firebat_assault_phase_fire_it_up",
+    "Name": "Fire it Up",
+    "Type": "Rule",
+    "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Passive\n\nWhen this Unit makes a <u><link=\"rule_chapter_8_7_3\">Ranged Attack</link></u> with its Perdition Flamethrower, you may choose 1 model in this Unit to attack using a Flamer Template (FT) instead of rolling its regular Rate of Attack (RoA). If this Unit's <u><link=\"rule_keyword_current_supply_value\">Current Supply Value</link></u> is 2, you may choose up to 2 <u><link=\"rule_chapter_2_1\">models</link></u> to attack using Flamer Templates instead."
+  },
+  {
+    "Id": "pdf_Terran_rule_firebat_movement_phase_stimpack",
+    "Name": "Stimpack (Firebat)",
+    "Type": "Rule",
+    "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Active\n<b>Cost:</b> 1 CP\n\nThis Unit suffers <u><link=\"rule_keyword_non_lethal_damage\">NON-LETHAL DAMAGE</link></u> (2). This Unit gains <u><link=\"rule_keyword_buff\">BUFF</link></u> Speed (3), its Perdition Flamethrower and all Close Combat Weapons gain <u><link=\"rule_keyword_precision\">PRECISION</link></u> (3)."
+  },
+  {
+    "Id": "pdf_Terran_rule_firebat_upgrade_combat_phase_need_a_light",
+    "Name": "<color=#2596be>Need A Light?</color>",
+    "Type": "Rule",
+    "Description": "<b>Phase:</b> Melee Phase\n<b>Type:</b> Passive\n<b>Upgrade ability</b>\n\nWhen this Unit makes a Close Combat Attack with its Flame Strike, you may choose 1 model in this Unit to attack using a Flamer Template (FT) instead of rolling its regular Rate of Attack (RoA)."
+  },
+  {
+    "Id": "pdf_Terran_rule_firebat_upgrade_movement_phase_incinerator_gauntlets",
+    "Name": "<color=#2596be>Incinerator Gauntlets</color>",
+    "Type": "Rule",
+    "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Active\n<b>Cost:</b> 1 CP\n<b>Upgrade ability</b>\n\nSet a Fire Wall token <u><link=\"rule_keyword_within\">Within</link></u> 4\" in an unoccupied space. If a Unit’s <u><link=\"rule_keyword_leading_model\">Leading Model</link></u>’s path of travel passes through this token, or if any model in a Unit ends either a Move, Deploy, Run, <u><link=\"rule_chapter_8_7_7\">Charge</link></u>, <u><link=\"rule_chapter_8_5_4\">Disengage</link></u>, or Close Ranks action, or is Set <u><link=\"rule_keyword_within\">Within</link></u> 1\" of this token, remove the Fire Wall token from <u><link=\"rule_chapter_7\">the battlefield</link></u> before executing that move. If you do, that Unit suffers <u><link=\"rule_keyword_hits\">HITS</link></u> 5 (1). If that Unit performed a <u><link=\"rule_chapter_8_7_7\">Charge</link></u> action, it cannot resolve the <u><link=\"rule_keyword_impact\">IMPACT</link></u> effect."
   },
   {
     "Id": "pdf_Terran_rule_goliath_movement_phase_target_lock",
@@ -1710,7 +1849,7 @@
     "Id": "pdf_Terran_rule_goliath_upgrade_any_phase_ares_class_targeting_system",
     "Name": "<color=#2596be>Ares-Class Targeting System</color>",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Passive\n<b>Upgrade ability</b>\n\nThis Unit's Autocannon and Underbelly Machine Gun weapons gain <u><link=\"rule_keyword_precision\">PRECISION</link></u> (1)."
+    "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Passive\n<b>Upgrade ability</b>\n\nThis Unit’s Autocannon and Underbelly Machine Gun weapons gain <u><link=\"rule_keyword_precision\">PRECISION</link></u> (1)."
   },
   {
     "Id": "pdf_Terran_rule_goliath_upgrade_any_phase_ares_class_targeting_system_effect_0_heading",
@@ -1782,11 +1921,11 @@
     "Id": "pdf_Terran_rule_jim_raynor_movement_phase_orders",
     "Name": "Orders",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Active\n<b>Cost:</b> X CP\n\n<u><link=\"rule_keyword_repeatable\">REPEATABLE</link></u>. Select another <u><link=\"rule_keyword_friendly\">Friendly</link></u> Biological Unit <u><link=\"rule_keyword_within\">Within</link></u> 8\", spend CP and apply one of the following effects:\n1 CP: That Unit's first used weapon gains the <u><link=\"rule_keyword_critical_hit\">CRITICAL HIT</link></u> (2).\n1 CP: That Unit ignores the <u><link=\"rule_chapter_8_5_4\">Disengage</link></u> penalty for the remainder of the Round.\n2 CP: Remove the Activation Marker from that Unit."
+    "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Active\n<b>Cost:</b> X CP\n\n<u><link=\"rule_keyword_repeatable\">REPEATABLE</link></u>. Select another <u><link=\"rule_keyword_friendly\">Friendly</link></u> Biological Unit <u><link=\"rule_keyword_within\">Within</link></u> 8\", spend CP and apply one of the following effects:\n1 CP: That Unit’s first used weapon gains the <u><link=\"rule_keyword_critical_hit\">CRITICAL HIT</link></u> (2).\n1 CP: That Unit ignores the <u><link=\"rule_chapter_8_5_4\">Disengage</link></u> penalty for the remainder of the Round.\n2 CP: Remove the Activation Marker from that Unit."
   },
   {
-    "Id": "pdf_Terran_rule_marauders_assault_phase_concusive_shells",
-    "Name": "Concusive Shells",
+    "Id": "pdf_Terran_rule_marauders_assault_phase_concussive_shells",
+    "Name": "Concussive Shells",
     "Type": "Rule",
     "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Reaction\n<b>Cost:</b> 1 CP\n\nWhen an <u><link=\"rule_keyword_enemy\">Enemy</link></u> declares a <u><link=\"rule_chapter_8_7_7\">Charge</link></u> against a <u><link=\"rule_keyword_friendly\">Friendly</link></u> Unit <u><link=\"rule_keyword_within\">Within</link></u> 8\", that <u><link=\"rule_keyword_enemy\">Enemy</link></u> gains <u><link=\"rule_keyword_debuff\">DEBUFF</link></u> Speed (2)."
   },
@@ -1812,7 +1951,7 @@
     "Id": "pdf_Terran_rule_marauders_upgrade_assault_phase_laser_targeting_systems",
     "Name": "<color=#2596be>Laser Targeting Systems</color>",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Passive\n<b>Upgrade ability</b>\n\nThis Unit's Quad K12 weapon gains <u><link=\"rule_keyword_long_range\">LONG RANGE</link></u> (16\")."
+    "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Passive\n<b>Upgrade ability</b>\n\nThis Unit’s Quad K12 weapon gains <u><link=\"rule_keyword_long_range\">LONG RANGE</link></u> (16\")."
   },
   {
     "Id": "pdf_Terran_rule_marauders_upgrade_assault_phase_laser_targeting_systems_effect_0_heading",
@@ -1845,7 +1984,7 @@
     "Id": "pdf_Terran_rule_marines_upgrade_assault_phase_grenades_frag",
     "Name": "<color=#2596be>Grenades - Frag</color>",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Passive\n<b>Upgrade ability</b>\n\nWhen this Unit makes a <u><link=\"rule_chapter_8_7_3\">Ranged Attack</link></u> with a C-14 Rifle and the target is <u><link=\"rule_keyword_within\">Within</link></u> 8\", that weapon's S <u><link=\"rule_chapter_3_1\">Dice</link></u> is replaced by D6."
+    "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Passive\n<b>Upgrade ability</b>\n\nWhen this Unit makes a <u><link=\"rule_chapter_8_7_3\">Ranged Attack</link></u> with a C-14 Rifle and the target is <u><link=\"rule_keyword_within\">Within</link></u> 8\", that weapon’s S <u><link=\"rule_chapter_3_1\">Dice</link></u> is replaced by D6."
   },
   {
     "Id": "pdf_Terran_rule_marines_upgrade_assault_phase_grenades_frag_effect_0_heading",
@@ -1896,7 +2035,7 @@
     "Id": "pdf_Terran_rule_medics_movement_phase_optical_flare",
     "Name": "Optical Flare",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Active\n<b>Cost:</b> 2 CP\n\nSelect one <u><link=\"rule_keyword_enemy\">Enemy</link></u> Unit <u><link=\"rule_keyword_within\">Within</link></u> 12\". Until the End of the Round, apply <u><link=\"rule_keyword_debuff\">DEBUFF</link></u> Range (4) to that Unit's Ranged Weapons. That Unit cannot benefit from <u><link=\"rule_keyword_long_range\">LONG RANGE</link></u>."
+    "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Active\n<b>Cost:</b> 2 CP\n\nSelect one <u><link=\"rule_keyword_enemy\">Enemy</link></u> Unit <u><link=\"rule_keyword_within\">Within</link></u> 12\". Until the End of the Round, apply <u><link=\"rule_keyword_debuff\">DEBUFF</link></u> Range (4) to that Unit’s Ranged Weapons. That Unit cannot benefit from <u><link=\"rule_keyword_long_range\">LONG RANGE</link></u>."
   },
   {
     "Id": "pdf_Terran_rule_medics_upgrade_any_phase_a_13_flash_grenade_launcher",
@@ -1908,13 +2047,13 @@
     "Id": "pdf_Terran_rule_medics_upgrade_any_phase_a_13_flash_grenade_launcher_effect_0",
     "Name": "<color=#2596be>Optical Flare (Range 16\")</color>",
     "Type": "Rule",
-    "Description": "<b>Upgrade ability</b>\n\n<b>Phase:</b> Movement Phase\n<b>Type:</b> Active\n<b>Cost:</b> 2 CP\n\nSelect one <u><link=\"rule_keyword_enemy\">Enemy</link></u> Unit <u><link=\"rule_keyword_within\">Within</link></u> <color=#2596be>16\"</color>. Until the End of the Round, apply <u><link=\"rule_keyword_debuff\">DEBUFF</link></u> Range (4) to that Unit's Ranged Weapons. That Unit cannot benefit from <u><link=\"rule_keyword_long_range\">LONG RANGE</link></u>."
+    "Description": "<b>Upgrade ability</b>\n\n<b>Phase:</b> Movement Phase\n<b>Type:</b> Active\n<b>Cost:</b> 2 CP\n\nSelect one <u><link=\"rule_keyword_enemy\">Enemy</link></u> Unit <u><link=\"rule_keyword_within\">Within</link></u> <color=#2596be>16\"</color>. Until the End of the Round, apply <u><link=\"rule_keyword_debuff\">DEBUFF</link></u> Range (4) to that Unit’s Ranged Weapons. That Unit cannot benefit from <u><link=\"rule_keyword_long_range\">LONG RANGE</link></u>."
   },
   {
     "Id": "pdf_Terran_rule_medics_upgrade_any_phase_advanced_medic_facilities",
     "Name": "<color=#2596be>Advanced Medic Facilities</color>",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Passive\n<b>Upgrade ability</b>\n\nThis Unit's <u><link=\"rule_keyword_supply_value\">Supply Value</link></u> counts as 0 when calculating <u><link=\"rule_chapter_8_3_1\">the Supply Pool</link></u>."
+    "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Passive\n<b>Upgrade ability</b>\n\nThis Unit’s <u><link=\"rule_keyword_supply_value\">Supply Value</link></u> counts as 0 when calculating <u><link=\"rule_chapter_8_3_1\">the Supply Pool</link></u>."
   },
   {
     "Id": "pdf_Terran_rule_medics_upgrade_any_phase_stabilizer_medpacks",
@@ -2028,7 +2167,7 @@
     "Id": "pdf_Terran_rule_raynor_s_raiders_assault_phase_grenades_frag",
     "Name": "Grenades - Frag",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Passive\n\nWhen this Unit makes a <u><link=\"rule_chapter_8_7_3\">Ranged Attack</link></u> with a C-14 Rifle and the target is <u><link=\"rule_keyword_within\">Within</link></u> 8\", that weapon's S <u><link=\"rule_chapter_3_1\">Dice</link></u> is replaced by D6."
+    "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Passive\n\nWhen this Unit makes a <u><link=\"rule_chapter_8_7_3\">Ranged Attack</link></u> with a C-14 Rifle and the target is <u><link=\"rule_keyword_within\">Within</link></u> 8\", that weapon’s S <u><link=\"rule_chapter_3_1\">Dice</link></u> is replaced by D6."
   },
   {
     "Id": "pdf_Terran_rule_raynor_s_raiders_assault_phase_slugthrower",
@@ -2050,7 +2189,7 @@
   },
   {
     "Id": "pdf_Terran_rule_sabotage_drone_assault_phase_have_a_nice_day",
-    "Name": "Have A Nice Day",
+    "Name": "Have a Nice Day",
     "Type": "Rule",
     "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Passive\n\nAt the End of the Assault Phase, target each Unit <u><link=\"rule_keyword_within\">Within</link></u> 3\" of this Unit (including <u><link=\"rule_chapter_2_2\">Units</link></u> with the <u><link=\"pdf_Protoss_rule_pylon_any_phase_structure\">Structure</link></u> ability) suffers <u><link=\"rule_keyword_hits\">HITS</link></u> 5 (1). If an affected Unit has the <u><link=\"pdf_Protoss_rule_pylon_any_phase_structure\">Structure</link></u> ability, that Unit suffers an additional <u><link=\"rule_keyword_hits\">HITS</link></u> 5 (1)."
   },
@@ -2059,12 +2198,6 @@
     "Name": "Heavy Plating",
     "Type": "Rule",
     "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Passive\n\nWhen this Unit resolves an <u><link=\"rule_chapter_8_7_4\">Armour Roll</link></u>, it gains <u><link=\"rule_keyword_tough\">TOUGH</link></u> (1), provided it does not currently have the <u><link=\"rule_keyword_siege_mode\">SIEGE MODE</link></u> <u><link=\"rule_keyword_status\">Status</link></u>."
-  },
-  {
-    "Id": "pdf_Terran_rule_siege_tank_any_phase_large",
-    "Name": "Large",
-    "Type": "Rule",
-    "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Passive\n\nWhen this Unit's <u><link=\"rule_keyword_leading_model\">Leading Model</link></u> moves, it cannot pass through physical gaps smaller than 3\" wide, regardless of its size. If <u><link=\"rule_chapter_4_3\">the Leading Model</link></u>'s path of travel passes through, or any model in this Unit ends its movement on a Size 0 or Size 1 Impassible Terrain piece (excluding <u><link=\"rule_chapter_7_3_1\">Tokens</link></u>) during any movement action, that terrain piece is immediately removed from the game."
   },
   {
     "Id": "pdf_Terran_rule_siege_tank_assault_phase_aftershock_rounds",

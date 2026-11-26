@@ -1394,12 +1394,12 @@
     "kind": "unit",
     "authoredSizeMm": [
       62.371389588657124,
-      63.31964079061319,
+      63.319640790613214,
       66.8731575280423
     ],
     "correctedSizeMm": [
       62.371389588657124,
-      63.31964079061319,
+      63.319640790613214,
       66.8731575280423
     ],
     "scaleAdjustment": 1,
@@ -1409,7 +1409,7 @@
         "format": "unity",
         "sourceSize": [
           2.128158896878981,
-          2.1605139437238248,
+          2.160513943723825,
           2.281762617351956
         ],
         "cacheScale": 1.1538454778163618,
@@ -1673,6 +1673,524 @@
         ],
         "cacheScale": 1.35,
         "apiScale": 0.6948924187500001,
+        "partCount": 1
+      }
+    ],
+    "rotations": [
+      [
+        0,
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "profileId": "pdf_Terran_profile_firebat",
+    "name": "Starcraft - Firebat",
+    "kind": "unit",
+    "authoredSizeMm": [
+      30.541793947190897,
+      35.484945960617665,
+      36.818943262007146
+    ],
+    "correctedSizeMm": [
+      30.541793947190897,
+      35.484945960617665,
+      36.818943262007146
+    ],
+    "scaleAdjustment": 1,
+    "portableParts": 0,
+    "sourceParts": [
+      {
+        "format": "glb",
+        "sourceSize": [
+          3.0541793947190903,
+          3.548494596061767,
+          3.681894326200715
+        ],
+        "cacheScale": 0.39370078740157477,
+        "apiScale": 0.39370078740157477,
+        "partCount": 1
+      }
+    ],
+    "rotations": [
+      [
+        0,
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "profileId": "pdf_Protoss_profile_reaver",
+    "name": "Starcraft - Reaver",
+    "kind": "unit",
+    "authoredSizeMm": [
+      84.81000952471653,
+      66.90620504280601,
+      150.99178796897232
+    ],
+    "correctedSizeMm": [
+      84.81000952471653,
+      66.90620504280601,
+      150.99178796897232
+    ],
+    "scaleAdjustment": 1,
+    "portableParts": 0,
+    "sourceParts": [
+      {
+        "format": "glb",
+        "sourceSize": [
+          8.481000952471653,
+          6.690620504280602,
+          15.099178796897231
+        ],
+        "cacheScale": 0.39370078740157477,
+        "apiScale": 0.39370078740157477,
+        "partCount": 1
+      }
+    ],
+    "rotations": [
+      [
+        0,
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "profileId": "pdf_Protoss_profile_scarab",
+    "name": "Starcraft - Scarab",
+    "kind": "unit",
+    "authoredSizeMm": [
+      26.081602967845107,
+      17.030047648085723,
+      31.650997368786577
+    ],
+    "correctedSizeMm": [
+      26.081602967845107,
+      17.030047648085723,
+      31.650997368786577
+    ],
+    "scaleAdjustment": 1,
+    "portableParts": 0,
+    "sourceParts": [
+      {
+        "format": "glb",
+        "sourceSize": [
+          2.6081602967845106,
+          1.7030047648085727,
+          3.165099736878658
+        ],
+        "cacheScale": 0.39370078740157477,
+        "apiScale": 0.39370078740157477,
+        "partCount": 1
+      }
+    ],
+    "rotations": [
+      [
+        0,
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "profileId": "pdf_Protoss_profile_solarite_scarab",
+    "name": "Starcraft - Solarite Scarab",
+    "kind": "unit",
+    "authoredSizeMm": [
+      26.08169854885286,
+      17.03170463531417,
+      31.65218725705118
+    ],
+    "correctedSizeMm": [
+      26.08169854885286,
+      17.03170463531417,
+      31.65218725705118
+    ],
+    "scaleAdjustment": 1,
+    "portableParts": 0,
+    "sourceParts": [
+      {
+        "format": "glb",
+        "sourceSize": [
+          2.6081698548852863,
+          1.703170463531417,
+          3.1652187257051185
+        ],
+        "cacheScale": 0.39370078740157477,
+        "apiScale": 0.39370078740157477,
+        "partCount": 1
+      }
+    ],
+    "rotations": [
+      [
+        0,
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "profileId": "pdf_Protoss_profile_phasing_scarab",
+    "name": "Starcraft - Phasing Scarab",
+    "kind": "unit",
+    "authoredSizeMm": [
+      26.081166144893384,
+      17.0353404294794,
+      31.653315000302857
+    ],
+    "correctedSizeMm": [
+      26.081166144893384,
+      17.0353404294794,
+      31.653315000302857
+    ],
+    "scaleAdjustment": 1,
+    "portableParts": 0,
+    "sourceParts": [
+      {
+        "format": "glb",
+        "sourceSize": [
+          2.608116614489339,
+          1.7035340429479404,
+          3.1653315000302866
+        ],
+        "cacheScale": 0.39370078740157477,
+        "apiScale": 0.39370078740157477,
+        "partCount": 1
+      }
+    ],
+    "rotations": [
+      [
+        0,
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "profileId": "pdf_Protoss_profile_alarak",
+    "name": "Starcraft - Alarak",
+    "kind": "unit",
+    "authoredSizeMm": [
+      40.76032757148329,
+      50.705788673042264,
+      40.65029172653075
+    ],
+    "correctedSizeMm": [
+      40.76032757148329,
+      50.705788673042264,
+      40.65029172653075
+    ],
+    "scaleAdjustment": 1,
+    "portableParts": 0,
+    "sourceParts": [
+      {
+        "format": "glb",
+        "sourceSize": [
+          4.0760327571483295,
+          5.070578867304227,
+          4.065029172653076
+        ],
+        "cacheScale": 0.39370078740157477,
+        "apiScale": 0.39370078740157477,
+        "partCount": 1
+      }
+    ],
+    "rotations": [
+      [
+        0,
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "profileId": "pdf_Protoss_profile_slayer_stalker",
+    "name": "Starcraft - Slayer (Stalker)",
+    "kind": "unit",
+    "authoredSizeMm": [
+      73.8243197795733,
+      86.09287578686494,
+      76.25648842554165
+    ],
+    "correctedSizeMm": [
+      73.8243197795733,
+      86.09287578686494,
+      76.25648842554165
+    ],
+    "scaleAdjustment": 1,
+    "portableParts": 0,
+    "sourceParts": [
+      {
+        "format": "glb",
+        "sourceSize": [
+          7.38243197795733,
+          8.609287578686496,
+          7.625648842554167
+        ],
+        "cacheScale": 0.39370078740157477,
+        "apiScale": 0.39370078740157477,
+        "partCount": 1
+      }
+    ],
+    "rotations": [
+      [
+        0,
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "profileId": "pdf_Protoss_profile_tal_darim_pylon",
+    "name": "Starcraft - Tal'darim Pylon",
+    "kind": "unit",
+    "authoredSizeMm": [
+      60.03344204938813,
+      108.26874613888172,
+      63.52001647267031
+    ],
+    "correctedSizeMm": [
+      60.03344204938813,
+      108.26874613888172,
+      63.52001647267031
+    ],
+    "scaleAdjustment": 1,
+    "portableParts": 0,
+    "sourceParts": [
+      {
+        "format": "glb",
+        "sourceSize": [
+          6.003344204938813,
+          10.826874613888174,
+          6.3520016472670315
+        ],
+        "cacheScale": 0.39370078740157477,
+        "apiScale": 0.39370078740157477,
+        "partCount": 1
+      }
+    ],
+    "rotations": [
+      [
+        0,
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "profileId": "pdf_Zerg_profile_stukov",
+    "name": "Starcraft - Stukov",
+    "kind": "unit",
+    "authoredSizeMm": [
+      28.144469525902824,
+      43.266491876399925,
+      24.046401695108635
+    ],
+    "correctedSizeMm": [
+      28.144469525902824,
+      43.266491876399925,
+      24.046401695108635
+    ],
+    "scaleAdjustment": 1,
+    "portableParts": 0,
+    "sourceParts": [
+      {
+        "format": "glb",
+        "sourceSize": [
+          2.814446952590283,
+          4.326649187639993,
+          2.404640169510864
+        ],
+        "cacheScale": 0.39370078740157477,
+        "apiScale": 0.39370078740157477,
+        "partCount": 1
+      }
+    ],
+    "rotations": [
+      [
+        0,
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "profileId": "pdf_Zerg_profile_infested_marine",
+    "name": "Starcraft - Infested Marine",
+    "kind": "unit",
+    "authoredSizeMm": [
+      39.4847443100666,
+      51.22746549900229,
+      40.42939693161594
+    ],
+    "correctedSizeMm": [
+      39.4847443100666,
+      51.22746549900229,
+      40.42939693161594
+    ],
+    "scaleAdjustment": 1,
+    "portableParts": 0,
+    "sourceParts": [
+      {
+        "format": "glb",
+        "sourceSize": [
+          3.9484744310066615,
+          5.1227465499002305,
+          4.042939693161594
+        ],
+        "cacheScale": 0.39370078740157477,
+        "apiScale": 0.39370078740157477,
+        "partCount": 1
+      }
+    ],
+    "rotations": [
+      [
+        0,
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "profileId": "pdf_Zerg_profile_infested_trooper",
+    "name": "Starcraft - Infested Trooper",
+    "kind": "unit",
+    "authoredSizeMm": [
+      37.53495052148465,
+      46.26825869800364,
+      46.15171364577681
+    ],
+    "correctedSizeMm": [
+      37.53495052148465,
+      46.26825869800364,
+      46.15171364577681
+    ],
+    "scaleAdjustment": 1,
+    "portableParts": 0,
+    "sourceParts": [
+      {
+        "format": "glb",
+        "sourceSize": [
+          3.753495052148466,
+          4.626825869800365,
+          4.615171364577682
+        ],
+        "cacheScale": 0.39370078740157477,
+        "apiScale": 0.39370078740157477,
+        "partCount": 1
+      }
+    ],
+    "rotations": [
+      [
+        0,
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "profileId": "pdf_Zerg_profile_infested_missile_turret",
+    "name": "Starcraft - Infested Missile Turret",
+    "kind": "unit",
+    "authoredSizeMm": [
+      70.85171895878301,
+      97.0702921618192,
+      79.2293702362011
+    ],
+    "correctedSizeMm": [
+      70.85171895878301,
+      97.0702921618192,
+      79.2293702362011
+    ],
+    "scaleAdjustment": 1,
+    "portableParts": 0,
+    "sourceParts": [
+      {
+        "format": "glb",
+        "sourceSize": [
+          7.085171895878302,
+          9.70702921618192,
+          7.922937023620113
+        ],
+        "cacheScale": 0.39370078740157477,
+        "apiScale": 0.39370078740157477,
+        "partCount": 1
+      }
+    ],
+    "rotations": [
+      [
+        0,
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "profileId": "pdf_Zerg_profile_infested_siege_tank",
+    "name": "Starcraft - Infested Siege Tank",
+    "kind": "unit",
+    "authoredSizeMm": [
+      147.20570827900363,
+      89.22859611560177,
+      139.76337398348517
+    ],
+    "correctedSizeMm": [
+      147.20570827900363,
+      89.22859611560177,
+      139.76337398348517
+    ],
+    "scaleAdjustment": 1,
+    "portableParts": 0,
+    "sourceParts": [
+      {
+        "format": "glb",
+        "sourceSize": [
+          14.720570827900364,
+          8.92285961156018,
+          13.976337398348516
+        ],
+        "cacheScale": 0.39370078740157477,
+        "apiScale": 0.39370078740157477,
+        "partCount": 1
+      }
+    ],
+    "rotations": [
+      [
+        0,
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "profileId": "pdf_Zerg_profile_infested_goliath",
+    "name": "Starcraft - Infested Goliath",
+    "kind": "unit",
+    "authoredSizeMm": [
+      78.0163061607254,
+      98.09230098663006,
+      83.67913397326078
+    ],
+    "correctedSizeMm": [
+      78.0163061607254,
+      98.09230098663006,
+      83.67913397326078
+    ],
+    "scaleAdjustment": 1,
+    "portableParts": 0,
+    "sourceParts": [
+      {
+        "format": "glb",
+        "sourceSize": [
+          7.801630616072542,
+          9.809230098663008,
+          8.36791339732608
+        ],
+        "cacheScale": 0.39370078740157477,
+        "apiScale": 0.39370078740157477,
         "partCount": 1
       }
     ],

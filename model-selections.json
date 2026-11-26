@@ -1411,6 +1411,454 @@
           "scaleZ": 1.35
         }
       }
+    },
+    {
+      "faction": "Terran",
+      "unitId": "pdf_Terran_unit_firebat",
+      "unitName": "Firebat",
+      "role": "Wave 4",
+      "pose": "authored TTS pose",
+      "status": "selected",
+      "preserveSourceColors": true,
+      "notes": "Public Wave 4 table model 8cac6c; baked actual child geometry and attachments, omitted dummy base.",
+      "model": {
+        "sourceName": "Firebat",
+        "workshopId": "3662791369",
+        "guid": "8cac6c",
+        "meshUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/46a010fa20c598954161d0462399f188cac00a586d44bba824f3df8cc37c1962.glb",
+        "textureUrl": null,
+        "hostedAsset": true,
+        "previewGeometryFile": "model-assets/46a010fa20c598954161d0462399f188cac00a586d44bba824f3df8cc37c1962.glb.preview.json"
+      },
+      "layout": {
+        "size": 0.39370078740157477,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "faction": "Protoss",
+      "unitId": "pdf_Protoss_unit_reaver",
+      "unitName": "Reaver",
+      "role": "Wave 4",
+      "pose": "authored TTS pose",
+      "status": "selected",
+      "preserveSourceColors": true,
+      "notes": "Public Wave 4 table model f04424; baked actual child geometry and attachments, omitted dummy base.",
+      "model": {
+        "sourceName": "Reaver",
+        "workshopId": "3662791369",
+        "guid": "f04424",
+        "meshUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/dc6021635d9b88e4973115a0e68224d7ab9eaa748e3c2282feb7a61fae5fc1ef.glb",
+        "textureUrl": null,
+        "hostedAsset": true,
+        "previewGeometryFile": "model-assets/dc6021635d9b88e4973115a0e68224d7ab9eaa748e3c2282feb7a61fae5fc1ef.glb.preview.json"
+      },
+      "layout": {
+        "size": 0.39370078740157477,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "faction": "Protoss",
+      "unitId": "pdf_Protoss_unit_scarab",
+      "unitName": "Scarab",
+      "role": "Wave 4",
+      "pose": "authored TTS pose",
+      "status": "selected",
+      "preserveSourceColors": true,
+      "notes": "Public Wave 4 table model 4e1311; baked actual child geometry and attachments, omitted dummy base.",
+      "model": {
+        "sourceName": "Scarab",
+        "workshopId": "3662791369",
+        "guid": "4e1311",
+        "meshUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/a621a6bb9477efa395a41b46dba2e868ddb5a476226198415e72e789a225018e.glb",
+        "textureUrl": null,
+        "hostedAsset": true,
+        "previewGeometryFile": "model-assets/a621a6bb9477efa395a41b46dba2e868ddb5a476226198415e72e789a225018e.glb.preview.json"
+      },
+      "layout": {
+        "size": 0.39370078740157477,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "faction": "Protoss",
+      "unitId": "pdf_Protoss_unit_solarite_scarab",
+      "unitName": "Solarite Scarab",
+      "role": "Wave 4",
+      "pose": "authored TTS pose",
+      "status": "selected",
+      "preserveSourceColors": true,
+      "notes": "Public Wave 4 table model 42bd78; baked actual child geometry and attachments, omitted dummy base.",
+      "model": {
+        "sourceName": "Solarite Scarab",
+        "workshopId": "3662791369",
+        "guid": "42bd78",
+        "meshUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/f58028d0c52d3bf3a088c4dc10472fddd41159d7abaf9943b4ec6adda3b73263.glb",
+        "textureUrl": null,
+        "hostedAsset": true,
+        "previewGeometryFile": "model-assets/f58028d0c52d3bf3a088c4dc10472fddd41159d7abaf9943b4ec6adda3b73263.glb.preview.json"
+      },
+      "layout": {
+        "size": 0.39370078740157477,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "faction": "Protoss",
+      "unitId": "pdf_Protoss_unit_phasing_scarab",
+      "unitName": "Phasing Scarab",
+      "role": "Wave 4",
+      "pose": "authored TTS pose",
+      "status": "selected",
+      "preserveSourceColors": true,
+      "notes": "Public Wave 4 table model f06aab; baked actual child geometry and attachments, omitted dummy base.",
+      "model": {
+        "sourceName": "Phasing Scarab",
+        "workshopId": "3662791369",
+        "guid": "f06aab",
+        "meshUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/d7f9ebe0f8e4791ef7971609674c4f4f2b2840a007bf86f89ebbad7b7694d0a9.glb",
+        "textureUrl": null,
+        "hostedAsset": true,
+        "previewGeometryFile": "model-assets/d7f9ebe0f8e4791ef7971609674c4f4f2b2840a007bf86f89ebbad7b7694d0a9.glb.preview.json"
+      },
+      "layout": {
+        "size": 0.39370078740157477,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "faction": "Protoss",
+      "unitId": "pdf_Protoss_unit_alarak",
+      "unitName": "Alarak",
+      "role": "Wave 4",
+      "pose": "authored TTS pose",
+      "status": "selected",
+      "preserveSourceColors": true,
+      "notes": "Public Wave 4 table model 31e5cb; baked actual child geometry and attachments, omitted dummy base.",
+      "model": {
+        "sourceName": "Alarak",
+        "workshopId": "3662791369",
+        "guid": "31e5cb",
+        "meshUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/778f2bd1c1b1a6cfd648365fbc3094e03b12e1650683e34937728befba460e1d.glb",
+        "textureUrl": null,
+        "hostedAsset": true,
+        "previewGeometryFile": "model-assets/778f2bd1c1b1a6cfd648365fbc3094e03b12e1650683e34937728befba460e1d.glb.preview.json"
+      },
+      "layout": {
+        "size": 0.39370078740157477,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "faction": "Protoss",
+      "unitId": "pdf_Protoss_unit_slayer_stalker",
+      "unitName": "Slayer (Stalker)",
+      "role": "Wave 4",
+      "pose": "authored TTS pose",
+      "status": "selected",
+      "preserveSourceColors": true,
+      "notes": "Public Wave 4 table model bc51aa; baked actual child geometry and attachments, omitted dummy base.",
+      "model": {
+        "sourceName": "Slayer (Stalker)",
+        "workshopId": "3662791369",
+        "guid": "bc51aa",
+        "meshUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/d5ecbe1da4ad04aa1a602c45ef3dcdb871cd2d1229e5c20074eb2e4bf13501f1.glb",
+        "textureUrl": null,
+        "hostedAsset": true,
+        "previewGeometryFile": "model-assets/d5ecbe1da4ad04aa1a602c45ef3dcdb871cd2d1229e5c20074eb2e4bf13501f1.glb.preview.json"
+      },
+      "layout": {
+        "size": 0.39370078740157477,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "faction": "Protoss",
+      "unitId": "pdf_Protoss_unit_tal_darim_pylon",
+      "unitName": "Tal'darim Pylon",
+      "role": "Wave 4",
+      "pose": "authored TTS pose",
+      "status": "selected",
+      "preserveSourceColors": true,
+      "notes": "Public Wave 4 table model 32ea7f; baked actual child geometry and attachments, omitted dummy base.",
+      "model": {
+        "sourceName": "Tal'darim Pylon",
+        "workshopId": "3662791369",
+        "guid": "32ea7f",
+        "meshUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/87f395db6cf11baee04038d2117b53bfa69b923925f00e1414c588e88ace32be.glb",
+        "textureUrl": null,
+        "hostedAsset": true,
+        "previewGeometryFile": "model-assets/87f395db6cf11baee04038d2117b53bfa69b923925f00e1414c588e88ace32be.glb.preview.json"
+      },
+      "layout": {
+        "size": 0.39370078740157477,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "faction": "Zerg",
+      "unitId": "pdf_Zerg_unit_stukov",
+      "unitName": "Stukov",
+      "role": "Wave 4",
+      "pose": "authored TTS pose",
+      "status": "selected",
+      "preserveSourceColors": true,
+      "notes": "Public Wave 4 table model bf1b13; baked actual child geometry and attachments, omitted dummy base.",
+      "model": {
+        "sourceName": "Stukov",
+        "workshopId": "3662791369",
+        "guid": "bf1b13",
+        "meshUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/b68a4bf2115832b7b965f69cb04af9ca9cdc27746d43bbec3e82119cb12a5545.glb",
+        "textureUrl": null,
+        "hostedAsset": true,
+        "previewGeometryFile": "model-assets/b68a4bf2115832b7b965f69cb04af9ca9cdc27746d43bbec3e82119cb12a5545.glb.preview.json"
+      },
+      "layout": {
+        "size": 0.39370078740157477,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "faction": "Zerg",
+      "unitId": "pdf_Zerg_unit_infested_marine",
+      "unitName": "Infested Marine",
+      "role": "Wave 4",
+      "pose": "authored TTS pose",
+      "status": "selected",
+      "preserveSourceColors": true,
+      "notes": "Public Wave 4 table model 6365c1; baked actual child geometry and attachments, omitted dummy base.",
+      "model": {
+        "sourceName": "Infested Marine",
+        "workshopId": "3662791369",
+        "guid": "6365c1",
+        "meshUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/2a209ee9c858c1264e01ce0031b9851aced08e7d5c64ab1225bec27d6331e7ff.glb",
+        "textureUrl": null,
+        "hostedAsset": true,
+        "previewGeometryFile": "model-assets/2a209ee9c858c1264e01ce0031b9851aced08e7d5c64ab1225bec27d6331e7ff.glb.preview.json"
+      },
+      "layout": {
+        "size": 0.39370078740157477,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "faction": "Zerg",
+      "unitId": "pdf_Zerg_unit_infested_trooper",
+      "unitName": "Infested Trooper",
+      "role": "Wave 4",
+      "pose": "authored TTS pose",
+      "status": "selected",
+      "preserveSourceColors": true,
+      "notes": "Public Wave 4 table model 4700dd; baked actual child geometry and attachments, omitted dummy base.",
+      "model": {
+        "sourceName": "Infested Trooper",
+        "workshopId": "3662791369",
+        "guid": "4700dd",
+        "meshUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/40b9adfab6d1db19558c0da60e3a943024492d89cd6cb5e18451356075f13d44.glb",
+        "textureUrl": null,
+        "hostedAsset": true,
+        "previewGeometryFile": "model-assets/40b9adfab6d1db19558c0da60e3a943024492d89cd6cb5e18451356075f13d44.glb.preview.json"
+      },
+      "layout": {
+        "size": 0.39370078740157477,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "faction": "Zerg",
+      "unitId": "pdf_Zerg_unit_infested_missile_turret",
+      "unitName": "Infested Missile Turret",
+      "role": "Wave 4",
+      "pose": "authored TTS pose",
+      "status": "selected",
+      "preserveSourceColors": true,
+      "notes": "Public Wave 4 table model 31e1bd; baked actual child geometry and attachments, omitted dummy base.",
+      "model": {
+        "sourceName": "Infested Missile Turret",
+        "workshopId": "3662791369",
+        "guid": "31e1bd",
+        "meshUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/20daa71d822ceafa2974cd3c5c20146cdce94f32c489d39ebf0c244805b02494.glb",
+        "textureUrl": null,
+        "hostedAsset": true,
+        "previewGeometryFile": "model-assets/20daa71d822ceafa2974cd3c5c20146cdce94f32c489d39ebf0c244805b02494.glb.preview.json"
+      },
+      "layout": {
+        "size": 0.39370078740157477,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "faction": "Zerg",
+      "unitId": "pdf_Zerg_unit_infested_siege_tank",
+      "unitName": "Infested Siege Tank",
+      "role": "Wave 4",
+      "pose": "authored TTS pose",
+      "status": "selected",
+      "preserveSourceColors": true,
+      "notes": "Public Wave 4 table model 664d1e; baked actual child geometry and attachments, omitted dummy base.",
+      "model": {
+        "sourceName": "Infested Siege Tank",
+        "workshopId": "3662791369",
+        "guid": "664d1e",
+        "meshUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/fd08b0d0ae50fd81e9d3f495240975ddd0302610ac709659f4be75a59ac18cd3.glb",
+        "textureUrl": null,
+        "hostedAsset": true,
+        "previewGeometryFile": "model-assets/fd08b0d0ae50fd81e9d3f495240975ddd0302610ac709659f4be75a59ac18cd3.glb.preview.json"
+      },
+      "layout": {
+        "size": 0.39370078740157477,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "faction": "Zerg",
+      "unitId": "pdf_Zerg_unit_infested_goliath",
+      "unitName": "Infested Goliath",
+      "role": "Wave 4",
+      "pose": "authored TTS pose",
+      "status": "selected",
+      "preserveSourceColors": true,
+      "notes": "Public Wave 4 table model ec563b; baked actual child geometry and attachments, omitted dummy base.",
+      "model": {
+        "sourceName": "Infested Goliath",
+        "workshopId": "3662791369",
+        "guid": "ec563b",
+        "meshUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/f5ec123629e9a43246c8337aa248a52e07cfd7add40ae9e80bdec848b8b1c8d4.glb",
+        "textureUrl": null,
+        "hostedAsset": true,
+        "previewGeometryFile": "model-assets/f5ec123629e9a43246c8337aa248a52e07cfd7add40ae9e80bdec848b8b1c8d4.glb.preview.json"
+      },
+      "layout": {
+        "size": 0.39370078740157477,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      }
     }
   ]
 }

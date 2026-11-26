@@ -1,0 +1,20 @@
+{
+  "checked": 118,
+  "orderIndependent": 116,
+  "collisions": [
+    {
+      "unit": "Goliath",
+      "options": [
+        "Haywire Missiles",
+        "Scatter Missiles"
+      ]
+    },
+    {
+      "unit": "Infested Goliath",
+      "options": [
+        "Haywire Missiles",
+        "Scatter Missiles"
+      ]
+    }
+  ]
+}

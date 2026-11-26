@@ -314,6 +314,774 @@
     "Children": []
   },
   {
+    "Id": "pdf_Zerg_equipment_infested_goliath_upgrade_weapon_assault_phase_haywire_missiles_choice",
+    "Name": "<color=#2596be>Haywire Missiles (Infested Goliath)</color>",
+    "Type": "Rule",
+    "Description": "<b>Upgrade ability</b>\n\nReplace Hellfire Missiles with Haywire Missiles.\n\n<b>Haywire Missiles</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr><color=#2596be>12</color></nobr><pos=14%><nobr><color=#2596be>Ground</color></nobr><pos=32%><nobr><color=#2596be>3</color></nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr><color=#2596be>Armored (D3)</color></nobr><pos=86%><nobr>1</nobr></b></size></align>\n\n<u><link=\"rule_keyword_pierce\"><color=#2596be>PIERCE Armoured (3)</color></link></u>, <u><link=\"rule_keyword_sidearm\">SIDEARM</link></u>"
+  },
+  {
+    "Id": "pdf_Zerg_equipment_infested_goliath_upgrade_weapon_assault_phase_haywire_missiles_heading",
+    "Name": "",
+    "Type": "",
+    "Description": "<b>Haywire Missiles</b>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Zerg_equipment_infested_goliath_upgrade_weapon_assault_phase_haywire_missiles_keywords",
+    "Name": "<color=#ffffff><u><link=\"rule_keyword_pierce\"><color=#2596be>PIERCE Armoured (3)</color></link></u>, <u><link=\"rule_keyword_sidearm\">SIDEARM</link></u></color>",
+    "Type": "Imported",
+    "Description": "<u><link=\"rule_keyword_pierce\"><color=#2596be>PIERCE Armoured (3)</color></link></u>, <u><link=\"rule_keyword_sidearm\">SIDEARM</link></u>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Zerg_equipment_infested_goliath_upgrade_weapon_assault_phase_haywire_missiles_table",
+    "Name": "<color=#ffffff><b>Haywire Missiles</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr><color=#2596be>12</color></nobr><pos=14%><nobr><color=#2596be>Ground</color></nobr><pos=32%><nobr><color=#2596be>3</color></nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr><color=#2596be>Armored (D3)</color></nobr><pos=86%><nobr>1</nobr></b></size></align></color>",
+    "Type": "Imported",
+    "Description": "<b>Haywire Missiles</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr><color=#2596be>12</color></nobr><pos=14%><nobr><color=#2596be>Ground</color></nobr><pos=32%><nobr><color=#2596be>3</color></nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr><color=#2596be>Armored (D3)</color></nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Zerg_equipment_infested_goliath_upgrade_weapon_assault_phase_scatter_missiles_choice",
+    "Name": "<color=#2596be>Scatter Missiles (Infested Goliath)</color>",
+    "Type": "Rule",
+    "Description": "<b>Upgrade ability</b>\n\nReplace Hellfire Missiles with Scatter Missiles.\n\n<b>Scatter Missiles</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr><color=#2596be>18</color></nobr><pos=14%><nobr><color=#2596be>Ground</color></nobr><pos=32%><nobr>6</nobr><pos=46%><nobr><color=#2596be>5+</color></nobr><pos=59%><nobr>Light (D3)</nobr><pos=86%><nobr>1</nobr></b></size></align>\n\n<u><link=\"rule_keyword_indirect_fire\"><color=#2596be>INDIRECT FIRE</color></link></u>, <u><link=\"rule_keyword_locked_in\"><color=#2596be>LOCKED IN (6)</color></link></u>, <u><link=\"rule_keyword_long_range\"><color=#2596be>LONG RANGE (24\")</color></link></u>, <u><link=\"rule_keyword_sidearm\">SIDEARM</link></u>"
+  },
+  {
+    "Id": "pdf_Zerg_equipment_infested_goliath_upgrade_weapon_assault_phase_scatter_missiles_heading",
+    "Name": "",
+    "Type": "",
+    "Description": "<b>Scatter Missiles</b>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Zerg_equipment_infested_goliath_upgrade_weapon_assault_phase_scatter_missiles_keywords",
+    "Name": "<color=#ffffff><u><link=\"rule_keyword_indirect_fire\"><color=#2596be>INDIRECT FIRE</color></link></u>, <u><link=\"rule_keyword_locked_in\"><color=#2596be>LOCKED IN (6)</color></link></u>, <u><link=\"rule_keyword_long_range\"><color=#2596be>LONG RANGE (24\")</color></link></u>, <u><link=\"rule_keyword_sidearm\">SIDEARM</link></u></color>",
+    "Type": "Imported",
+    "Description": "<u><link=\"rule_keyword_indirect_fire\"><color=#2596be>INDIRECT FIRE</color></link></u>, <u><link=\"rule_keyword_locked_in\"><color=#2596be>LOCKED IN (6)</color></link></u>, <u><link=\"rule_keyword_long_range\"><color=#2596be>LONG RANGE (24\")</color></link></u>, <u><link=\"rule_keyword_sidearm\">SIDEARM</link></u>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Zerg_equipment_infested_goliath_upgrade_weapon_assault_phase_scatter_missiles_table",
+    "Name": "<color=#ffffff><b>Scatter Missiles</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr><color=#2596be>18</color></nobr><pos=14%><nobr><color=#2596be>Ground</color></nobr><pos=32%><nobr>6</nobr><pos=46%><nobr><color=#2596be>5+</color></nobr><pos=59%><nobr>Light (D3)</nobr><pos=86%><nobr>1</nobr></b></size></align></color>",
+    "Type": "Imported",
+    "Description": "<b>Scatter Missiles</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr><color=#2596be>18</color></nobr><pos=14%><nobr><color=#2596be>Ground</color></nobr><pos=32%><nobr>6</nobr><pos=46%><nobr><color=#2596be>5+</color></nobr><pos=59%><nobr>Light (D3)</nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Zerg_equipment_infested_goliath_weapon_assault_phase_autocannon_body",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Zerg_equipment_infested_goliath_weapon_assault_phase_autocannon_table"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Zerg_equipment_infested_goliath_weapon_assault_phase_autocannon_heading",
+    "Name": "",
+    "Type": "",
+    "Description": "<b>Autocannon</b>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Zerg_equipment_infested_goliath_weapon_assault_phase_autocannon_keyword_row",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Zerg_equipment_infested_goliath_weapon_assault_phase_autocannon_keywords"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Zerg_equipment_infested_goliath_weapon_assault_phase_autocannon_keywords",
+    "Name": "<color=#ffffff><u><link=\"rule_keyword_long_range\">LONG RANGE (18\")</link></u></color>",
+    "Type": "Imported",
+    "Description": "<u><link=\"rule_keyword_long_range\">LONG RANGE (18\")</link></u>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Zerg_equipment_infested_goliath_weapon_assault_phase_autocannon_slot",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Zerg_equipment_infested_goliath_weapon_assault_phase_autocannon_body"
+      },
+      {
+        "Id": "pdf_Zerg_equipment_infested_goliath_weapon_assault_phase_autocannon_keyword_row"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Zerg_equipment_infested_goliath_weapon_assault_phase_autocannon_table",
+    "Name": "<color=#ffffff><b>Assault Phase</b>\n<b>Autocannon</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>12</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>9</nobr><pos=46%><nobr>4+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align></color>",
+    "Type": "Imported",
+    "Description": "<b>Assault Phase</b>\n<b>Autocannon</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>12</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>9</nobr><pos=46%><nobr>4+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Zerg_equipment_infested_goliath_weapon_assault_phase_hellfire_missiles_body",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Zerg_equipment_infested_goliath_weapon_assault_phase_hellfire_missiles_table"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Zerg_equipment_infested_goliath_weapon_assault_phase_hellfire_missiles_heading",
+    "Name": "",
+    "Type": "",
+    "Description": "<b>Hellfire Missiles</b>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Zerg_equipment_infested_goliath_weapon_assault_phase_hellfire_missiles_keyword_row",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Zerg_equipment_infested_goliath_weapon_assault_phase_hellfire_missiles_keywords"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Zerg_equipment_infested_goliath_weapon_assault_phase_hellfire_missiles_keywords",
+    "Name": "<color=#ffffff><u><link=\"rule_keyword_anti_evade\">ANTI-EVADE (1)</link></u>, <u><link=\"rule_keyword_sidearm\">SIDEARM</link></u></color>",
+    "Type": "Imported",
+    "Description": "<u><link=\"rule_keyword_anti_evade\">ANTI-EVADE (1)</link></u>, <u><link=\"rule_keyword_sidearm\">SIDEARM</link></u>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Zerg_equipment_infested_goliath_weapon_assault_phase_hellfire_missiles_slot",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Zerg_equipment_infested_goliath_weapon_assault_phase_hellfire_missiles_body"
+      },
+      {
+        "Id": "pdf_Zerg_equipment_infested_goliath_weapon_assault_phase_hellfire_missiles_keyword_row"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Zerg_equipment_infested_goliath_weapon_assault_phase_hellfire_missiles_table",
+    "Name": "<color=#ffffff><b>Hellfire Missiles</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>16</nobr><pos=14%><nobr>Air</nobr><pos=32%><nobr>6</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>Light (D3)</nobr><pos=86%><nobr>1</nobr></b></size></align></color>",
+    "Type": "Imported",
+    "Description": "<b>Hellfire Missiles</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>16</nobr><pos=14%><nobr>Air</nobr><pos=32%><nobr>6</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>Light (D3)</nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Zerg_equipment_infested_goliath_weapon_assault_phase_underbelly_machine_gun_body",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Zerg_equipment_infested_goliath_weapon_assault_phase_underbelly_machine_gun_table"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Zerg_equipment_infested_goliath_weapon_assault_phase_underbelly_machine_gun_heading",
+    "Name": "",
+    "Type": "",
+    "Description": "<b>Underbelly Machine Gun</b>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Zerg_equipment_infested_goliath_weapon_assault_phase_underbelly_machine_gun_keyword_row",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Zerg_equipment_infested_goliath_weapon_assault_phase_underbelly_machine_gun_keywords"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Zerg_equipment_infested_goliath_weapon_assault_phase_underbelly_machine_gun_keywords",
+    "Name": "<color=#ffffff><u><link=\"rule_keyword_pinpoint\">PINPOINT</link></u>, <u><link=\"rule_keyword_sidearm\">SIDEARM</link></u></color>",
+    "Type": "Imported",
+    "Description": "<u><link=\"rule_keyword_pinpoint\">PINPOINT</link></u>, <u><link=\"rule_keyword_sidearm\">SIDEARM</link></u>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Zerg_equipment_infested_goliath_weapon_assault_phase_underbelly_machine_gun_slot",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Zerg_equipment_infested_goliath_weapon_assault_phase_underbelly_machine_gun_body"
+      },
+      {
+        "Id": "pdf_Zerg_equipment_infested_goliath_weapon_assault_phase_underbelly_machine_gun_keyword_row"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Zerg_equipment_infested_goliath_weapon_assault_phase_underbelly_machine_gun_table",
+    "Name": "<color=#ffffff><b>Underbelly Machine Gun</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>8</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>6</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>Light (D3)</nobr><pos=86%><nobr>1</nobr></b></size></align></color>",
+    "Type": "Imported",
+    "Description": "<b>Underbelly Machine Gun</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>8</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>6</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>Light (D3)</nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Zerg_equipment_infested_goliath_weapon_combat_phase_stomp_body",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Zerg_equipment_infested_goliath_weapon_combat_phase_stomp_table"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Zerg_equipment_infested_goliath_weapon_combat_phase_stomp_heading",
+    "Name": "",
+    "Type": "",
+    "Description": "<b>Stomp</b>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Zerg_equipment_infested_goliath_weapon_combat_phase_stomp_keyword_row",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Zerg_equipment_infested_goliath_weapon_combat_phase_stomp_slot",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Zerg_equipment_infested_goliath_weapon_combat_phase_stomp_body"
+      },
+      {
+        "Id": "pdf_Zerg_equipment_infested_goliath_weapon_combat_phase_stomp_keyword_row"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Zerg_equipment_infested_goliath_weapon_combat_phase_stomp_table",
+    "Name": "<color=#ffffff><b>Melee Phase</b>\n<b>Stomp</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>4</nobr><pos=46%><nobr>5+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align></color>",
+    "Type": "Imported",
+    "Description": "<b>Melee Phase</b>\n<b>Stomp</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>4</nobr><pos=46%><nobr>5+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Zerg_equipment_infested_marine_upgrade_weapon_assault_phase_infested_missile_launcher_acid_blast_choice",
+    "Name": "<color=#2596be>Infested Missile Launcher - Acid Blast</color>",
+    "Type": "Rule",
+    "Description": "<b>Upgrade ability</b>\n\nAdd Infested Missile Launcher - Acid Blast for the specialist model.\n\n<b>Infested Missile Launcher - Acid Blast</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>6</nobr><pos=14%><nobr>All</nobr><pos=32%><nobr>3</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align>\n\n<u><link=\"rule_keyword_critical_hit\">CRITICAL HIT (1)</link></u>, <u><link=\"rule_keyword_long_range\">LONG RANGE (12\")</link></u>, <u><link=\"rule_keyword_pierce\">PIERCE Armoured (2)</link></u>, <u><link=\"rule_keyword_specialist\">SPECIALIST</link></u>"
+  },
+  {
+    "Id": "pdf_Zerg_equipment_infested_marine_upgrade_weapon_assault_phase_infested_missile_launcher_acid_blast_heading",
+    "Name": "",
+    "Type": "",
+    "Description": "<b>Infested Missile Launcher - Acid Blast</b>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Zerg_equipment_infested_marine_upgrade_weapon_assault_phase_infested_missile_launcher_acid_blast_keywords",
+    "Name": "<color=#ffffff><u><link=\"rule_keyword_critical_hit\">CRITICAL HIT (1)</link></u>, <u><link=\"rule_keyword_long_range\">LONG RANGE (12\")</link></u>, <u><link=\"rule_keyword_pierce\">PIERCE Armoured (2)</link></u>, <u><link=\"rule_keyword_specialist\">SPECIALIST</link></u></color>",
+    "Type": "Imported",
+    "Description": "<u><link=\"rule_keyword_critical_hit\">CRITICAL HIT (1)</link></u>, <u><link=\"rule_keyword_long_range\">LONG RANGE (12\")</link></u>, <u><link=\"rule_keyword_pierce\">PIERCE Armoured (2)</link></u>, <u><link=\"rule_keyword_specialist\">SPECIALIST</link></u>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Zerg_equipment_infested_marine_upgrade_weapon_assault_phase_infested_missile_launcher_acid_blast_table",
+    "Name": "<color=#ffffff><b>Infested Missile Launcher - Acid Blast</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>6</nobr><pos=14%><nobr>All</nobr><pos=32%><nobr>3</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align></color>",
+    "Type": "Imported",
+    "Description": "<b>Infested Missile Launcher - Acid Blast</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>6</nobr><pos=14%><nobr>All</nobr><pos=32%><nobr>3</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Zerg_equipment_infested_marine_upgrade_weapon_assault_phase_infested_missile_launcher_scourgeshot_choice",
+    "Name": "<color=#2596be>Infested Missile Launcher - Scourgeshot</color>",
+    "Type": "Rule",
+    "Description": "<b>Upgrade ability</b>\n\nAdd Infested Missile Launcher - Scourgeshot for the specialist model.\n\n<b>Infested Missile Launcher - Scourgeshot</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>12</nobr><pos=14%><nobr>All</nobr><pos=32%><nobr>3</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align>\n\n<u><link=\"rule_keyword_burst_fire\">BURST FIRE 6\" (2)</link></u>, <u><link=\"rule_keyword_specialist\">SPECIALIST</link></u>"
+  },
+  {
+    "Id": "pdf_Zerg_equipment_infested_marine_upgrade_weapon_assault_phase_infested_missile_launcher_scourgeshot_heading",
+    "Name": "",
+    "Type": "",
+    "Description": "<b>Infested Missile Launcher - Scourgeshot</b>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Zerg_equipment_infested_marine_upgrade_weapon_assault_phase_infested_missile_launcher_scourgeshot_keywords",
+    "Name": "<color=#ffffff><u><link=\"rule_keyword_burst_fire\">BURST FIRE 6\" (2)</link></u>, <u><link=\"rule_keyword_specialist\">SPECIALIST</link></u></color>",
+    "Type": "Imported",
+    "Description": "<u><link=\"rule_keyword_burst_fire\">BURST FIRE 6\" (2)</link></u>, <u><link=\"rule_keyword_specialist\">SPECIALIST</link></u>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Zerg_equipment_infested_marine_upgrade_weapon_assault_phase_infested_missile_launcher_scourgeshot_table",
+    "Name": "<color=#ffffff><b>Infested Missile Launcher - Scourgeshot</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>12</nobr><pos=14%><nobr>All</nobr><pos=32%><nobr>3</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align></color>",
+    "Type": "Imported",
+    "Description": "<b>Infested Missile Launcher - Scourgeshot</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>12</nobr><pos=14%><nobr>All</nobr><pos=32%><nobr>3</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Zerg_equipment_infested_marine_upgrade_weapon_combat_phase_wild_mutation_choice",
+    "Name": "<color=#2596be>Wild Mutation</color>",
+    "Type": "Rule",
+    "Description": "<b>Upgrade ability</b>\n\nReplace Infested C-14 Rifle with Wild Mutation.\n\n<b>Wild Mutation</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr><color=#2596be>E</color></nobr><pos=14%><nobr><color=#2596be>Ground</color></nobr><pos=32%><nobr>2</nobr><pos=46%><nobr><color=#2596be>3+</color></nobr><pos=59%><nobr><color=#2596be>Armored (D3+1)</color></nobr><pos=86%><nobr>1</nobr></b></size></align>"
+  },
+  {
+    "Id": "pdf_Zerg_equipment_infested_marine_upgrade_weapon_combat_phase_wild_mutation_heading",
+    "Name": "",
+    "Type": "",
+    "Description": "<b>Wild Mutation</b>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Zerg_equipment_infested_marine_upgrade_weapon_combat_phase_wild_mutation_table",
+    "Name": "<color=#ffffff><b>Assault Phase</b>\n<b>Wild Mutation</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr><color=#2596be>E</color></nobr><pos=14%><nobr><color=#2596be>Ground</color></nobr><pos=32%><nobr>2</nobr><pos=46%><nobr><color=#2596be>3+</color></nobr><pos=59%><nobr><color=#2596be>Armored (D3+1)</color></nobr><pos=86%><nobr>1</nobr></b></size></align></color>",
+    "Type": "Imported",
+    "Description": "<b>Assault Phase</b>\n<b>Wild Mutation</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr><color=#2596be>E</color></nobr><pos=14%><nobr><color=#2596be>Ground</color></nobr><pos=32%><nobr>2</nobr><pos=46%><nobr><color=#2596be>3+</color></nobr><pos=59%><nobr><color=#2596be>Armored (D3+1)</color></nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Zerg_equipment_infested_marine_weapon_assault_phase_infested_c_14_rifle_body",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Zerg_equipment_infested_marine_weapon_assault_phase_infested_c_14_rifle_table"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Zerg_equipment_infested_marine_weapon_assault_phase_infested_c_14_rifle_heading",
+    "Name": "",
+    "Type": "",
+    "Description": "<b>Infested C-14 Rifle</b>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Zerg_equipment_infested_marine_weapon_assault_phase_infested_c_14_rifle_keyword_row",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Zerg_equipment_infested_marine_weapon_assault_phase_infested_c_14_rifle_keywords"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Zerg_equipment_infested_marine_weapon_assault_phase_infested_c_14_rifle_keywords",
+    "Name": "<color=#ffffff><u><link=\"rule_keyword_burst_fire\">BURST FIRE 6\" (2)</link></u></color>",
+    "Type": "Imported",
+    "Description": "<u><link=\"rule_keyword_burst_fire\">BURST FIRE 6\" (2)</link></u>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Zerg_equipment_infested_marine_weapon_assault_phase_infested_c_14_rifle_slot",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Zerg_equipment_infested_marine_weapon_assault_phase_infested_c_14_rifle_body"
+      },
+      {
+        "Id": "pdf_Zerg_equipment_infested_marine_weapon_assault_phase_infested_c_14_rifle_keyword_row"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Zerg_equipment_infested_marine_weapon_assault_phase_infested_c_14_rifle_table",
+    "Name": "<color=#ffffff><b>Assault Phase</b>\n<b>Infested C-14 Rifle</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>12</nobr><pos=14%><nobr>All</nobr><pos=32%><nobr>2</nobr><pos=46%><nobr>4+</nobr><pos=59%><nobr>Light (D3)</nobr><pos=86%><nobr>1</nobr></b></size></align></color>",
+    "Type": "Imported",
+    "Description": "<b>Assault Phase</b>\n<b>Infested C-14 Rifle</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>12</nobr><pos=14%><nobr>All</nobr><pos=32%><nobr>2</nobr><pos=46%><nobr>4+</nobr><pos=59%><nobr>Light (D3)</nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Zerg_equipment_infested_marine_weapon_combat_phase_strike_body",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Zerg_equipment_infested_marine_weapon_combat_phase_strike_table"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Zerg_equipment_infested_marine_weapon_combat_phase_strike_heading",
+    "Name": "",
+    "Type": "",
+    "Description": "<b>Strike</b>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Zerg_equipment_infested_marine_weapon_combat_phase_strike_keyword_row",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Zerg_equipment_infested_marine_weapon_combat_phase_strike_slot",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Zerg_equipment_infested_marine_weapon_combat_phase_strike_body"
+      },
+      {
+        "Id": "pdf_Zerg_equipment_infested_marine_weapon_combat_phase_strike_keyword_row"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Zerg_equipment_infested_marine_weapon_combat_phase_strike_table",
+    "Name": "<color=#ffffff><b>Melee Phase</b>\n<b>Strike</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>1</nobr><pos=46%><nobr>4+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align></color>",
+    "Type": "Imported",
+    "Description": "<b>Melee Phase</b>\n<b>Strike</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>1</nobr><pos=46%><nobr>4+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Zerg_equipment_infested_missile_turret_weapon_assault_phase_firefly_missiles_body",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Zerg_equipment_infested_missile_turret_weapon_assault_phase_firefly_missiles_table"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Zerg_equipment_infested_missile_turret_weapon_assault_phase_firefly_missiles_heading",
+    "Name": "",
+    "Type": "",
+    "Description": "<b>Firefly Missiles</b>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Zerg_equipment_infested_missile_turret_weapon_assault_phase_firefly_missiles_keyword_row",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Zerg_equipment_infested_missile_turret_weapon_assault_phase_firefly_missiles_keywords"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Zerg_equipment_infested_missile_turret_weapon_assault_phase_firefly_missiles_keywords",
+    "Name": "<color=#ffffff><u><link=\"rule_keyword_anti_evade\">ANTI-EVADE (1)</link></u></color>",
+    "Type": "Imported",
+    "Description": "<u><link=\"rule_keyword_anti_evade\">ANTI-EVADE (1)</link></u>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Zerg_equipment_infested_missile_turret_weapon_assault_phase_firefly_missiles_slot",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Zerg_equipment_infested_missile_turret_weapon_assault_phase_firefly_missiles_body"
+      },
+      {
+        "Id": "pdf_Zerg_equipment_infested_missile_turret_weapon_assault_phase_firefly_missiles_keyword_row"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Zerg_equipment_infested_missile_turret_weapon_assault_phase_firefly_missiles_table",
+    "Name": "<color=#ffffff><b>Assault Phase</b>\n<b>Firefly Missiles</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>14</nobr><pos=14%><nobr>Air</nobr><pos=32%><nobr>8</nobr><pos=46%><nobr>4+</nobr><pos=59%><nobr>L&A (D3)</nobr><pos=86%><nobr>1</nobr></b></size></align></color>",
+    "Type": "Imported",
+    "Description": "<b>Assault Phase</b>\n<b>Firefly Missiles</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>14</nobr><pos=14%><nobr>Air</nobr><pos=32%><nobr>8</nobr><pos=46%><nobr>4+</nobr><pos=59%><nobr>L&A (D3)</nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Zerg_equipment_infested_siege_tank_weapon_assault_phase_shock_cannon_body",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Zerg_equipment_infested_siege_tank_weapon_assault_phase_shock_cannon_table"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Zerg_equipment_infested_siege_tank_weapon_assault_phase_shock_cannon_heading",
+    "Name": "",
+    "Type": "",
+    "Description": "<b>Shock Cannon</b>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Zerg_equipment_infested_siege_tank_weapon_assault_phase_shock_cannon_keyword_row",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Zerg_equipment_infested_siege_tank_weapon_assault_phase_shock_cannon_keywords"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Zerg_equipment_infested_siege_tank_weapon_assault_phase_shock_cannon_keywords",
+    "Name": "<color=#ffffff><u><link=\"rule_keyword_siege_mode\">SIEGE MODE Status</link></u></color>",
+    "Type": "Imported",
+    "Description": "<u><link=\"rule_keyword_siege_mode\">SIEGE MODE Status</link></u>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Zerg_equipment_infested_siege_tank_weapon_assault_phase_shock_cannon_slot",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Zerg_equipment_infested_siege_tank_weapon_assault_phase_shock_cannon_body"
+      },
+      {
+        "Id": "pdf_Zerg_equipment_infested_siege_tank_weapon_assault_phase_shock_cannon_keyword_row"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Zerg_equipment_infested_siege_tank_weapon_assault_phase_shock_cannon_table",
+    "Name": "<color=#ffffff><b>Shock Cannon</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>18</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>BT+4</nobr><pos=46%><nobr>4+</nobr><pos=59%><nobr>L&A (BT)</nobr><pos=86%><nobr>1</nobr></b></size></align></color>",
+    "Type": "Imported",
+    "Description": "<b>Shock Cannon</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>18</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>BT+4</nobr><pos=46%><nobr>4+</nobr><pos=59%><nobr>L&A (BT)</nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Zerg_equipment_infested_siege_tank_weapon_assault_phase_twin_cannon_body",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Zerg_equipment_infested_siege_tank_weapon_assault_phase_twin_cannon_table"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Zerg_equipment_infested_siege_tank_weapon_assault_phase_twin_cannon_heading",
+    "Name": "",
+    "Type": "",
+    "Description": "<b>Twin Cannon</b>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Zerg_equipment_infested_siege_tank_weapon_assault_phase_twin_cannon_keyword_row",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Zerg_equipment_infested_siege_tank_weapon_assault_phase_twin_cannon_keywords"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Zerg_equipment_infested_siege_tank_weapon_assault_phase_twin_cannon_keywords",
+    "Name": "<color=#ffffff><u><link=\"rule_keyword_pierce\">PIERCE Armoured (2)</link></u></color>",
+    "Type": "Imported",
+    "Description": "<u><link=\"rule_keyword_pierce\">PIERCE Armoured (2)</link></u>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Zerg_equipment_infested_siege_tank_weapon_assault_phase_twin_cannon_slot",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Zerg_equipment_infested_siege_tank_weapon_assault_phase_twin_cannon_body"
+      },
+      {
+        "Id": "pdf_Zerg_equipment_infested_siege_tank_weapon_assault_phase_twin_cannon_keyword_row"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Zerg_equipment_infested_siege_tank_weapon_assault_phase_twin_cannon_table",
+    "Name": "<color=#ffffff><b>Assault Phase</b>\n<b>Twin Cannon</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>12</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>8</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>Armored (D6)</nobr><pos=86%><nobr>1</nobr></b></size></align></color>",
+    "Type": "Imported",
+    "Description": "<b>Assault Phase</b>\n<b>Twin Cannon</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>12</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>8</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>Armored (D6)</nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Zerg_equipment_infested_siege_tank_weapon_combat_phase_rolling_over_body",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Zerg_equipment_infested_siege_tank_weapon_combat_phase_rolling_over_table"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Zerg_equipment_infested_siege_tank_weapon_combat_phase_rolling_over_heading",
+    "Name": "",
+    "Type": "",
+    "Description": "<b>Rolling Over</b>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Zerg_equipment_infested_siege_tank_weapon_combat_phase_rolling_over_keyword_row",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Zerg_equipment_infested_siege_tank_weapon_combat_phase_rolling_over_slot",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Zerg_equipment_infested_siege_tank_weapon_combat_phase_rolling_over_body"
+      },
+      {
+        "Id": "pdf_Zerg_equipment_infested_siege_tank_weapon_combat_phase_rolling_over_keyword_row"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Zerg_equipment_infested_siege_tank_weapon_combat_phase_rolling_over_table",
+    "Name": "<color=#ffffff><b>Melee Phase</b>\n<b>Rolling Over</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>2</nobr><pos=46%><nobr>2+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align></color>",
+    "Type": "Imported",
+    "Description": "<b>Melee Phase</b>\n<b>Rolling Over</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>2</nobr><pos=46%><nobr>2+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Zerg_equipment_infested_trooper_weapon_assault_phase_infested_c_14_rifle_body",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Zerg_equipment_infested_trooper_weapon_assault_phase_infested_c_14_rifle_table"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Zerg_equipment_infested_trooper_weapon_assault_phase_infested_c_14_rifle_heading",
+    "Name": "",
+    "Type": "",
+    "Description": "<b>Infested C-14 Rifle</b>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Zerg_equipment_infested_trooper_weapon_assault_phase_infested_c_14_rifle_keyword_row",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Zerg_equipment_infested_trooper_weapon_assault_phase_infested_c_14_rifle_keywords"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Zerg_equipment_infested_trooper_weapon_assault_phase_infested_c_14_rifle_keywords",
+    "Name": "<color=#ffffff><u><link=\"rule_keyword_burst_fire\">BURST FIRE 6\" (2)</link></u></color>",
+    "Type": "Imported",
+    "Description": "<u><link=\"rule_keyword_burst_fire\">BURST FIRE 6\" (2)</link></u>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Zerg_equipment_infested_trooper_weapon_assault_phase_infested_c_14_rifle_slot",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Zerg_equipment_infested_trooper_weapon_assault_phase_infested_c_14_rifle_body"
+      },
+      {
+        "Id": "pdf_Zerg_equipment_infested_trooper_weapon_assault_phase_infested_c_14_rifle_keyword_row"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Zerg_equipment_infested_trooper_weapon_assault_phase_infested_c_14_rifle_table",
+    "Name": "<color=#ffffff><b>Assault Phase</b>\n<b>Infested C-14 Rifle</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>12</nobr><pos=14%><nobr>All</nobr><pos=32%><nobr>3</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>Light (D3)</nobr><pos=86%><nobr>1</nobr></b></size></align></color>",
+    "Type": "Imported",
+    "Description": "<b>Assault Phase</b>\n<b>Infested C-14 Rifle</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>12</nobr><pos=14%><nobr>All</nobr><pos=32%><nobr>3</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>Light (D3)</nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Zerg_equipment_infested_trooper_weapon_combat_phase_bayonet_body",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Zerg_equipment_infested_trooper_weapon_combat_phase_bayonet_table"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Zerg_equipment_infested_trooper_weapon_combat_phase_bayonet_heading",
+    "Name": "",
+    "Type": "",
+    "Description": "<b>Bayonet</b>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Zerg_equipment_infested_trooper_weapon_combat_phase_bayonet_keyword_row",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Zerg_equipment_infested_trooper_weapon_combat_phase_bayonet_slot",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Zerg_equipment_infested_trooper_weapon_combat_phase_bayonet_body"
+      },
+      {
+        "Id": "pdf_Zerg_equipment_infested_trooper_weapon_combat_phase_bayonet_keyword_row"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Zerg_equipment_infested_trooper_weapon_combat_phase_bayonet_table",
+    "Name": "<color=#ffffff><b>Melee Phase</b>\n<b>Bayonet</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>2</nobr><pos=46%><nobr>5+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align></color>",
+    "Type": "Imported",
+    "Description": "<b>Melee Phase</b>\n<b>Bayonet</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>2</nobr><pos=46%><nobr>5+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Children": []
+  },
+  {
     "Id": "pdf_Zerg_equipment_kerrigan_default_2_body",
     "Name": "",
     "Type": "Profile",
@@ -908,6 +1676,98 @@
     "Children": []
   },
   {
+    "Id": "pdf_Zerg_equipment_stukov_weapon_assault_phase_corrosive_blast_body",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Zerg_equipment_stukov_weapon_assault_phase_corrosive_blast_table"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Zerg_equipment_stukov_weapon_assault_phase_corrosive_blast_heading",
+    "Name": "",
+    "Type": "",
+    "Description": "<b>Corrosive Blast</b>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Zerg_equipment_stukov_weapon_assault_phase_corrosive_blast_keyword_row",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Zerg_equipment_stukov_weapon_assault_phase_corrosive_blast_slot",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Zerg_equipment_stukov_weapon_assault_phase_corrosive_blast_body"
+      },
+      {
+        "Id": "pdf_Zerg_equipment_stukov_weapon_assault_phase_corrosive_blast_keyword_row"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Zerg_equipment_stukov_weapon_assault_phase_corrosive_blast_table",
+    "Name": "<color=#ffffff><b>Assault Phase</b>\n<b>Corrosive Blast</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>8</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>3</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>L&A (D3)</nobr><pos=86%><nobr>1</nobr></b></size></align></color>",
+    "Type": "Imported",
+    "Description": "<b>Assault Phase</b>\n<b>Corrosive Blast</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>8</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>3</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>L&A (D3)</nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Zerg_equipment_stukov_weapon_combat_phase_infested_arm_body",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Zerg_equipment_stukov_weapon_combat_phase_infested_arm_table"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Zerg_equipment_stukov_weapon_combat_phase_infested_arm_heading",
+    "Name": "",
+    "Type": "",
+    "Description": "<b>Infested Arm</b>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Zerg_equipment_stukov_weapon_combat_phase_infested_arm_keyword_row",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Zerg_equipment_stukov_weapon_combat_phase_infested_arm_slot",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Zerg_equipment_stukov_weapon_combat_phase_infested_arm_body"
+      },
+      {
+        "Id": "pdf_Zerg_equipment_stukov_weapon_combat_phase_infested_arm_keyword_row"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Zerg_equipment_stukov_weapon_combat_phase_infested_arm_table",
+    "Name": "<color=#ffffff><b>Melee Phase</b>\n<b>Infested Arm</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>3</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>Armored (D3)</nobr><pos=86%><nobr>2</nobr></b></size></align></color>",
+    "Type": "Imported",
+    "Description": "<b>Melee Phase</b>\n<b>Infested Arm</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>E</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>3</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>Armored (D3)</nobr><pos=86%><nobr>2</nobr></b></size></align>",
+    "Children": []
+  },
+  {
     "Id": "pdf_Zerg_equipment_swarmlings_default_3_body",
     "Name": "",
     "Type": "Profile",
@@ -1362,6 +2222,96 @@
     ]
   },
   {
+    "Id": "pdf_Zerg_profile_infested_goliath_selected_options",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Zerg_profile_infested_goliath_stats",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Zerg_stat_infested_goliath"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Zerg_profile_infested_marine_selected_options",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Zerg_profile_infested_marine_stats",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Zerg_stat_infested_marine"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Zerg_profile_infested_missile_turret_selected_options",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Zerg_profile_infested_missile_turret_stats",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Zerg_stat_infested_missile_turret"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Zerg_profile_infested_siege_tank_selected_options",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Zerg_profile_infested_siege_tank_stats",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Zerg_stat_infested_siege_tank"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Zerg_profile_infested_trooper_selected_options",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Zerg_profile_infested_trooper_stats",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Zerg_stat_infested_trooper"
+      }
+    ]
+  },
+  {
     "Id": "pdf_Zerg_profile_kerrigan_selected_options",
     "Name": "",
     "Type": "Profile",
@@ -1506,6 +2456,24 @@
     ]
   },
   {
+    "Id": "pdf_Zerg_profile_stukov_selected_options",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Zerg_profile_stukov_stats",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Zerg_stat_stukov"
+      }
+    ]
+  },
+  {
     "Id": "pdf_Zerg_profile_swarmlings_selected_options",
     "Name": "",
     "Type": "Profile",
@@ -1603,9 +2571,15 @@
   },
   {
     "Id": "pdf_Zerg_rule_bile_launcher_any_phase_source_of_creep",
-    "Name": "Source Of Creep (Bile Launcher)",
+    "Name": "Source of Creep",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Passive\n\nA <u><link=\"rule_keyword_friendly\">Friendly</link></u> or <u><link=\"rule_keyword_enemy\">Enemy</link></u> Ground Zerg Unit <u><link=\"rule_keyword_within\">Within</link></u> 6\" of this Unit counts as being <u><link=\"rule_keyword_on_creep\">ON CREEP</link></u>."
+    "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Passive\n\nA <u><link=\"rule_keyword_friendly\">Friendly</link></u> or <u><link=\"rule_keyword_enemy\">Enemy</link></u> Ground Zerg Unit <u><link=\"rule_keyword_within\">Within</link></u> 6\" of this Unit, counts as being <u><link=\"rule_keyword_on_creep\">ON CREEP</link></u>."
+  },
+  {
+    "Id": "pdf_Zerg_rule_bile_launcher_assault_phase_indomitable",
+    "Name": "Indomitable (Bile Launcher)",
+    "Type": "Rule",
+    "Description": "<b>Phase:</b> Assault Phase\n\nWhile <u><link=\"rule_keyword_engaged\">Engaged</link></u>, this Unit may target and be targeted by <u><link=\"rule_keyword_unengaged\">Unengaged</link></u> <u><link=\"rule_keyword_enemy\">Enemy</link></u> <u><link=\"rule_chapter_2_2\">Units</link></u>. In both cases, the defending Unit gains an <u><link=\"rule_chapter_8_7_4\">Evade Roll</link></u> against those attacks."
   },
   {
     "Id": "pdf_Zerg_rule_bile_launcher_movement_phase_bombard",
@@ -1635,13 +2609,13 @@
     "Id": "pdf_Zerg_rule_corpsers_roach_movement_phase_roachling_infestation",
     "Name": "Roachling Infestation",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Active\n<b>Cost:</b> 2 BM\n\nOnce Per Game. Resolve the <u><link=\"rule_keyword_summon\">SUMMON</link></u> (Roachling) effect."
+    "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Active\n<b>Cost:</b> 2 BM\n\nOnce per Game. Resolve the <u><link=\"rule_keyword_summon\">SUMMON</link></u> (Roachling) effect."
   },
   {
     "Id": "pdf_Zerg_rule_corpsers_roach_upgrade_any_phase_tunneling_claws",
     "Name": "<color=#2596be>Tunneling Claws</color>",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Passive\n<b>Upgrade ability</b>\n\nWhile this Unit has the <u><link=\"rule_keyword_burrowed\">Burrowed</link></u> <u><link=\"rule_keyword_status\">Status</link></u>, it may perform the Move and Run actions without losing that <u><link=\"rule_keyword_status\">Status</link></u>. It may also move through other <u><link=\"rule_chapter_2_2\">Units</link></u>' <u><link=\"rule_chapter_2_3\">bases</link></u>."
+    "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Passive\n<b>Upgrade ability</b>\n\nWhile this Unit has the <u><link=\"rule_keyword_burrowed\">Burrowed</link></u> <u><link=\"rule_keyword_status\">Status</link></u>, it may perform the Move and Run actions without losing that <u><link=\"rule_keyword_status\">Status</link></u>. It may also move through other <u><link=\"rule_chapter_2_2\">Units</link></u>’ <u><link=\"rule_chapter_2_3\">bases</link></u>."
   },
   {
     "Id": "pdf_Zerg_rule_corpsers_roach_upgrade_assault_phase_hydriodic_bile",
@@ -1673,13 +2647,13 @@
     "Id": "pdf_Zerg_rule_corpsers_roach_upgrade_movement_phase_glial_reconstitution",
     "Name": "<color=#2596be>Glial Reconstitution</color>",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Active\n<b>Cost:</b> 1 CP\n<b>Upgrade ability</b>\n\nThis Unit gains <u><link=\"rule_keyword_buff\">BUFF</link></u> SPEED (1), or <u><link=\"rule_keyword_buff\">BUFF</link></u> SPEED (2) if the Unit is <u><link=\"rule_keyword_on_creep\">ON CREEP</link></u>."
+    "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Active\n<b>Cost:</b> 1 BM\n<b>Upgrade ability</b>\n\nThis Unit gains <u><link=\"rule_keyword_buff\">BUFF</link></u> SPEED (1), or <u><link=\"rule_keyword_buff\">BUFF</link></u> SPEED (2) if the Unit is <u><link=\"rule_keyword_on_creep\">ON CREEP</link></u>."
   },
   {
     "Id": "pdf_Zerg_rule_defiler_any_phase_consume",
     "Name": "Consume",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Passive\n\nWhen this Unit resolves a <u><link=\"rule_keyword_special_ability\">Special Ability</link></u> that costs BM, it can remove one model from a <u><link=\"rule_keyword_friendly\">Friendly</link></u> Unit <u><link=\"rule_keyword_within\">Within</link></u> 4\" to generate 1 BM to spend towards that ability's cost."
+    "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Passive\n\nWhen this Unit resolves a <u><link=\"rule_keyword_special_ability\">Special Ability</link></u> that costs BM, it can remove one model from a <u><link=\"rule_keyword_friendly\">Friendly</link></u> Unit <u><link=\"rule_keyword_within\">Within</link></u> 4\" to generate 1 BM to spend towards that ability’s cost."
   },
   {
     "Id": "pdf_Zerg_rule_defiler_assault_phase_dark_swarm",
@@ -1758,6 +2732,108 @@
     "Children": []
   },
   {
+    "Id": "pdf_Zerg_rule_infested_goliath_upgrade_any_phase_ares_class_targeting_system_effect_0_heading",
+    "Name": "",
+    "Type": "",
+    "Description": "<b>Autocannon</b>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Zerg_rule_infested_goliath_upgrade_any_phase_ares_class_targeting_system_effect_0_keywords",
+    "Name": "<color=#ffffff><u><link=\"rule_keyword_long_range\">LONG RANGE (18\")</link></u>, <u><link=\"rule_keyword_precision\"><color=#2596be>PRECISION (1)</color></link></u></color>",
+    "Type": "Imported",
+    "Description": "<u><link=\"rule_keyword_long_range\">LONG RANGE (18\")</link></u>, <u><link=\"rule_keyword_precision\"><color=#2596be>PRECISION (1)</color></link></u>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Zerg_rule_infested_goliath_upgrade_any_phase_ares_class_targeting_system_effect_0_table",
+    "Name": "<color=#ffffff><b>Assault Phase</b>\n<b>Autocannon</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>12</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>9</nobr><pos=46%><nobr>4+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align></color>",
+    "Type": "Imported",
+    "Description": "<b>Assault Phase</b>\n<b>Autocannon</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>12</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>9</nobr><pos=46%><nobr>4+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Zerg_rule_infested_goliath_upgrade_any_phase_ares_class_targeting_system_effect_1_heading",
+    "Name": "",
+    "Type": "",
+    "Description": "<b>Underbelly Machine Gun</b>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Zerg_rule_infested_goliath_upgrade_any_phase_ares_class_targeting_system_effect_1_keywords",
+    "Name": "<color=#ffffff><u><link=\"rule_keyword_pinpoint\">PINPOINT</link></u>, <u><link=\"rule_keyword_sidearm\">SIDEARM</link></u>, <u><link=\"rule_keyword_precision\"><color=#2596be>PRECISION (1)</color></link></u></color>",
+    "Type": "Imported",
+    "Description": "<u><link=\"rule_keyword_pinpoint\">PINPOINT</link></u>, <u><link=\"rule_keyword_sidearm\">SIDEARM</link></u>, <u><link=\"rule_keyword_precision\"><color=#2596be>PRECISION (1)</color></link></u>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Zerg_rule_infested_goliath_upgrade_any_phase_ares_class_targeting_system_effect_1_table",
+    "Name": "<color=#ffffff><b>Underbelly Machine Gun</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>8</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>6</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>Light (D3)</nobr><pos=86%><nobr>1</nobr></b></size></align></color>",
+    "Type": "Imported",
+    "Description": "<b>Underbelly Machine Gun</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>8</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>6</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>Light (D3)</nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Zerg_rule_infested_marine_any_phase_detonation",
+    "Name": "Detonation (Infested Marine)",
+    "Type": "Rule",
+    "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Reaction\n<b>Cost:</b> 1 BM\n\nImmediately before any <u><link=\"rule_chapter_2_1\">models</link></u> in this Unit are Destroyed, <u><link=\"rule_keyword_enemy\">Enemy</link></u> <u><link=\"rule_chapter_2_2\">Units</link></u> <u><link=\"rule_keyword_within\">Within</link></u> 2\" suffer <u><link=\"rule_keyword_hits\">HITS</link></u> 1 (1) for each model in this Unit that will be Destroyed."
+  },
+  {
+    "Id": "pdf_Zerg_rule_infested_marine_any_phase_live_for_the_swarm",
+    "Name": "Live for the Swarm!",
+    "Type": "Rule",
+    "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Passive\n\nWhen this Unit attacks an <u><link=\"rule_keyword_enemy\">Enemy</link></u> Unit with the <u><link=\"pdf_Zerg_rule_infested_missile_turret_any_phase_infestation\">INFESTATION</link></u> <u><link=\"rule_keyword_status\">Status</link></u> or a Unit <u><link=\"rule_keyword_within\">Within</link></u> 6\" of any <u><link=\"pdf_Zerg_rule_bile_launcher_any_phase_source_of_creep\">Source of Creep</link></u> or Creep Tumor, its Infested C-14 Rifle and all Close Combat Attacks gain <u><link=\"rule_keyword_precision\">PRECISION</link></u> (2)."
+  },
+  {
+    "Id": "pdf_Zerg_rule_infested_marine_assault_phase_devastating_charge",
+    "Name": "Devastating Charge IMPACT (2) 4+",
+    "Type": "Rule",
+    "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Passive\n\nImmediately after this Unit completes a successful <u><link=\"rule_chapter_8_7_7\">Charge</link></u>, resolve the <u><link=\"rule_keyword_impact\">IMPACT</link></u> (2) 4+ effect."
+  },
+  {
+    "Id": "pdf_Zerg_rule_infested_marine_upgrade_assault_phase_plagued_munitions",
+    "Name": "<color=#2596be>Plagued Munitions (Infested Marine)</color>",
+    "Type": "Rule",
+    "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Passive\n<b>Upgrade ability</b>\n\nImmediately after an attack with the Infested C-14 Rifle, if the attacked Unit suffered Damage, it also suffers <u><link=\"rule_keyword_non_lethal_damage\">NON-LETHAL Damage</link></u> (1)."
+  },
+  {
+    "Id": "pdf_Zerg_rule_infested_missile_turret_any_phase_detection",
+    "Name": "Detection (Infested Missile Turret)",
+    "Type": "Rule",
+    "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Passive\n\nWhile <u><link=\"rule_keyword_enemy\">Enemy</link></u> <u><link=\"rule_chapter_2_2\">Units</link></u> are <u><link=\"rule_keyword_within\">Within</link></u> 8\" of this Unit, they lose the <u><link=\"rule_keyword_hidden\">HIDDEN</link></u> <u><link=\"rule_keyword_status\">Status</link></u>."
+  },
+  {
+    "Id": "pdf_Zerg_rule_infested_missile_turret_any_phase_infestation",
+    "Name": "Infestation",
+    "Type": "Rule",
+    "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Reaction\n<b>Cost:</b> 0 BM\n\nWhen the Supply of an <u><link=\"rule_keyword_enemy\">Enemy</link></u> Unit with the INFESTATION <u><link=\"rule_keyword_status\">Status</link></u> is reduced to 0, or when that Unit is Destroyed, you can apply the INFESTATION <u><link=\"rule_keyword_status\">Status</link></u> to another <u><link=\"rule_keyword_enemy\">Enemy</link></u> Unit <u><link=\"rule_keyword_within\">Within</link></u> 8\" of that Unit. For the purposes of resolving <u><link=\"rule_chapter_10_1\">Special Abilities</link></u>, this effect is treated as a <u><link=\"rule_keyword_debuff\">DEBUFF</link></u>."
+  },
+  {
+    "Id": "pdf_Zerg_rule_infested_missile_turret_assault_phase_ocular_overwatch",
+    "Name": "Ocular Overwatch",
+    "Type": "Rule",
+    "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Reaction\n<b>Cost:</b> 0 BM\n\nWhen an <u><link=\"rule_keyword_enemy\">Enemy</link></u> <u><link=\"rule_keyword_flying\">Flying</link></u> Unit ends its Activation <u><link=\"rule_keyword_within\">Within</link></u> 14\". This Unit immediately performs a <u><link=\"rule_chapter_8_7_3\">Ranged Attack</link></u> against that <u><link=\"rule_keyword_enemy\">Enemy</link></u> Unit."
+  },
+  {
+    "Id": "pdf_Zerg_rule_infested_trooper_any_phase_detonation",
+    "Name": "Detonation (Infested Trooper)",
+    "Type": "Rule",
+    "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Reaction\n<b>Cost:</b> 1 BM\n\nImmediately before any <u><link=\"rule_chapter_2_1\">models</link></u> in this Unit are Destroyed, <u><link=\"rule_keyword_enemy\">Enemy</link></u> <u><link=\"rule_chapter_2_2\">Units</link></u> <u><link=\"rule_keyword_within\">Within</link></u> 2\" suffer <u><link=\"rule_keyword_hits\">HITS</link></u> 1 (2) for each model in this Unit that will be Destroyed."
+  },
+  {
+    "Id": "pdf_Zerg_rule_infested_trooper_any_phase_spread_infestation",
+    "Name": "Spread Infestation (Infested Trooper)",
+    "Type": "Rule",
+    "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Active\n<b>Cost:</b> 1 BM\n\nTarget an <u><link=\"rule_keyword_enemy\">Enemy</link></u> Unit <u><link=\"rule_keyword_within\">Within</link></u> 8\". The targeted Unit gains the <u><link=\"pdf_Zerg_rule_infested_missile_turret_any_phase_infestation\">INFESTATION</link></u> <u><link=\"rule_keyword_status\">Status</link></u>. For the purposes of resolving <u><link=\"rule_chapter_10_1\">Special Abilities</link></u>, this effect is treated as a <u><link=\"rule_keyword_debuff\">DEBUFF</link></u>."
+  },
+  {
+    "Id": "pdf_Zerg_rule_infested_trooper_assault_phase_plagued_munitions",
+    "Name": "Plagued Munitions (Infested Trooper)",
+    "Type": "Rule",
+    "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Passive\n\nImmediately after an attack with the Infested C-14 Rifle, if the attacked Unit suffered Damage, it also suffers <u><link=\"rule_keyword_non_lethal_damage\">NON-LETHAL Damage</link></u> (1)."
+  },
+  {
     "Id": "pdf_Zerg_rule_kerrigan_assault_phase_leaping_strike",
     "Name": "Leaping Strike",
     "Type": "Rule",
@@ -1806,12 +2882,6 @@
     "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Passive\n\nThe base of the Omega Worm counts as an <u><link=\"rule_keyword_entry_edge\">Entry Edge</link></u>. Each Round, <u><link=\"rule_keyword_friendly\">Friendly</link></u> <u><link=\"rule_chapter_2_2\">Units</link></u> with a combined Supply cost of 2 or less may be Deployed via this <u><link=\"rule_keyword_entry_edge\">Entry Edge</link></u>. If a <u><link=\"rule_keyword_friendly\">Friendly</link></u> <u><link=\"rule_keyword_leading_model\">Leading model</link></u> finishes a Move, <u><link=\"rule_chapter_8_5_4\">Disengage</link></u>, or <u><link=\"rule_chapter_8_7_1\">Run</link></u> action in base-to-base contact with the Omega Worm, the <u><link=\"rule_keyword_controlling_player\">controlling player</link></u> may remove that Unit from <u><link=\"rule_chapter_7\">the battlefield</link></u> and return it to <u><link=\"rule_keyword_reserves\">Reserves</link></u>."
   },
   {
-    "Id": "pdf_Zerg_rule_omega_worm_any_phase_source_of_creep",
-    "Name": "Source Of Creep (Omega Worm)",
-    "Type": "Rule",
-    "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Passive\n\nA <u><link=\"rule_keyword_friendly\">Friendly</link></u> or <u><link=\"rule_keyword_enemy\">Enemy</link></u> Ground Zerg Unit <u><link=\"rule_keyword_within\">Within</link></u> 6\" of this Unit, counts as being <u><link=\"rule_keyword_on_creep\">ON CREEP</link></u>."
-  },
-  {
     "Id": "pdf_Zerg_rule_queen_any_phase_psionic_link",
     "Name": "Psionic Link",
     "Type": "Rule",
@@ -1839,7 +2909,7 @@
     "Id": "pdf_Zerg_rule_queen_upgrade_movement_phase_domineering_presence",
     "Name": "<color=#2596be>Domineering Presence</color>",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Active\n<b>Cost:</b> 1 BM\n<b>Upgrade ability</b>\n\nSelect another <u><link=\"rule_keyword_friendly\">Friendly</link></u> Unit <u><link=\"rule_keyword_within\">Within</link></u> 6\" (<u><link=\"rule_keyword_line_of_sight\">Line of Sight</link></u> is not required). That Unit's Supply characteristic is increased by 1 for Controlling and Contesting <u><link=\"rule_keyword_mission_markers\">Mission Markers</link></u> and completing objectives."
+    "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Active\n<b>Cost:</b> 1 BM\n<b>Upgrade ability</b>\n\nSelect another <u><link=\"rule_keyword_friendly\">Friendly</link></u> Unit <u><link=\"rule_keyword_within\">Within</link></u> 6\" (<u><link=\"rule_keyword_line_of_sight\">Line of Sight</link></u> is not required). That Unit’s Supply characteristic is increased by 1 for Controlling and Contesting <u><link=\"rule_keyword_mission_markers\">Mission Markers</link></u> and completing objectives."
   },
   {
     "Id": "pdf_Zerg_rule_raptors_zergling_assault_phase_devastating_charge",
@@ -1851,13 +2921,13 @@
     "Id": "pdf_Zerg_rule_raptors_zergling_assault_phase_metabolic_boost",
     "Name": "Metabolic Boost",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Active\n<b>Cost:</b> 1 BM\n\nWhen determining <u><link=\"rule_chapter_8_7_7\">Charge</link></u> Distance for this Unit, roll 2D6 instead of D6 and use the higher result to add to the Unit's Speed characteristic."
+    "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Active\n<b>Cost:</b> 1 BM\n\nWhen determining <u><link=\"rule_chapter_8_7_7\">Charge</link></u> Distance for this Unit, roll 2D6 instead of D6 and use the higher result to add to the Unit’s Speed characteristic."
   },
   {
     "Id": "pdf_Zerg_rule_raptors_zergling_upgrade_combat_phase_adrenal_glands",
     "Name": "<color=#2596be>Adrenal Glands</color>",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Melee Phase\n<b>Type:</b> Passive\n<b>Upgrade ability</b>\n\nThis Unit's Claws and Shredding Claws weapons gain <u><link=\"rule_keyword_precision\">PRECISION</link></u> (2)."
+    "Description": "<b>Phase:</b> Melee Phase\n<b>Type:</b> Passive\n<b>Upgrade ability</b>\n\nThis Unit’s Claws and Shredding Claws weapons gain <u><link=\"rule_keyword_precision\">PRECISION</link></u> (2)."
   },
   {
     "Id": "pdf_Zerg_rule_raptors_zergling_upgrade_combat_phase_adrenal_glands_effect_0",
@@ -1865,12 +2935,6 @@
     "Type": "Imported",
     "Description": "<u><link=\"pdf_Zerg_rule_raptors_zergling_upgrade_combat_phase_adrenal_glands\"><color=#2596be>PRECISION (2)</color></link></u>",
     "Children": []
-  },
-  {
-    "Id": "pdf_Zerg_rule_ravagers_assault_phase_devastating_charge",
-    "Name": "Devastating Charge IMPACT (2) 4+",
-    "Type": "Rule",
-    "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Passive\n\nImmediately after this Unit completes a successful <u><link=\"rule_chapter_8_7_7\">Charge</link></u>, resolve the <u><link=\"rule_keyword_impact\">IMPACT</link></u> (2) 4+ effect."
   },
   {
     "Id": "pdf_Zerg_rule_ravagers_movement_phase_corrosive_bile",
@@ -1923,6 +2987,36 @@
     "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Passive\n\nThis Unit cannot gain <u><link=\"rule_keyword_burrowed\">Burrowed</link></u> <u><link=\"rule_keyword_status\">Status</link></u>."
   },
   {
+    "Id": "pdf_Zerg_rule_stukov_any_phase_plague_warden",
+    "Name": "Plague Warden",
+    "Type": "Rule",
+    "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Passive\n\nTreat the Supply characteristic of any <u><link=\"rule_keyword_enemy\">Enemy</link></u> Unit that has the <u><link=\"pdf_Zerg_rule_infested_missile_turret_any_phase_infestation\">INFESTATION</link></u> <u><link=\"rule_keyword_status\">Status</link></u> and is <u><link=\"rule_keyword_within\">Within</link></u> 6\" as reduced by 1 (to a minimum of 0) for Controlling and Contesting <u><link=\"rule_keyword_mission_markers\">Mission Markers</link></u>, and completing objectives."
+  },
+  {
+    "Id": "pdf_Zerg_rule_stukov_assault_phase_bio_kill_switch",
+    "Name": "Bio-Kill Switch",
+    "Type": "Rule",
+    "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Active\n<b>Cost:</b> 0 BM\n\nEach <u><link=\"rule_keyword_enemy\">Enemy</link></u> Unit with the <u><link=\"pdf_Zerg_rule_infested_missile_turret_any_phase_infestation\">INFESTATION</link></u> <u><link=\"rule_keyword_status\">Status</link></u> on <u><link=\"rule_chapter_7\">the Battlefield</link></u> suffers Damage (2). Immediately after this <u><link=\"rule_keyword_special_ability\">Special Ability</link></u> is resolved, Remove the <u><link=\"pdf_Zerg_rule_infested_missile_turret_any_phase_infestation\">INFESTATION</link></u> <u><link=\"rule_keyword_status\">Status</link></u> from <u><link=\"rule_chapter_2_2\">Units</link></u> that suffered Damage."
+  },
+  {
+    "Id": "pdf_Zerg_rule_stukov_assault_phase_corrode_armor",
+    "Name": "Corrode Armor",
+    "Type": "Rule",
+    "Description": "<b>Phase:</b> Assault Phase\n<b>Type:</b> Reaction\n<b>Cost:</b> 1 BM\n\nImmediately after this Unit resolves a <u><link=\"rule_chapter_8_7_3\">Ranged Attack</link></u> against an <u><link=\"rule_keyword_enemy\">Enemy</link></u> Unit, the targeted Unit suffers the <u><link=\"rule_keyword_debuff\">DEBUFF</link></u> Armour (1)."
+  },
+  {
+    "Id": "pdf_Zerg_rule_stukov_movement_phase_admiral_of_the_infested",
+    "Name": "Admiral of the Infested",
+    "Type": "Rule",
+    "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Active\n<b>Cost:</b> 1 BM\n\nTarget an <u><link=\"rule_keyword_enemy\">Enemy</link></u> Unit <u><link=\"rule_keyword_within\">Within</link></u> 8\" that has the <u><link=\"pdf_Zerg_rule_infested_missile_turret_any_phase_infestation\">INFESTATION</link></u> <u><link=\"rule_keyword_status\">Status</link></u>. That Unit counts as Activated in this Phase (set an Activation Marker next to it) and remove the <u><link=\"pdf_Zerg_rule_infested_missile_turret_any_phase_infestation\">INFESTATION</link></u> <u><link=\"rule_keyword_status\">Status</link></u> from that Unit. You may target any Non-Unique Infested <u><link=\"rule_keyword_friendly\">Friendly</link></u> Unit that is <u><link=\"rule_keyword_within\">Within</link></u> 8\" of the previously targeted <u><link=\"rule_keyword_enemy\">Enemy</link></u> Unit. Remove the Activation Marker from that targeted <u><link=\"rule_keyword_friendly\">Friendly</link></u> Unit."
+  },
+  {
+    "Id": "pdf_Zerg_rule_stukov_movement_phase_spread_infestation",
+    "Name": "Spread Infestation (Stukov)",
+    "Type": "Rule",
+    "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Active\n<b>Cost:</b> 1 BM\n\nTarget an <u><link=\"rule_keyword_enemy\">Enemy</link></u> Unit <u><link=\"rule_keyword_within\">Within</link></u> 8\". The targeted Unit gains the <u><link=\"pdf_Zerg_rule_infested_missile_turret_any_phase_infestation\">INFESTATION</link></u> <u><link=\"rule_keyword_status\">Status</link></u>. For the purposes of resolving <u><link=\"rule_chapter_10_1\">Special Abilities</link></u>, this effect is treated as a <u><link=\"rule_keyword_debuff\">DEBUFF</link></u>."
+  },
+  {
     "Id": "pdf_Zerg_rule_swarmlings_movement_phase_zergling_reconstitution",
     "Name": "Zergling Reconstitution",
     "Type": "Rule",
@@ -1933,12 +3027,6 @@
     "Name": "Debilitating Claws",
     "Type": "Rule",
     "Description": "<b>Phase:</b> Melee Phase\n<b>Type:</b> Passive\n\nAfter an <u><link=\"rule_keyword_enemy\">Enemy</link></u> Unit suffers Damage from this Unit, apply <u><link=\"rule_keyword_debuff\">DEBUFF</link></u> Hit (1) to each of that Unit's Weapons."
-  },
-  {
-    "Id": "pdf_Zerg_rule_viles_roach_any_phase_burrow",
-    "Name": "Burrow (Viles (Roach))",
-    "Type": "Rule",
-    "Description": "<b>Phase:</b> Any Phase\n<b>Type:</b> Active\n<b>Cost:</b> 2 BM\n\nIf this Unit is not <u><link=\"rule_keyword_engaged\">Engaged</link></u>, it gains or loses the <u><link=\"rule_keyword_burrowed\">Burrowed</link></u> <u><link=\"rule_keyword_status\">Status</link></u>."
   },
   {
     "Id": "pdf_Zerg_rule_viles_roach_any_phase_debilitating_saliva",
@@ -1967,18 +3055,6 @@
     "Children": []
   },
   {
-    "Id": "pdf_Zerg_rule_viles_roach_upgrade_movement_phase_glial_reconstitution",
-    "Name": "<color=#2596be>Glial Reconstitution (Viles (Roach))</color>",
-    "Type": "Rule",
-    "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Active\n<b>Cost:</b> 1 BM\n<b>Upgrade ability</b>\n\nThis Unit gains <u><link=\"rule_keyword_buff\">BUFF</link></u> SPEED (1), or <u><link=\"rule_keyword_buff\">BUFF</link></u> SPEED (2) if the Unit is <u><link=\"rule_keyword_on_creep\">ON CREEP</link></u>."
-  },
-  {
-    "Id": "pdf_Zerg_rule_viles_roach_upgrade_movement_phase_tunneling_claws",
-    "Name": "<color=#2596be>Tunneling Claws (Viles (Roach))</color>",
-    "Type": "Rule",
-    "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Passive\n<b>Upgrade ability</b>\n\nWhile this Unit has the <u><link=\"rule_keyword_burrowed\">Burrowed</link></u> <u><link=\"rule_keyword_status\">Status</link></u>, it may perform the Move and Run actions without losing that <u><link=\"rule_keyword_status\">Status</link></u>. It may also move through other <u><link=\"rule_chapter_2_2\">Units</link></u>' <u><link=\"rule_chapter_2_3\">bases</link></u>."
-  },
-  {
     "Id": "pdf_Zerg_rule_zagara_assault_phase_devastating_charge",
     "Name": "Devastating Charge IMPACT (6) 3+",
     "Type": "Rule",
@@ -1994,7 +3070,7 @@
     "Id": "pdf_Zerg_rule_zagara_upgrade_movement_phase_broodmother",
     "Name": "<color=#2596be>Broodmother</color>",
     "Type": "Rule",
-    "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Active\n<b>Cost:</b> 1 BM\n<b>Upgrade ability</b>\n\nApply one of the following effects to all <u><link=\"rule_keyword_friendly\">Friendly</link></u> <u><link=\"rule_chapter_2_2\">units</link></u> (<u><link=\"rule_keyword_line_of_sight\">Line of Sight</link></u> is not required). You cannot apply the effect chosen in the previous Game Round:\n• <u><link=\"rule_chapter_2_2\">Units</link></u> of Size 1 gain a +1 <u><link=\"rule_keyword_modifier\">Modifier</link></u> to all <u><link=\"rule_keyword_impact\">IMPACT</link></u> Rolls.\n• All weapons of Size 2 <u><link=\"rule_chapter_2_2\">Units</link></u> gain <u><link=\"rule_keyword_critical_hit\">CRITICAL HIT</link></u> (1).\n• <u><link=\"rule_chapter_2_2\">Units</link></u> of Size 3 or more gain <u><link=\"rule_keyword_tough\">TOUGH</link></u> (1)."
+    "Description": "<b>Phase:</b> Movement Phase\n<b>Type:</b> Active\n<b>Cost:</b> 1 BM\n<b>Upgrade ability</b>\n\nApply one of the following effects to all <u><link=\"rule_keyword_friendly\">Friendly</link></u> <u><link=\"rule_chapter_2_2\">units</link></u> (<u><link=\"rule_keyword_line_of_sight\">Line of Sight</link></u> is not required). You cannot apply the effect chosen in the previous Game Round: <u><link=\"rule_chapter_2_2\">Units</link></u> of Size 1 gain a +1 <u><link=\"rule_keyword_modifier\">Modifier</link></u> to all <u><link=\"rule_keyword_impact\">IMPACT</link></u> Rolls. All weapons of Size 2 <u><link=\"rule_chapter_2_2\">Units</link></u> gain <u><link=\"rule_keyword_critical_hit\">CRITICAL HIT</link></u> (1). <u><link=\"rule_chapter_2_2\">Units</link></u> of Size 3 or more gain <u><link=\"rule_keyword_tough\">TOUGH</link></u> (1)."
   },
   {
     "Id": "pdf_Zerg_rule_zerglings_upgrade_combat_phase_adrenal_glands_effect_0",

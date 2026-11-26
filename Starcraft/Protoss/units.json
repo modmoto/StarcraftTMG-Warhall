@@ -3,9 +3,21 @@
     "Id": "pdf_Protoss_unit_adepts",
     "Name": "Adepts",
     "Type": "Unit",
-    "Description": "Categories: Core, Biological, Light, Ground\nModels / Supply: 1-2: 0 | 3-4: 1",
+    "Description": "Categories: Core, Biological, Light, Ground\nModels / Supply: 1-2: 0 | 3-4: 1\nMinerals: 160 (4 models)",
     "BasicProfileIds": [
       "pdf_Protoss_profile_adepts"
+    ],
+    "Children": [],
+    "DefaultFront": 1,
+    "Formation": 0
+  },
+  {
+    "Id": "pdf_Protoss_unit_alarak",
+    "Name": "Alarak",
+    "Type": "Unit",
+    "Description": "Categories: Hero, Biological, Psionic, Ground, Unique\nModels / Supply: 1-1: 1\nMinerals: 260 (1 models)",
+    "BasicProfileIds": [
+      "pdf_Protoss_profile_alarak"
     ],
     "Children": [],
     "DefaultFront": 1,
@@ -15,7 +27,7 @@
     "Id": "pdf_Protoss_unit_artanis",
     "Name": "Artanis",
     "Type": "Unit",
-    "Description": "Categories: Hero, Biological, Psionic, Ground\nModels / Supply: 1-1: 1",
+    "Description": "Categories: Hero, Biological, Psionic, Ground, Unique\nModels / Supply: 1-1: 1\nMinerals: 270 (1 models)",
     "BasicProfileIds": [
       "pdf_Protoss_profile_artanis"
     ],
@@ -27,7 +39,7 @@
     "Id": "pdf_Protoss_unit_high_templar",
     "Name": "High Templar",
     "Type": "Unit",
-    "Description": "Categories: Support, Biological, Light, Psionic, Ground\nModels / Supply: 1-1: 0 | 2-2: 1 | 3-4: 2",
+    "Description": "Categories: Support, Biological, Light, Psionic, Ground\nModels / Supply: 1-1: 0 | 2-2: 1 | 3-4: 2\nMinerals: 130 (2 models)\nReinforced: 200 (4 models)",
     "BasicProfileIds": [
       "pdf_Protoss_profile_high_templar"
     ],
@@ -39,7 +51,7 @@
     "Id": "pdf_Protoss_unit_immortal",
     "Name": "Immortal",
     "Type": "Unit",
-    "Description": "Categories: Elite, Armoured, Mechanical, Ground\nModels / Supply: 1-1: 2",
+    "Description": "Categories: Elite, Armoured, Mechanical, Ground\nModels / Supply: 1-1: 2\nMinerals: 280 (1 models)",
     "BasicProfileIds": [
       "pdf_Protoss_profile_immortal"
     ],
@@ -51,9 +63,21 @@
     "Id": "pdf_Protoss_unit_nerazim_watchers_adept",
     "Name": "Nerazim Watchers (Adept)",
     "Type": "Unit",
-    "Description": "Categories: Core, Biological, Light, Ground\nModels / Supply: 1-2: 0 | 3-4: 1",
+    "Description": "Categories: Core, Biological, Light, Ground\nModels / Supply: 1-2: 0 | 3-4: 1\nMinerals: 210 (4 models)",
     "BasicProfileIds": [
       "pdf_Protoss_profile_nerazim_watchers_adept"
+    ],
+    "Children": [],
+    "DefaultFront": 1,
+    "Formation": 0
+  },
+  {
+    "Id": "pdf_Protoss_unit_phasing_scarab",
+    "Name": "Phasing Scarab",
+    "Type": "Unit",
+    "Description": "Categories: Other, Psionic, Ground\nModels / Supply: 1-1: 0\nMinerals: 0 (1 models)",
+    "BasicProfileIds": [
+      "pdf_Protoss_profile_phasing_scarab"
     ],
     "Children": [],
     "DefaultFront": 1,
@@ -63,7 +87,7 @@
     "Id": "pdf_Protoss_unit_praetor_guards",
     "Name": "Praetor Guards",
     "Type": "Unit",
-    "Description": "Categories: Elite, Biological, Light, Ground\nModels / Supply: 1-1: 1 | 2-3: 2",
+    "Description": "Categories: Elite, Biological, Light, Ground, Unique\nModels / Supply: 1-1: 1 | 2-3: 2\nMinerals: 260 (3 models)",
     "BasicProfileIds": [
       "pdf_Protoss_profile_praetor_guards"
     ],
@@ -75,9 +99,47 @@
     "Id": "pdf_Protoss_unit_pylon",
     "Name": "Pylon",
     "Type": "Unit",
-    "Description": "Categories: Other, Armored, Ground\nModels / Supply: 1-1: 0",
+    "Description": "Categories: Other, Armored, Ground\nModels / Supply: 1-1: 0\nMinerals: 0 (1 models)",
     "BasicProfileIds": [
       "pdf_Protoss_profile_pylon"
+    ],
+    "Children": [],
+    "DefaultFront": 1,
+    "Formation": 0
+  },
+  {
+    "Id": "pdf_Protoss_unit_reaver",
+    "Name": "Reaver",
+    "Type": "Unit",
+    "Description": "Categories: Elite, Armoured, Mechanical, Ground\nModels / Supply: 1-1: 2\nMinerals: 200 (1 models)",
+    "BasicProfileIds": [
+      "pdf_Protoss_profile_reaver"
+    ],
+    "Children": [],
+    "DefaultFront": 1,
+    "Formation": 0,
+    "ExtraItems": [
+      {
+        "Id": "pdf_Protoss_unit_scarab",
+        "Type": "Unit"
+      },
+      {
+        "Id": "pdf_Protoss_unit_solarite_scarab",
+        "Type": "Unit"
+      },
+      {
+        "Id": "pdf_Protoss_unit_phasing_scarab",
+        "Type": "Unit"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Protoss_unit_scarab",
+    "Name": "Scarab",
+    "Type": "Unit",
+    "Description": "Categories: Other, Psionic, Ground\nModels / Supply: 1-1: 0\nMinerals: 0 (1 models)",
+    "BasicProfileIds": [
+      "pdf_Protoss_profile_scarab"
     ],
     "Children": [],
     "DefaultFront": 1,
@@ -87,9 +149,33 @@
     "Id": "pdf_Protoss_unit_sentries",
     "Name": "Sentries",
     "Type": "Unit",
-    "Description": "Categories: Support, Light, Mechanical, Psionic, Ground\nModels / Supply: 1-1: 0 | 2-2: 1",
+    "Description": "Categories: Support, Light, Mechanical, Psionic, Ground\nModels / Supply: 1-1: 0 | 2-2: 1\nMinerals: 130 (2 models)",
     "BasicProfileIds": [
       "pdf_Protoss_profile_sentries"
+    ],
+    "Children": [],
+    "DefaultFront": 1,
+    "Formation": 0
+  },
+  {
+    "Id": "pdf_Protoss_unit_slayer_stalker",
+    "Name": "Slayer (Stalker)",
+    "Type": "Unit",
+    "Description": "Categories: Elite, Armoured, Mechanical, Ground\nModels / Supply: 1-1: 1 | 2-2: 2\nMinerals: 180 (1 models)\nReinforced: 280 (2 models)",
+    "BasicProfileIds": [
+      "pdf_Protoss_profile_slayer_stalker"
+    ],
+    "Children": [],
+    "DefaultFront": 1,
+    "Formation": 0
+  },
+  {
+    "Id": "pdf_Protoss_unit_solarite_scarab",
+    "Name": "Solarite Scarab",
+    "Type": "Unit",
+    "Description": "Categories: Other, Psionic, Ground\nModels / Supply: 1-1: 0\nMinerals: 0 (1 models)",
+    "BasicProfileIds": [
+      "pdf_Protoss_profile_solarite_scarab"
     ],
     "Children": [],
     "DefaultFront": 1,
@@ -99,9 +185,21 @@
     "Id": "pdf_Protoss_unit_stalker",
     "Name": "Stalker",
     "Type": "Unit",
-    "Description": "Categories: Elite, Armoured, Mechanical, Ground\nModels / Supply: 1-1: 1 | 2-2: 2",
+    "Description": "Categories: Elite, Armoured, Mechanical, Ground\nModels / Supply: 1-1: 1 | 2-2: 2\nMinerals: 160 (1 models)\nReinforced: 270 (2 models)",
     "BasicProfileIds": [
       "pdf_Protoss_profile_stalker"
+    ],
+    "Children": [],
+    "DefaultFront": 1,
+    "Formation": 0
+  },
+  {
+    "Id": "pdf_Protoss_unit_tal_darim_pylon",
+    "Name": "Tal'darim Pylon",
+    "Type": "Unit",
+    "Description": "Categories: Other, Armoured, Ground, Unique\nModels / Supply: 1-1: 0\nMinerals: 0 (1 models)",
+    "BasicProfileIds": [
+      "pdf_Protoss_profile_tal_darim_pylon"
     ],
     "Children": [],
     "DefaultFront": 1,
@@ -111,7 +209,7 @@
     "Id": "pdf_Protoss_unit_tassadar",
     "Name": "Tassadar",
     "Type": "Unit",
-    "Description": "Categories: Hero, Biological, Psionic, Ground\nModels / Supply: 1-1: 1",
+    "Description": "Categories: Hero, Biological, Psionic, Ground, Unique\nModels / Supply: 1-1: 1\nMinerals: 230 (1 models)",
     "BasicProfileIds": [
       "pdf_Protoss_profile_tassadar"
     ],
@@ -123,7 +221,7 @@
     "Id": "pdf_Protoss_unit_twilight_templar_high_templar",
     "Name": "Twilight Templar (High Templar)",
     "Type": "Unit",
-    "Description": "Categories: Support, Biological, Light, Psionic, Ground\nModels / Supply: 1-1: 0 | 2-2: 1",
+    "Description": "Categories: Support, Biological, Light, Psionic, Ground, Unique\nModels / Supply: 1-1: 0 | 2-2: 1\nMinerals: 230 (2 models)",
     "BasicProfileIds": [
       "pdf_Protoss_profile_twilight_templar_high_templar"
     ],
@@ -135,7 +233,7 @@
     "Id": "pdf_Protoss_unit_zealots",
     "Name": "Zealots",
     "Type": "Unit",
-    "Description": "Categories: Core, Biological, Light, Ground\nModels / Supply: 1-1: 1 | 2-3: 2",
+    "Description": "Categories: Core, Biological, Light, Ground\nModels / Supply: 1-1: 1 | 2-3: 2\nMinerals: 170 (3 models)",
     "BasicProfileIds": [
       "pdf_Protoss_profile_zealots"
     ],
@@ -147,7 +245,7 @@
     "Id": "pdf_Protoss_unit_zeratul",
     "Name": "Zeratul",
     "Type": "Unit",
-    "Description": "Categories: Hero, Biological, Psionic, Ground\nModels / Supply: 1-1: 1",
+    "Description": "Categories: Hero, Biological, Psionic, Ground, Unique\nModels / Supply: 1-1: 1\nMinerals: 230 (1 models)",
     "BasicProfileIds": [
       "pdf_Protoss_profile_zeratul"
     ],

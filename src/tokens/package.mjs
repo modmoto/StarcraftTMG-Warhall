@@ -76,6 +76,22 @@ export const tokenDefinitions = [
     description:
       'Ravager Corrosive Bile marker. Resolve its effect at the end of the Assault Phase.',
   },
+  {
+    id: 'fire_wall',
+    name: 'Fire Wall',
+    symbol: 'fire_wall',
+    color: '#df6524',
+    description:
+      'Firebat Incinerator Gauntlets marker. Resolve crossing, proximity and removal from the source ability manually.',
+  },
+  {
+    id: 'infestation',
+    name: 'Infestation',
+    symbol: 'infestation',
+    color: '#a34883',
+    description:
+      'INFESTATION status reminder. Apply the granting unit or virus card rules manually.',
+  },
 ].map(token => ({
   ...token,
   diameterMm: tokenDiameterMm,

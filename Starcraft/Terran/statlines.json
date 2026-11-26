@@ -14,6 +14,20 @@
     "Children": []
   },
   {
+    "Id": "pdf_Terran_stat_firebat",
+    "Name": "",
+    "Type": "Statline",
+    "Attributes": {
+      "Spd": "4/7",
+      "Arm": "5+",
+      "Eva": "6+",
+      "HP": "3",
+      "Size": "2",
+      "Shd": ""
+    },
+    "Children": []
+  },
+  {
     "Id": "pdf_Terran_stat_goliath",
     "Name": "",
     "Type": "Statline",

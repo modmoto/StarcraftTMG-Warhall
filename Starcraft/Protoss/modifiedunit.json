@@ -40,6 +40,18 @@
     "OptionId": "Shield Overcharge"
   },
   {
+    "UnitId": "pdf_Protoss_unit_reaver",
+    "OptionId": "Phasing Scarab"
+  },
+  {
+    "UnitId": "pdf_Protoss_unit_reaver",
+    "OptionId": "Shuttle"
+  },
+  {
+    "UnitId": "pdf_Protoss_unit_reaver",
+    "OptionId": "Solarite Scarab"
+  },
+  {
     "UnitId": "pdf_Protoss_unit_sentries",
     "OptionId": "Hallucination"
   },

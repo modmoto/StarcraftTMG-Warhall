@@ -44,8 +44,18 @@
   "Protoss/alarak": {
     "name": "Alarak",
     "sourceId": "pdf_alarak",
-    "base": null,
-    "profiles": {}
+    "base": {
+      "shape": "round",
+      "widthMm": 40,
+      "lengthMm": 40
+    },
+    "profiles": {},
+    "baseSource": {
+      "kind": "one-time leaked card photo",
+      "url": "https://i.redd.it/lb5i9bv4gt1i1.jpeg",
+      "sha256": "acf43671118aca780d5010cbc23b6c188215534665fe6ce333266ab65d4716be",
+      "note": "Printed diameter visually verified; one-time user-authorized Wave 4 exception."
+    }
   },
   "Protoss/artanis": {
     "name": "Artanis",
@@ -205,8 +215,18 @@
   "Terran/firebat": {
     "name": "Firebat",
     "sourceId": "pdf_firebat",
-    "base": null,
-    "profiles": {}
+    "base": {
+      "shape": "round",
+      "widthMm": 40,
+      "lengthMm": 40
+    },
+    "profiles": {},
+    "baseSource": {
+      "kind": "one-time leaked card photo",
+      "url": "https://i.redd.it/t06aluu4gt1i1.png",
+      "sha256": "843cebba2bf9eaf75aadaac146e4996f3ffce0db9b87bb49a069b60c9f9be215",
+      "note": "Printed diameter visually verified; one-time user-authorized Wave 4 exception."
+    }
   },
   "Terran/goliath": {
     "name": "Goliath",
@@ -420,32 +440,82 @@
   "Zerg/infested_goliath": {
     "name": "Infested Goliath",
     "sourceId": "pdf_infested_goliath",
-    "base": null,
-    "profiles": {}
+    "base": {
+      "shape": "round",
+      "widthMm": 80,
+      "lengthMm": 80
+    },
+    "profiles": {},
+    "baseSource": {
+      "kind": "same physical model",
+      "derivedFrom": "Terran/goliath",
+      "note": "Infested version uses the existing reviewed Terran model footprint."
+    }
   },
   "Zerg/infested_marine": {
     "name": "Infested Marine",
     "sourceId": "pdf_infested_marine",
-    "base": null,
-    "profiles": {}
+    "base": {
+      "shape": "round",
+      "widthMm": 40,
+      "lengthMm": 40
+    },
+    "profiles": {},
+    "baseSource": {
+      "kind": "one-time leaked card photo",
+      "url": "https://i.redd.it/hojwsuu4gt1i1.jpeg",
+      "sha256": "5f9e7fab3792f0c684bca91f787befc6583d6c7be305665d9034c5a816f51304",
+      "note": "Printed diameter visually verified; one-time user-authorized Wave 4 exception."
+    }
   },
   "Zerg/infested_missile_turret": {
     "name": "Infested Missile Turret",
     "sourceId": "pdf_infested_missile_turret",
-    "base": null,
-    "profiles": {}
+    "base": {
+      "shape": "round",
+      "widthMm": 80,
+      "lengthMm": 80
+    },
+    "profiles": {},
+    "baseSource": {
+      "kind": "public Wave 4 TTS table footprint",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3662791369",
+      "note": "Diameter verified from the named model base measurement circle and root X/Z scale in the downloaded public table save; one-time hardcoded exception.",
+      "guid": "31e1bd",
+      "sourceFile": "wave4-model-sources.json"
+    }
   },
   "Zerg/infested_siege_tank": {
     "name": "Infested Siege Tank",
     "sourceId": "pdf_infested_siege_tank",
-    "base": null,
-    "profiles": {}
+    "base": {
+      "shape": "round",
+      "widthMm": 150,
+      "lengthMm": 150
+    },
+    "profiles": {},
+    "baseSource": {
+      "kind": "same physical model",
+      "derivedFrom": "Terran/siege_tank",
+      "note": "Infested version uses the existing reviewed Terran model footprint."
+    }
   },
   "Zerg/infested_trooper": {
     "name": "Infested Trooper",
     "sourceId": "pdf_infested_trooper",
-    "base": null,
-    "profiles": {}
+    "base": {
+      "shape": "round",
+      "widthMm": 40,
+      "lengthMm": 40
+    },
+    "profiles": {},
+    "baseSource": {
+      "kind": "public Wave 4 TTS table footprint",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3662791369",
+      "note": "Diameter verified from the named model base measurement circle and root X/Z scale in the downloaded public table save; one-time hardcoded exception.",
+      "guid": "4700dd",
+      "sourceFile": "wave4-model-sources.json"
+    }
   },
   "Terran/jim_raynor": {
     "name": "Jim Raynor",
@@ -769,8 +839,19 @@
   "Protoss/phasing_scarab": {
     "name": "Phasing Scarab",
     "sourceId": "pdf_phasing_scarab",
-    "base": null,
-    "profiles": {}
+    "base": {
+      "shape": "round",
+      "widthMm": 50,
+      "lengthMm": 50
+    },
+    "profiles": {},
+    "baseSource": {
+      "kind": "public Wave 4 TTS table footprint",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3662791369",
+      "note": "Diameter verified from the named model base measurement circle and root X/Z scale in the downloaded public table save; one-time hardcoded exception.",
+      "guid": "f06aab",
+      "sourceFile": "wave4-model-sources.json"
+    }
   },
   "Terran/point_defense_drone": {
     "name": "Point Defense Drone",
@@ -1019,8 +1100,18 @@
   "Protoss/reaver": {
     "name": "Reaver",
     "sourceId": "pdf_reaver",
-    "base": null,
-    "profiles": {}
+    "base": {
+      "shape": "round",
+      "widthMm": 150,
+      "lengthMm": 150
+    },
+    "profiles": {},
+    "baseSource": {
+      "kind": "one-time leaked card photo",
+      "url": "https://i.redd.it/5v7qouu4gt1i1.jpeg",
+      "sha256": "26bf3657f1cfc2b9aefe42b7f1f161fe72b5358719916ef8b8c81d30f4e028c5",
+      "note": "Printed diameter visually verified; one-time user-authorized Wave 4 exception."
+    }
   },
   "Zerg/roach": {
     "name": "Roaches",
@@ -1110,8 +1201,19 @@
   "Protoss/scarab": {
     "name": "Scarab",
     "sourceId": "pdf_scarab",
-    "base": null,
-    "profiles": {}
+    "base": {
+      "shape": "round",
+      "widthMm": 50,
+      "lengthMm": 50
+    },
+    "profiles": {},
+    "baseSource": {
+      "kind": "public Wave 4 TTS table footprint",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3662791369",
+      "note": "Diameter verified from the named model base measurement circle and root X/Z scale in the downloaded public table save; one-time hardcoded exception.",
+      "guid": "4e1311",
+      "sourceFile": "wave4-model-sources.json"
+    }
   },
   "Protoss/sentry": {
     "name": "Sentries",
@@ -1205,14 +1307,36 @@
   "Protoss/slayer__stalker_": {
     "name": "Slayer (Stalker)",
     "sourceId": "pdf_slayer_stalker",
-    "base": null,
-    "profiles": {}
+    "base": {
+      "shape": "round",
+      "widthMm": 80,
+      "lengthMm": 80
+    },
+    "profiles": {},
+    "baseSource": {
+      "kind": "public Wave 4 TTS table footprint",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3662791369",
+      "note": "Diameter verified from the named model base measurement circle and root X/Z scale in the downloaded public table save; one-time hardcoded exception.",
+      "guid": "bc51aa",
+      "sourceFile": "wave4-model-sources.json"
+    }
   },
   "Protoss/solarite_scarab": {
     "name": "Solarite Scarab",
     "sourceId": "pdf_solarite_scarab",
-    "base": null,
-    "profiles": {}
+    "base": {
+      "shape": "round",
+      "widthMm": 50,
+      "lengthMm": 50
+    },
+    "profiles": {},
+    "baseSource": {
+      "kind": "public Wave 4 TTS table footprint",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3662791369",
+      "note": "Diameter verified from the named model base measurement circle and root X/Z scale in the downloaded public table save; one-time hardcoded exception.",
+      "guid": "42bd78",
+      "sourceFile": "wave4-model-sources.json"
+    }
   },
   "Terran/spec_ops_marauder__marauder_": {
     "name": "Spec Ops Marauder (Marauder)",
@@ -1281,8 +1405,18 @@
   "Zerg/stukov": {
     "name": "Stukov",
     "sourceId": "pdf_stukov",
-    "base": null,
-    "profiles": {}
+    "base": {
+      "shape": "round",
+      "widthMm": 40,
+      "lengthMm": 40
+    },
+    "profiles": {},
+    "baseSource": {
+      "kind": "one-time leaked card photo",
+      "url": "https://i.redd.it/hojwsuu4gt1i1.jpeg",
+      "sha256": "5f9e7fab3792f0c684bca91f787befc6583d6c7be305665d9034c5a816f51304",
+      "note": "Printed diameter visually verified; one-time user-authorized Wave 4 exception."
+    }
   },
   "Zerg/swarmling__zergling_": {
     "name": "Swarmlings",
@@ -1314,8 +1448,19 @@
   "Protoss/tal_darim_pylon": {
     "name": "Tal'darim Pylon",
     "sourceId": "pdf_tal_darim_pylon",
-    "base": null,
-    "profiles": {}
+    "base": {
+      "shape": "round",
+      "widthMm": 80,
+      "lengthMm": 80
+    },
+    "profiles": {},
+    "baseSource": {
+      "kind": "public Wave 4 TTS table footprint",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3662791369",
+      "note": "Diameter verified from the named model base measurement circle and root X/Z scale in the downloaded public table save; one-time hardcoded exception.",
+      "guid": "32ea7f",
+      "sourceFile": "wave4-model-sources.json"
+    }
   },
   "Protoss/tassadar": {
     "name": "Tassadar",

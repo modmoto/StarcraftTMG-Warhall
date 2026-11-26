@@ -9,7 +9,7 @@
         "Id": "pdf_Terran_profile_auto_turret_stats"
       },
       {
-        "Id": "pdf_Terran_rule_auto_turret_any_phase_timed_life"
+        "Id": "pdf_Protoss_rule_phasing_scarab_any_phase_timed_life"
       },
       {
         "Id": "pdf_Protoss_rule_pylon_any_phase_structure"
@@ -22,6 +22,32 @@
       },
       {
         "Id": "pdf_Terran_equipment_auto_turret_default_1_slot"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Terran_profile_firebat",
+    "Name": "Firebat",
+    "Type": "Profile",
+    "BaseId": "base_round_40",
+    "Children": [
+      {
+        "Id": "pdf_Terran_profile_firebat_stats"
+      },
+      {
+        "Id": "pdf_Terran_rule_firebat_movement_phase_stimpack"
+      },
+      {
+        "Id": "pdf_Terran_rule_firebat_assault_phase_fire_it_up"
+      },
+      {
+        "Id": "pdf_Terran_profile_firebat_selected_options"
+      },
+      {
+        "Id": "pdf_Terran_equipment_firebat_weapon_assault_phase_perdition_flamethrower_slot"
+      },
+      {
+        "Id": "pdf_Terran_equipment_firebat_weapon_combat_phase_flame_strike_slot"
       }
     ]
   },
@@ -70,16 +96,16 @@
         "Id": "pdf_Terran_profile_holo_decoy_stats"
       },
       {
-        "Id": "pdf_Terran_rule_auto_turret_any_phase_timed_life"
+        "Id": "pdf_Terran_rule_holo_decoy_any_phase_lethal_hologram"
+      },
+      {
+        "Id": "pdf_Protoss_rule_phasing_scarab_any_phase_timed_life"
       },
       {
         "Id": "pdf_Terran_rule_holo_decoy_any_phase_decoy"
       },
       {
         "Id": "pdf_Terran_rule_holo_decoy_any_phase_surprise"
-      },
-      {
-        "Id": "pdf_Terran_rule_holo_decoy_any_phase_lethal_hologram"
       },
       {
         "Id": "pdf_Terran_profile_holo_decoy_selected_options"
@@ -131,7 +157,7 @@
         "Id": "pdf_Terran_rule_marauders_movement_phase_stimpack"
       },
       {
-        "Id": "pdf_Terran_rule_marauders_assault_phase_concusive_shells"
+        "Id": "pdf_Terran_rule_marauders_assault_phase_concussive_shells"
       },
       {
         "Id": "pdf_Terran_profile_marauders_selected_options"
@@ -189,10 +215,10 @@
         "Id": "pdf_Terran_rule_nova_assault_mode_any_phase_ghost_visor"
       },
       {
-        "Id": "pdf_Terran_rule_nova_assault_mode_movement_phase_super_stimpack"
+        "Id": "pdf_Terran_rule_nova_assault_mode_movement_phase_holo_decoy"
       },
       {
-        "Id": "pdf_Terran_rule_nova_assault_mode_movement_phase_holo_decoy"
+        "Id": "pdf_Terran_rule_nova_assault_mode_movement_phase_super_stimpack"
       },
       {
         "Id": "pdf_Terran_rule_nova_assault_mode_assault_phase_phase_reactor_suit"
@@ -366,7 +392,7 @@
         "Id": "pdf_Terran_profile_siege_tank_stats"
       },
       {
-        "Id": "pdf_Terran_rule_siege_tank_any_phase_large"
+        "Id": "pdf_Protoss_rule_reaver_any_phase_large"
       },
       {
         "Id": "pdf_Terran_rule_siege_tank_any_phase_heavy_plating"

@@ -44,6 +44,54 @@
     "OptionId": "Lurking"
   },
   {
+    "UnitId": "pdf_Zerg_unit_infested_goliath",
+    "OptionId": "Ares-Class Targeting System"
+  },
+  {
+    "UnitId": "pdf_Zerg_unit_infested_goliath",
+    "OptionId": "Haywire Missiles"
+  },
+  {
+    "UnitId": "pdf_Zerg_unit_infested_goliath",
+    "OptionId": "Scatter Missiles"
+  },
+  {
+    "UnitId": "pdf_Zerg_unit_infested_marine",
+    "OptionId": "Burrow Ambush"
+  },
+  {
+    "UnitId": "pdf_Zerg_unit_infested_marine",
+    "OptionId": "Infested Missile Launcher - Acid Blast"
+  },
+  {
+    "UnitId": "pdf_Zerg_unit_infested_marine",
+    "OptionId": "Infested Missile Launcher - Scourgeshot"
+  },
+  {
+    "UnitId": "pdf_Zerg_unit_infested_marine",
+    "OptionId": "Plagued Munitions"
+  },
+  {
+    "UnitId": "pdf_Zerg_unit_infested_marine",
+    "OptionId": "Wild Mutation"
+  },
+  {
+    "UnitId": "pdf_Zerg_unit_infested_siege_tank",
+    "OptionId": "Coordinated Strike"
+  },
+  {
+    "UnitId": "pdf_Zerg_unit_infested_siege_tank",
+    "OptionId": "Mode Transformation"
+  },
+  {
+    "UnitId": "pdf_Zerg_unit_infested_siege_tank",
+    "OptionId": "Shaped Blast"
+  },
+  {
+    "UnitId": "pdf_Zerg_unit_infested_siege_tank",
+    "OptionId": "Smart Shells"
+  },
+  {
     "UnitId": "pdf_Zerg_unit_queen",
     "OptionId": "Creep Speed"
   },

@@ -1,5 +1,5 @@
 {
-  "checkedOn": "2026-10-27",
+  "checkedOn": "2026-11-25",
   "units": [
     {
       "faction": "Protoss",
@@ -718,6 +718,207 @@
         "shape": "round",
         "widthMm": 100,
         "lengthMm": 100
+      }
+    },
+    {
+      "faction": "Protoss",
+      "unit": "Alarak",
+      "source": {
+        "kind": "one-time leaked card photo",
+        "url": "https://i.redd.it/lb5i9bv4gt1i1.jpeg",
+        "sha256": "acf43671118aca780d5010cbc23b6c188215534665fe6ce333266ab65d4716be",
+        "note": "Printed diameter visually verified; one-time user-authorized Wave 4 exception."
+      },
+      "appliedFootprint": {
+        "shape": "round",
+        "widthMm": 40,
+        "lengthMm": 40
+      }
+    },
+    {
+      "faction": "Terran",
+      "unit": "Firebat",
+      "source": {
+        "kind": "one-time leaked card photo",
+        "url": "https://i.redd.it/t06aluu4gt1i1.png",
+        "sha256": "843cebba2bf9eaf75aadaac146e4996f3ffce0db9b87bb49a069b60c9f9be215",
+        "note": "Printed diameter visually verified; one-time user-authorized Wave 4 exception."
+      },
+      "appliedFootprint": {
+        "shape": "round",
+        "widthMm": 40,
+        "lengthMm": 40
+      }
+    },
+    {
+      "faction": "Zerg",
+      "unit": "Infested Goliath",
+      "source": {
+        "kind": "same physical model",
+        "derivedFrom": "Terran/goliath",
+        "note": "Infested version uses the existing reviewed Terran model footprint."
+      },
+      "appliedFootprint": {
+        "shape": "round",
+        "widthMm": 80,
+        "lengthMm": 80
+      }
+    },
+    {
+      "faction": "Zerg",
+      "unit": "Infested Marine",
+      "source": {
+        "kind": "one-time leaked card photo",
+        "url": "https://i.redd.it/hojwsuu4gt1i1.jpeg",
+        "sha256": "5f9e7fab3792f0c684bca91f787befc6583d6c7be305665d9034c5a816f51304",
+        "note": "Printed diameter visually verified; one-time user-authorized Wave 4 exception."
+      },
+      "appliedFootprint": {
+        "shape": "round",
+        "widthMm": 40,
+        "lengthMm": 40
+      }
+    },
+    {
+      "faction": "Zerg",
+      "unit": "Infested Missile Turret",
+      "source": {
+        "kind": "public Wave 4 TTS table footprint",
+        "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3662791369",
+        "note": "Diameter verified from the named model base measurement circle and root X/Z scale in the downloaded public table save; one-time hardcoded exception."
+      },
+      "appliedFootprint": {
+        "shape": "round",
+        "widthMm": 80,
+        "lengthMm": 80
+      }
+    },
+    {
+      "faction": "Zerg",
+      "unit": "Infested Siege Tank",
+      "source": {
+        "kind": "same physical model",
+        "derivedFrom": "Terran/siege_tank",
+        "note": "Infested version uses the existing reviewed Terran model footprint."
+      },
+      "appliedFootprint": {
+        "shape": "round",
+        "widthMm": 150,
+        "lengthMm": 150
+      }
+    },
+    {
+      "faction": "Zerg",
+      "unit": "Infested Trooper",
+      "source": {
+        "kind": "public Wave 4 TTS table footprint",
+        "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3662791369",
+        "note": "Diameter verified from the named model base measurement circle and root X/Z scale in the downloaded public table save; one-time hardcoded exception."
+      },
+      "appliedFootprint": {
+        "shape": "round",
+        "widthMm": 40,
+        "lengthMm": 40
+      }
+    },
+    {
+      "faction": "Protoss",
+      "unit": "Phasing Scarab",
+      "source": {
+        "kind": "public Wave 4 TTS table footprint",
+        "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3662791369",
+        "note": "Diameter verified from the named model base measurement circle and root X/Z scale in the downloaded public table save; one-time hardcoded exception."
+      },
+      "appliedFootprint": {
+        "shape": "round",
+        "widthMm": 50,
+        "lengthMm": 50
+      }
+    },
+    {
+      "faction": "Protoss",
+      "unit": "Reaver",
+      "source": {
+        "kind": "one-time leaked card photo",
+        "url": "https://i.redd.it/5v7qouu4gt1i1.jpeg",
+        "sha256": "26bf3657f1cfc2b9aefe42b7f1f161fe72b5358719916ef8b8c81d30f4e028c5",
+        "note": "Printed diameter visually verified; one-time user-authorized Wave 4 exception."
+      },
+      "appliedFootprint": {
+        "shape": "round",
+        "widthMm": 150,
+        "lengthMm": 150
+      }
+    },
+    {
+      "faction": "Protoss",
+      "unit": "Scarab",
+      "source": {
+        "kind": "public Wave 4 TTS table footprint",
+        "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3662791369",
+        "note": "Diameter verified from the named model base measurement circle and root X/Z scale in the downloaded public table save; one-time hardcoded exception."
+      },
+      "appliedFootprint": {
+        "shape": "round",
+        "widthMm": 50,
+        "lengthMm": 50
+      }
+    },
+    {
+      "faction": "Protoss",
+      "unit": "Slayer (Stalker)",
+      "source": {
+        "kind": "public Wave 4 TTS table footprint",
+        "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3662791369",
+        "note": "Diameter verified from the named model base measurement circle and root X/Z scale in the downloaded public table save; one-time hardcoded exception."
+      },
+      "appliedFootprint": {
+        "shape": "round",
+        "widthMm": 80,
+        "lengthMm": 80
+      }
+    },
+    {
+      "faction": "Protoss",
+      "unit": "Solarite Scarab",
+      "source": {
+        "kind": "public Wave 4 TTS table footprint",
+        "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3662791369",
+        "note": "Diameter verified from the named model base measurement circle and root X/Z scale in the downloaded public table save; one-time hardcoded exception."
+      },
+      "appliedFootprint": {
+        "shape": "round",
+        "widthMm": 50,
+        "lengthMm": 50
+      }
+    },
+    {
+      "faction": "Zerg",
+      "unit": "Stukov",
+      "source": {
+        "kind": "one-time leaked card photo",
+        "url": "https://i.redd.it/hojwsuu4gt1i1.jpeg",
+        "sha256": "5f9e7fab3792f0c684bca91f787befc6583d6c7be305665d9034c5a816f51304",
+        "note": "Printed diameter visually verified; one-time user-authorized Wave 4 exception."
+      },
+      "appliedFootprint": {
+        "shape": "round",
+        "widthMm": 40,
+        "lengthMm": 40
+      }
+    },
+    {
+      "faction": "Protoss",
+      "unit": "Tal'darim Pylon",
+      "source": {
+        "kind": "public Wave 4 TTS table footprint",
+        "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3662791369",
+        "note": "Diameter verified from the named model base measurement circle and root X/Z scale in the downloaded public table save; one-time hardcoded exception."
+      },
+      "appliedFootprint": {
+        "shape": "round",
+        "widthMm": 80,
+        "lengthMm": 80
       }
     }
   ]

@@ -297,6 +297,446 @@
     ]
   },
   {
+    "UnitId": "pdf_Zerg_unit_infested_goliath",
+    "ProfileId": "pdf_Zerg_profile_infested_goliath",
+    "OptionId": "Ares-Class Targeting System",
+    "ReferencedItemsToRemove": [
+      {
+        "Id": "pdf_Zerg_equipment_infested_goliath_weapon_assault_phase_autocannon_slot",
+        "Ref": [
+          {
+            "Id": "pdf_Zerg_equipment_infested_goliath_weapon_assault_phase_autocannon_keyword_row",
+            "Ref": [
+              {
+                "Id": "pdf_Zerg_equipment_infested_goliath_weapon_assault_phase_autocannon_keywords"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Id": "pdf_Zerg_equipment_infested_goliath_weapon_assault_phase_underbelly_machine_gun_slot",
+        "Ref": [
+          {
+            "Id": "pdf_Zerg_equipment_infested_goliath_weapon_assault_phase_underbelly_machine_gun_keyword_row",
+            "Ref": [
+              {
+                "Id": "pdf_Zerg_equipment_infested_goliath_weapon_assault_phase_underbelly_machine_gun_keywords"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "ReferencedItemsToAdd": [
+      {
+        "Id": "pdf_Zerg_profile_infested_goliath_selected_options",
+        "Ref": [
+          {
+            "Id": "pdf_Terran_rule_goliath_upgrade_any_phase_ares_class_targeting_system"
+          }
+        ]
+      },
+      {
+        "Id": "pdf_Zerg_equipment_infested_goliath_weapon_assault_phase_autocannon_slot",
+        "Ref": [
+          {
+            "Id": "pdf_Zerg_equipment_infested_goliath_weapon_assault_phase_autocannon_keyword_row",
+            "Ref": [
+              {
+                "Id": "pdf_Zerg_rule_infested_goliath_upgrade_any_phase_ares_class_targeting_system_effect_0_keywords"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Id": "pdf_Zerg_equipment_infested_goliath_weapon_assault_phase_underbelly_machine_gun_slot",
+        "Ref": [
+          {
+            "Id": "pdf_Zerg_equipment_infested_goliath_weapon_assault_phase_underbelly_machine_gun_keyword_row",
+            "Ref": [
+              {
+                "Id": "pdf_Zerg_rule_infested_goliath_upgrade_any_phase_ares_class_targeting_system_effect_1_keywords"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "UnitId": "pdf_Zerg_unit_infested_goliath",
+    "ProfileId": "pdf_Zerg_profile_infested_goliath",
+    "OptionId": "Haywire Missiles",
+    "ReferencedItemsToRemove": [
+      {
+        "Id": "pdf_Zerg_equipment_infested_goliath_weapon_assault_phase_hellfire_missiles_slot",
+        "Ref": [
+          {
+            "Id": "pdf_Zerg_equipment_infested_goliath_weapon_assault_phase_hellfire_missiles_body",
+            "Ref": [
+              {
+                "Id": "pdf_Zerg_equipment_infested_goliath_weapon_assault_phase_hellfire_missiles_table"
+              },
+              {
+                "Id": "pdf_Zerg_equipment_infested_goliath_upgrade_weapon_assault_phase_scatter_missiles_table"
+              },
+              {
+                "Id": "pdf_Zerg_equipment_infested_goliath_upgrade_weapon_assault_phase_haywire_missiles_table"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Id": "pdf_Zerg_equipment_infested_goliath_weapon_assault_phase_hellfire_missiles_slot",
+        "Ref": [
+          {
+            "Id": "pdf_Zerg_equipment_infested_goliath_weapon_assault_phase_hellfire_missiles_keyword_row",
+            "Ref": [
+              {
+                "Id": "pdf_Zerg_equipment_infested_goliath_weapon_assault_phase_hellfire_missiles_keywords"
+              },
+              {
+                "Id": "pdf_Zerg_equipment_infested_goliath_upgrade_weapon_assault_phase_scatter_missiles_keywords"
+              },
+              {
+                "Id": "pdf_Zerg_equipment_infested_goliath_upgrade_weapon_assault_phase_haywire_missiles_keywords"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "ReferencedItemsToAdd": [
+      {
+        "Id": "pdf_Zerg_profile_infested_goliath_selected_options",
+        "Ref": [
+          {
+            "Id": "pdf_Zerg_equipment_infested_goliath_upgrade_weapon_assault_phase_haywire_missiles_choice"
+          }
+        ]
+      },
+      {
+        "Id": "pdf_Zerg_equipment_infested_goliath_weapon_assault_phase_hellfire_missiles_slot",
+        "Ref": [
+          {
+            "Id": "pdf_Zerg_equipment_infested_goliath_weapon_assault_phase_hellfire_missiles_body",
+            "Ref": [
+              {
+                "Id": "pdf_Zerg_equipment_infested_goliath_upgrade_weapon_assault_phase_haywire_missiles_table"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Id": "pdf_Zerg_equipment_infested_goliath_weapon_assault_phase_hellfire_missiles_slot",
+        "Ref": [
+          {
+            "Id": "pdf_Zerg_equipment_infested_goliath_weapon_assault_phase_hellfire_missiles_keyword_row",
+            "Ref": [
+              {
+                "Id": "pdf_Zerg_equipment_infested_goliath_upgrade_weapon_assault_phase_haywire_missiles_keywords"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "UnitId": "pdf_Zerg_unit_infested_goliath",
+    "ProfileId": "pdf_Zerg_profile_infested_goliath",
+    "OptionId": "Scatter Missiles",
+    "ReferencedItemsToRemove": [
+      {
+        "Id": "pdf_Zerg_equipment_infested_goliath_weapon_assault_phase_hellfire_missiles_slot",
+        "Ref": [
+          {
+            "Id": "pdf_Zerg_equipment_infested_goliath_weapon_assault_phase_hellfire_missiles_body",
+            "Ref": [
+              {
+                "Id": "pdf_Zerg_equipment_infested_goliath_weapon_assault_phase_hellfire_missiles_table"
+              },
+              {
+                "Id": "pdf_Zerg_equipment_infested_goliath_upgrade_weapon_assault_phase_scatter_missiles_table"
+              },
+              {
+                "Id": "pdf_Zerg_equipment_infested_goliath_upgrade_weapon_assault_phase_haywire_missiles_table"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Id": "pdf_Zerg_equipment_infested_goliath_weapon_assault_phase_hellfire_missiles_slot",
+        "Ref": [
+          {
+            "Id": "pdf_Zerg_equipment_infested_goliath_weapon_assault_phase_hellfire_missiles_keyword_row",
+            "Ref": [
+              {
+                "Id": "pdf_Zerg_equipment_infested_goliath_weapon_assault_phase_hellfire_missiles_keywords"
+              },
+              {
+                "Id": "pdf_Zerg_equipment_infested_goliath_upgrade_weapon_assault_phase_scatter_missiles_keywords"
+              },
+              {
+                "Id": "pdf_Zerg_equipment_infested_goliath_upgrade_weapon_assault_phase_haywire_missiles_keywords"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "ReferencedItemsToAdd": [
+      {
+        "Id": "pdf_Zerg_profile_infested_goliath_selected_options",
+        "Ref": [
+          {
+            "Id": "pdf_Zerg_equipment_infested_goliath_upgrade_weapon_assault_phase_scatter_missiles_choice"
+          }
+        ]
+      },
+      {
+        "Id": "pdf_Zerg_equipment_infested_goliath_weapon_assault_phase_hellfire_missiles_slot",
+        "Ref": [
+          {
+            "Id": "pdf_Zerg_equipment_infested_goliath_weapon_assault_phase_hellfire_missiles_body",
+            "Ref": [
+              {
+                "Id": "pdf_Zerg_equipment_infested_goliath_upgrade_weapon_assault_phase_scatter_missiles_table"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Id": "pdf_Zerg_equipment_infested_goliath_weapon_assault_phase_hellfire_missiles_slot",
+        "Ref": [
+          {
+            "Id": "pdf_Zerg_equipment_infested_goliath_weapon_assault_phase_hellfire_missiles_keyword_row",
+            "Ref": [
+              {
+                "Id": "pdf_Zerg_equipment_infested_goliath_upgrade_weapon_assault_phase_scatter_missiles_keywords"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "UnitId": "pdf_Zerg_unit_infested_marine",
+    "ProfileId": "pdf_Zerg_profile_infested_marine",
+    "OptionId": "Burrow Ambush",
+    "ReferencedItemsToRemove": [],
+    "ReferencedItemsToAdd": [
+      {
+        "Id": "pdf_Zerg_profile_infested_marine_selected_options",
+        "Ref": [
+          {
+            "Id": "pdf_Zerg_rule_corpsers_roach_upgrade_movement_phase_burrow_ambush"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "UnitId": "pdf_Zerg_unit_infested_marine",
+    "ProfileId": "pdf_Zerg_profile_infested_marine",
+    "OptionId": "Infested Missile Launcher - Acid Blast",
+    "ReferencedItemsToRemove": [],
+    "ReferencedItemsToAdd": [
+      {
+        "Id": "pdf_Zerg_profile_infested_marine_selected_options",
+        "Ref": [
+          {
+            "Id": "pdf_Zerg_equipment_infested_marine_upgrade_weapon_assault_phase_infested_missile_launcher_acid_blast_choice"
+          }
+        ]
+      },
+      {
+        "Id": "pdf_Zerg_equipment_infested_marine_weapon_assault_phase_infested_c_14_rifle_slot",
+        "Ref": [
+          {
+            "Id": "pdf_Zerg_equipment_infested_marine_upgrade_weapon_assault_phase_infested_missile_launcher_acid_blast_table"
+          },
+          {
+            "Id": "pdf_Zerg_equipment_infested_marine_upgrade_weapon_assault_phase_infested_missile_launcher_acid_blast_keywords"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "UnitId": "pdf_Zerg_unit_infested_marine",
+    "ProfileId": "pdf_Zerg_profile_infested_marine",
+    "OptionId": "Infested Missile Launcher - Scourgeshot",
+    "ReferencedItemsToRemove": [],
+    "ReferencedItemsToAdd": [
+      {
+        "Id": "pdf_Zerg_profile_infested_marine_selected_options",
+        "Ref": [
+          {
+            "Id": "pdf_Zerg_equipment_infested_marine_upgrade_weapon_assault_phase_infested_missile_launcher_scourgeshot_choice"
+          }
+        ]
+      },
+      {
+        "Id": "pdf_Zerg_equipment_infested_marine_weapon_assault_phase_infested_c_14_rifle_slot",
+        "Ref": [
+          {
+            "Id": "pdf_Zerg_equipment_infested_marine_upgrade_weapon_assault_phase_infested_missile_launcher_scourgeshot_table"
+          },
+          {
+            "Id": "pdf_Zerg_equipment_infested_marine_upgrade_weapon_assault_phase_infested_missile_launcher_scourgeshot_keywords"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "UnitId": "pdf_Zerg_unit_infested_marine",
+    "ProfileId": "pdf_Zerg_profile_infested_marine",
+    "OptionId": "Plagued Munitions",
+    "ReferencedItemsToRemove": [],
+    "ReferencedItemsToAdd": [
+      {
+        "Id": "pdf_Zerg_profile_infested_marine_selected_options",
+        "Ref": [
+          {
+            "Id": "pdf_Zerg_rule_infested_marine_upgrade_assault_phase_plagued_munitions"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "UnitId": "pdf_Zerg_unit_infested_marine",
+    "ProfileId": "pdf_Zerg_profile_infested_marine",
+    "OptionId": "Wild Mutation",
+    "ReferencedItemsToRemove": [
+      {
+        "Id": "pdf_Zerg_equipment_infested_marine_weapon_assault_phase_infested_c_14_rifle_slot",
+        "Ref": [
+          {
+            "Id": "pdf_Zerg_equipment_infested_marine_weapon_assault_phase_infested_c_14_rifle_body",
+            "Ref": [
+              {
+                "Id": "pdf_Zerg_equipment_infested_marine_weapon_assault_phase_infested_c_14_rifle_table"
+              },
+              {
+                "Id": "pdf_Zerg_equipment_infested_marine_upgrade_weapon_combat_phase_wild_mutation_table"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Id": "pdf_Zerg_equipment_infested_marine_weapon_assault_phase_infested_c_14_rifle_slot",
+        "Ref": [
+          {
+            "Id": "pdf_Zerg_equipment_infested_marine_weapon_assault_phase_infested_c_14_rifle_keyword_row",
+            "Ref": [
+              {
+                "Id": "pdf_Zerg_equipment_infested_marine_weapon_assault_phase_infested_c_14_rifle_keywords"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "ReferencedItemsToAdd": [
+      {
+        "Id": "pdf_Zerg_profile_infested_marine_selected_options",
+        "Ref": [
+          {
+            "Id": "pdf_Zerg_equipment_infested_marine_upgrade_weapon_combat_phase_wild_mutation_choice"
+          }
+        ]
+      },
+      {
+        "Id": "pdf_Zerg_equipment_infested_marine_weapon_assault_phase_infested_c_14_rifle_slot",
+        "Ref": [
+          {
+            "Id": "pdf_Zerg_equipment_infested_marine_weapon_assault_phase_infested_c_14_rifle_body",
+            "Ref": [
+              {
+                "Id": "pdf_Zerg_equipment_infested_marine_upgrade_weapon_combat_phase_wild_mutation_table"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "UnitId": "pdf_Zerg_unit_infested_siege_tank",
+    "ProfileId": "pdf_Zerg_profile_infested_siege_tank",
+    "OptionId": "Coordinated Strike",
+    "ReferencedItemsToRemove": [],
+    "ReferencedItemsToAdd": [
+      {
+        "Id": "pdf_Zerg_profile_infested_siege_tank_selected_options",
+        "Ref": [
+          {
+            "Id": "pdf_Terran_rule_siege_tank_upgrade_movement_phase_coordinated_strike"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "UnitId": "pdf_Zerg_unit_infested_siege_tank",
+    "ProfileId": "pdf_Zerg_profile_infested_siege_tank",
+    "OptionId": "Mode Transformation",
+    "ReferencedItemsToRemove": [],
+    "ReferencedItemsToAdd": [
+      {
+        "Id": "pdf_Zerg_profile_infested_siege_tank_selected_options",
+        "Ref": [
+          {
+            "Id": "pdf_Terran_rule_siege_tank_upgrade_movement_phase_mode_transformation"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "UnitId": "pdf_Zerg_unit_infested_siege_tank",
+    "ProfileId": "pdf_Zerg_profile_infested_siege_tank",
+    "OptionId": "Shaped Blast",
+    "ReferencedItemsToRemove": [],
+    "ReferencedItemsToAdd": [
+      {
+        "Id": "pdf_Zerg_profile_infested_siege_tank_selected_options",
+        "Ref": [
+          {
+            "Id": "pdf_Terran_rule_siege_tank_upgrade_assault_phase_shaped_blast"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "UnitId": "pdf_Zerg_unit_infested_siege_tank",
+    "ProfileId": "pdf_Zerg_profile_infested_siege_tank",
+    "OptionId": "Smart Shells",
+    "ReferencedItemsToRemove": [],
+    "ReferencedItemsToAdd": [
+      {
+        "Id": "pdf_Zerg_profile_infested_siege_tank_selected_options",
+        "Ref": [
+          {
+            "Id": "pdf_Terran_rule_siege_tank_upgrade_assault_phase_smart_shells"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "UnitId": "pdf_Zerg_unit_queen",
     "ProfileId": "pdf_Zerg_profile_queen",
     "OptionId": "Creep Speed",
@@ -629,7 +1069,7 @@
         "Id": "pdf_Zerg_profile_viles_roach_selected_options",
         "Ref": [
           {
-            "Id": "pdf_Zerg_rule_viles_roach_upgrade_movement_phase_glial_reconstitution"
+            "Id": "pdf_Zerg_rule_corpsers_roach_upgrade_movement_phase_glial_reconstitution"
           }
         ]
       }
@@ -688,7 +1128,7 @@
         "Id": "pdf_Zerg_profile_viles_roach_selected_options",
         "Ref": [
           {
-            "Id": "pdf_Zerg_rule_viles_roach_upgrade_movement_phase_tunneling_claws"
+            "Id": "pdf_Zerg_rule_corpsers_roach_upgrade_any_phase_tunneling_claws"
           }
         ]
       }

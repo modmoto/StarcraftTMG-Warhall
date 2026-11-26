@@ -47,10 +47,10 @@ test('catalogue covers all selected units, terrain and existing markers', async 
   const actual = validateCatalogue(
     JSON.parse(await readFile(new URL('../model-catalogue.json', import.meta.url))),
   );
-  assert.equal(actual.entries.filter(e => e.kind === 'unit').length, 45);
+  assert.equal(actual.entries.filter(e => e.kind === 'unit').length, 59);
   assert.equal(actual.entries.filter(e => e.kind === 'marker').length, 5);
   assert.equal(actual.entries.filter(e => e.kind === 'deployment').length, 14);
-  assert.equal(actual.entries.filter(e => e.kind === 'token').length, 18);
+  assert.equal(actual.entries.filter(e => e.kind === 'token').length, 20);
   assert.equal(actual.entries.filter(e => e.kind === 'terrain' && e.parts).length, 14);
   assert.equal(actual.entries.filter(e => e.kind === 'marker' && e.replacesNativeSkinId).length, 3);
 });

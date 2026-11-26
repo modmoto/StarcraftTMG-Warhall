@@ -1,0 +1,1501 @@
+{
+  "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=3662791369",
+  "snapshotDate": "2026-11-25",
+  "policy": "Use actual child model geometry and attachments; omit the dummy base. Bake local transforms and root scale; ignore table placement.",
+  "models": [
+    {
+      "faction": "Terran",
+      "unitName": "Firebat",
+      "unitId": "pdf_Terran_unit_firebat",
+      "preserveSourceColors": false,
+      "root": {
+        "GUID": "8cac6c",
+        "Name": "Custom_Model",
+        "Transform": {
+          "posX": 86.99188232421875,
+          "posY": 4.319474697113037,
+          "posZ": 73.74213409423828,
+          "rotX": 1.312322974205017,
+          "rotY": 179.93601989746094,
+          "rotZ": 354.52899169921875,
+          "scaleX": 1.0,
+          "scaleY": 1.0,
+          "scaleZ": 1.0
+        },
+        "Nickname": "Firebat",
+        "CustomMesh": {
+          "MeshURL": "https://steamusercontent-a.akamaihd.net/ugc/1697279271974526767/5859B74889D47ECA875D91E800DF6656BDC73604/",
+          "DiffuseURL": "https://steamusercontent-a.akamaihd.net/ugc/1043093746446002091/8D5C1A992B3430C31C8A7CE0C0BC52D676B3FBA4/",
+          "NormalURL": "",
+          "ColliderURL": "https://steamusercontent-a.akamaihd.net/ugc/1697279271974526767/5859B74889D47ECA875D91E800DF6656BDC73604/",
+          "Convex": true,
+          "MaterialIndex": 1,
+          "TypeIndex": 1,
+          "CustomShader": {
+            "SpecularColor": {
+              "r": 0.875,
+              "g": 0.8128803372383118,
+              "b": 0.7463235259056091
+            },
+            "SpecularIntensity": 0.009999999776482582,
+            "SpecularSharpness": 4.0,
+            "FresnelStrength": 0.1071428582072258
+          },
+          "CastShadows": true
+        },
+        "ChildObjects": [
+          {
+            "GUID": "5bcb8f",
+            "Name": "Custom_Model",
+            "Transform": {
+              "posX": 0.09255611151456833,
+              "posY": 0.15604974329471588,
+              "posZ": -0.06493168324232101,
+              "rotX": -0.000209583347896114,
+              "rotY": 359.99383544921875,
+              "rotZ": 7.721436850260943e-05,
+              "scaleX": 1.2999999523162842,
+              "scaleY": 1.2999999523162842,
+              "scaleZ": 1.2999999523162842
+            },
+            "Nickname": "",
+            "CustomMesh": {
+              "MeshURL": "https://steamusercontent-a.akamaihd.net/ugc/11170802067245070268/222294F161ED8BA04C753405E5CE0EA13A339341/",
+              "DiffuseURL": "https://steamusercontent-a.akamaihd.net/ugc/14463999959309048590/BCD4E8406F19AA92E94789425F2FFBAF066B375A/",
+              "NormalURL": "",
+              "ColliderURL": "https://steamusercontent-a.akamaihd.net/ugc/13998934439183795478/D3BF02AD63AD0A4D55DC748930342AFAFE11BEA7/",
+              "Convex": true,
+              "MaterialIndex": 3,
+              "TypeIndex": 0,
+              "CustomShader": {
+                "SpecularColor": {
+                  "r": 1.0,
+                  "g": 1.0,
+                  "b": 1.0
+                },
+                "SpecularIntensity": 0.0,
+                "SpecularSharpness": 2.0,
+                "FresnelStrength": 0.0
+              },
+              "CastShadows": true
+            },
+            "ChildObjects": [
+              {
+                "GUID": "911838",
+                "Name": "Custom_Model",
+                "Transform": {
+                  "posX": -0.002556927502155304,
+                  "posY": -1.156376470135001e-06,
+                  "posZ": 0.02462105080485344,
+                  "rotX": 1.960174813575577e-05,
+                  "rotY": 3.6044957596459426e-07,
+                  "rotZ": 1.904939563246444e-05,
+                  "scaleX": 1.0,
+                  "scaleY": 1.0,
+                  "scaleZ": 1.0
+                },
+                "Nickname": "",
+                "CustomMesh": {
+                  "MeshURL": "https://steamusercontent-a.akamaihd.net/ugc/14416420500686209053/330053699B9B3F63955DF6CE3B70EBAE580DFF3A/",
+                  "DiffuseURL": "https://steamusercontent-a.akamaihd.net/ugc/13870044156970809454/6C6B6D45D80C1B5A75505409F8BE7B0637B25DCF/",
+                  "NormalURL": "",
+                  "ColliderURL": "https://steamusercontent-a.akamaihd.net/ugc/13998934439183795478/D3BF02AD63AD0A4D55DC748930342AFAFE11BEA7/",
+                  "Convex": true,
+                  "MaterialIndex": 3,
+                  "TypeIndex": 0,
+                  "CustomShader": {
+                    "SpecularColor": {
+                      "r": 1.0,
+                      "g": 1.0,
+                      "b": 1.0
+                    },
+                    "SpecularIntensity": 0.0,
+                    "SpecularSharpness": 2.0,
+                    "FresnelStrength": 0.0
+                  },
+                  "CastShadows": true
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "baseEvidence": {
+        "measurementRadiusInches": 0.7874019742012024,
+        "rootScaleX": 1.0,
+        "diameterMm": 40.0
+      }
+    },
+    {
+      "faction": "Protoss",
+      "unitName": "Reaver",
+      "unitId": "pdf_Protoss_unit_reaver",
+      "preserveSourceColors": false,
+      "root": {
+        "GUID": "f04424",
+        "Name": "Custom_Model",
+        "Transform": {
+          "posX": -5.045379638671875,
+          "posY": -1.2516975402832031e-06,
+          "posZ": -4.342075347900391,
+          "rotX": 1.036469348036917e-05,
+          "rotY": 179.96585083007812,
+          "rotZ": -2.191508656324004e-06,
+          "scaleX": 3.0,
+          "scaleY": 1.0,
+          "scaleZ": 3.0
+        },
+        "Nickname": "Reaver",
+        "CustomMesh": {
+          "MeshURL": "https://steamusercontent-a.akamaihd.net/ugc/1697279271974528162/974469DDE20EF287921F51616A5D9CAFD40C461D/",
+          "DiffuseURL": "https://steamusercontent-a.akamaihd.net/ugc/8552585324047978/BB4A0D6B818FEB9DEAB9D79E5B823455C2571E91/",
+          "NormalURL": "",
+          "ColliderURL": "https://steamusercontent-a.akamaihd.net/ugc/1697279271974528162/974469DDE20EF287921F51616A5D9CAFD40C461D/",
+          "Convex": true,
+          "MaterialIndex": 1,
+          "TypeIndex": 1,
+          "CustomShader": {
+            "SpecularColor": {
+              "r": 0.875,
+              "g": 0.8128803372383118,
+              "b": 0.7463235259056091
+            },
+            "SpecularIntensity": 0.009999999776482582,
+            "SpecularSharpness": 4.0,
+            "FresnelStrength": 0.1071428582072258
+          },
+          "CastShadows": true
+        },
+        "ChildObjects": [
+          {
+            "GUID": "1c0a05",
+            "Name": "Custom_Model",
+            "Transform": {
+              "posX": -0.048616923391819,
+              "posY": 0.14939580857753754,
+              "posZ": -0.009415186010301113,
+              "rotX": 0.00018926156917586923,
+              "rotY": 0.01909957453608513,
+              "rotZ": -0.00011879020894411951,
+              "scaleX": 0.7333331108093262,
+              "scaleY": 2.1999990940093994,
+              "scaleZ": 0.7333331108093262
+            },
+            "Nickname": "",
+            "CustomMesh": {
+              "MeshURL": "https://steamusercontent-a.akamaihd.net/ugc/14314579111402451289/6F0E02733DFB9CE0721B128A2E0317A5043BE25D/",
+              "DiffuseURL": "https://steamusercontent-a.akamaihd.net/ugc/12616545220907804713/0BDB6C48C42855DC05F305543EF0E70CBB5DD298/",
+              "NormalURL": "",
+              "ColliderURL": "https://steamusercontent-a.akamaihd.net/ugc/13998934439183795478/D3BF02AD63AD0A4D55DC748930342AFAFE11BEA7/",
+              "Convex": true,
+              "MaterialIndex": 3,
+              "TypeIndex": 0,
+              "CustomShader": {
+                "SpecularColor": {
+                  "r": 1.0,
+                  "g": 1.0,
+                  "b": 1.0
+                },
+                "SpecularIntensity": 0.0,
+                "SpecularSharpness": 2.0,
+                "FresnelStrength": 0.0
+              },
+              "CastShadows": true
+            }
+          }
+        ]
+      },
+      "baseEvidence": {
+        "measurementRadiusInches": 0.9842525124549866,
+        "rootScaleX": 3.0,
+        "diameterMm": 150.0
+      }
+    },
+    {
+      "faction": "Protoss",
+      "unitName": "Scarab",
+      "unitId": "pdf_Protoss_unit_scarab",
+      "preserveSourceColors": false,
+      "root": {
+        "GUID": "4e1311",
+        "Name": "Custom_Model",
+        "Transform": {
+          "posX": -1.2740106582641602,
+          "posY": -1.8477439880371094e-06,
+          "posZ": -3.125986337661743,
+          "rotX": 3.3429045288357884e-05,
+          "rotY": 90.58206176757812,
+          "rotZ": -1.0326856681786012e-05,
+          "scaleX": 1.0,
+          "scaleY": 1.0,
+          "scaleZ": 1.0
+        },
+        "Nickname": "Scarab",
+        "CustomMesh": {
+          "MeshURL": "https://steamusercontent-a.akamaihd.net/ugc/1697279271974528162/974469DDE20EF287921F51616A5D9CAFD40C461D/",
+          "DiffuseURL": "https://steamusercontent-a.akamaihd.net/ugc/8552585324047978/BB4A0D6B818FEB9DEAB9D79E5B823455C2571E91/",
+          "NormalURL": "",
+          "ColliderURL": "https://steamusercontent-a.akamaihd.net/ugc/1697279271974528162/974469DDE20EF287921F51616A5D9CAFD40C461D/",
+          "Convex": true,
+          "MaterialIndex": 1,
+          "TypeIndex": 1,
+          "CustomShader": {
+            "SpecularColor": {
+              "r": 0.875,
+              "g": 0.8128803372383118,
+              "b": 0.7463235259056091
+            },
+            "SpecularIntensity": 0.009999999776482582,
+            "SpecularSharpness": 4.0,
+            "FresnelStrength": 0.1071428582072258
+          },
+          "CastShadows": true
+        },
+        "ChildObjects": [
+          {
+            "GUID": "ea800c",
+            "Name": "Custom_Model",
+            "Transform": {
+              "posX": -0.01737157255411148,
+              "posY": 0.1830620914697647,
+              "posZ": -0.20398694276809692,
+              "rotX": 359.96990966796875,
+              "rotY": 135.00457763671875,
+              "rotZ": 359.2917785644531,
+              "scaleX": 1.5499995946884155,
+              "scaleY": 1.5499995946884155,
+              "scaleZ": 1.549999713897705
+            },
+            "Nickname": "",
+            "CustomMesh": {
+              "MeshURL": "https://steamusercontent-a.akamaihd.net/ugc/18353728999648097899/C95BBB151BA01030F75BFF4D54BCDA45206B06C9/",
+              "DiffuseURL": "https://steamusercontent-a.akamaihd.net/ugc/13435028374751589394/53F604350508800DCA084AB6A6A1A74D0029AAB8/",
+              "NormalURL": "",
+              "ColliderURL": "https://steamusercontent-a.akamaihd.net/ugc/13998934439183795478/D3BF02AD63AD0A4D55DC748930342AFAFE11BEA7/",
+              "Convex": true,
+              "MaterialIndex": 0,
+              "TypeIndex": 0,
+              "CastShadows": true
+            }
+          }
+        ]
+      },
+      "baseEvidence": {
+        "measurementRadiusInches": 0.9842525124549866,
+        "rootScaleX": 1.0,
+        "diameterMm": 50.0
+      }
+    },
+    {
+      "faction": "Protoss",
+      "unitName": "Solarite Scarab",
+      "unitId": "pdf_Protoss_unit_solarite_scarab",
+      "preserveSourceColors": false,
+      "root": {
+        "GUID": "42bd78",
+        "Name": "Custom_Model",
+        "Transform": {
+          "posX": -1.273949146270752,
+          "posY": -1.0728836059570312e-06,
+          "posZ": -4.793994426727295,
+          "rotX": -2.2144733520690352e-05,
+          "rotY": 90.58209228515625,
+          "rotZ": 2.147039231203962e-05,
+          "scaleX": 1.0,
+          "scaleY": 1.0,
+          "scaleZ": 1.0
+        },
+        "Nickname": "Solarite Scarab",
+        "CustomMesh": {
+          "MeshURL": "https://steamusercontent-a.akamaihd.net/ugc/1697279271974528162/974469DDE20EF287921F51616A5D9CAFD40C461D/",
+          "DiffuseURL": "https://steamusercontent-a.akamaihd.net/ugc/8552585324047978/BB4A0D6B818FEB9DEAB9D79E5B823455C2571E91/",
+          "NormalURL": "",
+          "ColliderURL": "https://steamusercontent-a.akamaihd.net/ugc/1697279271974528162/974469DDE20EF287921F51616A5D9CAFD40C461D/",
+          "Convex": true,
+          "MaterialIndex": 1,
+          "TypeIndex": 1,
+          "CustomShader": {
+            "SpecularColor": {
+              "r": 0.875,
+              "g": 0.8128803372383118,
+              "b": 0.7463235259056091
+            },
+            "SpecularIntensity": 0.009999999776482582,
+            "SpecularSharpness": 4.0,
+            "FresnelStrength": 0.1071428582072258
+          },
+          "CastShadows": true
+        },
+        "ChildObjects": [
+          {
+            "GUID": "ba065c",
+            "Name": "Custom_Model",
+            "Transform": {
+              "posX": -0.017383486032485962,
+              "posY": 0.183099627494812,
+              "posZ": -0.2039889097213745,
+              "rotX": 359.9808349609375,
+              "rotY": 135.00416564941406,
+              "rotZ": 359.2823791503906,
+              "scaleX": 1.5499999523162842,
+              "scaleY": 1.5499998331069946,
+              "scaleZ": 1.5499999523162842
+            },
+            "Nickname": "",
+            "CustomMesh": {
+              "MeshURL": "https://steamusercontent-a.akamaihd.net/ugc/18353728999648097899/C95BBB151BA01030F75BFF4D54BCDA45206B06C9/",
+              "DiffuseURL": "https://steamusercontent-a.akamaihd.net/ugc/11395427541923072959/D9740705459EBDA00D4D472C8F6FE64604E56B84/",
+              "NormalURL": "",
+              "ColliderURL": "https://steamusercontent-a.akamaihd.net/ugc/13998934439183795478/D3BF02AD63AD0A4D55DC748930342AFAFE11BEA7/",
+              "Convex": true,
+              "MaterialIndex": 0,
+              "TypeIndex": 0,
+              "CastShadows": true
+            }
+          }
+        ]
+      },
+      "baseEvidence": {
+        "measurementRadiusInches": 0.9842525124549866,
+        "rootScaleX": 1.0,
+        "diameterMm": 50.0
+      }
+    },
+    {
+      "faction": "Protoss",
+      "unitName": "Phasing Scarab",
+      "unitId": "pdf_Protoss_unit_phasing_scarab",
+      "preserveSourceColors": false,
+      "root": {
+        "GUID": "f06aab",
+        "Name": "Custom_Model",
+        "Transform": {
+          "posX": -1.2739009857177734,
+          "posY": -1.1920928955078125e-06,
+          "posZ": -6.462021350860596,
+          "rotX": -5.2988867537351325e-05,
+          "rotY": 90.58203887939453,
+          "rotZ": -1.746328780427575e-05,
+          "scaleX": 1.0,
+          "scaleY": 1.0,
+          "scaleZ": 1.0
+        },
+        "Nickname": "Phasing Scarab",
+        "CustomMesh": {
+          "MeshURL": "https://steamusercontent-a.akamaihd.net/ugc/1697279271974528162/974469DDE20EF287921F51616A5D9CAFD40C461D/",
+          "DiffuseURL": "https://steamusercontent-a.akamaihd.net/ugc/8552585324047978/BB4A0D6B818FEB9DEAB9D79E5B823455C2571E91/",
+          "NormalURL": "",
+          "ColliderURL": "https://steamusercontent-a.akamaihd.net/ugc/1697279271974528162/974469DDE20EF287921F51616A5D9CAFD40C461D/",
+          "Convex": true,
+          "MaterialIndex": 1,
+          "TypeIndex": 1,
+          "CustomShader": {
+            "SpecularColor": {
+              "r": 0.875,
+              "g": 0.8128803372383118,
+              "b": 0.7463235259056091
+            },
+            "SpecularIntensity": 0.009999999776482582,
+            "SpecularSharpness": 4.0,
+            "FresnelStrength": 0.1071428582072258
+          },
+          "CastShadows": true
+        },
+        "ChildObjects": [
+          {
+            "GUID": "5d3727",
+            "Name": "Custom_Model",
+            "Transform": {
+              "posX": -0.01737362891435623,
+              "posY": 0.18307730555534363,
+              "posZ": -0.203992560505867,
+              "rotX": 0.0008329895790666342,
+              "rotY": 135.00405883789062,
+              "rotZ": 359.2841491699219,
+              "scaleX": 1.5499995946884155,
+              "scaleY": 1.549999713897705,
+              "scaleZ": 1.5499998331069946
+            },
+            "Nickname": "",
+            "CustomMesh": {
+              "MeshURL": "https://steamusercontent-a.akamaihd.net/ugc/18353728999648097899/C95BBB151BA01030F75BFF4D54BCDA45206B06C9/",
+              "DiffuseURL": "https://steamusercontent-a.akamaihd.net/ugc/15731422469443824279/A66EB77C0FAA82C1E07B72800C86E28F8E291B3B/",
+              "NormalURL": "",
+              "ColliderURL": "https://steamusercontent-a.akamaihd.net/ugc/13998934439183795478/D3BF02AD63AD0A4D55DC748930342AFAFE11BEA7/",
+              "Convex": true,
+              "MaterialIndex": 0,
+              "TypeIndex": 0,
+              "CastShadows": true
+            }
+          }
+        ]
+      },
+      "baseEvidence": {
+        "measurementRadiusInches": 0.9842525124549866,
+        "rootScaleX": 1.0,
+        "diameterMm": 50.0
+      }
+    },
+    {
+      "faction": "Protoss",
+      "unitName": "Alarak",
+      "unitId": "pdf_Protoss_unit_alarak",
+      "preserveSourceColors": true,
+      "root": {
+        "GUID": "31e5cb",
+        "Name": "Custom_Model",
+        "Transform": {
+          "posX": 12.81071662902832,
+          "posY": -8.344650268554688e-07,
+          "posZ": -4.5842509269714355,
+          "rotX": 6.95616181474179e-05,
+          "rotY": 314.99664306640625,
+          "rotZ": -9.145076182903722e-05,
+          "scaleX": 1.0,
+          "scaleY": 1.0,
+          "scaleZ": 1.0
+        },
+        "Nickname": "Alarak",
+        "CustomMesh": {
+          "MeshURL": "https://steamusercontent-a.akamaihd.net/ugc/1697279271974526767/5859B74889D47ECA875D91E800DF6656BDC73604/",
+          "DiffuseURL": "https://steamusercontent-a.akamaihd.net/ugc/8552585324047978/BB4A0D6B818FEB9DEAB9D79E5B823455C2571E91/",
+          "NormalURL": "",
+          "ColliderURL": "https://steamusercontent-a.akamaihd.net/ugc/1697279271974526767/5859B74889D47ECA875D91E800DF6656BDC73604/",
+          "Convex": true,
+          "MaterialIndex": 1,
+          "TypeIndex": 1,
+          "CustomShader": {
+            "SpecularColor": {
+              "r": 0.875,
+              "g": 0.8128803372383118,
+              "b": 0.7463235259056091
+            },
+            "SpecularIntensity": 0.009999999776482582,
+            "SpecularSharpness": 4.0,
+            "FresnelStrength": 0.1071428582072258
+          },
+          "CastShadows": true
+        },
+        "ChildObjects": [
+          {
+            "GUID": "8af11f",
+            "Name": "Custom_Model",
+            "Transform": {
+              "posX": -0.08931979537010193,
+              "posY": 0.13939140737056732,
+              "posZ": -0.12668868899345398,
+              "rotX": 0.0008396210614591837,
+              "rotY": 224.98117065429688,
+              "rotZ": -0.00023597539984621108,
+              "scaleX": 1.2000000476837158,
+              "scaleY": 1.1999998092651367,
+              "scaleZ": 1.2000000476837158
+            },
+            "Nickname": "",
+            "CustomMesh": {
+              "MeshURL": "https://steamusercontent-a.akamaihd.net/ugc/9613720763168823261/74E7426BC4A66953E1DC8B5D0A7BE5DE10908C6E/",
+              "DiffuseURL": "https://steamusercontent-a.akamaihd.net/ugc/9474797077020499891/3B9A255918EDD47927EEE0B7B59E645CC26C4D7A/",
+              "NormalURL": "",
+              "ColliderURL": "https://steamusercontent-a.akamaihd.net/ugc/13998934439183795478/D3BF02AD63AD0A4D55DC748930342AFAFE11BEA7/",
+              "Convex": true,
+              "MaterialIndex": 3,
+              "TypeIndex": 0,
+              "CustomShader": {
+                "SpecularColor": {
+                  "r": 1.0,
+                  "g": 1.0,
+                  "b": 1.0
+                },
+                "SpecularIntensity": 0.0,
+                "SpecularSharpness": 2.0,
+                "FresnelStrength": 0.0
+              },
+              "CastShadows": true
+            },
+            "ChildObjects": [
+              {
+                "GUID": "afdb9d",
+                "Name": "Custom_Model",
+                "Transform": {
+                  "posX": 0.015726052224636078,
+                  "posY": 0.04017467796802521,
+                  "posZ": 0.0017509518656879663,
+                  "rotX": 1.7751084566116333,
+                  "rotY": 357.6466369628906,
+                  "rotZ": 359.4852600097656,
+                  "scaleX": 1.0,
+                  "scaleY": 1.0,
+                  "scaleZ": 1.0
+                },
+                "Nickname": "",
+                "CustomMesh": {
+                  "MeshURL": "https://steamusercontent-a.akamaihd.net/ugc/9983574500668981317/12E96E1E960270E017BF4A41BDD5E689226FC60C/",
+                  "DiffuseURL": "https://steamusercontent-a.akamaihd.net/ugc/16147617727123059749/010051743B2EE51CB99E070C8F38086EDF287800/",
+                  "NormalURL": "",
+                  "ColliderURL": "https://steamusercontent-a.akamaihd.net/ugc/13998934439183795478/D3BF02AD63AD0A4D55DC748930342AFAFE11BEA7/",
+                  "Convex": true,
+                  "MaterialIndex": 3,
+                  "TypeIndex": 0,
+                  "CustomShader": {
+                    "SpecularColor": {
+                      "r": 1.0,
+                      "g": 1.0,
+                      "b": 1.0
+                    },
+                    "SpecularIntensity": 0.0,
+                    "SpecularSharpness": 2.0,
+                    "FresnelStrength": 0.0
+                  },
+                  "CastShadows": true
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "baseEvidence": {
+        "measurementRadiusInches": 0.7874019742012024,
+        "rootScaleX": 1.0,
+        "diameterMm": 40.0
+      }
+    },
+    {
+      "faction": "Protoss",
+      "unitName": "Slayer (Stalker)",
+      "unitId": "pdf_Protoss_unit_slayer_stalker",
+      "preserveSourceColors": true,
+      "root": {
+        "GUID": "bc51aa",
+        "Name": "Custom_Model",
+        "Transform": {
+          "posX": 14.613518714904785,
+          "posY": -1.4901161193847656e-06,
+          "posZ": -1.8250842094421387,
+          "rotX": -5.588680096479948e-07,
+          "rotY": 150.0143585205078,
+          "rotZ": -2.670118192327209e-06,
+          "scaleX": 1.0,
+          "scaleY": 1.0,
+          "scaleZ": 1.0
+        },
+        "Nickname": "Slayer (Stalker)",
+        "CustomMesh": {
+          "MeshURL": "https://steamusercontent-a.akamaihd.net/ugc/1697279271974532410/49039E8ED984EC3B1342589483BBFDD0E807FEF1/",
+          "DiffuseURL": "https://steamusercontent-a.akamaihd.net/ugc/8552585324047978/BB4A0D6B818FEB9DEAB9D79E5B823455C2571E91/",
+          "NormalURL": "",
+          "ColliderURL": "https://steamusercontent-a.akamaihd.net/ugc/1697279271974565491/807930F43FBFA34C51C07C037F5DB7EB940A71E8/",
+          "Convex": true,
+          "MaterialIndex": 1,
+          "TypeIndex": 1,
+          "CustomShader": {
+            "SpecularColor": {
+              "r": 0.875,
+              "g": 0.8128803372383118,
+              "b": 0.7463235259056091
+            },
+            "SpecularIntensity": 0.009999999776482582,
+            "SpecularSharpness": 4.0,
+            "FresnelStrength": 0.1071428582072258
+          },
+          "CastShadows": true
+        },
+        "ChildObjects": [
+          {
+            "GUID": "875852",
+            "Name": "Custom_Model",
+            "Transform": {
+              "posX": -0.1439603567123413,
+              "posY": 0.1403948962688446,
+              "posZ": -0.23688191175460815,
+              "rotX": 0.00020883239631075412,
+              "rotY": 30.048250198364258,
+              "rotZ": -0.000305721303448081,
+              "scaleX": 1.3000006675720215,
+              "scaleY": 1.2999998331069946,
+              "scaleZ": 1.3000006675720215
+            },
+            "Nickname": "",
+            "CustomMesh": {
+              "MeshURL": "https://steamusercontent-a.akamaihd.net/ugc/15129021142985132011/753B3E7E2E7FA3447547C9CDF81415A63F4DE307/",
+              "DiffuseURL": "https://steamusercontent-a.akamaihd.net/ugc/17553238631122789229/57B9DE7430CDB36CCAC10076764A312EC864C8E1/",
+              "NormalURL": "",
+              "ColliderURL": "https://steamusercontent-a.akamaihd.net/ugc/13998934439183795478/D3BF02AD63AD0A4D55DC748930342AFAFE11BEA7/",
+              "Convex": true,
+              "MaterialIndex": 3,
+              "TypeIndex": 0,
+              "CustomShader": {
+                "SpecularColor": {
+                  "r": 1.0,
+                  "g": 1.0,
+                  "b": 1.0
+                },
+                "SpecularIntensity": 0.0,
+                "SpecularSharpness": 2.0,
+                "FresnelStrength": 0.0
+              },
+              "CastShadows": true
+            }
+          }
+        ]
+      },
+      "baseEvidence": {
+        "measurementRadiusInches": 1.5748039484024048,
+        "rootScaleX": 1.0,
+        "diameterMm": 80.0
+      }
+    },
+    {
+      "faction": "Protoss",
+      "unitName": "Tal'darim Pylon",
+      "unitId": "pdf_Protoss_unit_tal_darim_pylon",
+      "preserveSourceColors": true,
+      "root": {
+        "GUID": "32ea7f",
+        "Name": "Custom_Model",
+        "Transform": {
+          "posX": 11.17401123046875,
+          "posY": -1.430511474609375e-06,
+          "posZ": 2.8827357292175293,
+          "rotX": -6.721817840116273e-07,
+          "rotY": 149.9996795654297,
+          "rotZ": -5.981237336527556e-06,
+          "scaleX": 1.0,
+          "scaleY": 1.0,
+          "scaleZ": 1.0
+        },
+        "Nickname": "Tal'darim Pylon",
+        "CustomMesh": {
+          "MeshURL": "https://steamusercontent-a.akamaihd.net/ugc/1697279271974532410/49039E8ED984EC3B1342589483BBFDD0E807FEF1/",
+          "DiffuseURL": "https://steamusercontent-a.akamaihd.net/ugc/8552585324047978/BB4A0D6B818FEB9DEAB9D79E5B823455C2571E91/",
+          "NormalURL": "",
+          "ColliderURL": "https://steamusercontent-a.akamaihd.net/ugc/1697279271974532410/49039E8ED984EC3B1342589483BBFDD0E807FEF1/",
+          "Convex": true,
+          "MaterialIndex": 1,
+          "TypeIndex": 1,
+          "CustomShader": {
+            "SpecularColor": {
+              "r": 0.875,
+              "g": 0.8128803372383118,
+              "b": 0.7463235259056091
+            },
+            "SpecularIntensity": 0.009999999776482582,
+            "SpecularSharpness": 4.0,
+            "FresnelStrength": 0.1071428582072258
+          },
+          "CastShadows": true
+        },
+        "ChildObjects": [
+          {
+            "GUID": "7f4495",
+            "Name": "Custom_Model",
+            "Transform": {
+              "posX": -0.06323021650314331,
+              "posY": 0.14339417219161987,
+              "posZ": -0.002159103751182556,
+              "rotX": 0.00033248841646127403,
+              "rotY": 239.99990844726562,
+              "rotZ": -0.0003853963571600616,
+              "scaleX": 1.599998950958252,
+              "scaleY": 1.5999995470046997,
+              "scaleZ": 1.599998950958252
+            },
+            "Nickname": "",
+            "CustomMesh": {
+              "MeshURL": "https://steamusercontent-a.akamaihd.net/ugc/14667668104004955481/37BF13EA65E513F63874CD4FEB5022FFE28B9F63/",
+              "DiffuseURL": "https://steamusercontent-a.akamaihd.net/ugc/14801756547938437116/8A4D46AC717FD35318158D10300C8675B2DA650C/",
+              "NormalURL": "",
+              "ColliderURL": "https://steamusercontent-a.akamaihd.net/ugc/13998934439183795478/D3BF02AD63AD0A4D55DC748930342AFAFE11BEA7/",
+              "Convex": true,
+              "MaterialIndex": 3,
+              "TypeIndex": 0,
+              "CustomShader": {
+                "SpecularColor": {
+                  "r": 1.0,
+                  "g": 1.0,
+                  "b": 1.0
+                },
+                "SpecularIntensity": 0.0,
+                "SpecularSharpness": 2.0,
+                "FresnelStrength": 0.0
+              },
+              "CastShadows": true
+            }
+          }
+        ]
+      },
+      "baseEvidence": {
+        "measurementRadiusInches": 1.5748039484024048,
+        "rootScaleX": 1.0,
+        "diameterMm": 80.0
+      }
+    },
+    {
+      "faction": "Zerg",
+      "unitName": "Stukov",
+      "unitId": "pdf_Zerg_unit_stukov",
+      "preserveSourceColors": false,
+      "root": {
+        "GUID": "bf1b13",
+        "Name": "Custom_Model",
+        "Transform": {
+          "posX": 8.640657424926758,
+          "posY": -1.5497207641601562e-06,
+          "posZ": -2.5868444442749023,
+          "rotX": 5.2586683523259126e-06,
+          "rotY": 210.03170776367188,
+          "rotZ": -5.289848104439443e-06,
+          "scaleX": 1.0,
+          "scaleY": 1.0,
+          "scaleZ": 1.0
+        },
+        "Nickname": "Stukov",
+        "CustomMesh": {
+          "MeshURL": "https://steamusercontent-a.akamaihd.net/ugc/1697279271974526767/5859B74889D47ECA875D91E800DF6656BDC73604/",
+          "DiffuseURL": "https://steamusercontent-a.akamaihd.net/ugc/2017097230052716995/EE265FA05683B177D29125FB07453841225972B7/",
+          "NormalURL": "",
+          "ColliderURL": "https://steamusercontent-a.akamaihd.net/ugc/1697279271974526767/5859B74889D47ECA875D91E800DF6656BDC73604/",
+          "Convex": true,
+          "MaterialIndex": 1,
+          "TypeIndex": 1,
+          "CustomShader": {
+            "SpecularColor": {
+              "r": 0.875,
+              "g": 0.8128803372383118,
+              "b": 0.7463235259056091
+            },
+            "SpecularIntensity": 0.009999999776482582,
+            "SpecularSharpness": 4.0,
+            "FresnelStrength": 0.1071428582072258
+          },
+          "CastShadows": true
+        },
+        "ChildObjects": [
+          {
+            "GUID": "2ebbac",
+            "Name": "Custom_Model",
+            "Transform": {
+              "posX": -0.0015861093997955322,
+              "posY": 0.1328994184732437,
+              "posZ": 0.12888094782829285,
+              "rotX": 0.00010459577606525272,
+              "rotY": 344.9870300292969,
+              "rotZ": -0.0001755336270434782,
+              "scaleX": 0.5500003099441528,
+              "scaleY": 0.5500004291534424,
+              "scaleZ": 0.5500003099441528
+            },
+            "Nickname": "",
+            "CustomMesh": {
+              "MeshURL": "https://steamusercontent-a.akamaihd.net/ugc/14634336936739186086/F525EFA8937258B44F4E1B13215AF3A357EEF6FE/",
+              "DiffuseURL": "https://steamusercontent-a.akamaihd.net/ugc/17408300424613174183/79BED3AC988B5E728BF628EF86267B3FD8352C20/",
+              "NormalURL": "",
+              "ColliderURL": "https://steamusercontent-a.akamaihd.net/ugc/13998934439183795478/D3BF02AD63AD0A4D55DC748930342AFAFE11BEA7/",
+              "Convex": true,
+              "MaterialIndex": 3,
+              "TypeIndex": 0,
+              "CustomShader": {
+                "SpecularColor": {
+                  "r": 1.0,
+                  "g": 1.0,
+                  "b": 1.0
+                },
+                "SpecularIntensity": 0.0,
+                "SpecularSharpness": 2.0,
+                "FresnelStrength": 0.0
+              },
+              "CastShadows": true
+            }
+          }
+        ]
+      },
+      "baseEvidence": {
+        "measurementRadiusInches": 0.7874019742012024,
+        "rootScaleX": 1.0,
+        "diameterMm": 40.0
+      }
+    },
+    {
+      "faction": "Zerg",
+      "unitName": "Infested Marine",
+      "unitId": "pdf_Zerg_unit_infested_marine",
+      "preserveSourceColors": false,
+      "root": {
+        "GUID": "6365c1",
+        "Name": "Custom_Model",
+        "Transform": {
+          "posX": 4.943513870239258,
+          "posY": -1.0728836059570312e-06,
+          "posZ": 0.09407615661621094,
+          "rotX": -5.186552516533993e-05,
+          "rotY": 149.99998474121094,
+          "rotZ": -5.471533950185403e-05,
+          "scaleX": 1.0,
+          "scaleY": 1.0,
+          "scaleZ": 1.0
+        },
+        "Nickname": "Infested Marine",
+        "CustomMesh": {
+          "MeshURL": "https://steamusercontent-a.akamaihd.net/ugc/1697279271974526767/5859B74889D47ECA875D91E800DF6656BDC73604/",
+          "DiffuseURL": "https://steamusercontent-a.akamaihd.net/ugc/1043093746446002091/8D5C1A992B3430C31C8A7CE0C0BC52D676B3FBA4/",
+          "NormalURL": "",
+          "ColliderURL": "https://steamusercontent-a.akamaihd.net/ugc/1697279271974526767/5859B74889D47ECA875D91E800DF6656BDC73604/",
+          "Convex": true,
+          "MaterialIndex": 1,
+          "TypeIndex": 1,
+          "CustomShader": {
+            "SpecularColor": {
+              "r": 0.875,
+              "g": 0.8128803372383118,
+              "b": 0.7463235259056091
+            },
+            "SpecularIntensity": 0.009999999776482582,
+            "SpecularSharpness": 4.0,
+            "FresnelStrength": 0.1071428582072258
+          },
+          "CastShadows": true
+        },
+        "ChildObjects": [
+          {
+            "GUID": "4e9b17",
+            "Name": "Custom_Model",
+            "Transform": {
+              "posX": 0.0718425065279007,
+              "posY": 0.14239144325256348,
+              "posZ": 0.039893992245197296,
+              "rotX": 0.000777287466917187,
+              "rotY": 0.015473573468625546,
+              "rotZ": -0.0011233215918764472,
+              "scaleX": 1.4999996423721313,
+              "scaleY": 1.499999761581421,
+              "scaleZ": 1.4999996423721313
+            },
+            "Nickname": "",
+            "CustomMesh": {
+              "MeshURL": "https://steamusercontent-a.akamaihd.net/ugc/12524158038310835972/6EEBC4C1AFFA23BEA3BAAB5DA63F2DC1F53DF14B/",
+              "DiffuseURL": "https://steamusercontent-a.akamaihd.net/ugc/11025345962213146534/5FB9C1B73AB2701805C76CF8187E7E2CD13E6659/",
+              "NormalURL": "",
+              "ColliderURL": "https://steamusercontent-a.akamaihd.net/ugc/13998934439183795478/D3BF02AD63AD0A4D55DC748930342AFAFE11BEA7/",
+              "Convex": true,
+              "MaterialIndex": 3,
+              "TypeIndex": 0,
+              "CustomShader": {
+                "SpecularColor": {
+                  "r": 1.0,
+                  "g": 1.0,
+                  "b": 1.0
+                },
+                "SpecularIntensity": 0.0,
+                "SpecularSharpness": 2.0,
+                "FresnelStrength": 0.0
+              },
+              "CastShadows": true
+            }
+          }
+        ]
+      },
+      "baseEvidence": {
+        "measurementRadiusInches": 0.7874019742012024,
+        "rootScaleX": 1.0,
+        "diameterMm": 40.0
+      }
+    },
+    {
+      "faction": "Zerg",
+      "unitName": "Infested Trooper",
+      "unitId": "pdf_Zerg_unit_infested_trooper",
+      "preserveSourceColors": false,
+      "root": {
+        "GUID": "4700dd",
+        "Name": "Custom_Model",
+        "Transform": {
+          "posX": 4.906020164489746,
+          "posY": -9.5367431640625e-07,
+          "posZ": 3.69685697555542,
+          "rotX": -0.00013157303328625858,
+          "rotY": 180.0249786376953,
+          "rotZ": -1.4463409570453223e-05,
+          "scaleX": 1.0,
+          "scaleY": 1.0,
+          "scaleZ": 1.0
+        },
+        "Nickname": "Infested Trooper",
+        "CustomMesh": {
+          "MeshURL": "https://steamusercontent-a.akamaihd.net/ugc/1697279271974526767/5859B74889D47ECA875D91E800DF6656BDC73604/",
+          "DiffuseURL": "https://steamusercontent-a.akamaihd.net/ugc/1043093746446002091/8D5C1A992B3430C31C8A7CE0C0BC52D676B3FBA4/",
+          "NormalURL": "",
+          "ColliderURL": "https://steamusercontent-a.akamaihd.net/ugc/1697279271974526767/5859B74889D47ECA875D91E800DF6656BDC73604/",
+          "Convex": true,
+          "MaterialIndex": 1,
+          "TypeIndex": 1,
+          "CustomShader": {
+            "SpecularColor": {
+              "r": 0.875,
+              "g": 0.8128803372383118,
+              "b": 0.7463235259056091
+            },
+            "SpecularIntensity": 0.009999999776482582,
+            "SpecularSharpness": 4.0,
+            "FresnelStrength": 0.1071428582072258
+          },
+          "CastShadows": true
+        },
+        "ChildObjects": [
+          {
+            "GUID": "79f7b3",
+            "Name": "Custom_Model",
+            "Transform": {
+              "posX": -0.17269957065582275,
+              "posY": 0.14239539206027985,
+              "posZ": 0.10679606348276138,
+              "rotX": 0.0003888451319653541,
+              "rotY": 0.016041401773691177,
+              "rotZ": 0.00042326480615884066,
+              "scaleX": -1.5,
+              "scaleY": 1.499999761581421,
+              "scaleZ": 1.499999761581421
+            },
+            "Nickname": "",
+            "CustomMesh": {
+              "MeshURL": "https://steamusercontent-a.akamaihd.net/ugc/15011782711263963021/130C940628D7C78804CE95C4D8126570928A9D68/",
+              "DiffuseURL": "https://steamusercontent-a.akamaihd.net/ugc/11025345962213146534/5FB9C1B73AB2701805C76CF8187E7E2CD13E6659/",
+              "NormalURL": "",
+              "ColliderURL": "https://steamusercontent-a.akamaihd.net/ugc/13998934439183795478/D3BF02AD63AD0A4D55DC748930342AFAFE11BEA7/",
+              "Convex": true,
+              "MaterialIndex": 3,
+              "TypeIndex": 0,
+              "CustomShader": {
+                "SpecularColor": {
+                  "r": 1.0,
+                  "g": 1.0,
+                  "b": 1.0
+                },
+                "SpecularIntensity": 0.0,
+                "SpecularSharpness": 2.0,
+                "FresnelStrength": 0.0
+              },
+              "CastShadows": true
+            }
+          }
+        ]
+      },
+      "baseEvidence": {
+        "measurementRadiusInches": 0.7874019742012024,
+        "rootScaleX": 1.0,
+        "diameterMm": 40.0
+      }
+    },
+    {
+      "faction": "Zerg",
+      "unitName": "Infested Missile Turret",
+      "unitId": "pdf_Zerg_unit_infested_missile_turret",
+      "preserveSourceColors": false,
+      "root": {
+        "GUID": "31e1bd",
+        "Name": "Custom_Model",
+        "Transform": {
+          "posX": 11.241945266723633,
+          "posY": -2.980232238769531e-07,
+          "posZ": -2.3004465103149414,
+          "rotX": 3.4134176530642435e-05,
+          "rotY": 164.97677612304688,
+          "rotZ": 5.3941352234687656e-05,
+          "scaleX": 1.0,
+          "scaleY": 1.0,
+          "scaleZ": 1.0
+        },
+        "Nickname": "Infested Missile Turret",
+        "CustomMesh": {
+          "MeshURL": "https://steamusercontent-a.akamaihd.net/ugc/1697279271974532410/49039E8ED984EC3B1342589483BBFDD0E807FEF1/",
+          "DiffuseURL": "https://steamusercontent-a.akamaihd.net/ugc/2017097230052716995/EE265FA05683B177D29125FB07453841225972B7/",
+          "NormalURL": "",
+          "ColliderURL": "https://steamusercontent-a.akamaihd.net/ugc/1697279271974532410/49039E8ED984EC3B1342589483BBFDD0E807FEF1/",
+          "Convex": true,
+          "MaterialIndex": 1,
+          "TypeIndex": 1,
+          "CustomShader": {
+            "SpecularColor": {
+              "r": 0.875,
+              "g": 0.8128803372383118,
+              "b": 0.7463235259056091
+            },
+            "SpecularIntensity": 0.009999999776482582,
+            "SpecularSharpness": 4.0,
+            "FresnelStrength": 0.1071428582072258
+          },
+          "CastShadows": true
+        },
+        "ChildObjects": [
+          {
+            "GUID": "4a0fa4",
+            "Name": "Custom_Model",
+            "Transform": {
+              "posX": 0.11573410779237747,
+              "posY": 0.1448928713798523,
+              "posZ": -0.009422291070222855,
+              "rotX": 0.0009486633352935314,
+              "rotY": 14.992490768432617,
+              "rotZ": 3.792828010773519e-06,
+              "scaleX": 1.749998927116394,
+              "scaleY": 1.7499995231628418,
+              "scaleZ": 1.749998927116394
+            },
+            "Nickname": "",
+            "CustomMesh": {
+              "MeshURL": "https://steamusercontent-a.akamaihd.net/ugc/12736308649608967214/70277A87D729382DB36D414B4610A9DDCB1C614D/",
+              "DiffuseURL": "https://steamusercontent-a.akamaihd.net/ugc/18068634136434250141/874344D895CE8D70399E4306EAECACDBB8AB60E5/",
+              "NormalURL": "",
+              "ColliderURL": "https://steamusercontent-a.akamaihd.net/ugc/13998934439183795478/D3BF02AD63AD0A4D55DC748930342AFAFE11BEA7/",
+              "Convex": true,
+              "MaterialIndex": 3,
+              "TypeIndex": 0,
+              "CustomShader": {
+                "SpecularColor": {
+                  "r": 1.0,
+                  "g": 1.0,
+                  "b": 1.0
+                },
+                "SpecularIntensity": 0.0,
+                "SpecularSharpness": 2.0,
+                "FresnelStrength": 0.0
+              },
+              "CastShadows": true
+            },
+            "ChildObjects": [
+              {
+                "GUID": "975e15",
+                "Name": "Custom_Model",
+                "Transform": {
+                  "posX": -0.02503063715994358,
+                  "posY": -2.4378064154007006e-06,
+                  "posZ": 0.030415065586566925,
+                  "rotX": -0.0001149129748228006,
+                  "rotY": 0.009831657633185387,
+                  "rotZ": -7.115642074495554e-05,
+                  "scaleX": 1.0,
+                  "scaleY": 1.0,
+                  "scaleZ": 1.0
+                },
+                "Nickname": "",
+                "CustomMesh": {
+                  "MeshURL": "https://steamusercontent-a.akamaihd.net/ugc/15540663592982503063/EF9E523DAA4E6A652BCC851CFF49F0CEBFE24C93/",
+                  "DiffuseURL": "https://steamusercontent-a.akamaihd.net/ugc/12619560672192444993/F7919AC2BBCA616ED6A4450C8C5E23795795520B/",
+                  "NormalURL": "",
+                  "ColliderURL": "https://steamusercontent-a.akamaihd.net/ugc/13998934439183795478/D3BF02AD63AD0A4D55DC748930342AFAFE11BEA7/",
+                  "Convex": true,
+                  "MaterialIndex": 3,
+                  "TypeIndex": 0,
+                  "CustomShader": {
+                    "SpecularColor": {
+                      "r": 1.0,
+                      "g": 1.0,
+                      "b": 1.0
+                    },
+                    "SpecularIntensity": 0.009999999776482582,
+                    "SpecularSharpness": 7.600001335144043,
+                    "FresnelStrength": 0.0
+                  },
+                  "CastShadows": true
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "baseEvidence": {
+        "measurementRadiusInches": 1.5748039484024048,
+        "rootScaleX": 1.0,
+        "diameterMm": 80.0
+      }
+    },
+    {
+      "faction": "Zerg",
+      "unitName": "Infested Siege Tank",
+      "unitId": "pdf_Zerg_unit_infested_siege_tank",
+      "preserveSourceColors": false,
+      "root": {
+        "GUID": "664d1e",
+        "Name": "Custom_Model",
+        "Transform": {
+          "posX": 65.97803497314453,
+          "posY": 0.899996817111969,
+          "posZ": 71.53761291503906,
+          "rotX": -3.9092924453143496e-07,
+          "rotY": 120.0113296508789,
+          "rotZ": 2.024592049565399e-06,
+          "scaleX": 3.0,
+          "scaleY": 1.0,
+          "scaleZ": 3.0
+        },
+        "Nickname": "Infested Siege Tank",
+        "CustomMesh": {
+          "MeshURL": "https://steamusercontent-a.akamaihd.net/ugc/1697279271974528162/974469DDE20EF287921F51616A5D9CAFD40C461D/",
+          "DiffuseURL": "https://steamusercontent-a.akamaihd.net/ugc/1043093746446002091/8D5C1A992B3430C31C8A7CE0C0BC52D676B3FBA4/",
+          "NormalURL": "",
+          "ColliderURL": "https://steamusercontent-a.akamaihd.net/ugc/1697279271974528162/974469DDE20EF287921F51616A5D9CAFD40C461D/",
+          "Convex": true,
+          "MaterialIndex": 1,
+          "TypeIndex": 1,
+          "CustomShader": {
+            "SpecularColor": {
+              "r": 0.875,
+              "g": 0.8128803372383118,
+              "b": 0.7463235259056091
+            },
+            "SpecularIntensity": 0.009999999776482582,
+            "SpecularSharpness": 4.0,
+            "FresnelStrength": 0.1071428582072258
+          },
+          "CastShadows": true
+        },
+        "ChildObjects": [
+          {
+            "GUID": "0c7556",
+            "Name": "Custom_Model",
+            "Transform": {
+              "posX": 0.015203448943793774,
+              "posY": 0.14541767537593842,
+              "posZ": -0.0681513249874115,
+              "rotX": -0.0024344695266336203,
+              "rotY": 0.010698794387280941,
+              "rotZ": -0.002361750230193138,
+              "scaleX": 0.6000001430511475,
+              "scaleY": 1.7999998331069946,
+              "scaleZ": 0.6000001430511475
+            },
+            "Nickname": "",
+            "CustomMesh": {
+              "MeshURL": "https://steamusercontent-a.akamaihd.net/ugc/10924463587930246298/5C08DBBBB1B34C66796D02F27805AB6ACC3C3E75/",
+              "DiffuseURL": "https://steamusercontent-a.akamaihd.net/ugc/10751870198150330225/673A4FD83172C1AA32DE8C48032EA590288F7F30/",
+              "NormalURL": "",
+              "ColliderURL": "https://steamusercontent-a.akamaihd.net/ugc/13998934439183795478/D3BF02AD63AD0A4D55DC748930342AFAFE11BEA7/",
+              "Convex": true,
+              "MaterialIndex": 3,
+              "TypeIndex": 0,
+              "CustomShader": {
+                "SpecularColor": {
+                  "r": 1.0,
+                  "g": 1.0,
+                  "b": 1.0
+                },
+                "SpecularIntensity": 0.0,
+                "SpecularSharpness": 2.0,
+                "FresnelStrength": 0.0
+              },
+              "CastShadows": true
+            },
+            "ChildObjects": [
+              {
+                "GUID": "a79fe8",
+                "Name": "Custom_Model",
+                "Transform": {
+                  "posX": 0.2167229950428009,
+                  "posY": 0.05081244185566902,
+                  "posZ": 0.44015732407569885,
+                  "rotX": 21.600906372070312,
+                  "rotY": 343.24176025390625,
+                  "rotZ": 17.084558486938477,
+                  "scaleX": 0.8333331346511841,
+                  "scaleY": 0.8333331942558289,
+                  "scaleZ": 0.8333333730697632
+                },
+                "Nickname": "",
+                "CustomMesh": {
+                  "MeshURL": "https://steamusercontent-a.akamaihd.net/ugc/8552585327873834/10F634D02839DE0315C096F7D527E902CBFF5A9E/",
+                  "DiffuseURL": "https://steamusercontent-a.akamaihd.net/ugc/8552585327853951/4D7D3DA3635F8E6CCBCA37C1A6D443AECB55B607/",
+                  "NormalURL": "",
+                  "ColliderURL": "https://steamusercontent-a.akamaihd.net/ugc/13998934439183795478/D3BF02AD63AD0A4D55DC748930342AFAFE11BEA7/",
+                  "Convex": true,
+                  "MaterialIndex": 3,
+                  "TypeIndex": 1,
+                  "CustomShader": {
+                    "SpecularColor": {
+                      "r": 1.0,
+                      "g": 1.0,
+                      "b": 1.0
+                    },
+                    "SpecularIntensity": 0.5,
+                    "SpecularSharpness": 8.0,
+                    "FresnelStrength": 1.0
+                  },
+                  "CastShadows": true
+                }
+              },
+              {
+                "GUID": "286e61",
+                "Name": "Custom_Model",
+                "Transform": {
+                  "posX": 0.09386048465967178,
+                  "posY": 1.2204992771148682,
+                  "posZ": -0.19195125997066498,
+                  "rotX": 359.0877380371094,
+                  "rotY": 299.98870849609375,
+                  "rotZ": 1.5617741346359253,
+                  "scaleX": 0.40277817845344543,
+                  "scaleY": 0.40277791023254395,
+                  "scaleZ": 0.40277817845344543
+                },
+                "Nickname": "",
+                "CustomMesh": {
+                  "MeshURL": "https://steamusercontent-a.akamaihd.net/ugc/8552585327853844/40DDB253CB5F6AC8F3F4C2D70FDE65CCD6691D97/",
+                  "DiffuseURL": "https://steamusercontent-a.akamaihd.net/ugc/8552585327863829/62B6DA922F864C0C07E0327C257C1064F5B3BA32/",
+                  "NormalURL": "",
+                  "ColliderURL": "https://steamusercontent-a.akamaihd.net/ugc/13998934439183795478/D3BF02AD63AD0A4D55DC748930342AFAFE11BEA7/",
+                  "Convex": true,
+                  "MaterialIndex": 3,
+                  "TypeIndex": 0,
+                  "CustomShader": {
+                    "SpecularColor": {
+                      "r": 1.0,
+                      "g": 1.0,
+                      "b": 1.0
+                    },
+                    "SpecularIntensity": 0.20000000298023224,
+                    "SpecularSharpness": 6.933333873748779,
+                    "FresnelStrength": 1.0
+                  },
+                  "CastShadows": true
+                }
+              },
+              {
+                "GUID": "cce691",
+                "Name": "Custom_Model",
+                "Transform": {
+                  "posX": -0.07502330839633942,
+                  "posY": 0.5100212693214417,
+                  "posZ": 0.005588403902947903,
+                  "rotX": 353.7260437011719,
+                  "rotY": 299.8003234863281,
+                  "rotZ": 1.5713562965393066,
+                  "scaleX": 0.5555556416511536,
+                  "scaleY": 0.5555555820465088,
+                  "scaleZ": 0.555555522441864
+                },
+                "Nickname": "Infested Growth",
+                "CustomMesh": {
+                  "MeshURL": "https://steamusercontent-a.akamaihd.net/ugc/8552585327887193/6B332AF0B0BB51D069ECC8B804B5DCDEB6F41AB4/",
+                  "DiffuseURL": "https://steamusercontent-a.akamaihd.net/ugc/8552585327853951/4D7D3DA3635F8E6CCBCA37C1A6D443AECB55B607/",
+                  "NormalURL": "",
+                  "ColliderURL": "https://steamusercontent-a.akamaihd.net/ugc/13998934439183795478/D3BF02AD63AD0A4D55DC748930342AFAFE11BEA7/",
+                  "Convex": true,
+                  "MaterialIndex": 3,
+                  "TypeIndex": 1,
+                  "CustomShader": {
+                    "SpecularColor": {
+                      "r": 1.0,
+                      "g": 1.0,
+                      "b": 1.0
+                    },
+                    "SpecularIntensity": 0.10000000149011612,
+                    "SpecularSharpness": 7.100000858306885,
+                    "FresnelStrength": 0.8333333134651184
+                  },
+                  "CastShadows": true
+                }
+              },
+              {
+                "GUID": "e8af79",
+                "Name": "Custom_Model",
+                "Transform": {
+                  "posX": 0.012064295820891857,
+                  "posY": 0.4011228382587433,
+                  "posZ": -0.03244960680603981,
+                  "rotX": 1.8086901903152466,
+                  "rotY": 179.9718780517578,
+                  "rotZ": 0.008326336741447449,
+                  "scaleX": 0.555555522441864,
+                  "scaleY": 0.5555556416511536,
+                  "scaleZ": 0.5555554032325745
+                },
+                "Nickname": "Infested Growth",
+                "CustomMesh": {
+                  "MeshURL": "https://steamusercontent-a.akamaihd.net/ugc/8552585327887193/6B332AF0B0BB51D069ECC8B804B5DCDEB6F41AB4/",
+                  "DiffuseURL": "https://steamusercontent-a.akamaihd.net/ugc/8552585327853951/4D7D3DA3635F8E6CCBCA37C1A6D443AECB55B607/",
+                  "NormalURL": "",
+                  "ColliderURL": "https://steamusercontent-a.akamaihd.net/ugc/13998934439183795478/D3BF02AD63AD0A4D55DC748930342AFAFE11BEA7/",
+                  "Convex": true,
+                  "MaterialIndex": 3,
+                  "TypeIndex": 1,
+                  "CustomShader": {
+                    "SpecularColor": {
+                      "r": 1.0,
+                      "g": 1.0,
+                      "b": 1.0
+                    },
+                    "SpecularIntensity": 0.10000000149011612,
+                    "SpecularSharpness": 7.100000858306885,
+                    "FresnelStrength": 0.8333333134651184
+                  },
+                  "CastShadows": true
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "baseEvidence": {
+        "measurementRadiusInches": 0.9842525124549866,
+        "rootScaleX": 3.0,
+        "diameterMm": 150.0
+      }
+    },
+    {
+      "faction": "Zerg",
+      "unitName": "Infested Goliath",
+      "unitId": "pdf_Zerg_unit_infested_goliath",
+      "preserveSourceColors": false,
+      "root": {
+        "GUID": "ec563b",
+        "Name": "Custom_Model",
+        "Transform": {
+          "posX": 6.504669189453125,
+          "posY": -2.980232238769531e-07,
+          "posZ": 0.7531356811523438,
+          "rotX": -9.391539606440347e-06,
+          "rotY": 180.0040740966797,
+          "rotZ": 8.534390190106933e-07,
+          "scaleX": 1.0,
+          "scaleY": 1.0,
+          "scaleZ": 1.0
+        },
+        "Nickname": "Infested Goliath",
+        "CustomMesh": {
+          "MeshURL": "https://steamusercontent-a.akamaihd.net/ugc/1697279271974532410/49039E8ED984EC3B1342589483BBFDD0E807FEF1/",
+          "DiffuseURL": "https://steamusercontent-a.akamaihd.net/ugc/1043093746446002091/8D5C1A992B3430C31C8A7CE0C0BC52D676B3FBA4/",
+          "NormalURL": "",
+          "ColliderURL": "https://steamusercontent-a.akamaihd.net/ugc/1697279271974532410/49039E8ED984EC3B1342589483BBFDD0E807FEF1/",
+          "Convex": true,
+          "MaterialIndex": 1,
+          "TypeIndex": 1,
+          "CustomShader": {
+            "SpecularColor": {
+              "r": 0.875,
+              "g": 0.8128803372383118,
+              "b": 0.7463235259056091
+            },
+            "SpecularIntensity": 0.009999999776482582,
+            "SpecularSharpness": 4.0,
+            "FresnelStrength": 0.1071428582072258
+          },
+          "CastShadows": true
+        },
+        "ChildObjects": [
+          {
+            "GUID": "10fcc0",
+            "Name": "Custom_Model",
+            "Transform": {
+              "posX": 0.07826829701662064,
+              "posY": 0.14139485359191895,
+              "posZ": -0.3281567394733429,
+              "rotX": 0.00015461687871720642,
+              "rotY": 0.002501046983525157,
+              "rotZ": -0.00029986328445374966,
+              "scaleX": 1.399999737739563,
+              "scaleY": 1.399999737739563,
+              "scaleZ": 1.399999737739563
+            },
+            "Nickname": "",
+            "CustomMesh": {
+              "MeshURL": "https://steamusercontent-a.akamaihd.net/ugc/16892631073922839391/E2289964204231529A7AD26B243D6FE9DDC78F7E/",
+              "DiffuseURL": "https://steamusercontent-a.akamaihd.net/ugc/13158702798429065053/9D73233A3D0B8EC30DE37C81835EBB21EAF60FF8/",
+              "NormalURL": "",
+              "ColliderURL": "https://steamusercontent-a.akamaihd.net/ugc/13998934439183795478/D3BF02AD63AD0A4D55DC748930342AFAFE11BEA7/",
+              "Convex": true,
+              "MaterialIndex": 3,
+              "TypeIndex": 0,
+              "CustomShader": {
+                "SpecularColor": {
+                  "r": 1.0,
+                  "g": 1.0,
+                  "b": 1.0
+                },
+                "SpecularIntensity": 0.0,
+                "SpecularSharpness": 2.0,
+                "FresnelStrength": 0.0
+              },
+              "CastShadows": true
+            }
+          },
+          {
+            "GUID": "e68f5d",
+            "Name": "Custom_Model",
+            "Transform": {
+              "posX": 0.0324707105755806,
+              "posY": 2.1451845169067383,
+              "posZ": 0.328956663608551,
+              "rotX": -2.6874433388002217e-05,
+              "rotY": 347.6468505859375,
+              "rotZ": -6.803994892834453e-06,
+              "scaleX": 0.7250012755393982,
+              "scaleY": 0.7250001430511475,
+              "scaleZ": 0.725001335144043
+            },
+            "Nickname": "",
+            "CustomMesh": {
+              "MeshURL": "https://steamusercontent-a.akamaihd.net/ugc/8552585327853844/40DDB253CB5F6AC8F3F4C2D70FDE65CCD6691D97/",
+              "DiffuseURL": "https://steamusercontent-a.akamaihd.net/ugc/8552585327863829/62B6DA922F864C0C07E0327C257C1064F5B3BA32/",
+              "NormalURL": "",
+              "ColliderURL": "https://steamusercontent-a.akamaihd.net/ugc/8552585327853844/40DDB253CB5F6AC8F3F4C2D70FDE65CCD6691D97/",
+              "Convex": true,
+              "MaterialIndex": 3,
+              "TypeIndex": 0,
+              "CustomShader": {
+                "SpecularColor": {
+                  "r": 1.0,
+                  "g": 1.0,
+                  "b": 1.0
+                },
+                "SpecularIntensity": 0.20000000298023224,
+                "SpecularSharpness": 6.933333873748779,
+                "FresnelStrength": 1.0
+              },
+              "CastShadows": true
+            },
+            "ChildObjects": [
+              {
+                "GUID": "7f558d",
+                "Name": "Custom_Model",
+                "Transform": {
+                  "posX": 0.7855944633483887,
+                  "posY": -0.5009562969207764,
+                  "posZ": -0.10797291994094849,
+                  "rotX": 0.00494239991530776,
+                  "rotY": 239.54734802246094,
+                  "rotZ": -0.0014292976120486856,
+                  "scaleX": 1.3793079853057861,
+                  "scaleY": 1.3793100118637085,
+                  "scaleZ": 1.3793079853057861
+                },
+                "Nickname": "Infested Growth",
+                "CustomMesh": {
+                  "MeshURL": "https://steamusercontent-a.akamaihd.net/ugc/8552585327887193/6B332AF0B0BB51D069ECC8B804B5DCDEB6F41AB4/",
+                  "DiffuseURL": "https://steamusercontent-a.akamaihd.net/ugc/8552585327853951/4D7D3DA3635F8E6CCBCA37C1A6D443AECB55B607/",
+                  "NormalURL": "",
+                  "ColliderURL": "https://steamusercontent-a.akamaihd.net/ugc/8552585327887193/6B332AF0B0BB51D069ECC8B804B5DCDEB6F41AB4/",
+                  "Convex": true,
+                  "MaterialIndex": 3,
+                  "TypeIndex": 1,
+                  "CustomShader": {
+                    "SpecularColor": {
+                      "r": 1.0,
+                      "g": 1.0,
+                      "b": 1.0
+                    },
+                    "SpecularIntensity": 0.10000000149011612,
+                    "SpecularSharpness": 7.100000858306885,
+                    "FresnelStrength": 0.8333333134651184
+                  },
+                  "CastShadows": true
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "baseEvidence": {
+        "measurementRadiusInches": 1.5748039484024048,
+        "rootScaleX": 1.0,
+        "diameterMm": 80.0
+      }
+    }
+  ]
+}

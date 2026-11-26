@@ -1,5 +1,37 @@
 [
   {
+    "UnitId": "pdf_Terran_unit_firebat",
+    "ProfileId": "pdf_Terran_profile_firebat",
+    "OptionId": "Incinerator Gauntlets",
+    "ReferencedItemsToRemove": [],
+    "ReferencedItemsToAdd": [
+      {
+        "Id": "pdf_Terran_profile_firebat_selected_options",
+        "Ref": [
+          {
+            "Id": "pdf_Terran_rule_firebat_upgrade_movement_phase_incinerator_gauntlets"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "UnitId": "pdf_Terran_unit_firebat",
+    "ProfileId": "pdf_Terran_profile_firebat",
+    "OptionId": "Need A Light?",
+    "ReferencedItemsToRemove": [],
+    "ReferencedItemsToAdd": [
+      {
+        "Id": "pdf_Terran_profile_firebat_selected_options",
+        "Ref": [
+          {
+            "Id": "pdf_Terran_rule_firebat_upgrade_combat_phase_need_a_light"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "UnitId": "pdf_Terran_unit_goliath",
     "ProfileId": "pdf_Terran_profile_goliath",
     "OptionId": "Ares-Class Targeting System",

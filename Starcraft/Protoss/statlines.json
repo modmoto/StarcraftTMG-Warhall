@@ -14,6 +14,20 @@
     "Children": []
   },
   {
+    "Id": "pdf_Protoss_stat_alarak",
+    "Name": "",
+    "Type": "Statline",
+    "Attributes": {
+      "Spd": "7",
+      "Arm": "4+",
+      "Eva": "5+",
+      "HP": "6",
+      "Size": "2",
+      "Shd": "3"
+    },
+    "Children": []
+  },
+  {
     "Id": "pdf_Protoss_stat_artanis",
     "Name": "",
     "Type": "Statline",
@@ -70,6 +84,20 @@
     "Children": []
   },
   {
+    "Id": "pdf_Protoss_stat_phasing_scarab",
+    "Name": "",
+    "Type": "Statline",
+    "Attributes": {
+      "Spd": "3",
+      "Arm": "6+",
+      "Eva": "3+",
+      "HP": "2",
+      "Size": "1",
+      "Shd": "1"
+    },
+    "Children": []
+  },
+  {
     "Id": "pdf_Protoss_stat_praetor_guards",
     "Name": "",
     "Type": "Statline",
@@ -98,6 +126,34 @@
     "Children": []
   },
   {
+    "Id": "pdf_Protoss_stat_reaver",
+    "Name": "",
+    "Type": "Statline",
+    "Attributes": {
+      "Spd": "6",
+      "Arm": "5+",
+      "Eva": "-",
+      "HP": "8",
+      "Size": "4",
+      "Shd": "6"
+    },
+    "Children": []
+  },
+  {
+    "Id": "pdf_Protoss_stat_scarab",
+    "Name": "",
+    "Type": "Statline",
+    "Attributes": {
+      "Spd": "3",
+      "Arm": "6+",
+      "Eva": "3+",
+      "HP": "2",
+      "Size": "1",
+      "Shd": "1"
+    },
+    "Children": []
+  },
+  {
     "Id": "pdf_Protoss_stat_sentries",
     "Name": "",
     "Type": "Statline",
@@ -112,6 +168,34 @@
     "Children": []
   },
   {
+    "Id": "pdf_Protoss_stat_slayer_stalker",
+    "Name": "",
+    "Type": "Statline",
+    "Attributes": {
+      "Spd": "4/8",
+      "Arm": "4+",
+      "Eva": "6+",
+      "HP": "6",
+      "Size": "3",
+      "Shd": "3"
+    },
+    "Children": []
+  },
+  {
+    "Id": "pdf_Protoss_stat_solarite_scarab",
+    "Name": "",
+    "Type": "Statline",
+    "Attributes": {
+      "Spd": "5",
+      "Arm": "6+",
+      "Eva": "3+",
+      "HP": "2",
+      "Size": "1",
+      "Shd": "1"
+    },
+    "Children": []
+  },
+  {
     "Id": "pdf_Protoss_stat_stalker",
     "Name": "",
     "Type": "Statline",
@@ -122,6 +206,20 @@
       "HP": "6",
       "Size": "3",
       "Shd": "3"
+    },
+    "Children": []
+  },
+  {
+    "Id": "pdf_Protoss_stat_tal_darim_pylon",
+    "Name": "",
+    "Type": "Statline",
+    "Attributes": {
+      "Spd": "-",
+      "Arm": "5+",
+      "Eva": "-",
+      "HP": "6",
+      "Size": "3",
+      "Shd": "2"
     },
     "Children": []
   },

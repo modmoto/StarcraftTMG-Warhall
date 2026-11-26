@@ -1,5 +1,13 @@
 [
   {
+    "UnitId": "pdf_Terran_unit_firebat",
+    "OptionId": "Incinerator Gauntlets"
+  },
+  {
+    "UnitId": "pdf_Terran_unit_firebat",
+    "OptionId": "Need A Light?"
+  },
+  {
     "UnitId": "pdf_Terran_unit_goliath",
     "OptionId": "Ares-Class Targeting System"
   },

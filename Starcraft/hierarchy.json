@@ -3,82 +3,96 @@
     "Protoss": {
       "Core": [
         "pdf_Protoss_unit_adepts",
-        "pdf_Protoss_unit_zealots",
-        "pdf_Protoss_unit_nerazim_watchers_adept"
+        "pdf_Protoss_unit_nerazim_watchers_adept",
+        "pdf_Protoss_unit_zealots"
       ],
       "Hero": [
+        "pdf_Protoss_unit_alarak",
         "pdf_Protoss_unit_artanis",
-        "pdf_Protoss_unit_zeratul",
-        "pdf_Protoss_unit_tassadar"
-      ],
-      "Elite": [
-        "pdf_Protoss_unit_praetor_guards",
-        "pdf_Protoss_unit_stalker",
-        "pdf_Protoss_unit_immortal"
-      ],
-      "Other": [
-        "pdf_Protoss_unit_pylon"
+        "pdf_Protoss_unit_tassadar",
+        "pdf_Protoss_unit_zeratul"
       ],
       "Support": [
+        "pdf_Protoss_unit_high_templar",
         "pdf_Protoss_unit_sentries",
-        "pdf_Protoss_unit_twilight_templar_high_templar",
-        "pdf_Protoss_unit_high_templar"
+        "pdf_Protoss_unit_twilight_templar_high_templar"
+      ],
+      "Elite": [
+        "pdf_Protoss_unit_immortal",
+        "pdf_Protoss_unit_praetor_guards",
+        "pdf_Protoss_unit_reaver",
+        "pdf_Protoss_unit_slayer_stalker",
+        "pdf_Protoss_unit_stalker"
+      ],
+      "Other": [
+        "pdf_Protoss_unit_phasing_scarab",
+        "pdf_Protoss_unit_pylon",
+        "pdf_Protoss_unit_scarab",
+        "pdf_Protoss_unit_solarite_scarab",
+        "pdf_Protoss_unit_tal_darim_pylon"
       ]
     },
     "Terran": {
+      "Other": [
+        "pdf_Terran_unit_auto_turret",
+        "pdf_Terran_unit_holo_decoy",
+        "pdf_Terran_unit_point_defense_drone",
+        "pdf_Terran_unit_sabotage_drone"
+      ],
       "Core": [
-        "unit_marine",
+        "pdf_Terran_unit_firebat",
         "pdf_Terran_unit_marauders",
+        "unit_marine",
         "pdf_Terran_unit_raynor_s_raiders",
         "pdf_Terran_unit_spec_ops_marauder_marauder"
-      ],
-      "Support": [
-        "pdf_Terran_unit_medics",
-        "pdf_Terran_unit_raven"
-      ],
-      "Hero": [
-        "pdf_Terran_unit_jim_raynor",
-        "pdf_Terran_unit_nova_stealth_mode",
-        "pdf_Terran_unit_nova_assault_mode"
-      ],
-      "Other": [
-        "pdf_Terran_unit_point_defense_drone",
-        "pdf_Terran_unit_holo_decoy",
-        "pdf_Terran_unit_sabotage_drone",
-        "pdf_Terran_unit_auto_turret"
       ],
       "Elite": [
         "pdf_Terran_unit_goliath",
         "pdf_Terran_unit_siege_tank"
+      ],
+      "Hero": [
+        "pdf_Terran_unit_jim_raynor",
+        "pdf_Terran_unit_nova_assault_mode",
+        "pdf_Terran_unit_nova_stealth_mode"
+      ],
+      "Support": [
+        "pdf_Terran_unit_medics",
+        "pdf_Terran_unit_raven"
       ]
     },
     "Zerg": {
+      "Support": [
+        "pdf_Zerg_unit_bile_launcher",
+        "pdf_Zerg_unit_defiler",
+        "pdf_Zerg_unit_queen"
+      ],
+      "Core": [
+        "pdf_Zerg_unit_corpsers_roach",
+        "pdf_Zerg_unit_infested_marine",
+        "pdf_Zerg_unit_ravagers",
+        "pdf_Zerg_unit_roaches",
+        "pdf_Zerg_unit_swarmlings",
+        "pdf_Zerg_unit_viles_roach",
+        "pdf_Zerg_unit_vileling_zergling",
+        "pdf_Zerg_unit_zerglings"
+      ],
       "Elite": [
         "pdf_Zerg_unit_hydralisks",
+        "pdf_Zerg_unit_infested_goliath",
+        "pdf_Zerg_unit_infested_siege_tank",
+        "pdf_Zerg_unit_infested_trooper",
         "pdf_Zerg_unit_kerrigan_swarm_raptors_zergling",
         "pdf_Zerg_unit_raptors_zergling"
       ],
-      "Hero": [
-        "pdf_Zerg_unit_kerrigan",
-        "pdf_Zerg_unit_zagara"
-      ],
       "Other": [
+        "pdf_Zerg_unit_infested_missile_turret",
         "pdf_Zerg_unit_omega_worm",
         "pdf_Zerg_unit_roachling"
       ],
-      "Support": [
-        "pdf_Zerg_unit_queen",
-        "pdf_Zerg_unit_defiler",
-        "pdf_Zerg_unit_bile_launcher"
-      ],
-      "Core": [
-        "pdf_Zerg_unit_roaches",
-        "pdf_Zerg_unit_corpsers_roach",
-        "pdf_Zerg_unit_viles_roach",
-        "pdf_Zerg_unit_zerglings",
-        "pdf_Zerg_unit_swarmlings",
-        "pdf_Zerg_unit_ravagers",
-        "pdf_Zerg_unit_vileling_zergling"
+      "Hero": [
+        "pdf_Zerg_unit_kerrigan",
+        "pdf_Zerg_unit_stukov",
+        "pdf_Zerg_unit_zagara"
       ]
     }
   },
@@ -132,7 +146,9 @@
       "sc_card_protoss_tactics_twilight_council",
       "sc_card_protoss_tactics_void_seeker",
       "sc_card_protoss_tactics_warp_gate",
-      "sc_card_protoss_tactics_warp_prism"
+      "sc_card_protoss_tactics_warp_prism",
+      "sc_card_protoss_tactics_robotics_support_bay",
+      "sc_card_protoss_tactics_tal_darim"
     ],
     "Terran Tactic Cards": [
       "sc_card_terran_tactics_academy",
@@ -149,7 +165,8 @@
       "sc_card_terran_tactics_raynor_s_raiders",
       "sc_card_terran_tactics_supply_depot",
       "sc_card_terran_tactics_terran_armed_forces",
-      "sc_card_terran_tactics_vanadium_plating"
+      "sc_card_terran_tactics_vanadium_plating",
+      "sc_card_terran_tactics_barracks_reactor"
     ],
     "Zerg Tactic Cards": [
       "sc_card_zerg_tactics_accelerating_creep",
@@ -168,7 +185,14 @@
       "sc_card_zerg_tactics_spawning_pool",
       "sc_card_zerg_tactics_spawning_pool_six_pool",
       "sc_card_zerg_tactics_zagara_s_swarm",
-      "sc_card_zerg_tactics_zerg_swarm"
+      "sc_card_zerg_tactics_zerg_swarm",
+      "sc_card_zerg_tactics_healing_pathogen",
+      "sc_card_zerg_tactics_hive",
+      "sc_card_zerg_tactics_hungering_infestation",
+      "sc_card_zerg_tactics_infested_barracks",
+      "sc_card_zerg_tactics_infested_command_center",
+      "sc_card_zerg_tactics_stukov_s_forces",
+      "sc_card_zerg_tactics_weighted_pustule"
     ]
   }
 }

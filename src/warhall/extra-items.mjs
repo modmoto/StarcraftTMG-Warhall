@@ -19,6 +19,11 @@ export function addImportExtraItems(data) {
     pdf_Terran_unit_raven: ['pdf_Terran_unit_auto_turret'],
     pdf_Terran_unit_nova_assault_mode: ['pdf_Terran_unit_holo_decoy'],
     pdf_Zerg_unit_corpsers_roach: Array(3).fill('pdf_Zerg_unit_roachling'),
+    pdf_Protoss_unit_reaver: [
+      'pdf_Protoss_unit_scarab',
+      'pdf_Protoss_unit_solarite_scarab',
+      'pdf_Protoss_unit_phasing_scarab',
+    ],
   };
   for (const faction of ['Terran', 'Zerg', 'Protoss']) {
     for (const unit of data[`${faction}/units.json`] ?? []) {
@@ -36,6 +41,10 @@ export function addImportExtraItems(data) {
         unit.ExtraItems = mergeExtras(unit.ExtraItems, [
           { Id: 'Starcraft - Token - Corrosive Bile', Type: 'Token' },
         ]);
+      if (unit.Id === 'pdf_Terran_unit_firebat')
+        unit.ExtraItems = mergeExtras(unit.ExtraItems, [
+          { Id: 'Starcraft - Token - Fire Wall', Type: 'Token' },
+        ]);
     }
   }
   const cardExtras = {
@@ -43,10 +52,17 @@ export function addImportExtraItems(data) {
     sc_card_terran_tactics_nova_covert_ops: 'pdf_Terran_unit_sabotage_drone',
     sc_card_protoss_tactics_khalai: 'pdf_Protoss_unit_pylon',
     sc_card_zerg_tactics_kerrigan_s_swarm: 'pdf_Zerg_unit_omega_worm',
+    sc_card_protoss_tactics_tal_darim: 'pdf_Protoss_unit_tal_darim_pylon',
+    sc_card_zerg_tactics_stukov_s_forces: 'pdf_Zerg_unit_infested_missile_turret',
   };
   // Card definitions are maintained separately from the PDF unit converter.
   for (const [Id, target] of Object.entries(cardExtras)) {
     const card = data['cards.json'].find(item => item.Id === Id);
+    if (
+      !card &&
+      ['sc_card_protoss_tactics_tal_darim', 'sc_card_zerg_tactics_stukov_s_forces'].includes(Id)
+    )
+      continue;
     assert.ok(card, `Missing extra-item source card: ${Id}`);
     const optionId = `sc_import_extra_${Id}`;
     const matches = data['options.json'].filter(

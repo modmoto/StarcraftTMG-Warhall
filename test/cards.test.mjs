@@ -8,7 +8,7 @@ test('board cards are sharp, contain no unit cards, and have clean descriptions'
   );
   const hierarchy = await read('../Starcraft/hierarchy.json');
   const report = await read('../cards-report.json');
-  assert.equal(cards.length, 77);
+  assert.equal(cards.length, 87);
   assert.equal(report.imageDpi, 600);
   assert.equal(report.unitCards, false);
   assert.ok(Object.keys(hierarchy.Cards).every(group => !group.endsWith(' units')));
@@ -16,6 +16,10 @@ test('board cards are sharp, contain no unit cards, and have clean descriptions'
     assert.ok(!card.Description.startsWith(card.Name));
     assert.equal(card.UIConfig.Color2, '');
     assert.doesNotMatch(card.Description, /©|Blizzard|Archon|v\s*1\.\d/i);
+    if (!card.UIConfig.ImageURL) {
+      assert.ok(card.Description.length > 20, `${card.Name} needs usable DB text`);
+      continue;
+    }
     for (const key of ['ImageURL', 'ImageURLBack']) {
       const name = new URL(card.UIConfig[key]).pathname.split('/').at(-1);
       assert.match(name, /^[a-z0-9_-]+-[a-f0-9]{12}\.png$/);

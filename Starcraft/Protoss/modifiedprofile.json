@@ -440,6 +440,54 @@
     ]
   },
   {
+    "UnitId": "pdf_Protoss_unit_reaver",
+    "ProfileId": "pdf_Protoss_profile_reaver",
+    "OptionId": "Phasing Scarab",
+    "ReferencedItemsToRemove": [],
+    "ReferencedItemsToAdd": [
+      {
+        "Id": "pdf_Protoss_profile_reaver_selected_options",
+        "Ref": [
+          {
+            "Id": "pdf_Protoss_rule_reaver_upgrade_movement_phase_phasing_scarab"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "UnitId": "pdf_Protoss_unit_reaver",
+    "ProfileId": "pdf_Protoss_profile_reaver",
+    "OptionId": "Shuttle",
+    "ReferencedItemsToRemove": [],
+    "ReferencedItemsToAdd": [
+      {
+        "Id": "pdf_Protoss_profile_reaver_selected_options",
+        "Ref": [
+          {
+            "Id": "pdf_Protoss_rule_reaver_upgrade_movement_phase_shuttle"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "UnitId": "pdf_Protoss_unit_reaver",
+    "ProfileId": "pdf_Protoss_profile_reaver",
+    "OptionId": "Solarite Scarab",
+    "ReferencedItemsToRemove": [],
+    "ReferencedItemsToAdd": [
+      {
+        "Id": "pdf_Protoss_profile_reaver_selected_options",
+        "Ref": [
+          {
+            "Id": "pdf_Protoss_rule_reaver_upgrade_movement_phase_solarite_scarab"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "UnitId": "pdf_Protoss_unit_sentries",
     "ProfileId": "pdf_Protoss_profile_sentries",
     "OptionId": "Hallucination",

@@ -179,7 +179,10 @@ test('shipped search index includes gameplay chapters and no duplicate named rul
   ])
     assert.ok(restoration[0].Description.includes(`${cost} (${unit})`));
   assert.equal(new Set(rules.map(rule => rule.Name.toLowerCase())).size, rules.length);
-  assert.equal(rules.filter(rule => rule.Name === 'Psionic Transfer').length, 1);
+  const transfers = rules.filter(rule => /^Psionic Transfer(?: \(.*\))?$/.test(rule.Name));
+  assert.equal(transfers.length, 2);
+  assert.ok(transfers.some(rule => rule.Name === 'Psionic Transfer (Adepts)'));
+  assert.ok(transfers.some(rule => rule.Name === 'Psionic Transfer (Nerazim Watchers (Adept))'));
   assert.ok(rules.some(rule => rule.Name === '8.7.7 Charge'));
   assert.ok(rules.some(rule => /8.7.4.*Surge/.test(rule.Name)));
   assert.match(

@@ -1647,6 +1647,538 @@
       "calibration": "windows-cache-v1"
     },
     {
+      "profileId": "pdf_Terran_profile_firebat",
+      "name": "Starcraft - Firebat",
+      "kind": "unit",
+      "faction": "Terran",
+      "preserveSourceColors": true,
+      "parts": [
+        {
+          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/46a010fa20c598954161d0462399f188cac00a586d44bba824f3df8cc37c1962.glb",
+          "textureUrl": null,
+          "transforms": {
+            "scale": 0.39370078740157477,
+            "rotationX": 0,
+            "rotationY": 0,
+            "rotationZ": 0,
+            "positionX": 0,
+            "positionY": 0,
+            "positionZ": 0
+          },
+          "previewSource": {
+            "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/46a010fa20c598954161d0462399f188cac00a586d44bba824f3df8cc37c1962.glb",
+            "textureUrl": null
+          },
+          "previewTransforms": {
+            "scale": 0.9999999999999999,
+            "rotationX": 0,
+            "rotationY": 0,
+            "rotationZ": 0,
+            "positionX": 0,
+            "positionY": 0,
+            "positionZ": 0
+          },
+          "hostedAsset": true,
+          "previewGeometryFile": "model-assets/46a010fa20c598954161d0462399f188cac00a586d44bba824f3df8cc37c1962.glb.preview.json"
+        }
+      ],
+      "calibration": "windows-cache-v1"
+    },
+    {
+      "profileId": "pdf_Protoss_profile_reaver",
+      "name": "Starcraft - Reaver",
+      "kind": "unit",
+      "faction": "Protoss",
+      "preserveSourceColors": true,
+      "parts": [
+        {
+          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/dc6021635d9b88e4973115a0e68224d7ab9eaa748e3c2282feb7a61fae5fc1ef.glb",
+          "textureUrl": null,
+          "transforms": {
+            "scale": 0.39370078740157477,
+            "rotationX": 0,
+            "rotationY": 0,
+            "rotationZ": 0,
+            "positionX": 0,
+            "positionY": 0,
+            "positionZ": 0
+          },
+          "previewSource": {
+            "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/dc6021635d9b88e4973115a0e68224d7ab9eaa748e3c2282feb7a61fae5fc1ef.glb",
+            "textureUrl": null
+          },
+          "previewTransforms": {
+            "scale": 0.9999999999999999,
+            "rotationX": 0,
+            "rotationY": 0,
+            "rotationZ": 0,
+            "positionX": 0,
+            "positionY": 0,
+            "positionZ": 0
+          },
+          "hostedAsset": true,
+          "previewGeometryFile": "model-assets/dc6021635d9b88e4973115a0e68224d7ab9eaa748e3c2282feb7a61fae5fc1ef.glb.preview.json"
+        }
+      ],
+      "calibration": "windows-cache-v1"
+    },
+    {
+      "profileId": "pdf_Protoss_profile_scarab",
+      "name": "Starcraft - Scarab",
+      "kind": "unit",
+      "faction": "Protoss",
+      "preserveSourceColors": true,
+      "parts": [
+        {
+          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/a621a6bb9477efa395a41b46dba2e868ddb5a476226198415e72e789a225018e.glb",
+          "textureUrl": null,
+          "transforms": {
+            "scale": 0.39370078740157477,
+            "rotationX": 0,
+            "rotationY": 0,
+            "rotationZ": 0,
+            "positionX": 0,
+            "positionY": 0,
+            "positionZ": 0
+          },
+          "previewSource": {
+            "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/a621a6bb9477efa395a41b46dba2e868ddb5a476226198415e72e789a225018e.glb",
+            "textureUrl": null
+          },
+          "previewTransforms": {
+            "scale": 0.9999999999999999,
+            "rotationX": 0,
+            "rotationY": 0,
+            "rotationZ": 0,
+            "positionX": 0,
+            "positionY": 0,
+            "positionZ": 0
+          },
+          "hostedAsset": true,
+          "previewGeometryFile": "model-assets/a621a6bb9477efa395a41b46dba2e868ddb5a476226198415e72e789a225018e.glb.preview.json"
+        }
+      ],
+      "calibration": "windows-cache-v1"
+    },
+    {
+      "profileId": "pdf_Protoss_profile_solarite_scarab",
+      "name": "Starcraft - Solarite Scarab",
+      "kind": "unit",
+      "faction": "Protoss",
+      "preserveSourceColors": true,
+      "parts": [
+        {
+          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/f58028d0c52d3bf3a088c4dc10472fddd41159d7abaf9943b4ec6adda3b73263.glb",
+          "textureUrl": null,
+          "transforms": {
+            "scale": 0.39370078740157477,
+            "rotationX": 0,
+            "rotationY": 0,
+            "rotationZ": 0,
+            "positionX": 0,
+            "positionY": 0,
+            "positionZ": 0
+          },
+          "previewSource": {
+            "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/f58028d0c52d3bf3a088c4dc10472fddd41159d7abaf9943b4ec6adda3b73263.glb",
+            "textureUrl": null
+          },
+          "previewTransforms": {
+            "scale": 0.9999999999999999,
+            "rotationX": 0,
+            "rotationY": 0,
+            "rotationZ": 0,
+            "positionX": 0,
+            "positionY": 0,
+            "positionZ": 0
+          },
+          "hostedAsset": true,
+          "previewGeometryFile": "model-assets/f58028d0c52d3bf3a088c4dc10472fddd41159d7abaf9943b4ec6adda3b73263.glb.preview.json"
+        }
+      ],
+      "calibration": "windows-cache-v1"
+    },
+    {
+      "profileId": "pdf_Protoss_profile_phasing_scarab",
+      "name": "Starcraft - Phasing Scarab",
+      "kind": "unit",
+      "faction": "Protoss",
+      "preserveSourceColors": true,
+      "parts": [
+        {
+          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/d7f9ebe0f8e4791ef7971609674c4f4f2b2840a007bf86f89ebbad7b7694d0a9.glb",
+          "textureUrl": null,
+          "transforms": {
+            "scale": 0.39370078740157477,
+            "rotationX": 0,
+            "rotationY": 0,
+            "rotationZ": 0,
+            "positionX": 0,
+            "positionY": 0,
+            "positionZ": 0
+          },
+          "previewSource": {
+            "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/d7f9ebe0f8e4791ef7971609674c4f4f2b2840a007bf86f89ebbad7b7694d0a9.glb",
+            "textureUrl": null
+          },
+          "previewTransforms": {
+            "scale": 0.9999999999999999,
+            "rotationX": 0,
+            "rotationY": 0,
+            "rotationZ": 0,
+            "positionX": 0,
+            "positionY": 0,
+            "positionZ": 0
+          },
+          "hostedAsset": true,
+          "previewGeometryFile": "model-assets/d7f9ebe0f8e4791ef7971609674c4f4f2b2840a007bf86f89ebbad7b7694d0a9.glb.preview.json"
+        }
+      ],
+      "calibration": "windows-cache-v1"
+    },
+    {
+      "profileId": "pdf_Protoss_profile_alarak",
+      "name": "Starcraft - Alarak",
+      "kind": "unit",
+      "faction": "Protoss",
+      "preserveSourceColors": true,
+      "parts": [
+        {
+          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/778f2bd1c1b1a6cfd648365fbc3094e03b12e1650683e34937728befba460e1d.glb",
+          "textureUrl": null,
+          "transforms": {
+            "scale": 0.39370078740157477,
+            "rotationX": 0,
+            "rotationY": 0,
+            "rotationZ": 0,
+            "positionX": 0,
+            "positionY": 0,
+            "positionZ": 0
+          },
+          "previewSource": {
+            "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/778f2bd1c1b1a6cfd648365fbc3094e03b12e1650683e34937728befba460e1d.glb",
+            "textureUrl": null
+          },
+          "previewTransforms": {
+            "scale": 0.9999999999999999,
+            "rotationX": 0,
+            "rotationY": 0,
+            "rotationZ": 0,
+            "positionX": 0,
+            "positionY": 0,
+            "positionZ": 0
+          },
+          "hostedAsset": true,
+          "previewGeometryFile": "model-assets/778f2bd1c1b1a6cfd648365fbc3094e03b12e1650683e34937728befba460e1d.glb.preview.json"
+        }
+      ],
+      "calibration": "windows-cache-v1"
+    },
+    {
+      "profileId": "pdf_Protoss_profile_slayer_stalker",
+      "name": "Starcraft - Slayer (Stalker)",
+      "kind": "unit",
+      "faction": "Protoss",
+      "preserveSourceColors": true,
+      "parts": [
+        {
+          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/d5ecbe1da4ad04aa1a602c45ef3dcdb871cd2d1229e5c20074eb2e4bf13501f1.glb",
+          "textureUrl": null,
+          "transforms": {
+            "scale": 0.39370078740157477,
+            "rotationX": 0,
+            "rotationY": 0,
+            "rotationZ": 0,
+            "positionX": 0,
+            "positionY": 0,
+            "positionZ": 0
+          },
+          "previewSource": {
+            "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/d5ecbe1da4ad04aa1a602c45ef3dcdb871cd2d1229e5c20074eb2e4bf13501f1.glb",
+            "textureUrl": null
+          },
+          "previewTransforms": {
+            "scale": 0.9999999999999999,
+            "rotationX": 0,
+            "rotationY": 0,
+            "rotationZ": 0,
+            "positionX": 0,
+            "positionY": 0,
+            "positionZ": 0
+          },
+          "hostedAsset": true,
+          "previewGeometryFile": "model-assets/d5ecbe1da4ad04aa1a602c45ef3dcdb871cd2d1229e5c20074eb2e4bf13501f1.glb.preview.json"
+        }
+      ],
+      "calibration": "windows-cache-v1"
+    },
+    {
+      "profileId": "pdf_Protoss_profile_tal_darim_pylon",
+      "name": "Starcraft - Tal'darim Pylon",
+      "kind": "unit",
+      "faction": "Protoss",
+      "preserveSourceColors": true,
+      "parts": [
+        {
+          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/87f395db6cf11baee04038d2117b53bfa69b923925f00e1414c588e88ace32be.glb",
+          "textureUrl": null,
+          "transforms": {
+            "scale": 0.39370078740157477,
+            "rotationX": 0,
+            "rotationY": 0,
+            "rotationZ": 0,
+            "positionX": 0,
+            "positionY": 0,
+            "positionZ": 0
+          },
+          "previewSource": {
+            "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/87f395db6cf11baee04038d2117b53bfa69b923925f00e1414c588e88ace32be.glb",
+            "textureUrl": null
+          },
+          "previewTransforms": {
+            "scale": 0.9999999999999999,
+            "rotationX": 0,
+            "rotationY": 0,
+            "rotationZ": 0,
+            "positionX": 0,
+            "positionY": 0,
+            "positionZ": 0
+          },
+          "hostedAsset": true,
+          "previewGeometryFile": "model-assets/87f395db6cf11baee04038d2117b53bfa69b923925f00e1414c588e88ace32be.glb.preview.json"
+        }
+      ],
+      "calibration": "windows-cache-v1"
+    },
+    {
+      "profileId": "pdf_Zerg_profile_stukov",
+      "name": "Starcraft - Stukov",
+      "kind": "unit",
+      "faction": "Zerg",
+      "preserveSourceColors": true,
+      "parts": [
+        {
+          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/b68a4bf2115832b7b965f69cb04af9ca9cdc27746d43bbec3e82119cb12a5545.glb",
+          "textureUrl": null,
+          "transforms": {
+            "scale": 0.39370078740157477,
+            "rotationX": 0,
+            "rotationY": 0,
+            "rotationZ": 0,
+            "positionX": 0,
+            "positionY": 0,
+            "positionZ": 0
+          },
+          "previewSource": {
+            "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/b68a4bf2115832b7b965f69cb04af9ca9cdc27746d43bbec3e82119cb12a5545.glb",
+            "textureUrl": null
+          },
+          "previewTransforms": {
+            "scale": 0.9999999999999999,
+            "rotationX": 0,
+            "rotationY": 0,
+            "rotationZ": 0,
+            "positionX": 0,
+            "positionY": 0,
+            "positionZ": 0
+          },
+          "hostedAsset": true,
+          "previewGeometryFile": "model-assets/b68a4bf2115832b7b965f69cb04af9ca9cdc27746d43bbec3e82119cb12a5545.glb.preview.json"
+        }
+      ],
+      "calibration": "windows-cache-v1"
+    },
+    {
+      "profileId": "pdf_Zerg_profile_infested_marine",
+      "name": "Starcraft - Infested Marine",
+      "kind": "unit",
+      "faction": "Zerg",
+      "preserveSourceColors": true,
+      "parts": [
+        {
+          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/2a209ee9c858c1264e01ce0031b9851aced08e7d5c64ab1225bec27d6331e7ff.glb",
+          "textureUrl": null,
+          "transforms": {
+            "scale": 0.39370078740157477,
+            "rotationX": 0,
+            "rotationY": 0,
+            "rotationZ": 0,
+            "positionX": 0,
+            "positionY": 0,
+            "positionZ": 0
+          },
+          "previewSource": {
+            "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/2a209ee9c858c1264e01ce0031b9851aced08e7d5c64ab1225bec27d6331e7ff.glb",
+            "textureUrl": null
+          },
+          "previewTransforms": {
+            "scale": 0.9999999999999999,
+            "rotationX": 0,
+            "rotationY": 0,
+            "rotationZ": 0,
+            "positionX": 0,
+            "positionY": 0,
+            "positionZ": 0
+          },
+          "hostedAsset": true,
+          "previewGeometryFile": "model-assets/2a209ee9c858c1264e01ce0031b9851aced08e7d5c64ab1225bec27d6331e7ff.glb.preview.json"
+        }
+      ],
+      "calibration": "windows-cache-v1"
+    },
+    {
+      "profileId": "pdf_Zerg_profile_infested_trooper",
+      "name": "Starcraft - Infested Trooper",
+      "kind": "unit",
+      "faction": "Zerg",
+      "preserveSourceColors": true,
+      "parts": [
+        {
+          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/40b9adfab6d1db19558c0da60e3a943024492d89cd6cb5e18451356075f13d44.glb",
+          "textureUrl": null,
+          "transforms": {
+            "scale": 0.39370078740157477,
+            "rotationX": 0,
+            "rotationY": 0,
+            "rotationZ": 0,
+            "positionX": 0,
+            "positionY": 0,
+            "positionZ": 0
+          },
+          "previewSource": {
+            "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/40b9adfab6d1db19558c0da60e3a943024492d89cd6cb5e18451356075f13d44.glb",
+            "textureUrl": null
+          },
+          "previewTransforms": {
+            "scale": 0.9999999999999999,
+            "rotationX": 0,
+            "rotationY": 0,
+            "rotationZ": 0,
+            "positionX": 0,
+            "positionY": 0,
+            "positionZ": 0
+          },
+          "hostedAsset": true,
+          "previewGeometryFile": "model-assets/40b9adfab6d1db19558c0da60e3a943024492d89cd6cb5e18451356075f13d44.glb.preview.json"
+        }
+      ],
+      "calibration": "windows-cache-v1"
+    },
+    {
+      "profileId": "pdf_Zerg_profile_infested_missile_turret",
+      "name": "Starcraft - Infested Missile Turret",
+      "kind": "unit",
+      "faction": "Zerg",
+      "preserveSourceColors": true,
+      "parts": [
+        {
+          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/20daa71d822ceafa2974cd3c5c20146cdce94f32c489d39ebf0c244805b02494.glb",
+          "textureUrl": null,
+          "transforms": {
+            "scale": 0.39370078740157477,
+            "rotationX": 0,
+            "rotationY": 0,
+            "rotationZ": 0,
+            "positionX": 0,
+            "positionY": 0,
+            "positionZ": 0
+          },
+          "previewSource": {
+            "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/20daa71d822ceafa2974cd3c5c20146cdce94f32c489d39ebf0c244805b02494.glb",
+            "textureUrl": null
+          },
+          "previewTransforms": {
+            "scale": 0.9999999999999999,
+            "rotationX": 0,
+            "rotationY": 0,
+            "rotationZ": 0,
+            "positionX": 0,
+            "positionY": 0,
+            "positionZ": 0
+          },
+          "hostedAsset": true,
+          "previewGeometryFile": "model-assets/20daa71d822ceafa2974cd3c5c20146cdce94f32c489d39ebf0c244805b02494.glb.preview.json"
+        }
+      ],
+      "calibration": "windows-cache-v1"
+    },
+    {
+      "profileId": "pdf_Zerg_profile_infested_siege_tank",
+      "name": "Starcraft - Infested Siege Tank",
+      "kind": "unit",
+      "faction": "Zerg",
+      "preserveSourceColors": true,
+      "parts": [
+        {
+          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/fd08b0d0ae50fd81e9d3f495240975ddd0302610ac709659f4be75a59ac18cd3.glb",
+          "textureUrl": null,
+          "transforms": {
+            "scale": 0.39370078740157477,
+            "rotationX": 0,
+            "rotationY": 0,
+            "rotationZ": 0,
+            "positionX": 0,
+            "positionY": 0,
+            "positionZ": 0
+          },
+          "previewSource": {
+            "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/fd08b0d0ae50fd81e9d3f495240975ddd0302610ac709659f4be75a59ac18cd3.glb",
+            "textureUrl": null
+          },
+          "previewTransforms": {
+            "scale": 0.9999999999999999,
+            "rotationX": 0,
+            "rotationY": 0,
+            "rotationZ": 0,
+            "positionX": 0,
+            "positionY": 0,
+            "positionZ": 0
+          },
+          "hostedAsset": true,
+          "previewGeometryFile": "model-assets/fd08b0d0ae50fd81e9d3f495240975ddd0302610ac709659f4be75a59ac18cd3.glb.preview.json"
+        }
+      ],
+      "calibration": "windows-cache-v1"
+    },
+    {
+      "profileId": "pdf_Zerg_profile_infested_goliath",
+      "name": "Starcraft - Infested Goliath",
+      "kind": "unit",
+      "faction": "Zerg",
+      "preserveSourceColors": true,
+      "parts": [
+        {
+          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/f5ec123629e9a43246c8337aa248a52e07cfd7add40ae9e80bdec848b8b1c8d4.glb",
+          "textureUrl": null,
+          "transforms": {
+            "scale": 0.39370078740157477,
+            "rotationX": 0,
+            "rotationY": 0,
+            "rotationZ": 0,
+            "positionX": 0,
+            "positionY": 0,
+            "positionZ": 0
+          },
+          "previewSource": {
+            "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/f5ec123629e9a43246c8337aa248a52e07cfd7add40ae9e80bdec848b8b1c8d4.glb",
+            "textureUrl": null
+          },
+          "previewTransforms": {
+            "scale": 0.9999999999999999,
+            "rotationX": 0,
+            "rotationY": 0,
+            "rotationZ": 0,
+            "positionX": 0,
+            "positionY": 0,
+            "positionZ": 0
+          },
+          "hostedAsset": true,
+          "previewGeometryFile": "model-assets/f5ec123629e9a43246c8337aa248a52e07cfd7add40ae9e80bdec848b8b1c8d4.glb.preview.json"
+        }
+      ],
+      "calibration": "windows-cache-v1"
+    },
+    {
       "profileId": "sc_terrain_d903fea321acfebe",
       "name": "Starcraft - Terrain - Head Statue - acfebe",
       "kind": "terrain",
@@ -2887,6 +3419,72 @@
             "rotationZ": 0
           },
           "previewGeometryFile": "model-assets/d2a1aed4a2f9f5129e37f5478f840f2331fd15ba5dba2872eff3f526f540d56c.glb.preview.json",
+          "previewTransforms": {
+            "scale": 1,
+            "positionX": 0,
+            "positionY": 0,
+            "positionZ": 0,
+            "rotationX": 0,
+            "rotationY": 0,
+            "rotationZ": 0
+          }
+        }
+      ]
+    },
+    {
+      "profileId": "sc_token_fire_wall",
+      "name": "Starcraft - Token - Fire Wall",
+      "kind": "token",
+      "calibration": "token-centimeters-v1",
+      "tokenDiameterMm": 32,
+      "parts": [
+        {
+          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/900de41047bc0439bab666c8e8c89f986566e54996d98c07b487d624378fa28c.glb",
+          "textureUrl": null,
+          "hostedAsset": true,
+          "transforms": {
+            "scale": 0.39370078740157477,
+            "positionX": 0,
+            "positionY": 0,
+            "positionZ": 0,
+            "rotationX": 0,
+            "rotationY": 0,
+            "rotationZ": 0
+          },
+          "previewGeometryFile": "model-assets/900de41047bc0439bab666c8e8c89f986566e54996d98c07b487d624378fa28c.glb.preview.json",
+          "previewTransforms": {
+            "scale": 1,
+            "positionX": 0,
+            "positionY": 0,
+            "positionZ": 0,
+            "rotationX": 0,
+            "rotationY": 0,
+            "rotationZ": 0
+          }
+        }
+      ]
+    },
+    {
+      "profileId": "sc_token_infestation",
+      "name": "Starcraft - Token - Infestation",
+      "kind": "token",
+      "calibration": "token-centimeters-v1",
+      "tokenDiameterMm": 32,
+      "parts": [
+        {
+          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/39c4e6b1050a02ba8f6adf7c651a341c58c2b926cf17fa19157ff1e18ee0a1ff.glb",
+          "textureUrl": null,
+          "hostedAsset": true,
+          "transforms": {
+            "scale": 0.39370078740157477,
+            "positionX": 0,
+            "positionY": 0,
+            "positionZ": 0,
+            "rotationX": 0,
+            "rotationY": 0,
+            "rotationZ": 0
+          },
+          "previewGeometryFile": "model-assets/39c4e6b1050a02ba8f6adf7c651a341c58c2b926cf17fa19157ff1e18ee0a1ff.glb.preview.json",
           "previewTransforms": {
             "scale": 1,
             "positionX": 0,
