@@ -642,7 +642,8 @@
         "measurementRadiusInches": 1.5748039484024048,
         "rootScaleX": 1.0,
         "diameterMm": 80.0
-      }
+      },
+      "reuseUnitId": "pdf_Protoss_unit_stalker"
     },
     {
       "faction": "Protoss",

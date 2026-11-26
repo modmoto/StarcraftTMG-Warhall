@@ -13,7 +13,8 @@ test('native tokens replace round cards and publish every distinct face', async 
   const cards = await read('Starcraft/cards.json');
   const catalogue = (await read('model-catalogue.json')).entries.filter(
     entry =>
-      entry.kind === 'token' && !['Token5Inch', 'sc_token_fire_wall'].includes(entry.profileId),
+      entry.kind === 'token' &&
+      !['Token5Inch', 'sc_token_fire_wall', 'sc_token_flamer_template'].includes(entry.profileId),
   );
   const artwork = (await read('token-artwork.json')).artwork;
   assert.equal(tokens.length, 18);
@@ -145,7 +146,7 @@ test('Blast Template uses the native template flag and a 130 mm circular mesh', 
   const tokens = await read('Starcraft/tokens.json');
   assert.deepEqual(
     tokens.filter(token => token.IsTemplate).map(token => token.Id),
-    ['Token5Inch', 'Starcraft - Token - Fire Wall'],
+    ['Token5Inch', 'Starcraft - Token - Flamer Template', 'Starcraft - Token - Wall Template'],
   );
   const template = (await read('model-catalogue.json')).entries.find(
     e => e.profileId === 'Token5Inch',
@@ -205,6 +206,7 @@ test('token menu groups templates, activation, factions, buffs and sorted effect
     tokens.map(token => token.Name),
     [
       'Blast Template',
+      'Flamer Template',
       'Activation - blue - movement',
       'Activation - red - movement',
       'Terran - blue',
@@ -219,7 +221,7 @@ test('token menu groups templates, activation, factions, buffs and sorted effect
       'Corrosive Bile',
       'Burrowed',
       'Creep Tumor',
-      'Fire Wall',
+      'Wall Template',
       'Hidden',
       'Infestation',
       'Siege Status',
@@ -279,7 +281,7 @@ test('all gameplay tokens have 32mm geometry and two native flip faces', async (
 
 test('Fire Wall is an orange open 40x100mm oval template without a circular measurement base', async () => {
   const { fireWallGeometry } = await import('../src/tokens/fire-wall-template.mjs');
-  const token = (await read('Starcraft/tokens.json')).find(t => t.Name === 'Fire Wall');
+  const token = (await read('Starcraft/tokens.json')).find(t => t.Name === 'Wall Template');
   assert.equal(token.IsTemplate, true);
   assert.ok(!('RadiusBaseDiameterMm' in token));
   const mesh = fireWallGeometry();
@@ -293,5 +295,26 @@ test('Fire Wall is an orange open 40x100mm oval template without a circular meas
   }
   assert.ok(
     mesh.vertices.every(([x, , z]) => (x * x) / (1.8 * 1.8) + (z * z) / (4.8 * 4.8) > 0.99999),
+  );
+});
+
+test('Flamer Template uses the TTS dimensions without a 32mm base', async () => {
+  const config = await read('flamer-template.json');
+  const { flamerTemplateGeometry } = await import('../src/tokens/flamer-template.mjs');
+  assert.ok(Math.abs(config.lengthMm - 210.4825627) < 0.01);
+  assert.ok(Math.abs(config.widthMm - 61.2930484) < 0.01);
+  const t = (await read('Starcraft/tokens.json')).find(t => t.Name === 'Flamer Template');
+  assert.equal(t.IsTemplate, true);
+  assert.ok(!t.RadiusBaseDiameterMm);
+  const mesh = flamerTemplateGeometry();
+  for (const [axis, size] of [
+    [0, config.widthMm / 10],
+    [2, config.lengthMm / 10],
+  ]) {
+    const values = mesh.vertices.map(p => p[axis]);
+    assert.ok(Math.abs(Math.max(...values) - Math.min(...values) - size) < 1e-6);
+  }
+  assert.ok(
+    mesh.vertices.every(v => Number.isFinite(v[0]) && v[1] === 0.08 && Number.isFinite(v[2])),
   );
 });

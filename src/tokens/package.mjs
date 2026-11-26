@@ -95,7 +95,18 @@ export const builtinTokenNames = [];
 export function nativeTokens() {
   const tokens = [
     ...markerTokens(),
-    { Id: 'Starcraft - Token - Fire Wall', Name: 'Fire Wall', Type: 'Token', IsTemplate: true },
+    {
+      Id: 'Starcraft - Token - Flamer Template',
+      Name: 'Flamer Template',
+      Type: 'Token',
+      IsTemplate: true,
+    },
+    {
+      Id: 'Starcraft - Token - Wall Template',
+      Name: 'Wall Template',
+      Type: 'Token',
+      IsTemplate: true,
+    },
     ...tokenDefinitions.map(token => ({
       Id: tokenMenuId(token.name),
       Name: token.name,

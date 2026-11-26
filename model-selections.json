@@ -1609,32 +1609,29 @@
       "unitId": "pdf_Protoss_unit_slayer_stalker",
       "unitName": "Slayer (Stalker)",
       "role": "Wave 4",
-      "pose": "authored TTS pose",
+      "pose": "attack-ready",
       "status": "selected",
-      "preserveSourceColors": true,
-      "notes": "Public Wave 4 table model bc51aa; baked actual child geometry and attachments, omitted dummy base.",
+      "notes": "Reuse the normal Stalker geometry and reviewed scale; replace its yellow/gold accents with red, retaining neutral pixels.",
       "model": {
-        "sourceName": "Slayer (Stalker)",
+        "candidateId": 84,
+        "sourceName": "{6/6} Stalker",
         "workshopId": "3662791369",
-        "guid": "bc51aa",
-        "meshUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/29bf239a4f218cf7bf321639bc71c49ed8b0f9b12bb2481e3cabb668fa7ebbf1.glb",
-        "textureUrl": null,
-        "hostedAsset": true,
-        "previewGeometryFile": "model-assets/29bf239a4f218cf7bf321639bc71c49ed8b0f9b12bb2481e3cabb668fa7ebbf1.glb.preview.json"
+        "guid": "8ec270",
+        "meshUrl": "https://steamusercontent-a.akamaihd.net/ugc/15129021142985132011/753B3E7E2E7FA3447547C9CDF81415A63F4DE307/",
+        "textureUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/c13b4f2dade9aa871941706d3628e51dbbe34204673ade1d5b5f73368e174397.png",
+        "ttsTransform": {
+          "posX": -0.143961146,
+          "posY": 0.140392274,
+          "posZ": -0.23688215,
+          "rotX": 0.00037094453,
+          "rotY": 30.0482216,
+          "rotZ": -0.0006212913,
+          "scaleX": 1.30000007,
+          "scaleY": 1.29999983,
+          "scaleZ": 1.30000007
+        }
       },
-      "layout": {
-        "size": 0.39370078740157477,
-        "position": [
-          0,
-          0,
-          0
-        ],
-        "rotation": [
-          0,
-          0,
-          0
-        ]
-      }
+      "preserveSourceColors": true
     },
     {
       "faction": "Protoss",

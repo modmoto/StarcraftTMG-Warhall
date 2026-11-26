@@ -96,7 +96,10 @@ test('portable bundle replacements include Adepts and preserve Windows cache dim
     catalogue.entries.filter(entry => entry.kind === 'token').map(entry => entry.parts[0].modelUrl),
   );
   const wave4 = await json('wave4-model-report.json');
-  assert.equal(hosted.length, 21 + wave4.length + terrainAssets.size + tokenAssets.size);
+  assert.equal(
+    hosted.length,
+    21 + wave4.filter(model => !model.reusedFrom).length + terrainAssets.size + tokenAssets.size,
+  );
   assert.ok(hosted.every(file => files.includes(file)));
   for (const file of files) {
     if (!file.endsWith('.glb')) continue;
@@ -165,7 +168,25 @@ test('Wave 4 exported model feet sit on the base plane without changing authored
   const report = JSON.parse(await readFile(new URL('../wave4-model-report.json', import.meta.url)));
   assert.equal(report.length, 14);
   for (const entry of report) {
+    if (entry.reusedFrom) continue;
     assert.ok(Math.abs(entry.minimumYmm) < 1e-8, entry.unitId);
     assert.ok(Number.isFinite(entry.removedGroundOffsetMm));
   }
+});
+
+test('Tal darim Slayer reuses the normal Stalker and changes only gold pixels to red', async () => {
+  const { readFile } = await import('node:fs/promises');
+  const { redGoldTexture } = await import('../src/models/faction-colors.mjs');
+  const selections = JSON.parse(
+    await readFile(new URL('../model-selections.json', import.meta.url)),
+  );
+  const normal = selections.models.find(m => m.unitId === 'pdf_Protoss_unit_stalker');
+  const slayer = selections.models.find(m => m.unitId === 'pdf_Protoss_unit_slayer_stalker');
+  assert.equal(slayer.model.meshUrl, normal.model.meshUrl);
+  assert.deepEqual(slayer.model.ttsTransform, normal.model.ttsTransform);
+  const input = Buffer.from([180, 150, 30, 255, 40, 40, 40, 255, 20, 70, 190, 255]);
+  const out = redGoldTexture({ data: input }).data;
+  assert.deepEqual([...out.slice(0, 4)], [180, 30, 30, 255]);
+  assert.deepEqual(out.slice(4), input.slice(4));
+  assert.notEqual(slayer.model.textureUrl, normal.model.textureUrl);
 });

@@ -58,3 +58,5 @@ After a verified server repair, refresh/restart Warhall Test and reload the map.
 ## Wave 4 model ground plane
 
 prepare-wave4-models.mjs bakes the reviewed TTS child geometry and subtracts the final minimum Y from every vertex after the complete authored transforms. This removes the source dummy-base elevation while preserving all mesh relationships, size and orientation. wave4-model-report.json records the removed offset and resulting zero lower bound. Native flight clearance remains a separate catalogue concern. Re-export from the source, rather than layering cumulative publication offsets.
+
+The Tal'darim Slayer reuses the normal Stalker model and its authored transforms. wave4-model-sources.json records reuseUnitId so future Wave-4 exports preserve that choice. The exporter starts with the normal Protoss texture palette and replaces only yellow/gold pixels with red, retaining neutral pixels, alpha, value and chroma. Other model hues are untouched; preserveSourceColors prevents recolouring the red texture back to gold during catalogue generation.

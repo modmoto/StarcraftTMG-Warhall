@@ -29,3 +29,27 @@ export function factionTexture(texture, faction) {
   }
   return { ...texture, data };
 }
+
+// Recolour only the existing Protoss gold accent; keep neutral material pixels.
+export function redGoldTexture(texture) {
+  const data = Buffer.from(texture.data);
+  for (let i = 0; i < data.length; i += 4) {
+    const [r, g, b] = [data[i], data[i + 1], data[i + 2]];
+    const hi = Math.max(r, g, b),
+      lo = Math.min(r, g, b),
+      chroma = hi - lo;
+    if (hi < 20 || chroma / hi < 0.22) continue;
+    let hue =
+      hi === r
+        ? 60 * ((g - b) / chroma)
+        : hi === g
+          ? 60 * ((b - r) / chroma + 2)
+          : 60 * ((r - g) / chroma + 4);
+    hue = (hue + 360) % 360;
+    if (hue < 30 || hue > 75) continue;
+    data[i] = hi;
+    data[i + 1] = lo;
+    data[i + 2] = lo;
+  }
+  return { ...texture, data };
+}

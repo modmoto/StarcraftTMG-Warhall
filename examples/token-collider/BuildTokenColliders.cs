@@ -40,7 +40,7 @@ public static class BuildTokenColliders
         foreach (var directory in Directory.GetDirectories("Assets/TokenColliderInput"))
         {
             var id = Path.GetFileName(directory);
-            if (!activeIds.Contains(id) || (id == "Token5Inch" || id == "sc_token_fire_wall")) continue; // Dedicated template builder.
+            if (!activeIds.Contains(id) || (id == "Token5Inch" || id == "sc_token_fire_wall" || id == "sc_token_flamer_template")) continue; // Dedicated template builder.
             if (activationOnly && id != "sc_token_activation_blue_arrow" && id != "sc_token_activation_red_arrow") continue;
             var root = new GameObject(id);
             using (var input = new BinaryReader(File.OpenRead(directory + "/geometry.bytes")))

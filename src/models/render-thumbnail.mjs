@@ -1,3 +1,4 @@
+import { modelAssetBaseUrl } from '../urls.mjs';
 import { createHash } from 'node:crypto';
 import { readFile, writeFile, mkdir } from 'node:fs/promises';
 import path from 'node:path';
@@ -61,6 +62,19 @@ async function cachedAsset(url, directory) {
     return filename;
   } catch (error) {
     if (error.code !== 'ENOENT') throw error;
+  }
+  // Newly generated immutable assets must be renderable before their first push.
+  if (url.startsWith(modelAssetBaseUrl + '/')) {
+    const name = url.slice(modelAssetBaseUrl.length + 1);
+    if (/^[a-f0-9]{64}\.[a-z0-9]+$/.test(name)) {
+      try {
+        const bytes = await readFile(path.join(projectRoot, 'model-assets', name));
+        await writeFile(filename, bytes);
+        return filename;
+      } catch (error) {
+        if (error.code !== 'ENOENT') throw error;
+      }
+    }
   }
   const response = await fetch(url, { signal: AbortSignal.timeout(120_000) });
   if (!response.ok) throw new Error(`Model download failed: HTTP ${response.status}`);

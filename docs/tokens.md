@@ -43,3 +43,9 @@ All ordinary gameplay tokens and the five objective tokens set RadiusBaseDiamete
 ## Fire Wall template
 
 Fire Wall is an explicitly sized template rather than a normal 32 mm reminder. Its outer oval is 40 x 100 mm, matching the reviewed Hydralisk footprint. The visible orange outline has no fill; the native TemplateArea receives an independent filled oval collider through the same skinned-renderer arrangement as Blast Template. IsTemplate=true is set and RadiusBaseDiameterMm is omitted. Source geometry is in src/tokens/fire-wall-template.mjs; fire-wall-template.json pins the Windows Unity bundle built by BuildFireWallTemplate.Run. The normal token builder skips this dedicated template. Keep its existing exact menu name and canonical sc_token_fire_wall binding.
+
+## Wall and Flamer templates
+
+The 40 x 100 mm oval is now displayed as Wall Template, for shared use by Firebat and other wall effects. Its canonical skin profile remains sc_token_fire_wall; the native token ID and menu skin name are Starcraft - Token - Wall Template. Native Firebat ExtraItems migrate the old Fire Wall reference without duplicating stock. The old menu alias is retired after successful Test publication.
+
+Flamer Template is a separate open orange template, 210.4825627 mm long and 61.2930484 mm wide. These dimensions come from the current public TTS Firebat SC_FIREBAT_FLAMER v5 constants (8.28671506700212 inches long; outline width 2.41311214 inches). The outline reference is the archived GW printable template, calibrated to its 5-inch blast circle. Only dimensions are adopted from TTS: no AIM/END handles, automatic following or Lua logic. Flamer is a normal independent native IsTemplate token, with its own filled invisible contact collider and unfilled visible ring. Its generator is flamer-template.mjs and its reviewed Unity bundle is pinned in flamer-template.json. It is available from the menu; no automatic unit attachment is implied.

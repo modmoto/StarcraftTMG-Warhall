@@ -45,3 +45,19 @@ fs.copyFileSync(
   'examples/token-collider/BuildFireWallTemplate.cs',
   path.join(project, 'Assets/Editor/BuildFireWallTemplate.cs'),
 );
+
+const outline = JSON.parse(fs.readFileSync('flamer-template.json')).outlineMm;
+const outlineBytes = Buffer.alloc(4 + outline.length * 8);
+outlineBytes.writeInt32LE(outline.length, 0);
+outline.forEach(([x, z], i) => {
+  outlineBytes.writeFloatLE(x / 10, 4 + i * 8);
+  outlineBytes.writeFloatLE(z / 10, 8 + i * 8);
+});
+fs.writeFileSync(
+  path.join(project, 'Assets/TokenColliderInput/sc_token_flamer_template/outline.bytes'),
+  outlineBytes,
+);
+fs.copyFileSync(
+  'examples/token-collider/BuildFlamerTemplate.cs',
+  path.join(project, 'Assets/Editor/BuildFlamerTemplate.cs'),
+);

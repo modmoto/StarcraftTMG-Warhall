@@ -79,16 +79,10 @@
   },
   {
     "unitId": "pdf_Protoss_unit_slayer_stalker",
-    "sourceGuid": "bc51aa",
-    "file": "29bf239a4f218cf7bf321639bc71c49ed8b0f9b12bb2481e3cabb668fa7ebbf1.glb",
-    "meshCount": 1,
-    "sizeMm": [
-      73.8243197795733,
-      86.09287578686497,
-      76.25648842554168
-    ],
-    "minimumYmm": 0,
-    "removedGroundOffsetMm": -0.0002862464998913572
+    "reusedFrom": "pdf_Protoss_unit_stalker",
+    "sourceGuid": "8ec270",
+    "textureFile": "c13b4f2dade9aa871941706d3628e51dbbe34204673ade1d5b5f73368e174397.png",
+    "meshCount": 1
   },
   {
     "unitId": "pdf_Protoss_unit_tal_darim_pylon",

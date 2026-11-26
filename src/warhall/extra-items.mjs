@@ -27,6 +27,12 @@ export function addImportExtraItems(data) {
   };
   for (const faction of ['Terran', 'Zerg', 'Protoss']) {
     for (const unit of data[`${faction}/units.json`] ?? []) {
+      if (unit.ExtraItems)
+        unit.ExtraItems = unit.ExtraItems.map(item =>
+          item.Type === 'Token' && item.Id === 'Starcraft - Token - Fire Wall'
+            ? { ...item, Id: 'Starcraft - Token - Wall Template' }
+            : item,
+        );
       const ids = unitExtras[unit.Id];
       if (ids)
         unit.ExtraItems = mergeExtras(
@@ -43,7 +49,7 @@ export function addImportExtraItems(data) {
         ]);
       if (unit.Id === 'pdf_Terran_unit_firebat')
         unit.ExtraItems = mergeExtras(unit.ExtraItems, [
-          { Id: 'Starcraft - Token - Fire Wall', Type: 'Token' },
+          { Id: 'Starcraft - Token - Wall Template', Type: 'Token' },
         ]);
     }
   }

@@ -29,7 +29,7 @@ export function createFireWallTemplateAsset() {
   return createBlastTemplateAsset({
     mesh: fireWallGeometry(),
     profileId: 'sc_token_fire_wall',
-    name: 'Starcraft - Token - Fire Wall',
+    name: 'Starcraft - Token - Wall Template',
     configFile: 'fire-wall-template.json',
     diameterMm: 100,
   });

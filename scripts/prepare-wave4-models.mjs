@@ -7,7 +7,7 @@ import { modelAssetBaseUrl } from '../src/urls.mjs';
 import { sourceGeometry, renderGeometry } from '../src/models/render-thumbnail.mjs';
 import { encodeGlb } from '../src/models/portable-glb.mjs';
 import { transformPoint, bounds } from '../src/models/calibration.mjs';
-import { factionTexture } from '../src/models/faction-colors.mjs';
+import { factionTexture, redGoldTexture } from '../src/models/faction-colors.mjs';
 
 const source = await readJson(path.join(projectRoot, 'wave4-model-sources.json'));
 const selections = await readJson(path.join(projectRoot, 'model-selections.json'));
@@ -36,6 +36,46 @@ function local(point, t) {
 }
 
 for (const model of source.models) {
+  if (model.reuseUnitId) {
+    const normal = selections.models.find(entry => entry.unitId === model.reuseUnitId);
+    if (!normal) throw new Error('Missing source model ' + model.reuseUnitId);
+    const { geometry: meshes } = await sourceGeometry({
+      modelUrl: normal.model.meshUrl,
+      textureUrl: normal.model.textureUrl,
+    });
+    const texture = redGoldTexture(factionTexture(meshes[0].texture, 'Protoss'));
+    const png = await sharp(texture.data, {
+      raw: { width: texture.width, height: texture.height, channels: 4 },
+    })
+      .png()
+      .toBuffer();
+    const filename = sha256(png) + '.png';
+    await writeFile(path.join(directory, filename), png);
+    const entry = {
+      ...structuredClone(normal),
+      unitId: model.unitId,
+      unitName: model.unitName,
+      role: 'Wave 4',
+      preserveSourceColors: true,
+      notes:
+        'Reuse the normal Stalker geometry and reviewed scale; replace its yellow/gold accents with red, retaining neutral pixels.',
+      model: { ...structuredClone(normal.model), textureUrl: `${modelAssetBaseUrl}/${filename}` },
+    };
+    if (apply) {
+      const index = selections.models.findIndex(s => s.unitId === model.unitId);
+      if (index < 0) selections.models.push(entry);
+      else selections.models[index] = entry;
+    }
+    report.push({
+      unitId: model.unitId,
+      reusedFrom: normal.unitId,
+      sourceGuid: normal.model.guid,
+      textureFile: filename,
+      meshCount: meshes.length,
+    });
+    console.log(model.unitName + ': normal Stalker geometry with red gold accents');
+    continue;
+  }
   const geometry = [];
   const rootScale = ['scaleX', 'scaleY', 'scaleZ'].map(key => model.root.Transform[key]);
   async function visit(object, ancestors = []) {
