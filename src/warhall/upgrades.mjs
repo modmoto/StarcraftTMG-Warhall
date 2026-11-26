@@ -98,7 +98,6 @@ export function addUpgradeOptions(unit, ids, profiles, profileIds, defaults, rec
     const add = [{ Id: `${ids.profile}_selected_options`, Ref: [{ Id: labelId }] }];
     const remove = [];
     if (replaced && specialist(profile)) {
-      const oldId = defaults[unit.profiles.indexOf(replaced)];
       const weapon = rows.get(recordId);
       // TMP rich-text tags have a bounded length, including the generated link ID.
       const containerId = `sc_weapon_${createHash('sha256').update(recordId).digest('hex').slice(0, 16)}`;
@@ -106,7 +105,11 @@ export function addUpgradeOptions(unit, ids, profiles, profileIds, defaults, rec
         textContainer(records, `${containerId}_specialist_body`, weapon.slice(0, 1)),
         textContainer(records, `${containerId}_specialist_keywords`, weapon.slice(1)),
       ]);
-      add.push({ Id: `${oldId}_slot`, Ref: [{ Id: slot }] });
+      const groupId = `sc_specialists_${createHash('sha256').update(ids.profile).digest('hex').slice(0, 16)}`;
+      textContainer(records, groupId);
+      records.rules.get(groupId).Name = 'Specialists';
+      records.rules.get(groupId).Type = 'Equipment';
+      add.push({ Id: groupId, Ref: [{ Id: slot }] });
     } else if (replaced) {
       const oldId = defaults[unit.profiles.indexOf(replaced)];
       const alternatives = profiles.flatMap((candidate, candidateIndex) =>

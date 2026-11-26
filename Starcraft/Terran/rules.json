@@ -2278,6 +2278,13 @@
     ]
   },
   {
+    "Id": "sc_specialists_b4e45beb5ce9ea9c",
+    "Name": "Specialists",
+    "Type": "Equipment",
+    "Description": "",
+    "Children": []
+  },
+  {
     "Id": "sc_weapon_314e4f20d4c78655_specialist_body",
     "Name": "",
     "Type": "Profile",

@@ -558,7 +558,7 @@
         ]
       },
       {
-        "Id": "pdf_Zerg_equipment_infested_marine_weapon_assault_phase_infested_c_14_rifle_slot",
+        "Id": "sc_specialists_b4b444e0f05a9449",
         "Ref": [
           {
             "Id": "sc_weapon_f0dae6583e6524c8_specialist_slot"
@@ -582,7 +582,7 @@
         ]
       },
       {
-        "Id": "pdf_Zerg_equipment_infested_marine_weapon_assault_phase_infested_c_14_rifle_slot",
+        "Id": "sc_specialists_b4b444e0f05a9449",
         "Ref": [
           {
             "Id": "sc_weapon_70677159195c1a84_specialist_slot"

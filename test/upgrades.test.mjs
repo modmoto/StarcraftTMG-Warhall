@@ -353,3 +353,22 @@ test('Infested Marine specialist weapons have isolated table and keyword blocks'
     assert.ok(slot.Children[1].Children.every(row => row.Id.endsWith('_keywords')));
   }
 });
+
+test('only selected SPECIALIST weapons appear in one native collapsible group', () => {
+  const selected = unitProfile('Infested Marine', [
+    'Infested Missile Launcher - Acid Blast',
+    'Infested Missile Launcher - Scourgeshot',
+  ]);
+  const groups = selected.filter(row => row.Name === 'Specialists');
+  assert.equal(groups.length, 1);
+  assert.equal(groups[0].Type, 'Equipment');
+  assert.equal(groups[0].Children.length, 2);
+  assert.ok(groups[0].Children.every(row => row.Id.endsWith('_specialist_slot')));
+  for (const name of ['Infested Marine', 'Goliath', 'Immortal'])
+    assert.ok(!unitProfile(name).some(row => row.Name === 'Specialists'), name);
+  assert.ok(
+    !unitProfile('Immortal', ['Left Phase Disruptor', 'Right Phase Disruptor']).some(
+      row => row.Name === 'Specialists',
+    ),
+  );
+});

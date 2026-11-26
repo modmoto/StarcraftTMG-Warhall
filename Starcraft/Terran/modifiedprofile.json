@@ -632,7 +632,7 @@
         ]
       },
       {
-        "Id": "pdf_Terran_equipment_marines_default_1_slot",
+        "Id": "sc_specialists_b4e45beb5ce9ea9c",
         "Ref": [
           {
             "Id": "sc_weapon_6e3990f8d5b75a9b_specialist_slot"
@@ -761,7 +761,7 @@
         ]
       },
       {
-        "Id": "pdf_Terran_equipment_marines_default_1_slot",
+        "Id": "sc_specialists_b4e45beb5ce9ea9c",
         "Ref": [
           {
             "Id": "sc_weapon_314e4f20d4c78655_specialist_slot"

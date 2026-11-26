@@ -3080,6 +3080,13 @@
     "Children": []
   },
   {
+    "Id": "sc_specialists_b4b444e0f05a9449",
+    "Name": "Specialists",
+    "Type": "Equipment",
+    "Description": "",
+    "Children": []
+  },
+  {
     "Id": "sc_weapon_70677159195c1a84_specialist_body",
     "Name": "",
     "Type": "Profile",
