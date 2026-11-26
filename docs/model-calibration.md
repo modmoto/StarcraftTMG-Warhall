@@ -48,7 +48,7 @@ The HTTP adapter now encodes zero position/rotation components as `1e-7` in crea
 Repair existing shared skins without replacing meshes or changing skin IDs:
 
 ```sh
-node scripts/repair-model-transforms.mjs --apply --login --profile sc_terrain_f2dd0d048a087d53
+node scripts/models/repair-model-transforms.mjs --apply --login --profile sc_terrain_f2dd0d048a087d53
 ```
 
 Without `--apply`, the command previews the selected authored transforms. Omit `--profile` to repair all published model/terrain transforms. `--server test|prod` selects the target, defaulting to test. It resolves the exact game, requires administrator access and exactly one matching shared skin per profile, reads `/SelectSkinParts`, posts `/UpdateSkinLayerTransforms`, then reads back every position, rotation and scale. Nulls or mismatches fail verification. This does not upload meshes, create skins, delete skins or modify local Warhall caches.

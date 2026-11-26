@@ -5,7 +5,7 @@ description: Find, inspect and extract textured StarCraft miniature models for t
 
 # Model Extraction
 
-Use the existing TTS extraction and preview workflow in scripts/extract-tts-models.mjs, scripts/download-tts-previews.mjs and scripts/render-tts-previews.py. Inspect the rendered geometry and texture. Prefer firing poses for ranged units and charging or striking poses for melee. Record one reviewed pose per unit and link it through the established unit/profile naming and model-selections.json.
+Use the existing TTS extraction and preview workflow in scripts/models/extract-tts-models.mjs, scripts/models/download-tts-previews.mjs and scripts/models/render-tts-previews.py. Inspect the rendered geometry and texture. Prefer firing poses for ranged units and charging or striking poses for melee. Record one reviewed pose per unit and link it through the established unit/profile naming and model-selections.json.
 
 For platform-specific Unity bundles, follow docs/model-calibration.md for portable GLB conversion. Bake the pose, retain textures and transforms, and inspect orientation, ground contact and scale. Preserve approved entries for unchanged units. Hand the reviewed assets to warhall-publish-skins for registration.
 
@@ -17,7 +17,7 @@ Store reviewed positions and rotations by object GUID in terrain-calibration.jso
 
 ## Walkable terrain with Unity
 
-For ramp/platform collision, follow [the confirmed collider build](../../../docs/terrain-collider-build.md). The cyan imported prototype was confirmed working by the user in Warhall Test on November 5, 2026. Use Unity 6000.0.81f1 with AssetBundle, Physics and ImageConversion modules enabled; keep layer-15 MeshCollider children separate from all renderer objects. Preserve the actual slope/platform geometry. Installing Unity without these modules and hierarchy is insufficient. Use examples/ramp-collider/BuildHighGround.cs and scripts/prepare-ramp-unity.mjs for the real textured assembly. Verify local reload/physics, then publish only the changed terrain and test it in a fresh map. Windows success does not establish macOS bundle compatibility.
+For ramp/platform collision, follow [the confirmed collider build](../../../docs/terrain-collider-build.md). The cyan imported prototype was confirmed working by the user in Warhall Test on November 5, 2026. Use Unity 6000.0.81f1 with AssetBundle, Physics and ImageConversion modules enabled; keep layer-15 MeshCollider children separate from all renderer objects. Preserve the actual slope/platform geometry. Installing Unity without these modules and hierarchy is insufficient. Use tools/unity-assets/terrain/BuildHighGround.cs and scripts/terrain/prepare-ramp-unity.mjs for the real textured assembly. Verify local reload/physics, then publish only the changed terrain and test it in a fresh map. Windows success does not establish macOS bundle compatibility.
 
 
 Tal'darim Slayer uses the normal Stalker geometry and reviewed transforms, with only yellow/gold material pixels replaced by red. Preserve neutral pixels, alpha, value and saturation; do not recolour the whole model or restore the old all-red Wave-4 mesh. wave4-model-sources.json reuseUnitId and prepare-wave4-models.mjs preserve the choice on future exports; preserveSourceColors prevents the catalogue from resetting red to the normal Protoss palette.

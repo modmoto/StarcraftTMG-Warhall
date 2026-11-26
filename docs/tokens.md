@@ -18,13 +18,13 @@ Every map contains two activation stacks per player side: 15 blue and 15 red mar
 
 All ordinary gameplay tokens have 32 mm bases and two native flip faces. Activation tokens have Movement on the upper face and Assault underneath; other flat tokens repeat the front symbol. The three 3D effect tokens have mirrored effect geometry on the reverse. Objectives also have mirrored reverse geometry, preserving their existing front design and decorative outer ring. Native Flip rotates the model 180 degrees about local Z. Faces and collider are centred on that pivot, with outward normals and distinct textures; no custom flip logic is bundled.
 
-Generate artwork and source geometry, prepare the Unity input, then run BuildTokenColliders.RunActivationTokens from examples/token-collider/BuildTokenColliders.cs. The builder validates both orientations and stable table height. Keep the active-ID manifest so old cache directories cannot restore deleted tokens. Record reviewed bundle URLs in token-model-overrides.json.
+Generate artwork and source geometry, prepare the Unity input, then run BuildTokenColliders.RunActivationTokens from tools/unity-assets/tokens/BuildTokenColliders.cs. The builder validates both orientations and stable table height. Keep the active-ID manifest so old cache directories cannot restore deleted tokens. Record reviewed bundle URLs in token-model-overrides.json.
 
 ## Blast Template
 
 The custom template keeps WDS Id Token5Inch and Name Blast Template for stable references. IsTemplate=true enables native template behavior. It is a flat orange ring: 130 mm outer diameter, 126 mm inner diameter, 2 mm radial width. There is no fill or cylinder. blast-template.json pins its bundle; src/tokens/blast-template.mjs owns source and preview generation.
 
-Build with examples/token-collider/BuildBlastTemplate.cs after scripts/prepare-token-colliders.mjs. The ring uses a native static one-bone SkinnedMeshRenderer and a full circular root MeshCollider. In the inspected native implementation, TemplateArea reads MeshFilter shapes and otherwise uses colliders; preserve and retest that contract after client changes. Local checks verify baked dimensions, a flat annulus, no fill, and centre/rim hits with square-corner misses. Native contact highlighting still needs in-game confirmation.
+Build with tools/unity-assets/tokens/BuildBlastTemplate.cs after scripts/tokens/prepare-token-colliders.mjs. The ring uses a native static one-bone SkinnedMeshRenderer and a full circular root MeshCollider. In the inspected native implementation, TemplateArea reads MeshFilter shapes and otherwise uses colliders; preserve and retest that contract after client changes. Local checks verify baked dimensions, a flat annulus, no fill, and centre/rim hits with square-corner misses. Native contact highlighting still needs in-game confirmation.
 
 Do not restore a transparent filled mesh: the current loader replaces material shaders with an opaque shader. Alpha-only changes cannot make that surface invisible. Renderer.forceRenderingOff did not persist after bundle reload. The ring requires no transparency workaround or client patch.
 
@@ -32,7 +32,7 @@ Do not restore a transparent filled mesh: the current loader replaces material s
 
 The token artwork generator writes hash-named PNGs and token-artwork.json. The model generator writes source/preview GLBs while token-model-overrides.json preserves reviewed Unity bundles. Do not publish preview GLBs instead of tested bundles. Keep root colliders sized to the actual token and visible renderer Token tags serialized at native tag slot 20 (20020).
 
-Use scripts/build-model-catalogue.mjs and the normal skin publisher. New native features are Test-only until production is requested. After upload, verify exact WDS IDs/names, canonical and menu defaults, model resources and thumbnail responses. Native outlines, edge dragging, flipping, contact detection and multiplayer synchronization require fresh client checks.
+Use scripts/models/build-model-catalogue.mjs and the normal skin publisher. New native features are Test-only until production is requested. After upload, verify exact WDS IDs/names, canonical and menu defaults, model resources and thumbnail responses. Native outlines, edge dragging, flipping, contact detection and multiplayer synchronization require fresh client checks.
 
 Retired current-game associations are removed with RemoveSkinUsage (itemInstanceId, skinId, costumeDefault). Verify readback and retain assets still referenced by another active game or the release branch. Reconcile owned skins before retrying an uncertain create request. Keep active publication checkpoints and source caches.
 

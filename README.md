@@ -7,7 +7,7 @@ This repository maintains the StarCraft WDS dataset, Command Center DB importer,
 - `Starcraft/`: the single generated game dataset, including its referenced card art and icons.
 - `src/` and `scripts/`: maintained importers, generators, validators and publication tools.
 - `model-assets/`: content-addressed models, textures, bundles and required source previews.
-- `examples/ramp-collider/` and `examples/token-collider/`: active Unity editor asset builders.
+- `tools/unity-assets/terrain/` and `tools/unity-assets/tokens/`: active Unity editor asset builders.
 - Root JSON files: reviewed source selections, calibration, rule overrides and publication inputs.
 - `.agents/skills/`: reusable workflows for rules, models, tokens and releases.
 - `test/`: generator, data and publication contract checks.

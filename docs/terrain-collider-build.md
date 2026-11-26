@@ -1,14 +1,14 @@
 # Unity terrain asset build
 
-Use Unity 6000.0.81f1 and the AssetBundle, Physics and ImageConversion modules from `examples/ramp-collider/manifest.json`. Asset builders are editor-only; no custom runtime component is required.
+Use Unity 6000.0.81f1 and the AssetBundle, Physics and ImageConversion modules from `tools/unity-assets/terrain/manifest.json`. Asset builders are editor-only; no custom runtime component is required.
 
 High Ground retains the reviewed 14.75 x 8 inch footprint and 65 mm height from terrain-calibration.json. The raised obelisk uses the matching baked height. Keep existing map IDs and poses.
 
 ## Rebuild
 
-1. Run `node scripts/update-terrain.mjs --offline` using the reviewed source cache.
+1. Run `node scripts/terrain/update-terrain.mjs --offline` using the reviewed source cache.
 2. Prepare `.cache/ramp-collider-test` with Packages/manifest.json from the example, Assets/Editor and Output directories.
-3. Run `node scripts/prepare-ramp-unity.mjs`.
+3. Run `node scripts/terrain/prepare-ramp-unity.mjs`.
 4. Run Unity in hidden batch mode with `-batchmode -nographics -quit -projectPath PROJECT -executeMethod BuildHighGround.Run -logFile LOG`.
 5. Require a successful build and `HIGH_GROUND_COLLIDER_OK` after bundle reload. Hash-name the output under model-assets, update High Ground's colliderBundle input, and regenerate terrain/catalogue references.
 6. Push the required files and publish the terrain skin to the requested server with the normal scoped checkpoint. Verify canonical/default and exact-name menu bindings.

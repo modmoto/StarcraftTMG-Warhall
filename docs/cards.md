@@ -10,14 +10,10 @@ Card titles include resource values, such as Khalai (PE: 1). Descriptions omit t
 
 The unwanted white disc was not in the artwork. `Card.ApplyColor2AndBorder` enables SecondaryColor whenever Color2 is nonempty. Both the card records and DefaultCardConfig now leave Color2 empty, hiding that overlay.
 
-Transparent corners are present in the PNGs. The inspected Warhall Test WDSCard prefab uses Card_mat with Standard material mode 0 (opaque), SrcBlend=1 and DstBlend=0. The client needs an alpha-aware card material (for example Standard cutout/alpha-test, including suitable cutoff/shader keywords) to show those transparent corners in the room. Card UIConfig exposes no material/shader switch. No local app patch is installed. A data update alone cannot change that opaque shader; verify native rendering after Warhall implements alpha support.
+PNG faces retain transparent corners. Native rendering depends on the client material; WDS card data has no shader setting.
 
 ## DB cards without downloadable artwork
 
 Command Center card merging preserves official front/back images. Cards without official artwork receive a generated, named placeholder on both faces through src/cards/placeholder.mjs, using the faction accent and an explicit ARTWORK PENDING label. Placeholder files are hash-named and reproducible; replace them with reviewed official artwork when available. Full rule text remains in the card description. Do not use ShowInitials as a full-name replacement.
 
 A white native back face is not proof of a missing source image: check ImageURLBack, the hosted resource and actual image pixels first. Do not discard working official artwork or replace every back with a dummy to hide a client texture/material issue.
-
-## Confirmed native back-material regression (2026-11-26)
-
-The inspected Warhall Assets/Resources/WDSCard.prefab assigns PrimaryColor material slot 0 to SimpleColors/Red.mat and slot 1 to Card_mat.mat; FacedToken uses front index 1 and therefore applies ImageURLBack to slot 0. Red.mat uses built-in shader file ID 10755, confirmed in an isolated Unity editor probe as Unlit/Color with no _MainTex property. Card_mat uses Standard (ID 46), which supports _MainTex. Consequently valid back images cannot appear on that color-only material. Correct the native card prefab's back material to a texture-capable card material, preserving independent material instances and the front/back slot mapping. No WDS field changes the native material shader. This repository does not modify or build the Warhall client. Verify fresh cards and flipped cards after the native prefab is rebuilt.

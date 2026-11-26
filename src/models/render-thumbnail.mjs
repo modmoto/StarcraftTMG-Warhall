@@ -122,7 +122,7 @@ async function unityGeometry(filename, directory, secondary) {
   const result = spawnSync(
     command,
     [
-      path.join(projectRoot, 'scripts/unity-thumbnail-geometry.py'),
+      path.join(projectRoot, 'scripts/models/unity-thumbnail-geometry.py'),
       filename,
       output,
       ...(secondary ? [secondary] : []),

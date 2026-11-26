@@ -3,7 +3,7 @@
 The generators and reviewed JSON in this repository are authoritative. Before incorporating a web-editor export, download its ZIP and run:
 
 ```sh
-python scripts/compare-wds-export.py EXPORT.zip
+python scripts/imports/compare-wds-export.py EXPORT.zip
 ```
 
 Review missing records, IDs/names, dimensions, rule descriptions and fields such as IsTemplate and IsBaseTransparent. Retain helper records and map/deployment references that the editor may not display. Opening a panel is not authorization to replace the maintained dataset with a normalized draft.

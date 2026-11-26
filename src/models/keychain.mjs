@@ -5,7 +5,7 @@ import { fileURLToPath } from 'node:url';
 const windowsArgs = (mode, identity) => [
   '-NoProfile',
   '-File',
-  fileURLToPath(new URL('../../scripts/windows-model-credential.ps1', import.meta.url)),
+  fileURLToPath(new URL('../../scripts/auth/windows-model-credential.ps1', import.meta.url)),
   '-Mode',
   mode,
   '-Service',
