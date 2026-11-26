@@ -553,7 +553,7 @@
         "Id": "pdf_Zerg_profile_infested_marine_selected_options",
         "Ref": [
           {
-            "Id": "pdf_Zerg_equipment_infested_marine_upgrade_weapon_assault_phase_infested_missile_launcher_acid_blast_choice"
+            "Id": "sc_sp_f0dae6583e6524c8_choice"
           }
         ]
       }
@@ -569,7 +569,7 @@
         "Id": "pdf_Zerg_profile_infested_marine_selected_options",
         "Ref": [
           {
-            "Id": "pdf_Zerg_equipment_infested_marine_upgrade_weapon_assault_phase_infested_missile_launcher_scourgeshot_choice"
+            "Id": "sc_sp_70677159195c1a84_choice"
           }
         ]
       }

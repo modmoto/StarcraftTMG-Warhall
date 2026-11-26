@@ -153,7 +153,7 @@ test('option IDs are readable names so the native generic importer can match exp
     data['options.json'].find(option => option.Id === 'Slugthrower').Name,
     'Slugthrower',
   );
-  assert.equal(data['options.json'].find(option => option.Id === 'Agg-12').Name, 'AGG-12');
+  assert.equal(plain(data['options.json'].find(option => option.Id === 'Agg-12').Name), 'AGG-12');
   assert.ok(data['options.json'].some(option => option.Id === 'Kinetic Foam'));
 });
 
@@ -346,6 +346,15 @@ test('only SPECIALIST weapon choices modify a single existing soldier', () => {
   assert.equal(single.length, 4);
   for (const option of single)
     assert.deepEqual(option.ItemsToAdd, [{ Id: 'rule_keyword_specialist' }]);
+  for (const option of single) {
+    assert.match(option.Name, /^<color=#2596be><u><link="/);
+    const target = option.Name.match(/<link="([^"]+)">/)[1];
+    assert.ok(`<link="${target}">`.length < 128);
+    const popup = Object.values(data)
+      .flat()
+      .find(row => row.Id === target);
+    assert.match(popup.Description, /specialist model/);
+  }
   for (const name of ['Goliath', 'Immortal']) {
     const unit = Object.values(data)
       .flat()

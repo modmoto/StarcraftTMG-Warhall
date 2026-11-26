@@ -11,10 +11,13 @@ import { factionTexture } from '../../src/models/faction-colors.mjs';
 
 const source = await readJson(path.join(projectRoot, 'specialist-model-sources.json'));
 const options = await readJson(path.join(projectRoot, 'Starcraft/options.json'));
+const selections = await readJson(path.join(projectRoot, 'model-selections.json'));
+const catalogue = await readJson(path.join(projectRoot, 'model-catalogue.json'));
 const directory = path.join(projectRoot, 'model-assets');
 await mkdir(directory, { recursive: true });
 await mkdir(path.join(projectRoot, '.cache/specialist-previews'), { recursive: true });
 const entries = [];
+const measurements = [];
 function local(point, t) {
   return transformPoint(
     point.map((v, i) => v * t[['scaleX', 'scaleY', 'scaleZ'][i]]),
@@ -30,13 +33,27 @@ function local(point, t) {
   );
 }
 for (const model of source.models) {
-  const option = options.find(o => o.Name.toLowerCase() === model.optionName.toLowerCase());
+  const option = options.find(o =>
+    [o.Id, o.Name.replace(/<[^>]+>/g, '')].some(
+      name => name.toLowerCase() === model.optionName.toLowerCase(),
+    ),
+  );
   if (option?.Type !== 4)
     throw new Error(`Not a native single-model specialist: ${model.optionName}`);
   const units = await readJson(path.join(projectRoot, 'Starcraft', model.faction, 'units.json'));
   const profileId = units.find(u => u.Id === model.unitId)?.BasicProfileIds[0];
   if (!profileId) throw new Error(`Unknown specialist unit: ${model.unitId}`);
   const geometry = [];
+  let bodyTexture;
+  if (model.bodyTextureFromUnitId) {
+    const normal = selections.models.find(m => m.unitId === model.bodyTextureFromUnitId);
+    if (!normal) throw new Error(`Missing body texture source: ${model.bodyTextureFromUnitId}`);
+    const { geometry: normalMeshes } = await sourceGeometry({
+      modelUrl: normal.model.meshUrl,
+      textureUrl: normal.model.textureUrl,
+    });
+    bodyTexture = normalMeshes[0].texture;
+  }
   // Library root position/rotation is table placement. Keep its scale and all child transforms.
   const root = { ...model.root.Transform, posX: 0, posY: 0, posZ: 0, rotX: 0, rotY: 0, rotZ: 0 };
   async function visit(object, parents = []) {
@@ -64,7 +81,9 @@ for (const model of source.models) {
           textureFaces:
             determinant < 0 ? mesh.textureFaces.map(f => [...f].reverse()) : mesh.textureFaces,
           texture:
-            model.faction === 'Zerg' ? mesh.texture : factionTexture(mesh.texture, model.faction),
+            model.faction === 'Zerg'
+              ? mesh.texture
+              : factionTexture(bundle && bodyTexture ? bodyTexture : mesh.texture, model.faction),
         });
       }
     }
@@ -74,6 +93,32 @@ for (const model of source.models) {
   await visit(model.root);
   const minY = bounds(geometry.flatMap(m => m.vertices)).min[1];
   for (const mesh of geometry) mesh.vertices = mesh.vertices.map(([x, y, z]) => [x, y - minY, z]);
+  // Match the reviewed standard figure, using the body rather than added weapon height.
+  const reference = catalogue.entries.find(e => e.profileId === profileId && e.kind === 'unit');
+  if (!reference) throw new Error(`Missing reviewed size reference: ${profileId}`);
+  const referencePoints = [];
+  for (const part of reference.parts) {
+    const { geometry: meshes } = await sourceGeometry(part);
+    const transform = part.previewTransforms ?? {
+      ...part.transforms,
+      scale: part.transforms.scale * 2.54,
+    };
+    for (const mesh of meshes)
+      for (const point of mesh.vertices) referencePoints.push(transformPoint(point, transform));
+  }
+  const targetHeightCm = bounds(referencePoints).size[1];
+  const bodyHeightCm = bounds(geometry[0].vertices).size[1];
+  const sizeAdjustment = targetHeightCm / bodyHeightCm;
+  for (const mesh of geometry)
+    mesh.vertices = mesh.vertices.map(point => point.map(value => value * sizeAdjustment));
+  measurements.push({
+    optionId: option.Id,
+    referenceProfileId: profileId,
+    originalBodyHeightMm: bodyHeightCm * 10,
+    referenceHeightMm: targetHeightCm * 10,
+    correctedBodyHeightMm: bounds(geometry[0].vertices).size[1] * 10,
+    sizeAdjustment,
+  });
   const bytes = await encodeGlb(geometry);
   const filename = sha256(bytes) + '.glb';
   await writeFile(path.join(directory, filename), bytes);
@@ -132,3 +177,4 @@ await writeJson(path.join(projectRoot, 'specialist-models.json'), {
   workshopId: source.workshopId,
   entries,
 });
+await writeJson(path.join(projectRoot, 'specialist-model-report.json'), measurements);

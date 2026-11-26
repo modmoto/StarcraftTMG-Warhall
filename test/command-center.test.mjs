@@ -198,7 +198,7 @@ test('DB adapter retains established unit, profile, weapon and upgrade identitie
   ]) {
     const ids = options.map(
       name =>
-        data['options.json'].find(option => option.Name.toLowerCase() === name.toLowerCase()).Id,
+        data['options.json'].find(option => option.Id.toLowerCase() === name.toLowerCase()).Id,
     );
     const rows = flattenProfile(applyProfileOptions(data, 'prof_marine', 'unit_marine', ids));
     assert.ok(rows.some(row => /AGG-12/.test(row.Description ?? '')));

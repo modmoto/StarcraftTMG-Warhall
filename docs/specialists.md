@@ -6,6 +6,8 @@ Each selected specialist carries the existing `rule_keyword_specialist` rule as 
 
 Specialist weapon profiles remain available through the selected upgrade description links. Their duplicate inline/collapsible weapon tables are omitted. Profiles with no positive base Shd characteristic omit that column; shielded profiles retain it.
 
+The native Unit options labels are blue, underlined popup links. Their WDS IDs remain plain and stable for list imports and visual modifiers; the displayed Name contains the rich text. Popup IDs are short to stay within TMP link-tag limits.
+
 ## TTS assets
 
 `specialist-model-sources.json` records the selected objects from public Workshop 3662791369, including nested geometry, transforms, original URLs and reviewed attachment corrections:
@@ -18,6 +20,10 @@ Specialist weapon profiles remain available through the selected upgrade descrip
 | Infested Marine | Infested Missile Launcher - Scourgeshot | 2c4466 |
 
 Run `node scripts/models/prepare-specialist-models.mjs`, then rebuild the model catalogue. The preparation downloads actual meshes, textures and bundles, discards the library's decorative base, bakes attachment transforms and grounds the result. Bundle-authored root scale and reviewed launcher offsets are explicit source metadata. Do not restore the initial floating launcher placement.
+
+Terran body bundles reuse the normal Marine texture; their original grey armour cannot be fixed by a hue-only recolour. Weapon textures stay unchanged. Rocket Launcher attachments sit above the rear shoulder/backpack armour, rather than inside the arms. The four alternate TTS Rocket Launcher figures examined also use separate launcher attachments.
+
+Size calibration uses the reviewed ordinary unit catalogue as reference. Uniformly scale the assembled specialist so its body mesh height matches the standard figure; exclude the added weapon from this comparison. The normal units are not changed. `specialist-model-report.json` records original and corrected heights and each adjustment. Both Marine specialists match the 32.9346-mm reference; both Infested Marine specialists match the 51.2275-mm reference. Final visual comparison in the client is still required.
 
 `specialist-models.json` contains separate publication checkpoint keys, the real `assignmentProfileId`, and the exact native option IDs in `selectedOptions`. These option-specific skins must not replace the ordinary unit default. Publish with `npm run models:publish -- --kind specialist --server test --apply --login --accept-publication-terms` after pushing assets.
 

@@ -1,11 +1,25 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import { readFile, readdir } from 'node:fs/promises';
-import { normalizedObjScale } from '../src/models/calibration.mjs';
+import { normalizedObjScale, bounds } from '../src/models/calibration.mjs';
 import { skinRequest } from '../src/models/catalogue.mjs';
 
 const image = 'data:image/png;base64,iVBORw0KGgo=';
 const json = async name => JSON.parse(await readFile(new URL(`../${name}`, import.meta.url)));
+
+test('specialist bodies match their reviewed standard unit scale and remain grounded', async () => {
+  const catalogue = await json('model-catalogue.json');
+  const standard = await json('model-calibration-report.json');
+  const specialists = catalogue.entries.filter(e => e.kind === 'specialist');
+  assert.equal(specialists.length, 4);
+  for (const entry of specialists) {
+    const geometry = await json(entry.parts[0].previewGeometryFile);
+    const reference = standard.find(r => r.profileId === entry.assignmentProfileId);
+    const body = bounds(geometry[0].vertices);
+    assert.ok(Math.abs(body.size[1] * 10 - reference.authoredSizeMm[1]) < 1e-6, entry.name);
+    assert.ok(Math.abs(bounds(geometry.flatMap(m => m.vertices)).min[1]) < 1e-6, entry.name);
+  }
+});
 
 test('single OBJ scale compensates client normalization while multipart scale remains authored', () => {
   const bounds = { size: [2, 4, 1] };

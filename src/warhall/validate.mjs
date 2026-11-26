@@ -57,7 +57,9 @@ export function validateData(data) {
     validateRefs(item.ItemsToAdd, item.Id);
     for (const id of item.BasicProfileIds ?? []) ref(id, item.Id, 'Profile');
     for (const child of item.Children ?? []) ref(child.Id, item.Id);
-    for (const match of (item.Description ?? '').matchAll(/<link="([^"]+)">/g)) {
+    for (const match of `${item.Name ?? ''}\n${item.Description ?? ''}`.matchAll(
+      /<link="([^"]+)">/g,
+    )) {
       ref(match[1], `description of ${item.Id}`);
     }
     if (item.BaseId) {

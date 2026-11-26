@@ -1,0 +1,34 @@
+[
+  {
+    "optionId": "Infested Missile Launcher - Acid Blast",
+    "referenceProfileId": "pdf_Zerg_profile_infested_marine",
+    "originalBodyHeightMm": 46.266108401361485,
+    "referenceHeightMm": 51.22746549900229,
+    "correctedBodyHeightMm": 51.22746549900229,
+    "sizeAdjustment": 1.1072352369600813
+  },
+  {
+    "optionId": "Infested Missile Launcher - Scourgeshot",
+    "referenceProfileId": "pdf_Zerg_profile_infested_marine",
+    "originalBodyHeightMm": 46.26612656552132,
+    "referenceHeightMm": 51.22746549900229,
+    "correctedBodyHeightMm": 51.22746549900229,
+    "sizeAdjustment": 1.1072348022576477
+  },
+  {
+    "optionId": "Rocket Launcher",
+    "referenceProfileId": "prof_marine",
+    "originalBodyHeightMm": 38.280982415079656,
+    "referenceHeightMm": 32.93459631,
+    "correctedBodyHeightMm": 32.93459631,
+    "sizeAdjustment": 0.8603383255134643
+  },
+  {
+    "optionId": "Agg-12",
+    "referenceProfileId": "prof_marine",
+    "originalBodyHeightMm": 34.3272129083707,
+    "referenceHeightMm": 32.93459631,
+    "correctedBodyHeightMm": 32.93459631,
+    "sizeAdjustment": 0.9594311195002054
+  }
+]

@@ -1,4 +1,5 @@
 import assert from 'node:assert/strict';
+import { createHash } from 'node:crypto';
 import { upgradedHealth } from './stat-values.mjs';
 import { applyUpgradeEffects } from './upgrade-effects.mjs';
 import { abilityName } from '../sources/pdf/abilities.mjs';
@@ -75,7 +76,9 @@ export function addUpgradeOptions(unit, ids, profiles, profileIds, defaults, rec
     const replaced = replacedWeapon(unit, profile);
     let labelId = recordId;
     if (isWeapon) {
-      labelId = `${recordId}_choice`;
+      labelId = specialist(profile)
+        ? `sc_sp_${createHash('sha256').update(recordId).digest('hex').slice(0, 16)}_choice`
+        : `${recordId}_choice`;
       const baseline = specialist(profile) ? profile.attributes : replaced.attributes;
       records.rules.set(labelId, {
         Id: labelId,
@@ -141,7 +144,9 @@ export function addUpgradeOptions(unit, ids, profiles, profileIds, defaults, rec
     applyUpgradeEffects(unit, profile, recordId, ids, defaults, records, glossary, add, remove);
     records.options.set(optionId, {
       Id: optionId,
-      Name: displayName,
+      Name: specialist(profile)
+        ? `<color=#2596be><u><link="${labelId}">${displayName}</link></u></color>`
+        : displayName,
       Type: specialist(profile) ? 4 : 1,
       // Native ModifyItemOnSingle changes one existing soldier, not the unit count.
       ItemsToAdd: specialist(profile) ? [{ Id: 'rule_keyword_specialist' }] : [],
