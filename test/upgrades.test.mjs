@@ -343,6 +343,11 @@ test('Infested Marine specialist weapons have isolated table and keyword blocks'
   assert.equal(slots.length, 2);
   for (const slot of slots) {
     assert.equal(slot.Children.length, 2);
+    for (const row of [slot, ...slot.Children])
+      assert.ok(
+        `<link="${row.Id}">`.length < 128,
+        'Generated container links must fit TMP rich-text tags',
+      );
     assert.ok(slot.Children.every(row => row.Type === 'Profile'));
     assert.ok(slot.Children[0].Children.every(row => row.Id.endsWith('_table')));
     assert.ok(slot.Children[1].Children.every(row => row.Id.endsWith('_keywords')));

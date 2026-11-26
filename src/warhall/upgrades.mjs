@@ -1,3 +1,4 @@
+import { createHash } from 'node:crypto';
 import assert from 'node:assert/strict';
 import { upgradedHealth } from './stat-values.mjs';
 import { applyUpgradeEffects } from './upgrade-effects.mjs';
@@ -99,9 +100,11 @@ export function addUpgradeOptions(unit, ids, profiles, profileIds, defaults, rec
     if (replaced && specialist(profile)) {
       const oldId = defaults[unit.profiles.indexOf(replaced)];
       const weapon = rows.get(recordId);
-      const slot = textContainer(records, `${recordId}_specialist_slot`, [
-        textContainer(records, `${recordId}_specialist_body`, weapon.slice(0, 1)),
-        textContainer(records, `${recordId}_specialist_keywords`, weapon.slice(1)),
+      // TMP rich-text tags have a bounded length, including the generated link ID.
+      const containerId = `sc_weapon_${createHash('sha256').update(recordId).digest('hex').slice(0, 16)}`;
+      const slot = textContainer(records, `${containerId}_specialist_slot`, [
+        textContainer(records, `${containerId}_specialist_body`, weapon.slice(0, 1)),
+        textContainer(records, `${containerId}_specialist_keywords`, weapon.slice(1)),
       ]);
       add.push({ Id: `${oldId}_slot`, Ref: [{ Id: slot }] });
     } else if (replaced) {
