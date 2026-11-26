@@ -270,7 +270,11 @@ export async function buildWarhallPackage(source, template = defaultDataDirector
       if (impact) rule.Name += ` ${impact[0]}`;
     }
 
-    hierarchy.Factions[faction.name] = groups;
+    hierarchy.Factions[faction.name] = Object.fromEntries(
+      unitCategories
+        .filter(category => groups[category]?.length)
+        .map(category => [category, groups[category]]),
+    );
     for (const [name, values] of Object.entries(factionFiles(records))) {
       const key = item => item.Id ?? `${item.UnitId}/${item.ProfileId ?? ''}/${item.OptionId}`;
       data[`${faction.name}/${name}.json`] = values.sort((a, b) => {

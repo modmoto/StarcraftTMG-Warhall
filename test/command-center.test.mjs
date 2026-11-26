@@ -220,3 +220,13 @@ test('all new DB units validate with explicit fixture footprints; general-rule l
   const card = data['cards.json'].find(card => card.Name === "Stukov's Forces");
   assert.ok(card && /Infested/.test(card.Description));
 });
+test('all races expose unit categories in gameplay order', async () => {
+  const { data } = await buildFromCommandCenter();
+  const factions = data['hierarchy.json'].Factions;
+  for (const race of ['Terran', 'Protoss', 'Zerg'])
+    assert.deepEqual(
+      Object.keys(factions[race]),
+      ['Core', 'Elite', 'Support', 'Hero', 'Other'],
+      race,
+    );
+});

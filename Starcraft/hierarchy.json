@@ -6,23 +6,23 @@
         "pdf_Protoss_unit_nerazim_watchers_adept",
         "pdf_Protoss_unit_zealots"
       ],
-      "Hero": [
-        "pdf_Protoss_unit_alarak",
-        "pdf_Protoss_unit_artanis",
-        "pdf_Protoss_unit_tassadar",
-        "pdf_Protoss_unit_zeratul"
-      ],
-      "Support": [
-        "pdf_Protoss_unit_high_templar",
-        "pdf_Protoss_unit_sentries",
-        "pdf_Protoss_unit_twilight_templar_high_templar"
-      ],
       "Elite": [
         "pdf_Protoss_unit_immortal",
         "pdf_Protoss_unit_praetor_guards",
         "pdf_Protoss_unit_reaver",
         "pdf_Protoss_unit_slayer_stalker",
         "pdf_Protoss_unit_stalker"
+      ],
+      "Support": [
+        "pdf_Protoss_unit_high_templar",
+        "pdf_Protoss_unit_sentries",
+        "pdf_Protoss_unit_twilight_templar_high_templar"
+      ],
+      "Hero": [
+        "pdf_Protoss_unit_alarak",
+        "pdf_Protoss_unit_artanis",
+        "pdf_Protoss_unit_tassadar",
+        "pdf_Protoss_unit_zeratul"
       ],
       "Other": [
         "pdf_Protoss_unit_phasing_scarab",
@@ -33,12 +33,6 @@
       ]
     },
     "Terran": {
-      "Other": [
-        "pdf_Terran_unit_auto_turret",
-        "pdf_Terran_unit_holo_decoy",
-        "pdf_Terran_unit_point_defense_drone",
-        "pdf_Terran_unit_sabotage_drone"
-      ],
       "Core": [
         "pdf_Terran_unit_firebat",
         "pdf_Terran_unit_marauders",
@@ -50,22 +44,23 @@
         "pdf_Terran_unit_goliath",
         "pdf_Terran_unit_siege_tank"
       ],
+      "Support": [
+        "pdf_Terran_unit_medics",
+        "pdf_Terran_unit_raven"
+      ],
       "Hero": [
         "pdf_Terran_unit_jim_raynor",
         "pdf_Terran_unit_nova_assault_mode",
         "pdf_Terran_unit_nova_stealth_mode"
       ],
-      "Support": [
-        "pdf_Terran_unit_medics",
-        "pdf_Terran_unit_raven"
+      "Other": [
+        "pdf_Terran_unit_auto_turret",
+        "pdf_Terran_unit_holo_decoy",
+        "pdf_Terran_unit_point_defense_drone",
+        "pdf_Terran_unit_sabotage_drone"
       ]
     },
     "Zerg": {
-      "Support": [
-        "pdf_Zerg_unit_bile_launcher",
-        "pdf_Zerg_unit_defiler",
-        "pdf_Zerg_unit_queen"
-      ],
       "Core": [
         "pdf_Zerg_unit_corpsers_roach",
         "pdf_Zerg_unit_infested_marine",
@@ -84,15 +79,20 @@
         "pdf_Zerg_unit_kerrigan_swarm_raptors_zergling",
         "pdf_Zerg_unit_raptors_zergling"
       ],
-      "Other": [
-        "pdf_Zerg_unit_infested_missile_turret",
-        "pdf_Zerg_unit_omega_worm",
-        "pdf_Zerg_unit_roachling"
+      "Support": [
+        "pdf_Zerg_unit_bile_launcher",
+        "pdf_Zerg_unit_defiler",
+        "pdf_Zerg_unit_queen"
       ],
       "Hero": [
         "pdf_Zerg_unit_kerrigan",
         "pdf_Zerg_unit_stukov",
         "pdf_Zerg_unit_zagara"
+      ],
+      "Other": [
+        "pdf_Zerg_unit_infested_missile_turret",
+        "pdf_Zerg_unit_omega_worm",
+        "pdf_Zerg_unit_roachling"
       ]
     }
   },
