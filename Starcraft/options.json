@@ -20,8 +20,12 @@
   {
     "Id": "Agg-12",
     "Name": "AGG-12",
-    "Type": 1,
-    "ItemsToAdd": []
+    "Type": 4,
+    "ItemsToAdd": [
+      {
+        "Id": "rule_keyword_specialist"
+      }
+    ]
   },
   {
     "Id": "Ancillary Carapace",
@@ -188,14 +192,22 @@
   {
     "Id": "Infested Missile Launcher - Acid Blast",
     "Name": "Infested Missile Launcher - Acid Blast",
-    "Type": 1,
-    "ItemsToAdd": []
+    "Type": 4,
+    "ItemsToAdd": [
+      {
+        "Id": "rule_keyword_specialist"
+      }
+    ]
   },
   {
     "Id": "Infested Missile Launcher - Scourgeshot",
     "Name": "Infested Missile Launcher - Scourgeshot",
-    "Type": 1,
-    "ItemsToAdd": []
+    "Type": 4,
+    "ItemsToAdd": [
+      {
+        "Id": "rule_keyword_specialist"
+      }
+    ]
   },
   {
     "Id": "Internal Tech Module",
@@ -302,8 +314,12 @@
   {
     "Id": "Rocket Launcher",
     "Name": "Rocket Launcher",
-    "Type": 1,
-    "ItemsToAdd": []
+    "Type": 4,
+    "ItemsToAdd": [
+      {
+        "Id": "rule_keyword_specialist"
+      }
+    ]
   },
   {
     "Id": "Scatter Missiles",

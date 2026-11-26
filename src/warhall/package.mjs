@@ -15,6 +15,7 @@ import { validateData } from './validate.mjs';
 import { nativeTokens, factionIcons, builtinTokenNames } from '../tokens/package.mjs';
 import { projectRoot } from '../paths.mjs';
 import { mergeCommandCenterCards } from './command-center-cards.mjs';
+import { specialistIcon } from './specialist-icon.mjs';
 
 const staticFiles = [
   'tokens.json',
@@ -115,7 +116,9 @@ function addUnitRecords(unit, faction, records, bases, groups, report, baseMappi
     Name: '',
     Type: 'Statline',
     Attributes: Object.fromEntries(
-      Object.entries(unit.attributes).filter(([key]) => !/^(?:Supply|Supl)$/i.test(key)),
+      Object.entries(unit.attributes).filter(
+        ([key, value]) => !/^(?:Supply|Supl)$/i.test(key) && (key !== 'Shd' || Number(value) > 0),
+      ),
     ),
     Children: [],
   });
@@ -159,6 +162,7 @@ async function initialData(template) {
   data['icons.json'] = [
     ...data['icons.json'].filter(icon => !icon.Id.startsWith('sc_icon_')),
     ...factionIcons(tokenArtwork.icons),
+    await specialistIcon(),
   ];
 
   data['gameconfig.json'].WoundsAttribute = 'HP';

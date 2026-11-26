@@ -60,7 +60,7 @@ test('native tokens replace round cards and publish every distinct face', async 
 });
 
 test('all faction names match icon lookup and icons ship in the manifest', async () => {
-  const icons = await read('Starcraft/icons.json');
+  const icons = (await read('Starcraft/icons.json')).filter(icon => icon.Type === 'faction');
   const factions = Object.keys((await read('Starcraft/hierarchy.json')).Factions);
   assert.ok((await read('Starcraft/manifest.json')).files.includes('icons.json'));
   assert.deepEqual(icons.map(icon => icon.Name).sort(), factions.sort());

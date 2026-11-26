@@ -3,7 +3,9 @@ import assert from 'node:assert/strict';
 import { readFile } from 'node:fs/promises';
 import { applyProfileOptions, flattenProfile } from '../src/lists/apply-options.mjs';
 
-const data = {};
+const data = {
+  'rules.json': JSON.parse(await readFile(new URL('../Starcraft/rules.json', import.meta.url))),
+};
 data['options.json'] = JSON.parse(
   await readFile(new URL('../Starcraft/options.json', import.meta.url)),
 );
@@ -141,7 +143,7 @@ test('Marines and Raiders share Stimpack, distinct from Marauders', () => {
 
 test('option IDs are readable names so the native generic importer can match exported choices', () => {
   assert.ok(data['options.json'].length > 0);
-  assert.ok(data['options.json'].every(option => [1, 7].includes(option.Type)));
+  assert.ok(data['options.json'].every(option => [1, 4, 7].includes(option.Type)));
   assert.ok(
     data['options.json']
       .filter(option => option.Type === 7)
@@ -157,7 +159,9 @@ test('option IDs are readable names so the native generic importer can match exp
 
 test('profile groups render inline and weapon headers stay unlinked', () => {
   const records = Object.values(data).flat();
-  const groups = records.filter(row => /_(?:stats|selected_options|slot)$/.test(row.Id ?? ''));
+  const groups = records.filter(
+    row => row.Type !== 'Rule' && /_(?:stats|selected_options|slot)$/.test(row.Id ?? ''),
+  );
   assert.ok(groups.length > 0);
   for (const row of groups) assert.equal(row.Type, 'Profile', row.Id);
   const tables = records.filter(row => row.Id?.endsWith('_table'));
@@ -299,25 +303,26 @@ test('the upgrade audit covers every source profile and active options change on
   }
 });
 
-test('Marines retain the C-14 alongside the selected specialist launcher', () => {
-  const profile = unitProfile('Marines', ['Rocket Launcher', 'Slugthrower', 'Grenades - Frag']);
-  assert.ok(weapons(profile).includes('C-14 RIFLE'));
-  assert.ok(weapons(profile).includes('ROCKET LAUNCHER'));
-  const choice = profile.find(row => plain(row.Name) === 'Rocket Launcher');
-  assert.match(choice.Description, /Add ROCKET LAUNCHER for the specialist model/);
-  for (const row of [
-    choice,
-    profile.find(row => row.Description?.startsWith('<b>ROCKET LAUNCHER</b>')),
+test('specialist weapon details remain linked without duplicate inline tables', () => {
+  for (const [name, choices, rifle] of [
+    ['Marines', ['Rocket Launcher', 'Agg-12'], 'C-14 RIFLE'],
+    [
+      'Infested Marine',
+      ['Infested Missile Launcher - Acid Blast', 'Infested Missile Launcher - Scourgeshot'],
+      'INFESTED C-14 RIFLE',
+    ],
   ]) {
-    assert.doesNotMatch(row.Description.split('\n<b><pos=')[1], /<color=#2596be>/);
+    const rows = unitProfile(name, choices);
+    assert.ok(weapons(rows).some(name => name.toUpperCase() === rifle));
+    for (const choice of choices) {
+      const popup = rows.find(row => plain(row.Name).toLowerCase() === choice.toLowerCase());
+      assert.ok(popup, choice);
+      assert.match(popup.Description, /specialist model/);
+      assert.match(popup.Description, /SPECIALIST/);
+    }
+    assert.ok(!rows.some(row => /_specialist_slot$/.test(row.Id) || row.Name === 'Specialists'));
+    assert.ok(rows.some(row => row.Id === 'rule_keyword_specialist'));
   }
-});
-
-test('Marine specialist choices retain the rifle and each selected specialist', () => {
-  const profile = unitProfile('Marines', ['Rocket Launcher', 'Agg-12']);
-  assert.ok(weapons(profile).includes('C-14 RIFLE'));
-  assert.ok(weapons(profile).includes('ROCKET LAUNCHER'));
-  assert.ok(weapons(profile).includes('AGG-12'));
 });
 
 test('each Immortal weapon groups default and conditional keywords with original rule links', () => {
@@ -334,41 +339,53 @@ test('each Immortal weapon groups default and conditional keywords with original
   }
 });
 
-test('Infested Marine specialist weapons have isolated table and keyword blocks', () => {
-  const rows = unitProfile('Infested Marine', [
-    'Infested Missile Launcher - Acid Blast',
-    'Infested Missile Launcher - Scourgeshot',
-  ]);
-  const slots = rows.filter(row => row.Id.endsWith('_specialist_slot'));
-  assert.equal(slots.length, 2);
-  for (const slot of slots) {
-    assert.equal(slot.Children.length, 2);
-    for (const row of [slot, ...slot.Children])
-      assert.ok(
-        `<link="${row.Id}">`.length < 128,
-        'Generated container links must fit TMP rich-text tags',
-      );
-    assert.ok(slot.Children.every(row => row.Type === 'Profile'));
-    assert.ok(slot.Children[0].Children.every(row => row.Id.endsWith('_table')));
-    assert.ok(slot.Children[1].Children.every(row => row.Id.endsWith('_keywords')));
+test('only SPECIALIST weapon choices modify a single existing soldier', () => {
+  const single = Object.values(data)
+    .flat()
+    .filter(row => row.Type === 4);
+  assert.equal(single.length, 4);
+  for (const option of single)
+    assert.deepEqual(option.ItemsToAdd, [{ Id: 'rule_keyword_specialist' }]);
+  for (const name of ['Goliath', 'Immortal']) {
+    const unit = Object.values(data)
+      .flat()
+      .find(row => row.Type === 'Unit' && row.Name === name);
+    const ids = new Set(
+      Object.entries(data)
+        .filter(([file]) => file.endsWith('/modifiedunit.json'))
+        .flatMap(([, rows]) => rows)
+        .filter(row => row.UnitId === unit.Id)
+        .map(row => row.OptionId),
+    );
+    assert.ok(!single.some(option => ids.has(option.Id)));
   }
 });
 
-test('only selected SPECIALIST weapons appear in one native collapsible group', () => {
-  const selected = unitProfile('Infested Marine', [
-    'Infested Missile Launcher - Acid Blast',
-    'Infested Missile Launcher - Scourgeshot',
-  ]);
-  const groups = selected.filter(row => row.Name === 'Specialists');
-  assert.equal(groups.length, 1);
-  assert.equal(groups[0].Type, 'Equipment');
-  assert.equal(groups[0].Children.length, 2);
-  assert.ok(groups[0].Children.every(row => row.Id.endsWith('_specialist_slot')));
-  for (const name of ['Infested Marine', 'Goliath', 'Immortal'])
-    assert.ok(!unitProfile(name).some(row => row.Name === 'Specialists'), name);
-  assert.ok(
-    !unitProfile('Immortal', ['Left Phase Disruptor', 'Right Phase Disruptor']).some(
-      row => row.Name === 'Specialists',
-    ),
-  );
+test('the custom rank badge matches only the specialist soldier rule', async () => {
+  const icons = JSON.parse(await readFile(new URL('../Starcraft/icons.json', import.meta.url)));
+  const icon = icons.find(icon => icon.Id === 'sc_icon_specialist');
+  assert.equal(icon.Type, 'unit');
+  assert.equal(icon.MatchingRuleName, 'rule_keyword_specialist');
+  const { default: sharp } = await import('sharp');
+  const { data: pixels, info } = await sharp(
+    await readFile(new URL('../Starcraft/assets/icons/specialist.png', import.meta.url)),
+  )
+    .raw()
+    .toBuffer({ resolveWithObject: true });
+  assert.equal(info.channels, 4);
+  assert.equal(pixels[3], 0, 'The badge background must be transparent');
+  assert.ok(pixels.some((value, index) => index % 4 === 3 && value === 255));
+  for (const row of Object.values(data)
+    .flat()
+    .filter(row => row.Type === 'Unit' || row.Type === 'Profile'))
+    assert.ok(!(row.Children ?? []).some(child => child.Id === icon.MatchingRuleName), row.Id);
+});
+
+test('Shd is present only on profiles with a positive shield characteristic', () => {
+  for (const row of Object.entries(data)
+    .filter(([file]) => file.endsWith('/statlines.json'))
+    .flatMap(([, rows]) => rows))
+    if ('Shd' in row.Attributes) assert.ok(Number(row.Attributes.Shd) > 0, row.Id);
+  assert.ok(!('Shd' in unitProfile('Marines').find(row => row.Type === 'Statline').Attributes));
+  assert.equal(unitProfile('Zealots').find(row => row.Type === 'Statline').Attributes.Shd, '3');
 });

@@ -16,3 +16,5 @@ Run scripts from the repository root. Existing npm commands remain the supported
 | checks | Local verification and Test-server setup |
 
 Unity editor asset builders live in tools/unity-assets/terrain and tools/unity-assets/tokens. They generate mod assets and do not modify the Warhall client.
+
+For TTS specialist figures, run `node scripts/models/prepare-specialist-models.mjs`, then rebuild the catalogue. See [specialist models](../docs/specialists.md) for native single-model options, rank badges and option-specific skins.

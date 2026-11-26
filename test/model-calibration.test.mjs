@@ -99,6 +99,7 @@ test('portable bundle replacements include Adepts and preserve Windows cache dim
   assert.equal(
     hosted.length,
     18 +
+      catalogue.entries.filter(entry => entry.kind === 'specialist').length +
       new Set(
         catalogue.entries
           .filter(entry => entry.kind === 'marker')

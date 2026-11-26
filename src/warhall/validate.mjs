@@ -54,6 +54,7 @@ export function validateData(data) {
     }
   }
   for (const item of ids.values()) {
+    validateRefs(item.ItemsToAdd, item.Id);
     for (const id of item.BasicProfileIds ?? []) ref(id, item.Id, 'Profile');
     for (const child of item.Children ?? []) ref(child.Id, item.Id);
     for (const match of (item.Description ?? '').matchAll(/<link="([^"]+)">/g)) {

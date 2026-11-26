@@ -20,6 +20,11 @@ export function transforms(layout = {}, fallbackScale = 1) {
   };
 }
 
+const assignedProfile = entry => entry.assignmentProfileId ?? entry.profileId;
+const sameOptions = (usage, entry) =>
+  JSON.stringify([...(usage.optionNames ?? [])].sort()) ===
+  JSON.stringify([...(entry.selectedOptions ?? [])].sort());
+
 export function validateCatalogue(catalogue) {
   assert.equal(catalogue.schemaVersion, 1, 'Unsupported catalogue schema');
   assert.equal(new URL(catalogue.serverUrl).protocol, 'https:');
@@ -132,17 +137,19 @@ export async function publishCatalogue(
     usages.result.some(
       usage =>
         Number(usage.skinId) === skinId &&
-        usage.profileId === entry.profileId &&
+        usage.profileId === assignedProfile(entry) &&
         Number(usage.gameId) === Number(game.IdGame) &&
         Number(usage.costumeDefault) === 1 &&
-        !usage.optionNames?.length,
+        sameOptions(usage, entry),
     );
   const cleanup = async (entry, progress) => {
     for (const skinId of [...(progress.previousSkinIds ?? [])]) {
       const sharedElsewhere = usages.result.some(
         usage =>
           Number(usage.skinId) === skinId &&
-          (usage.profileId !== entry.profileId || Number(usage.gameId) !== Number(game.IdGame)),
+          (usage.profileId !== assignedProfile(entry) ||
+            !sameOptions(usage, entry) ||
+            Number(usage.gameId) !== Number(game.IdGame)),
       );
       if (sharedElsewhere)
         log(`${entry.name}: retained old skin ${skinId}, used by another profile`);
@@ -175,10 +182,10 @@ export async function publishCatalogue(
           usages.result
             .filter(
               usage =>
-                usage.profileId === entry.profileId &&
+                usage.profileId === assignedProfile(entry) &&
                 Number(usage.gameId) === Number(game.IdGame) &&
                 Number(usage.costumeDefault) === 1 &&
-                !usage.optionNames?.length &&
+                sameOptions(usage, entry) &&
                 owned.has(Number(usage.skinId)),
             )
             .map(usage => Number(usage.skinId)),
@@ -212,9 +219,9 @@ export async function publishCatalogue(
       if (!exactUsage(entry, knownId)) {
         const response = await request('/AssignCatalogueSkin', {
           skinId: knownId,
-          profileId: entry.profileId,
+          profileId: assignedProfile(entry),
           gameId: game.IdGame,
-          selectedOptions: [],
+          selectedOptions: entry.selectedOptions ?? [],
           costumeDefault: 1,
           mode: 'add',
         });
@@ -282,9 +289,9 @@ export async function publishCatalogue(
     } else {
       const response = await request('/AssignCatalogueSkin', {
         skinId: progress.skinId,
-        profileId: entry.profileId,
+        profileId: assignedProfile(entry),
         gameId: game.IdGame,
-        selectedOptions: [],
+        selectedOptions: entry.selectedOptions ?? [],
         costumeDefault: 1,
         mode:
           progress.previousSkinIds?.length || progress.replacesAssignment || replace
@@ -301,7 +308,7 @@ export async function publishCatalogue(
         skinId: progress.skinId,
         profileId: menuAlias,
         gameId: game.IdGame,
-        selectedOptions: [],
+        selectedOptions: entry.selectedOptions ?? [],
         costumeDefault: 1,
         mode: 'override',
       });

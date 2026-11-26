@@ -1,9 +1,8 @@
-import { createHash } from 'node:crypto';
 import assert from 'node:assert/strict';
 import { upgradedHealth } from './stat-values.mjs';
 import { applyUpgradeEffects } from './upgrade-effects.mjs';
 import { abilityName } from '../sources/pdf/abilities.mjs';
-import { weaponRows, weaponTable, weaponKeywords, textContainer } from './presentation.mjs';
+import { weaponRows, weaponTable, weaponKeywords } from './presentation.mjs';
 
 const normalized = value =>
   value
@@ -45,7 +44,7 @@ function replacedWeapon(unit, profile) {
 export function addUpgradeOptions(unit, ids, profiles, profileIds, defaults, records, glossary) {
   const rows = new Map(
     profiles.flatMap((profile, index) =>
-      /Weapon$/.test(profile.type)
+      /Weapon$/.test(profile.type) && !specialist(profile)
         ? [
             [
               profileIds[index],
@@ -97,20 +96,7 @@ export function addUpgradeOptions(unit, ids, profiles, profileIds, defaults, rec
     }
     const add = [{ Id: `${ids.profile}_selected_options`, Ref: [{ Id: labelId }] }];
     const remove = [];
-    if (replaced && specialist(profile)) {
-      const weapon = rows.get(recordId);
-      // TMP rich-text tags have a bounded length, including the generated link ID.
-      const containerId = `sc_weapon_${createHash('sha256').update(recordId).digest('hex').slice(0, 16)}`;
-      const slot = textContainer(records, `${containerId}_specialist_slot`, [
-        textContainer(records, `${containerId}_specialist_body`, weapon.slice(0, 1)),
-        textContainer(records, `${containerId}_specialist_keywords`, weapon.slice(1)),
-      ]);
-      const groupId = `sc_specialists_${createHash('sha256').update(ids.profile).digest('hex').slice(0, 16)}`;
-      textContainer(records, groupId);
-      records.rules.get(groupId).Name = 'Specialists';
-      records.rules.get(groupId).Type = 'Equipment';
-      add.push({ Id: groupId, Ref: [{ Id: slot }] });
-    } else if (replaced) {
+    if (replaced && !specialist(profile)) {
       const oldId = defaults[unit.profiles.indexOf(replaced)];
       const alternatives = profiles.flatMap((candidate, candidateIndex) =>
         !specialist(candidate) && replacedWeapon(unit, candidate) === replaced
@@ -156,8 +142,9 @@ export function addUpgradeOptions(unit, ids, profiles, profileIds, defaults, rec
     records.options.set(optionId, {
       Id: optionId,
       Name: displayName,
-      Type: 1,
-      ItemsToAdd: [],
+      Type: specialist(profile) ? 4 : 1,
+      // Native ModifyItemOnSingle changes one existing soldier, not the unit count.
+      ItemsToAdd: specialist(profile) ? [{ Id: 'rule_keyword_specialist' }] : [],
     });
     records.modifiedunit.push({ UnitId: ids.unit, OptionId: optionId });
     records.modifiedprofile.push({

@@ -1,0 +1,113 @@
+{
+  "workshopId": "3662791369",
+  "entries": [
+    {
+      "profileId": "pdf_Zerg_profile_infested_marine__specialist_4df52b",
+      "assignmentProfileId": "pdf_Zerg_profile_infested_marine",
+      "selectedOptions": [
+        "Infested Missile Launcher - Acid Blast"
+      ],
+      "name": "Zerg - Specialist - Infested Missile Launcher - Acid Blast",
+      "kind": "specialist",
+      "thumbnailFile": ".cache/specialist-previews/4df52b.png",
+      "parts": [
+        {
+          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/b4a090fdea1eae19d609c5231720b6a2863499af71d14d8915e281372918a47e.glb",
+          "textureUrl": null,
+          "previewGeometryFile": "model-assets/b4a090fdea1eae19d609c5231720b6a2863499af71d14d8915e281372918a47e.glb.preview.json",
+          "hostedAsset": true,
+          "transforms": {
+            "scale": 0.39370078740157477,
+            "rotationX": 0,
+            "rotationY": 0,
+            "rotationZ": 0,
+            "positionX": 0,
+            "positionY": 0,
+            "positionZ": 0
+          }
+        }
+      ]
+    },
+    {
+      "profileId": "pdf_Zerg_profile_infested_marine__specialist_2c4466",
+      "assignmentProfileId": "pdf_Zerg_profile_infested_marine",
+      "selectedOptions": [
+        "Infested Missile Launcher - Scourgeshot"
+      ],
+      "name": "Zerg - Specialist - Infested Missile Launcher - Scourgeshot",
+      "kind": "specialist",
+      "thumbnailFile": ".cache/specialist-previews/2c4466.png",
+      "parts": [
+        {
+          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/07590a36e2de03a4b7bc0d8899b74c486cc4f4f275708541531f532d67b4469c.glb",
+          "textureUrl": null,
+          "previewGeometryFile": "model-assets/07590a36e2de03a4b7bc0d8899b74c486cc4f4f275708541531f532d67b4469c.glb.preview.json",
+          "hostedAsset": true,
+          "transforms": {
+            "scale": 0.39370078740157477,
+            "rotationX": 0,
+            "rotationY": 0,
+            "rotationZ": 0,
+            "positionX": 0,
+            "positionY": 0,
+            "positionZ": 0
+          }
+        }
+      ]
+    },
+    {
+      "profileId": "prof_marine__specialist_3b7696",
+      "assignmentProfileId": "prof_marine",
+      "selectedOptions": [
+        "Rocket Launcher"
+      ],
+      "name": "Terran - Specialist - Rocket Launcher",
+      "kind": "specialist",
+      "thumbnailFile": ".cache/specialist-previews/3b7696.png",
+      "parts": [
+        {
+          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/bc3811b2577e3caba9a8ebc4d263c8359bd98c76d008cddfb30ae7bd252faffc.glb",
+          "textureUrl": null,
+          "previewGeometryFile": "model-assets/bc3811b2577e3caba9a8ebc4d263c8359bd98c76d008cddfb30ae7bd252faffc.glb.preview.json",
+          "hostedAsset": true,
+          "transforms": {
+            "scale": 0.39370078740157477,
+            "rotationX": 0,
+            "rotationY": 0,
+            "rotationZ": 0,
+            "positionX": 0,
+            "positionY": 0,
+            "positionZ": 0
+          }
+        }
+      ]
+    },
+    {
+      "profileId": "prof_marine__specialist_5b8254",
+      "assignmentProfileId": "prof_marine",
+      "selectedOptions": [
+        "Agg-12"
+      ],
+      "name": "Terran - Specialist - AGG-12",
+      "kind": "specialist",
+      "thumbnailFile": ".cache/specialist-previews/5b8254.png",
+      "parts": [
+        {
+          "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/f3e44907a8c242b81c288b343d27c10e2d0d4bd4ba0a3704a4cf7b05000e04f2.glb",
+          "textureUrl": null,
+          "previewGeometryFile": "model-assets/f3e44907a8c242b81c288b343d27c10e2d0d4bd4ba0a3704a4cf7b05000e04f2.glb.preview.json",
+          "hostedAsset": true,
+          "transforms": {
+            "scale": 0.39370078740157477,
+            "rotationX": 0,
+            "rotationY": 0,
+            "rotationZ": 0,
+            "positionX": 0,
+            "positionY": 0,
+            "positionZ": 0
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -104,6 +104,7 @@ if (previousCatalogue) {
   for (const [file, bytes] of preservedPreviews)
     await writeFile(path.join(projectRoot, file), bytes);
 }
+catalogue.entries.push(...(await read('specialist-models.json')).entries);
 validateCatalogue(catalogue);
 await writeFile(
   path.join(projectRoot, 'model-calibration-report.json'),

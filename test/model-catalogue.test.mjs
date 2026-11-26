@@ -62,6 +62,38 @@ test('rejects local URLs and invalid transforms', () => {
   assert.throws(() => transforms({ size: -1 }), /positive/);
 });
 
+test('specialist publication binds the base profile plus its option without replacing the normal skin', async () => {
+  const calls = [];
+  const specialist = {
+    ...entry,
+    profileId: 'marine__rocket',
+    assignmentProfileId: 'marine',
+    selectedOptions: ['Rocket Launcher'],
+  };
+  const state = {};
+  const request = async (endpoint, body) => {
+    calls.push({ endpoint, body });
+    if (endpoint === '/GetMySkinUsages')
+      return {
+        error: 0,
+        result: [
+          { profileId: 'marine', skinId: 12999, gameId: 16, costumeDefault: 1, optionNames: [] },
+        ],
+      };
+    return respond(endpoint);
+  };
+  await publishCatalogue(
+    { ...catalogue, entries: [specialist] },
+    { request, state, save: async () => {}, getThumbnail },
+  );
+  const assignment = calls.find(c => c.endpoint === '/AssignCatalogueSkin').body;
+  assert.equal(assignment.profileId, 'marine');
+  assert.deepEqual(assignment.selectedOptions, ['Rocket Launcher']);
+  assert.equal(assignment.mode, 'add');
+  assert.ok(state.entries.marine__rocket);
+  assert.ok(!calls.some(c => c.endpoint === '/DeleteMySkin'));
+});
+
 test('a fresh publishing machine reconciles the owned shared default before replacement', async () => {
   const calls = [];
   const state = {};

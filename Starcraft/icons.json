@@ -16,5 +16,12 @@
     "Name": "Zerg",
     "Type": "faction",
     "URL": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft/assets/tokens/ae26b8de7aa15c59c4ec6fa731c2a6940557e1c1a1ec225c49e7959a72d49ab3.png"
+  },
+  {
+    "Id": "sc_icon_specialist",
+    "Name": "Specialist",
+    "Type": "unit",
+    "MatchingRuleName": "rule_keyword_specialist",
+    "URL": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft/assets/icons/specialist.png"
   }
 ]

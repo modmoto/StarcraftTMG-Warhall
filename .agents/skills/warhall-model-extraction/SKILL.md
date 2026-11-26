@@ -21,3 +21,11 @@ For ramp/platform collision, follow [the confirmed collider build](../../../docs
 
 
 Tal'darim Slayer uses the normal Stalker geometry and reviewed transforms, with only yellow/gold material pixels replaced by red. Preserve neutral pixels, alpha, value and saturation; do not recolour the whole model or restore the old all-red Wave-4 mesh. wave4-model-sources.json reuseUnitId and prepare-wave4-models.mjs preserve the choice on future exports; preserveSourceColors prevents the catalogue from resetting red to the normal Protoss palette.
+
+## Specialists within an existing unit
+
+Follow [specialist models](../../../docs/specialists.md). Use specialist-model-sources.json and scripts/models/prepare-specialist-models.mjs for the reviewed TTS AGG-12, Rocket Launcher, Acid Blast and Scourgeshot objects. Preserve nested attachments, authored bundle scale and reviewed launcher alignment. Omit the decorative library root base; ground the actual figure. Render and inspect attachments before publishing. Keep the unit's existing base and model count.
+
+Specialist weapon options are native Type 4 (ModifyItemOnSingle), like T9A command models. Do not create separate units or ExtraItems. Bind skins to the existing assignmentProfileId plus exact selectedOptions IDs; a unique catalogue/checkpoint profileId identifies the variant locally. Never overwrite the ordinary profile default with a specialist skin. The existing rule_keyword_specialist belongs directly to that soldier and selects the custom star-and-chevron badge, replacing the initially proposed flag. Icon visibility still follows native Warhall preferences/features.
+
+Only explicit SPECIALIST choices qualify. Ordinary Goliath/Immortal weapons remain unit-wide; Wild Mutation is not a specialist assignment. On every wave, audit current rules and TTS models instead of assuming every optional weapon is another soldier or every firing mode is another specialist. Verify multi-option imports and model counts in the client; API readback alone does not prove rendering.

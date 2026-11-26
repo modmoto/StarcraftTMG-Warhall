@@ -35,7 +35,7 @@ Read the source and display mapping in Starcraft/import-report.json. Trace src/w
 
 - 2026-11-03. Marines and Raynor's Raiders share one Stimpack rule. Keep Marauder Stimpack separate because it affects different weapons and gives a different Precision value.
 - 2026-11-03. Restoration is one searchable rule for Medics, Sentries, and Queen. The shared effect and timing are identical. The cost line maps 1 CP to Medics, 1 PE to Sentries, and 1 BM to Queen. Apply this cost-only merge to other rules only after approval.
-- 2026-11-03. Keep original PDF names, including AGG-12, Slugthrower, and Grenades - Frag. Use normal stat and keyword colors for additional specialist weapons. The Marine C-14, AGG-12, and Rocket Launcher can all be shown together.
+- 2026-11-03. Keep original PDF names, including AGG-12, Slugthrower, and Grenades - Frag. Use normal stat and keyword colors for additional specialist weapons. Superseded on 2026-11-26: specialist weapon tables are now accessible only through their selected-upgrade links; the base weapon remains inline. Explicit SPECIALIST options modify one existing soldier (Type 4), with a model-specific rank icon and optional TTS skin.
 
 - 2026-11-03. Advanced Medic Facilities and Potent Bile use only their clickable upgrade labels. A value used only for a resource calculation or applied to another unit does not need a duplicate profile line when the source popup explains it.
 - 2026-11-03. My Life For Aiur replaces the displayed Devastating Charge entry with its upgraded IMPACT dice count in blue. For a permanent change to a named ability, prefer updating that ability in place when the original can be removed cleanly. Keep the source upgrade clickable and avoid a second summary line.
