@@ -88,7 +88,9 @@ test('specialist publication binds the base profile plus its option without repl
   );
   const assignment = calls.find(c => c.endpoint === '/AssignCatalogueSkin').body;
   assert.equal(assignment.profileId, 'marine');
-  assert.deepEqual(assignment.selectedOptions, ['Rocket Launcher']);
+  assert.deepEqual(assignment.selectedOptions, [
+    { id: 'Rocket Launcher', name: 'Rocket Launcher' },
+  ]);
   assert.equal(assignment.mode, 'add');
   assert.ok(state.entries.marine__rocket);
   assert.ok(!calls.some(c => c.endpoint === '/DeleteMySkin'));

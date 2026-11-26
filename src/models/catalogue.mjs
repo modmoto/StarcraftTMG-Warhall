@@ -21,6 +21,9 @@ export function transforms(layout = {}, fallbackScale = 1) {
 }
 
 const assignedProfile = entry => entry.assignmentProfileId ?? entry.profileId;
+// The native website sends option definitions, not an array of plain strings.
+// Use the exact WDS ID as both identity and modifier name so the client matches it.
+const assignmentOptions = entry => (entry.selectedOptions ?? []).map(id => ({ id, name: id }));
 const sameOptions = (usage, entry) =>
   JSON.stringify([...(usage.optionNames ?? [])].sort()) ===
   JSON.stringify([...(entry.selectedOptions ?? [])].sort());
@@ -221,7 +224,7 @@ export async function publishCatalogue(
           skinId: knownId,
           profileId: assignedProfile(entry),
           gameId: game.IdGame,
-          selectedOptions: entry.selectedOptions ?? [],
+          selectedOptions: assignmentOptions(entry),
           costumeDefault: 1,
           mode: 'add',
         });
@@ -291,7 +294,7 @@ export async function publishCatalogue(
         skinId: progress.skinId,
         profileId: assignedProfile(entry),
         gameId: game.IdGame,
-        selectedOptions: entry.selectedOptions ?? [],
+        selectedOptions: assignmentOptions(entry),
         costumeDefault: 1,
         mode:
           progress.previousSkinIds?.length || progress.replacesAssignment || replace
@@ -308,7 +311,7 @@ export async function publishCatalogue(
         skinId: progress.skinId,
         profileId: menuAlias,
         gameId: game.IdGame,
-        selectedOptions: entry.selectedOptions ?? [],
+        selectedOptions: assignmentOptions(entry),
         costumeDefault: 1,
         mode: 'override',
       });

@@ -27,6 +27,8 @@ The maintained adapter uses the website's observed endpoints:
 - GetMySkinUsages and SelectSkinParts for readback.
 - UpdateSkinLayerTransforms for verified transform repairs.
 
+Option-specific skins keep a unique local `profileId` checkpoint key, while `assignmentProfileId` names the real WDS profile and `selectedOptions` contains exact WDS option IDs. The native AssignCatalogueSkin request expects option objects (`{id, name}`), not plain strings. Use the WDS ID as both fields so the client can match visual modifiers. Reconcile and retire skins within that exact option combination; preserve the profile's ordinary default and other option combinations. See [specialist models](specialists.md).
+
 For replacements, assign the new skin and its menu alias before deleting an obsolete owned skin. Retain skins referenced by another game. Do not delete native or other users' skins. Raw metadata fingerprints are not proof of equal geometry: compare model resources and transforms when reconciling manually.
 
 Retired current-game bindings can be removed through RemoveSkinUsage using itemInstanceId, skinId and costumeDefault, followed by readback. DeleteMySkin is only for an owned obsolete skin after its remaining assignments have been checked.

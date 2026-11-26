@@ -24,3 +24,5 @@ Run `node scripts/models/prepare-specialist-models.mjs`, then rebuild the model 
 ## Validation boundary
 
 Local validation covers WDS references, option scope, retained weapon links, shield columns, skin binding payloads and rendered geometry. In Warhall Test, import each specialist alone and both specialists together, confirm unchanged model count, shared movement, the chosen model skins and the badge above specialist soldiers only. Also check other unit upgrades alongside specialist selection. Rendered previews and API readback are not substitutes for this client test.
+
+Data version 171 was published on main for Test. All four option-specific skins were registered and read back with the expected WDS profile and option IDs; their model and thumbnail URLs, and the badge PNG, returned HTTP 200. Ordinary Marine and Infested Marine default skin assignments remain present. No in-client specialist rendering/import test has been performed in this update.
