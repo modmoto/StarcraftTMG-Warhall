@@ -37,6 +37,6 @@ export function describeUnit(unit) {
   return [
     `Categories: ${unit.categories.join(', ')}`,
     ...(unit.attributes.Supply ? [`Models / Supply: ${unit.attributes.Supply}`] : []),
-    ...unit.costLabels,
+    ...unit.costLabels.filter(label => !/^(?:Minerals|Reinforced)\s*:/i.test(label)),
   ].join('\n');
 }

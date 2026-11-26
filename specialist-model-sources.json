@@ -116,7 +116,8 @@
             ]
           }
         ]
-      }
+      },
+      "centerOnStand": true
     },
     {
       "faction": "Zerg",
@@ -233,7 +234,8 @@
             ]
           }
         ]
-      }
+      },
+      "centerOnStand": true
     },
     {
       "faction": "Terran",
@@ -373,14 +375,16 @@
                       0.85,
                       -0.1,
                       -0.8
-                    ]
+                    ],
+                    "removeComponentsBelowY": 1.0
                   }
                 ],
                 "reviewedMeshOffsetCm": [
                   1.0,
                   -0.15,
                   -1.1
-                ]
+                ],
+                "removeComponentsBelowY": 1.0
               }
             ],
             "authoredBundleScale": [
@@ -391,7 +395,12 @@
           }
         ]
       },
-      "bodyTextureFromUnitId": "unit_marine"
+      "bodyTextureFromUnitId": "unit_marine",
+      "shoulderLaunchers": [
+        1,
+        2
+      ],
+      "shoulderCenterZCm": 0.25
     },
     {
       "faction": "Terran",

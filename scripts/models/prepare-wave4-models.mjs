@@ -8,6 +8,7 @@ import { sourceGeometry, renderGeometry } from '../../src/models/render-thumbnai
 import { encodeGlb } from '../../src/models/portable-glb.mjs';
 import { transformPoint, bounds } from '../../src/models/calibration.mjs';
 import { factionTexture, redGoldTexture } from '../../src/models/faction-colors.mjs';
+import { centerOnStand } from '../../src/models/specialist-geometry.mjs';
 
 const source = await readJson(path.join(projectRoot, 'wave4-model-sources.json'));
 const selections = await readJson(path.join(projectRoot, 'model-selections.json'));
@@ -116,6 +117,7 @@ for (const model of source.models) {
   const groundOffsetCm = authoredBounds.min[1];
   for (const mesh of geometry)
     mesh.vertices = mesh.vertices.map(([x, y, z]) => [x, y - groundOffsetCm, z]);
+  if (model.centerOnStand) centerOnStand(geometry);
   const measurements = bounds(geometry.flatMap(mesh => mesh.vertices));
   const bytes = await encodeGlb(geometry);
   const file = `${sha256(bytes)}.glb`;

@@ -898,7 +898,8 @@
         "measurementRadiusInches": 0.7874019742012024,
         "rootScaleX": 1.0,
         "diameterMm": 40.0
-      }
+      },
+      "centerOnStand": true
     },
     {
       "faction": "Zerg",

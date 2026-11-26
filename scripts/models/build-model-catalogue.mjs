@@ -16,6 +16,7 @@ const { values } = parseArgs({
   options: {
     'data-dir': { type: 'string', default: 'Starcraft' },
     'preserve-existing': { type: 'boolean', default: false },
+    'refresh-profile': { type: 'string', multiple: true, default: [] },
   },
 });
 const dataDirectory = path.resolve(projectRoot, values['data-dir']);
@@ -100,7 +101,11 @@ catalogue.entries.push(await createFlamerTemplateAsset());
 catalogue.entries.push(...(await createDeploymentAssets(await read('deployment-templates.json'))));
 if (previousCatalogue) {
   const previous = new Map(previousCatalogue.entries.map(entry => [entry.profileId, entry]));
-  catalogue.entries = catalogue.entries.map(entry => previous.get(entry.profileId) ?? entry);
+  catalogue.entries = catalogue.entries.map(entry =>
+    values['refresh-profile'].includes(entry.profileId)
+      ? entry
+      : (previous.get(entry.profileId) ?? entry),
+  );
   for (const [file, bytes] of preservedPreviews)
     await writeFile(path.join(projectRoot, file), bytes);
 }

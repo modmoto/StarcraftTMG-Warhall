@@ -755,13 +755,33 @@
     "UnitId": "unit_marine",
     "ProfileId": "prof_marine",
     "OptionId": "Agg-12",
-    "ReferencedItemsToRemove": [],
+    "ReferencedItemsToRemove": [
+      {
+        "Id": "pdf_Terran_equipment_marines_default_1_slot",
+        "Ref": [
+          {
+            "Id": "pdf_Terran_equipment_marines_default_1_body"
+          },
+          {
+            "Id": "pdf_Terran_equipment_marines_default_1_keyword_row"
+          }
+        ]
+      }
+    ],
     "ReferencedItemsToAdd": [
       {
         "Id": "prof_marine_selected_options",
         "Ref": [
           {
             "Id": "sc_sp_6e3990f8d5b75a9b_choice"
+          }
+        ]
+      },
+      {
+        "Id": "pdf_Terran_equipment_marines_default_1_slot",
+        "Ref": [
+          {
+            "Id": "sc_sp_6e3990f8d5b75a9b_slot"
           }
         ]
       }
@@ -778,6 +798,14 @@
         "Ref": [
           {
             "Id": "sc_sp_314e4f20d4c78655_choice"
+          }
+        ]
+      },
+      {
+        "Id": "pdf_Terran_equipment_marines_default_1_slot",
+        "Ref": [
+          {
+            "Id": "sc_sp_314e4f20d4c78655_slot"
           }
         ]
       }

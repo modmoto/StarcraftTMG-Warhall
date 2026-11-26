@@ -622,13 +622,33 @@
     "UnitId": "pdf_Zerg_unit_infested_marine",
     "ProfileId": "pdf_Zerg_profile_infested_marine",
     "OptionId": "Infested Missile Launcher - Acid Blast",
-    "ReferencedItemsToRemove": [],
+    "ReferencedItemsToRemove": [
+      {
+        "Id": "pdf_Zerg_equipment_infested_marine_weapon_assault_phase_infested_c_14_rifle_slot",
+        "Ref": [
+          {
+            "Id": "pdf_Zerg_equipment_infested_marine_weapon_assault_phase_infested_c_14_rifle_body"
+          },
+          {
+            "Id": "pdf_Zerg_equipment_infested_marine_weapon_assault_phase_infested_c_14_rifle_keyword_row"
+          }
+        ]
+      }
+    ],
     "ReferencedItemsToAdd": [
       {
         "Id": "pdf_Zerg_profile_infested_marine_selected_options",
         "Ref": [
           {
             "Id": "sc_sp_f0dae6583e6524c8_choice"
+          }
+        ]
+      },
+      {
+        "Id": "pdf_Zerg_equipment_infested_marine_weapon_assault_phase_infested_c_14_rifle_slot",
+        "Ref": [
+          {
+            "Id": "sc_sp_f0dae6583e6524c8_slot"
           }
         ]
       }
@@ -638,13 +658,33 @@
     "UnitId": "pdf_Zerg_unit_infested_marine",
     "ProfileId": "pdf_Zerg_profile_infested_marine",
     "OptionId": "Infested Missile Launcher - Scourgeshot",
-    "ReferencedItemsToRemove": [],
+    "ReferencedItemsToRemove": [
+      {
+        "Id": "pdf_Zerg_equipment_infested_marine_weapon_assault_phase_infested_c_14_rifle_slot",
+        "Ref": [
+          {
+            "Id": "pdf_Zerg_equipment_infested_marine_weapon_assault_phase_infested_c_14_rifle_body"
+          },
+          {
+            "Id": "pdf_Zerg_equipment_infested_marine_weapon_assault_phase_infested_c_14_rifle_keyword_row"
+          }
+        ]
+      }
+    ],
     "ReferencedItemsToAdd": [
       {
         "Id": "pdf_Zerg_profile_infested_marine_selected_options",
         "Ref": [
           {
             "Id": "sc_sp_70677159195c1a84_choice"
+          }
+        ]
+      },
+      {
+        "Id": "pdf_Zerg_equipment_infested_marine_weapon_assault_phase_infested_c_14_rifle_slot",
+        "Ref": [
+          {
+            "Id": "sc_sp_70677159195c1a84_slot"
           }
         ]
       }

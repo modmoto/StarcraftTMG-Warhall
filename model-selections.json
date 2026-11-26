@@ -1710,10 +1710,10 @@
         "sourceName": "Infested Marine",
         "workshopId": "3662791369",
         "guid": "6365c1",
-        "meshUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/759a4e377f2952ad2911f1692ac504b7fa4bc66d1dc43685cf22d4dbf2920186.glb",
+        "meshUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/292351d47aecc6a733472e3a762af4c43fca6a031d5a0b40a0b012b606b190e5.glb",
         "textureUrl": null,
         "hostedAsset": true,
-        "previewGeometryFile": "model-assets/759a4e377f2952ad2911f1692ac504b7fa4bc66d1dc43685cf22d4dbf2920186.glb.preview.json"
+        "previewGeometryFile": "model-assets/292351d47aecc6a733472e3a762af4c43fca6a031d5a0b40a0b012b606b190e5.glb.preview.json"
       },
       "layout": {
         "size": 0.39370078740157477,

@@ -230,3 +230,11 @@ test('all races expose unit categories in gameplay order', async () => {
       race,
     );
 });
+test('unit descriptions omit Minerals and Reinforced cost rows for every race', async () => {
+  const { data } = await buildFromCommandCenter();
+  for (const file of ['Terran/units.json', 'Protoss/units.json', 'Zerg/units.json'])
+    for (const unit of data[file]) {
+      assert.doesNotMatch(unit.Description, /^(?:Minerals|Reinforced)\s*:/im);
+      assert.match(unit.Description, /^Categories:/);
+    }
+});

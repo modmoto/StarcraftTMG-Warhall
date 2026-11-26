@@ -3,7 +3,7 @@ import { createHash } from 'node:crypto';
 import { upgradedHealth } from './stat-values.mjs';
 import { applyUpgradeEffects } from './upgrade-effects.mjs';
 import { abilityName } from '../sources/pdf/abilities.mjs';
-import { weaponRows, weaponTable, weaponKeywords } from './presentation.mjs';
+import { weaponRows, weaponTable, weaponKeywords, textContainer } from './presentation.mjs';
 
 const normalized = value =>
   value
@@ -45,7 +45,7 @@ function replacedWeapon(unit, profile) {
 export function addUpgradeOptions(unit, ids, profiles, profileIds, defaults, records, glossary) {
   const rows = new Map(
     profiles.flatMap((profile, index) =>
-      /Weapon$/.test(profile.type) && !specialist(profile)
+      /Weapon$/.test(profile.type)
         ? [
             [
               profileIds[index],
@@ -54,7 +54,7 @@ export function addUpgradeOptions(unit, ids, profiles, profileIds, defaults, rec
                 profileIds[index],
                 records,
                 glossary,
-                specialist(profile)
+                specialist(profile) && !/\bFOR\s+/i.test(profile.attributes.Notes ?? '')
                   ? ''
                   : (records.rules
                       .get(
@@ -99,6 +99,28 @@ export function addUpgradeOptions(unit, ids, profiles, profileIds, defaults, rec
     }
     const add = [{ Id: `${ids.profile}_selected_options`, Ref: [{ Id: labelId }] }];
     const remove = [];
+    if (replaced && specialist(profile)) {
+      const oldId = defaults[unit.profiles.indexOf(replaced)];
+      const weapon = rows.get(recordId);
+      const prefix = `sc_sp_${createHash('sha256').update(recordId).digest('hex').slice(0, 16)}`;
+      const slot = textContainer(records, `${prefix}_slot`, [
+        textContainer(records, `${prefix}_body`, weapon.slice(0, 1)),
+        textContainer(records, `${prefix}_keywords`, weapon.slice(1)),
+      ]);
+      if (/\bFOR\s+/i.test(profile.attributes.Notes ?? '')) {
+        // Type-4 modifiers run on the selected soldier after unit-wide upgrades.
+        // Remove the whole original weapon groups, including any upgraded table variants.
+        remove.push({
+          Id: `${oldId}_slot`,
+          Ref: [{ Id: `${oldId}_body` }, { Id: `${oldId}_keyword_row` }],
+        });
+      } else if (!/\bSIDEARM\b/i.test(profile.attributes.Keyword ?? '')) {
+        throw new Error(
+          `Specialist weapon needs an explicit replacement or SIDEARM rule: ${unit.name}/${profile.name}`,
+        );
+      }
+      add.push({ Id: `${oldId}_slot`, Ref: [{ Id: slot }] });
+    }
     if (replaced && !specialist(profile)) {
       const oldId = defaults[unit.profiles.indexOf(replaced)];
       const alternatives = profiles.flatMap((candidate, candidateIndex) =>

@@ -8,6 +8,11 @@ import { sourceGeometry, renderGeometry } from '../../src/models/render-thumbnai
 import { encodeGlb } from '../../src/models/portable-glb.mjs';
 import { transformPoint, bounds } from '../../src/models/calibration.mjs';
 import { factionTexture } from '../../src/models/faction-colors.mjs';
+import {
+  removeLowComponents,
+  seatLauncherOnShoulder,
+  centerOnStand,
+} from '../../src/models/specialist-geometry.mjs';
 
 const source = await readJson(path.join(projectRoot, 'specialist-model-sources.json'));
 const options = await readJson(path.join(projectRoot, 'Starcraft/options.json'));
@@ -67,7 +72,9 @@ for (const model of source.models) {
       });
       const transforms = object === model.root ? [root] : [object.Transform, ...parents];
       const determinant = transforms.reduce((v, t) => v * t.scaleX * t.scaleY * t.scaleZ, 1);
-      for (const mesh of meshes) {
+      for (let mesh of meshes) {
+        if (object.removeComponentsBelowY !== undefined)
+          mesh = removeLowComponents(mesh, object.removeComponentsBelowY);
         if (!mesh.texture) throw new Error(`Missing texture: ${object.GUID}`);
         geometry.push({
           ...mesh,
@@ -91,6 +98,8 @@ for (const model of source.models) {
       await visit(child, [object === model.root ? root : object.Transform, ...parents]);
   }
   await visit(model.root);
+  for (const index of model.shoulderLaunchers ?? [])
+    seatLauncherOnShoulder(geometry[0], geometry[index], model.shoulderCenterZCm);
   const minY = bounds(geometry.flatMap(m => m.vertices)).min[1];
   for (const mesh of geometry) mesh.vertices = mesh.vertices.map(([x, y, z]) => [x, y - minY, z]);
   // Match the reviewed standard figure, using the body rather than added weapon height.
@@ -111,6 +120,7 @@ for (const model of source.models) {
   const sizeAdjustment = targetHeightCm / bodyHeightCm;
   for (const mesh of geometry)
     mesh.vertices = mesh.vertices.map(point => point.map(value => value * sizeAdjustment));
+  if (model.centerOnStand) centerOnStand(geometry);
   measurements.push({
     optionId: option.Id,
     referenceProfileId: profileId,

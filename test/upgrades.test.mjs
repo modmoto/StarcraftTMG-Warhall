@@ -26,7 +26,7 @@ for (const faction of ['Protoss', 'Terran', 'Zerg']) {
   }
 }
 const plain = text => text.replace(/<[^>]+>/g, '');
-function unitProfile(name, choices = []) {
+function unitProfile(name, choices = [], unitOnly = false) {
   const unit = Object.values(data)
     .flat()
     .find(record => record.Type === 'Unit' && record.Name === name);
@@ -49,7 +49,14 @@ function unitProfile(name, choices = []) {
     assert.ok(option, `${name}: ${choice}`);
     return option.Id;
   });
-  return flattenProfile(applyProfileOptions(data, unit.BasicProfileIds[0], unit.Id, ids));
+  const applied = ids
+    .filter(id => !unitOnly || options.find(o => o.Id === id).Type !== 4)
+    .sort(
+      (a, b) =>
+        Number(options.find(o => o.Id === a).Type === 4) -
+        Number(options.find(o => o.Id === b).Type === 4),
+    );
+  return flattenProfile(applyProfileOptions(data, unit.BasicProfileIds[0], unit.Id, applied));
 }
 const weapons = profile =>
   profile
@@ -59,6 +66,23 @@ const weapons = profile =>
         .split('\n')
         .find(line => !line.endsWith('Phase')),
     );
+
+test('each individually selected specialist profile exposes only its own weapon description', () => {
+  for (const [unit, choices] of [
+    ['Marines', ['Agg-12', 'Rocket Launcher']],
+    [
+      'Infested Marine',
+      ['Infested Missile Launcher - Acid Blast', 'Infested Missile Launcher - Scourgeshot'],
+    ],
+  ])
+    for (const choice of choices) {
+      const rows = unitProfile(unit, [choice]);
+      assert.ok(rows.some(row => row.Id === 'rule_keyword_specialist'));
+      const popups = rows.filter(row => /^sc_sp_.*_choice$/.test(row.Id));
+      assert.equal(popups.length, 1);
+      assert.equal(plain(popups[0].Name).toLowerCase(), choice.toLowerCase());
+    }
+});
 
 test('Kinetic Foam changes the top HP row from 5 to 6 and selected blue rules precede weapons', () => {
   const base = unitProfile('Marauders');
@@ -303,8 +327,8 @@ test('the upgrade audit covers every source profile and active options change on
   }
 });
 
-test('specialist weapon details remain linked without duplicate inline tables', () => {
-  for (const [name, choices, rifle] of [
+test('specialist weapon tables belong to individual models, not the unit-wide profile', () => {
+  for (const [unit, choices, rifle] of [
     ['Marines', ['Rocket Launcher', 'Agg-12'], 'C-14 RIFLE'],
     [
       'Infested Marine',
@@ -312,16 +336,34 @@ test('specialist weapon details remain linked without duplicate inline tables', 
       'INFESTED C-14 RIFLE',
     ],
   ]) {
-    const rows = unitProfile(name, choices);
-    assert.ok(weapons(rows).some(name => name.toUpperCase() === rifle));
+    const group = unitProfile(unit, choices, true);
+    assert.ok(weapons(group).some(name => name.toUpperCase() === rifle));
     for (const choice of choices) {
-      const popup = rows.find(row => plain(row.Name).toLowerCase() === choice.toLowerCase());
-      assert.ok(popup, choice);
-      assert.match(popup.Description, /specialist model/);
-      assert.match(popup.Description, /SPECIALIST/);
+      assert.ok(!weapons(group).some(name => name.toLowerCase() === choice.toLowerCase()));
+      const model = unitProfile(unit, [choice]);
+      assert.ok(
+        weapons(model).some(name => name.toLowerCase() === choice.toLowerCase()),
+        choice,
+      );
+      assert.equal(
+        weapons(model).some(name => name.toUpperCase() === rifle),
+        choice === 'Rocket Launcher',
+      );
+      assert.ok(!model.some(row => row.Name === 'Specialists'));
+      const description = model.find(row => plain(row.Name).toLowerCase() === choice.toLowerCase());
+      assert.match(description.Description, /SPECIALIST/);
     }
-    assert.ok(!rows.some(row => /_specialist_slot$/.test(row.Id) || row.Name === 'Specialists'));
-    assert.ok(rows.some(row => row.Id === 'rule_keyword_specialist'));
+  }
+});
+
+test('specialist replacement removes unit-upgraded rifle tables in either option order', () => {
+  for (const choices of [
+    ['Agg-12', 'Slugthrower', 'Grenades - Frag'],
+    ['Slugthrower', 'Grenades - Frag', 'Agg-12'],
+  ]) {
+    const rows = unitProfile('Marines', choices);
+    assert.ok(weapons(rows).includes('AGG-12'));
+    assert.ok(!weapons(rows).includes('C-14 RIFLE'));
   }
 });
 

@@ -585,6 +585,48 @@
     "Children": []
   },
   {
+    "Id": "pdf_Zerg_equipment_infested_marine_upgrade_weapon_assault_phase_infested_missile_launcher_acid_blast_heading",
+    "Name": "",
+    "Type": "",
+    "Description": "<b>Infested Missile Launcher - Acid Blast</b>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Zerg_equipment_infested_marine_upgrade_weapon_assault_phase_infested_missile_launcher_acid_blast_keywords",
+    "Name": "<color=#ffffff><u><link=\"rule_keyword_critical_hit\">CRITICAL HIT (1)</link></u>, <u><link=\"rule_keyword_long_range\">LONG RANGE (12\")</link></u>, <u><link=\"rule_keyword_pierce\">PIERCE Armoured (2)</link></u>, <u><link=\"rule_keyword_specialist\">SPECIALIST</link></u></color>",
+    "Type": "Imported",
+    "Description": "<u><link=\"rule_keyword_critical_hit\">CRITICAL HIT (1)</link></u>, <u><link=\"rule_keyword_long_range\">LONG RANGE (12\")</link></u>, <u><link=\"rule_keyword_pierce\">PIERCE Armoured (2)</link></u>, <u><link=\"rule_keyword_specialist\">SPECIALIST</link></u>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Zerg_equipment_infested_marine_upgrade_weapon_assault_phase_infested_missile_launcher_acid_blast_table",
+    "Name": "<color=#ffffff><b>Assault Phase</b>\n<b>Infested Missile Launcher - Acid Blast</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>6</nobr><pos=14%><nobr>All</nobr><pos=32%><nobr>3</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align></color>",
+    "Type": "Imported",
+    "Description": "<b>Assault Phase</b>\n<b>Infested Missile Launcher - Acid Blast</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>6</nobr><pos=14%><nobr>All</nobr><pos=32%><nobr>3</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Zerg_equipment_infested_marine_upgrade_weapon_assault_phase_infested_missile_launcher_scourgeshot_heading",
+    "Name": "",
+    "Type": "",
+    "Description": "<b>Infested Missile Launcher - Scourgeshot</b>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Zerg_equipment_infested_marine_upgrade_weapon_assault_phase_infested_missile_launcher_scourgeshot_keywords",
+    "Name": "<color=#ffffff><u><link=\"rule_keyword_burst_fire\">BURST FIRE 6\" (2)</link></u>, <u><link=\"rule_keyword_specialist\">SPECIALIST</link></u></color>",
+    "Type": "Imported",
+    "Description": "<u><link=\"rule_keyword_burst_fire\">BURST FIRE 6\" (2)</link></u>, <u><link=\"rule_keyword_specialist\">SPECIALIST</link></u>",
+    "Children": []
+  },
+  {
+    "Id": "pdf_Zerg_equipment_infested_marine_upgrade_weapon_assault_phase_infested_missile_launcher_scourgeshot_table",
+    "Name": "<color=#ffffff><b>Assault Phase</b>\n<b>Infested Missile Launcher - Scourgeshot</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>12</nobr><pos=14%><nobr>All</nobr><pos=32%><nobr>3</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align></color>",
+    "Type": "Imported",
+    "Description": "<b>Assault Phase</b>\n<b>Infested Missile Launcher - Scourgeshot</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>12</nobr><pos=14%><nobr>All</nobr><pos=32%><nobr>3</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align>",
+    "Children": []
+  },
+  {
     "Id": "pdf_Zerg_equipment_infested_marine_upgrade_weapon_combat_phase_wild_mutation_choice",
     "Name": "<color=#2596be>Wild Mutation</color>",
     "Type": "Rule",
@@ -3026,15 +3068,87 @@
     "Children": []
   },
   {
+    "Id": "sc_sp_70677159195c1a84_body",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Zerg_equipment_infested_marine_upgrade_weapon_assault_phase_infested_missile_launcher_scourgeshot_table"
+      }
+    ]
+  },
+  {
     "Id": "sc_sp_70677159195c1a84_choice",
     "Name": "<color=#2596be>Infested Missile Launcher - Scourgeshot</color>",
     "Type": "Rule",
     "Description": "<b>Upgrade ability</b>\n\nAdd Infested Missile Launcher - Scourgeshot for the specialist model.\n\n<b>Infested Missile Launcher - Scourgeshot</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>12</nobr><pos=14%><nobr>All</nobr><pos=32%><nobr>3</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align>\n\n<u><link=\"rule_keyword_burst_fire\">BURST FIRE 6\" (2)</link></u>, <u><link=\"rule_keyword_specialist\">SPECIALIST</link></u>"
   },
   {
+    "Id": "sc_sp_70677159195c1a84_keywords",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Zerg_equipment_infested_marine_upgrade_weapon_assault_phase_infested_missile_launcher_scourgeshot_keywords"
+      }
+    ]
+  },
+  {
+    "Id": "sc_sp_70677159195c1a84_slot",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "sc_sp_70677159195c1a84_body"
+      },
+      {
+        "Id": "sc_sp_70677159195c1a84_keywords"
+      }
+    ]
+  },
+  {
+    "Id": "sc_sp_f0dae6583e6524c8_body",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Zerg_equipment_infested_marine_upgrade_weapon_assault_phase_infested_missile_launcher_acid_blast_table"
+      }
+    ]
+  },
+  {
     "Id": "sc_sp_f0dae6583e6524c8_choice",
     "Name": "<color=#2596be>Infested Missile Launcher - Acid Blast</color>",
     "Type": "Rule",
     "Description": "<b>Upgrade ability</b>\n\nAdd Infested Missile Launcher - Acid Blast for the specialist model.\n\n<b>Infested Missile Launcher - Acid Blast</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>6</nobr><pos=14%><nobr>All</nobr><pos=32%><nobr>3</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>-</nobr><pos=86%><nobr>1</nobr></b></size></align>\n\n<u><link=\"rule_keyword_critical_hit\">CRITICAL HIT (1)</link></u>, <u><link=\"rule_keyword_long_range\">LONG RANGE (12\")</link></u>, <u><link=\"rule_keyword_pierce\">PIERCE Armoured (2)</link></u>, <u><link=\"rule_keyword_specialist\">SPECIALIST</link></u>"
+  },
+  {
+    "Id": "sc_sp_f0dae6583e6524c8_keywords",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Zerg_equipment_infested_marine_upgrade_weapon_assault_phase_infested_missile_launcher_acid_blast_keywords"
+      }
+    ]
+  },
+  {
+    "Id": "sc_sp_f0dae6583e6524c8_slot",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "sc_sp_f0dae6583e6524c8_body"
+      },
+      {
+        "Id": "sc_sp_f0dae6583e6524c8_keywords"
+      }
+    ]
   }
 ]

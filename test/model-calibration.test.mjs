@@ -7,6 +7,23 @@ import { skinRequest } from '../src/models/catalogue.mjs';
 const image = 'data:image/png;base64,iVBORw0KGgo=';
 const json = async name => JSON.parse(await readFile(new URL(`../${name}`, import.meta.url)));
 
+test('Infested Marine figures are centered on their ground contacts, excluding weapons', async () => {
+  const catalogue = await json('model-catalogue.json');
+  const entries = catalogue.entries.filter(
+    e =>
+      e.profileId === 'pdf_Zerg_profile_infested_marine' ||
+      e.assignmentProfileId === 'pdf_Zerg_profile_infested_marine',
+  );
+  assert.equal(entries.length, 3);
+  for (const entry of entries) {
+    const meshes = await json(entry.parts[0].previewGeometryFile);
+    const body = bounds(meshes[0].vertices);
+    const stand = bounds(meshes[0].vertices.filter(p => p[1] <= body.min[1] + body.size[1] * 0.02));
+    for (const axis of [0, 2])
+      assert.ok(Math.abs(stand.min[axis] + stand.max[axis]) < 1e-6, entry.name);
+  }
+});
+
 test('specialist bodies match their reviewed standard unit scale and remain grounded', async () => {
   const catalogue = await json('model-catalogue.json');
   const standard = await json('model-calibration-report.json');
