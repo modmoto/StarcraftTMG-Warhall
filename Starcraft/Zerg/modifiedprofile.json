@@ -546,38 +546,6 @@
   {
     "UnitId": "pdf_Zerg_unit_infested_marine",
     "ProfileId": "pdf_Zerg_profile_infested_marine",
-    "OptionId": "Infested Missile Launcher - Acid Blast",
-    "ReferencedItemsToRemove": [],
-    "ReferencedItemsToAdd": [
-      {
-        "Id": "pdf_Zerg_profile_infested_marine_selected_options",
-        "Ref": [
-          {
-            "Id": "sc_sp_f0dae6583e6524c8_choice"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "UnitId": "pdf_Zerg_unit_infested_marine",
-    "ProfileId": "pdf_Zerg_profile_infested_marine",
-    "OptionId": "Infested Missile Launcher - Scourgeshot",
-    "ReferencedItemsToRemove": [],
-    "ReferencedItemsToAdd": [
-      {
-        "Id": "pdf_Zerg_profile_infested_marine_selected_options",
-        "Ref": [
-          {
-            "Id": "sc_sp_70677159195c1a84_choice"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "UnitId": "pdf_Zerg_unit_infested_marine",
-    "ProfileId": "pdf_Zerg_profile_infested_marine",
     "OptionId": "Plagued Munitions",
     "ReferencedItemsToRemove": [],
     "ReferencedItemsToAdd": [
@@ -645,6 +613,38 @@
                 "Id": "pdf_Zerg_equipment_infested_marine_upgrade_weapon_combat_phase_wild_mutation_table"
               }
             ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "UnitId": "pdf_Zerg_unit_infested_marine",
+    "ProfileId": "pdf_Zerg_profile_infested_marine",
+    "OptionId": "Infested Missile Launcher - Acid Blast",
+    "ReferencedItemsToRemove": [],
+    "ReferencedItemsToAdd": [
+      {
+        "Id": "pdf_Zerg_profile_infested_marine_selected_options",
+        "Ref": [
+          {
+            "Id": "sc_sp_f0dae6583e6524c8_choice"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "UnitId": "pdf_Zerg_unit_infested_marine",
+    "ProfileId": "pdf_Zerg_profile_infested_marine",
+    "OptionId": "Infested Missile Launcher - Scourgeshot",
+    "ReferencedItemsToRemove": [],
+    "ReferencedItemsToAdd": [
+      {
+        "Id": "pdf_Zerg_profile_infested_marine_selected_options",
+        "Ref": [
+          {
+            "Id": "sc_sp_70677159195c1a84_choice"
           }
         ]
       }

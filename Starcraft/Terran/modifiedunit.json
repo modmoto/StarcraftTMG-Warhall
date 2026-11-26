@@ -81,10 +81,6 @@
   },
   {
     "UnitId": "unit_marine",
-    "OptionId": "Agg-12"
-  },
-  {
-    "UnitId": "unit_marine",
     "OptionId": "Bayonet"
   },
   {
@@ -97,10 +93,14 @@
   },
   {
     "UnitId": "unit_marine",
-    "OptionId": "Rocket Launcher"
+    "OptionId": "Slugthrower"
   },
   {
     "UnitId": "unit_marine",
-    "OptionId": "Slugthrower"
+    "OptionId": "Agg-12"
+  },
+  {
+    "UnitId": "unit_marine",
+    "OptionId": "Rocket Launcher"
   }
 ]

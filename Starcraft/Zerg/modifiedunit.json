@@ -61,19 +61,19 @@
   },
   {
     "UnitId": "pdf_Zerg_unit_infested_marine",
-    "OptionId": "Infested Missile Launcher - Acid Blast"
-  },
-  {
-    "UnitId": "pdf_Zerg_unit_infested_marine",
-    "OptionId": "Infested Missile Launcher - Scourgeshot"
-  },
-  {
-    "UnitId": "pdf_Zerg_unit_infested_marine",
     "OptionId": "Plagued Munitions"
   },
   {
     "UnitId": "pdf_Zerg_unit_infested_marine",
     "OptionId": "Wild Mutation"
+  },
+  {
+    "UnitId": "pdf_Zerg_unit_infested_marine",
+    "OptionId": "Infested Missile Launcher - Acid Blast"
+  },
+  {
+    "UnitId": "pdf_Zerg_unit_infested_marine",
+    "OptionId": "Infested Missile Launcher - Scourgeshot"
   },
   {
     "UnitId": "pdf_Zerg_unit_infested_siege_tank",

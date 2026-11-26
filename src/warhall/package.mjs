@@ -273,9 +273,25 @@ export async function buildWarhallPackage(source, template = defaultDataDirector
     hierarchy.Factions[faction.name] = groups;
     for (const [name, values] of Object.entries(factionFiles(records))) {
       const key = item => item.Id ?? `${item.UnitId}/${item.ProfileId ?? ''}/${item.OptionId}`;
-      data[`${faction.name}/${name}.json`] = values.sort((a, b) =>
-        key(a).localeCompare(key(b), 'en'),
-      );
+      data[`${faction.name}/${name}.json`] = values.sort((a, b) => {
+        if (name === 'modifiedunit' || name === 'modifiedprofile') {
+          const group = `${a.UnitId}/${a.ProfileId ?? ''}`.localeCompare(
+            `${b.UnitId}/${b.ProfileId ?? ''}`,
+            'en',
+          );
+          if (group) return group;
+          const left = options.get(a.OptionId),
+            right = options.get(b.OptionId);
+          const rank = option => (option.Type === 4 ? Number.MAX_SAFE_INTEGER : option.Type);
+          const typeOrder = rank(left) - rank(right);
+          if (typeOrder) return typeOrder;
+          const plain = option => option.Name.replace(/<[^>]+>/g, '');
+          return (
+            plain(left).localeCompare(plain(right), 'en') || key(a).localeCompare(key(b), 'en')
+          );
+        }
+        return key(a).localeCompare(key(b), 'en');
+      });
     }
   }
 
