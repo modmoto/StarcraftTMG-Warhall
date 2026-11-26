@@ -38,7 +38,7 @@ test('deployment alone places existing native markers at exact centimeter coordi
   assert.ok(output.markerTerrains.every(t => t.Type === 'Terrain'));
   assert.equal(output.deploymentTerrains[0].DeploymentIndex, 1);
   assert.deepEqual(output.deploymentTerrains[0].Items[0], {
-    Name: 'Starcraft - Terrain - Mission marker 1 - red',
+    Name: 'Mission marker 1',
     X: -30.48,
     Y: 0.04,
     Z: 0,

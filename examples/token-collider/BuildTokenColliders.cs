@@ -12,7 +12,9 @@ public static class BuildTokenColliders
 
     public static void RunActivationTokens() { Build(true); }
 
-    private static void Build(bool activationOnly)
+    public static void RunMarkerHighlights() { Build(false, true); }
+
+    private static void Build(bool activationOnly, bool markerHighlightsOnly = false)
     {
         InternalEditorUtility.AddTag("Token");
         // The native Warhall token renderer serializes Token as 20000 + 20.
@@ -41,7 +43,9 @@ public static class BuildTokenColliders
         {
             var id = Path.GetFileName(directory);
             if (!activeIds.Contains(id) || (id == "Token5Inch" || id == "sc_token_fire_wall" || id == "sc_token_flamer_template")) continue; // Dedicated template builder.
+            if (markerHighlightsOnly && !id.StartsWith("sc_mission_") && id != "sc_token_infestation") continue;
             if (activationOnly && id != "sc_token_activation_blue_arrow" && id != "sc_token_activation_red_arrow") continue;
+            var highlightParts = new HashSet<string>(File.ReadAllLines(directory + "/highlight-parts.txt"));
             var root = new GameObject(id);
             using (var input = new BinaryReader(File.OpenRead(directory + "/geometry.bytes")))
             {
@@ -73,7 +77,7 @@ public static class BuildTokenColliders
                     AssetDatabase.CreateAsset(mesh, prefix + ".asset");
                     AssetDatabase.CreateAsset(material, prefix + ".mat");
                     var visual = new GameObject("Visual " + part);
-                    visual.tag = "Token";
+                    visual.tag = highlightParts.Contains(part.ToString()) ? "Token" : "Untagged";
                     visual.transform.SetParent(root.transform, false);
                     visual.AddComponent<MeshFilter>().sharedMesh = mesh;
                     visual.AddComponent<MeshRenderer>().sharedMaterial = material;
@@ -97,9 +101,10 @@ public static class BuildTokenColliders
             var instance = UnityEngine.Object.Instantiate(bundle.LoadAsset<GameObject>(build.assetNames[0]));
             var collider = instance.GetComponent<BoxCollider>();
             if (!collider) throw new Exception("Missing root collider: " + build.assetBundleName);
+            var expectedTags = new HashSet<string>(File.ReadAllLines(Path.GetDirectoryName(build.assetNames[0]) + "/highlight-parts.txt"));
             foreach (var renderer in instance.GetComponentsInChildren<Renderer>())
-                if (!renderer.CompareTag("Token"))
-                    throw new Exception("Missing selection tag: " + build.assetBundleName);
+                if (renderer.CompareTag("Token") != expectedTags.Contains(renderer.name.Replace("Visual ", "")))
+                    throw new Exception("Wrong selection tag: " + build.assetBundleName);
             Physics.SyncTransforms();
             foreach (var direction in new[] { Vector3.zero, Vector3.right, Vector3.forward, Vector3.left, Vector3.back })
             {

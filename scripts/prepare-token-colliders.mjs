@@ -3,7 +3,7 @@ import path from 'node:path';
 
 const project = path.resolve('.cache/ramp-collider-test');
 const catalogue = JSON.parse(fs.readFileSync('model-catalogue.json'));
-const entries = catalogue.entries.filter(entry => entry.kind === 'token');
+const entries = catalogue.entries.filter(entry => ['token', 'marker'].includes(entry.kind));
 fs.mkdirSync(path.join(project, 'Assets/TokenColliderInput'), { recursive: true });
 fs.writeFileSync(
   path.join(project, 'Assets/TokenColliderInput/active-ids.txt'),
@@ -20,7 +20,14 @@ for (const entry of entries) {
     else bytes.writeFloatLE(value);
     chunks.push(bytes);
   };
-  number(entry.tokenDiameterMm / 10);
+  number((entry.tokenDiameterMm ?? entry.markerDiameterMm) / 10);
+  fs.writeFileSync(
+    path.join(directory, 'highlight-parts.txt'),
+    meshes
+      .map((mesh, i) => (entry.kind !== 'marker' || mesh.role !== 'outline' ? String(i) : null))
+      .filter(value => value !== null)
+      .join('\n'),
+  );
   number(meshes.length, true);
   for (const [index, mesh] of meshes.entries()) {
     number(mesh.faces.length * 3, true);

@@ -10,6 +10,7 @@ export const tokenDefinitions = [
   ...['blue', 'red'].map(color => ({
     id: `activation_${color}_arrow`,
     name: `Activation - ${color} - movement`,
+    displayName: `Activation - ${color}`,
     symbol: 'arrow',
     backSymbol: 'crosshair',
     diameterMm: activationDiameterMm,
@@ -109,7 +110,7 @@ export function nativeTokens() {
     },
     ...tokenDefinitions.map(token => ({
       Id: tokenMenuId(token.name),
-      Name: token.name,
+      Name: token.displayName ?? token.name,
       Type: 'Token',
       RadiusBaseDiameterMm: tokenDiameterMm,
     })),

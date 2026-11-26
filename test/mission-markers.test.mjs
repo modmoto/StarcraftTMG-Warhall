@@ -6,7 +6,7 @@ import {
   markerDiameterMm,
   missionMarkers,
   markerProfileId,
-  markerMenuId,
+  markerDisplayName,
 } from '../src/deployments/markers.mjs';
 import {
   annulus,
@@ -52,7 +52,7 @@ test('five mission marker assignments use open control ring geometry, not separa
     config.DeploymentTerrains.every(layout =>
       layout.Items.every(
         item =>
-          missionMarkers.some(marker => markerMenuId(marker) === item.Name) ||
+          missionMarkers.some(marker => markerDisplayName(marker) === item.Name) ||
           item.Name.startsWith('Starcraft - Terrain - Deployment - '),
       ),
     ),
@@ -112,7 +112,7 @@ test('each deployment references the correct numbered marker while keeping the 3
       assert.ok(
         items.some(
           item =>
-            item.Name === markerMenuId(marker) &&
+            item.Name === markerDisplayName(marker) &&
             item.IsToken === true &&
             item.X === marker.x * 2.54 &&
             item.Z === marker.y * 2.54,
@@ -130,4 +130,18 @@ test('each deployment references the correct numbered marker while keeping the 3
     ],
   );
   assert.throws(() => markerProfileId({ number: 3, color: 'blue' }), /Unknown mission marker/);
+});
+
+test('objective centre highlights use dedicated token bundles while retaining the decorative geometry', async () => {
+  const catalogue = JSON.parse(await readFile(new URL('../model-catalogue.json', import.meta.url)));
+  const overrides = JSON.parse(
+    await readFile(new URL('../marker-model-overrides.json', import.meta.url)),
+  );
+  for (const marker of missionMarkers) {
+    const entry = catalogue.entries.find(e => e.profileId === marker.profileId);
+    assert.match(entry.parts[0].modelUrl, /\.unity3d$/);
+    assert.equal(entry.parts[0].modelUrl, overrides[marker.profileId].modelUrl);
+    assert.equal(entry.markerDiameterMm, 32);
+    assert.equal(entry.controlOuterDiameterMm, 184.4);
+  }
 });

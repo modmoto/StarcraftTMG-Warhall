@@ -154,35 +154,35 @@
       "DeploymentIndex": 1,
       "Items": [
         {
-          "Name": "Starcraft - Terrain - Mission marker 1 - red",
+          "Name": "Mission marker 1",
           "X": -38.1,
           "Y": 0.04,
           "Z": 15.24,
           "IsToken": true
         },
         {
-          "Name": "Starcraft - Terrain - Mission marker 2 - blue",
+          "Name": "Mission marker 2",
           "X": 38.1,
           "Y": 0.04,
           "Z": 15.24,
           "IsToken": true
         },
         {
-          "Name": "Starcraft - Terrain - Mission marker 3 - red",
+          "Name": "Mission marker 3",
           "X": 38.1,
           "Y": 0.04,
           "Z": -15.24,
           "IsToken": true
         },
         {
-          "Name": "Starcraft - Terrain - Mission marker 4 - blue",
+          "Name": "Mission marker 4",
           "X": -38.1,
           "Y": 0.04,
           "Z": -15.24,
           "IsToken": true
         },
         {
-          "Name": "Starcraft - Terrain - Mission marker 5 - green",
+          "Name": "Mission marker 5",
           "X": 0,
           "Y": 0.04,
           "Z": 0,
@@ -201,35 +201,35 @@
       "DeploymentIndex": 2,
       "Items": [
         {
-          "Name": "Starcraft - Terrain - Mission marker 1 - red",
+          "Name": "Mission marker 1",
           "X": -22.86,
           "Y": 0.04,
           "Z": 30.48,
           "IsToken": true
         },
         {
-          "Name": "Starcraft - Terrain - Mission marker 2 - blue",
+          "Name": "Mission marker 2",
           "X": 22.86,
           "Y": 0.04,
           "Z": 30.48,
           "IsToken": true
         },
         {
-          "Name": "Starcraft - Terrain - Mission marker 3 - red",
+          "Name": "Mission marker 3",
           "X": 22.86,
           "Y": 0.04,
           "Z": -30.48,
           "IsToken": true
         },
         {
-          "Name": "Starcraft - Terrain - Mission marker 4 - blue",
+          "Name": "Mission marker 4",
           "X": -22.86,
           "Y": 0.04,
           "Z": -30.48,
           "IsToken": true
         },
         {
-          "Name": "Starcraft - Terrain - Mission marker 5 - green",
+          "Name": "Mission marker 5",
           "X": 0,
           "Y": 0.04,
           "Z": 0,
@@ -248,35 +248,35 @@
       "DeploymentIndex": 3,
       "Items": [
         {
-          "Name": "Starcraft - Terrain - Mission marker 1 - red",
+          "Name": "Mission marker 1",
           "X": -38.1,
           "Y": 0.04,
           "Z": 15.24,
           "IsToken": true
         },
         {
-          "Name": "Starcraft - Terrain - Mission marker 2 - blue",
+          "Name": "Mission marker 2",
           "X": 38.1,
           "Y": 0.04,
           "Z": -15.24,
           "IsToken": true
         },
         {
-          "Name": "Starcraft - Terrain - Mission marker 3 - red",
+          "Name": "Mission marker 3",
           "X": 22.86,
           "Y": 0.04,
           "Z": 15.24,
           "IsToken": true
         },
         {
-          "Name": "Starcraft - Terrain - Mission marker 4 - blue",
+          "Name": "Mission marker 4",
           "X": -22.86,
           "Y": 0.04,
           "Z": -15.24,
           "IsToken": true
         },
         {
-          "Name": "Starcraft - Terrain - Mission marker 5 - green",
+          "Name": "Mission marker 5",
           "X": 0,
           "Y": 0.04,
           "Z": 0,
@@ -295,35 +295,35 @@
       "DeploymentIndex": 4,
       "Items": [
         {
-          "Name": "Starcraft - Terrain - Mission marker 1 - red",
+          "Name": "Mission marker 1",
           "X": -38.1,
           "Y": 0.04,
           "Z": 15.24,
           "IsToken": true
         },
         {
-          "Name": "Starcraft - Terrain - Mission marker 2 - blue",
+          "Name": "Mission marker 2",
           "X": 38.1,
           "Y": 0.04,
           "Z": -15.24,
           "IsToken": true
         },
         {
-          "Name": "Starcraft - Terrain - Mission marker 3 - red",
+          "Name": "Mission marker 3",
           "X": 38.1,
           "Y": 0.04,
           "Z": 15.24,
           "IsToken": true
         },
         {
-          "Name": "Starcraft - Terrain - Mission marker 4 - blue",
+          "Name": "Mission marker 4",
           "X": -38.1,
           "Y": 0.04,
           "Z": -15.24,
           "IsToken": true
         },
         {
-          "Name": "Starcraft - Terrain - Mission marker 5 - green",
+          "Name": "Mission marker 5",
           "X": 0,
           "Y": 0.04,
           "Z": 0,
@@ -342,35 +342,35 @@
       "DeploymentIndex": 5,
       "Items": [
         {
-          "Name": "Starcraft - Terrain - Mission marker 1 - red",
+          "Name": "Mission marker 1",
           "X": 22.86,
           "Y": 0.04,
           "Z": 7.62,
           "IsToken": true
         },
         {
-          "Name": "Starcraft - Terrain - Mission marker 2 - blue",
+          "Name": "Mission marker 2",
           "X": -22.86,
           "Y": 0.04,
           "Z": 7.62,
           "IsToken": true
         },
         {
-          "Name": "Starcraft - Terrain - Mission marker 3 - red",
+          "Name": "Mission marker 3",
           "X": 38.1,
           "Y": 0.04,
           "Z": -30.48,
           "IsToken": true
         },
         {
-          "Name": "Starcraft - Terrain - Mission marker 4 - blue",
+          "Name": "Mission marker 4",
           "X": -38.1,
           "Y": 0.04,
           "Z": -30.48,
           "IsToken": true
         },
         {
-          "Name": "Starcraft - Terrain - Mission marker 5 - green",
+          "Name": "Mission marker 5",
           "X": 0,
           "Y": 0.04,
           "Z": -30.48,
@@ -389,35 +389,35 @@
       "DeploymentIndex": 6,
       "Items": [
         {
-          "Name": "Starcraft - Terrain - Mission marker 1 - red",
+          "Name": "Mission marker 1",
           "X": -38.1,
           "Y": 0.04,
           "Z": 15.24,
           "IsToken": true
         },
         {
-          "Name": "Starcraft - Terrain - Mission marker 2 - blue",
+          "Name": "Mission marker 2",
           "X": 22.86,
           "Y": 0.04,
           "Z": -15.24,
           "IsToken": true
         },
         {
-          "Name": "Starcraft - Terrain - Mission marker 3 - red",
+          "Name": "Mission marker 3",
           "X": 38.1,
           "Y": 0.04,
           "Z": 15.24,
           "IsToken": true
         },
         {
-          "Name": "Starcraft - Terrain - Mission marker 4 - blue",
+          "Name": "Mission marker 4",
           "X": -22.86,
           "Y": 0.04,
           "Z": -15.24,
           "IsToken": true
         },
         {
-          "Name": "Starcraft - Terrain - Mission marker 5 - green",
+          "Name": "Mission marker 5",
           "X": 0,
           "Y": 0.04,
           "Z": 15.24,
@@ -436,35 +436,35 @@
       "DeploymentIndex": 7,
       "Items": [
         {
-          "Name": "Starcraft - Terrain - Mission marker 1 - red",
+          "Name": "Mission marker 1",
           "X": -22.86,
           "Y": 0.04,
           "Z": 15.24,
           "IsToken": true
         },
         {
-          "Name": "Starcraft - Terrain - Mission marker 2 - blue",
+          "Name": "Mission marker 2",
           "X": -53.34,
           "Y": 0.04,
           "Z": 30.48,
           "IsToken": true
         },
         {
-          "Name": "Starcraft - Terrain - Mission marker 3 - red",
+          "Name": "Mission marker 3",
           "X": 53.34,
           "Y": 0.04,
           "Z": -30.48,
           "IsToken": true
         },
         {
-          "Name": "Starcraft - Terrain - Mission marker 4 - blue",
+          "Name": "Mission marker 4",
           "X": 22.86,
           "Y": 0.04,
           "Z": -15.24,
           "IsToken": true
         },
         {
-          "Name": "Starcraft - Terrain - Mission marker 5 - green",
+          "Name": "Mission marker 5",
           "X": 0,
           "Y": 0.04,
           "Z": 0,
@@ -483,21 +483,21 @@
       "DeploymentIndex": 8,
       "Items": [
         {
-          "Name": "Starcraft - Terrain - Mission marker 1 - red",
+          "Name": "Mission marker 1",
           "X": -30.48,
           "Y": 0.04,
           "Z": 0,
           "IsToken": true
         },
         {
-          "Name": "Starcraft - Terrain - Mission marker 2 - blue",
+          "Name": "Mission marker 2",
           "X": 30.48,
           "Y": 0.04,
           "Z": 0,
           "IsToken": true
         },
         {
-          "Name": "Starcraft - Terrain - Mission marker 5 - green",
+          "Name": "Mission marker 5",
           "X": 0,
           "Y": 0.04,
           "Z": 0,
@@ -516,21 +516,21 @@
       "DeploymentIndex": 9,
       "Items": [
         {
-          "Name": "Starcraft - Terrain - Mission marker 1 - red",
+          "Name": "Mission marker 1",
           "X": -30.48,
           "Y": 0.04,
           "Z": -30.48,
           "IsToken": true
         },
         {
-          "Name": "Starcraft - Terrain - Mission marker 2 - blue",
+          "Name": "Mission marker 2",
           "X": 30.48,
           "Y": 0.04,
           "Z": 30.48,
           "IsToken": true
         },
         {
-          "Name": "Starcraft - Terrain - Mission marker 5 - green",
+          "Name": "Mission marker 5",
           "X": 0,
           "Y": 0.04,
           "Z": 0,
@@ -549,21 +549,21 @@
       "DeploymentIndex": 10,
       "Items": [
         {
-          "Name": "Starcraft - Terrain - Mission marker 1 - red",
+          "Name": "Mission marker 1",
           "X": -30.48,
           "Y": 0.04,
           "Z": -30.48,
           "IsToken": true
         },
         {
-          "Name": "Starcraft - Terrain - Mission marker 2 - blue",
+          "Name": "Mission marker 2",
           "X": -30.48,
           "Y": 0.04,
           "Z": 30.48,
           "IsToken": true
         },
         {
-          "Name": "Starcraft - Terrain - Mission marker 5 - green",
+          "Name": "Mission marker 5",
           "X": 15.24,
           "Y": 0.04,
           "Z": 0,
@@ -582,21 +582,21 @@
       "DeploymentIndex": 11,
       "Items": [
         {
-          "Name": "Starcraft - Terrain - Mission marker 1 - red",
+          "Name": "Mission marker 1",
           "X": -30.48,
           "Y": 0.04,
           "Z": 0,
           "IsToken": true
         },
         {
-          "Name": "Starcraft - Terrain - Mission marker 2 - blue",
+          "Name": "Mission marker 2",
           "X": 30.48,
           "Y": 0.04,
           "Z": 0,
           "IsToken": true
         },
         {
-          "Name": "Starcraft - Terrain - Mission marker 5 - green",
+          "Name": "Mission marker 5",
           "X": 0,
           "Y": 0.04,
           "Z": 0,
@@ -615,21 +615,21 @@
       "DeploymentIndex": 12,
       "Items": [
         {
-          "Name": "Starcraft - Terrain - Mission marker 1 - red",
+          "Name": "Mission marker 1",
           "X": -30.48,
           "Y": 0.04,
           "Z": -30.48,
           "IsToken": true
         },
         {
-          "Name": "Starcraft - Terrain - Mission marker 2 - blue",
+          "Name": "Mission marker 2",
           "X": 30.48,
           "Y": 0.04,
           "Z": 30.48,
           "IsToken": true
         },
         {
-          "Name": "Starcraft - Terrain - Mission marker 5 - green",
+          "Name": "Mission marker 5",
           "X": 0,
           "Y": 0.04,
           "Z": 0,
@@ -648,21 +648,21 @@
       "DeploymentIndex": 13,
       "Items": [
         {
-          "Name": "Starcraft - Terrain - Mission marker 1 - red",
+          "Name": "Mission marker 1",
           "X": -15.24,
           "Y": 0.04,
           "Z": -30.48,
           "IsToken": true
         },
         {
-          "Name": "Starcraft - Terrain - Mission marker 2 - blue",
+          "Name": "Mission marker 2",
           "X": 15.24,
           "Y": 0.04,
           "Z": 30.48,
           "IsToken": true
         },
         {
-          "Name": "Starcraft - Terrain - Mission marker 5 - green",
+          "Name": "Mission marker 5",
           "X": 0,
           "Y": 0.04,
           "Z": 0,
@@ -681,21 +681,21 @@
       "DeploymentIndex": 14,
       "Items": [
         {
-          "Name": "Starcraft - Terrain - Mission marker 1 - red",
+          "Name": "Mission marker 1",
           "X": 15.24,
           "Y": 0.04,
           "Z": 7.62,
           "IsToken": true
         },
         {
-          "Name": "Starcraft - Terrain - Mission marker 2 - blue",
+          "Name": "Mission marker 2",
           "X": -15.24,
           "Y": 0.04,
           "Z": 7.62,
           "IsToken": true
         },
         {
-          "Name": "Starcraft - Terrain - Mission marker 5 - green",
+          "Name": "Mission marker 5",
           "X": 0,
           "Y": 0.04,
           "Z": -30.48,

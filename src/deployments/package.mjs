@@ -1,6 +1,6 @@
 import assert from 'node:assert/strict';
 import { sha256 } from '../io.mjs';
-import { markerTokens, markerMenuId } from './markers.mjs';
+import { markerTokens, markerDisplayName } from './markers.mjs';
 
 export const deploymentName = layout =>
   layout.name.toLowerCase().replace(/\b\w/g, letter => letter.toUpperCase()) +
@@ -124,7 +124,7 @@ export function buildDeployments(layouts) {
       DeploymentIndex: i + 1,
       Items: [
         ...l.markers.map(m => ({
-          Name: markerMenuId(m),
+          Name: markerDisplayName(m),
           X: m.x * 2.54,
           Y: 0.04,
           Z: m.y * 2.54,

@@ -1,3 +1,4 @@
+import markerModelOverrides from '../../marker-model-overrides.json' with { type: 'json' };
 import { modelAssetBaseUrl } from '../urls.mjs';
 import sharp from 'sharp';
 import { mkdir, writeFile } from 'node:fs/promises';
@@ -213,7 +214,7 @@ export async function createMarkerAssets({
       controlOuterDiameterMm: controlOuterRadiusMm * 2,
       parts: [
         {
-          modelUrl: `${baseUrl}/${file}`,
+          modelUrl: markerModelOverrides[marker.profileId]?.modelUrl ?? `${baseUrl}/${file}`,
           textureUrl: null,
           hostedAsset: true,
           transforms,

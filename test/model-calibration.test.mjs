@@ -98,7 +98,15 @@ test('portable bundle replacements include Adepts and preserve Windows cache dim
   const wave4 = await json('wave4-model-report.json');
   assert.equal(
     hosted.length,
-    21 + wave4.filter(model => !model.reusedFrom).length + terrainAssets.size + tokenAssets.size,
+    18 +
+      new Set(
+        catalogue.entries
+          .filter(entry => entry.kind === 'marker')
+          .map(entry => entry.parts[0].modelUrl),
+      ).size +
+      wave4.filter(model => !model.reusedFrom).length +
+      terrainAssets.size +
+      tokenAssets.size,
   );
   assert.ok(hosted.every(file => files.includes(file)));
   for (const file of files) {

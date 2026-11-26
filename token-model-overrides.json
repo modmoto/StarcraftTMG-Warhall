@@ -49,5 +49,8 @@
   },
   "sc_token_corrosive_bile": {
     "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/6d65deb7e1cf405c407685db4687f3b98cafffad4a83812d2c1c0164d27ad621.unity3d"
+  },
+  "sc_token_infestation": {
+    "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/453c307072824d7d9b07cf2b61e002ef93f6540db525a9e7ee70f41ee7f5ec84.unity3d"
   }
 }

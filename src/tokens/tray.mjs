@@ -8,7 +8,7 @@ export function tokenTrayPlacements({ height }) {
     ['blue', 'red'].flatMap((color, index) => {
       const token = tokenDefinitions.find(token => token.id === `activation_${color}_arrow`);
       const placement = {
-        Id: token.name,
+        Id: token.displayName ?? token.name,
         Type: 'Token',
         Quadrant: 1,
         Rotation: direction === 1 ? 0 : 180,

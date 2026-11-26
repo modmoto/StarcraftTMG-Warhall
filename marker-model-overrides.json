@@ -1,0 +1,17 @@
+{
+  "sc_mission_red": {
+    "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/a9ab1eb95b11b60f6c87ec7d8c526343f18f5b47fbbd4e20ce5903fa4ca1c557.unity3d"
+  },
+  "sc_mission_blue": {
+    "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/a2f80ecfa781c8070f31da6e49db49ac6d3c3459cd307e65ccecfb20d3f76bb6.unity3d"
+  },
+  "sc_mission_red_3": {
+    "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/91ddcd74daa1e5c83cf89939b20ae4b4935bc3a81eaeb47eaae621dee513fdc4.unity3d"
+  },
+  "sc_mission_blue_4": {
+    "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/1a1a145ac69f8d3211ccd5577b0c65e1a54d101864b5db73475b1eb62d9e2430.unity3d"
+  },
+  "sc_mission_green": {
+    "modelUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/d16ff5da0fd134a76813d191d48377334e3d3afd87518481d7d33aae65cd55cd.unity3d"
+  }
+}

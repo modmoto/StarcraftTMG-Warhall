@@ -29,10 +29,12 @@ export function markerProfileId({ number, color }) {
 export const markerMenuId = marker =>
   `Starcraft - Terrain - Mission marker ${marker.number} - ${marker.color}`;
 
+export const markerDisplayName = marker => `Mission marker ${marker.number}`;
+
 export function markerTokens() {
   return missionMarkers.map(({ number, color }) => ({
     Id: markerMenuId({ number, color }),
-    Name: markerMenuId({ number, color }),
+    Name: markerDisplayName({ number, color }),
     Type: 'Token',
     RadiusBaseDiameterMm: markerDiameterMm,
   }));

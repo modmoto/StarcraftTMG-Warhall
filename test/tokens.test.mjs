@@ -130,9 +130,7 @@ test('maps place both activation colours in stacks of 15 at each player end', as
       const columns = [...new Set(end.map(item => item.ShortSide))];
       assert.ok(Math.abs(columns[1] - columns[0]) * 25.4 > 32);
     }
-    assert.ok(
-      placements.every(item => item.Id.startsWith('Activation - ') && item.Id.endsWith('movement')),
-    );
+    assert.ok(placements.every(item => /^Activation - (blue|red)$/.test(item.Id)));
     const ends = placements.map(item => item.LongSide - 18);
     const radius = 16 / 25.4;
     assert.ok(Math.abs(Math.min(...ends) - radius + height / 2) < 1e-9);
@@ -195,8 +193,8 @@ test('Shield token is absent from definitions, menu, maps and active skins', asy
   for (const map of await read('Starcraft/maps.json')) {
     const tokens = map.Items.filter(item => item.Type === 'Token');
     assert.equal(tokens.length, 60);
-    assert.equal(tokens.filter(token => token.Id === 'Activation - blue - movement').length, 30);
-    assert.equal(tokens.filter(token => token.Id === 'Activation - red - movement').length, 30);
+    assert.equal(tokens.filter(token => token.Id === 'Activation - blue').length, 30);
+    assert.equal(tokens.filter(token => token.Id === 'Activation - red').length, 30);
   }
 });
 
@@ -208,8 +206,8 @@ test('token menu groups templates, activation, factions, buffs and sorted effect
       'Blast Template',
       'Flamer Template',
       'Wall Template',
-      'Activation - blue - movement',
-      'Activation - red - movement',
+      'Activation - blue',
+      'Activation - red',
       'Terran - blue',
       'Terran - white',
       'Protoss - yellow',
@@ -226,10 +224,7 @@ test('token menu groups templates, activation, factions, buffs and sorted effect
       'Infestation',
       'Siege Status',
       'Stim',
-      ...[1, 2, 3, 4, 5].map(
-        number =>
-          `Starcraft - Terrain - Mission marker ${number} - ${number === 5 ? 'green' : number % 2 ? 'red' : 'blue'}`,
-      ),
+      ...[1, 2, 3, 4, 5].map(number => `Mission marker ${number}`),
     ],
   );
 });
