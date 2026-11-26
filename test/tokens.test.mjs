@@ -207,6 +207,7 @@ test('token menu groups templates, activation, factions, buffs and sorted effect
     [
       'Blast Template',
       'Flamer Template',
+      'Wall Template',
       'Activation - blue - movement',
       'Activation - red - movement',
       'Terran - blue',
@@ -221,7 +222,6 @@ test('token menu groups templates, activation, factions, buffs and sorted effect
       'Corrosive Bile',
       'Burrowed',
       'Creep Tumor',
-      'Wall Template',
       'Hidden',
       'Infestation',
       'Siege Status',
