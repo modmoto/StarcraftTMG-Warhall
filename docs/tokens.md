@@ -39,3 +39,7 @@ Retired current-game associations are removed with RemoveSkinUsage (itemInstance
 ## Native measurement footprint
 
 All ordinary gameplay tokens and the five objective tokens set RadiusBaseDiameterMm=32. This native field controls circular base-edge measurement and radius rings, without resizing their existing skins. The explicitly sized 130 mm Blast Template is excluded. Objectives deploy through DeploymentTerrains with IsToken=true and are no longer terrain. See mission-markers.md.
+
+## Fire Wall template
+
+Fire Wall is an explicitly sized template rather than a normal 32 mm reminder. Its outer oval is 40 x 100 mm, matching the reviewed Hydralisk footprint. The visible orange outline has no fill; the native TemplateArea receives an independent filled oval collider through the same skinned-renderer arrangement as Blast Template. IsTemplate=true is set and RadiusBaseDiameterMm is omitted. Source geometry is in src/tokens/fire-wall-template.mjs; fire-wall-template.json pins the Windows Unity bundle built by BuildFireWallTemplate.Run. The normal token builder skips this dedicated template. Keep its existing exact menu name and canonical sc_token_fire_wall binding.

@@ -833,6 +833,42 @@
     "Children": []
   },
   {
+    "Id": "pdf_Terran_equipment_marines_upgrade_1_specialist_body",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Terran_equipment_marines_upgrade_1_table"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Terran_equipment_marines_upgrade_1_specialist_keywords",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Terran_equipment_marines_upgrade_1_keywords"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Terran_equipment_marines_upgrade_1_specialist_slot",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Terran_equipment_marines_upgrade_1_specialist_body"
+      },
+      {
+        "Id": "pdf_Terran_equipment_marines_upgrade_1_specialist_keywords"
+      }
+    ]
+  },
+  {
     "Id": "pdf_Terran_equipment_marines_upgrade_1_table",
     "Name": "<color=#ffffff><b>AGG-12</b>\n<align=left><size=9><color=#2596be><pos=0%><nobr>RNG</nobr><pos=14%><nobr>Target</nobr><pos=32%><nobr>RoA</nobr><pos=46%><nobr>Hit</nobr><pos=59%><nobr>Surge</nobr><pos=86%><nobr>D</nobr></color>\n<b><pos=0%><nobr>12</nobr><pos=14%><nobr>Ground</nobr><pos=32%><nobr>2</nobr><pos=46%><nobr>3+</nobr><pos=59%><nobr>Armored (D3)</nobr><pos=86%><nobr>1</nobr></b></size></align></color>",
     "Type": "Imported",
@@ -858,6 +894,42 @@
     "Type": "Imported",
     "Description": "<u><link=\"rule_keyword_indirect_fire\">INDIRECT FIRE</link></u>, <u><link=\"rule_keyword_long_range\">LONG RANGE (18\")</link></u>, <u><link=\"rule_keyword_sidearm\">SIDEARM</link></u>, <u><link=\"rule_keyword_specialist\">SPECIALIST</link></u>",
     "Children": []
+  },
+  {
+    "Id": "pdf_Terran_equipment_marines_upgrade_2_specialist_body",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Terran_equipment_marines_upgrade_2_table"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Terran_equipment_marines_upgrade_2_specialist_keywords",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Terran_equipment_marines_upgrade_2_keywords"
+      }
+    ]
+  },
+  {
+    "Id": "pdf_Terran_equipment_marines_upgrade_2_specialist_slot",
+    "Name": "",
+    "Type": "Profile",
+    "Description": "",
+    "Children": [
+      {
+        "Id": "pdf_Terran_equipment_marines_upgrade_2_specialist_body"
+      },
+      {
+        "Id": "pdf_Terran_equipment_marines_upgrade_2_specialist_keywords"
+      }
+    ]
   },
   {
     "Id": "pdf_Terran_equipment_marines_upgrade_2_table",

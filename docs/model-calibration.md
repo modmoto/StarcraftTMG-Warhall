@@ -54,3 +54,7 @@ node scripts/repair-model-transforms.mjs --apply --login --profile sc_terrain_f2
 Without `--apply`, the command previews the selected authored transforms. Omit `--profile` to repair all published model/terrain transforms. `--server test|prod` selects the target, defaulting to test. It resolves the exact game, requires administrator access and exactly one matching shared skin per profile, reads `/SelectSkinParts`, posts `/UpdateSkinLayerTransforms`, then reads back every position, rotation and scale. Nulls or mismatches fail verification. This does not upload meshes, create skins, delete skins or modify local Warhall caches.
 
 After a verified server repair, refresh/restart Warhall Test and reload the map. Already-spawned terrain does not receive the external API edit automatically. The verified API response establishes stored transforms; a live map check still establishes rendering.
+
+## Wave 4 model ground plane
+
+prepare-wave4-models.mjs bakes the reviewed TTS child geometry and subtracts the final minimum Y from every vertex after the complete authored transforms. This removes the source dummy-base elevation while preserving all mesh relationships, size and orientation. wave4-model-report.json records the removed offset and resulting zero lower bound. Native flight clearance remains a separate catalogue concern. Re-export from the source, rather than layering cumulative publication offsets.

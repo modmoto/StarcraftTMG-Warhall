@@ -1319,7 +1319,9 @@
       "ShowInitials": false,
       "Border": false,
       "Color": "#FFFFFF",
-      "Color2": ""
+      "Color2": "",
+      "ImageURL": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft/assets/cards/terran_barracks_reactor_placeholder-8da933276c26.png",
+      "ImageURLBack": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft/assets/cards/terran_barracks_reactor_placeholder-8da933276c26.png"
     },
     "Description": "CP: 1 • Minerals: 35\n\n<b>Go! Go! Go!</b>\nGo! Go! Go!  : The active Biological Unit performs a 2\" <u><link=\"rule_chapter_8_5_2\">Move</link></u> action. This does not count towards its action limit.\n\n<b>Terran <u><link=\"rule_chapter_8_7_7\">Charge</link></u></b>\nTerran <u><link=\"rule_chapter_8_7_7\">Charge</link></u>  : Immediately after a <u><link=\"rule_keyword_friendly\">Friendly</link></u> Biological Unit completes a successful <u><link=\"rule_chapter_8_7_7\">Charge</link></u>, resolve the <u><link=\"rule_keyword_impact\">IMPACT</link></u> (1) 4+ effect."
   },
@@ -1334,7 +1336,9 @@
       "ShowInitials": false,
       "Border": false,
       "Color": "#FFFFFF",
-      "Color2": ""
+      "Color2": "",
+      "ImageURL": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft/assets/cards/zerg_healing_pathogen_placeholder-52b81266e43a.png",
+      "ImageURLBack": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft/assets/cards/zerg_healing_pathogen_placeholder-52b81266e43a.png"
     },
     "Description": "BM: 0 • Minerals: 0\n\n<b>Universal Carrier</b>\nUniversal Carrier  : While an <u><link=\"rule_keyword_enemy\">Enemy</link></u> Unit has the INFESTATION <u><link=\"rule_keyword_status\">Status</link></u>, immediately after its supply is reduced or it is destroyed, target any <u><link=\"rule_keyword_friendly\">Friendly</link></u> Biological Unit <u><link=\"rule_keyword_within\">Within</link></u> 12\". This <u><link=\"rule_keyword_friendly\">Friendly</link></u> Unit resolves the <u><link=\"rule_keyword_heal\">HEAL</link></u> (2) effect.\n\n<b>Stukov's Creep</b>\nStukov's Creep  : If an <u><link=\"rule_keyword_enemy\">Enemy</link></u> Unit ends a Move, Deploy, Run, <u><link=\"rule_chapter_8_7_7\">Charge</link></u> or <u><link=\"rule_chapter_8_5_4\">Disengage</link></u> action <u><link=\"rule_keyword_within\">Within</link></u> 1\" of a <u><link=\"rule_keyword_friendly\">Friendly</link></u> Creep Tumor token, remove that token from <u><link=\"rule_chapter_7\">the battlefield</link></u>. Creep Tumor <u><link=\"rule_chapter_7_3_1\">tokens</link></u> have <u><link=\"rule_keyword_stay_in_play\">STAY IN PLAY</link></u> and <u><link=\"rule_keyword_displacement\">DISPLACEMENT</link></u>."
   },
@@ -1349,7 +1353,9 @@
       "ShowInitials": false,
       "Border": false,
       "Color": "#FFFFFF",
-      "Color2": ""
+      "Color2": "",
+      "ImageURL": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft/assets/cards/zerg_hive_placeholder-30b3aa9e746b.png",
+      "ImageURLBack": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft/assets/cards/zerg_hive_placeholder-30b3aa9e746b.png"
     },
     "Description": "BM: 1 • Minerals: 35\n\n<b>Brutal Instinct</b>\nBrutal Instinct  : Immediately after an <u><link=\"rule_keyword_enemy\">Enemy</link></u> Unit ends its Activation <u><link=\"rule_keyword_within\">Within</link></u> 12\" of a <u><link=\"rule_keyword_friendly\">Friendly</link></u>, Ground Unit. That <u><link=\"rule_keyword_friendly\">Friendly</link></u> Unit gains or loses the <u><link=\"rule_keyword_burrowed\">BURROWED</link></u> <u><link=\"rule_keyword_status\">Status</link></u>.\n\n<b>Creep Spread</b>\nCreep Spread  : Set a Creep Tumor token on <u><link=\"rule_chapter_7\">the battlefield</link></u> <u><link=\"rule_keyword_within\">Within</link></u> 6\" (<u><link=\"rule_keyword_line_of_sight\">Line of Sight</link></u> is not required) of either a <u><link=\"rule_keyword_friendly\">Friendly</link></u> <u><link=\"rule_keyword_entry_edge\">Entry Edge</link></u> or an existing <u><link=\"rule_keyword_friendly\">Friendly</link></u> Creep Tumor token."
   },
@@ -1364,7 +1370,9 @@
       "ShowInitials": false,
       "Border": false,
       "Color": "#FFFFFF",
-      "Color2": ""
+      "Color2": "",
+      "ImageURL": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft/assets/cards/zerg_hungering_infestation_placeholder-573171070e41.png",
+      "ImageURLBack": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft/assets/cards/zerg_hungering_infestation_placeholder-573171070e41.png"
     },
     "Description": "BM: 0 • Minerals: 10\n\n<b>Growing Infestation</b>\nGrowing Infestation  : While an <u><link=\"rule_keyword_enemy\">Enemy</link></u> Unit has the INFESTATION <u><link=\"rule_keyword_status\">Status</link></u>, it is not eligible to use or to be targeted by any <u><link=\"rule_keyword_enemy\">Enemy</link></u> Reaction <u><link=\"rule_keyword_special_ability\">Special Ability</link></u>, except Restoration.\n\n<b>Stukov's Creep</b>\nStukov's Creep  : If an <u><link=\"rule_keyword_enemy\">Enemy</link></u> Unit ends a Move, Deploy, Run, <u><link=\"rule_chapter_8_7_7\">Charge</link></u> or <u><link=\"rule_chapter_8_5_4\">Disengage</link></u> action <u><link=\"rule_keyword_within\">Within</link></u> 1\" of a <u><link=\"rule_keyword_friendly\">Friendly</link></u> Creep Tumor token, remove that token from <u><link=\"rule_chapter_7\">the battlefield</link></u>. Creep Tumor <u><link=\"rule_chapter_7_3_1\">tokens</link></u> have <u><link=\"rule_keyword_stay_in_play\">STAY IN PLAY</link></u> and <u><link=\"rule_keyword_displacement\">DISPLACEMENT</link></u>."
   },
@@ -1379,7 +1387,9 @@
       "ShowInitials": false,
       "Border": false,
       "Color": "#FFFFFF",
-      "Color2": ""
+      "Color2": "",
+      "ImageURL": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft/assets/cards/zerg_infested_barracks_placeholder-0c726539c73c.png",
+      "ImageURLBack": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft/assets/cards/zerg_infested_barracks_placeholder-0c726539c73c.png"
     },
     "Description": "BM: 1 • Minerals: 30\n\n<b>For the Swarm!</b>\nFor the Swarm!  : The active Biological Ground Unit performs a 2\" <u><link=\"rule_chapter_8_5_2\">Move</link></u> action. This does not count towards its action limit."
   },
@@ -1394,7 +1404,9 @@
       "ShowInitials": false,
       "Border": false,
       "Color": "#FFFFFF",
-      "Color2": ""
+      "Color2": "",
+      "ImageURL": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft/assets/cards/zerg_infested_command_center_placeholder-6db8c3ba9414.png",
+      "ImageURLBack": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft/assets/cards/zerg_infested_command_center_placeholder-6db8c3ba9414.png"
     },
     "Description": "BM: 1 • Minerals: 30\n\n<b>Parasitic Bio-Toxins</b>\nParasitic Bio-Toxins  : Immediately after a <u><link=\"rule_keyword_friendly\">Friendly</link></u> Infested Unit ends their action <u><link=\"rule_keyword_within\">Within</link></u> 8\" of an <u><link=\"rule_keyword_enemy\">Enemy</link></u> Unit. That <u><link=\"rule_keyword_enemy\">Enemy</link></u> Unit gains the INFESTATION <u><link=\"rule_keyword_status\">Status</link></u>, this effect is treated as a <u><link=\"rule_keyword_debuff\">DEBUFF</link></u>.\n\n<b>Scanner Sweep</b>\nScanner Sweep  : Set a Faction Indicator anywhere on <u><link=\"rule_chapter_7\">the battlefield</link></u>. While <u><link=\"rule_keyword_enemy\">Enemy</link></u> <u><link=\"rule_chapter_2_2\">Units</link></u> are <u><link=\"rule_keyword_within\">Within</link></u> 6\" of this Faction Indicator, they lose the <u><link=\"rule_keyword_hidden\">HIDDEN</link></u> <u><link=\"rule_keyword_status\">Status</link></u>."
   },
@@ -1409,7 +1421,9 @@
       "ShowInitials": false,
       "Border": false,
       "Color": "#FFFFFF",
-      "Color2": ""
+      "Color2": "",
+      "ImageURL": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft/assets/cards/protoss_robotics_support_bay_placeholder-ba5ab70de553.png",
+      "ImageURLBack": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft/assets/cards/protoss_robotics_support_bay_placeholder-ba5ab70de553.png"
     },
     "Description": "PE: 1 • Minerals: 35\n\n<b>Master of Robotics</b>\nMaster of Robotics  : The active Mechanical Unit resolves the <u><link=\"rule_keyword_heal\">HEAL</link></u> (2) effect."
   },
@@ -1424,7 +1438,9 @@
       "ShowInitials": false,
       "Border": false,
       "Color": "#FFFFFF",
-      "Color2": ""
+      "Color2": "",
+      "ImageURL": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft/assets/cards/zerg_stukov_s_forces_placeholder-38a83115be8d.png",
+      "ImageURLBack": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft/assets/cards/zerg_stukov_s_forces_placeholder-38a83115be8d.png"
     },
     "Description": "BM: 1 • Minerals: 0\n\n<b>Ashes of the UED</b>\nAshes of the UED  : During Army Building, you may include <u><link=\"rule_chapter_2_2\">Units</link></u> with the Terran Faction Tag and both Ground and Mechanical <u><link=\"rule_keyword_combat_tags\">Combat Tags</link></u> in your army. Those <u><link=\"rule_chapter_2_2\">Units</link></u> gain the Infested Combat Tag. Treat any CP cost for those <u><link=\"rule_chapter_2_2\">Units</link></u>' <u><link=\"rule_chapter_10_1\">Special Abilities</link></u> as BM. These <u><link=\"rule_chapter_2_2\">Units</link></u> cannot gain the <u><link=\"rule_keyword_burrowed\">BURROWED</link></u> <u><link=\"rule_keyword_status\">Status</link></u>.\n\n<b>Infestation</b>\nInfestation  : During Army Building, select exactly one Virus Card and add it to your Army List, paying its listed cost (if any).\n\n<b>Hostile Incubation</b>\nHostile Incubation  : If there is no <u><link=\"rule_keyword_friendly\">Friendly</link></u> Infested Missile Turret on <u><link=\"rule_chapter_7\">the battlefield</link></u>, set a <u><link=\"rule_keyword_friendly\">Friendly</link></u> Infested Missile Turret Unit anywhere on the <u><link=\"rule_keyword_ground_level\">GROUND LEVEL</link></u> of <u><link=\"rule_chapter_7\">the battlefield</link></u> more than 10\" away from any <u><link=\"rule_keyword_enemy\">Enemy</link></u> model. This Round, the Missile Turret is not eligible to use its <u><link=\"rule_chapter_10_1\">Special Abilities</link></u> (excluding Structure)."
   },
@@ -1439,7 +1455,9 @@
       "ShowInitials": false,
       "Border": false,
       "Color": "#FFFFFF",
-      "Color2": ""
+      "Color2": "",
+      "ImageURL": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft/assets/cards/protoss_tal_darim_placeholder-c14b8e8e5a87.png",
+      "ImageURLBack": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft/assets/cards/protoss_tal_darim_placeholder-c14b8e8e5a87.png"
     },
     "Description": "PE: 0 • Minerals: 0\n\n<b>Proxy Pylon</b>\nProxy Pylon  : If there is no <u><link=\"rule_keyword_friendly\">Friendly</link></u> Tal'darim Pylon on <u><link=\"rule_chapter_7\">the battlefield</link></u>, set a <u><link=\"rule_keyword_friendly\">Friendly</link></u> Tal'darim Pylon Unit anywhere on the <u><link=\"rule_keyword_ground_level\">GROUND LEVEL</link></u> of <u><link=\"rule_chapter_7\">the battlefield</link></u> more than 10\" away from any <u><link=\"rule_keyword_enemy\">Enemy</link></u> model. This Round, the Tal'darim Pylon is not eligible to use its <u><link=\"rule_chapter_10_1\">Special Abilities</link></u> (excluding Structure).\n\n<b>Chain of Ascension</b>\nChain of Ascension  : Calculate the total lost Supply of all <u><link=\"rule_keyword_friendly\">Friendly</link></u> <u><link=\"rule_chapter_2_2\">Units</link></u>. While this total is:\n\n<b>4 or more</b>\n4 or more: All your <u><link=\"rule_chapter_2_2\">Units</link></u>' first used weapons gain <u><link=\"rule_keyword_precision\">PRECISION</link></u> (1).\n\n<b>6 or more</b>\n6 or more: All your <u><link=\"rule_chapter_2_2\">Units</link></u>' first used weapons gain <u><link=\"rule_keyword_critical_hit\">CRITICAL HIT</link></u> (1)."
   },
@@ -1454,7 +1472,9 @@
       "ShowInitials": false,
       "Border": false,
       "Color": "#FFFFFF",
-      "Color2": ""
+      "Color2": "",
+      "ImageURL": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft/assets/cards/zerg_weighted_pustule_placeholder-bb4be2da99f9.png",
+      "ImageURLBack": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/Starcraft/assets/cards/zerg_weighted_pustule_placeholder-bb4be2da99f9.png"
     },
     "Description": "BM: 0 • Minerals: 5\n\n<b>Fetid Touch</b>\nFetid Touch  : While an <u><link=\"rule_keyword_enemy\">Enemy</link></u> Unit has the INFESTATION <u><link=\"rule_keyword_status\">Status</link></u>, it cannot resolve the <u><link=\"rule_keyword_place\">PLACE</link></u> and set effects and cannot be returned to <u><link=\"rule_keyword_reserves\">Reserves</link></u>.\n\n<b>Stukov's Creep</b>\nStukov's Creep  : If an <u><link=\"rule_keyword_enemy\">Enemy</link></u> Unit ends a Move, Deploy, Run, <u><link=\"rule_chapter_8_7_7\">Charge</link></u> or <u><link=\"rule_chapter_8_5_4\">Disengage</link></u> action <u><link=\"rule_keyword_within\">Within</link></u> 1\" of a <u><link=\"rule_keyword_friendly\">Friendly</link></u> Creep Tumor token, remove that token from <u><link=\"rule_chapter_7\">the battlefield</link></u>. Creep Tumor <u><link=\"rule_chapter_7_3_1\">tokens</link></u> have <u><link=\"rule_keyword_stay_in_play\">STAY IN PLAY</link></u> and <u><link=\"rule_keyword_displacement\">DISPLACEMENT</link></u>."
   }

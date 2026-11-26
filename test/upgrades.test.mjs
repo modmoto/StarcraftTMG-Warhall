@@ -333,3 +333,18 @@ test('each Immortal weapon groups default and conditional keywords with original
     assert.match(group.Children[2].Name, /<link="[^"]*fury_unyielding">/);
   }
 });
+
+test('Infested Marine specialist weapons have isolated table and keyword blocks', () => {
+  const rows = unitProfile('Infested Marine', [
+    'Infested Missile Launcher - Acid Blast',
+    'Infested Missile Launcher - Scourgeshot',
+  ]);
+  const slots = rows.filter(row => row.Id.endsWith('_specialist_slot'));
+  assert.equal(slots.length, 2);
+  for (const slot of slots) {
+    assert.equal(slot.Children.length, 2);
+    assert.ok(slot.Children.every(row => row.Type === 'Profile'));
+    assert.ok(slot.Children[0].Children.every(row => row.Id.endsWith('_table')));
+    assert.ok(slot.Children[1].Children.every(row => row.Id.endsWith('_keywords')));
+  }
+});

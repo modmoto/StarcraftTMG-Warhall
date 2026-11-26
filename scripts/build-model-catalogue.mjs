@@ -1,3 +1,4 @@
+import { createFireWallTemplateAsset } from '../src/tokens/fire-wall-template.mjs';
 import { createBlastTemplateAsset } from '../src/tokens/blast-template.mjs';
 import { readFile, writeFile } from 'node:fs/promises';
 import path from 'node:path';
@@ -93,6 +94,7 @@ const markerAssets = await createMarkerAssets();
 catalogue.entries.push(...markerAssets);
 catalogue.entries.push(...(await createTokenAssets()));
 catalogue.entries.push(await createBlastTemplateAsset());
+catalogue.entries.push(await createFireWallTemplateAsset());
 catalogue.entries.push(...(await createDeploymentAssets(await read('deployment-templates.json'))));
 if (previousCatalogue) {
   const previous = new Map(previousCatalogue.entries.map(entry => [entry.profileId, entry]));

@@ -39,3 +39,16 @@ test('board cards are sharp, contain no unit cards, and have clean descriptions'
   assert.equal(config.ShowDeploymentSection, true);
   assert.equal((await read('../Starcraft/deployments.json')).length, 14);
 });
+
+test('every tactical card has both image faces, with named placeholders for missing official art', async () => {
+  const cards = (await read('../Starcraft/cards.json')).filter(card =>
+    card.Id.includes('_tactics_'),
+  );
+  const placeholders = cards.filter(card => card.UIConfig.ImageURL?.includes('_placeholder-'));
+  assert.ok(placeholders.length > 0);
+  for (const card of cards) {
+    assert.ok(card.UIConfig.ImageURL, card.Name);
+    assert.ok(card.UIConfig.ImageURLBack, card.Name);
+  }
+  for (const card of placeholders) assert.equal(card.UIConfig.ImageURL, card.UIConfig.ImageURLBack);
+});

@@ -1425,10 +1425,10 @@
         "sourceName": "Firebat",
         "workshopId": "3662791369",
         "guid": "8cac6c",
-        "meshUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/46a010fa20c598954161d0462399f188cac00a586d44bba824f3df8cc37c1962.glb",
+        "meshUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/30feee25aebe8aa11ae0f39204e5bfe93d86ed6893ac130301eb123e3fa6ec9d.glb",
         "textureUrl": null,
         "hostedAsset": true,
-        "previewGeometryFile": "model-assets/46a010fa20c598954161d0462399f188cac00a586d44bba824f3df8cc37c1962.glb.preview.json"
+        "previewGeometryFile": "model-assets/30feee25aebe8aa11ae0f39204e5bfe93d86ed6893ac130301eb123e3fa6ec9d.glb.preview.json"
       },
       "layout": {
         "size": 0.39370078740157477,
@@ -1457,10 +1457,10 @@
         "sourceName": "Reaver",
         "workshopId": "3662791369",
         "guid": "f04424",
-        "meshUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/dc6021635d9b88e4973115a0e68224d7ab9eaa748e3c2282feb7a61fae5fc1ef.glb",
+        "meshUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/fadcbb21b264e74e35d9e77cc49dd00cd5dbc50cf545b32511bc63ff6b213687.glb",
         "textureUrl": null,
         "hostedAsset": true,
-        "previewGeometryFile": "model-assets/dc6021635d9b88e4973115a0e68224d7ab9eaa748e3c2282feb7a61fae5fc1ef.glb.preview.json"
+        "previewGeometryFile": "model-assets/fadcbb21b264e74e35d9e77cc49dd00cd5dbc50cf545b32511bc63ff6b213687.glb.preview.json"
       },
       "layout": {
         "size": 0.39370078740157477,
@@ -1489,10 +1489,10 @@
         "sourceName": "Scarab",
         "workshopId": "3662791369",
         "guid": "4e1311",
-        "meshUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/a621a6bb9477efa395a41b46dba2e868ddb5a476226198415e72e789a225018e.glb",
+        "meshUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/840d3f1b4d80aaeb3960a68f6b8c2f288194c4cf0a38cc51a6795675984004cd.glb",
         "textureUrl": null,
         "hostedAsset": true,
-        "previewGeometryFile": "model-assets/a621a6bb9477efa395a41b46dba2e868ddb5a476226198415e72e789a225018e.glb.preview.json"
+        "previewGeometryFile": "model-assets/840d3f1b4d80aaeb3960a68f6b8c2f288194c4cf0a38cc51a6795675984004cd.glb.preview.json"
       },
       "layout": {
         "size": 0.39370078740157477,
@@ -1521,10 +1521,10 @@
         "sourceName": "Solarite Scarab",
         "workshopId": "3662791369",
         "guid": "42bd78",
-        "meshUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/f58028d0c52d3bf3a088c4dc10472fddd41159d7abaf9943b4ec6adda3b73263.glb",
+        "meshUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/3e4d62643c74756fae1217f345a8636ff6ff0bdb4a2e6830cc56f0036ad9dd5e.glb",
         "textureUrl": null,
         "hostedAsset": true,
-        "previewGeometryFile": "model-assets/f58028d0c52d3bf3a088c4dc10472fddd41159d7abaf9943b4ec6adda3b73263.glb.preview.json"
+        "previewGeometryFile": "model-assets/3e4d62643c74756fae1217f345a8636ff6ff0bdb4a2e6830cc56f0036ad9dd5e.glb.preview.json"
       },
       "layout": {
         "size": 0.39370078740157477,
@@ -1553,10 +1553,10 @@
         "sourceName": "Phasing Scarab",
         "workshopId": "3662791369",
         "guid": "f06aab",
-        "meshUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/d7f9ebe0f8e4791ef7971609674c4f4f2b2840a007bf86f89ebbad7b7694d0a9.glb",
+        "meshUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/9a97c164ce40225a7815dddb5ee6349c9deccbfb20019d6c497913cb792ecc5c.glb",
         "textureUrl": null,
         "hostedAsset": true,
-        "previewGeometryFile": "model-assets/d7f9ebe0f8e4791ef7971609674c4f4f2b2840a007bf86f89ebbad7b7694d0a9.glb.preview.json"
+        "previewGeometryFile": "model-assets/9a97c164ce40225a7815dddb5ee6349c9deccbfb20019d6c497913cb792ecc5c.glb.preview.json"
       },
       "layout": {
         "size": 0.39370078740157477,
@@ -1585,10 +1585,10 @@
         "sourceName": "Alarak",
         "workshopId": "3662791369",
         "guid": "31e5cb",
-        "meshUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/778f2bd1c1b1a6cfd648365fbc3094e03b12e1650683e34937728befba460e1d.glb",
+        "meshUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/8189a5d5cde5e1e4aa7d476cdc67bb21e573d1f9767b08566524c9d840ae21e3.glb",
         "textureUrl": null,
         "hostedAsset": true,
-        "previewGeometryFile": "model-assets/778f2bd1c1b1a6cfd648365fbc3094e03b12e1650683e34937728befba460e1d.glb.preview.json"
+        "previewGeometryFile": "model-assets/8189a5d5cde5e1e4aa7d476cdc67bb21e573d1f9767b08566524c9d840ae21e3.glb.preview.json"
       },
       "layout": {
         "size": 0.39370078740157477,
@@ -1617,10 +1617,10 @@
         "sourceName": "Slayer (Stalker)",
         "workshopId": "3662791369",
         "guid": "bc51aa",
-        "meshUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/d5ecbe1da4ad04aa1a602c45ef3dcdb871cd2d1229e5c20074eb2e4bf13501f1.glb",
+        "meshUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/29bf239a4f218cf7bf321639bc71c49ed8b0f9b12bb2481e3cabb668fa7ebbf1.glb",
         "textureUrl": null,
         "hostedAsset": true,
-        "previewGeometryFile": "model-assets/d5ecbe1da4ad04aa1a602c45ef3dcdb871cd2d1229e5c20074eb2e4bf13501f1.glb.preview.json"
+        "previewGeometryFile": "model-assets/29bf239a4f218cf7bf321639bc71c49ed8b0f9b12bb2481e3cabb668fa7ebbf1.glb.preview.json"
       },
       "layout": {
         "size": 0.39370078740157477,
@@ -1649,10 +1649,10 @@
         "sourceName": "Tal'darim Pylon",
         "workshopId": "3662791369",
         "guid": "32ea7f",
-        "meshUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/87f395db6cf11baee04038d2117b53bfa69b923925f00e1414c588e88ace32be.glb",
+        "meshUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/8d0c9107b8b1ffb5c1d51b63dbdd91f7deceaccbd54811fde36e71d72c87d4b6.glb",
         "textureUrl": null,
         "hostedAsset": true,
-        "previewGeometryFile": "model-assets/87f395db6cf11baee04038d2117b53bfa69b923925f00e1414c588e88ace32be.glb.preview.json"
+        "previewGeometryFile": "model-assets/8d0c9107b8b1ffb5c1d51b63dbdd91f7deceaccbd54811fde36e71d72c87d4b6.glb.preview.json"
       },
       "layout": {
         "size": 0.39370078740157477,
@@ -1681,10 +1681,10 @@
         "sourceName": "Stukov",
         "workshopId": "3662791369",
         "guid": "bf1b13",
-        "meshUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/b68a4bf2115832b7b965f69cb04af9ca9cdc27746d43bbec3e82119cb12a5545.glb",
+        "meshUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/325db1a039e721bf5f816b65439639c962c0a24724a2c23abfe84db7d0ba38d1.glb",
         "textureUrl": null,
         "hostedAsset": true,
-        "previewGeometryFile": "model-assets/b68a4bf2115832b7b965f69cb04af9ca9cdc27746d43bbec3e82119cb12a5545.glb.preview.json"
+        "previewGeometryFile": "model-assets/325db1a039e721bf5f816b65439639c962c0a24724a2c23abfe84db7d0ba38d1.glb.preview.json"
       },
       "layout": {
         "size": 0.39370078740157477,
@@ -1713,10 +1713,10 @@
         "sourceName": "Infested Marine",
         "workshopId": "3662791369",
         "guid": "6365c1",
-        "meshUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/2a209ee9c858c1264e01ce0031b9851aced08e7d5c64ab1225bec27d6331e7ff.glb",
+        "meshUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/759a4e377f2952ad2911f1692ac504b7fa4bc66d1dc43685cf22d4dbf2920186.glb",
         "textureUrl": null,
         "hostedAsset": true,
-        "previewGeometryFile": "model-assets/2a209ee9c858c1264e01ce0031b9851aced08e7d5c64ab1225bec27d6331e7ff.glb.preview.json"
+        "previewGeometryFile": "model-assets/759a4e377f2952ad2911f1692ac504b7fa4bc66d1dc43685cf22d4dbf2920186.glb.preview.json"
       },
       "layout": {
         "size": 0.39370078740157477,
@@ -1745,10 +1745,10 @@
         "sourceName": "Infested Trooper",
         "workshopId": "3662791369",
         "guid": "4700dd",
-        "meshUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/40b9adfab6d1db19558c0da60e3a943024492d89cd6cb5e18451356075f13d44.glb",
+        "meshUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/98a2b7750877b89c6b9832ea4238d2df4029cb25ec4cd00ba59b93fc2d68c4d1.glb",
         "textureUrl": null,
         "hostedAsset": true,
-        "previewGeometryFile": "model-assets/40b9adfab6d1db19558c0da60e3a943024492d89cd6cb5e18451356075f13d44.glb.preview.json"
+        "previewGeometryFile": "model-assets/98a2b7750877b89c6b9832ea4238d2df4029cb25ec4cd00ba59b93fc2d68c4d1.glb.preview.json"
       },
       "layout": {
         "size": 0.39370078740157477,
@@ -1777,10 +1777,10 @@
         "sourceName": "Infested Missile Turret",
         "workshopId": "3662791369",
         "guid": "31e1bd",
-        "meshUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/20daa71d822ceafa2974cd3c5c20146cdce94f32c489d39ebf0c244805b02494.glb",
+        "meshUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/43cbc1dff3e605bea58097a0fced019486358b91bdef747b0ccdec15e92b433b.glb",
         "textureUrl": null,
         "hostedAsset": true,
-        "previewGeometryFile": "model-assets/20daa71d822ceafa2974cd3c5c20146cdce94f32c489d39ebf0c244805b02494.glb.preview.json"
+        "previewGeometryFile": "model-assets/43cbc1dff3e605bea58097a0fced019486358b91bdef747b0ccdec15e92b433b.glb.preview.json"
       },
       "layout": {
         "size": 0.39370078740157477,
@@ -1809,10 +1809,10 @@
         "sourceName": "Infested Siege Tank",
         "workshopId": "3662791369",
         "guid": "664d1e",
-        "meshUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/fd08b0d0ae50fd81e9d3f495240975ddd0302610ac709659f4be75a59ac18cd3.glb",
+        "meshUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/edf644da1a214babdce34bde2cfbc1d406f3b248972059dde5cfc0824a9528e0.glb",
         "textureUrl": null,
         "hostedAsset": true,
-        "previewGeometryFile": "model-assets/fd08b0d0ae50fd81e9d3f495240975ddd0302610ac709659f4be75a59ac18cd3.glb.preview.json"
+        "previewGeometryFile": "model-assets/edf644da1a214babdce34bde2cfbc1d406f3b248972059dde5cfc0824a9528e0.glb.preview.json"
       },
       "layout": {
         "size": 0.39370078740157477,
@@ -1841,10 +1841,10 @@
         "sourceName": "Infested Goliath",
         "workshopId": "3662791369",
         "guid": "ec563b",
-        "meshUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/f5ec123629e9a43246c8337aa248a52e07cfd7add40ae9e80bdec848b8b1c8d4.glb",
+        "meshUrl": "https://raw.githubusercontent.com/modmoto/StarcraftTMG-Warhall/main/model-assets/d82c38ef0f5a188b977bff542fd20a5f4ec0c9e01e6a5d04249e442b4ce8891f.glb",
         "textureUrl": null,
         "hostedAsset": true,
-        "previewGeometryFile": "model-assets/f5ec123629e9a43246c8337aa248a52e07cfd7add40ae9e80bdec848b8b1c8d4.glb.preview.json"
+        "previewGeometryFile": "model-assets/d82c38ef0f5a188b977bff542fd20a5f4ec0c9e01e6a5d04249e442b4ce8891f.glb.preview.json"
       },
       "layout": {
         "size": 0.39370078740157477,

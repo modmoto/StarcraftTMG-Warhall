@@ -7,15 +7,16 @@ import { tokenMenuId } from '../src/models/menu-ids.mjs';
 const read = async file => JSON.parse(await readFile(new URL(`../${file}`, import.meta.url)));
 
 test('native tokens replace round cards and publish every distinct face', async () => {
-  const tokens = (await read('Starcraft/tokens.json')).filter(token =>
-    token.Id.startsWith('Starcraft - Token - '),
+  const tokens = (await read('Starcraft/tokens.json')).filter(
+    token => token.Id.startsWith('Starcraft - Token - ') && !token.IsTemplate,
   );
   const cards = await read('Starcraft/cards.json');
   const catalogue = (await read('model-catalogue.json')).entries.filter(
-    entry => entry.kind === 'token' && entry.profileId !== 'Token5Inch',
+    entry =>
+      entry.kind === 'token' && !['Token5Inch', 'sc_token_fire_wall'].includes(entry.profileId),
   );
   const artwork = (await read('token-artwork.json')).artwork;
-  assert.equal(tokens.length, 19);
+  assert.equal(tokens.length, 18);
   assert.equal(new Set(tokens.map(token => token.Id)).size, tokens.length);
   assert.equal(catalogue.length, tokens.length);
   assert.ok(!cards.some(card => card.Id.startsWith('sc_token_')));
@@ -102,7 +103,7 @@ test('generator reproduces the editor token records and catalogue order exactly'
   for (const token of tokens)
     assert.deepEqual(
       Object.keys(token),
-      token.Id === 'Token5Inch'
+      token.IsTemplate
         ? ['Id', 'Name', 'Type', 'IsTemplate']
         : token.RadiusBaseDiameterMm
           ? ['Id', 'Name', 'Type', 'RadiusBaseDiameterMm']
@@ -144,7 +145,7 @@ test('Blast Template uses the native template flag and a 130 mm circular mesh', 
   const tokens = await read('Starcraft/tokens.json');
   assert.deepEqual(
     tokens.filter(token => token.IsTemplate).map(token => token.Id),
-    ['Token5Inch'],
+    ['Token5Inch', 'Starcraft - Token - Fire Wall'],
   );
   const template = (await read('model-catalogue.json')).entries.find(
     e => e.profileId === 'Token5Inch',
@@ -252,7 +253,7 @@ test('Blast Template exports only a flat orange ring without fill or cylinder', 
 test('all ordinary and objective tokens use native 32mm edge measurement', async () => {
   const { nativeTokens } = await import('../src/tokens/package.mjs');
   const based = nativeTokens().filter(token => token.RadiusBaseDiameterMm !== undefined);
-  assert.equal(based.length, 24);
+  assert.equal(based.length, 23);
   assert.ok(based.every(token => token.RadiusBaseDiameterMm === 32));
   for (const name of ['Bile Bomb', 'Corrosive Bile'])
     assert.ok(based.some(token => token.Name === name));
@@ -274,4 +275,23 @@ test('all gameplay tokens have 32mm geometry and two native flip faces', async (
     const ys = meshes.flatMap(mesh => mesh.vertices.map(v => v[1]));
     assert.ok(Math.abs(Math.max(...ys) + Math.min(...ys)) < 1e-8, token.id);
   }
+});
+
+test('Fire Wall is an orange open 40x100mm oval template without a circular measurement base', async () => {
+  const { fireWallGeometry } = await import('../src/tokens/fire-wall-template.mjs');
+  const token = (await read('Starcraft/tokens.json')).find(t => t.Name === 'Fire Wall');
+  assert.equal(token.IsTemplate, true);
+  assert.ok(!('RadiusBaseDiameterMm' in token));
+  const mesh = fireWallGeometry();
+  assert.deepEqual([...mesh.texture.data], [255, 132, 24, 255]);
+  for (const [axis, size] of [
+    [0, 4],
+    [2, 10],
+  ]) {
+    const values = mesh.vertices.map(v => v[axis]);
+    assert.ok(Math.abs(Math.max(...values) - Math.min(...values) - size) < 1e-9);
+  }
+  assert.ok(
+    mesh.vertices.every(([x, , z]) => (x * x) / (1.8 * 1.8) + (z * z) / (4.8 * 4.8) > 0.99999),
+  );
 });

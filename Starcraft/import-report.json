@@ -3,7 +3,7 @@
   "source": "https://firestore.googleapis.com/v1/projects/starcrafttmgbeta/databases/starcrafttmgbeta/documents",
   "sources": [
     {
-      "file": "sources/command-center.json",
+      "file": "sources\\command-center.json",
       "sha256": "1aef1f80be49f60f04a51f724303aff0587b1803c4f19d467d39215f94bfdae6"
     }
   ],

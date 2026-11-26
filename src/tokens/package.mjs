@@ -77,14 +77,6 @@ export const tokenDefinitions = [
       'Ravager Corrosive Bile marker. Resolve its effect at the end of the Assault Phase.',
   },
   {
-    id: 'fire_wall',
-    name: 'Fire Wall',
-    symbol: 'fire_wall',
-    color: '#df6524',
-    description:
-      'Firebat Incinerator Gauntlets marker. Resolve crossing, proximity and removal from the source ability manually.',
-  },
-  {
     id: 'infestation',
     name: 'Infestation',
     symbol: 'infestation',
@@ -103,6 +95,7 @@ export const builtinTokenNames = [];
 export function nativeTokens() {
   const tokens = [
     ...markerTokens(),
+    { Id: 'Starcraft - Token - Fire Wall', Name: 'Fire Wall', Type: 'Token', IsTemplate: true },
     ...tokenDefinitions.map(token => ({
       Id: tokenMenuId(token.name),
       Name: token.name,

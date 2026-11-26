@@ -40,3 +40,8 @@ fs.copyFileSync(
   path.join(project, 'Assets/Editor/BuildTokenColliders.cs'),
 );
 console.log('Prepared ' + entries.length + ' custom tokens.');
+
+fs.copyFileSync(
+  'examples/token-collider/BuildFireWallTemplate.cs',
+  path.join(project, 'Assets/Editor/BuildFireWallTemplate.cs'),
+);

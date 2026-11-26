@@ -72,6 +72,10 @@ for (const model of source.models) {
   }
   for (const child of model.root.ChildObjects ?? []) await visit(child);
   if (!geometry.length) throw new Error(`No actual model geometry: ${model.unitName}`);
+  const authoredBounds = bounds(geometry.flatMap(mesh => mesh.vertices));
+  const groundOffsetCm = authoredBounds.min[1];
+  for (const mesh of geometry)
+    mesh.vertices = mesh.vertices.map(([x, y, z]) => [x, y - groundOffsetCm, z]);
   const measurements = bounds(geometry.flatMap(mesh => mesh.vertices));
   const bytes = await encodeGlb(geometry);
   const file = `${sha256(bytes)}.glb`;
@@ -127,6 +131,7 @@ for (const model of source.models) {
     meshCount: geometry.length,
     sizeMm: measurements.size.map(value => value * 10),
     minimumYmm: measurements.min[1] * 10,
+    removedGroundOffsetMm: groundOffsetCm * 10,
   });
   console.log(
     `${model.unitName}: ${geometry.length} meshes, ${measurements.size.map(value => (value * 10).toFixed(1)).join(' × ')} mm`,

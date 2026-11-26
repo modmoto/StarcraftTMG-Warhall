@@ -75,7 +75,7 @@ test('legacy converters cannot overwrite the maintained dataset', async () => {
   );
 });
 
-test('DB card identity survives renaming and retains existing artwork', () => {
+test('DB card identity survives renaming and retains existing artwork', async () => {
   const data = {
     'cards.json': [
       {
@@ -88,7 +88,7 @@ test('DB card identity survives renaming and retains existing artwork', () => {
   };
   const source = structuredClone(raw.tactical_cards.find(card => card.sourceId === 'academy'));
   source.name = 'Renamed Academy';
-  mergeCommandCenterCards(data, {}, [source]);
+  await mergeCommandCenterCards(data, {}, [source]);
   assert.equal(data['cards.json'].length, 1);
   assert.equal(data['cards.json'][0].Id, 'sc_card_terran_tactics_academy');
   assert.equal(data['cards.json'][0].Name, 'Renamed Academy');

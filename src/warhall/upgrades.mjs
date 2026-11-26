@@ -2,7 +2,7 @@ import assert from 'node:assert/strict';
 import { upgradedHealth } from './stat-values.mjs';
 import { applyUpgradeEffects } from './upgrade-effects.mjs';
 import { abilityName } from '../sources/pdf/abilities.mjs';
-import { weaponRows, weaponTable, weaponKeywords } from './presentation.mjs';
+import { weaponRows, weaponTable, weaponKeywords, textContainer } from './presentation.mjs';
 
 const normalized = value =>
   value
@@ -98,7 +98,12 @@ export function addUpgradeOptions(unit, ids, profiles, profileIds, defaults, rec
     const remove = [];
     if (replaced && specialist(profile)) {
       const oldId = defaults[unit.profiles.indexOf(replaced)];
-      add.push({ Id: `${oldId}_slot`, Ref: rows.get(recordId).map(Id => ({ Id })) });
+      const weapon = rows.get(recordId);
+      const slot = textContainer(records, `${recordId}_specialist_slot`, [
+        textContainer(records, `${recordId}_specialist_body`, weapon.slice(0, 1)),
+        textContainer(records, `${recordId}_specialist_keywords`, weapon.slice(1)),
+      ]);
+      add.push({ Id: `${oldId}_slot`, Ref: [{ Id: slot }] });
     } else if (replaced) {
       const oldId = defaults[unit.profiles.indexOf(replaced)];
       const alternatives = profiles.flatMap((candidate, candidateIndex) =>

@@ -561,10 +561,7 @@
         "Id": "pdf_Zerg_equipment_infested_marine_weapon_assault_phase_infested_c_14_rifle_slot",
         "Ref": [
           {
-            "Id": "pdf_Zerg_equipment_infested_marine_upgrade_weapon_assault_phase_infested_missile_launcher_acid_blast_table"
-          },
-          {
-            "Id": "pdf_Zerg_equipment_infested_marine_upgrade_weapon_assault_phase_infested_missile_launcher_acid_blast_keywords"
+            "Id": "pdf_Zerg_equipment_infested_marine_upgrade_weapon_assault_phase_infested_missile_launcher_acid_blast_specialist_slot"
           }
         ]
       }
@@ -588,10 +585,7 @@
         "Id": "pdf_Zerg_equipment_infested_marine_weapon_assault_phase_infested_c_14_rifle_slot",
         "Ref": [
           {
-            "Id": "pdf_Zerg_equipment_infested_marine_upgrade_weapon_assault_phase_infested_missile_launcher_scourgeshot_table"
-          },
-          {
-            "Id": "pdf_Zerg_equipment_infested_marine_upgrade_weapon_assault_phase_infested_missile_launcher_scourgeshot_keywords"
+            "Id": "pdf_Zerg_equipment_infested_marine_upgrade_weapon_assault_phase_infested_missile_launcher_scourgeshot_specialist_slot"
           }
         ]
       }

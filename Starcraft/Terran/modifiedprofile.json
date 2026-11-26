@@ -635,10 +635,7 @@
         "Id": "pdf_Terran_equipment_marines_default_1_slot",
         "Ref": [
           {
-            "Id": "pdf_Terran_equipment_marines_upgrade_1_table"
-          },
-          {
-            "Id": "pdf_Terran_equipment_marines_upgrade_1_keywords"
+            "Id": "pdf_Terran_equipment_marines_upgrade_1_specialist_slot"
           }
         ]
       }
@@ -767,10 +764,7 @@
         "Id": "pdf_Terran_equipment_marines_default_1_slot",
         "Ref": [
           {
-            "Id": "pdf_Terran_equipment_marines_upgrade_2_table"
-          },
-          {
-            "Id": "pdf_Terran_equipment_marines_upgrade_2_keywords"
+            "Id": "pdf_Terran_equipment_marines_upgrade_2_specialist_slot"
           }
         ]
       }

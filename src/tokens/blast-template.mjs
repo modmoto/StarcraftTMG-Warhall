@@ -33,8 +33,13 @@ export function blastTemplateGeometry() {
   return mesh;
 }
 
-export async function createBlastTemplateAsset() {
-  const mesh = blastTemplateGeometry();
+export async function createBlastTemplateAsset({
+  mesh = blastTemplateGeometry(),
+  profileId = 'Token5Inch',
+  name = 'Starcraft - Token - Blast Template',
+  configFile = 'blast-template.json',
+  diameterMm = blastTemplateDiameterMm,
+} = {}) {
   // Only the visible ring is exported for previews. The Unity builder supplies
   // a non-rendering contact mesh for native template hit detection.
   const meshes = [mesh];
@@ -57,7 +62,7 @@ export async function createBlastTemplateAsset() {
     })),
   );
   await writeFile(path.join(projectRoot, previewGeometryFile), JSON.stringify(previews));
-  const { bundle } = JSON.parse(await readFile(path.join(projectRoot, 'blast-template.json')));
+  const { bundle } = JSON.parse(await readFile(path.join(projectRoot, configFile)));
   const transforms = {
     scale: 1 / 2.54,
     positionX: 0,
@@ -68,11 +73,11 @@ export async function createBlastTemplateAsset() {
     rotationZ: 0,
   };
   return {
-    profileId: 'Token5Inch',
-    name: 'Starcraft - Token - Blast Template',
+    profileId,
+    name,
     kind: 'token',
     calibration: 'token-centimeters-v1',
-    tokenDiameterMm: blastTemplateDiameterMm,
+    tokenDiameterMm: diameterMm,
     parts: [
       {
         modelUrl: `${modelAssetBaseUrl}/${bundle ?? filename}`,

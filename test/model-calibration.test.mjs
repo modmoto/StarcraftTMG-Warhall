@@ -159,3 +159,13 @@ test('all API scales reproduce the Windows cache client multiplier', async () =>
       );
     }
 });
+
+test('Wave 4 exported model feet sit on the base plane without changing authored dimensions', async () => {
+  const { readFile } = await import('node:fs/promises');
+  const report = JSON.parse(await readFile(new URL('../wave4-model-report.json', import.meta.url)));
+  assert.equal(report.length, 14);
+  for (const entry of report) {
+    assert.ok(Math.abs(entry.minimumYmm) < 1e-8, entry.unitId);
+    assert.ok(Number.isFinite(entry.removedGroundOffsetMm));
+  }
+});

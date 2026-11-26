@@ -1,4 +1,5 @@
 import { databaseText } from '../sources/command-center.mjs';
+import { placeholderCard } from '../cards/placeholder.mjs';
 const normalize = value => value.toLowerCase().replace(/[^a-z0-9]/g, '');
 const slug = value =>
   value
@@ -6,7 +7,7 @@ const slug = value =>
     .replace(/[^a-z0-9]+/g, '_')
     .replace(/^_|_$/g, '');
 
-export function mergeCommandCenterCards(data, hierarchy, cards) {
+export async function mergeCommandCenterCards(data, hierarchy, cards) {
   hierarchy.Cards ??= {};
   for (const source of cards) {
     const prefix = `sc_card_${source.faction.toLowerCase()}_tactics_`;
@@ -33,6 +34,11 @@ export function mergeCommandCenterCards(data, hierarchy, cards) {
     };
     const resource = { Terran: 'CP', Protoss: 'PE', Zerg: 'BM' }[source.faction];
     card.Name = source.name;
+    if (!card.UIConfig.ImageURL || card.UIConfig.ImageURL.includes('_placeholder-')) {
+      const image = await placeholderCard(source.name, source.faction);
+      card.UIConfig.ImageURL = image;
+      card.UIConfig.ImageURLBack = image;
+    }
     if (
       !Array.isArray(source.boosts) ||
       source.boosts.some(

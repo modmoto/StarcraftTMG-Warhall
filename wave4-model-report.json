@@ -2,169 +2,183 @@
   {
     "unitId": "pdf_Terran_unit_firebat",
     "sourceGuid": "8cac6c",
-    "file": "46a010fa20c598954161d0462399f188cac00a586d44bba824f3df8cc37c1962.glb",
+    "file": "30feee25aebe8aa11ae0f39204e5bfe93d86ed6893ac130301eb123e3fa6ec9d.glb",
     "meshCount": 2,
     "sizeMm": [
       30.541793947190904,
       35.484945960617665,
       36.81894326200715
     ],
-    "minimumYmm": 2.8106887077035427
+    "minimumYmm": 0,
+    "removedGroundOffsetMm": 2.8106887077035427
   },
   {
     "unitId": "pdf_Protoss_unit_reaver",
     "sourceGuid": "f04424",
-    "file": "dc6021635d9b88e4973115a0e68224d7ab9eaa748e3c2282feb7a61fae5fc1ef.glb",
+    "file": "fadcbb21b264e74e35d9e77cc49dd00cd5dbc50cf545b32511bc63ff6b213687.glb",
     "meshCount": 1,
     "sizeMm": [
       84.81000952471653,
       66.90620504280602,
       150.99178796897232
     ],
-    "minimumYmm": 3.597457454554931
+    "minimumYmm": 0,
+    "removedGroundOffsetMm": 3.597457454554931
   },
   {
     "unitId": "pdf_Protoss_unit_scarab",
     "sourceGuid": "4e1311",
-    "file": "a621a6bb9477efa395a41b46dba2e868ddb5a476226198415e72e789a225018e.glb",
+    "file": "840d3f1b4d80aaeb3960a68f6b8c2f288194c4cf0a38cc51a6795675984004cd.glb",
     "meshCount": 1,
     "sizeMm": [
       26.081602967845107,
       17.030047648085727,
       31.650997368786584
     ],
-    "minimumYmm": 15.84766026035619
+    "minimumYmm": 0,
+    "removedGroundOffsetMm": 15.84766026035619
   },
   {
     "unitId": "pdf_Protoss_unit_solarite_scarab",
     "sourceGuid": "42bd78",
-    "file": "f58028d0c52d3bf3a088c4dc10472fddd41159d7abaf9943b4ec6adda3b73263.glb",
+    "file": "3e4d62643c74756fae1217f345a8636ff6ff0bdb4a2e6830cc56f0036ad9dd5e.glb",
     "meshCount": 1,
     "sizeMm": [
       26.081698548852863,
       17.03170463531417,
       31.652187257051185
     ],
-    "minimumYmm": 15.846609729412384
+    "minimumYmm": 0,
+    "removedGroundOffsetMm": 15.846609729412384
   },
   {
     "unitId": "pdf_Protoss_unit_phasing_scarab",
     "sourceGuid": "f06aab",
-    "file": "d7f9ebe0f8e4791ef7971609674c4f4f2b2840a007bf86f89ebbad7b7694d0a9.glb",
+    "file": "9a97c164ce40225a7815dddb5ee6349c9deccbfb20019d6c497913cb792ecc5c.glb",
     "meshCount": 1,
     "sizeMm": [
       26.081166144893388,
       17.035340429479405,
       31.653315000302868
     ],
-    "minimumYmm": 15.843580028689807
+    "minimumYmm": 0,
+    "removedGroundOffsetMm": 15.843580028689807
   },
   {
     "unitId": "pdf_Protoss_unit_alarak",
     "sourceGuid": "31e5cb",
-    "file": "778f2bd1c1b1a6cfd648365fbc3094e03b12e1650683e34937728befba460e1d.glb",
+    "file": "8189a5d5cde5e1e4aa7d476cdc67bb21e573d1f9767b08566524c9d840ae21e3.glb",
     "meshCount": 2,
     "sizeMm": [
       40.760327571483295,
       50.70578867304227,
       40.65029172653076
     ],
-    "minimumYmm": 2.671904185214281
+    "minimumYmm": 0,
+    "removedGroundOffsetMm": 2.671904185214281
   },
   {
     "unitId": "pdf_Protoss_unit_slayer_stalker",
     "sourceGuid": "bc51aa",
-    "file": "d5ecbe1da4ad04aa1a602c45ef3dcdb871cd2d1229e5c20074eb2e4bf13501f1.glb",
+    "file": "29bf239a4f218cf7bf321639bc71c49ed8b0f9b12bb2481e3cabb668fa7ebbf1.glb",
     "meshCount": 1,
     "sizeMm": [
       73.8243197795733,
       86.09287578686497,
       76.25648842554168
     ],
-    "minimumYmm": -0.0002862464998913572
+    "minimumYmm": 0,
+    "removedGroundOffsetMm": -0.0002862464998913572
   },
   {
     "unitId": "pdf_Protoss_unit_tal_darim_pylon",
     "sourceGuid": "32ea7f",
-    "file": "87f395db6cf11baee04038d2117b53bfa69b923925f00e1414c588e88ace32be.glb",
+    "file": "8d0c9107b8b1ffb5c1d51b63dbdd91f7deceaccbd54811fde36e71d72c87d4b6.glb",
     "meshCount": 1,
     "sizeMm": [
       60.03344204938813,
       108.26874613888174,
       63.520016472670314
     ],
-    "minimumYmm": 5.293543221298017
+    "minimumYmm": 0,
+    "removedGroundOffsetMm": 5.293543221298017
   },
   {
     "unitId": "pdf_Zerg_unit_stukov",
     "sourceGuid": "bf1b13",
-    "file": "b68a4bf2115832b7b965f69cb04af9ca9cdc27746d43bbec3e82119cb12a5545.glb",
+    "file": "325db1a039e721bf5f816b65439639c962c0a24724a2c23abfe84db7d0ba38d1.glb",
     "meshCount": 1,
     "sizeMm": [
       28.144469525902828,
       43.26649187639993,
       24.046401695108642
     ],
-    "minimumYmm": 4.134912254545842
+    "minimumYmm": 0,
+    "removedGroundOffsetMm": 4.134912254545842
   },
   {
     "unitId": "pdf_Zerg_unit_infested_marine",
     "sourceGuid": "6365c1",
-    "file": "2a209ee9c858c1264e01ce0031b9851aced08e7d5c64ab1225bec27d6331e7ff.glb",
+    "file": "759a4e377f2952ad2911f1692ac504b7fa4bc66d1dc43685cf22d4dbf2920186.glb",
     "meshCount": 1,
     "sizeMm": [
       39.48474431006662,
       51.22746549900231,
       40.42939693161594
     ],
-    "minimumYmm": 3.4346568297321105
+    "minimumYmm": 0,
+    "removedGroundOffsetMm": 3.4346568297321105
   },
   {
     "unitId": "pdf_Zerg_unit_infested_trooper",
     "sourceGuid": "4700dd",
-    "file": "40b9adfab6d1db19558c0da60e3a943024492d89cd6cb5e18451356075f13d44.glb",
+    "file": "98a2b7750877b89c6b9832ea4238d2df4029cb25ec4cd00ba59b93fc2d68c4d1.glb",
     "meshCount": 1,
     "sizeMm": [
       37.53495052148466,
       46.26825869800365,
       46.15171364577682
     ],
-    "minimumYmm": 2.2817656187591804
+    "minimumYmm": 0,
+    "removedGroundOffsetMm": 2.2817656187591804
   },
   {
     "unitId": "pdf_Zerg_unit_infested_missile_turret",
     "sourceGuid": "31e1bd",
-    "file": "20daa71d822ceafa2974cd3c5c20146cdce94f32c489d39ebf0c244805b02494.glb",
+    "file": "43cbc1dff3e605bea58097a0fced019486358b91bdef747b0ccdec15e92b433b.glb",
     "meshCount": 2,
     "sizeMm": [
       70.85171895878302,
       97.07029216181921,
       79.22937023620113
     ],
-    "minimumYmm": -6.070914316710806
+    "minimumYmm": 0,
+    "removedGroundOffsetMm": -6.070914316710806
   },
   {
     "unitId": "pdf_Zerg_unit_infested_siege_tank",
     "sourceGuid": "664d1e",
-    "file": "fd08b0d0ae50fd81e9d3f495240975ddd0302610ac709659f4be75a59ac18cd3.glb",
+    "file": "edf644da1a214babdce34bde2cfbc1d406f3b248972059dde5cfc0824a9528e0.glb",
     "meshCount": 5,
     "sizeMm": [
       147.20570827900363,
       89.22859611560179,
       139.76337398348517
     ],
-    "minimumYmm": 3.1903923952825535
+    "minimumYmm": 0,
+    "removedGroundOffsetMm": 3.1903923952825535
   },
   {
     "unitId": "pdf_Zerg_unit_infested_goliath",
     "sourceGuid": "ec563b",
-    "file": "f5ec123629e9a43246c8337aa248a52e07cfd7add40ae9e80bdec848b8b1c8d4.glb",
+    "file": "d82c38ef0f5a188b977bff542fd20a5f4ec0c9e01e6a5d04249e442b4ce8891f.glb",
     "meshCount": 3,
     "sizeMm": [
       78.01630616072542,
       98.09230098663008,
       83.67913397326079
     ],
-    "minimumYmm": 3.5418814391624314
+    "minimumYmm": 0,
+    "removedGroundOffsetMm": 3.5418814391624314
   }
 ]

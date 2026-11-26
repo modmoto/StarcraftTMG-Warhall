@@ -12,3 +12,5 @@ Review contact sheets for alignment, sharpness, stray white strips and face pair
 Run npm run cards:update, npm run convert -- --offline and npm run check:local. Keep unit cards outside this workflow. Regenerate only when card artwork or text changes.
 
 Mission cards pair Standard Engagement and Skirmish artwork as opposite faces. Match stable mission IDs using the _skirmish suffix and assign each reverse from its counterpart's front image. Keep both menu entries. Description formatting belongs in the JSON formatter. Verify metadata, section headings, individual bullet lines, phase placement and exclusion of map diagram labels from prose.
+
+For DB-only tactical cards without official downloadable artwork, generate a plain named placeholder on both faces using src/cards/placeholder.mjs. Retain existing official front/back images. Do not use initials instead of the full card name. The DB card merger owns these placeholders until official artwork replaces them. A white native back with valid ImageURLBack and nonblank HTTP-200 artwork requires client material/texture diagnosis; do not discard good images as a workaround.

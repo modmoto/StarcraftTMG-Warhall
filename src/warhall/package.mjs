@@ -232,7 +232,7 @@ export async function buildWarhallPackage(source, template = defaultDataDirector
   }
   if (hierarchy.Cards) delete hierarchy.Cards.Tokens;
   if (source.metadata.mode === 'command-center')
-    mergeCommandCenterCards(data, hierarchy, source.metadata.cards);
+    await mergeCommandCenterCards(data, hierarchy, source.metadata.cards);
   const bases = new Map();
 
   for (const faction of source.factions) {
